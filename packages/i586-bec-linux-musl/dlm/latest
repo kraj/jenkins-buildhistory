@@ -1,0 +1,5 @@
+PV = 4.0.7
+PR = r0
+DEPENDS = corosync pkgconfig-native systemd systemd-systemctl-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = dlm-dbg dlm-staticdev dlm-dev dlm-doc dlm-locale dlm
+LAYER = networking-layer

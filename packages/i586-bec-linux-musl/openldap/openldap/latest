@@ -1,0 +1,10 @@
+PV = 2.4.46
+PR = r0
+PKG = libldap-2.4-2
+PKGR = r0.0
+RPROVIDES = openldap (=2.4.46)
+RDEPENDS = gnutls (>= 3.6.3) libgcrypt (>= 1.8.3) musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+PKGSIZE = 714363
+FILES = /usr/lib/lib*.so.* /etc/openldap/ldap.* /var/openldap/data
+FILELIST = /etc/openldap/ldap.conf /etc/openldap/ldap.conf.default /usr/lib/liblber-2.4.so.2 /usr/lib/liblber-2.4.so.2.10.9 /usr/lib/libldap-2.4.so.2 /usr/lib/libldap-2.4.so.2.10.9 /usr/lib/libldap_r-2.4.so.2 /usr/lib/libldap_r-2.4.so.2.10.9

@@ -1,0 +1,10 @@
+PV = 7.6
+PR = r10
+PKG = libwrap0
+PKGR = r10.0
+RPROVIDES = libwrap (=7.6)
+RDEPENDS = musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+PKGSIZE = 38732
+FILES = /lib/lib*.so.*
+FILELIST = /lib/libwrap.so.0 /lib/libwrap.so.0.7.6

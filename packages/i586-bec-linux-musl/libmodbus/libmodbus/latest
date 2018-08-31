@@ -1,0 +1,10 @@
+PV = 3.0.6
+PR = r0
+PKG = libmodbus5
+PKGR = r0.0
+RPROVIDES = libmodbus (=3.0.6)
+RDEPENDS = musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+PKGSIZE = 42174
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmodbus /usr/lib/libmodbus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libmodbus.so.5 /usr/lib/libmodbus.so.5.0.5

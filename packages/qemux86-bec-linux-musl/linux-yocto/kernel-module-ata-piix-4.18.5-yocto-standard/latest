@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+22eefa3b53_71799edb8a
+PR = r0
+PKGV = 4.18.5+git0+22eefa3b53_71799edb8a
+PKGR = r0.1
+RPROVIDES = kernel-module-ata-piix
+RDEPENDS = kernel-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 35472
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/drivers/ata/ata_piix.ko /etc/modules-load.d/ata_piix.conf /etc/modprobe.d/ata_piix.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/drivers/ata/ata_piix.ko

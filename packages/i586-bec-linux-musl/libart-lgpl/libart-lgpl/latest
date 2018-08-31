@@ -1,0 +1,10 @@
+PV = 2.3.21
+PR = r2
+PKG = libart-lgpl-2-2
+PKGR = r2.0
+RPROVIDES = libart-lgpl (=2.3.21)
+RDEPENDS = musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+PKGSIZE = 111819
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libart_lgpl_2.so.2 /usr/lib/libart_lgpl_2.so.2.3.21

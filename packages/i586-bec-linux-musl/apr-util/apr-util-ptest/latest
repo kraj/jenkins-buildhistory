@@ -1,0 +1,10 @@
+PV = 1.6.1
+PR = r0
+PKG = libaprutil-1-ptest
+PKGR = r0.0
+RPROVIDES = apr-util-ptest (=1.6.1)
+RDEPENDS = apr (>= 1.6.3) apr-util (>= 1.6.1) musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 119275
+FILES = /usr/lib/apr-util/ptest
+FILELIST = /usr/lib/apr-util/ptest/run-ptest /usr/lib/apr-util/ptest/test/data/billion-laughs.xml /usr/lib/apr-util/ptest/test/testall

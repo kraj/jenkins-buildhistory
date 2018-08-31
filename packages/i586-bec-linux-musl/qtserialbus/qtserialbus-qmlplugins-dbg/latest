@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+a59be66ab8
+PR = r0
+PKG = libqt5serialbus-qmlplugins-dbg
+PKGV = 5.11.1+git0+a59be66ab8
+PKGR = r0.0
+RPROVIDES = qtserialbus-qmlplugins-dbg (=5.11.1+git0+a59be66ab8)
+RDEPENDS = 
+RRECOMMENDS = libgcc-dbg libstdc++-dbg musl-dbg qtbase-dbg qtserialbus-dbg qtserialport-dbg
+PKGSIZE = 17972380
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug
+FILELIST = /usr/bin/qt5/.debug/canbusutil /usr/lib/.debug/libQt5SerialBus.so.5.11.1 /usr/lib/qt5/plugins/canbus/.debug/libqtpassthrucanbus.so /usr/lib/qt5/plugins/canbus/.debug/libqtpeakcanbus.so /usr/lib/qt5/plugins/canbus/.debug/libqtsocketcanbus.so /usr/lib/qt5/plugins/canbus/.debug/libqttinycanbus.so

@@ -1,0 +1,13 @@
+PE = 1
+PV = 3.4.0
+PR = r0
+PKG = libnl-genl-3-200
+PKGR = r0.0
+RPROVIDES = libnl-genl (=3.4.0)
+RDEPENDS = libnl (>= 3.4.0) musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+RREPLACES = libnl-genl2
+RCONFLICTS = libnl-genl2
+PKGSIZE = 30568
+FILES = /usr/lib/libnl-genl-3.so.* /usr/lib/libnl-genl.so.*
+FILELIST = /usr/lib/libnl-genl-3.so.200 /usr/lib/libnl-genl-3.so.200.26.0

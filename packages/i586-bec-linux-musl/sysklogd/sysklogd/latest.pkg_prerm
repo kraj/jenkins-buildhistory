@@ -1,0 +1,21 @@
+set -e
+	if test "x$D" = "x"; then
+	if test "$1" = "upgrade" -o "$1" = "remove"; then
+		/etc/init.d/syslog stop || :
+	fi
+	fi
+	update-alternatives --remove  klogd /sbin/klogd.sysklogd
+	update-alternatives --remove  syslogd /sbin/syslogd.sysklogd
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop syslogd.service klogd.service
+	fi
+
+	systemctl $OPTS disable syslogd.service klogd.service
+fi

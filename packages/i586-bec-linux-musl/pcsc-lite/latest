@@ -1,0 +1,5 @@
+PV = 1.8.22
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native systemd-systemctl-native udev virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = pcsc-lite pcsc-lite-dbg pcsc-lite-dev pcsc-lite-lib pcsc-lite-doc pcsc-lite-spy pcsc-lite-spy-dev
+LAYER = openembedded-layer

@@ -1,0 +1,15 @@
+set -e
+    /etc/init.d/quagga stop ripd
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop ripd.service
+	fi
+
+	systemctl $OPTS disable ripd.service
+fi

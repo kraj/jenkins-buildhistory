@@ -1,0 +1,5 @@
+PV = 4.17.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native readline util-linux util-linux util-linux util-linux-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = xfsprogs-fsck xfsprogs-mkfs xfsprogs-repair libhandle xfsprogs-dbg xfsprogs-staticdev xfsprogs-dev xfsprogs-doc xfsprogs-locale xfsprogs
+LAYER = filesystems-layer

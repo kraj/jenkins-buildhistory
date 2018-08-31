@@ -1,0 +1,5 @@
+PV = 0.16
+PR = r0
+DEPENDS = efivar pciutils pkgconfig-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc zlib
+PACKAGES = efibootmgr-dbg efibootmgr-staticdev efibootmgr-dev efibootmgr-doc efibootmgr-locale efibootmgr
+LAYER = openembedded-layer

@@ -1,0 +1,50 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+-rw-r--r-- root       root               63 ./etc/default/cfengine3
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root              200 ./lib/systemd/system
+-rw-r--r-- root       root              433 ./lib/systemd/system/cf-apache.service
+-rw-r--r-- root       root              851 ./lib/systemd/system/cfengine3.service
+-rw-r--r-- root       root              385 ./lib/systemd/system/cf-execd.service
+-rw-r--r-- root       root              387 ./lib/systemd/system/cf-hub.service
+-rw-r--r-- root       root              358 ./lib/systemd/system/cf-monitord.service
+-rw-r--r-- root       root             1150 ./lib/systemd/system/cf-postgres.service
+-rw-r--r-- root       root              638 ./lib/systemd/system/cf-runalerts.service
+-rw-r--r-- root       root              437 ./lib/systemd/system/cf-serverd.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              240 ./usr/bin
+-rwxr-xr-x root       root           415044 ./usr/bin/cf-agent
+-rwxr-xr-x root       root            38100 ./usr/bin/cf-execd
+-rwxr-xr-x root       root            25924 ./usr/bin/cf-key
+-rwxr-xr-x root       root            91364 ./usr/bin/cf-monitord
+-rwxr-xr-x root       root            21788 ./usr/bin/cf-net
+-rwxr-xr-x root       root            17620 ./usr/bin/cf-promises
+-rwxr-xr-x root       root            25816 ./usr/bin/cf-runagent
+-rwxr-xr-x root       root           132432 ./usr/bin/cf-serverd
+-rwxr-xr-x root       root            21660 ./usr/bin/cf-upgrade
+-rwxr-xr-x root       root            13468 ./usr/bin/rpmvercmp
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root          1165264 ./usr/lib/libpromises.so.3.0.6
+lrwxrwxrwx root       root               20 ./usr/lib/libpromises.so.3 -> libpromises.so.3.0.6
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/cfengine
+-rwxr-xr-x root       root            17993 ./usr/share/cfengine/cfengine3
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root              160 ./var/cfengine
+drwxr-xr-x root       root              240 ./var/cfengine/bin
+lrwxrwxrwx root       root               17 ./var/cfengine/bin/cf-agent -> /usr/bin/cf-agent
+lrwxrwxrwx root       root               17 ./var/cfengine/bin/cf-execd -> /usr/bin/cf-execd
+lrwxrwxrwx root       root               15 ./var/cfengine/bin/cf-key -> /usr/bin/cf-key
+lrwxrwxrwx root       root               20 ./var/cfengine/bin/cf-monitord -> /usr/bin/cf-monitord
+lrwxrwxrwx root       root               15 ./var/cfengine/bin/cf-net -> /usr/bin/cf-net
+lrwxrwxrwx root       root               20 ./var/cfengine/bin/cf-promises -> /usr/bin/cf-promises
+lrwxrwxrwx root       root               20 ./var/cfengine/bin/cf-runagent -> /usr/bin/cf-runagent
+lrwxrwxrwx root       root               19 ./var/cfengine/bin/cf-serverd -> /usr/bin/cf-serverd
+lrwxrwxrwx root       root               19 ./var/cfengine/bin/cf-upgrade -> /usr/bin/cf-upgrade
+lrwxrwxrwx root       root               18 ./var/cfengine/bin/rpmvercmp -> /usr/bin/rpmvercmp
+drwx------ root       root               40 ./var/cfengine/inputs
+drwx------ root       root               40 ./var/cfengine/modules
+drwx------ root       root               40 ./var/cfengine/outputs
+drwx------ root       root               40 ./var/cfengine/plugins
+drwx------ root       root               40 ./var/cfengine/ppkeys

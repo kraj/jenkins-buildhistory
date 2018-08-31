@@ -1,0 +1,10 @@
+PV = 1.8
+PR = r0
+PKG = libplist1
+PKGR = r0.0
+RPROVIDES = libplist (=1.8)
+RDEPENDS = libxml2 (>= 2.9.8) musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+PKGSIZE = 50417
+FILES = /usr/lib/libplist.so.*
+FILELIST = /usr/lib/libplist.so.1 /usr/lib/libplist.so.1.1.8

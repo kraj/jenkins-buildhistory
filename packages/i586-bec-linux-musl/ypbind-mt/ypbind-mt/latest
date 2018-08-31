@@ -1,0 +1,11 @@
+PV = 2.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = ypbind-mt-systemd
+RDEPENDS = libnsl2 (>= 1.2.0+git0+37c5ffe303) libsystemd (>= 239) libtirpc (>= 1.0.3) musl (>= 1.1.19+git0+767f7a1091) yp-tools
+RRECOMMENDS = 
+RREPLACES = ypbind-mt-systemd
+RCONFLICTS = ypbind-mt-systemd
+PKGSIZE = 54794
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ypbind-mt /usr/lib/ypbind-mt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/ypbind.service
+FILELIST = /lib/systemd/system/ypbind.service /usr/sbin/ypbind

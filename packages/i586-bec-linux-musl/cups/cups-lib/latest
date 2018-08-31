@@ -1,0 +1,10 @@
+PV = 2.2.8
+PR = r0
+PKG = libcups2
+PKGR = r0.0
+RPROVIDES = cups-lib (=2.2.8)
+RDEPENDS = gnutls (>= 3.6.3) libavahi-client (>= 0.7) libavahi-common (>= 0.7) musl (>= 1.1.19+git0+767f7a1091) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 599348
+FILES = /usr/lib/libcups.so.*
+FILELIST = /usr/lib/libcups.so.2

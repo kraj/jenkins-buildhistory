@@ -1,0 +1,29 @@
+drwxr-xr-x root       root              120 ./bin
+-rwxr-xr-x root       root            25924 ./bin/kill.procps
+-rwxr-xr-x root       root            17732 ./bin/pidof.procps
+-rwxr-xr-x root       root           116208 ./bin/ps.procps
+-rwxr-xr-x root       root            21884 ./bin/watch.procps
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root             2049 ./etc/sysctl.conf
+drwxr-xr-x root       root               60 ./etc/sysctl.d
+lrwxrwxrwx root       root               14 ./etc/sysctl.d/99-sysctl.conf -> ../sysctl.conf
+drwxr-xr-x root       root               60 ./sbin
+-rwxr-xr-x root       root            25820 ./sbin/sysctl.procps
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              300 ./usr/bin
+-rwxr-xr-x root       root            21832 ./usr/bin/free.procps
+-rwxr-xr-x root       root            25936 ./usr/bin/pgrep.procps
+-rwxr-xr-x root       root            25936 ./usr/bin/pkill.procps
+-rwxr-xr-x root       root            30024 ./usr/bin/pmap.procps
+-rwxr-xr-x root       root            13524 ./usr/bin/pwdx.procps
+-rwxr-xr-x root       root            25928 ./usr/bin/skill.procps
+-rwxr-xr-x root       root            21824 ./usr/bin/slabtop
+-rwxr-xr-x root       root            25928 ./usr/bin/snice.procps
+-rwxr-xr-x root       root            17740 ./usr/bin/tload
+-rwxr-xr-x root       root           123024 ./usr/bin/top.procps
+-rwxr-xr-x root       root            13636 ./usr/bin/uptime.procps
+-rwxr-xr-x root       root            30028 ./usr/bin/vmstat
+-rwxr-xr-x root       root            17728 ./usr/bin/w.procps
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root            79168 ./usr/lib/libprocps.so.7.1.0
+lrwxrwxrwx root       root               18 ./usr/lib/libprocps.so.7 -> libprocps.so.7.1.0

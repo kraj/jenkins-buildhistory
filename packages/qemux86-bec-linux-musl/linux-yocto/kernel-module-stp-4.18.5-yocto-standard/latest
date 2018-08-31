@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+22eefa3b53_71799edb8a
+PR = r0
+PKGV = 4.18.5+git0+22eefa3b53_71799edb8a
+PKGR = r0.1
+RPROVIDES = kernel-module-stp
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-llc-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4128
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/net/802/stp.ko /etc/modules-load.d/stp.conf /etc/modprobe.d/stp.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/net/802/stp.ko

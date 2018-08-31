@@ -1,0 +1,5 @@
+PV = 3.2.6
+PR = r0
+DEPENDS = base-files base-passwd db icu libnsl2 libpcre openssl postfix-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc virtual/update-alternatives
+PACKAGES = postfix-dbg postfix-staticdev postfix-dev postfix-doc postfix-locale postfix
+LAYER = networking-layer

@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+a59be66ab8
+PR = r0
+PKG = libqt5serialbus-tools
+PKGV = 5.11.1+git0+a59be66ab8
+PKGR = r0.0
+RPROVIDES = qtserialbus-tools (=5.11.1+git0+a59be66ab8)
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git0+767f7a1091) qtbase (>= 5.11.1+git0+74305ba470) qtserialbus (>= 5.11.1+git0+a59be66ab8)
+RRECOMMENDS = 
+PKGSIZE = 38208
+FILES = /usr/bin/qt5/*
+FILELIST = /usr/bin/qt5/canbusutil

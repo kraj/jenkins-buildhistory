@@ -1,0 +1,11 @@
+PV = 2.32.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.19+git0+767f7a1091) update-alternatives-opkg util-linux-libblkid (>= 2.32.1)
+RRECOMMENDS = 
+RREPLACES = e2fsprogs-blkid
+RCONFLICTS = e2fsprogs-blkid
+PKGSIZE = 99692
+FILES = /sbin/blkid*
+FILELIST = /sbin/blkid.util-linux

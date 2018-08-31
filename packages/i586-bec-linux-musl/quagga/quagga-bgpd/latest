@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.19+git0+767f7a1091) quagga (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 1061991
+FILES = /usr/sbin/bgpd /lib/systemd/system/bgpd.service
+FILELIST = /lib/systemd/system/bgpd.service /usr/sbin/bgpd

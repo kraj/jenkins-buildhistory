@@ -1,0 +1,11 @@
+PV = 2.0+gitAUTOINC+f3396eb52e
+PR = r0
+PKG = libqt53dstudioruntime2-qmlplugins-dbg
+PKGV = 2.0+git0+f3396eb52e
+PKGR = r0.0
+RPROVIDES = qt3d-runtime-qmlplugins-dbg (=2.0+git0+f3396eb52e)
+RDEPENDS = 
+RRECOMMENDS = libgcc-dbg libstdc++-dbg musl-dbg qt3d-dbg qt3d-runtime-dbg qtbase-dbg qtdeclarative-dbg
+PKGSIZE = 50583788
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug
+FILELIST = /usr/bin/qt5/.debug/q3dsviewer /usr/lib/.debug/libQt53DStudioRuntime2.so.5.11.0 /usr/lib/qt5/qml/QtStudio3D.2/.debug/libq3dsstudio3dplugin.so

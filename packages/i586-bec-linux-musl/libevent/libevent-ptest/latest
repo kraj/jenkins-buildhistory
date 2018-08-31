@@ -1,0 +1,9 @@
+PV = 2.1.8
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libevent (>= 2.1.8) musl (>= 1.1.19+git0+767f7a1091) zlib (>= 1.2.11)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 855593
+FILES = /usr/lib/libevent/ptest
+FILELIST = /usr/lib/libevent/ptest/run-ptest /usr/lib/libevent/ptest/test/regress /usr/lib/libevent/ptest/test/test-changelist /usr/lib/libevent/ptest/test/test-closed /usr/lib/libevent/ptest/test/test-dumpevents /usr/lib/libevent/ptest/test/test-eof /usr/lib/libevent/ptest/test/test-fdleak /usr/lib/libevent/ptest/test/test-init /usr/lib/libevent/ptest/test/test-ratelim /usr/lib/libevent/ptest/test/test-time /usr/lib/libevent/ptest/test/test-weof

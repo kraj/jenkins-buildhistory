@@ -1,0 +1,5 @@
+PV = 1.14
+PR = r0
+DEPENDS = cmake-native glog libeigen ninja-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = ceres-solver-dbg ceres-solver-staticdev ceres-solver-dev ceres-solver-doc ceres-solver-locale ceres-solver
+LAYER = openembedded-layer

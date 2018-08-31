@@ -1,0 +1,10 @@
+PV = 1.900.1
+PR = r1
+PKG = libjasper-bin
+PKGR = r1.0
+RPROVIDES = jasper-bin (=1.900.1)
+RDEPENDS = jasper (>= 1.900.1) musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = 
+PKGSIZE = 62676
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/imgcmp /usr/bin/imginfo /usr/bin/jasper /usr/bin/tmrdemo

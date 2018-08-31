@@ -1,0 +1,9 @@
+PV = 5.6.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.19+git0+767f7a1091) strongswan
+RRECOMMENDS = 
+PKGSIZE = 42326
+FILES = /usr/lib/ipsec/plugins/libstrongswan-aes.so /etc/strongswan.d/charon/aes.conf
+FILELIST = /etc/strongswan.d/charon/aes.conf /usr/lib/ipsec/plugins/libstrongswan-aes.so

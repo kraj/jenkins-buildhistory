@@ -1,0 +1,9 @@
+PV = 2.0.10-4
+PR = r4
+PKGR = r4.0
+RPROVIDES = 
+RDEPENDS = bash musl (>= 1.1.19+git0+767f7a1091)
+RRECOMMENDS = kernel-module-ebtables
+PKGSIZE = 401982
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ebtables /usr/lib/ebtables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/ebtables/*.so /lib/systemd/system/ebtables.service
+FILELIST = /etc/default/ebtables /etc/ethertypes /lib/ebtables/libebt_802_3.so /lib/ebtables/libebt_among.so /lib/ebtables/libebt_arp.so /lib/ebtables/libebt_arpreply.so /lib/ebtables/libebt_ip.so /lib/ebtables/libebt_ip6.so /lib/ebtables/libebt_limit.so /lib/ebtables/libebt_log.so /lib/ebtables/libebt_mark.so /lib/ebtables/libebt_mark_m.so /lib/ebtables/libebt_nat.so /lib/ebtables/libebt_nflog.so /lib/ebtables/libebt_pkttype.so /lib/ebtables/libebt_redirect.so /lib/ebtables/libebt_standard.so /lib/ebtables/libebt_stp.so /lib/ebtables/libebt_ulog.so /lib/ebtables/libebt_vlan.so /lib/ebtables/libebtable_broute.so /lib/ebtables/libebtable_filter.so /lib/ebtables/libebtable_nat.so /lib/ebtables/libebtc.so /lib/systemd/system/ebtables.service /sbin/ebtables /sbin/ebtables-restore /sbin/ebtables-save /usr/sbin/ebtables.common

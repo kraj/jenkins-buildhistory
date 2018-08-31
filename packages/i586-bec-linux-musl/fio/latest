@@ -1,0 +1,5 @@
+PV = 3.8
+PR = r0
+DEPENDS = libaio numactl virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc zlib
+PACKAGES = fio-dbg fio-staticdev fio-dev fio-doc fio-locale fio
+LAYER = openembedded-layer
