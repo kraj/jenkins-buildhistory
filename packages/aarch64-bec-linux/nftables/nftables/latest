@@ -1,0 +1,9 @@
+PV = 0.7
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) gmp (>= 6.1.2) libmnl (>= 1.0.4) libnftnl (>= 1.0.7+git0+4b89c0cb08) readline (>= 7.0)
+RRECOMMENDS = kernel-module-nf-tables
+PKGSIZE = 430044
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nftables /usr/lib/nftables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/nftables/bridge-filter /etc/nftables/inet-filter /etc/nftables/ipv4-filter /etc/nftables/ipv4-mangle /etc/nftables/ipv4-nat /etc/nftables/ipv6-filter /etc/nftables/ipv6-mangle /etc/nftables/ipv6-nat /usr/sbin/nft

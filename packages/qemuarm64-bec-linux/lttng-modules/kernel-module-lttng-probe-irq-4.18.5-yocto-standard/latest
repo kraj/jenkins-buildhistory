@@ -1,0 +1,9 @@
+PV = 2.10.7
+PR = r0
+PKGR = r0.0
+RPROVIDES = kernel-module-lttng-probe-irq
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-lttng-lib-ring-buffer-4.18.5-yocto-standard kernel-module-lttng-tracer-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11568
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/lttng-modules/probes/lttng-probe-irq.ko /etc/modules-load.d/lttng-probe-irq.conf /etc/modprobe.d/lttng-probe-irq.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/lttng-modules/probes/lttng-probe-irq.ko

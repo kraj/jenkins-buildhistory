@@ -1,0 +1,5 @@
+PV = 0.0.20171221
+PR = r0
+DEPENDS = bash-completion libmnl pkgconfig-native systemd-systemctl-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc wireguard-module
+PACKAGES = wireguard-tools-dbg wireguard-tools-staticdev wireguard-tools-dev wireguard-tools-doc wireguard-tools-locale wireguard-tools wireguard-tools-bash-completion
+LAYER = networking-layer

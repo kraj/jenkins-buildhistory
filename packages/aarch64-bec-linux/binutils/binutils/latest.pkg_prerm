@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  addr2line /usr/bin/aarch64-bec-linux-addr2line
+	update-alternatives --remove  ar /usr/bin/aarch64-bec-linux-ar
+	update-alternatives --remove  as /usr/bin/aarch64-bec-linux-as
+	update-alternatives --remove  c++filt /usr/bin/aarch64-bec-linux-c++filt
+	update-alternatives --remove  elfedit /usr/bin/aarch64-bec-linux-elfedit
+	update-alternatives --remove  gprof /usr/bin/aarch64-bec-linux-gprof
+	update-alternatives --remove  ld /usr/bin/aarch64-bec-linux-ld
+	update-alternatives --remove  ld.bfd /usr/bin/aarch64-bec-linux-ld.bfd
+	update-alternatives --remove  nm /usr/bin/aarch64-bec-linux-nm
+	update-alternatives --remove  objcopy /usr/bin/aarch64-bec-linux-objcopy
+	update-alternatives --remove  objdump /usr/bin/aarch64-bec-linux-objdump
+	update-alternatives --remove  ranlib /usr/bin/aarch64-bec-linux-ranlib
+	update-alternatives --remove  readelf /usr/bin/aarch64-bec-linux-readelf
+	update-alternatives --remove  size /usr/bin/aarch64-bec-linux-size
+	update-alternatives --remove  strings /usr/bin/aarch64-bec-linux-strings
+	update-alternatives --remove  strip /usr/bin/aarch64-bec-linux-strip

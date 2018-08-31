@@ -1,0 +1,5 @@
+PV = 5.13.1
+PR = r0
+DEPENDS = bzip2 cmake-native lz4 ninja-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc zlib
+PACKAGES = rocksdb-dbg rocksdb-staticdev rocksdb-dev rocksdb-doc rocksdb-locale rocksdb
+LAYER = openembedded-layer

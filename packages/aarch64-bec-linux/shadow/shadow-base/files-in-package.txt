@@ -1,0 +1,13 @@
+drwxr-xr-x root       root               80 ./bin
+-rwxr-xr-x root       root            48408 ./bin/login.shadow
+-rwsr-xr-x root       root            44496 ./bin/su.shadow
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root            11046 ./etc/login.defs
+drwxr-xr-x root       root               80 ./etc/pam.d
+-rw-r--r-- root       root             3202 ./etc/pam.d/login
+-rw-r--r-- root       root             2140 ./etc/pam.d/su
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              100 ./usr/bin
+-rwxr-xr-x root       root            14232 ./usr/bin/groups.shadow
+-rwsr-xr-x root       root            40184 ./usr/bin/newgrp.shadow
+lrwxrwxrwx root       root               13 ./usr/bin/sg -> newgrp.shadow

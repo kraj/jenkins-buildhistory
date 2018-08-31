@@ -1,0 +1,5 @@
+PV = 3.0
+PR = r31
+DEPENDS = systemd-systemctl-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = xserver-nodm-init-dbg xserver-nodm-init-staticdev xserver-nodm-init-dev xserver-nodm-init-doc xserver-nodm-init-locale xserver-nodm-init
+LAYER = core

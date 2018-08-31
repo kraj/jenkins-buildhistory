@@ -1,0 +1,5 @@
+PV = 1.3
+PR = r0
+DEPENDS = libpam openldap virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = pam-plugin-ldapdb-dbg pam-plugin-ldapdb-staticdev pam-plugin-ldapdb-dev pam-plugin-ldapdb-doc pam-plugin-ldapdb-locale pam-plugin-ldapdb
+LAYER = openembedded-layer

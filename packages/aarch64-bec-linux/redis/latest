@@ -1,0 +1,5 @@
+PV = 4.0.8
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = redis-dbg redis-staticdev redis-dev redis-doc redis-locale redis
+LAYER = openembedded-layer

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc zlib
+PACKAGES = logfsprogs-dbg logfsprogs-staticdev logfsprogs-dev logfsprogs-doc logfsprogs-locale logfsprogs
+LAYER = filesystems-layer

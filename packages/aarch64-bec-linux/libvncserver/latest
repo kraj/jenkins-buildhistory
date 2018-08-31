@@ -1,0 +1,5 @@
+PV = 0.9.11
+PR = r0
+DEPENDS = autoconf-native automake-native gmp gnu-config-native gnutls gtk+ jpeg libgcrypt libpng libsdl libtool-cross libtool-native nettle pkgconfig-native systemd virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc zlib
+PACKAGES = libvncserver-dbg libvncserver-staticdev libvncserver-dev libvncserver-doc libvncserver-locale libvncserver
+LAYER = openembedded-layer

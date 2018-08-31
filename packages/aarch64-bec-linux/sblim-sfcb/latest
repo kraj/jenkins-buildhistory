@@ -1,0 +1,5 @@
+PV = 1.4.9
+PR = r0
+DEPENDS = autoconf-native automake-native curl gnu-config-native libpam libtool-cross libtool-native openssl sblim-sfc-common systemd-systemctl-native unzip-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = sblim-sfcb-dbg sblim-sfcb-staticdev sblim-sfcb-dev sblim-sfcb-doc sblim-sfcb-locale sblim-sfcb
+LAYER = openembedded-layer

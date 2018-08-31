@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              140 ./usr/bin
+-rwxr-xr-x root       root            26512 ./usr/bin/rrdcgi
+lrwxrwxrwx root       root                9 ./usr/bin/rrdcreate -> rrdupdate
+lrwxrwxrwx root       root                9 ./usr/bin/rrdinfo -> rrdupdate
+-rwxr-xr-x root       root            26512 ./usr/bin/rrdtool
+-rwxr-xr-x root       root           149648 ./usr/bin/rrdupdate
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root           327728 ./usr/lib/librrd.so.8.1.0
+lrwxrwxrwx root       root               15 ./usr/lib/librrd.so.8 -> librrd.so.8.1.0

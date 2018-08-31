@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+22eefa3b53_71799edb8a
+PR = r0
+PKGV = 4.18.5+git0+22eefa3b53_71799edb8a
+PKGR = r0.1
+RPROVIDES = kernel-module-nls-iso8859-13
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-nls-base-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9824
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/fs/nls/nls_iso8859-13.ko /etc/modules-load.d/nls_iso8859-13.conf /etc/modprobe.d/nls_iso8859-13.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/fs/nls/nls_iso8859-13.ko

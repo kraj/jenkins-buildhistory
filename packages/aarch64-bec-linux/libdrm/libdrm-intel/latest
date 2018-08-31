@@ -1,0 +1,10 @@
+PV = 2.4.93
+PR = r0
+PKG = libdrm-intel1
+PKGR = r0.0
+RPROVIDES = libdrm-intel (=2.4.93)
+RDEPENDS = glibc (>= 2.28) libdrm (>= 2.4.93) libpciaccess (>= 0.14)
+RRECOMMENDS = 
+PKGSIZE = 138669
+FILES = /usr/lib/libdrm_intel.so.*
+FILELIST = /usr/lib/libdrm_intel.so.1 /usr/lib/libdrm_intel.so.1.0.0

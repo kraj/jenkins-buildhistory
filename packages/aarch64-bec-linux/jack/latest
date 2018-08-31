@@ -1,0 +1,5 @@
+PV = 1.9.12
+PR = r0
+DEPENDS = alsa-lib libsamplerate0 libsndfile1 pkgconfig-native readline virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = libjack jack-server jack-utils jack-dbg jack-staticdev jack-dev jack-doc jack-locale jack
+LAYER = openembedded-layer

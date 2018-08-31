@@ -1,0 +1,5 @@
+PV = 2.9.5
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native liburcu libxml2 lttng-ust pkgconfig-native popt shadow shadow-native shadow-sysroot util-linux virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = lttng-tools-ptest lttng-tools-dbg lttng-tools-staticdev lttng-tools-dev lttng-tools-doc lttng-tools-locale lttng-tools
+LAYER = core
