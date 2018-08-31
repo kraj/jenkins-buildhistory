@@ -1,0 +1,5 @@
+PV = 2.2.33
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd bzip2 gnu-config-native icu libcap libpam libtirpc libtool-cross libtool-native openssl pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc xz zlib
+PACKAGES = dovecot-dbg dovecot-staticdev dovecot-dev dovecot-doc dovecot-locale dovecot
+LAYER = networking-layer

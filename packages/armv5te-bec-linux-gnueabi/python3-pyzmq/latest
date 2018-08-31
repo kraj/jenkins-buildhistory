@@ -1,0 +1,5 @@
+PV = 17.1.0
+PR = r0
+DEPENDS = pkgconfig-native python3 python3-native python3-native python3-setuptools-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc zeromq
+PACKAGES = python3-pyzmq-dbg python3-pyzmq-staticdev python3-pyzmq-dev python3-pyzmq-doc python3-pyzmq-locale python3-pyzmq
+LAYER = meta-python

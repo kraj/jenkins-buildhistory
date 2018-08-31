@@ -1,0 +1,5 @@
+PV = 0.9
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libusb1 pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = dfu-util-dbg dfu-util-staticdev dfu-util-dev dfu-util-doc dfu-util-locale dfu-util
+LAYER = openembedded-layer

@@ -1,0 +1,5 @@
+PV = 0.36
+PR = r0
+DEPENDS = efivar-native pkgconfig-native popt virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = efivar-dbg efivar-staticdev efivar-dev efivar-doc efivar-locale efivar
+LAYER = openembedded-layer

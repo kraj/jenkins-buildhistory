@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/rshd rshd /usr/sbin/in.rshd 79
+	update-alternatives --install /usr/sbin/rexecd rexecd /usr/sbin/in.rexecd 79
+	update-alternatives --install /usr/sbin/rlogind rlogind /usr/sbin/in.rlogind 79

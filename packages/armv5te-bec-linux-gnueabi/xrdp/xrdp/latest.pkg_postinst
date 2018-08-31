@@ -1,0 +1,36 @@
+set -e
+	if test -z "$D"
+	then
+		if test -x /usr/bin/xrdp-keygen
+		then
+			/usr/bin/xrdp-keygen xrdp /etc/xrdp/rsakeys.ini >/dev/null
+                fi
+		if test ! -s /etc/xrdp/cert.pem
+		then
+			openssl req -x509 -newkey rsa:2048 -sha256 -nodes -days 3652 \
+			-keyout /etc/xrdp/key.pem \
+			-out /etc/xrdp/cert.pem \
+			-config /etc/xrdp/openssl.conf >/dev/null 2>&1
+			chmod 400 /etc/xrdp/key.pem
+		fi
+        fi
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS enable xrdp.service xrdp-sesman.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl --no-block restart xrdp.service xrdp-sesman.service
+	fi
+fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

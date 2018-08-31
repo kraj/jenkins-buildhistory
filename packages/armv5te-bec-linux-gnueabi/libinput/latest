@@ -1,0 +1,5 @@
+PV = 1.11.3
+PR = r0
+DEPENDS = libevdev meson-native mtdev ninja-native pkgconfig-native python3-native udev virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = libinput-dbg libinput-staticdev libinput-dev libinput-doc libinput-locale libinput-bin libinput
+LAYER = core

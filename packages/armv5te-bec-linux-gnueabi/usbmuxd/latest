@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native libusb1 ninja-native pkgconfig-native udev virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = usbmuxd-dbg usbmuxd-staticdev usbmuxd-dev usbmuxd-doc usbmuxd-locale usbmuxd
+LAYER = openembedded-layer

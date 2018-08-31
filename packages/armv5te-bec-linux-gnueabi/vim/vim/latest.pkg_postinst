@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /bin/vi vi /usr/bin/vim.vim 100
+	update-alternatives --install /usr/bin/vim vim /usr/bin/vim.vim 100

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gstreamer1.0 libtool-cross libtool-native pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = gst-instruments-dbg gst-instruments-staticdev gst-instruments-dev gst-instruments-doc gst-instruments-locale gst-instruments
+LAYER = multimedia-layer

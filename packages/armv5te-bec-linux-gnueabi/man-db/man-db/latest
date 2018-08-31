@@ -1,0 +1,9 @@
+PV = 2.8.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = man
+RDEPENDS = base-passwd gdbm (>= 1.14.1) glibc (>= 2.28) groff libpipeline (>= 1.5.0)
+RRECOMMENDS = less
+PKGSIZE = 559440
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/man-db /usr/lib/man-db/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tmpfiles.d
+FILELIST = /etc/man_db.conf /usr/bin/apropos /usr/bin/catman /usr/bin/lexgrog /usr/bin/man /usr/bin/mandb /usr/bin/manpath /usr/bin/whatis /usr/lib/man-db/libman-2.8.3.so /usr/lib/man-db/libmandb-2.8.3.so /usr/lib/tmpfiles.d/man-db.conf /usr/libexec/man-db/globbing /usr/libexec/man-db/manconv /usr/libexec/man-db/zsoelim /usr/sbin/accessdb

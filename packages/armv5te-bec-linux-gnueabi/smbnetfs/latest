@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native fuse gnu-config-native libtool-cross libtool-native pkgconfig-native samba virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = smbnetfs-dbg smbnetfs-staticdev smbnetfs-dev smbnetfs-doc smbnetfs-locale smbnetfs
+LAYER = filesystems-layer

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = usrsctp-dbg usrsctp-staticdev usrsctp-dev usrsctp-doc usrsctp-locale usrsctp
+LAYER = networking-layer

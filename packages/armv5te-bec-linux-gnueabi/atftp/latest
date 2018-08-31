@@ -1,0 +1,5 @@
+PV = 0.7.1+gitAUTOINC+be3291a18c
+PR = r3
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd-systemctl-native tcp-wrappers virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = atftpd atftp-dbg atftp-staticdev atftp-dev atftp-doc atftp-locale atftp
+LAYER = networking-layer

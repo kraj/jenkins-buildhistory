@@ -1,0 +1,5 @@
+PV = 3.0.0
+PR = r0
+DEPENDS = cmake-native libuv ninja-native openssl pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = libwebsockets-testapps libwebsockets-dbg libwebsockets-staticdev libwebsockets-dev libwebsockets-doc libwebsockets-locale libwebsockets
+LAYER = openembedded-layer

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = burn-boot-dbg burn-boot-staticdev burn-boot-dev burn-boot-doc burn-boot-locale burn-boot
+LAYER = meta-96boards

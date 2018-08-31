@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native gtk+ ninja-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = lcd-test-dbg lcd-test-staticdev lcd-test-dev lcd-test-doc lcd-test-locale lcd-test
+LAYER = meta-bec

@@ -1,0 +1,9 @@
+PV = 1.3.0
+PR = r5
+PKGR = r5.0
+RPROVIDES = pam-plugin-unix-suffix
+RDEPENDS = glibc (>= 2.28) libpam (>= 1.3.0) libpam-suffix libxcrypt (>= 4.1.1)
+RRECOMMENDS = 
+PKGSIZE = 77820
+FILES = /lib/security/pam_unix.so /usr/sbin/unix_chkpwd /usr/sbin/unix_update
+FILELIST = /lib/security/pam_unix.so /usr/sbin/unix_chkpwd /usr/sbin/unix_update

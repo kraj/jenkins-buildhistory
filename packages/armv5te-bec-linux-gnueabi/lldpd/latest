@@ -1,0 +1,5 @@
+PV = 0.9.8
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd bash-completion gnu-config-native libbsd libevent libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = lldpd-zsh-completion lldpd-dbg lldpd-staticdev lldpd-dev lldpd-doc lldpd-locale lldpd lldpd-bash-completion
+LAYER = networking-layer

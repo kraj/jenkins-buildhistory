@@ -1,0 +1,9 @@
+PV = 2.10.7
+PR = r0
+PKGR = r0.0
+RPROVIDES = kernel-module-lttng-probe-udp
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-lttng-tracer-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4984
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/lttng-modules/probes/lttng-probe-udp.ko /etc/modules-load.d/lttng-probe-udp.conf /etc/modprobe.d/lttng-probe-udp.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/lttng-modules/probes/lttng-probe-udp.ko

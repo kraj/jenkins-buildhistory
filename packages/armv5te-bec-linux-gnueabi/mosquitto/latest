@@ -1,0 +1,5 @@
+PV = 1.4.15
+PR = r0
+DEPENDS = base-files base-passwd openssl shadow shadow-native shadow-sysroot systemd-systemctl-native uthash util-linux virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = mosquitto-dbg mosquitto-staticdev mosquitto-dev mosquitto-doc mosquitto-locale mosquitto-examples mosquitto libmosquitto1 libmosquittopp1 mosquitto-clients
+LAYER = networking-layer

@@ -1,0 +1,10 @@
+PV = 2.28.0
+PR = r0
+PKG = libatspi-locale-uz+cyrillic
+PKGR = r0.0
+RPROVIDES = at-spi2-core-locale at-spi2-core-locale-uz+cyrillic (=2.28.0) uz+cyrillic-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-uz+cyrillic
+PKGSIZE = 618
+FILES = /usr/share/locale/uz@cyrillic
+FILELIST = /usr/share/locale/uz@cyrillic/LC_MESSAGES/at-spi2-core.mo

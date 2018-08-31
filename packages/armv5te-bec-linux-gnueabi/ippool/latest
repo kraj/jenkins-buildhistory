@@ -1,0 +1,5 @@
+PV = 1.3
+PR = r0
+DEPENDS = gzip-native libtirpc ncurses ppp readline rpcsvc-proto-native systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = ippool-test ippool-dbg ippool-staticdev ippool-dev ippool-doc ippool-locale ippool
+LAYER = networking-layer

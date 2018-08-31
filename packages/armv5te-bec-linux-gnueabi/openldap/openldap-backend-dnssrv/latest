@@ -1,0 +1,10 @@
+PV = 2.4.46
+PR = r0
+PKG = libldap-2.4-backend-dnssrv
+PKGR = r0.0
+RPROVIDES = openldap-backend-dnssrv (=2.4.46)
+RDEPENDS = glibc (>= 2.28) gnutls (>= 3.6.3) libgcrypt (>= 1.8.3) openldap (>= 2.4.46)
+RRECOMMENDS = 
+PKGSIZE = 9506
+FILES = /usr/libexec/openldap/back_dnssrv.so /usr/libexec/openldap/back_dnssrv-2.4.so.2 /usr/libexec/openldap/back_dnssrv-2.4.so.2.10.9
+FILELIST = /usr/libexec/openldap/back_dnssrv-2.4.so.2 /usr/libexec/openldap/back_dnssrv-2.4.so.2.10.9 /usr/libexec/openldap/back_dnssrv.so

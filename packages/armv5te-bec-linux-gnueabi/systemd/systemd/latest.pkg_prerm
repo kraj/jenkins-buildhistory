@@ -1,0 +1,5 @@
+set -e
+	sed -e '/^hosts:/s/\s*\<myhostname\>//' \
+		-e '/^hosts:/s/\s*myhostname//' \
+		-i $D/etc/nsswitch.conf
+	update-alternatives --remove  resolv-conf /etc/resolv-conf.systemd

@@ -1,0 +1,5 @@
+PV = 2.2.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libpam libtool-cross libtool-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = vlock-dbg vlock-staticdev vlock-dev vlock-doc vlock-locale vlock
+LAYER = openembedded-layer

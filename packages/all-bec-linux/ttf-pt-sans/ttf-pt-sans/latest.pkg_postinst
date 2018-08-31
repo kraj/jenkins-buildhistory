@@ -1,0 +1,21 @@
+set -e
+    set -x
+    for fontdir in `find $D/usr/lib/X11/fonts -type d`; do
+        mkfontdir $fontdir
+        mkfontscale $fontdir
+    done
+    for fontdir in `find $D/usr/share/fonts/X11 -type d`; do
+        mkfontdir $fontdir
+        mkfontscale $fontdir
+    done
+if [ -n "$D" ] ; then
+	$INTERCEPT_DIR/postinst_intercept update_font_cache ${PKG} mlprefix= binprefix= \
+		'bindir="/usr/bin"' \
+		'libdir="/usr/lib"' \
+		'base_libdir="/lib"' \
+		'fontconfigcachedir="/var/cache/fontconfig"' \
+		'fontconfigcacheparams="-v"' \
+		'fontconfigcacheenv="FC_DEBUG=1"'
+else
+	FC_DEBUG=1 fc-cache -v
+fi

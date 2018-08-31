@@ -1,0 +1,10 @@
+PV = 3.0
+PR = r31
+PKGR = r31.0
+RPROVIDES = 
+RDEPENDS = xinit
+RRECOMMENDS = 
+RCONFLICTS = x11-common xserver-common (< 1.34-r9)
+PKGSIZE = 2663
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xserver-nodm-init /usr/lib/xserver-nodm-init/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/xserver-nodm.service
+FILELIST = /etc/X11/Xsession /etc/X11/Xsession.d/13xdgbasedirs.sh /etc/X11/Xsession.d/89xdgautostart.sh /etc/X11/Xsession.d/90XWindowManager.sh /etc/default/xserver-nodm /etc/xserver-nodm/Xserver /lib/systemd/system/xserver-nodm.service

@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = gdb-cross-arm qemu-helper-native qemu-native unfs3-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc virtual/libc
+PACKAGES = meta-extsdk-toolchain-dbg meta-extsdk-toolchain-staticdev meta-extsdk-toolchain-dev meta-extsdk-toolchain-doc meta-extsdk-toolchain-locale meta-extsdk-toolchain
+LAYER = core

@@ -1,0 +1,5 @@
+PV = 3.3.2
+PR = r0
+DEPENDS = autoconf-native automake-native avahi base-files base-passwd binutils gnu-config-native libtool-cross libtool-native pkgconfig-native popt shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = distcc-dbg distcc-staticdev distcc-dev distcc-doc distcc-locale distcc distcc-distmon-gnome
+LAYER = core
