@@ -1,0 +1,43 @@
+set -e
+    if [ "x$D" = "x" ]; then
+        touch /etc/aliases
+        newaliases
+
+        # generate virtual_alias, default is hash
+        touch /etc/postfix/virtual_alias
+        postmap /etc/postfix/virtual_alias
+    else
+        if false; then
+            # /usr/lib/sendmail is required by LSB core test
+            [ ! -L $D/usr/lib/sendmail ] && ln -sf /usr/sbin/sendmail $D/usr/lib/
+        fi
+
+        touch $D/etc/aliases
+        # This can fail depending on host setup
+        if ! newaliases -C $D/etc/postfix/main.cf -oA$D/etc/aliases; then
+            $INTERCEPT_DIR/postinst_intercept delay_to_first_boot ${PKG} mlprefix=
+            exit 0
+        fi
+        touch $D/etc/postfix/virtual_alias
+        postmap -c $D/etc/postfix $D/etc/postfix/virtual_alias
+
+    fi
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS enable postfix.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl --no-block restart postfix.service
+	fi
+fi
+	update-alternatives --install /usr/bin/mailq mailq /usr/bin/mailq.postfix 120
+	update-alternatives --install /usr/bin/newaliases newaliases /usr/bin/newaliases.postfix 120

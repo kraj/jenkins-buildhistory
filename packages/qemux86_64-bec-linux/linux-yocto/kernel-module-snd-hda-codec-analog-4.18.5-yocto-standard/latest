@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+22eefa3b53_71799edb8a
+PR = r0
+PKGV = 4.18.5+git0+22eefa3b53_71799edb8a
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-hda-codec-analog
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-snd-hda-codec-4.18.5-yocto-standard kernel-module-snd-hda-codec-generic-4.18.5-yocto-standard kernel-module-snd-hda-core-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 21704
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-analog.ko /etc/modules-load.d/snd-hda-codec-analog.conf /etc/modprobe.d/snd-hda-codec-analog.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-analog.ko

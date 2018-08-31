@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/acpixtract acpixtract /usr/bin/acpixtract.acpica 100

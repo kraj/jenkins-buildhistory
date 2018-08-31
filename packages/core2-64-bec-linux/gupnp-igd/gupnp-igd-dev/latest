@@ -1,0 +1,10 @@
+PV = 0.2.4
+PR = r0
+PKG = libgupnp-igd-1.0-dev
+PKGR = r0.0
+RPROVIDES = gupnp-igd-dev (=0.2.4)
+RDEPENDS = gupnp-igd (= 0.2.4-r0.0)
+RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev gssdp-dev gupnp-dev sqlite3-dev
+PKGSIZE = 31942
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gupnp-igd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir
+FILELIST = /usr/include/gupnp-igd-1.0/libgupnp-igd/gupnp-simple-igd-thread.h /usr/include/gupnp-igd-1.0/libgupnp-igd/gupnp-simple-igd.h /usr/lib/libgupnp-igd-1.0.so /usr/lib/pkgconfig/gupnp-igd-1.0.pc /usr/share/gir-1.0/GUPnPIgd-1.0.gir

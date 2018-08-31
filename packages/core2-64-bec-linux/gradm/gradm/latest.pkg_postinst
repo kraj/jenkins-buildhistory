@@ -1,0 +1,6 @@
+set -e
+    # make sure running on the target
+    if [ x"$D" != "x" ]; then
+        exit 1
+    fi
+    /bin/mknod -m 0622 /dev/grsec c 1 13

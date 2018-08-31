@@ -1,0 +1,9 @@
+PV = 8.2.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = gcc-sanitizers liblsan
+RRECOMMENDS = gcc-runtime-dev glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 8560
+FILES = /usr/lib/liblsan.so /usr/lib/liblsan.la /usr/lib/liblsan_preinit.o
+FILELIST = /usr/lib/liblsan.so /usr/lib/liblsan_preinit.o

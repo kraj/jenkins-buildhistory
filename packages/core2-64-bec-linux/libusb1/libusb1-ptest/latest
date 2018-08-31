@@ -1,0 +1,10 @@
+PV = 1.0.22
+PR = r0
+PKG = libusb-1.0-ptest
+PKGR = r0.0
+RPROVIDES = libusb1-ptest (=1.0.22)
+RDEPENDS = glibc (>= 2.28) libusb1 (>= 1.0.22)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 14677
+FILES = /usr/lib/libusb1/ptest
+FILELIST = /usr/lib/libusb1/ptest/run-ptest /usr/lib/libusb1/ptest/stress

@@ -1,0 +1,10 @@
+PV = 4.8.4
+PR = r0
+PKG = libnss-winbind2
+PKGR = r0.0
+RPROVIDES = libnss-winbind (=4.8.4)
+RDEPENDS = glibc (>= 2.28) libwinbind-client-samba4 (>= 4.8.4) samba-common
+RRECOMMENDS = 
+PKGSIZE = 18320
+FILES = /usr/lib/libnss_winbind.so.2
+FILELIST = /usr/lib/libnss_winbind.so.2

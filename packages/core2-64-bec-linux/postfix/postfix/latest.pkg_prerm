@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop postfix.service
+	fi
+
+	systemctl $OPTS disable postfix.service
+fi
+	update-alternatives --remove  mailq /usr/bin/mailq.postfix
+	update-alternatives --remove  newaliases /usr/bin/newaliases.postfix

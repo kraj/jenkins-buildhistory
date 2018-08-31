@@ -1,0 +1,9 @@
+PV = 3.0.9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.28) logrotate openldap (>= 2.4.46) shadow
+RRECOMMENDS = 
+PKGSIZE = 652901
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/zabbix /usr/lib/zabbix/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /lib/systemd/system/zabbix-agent.service
+FILELIST = /etc/zabbix_agentd.conf /lib/systemd/system/zabbix-agent.service /usr/bin/zabbix_get /usr/bin/zabbix_sender /usr/sbin/zabbix_agentd

@@ -1,0 +1,10 @@
+PV = 5.8
+PR = r0
+PKG = libnetsnmp35
+PKGR = r0.0
+RPROVIDES = net-snmp-libs (=5.8)
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1-pre9) libpci (>= 3.6.2)
+RRECOMMENDS = 
+PKGSIZE = 2706649
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libnetsnmp.so.35 /usr/lib/libnetsnmp.so.35.0.0 /usr/lib/libnetsnmpagent.so.35 /usr/lib/libnetsnmpagent.so.35.0.0 /usr/lib/libnetsnmphelpers.so.35 /usr/lib/libnetsnmphelpers.so.35.0.0 /usr/lib/libnetsnmpmibs.so.35 /usr/lib/libnetsnmpmibs.so.35.0.0 /usr/lib/libnetsnmptrapd.so.35 /usr/lib/libnetsnmptrapd.so.35.0.0

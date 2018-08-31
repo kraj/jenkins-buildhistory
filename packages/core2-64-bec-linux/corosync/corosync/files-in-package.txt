@@ -1,0 +1,76 @@
+drwxr-xr-x root       root              160 ./etc
+drwxr-xr-x root       root              160 ./etc/corosync
+-rw-r--r-- root       root              878 ./etc/corosync/corosync.conf.example
+-rw-r--r-- root       root              767 ./etc/corosync/corosync.conf.example.udpu
+drwxr-xr-x root       root               60 ./etc/corosync/qdevice
+drwxrwx--- root       root               40 ./etc/corosync/qdevice/net
+drwxrwx--- coroqnetd  coroqnetd          40 ./etc/corosync/qnetd
+drwxr-xr-x root       root               40 ./etc/corosync/service.d
+drwxr-xr-x root       root               40 ./etc/corosync/uidgid.d
+drwxr-xr-x root       root               60 ./etc/dbus-1
+drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
+-rw-r--r-- root       root              806 ./etc/dbus-1/system.d/corosync-signals.conf
+drwxr-xr-x root       root               60 ./etc/default
+drwxr-xr-x root       root               60 ./etc/default/volatiles
+-rw-r--r-- root       root               95 ./etc/default/volatiles/05_corosync
+drwxr-xr-x root       root               60 ./etc/logrotate.d
+-rw-r--r-- root       root              113 ./etc/logrotate.d/corosync
+drwxr-xr-x root       root               80 ./etc/sysconfig
+-rw-r--r-- root       root              358 ./etc/sysconfig/corosync
+-rw-r--r-- root       root              206 ./etc/sysconfig/corosync-notifyd
+drwxr-xr-x root       root               60 ./etc/tmpfiles.d
+-rw-r--r-- root       root               27 ./etc/tmpfiles.d/corosync.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root              120 ./lib/systemd/system
+-rw-r--r-- root       root              310 ./lib/systemd/system/corosync-notifyd.service
+-rw-r--r-- root       root              388 ./lib/systemd/system/corosync-qdevice.service
+-rw-r--r-- root       root              508 ./lib/systemd/system/corosync-qnetd.service
+-rw-r--r-- root       root              842 ./lib/systemd/system/corosync.service
+drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root             1830 ./usr/bin/corosync-blackbox
+-rwxr-xr-x root       root           113248 ./usr/bin/corosync-qnetd
+-rwxr-xr-x root       root             6363 ./usr/bin/corosync-qnetd-certutil
+-rwxr-xr-x root       root            18400 ./usr/bin/corosync-qnetd-tool
+drwxr-xr-x root       root              360 ./usr/lib
+-rwxr-xr-x root       root            18384 ./usr/lib/libcfg.so.6.0.0
+lrwxrwxrwx root       root               15 ./usr/lib/libcfg.so.6 -> libcfg.so.6.0.0
+-rwxr-xr-x root       root            22544 ./usr/lib/libcmap.so.4.1.0
+lrwxrwxrwx root       root               16 ./usr/lib/libcmap.so.4 -> libcmap.so.4.1.0
+-rwxr-xr-x root       root            14088 ./usr/lib/libcorosync_common.so.4.0.0
+lrwxrwxrwx root       root               27 ./usr/lib/libcorosync_common.so.4 -> libcorosync_common.so.4.0.0
+-rwxr-xr-x root       root            26640 ./usr/lib/libcpg.so.4.1.0
+lrwxrwxrwx root       root               15 ./usr/lib/libcpg.so.4 -> libcpg.so.4.1.0
+-rwxr-xr-x root       root            14288 ./usr/lib/libquorum.so.5.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libquorum.so.5 -> libquorum.so.5.0.0
+-rwxr-xr-x root       root            26512 ./usr/lib/libsam.so.4.4.0
+lrwxrwxrwx root       root               15 ./usr/lib/libsam.so.4 -> libsam.so.4.4.0
+-rwxr-xr-x root       root           150856 ./usr/lib/libtotem_pg.so.5.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libtotem_pg.so.5 -> libtotem_pg.so.5.0.0
+-rwxr-xr-x root       root            18392 ./usr/lib/libvotequorum.so.8.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libvotequorum.so.8 -> libvotequorum.so.8.0.0
+drwxr-xr-x root       root              240 ./usr/sbin
+-rwxr-xr-x root       root           269504 ./usr/sbin/corosync
+-rwxr-xr-x root       root            14304 ./usr/sbin/corosync-cfgtool
+-rwxr-xr-x root       root            30896 ./usr/sbin/corosync-cmapctl
+-rwxr-xr-x root       root            14304 ./usr/sbin/corosync-cpgtool
+-rwxr-xr-x root       root            14440 ./usr/sbin/corosync-keygen
+-rwxr-xr-x root       root            38840 ./usr/sbin/corosync-notifyd
+-rwxr-xr-x root       root           222848 ./usr/sbin/corosync-qdevice
+-rwxr-xr-x root       root            11594 ./usr/sbin/corosync-qdevice-net-certutil
+-rwxr-xr-x root       root            18400 ./usr/sbin/corosync-qdevice-tool
+-rwxr-xr-x root       root            30720 ./usr/sbin/corosync-quorumtool
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              120 ./usr/share/corosync
+-rwxr-xr-x root       root             3272 ./usr/share/corosync/corosync
+-rwxr-xr-x root       root             2718 ./usr/share/corosync/corosync-notifyd
+-rwxr-xr-x root       root             3080 ./usr/share/corosync/corosync-qdevice
+-rwxr-xr-x root       root             3393 ./usr/share/corosync/corosync-qnetd
+drwxr-xr-x root       root              100 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x root       root               40 ./var/lib/corosync
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxr-xr-x root       root               40 ./var/volatile/log/cluster

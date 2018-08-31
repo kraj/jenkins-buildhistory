@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+22eefa3b53_71799edb8a
+PR = r0
+PKGV = 4.18.5+git0+22eefa3b53_71799edb8a
+PKGR = r0.1
+RPROVIDES = kernel-module-ebtable-nat
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-ebtables-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5752
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/net/bridge/netfilter/ebtable_nat.ko /etc/modules-load.d/ebtable_nat.conf /etc/modprobe.d/ebtable_nat.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/net/bridge/netfilter/ebtable_nat.ko

@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 4.18.5-yocto-standard
+else
+	depmodwrapper -a -b $D 4.18.5-yocto-standard
+fi
+

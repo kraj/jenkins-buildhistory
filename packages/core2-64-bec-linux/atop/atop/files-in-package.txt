@@ -1,0 +1,30 @@
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/cron.d
+-rw-r--r-- root       root               74 ./etc/cron.d/atop
+drwxr-xr-x root       root               80 ./etc/logrotate.d
+-rw-r--r-- root       root             1007 ./etc/logrotate.d/psaccs_atop
+-rw-r--r-- root       root              519 ./etc/logrotate.d/psaccu_atop
+drwxr-xr-x root       root               60 ./etc/tmpfiles.d
+-rw-r--r-- root       root               79 ./etc/tmpfiles.d/atop.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              227 ./lib/systemd/system/atop.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-sleep
+-rwxr-xr-x root       root              146 ./lib/systemd/system-sleep/atop-pm.sh
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root           246288 ./usr/bin/atop
+-rwxr-xr-x root       root           246288 ./usr/bin/atop-2.3.0
+lrwxrwxrwx root       root               10 ./usr/bin/atopsar-2.3.0 -> atop-2.3.0
+lrwxrwxrwx root       root                4 ./usr/bin/atopsar -> atop
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/atop
+-rwxr-xr-x root       root              856 ./usr/share/atop/atop.daily
+drwxr-xr-x root       root               80 ./var
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxr-xr-x root       root               80 ./var/volatile/log/atop
+-rw-r--r-- root       root                0 ./var/volatile/log/atop/dummy_after
+-rw-r--r-- root       root                0 ./var/volatile/log/atop/dummy_before
