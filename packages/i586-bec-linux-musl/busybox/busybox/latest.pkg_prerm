@@ -159,8 +159,10 @@ set -e
 	update-alternatives --remove  watch /bin/busybox.nosuid
 	update-alternatives --remove  ash /bin/busybox.nosuid
 	update-alternatives --remove  sh /bin/busybox.nosuid
+	update-alternatives --remove  klogd /bin/busybox.nosuid
 	update-alternatives --remove  logger /bin/busybox.nosuid
 	update-alternatives --remove  logread /bin/busybox.nosuid
+	update-alternatives --remove  syslogd /bin/busybox.nosuid
 	update-alternatives --remove  blkid /bin/busybox.nosuid
 	update-alternatives --remove  dmesg /bin/busybox.nosuid
 	update-alternatives --remove  fbset /bin/busybox.nosuid
@@ -169,6 +171,7 @@ set -e
 	update-alternatives --remove  fstrim /bin/busybox.nosuid
 	update-alternatives --remove  getopt /bin/busybox.nosuid
 	update-alternatives --remove  hexdump /bin/busybox.nosuid
+	update-alternatives --remove  hwclock /bin/busybox.nosuid
 	update-alternatives --remove  losetup /bin/busybox.nosuid
 	update-alternatives --remove  mesg /bin/busybox.nosuid
 	update-alternatives --remove  mkswap /bin/busybox.nosuid
@@ -181,6 +184,8 @@ set -e
 	update-alternatives --remove  swapoff /bin/busybox.nosuid
 	update-alternatives --remove  switch_root /bin/busybox.nosuid
 	update-alternatives --remove  umount /bin/busybox.nosuid
+	update-alternatives --remove  udhcpc /bin/busybox.nosuid
+	update-alternatives --remove  udhcpd /bin/busybox.nosuid
 	update-alternatives --remove  dumpleases /bin/busybox.nosuid
 	update-alternatives --remove  login /bin/busybox.suid
 	update-alternatives --remove  passwd /bin/busybox.suid

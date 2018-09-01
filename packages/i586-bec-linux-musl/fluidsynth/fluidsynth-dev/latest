@@ -1,9 +1,9 @@
 PV = 1.1.11
 PR = r0
 PKG = libfluidsynth-dev
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = fluidsynth-dev (=1.1.11)
-RDEPENDS = fluidsynth (= 1.1.11-r0.0)
+RDEPENDS = fluidsynth (= 1.1.11-r0.1)
 RRECOMMENDS = alsa-lib-dev dbus-lib-dev glib-2.0-dev libpulse-simple-dev libsndfile1-dev musl-dev ncurses-dev pulseaudio-dev readline-dev
 PKGSIZE = 88828
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fluidsynth/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
