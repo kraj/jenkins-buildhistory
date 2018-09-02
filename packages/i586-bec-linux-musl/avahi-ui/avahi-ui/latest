@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
 PKG = libavahi-ui-gtk3-0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = avahi-ui (=0.7)
-RDEPENDS = atk (>= 2.28.1) cairo (>= 1.14.12) cairo-gobject (>= 1.14.12) dbus-lib (>= 1.12.10) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.56.1) gtk+3 (>= 3.22.30) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libavahi-glib (>= 0.7) musl (>= 1.1.19+git0+767f7a1091) pango (>= 1.40.14)
+RDEPENDS = atk (>= 2.28.1) cairo (>= 1.14.12) cairo-gobject (>= 1.14.12) dbus-lib (>= 1.12.10) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.56.1) gtk+3 (>= 3.22.30) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libavahi-glib (>= 0.7) musl (>= 1.1.19+git1+cff4b910ab) pango (>= 1.40.14)
 RRECOMMENDS = 
 PKGSIZE = 50325
 FILES = /usr/lib/libavahi-ui*.so.* /usr/lib/girepository-*/*.typelib

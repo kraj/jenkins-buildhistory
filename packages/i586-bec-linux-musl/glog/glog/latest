@@ -1,9 +1,9 @@
 PV = 0.3.4
 PR = r0
 PKG = libglog0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = glog (=0.3.4)
-RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libunwind (>= 1.2.1) musl (>= 1.1.19+git0+767f7a1091)
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libunwind (>= 1.2.1) musl (>= 1.1.19+git1+cff4b910ab)
 RRECOMMENDS = 
 PKGSIZE = 132488
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/glog /usr/lib/glog/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

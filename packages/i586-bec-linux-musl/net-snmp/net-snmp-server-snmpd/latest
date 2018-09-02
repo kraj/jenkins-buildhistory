@@ -1,8 +1,8 @@
 PV = 5.8
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = net-snmp-server-snmpd-systemd
-RDEPENDS = musl (>= 1.1.19+git0+767f7a1091) net-snmp-libs (>= 5.8) net-snmp-mibs
+RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab) net-snmp-libs (>= 5.8) net-snmp-mibs
 RRECOMMENDS = 
 RREPLACES = net-snmp-server-snmpd-systemd
 RCONFLICTS = net-snmp-server-snmpd-systemd

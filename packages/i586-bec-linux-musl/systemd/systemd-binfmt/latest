@@ -1,9 +1,9 @@
 PE = 1
 PV = 239
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+767f7a1091) systemd (>= 239)
+RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab) systemd (>= 239)
 RRECOMMENDS = kernel-module-binfmt-misc
 PKGSIZE = 16259
 FILES = /etc/binfmt.d/ /usr/lib/binfmt.d /lib/systemd/systemd-binfmt /lib/systemd/system/proc-sys-fs-binfmt_misc.* /lib/systemd/system/systemd-binfmt.service /lib/systemd/system/systemd-binfmt.service

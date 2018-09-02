@@ -1,9 +1,9 @@
 PV = 1.1.1
 PR = r0
 PKG = libgpiod2
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libgpiod (=1.1.1)
-RDEPENDS = musl (>= 1.1.19+git0+767f7a1091)
+RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab)
 RRECOMMENDS = libgpiod-tools
 PKGSIZE = 33925
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgpiod /usr/lib/libgpiod/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

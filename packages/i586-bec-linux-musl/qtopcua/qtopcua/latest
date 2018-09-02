@@ -2,9 +2,9 @@ PV = 5.11.1+gitAUTOINC+f08a50d9d7
 PR = r0
 PKG = libqt5opcua5
 PKGV = 5.11.1+git0+f08a50d9d7
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = qtopcua (=5.11.1+git0+f08a50d9d7)
-RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.19+git0+767f7a1091) qtbase (>= 5.11.1+git0+74305ba470)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.19+git1+cff4b910ab) qtbase (>= 5.11.1+git0+74305ba470)
 RRECOMMENDS = qtopcua-plugins qtopcua-qmlplugins
 PKGSIZE = 202158
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtopcua /usr/lib/qtopcua/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

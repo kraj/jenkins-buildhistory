@@ -1,9 +1,9 @@
 PV = 1.67.0
 PR = r0
 PKG = libboost-thread1.67.0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = boost-thread (=1.67.0)
-RDEPENDS = boost-system (>= 1.67.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git0+767f7a1091)
+RDEPENDS = boost-system (>= 1.67.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git1+cff4b910ab)
 RRECOMMENDS = 
 PKGSIZE = 152928
 FILES = /usr/lib/libboost_thread*.so.*

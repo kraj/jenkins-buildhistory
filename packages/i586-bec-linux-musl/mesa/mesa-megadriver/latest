@@ -1,12 +1,12 @@
 PE = 2
 PV = 18.1.7
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = mesa-driver-i915 mesa-driver-i965 mesa-driver-kms-swrast mesa-driver-nouveau mesa-driver-nouveau-vieux mesa-driver-r200 mesa-driver-r300 mesa-driver-r600 mesa-driver-radeon mesa-driver-radeonsi mesa-driver-swrast mesa-driver-vmwgfx
-RDEPENDS = expat (>= 2.2.6) libdrm (>= 2.4.93) libdrm-amdgpu (>= 2.4.93) libdrm-intel (>= 2.4.93) libdrm-nouveau (>= 2.4.93) libdrm-radeon (>= 2.4.93) libelf (>= 0.173) libgcc (>= 8.2.0) libglapi (>= 18.1.7) libllvm6.0-llvm-6.0 (>= 6.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git0+767f7a1091) zlib (>= 1.2.11)
+RDEPENDS = expat (>= 2.2.6) libdrm (>= 2.4.93) libdrm-amdgpu (>= 2.4.93) libdrm-intel (>= 2.4.93) libdrm-nouveau (>= 2.4.93) libdrm-radeon (>= 2.4.93) libelf (>= 0.173) libgcc (>= 8.2.0) libglapi (>= 18.1.7) libllvm6.0-llvm-6.0 (>= 6.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git1+cff4b910ab) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = mesa-driver-i915 mesa-driver-i965 mesa-driver-kms-swrast mesa-driver-nouveau mesa-driver-nouveau-vieux mesa-driver-r200 mesa-driver-r300 mesa-driver-r600 mesa-driver-radeon mesa-driver-radeonsi mesa-driver-swrast mesa-driver-vmwgfx
 RCONFLICTS = mesa-driver-i915 mesa-driver-i965 mesa-driver-kms-swrast mesa-driver-nouveau mesa-driver-nouveau-vieux mesa-driver-r200 mesa-driver-r300 mesa-driver-r600 mesa-driver-radeon mesa-driver-radeonsi mesa-driver-swrast mesa-driver-vmwgfx
-PKGSIZE = 21148236
+PKGSIZE = 21148252
 FILES = /usr/lib/dri/*
 FILELIST = /usr/lib/dri/i915_dri.so /usr/lib/dri/i965_dri.so /usr/lib/dri/kms_swrast_dri.so /usr/lib/dri/nouveau_dri.so /usr/lib/dri/nouveau_vieux_dri.so /usr/lib/dri/r200_dri.so /usr/lib/dri/r300_dri.so /usr/lib/dri/r600_dri.so /usr/lib/dri/radeon_dri.so /usr/lib/dri/radeonsi_dri.so /usr/lib/dri/swrast_dri.so /usr/lib/dri/vmwgfx_dri.so

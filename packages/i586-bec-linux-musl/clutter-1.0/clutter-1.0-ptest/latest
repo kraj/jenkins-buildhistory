@@ -1,9 +1,9 @@
 PV = 1.26.2
 PR = r0
 PKG = libclutter-1.0-ptest
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = clutter-1.0-ptest (=1.26.2)
-RDEPENDS = clutter-1.0 (>= 1.26.2) glib-2.0 (>= 2.56.1) gnome-desktop-testing libcogl (>= 1.22.2) musl (>= 1.1.19+git0+767f7a1091) pango (>= 1.40.14)
+RDEPENDS = clutter-1.0 (>= 1.26.2) glib-2.0 (>= 2.56.1) gnome-desktop-testing libcogl (>= 1.22.2) musl (>= 1.1.19+git1+cff4b910ab) pango (>= 1.40.14)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 495387
 FILES = /usr/lib/clutter-1.0/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/

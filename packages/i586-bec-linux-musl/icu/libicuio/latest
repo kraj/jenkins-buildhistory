@@ -1,9 +1,9 @@
 PV = 62.1
 PR = r0
 PKG = libicuio62
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libicuio (=62.1)
-RDEPENDS = libgcc (>= 8.2.0) libicudata (>= 62.1) libicui18n (>= 62.1) libicuuc (>= 62.1) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git0+767f7a1091)
+RDEPENDS = libgcc (>= 8.2.0) libicudata (>= 62.1) libicui18n (>= 62.1) libicuuc (>= 62.1) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git1+cff4b910ab)
 RRECOMMENDS = 
 PKGSIZE = 62820
 FILES = /usr/lib/libicuio.so.*

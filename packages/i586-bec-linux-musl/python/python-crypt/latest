@@ -1,8 +1,8 @@
 PV = 2.7.15
 PR = r1
-PKGR = r1.1
+PKGR = r1.2
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1-pre9) libpython2 (>= 2.7.15) musl (>= 1.1.19+git0+767f7a1091) python-core
+RDEPENDS = libcrypto (>= 1.1.1-pre9) libpython2 (>= 2.7.15) musl (>= 1.1.19+git1+cff4b910ab) python-core
 RRECOMMENDS = openssl
 PKGSIZE = 53655
 FILES = /usr/lib/python2.7/hashlib.py /usr/lib/python2.7/hashlib.pyc /usr/lib/python2.7/lib-dynload/_hashlib.so /usr/lib/python2.7/lib-dynload/crypt.so /usr/lib/python2.7/md5.py /usr/lib/python2.7/md5.pyc /usr/lib/python2.7/sha.py /usr/lib/python2.7/sha.pyc
