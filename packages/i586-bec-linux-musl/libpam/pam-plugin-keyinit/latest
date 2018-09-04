@@ -1,8 +1,8 @@
 PV = 1.3.0
 PR = r5
-PKGR = r5.1
+PKGR = r5.2
 RPROVIDES = pam-plugin-keyinit-suffix
-RDEPENDS = libpam (>= 1.3.0) libpam-suffix musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = libpam (>= 1.3.0) libpam-suffix musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 13532
 FILES = /lib/security/pam_keyinit.so

@@ -1,9 +1,9 @@
 PV = 2.4.93
 PR = r0
 PKG = libkms1
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libdrm-kms (=2.4.93)
-RDEPENDS = libdrm (>= 2.4.93) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = libdrm (>= 2.4.93) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 17535
 FILES = /usr/lib/libkms*.so.*

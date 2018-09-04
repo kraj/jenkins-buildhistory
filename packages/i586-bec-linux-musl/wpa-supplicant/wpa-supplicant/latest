@@ -1,8 +1,8 @@
 PV = 2.6
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.12.10) gnutls (>= 3.6.3) libgcrypt (>= 1.8.3) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = dbus-lib (>= 1.12.10) gnutls (>= 3.6.3) libgcrypt (>= 1.8.3) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = wpa-supplicant-cli wpa-supplicant-passphrase
 PKGSIZE = 1511754
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/wpa-supplicant /usr/lib/wpa-supplicant/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services/* /lib/systemd/system/wpa_supplicant.service /lib/systemd/system/wpa_supplicant@.service /lib/systemd/system/wpa_supplicant-nl80211@.service /lib/systemd/system/wpa_supplicant-wired@.service

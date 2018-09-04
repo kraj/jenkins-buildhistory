@@ -1,9 +1,9 @@
 PV = 3.1.1
 PR = r0
 PKG = libgrail6
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = grail (=3.1.1)
-RDEPENDS = frame (>= 2.5.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = frame (>= 2.5.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 132513
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/grail /usr/lib/grail/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

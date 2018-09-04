@@ -1,9 +1,9 @@
 PV = 1.0.6
 PR = r0
 PKG = libesmtp6
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libesmtp (=1.0.6)
-RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 123729
 FILES = /usr/lib/lib*.so.* /usr/lib/esmtp-plugins/*.so

@@ -1,8 +1,8 @@
 PV = 4.4.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bind-libs (>= 9.11.4) dhcp-libs (>= 4.4.1) musl (>= 1.1.19+git1+cff4b910ab) shadow
+RDEPENDS = base-files base-passwd bind-libs (>= 9.11.4) dhcp-libs (>= 4.4.1) musl (>= 1.1.19+git2+64466094ed) shadow
 RRECOMMENDS = dhcp-server-config
 PKGSIZE = 505469
 FILES = /usr/sbin/dhcpd /etc/init.d/dhcp-server /lib/systemd/system/dhcpd.service /lib/systemd/system/dhcpd6.service

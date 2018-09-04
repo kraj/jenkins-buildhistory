@@ -1,9 +1,9 @@
 PV = 1.1.0
 PR = r0
 PKG = libmpc3
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libmpc (=1.1.0)
-RDEPENDS = gmp (>= 6.1.2) mpfr (>= 4.0.1) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = gmp (>= 6.1.2) mpfr (>= 4.0.1) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 124031
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmpc /usr/lib/libmpc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

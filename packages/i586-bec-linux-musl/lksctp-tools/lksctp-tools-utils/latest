@@ -1,11 +1,11 @@
-PV = 1.0.17+gitAUTOINC+736b91d340
+PV = 1.0.18+gitAUTOINC+1b077af62d
 PR = r0
 PKG = libsctp-utils
-PKGV = 1.0.17+git0+736b91d340
-PKGR = r0.1
-RPROVIDES = lksctp-tools-utils (=1.0.17+git0+736b91d340)
-RDEPENDS = lksctp-tools (>= 1.0.17+git0+736b91d340) musl (>= 1.1.19+git1+cff4b910ab)
+PKGV = 1.0.18+git0+1b077af62d
+PKGR = r0.0
+RPROVIDES = lksctp-tools-utils (=1.0.18+git0+1b077af62d)
+RDEPENDS = lksctp-tools (>= 1.0.18+git0+1b077af62d) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = kernel-module-sctp
-PKGSIZE = 124576
+PKGSIZE = 124593
 FILES = /usr/bin/*
 FILELIST = /usr/bin/checksctp /usr/bin/sctp_darn /usr/bin/sctp_status /usr/bin/sctp_test /usr/bin/withsctp

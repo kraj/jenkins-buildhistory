@@ -1,9 +1,9 @@
 PV = 6.1.2
 PR = r0
 PKG = libgmpxx4
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libgmpxx (=6.1.2)
-RDEPENDS = gmp (>= 6.1.2) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = gmp (>= 6.1.2) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 25957
 FILES = /usr/lib/libgmpxx.so.*

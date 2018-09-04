@@ -1,9 +1,9 @@
 PV = 1.0.22
 PR = r0
 PKG = libusb-1.0-ptest
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libusb1-ptest (=1.0.22)
-RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 13829
 FILES = /usr/lib/libusb1/ptest

@@ -1,9 +1,9 @@
 PV = 2.25
 PR = r0
 PKG = libcap2
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libcap (=2.25)
-RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 39382
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcap /usr/lib/libcap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/security/*.so

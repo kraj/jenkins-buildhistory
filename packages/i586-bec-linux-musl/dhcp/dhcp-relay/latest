@@ -1,8 +1,8 @@
 PV = 4.4.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = bind-libs (>= 9.11.4) dhcp-libs (>= 4.4.1) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = bind-libs (>= 9.11.4) dhcp-libs (>= 4.4.1) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 34522
 FILES = /usr/sbin/dhcrelay /etc/init.d/dhcp-relay /etc/default/dhcp-relay /lib/systemd/system/dhcrelay.service

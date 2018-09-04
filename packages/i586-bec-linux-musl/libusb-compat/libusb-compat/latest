@@ -2,9 +2,9 @@ PE = 1
 PV = 0.1.5
 PR = r0
 PKG = libusb-0.1-4
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libusb-compat (=0.1.5)
-RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 21639
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libusb-compat /usr/lib/libusb-compat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

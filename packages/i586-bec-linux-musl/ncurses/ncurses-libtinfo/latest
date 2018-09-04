@@ -1,9 +1,9 @@
 PV = 6.1+20180630
 PR = r0
 PKG = libtinfo5
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = ncurses-libtinfo (=6.1+20180630)
-RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = ncurses-terminfo-base
 RSUGGESTS = ncurses-terminfo
 PKGSIZE = 145091

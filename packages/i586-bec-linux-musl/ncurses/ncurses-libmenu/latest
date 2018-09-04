@@ -1,9 +1,9 @@
 PV = 6.1+20180630
 PR = r0
 PKG = libmenu5
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = ncurses-libmenu (=6.1+20180630)
-RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab) ncurses-libncurses (>= 6.1+20180630) ncurses-libtinfo (>= 6.1+20180630)
+RDEPENDS = musl (>= 1.1.19+git2+64466094ed) ncurses-libncurses (>= 6.1+20180630) ncurses-libtinfo (>= 6.1+20180630)
 RRECOMMENDS = 
 PKGSIZE = 38222
 FILES = /usr/lib/libmenu.so.5 /usr/lib/libmenu.so.5.9

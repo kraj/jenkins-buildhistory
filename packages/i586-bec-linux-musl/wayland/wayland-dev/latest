@@ -1,8 +1,8 @@
 PV = 1.15.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = expat (>= 2.2.6) libxml2 (>= 2.9.8) musl (>= 1.1.19+git1+cff4b910ab) wayland (= 1.15.0-r0.2)
+RDEPENDS = expat (>= 2.2.6) libxml2 (>= 2.9.8) musl (>= 1.1.19+git2+64466094ed) wayland (= 1.15.0-r0.3)
 RRECOMMENDS = expat-dev libffi-dev libxml2-dev musl-dev
 PKGSIZE = 553809
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wayland/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin /usr/share/wayland

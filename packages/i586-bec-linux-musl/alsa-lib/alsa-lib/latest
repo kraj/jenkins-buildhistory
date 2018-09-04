@@ -1,9 +1,9 @@
 PV = 1.1.6
 PR = r0
 PKG = libasound2
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = alsa-lib (=1.1.6) libasound
-RDEPENDS = alsa-conf musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = alsa-conf musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 RREPLACES = libasound
 RCONFLICTS = libasound

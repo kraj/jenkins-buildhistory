@@ -1,9 +1,9 @@
 PV = 4.0.2
 PR = r0
 PKG = libavcodec58
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libavcodec (=4.0.2)
-RDEPENDS = libavutil (>= 4.0.2) liblzma (>= 5.2.4) libswresample (>= 4.0.2) libtheora (>= 1.1.1) musl (>= 1.1.19+git1+cff4b910ab) x264 (>= r2854+git0+e9a5903edf) zlib (>= 1.2.11)
+RDEPENDS = libavutil (>= 4.0.2) liblzma (>= 5.2.4) libswresample (>= 4.0.2) libtheora (>= 1.1.1) musl (>= 1.1.19+git2+64466094ed) x264 (>= r2854+git0+e9a5903edf) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 15649219
 FILES = /usr/lib/libavcodec.so.*

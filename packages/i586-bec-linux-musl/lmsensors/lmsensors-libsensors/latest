@@ -1,9 +1,9 @@
 PV = 3.4.0
 PR = r0
 PKG = libsensors4
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = lmsensors-libsensors (=3.4.0)
-RDEPENDS = musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = lmsensors-config-libsensors
 PKGSIZE = 72890
 FILES = /usr/lib/libsensors.so.* /etc/sensors3.conf /etc/sensors.d

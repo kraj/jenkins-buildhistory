@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
 PKG = libavahi-gobject0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libavahi-gobject (=0.7)
-RDEPENDS = dbus-lib (>= 1.12.10) glib-2.0 (>= 2.56.1) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libavahi-glib (>= 0.7) musl (>= 1.1.19+git1+cff4b910ab)
+RDEPENDS = dbus-lib (>= 1.12.10) glib-2.0 (>= 2.56.1) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libavahi-glib (>= 0.7) musl (>= 1.1.19+git2+64466094ed)
 RRECOMMENDS = 
 PKGSIZE = 60329
 FILES = /usr/lib/libavahi-gobject.so.* /usr/lib/girepository-1.0/Avahi*.typelib

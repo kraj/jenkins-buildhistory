@@ -2,9 +2,9 @@ PE = 1
 PV = 2.56.1
 PR = r0
 PKG = libglib-2.0-ptest
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = glib-2.0-ptest (=2.56.1)
-RDEPENDS = dbus dbus-lib (>= 1.12.10) glib-2.0 (>= 2.56.1) gnome-desktop-testing libffi (>= 3.2.1) libpcre (>= 8.42) musl (>= 1.1.19+git1+cff4b910ab) shared-mime-info tzdata tzdata-americas tzdata-asia tzdata-europe tzdata-posix util-linux-libmount (>= 2.32.1) zlib (>= 1.2.11)
+RDEPENDS = dbus dbus-lib (>= 1.12.10) glib-2.0 (>= 2.56.1) gnome-desktop-testing libffi (>= 3.2.1) libpcre (>= 8.42) musl (>= 1.1.19+git2+64466094ed) shared-mime-info tzdata tzdata-americas tzdata-asia tzdata-europe tzdata-posix util-linux-libmount (>= 2.32.1) zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 7195774
 FILES = /usr/lib/glib-2.0/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/

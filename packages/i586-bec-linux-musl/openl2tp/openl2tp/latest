@@ -1,8 +1,8 @@
 PV = 1.8
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash flex-libfl (>= 2.6.0) libtirpc (>= 1.0.3) musl (>= 1.1.19+git1+cff4b910ab) ppp ppp-l2tp readline (>= 7.0)
+RDEPENDS = bash flex-libfl (>= 2.6.0) libtirpc (>= 1.0.3) musl (>= 1.1.19+git2+64466094ed) ppp ppp-l2tp readline (>= 7.0)
 RRECOMMENDS = 
 PKGSIZE = 719308
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openl2tp /usr/lib/openl2tp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/openl2tpd.service
