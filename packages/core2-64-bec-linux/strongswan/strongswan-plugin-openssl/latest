@@ -1,8 +1,8 @@
 PV = 5.6.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1-pre9) strongswan
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1~pre9) strongswan
 RRECOMMENDS = 
 PKGSIZE = 100093
 FILES = /usr/lib/ipsec/plugins/libstrongswan-openssl.so /etc/strongswan.d/charon/openssl.conf
