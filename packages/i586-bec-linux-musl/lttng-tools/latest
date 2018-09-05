@@ -1,5 +1,5 @@
 PV = 2.9.5
 PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native liburcu libxml2 pkgconfig-native popt shadow shadow-native shadow-sysroot util-linux virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native liburcu libxml2 pkgconfig-native popt shadow shadow-native shadow-sysroot systemd-systemctl-native util-linux virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
 PACKAGES = lttng-tools-ptest lttng-tools-dbg lttng-tools-staticdev lttng-tools-dev lttng-tools-doc lttng-tools-locale lttng-tools
 LAYER = core

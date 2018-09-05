@@ -1,0 +1,10 @@
+PV = 1.0.3
+PR = r0
+PKG = liboauth0
+PKGR = r0.0
+RPROVIDES = liboauth (=1.0.3)
+RDEPENDS = libcrypto10 (>= 1.0.2p) libcurl (>= 7.61.0) musl (>= 1.1.19+git2+64466094ed)
+RRECOMMENDS = 
+PKGSIZE = 38129
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/liboauth /usr/lib/liboauth/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/liboauth.so.0 /usr/lib/liboauth.so.0.8.7

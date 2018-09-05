@@ -1,0 +1,5 @@
+PV = 2.1.27
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd db gnu-config-native groff-native libpam libtool-cross libtool-native openssl pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = cyrus-sasl-bin cyrus-sasl-dbg cyrus-sasl-staticdev cyrus-sasl-dev cyrus-sasl-doc cyrus-sasl-locale cyrus-sasl
+LAYER = networking-layer
