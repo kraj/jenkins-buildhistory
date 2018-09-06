@@ -1,5 +1,5 @@
-PV = 4.19.8
+PV = 4.19.12
 PR = r0
-DEPENDS = python virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+DEPENDS = python python-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
 PACKAGES = sip-dbg sip-staticdev sip-dev sip-doc sip-locale sip python-sip
 LAYER = openembedded-layer

@@ -1,9 +1,9 @@
 PV = 1.9
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1-pre9) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libcrypto (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 223056
+PKGSIZE = 155720
 FILES = /usr/bin/*
 FILELIST = /usr/bin/async_cipher /usr/bin/async_hmac /usr/bin/async_speed /usr/bin/cipher /usr/bin/cipher-aead /usr/bin/cipher-aead-srtp /usr/bin/cipher-gcm /usr/bin/cipher_comp /usr/bin/fullspeed /usr/bin/hash_comp /usr/bin/hashcrypt_speed /usr/bin/hmac /usr/bin/hmac_comp /usr/bin/sha_speed /usr/bin/speed

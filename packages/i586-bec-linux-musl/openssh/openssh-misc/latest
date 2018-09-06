@@ -1,9 +1,9 @@
 PV = 7.8p1
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libcrypto10 (>= 1.0.2p) musl (>= 1.1.19+git2+64466094ed) zlib (>= 1.2.11)
+RDEPENDS = libcrypto10 (>= 1.0.2p) musl (>= 1.1.20+git0+0fa1e638e8) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1992306
+PKGSIZE = 1972866
 FILES = /usr/bin/ssh* /usr/libexec/ssh*
 FILELIST = /usr/bin/ssh-add /usr/bin/ssh-agent /usr/bin/ssh-copy-id /usr/bin/ssh-keyscan /usr/libexec/ssh-keysign /usr/libexec/ssh-pkcs11-helper

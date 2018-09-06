@@ -1,10 +1,10 @@
 PV = 4.0.1
 PR = r0
 PKG = libmpfr6
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = mpfr (=4.0.1)
-RDEPENDS = gmp (>= 6.1.2) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = gmp (>= 6.1.2) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 2858940
+PKGSIZE = 2855056
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpfr /usr/lib/mpfr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libmpfr.so.6 /usr/lib/libmpfr.so.6.0.1

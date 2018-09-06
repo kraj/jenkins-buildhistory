@@ -1,10 +1,10 @@
 PV = 1.8.8
 PR = r0
 PKG = libharfbuzz-bin
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = harfbuzz-bin (=1.8.8)
-RDEPENDS = cairo (>= 1.14.12) freetype (>= 2.9.1) glib-2.0 (>= 2.56.1) harfbuzz (>= 1.8.8) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = cairo (>= 1.14.12) freetype (>= 2.9.1) glib-2.0 (>= 2.56.1) harfbuzz (>= 1.8.8) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 193456
+PKGSIZE = 169504
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/hb-ot-shape-closure /usr/bin/hb-shape /usr/bin/hb-subset /usr/bin/hb-view

@@ -1,10 +1,10 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed) update-alternatives-opkg xinetd
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) update-alternatives-opkg xinetd
 RRECOMMENDS = 
 RCONFLICTS = netkit-tftpd
-PKGSIZE = 75974
+PKGSIZE = 72034
 FILES = /usr/sbin/in.tftpd /etc/xinetd.d/tftpd
 FILELIST = /etc/xinetd.d/tftpd /usr/sbin/in.tftpd

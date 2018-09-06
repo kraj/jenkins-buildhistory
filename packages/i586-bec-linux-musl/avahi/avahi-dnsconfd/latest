@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libavahi-common (>= 0.7) libdaemon (>= 0.14) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libavahi-common (>= 0.7) libdaemon (>= 0.14) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 25439
+PKGSIZE = 21499
 FILES = /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /lib/systemd/system/avahi-dnsconfd.service /lib/systemd/system/avahi-daemon.socket /lib/systemd/system/avahi-daemon.service
 FILELIST = /etc/avahi/avahi-dnsconfd.action /lib/systemd/system/avahi-dnsconfd.service /usr/sbin/avahi-dnsconfd

@@ -1,10 +1,10 @@
 PV = 2.4.93
 PR = r0
 PKG = libdrm-omap1
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libdrm-omap (=2.4.93)
-RDEPENDS = libdrm (>= 2.4.93) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libdrm (>= 2.4.93) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 13404
+PKGSIZE = 9460
 FILES = /usr/lib/libdrm_omap.so.*
 FILELIST = /usr/lib/libdrm_omap.so.1 /usr/lib/libdrm_omap.so.1.0.0

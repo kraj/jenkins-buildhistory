@@ -1,9 +1,9 @@
 PV = 1.6.4
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = libdw (>= 0.173) libelf (>= 0.173) musl (>= 1.1.19+git2+64466094ed) zlib (>= 1.2.11)
+RDEPENDS = libdw (>= 0.173) libelf (>= 0.173) musl (>= 1.1.20+git0+0fa1e638e8) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 461762
+PKGSIZE = 457818
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/makedumpfile /usr/lib/makedumpfile/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/makedumpfile.conf.sample /usr/bin/makedumpfile

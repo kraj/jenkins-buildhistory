@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.56.1) gtk+3 (>= 3.22.30) libavahi-common (>= 0.7) libavahi-core (>= 0.7) libavahi-glib (>= 0.7) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = glib-2.0 (>= 2.56.1) gtk+3 (>= 3.22.30) libavahi-common (>= 0.7) libavahi-core (>= 0.7) libavahi-glib (>= 0.7) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 21681
+PKGSIZE = 17737
 FILES = /usr/share/applications/avahi-discover.desktop /usr/share/avahi/interfaces/avahi-discover.ui /usr/bin/avahi-discover-standalone
 FILELIST = /usr/bin/avahi-discover-standalone /usr/share/avahi/interfaces/avahi-discover.ui

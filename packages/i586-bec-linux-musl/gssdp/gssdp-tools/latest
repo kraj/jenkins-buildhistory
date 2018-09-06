@@ -1,10 +1,10 @@
 PV = 1.0.2
 PR = r0
 PKG = libgssdp-1.0-tools
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = gssdp-tools (=1.0.2)
-RDEPENDS = glib-2.0 (>= 2.56.1) gssdp (>= 1.0.2) gtk+3 (>= 3.22.30) libsoup-2.4 (>= 2.62.2) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = glib-2.0 (>= 2.56.1) gssdp (>= 1.0.2) gtk+3 (>= 3.22.30) libsoup-2.4 (>= 2.62.2) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 25864
+PKGSIZE = 21920
 FILES = /usr/bin/gssdp* /usr/share/gssdp/*.glade
 FILELIST = /usr/bin/gssdp-device-sniffer

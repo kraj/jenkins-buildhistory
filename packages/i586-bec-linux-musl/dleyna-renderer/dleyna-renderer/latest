@@ -1,9 +1,9 @@
 PV = 0.6.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = dleyna-connector-dbus dleyna-core (>= 0.6.0) glib-2.0 (>= 2.56.1) gssdp (>= 1.0.2) gupnp (>= 1.0.2) gupnp-av (>= 0.12.10) gupnp-dlna (>= 0.10.5) libsoup-2.4 (>= 2.62.2) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = dleyna-connector-dbus dleyna-core (>= 0.6.0) glib-2.0 (>= 2.56.1) gssdp (>= 1.0.2) gupnp (>= 1.0.2) gupnp-av (>= 0.12.10) gupnp-dlna (>= 0.10.5) libsoup-2.4 (>= 2.62.2) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 126680
+PKGSIZE = 110604
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dleyna-renderer /usr/lib/dleyna-renderer/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1
 FILELIST = /etc/dleyna-renderer-service.conf /usr/lib/dleyna-renderer/libdleyna-renderer-1.0.so.1 /usr/lib/dleyna-renderer/libdleyna-renderer-1.0.so.1.0.3 /usr/libexec/dleyna-renderer-service /usr/share/dbus-1/services/com.intel.dleyna-renderer.service

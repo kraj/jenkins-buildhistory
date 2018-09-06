@@ -1,11 +1,11 @@
 PV = 4.2.8p12
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = ntp-bin
-RDEPENDS = libcrypto (>= 1.1.1-pre9) musl (>= 1.1.19+git2+64466094ed) perl
+RDEPENDS = libcrypto (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8) perl
 RRECOMMENDS = 
 RREPLACES = ntp-bin
 RCONFLICTS = ntp-bin
-PKGSIZE = 918144
+PKGSIZE = 906324
 FILES = /usr/sbin /usr/share/ntp/lib
 FILELIST = /usr/sbin/calc_tickadj /usr/sbin/ntp-keygen /usr/sbin/ntp-wait /usr/sbin/ntpdc /usr/sbin/ntpq /usr/sbin/ntptrace /usr/share/ntp/lib/NTP/Util.pm

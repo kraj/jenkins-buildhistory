@@ -8,6 +8,8 @@ set -e
 	update-alternatives --remove  gprof /usr/bin/i586-bec-linux-musl-gprof
 	update-alternatives --remove  ld /usr/bin/i586-bec-linux-musl-ld
 	update-alternatives --remove  ld.bfd /usr/bin/i586-bec-linux-musl-ld.bfd
+	update-alternatives --remove  ld.gold /usr/bin/i586-bec-linux-musl-ld.gold
+	update-alternatives --remove  dwp /usr/bin/i586-bec-linux-musl-dwp
 	update-alternatives --remove  nm /usr/bin/i586-bec-linux-musl-nm
 	update-alternatives --remove  objcopy /usr/bin/i586-bec-linux-musl-objcopy
 	update-alternatives --remove  objdump /usr/bin/i586-bec-linux-musl-objdump

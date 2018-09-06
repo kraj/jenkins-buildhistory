@@ -1,10 +1,10 @@
 PV = 2.36.11
 PR = r0
 PKG = libgdk-pixbuf-2.0-loader-xpm
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = gdk-pixbuf-loader-xpm (=2.36.11)
-RDEPENDS = gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.56.1) libpng (>= 1.6.35) musl (>= 1.1.19+git2+64466094ed) zlib (>= 1.2.11)
+RDEPENDS = gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.56.1) libpng (>= 1.6.35) musl (>= 1.1.20+git0+0fa1e638e8) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 29888
+PKGSIZE = 25948
 FILES = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so
 FILELIST = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so

@@ -1,10 +1,10 @@
 PV = 1.67.0
 PR = r0
 PKG = libboost-container1.67.0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = boost-container (=1.67.0)
-RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 87404
+PKGSIZE = 87612
 FILES = /usr/lib/libboost_container*.so.*
 FILELIST = /usr/lib/libboost_container.so.1.67.0

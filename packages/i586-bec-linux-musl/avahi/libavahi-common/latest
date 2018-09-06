@@ -1,10 +1,10 @@
 PV = 0.7
 PR = r0
 PKG = libavahi-common3
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libavahi-common (=0.7)
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 54664
+PKGSIZE = 50720
 FILES = /usr/lib/libavahi-common.so.*
 FILELIST = /usr/lib/libavahi-common.so.3 /usr/lib/libavahi-common.so.3.5.3

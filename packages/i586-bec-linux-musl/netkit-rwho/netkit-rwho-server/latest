@@ -1,9 +1,9 @@
 PV = 0.17
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = base-files base-passwd musl (>= 1.1.19+git2+64466094ed) shadow
+RDEPENDS = base-files base-passwd musl (>= 1.1.20+git0+0fa1e638e8) shadow
 RRECOMMENDS = 
-PKGSIZE = 19116
+PKGSIZE = 19268
 FILES = /usr/sbin/* /var /etc/default/* /etc/init.d/*
 FILELIST = /etc/default/rwhod /etc/init.d/rwhod /usr/sbin/rwhod

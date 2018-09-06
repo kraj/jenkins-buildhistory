@@ -1,9 +1,9 @@
 PV = 4.8.4
 PR = r0
 PKG = libdcerpc-samr0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libdcerpc-samr (=4.8.4)
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed) samba-common
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) samba-common
 RRECOMMENDS = 
 PKGSIZE = 13419
 FILES = /usr/lib/libdcerpc-samr.so.0 /usr/lib/libdcerpc-samr.so.0.0.1

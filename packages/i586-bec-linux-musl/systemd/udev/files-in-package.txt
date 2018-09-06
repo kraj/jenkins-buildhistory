@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./bin
--rwxr-xr-x root       root           665284 ./bin/udevadm
+-rwxr-xr-x root       root           673688 ./bin/udevadm
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              100 ./etc/udev
 drwxr-xr-x root       root               40 ./etc/udev/hwdb.d
@@ -9,7 +9,7 @@ drwxr-xr-x root       root               60 ./etc/udev/rules.d
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              200 ./lib/systemd/system
--rwxr-xr-x root       root           677580 ./lib/systemd/systemd-udevd
+-rwxr-xr-x root       root           685984 ./lib/systemd/systemd-udevd
 -rw-r--r-- root       root              704 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
 drwxr-xr-x root       root               80 ./lib/systemd/system/sockets.target.wants
 lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
@@ -23,10 +23,10 @@ lrwxrwxrwx root       root               31 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              863 ./lib/systemd/system/systemd-udev-settle.service
 -rw-r--r-- root       root              763 ./lib/systemd/system/systemd-udev-trigger.service
 drwxr-xr-x root       root              180 ./lib/udev
--rwxr-xr-x root       root            62752 ./lib/udev/ata_id
--rwxr-xr-x root       root            79140 ./lib/udev/cdrom_id
--rwxr-xr-x root       root            62756 ./lib/udev/collect
--rwxr-xr-x root       root            25784 ./lib/udev/mtd_probe
+-rwxr-xr-x root       root            71212 ./lib/udev/ata_id
+-rwxr-xr-x root       root            83504 ./lib/udev/cdrom_id
+-rwxr-xr-x root       root            67120 ./lib/udev/collect
+-rwxr-xr-x root       root            30200 ./lib/udev/mtd_probe
 drwxr-xr-x root       root              600 ./lib/udev/rules.d
 -rw-r--r-- root       root             3679 ./lib/udev/rules.d/50-udev-default.rules
 -rw-r--r-- root       root              624 ./lib/udev/rules.d/60-block.rules
@@ -56,8 +56,8 @@ drwxr-xr-x root       root              600 ./lib/udev/rules.d
 -rw-r--r-- root       root              292 ./lib/udev/rules.d/80-net-setup-link.rules
 -rw-r--r-- root       root              506 ./lib/udev/rules.d/90-vconsole.rules
 -rw-r--r-- root       root             4363 ./lib/udev/rules.d/99-systemd.rules
--rwxr-xr-x root       root            75580 ./lib/udev/scsi_id
--rwxr-xr-x root       root            25836 ./lib/udev/v4l_id
+-rwxr-xr-x root       root            84040 ./lib/udev/scsi_id
+-rwxr-xr-x root       root            30196 ./lib/udev/v4l_id
 drwxr-xr-x root       root               60 ./sbin
 lrwxrwxrwx root       root               26 ./sbin/udevd -> /lib/systemd/systemd-udevd
 drwxr-xr-x root       root               60 ./usr

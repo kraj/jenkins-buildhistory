@@ -1,9 +1,9 @@
 PV = 0.98
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1-pre9) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libcrypto (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 468660
+PKGSIZE = 457040
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/open-isns /usr/lib/open-isns/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /lib/systemd
 FILELIST = /etc/isns/isnsadm.conf /etc/isns/isnsd.conf /etc/isns/isnsdd.conf /lib/systemd/system/isnsd.service /lib/systemd/system/isnsd.socket /usr/lib/libisns.so.0 /usr/sbin/isnsadm /usr/sbin/isnsd /usr/sbin/isnsdd

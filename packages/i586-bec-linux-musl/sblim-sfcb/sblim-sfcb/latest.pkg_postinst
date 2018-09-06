@@ -1,12 +1,6 @@
 set -e
-    OPTS=""
-
     if [ x"$D" != "x" ]; then
-        OPTS="--root=$D"
-        if type systemctl >/dev/null 2>/dev/null; then
-                systemctl $OPTS enable ${SYSTEMD_SERVICE}
-        fi
-        exit 1
+        $INTERCEPT_DIR/postinst_intercept delay_to_first_boot ${PKG} mlprefix=
     fi
 
     /usr/share/sfcb/genSslCert.sh /etc/sfcb

@@ -1,10 +1,10 @@
 PV = 3.2p2
 PR = r0
 PKG = libowcapi-3.2-2
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libowcapi (=3.2p2)
-RDEPENDS = libow (>= 3.2p2) libusb1 (>= 1.0.22) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libow (>= 3.2p2) libusb1 (>= 1.0.22) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 13406
+PKGSIZE = 9462
 FILES = /usr/lib/libowcapi-*
 FILELIST = /usr/lib/libowcapi-3.2.so.2 /usr/lib/libowcapi-3.2.so.2.0.0

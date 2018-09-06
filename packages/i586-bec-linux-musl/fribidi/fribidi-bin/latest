@@ -1,10 +1,10 @@
 PV = 0.19.7
 PR = r0
 PKG = libfribidi-bin
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = fribidi-bin (=0.19.7)
-RDEPENDS = fribidi (>= 0.19.7) glib-2.0 (>= 2.56.1) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = fribidi (>= 0.19.7) glib-2.0 (>= 2.56.1) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 26224
+PKGSIZE = 22280
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/fribidi

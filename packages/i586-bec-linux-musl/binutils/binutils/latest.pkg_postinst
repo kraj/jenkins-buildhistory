@@ -8,6 +8,8 @@ set -e
 	update-alternatives --install /usr/bin/gprof gprof /usr/bin/i586-bec-linux-musl-gprof 100
 	update-alternatives --install /usr/bin/ld ld /usr/bin/i586-bec-linux-musl-ld 100
 	update-alternatives --install /usr/bin/ld.bfd ld.bfd /usr/bin/i586-bec-linux-musl-ld.bfd 100
+	update-alternatives --install /usr/bin/ld.gold ld.gold /usr/bin/i586-bec-linux-musl-ld.gold 100
+	update-alternatives --install /usr/bin/dwp dwp /usr/bin/i586-bec-linux-musl-dwp 100
 	update-alternatives --install /usr/bin/nm nm /usr/bin/i586-bec-linux-musl-nm 100
 	update-alternatives --install /usr/bin/objcopy objcopy /usr/bin/i586-bec-linux-musl-objcopy 100
 	update-alternatives --install /usr/bin/objdump objdump /usr/bin/i586-bec-linux-musl-objdump 100

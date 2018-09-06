@@ -4,8 +4,6 @@ set -e
 		/etc/init.d/syslog stop || :
 	fi
 	fi
-	update-alternatives --remove  klogd /sbin/klogd.sysklogd
-	update-alternatives --remove  syslogd /sbin/syslogd.sysklogd
 OPTS=""
 
 if [ -n "$D" ]; then

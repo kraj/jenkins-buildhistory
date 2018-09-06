@@ -1,9 +1,9 @@
 PV = 9.5.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = bash musl (>= 1.1.19+git2+64466094ed) perl-module-constant perl-module-exporter perl-module-exporter-heavy perl-module-getopt-long perl-module-overloading
+RDEPENDS = bash musl (>= 1.1.20+git0+0fa1e638e8) perl-module-constant perl-module-exporter perl-module-exporter-heavy perl-module-getopt-long perl-module-overloading
 RRECOMMENDS = 
-PKGSIZE = 1260941
+PKGSIZE = 1233413
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/drbd-utils /usr/lib/drbd-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /run /lib/drbd /usr/lib/drbd /usr/lib/tmpfiles.d /lib/systemd/system/drbd.service
 FILELIST = /etc/drbd.conf /etc/drbd.d/global_common.conf /etc/ha.d/resource.d/drbddisk /etc/ha.d/resource.d/drbdupper /etc/xen/scripts/block-drbd /lib/drbd/drbd /lib/drbd/drbdadm-83 /lib/drbd/drbdadm-84 /lib/drbd/drbdsetup-83 /lib/drbd/drbdsetup-84 /lib/systemd/system/drbd.service /lib/udev/rules.d/65-drbd.rules /usr/lib/drbd/notify-emergency-reboot.sh /usr/lib/drbd/notify-emergency-shutdown.sh /usr/lib/drbd/notify-io-error.sh /usr/lib/drbd/notify-out-of-sync.sh /usr/lib/drbd/notify-pri-lost-after-sb.sh /usr/lib/drbd/notify-pri-lost.sh /usr/lib/drbd/notify-pri-on-incon-degr.sh /usr/lib/drbd/notify-split-brain.sh /usr/lib/drbd/notify.sh /usr/lib/drbd/outdate-peer.sh /usr/lib/drbd/snapshot-resync-target-lvm.sh /usr/lib/drbd/stonith_admin-fence-peer.sh /usr/lib/drbd/unsnapshot-resync-target-lvm.sh /usr/lib/tmpfiles.d/drbd.conf /usr/sbin/drbd-overview /usr/sbin/drbdadm /usr/sbin/drbdmeta /usr/sbin/drbdsetup

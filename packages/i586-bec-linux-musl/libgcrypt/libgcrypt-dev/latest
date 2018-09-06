@@ -1,9 +1,9 @@
 PV = 1.8.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = libgcrypt (= 1.8.3-r0.3) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libgcrypt (= 1.8.3-r0.4) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = libcap-dev libgpg-error-dev musl-dev
-PKGSIZE = 92708
+PKGSIZE = 88764
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgcrypt/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config /usr/bin/hmac256
 FILELIST = /usr/bin/hmac256 /usr/bin/libgcrypt-config /usr/include/gcrypt.h /usr/lib/libgcrypt.so /usr/lib/pkgconfig/libgcrypt.pc /usr/share/aclocal/libgcrypt.m4

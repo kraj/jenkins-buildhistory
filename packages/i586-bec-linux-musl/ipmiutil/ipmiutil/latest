@@ -1,9 +1,9 @@
 PV = 3.0.5
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1-pre9) musl (>= 1.1.19+git2+64466094ed) openssl
+RDEPENDS = libcrypto (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8) openssl
 RRECOMMENDS = 
-PKGSIZE = 1176833
+PKGSIZE = 1157125
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ipmiutil /usr/lib/ipmiutil/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/idiscover /usr/bin/ievents /usr/bin/ipmiutil /usr/sbin/ialarms /usr/sbin/icmd /usr/sbin/iconfig /usr/sbin/ifirewall /usr/sbin/ifru /usr/sbin/ifwum /usr/sbin/igetevent /usr/sbin/ihealth /usr/sbin/ihpm /usr/sbin/ilan /usr/sbin/ipicmg /usr/sbin/ipmi_port /usr/sbin/ireset /usr/sbin/isel /usr/sbin/iseltime /usr/sbin/isensor /usr/sbin/iserial /usr/sbin/isol /usr/sbin/iuser /usr/sbin/iwdt /usr/share/ipmiutil/bmclanpet.mib /usr/share/ipmiutil/checksel /usr/share/ipmiutil/evt.sh /usr/share/ipmiutil/ipmi.init.basic /usr/share/ipmiutil/ipmi_if.sh /usr/share/ipmiutil/ipmi_info /usr/share/ipmiutil/ipmi_port /usr/share/ipmiutil/ipmi_port.service /usr/share/ipmiutil/ipmiutil.env /usr/share/ipmiutil/ipmiutil.pre /usr/share/ipmiutil/ipmiutil.setup /usr/share/ipmiutil/ipmiutil_asy /usr/share/ipmiutil/ipmiutil_asy.service /usr/share/ipmiutil/ipmiutil_evt /usr/share/ipmiutil/ipmiutil_evt.service /usr/share/ipmiutil/ipmiutil_wdt /usr/share/ipmiutil/ipmiutil_wdt.service

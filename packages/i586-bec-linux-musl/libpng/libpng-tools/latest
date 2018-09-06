@@ -1,10 +1,10 @@
 PV = 1.6.35
 PR = r0
 PKG = libpng16-tools
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libpng-tools (=1.6.35)
-RDEPENDS = libpng (>= 1.6.35) musl (>= 1.1.19+git2+64466094ed) zlib (>= 1.2.11)
+RDEPENDS = libpng (>= 1.6.35) musl (>= 1.1.20+git0+0fa1e638e8) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 59828
+PKGSIZE = 51944
 FILES = /usr/bin/png-fix-itxt /usr/bin/pngfix /usr/bin/pngcp
 FILELIST = /usr/bin/png-fix-itxt /usr/bin/pngfix

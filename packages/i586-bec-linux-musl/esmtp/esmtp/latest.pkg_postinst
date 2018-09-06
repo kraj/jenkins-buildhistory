@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
+	update-alternatives --install /usr/sbin/sendmail sendmail /usr/bin/esmtp 10
 	update-alternatives --install /usr/bin/mailq mailq /usr/bin/mailq.esmtp 10
 	update-alternatives --install /usr/bin/newaliases newaliases /usr/bin/newaliases.esmtp 10

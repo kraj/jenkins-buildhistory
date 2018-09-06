@@ -1,9 +1,9 @@
-PV = 1.8
+PV = 2.0.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libplist (>= 1.8) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libplist (>= 2.0.0) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 13478
+PKGSIZE = 9524
 FILES = /usr/bin/*
-FILELIST = /usr/bin/plutil /usr/bin/plutil-1.8
+FILELIST = /usr/bin/plistutil

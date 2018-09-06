@@ -1,9 +1,9 @@
 PV = 0.2
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = gconf (>= 3.2.6) glib-2.0 (>= 2.56.1) gtk+3 (>= 3.22.30) musl (>= 1.1.19+git2+64466094ed) settings-daemon
+RDEPENDS = gconf (>= 3.2.6) glib-2.0 (>= 2.56.1) gtk+3 (>= 3.22.30) musl (>= 1.1.20+git0+0fa1e638e8) settings-daemon
 RRECOMMENDS = 
-PKGSIZE = 21903
+PKGSIZE = 17959
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/matchbox-config-gtk /usr/lib/matchbox-config-gtk/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/matchbox-appearance /usr/share/applications/mb-appearance.desktop

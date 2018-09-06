@@ -1,9 +1,9 @@
 PV = 1.3.0
 PR = r5
-PKGR = r5.3
+PKGR = r5.4
 RPROVIDES = libpam-suffix
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = libpam-runtime-suffix
-PKGSIZE = 94038
+PKGSIZE = 86306
 FILES = /lib/lib*.so.*
 FILELIST = /lib/libpam.so.0 /lib/libpam.so.0.84.2 /lib/libpam_misc.so.0 /lib/libpam_misc.so.0.82.1 /lib/libpamc.so.0 /lib/libpamc.so.0.82.1

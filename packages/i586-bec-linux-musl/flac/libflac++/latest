@@ -1,10 +1,10 @@
 PV = 1.3.2
 PR = r0
 PKG = libflac++6
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libflac++ (=1.3.2)
-RDEPENDS = libflac (>= 1.3.2) libgcc (>= 8.2.0) libogg (>= 1.3.3) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libflac (>= 1.3.2) libgcc (>= 8.2.0) libogg (>= 1.3.3) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 103782
+PKGSIZE = 99894
 FILES = /usr/lib/libFLAC++.so.*
 FILELIST = /usr/lib/libFLAC++.so.6 /usr/lib/libFLAC++.so.6.3.0

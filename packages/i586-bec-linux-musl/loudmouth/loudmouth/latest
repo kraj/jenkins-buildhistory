@@ -1,10 +1,10 @@
 PV = 1.4.3
 PR = r2
 PKG = libloudmouth-1-0
-PKGR = r2.4
+PKGR = r2.5
 RPROVIDES = loudmouth (=1.4.3)
-RDEPENDS = glib-2.0 (>= 2.56.1) libcrypto (>= 1.1.1-pre9) libidn (>= 1.35) libssl (>= 1.1.1-pre9) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = glib-2.0 (>= 2.56.1) libcrypto (>= 1.1.1~pre9) libidn (>= 1.35) libssl (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 124235
+PKGSIZE = 116255
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/loudmouth /usr/lib/loudmouth/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/share/appdata /usr/share/icons
 FILELIST = /usr/lib/libloudmouth-1.so.0 /usr/lib/libloudmouth-1.so.0.1.0

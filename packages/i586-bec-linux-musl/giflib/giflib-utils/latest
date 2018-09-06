@@ -1,10 +1,10 @@
 PV = 5.1.4
 PR = r0
 PKG = libgif-utils
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = giflib-utils (=5.1.4)
-RDEPENDS = giflib (>= 5.1.4) musl (>= 1.1.19+git2+64466094ed) perl
+RDEPENDS = giflib (>= 5.1.4) musl (>= 1.1.20+git0+0fa1e638e8) perl
 RRECOMMENDS = 
-PKGSIZE = 165372
+PKGSIZE = 133824
 FILES = /usr/bin
 FILELIST = /usr/bin/gif2rgb /usr/bin/gifbuild /usr/bin/gifclrmp /usr/bin/gifecho /usr/bin/giffix /usr/bin/gifinto /usr/bin/giftext /usr/bin/giftool

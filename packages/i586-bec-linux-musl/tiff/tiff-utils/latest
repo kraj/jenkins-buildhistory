@@ -1,10 +1,10 @@
 PV = 4.0.9
 PR = r0
 PKG = libtiff-utils
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = tiff-utils (=4.0.9)
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed) tiff (>= 4.0.9)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) tiff (>= 4.0.9)
 RRECOMMENDS = 
-PKGSIZE = 548100
+PKGSIZE = 477132
 FILES = /usr/bin/*
 FILELIST = /usr/bin/fax2ps /usr/bin/fax2tiff /usr/bin/pal2rgb /usr/bin/ppm2tiff /usr/bin/raw2tiff /usr/bin/tiff2bw /usr/bin/tiff2pdf /usr/bin/tiff2ps /usr/bin/tiff2rgba /usr/bin/tiffcmp /usr/bin/tiffcp /usr/bin/tiffcrop /usr/bin/tiffdither /usr/bin/tiffdump /usr/bin/tiffinfo /usr/bin/tiffmedian /usr/bin/tiffset /usr/bin/tiffsplit

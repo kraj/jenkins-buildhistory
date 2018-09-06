@@ -2,10 +2,10 @@ PE = 1
 PV = 1.2.2
 PR = r0
 PKG = libsm6
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libsm (=1.2.2)
-RDEPENDS = libice (>= 1.0.9) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libice (>= 1.0.9) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 42118
+PKGSIZE = 34078
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libsm /usr/lib/libsm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libSM.so.6 /usr/lib/libSM.so.6.0.1

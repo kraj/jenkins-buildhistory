@@ -1,10 +1,10 @@
 PV = 1.67.0
 PR = r0
 PKG = libboost-regex1.67.0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = boost-regex (=1.67.0)
-RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 907552
+PKGSIZE = 920108
 FILES = /usr/lib/libboost_regex*.so.*
 FILELIST = /usr/lib/libboost_regex.so.1.67.0

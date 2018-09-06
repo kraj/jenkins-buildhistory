@@ -1,9 +1,9 @@
 PV = 5.6.3
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = gmp (>= 6.1.2) musl (>= 1.1.19+git2+64466094ed) strongswan
+RDEPENDS = gmp (>= 6.1.2) musl (>= 1.1.20+git0+0fa1e638e8) strongswan
 RRECOMMENDS = 
-PKGSIZE = 39710
+PKGSIZE = 35770
 FILES = /usr/lib/ipsec/plugins/libstrongswan-gmp.so /etc/strongswan.d/charon/gmp.conf
 FILELIST = /etc/strongswan.d/charon/gmp.conf /usr/lib/ipsec/plugins/libstrongswan-gmp.so

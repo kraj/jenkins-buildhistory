@@ -1,9 +1,9 @@
 PV = 1.16.1
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1-pre9) libkrb5 (>= 1.16.1) libkrb5support (>= 1.16.1) libssl (>= 1.1.1-pre9) musl (>= 1.1.19+git2+64466094ed)
+RDEPENDS = libcrypto (>= 1.1.1~pre9) libkrb5 (>= 1.16.1) libkrb5support (>= 1.16.1) libssl (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 21804
+PKGSIZE = 17860
 FILES = /usr/lib/krb5/plugins/tls/k5tls.so
 FILELIST = /usr/lib/krb5/plugins/tls/k5tls.so

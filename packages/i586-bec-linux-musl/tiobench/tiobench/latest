@@ -1,9 +1,9 @@
 PV = 0.3.3
 PR = r1
-PKGR = r1.3
+PKGR = r1.4
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed) perl perl-module-exporter-heavy perl-module-getopt-long perl-module-overload perl-module-strict
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) perl perl-module-exporter-heavy perl-module-getopt-long perl-module-overload perl-module-strict
 RRECOMMENDS = 
-PKGSIZE = 52432
+PKGSIZE = 48488
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/tiobench /usr/lib/tiobench/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/tiobench.pl /usr/bin/tiosum.pl /usr/bin/tiotest

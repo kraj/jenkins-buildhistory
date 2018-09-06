@@ -1,10 +1,10 @@
 PV = 6.1+20180630
 PR = r0
 PKG = libticw5
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = ncurses-libticw (=6.1+20180630)
-RDEPENDS = musl (>= 1.1.19+git2+64466094ed) ncurses-libtinfo (>= 6.1+20180630)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) ncurses-libtinfo (>= 6.1+20180630)
 RRECOMMENDS = 
-PKGSIZE = 70862
+PKGSIZE = 62822
 FILES = /usr/lib/libticw.so.5 /usr/lib/libticw.so.5.9
 FILELIST = /usr/lib/libticw.so.5 /usr/lib/libticw.so.5.9
