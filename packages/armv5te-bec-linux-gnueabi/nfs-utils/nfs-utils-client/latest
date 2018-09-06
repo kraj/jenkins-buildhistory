@@ -1,9 +1,9 @@
 PV = 2.3.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = base-files base-passwd glibc (>= 2.28) libcap (>= 2.25) libtirpc (>= 1.0.3) libwrap (>= 7.6) nfs-utils-mount rpcbind shadow
 RRECOMMENDS = 
-PKGSIZE = 148920
+PKGSIZE = 158136
 FILES = /usr/sbin/*statd /usr/sbin/rpc.idmapd /usr/sbin/sm-notify /usr/sbin/showmount /usr/sbin/nfsstat /var/lib/nfs /etc/nfs-utils.conf /etc/nfsmount.conf /etc/init.d/nfscommon /lib/systemd/system/nfs-statd.service /lib/systemd/system/nfs-statd.service
 FILELIST = /etc/nfs-utils.conf /etc/nfsmount.conf /lib/systemd/system/nfs-statd.service /usr/sbin/nfsstat /usr/sbin/rpc.statd /usr/sbin/showmount /usr/sbin/sm-notify /usr/sbin/start-statd /var/lib/nfs/etab /var/lib/nfs/rmtab /var/lib/nfs/statd/state

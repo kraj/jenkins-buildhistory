@@ -1,0 +1,10 @@
+PV = 3.26.6
+PR = r0
+PKG = libecal-1.2-dev
+PKGR = r0.0
+RPROVIDES = libecal-dev (=3.26.6)
+RDEPENDS = libecal
+RRECOMMENDS = db-dev dbus-dev evolution-data-server-dev gconf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev libedataserver-dev libgcc-dev libgdata-dev libgnome-keyring-dev libical-dev libsecret-dev libsoup-2.4-dev nss-dev zlib-dev
+PKGSIZE = 89021
+FILES = /usr/lib/libecal-*.so /usr/lib/pkgconfig/libecal-*.pc /usr/include/evolution-data-server*/libecal/*.h /usr/include/evolution-data-server*/libical/*.h
+FILELIST = /usr/include/evolution-data-server/libecal/e-cal-check-timezones.h /usr/include/evolution-data-server/libecal/e-cal-client-view.h /usr/include/evolution-data-server/libecal/e-cal-client.h /usr/include/evolution-data-server/libecal/e-cal-component.h /usr/include/evolution-data-server/libecal/e-cal-enumtypes.h /usr/include/evolution-data-server/libecal/e-cal-recur.h /usr/include/evolution-data-server/libecal/e-cal-system-timezone.h /usr/include/evolution-data-server/libecal/e-cal-time-util.h /usr/include/evolution-data-server/libecal/e-cal-types.h /usr/include/evolution-data-server/libecal/e-cal-util.h /usr/include/evolution-data-server/libecal/e-cal-view.h /usr/include/evolution-data-server/libecal/e-cal.h /usr/include/evolution-data-server/libecal/e-timezone-cache.h /usr/include/evolution-data-server/libecal/libecal.h /usr/lib/libecal-1.2.so /usr/lib/pkgconfig/libecal-1.2.pc

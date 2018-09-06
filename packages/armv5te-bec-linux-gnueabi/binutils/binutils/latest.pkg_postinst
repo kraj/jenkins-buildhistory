@@ -8,6 +8,8 @@ set -e
 	update-alternatives --install /usr/bin/gprof gprof /usr/bin/arm-bec-linux-gnueabi-gprof 100
 	update-alternatives --install /usr/bin/ld ld /usr/bin/arm-bec-linux-gnueabi-ld 100
 	update-alternatives --install /usr/bin/ld.bfd ld.bfd /usr/bin/arm-bec-linux-gnueabi-ld.bfd 100
+	update-alternatives --install /usr/bin/ld.gold ld.gold /usr/bin/arm-bec-linux-gnueabi-ld.gold 100
+	update-alternatives --install /usr/bin/dwp dwp /usr/bin/arm-bec-linux-gnueabi-dwp 100
 	update-alternatives --install /usr/bin/nm nm /usr/bin/arm-bec-linux-gnueabi-nm 100
 	update-alternatives --install /usr/bin/objcopy objcopy /usr/bin/arm-bec-linux-gnueabi-objcopy 100
 	update-alternatives --install /usr/bin/objdump objdump /usr/bin/arm-bec-linux-gnueabi-objdump 100

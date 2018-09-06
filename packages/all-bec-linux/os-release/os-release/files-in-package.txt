@@ -1,2 +1,5 @@
 drwxr-xr-x root       root               60 ./etc
--rw-r--r-- root       root              241 ./etc/os-release
+lrwxrwxrwx root       root               21 ./etc/os-release -> ../usr/lib/os-release
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+-rw-r--r-- root       root              241 ./usr/lib/os-release

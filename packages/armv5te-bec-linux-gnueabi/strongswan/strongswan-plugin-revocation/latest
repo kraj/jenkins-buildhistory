@@ -1,9 +1,9 @@
 PV = 5.6.3
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28) strongswan
 RRECOMMENDS = 
-PKGSIZE = 13939
+PKGSIZE = 14199
 FILES = /usr/lib/ipsec/plugins/libstrongswan-revocation.so /etc/strongswan.d/charon/revocation.conf
 FILELIST = /etc/strongswan.d/charon/revocation.conf /usr/lib/ipsec/plugins/libstrongswan-revocation.so

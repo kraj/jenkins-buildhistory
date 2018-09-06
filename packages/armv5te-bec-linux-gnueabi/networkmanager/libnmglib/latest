@@ -1,0 +1,10 @@
+PV = 1.10.10
+PR = r0
+PKG = libnm-glib4
+PKGR = r0.0
+RPROVIDES = libnmglib (=1.10.10)
+RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.10) glib-2.0 (>= 2.56.1) glibc (>= 2.28) libnmutil (>= 1.10.10) libudev (>= 239) nspr (>= 4.19) nss (>= 3.38) util-linux-libuuid (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 177783
+FILES = /usr/lib/libnm-glib.so.*
+FILELIST = /usr/lib/libnm-glib.so.4 /usr/lib/libnm-glib.so.4.9.0

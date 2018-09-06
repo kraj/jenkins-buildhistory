@@ -1,10 +1,10 @@
-PV = 1.8
+PV = 2.0.0
 PR = r0
-PKG = libplist1
-PKGR = r0.2
-RPROVIDES = libplist (=1.8)
-RDEPENDS = glibc (>= 2.28) libxml2 (>= 2.9.8)
+PKG = libplist3
+PKGR = r0.0
+RPROVIDES = libplist (=2.0.0)
+RDEPENDS = glibc (>= 2.28)
 RRECOMMENDS = 
-PKGSIZE = 29937
+PKGSIZE = 46817
 FILES = /usr/lib/libplist.so.*
-FILELIST = /usr/lib/libplist.so.1 /usr/lib/libplist.so.1.1.8
+FILELIST = /usr/lib/libplist.so.3 /usr/lib/libplist.so.3.1.0

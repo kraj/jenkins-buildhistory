@@ -1,7 +1,5 @@
 #!/bin/sh
 set -e
-	update-alternatives --install /sbin/klogd klogd /sbin/klogd.sysklogd 100
-	update-alternatives --install /sbin/syslogd syslogd /sbin/syslogd.sysklogd 100
 OPTS=""
 
 if [ -n "$D" ]; then

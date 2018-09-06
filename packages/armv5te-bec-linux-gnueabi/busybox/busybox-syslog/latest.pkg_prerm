@@ -5,6 +5,8 @@ set -e
 			/etc/init.d/syslog stop || :
 		fi
 	fi
+	update-alternatives --remove  klogd /bin/busybox.nosuid
+	update-alternatives --remove  syslogd /bin/busybox.nosuid
 OPTS=""
 
 if [ -n "$D" ]; then
