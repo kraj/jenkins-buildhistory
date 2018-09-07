@@ -1,10 +1,10 @@
-PV = 1.14.1
+PV = 1.18
 PR = r0
 PKG = libgdbm-bin
-PKGR = r0.2
-RPROVIDES = gdbm-bin (=1.14.1)
-RDEPENDS = gdbm (>= 1.14.1) glibc (>= 2.28)
+PKGR = r0.0
+RPROVIDES = gdbm-bin (=1.18)
+RDEPENDS = gdbm (>= 1.18) glibc (>= 2.28)
 RRECOMMENDS = 
-PKGSIZE = 105344
+PKGSIZE = 101288
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/gdbm_dump /usr/bin/gdbm_load /usr/bin/gdbmtool
