@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+8515dd6e20
+PR = r0
+PKG = libqt5webview-qmlplugins-dbg
+PKGV = 5.11.1+git0+8515dd6e20
+PKGR = r0.0
+RPROVIDES = qtwebview-qmlplugins-dbg (=5.11.1+git0+8515dd6e20)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtwebengine-dbg qtwebview-dbg
+PKGSIZE = 6045216
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug
+FILELIST = /usr/lib/.debug/libQt5WebView.so.5.11.1 /usr/lib/qt5/plugins/webview/.debug/libqtwebview_webengine.so /usr/lib/qt5/qml/QtWebView/.debug/libdeclarative_webview.so

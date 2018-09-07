@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = base-files base-passwd polkit shadow shadow-native shadow-sysroot virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = polkit-group-rule-datetime-dbg polkit-group-rule-datetime-staticdev polkit-group-rule-datetime-dev polkit-group-rule-datetime-doc polkit-group-rule-datetime-locale polkit-group-rule-datetime
+LAYER = openembedded-layer

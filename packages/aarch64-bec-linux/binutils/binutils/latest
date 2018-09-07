@@ -1,9 +1,9 @@
 PV = 2.31
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = binutils-symlinks
 RDEPENDS = glibc (>= 2.28) libbfd (>= 2.31) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 4637700
+PKGSIZE = 14194334
 FILES = /usr/bin/aarch64-bec-linux-* /usr/lib/lib*-*.so /usr/aarch64-bec-linux/bin/* /usr/bin/embedspu
-FILELIST = /usr/aarch64-bec-linux/bin/ar /usr/aarch64-bec-linux/bin/as /usr/aarch64-bec-linux/bin/ld /usr/aarch64-bec-linux/bin/ld.bfd /usr/aarch64-bec-linux/bin/nm /usr/aarch64-bec-linux/bin/objcopy /usr/aarch64-bec-linux/bin/objdump /usr/aarch64-bec-linux/bin/ranlib /usr/aarch64-bec-linux/bin/readelf /usr/aarch64-bec-linux/bin/strip /usr/bin/aarch64-bec-linux-addr2line /usr/bin/aarch64-bec-linux-ar /usr/bin/aarch64-bec-linux-as /usr/bin/aarch64-bec-linux-c++filt /usr/bin/aarch64-bec-linux-elfedit /usr/bin/aarch64-bec-linux-gprof /usr/bin/aarch64-bec-linux-ld /usr/bin/aarch64-bec-linux-ld.bfd /usr/bin/aarch64-bec-linux-nm /usr/bin/aarch64-bec-linux-objcopy /usr/bin/aarch64-bec-linux-objdump /usr/bin/aarch64-bec-linux-ranlib /usr/bin/aarch64-bec-linux-readelf /usr/bin/aarch64-bec-linux-size /usr/bin/aarch64-bec-linux-strings /usr/bin/aarch64-bec-linux-strip /usr/lib/libopcodes-2.31.1.20180818.so
+FILELIST = /usr/aarch64-bec-linux/bin/ar /usr/aarch64-bec-linux/bin/as /usr/aarch64-bec-linux/bin/ld /usr/aarch64-bec-linux/bin/ld.bfd /usr/aarch64-bec-linux/bin/ld.gold /usr/aarch64-bec-linux/bin/nm /usr/aarch64-bec-linux/bin/objcopy /usr/aarch64-bec-linux/bin/objdump /usr/aarch64-bec-linux/bin/ranlib /usr/aarch64-bec-linux/bin/readelf /usr/aarch64-bec-linux/bin/strip /usr/bin/aarch64-bec-linux-addr2line /usr/bin/aarch64-bec-linux-ar /usr/bin/aarch64-bec-linux-as /usr/bin/aarch64-bec-linux-c++filt /usr/bin/aarch64-bec-linux-dwp /usr/bin/aarch64-bec-linux-elfedit /usr/bin/aarch64-bec-linux-gprof /usr/bin/aarch64-bec-linux-ld /usr/bin/aarch64-bec-linux-ld.bfd /usr/bin/aarch64-bec-linux-ld.gold /usr/bin/aarch64-bec-linux-nm /usr/bin/aarch64-bec-linux-objcopy /usr/bin/aarch64-bec-linux-objdump /usr/bin/aarch64-bec-linux-ranlib /usr/bin/aarch64-bec-linux-readelf /usr/bin/aarch64-bec-linux-size /usr/bin/aarch64-bec-linux-strings /usr/bin/aarch64-bec-linux-strip /usr/lib/libopcodes-2.31.1.20180818.so

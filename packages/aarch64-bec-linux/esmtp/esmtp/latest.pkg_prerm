@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
+	update-alternatives --remove  sendmail /usr/bin/esmtp
 	update-alternatives --remove  mailq /usr/bin/mailq.esmtp
 	update-alternatives --remove  newaliases /usr/bin/newaliases.esmtp

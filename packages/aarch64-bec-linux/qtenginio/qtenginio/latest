@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+23603a3b08
+PR = r0
+PKG = libenginio1
+PKGV = 5.11.1+git0+23603a3b08
+PKGR = r0.0
+RPROVIDES = qtenginio (=5.11.1+git0+23603a3b08)
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) qtbase (>= 5.11.1+git0+74305ba470)
+RRECOMMENDS = qtenginio-plugins qtenginio-qmlplugins
+PKGSIZE = 330014
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtenginio /usr/lib/qtenginio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILELIST = /usr/lib/libEnginio.so.1 /usr/lib/libEnginio.so.1.8 /usr/lib/libEnginio.so.1.8.0

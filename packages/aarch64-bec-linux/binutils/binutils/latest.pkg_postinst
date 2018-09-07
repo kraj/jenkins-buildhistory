@@ -8,6 +8,8 @@ set -e
 	update-alternatives --install /usr/bin/gprof gprof /usr/bin/aarch64-bec-linux-gprof 100
 	update-alternatives --install /usr/bin/ld ld /usr/bin/aarch64-bec-linux-ld 100
 	update-alternatives --install /usr/bin/ld.bfd ld.bfd /usr/bin/aarch64-bec-linux-ld.bfd 100
+	update-alternatives --install /usr/bin/ld.gold ld.gold /usr/bin/aarch64-bec-linux-ld.gold 100
+	update-alternatives --install /usr/bin/dwp dwp /usr/bin/aarch64-bec-linux-dwp 100
 	update-alternatives --install /usr/bin/nm nm /usr/bin/aarch64-bec-linux-nm 100
 	update-alternatives --install /usr/bin/objcopy objcopy /usr/bin/aarch64-bec-linux-objcopy 100
 	update-alternatives --install /usr/bin/objdump objdump /usr/bin/aarch64-bec-linux-objdump 100

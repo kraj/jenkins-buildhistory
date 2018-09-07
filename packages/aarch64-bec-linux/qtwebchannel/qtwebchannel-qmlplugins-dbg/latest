@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+2ff27bf60e
+PR = r0
+PKG = libqt5webchannel-qmlplugins-dbg
+PKGV = 5.11.1+git0+2ff27bf60e
+PKGR = r0.0
+RPROVIDES = qtwebchannel-qmlplugins-dbg (=5.11.1+git0+2ff27bf60e)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtwebchannel-dbg
+PKGSIZE = 3944672
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug
+FILELIST = /usr/lib/.debug/libQt5WebChannel.so.5.11.1 /usr/lib/qt5/qml/QtWebChannel/.debug/libdeclarative_webchannel.so

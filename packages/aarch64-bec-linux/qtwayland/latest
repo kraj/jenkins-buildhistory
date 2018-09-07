@@ -1,0 +1,5 @@
+PV = 5.11.1+gitAUTOINC+3ffa7d5d6e
+PR = r0
+DEPENDS = libxkbcommon qtbase qtbase-native qtdeclarative qtwayland-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/egl virtual/libc wayland wayland-native
+PACKAGES = qtwayland-qmlplugins-dbg qtwayland-tools-dbg qtwayland-plugins-dbg qtwayland-qmldesigner qtwayland-qmlplugins qtwayland-tools qtwayland-plugins qtwayland-mkspecs qtwayland-examples-dev qtwayland-examples-staticdev qtwayland-examples-dbg qtwayland-examples qtwayland-dbg qtwayland-staticdev qtwayland-dev qtwayland-doc qtwayland-locale qtwayland
+LAYER = qt5-layer
