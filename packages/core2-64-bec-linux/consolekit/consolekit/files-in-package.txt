@@ -28,9 +28,9 @@ drwxr-xr-x root       root               60 ./lib/systemd/system/reboot.target.w
 lrwxrwxrwx root       root               41 ./lib/systemd/system/reboot.target.wants/console-kit-log-system-restart.service -> ../console-kit-log-system-restart.service
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root            31176 ./usr/bin/ck-history
--rwxr-xr-x root       root            14304 ./usr/bin/ck-launch-session
--rwxr-xr-x root       root            14416 ./usr/bin/ck-list-sessions
+-rwxr-xr-x root       root            27280 ./usr/bin/ck-history
+-rwxr-xr-x root       root            10408 ./usr/bin/ck-launch-session
+-rwxr-xr-x root       root            14616 ./usr/bin/ck-list-sessions
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/ConsoleKit
 drwxr-xr-x root       root               40 ./usr/lib/ConsoleKit/run-seat.d
@@ -39,16 +39,16 @@ drwxr-xr-x root       root               80 ./usr/lib/ConsoleKit/scripts
 -rwxr-xr-x root       root              191 ./usr/lib/ConsoleKit/scripts/ck-system-restart
 -rwxr-xr-x root       root              191 ./usr/lib/ConsoleKit/scripts/ck-system-stop
 drwxr-xr-x root       root              100 ./usr/libexec
--rwxr-xr-x root       root            22736 ./usr/libexec/ck-collect-session-info
--rwxr-xr-x root       root            26712 ./usr/libexec/ck-get-x11-display-device
--rwxr-xr-x root       root            14304 ./usr/libexec/ck-get-x11-server-pid
--rwxr-xr-x root       root            18328 ./usr/lib/libck-connector.so.0.0.0
+-rwxr-xr-x root       root            22944 ./usr/libexec/ck-collect-session-info
+-rwxr-xr-x root       root            22816 ./usr/libexec/ck-get-x11-display-device
+-rwxr-xr-x root       root            10408 ./usr/libexec/ck-get-x11-server-pid
+-rwxr-xr-x root       root            14512 ./usr/lib/libck-connector.so.0.0.0
 lrwxrwxrwx root       root               24 ./usr/lib/libck-connector.so.0 -> libck-connector.so.0.0.0
 drwxr-xr-x root       root              120 ./usr/sbin
--rwxr-xr-x root       root            22496 ./usr/sbin/ck-log-system-restart
--rwxr-xr-x root       root            22496 ./usr/sbin/ck-log-system-start
--rwxr-xr-x root       root            22496 ./usr/sbin/ck-log-system-stop
--rwxr-xr-x root       root           149760 ./usr/sbin/console-kit-daemon
+-rwxr-xr-x root       root            18600 ./usr/sbin/ck-log-system-restart
+-rwxr-xr-x root       root            18600 ./usr/sbin/ck-log-system-start
+-rwxr-xr-x root       root            18600 ./usr/sbin/ck-log-system-stop
+-rwxr-xr-x root       root           150048 ./usr/sbin/console-kit-daemon
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              100 ./usr/share/dbus-1/interfaces

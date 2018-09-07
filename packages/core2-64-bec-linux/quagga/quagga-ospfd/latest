@@ -1,9 +1,9 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28) libxcrypt (>= 4.1.1) quagga (>= 1.2.4)
 RRECOMMENDS = 
-PKGSIZE = 639570
+PKGSIZE = 640050
 FILES = /usr/sbin/ospfd /usr/lib/libospf.so.* /lib/systemd/system/ospfd.service
 FILELIST = /lib/systemd/system/ospfd.service /usr/lib/libospf.so.0 /usr/lib/libospf.so.0.0.0 /usr/sbin/ospfd

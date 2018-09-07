@@ -1,10 +1,10 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28) update-alternatives-opkg xinetd
 RRECOMMENDS = 
 RCONFLICTS = netkit-tftpd
-PKGSIZE = 64874
+PKGSIZE = 60986
 FILES = /usr/sbin/in.tftpd /etc/xinetd.d/tftpd
 FILELIST = /etc/xinetd.d/tftpd /usr/sbin/in.tftpd

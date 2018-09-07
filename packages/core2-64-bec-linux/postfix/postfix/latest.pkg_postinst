@@ -39,5 +39,6 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl --no-block restart postfix.service
 	fi
 fi
+	update-alternatives --install /usr/sbin/sendmail sendmail /usr/sbin/sendmail.postfix 120
 	update-alternatives --install /usr/bin/mailq mailq /usr/bin/mailq.postfix 120
 	update-alternatives --install /usr/bin/newaliases newaliases /usr/bin/newaliases.postfix 120

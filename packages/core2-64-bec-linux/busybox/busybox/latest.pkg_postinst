@@ -169,10 +169,8 @@ set -e
 	update-alternatives --install /bin/watch watch /bin/busybox.nosuid 50
 	update-alternatives --install /bin/ash ash /bin/busybox.nosuid 50
 	update-alternatives --install /bin/sh sh /bin/busybox.nosuid 50
-	update-alternatives --install /sbin/klogd klogd /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/logger logger /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/logread logread /bin/busybox.nosuid 50
-	update-alternatives --install /sbin/syslogd syslogd /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/blkid blkid /bin/busybox.nosuid 50
 	update-alternatives --install /bin/dmesg dmesg /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/fbset fbset /bin/busybox.nosuid 50

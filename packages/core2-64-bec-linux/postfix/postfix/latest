@@ -1,9 +1,9 @@
 PV = 3.2.6
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = base-files base-passwd db (>= 5.3.28) glibc (>= 2.28) libcrypto (>= 1.1.1~pre9) libnsl2 (>= 1.2.0+git0+37c5ffe303) libpcre (>= 8.42) libssl (>= 1.1.1~pre9) shadow update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 12154380
+PKGSIZE = 12095916
 FILES = /etc /var /usr/bin/* /usr/sbin/* /usr/libexec/* /lib/systemd/* /lib/systemd/system/postfix.service
 FILELIST = /etc/postfix/LICENSE /etc/postfix/TLS_LICENSE /etc/postfix/access /etc/postfix/aliases /etc/postfix/bounce.cf.default /etc/postfix/canonical /etc/postfix/generic /etc/postfix/header_checks /etc/postfix/internal_recipient /etc/postfix/main.cf /etc/postfix/main.cf.default /etc/postfix/main.cf.proto /etc/postfix/master.cf /etc/postfix/master.cf.proto /etc/postfix/postfix-files /etc/postfix/relocated /etc/postfix/sample-main.cf /etc/postfix/transport /etc/postfix/virtual /lib/systemd/system/postfix.service /usr/bin/mailq.postfix /usr/bin/newaliases.postfix /usr/libexec/postfix/aliasesdb /usr/libexec/postfix/anvil /usr/libexec/postfix/bounce /usr/libexec/postfix/cleanup /usr/libexec/postfix/discard /usr/libexec/postfix/dnsblog /usr/libexec/postfix/error /usr/libexec/postfix/flush /usr/libexec/postfix/lmtp /usr/libexec/postfix/local /usr/libexec/postfix/master /usr/libexec/postfix/nqmgr /usr/libexec/postfix/oqmgr /usr/libexec/postfix/pickup /usr/libexec/postfix/pipe /usr/libexec/postfix/post-install /usr/libexec/postfix/postfix-script /usr/libexec/postfix/postfix-tls-script /usr/libexec/postfix/postfix-wrapper /usr/libexec/postfix/postmulti-script /usr/libexec/postfix/postscreen /usr/libexec/postfix/proxymap /usr/libexec/postfix/qmgr /usr/libexec/postfix/qmqpd /usr/libexec/postfix/scache /usr/libexec/postfix/showq /usr/libexec/postfix/smtp /usr/libexec/postfix/smtpd /usr/libexec/postfix/spawn /usr/libexec/postfix/tlsmgr /usr/libexec/postfix/tlsproxy /usr/libexec/postfix/trivial-rewrite /usr/libexec/postfix/verify /usr/libexec/postfix/virtual /usr/sbin/check_hostname.sh /usr/sbin/postalias /usr/sbin/postcat /usr/sbin/postconf /usr/sbin/postdrop /usr/sbin/postfix /usr/sbin/postkick /usr/sbin/postlock /usr/sbin/postlog /usr/sbin/postmap /usr/sbin/postmulti /usr/sbin/postqueue /usr/sbin/postsuper /usr/sbin/sendmail.postfix /usr/sbin/smtp-sink

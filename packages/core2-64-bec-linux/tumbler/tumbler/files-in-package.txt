@@ -1,0 +1,27 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/xdg
+drwxr-xr-x root       root               60 ./etc/xdg/tumbler
+-rw-r--r-- root       root             2200 ./etc/xdg/tumbler/tumbler.rc
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr/lib
+-rwxr-xr-x root       root            55472 ./usr/lib/libtumbler-1.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libtumbler-1.so.0 -> libtumbler-1.so.0.0.0
+drwxr-xr-x root       root               80 ./usr/lib/tumbler-1
+drwxr-xr-x root       root              200 ./usr/lib/tumbler-1/plugins
+drwxr-xr-x root       root               80 ./usr/lib/tumbler-1/plugins/cache
+lrwxrwxrwx root       root               20 ./usr/lib/tumbler-1/plugins/cache/tumbler-cache-plugin.so -> tumbler-xdg-cache.so
+-rwxr-xr-x root       root            26800 ./usr/lib/tumbler-1/plugins/cache/tumbler-xdg-cache.so
+-rwxr-xr-x root       root            26944 ./usr/lib/tumbler-1/plugins/tumbler-cover-thumbnailer.so
+-rwxr-xr-x root       root            22712 ./usr/lib/tumbler-1/plugins/tumbler-desktop-thumbnailer.so
+-rwxr-xr-x root       root            22768 ./usr/lib/tumbler-1/plugins/tumbler-font-thumbnailer.so
+-rwxr-xr-x root       root            22704 ./usr/lib/tumbler-1/plugins/tumbler-jpeg-thumbnailer.so
+-rwxr-xr-x root       root            22976 ./usr/lib/tumbler-1/plugins/tumbler-odf-thumbnailer.so
+-rwxr-xr-x root       root            18616 ./usr/lib/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.so
+-rwxr-xr-x root       root            18648 ./usr/lib/tumbler-1/plugins/tumbler-poppler-thumbnailer.so
+-rwxr-xr-x root       root           137456 ./usr/lib/tumbler-1/tumblerd
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/dbus-1
+drwxr-xr-x root       root              100 ./usr/share/dbus-1/services
+-rw-r--r-- root       root               88 ./usr/share/dbus-1/services/org.xfce.Tumbler.Cache1.service
+-rw-r--r-- root       root               90 ./usr/share/dbus-1/services/org.xfce.Tumbler.Manager1.service
+-rw-r--r-- root       root               94 ./usr/share/dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service

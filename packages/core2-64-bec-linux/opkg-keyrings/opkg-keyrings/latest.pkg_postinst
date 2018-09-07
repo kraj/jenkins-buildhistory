@@ -1,10 +1,8 @@
-#! /bin/sh
-set -e
+#!/bin/sh
 set -e
 
-if [ x"$D" = "x" ]; then
-    # On target
-    opkg-key populate
-else
-    exit 1
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot opkg-keyrings mlprefix=
+    exit 0
 fi
+opkg-key populate
