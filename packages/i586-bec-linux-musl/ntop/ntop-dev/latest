@@ -1,8 +1,8 @@
 PV = 5.0.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = ntop (= 5.0.1-r0.5)
+RDEPENDS = ntop (= 5.0.1-r0.6)
 RRECOMMENDS = base-files-dev base-passwd-dev gdbm-dev geoip-dev libcrypto-dev libpcap-dev libpython2-dev libssl-dev musl-dev net-snmp-dev net-snmp-libs-dev openssl-dev python-dev rrdtool-dev shadow-dev shadow-sysroot-dev zlib-dev
 PKGSIZE = 107
 FILES = /usr/include /usr/lib/libntop.so /usr/lib/libntopreport.so /usr/lib/libnetflowPlugin.so /usr/lib/libsflowPlugin.so /usr/lib/librrdPlugin.so /usr/lib/*.a /usr/lib/libntopreport.a /usr/lib/*.la

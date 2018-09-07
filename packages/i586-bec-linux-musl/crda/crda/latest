@@ -1,0 +1,9 @@
+PV = 3.18
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libcrypto10 (>= 1.0.2p) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.20+git0+0fa1e638e8) udev wireless-regdb
+RRECOMMENDS = 
+PKGSIZE = 37893
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/crda /usr/lib/crda/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /lib/udev/rules.d/85-regulatory.rules /usr/lib/crda/libreg.so /usr/sbin/crda /usr/sbin/regdbdump

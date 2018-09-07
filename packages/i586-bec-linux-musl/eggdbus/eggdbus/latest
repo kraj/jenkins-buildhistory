@@ -1,9 +1,9 @@
 PV = 0.6
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.10) glib-2.0 (>= 2.56.1) musl (>= 1.1.20+git0+0fa1e638e8)
+RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 590665
+PKGSIZE = 594761
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/eggdbus /usr/lib/eggdbus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/eggdbus-binding-tool /usr/bin/eggdbus-glib-genmarshal /usr/lib/libeggdbus-1.so.0 /usr/lib/libeggdbus-1.so.0.0.0

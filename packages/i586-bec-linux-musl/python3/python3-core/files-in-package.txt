@@ -6,7 +6,7 @@ drwxr-xr-x root       root              120 ./usr/bin
 lrwxrwxrwx root       root                9 ./usr/bin/python3 -> python3.5
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root               60 ./usr/include/python3.5m
--rw-r--r-- root       root            43856 ./usr/include/python3.5m/pyconfig.h
+-rw-r--r-- root       root            43821 ./usr/include/python3.5m/pyconfig.h
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root             1380 ./usr/lib/python3.5
 -rw-r--r-- root       root             8628 ./usr/lib/python3.5/abc.py
@@ -575,17 +575,17 @@ drwxr-xr-x root       root              400 ./usr/lib/python3.5/importlib/__pyca
 -rwxr-xr-x root       root             2211 ./usr/lib/python3.5/keyword.py
 drwxr-xr-x root       root              300 ./usr/lib/python3.5/lib-dynload
 -rwxr-xr-x root       root            58336 ./usr/lib/python3.5/lib-dynload/array.cpython-35m-i386-linux-gnu.so
--rwxr-xr-x root       root            28204 ./usr/lib/python3.5/lib-dynload/binascii.cpython-35m-i386-linux-gnu.so
+-rwxr-xr-x root       root            24108 ./usr/lib/python3.5/lib-dynload/binascii.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root            11512 ./usr/lib/python3.5/lib-dynload/_bisect.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root            36256 ./usr/lib/python3.5/lib-dynload/_csv.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root            16780 ./usr/lib/python3.5/lib-dynload/_heapq.cpython-35m-i386-linux-gnu.so
--rwxr-xr-x root       root            35400 ./usr/lib/python3.5/lib-dynload/math.cpython-35m-i386-linux-gnu.so
+-rwxr-xr-x root       root            39496 ./usr/lib/python3.5/lib-dynload/math.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root             5628 ./usr/lib/python3.5/lib-dynload/_opcode.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root            55660 ./usr/lib/python3.5/lib-dynload/parser.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root            18756 ./usr/lib/python3.5/lib-dynload/_posixsubprocess.cpython-35m-i386-linux-gnu.so
--rwxr-xr-x root       root            29872 ./usr/lib/python3.5/lib-dynload/readline.cpython-35m-i386-linux-gnu.so
+-rwxr-xr-x root       root            25776 ./usr/lib/python3.5/lib-dynload/readline.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root            26308 ./usr/lib/python3.5/lib-dynload/select.cpython-35m-i386-linux-gnu.so
--rwxr-xr-x root       root            36260 ./usr/lib/python3.5/lib-dynload/_struct.cpython-35m-i386-linux-gnu.so
+-rwxr-xr-x root       root            40356 ./usr/lib/python3.5/lib-dynload/_struct.cpython-35m-i386-linux-gnu.so
 -rwxr-xr-x root       root           860676 ./usr/lib/python3.5/lib-dynload/unicodedata.cpython-35m-i386-linux-gnu.so
 -rw-r--r-- root       root             5312 ./usr/lib/python3.5/linecache.py
 -rw-r--r-- root       root            74713 ./usr/lib/python3.5/locale.py
@@ -750,9 +750,9 @@ drwxr-xr-x root       root             3700 ./usr/lib/python3.5/__pycache__
 -rw-r--r-- root       root            16850 ./usr/lib/python3.5/__pycache__/sysconfig.cpython-35.opt-1.pyc
 -rw-r--r-- root       root            14281 ./usr/lib/python3.5/__pycache__/sysconfig.cpython-35.opt-2.pyc
 -rw-r--r-- root       root            16850 ./usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc
--rw-r--r-- root       root            22893 ./usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.opt-1.pyc
--rw-r--r-- root       root            22893 ./usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.opt-2.pyc
--rw-r--r-- root       root            22893 ./usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc
+-rw-r--r-- root       root            22880 ./usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            22880 ./usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            22880 ./usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc
 -rw-r--r-- root       root            14246 ./usr/lib/python3.5/__pycache__/textwrap.cpython-35.opt-1.pyc
 -rw-r--r-- root       root             6945 ./usr/lib/python3.5/__pycache__/textwrap.cpython-35.opt-2.pyc
 -rw-r--r-- root       root            14332 ./usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc
@@ -796,7 +796,7 @@ drwxr-xr-x root       root             3700 ./usr/lib/python3.5/__pycache__
 -rw-r--r-- root       root              257 ./usr/lib/python3.5/struct.py
 -rw-r--r-- root       root            58912 ./usr/lib/python3.5/subprocess.py
 -rwxr-xr-x root       root             2095 ./usr/lib/python3.5/symbol.py
--rw-r--r-- root       root            25635 ./usr/lib/python3.5/_sysconfigdata.py
+-rw-r--r-- root       root            25622 ./usr/lib/python3.5/_sysconfigdata.py
 -rw-r--r-- root       root            24577 ./usr/lib/python3.5/sysconfig.py
 -rw-r--r-- root       root            19558 ./usr/lib/python3.5/textwrap.py
 -rw-r--r-- root       root            49027 ./usr/lib/python3.5/threading.py

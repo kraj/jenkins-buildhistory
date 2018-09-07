@@ -1,8 +1,8 @@
 PV = 2.7.15
 PR = r1
-PKGR = r1.5
+PKGR = r1.6
 RPROVIDES = 
-RDEPENDS = gdbm-compat (>= 1.14.1) libpython2 (>= 2.7.15) musl (>= 1.1.20+git0+0fa1e638e8) python-bsddb python-core python-gdbm
+RDEPENDS = gdbm-compat (>= 1.18) libpython2 (>= 2.7.15) musl (>= 1.1.20+git0+0fa1e638e8) python-bsddb python-core python-gdbm
 RRECOMMENDS = 
 PKGSIZE = 42150
 FILES = /usr/lib/python2.7/anydbm.py /usr/lib/python2.7/anydbm.pyc /usr/lib/python2.7/dbhash.py /usr/lib/python2.7/dbhash.pyc /usr/lib/python2.7/dumbdbm.py /usr/lib/python2.7/dumbdbm.pyc /usr/lib/python2.7/lib-dynload/dbm.so /usr/lib/python2.7/whichdb.py /usr/lib/python2.7/whichdb.pyc
