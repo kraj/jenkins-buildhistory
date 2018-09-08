@@ -1,5 +1,5 @@
-PV = 0.19.7
+PV = 1.0.5
 PR = r0
-DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libpcre libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
 PACKAGES = fribidi-dbg fribidi-staticdev fribidi-dev fribidi-doc fribidi-locale fribidi-bin fribidi
-LAYER = openembedded-layer
+LAYER = core

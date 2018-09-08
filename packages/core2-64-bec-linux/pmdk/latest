@@ -1,0 +1,5 @@
+PV = 1.4.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native ndctl pkgconfig-native virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
+PACKAGES = pmdk-dbg pmdk-staticdev pmdk-dev pmdk-doc pmdk-locale pmdk
+LAYER = openembedded-layer
