@@ -1,9 +1,9 @@
 PV = 3.26.6
 PR = r0
 PKG = libcamel-1.2-60
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libcamel (=3.26.6)
-RDEPENDS = glib-2.0 (>= 2.56.1) glibc (>= 2.28) libical (>= 2.0.0) libsqlite3 (>= 3.23.1) nspr (>= 4.19) nss (>= 3.38) zlib (>= 1.2.11)
+RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.28) libical (>= 2.0.0) libsqlite3 (>= 3.23.1) nspr (>= 4.19) nss (>= 3.38) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 2463934
 FILES = /usr/lib/libcamel-*.so.* /usr/lib/libcamel-provider-*.so.* /usr/lib/evolution-data-server*/camel-providers/*.so /usr/lib/evolution-data-server*/camel-providers/*.urls
