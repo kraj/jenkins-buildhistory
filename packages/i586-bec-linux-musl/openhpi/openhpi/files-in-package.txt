@@ -1,0 +1,67 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root              120 ./etc/openhpi
+-rwxr-xr-x root       root             1693 ./etc/openhpi/openhpiclient.conf
+-rwx------ root       root            11567 ./etc/openhpi/openhpi.conf
+-rwxr-xr-x root       root            46988 ./etc/openhpi/simulation.data
+-rwxr-xr-x root       root             4862 ./etc/openhpi/test_agent.data
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              252 ./lib/systemd/system/openhpid.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              480 ./usr/bin
+-rwxr-xr-x root       root            18532 ./usr/bin/hpialarms
+-rwxr-xr-x root       root            14024 ./usr/bin/hpicrypt
+-rwxr-xr-x root       root            18280 ./usr/bin/hpidomain
+-rwxr-xr-x root       root            18532 ./usr/bin/hpiel
+-rwxr-xr-x root       root            18280 ./usr/bin/hpievents
+-rwxr-xr-x root       root            18276 ./usr/bin/hpifan
+-rwxr-xr-x root       root            55276 ./usr/bin/hpigensimdata
+-rwxr-xr-x root       root            23136 ./usr/bin/hpiinv
+-rwxr-xr-x root       root            26572 ./usr/bin/hpionIBMblade
+-rwxr-xr-x root       root            18376 ./usr/bin/hpipower
+-rwxr-xr-x root       root            14184 ./usr/bin/hpireset
+-rwxr-xr-x root       root            18344 ./usr/bin/hpisensor
+-rwxr-xr-x root       root            18280 ./usr/bin/hpisettime
+-rwxr-xr-x root       root           182180 ./usr/bin/hpi_shell
+-rwxr-xr-x root       root            26472 ./usr/bin/hpithres
+-rwxr-xr-x root       root            22564 ./usr/bin/hpitop
+-rwxr-xr-x root       root            22564 ./usr/bin/hpitree
+-rwxr-xr-x root       root            18372 ./usr/bin/hpiwdt
+-rwxr-xr-x root       root           152300 ./usr/bin/hpixml
+-rwxr-xr-x root       root            18252 ./usr/bin/ohdomainlist
+-rwxr-xr-x root       root            27752 ./usr/bin/ohhandler
+-rwxr-xr-x root       root            22948 ./usr/bin/ohparam
+drwxr-xr-x root       root              300 ./usr/lib
+-rwxr-xr-x root       root            65380 ./usr/lib/libopenhpimarshal.so.3.8.0
+lrwxrwxrwx root       root               26 ./usr/lib/libopenhpimarshal.so.3 -> libopenhpimarshal.so.3.8.0
+-rwxr-xr-x root       root             9492 ./usr/lib/libopenhpi_snmp.so.3.8.0
+lrwxrwxrwx root       root               24 ./usr/lib/libopenhpi_snmp.so.3 -> libopenhpi_snmp.so.3.8.0
+-rwxr-xr-x root       root            75332 ./usr/lib/libopenhpi.so.3.8.0
+lrwxrwxrwx root       root               19 ./usr/lib/libopenhpi.so.3 -> libopenhpi.so.3.8.0
+-rwxr-xr-x root       root            17844 ./usr/lib/libopenhpi_ssl.so.3.8.0
+lrwxrwxrwx root       root               23 ./usr/lib/libopenhpi_ssl.so.3 -> libopenhpi_ssl.so.3.8.0
+-rwxr-xr-x root       root            17968 ./usr/lib/libopenhpitransport.so.3.8.0
+lrwxrwxrwx root       root               28 ./usr/lib/libopenhpitransport.so.3 -> libopenhpitransport.so.3.8.0
+-rwxr-xr-x root       root           188612 ./usr/lib/libopenhpiutils.so.3.8.0
+lrwxrwxrwx root       root               24 ./usr/lib/libopenhpiutils.so.3 -> libopenhpiutils.so.3.8.0
+drwxr-xr-x root       root              320 ./usr/lib/openhpi
+-rwxr-xr-x root       root           354132 ./usr/lib/openhpi/libdyn_simulator.so.3.8.0
+lrwxrwxrwx root       root               25 ./usr/lib/openhpi/libdyn_simulator.so.3 -> libdyn_simulator.so.3.8.0
+-rwxr-xr-x root       root           387304 ./usr/lib/openhpi/libipmidirect.so.3.8.0
+lrwxrwxrwx root       root               22 ./usr/lib/openhpi/libipmidirect.so.3 -> libipmidirect.so.3.8.0
+-rwxr-xr-x root       root           244856 ./usr/lib/openhpi/libsimulator.so.3.8.0
+lrwxrwxrwx root       root               21 ./usr/lib/openhpi/libsimulator.so.3 -> libsimulator.so.3.8.0
+-rwxr-xr-x root       root            62960 ./usr/lib/openhpi/libslave.so.3.8.0
+lrwxrwxrwx root       root               17 ./usr/lib/openhpi/libslave.so.3 -> libslave.so.3.8.0
+-rwxr-xr-x root       root          1269056 ./usr/lib/openhpi/libsnmp_bc.so.3.8.0
+lrwxrwxrwx root       root               19 ./usr/lib/openhpi/libsnmp_bc.so.3 -> libsnmp_bc.so.3.8.0
+-rwxr-xr-x root       root           339952 ./usr/lib/openhpi/libtest_agent.so.3.8.0
+lrwxrwxrwx root       root               22 ./usr/lib/openhpi/libtest_agent.so.3 -> libtest_agent.so.3.8.0
+-rwxr-xr-x root       root            13584 ./usr/lib/openhpi/libwatchdog.so.3.8.0
+lrwxrwxrwx root       root               20 ./usr/lib/openhpi/libwatchdog.so.3 -> libwatchdog.so.3.8.0
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root           245764 ./usr/sbin/openhpid
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x root       root               40 ./var/lib/openhpi
