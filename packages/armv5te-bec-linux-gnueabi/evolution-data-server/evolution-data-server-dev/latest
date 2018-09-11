@@ -1,9 +1,9 @@
 PV = 3.26.6
 PR = r0
 PKG = libebackend-1.2-dev
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = evolution-data-server-dev (=3.26.6)
-RDEPENDS = evolution-data-server (= 3.26.6-r0.2) libebook
+RDEPENDS = evolution-data-server (= 3.26.6-r0.3) libebook
 RRECOMMENDS = db-dev dbus-dev gconf-dev gcr-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev libcamel-dev libebook-dev libecal-dev libedata-book-dev libedata-cal-dev libedataserver-dev libgcc-dev libgdata-dev libgnome-keyring-dev libical-dev libsecret-dev libsoup-2.4-dev libsqlite3-dev libxml2-dev nss-dev pango-dev perl-dev zlib-dev
 PKGSIZE = 728264
 FILES = /usr/lib/pkgconfig/evolution-data-server-*.pc /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/evolution-data-server/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir

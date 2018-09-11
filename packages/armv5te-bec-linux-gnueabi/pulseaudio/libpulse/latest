@@ -1,9 +1,9 @@
 PV = 12.2
 PR = r0
 PKG = libpulse0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libpulse (=12.2)
-RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) libcap (>= 2.25) libice (>= 1.0.9) libpulsecommon (>= 12.2) libsm (>= 1.2.2) libsndfile1 (>= 1.0.28) libsystemd (>= 239) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.13) libxtst (>= 1.2.3)
+RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) libcap (>= 2.25) libice (>= 1.0.9) libpulsecommon (>= 12.2) libsm (>= 1.2.2) libsndfile1 (>= 1.0.28) libsystemd (>= 239) libx11 (>= 1.6.6) libx11-xcb (>= 1.6.6) libxcb (>= 1.13) libxtst (>= 1.2.3)
 RRECOMMENDS = 
 PKGSIZE = 241319
 FILES = /usr/lib/libpulse.so.* /etc/pulse/client.conf
