@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.19.6
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = xserver-xorg (= 2:1.19.6-r0.4)
+RDEPENDS = xserver-xorg (= 2:1.19.6-r0.5)
 RRECOMMENDS = dbus-dev dbus-lib-dev font-util-dev glibc-dev libcrypto-dev libdrm-dev libegl-dev libepoxy-dev libgbm-dev libgl-mesa-dev libpciaccess-dev libsystemd-dev libudev-dev libxau-dev libxdmcp-dev libxext-dev libxfont2-dev libxkbfile-dev libxshmfence-dev openssl-dev pixman-dev systemd-dev udev-dev wayland-dev wayland-protocols-dev xkeyboard-config-dev xorgproto-dev xtrans-dev
 PKGSIZE = 1153362
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xserver-xorg/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/xorg/modules/*.la /usr/lib/xorg/modules/*/*.la
