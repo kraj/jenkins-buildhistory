@@ -1,0 +1,11 @@
+PV = 6.1+20180630
+PR = r0
+PKG = libtinfo5
+PKGR = r0.7
+RPROVIDES = ncurses-libtinfo (=6.1+20180630)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = ncurses-terminfo-base
+RSUGGESTS = ncurses-terminfo
+PKGSIZE = 137055
+FILES = /lib/libtinfo.so.5 /lib/libtinfo.so.5.9
+FILELIST = /lib/libtinfo.so.5 /lib/libtinfo.so.5.9

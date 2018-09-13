@@ -1,0 +1,9 @@
+PV = 1.8
+PR = r0
+PKGR = r0.4
+RPROVIDES = 
+RDEPENDS = bash flex-libfl (>= 2.6.0) glibc (>= 2.28) libtirpc (>= 1.0.3) ppp ppp-l2tp readline (>= 7.0)
+RRECOMMENDS = 
+PKGSIZE = 654648
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openl2tp /usr/lib/openl2tp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/openl2tpd.service
+FILELIST = /etc/default/openl2tpd /lib/systemd/system/openl2tpd.service /usr/bin/l2tpconfig /usr/lib/openl2tp/event_sock.h /usr/lib/openl2tp/event_sock.so /usr/lib/openl2tp/ipsec.so /usr/lib/openl2tp/l2tp_event.h /usr/lib/openl2tp/l2tp_rpc.x /usr/lib/openl2tp/ppp_null.so /usr/lib/openl2tp/ppp_unix.so /usr/sbin/openl2tpd

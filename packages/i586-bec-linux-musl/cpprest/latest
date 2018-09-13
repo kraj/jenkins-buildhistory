@@ -1,0 +1,5 @@
+PV = 2.10.6
+PR = r0
+DEPENDS = boost cmake-native ninja-native openssl virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc websocketpp zlib
+PACKAGES = cpprest-dbg cpprest-staticdev cpprest-dev cpprest-doc cpprest-locale cpprest
+LAYER = openembedded-layer

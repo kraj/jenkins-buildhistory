@@ -1,0 +1,10 @@
+PV = 2.4.94
+PR = r0
+PKG = libdrm-etnaviv1
+PKGR = r0.1
+RPROVIDES = libdrm-etnaviv (=2.4.94)
+RDEPENDS = libdrm (>= 2.4.94) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 21799
+FILES = /usr/lib/libdrm_etnaviv.so.*
+FILELIST = /usr/lib/libdrm_etnaviv.so.1 /usr/lib/libdrm_etnaviv.so.1.0.0

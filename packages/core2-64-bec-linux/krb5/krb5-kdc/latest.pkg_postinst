@@ -1,0 +1,25 @@
+set -e
+    if [ -z "$D" ]; then
+        if command -v systemd-tmpfiles >/dev/null; then
+            systemd-tmpfiles --create /etc/tmpfiles.d/krb5.conf
+        elif [ -e /etc/init.d/populate-volatile.sh ]; then
+            /etc/init.d/populate-volatile.sh update
+        fi
+    fi
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS enable krb5-kdc.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl --no-block restart krb5-kdc.service
+	fi
+fi

@@ -1,0 +1,10 @@
+PV = 1.0.2
+PR = r0
+PKG = libmenu-cache3
+PKGR = r0.8
+RPROVIDES = menu-cache (=1.0.2)
+RDEPENDS = glib-2.0 (>= 2.58.0) libfm-extra (>= 1.3.0.2) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 114814
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/menu-cache /usr/lib/menu-cache/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libmenu-cache.so.3 /usr/lib/libmenu-cache.so.3.1.1 /usr/libexec/menu-cache/menu-cache-gen /usr/libexec/menu-cache/menu-cached

@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+7341720391_71799edb8a
+PR = r0
+PKGV = 4.18.5+git1+7341720391_71799edb8a
+PKGR = r0.4
+RPROVIDES = kernel-module-parport-pc
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-parport-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 43424
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/drivers/parport/parport_pc.ko /etc/modules-load.d/parport_pc.conf /etc/modprobe.d/parport_pc.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/drivers/parport/parport_pc.ko

@@ -1,0 +1,10 @@
+PV = 2.0.12+gitAUTOINC+841253d131
+PR = r0
+PKGV = 2.0.12+git0+841253d131
+PKGR = r0.7
+RPROVIDES = 
+RDEPENDS = bash musl (>= 1.1.20+git0+0fa1e638e8) numactl (>= 2.0.12+git0+841253d131)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 145363
+FILES = /usr/lib/numactl/ptest
+FILELIST = /usr/lib/numactl/ptest/Makefile /usr/lib/numactl/ptest/numactl /usr/lib/numactl/ptest/run-ptest /usr/lib/numactl/ptest/test/bind_range /usr/lib/numactl/ptest/test/checkaffinity /usr/lib/numactl/ptest/test/checktopology /usr/lib/numactl/ptest/test/distance /usr/lib/numactl/ptest/test/ftok /usr/lib/numactl/ptest/test/mbind_mig_pages /usr/lib/numactl/ptest/test/migrate_pages /usr/lib/numactl/ptest/test/move_pages /usr/lib/numactl/ptest/test/mynode /usr/lib/numactl/ptest/test/node-parse /usr/lib/numactl/ptest/test/nodemap /usr/lib/numactl/ptest/test/pagesize /usr/lib/numactl/ptest/test/prefered /usr/lib/numactl/ptest/test/printcpu /usr/lib/numactl/ptest/test/randmap /usr/lib/numactl/ptest/test/realloc_test /usr/lib/numactl/ptest/test/regress /usr/lib/numactl/ptest/test/regress2 /usr/lib/numactl/ptest/test/runltp /usr/lib/numactl/ptest/test/shmtest /usr/lib/numactl/ptest/test/tbitmap /usr/lib/numactl/ptest/test/tshared

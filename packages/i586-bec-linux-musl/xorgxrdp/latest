@@ -1,0 +1,5 @@
+PV = 0.2.5
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native nasm-native pkgconfig-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc virtual/libx11 xrdp xserver-xorg
+PACKAGES = xorgxrdp-dbg xorgxrdp-staticdev xorgxrdp-dev xorgxrdp-doc xorgxrdp-locale xorgxrdp
+LAYER = openembedded-layer

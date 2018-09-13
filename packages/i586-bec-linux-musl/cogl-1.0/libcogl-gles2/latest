@@ -1,0 +1,10 @@
+PV = 1.22.2
+PR = r0
+PKG = libcogl-gles2-20
+PKGR = r0.9
+RPROVIDES = libcogl-gles2 (=1.22.2)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 29943
+FILES = /usr/lib/libcogl-gles2.so.*
+FILELIST = /usr/lib/libcogl-gles2.so.20 /usr/lib/libcogl-gles2.so.20.4.2

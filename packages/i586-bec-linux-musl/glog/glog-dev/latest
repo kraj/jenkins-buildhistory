@@ -1,0 +1,10 @@
+PV = 0.3.4
+PR = r0
+PKG = libglog-dev
+PKGR = r0.7
+RPROVIDES = glog-dev (=0.3.4)
+RDEPENDS = glog (= 0.3.4-r0.7)
+RRECOMMENDS = libgcc-dev libstdc++-dev libunwind-dev musl-dev
+PKGSIZE = 88588
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/glog/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/glog/log_severity.h /usr/include/glog/logging.h /usr/include/glog/raw_logging.h /usr/include/glog/stl_logging.h /usr/include/glog/vlog_is_on.h /usr/lib/libglog.so /usr/lib/pkgconfig/libglog.pc

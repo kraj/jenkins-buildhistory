@@ -1,0 +1,9 @@
+PV = 2.18
+PR = r0
+PKGR = r0.9
+RPROVIDES = 
+RDEPENDS = libblockdev (= 2.18-r0.9)
+RRECOMMENDS = btrfs-tools-dev cryptsetup-dev glib-2.0-dev gobject-introspection-dev kmod-dev libbytesize-dev libdevmapper-dev libkmod-dev libudev-dev lvm2-dev multipath-tools-dev musl-dev nspr-dev nss-dev parted-dev python3-dev util-linux-dev util-linux-libblkid-dev util-linux-libmount-dev volume-key-dev
+PKGSIZE = 517748
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libblockdev/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir
+FILELIST = /usr/include/blockdev/blockdev.h /usr/include/blockdev/btrfs.h /usr/include/blockdev/crypto.h /usr/include/blockdev/dev_utils.h /usr/include/blockdev/dm.h /usr/include/blockdev/exec.h /usr/include/blockdev/extra_arg.h /usr/include/blockdev/fs.h /usr/include/blockdev/fs/ext.h /usr/include/blockdev/fs/generic.h /usr/include/blockdev/fs/mount.h /usr/include/blockdev/fs/ntfs.h /usr/include/blockdev/fs/vfat.h /usr/include/blockdev/fs/xfs.h /usr/include/blockdev/kbd.h /usr/include/blockdev/loop.h /usr/include/blockdev/lvm.h /usr/include/blockdev/mdraid.h /usr/include/blockdev/module.h /usr/include/blockdev/mpath.h /usr/include/blockdev/part.h /usr/include/blockdev/plugins.h /usr/include/blockdev/sizes.h /usr/include/blockdev/swap.h /usr/include/blockdev/utils.h /usr/lib/libbd_btrfs.so /usr/lib/libbd_crypto.so /usr/lib/libbd_dm.so /usr/lib/libbd_fs.so /usr/lib/libbd_kbd.so /usr/lib/libbd_loop.so /usr/lib/libbd_lvm.so /usr/lib/libbd_mdraid.so /usr/lib/libbd_mpath.so /usr/lib/libbd_part.so /usr/lib/libbd_part_err.so /usr/lib/libbd_swap.so /usr/lib/libbd_utils.so /usr/lib/libblockdev.so /usr/lib/pkgconfig/blockdev-utils.pc /usr/lib/pkgconfig/blockdev.pc /usr/share/gir-1.0/BlockDev-2.0.gir

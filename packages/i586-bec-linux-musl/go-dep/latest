@@ -1,0 +1,5 @@
+PV = 0.5.0
+PR = r0
+DEPENDS = virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/i586-bec-linux-musl-go virtual/i586-bec-linux-musl-go-runtime virtual/libc
+PACKAGES = go-dep-ptest go-dep-dbg go-dep-staticdev go-dep-dev go-dep-doc go-dep-locale go-dep
+LAYER = core

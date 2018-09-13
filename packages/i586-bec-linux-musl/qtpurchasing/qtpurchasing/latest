@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+1e9e0c3889
+PR = r0
+PKG = libqt5purchasing5
+PKGV = 5.11.1+git0+1e9e0c3889
+PKGR = r0.9
+RPROVIDES = qtpurchasing (=5.11.1+git0+1e9e0c3889)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470)
+RRECOMMENDS = qtpurchasing-plugins qtpurchasing-qmlplugins
+PKGSIZE = 38484
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtpurchasing /usr/lib/qtpurchasing/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILELIST = /usr/lib/libQt5Purchasing.so.5 /usr/lib/libQt5Purchasing.so.5.11 /usr/lib/libQt5Purchasing.so.5.11.1

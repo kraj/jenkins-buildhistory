@@ -1,0 +1,5 @@
+PV = 0.5.0
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc virtual/x86_64-bec-linux-go virtual/x86_64-bec-linux-go-runtime
+PACKAGES = go-dep-ptest go-dep-dbg go-dep-staticdev go-dep-dev go-dep-doc go-dep-locale go-dep
+LAYER = core

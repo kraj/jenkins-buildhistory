@@ -1,0 +1,10 @@
+PV = 2.1.0
+PR = r0
+PKG = libglew2.1
+PKGR = r0.9
+RPROVIDES = glew (=2.1.0)
+RDEPENDS = libgl-mesa (>= 18.1.7) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 574860
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/glew /usr/lib/glew/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libGLEW.so.2.1 /usr/lib/libGLEW.so.2.1.0

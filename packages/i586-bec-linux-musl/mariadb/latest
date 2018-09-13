@@ -1,0 +1,5 @@
+PV = 5.5.61
+PR = r0
+DEPENDS = base-files base-passwd cmake-native gettext-native libaio libevent libpam mariadb-native ncurses readline shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc zlib
+PACKAGES = mariadb-dbg mariadb libmysqlclient-r libmysqlclient-r-dev libmysqlclient-r-staticdev libmysqlclient-r-dbg libmysqlclient libmysqlclient-dev libmysqlclient-staticdev libmysqlclient-dbg libmysqld libmysqld-dev mariadb-client mariadb-server mariadb-setupdb mariadb-leftovers
+LAYER = openembedded-layer

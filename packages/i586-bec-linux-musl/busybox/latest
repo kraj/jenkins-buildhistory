@@ -1,0 +1,5 @@
+PV = 1.29.2
+PR = r0
+DEPENDS = kern-tools-native systemd-systemctl-native virtual/crypt virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc virtual/update-alternatives
+PACKAGES = busybox-ptest busybox-httpd busybox-udhcpd busybox-udhcpc busybox-syslog busybox-mdev busybox-hwclock busybox-dbg busybox-staticdev busybox-dev busybox-doc busybox-locale busybox
+LAYER = core

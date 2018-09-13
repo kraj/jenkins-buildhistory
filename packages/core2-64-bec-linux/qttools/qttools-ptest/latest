@@ -1,0 +1,10 @@
+PV = 5.11.1+gitAUTOINC+a01f362937
+PR = r0
+PKGV = 5.11.1+git0+a01f362937
+PKGR = r0.3
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) qtbase (>= 5.11.1+git0+74305ba470)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 54135
+FILES = /usr/lib/qttools/ptest
+FILELIST = /usr/lib/qttools/ptest/run-ptest /usr/lib/qttools/ptest/tst_qtattributionsscanner /usr/lib/qttools/ptest/tst_tdiag

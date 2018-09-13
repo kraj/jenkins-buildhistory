@@ -1,0 +1,10 @@
+PV = 1.0+gitAUTOINC+6003f99975
+PR = r0
+PKGV = 1.0+git0+6003f99975
+PKGR = r0.4
+RPROVIDES = kernel-module-can-isotp
+RDEPENDS = kernel-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 22576
+FILES = /lib/modules/4.18.5-yocto-standard/extra/net/can/can-isotp.ko /etc/modules-load.d/can-isotp.conf /etc/modprobe.d/can-isotp.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/extra/net/can/can-isotp.ko

@@ -1,0 +1,15 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/edac
+-rw-r--r-- root       root             6665 ./etc/edac/labels.db
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              193 ./lib/systemd/system/edac.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            18028 ./usr/bin/edac-util
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root            13580 ./usr/lib/libedac.so.1.1.1
+lrwxrwxrwx root       root               16 ./usr/lib/libedac.so.1 -> libedac.so.1.1.1
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            17370 ./usr/sbin/edac-ctl

@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+b99d3da32b
+PR = r0
+PKG = libqt5sensors-qmlplugins-dbg
+PKGV = 5.11.1+git0+b99d3da32b
+PKGR = r0.3
+RPROVIDES = qtsensors-qmlplugins-dbg (=5.11.1+git0+b99d3da32b)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtsensors-dbg
+PKGSIZE = 32455104
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug
+FILELIST = /usr/lib/.debug/libQt5Sensors.so.5.11.1 /usr/lib/qt5/plugins/sensorgestures/.debug/libqtsensorgestures_plugin.so /usr/lib/qt5/plugins/sensorgestures/.debug/libqtsensorgestures_shakeplugin.so /usr/lib/qt5/plugins/sensors/.debug/libqtsensors_generic.so /usr/lib/qt5/plugins/sensors/.debug/libqtsensors_iio-sensor-proxy.so /usr/lib/qt5/plugins/sensors/.debug/libqtsensors_linuxsys.so /usr/lib/qt5/qml/QtSensors/.debug/libdeclarative_sensors.so

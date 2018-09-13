@@ -1,0 +1,10 @@
+PV = 3.24.8
+PR = r0
+PKG = libgtksourceview-3.0-locale-ml
+PKGR = r0.9
+RPROVIDES = gtksourceview3-locale gtksourceview3-locale-ml (=3.24.8) ml-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ml
+PKGSIZE = 3223
+FILES = /usr/share/locale/ml
+FILELIST = /usr/share/locale/ml/LC_MESSAGES/gtksourceview-3.0.mo

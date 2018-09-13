@@ -1,0 +1,5 @@
+PV = 1.5.2
+PR = r0
+DEPENDS = meson-native ninja-native pkgconfig-native python3-native virtual/egl virtual/libc virtual/libgl virtual/libx11 virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
+PACKAGES = libepoxy-dbg libepoxy-staticdev libepoxy-dev libepoxy-doc libepoxy-locale libepoxy
+LAYER = core

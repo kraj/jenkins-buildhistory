@@ -1,0 +1,5 @@
+PV = 3.3.3+git
+PR = r0
+DEPENDS = boost cmake-native gettext-native ninja-native pkgconfig-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = libyui-dbg libyui-staticdev libyui-dev libyui-doc libyui-locale libyui
+LAYER = openembedded-layer

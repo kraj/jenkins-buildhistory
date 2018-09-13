@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/adduser adduser /usr/sbin/adduser.adduser 60
+	update-alternatives --install /usr/sbin/deluser deluser /usr/sbin/deluser.adduser 60
+	update-alternatives --install /usr/sbin/addgroup addgroup /usr/sbin/adduser.adduser 60
+	update-alternatives --install /usr/sbin/delgroup delgroup /usr/sbin/deluser.adduser 60

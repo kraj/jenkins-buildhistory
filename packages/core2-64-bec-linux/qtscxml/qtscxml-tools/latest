@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+de31ea0edc
+PR = r0
+PKG = libqt5scxml-tools
+PKGV = 5.11.1+git0+de31ea0edc
+PKGR = r0.3
+RPROVIDES = qtscxml-tools (=5.11.1+git0+de31ea0edc)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 1317296
+FILES = /usr/bin/qt5/*
+FILELIST = /usr/bin/qt5/qscxmlc

@@ -1,0 +1,10 @@
+PV = 0.10
+PR = r0
+PKG = libzbar0
+PKGR = r0.8
+RPROVIDES = zbar (=0.10)
+RDEPENDS = libice (>= 1.0.9) libjpeg-turbo (>= 2.0.0) libsm (>= 1.2.2) libx11 (>= 1.6.6) libxv (>= 1.0.11) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 202396
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/zbar /usr/lib/zbar/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libzbar.so.0 /usr/lib/libzbar.so.0.2.0

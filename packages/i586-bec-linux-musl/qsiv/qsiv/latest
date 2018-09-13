@@ -1,0 +1,9 @@
+PV = 1.1
+PR = r0
+PKGR = r0.9
+RPROVIDES = 
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470) qtdeclarative (>= 5.11.1+git0+68e282f510) qtdeclarative-qmlplugins
+RRECOMMENDS = 
+PKGSIZE = 15968
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qsiv /usr/lib/qsiv/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/qsiv-1.1
+FILELIST = /usr/bin/qsiv /usr/lib/qsiv-1.1/qml/qsiv/main.qml /usr/lib/qsiv-1.1/qsiv

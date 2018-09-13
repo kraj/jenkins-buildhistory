@@ -1,0 +1,10 @@
+PV = 2.9.8
+PR = r0
+PKG = libfuse-staticdev
+PKGR = r0.7
+RPROVIDES = fuse-staticdev (=2.9.8)
+RDEPENDS = fuse-dev (= 2.9.8-r0.7)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/fuse/*.a
+FILELIST = 

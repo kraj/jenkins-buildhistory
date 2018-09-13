@@ -1,0 +1,9 @@
+PV = 1.32.0
+PR = r0
+PKGR = r0.8
+RPROVIDES = 
+RDEPENDS = libgammu (>= 1.32.0) libgsmsd (>= 1.32.0) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 68579
+FILES = /usr/bin/gammu-smsd* /etc/gammu-smsdrc
+FILELIST = /etc/gammu-smsdrc /usr/bin/gammu-smsd /usr/bin/gammu-smsd-inject /usr/bin/gammu-smsd-monitor

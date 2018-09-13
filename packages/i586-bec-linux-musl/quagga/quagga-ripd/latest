@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.7
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) quagga (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 136235
+FILES = /usr/sbin/ripd /lib/systemd/system/ripd.service
+FILELIST = /lib/systemd/system/ripd.service /usr/sbin/ripd

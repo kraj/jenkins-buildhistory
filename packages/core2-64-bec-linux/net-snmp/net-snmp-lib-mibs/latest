@@ -1,0 +1,10 @@
+PV = 5.8
+PR = r0
+PKG = libnetsnmpmibs35
+PKGR = r0.7
+RPROVIDES = net-snmp-lib-mibs (=5.8)
+RDEPENDS = glibc (>= 2.28) libpci (>= 3.6.2) net-snmp-lib-agent (>= 5.8) net-snmp-lib-netsnmp (>= 5.8)
+RRECOMMENDS = 
+PKGSIZE = 1399888
+FILES = /usr/lib/libnetsnmpmibs.so.*
+FILELIST = /usr/lib/libnetsnmpmibs.so.35 /usr/lib/libnetsnmpmibs.so.35.0.0

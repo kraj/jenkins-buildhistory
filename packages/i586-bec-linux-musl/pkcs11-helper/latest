@@ -1,0 +1,5 @@
+PV = 1.25.1
+PR = r0
+DEPENDS = autoconf-native automake-native gmp gnu-config-native gnutls libtool-cross libtool-native nettle nspr nss openssl pkgconfig-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc zlib
+PACKAGES = pkcs11-helper-dbg pkcs11-helper-staticdev pkcs11-helper-dev pkcs11-helper-doc pkcs11-helper-locale pkcs11-helper
+LAYER = openembedded-layer

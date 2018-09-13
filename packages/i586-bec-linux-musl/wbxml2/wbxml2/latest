@@ -1,0 +1,10 @@
+PV = 0.10.8
+PR = r0
+PKG = libwbxml2-0
+PKGR = r0.7
+RPROVIDES = wbxml2 (=0.10.8)
+RDEPENDS = expat (>= 2.2.6) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 157095
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libwbxml2.so.0 /usr/lib/libwbxml2.so.0.0.17

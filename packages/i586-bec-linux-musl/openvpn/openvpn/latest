@@ -1,0 +1,9 @@
+PV = 2.4.4
+PR = r0
+PKGR = r0.8
+RPROVIDES = 
+RDEPENDS = libcrypto (>= 1.1.1~pre9) libpam (>= 1.3.0) libssl (>= 1.1.1~pre9) lzo (>= 2.10) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = kernel-module-tun
+PKGSIZE = 1000099
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openvpn /usr/lib/openvpn/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/openvpn@.service /etc/tmpfiles.d /lib/systemd/system/openvpn@loopback-server.service /lib/systemd/system/openvpn@loopback-client.service
+FILELIST = /etc/tmpfiles.d/openvpn.conf /lib/systemd/system/openvpn@.service /usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so /usr/lib/openvpn/plugins/openvpn-plugin-down-root.so /usr/sbin/openvpn

@@ -1,0 +1,10 @@
+PV = 0.5.0
+PR = r0
+PKG = libgxim4
+PKGR = r0.9
+RPROVIDES = libgxim (=0.5.0)
+RDEPENDS = cairo (>= 1.14.12) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.58.0) gtk+ (>= 2.24.32) libx11 (>= 1.6.6) musl (>= 1.1.20+git0+0fa1e638e8) pango (>= 1.42.4)
+RRECOMMENDS = 
+PKGSIZE = 342440
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgxim /usr/lib/libgxim/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libgxim.so.4 /usr/lib/libgxim.so.4.0.0

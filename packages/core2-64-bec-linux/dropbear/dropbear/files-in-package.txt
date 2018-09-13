@@ -1,0 +1,21 @@
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+-rw-r--r-- root       root               59 ./etc/default/dropbear
+drwxr-xr-x root       root               40 ./etc/dropbear
+drwxr-xr-x root       root               60 ./etc/pam.d
+-rw-r--r-- root       root               74 ./etc/pam.d/dropbear
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root              100 ./lib/systemd/system
+-rw-r--r-- root       root              453 ./lib/systemd/system/dropbearkey.service
+-rw-r--r-- root       root              384 ./lib/systemd/system/dropbear@.service
+-rw-r--r-- root       root              131 ./lib/systemd/system/dropbear.socket
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+lrwxrwxrwx root       root               23 ./usr/bin/dbclient -> /usr/sbin/dropbearmulti
+drwxr-xr-x root       root              120 ./usr/sbin
+lrwxrwxrwx root       root               15 ./usr/sbin/dropbearconvert -> ./dropbearmulti
+lrwxrwxrwx root       root               15 ./usr/sbin/dropbear -> ./dropbearmulti
+lrwxrwxrwx root       root               15 ./usr/sbin/dropbearkey -> ./dropbearmulti
+-rwxr-xr-x root       root           290896 ./usr/sbin/dropbearmulti
+drwxr-xr-x root       root               40 ./var

@@ -1,0 +1,9 @@
+PV = 2.27.1
+PR = r0
+PKGR = r0.7
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 150787
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sthttpd /usr/lib/sthttpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /srv/www /lib/systemd/system/thttpd.service
+FILELIST = /etc/thttpd.conf /lib/systemd/system/thttpd.service /srv/www/cgi-bin/phf /srv/www/cgi-bin/printenv /srv/www/cgi-bin/redirect /srv/www/cgi-bin/ssi /srv/www/index.html /usr/sbin/htpasswd /usr/sbin/makeweb /usr/sbin/syslogtocern /usr/sbin/thttpd

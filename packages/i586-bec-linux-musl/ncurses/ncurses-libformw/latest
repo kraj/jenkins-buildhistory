@@ -1,0 +1,10 @@
+PV = 6.1+20180630
+PR = r0
+PKG = libformw5
+PKGR = r0.7
+RPROVIDES = ncurses-libformw (=6.1+20180630)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) ncurses-libncursesw (>= 6.1+20180630) ncurses-libtinfo (>= 6.1+20180630)
+RRECOMMENDS = 
+PKGSIZE = 71931
+FILES = /usr/lib/libformw.so.5 /usr/lib/libformw.so.5.9
+FILELIST = /usr/lib/libformw.so.5 /usr/lib/libformw.so.5.9

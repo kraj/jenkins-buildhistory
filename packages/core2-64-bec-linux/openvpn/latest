@@ -1,0 +1,5 @@
+PV = 2.4.4
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native iproute2 libpam libtool-cross libtool-native lzo openssl systemd-systemctl-native virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
+PACKAGES = openvpn-sample openvpn-dbg openvpn-staticdev openvpn-dev openvpn-doc openvpn-locale openvpn
+LAYER = networking-layer

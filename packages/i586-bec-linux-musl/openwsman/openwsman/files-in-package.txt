@@ -1,0 +1,47 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root              120 ./etc/openwsman
+-rw-r--r-- root       root              556 ./etc/openwsman/openwsman_client.conf
+-rw-r--r-- root       root             3725 ./etc/openwsman/openwsman.conf
+-rwxr-xr-x root       root              696 ./etc/openwsman/owsmangencert.sh
+-rw-r--r-- root       root             1015 ./etc/openwsman/ssleay.cnf
+drwxr-xr-x root       root               60 ./etc/pam.d
+-rw-r--r-- root       root              265 ./etc/pam.d/openwsman
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              237 ./lib/systemd/system/openwsmand.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root             9110 ./usr/bin/winrs
+drwxr-xr-x root       root              260 ./usr/lib
+-rwxr-xr-x root       root            54620 ./usr/lib/libwsman_clientpp.so.1.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/libwsman_clientpp.so.1 -> libwsman_clientpp.so.1.0.0
+-rwxr-xr-x root       root            50300 ./usr/lib/libwsman_client.so.4.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libwsman_client.so.4 -> libwsman_client.so.4.0.0
+-rwxr-xr-x root       root            34092 ./usr/lib/libwsman_curl_client_transport.so.1.0.0
+lrwxrwxrwx root       root               39 ./usr/lib/libwsman_curl_client_transport.so.1 -> libwsman_curl_client_transport.so.1.0.0
+-rwxr-xr-x root       root            17532 ./usr/lib/libwsman_server.so.1.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libwsman_server.so.1 -> libwsman_server.so.1.0.0
+-rwxr-xr-x root       root           244708 ./usr/lib/libwsman.so.1.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libwsman.so.1 -> libwsman.so.1.0.0
+drwxr-xr-x root       root               80 ./usr/lib/openwsman
+drwxr-xr-x root       root              160 ./usr/lib/openwsman/authenticators
+-rwxr-xr-x root       root            13436 ./usr/lib/openwsman/authenticators/libwsman_file_auth.so.1.0.0
+lrwxrwxrwx root       root               27 ./usr/lib/openwsman/authenticators/libwsman_file_auth.so.1 -> libwsman_file_auth.so.1.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/openwsman/authenticators/libwsman_file_auth.so -> libwsman_file_auth.so.1
+-rwxr-xr-x root       root            13544 ./usr/lib/openwsman/authenticators/libwsman_pam_auth.so.1.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/openwsman/authenticators/libwsman_pam_auth.so.1 -> libwsman_pam_auth.so.1.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/openwsman/authenticators/libwsman_pam_auth.so -> libwsman_pam_auth.so.1
+drwxr-xr-x root       root              220 ./usr/lib/openwsman/plugins
+-rwxr-xr-x root       root            18004 ./usr/lib/openwsman/plugins/libredirect.so.1.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/openwsman/plugins/libredirect.so.1 -> libredirect.so.1.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/openwsman/plugins/libredirect.so -> libredirect.so.1
+-rwxr-xr-x root       root            13772 ./usr/lib/openwsman/plugins/libwsman_identify_plugin.so.1.0.0
+lrwxrwxrwx root       root               33 ./usr/lib/openwsman/plugins/libwsman_identify_plugin.so.1 -> libwsman_identify_plugin.so.1.0.0
+lrwxrwxrwx root       root               29 ./usr/lib/openwsman/plugins/libwsman_identify_plugin.so -> libwsman_identify_plugin.so.1
+-rwxr-xr-x root       root            14208 ./usr/lib/openwsman/plugins/libwsman_test.so.1.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/openwsman/plugins/libwsman_test.so.1 -> libwsman_test.so.1.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/openwsman/plugins/libwsman_test.so -> libwsman_test.so.1
+drwxr-xr-x root       root               80 ./usr/sbin
+-rwxr-xr-x root       root            95804 ./usr/sbin/openwsmand
+lrwxrwxrwx root       root               22 ./usr/sbin/rcopenwsmand -> /etc/init.d/openwsmand

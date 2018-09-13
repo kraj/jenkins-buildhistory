@@ -1,0 +1,10 @@
+PV = 6.1+20180630
+PR = r0
+PKG = libncurses5
+PKGR = r0.7
+RPROVIDES = ncurses-libncurses (=6.1+20180630)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) ncurses-libtinfo (>= 6.1+20180630)
+RRECOMMENDS = 
+PKGSIZE = 156973
+FILES = /lib/libncurses.so.5 /lib/libncurses.so.5.9
+FILELIST = /lib/libncurses.so.5 /lib/libncurses.so.5.9

@@ -1,0 +1,5 @@
+PV = 1.6.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native groff-native libtool-cross libtool-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = scsirastools-raidmon scsirastools-raidmon-dbg scsirastools-diskmon scsirastools-diskmon-dbg scsirastools-dbg scsirastools-staticdev scsirastools-dev scsirastools-doc scsirastools-locale scsirastools
+LAYER = openembedded-layer

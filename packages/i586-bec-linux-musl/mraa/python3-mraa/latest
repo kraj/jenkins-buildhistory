@@ -1,0 +1,11 @@
+PV = 1.9.0-gitAUTOINC+fbb7d92320
+PR = r0
+PKG = python3-libmraa
+PKGV = 1.9.0-git0+fbb7d92320
+PKGR = r0.9
+RPROVIDES = python3-mraa (=1.9.0-git0+fbb7d92320)
+RDEPENDS = libgcc (>= 8.2.0) libpython3 (>= 3.5.5) libstdc++ (>= 8.2.0) mraa (>= 1.9.0-git0+fbb7d92320) musl (>= 1.1.20+git0+0fa1e638e8) python3
+RRECOMMENDS = 
+PKGSIZE = 187547
+FILES = /usr/lib/python3.5/site-packages/
+FILELIST = /usr/lib/python3.5/site-packages/_mraa.so /usr/lib/python3.5/site-packages/mraa.py

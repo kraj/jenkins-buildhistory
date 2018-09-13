@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.7
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) quagga (>= 1.2.4) quagga-ospfd (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 23145
+FILES = /usr/sbin/ospfclient /usr/lib/libospfapiclient.so.*
+FILELIST = /usr/lib/libospfapiclient.so.0 /usr/lib/libospfapiclient.so.0.0.0 /usr/sbin/ospfclient

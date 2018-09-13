@@ -1,0 +1,11 @@
+PE = 1
+PV = 239
+PR = r0
+PKG = libnss-mymachines2
+PKGR = r0.5
+RPROVIDES = libnss-mymachines (=239)
+RDEPENDS = glibc (>= 2.28) libcap (>= 2.25) util-linux-libmount (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 336392
+FILES = /lib/libnss_mymachines.so.2
+FILELIST = /lib/libnss_mymachines.so.2

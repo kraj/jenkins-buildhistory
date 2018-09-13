@@ -1,0 +1,5 @@
+PV = 2.3.1
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libcap libevent libtirpc libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native util-linux virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = nfs-utils-client nfs-utils-mount nfs-utils-stats nfs-utils-dbg nfs-utils-staticdev nfs-utils-dev nfs-utils-doc nfs-utils-locale nfs-utils
+LAYER = core

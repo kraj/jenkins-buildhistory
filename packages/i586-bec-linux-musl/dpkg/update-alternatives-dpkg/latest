@@ -1,0 +1,9 @@
+PV = 1.18.24
+PR = r0
+PKGR = r0.7
+RPROVIDES = update-alternatives
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 46504
+FILES = /usr/bin/update-alternatives /var/lib/dpkg/alternatives /etc/alternatives
+FILELIST = /etc/alternatives/README /usr/bin/update-alternatives

@@ -1,0 +1,9 @@
+PV = 0.7.7
+PR = r0
+PKGR = r0.5
+RPROVIDES = device-mapper-multipath-libs
+RDEPENDS = glibc (>= 2.28) json-c (>= 0.13.1) libaio (>= 0.3.111) libdevmapper (>= 2.02.180) libsystemd (>= 239) libudev (>= 239) liburcu (>= 0.10.1)
+RRECOMMENDS = 
+PKGSIZE = 659424
+FILES = /lib/lib*.so.* /lib/multipath/lib*.so*
+FILELIST = /lib/libdmmp.so.0.2.0 /lib/libmpathcmd.so.0 /lib/libmpathpersist.so.0 /lib/libmultipath.so.0 /lib/multipath/libcheckcciss_tur.so /lib/multipath/libcheckdirectio.so /lib/multipath/libcheckemc_clariion.so /lib/multipath/libcheckhp_sw.so /lib/multipath/libcheckrdac.so /lib/multipath/libcheckreadsector0.so /lib/multipath/libchecktur.so /lib/multipath/libforeign-nvme.so /lib/multipath/libprioalua.so /lib/multipath/libprioconst.so /lib/multipath/libpriodatacore.so /lib/multipath/libprioemc.so /lib/multipath/libpriohds.so /lib/multipath/libpriohp_sw.so /lib/multipath/libprioiet.so /lib/multipath/libprioontap.so /lib/multipath/libpriopath_latency.so /lib/multipath/libpriorandom.so /lib/multipath/libpriordac.so /lib/multipath/libpriosysfs.so /lib/multipath/libprioweightedpath.so

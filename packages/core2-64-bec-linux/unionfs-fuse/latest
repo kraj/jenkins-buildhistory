@@ -1,0 +1,5 @@
+PV = 2.0
+PR = r0
+DEPENDS = cmake-native fuse ninja-native pkgconfig-native virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
+PACKAGES = unionfs-fuse-dbg unionfs-fuse-staticdev unionfs-fuse-dev unionfs-fuse-doc unionfs-fuse-locale unionfs-fuse
+LAYER = filesystems-layer

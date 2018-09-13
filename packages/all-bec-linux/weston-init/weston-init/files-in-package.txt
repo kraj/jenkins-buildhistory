@@ -1,0 +1,14 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/udev
+drwxr-xr-x root       root               60 ./etc/udev/rules.d
+-rw-r--r-- root       root              223 ./etc/udev/rules.d/71-weston-drm.rules
+drwxr-xr-x root       root               60 ./etc/xdg
+drwxr-xr-x root       root               60 ./etc/xdg/weston
+-rw-r--r-- root       root             1640 ./etc/xdg/weston/weston.ini
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              948 ./lib/systemd/system/weston@.service
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root             1337 ./usr/bin/weston-start

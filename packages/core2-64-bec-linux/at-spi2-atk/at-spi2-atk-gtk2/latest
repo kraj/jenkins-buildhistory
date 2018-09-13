@@ -1,0 +1,10 @@
+PV = 2.26.2
+PR = r0
+PKG = libatk-bridge-2.0-gtk2
+PKGR = r0.6
+RPROVIDES = at-spi2-atk-gtk2 (=2.26.2)
+RDEPENDS = at-spi2-atk (>= 2.26.2) glib-2.0 (>= 2.58.0) glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 6232
+FILES = /usr/lib/gtk-2.0/modules/libatk-bridge.*
+FILELIST = /usr/lib/gtk-2.0/modules/libatk-bridge.so

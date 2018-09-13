@@ -1,0 +1,9 @@
+PV = 5.6.3
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) strongswan
+RRECOMMENDS = 
+PKGSIZE = 39258
+FILES = /usr/lib/ipsec/plugins/libstrongswan-aes.so /etc/strongswan.d/charon/aes.conf
+FILELIST = /etc/strongswan.d/charon/aes.conf /usr/lib/ipsec/plugins/libstrongswan-aes.so

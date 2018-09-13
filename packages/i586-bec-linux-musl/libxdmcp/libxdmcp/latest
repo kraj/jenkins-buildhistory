@@ -1,0 +1,11 @@
+PE = 1
+PV = 1.1.2
+PR = r0
+PKG = libxdmcp6
+PKGR = r0.7
+RPROVIDES = libxdmcp (=1.1.2)
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 21789
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxdmcp /usr/lib/libxdmcp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libXdmcp.so.6 /usr/lib/libXdmcp.so.6.0.0

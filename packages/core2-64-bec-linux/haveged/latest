@@ -1,0 +1,5 @@
+PV = 1.9.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd systemd-systemctl-native virtual/libc virtual/x86_64-bec-linux-compilerlibs virtual/x86_64-bec-linux-gcc
+PACKAGES = haveged-dbg haveged-staticdev haveged-dev haveged-doc haveged-locale haveged
+LAYER = openembedded-layer

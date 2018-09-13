@@ -1,0 +1,9 @@
+PV = 4.6
+PR = r0
+PKGR = r0.8
+RPROVIDES = 
+RDEPENDS = libpam (>= 1.3.0) musl (>= 1.1.20+git0+0fa1e638e8) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 143225
+FILES = /bin/login.shadow /bin/su.shadow /usr/bin/sg /usr/bin/newgrp.shadow /usr/bin/groups.shadow /etc/pam.d/login /etc/pam.d/su /etc/login.defs
+FILELIST = /bin/login.shadow /bin/su.shadow /etc/login.defs /etc/pam.d/login /etc/pam.d/su /usr/bin/groups.shadow /usr/bin/newgrp.shadow /usr/bin/sg

@@ -1,0 +1,11 @@
+PV = 1.5+gitAUTOINC+978b733462
+PR = r0
+PKG = libiksemel-bin
+PKGV = 1.5+git0+978b733462
+PKGR = r0.4
+RPROVIDES = iksemel-bin (=1.5+git0+978b733462)
+RDEPENDS = glibc (>= 2.28) iksemel (>= 1.5+git0+978b733462)
+RRECOMMENDS = 
+PKGSIZE = 44352
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/ikslint /usr/bin/iksperf /usr/bin/iksroster

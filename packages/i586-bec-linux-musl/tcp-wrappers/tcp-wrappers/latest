@@ -1,0 +1,9 @@
+PV = 7.6
+PR = r10
+PKGR = r10.7
+RPROVIDES = 
+RDEPENDS = libwrap (>= 7.6) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 60144
+FILES = /usr/sbin /etc/hosts.allow /etc/hosts.deny
+FILELIST = /etc/hosts.allow /etc/hosts.deny /usr/sbin/safe_finger /usr/sbin/tcpd /usr/sbin/tcpdchk /usr/sbin/tcpdmatch /usr/sbin/try-from

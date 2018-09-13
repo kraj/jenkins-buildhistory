@@ -1,0 +1,5 @@
+PV = 1.8.4
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = tinyproxy-dbg tinyproxy-staticdev tinyproxy-dev tinyproxy-doc tinyproxy-locale tinyproxy
+LAYER = networking-layer

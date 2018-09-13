@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+7341720391_71799edb8a
+PR = r0
+PKGV = 4.18.5+git1+7341720391_71799edb8a
+PKGR = r0.4
+RPROVIDES = kernel-module-gspca-topro
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-gspca-main-4.18.5-yocto-standard kernel-module-videodev-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 44468
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/drivers/media/usb/gspca/gspca_topro.ko /etc/modules-load.d/gspca_topro.conf /etc/modprobe.d/gspca_topro.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/drivers/media/usb/gspca/gspca_topro.ko

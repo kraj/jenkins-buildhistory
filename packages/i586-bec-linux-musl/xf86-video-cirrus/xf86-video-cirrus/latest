@@ -1,0 +1,10 @@
+PE = 2
+PV = 1.5.3
+PR = r0
+PKGR = r0.9
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git0+0fa1e638e8) xorg-abi-video-23
+RRECOMMENDS = 
+PKGSIZE = 71648
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xf86-video-cirrus /usr/lib/xf86-video-cirrus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/xorg/modules/drivers/*.so
+FILELIST = /usr/lib/xorg/modules/drivers/cirrus_alpine.so /usr/lib/xorg/modules/drivers/cirrus_drv.so /usr/lib/xorg/modules/drivers/cirrus_laguna.so

@@ -1,0 +1,5 @@
+PV = 4.8.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc virtual/update-alternatives
+PACKAGES = debianutils-run-parts debianutils-dbg debianutils-staticdev debianutils-dev debianutils-doc debianutils-locale debianutils
+LAYER = core

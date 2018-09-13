@@ -1,0 +1,25 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root              120 ./lib/udev
+drwxr-xr-x root       root               60 ./lib/udev/hwdb.d
+-rw-r--r-- root       root            13529 ./lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
+-rwxr-xr-x root       root             5548 ./lib/udev/libinput-device-group
+-rwxr-xr-x root       root             5548 ./lib/udev/libinput-model-quirks
+drwxr-xr-x root       root               80 ./lib/udev/rules.d
+-rw-r--r-- root       root              277 ./lib/udev/rules.d/80-libinput-device-groups.rules
+-rw-r--r-- root       root             1479 ./lib/udev/rules.d/90-libinput-model-quirks.rules
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              240 ./usr/libexec/libinput
+-rwxr-xr-x root       root            42968 ./usr/libexec/libinput/libinput-debug-events
+-rwxr-xr-x root       root            26092 ./usr/libexec/libinput/libinput-list-devices
+-rwxr-xr-x root       root            17956 ./usr/libexec/libinput/libinput-measure
+-rwxr-xr-x root       root            15881 ./usr/libexec/libinput/libinput-measure-fuzz
+-rwxr-xr-x root       root             9337 ./usr/libexec/libinput/libinput-measure-touchpad-pressure
+-rwxr-xr-x root       root             8661 ./usr/libexec/libinput/libinput-measure-touchpad-tap
+-rwxr-xr-x root       root            10934 ./usr/libexec/libinput/libinput-measure-touch-size
+-rwxr-xr-x root       root             8458 ./usr/libexec/libinput/libinput-measure-trackpoint-range
+-rwxr-xr-x root       root            54972 ./usr/libexec/libinput/libinput-record
+-rwxr-xr-x root       root             6594 ./usr/libexec/libinput/libinput-replay
+-rwxr-xr-x root       root           276628 ./usr/lib/libinput.so.10.13.0
+lrwxrwxrwx root       root               19 ./usr/lib/libinput.so.10 -> libinput.so.10.13.0

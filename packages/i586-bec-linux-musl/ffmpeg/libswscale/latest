@@ -1,0 +1,10 @@
+PV = 4.0.2
+PR = r0
+PKG = libswscale5
+PKGR = r0.4
+RPROVIDES = libswscale (=4.0.2)
+RDEPENDS = libavutil (>= 4.0.2) musl (>= 1.1.20+git0+0fa1e638e8)
+RRECOMMENDS = 
+PKGSIZE = 595461
+FILES = /usr/lib/libswscale.so.*
+FILELIST = /usr/lib/libswscale.so.5 /usr/lib/libswscale.so.5.1.100
