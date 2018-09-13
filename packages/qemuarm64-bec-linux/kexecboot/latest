@@ -1,0 +1,5 @@
+PV = 0.6+gitAUTOINC+4c01d6960a
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = kexecboot-dbg kexecboot-staticdev kexecboot-dev kexecboot-doc kexecboot-locale kexecboot
+LAYER = meta-initramfs

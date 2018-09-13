@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r12
+DEPENDS = virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/kernel virtual/libc
+PACKAGES = initramfs-live-boot-tiny-dbg initramfs-live-boot-tiny-staticdev initramfs-live-boot-tiny-dev initramfs-live-boot-tiny-doc initramfs-live-boot-tiny-locale initramfs-live-boot-tiny
+LAYER = core

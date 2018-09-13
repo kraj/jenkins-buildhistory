@@ -1,0 +1,5 @@
+PV = 0.9.3
+PR = r0
+DEPENDS = bison-native boost cmake-native flex-native glib-2.0 libevent ninja-native openssl pkgconfig-native python python-native thrift-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = thrift-dbg thrift-staticdev thrift-dev thrift-doc thrift-locale thrift-compiler libthrift thrift
+LAYER = openembedded-layer

@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r19
+DEPENDS = systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = systemd-machine-units-dbg systemd-machine-units-staticdev systemd-machine-units-dev systemd-machine-units-doc systemd-machine-units-locale systemd-machine-units
+LAYER = core

@@ -1,0 +1,5 @@
+PV = 3.13.0
+PR = r0
+DEPENDS = autoconf-native automake-native boost gnu-config-native libtool-cross libtool-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc virtual/libx11
+PACKAGES = valgrind-ptest valgrind-dbg valgrind-staticdev valgrind-dev valgrind-doc valgrind-locale valgrind
+LAYER = core

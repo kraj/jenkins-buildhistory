@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = serial-test-dbg serial-test-staticdev serial-test-dev serial-test-doc serial-test-locale serial-test
+LAYER = meta-bec

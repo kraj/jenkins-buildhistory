@@ -1,0 +1,10 @@
+PV = 2.0.0
+PR = r0
+PKG = libcdio18
+PKGR = r0.5
+RPROVIDES = libcdio (=2.0.0)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 105293
+FILES = /usr/lib/libcdio${SOLIB} /usr/lib/libcdio.so.18 /usr/lib/libcdio.so.18.0.0
+FILELIST = /usr/lib/libcdio.so.18 /usr/lib/libcdio.so.18.0.0

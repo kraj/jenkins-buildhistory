@@ -1,0 +1,6 @@
+PE = 2
+PV = 1.4.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libdrm libtool-cross libtool-native pkgconfig-native util-macros virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc virtual/libx11 virtual/xserver xorgproto xorgproto xorgproto
+PACKAGES = xf86-video-armsoc-dbg xf86-video-armsoc-staticdev xf86-video-armsoc-dev xf86-video-armsoc-doc xf86-video-armsoc-locale xf86-video-armsoc
+LAYER = openembedded-layer

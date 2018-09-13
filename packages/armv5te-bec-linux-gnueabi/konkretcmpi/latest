@@ -1,0 +1,5 @@
+PV = 0.9.2
+PR = r0
+DEPENDS = cmake-native ninja-native python sblim-cmpi-devel swig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = konkretcmpi-python konkretcmpi-python-dbg konkretcmpi-dbg konkretcmpi-staticdev konkretcmpi-dev konkretcmpi-doc konkretcmpi-locale konkretcmpi
+LAYER = openembedded-layer

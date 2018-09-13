@@ -1,0 +1,5 @@
+PV = 1.14.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gstreamer1.0 gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gtk-doc-native libdrm libtool-cross libtool-native libva libxrandr libxrender pkgconfig-native python3-native udev virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc virtual/libgl virtual/libx11 wayland
+PACKAGES = gstreamer1.0-vaapi-tests gstreamer1.0-vaapi-dbg gstreamer1.0-vaapi-staticdev gstreamer1.0-vaapi-dev gstreamer1.0-vaapi-doc gstreamer1.0-vaapi-locale gstreamer1.0-vaapi
+LAYER = core

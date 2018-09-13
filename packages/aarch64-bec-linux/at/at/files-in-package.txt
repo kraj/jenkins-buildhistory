@@ -1,0 +1,23 @@
+drwxr-xr-x root       root               80 ./etc
+-rw-r----- root       root              144 ./etc/at.deny
+drwxr-xr-x root       root               60 ./etc/pam.d
+-rw-r--r-- root       root              272 ./etc/pam.d/atd
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              134 ./lib/systemd/system/atd.service
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwsr-sr-x root       root            67952 ./usr/bin/at
+lrwxrwxrwx root       root                2 ./usr/bin/atq -> at
+lrwxrwxrwx root       root                2 ./usr/bin/atrm -> at
+-rwxr-xr-x root       root              137 ./usr/bin/batch
+drwxr-xr-x root       root               80 ./usr/sbin
+-rwxr-xr-x root       root            67752 ./usr/sbin/atd
+-rwxr-xr-x root       root               67 ./usr/sbin/atrun
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/spool
+drwxr-xr-x root       root               80 ./var/spool/at
+drwxrwx--T root       root               60 ./var/spool/at/jobs
+-rw------- root       root                0 ./var/spool/at/jobs/.SEQ
+drwxrwx--T root       root               40 ./var/spool/at/spool

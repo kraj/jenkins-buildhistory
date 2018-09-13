@@ -1,0 +1,5 @@
+PV = 6.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = smartmontools-dbg smartmontools-staticdev smartmontools-dev smartmontools-doc smartmontools-locale smartmontools
+LAYER = openembedded-layer

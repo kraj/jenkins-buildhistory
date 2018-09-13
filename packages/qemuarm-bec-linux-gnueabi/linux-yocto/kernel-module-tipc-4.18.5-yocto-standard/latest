@@ -1,0 +1,10 @@
+PV = 4.18.5+gitAUTOINC+7341720391_cae6ae8b33
+PR = r0
+PKGV = 4.18.5+git1+7341720391_cae6ae8b33
+PKGR = r0.4
+RPROVIDES = kernel-module-tipc
+RDEPENDS = kernel-4.18.5-yocto-standard kernel-module-ip6-udp-tunnel-4.18.5-yocto-standard kernel-module-udp-tunnel-4.18.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 223508
+FILES = /lib/modules/4.18.5-yocto-standard/kernel/net/tipc/tipc.ko /etc/modules-load.d/tipc.conf /etc/modprobe.d/tipc.conf
+FILELIST = /lib/modules/4.18.5-yocto-standard/kernel/net/tipc/tipc.ko

@@ -1,0 +1,5 @@
+PV = 1.3.6
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libpam libtool-cross libtool-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = proftpd-dbg proftpd-staticdev proftpd-dev proftpd-doc proftpd-locale proftpd
+LAYER = networking-layer

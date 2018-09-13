@@ -1,0 +1,9 @@
+PV = 1.9
+PR = r0
+PKGR = r0.6
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1~pre9)
+RRECOMMENDS = 
+PKGSIZE = 131460
+FILES = /usr/bin/*
+FILELIST = /usr/bin/async_cipher /usr/bin/async_hmac /usr/bin/async_speed /usr/bin/cipher /usr/bin/cipher-aead /usr/bin/cipher-aead-srtp /usr/bin/cipher-gcm /usr/bin/cipher_comp /usr/bin/fullspeed /usr/bin/hash_comp /usr/bin/hashcrypt_speed /usr/bin/hmac /usr/bin/hmac_comp /usr/bin/sha_speed /usr/bin/speed

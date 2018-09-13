@@ -1,0 +1,5 @@
+PV = 1.5.1
+PR = r0
+DEPENDS = systemd-systemctl-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = sysklogd-dbg sysklogd-staticdev sysklogd-dev sysklogd-doc sysklogd-locale sysklogd
+LAYER = core

@@ -1,0 +1,5 @@
+PV = 1.4.4
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native libnetfilter-conntrack libnetfilter-cthelper libnetfilter-cttimeout libnetfilter-queue libnfnetlink libtirpc libtool-cross libtool-native pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = conntrack-tools-dbg conntrack-tools-staticdev conntrack-tools-dev conntrack-tools-doc conntrack-tools-locale conntrack-tools
+LAYER = networking-layer

@@ -1,0 +1,5 @@
+PV = 1.2.4
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd c-ares gnu-config-native libpam libtool-cross libtool-native ncurses perl-native pkgconfig-native readline shadow shadow-native shadow-sysroot systemd-systemctl-native systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = quagga-dbg quagga-staticdev quagga-dev quagga-doc quagga-locale quagga-ospfd quagga-ospf6d quagga-bgpd quagga-ripd quagga-ripngd quagga-isisd quagga-ospfclient quagga
+LAYER = networking-layer

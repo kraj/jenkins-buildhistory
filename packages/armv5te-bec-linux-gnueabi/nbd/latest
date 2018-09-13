@@ -1,0 +1,5 @@
+PV = 3.11
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = nbd-client nbd-server nbd-dbg nbd-trdump nbd-doc
+LAYER = networking-layer

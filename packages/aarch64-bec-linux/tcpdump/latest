@@ -1,0 +1,5 @@
+PV = 4.9.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cross libtool-native openssl virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = tcpdump-ptest tcpdump-dbg tcpdump-staticdev tcpdump-dev tcpdump-doc tcpdump-locale tcpdump
+LAYER = networking-layer

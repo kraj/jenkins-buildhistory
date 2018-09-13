@@ -1,0 +1,5 @@
+PV = 0.1
+PR = r3
+DEPENDS = systemd-systemctl-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = zram-dbg zram-staticdev zram-dev zram-doc zram-locale zram
+LAYER = openembedded-layer

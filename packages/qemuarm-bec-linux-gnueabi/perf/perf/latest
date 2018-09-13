@@ -1,0 +1,11 @@
+PV = 1.0
+PR = r9
+PKGV = 4.18.5
+PKGR = r9.6
+RPROVIDES = 
+RDEPENDS = bash elfutils glibc (>= 2.28) libbfd (>= 2.31) libdw (>= 0.173) libelf (>= 0.173) libgcc (>= 8.2.0) liblzma (>= 5.2.4) libunwind (>= 1.2.1) perl perl-lib (>= 5.24.4) slang (>= 2.3.2) zlib (>= 1.2.11)
+RRECOMMENDS = 
+RSUGGESTS = perf-archive perf-perl perf-python perf-tests
+PKGSIZE = 1840668
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/perf /usr/lib/perf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/perl /usr/share/perl /usr/libexec/perf-core /usr/libexec/perf-core /usr/lib/traceevent
+FILELIST = /etc/bash_completion.d/perf /usr/bin/perf /usr/bin/trace /usr/lib/traceevent/plugins/plugin_cfg80211.so /usr/lib/traceevent/plugins/plugin_function.so /usr/lib/traceevent/plugins/plugin_hrtimer.so /usr/lib/traceevent/plugins/plugin_jbd2.so /usr/lib/traceevent/plugins/plugin_kmem.so /usr/lib/traceevent/plugins/plugin_kvm.so /usr/lib/traceevent/plugins/plugin_mac80211.so /usr/lib/traceevent/plugins/plugin_sched_switch.so /usr/lib/traceevent/plugins/plugin_scsi.so /usr/lib/traceevent/plugins/plugin_xen.so /usr/libexec/perf-core/perf-archive /usr/libexec/perf-core/perf-with-kcore

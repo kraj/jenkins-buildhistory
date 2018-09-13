@@ -1,0 +1,15 @@
+drwxr-xr-x root       root               60 ./etc
+-rw-r--r-- root       root            13751 ./etc/mpd.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              652 ./lib/systemd/system/mpd.service
+-rw-r--r-- root       root              137 ./lib/systemd/system/mpd.socket
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root           985928 ./usr/bin/mpd
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x mpd        root               80 ./var/lib/mpd
+drwxrwxr-x mpd        mpd                40 ./var/lib/mpd/music
+drwxr-xr-x mpd        root               40 ./var/lib/mpd/playlists

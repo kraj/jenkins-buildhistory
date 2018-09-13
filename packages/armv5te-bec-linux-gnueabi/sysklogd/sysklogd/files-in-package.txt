@@ -1,0 +1,14 @@
+drwxr-xr-x root       root               60 ./etc
+-rw-r--r-- root       root             1582 ./etc/syslog.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              214 ./lib/systemd/system/klogd.service
+-rw-r--r-- root       root              240 ./lib/systemd/system/syslogd.service
+drwxr-xr-x root       root               80 ./sbin
+-r-x------ root       root            18368 ./sbin/klogd
+-r-x------ root       root            23332 ./sbin/syslogd
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root               30 ./usr/lib/tmpfiles.d/sysklogd.conf

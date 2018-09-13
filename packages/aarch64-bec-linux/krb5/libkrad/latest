@@ -1,0 +1,10 @@
+PV = 1.16.1
+PR = r0
+PKG = libkrad0
+PKGR = r0.6
+RPROVIDES = libkrad (=1.16.1)
+RDEPENDS = glibc (>= 2.28) libcomerr (>= 1.44.3) libk5crypto (>= 1.16.1) libkrb5 (>= 1.16.1) libkrb5support (>= 1.16.1) libverto (>= 1.16.1)
+RRECOMMENDS = 
+PKGSIZE = 67766
+FILES = /usr/lib/libkrad.so.*
+FILELIST = /usr/lib/libkrad.so.0 /usr/lib/libkrad.so.0.0

@@ -1,0 +1,5 @@
+PV = 1.8.0+gitAUTOINC+89ed309252
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native util-linux virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = netdata-dbg netdata-staticdev netdata-dev netdata-doc netdata-locale netdata
+LAYER = webserver

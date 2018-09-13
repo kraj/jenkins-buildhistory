@@ -1,0 +1,9 @@
+PV = 5.6.3
+PR = r0
+PKGR = r0.6
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) strongswan
+RRECOMMENDS = 
+PKGSIZE = 9949
+FILES = /usr/lib/ipsec/plugins/libstrongswan-pubkey.so /etc/strongswan.d/charon/pubkey.conf
+FILELIST = /etc/strongswan.d/charon/pubkey.conf /usr/lib/ipsec/plugins/libstrongswan-pubkey.so

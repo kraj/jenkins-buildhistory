@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc vte9
+PACKAGES = toscoterm-dbg toscoterm-staticdev toscoterm-dev toscoterm-doc toscoterm-locale toscoterm
+LAYER = openembedded-layer

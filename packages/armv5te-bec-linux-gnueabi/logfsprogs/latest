@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = logfsprogs-dbg logfsprogs-staticdev logfsprogs-dev logfsprogs-doc logfsprogs-locale logfsprogs
+LAYER = filesystems-layer

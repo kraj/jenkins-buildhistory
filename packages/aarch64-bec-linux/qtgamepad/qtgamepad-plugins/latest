@@ -1,0 +1,11 @@
+PV = 5.11.1+gitAUTOINC+4d393b920d
+PR = r0
+PKG = libqt5gamepad-plugins
+PKGV = 5.11.1+git0+4d393b920d
+PKGR = r0.3
+RPROVIDES = qtgamepad-plugins (=5.11.1+git0+4d393b920d)
+RDEPENDS = glibc (>= 2.28) libsdl2 (>= 2.0.8) libstdc++ (>= 8.2.0) libudev (>= 239) qtbase (>= 5.11.1+git0+74305ba470) qtgamepad (>= 5.11.1+git0+4d393b920d)
+RRECOMMENDS = 
+PKGSIZE = 201272
+FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
+FILELIST = /usr/lib/qt5/plugins/gamepads/libevdevgamepad.so /usr/lib/qt5/plugins/gamepads/libsdl2gamepad.so

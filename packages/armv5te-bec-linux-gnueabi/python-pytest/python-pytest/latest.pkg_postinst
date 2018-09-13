@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/py.test py.test /usr/bin/py.test.python-pytest 10
+	update-alternatives --install /usr/bin/pytest pytest /usr/bin/pytest.python-pytest 10

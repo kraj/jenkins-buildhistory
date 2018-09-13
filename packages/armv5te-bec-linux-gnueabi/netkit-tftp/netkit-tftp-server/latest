@@ -1,0 +1,9 @@
+PV = 0.17
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) tcp-wrappers xinetd
+RRECOMMENDS = 
+PKGSIZE = 14561
+FILES = /usr/sbin/* /etc/xinetd.d/*
+FILELIST = /etc/xinetd.d/tftp /usr/sbin/in.tftpd

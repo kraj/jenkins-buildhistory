@@ -1,0 +1,9 @@
+PV = 1.6.0
+PR = r3
+PKGR = r3.6
+RPROVIDES = 
+RDEPENDS = aspell glib-2.0 (>= 2.58.0) glibc (>= 2.28) libaspell (>= 0.60.6.1)
+RRECOMMENDS = 
+PKGSIZE = 63914
+FILES = /usr/bin /usr/lib/*.so.* /usr/share/enchant /usr/lib/enchant/*.so
+FILELIST = /usr/bin/enchant /usr/bin/enchant-lsmod /usr/lib/enchant/libenchant_aspell.so /usr/lib/libenchant.so.1 /usr/lib/libenchant.so.1.6.0 /usr/share/enchant/enchant.ordering

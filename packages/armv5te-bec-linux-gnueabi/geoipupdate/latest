@@ -1,0 +1,5 @@
+PV = 2.5.0
+PR = r0
+DEPENDS = autoconf-native automake-native curl gnu-config-native libtool-cross libtool-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = geoipupdate-dbg geoipupdate-staticdev geoipupdate-dev geoipupdate-doc geoipupdate-locale geoipupdate
+LAYER = networking-layer

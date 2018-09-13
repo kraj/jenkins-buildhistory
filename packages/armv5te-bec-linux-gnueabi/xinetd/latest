@@ -1,0 +1,5 @@
+PV = 2.3.15
+PR = r2
+DEPENDS = autoconf-native automake-native gnu-config-native libtirpc libtool-cross libtool-native systemd-systemctl-native tcp-wrappers virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = xinetd-dbg xinetd-staticdev xinetd-dev xinetd-doc xinetd-locale xinetd
+LAYER = core

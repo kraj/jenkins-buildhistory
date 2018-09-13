@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native fuse gnu-config-native libmtp libtool-cross libtool-native pkgconfig-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = simple-mtpfs-dbg simple-mtpfs-staticdev simple-mtpfs-dev simple-mtpfs-doc simple-mtpfs-locale simple-mtpfs
+LAYER = filesystems-layer

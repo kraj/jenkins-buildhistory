@@ -1,0 +1,10 @@
+PV = 1.25.1
+PR = r0
+PKG = libpkcs11-helper-dev
+PKGR = r0.3
+RPROVIDES = pkcs11-helper-dev (=1.25.1)
+RDEPENDS = pkcs11-helper (= 1.25.1-r0.3)
+RRECOMMENDS = glibc-dev gmp-dev gnutls-dev libcrypto-dev nettle-dev nspr-dev nss-dev openssl-dev zlib-dev
+PKGSIZE = 109396
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pkcs11-helper/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/pkcs11-helper-1.0/pkcs11.h /usr/include/pkcs11-helper-1.0/pkcs11h-certificate.h /usr/include/pkcs11-helper-1.0/pkcs11h-core.h /usr/include/pkcs11-helper-1.0/pkcs11h-data.h /usr/include/pkcs11-helper-1.0/pkcs11h-def.h /usr/include/pkcs11-helper-1.0/pkcs11h-engines.h /usr/include/pkcs11-helper-1.0/pkcs11h-openssl.h /usr/include/pkcs11-helper-1.0/pkcs11h-token.h /usr/include/pkcs11-helper-1.0/pkcs11h-version.h /usr/lib/libpkcs11-helper.so /usr/lib/pkgconfig/libpkcs11-helper-1.pc /usr/share/aclocal/pkcs11-helper-1.m4

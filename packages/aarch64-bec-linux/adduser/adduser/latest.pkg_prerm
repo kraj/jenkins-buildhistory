@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  adduser /usr/sbin/adduser.adduser
+	update-alternatives --remove  deluser /usr/sbin/deluser.adduser
+	update-alternatives --remove  addgroup /usr/sbin/adduser.adduser
+	update-alternatives --remove  delgroup /usr/sbin/deluser.adduser

@@ -1,0 +1,10 @@
+PV = 3.24.8
+PR = r0
+PKG = libgtksourceview-3.0-locale-zh-tw
+PKGR = r0.7
+RPROVIDES = gtksourceview3-locale gtksourceview3-locale-zh-tw (=3.24.8) zh-tw-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-zh-tw
+PKGSIZE = 7345
+FILES = /usr/share/locale/zh_TW
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-3.0.mo

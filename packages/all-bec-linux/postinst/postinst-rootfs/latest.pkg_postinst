@@ -1,0 +1,15 @@
+set -e
+    set -e
+
+    if [ -z "$D" ]; then
+        echo "postinst-rootfs should have finished at rootfs time"
+        exit 1
+    fi
+
+    if [ -e $D/etc/postinst-test/rootfs ]; then
+        echo "$D/etc/postinst-test/rootfs exists, but should not"
+        exit 1
+    fi
+
+    mkdir -p $D/etc/postinst-test
+    touch $D/etc/postinst-test/rootfs

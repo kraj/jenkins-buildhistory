@@ -1,0 +1,5 @@
+PV = 3.2.2-15
+PR = r0
+DEPENDS = libtool-cross systemd-systemctl-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = libapm apm apmd-dbg apmd-staticdev apmd-dev apmd-doc apmd-locale apmd
+LAYER = core

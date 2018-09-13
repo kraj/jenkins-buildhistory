@@ -1,0 +1,11 @@
+PV = 1.0.18+gitAUTOINC+1b077af62d
+PR = r0
+PKG = libsctp-dev
+PKGV = 1.0.18+git0+1b077af62d
+PKGR = r0.5
+RPROVIDES = lksctp-tools-dev (=1.0.18+git0+1b077af62d)
+RDEPENDS = lksctp-tools (= 1.0.18+git0+1b077af62d-r0.5) lksctp-tools-withsctp
+RRECOMMENDS = glibc-dev lksctp-tools-withsctp-dev
+PKGSIZE = 148162
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lksctp-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config /usr/lib/libsctp.so /usr/lib/lksctp-tools/libwithsctp.so /usr/share/lksctp-tools/*.c /usr/share/lksctp-tools/*.h
+FILELIST = /usr/include/netinet/sctp.h /usr/lib/libsctp.so /usr/lib/lksctp-tools/libwithsctp.so /usr/lib/pkgconfig/libsctp.pc /usr/share/lksctp-tools/checksctp.c /usr/share/lksctp-tools/sctp_bind.c /usr/share/lksctp-tools/sctp_darn.c /usr/share/lksctp-tools/sctp_darn.h /usr/share/lksctp-tools/sctp_load_libs.c /usr/share/lksctp-tools/sctp_socket.c /usr/share/lksctp-tools/sctp_socket.h /usr/share/lksctp-tools/sctp_sockopt.c /usr/share/lksctp-tools/sctp_status.c /usr/share/lksctp-tools/sctp_test.c

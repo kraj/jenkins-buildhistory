@@ -1,0 +1,5 @@
+PV = 0.12.1
+PR = r0
+DEPENDS = cmake-native systemd-systemctl-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc zlib
+PACKAGES = fluentbit-dbg fluentbit-staticdev fluentbit-dev fluentbit-doc fluentbit-locale fluentbit
+LAYER = openembedded-layer

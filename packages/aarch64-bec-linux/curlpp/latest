@@ -1,0 +1,5 @@
+PV = 0.8.1
+PR = r0
+DEPENDS = cmake-native curl ninja-native pkgconfig-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = libcurlpp libcurlpp-dev libcurlpp-staticdev curlpp-dbg curlpp-staticdev curlpp-dev curlpp-doc curlpp-locale curlpp
+LAYER = networking-layer

@@ -1,0 +1,10 @@
+PV = 0.4.0
+PR = r0
+PKG = libxcb-image0
+PKGR = r0.4
+RPROVIDES = xcb-util-image (=0.4.0)
+RDEPENDS = glibc (>= 2.28) libxcb (>= 1.13) libxcb-shm (>= 1.13) xcb-util (>= 0.4.0)
+RRECOMMENDS = 
+PKGSIZE = 67701
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xcb-util-image /usr/lib/xcb-util-image/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libxcb-image.so.0 /usr/lib/libxcb-image.so.0.0.0

@@ -1,0 +1,9 @@
+PV = 1.16.1
+PR = r0
+PKGR = r0.6
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcomerr (>= 1.44.3) libgssapi-krb5 (>= 1.16.1) libgssrpc (>= 1.16.1) libk5crypto (>= 1.16.1) libkadm5srv-mit (>= 1.16.1) libkdb5 (>= 1.16.1) libkrb5 (>= 1.16.1) libkrb5support (>= 1.16.1) libverto (>= 1.16.1)
+RRECOMMENDS = 
+PKGSIZE = 335347
+FILES = /usr/sbin/kadmin.local /usr/sbin/kadmind /usr/sbin/kprop /etc/default/krb5-admin-server /etc/init.d/krb5-admin-server /lib/systemd/system/krb5-admin-server.service /lib/systemd/system/krb5-admin-server.service
+FILELIST = /etc/default/krb5-admin-server /lib/systemd/system/krb5-admin-server.service /usr/sbin/kadmin.local /usr/sbin/kadmind /usr/sbin/kprop

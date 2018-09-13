@@ -1,0 +1,16 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+-rw-r--r-- root       root              433 ./etc/default/saslauthd
+drwxr-xr-x root       root               60 ./etc/tmpfiles.d
+-rw-r--r-- root       root               26 ./etc/tmpfiles.d/saslauthd.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              269 ./lib/systemd/system/saslauthd.service
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              140 ./usr/sbin
+-rwxr-xr-x root       root            67848 ./usr/sbin/pluginviewer
+-rwxr-xr-x root       root            67960 ./usr/sbin/saslauthd
+-rwxr-xr-x root       root            67808 ./usr/sbin/sasldblistusers2
+-rwxr-xr-x root       root            67824 ./usr/sbin/saslpasswd2
+-rwxr-xr-x root       root            67752 ./usr/sbin/testsaslauthd

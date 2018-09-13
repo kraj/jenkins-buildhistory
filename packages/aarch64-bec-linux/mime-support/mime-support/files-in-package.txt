@@ -1,0 +1,20 @@
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root              449 ./etc/mailcap.order
+-rw-r--r-- root       root            22275 ./etc/mime.types
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              140 ./usr/bin
+lrwxrwxrwx root       root               11 ./usr/bin/compose -> run-mailcap
+lrwxrwxrwx root       root               11 ./usr/bin/edit -> run-mailcap
+lrwxrwxrwx root       root               11 ./usr/bin/print -> run-mailcap
+-rwxr-xr-x root       root            16898 ./usr/bin/run-mailcap
+lrwxrwxrwx root       root               11 ./usr/bin/see -> run-mailcap
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              140 ./usr/lib/mime
+-rwxr-xr-x root       root              828 ./usr/lib/mime/debian-view
+-rw-r--r-- root       root             1016 ./usr/lib/mime/mailcap
+drwxr-xr-x root       root               60 ./usr/lib/mime/packages
+-rw-r--r-- root       root              248 ./usr/lib/mime/packages/mime-support
+-rwxr-xr-x root       root               33 ./usr/lib/mime/playaudio
+-rwxr-xr-x root       root               31 ./usr/lib/mime/playdsp
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root             6270 ./usr/sbin/update-mime

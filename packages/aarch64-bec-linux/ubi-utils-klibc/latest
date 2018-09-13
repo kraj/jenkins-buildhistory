@@ -1,0 +1,5 @@
+PV = 2.0.2
+PR = r0
+DEPENDS = acl autoconf-native automake-native e2fsprogs gnu-config-native klcc-cross libtool-cross libtool-native lzo pkgconfig-native util-linux virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc zlib
+PACKAGES = mtdinfo-klibc ubiattach-klibc ubiblock-klibc ubicrc32-klibc ubidetach-klibc ubiformat-klibc ubimkvol-klibc ubinfo-klibc ubinize-klibc ubirename-klibc ubirmvol-klibc ubirsvol-klibc ubiupdatevol-klibc ubi-utils-klibc-dbg ubi-utils-klibc-doc
+LAYER = meta-initramfs
