@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 	update-alternatives --install /usr/share/man/man1/base64.1 base64.1 /usr/share/man/man1/base64.1.coreutils 100
+	update-alternatives --install /usr/share/man/man1/nice.1 nice.1 /usr/share/man/man1/nice.1.coreutils 100
 	update-alternatives --install /usr/share/man/man1/mktemp.1 mktemp.1 /usr/share/man/man1/mktemp.1.coreutils 100
 	update-alternatives --install /usr/share/man/man1/df.1 df.1 /usr/share/man/man1/df.1.coreutils 100
 	update-alternatives --install /usr/share/man/man1/groups.1 groups.1 /usr/share/man/man1/groups.1.coreutils 100

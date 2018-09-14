@@ -1,0 +1,5 @@
+PV = 2.0.17+gitAUTOINC+b9de21ef51
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native klcc-cross libtool-cross libtool-native virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc xz zlib
+PACKAGES = kexec-klibc vmcore-dmesg-klibc kexec-tools-klibc-dbg kexec-tools-klibc-staticdev kexec-tools-klibc-dev kexec-tools-klibc-doc kexec-tools-klibc-locale kexec-tools-klibc
+LAYER = meta-initramfs

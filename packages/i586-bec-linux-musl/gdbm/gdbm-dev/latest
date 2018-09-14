@@ -1,9 +1,9 @@
 PV = 1.18
 PR = r0
 PKG = libgdbm-dev
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = gdbm-dev (=1.18)
-RDEPENDS = gdbm (= 1.18-r0.2) gdbm-compat
+RDEPENDS = gdbm (= 1.18-r0.3) gdbm-compat
 RRECOMMENDS = diffutils-dev gdbm-compat-dev musl-dev
 PKGSIZE = 14223
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gdbm/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake

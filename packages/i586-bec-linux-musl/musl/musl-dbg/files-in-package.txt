@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          2898572 ./usr/lib/.debug/libc.so
+-rwxr-xr-x root       root          2901496 ./usr/lib/.debug/libc.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/musl
@@ -42,7 +42,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/musl/1.1.20+gitAUTOI
 -rw-r--r-- root       root              745 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/dlfcn.h
 -rw-r--r-- root       root            76187 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/elf.h
 -rw-r--r-- root       root              323 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/errno.h
--rw-r--r-- root       root             4142 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/fcntl.h
+-rw-r--r-- root       root             4396 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/fcntl.h
 -rw-r--r-- root       root              449 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/fenv.h
 -rw-r--r-- root       root              386 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/fnmatch.h
 -rw-r--r-- root       root              678 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/include/ftw.h
@@ -369,7 +369,7 @@ drwxr-xr-x root       root              360 ./usr/src/debug/musl/1.1.20+gitAUTOI
 -rw-r--r-- root       root              368 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/legacy/ulimit.c
 -rw-r--r-- root       root              805 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/legacy/utmpx.c
 -rw-r--r-- root       root              124 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/legacy/valloc.c
-drwxr-xr-x root       root             1180 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux
+drwxr-xr-x root       root             1220 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux
 -rw-r--r-- root       root              596 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/adjtime.c
 -rw-r--r-- root       root              115 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/adjtimex.c
 -rw-r--r-- root       root              144 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/arch_prctl.c
@@ -392,6 +392,8 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/musl/1.1.20+gitAUTOI
 -rw-r--r-- root       root              218 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/mlock2.c
 -rw-r--r-- root       root              218 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/module.c
 -rw-r--r-- root       root              393 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/mount.c
+-rw-r--r-- root       root              264 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/name_to_handle_at.c
+-rw-r--r-- root       root              236 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/open_by_handle_at.c
 -rw-r--r-- root       root              166 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/personality.c
 -rw-r--r-- root       root              118 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/pivot_root.c
 -rw-r--r-- root       root              265 ./usr/src/debug/musl/1.1.20+gitAUTOINC+0fa1e638e8-r0/git/src/linux/ppoll.c

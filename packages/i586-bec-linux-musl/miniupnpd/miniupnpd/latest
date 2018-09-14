@@ -1,9 +1,9 @@
 PV = 2.0.20180203
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = iptables (>= 1.6.2) libmnl (>= 1.0.4) libnetfilter-conntrack (>= 1.0.6) musl (>= 1.1.20+git0+0fa1e638e8)
 RRECOMMENDS = 
-PKGSIZE = 153614
+PKGSIZE = 170390
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/miniupnpd /usr/lib/miniupnpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/miniupnpd.service
 FILELIST = /etc/miniupnpd/ip6tables_init.sh /etc/miniupnpd/ip6tables_removeall.sh /etc/miniupnpd/iptables_init.sh /etc/miniupnpd/iptables_removeall.sh /etc/miniupnpd/miniupnpd.conf /lib/systemd/system/miniupnpd.service /usr/sbin/miniupnpd
