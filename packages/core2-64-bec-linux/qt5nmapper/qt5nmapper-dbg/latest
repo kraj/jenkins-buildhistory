@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg qt5nmapper-plugins-dbg qt5nmapper-qmlplugins-dbg qtbase-dbg qtdeclarative-dbg
-PKGSIZE = 546
-FILES = /usr/lib/debug /usr/src/debug /usr/lib/.debug /usr/lib/qt5/libexec/.debug /usr/share/qt5nmapper-1.0/.debug
-FILELIST = /usr/src/debug/qt5nmapper/1.0-r0/Qt5_NMapper_1.0/main.cpp
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg
+PKGSIZE = 322042
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/share/qt5nmapper-1.0/.debug/Qt5_NMapper /usr/src/debug/qt5nmapper/1.0-r0/Qt5_NMapper_1.0/main.cpp

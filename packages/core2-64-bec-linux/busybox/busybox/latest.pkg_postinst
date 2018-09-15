@@ -107,9 +107,9 @@ set -e
 	update-alternatives --install /usr/bin/unlink unlink /bin/busybox.nosuid 50
 	update-alternatives --install /bin/usleep usleep /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/wc wc /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/whoami whoami /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/users users /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/who who /bin/busybox.nosuid 50
-	update-alternatives --install /usr/bin/whoami whoami /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/yes yes /bin/busybox.nosuid 50
 	update-alternatives --install /bin/run-parts run-parts /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/start-stop-daemon start-stop-daemon /bin/busybox.nosuid 50

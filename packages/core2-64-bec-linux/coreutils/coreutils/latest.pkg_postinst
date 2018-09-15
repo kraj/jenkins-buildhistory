@@ -28,7 +28,6 @@ set -e
 	update-alternatives --install /usr/bin/logname logname /usr/bin/logname.coreutils 100
 	update-alternatives --install /usr/bin/md5sum md5sum /usr/bin/md5sum.coreutils 100
 	update-alternatives --install /usr/bin/mkfifo mkfifo /usr/bin/mkfifo.coreutils 100
-	update-alternatives --install /usr/bin/nice nice /usr/bin/nice.coreutils 100
 	update-alternatives --install /usr/bin/nl nl /usr/bin/nl.coreutils 100
 	update-alternatives --install /usr/bin/nohup nohup /usr/bin/nohup.coreutils 100
 	update-alternatives --install /usr/bin/nproc nproc /usr/bin/nproc.coreutils 100
@@ -102,5 +101,6 @@ set -e
 	update-alternatives --install /bin/stat stat /bin/stat.coreutils 100
 	update-alternatives --install /usr/sbin/chroot chroot /usr/sbin/chroot.coreutils 100
 	update-alternatives --install /bin/base64 base64 /usr/bin/base64.coreutils 100
+	update-alternatives --install /bin/nice nice /usr/bin/nice.coreutils 100
 	update-alternatives --install /bin/mktemp mktemp /usr/bin/mktemp.coreutils 100
 	update-alternatives --install /bin/df df /usr/bin/df.coreutils 100

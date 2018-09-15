@@ -99,9 +99,9 @@ set -e
 	update-alternatives --remove  unlink /bin/busybox.nosuid
 	update-alternatives --remove  usleep /bin/busybox.nosuid
 	update-alternatives --remove  wc /bin/busybox.nosuid
+	update-alternatives --remove  whoami /bin/busybox.nosuid
 	update-alternatives --remove  users /bin/busybox.nosuid
 	update-alternatives --remove  who /bin/busybox.nosuid
-	update-alternatives --remove  whoami /bin/busybox.nosuid
 	update-alternatives --remove  yes /bin/busybox.nosuid
 	update-alternatives --remove  run-parts /bin/busybox.nosuid
 	update-alternatives --remove  start-stop-daemon /bin/busybox.nosuid
