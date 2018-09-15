@@ -1,10 +1,10 @@
 PV = 1.6.1
 PR = r0
 PKG = libaprutil-1-0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = apr-util (=1.6.1)
 RDEPENDS = apr (>= 1.6.3) expat (>= 2.2.6) gdbm (>= 1.18) glibc (>= 2.28) libcrypto (>= 1.1.1~pre9) libssl (>= 1.1.1~pre9) libxcrypt (>= 4.1.1) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
-PKGSIZE = 140309
+PKGSIZE = 144405
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/apr-util /usr/lib/apr-util/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/apr-util-1/apr*.so.* /usr/lib/apr-util-1/apr*.so
 FILELIST = /usr/lib/apr-util-1/apr_crypto_openssl-1.so /usr/lib/apr-util-1/apr_crypto_openssl.so /usr/lib/apr-util-1/apr_dbm_gdbm-1.so /usr/lib/apr-util-1/apr_dbm_gdbm.so /usr/lib/libaprutil-1.so.0 /usr/lib/libaprutil-1.so.0.6.1

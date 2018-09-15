@@ -28,7 +28,6 @@ set -e
 	update-alternatives --remove  logname /usr/bin/logname.coreutils
 	update-alternatives --remove  md5sum /usr/bin/md5sum.coreutils
 	update-alternatives --remove  mkfifo /usr/bin/mkfifo.coreutils
-	update-alternatives --remove  nice /usr/bin/nice.coreutils
 	update-alternatives --remove  nl /usr/bin/nl.coreutils
 	update-alternatives --remove  nohup /usr/bin/nohup.coreutils
 	update-alternatives --remove  nproc /usr/bin/nproc.coreutils
@@ -102,5 +101,6 @@ set -e
 	update-alternatives --remove  stat /bin/stat.coreutils
 	update-alternatives --remove  chroot /usr/sbin/chroot.coreutils
 	update-alternatives --remove  base64 /usr/bin/base64.coreutils
+	update-alternatives --remove  nice /usr/bin/nice.coreutils
 	update-alternatives --remove  mktemp /usr/bin/mktemp.coreutils
 	update-alternatives --remove  df /usr/bin/df.coreutils

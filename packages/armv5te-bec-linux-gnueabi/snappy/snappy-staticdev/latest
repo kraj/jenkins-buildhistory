@@ -1,9 +1,10 @@
 PV = 1.1.7
 PR = r0
-PKGR = r0.5
-RPROVIDES = 
-RDEPENDS = snappy-dev (= 1.1.7-r0.5)
+PKG = libsnappy-staticdev
+PKGR = r0.6
+RPROVIDES = snappy-staticdev (=1.1.7)
+RDEPENDS = snappy-dev (= 1.1.7-r0.6)
 RRECOMMENDS = 
-PKGSIZE = 505460
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/snappy/*.a
-FILELIST = /usr/lib/libsnappy.a
+FILELIST = 
