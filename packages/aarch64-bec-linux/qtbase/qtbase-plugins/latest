@@ -1,10 +1,10 @@
-PV = 5.11.1+gitAUTOINC+74305ba470
+PV = 5.11.2+gitAUTOINC+49efea26a5
 PR = r0
-PKGV = 5.11.1+git0+74305ba470
-PKGR = r0.3
+PKGV = 5.11.2+git0+49efea26a5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.9.1) glibc (>= 2.28) libegl-mesa (>= 18.1.7) libgl-mesa (>= 18.1.7) libjpeg-turbo (>= 2.0.0) libstdc++ (>= 8.2.0) libudev (>= 239) libx11 (>= 1.6.6) libxcb (>= 1.13) libxcb-glx (>= 1.13) libxkbcommon (>= 0.8.2) qtbase (>= 5.11.1+git0+74305ba470)
+RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.9.1) glibc (>= 2.28) libegl-mesa (>= 18.1.7) libgl-mesa (>= 18.1.7) libjpeg-turbo (>= 2.0.0) libstdc++ (>= 8.2.0) libudev (>= 239) libx11 (>= 1.6.6) libxcb (>= 1.13) libxcb-glx (>= 1.13) libxkbcommon (>= 0.8.2) qtbase (>= 5.11.2+git0+49efea26a5)
 RRECOMMENDS = libx11-locale
 PKGSIZE = 2402112
-FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/bearer/libqconnmanbearer.so /usr/lib/qt5/plugins/bearer/libqgenericbearer.so /usr/lib/qt5/plugins/bearer/libqnmbearer.so /usr/lib/qt5/plugins/generic/libqevdevkeyboardplugin.so /usr/lib/qt5/plugins/generic/libqevdevmouseplugin.so /usr/lib/qt5/plugins/generic/libqevdevtabletplugin.so /usr/lib/qt5/plugins/generic/libqevdevtouchplugin.so /usr/lib/qt5/plugins/generic/libqtuiotouchplugin.so /usr/lib/qt5/plugins/imageformats/libqjpeg.so /usr/lib/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so /usr/lib/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so /usr/lib/qt5/plugins/platforms/libqminimal.so /usr/lib/qt5/plugins/platforms/libqoffscreen.so /usr/lib/qt5/plugins/platforms/libqvnc.so /usr/lib/qt5/plugins/platforms/libqxcb.so /usr/lib/qt5/plugins/platformthemes/libqflatpak.so /usr/lib/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so /usr/lib/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/bearer/libqconnmanbearer.so /usr/lib/plugins/bearer/libqgenericbearer.so /usr/lib/plugins/bearer/libqnmbearer.so /usr/lib/plugins/generic/libqevdevkeyboardplugin.so /usr/lib/plugins/generic/libqevdevmouseplugin.so /usr/lib/plugins/generic/libqevdevtabletplugin.so /usr/lib/plugins/generic/libqevdevtouchplugin.so /usr/lib/plugins/generic/libqtuiotouchplugin.so /usr/lib/plugins/imageformats/libqjpeg.so /usr/lib/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so /usr/lib/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so /usr/lib/plugins/platforms/libqminimal.so /usr/lib/plugins/platforms/libqoffscreen.so /usr/lib/plugins/platforms/libqvnc.so /usr/lib/plugins/platforms/libqxcb.so /usr/lib/plugins/platformthemes/libqflatpak.so /usr/lib/plugins/xcbglintegrations/libqxcb-egl-integration.so /usr/lib/plugins/xcbglintegrations/libqxcb-glx-integration.so

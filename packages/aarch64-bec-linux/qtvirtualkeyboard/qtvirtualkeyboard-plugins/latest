@@ -1,10 +1,10 @@
-PV = 5.11.1+gitAUTOINC+62dad13b1f
+PV = 5.11.2+gitAUTOINC+631b2089bc
 PR = r0
-PKGV = 5.11.1+git0+62dad13b1f
-PKGR = r0.3
+PKGV = 5.11.2+git0+631b2089bc
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libxcb (>= 1.13) libxcb-xfixes (>= 1.13) qtbase (>= 5.11.1+git0+74305ba470) qtdeclarative (>= 5.11.1+git0+68e282f510)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libxcb (>= 1.13) libxcb-xfixes (>= 1.13) qtbase (>= 5.11.2+git0+49efea26a5) qtdeclarative (>= 5.11.2+git0+c249438243)
 RRECOMMENDS = 
 PKGSIZE = 6490608
-FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/lipi_toolkit/libactivedtw.so /usr/lib/qt5/plugins/lipi_toolkit/libboxfld.so /usr/lib/qt5/plugins/lipi_toolkit/libl7.so /usr/lib/qt5/plugins/lipi_toolkit/liblipiengine.so /usr/lib/qt5/plugins/lipi_toolkit/liblogger.so /usr/lib/qt5/plugins/lipi_toolkit/libneuralnet.so /usr/lib/qt5/plugins/lipi_toolkit/libnn.so /usr/lib/qt5/plugins/lipi_toolkit/libnpen.so /usr/lib/qt5/plugins/lipi_toolkit/libpointfloat.so /usr/lib/qt5/plugins/lipi_toolkit/libpreproc.so /usr/lib/qt5/plugins/lipi_toolkit/libsubstroke.so /usr/lib/qt5/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/lipi_toolkit/libactivedtw.so /usr/lib/plugins/lipi_toolkit/libboxfld.so /usr/lib/plugins/lipi_toolkit/libl7.so /usr/lib/plugins/lipi_toolkit/liblipiengine.so /usr/lib/plugins/lipi_toolkit/liblogger.so /usr/lib/plugins/lipi_toolkit/libneuralnet.so /usr/lib/plugins/lipi_toolkit/libnn.so /usr/lib/plugins/lipi_toolkit/libnpen.so /usr/lib/plugins/lipi_toolkit/libpointfloat.so /usr/lib/plugins/lipi_toolkit/libpreproc.so /usr/lib/plugins/lipi_toolkit/libsubstroke.so /usr/lib/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so
