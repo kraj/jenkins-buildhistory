@@ -1,10 +1,10 @@
-PV = 5.11.1+gitAUTOINC+dfefe794b9
+PV = 5.11.2+gitAUTOINC+2c5efb4949
 PR = r0
-PKGV = 5.11.1+git0+dfefe794b9
-PKGR = r0.9
+PKGV = 5.11.2+git0+2c5efb4949
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.6) libgcc (>= 8.2.0) libpulse (>= 12.2) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470) qtmultimedia (>= 5.11.1+git0+dfefe794b9)
+RDEPENDS = alsa-lib (>= 1.1.6) libgcc (>= 8.2.0) libpulse (>= 12.2) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.2+git0+49efea26a5) qtmultimedia (>= 5.11.2+git0+2c5efb4949)
 RRECOMMENDS = 
 PKGSIZE = 288252
-FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/audio/libqtaudio_alsa.so /usr/lib/qt5/plugins/audio/libqtmedia_pulse.so /usr/lib/qt5/plugins/mediaservice/libqtmedia_audioengine.so /usr/lib/qt5/plugins/playlistformats/libqtmultimedia_m3u.so
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/audio/libqtaudio_alsa.so /usr/lib/plugins/audio/libqtmedia_pulse.so /usr/lib/plugins/mediaservice/libqtmedia_audioengine.so /usr/lib/plugins/playlistformats/libqtmultimedia_m3u.so

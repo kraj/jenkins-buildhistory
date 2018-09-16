@@ -1,10 +1,10 @@
-PV = 5.11.1+gitAUTOINC+c40e479083
+PV = 5.11.2+gitAUTOINC+9a19f14013
 PR = r0
-PKGV = 5.11.1+git0+c40e479083
-PKGR = r0.9
+PKGV = 5.11.2+git0+9a19f14013
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.9.1) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470) qtdeclarative (>= 5.11.1+git0+68e282f510) qtwebsockets (>= 5.11.1+git0+d99ae2d542)
+RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.9.1) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.2+git0+49efea26a5) qtdeclarative (>= 5.11.2+git0+c249438243) qtwebsockets (>= 5.11.2+git0+e71467cb56)
 RRECOMMENDS = 
 PKGSIZE = 976992
-FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/platforms/libqwebgl.so
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/platforms/libqwebgl.so

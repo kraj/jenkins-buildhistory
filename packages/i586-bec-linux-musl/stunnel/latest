@@ -1,5 +1,5 @@
-PV = 5.35
+PV = 5.49
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl systemd tcp-wrappers virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc zlib
-PACKAGES = stunnel-dbg stunnel-staticdev stunnel-dev stunnel-doc stunnel-locale stunnel
+DEPENDS = autoconf-archive autoconf-native automake-native gnu-config-native libnsl2 libtool-cross libtool-native openssl systemd tcp-wrappers virtual/i586-bec-linux-musl-compilerlibs virtual/i586-bec-linux-musl-gcc virtual/libc
+PACKAGES = stunnel3 stunnel-dbg stunnel-staticdev stunnel-dev stunnel-doc stunnel-locale stunnel
 LAYER = networking-layer
