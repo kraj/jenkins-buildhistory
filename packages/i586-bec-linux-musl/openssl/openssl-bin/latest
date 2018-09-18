@@ -1,9 +1,9 @@
-PV = 1.1.1~pre9
+PV = 1.1.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1~pre9) libssl (>= 1.1.1~pre9) musl (>= 1.1.20+git0+0fa1e638e8) perl
+RDEPENDS = libcrypto (>= 1.1.1) libssl (>= 1.1.1) musl (>= 1.1.20+git0+0fa1e638e8) perl
 RRECOMMENDS = 
-PKGSIZE = 717348
+PKGSIZE = 721476
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/c_rehash /usr/bin/openssl
