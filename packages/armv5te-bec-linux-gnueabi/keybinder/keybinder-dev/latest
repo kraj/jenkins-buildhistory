@@ -2,9 +2,9 @@ PV = 3.0+gitAUTOINC+736ccef40d
 PR = r0
 PKG = libkeybinder-3.0-dev
 PKGV = 3.0+git0+736ccef40d
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = keybinder-dev (=3.0+git0+736ccef40d)
-RDEPENDS = keybinder (= 3.0+git0+736ccef40d-r0.8)
+RDEPENDS = keybinder (= 3.0+git0+736ccef40d-r0.9)
 RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+-dev gtk+3-dev libx11-dev libxext-dev libxrender-dev pango-dev
 PKGSIZE = 10315
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/keybinder/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir

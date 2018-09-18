@@ -2,9 +2,9 @@ PE = 1
 PV = 3.4.0
 PR = r0
 PKG = libnl-3-dev
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libnl-dev (=3.4.0)
-RDEPENDS = libnl (= 1:3.4.0-r0.6) libnl-cli libnl-genl libnl-idiag libnl-nf libnl-route libnl-xfrm
+RDEPENDS = libnl (= 1:3.4.0-r0.7) libnl-cli libnl-genl libnl-idiag libnl-nf libnl-route libnl-xfrm
 RRECOMMENDS = glibc-dev libnl-cli-dev libnl-genl-dev libnl-idiag-dev libnl-nf-dev libnl-route-dev libnl-xfrm-dev
 PKGSIZE = 285933
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/libnl/cli/*/*.la
