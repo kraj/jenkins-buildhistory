@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root              440 ./usr/include/blockdev
+drwxr-xr-x root       root              420 ./usr/include/blockdev
 -rw-r--r-- root       root             1077 ./usr/include/blockdev/blockdev.h
 -rw-r--r-- root       root             3912 ./usr/include/blockdev/btrfs.h
 -rw-r--r-- root       root             9251 ./usr/include/blockdev/crypto.h
@@ -21,7 +21,6 @@ drwxr-xr-x root       root              160 ./usr/include/blockdev/fs
 -rw-r--r-- root       root            10486 ./usr/include/blockdev/lvm.h
 -rw-r--r-- root       root             3935 ./usr/include/blockdev/mdraid.h
 -rw-r--r-- root       root              664 ./usr/include/blockdev/module.h
--rw-r--r-- root       root             1324 ./usr/include/blockdev/mpath.h
 -rw-r--r-- root       root             5650 ./usr/include/blockdev/part.h
 -rw-r--r-- root       root              914 ./usr/include/blockdev/plugins.h
 -rw-r--r-- root       root              744 ./usr/include/blockdev/sizes.h
@@ -34,9 +33,9 @@ lrwxrwxrwx root       root               17 ./usr/lib/libbd_dm.so -> libbd_dm.so
 lrwxrwxrwx root       root               17 ./usr/lib/libbd_fs.so -> libbd_fs.so.2.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libbd_kbd.so -> libbd_kbd.so.2.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_loop.so -> libbd_loop.so.2.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libbd_lvm-dbus.so -> libbd_lvm-dbus.so.2.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libbd_lvm.so -> libbd_lvm.so.2.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libbd_mdraid.so -> libbd_mdraid.so.2.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libbd_mpath.so -> libbd_mpath.so.2.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libbd_part_err.so -> libbd_part_err.so.2.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_part.so -> libbd_part.so.2.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_swap.so -> libbd_swap.so.2.0.0
