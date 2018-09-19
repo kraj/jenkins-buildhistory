@@ -1,7 +1,8 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/libblockdev
-drwxr-xr-x root       root               60 ./etc/libblockdev/conf.d
+drwxr-xr-x root       root               80 ./etc/libblockdev/conf.d
 -rw-r--r-- root       root              885 ./etc/libblockdev/conf.d/00-default.cfg
+-rw-r--r-- root       root               34 ./etc/libblockdev/conf.d/10-lvm-dbus.cfg
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              640 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
@@ -18,12 +19,12 @@ lrwxrwxrwx root       root               17 ./usr/lib/libbd_fs.so.2 -> libbd_fs.
 lrwxrwxrwx root       root               18 ./usr/lib/libbd_kbd.so.2 -> libbd_kbd.so.2.0.0
 -rwxr-xr-x root       root            13580 ./usr/lib/libbd_loop.so.2.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_loop.so.2 -> libbd_loop.so.2.0.0
+-rwxr-xr-x root       root            67040 ./usr/lib/libbd_lvm-dbus.so.2.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libbd_lvm-dbus.so.2 -> libbd_lvm-dbus.so.2.0.0
 -rwxr-xr-x root       root            47116 ./usr/lib/libbd_lvm.so.2.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libbd_lvm.so.2 -> libbd_lvm.so.2.0.0
 -rwxr-xr-x root       root            29984 ./usr/lib/libbd_mdraid.so.2.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libbd_mdraid.so.2 -> libbd_mdraid.so.2.0.0
--rwxr-xr-x root       root            17936 ./usr/lib/libbd_mpath.so.2.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libbd_mpath.so.2 -> libbd_mpath.so.2.0.0
 -rwxr-xr-x root       root             5440 ./usr/lib/libbd_part_err.so.2.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libbd_part_err.so.2 -> libbd_part_err.so.2.0.0
 -rwxr-xr-x root       root            38276 ./usr/lib/libbd_part.so.2.0.0
