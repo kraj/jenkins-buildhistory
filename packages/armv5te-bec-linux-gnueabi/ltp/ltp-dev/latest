@@ -1,8 +1,8 @@
 PV = 20180515
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = ltp (= 20180515-r0.9)
+RDEPENDS = ltp (= 20180515-r0.10)
 RRECOMMENDS = acl-dev at-dev attr-dev bash-dev cpio-dev cronie-dev curl-dev e2fsprogs-mke2fs-dev expect-dev gawk-dev glibc-dev gzip-dev iproute2-dev ldd-dev libacl-dev libaio-dev libcap-dev libcrypto-dev logrotate-dev openssl-dev perl-dev procps-dev python-core-dev tar-dev unzip-dev util-linux-dev which-dev
 PKGSIZE = 0
 FILES = /opt/ltp/include /lib/lib*.so /opt/ltp/lib/lib*.so /opt/ltp/lib/*.la /opt/ltp/lib/*.o /opt/ltp/lib/pkgconfig /opt/ltp/share/pkgconfig /opt/ltp/share/aclocal /lib/*.o /opt/ltp/lib/ltp/*.la /lib/*.la /opt/ltp/lib/cmake /opt/ltp/share/cmake

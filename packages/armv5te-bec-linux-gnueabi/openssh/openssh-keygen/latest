@@ -1,9 +1,9 @@
-PV = 7.8p1
+PV = 7.8p1+git
 PR = r0
-PKGR = r0.8
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28) libcrypto10 (>= 1.0.2p)
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1)
 RRECOMMENDS = 
-PKGSIZE = 305052
+PKGSIZE = 309144
 FILES = /usr/bin/ssh-keygen
 FILELIST = /usr/bin/ssh-keygen
