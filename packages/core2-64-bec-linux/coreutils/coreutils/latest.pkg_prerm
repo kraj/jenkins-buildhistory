@@ -36,7 +36,6 @@ set -e
 	update-alternatives --remove  pathchk /usr/bin/pathchk.coreutils
 	update-alternatives --remove  pinky /usr/bin/pinky.coreutils
 	update-alternatives --remove  pr /usr/bin/pr.coreutils
-	update-alternatives --remove  printenv /usr/bin/printenv.coreutils
 	update-alternatives --remove  printf /usr/bin/printf.coreutils
 	update-alternatives --remove  ptx /usr/bin/ptx.coreutils
 	update-alternatives --remove  readlink /usr/bin/readlink.coreutils
@@ -102,5 +101,6 @@ set -e
 	update-alternatives --remove  chroot /usr/sbin/chroot.coreutils
 	update-alternatives --remove  base64 /usr/bin/base64.coreutils
 	update-alternatives --remove  nice /usr/bin/nice.coreutils
+	update-alternatives --remove  printenv /usr/bin/printenv.coreutils
 	update-alternatives --remove  mktemp /usr/bin/mktemp.coreutils
 	update-alternatives --remove  df /usr/bin/df.coreutils

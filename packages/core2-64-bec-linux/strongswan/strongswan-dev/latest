@@ -1,8 +1,8 @@
 PV = 5.6.3
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = strongswan (= 5.6.3-r0.7)
+RDEPENDS = strongswan (= 5.6.3-r0.8)
 RRECOMMENDS = curl-dev flex-dev glibc-dev gmp-dev libcrypto-dev libcurl-dev libsqlite3-dev openssl-dev sqlite3-dev strongswan-plugin-aes-dev strongswan-plugin-attr-dev strongswan-plugin-cmac-dev strongswan-plugin-constraints-dev strongswan-plugin-curl-dev strongswan-plugin-curve25519-dev strongswan-plugin-des-dev strongswan-plugin-dnskey-dev strongswan-plugin-gmp-dev strongswan-plugin-hmac-dev strongswan-plugin-kernel-netlink-dev strongswan-plugin-md5-dev strongswan-plugin-nonce-dev strongswan-plugin-openssl-dev strongswan-plugin-pem-dev strongswan-plugin-pgp-dev strongswan-plugin-pkcs1-dev strongswan-plugin-pkcs12-dev strongswan-plugin-pkcs7-dev strongswan-plugin-pkcs8-dev strongswan-plugin-pubkey-dev strongswan-plugin-random-dev strongswan-plugin-rc2-dev strongswan-plugin-resolve-dev strongswan-plugin-revocation-dev strongswan-plugin-sha1-dev strongswan-plugin-sha2-dev strongswan-plugin-socket-default-dev strongswan-plugin-sqlite-dev strongswan-plugin-sshkey-dev strongswan-plugin-stroke-dev strongswan-plugin-updown-dev strongswan-plugin-vici-dev strongswan-plugin-x509-dev strongswan-plugin-xauth-generic-dev strongswan-plugin-xcbc-dev
 PKGSIZE = 56
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/strongswan/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/ipsec/lib*.so /usr/lib/ipsec/*.la

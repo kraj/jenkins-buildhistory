@@ -1,9 +1,9 @@
 PV = 0.3.4
 PR = r0
 PKG = libglog-dev
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = glog-dev (=0.3.4)
-RDEPENDS = glog (= 0.3.4-r0.6)
+RDEPENDS = glog (= 0.3.4-r0.7)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev libunwind-dev
 PKGSIZE = 88588
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/glog/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
