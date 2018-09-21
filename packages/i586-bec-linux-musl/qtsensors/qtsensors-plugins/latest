@@ -1,11 +1,11 @@
-PV = 5.11.2+gitAUTOINC+58854bdb19
+PV = 5.11.1+gitAUTOINC+b99d3da32b
 PR = r0
 PKG = libqt5sensors-plugins
-PKGV = 5.11.2+git0+58854bdb19
-PKGR = r0.3
-RPROVIDES = qtsensors-plugins (=5.11.2+git0+58854bdb19)
-RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.2+git0+49efea26a5) qtsensors (>= 5.11.2+git0+58854bdb19)
+PKGV = 5.11.1+git0+b99d3da32b
+PKGR = r0.10
+RPROVIDES = qtsensors-plugins (=5.11.1+git0+b99d3da32b)
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470) qtsensors (>= 5.11.1+git0+b99d3da32b)
 RRECOMMENDS = 
 PKGSIZE = 213096
-FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
-FILELIST = /usr/lib/plugins/sensorgestures/libqtsensorgestures_plugin.so /usr/lib/plugins/sensorgestures/libqtsensorgestures_shakeplugin.so /usr/lib/plugins/sensors/libqtsensors_generic.so /usr/lib/plugins/sensors/libqtsensors_iio-sensor-proxy.so /usr/lib/plugins/sensors/libqtsensors_linuxsys.so
+FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
+FILELIST = /usr/lib/qt5/plugins/sensorgestures/libqtsensorgestures_plugin.so /usr/lib/qt5/plugins/sensorgestures/libqtsensorgestures_shakeplugin.so /usr/lib/qt5/plugins/sensors/libqtsensors_generic.so /usr/lib/qt5/plugins/sensors/libqtsensors_iio-sensor-proxy.so /usr/lib/qt5/plugins/sensors/libqtsensors_linuxsys.so

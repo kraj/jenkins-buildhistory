@@ -1,11 +1,11 @@
-PV = 5.11.2+gitAUTOINC+28f8372233
+PV = 5.11.1+gitAUTOINC+2ad3020dfe
 PR = r0
 PKG = libqt5charts-qmlplugins
-PKGV = 5.11.2+git0+28f8372233
-PKGR = r0.3
-RPROVIDES = qtcharts-qmlplugins (=5.11.2+git0+28f8372233)
-RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.2+git0+49efea26a5) qtcharts (>= 5.11.2+git0+28f8372233) qtdeclarative (>= 5.11.2+git0+c249438243)
+PKGV = 5.11.1+git0+2ad3020dfe
+PKGR = r0.10
+RPROVIDES = qtcharts-qmlplugins (=5.11.1+git0+2ad3020dfe)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470) qtcharts (>= 5.11.1+git0+2ad3020dfe) qtdeclarative (>= 5.11.1+git0+68e282f510)
 RRECOMMENDS = 
 PKGSIZE = 709676
-FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
-FILELIST = /usr/lib/qml/QtCharts/libqtchartsqml2.so /usr/lib/qml/QtCharts/plugins.qmltypes /usr/lib/qml/QtCharts/qmldir
+FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png
+FILELIST = /usr/lib/qt5/qml/QtCharts/libqtchartsqml2.so /usr/lib/qt5/qml/QtCharts/plugins.qmltypes /usr/lib/qt5/qml/QtCharts/qmldir

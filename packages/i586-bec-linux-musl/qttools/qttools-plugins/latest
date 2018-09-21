@@ -1,10 +1,10 @@
-PV = 5.11.2+gitAUTOINC+ff440191de
+PV = 5.11.1+gitAUTOINC+a01f362937
 PR = r0
-PKGV = 5.11.2+git0+ff440191de
-PKGR = r0.3
+PKGV = 5.11.1+git0+a01f362937
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.2+git0+49efea26a5) qtdeclarative (>= 5.11.2+git0+c249438243)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470) qtdeclarative (>= 5.11.1+git0+68e282f510)
 RRECOMMENDS = 
 PKGSIZE = 17996
-FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
-FILELIST = /usr/lib/plugins/designer/libqquickwidget.so
+FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
+FILELIST = /usr/lib/qt5/plugins/designer/libqquickwidget.so

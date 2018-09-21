@@ -1,10 +1,10 @@
-PV = 5.11.2+gitAUTOINC+49efea26a5
+PV = 5.11.1+gitAUTOINC+74305ba470
 PR = r0
-PKGV = 5.11.2+git0+49efea26a5
-PKGR = r0.3
+PKGV = 5.11.1+git0+74305ba470
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) perl
 RRECOMMENDS = 
-PKGSIZE = 12558078
-FILES = /usr/bin/*
-FILELIST = /usr/bin/fixqt4headers.pl /usr/bin/moc /usr/bin/qdbuscpp2xml /usr/bin/qdbusxml2cpp /usr/bin/qlalr /usr/bin/qmake /usr/bin/qt.conf /usr/bin/qvkgen /usr/bin/rcc /usr/bin/syncqt.pl /usr/bin/uic
+PKGSIZE = 12562004
+FILES = /usr/bin/qt5/*
+FILELIST = /usr/bin/qt5/fixqt4headers.pl /usr/bin/qt5/moc /usr/bin/qt5/qdbuscpp2xml /usr/bin/qt5/qdbusxml2cpp /usr/bin/qt5/qlalr /usr/bin/qt5/qmake /usr/bin/qt5/qt.conf /usr/bin/qt5/qvkgen /usr/bin/qt5/rcc /usr/bin/qt5/syncqt.pl /usr/bin/qt5/uic

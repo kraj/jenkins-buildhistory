@@ -1,11 +1,11 @@
-PV = 5.11.2+gitAUTOINC+28f8372233
+PV = 5.11.1+gitAUTOINC+2ad3020dfe
 PR = r0
 PKG = libqt5charts5
-PKGV = 5.11.2+git0+28f8372233
-PKGR = r0.3
-RPROVIDES = qtcharts (=5.11.2+git0+28f8372233)
-RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.2+git0+49efea26a5)
+PKGV = 5.11.1+git0+2ad3020dfe
+PKGR = r0.10
+RPROVIDES = qtcharts (=5.11.1+git0+2ad3020dfe)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git0+0fa1e638e8) qtbase (>= 5.11.1+git0+74305ba470)
 RRECOMMENDS = qtcharts-plugins qtcharts-qmlplugins
 PKGSIZE = 1856956
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtcharts /usr/lib/qtcharts/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
-FILELIST = /usr/lib/libQt5Charts.so.5 /usr/lib/libQt5Charts.so.5.11 /usr/lib/libQt5Charts.so.5.11.2
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtcharts /usr/lib/qtcharts/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILELIST = /usr/lib/libQt5Charts.so.5 /usr/lib/libQt5Charts.so.5.11 /usr/lib/libQt5Charts.so.5.11.1
