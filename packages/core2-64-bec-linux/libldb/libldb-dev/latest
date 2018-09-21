@@ -1,9 +1,9 @@
 PV = 1.4.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = libldb (= 1.4.1-r0.9)
-RRECOMMENDS = acl-dev attr-dev glibc-dev libtalloc-dev libtdb-dev libtevent-dev popt-dev python-dev
+RDEPENDS = libldb (= 1.4.1-r0.10)
+RRECOMMENDS = acl-dev attr-dev glibc-dev libtalloc-dev libtdb-dev libtevent-dev popt-dev python-dev samba-dev
 PKGSIZE = 104779
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libldb/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/ldb.h /usr/include/ldb_errors.h /usr/include/ldb_handlers.h /usr/include/ldb_module.h /usr/include/ldb_version.h /usr/include/pyldb.h /usr/lib/libldb.so /usr/lib/pkgconfig/ldb.pc /usr/lib/pkgconfig/pyldb-util.pc

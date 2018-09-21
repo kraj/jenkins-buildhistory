@@ -1,11 +1,11 @@
-PV = 5.11.2+gitAUTOINC+b9fef24782
+PV = 5.11.1+gitAUTOINC+8515dd6e20
 PR = r0
 PKG = libqt5webview-mkspecs
-PKGV = 5.11.2+git0+b9fef24782
+PKGV = 5.11.1+git0+8515dd6e20
 PKGR = r0.2
-RPROVIDES = qtwebview-mkspecs (=5.11.2+git0+b9fef24782)
+RPROVIDES = qtwebview-mkspecs (=5.11.1+git0+8515dd6e20)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 1115
-FILES = /usr/lib/mkspecs
-FILELIST = /usr/lib/mkspecs/modules/qt_lib_webview.pri /usr/lib/mkspecs/modules/qt_lib_webview_private.pri
+FILES = /usr/lib/qt5/mkspecs
+FILELIST = /usr/lib/qt5/mkspecs/modules/qt_lib_webview.pri /usr/lib/qt5/mkspecs/modules/qt_lib_webview_private.pri

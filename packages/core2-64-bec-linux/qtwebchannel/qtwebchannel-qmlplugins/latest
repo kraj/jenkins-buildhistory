@@ -1,11 +1,11 @@
-PV = 5.11.2+gitAUTOINC+daecad4cc7
+PV = 5.11.1+gitAUTOINC+2ff27bf60e
 PR = r0
 PKG = libqt5webchannel-qmlplugins
-PKGV = 5.11.2+git0+daecad4cc7
-PKGR = r0.2
-RPROVIDES = qtwebchannel-qmlplugins (=5.11.2+git0+daecad4cc7)
-RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) qtbase (>= 5.11.2+git0+49efea26a5) qtdeclarative (>= 5.11.2+git0+c249438243) qtwebchannel (>= 5.11.2+git0+daecad4cc7)
+PKGV = 5.11.1+git0+2ff27bf60e
+PKGR = r0.4
+RPROVIDES = qtwebchannel-qmlplugins (=5.11.1+git0+2ff27bf60e)
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) qtbase (>= 5.11.1+git0+74305ba470) qtdeclarative (>= 5.11.1+git0+68e282f510) qtwebchannel (>= 5.11.1+git0+2ff27bf60e)
 RRECOMMENDS = 
 PKGSIZE = 21072
-FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
-FILELIST = /usr/lib/qml/QtWebChannel/libdeclarative_webchannel.so /usr/lib/qml/QtWebChannel/plugins.qmltypes /usr/lib/qml/QtWebChannel/qmldir
+FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png
+FILELIST = /usr/lib/qt5/qml/QtWebChannel/libdeclarative_webchannel.so /usr/lib/qt5/qml/QtWebChannel/plugins.qmltypes /usr/lib/qt5/qml/QtWebChannel/qmldir
