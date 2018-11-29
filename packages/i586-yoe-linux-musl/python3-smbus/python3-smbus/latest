@@ -1,0 +1,9 @@
+PV = 4.0
+PR = r1
+PKGR = r1.25
+RPROVIDES = 
+RDEPENDS = i2c-tools (>= 4.0) libpython3 (>= 3.5.6) musl (>= 1.1.20+git1+79f653c6bc) python3-core
+RRECOMMENDS = 
+PKGSIZE = 16408
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-smbus /usr/lib/python3-smbus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
+FILELIST = /usr/lib/python3.5/site-packages/smbus-1.1-py3.5.egg-info /usr/lib/python3.5/site-packages/smbus.cpython-35m-i386-linux-gnu.so

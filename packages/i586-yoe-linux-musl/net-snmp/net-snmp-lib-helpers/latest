@@ -1,0 +1,10 @@
+PV = 5.8
+PR = r0
+PKG = libnetsnmphelpers35
+PKGR = r0.27
+RPROVIDES = net-snmp-lib-helpers (=5.8)
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 5423
+FILES = /usr/lib/libnetsnmphelpers.so.*
+FILELIST = /usr/lib/libnetsnmphelpers.so.35 /usr/lib/libnetsnmphelpers.so.35.0.0

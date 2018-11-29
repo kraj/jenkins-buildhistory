@@ -1,0 +1,9 @@
+PV = 1.7.0
+PR = r0
+PKGR = r0.29
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc) perl perl-module-getopt-long perl-module-io-file perl-module-io-socket perl-module-ipc-open2 perl-module-lib perl-module-time-hires rrdtool (>= 1.7.0)
+RRECOMMENDS = 
+PKGSIZE = 57853
+FILES = /usr/lib/perl/vendor_perl/*/*.pm /usr/lib/perl/vendor_perl/*/auto/RRDs/RRDs.*
+FILELIST = /usr/lib/perl/vendor_perl/5.24.4/RRDp.pm /usr/lib/perl/vendor_perl/5.24.4/RRDs.pm /usr/lib/perl/vendor_perl/5.24.4/auto/RRDs/RRDs.so

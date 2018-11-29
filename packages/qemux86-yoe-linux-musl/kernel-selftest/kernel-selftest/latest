@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r0
+PKGR = r0.24
+RPROVIDES = 
+RDEPENDS = bash libcap (>= 2.25) libgcc musl (>= 1.1.20+git1+79f653c6bc) python3
+RRECOMMENDS = 
+PKGSIZE = 119225
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/kernel-selftest /usr/lib/kernel-selftest/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/kernel-selftest
+FILELIST = /usr/kernel-selftest/vm/compaction_test /usr/kernel-selftest/vm/gup_benchmark /usr/kernel-selftest/vm/hugepage-mmap /usr/kernel-selftest/vm/hugepage-shm /usr/kernel-selftest/vm/map_hugetlb /usr/kernel-selftest/vm/mlock-random-test /usr/kernel-selftest/vm/mlock2-tests /usr/kernel-selftest/vm/on-fault-limit /usr/kernel-selftest/vm/run_vmtests /usr/kernel-selftest/vm/thuge-gen /usr/kernel-selftest/vm/transhuge-stress /usr/kernel-selftest/vm/userfaultfd /usr/kernel-selftest/vm/va_128TBswitch /usr/kernel-selftest/vm/virtual_address_range

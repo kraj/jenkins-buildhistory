@@ -1,0 +1,9 @@
+PV = 5.7.1
+PR = r0
+PKGR = r0.17
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc) strongswan
+RRECOMMENDS = 
+PKGSIZE = 34412
+FILES = /usr/lib/ipsec/plugins/libstrongswan-pkcs7.so /etc/strongswan.d/charon/pkcs7.conf
+FILELIST = /etc/strongswan.d/charon/pkcs7.conf /usr/lib/ipsec/plugins/libstrongswan-pkcs7.so

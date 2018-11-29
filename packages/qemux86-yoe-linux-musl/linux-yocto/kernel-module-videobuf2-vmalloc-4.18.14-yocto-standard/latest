@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.52
+RPROVIDES = kernel-module-videobuf2-vmalloc
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-videobuf2-memops-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9264
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko /etc/modules-load.d/videobuf2-vmalloc.conf /etc/modprobe.d/videobuf2-vmalloc.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko

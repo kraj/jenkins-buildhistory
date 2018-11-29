@@ -1,0 +1,30 @@
+set -e
+    if [ -z "$D" ]; then
+        if command -v systemd-tmpfiles >/dev/null; then
+            # create /var/log/radius, /var/run/radiusd
+            systemd-tmpfiles --create /etc/tmpfiles.d/radiusd-volatiles.conf
+        elif [ -e /etc/init.d/populate-volatile.sh ]; then
+            /etc/init.d/populate-volatile.sh update
+        fi
+
+        # Fix ownership for /etc/raddb/*, /var/lib/radiusd
+        chown -R radiusd:radiusd /etc/raddb
+        chown -R radiusd:radiusd /var/lib/radiusd
+    fi
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS enable radiusd.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl --no-block restart radiusd.service
+	fi
+fi

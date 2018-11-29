@@ -1,0 +1,10 @@
+PV = 8.42
+PR = r0
+PKG = libpcreposix0
+PKGR = r0.23
+RPROVIDES = libpcreposix (=8.42)
+RDEPENDS = libpcre (>= 8.42) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 9569
+FILES = /usr/lib/libpcreposix.so.*
+FILELIST = /usr/lib/libpcreposix.so.0 /usr/lib/libpcreposix.so.0.0.6

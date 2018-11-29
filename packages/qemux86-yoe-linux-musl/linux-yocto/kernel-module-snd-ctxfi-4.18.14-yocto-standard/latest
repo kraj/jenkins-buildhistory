@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.52
+RPROVIDES = kernel-module-snd-ctxfi
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-snd-4.18.14-yocto-standard kernel-module-snd-pcm-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 113532
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/sound/pci/ctxfi/snd-ctxfi.ko /etc/modules-load.d/snd-ctxfi.conf /etc/modprobe.d/snd-ctxfi.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/sound/pci/ctxfi/snd-ctxfi.ko

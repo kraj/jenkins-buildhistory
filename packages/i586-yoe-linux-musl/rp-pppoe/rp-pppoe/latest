@@ -1,0 +1,9 @@
+PV = 3.12
+PR = r10
+PKGR = r10.20
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc) ppp
+RRECOMMENDS = ppp-oe
+PKGSIZE = 78744
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rp-pppoe /usr/lib/rp-pppoe/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/ppp/firewall-masq /etc/ppp/firewall-standalone /etc/ppp/plugins/README /etc/ppp/pppoe.conf /usr/sbin/pppoe /usr/sbin/pppoe-connect /usr/sbin/pppoe-setup /usr/sbin/pppoe-start /usr/sbin/pppoe-status /usr/sbin/pppoe-stop

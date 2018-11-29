@@ -1,0 +1,5 @@
+PV = 0.17
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtirpc libtool-cross libtool-native rpcbind tcp-wrappers virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = netkit-rusers-client netkit-rusers-server netkit-rusers-doc netkit-rusers-dbg
+LAYER = networking-layer

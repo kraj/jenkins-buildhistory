@@ -1,0 +1,5 @@
+PV = 2.5.0
+PR = r0
+DEPENDS = libusb1 pkgconfig-native systemd-systemctl-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = usb-modeswitch-dbg usb-modeswitch-staticdev usb-modeswitch-dev usb-modeswitch-doc usb-modeswitch-locale usb-modeswitch
+LAYER = openembedded-layer

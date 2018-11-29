@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = serial-test-dbg serial-test-staticdev serial-test-dev serial-test-doc serial-test-locale serial-test
+LAYER = meta-yoe

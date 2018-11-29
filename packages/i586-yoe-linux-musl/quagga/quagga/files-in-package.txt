@@ -1,0 +1,46 @@
+drwxr-xr-x root       root              120 ./etc
+drwxr-xr-x root       root               80 ./etc/default
+-rw-r--r-- root       root              458 ./etc/default/quagga
+drwxr-xr-x root       root               60 ./etc/default/volatiles
+-rw-r--r-- root       root              136 ./etc/default/volatiles/volatiles.03_quagga
+drwxr-xr-x root       root               60 ./etc/pam.d
+-rw-r--r-- root       root              351 ./etc/pam.d/quagga
+drwxr-x--- quagga     quaggavty         360 ./etc/quagga
+-rw-r----- quagga     quagga              0 ./etc/quagga/bgpd.conf
+-rw-r----- root       root              566 ./etc/quagga/bgpd.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/isisd.conf
+-rw-r----- root       root              789 ./etc/quagga/isisd.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/ospf6d.conf
+-rw-r----- root       root             1110 ./etc/quagga/ospf6d.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/ospfd.conf
+-rw-r----- root       root              182 ./etc/quagga/ospfd.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/ripd.conf
+-rw-r----- root       root              406 ./etc/quagga/ripd.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/ripngd.conf
+-rw-r----- root       root              390 ./etc/quagga/ripngd.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/vtysh.conf
+-rw-r----- root       root              128 ./etc/quagga/vtysh.conf.sample
+-rw-r----- quagga     quagga              0 ./etc/quagga/zebra.conf
+-rw-r----- root       root              369 ./etc/quagga/zebra.conf.sample
+drwxr-xr-x root       root               60 ./etc/tmpfiles.d
+-rw-r--r-- root       root               39 ./etc/tmpfiles.d/quagga.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              448 ./lib/systemd/system/zebra.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              100 ./usr/bin
+-rwxr-xr-x root       root          1053476 ./usr/bin/bgp_btoa
+-rwxr-xr-x root       root             9532 ./usr/bin/test_igmpv3_join
+-rwxr-xr-x root       root           843920 ./usr/bin/vtysh
+drwxr-xr-x root       root              160 ./usr/lib
+-rwxr-xr-x root       root             5340 ./usr/lib/libfpm_pb.so.0.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libfpm_pb.so.0 -> libfpm_pb.so.0.0.0
+-rwxr-xr-x root       root             5344 ./usr/lib/libquagga_pb.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libquagga_pb.so.0 -> libquagga_pb.so.0.0.0
+-rwxr-xr-x root       root           437176 ./usr/lib/libzebra.so.1.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libzebra.so.1 -> libzebra.so.1.0.0
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root           125372 ./usr/sbin/nhrpd
+-rwxr-xr-x root       root           299448 ./usr/sbin/pimd
+-rwxr-xr-x root       root           388704 ./usr/sbin/zebra

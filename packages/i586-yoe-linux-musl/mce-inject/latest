@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native libtool-cross libtool-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = mce-inject-dbg mce-inject-staticdev mce-inject-dev mce-inject-doc mce-inject-locale mce-inject
+LAYER = openembedded-layer

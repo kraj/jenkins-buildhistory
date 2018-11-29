@@ -1,0 +1,10 @@
+PV = 0.5.1
+PR = r0
+PKG = libmpeg2-0
+PKGR = r0.21
+RPROVIDES = libmpeg2 (=0.5.1)
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 128841
+FILES = /usr/lib/libmpeg2.so.*
+FILELIST = /usr/lib/libmpeg2.so.0 /usr/lib/libmpeg2.so.0.1.0

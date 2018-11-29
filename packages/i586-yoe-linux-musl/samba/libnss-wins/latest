@@ -1,0 +1,10 @@
+PV = 4.8.4
+PR = r0
+PKG = libnss-wins2
+PKGR = r0.30
+RPROVIDES = libnss-wins (=4.8.4)
+RDEPENDS = libwbclient (>= 4.8.4) musl (>= 1.1.20+git1+79f653c6bc) samba-common
+RRECOMMENDS = 
+PKGSIZE = 13592
+FILES = /usr/lib/libnss_wins.so.2
+FILELIST = /usr/lib/libnss_wins.so.2

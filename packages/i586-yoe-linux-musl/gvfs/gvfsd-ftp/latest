@@ -1,0 +1,9 @@
+PV = 1.39.1
+PR = r0
+PKGR = r0.15
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0) gvfs (>= 1.39.1) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = openssh-sftp openssh-ssh
+PKGSIZE = 99902
+FILES = /usr/libexec/gvfsd-ftp /usr/share/gvfs/mounts/ftp.mount
+FILELIST = /usr/libexec/gvfsd-ftp /usr/share/gvfs/mounts/ftp.mount

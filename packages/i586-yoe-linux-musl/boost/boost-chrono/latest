@@ -1,0 +1,10 @@
+PV = 1.68.0
+PR = r0
+PKG = libboost-chrono1.68.0
+PKGR = r0.27
+RPROVIDES = boost-chrono (=1.68.0)
+RDEPENDS = boost-system (>= 1.68.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 30252
+FILES = /usr/lib/libboost_chrono*.so.*
+FILELIST = /usr/lib/libboost_chrono.so.1.68.0

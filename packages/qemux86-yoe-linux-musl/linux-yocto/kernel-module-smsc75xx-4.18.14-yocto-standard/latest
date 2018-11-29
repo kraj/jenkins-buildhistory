@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.52
+RPROVIDES = kernel-module-smsc75xx
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-usbnet-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 29068
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/usb/smsc75xx.ko /etc/modules-load.d/smsc75xx.conf /etc/modprobe.d/smsc75xx.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/usb/smsc75xx.ko

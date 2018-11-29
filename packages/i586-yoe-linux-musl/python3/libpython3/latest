@@ -1,0 +1,10 @@
+PV = 3.5.6
+PR = r1.0
+PKG = libpython3.5m1.0
+PKGR = r1.0.27
+RPROVIDES = libpython3 (=3.5.6)
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 2856836
+FILES = /usr/lib/libpython*.so.*
+FILELIST = /usr/lib/libpython3.5m.so.1.0

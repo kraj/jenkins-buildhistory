@@ -1,0 +1,10 @@
+PV = 2.1.3
+PR = r0
+PKG = libharfbuzz-dev
+PKGR = r0.6
+RPROVIDES = harfbuzz-dev (=2.1.3)
+RDEPENDS = harfbuzz (= 2.1.3-r0.6)
+RRECOMMENDS = cairo-dev fontconfig-dev freetype-dev glib-2.0-dev icu-dev libgcc-dev libstdc++-dev musl-dev
+PKGSIZE = 146214
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/harfbuzz/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/harfbuzz/hb-blob.h /usr/include/harfbuzz/hb-buffer.h /usr/include/harfbuzz/hb-common.h /usr/include/harfbuzz/hb-deprecated.h /usr/include/harfbuzz/hb-face.h /usr/include/harfbuzz/hb-font.h /usr/include/harfbuzz/hb-ft.h /usr/include/harfbuzz/hb-glib.h /usr/include/harfbuzz/hb-icu.h /usr/include/harfbuzz/hb-map.h /usr/include/harfbuzz/hb-ot-color.h /usr/include/harfbuzz/hb-ot-font.h /usr/include/harfbuzz/hb-ot-layout.h /usr/include/harfbuzz/hb-ot-math.h /usr/include/harfbuzz/hb-ot-name.h /usr/include/harfbuzz/hb-ot-shape.h /usr/include/harfbuzz/hb-ot-var.h /usr/include/harfbuzz/hb-ot.h /usr/include/harfbuzz/hb-set.h /usr/include/harfbuzz/hb-shape-plan.h /usr/include/harfbuzz/hb-shape.h /usr/include/harfbuzz/hb-subset.h /usr/include/harfbuzz/hb-unicode.h /usr/include/harfbuzz/hb-version.h /usr/include/harfbuzz/hb.h /usr/lib/cmake/harfbuzz/harfbuzz-config.cmake /usr/lib/libharfbuzz-subset.so /usr/lib/libharfbuzz.so /usr/lib/pkgconfig/harfbuzz-subset.pc /usr/lib/pkgconfig/harfbuzz.pc

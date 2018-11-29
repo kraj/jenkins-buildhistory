@@ -1,0 +1,10 @@
+PV = git
+PR = r0
+PKG = libusrsctp1
+PKGR = r0.21
+RPROVIDES = usrsctp (=git)
+RDEPENDS = libcrypto (>= 1.1.1a) libssl (>= 1.1.1a) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 589407
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/usrsctp /usr/lib/usrsctp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libusrsctp.so.1 /usr/lib/libusrsctp.so.1.0.0

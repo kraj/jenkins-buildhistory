@@ -1,0 +1,11 @@
+PV = 5.11.2+gitAUTOINC+d733d6f950
+PR = r0
+PKG = libqt5mqtt-dev
+PKGV = 5.11.2+git0+d733d6f950
+PKGR = r0.30
+RPROVIDES = qtmqtt-dev (=5.11.2+git0+d733d6f950)
+RDEPENDS = qtmqtt (= 5.11.2+git0+d733d6f950-r0.30)
+RRECOMMENDS = libstdc++-dev musl-dev qtbase-dev qtmqtt qtmqtt-mkspecs qtmqtt-qmldesigner
+PKGSIZE = 43833
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtmqtt/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/*
+FILELIST = /usr/include/QtMqtt/5.11.2/QtMqtt/private/qmqttclient_p.h /usr/include/QtMqtt/5.11.2/QtMqtt/private/qmqttconnection_p.h /usr/include/QtMqtt/5.11.2/QtMqtt/private/qmqttcontrolpacket_p.h /usr/include/QtMqtt/5.11.2/QtMqtt/private/qmqttsubscription_p.h /usr/include/QtMqtt/QMqttClient /usr/include/QtMqtt/QMqttMessage /usr/include/QtMqtt/QMqttSubscription /usr/include/QtMqtt/QMqttTopicFilter /usr/include/QtMqtt/QMqttTopicName /usr/include/QtMqtt/QtMqtt /usr/include/QtMqtt/QtMqttDepends /usr/include/QtMqtt/QtMqttVersion /usr/include/QtMqtt/qmqttclient.h /usr/include/QtMqtt/qmqttglobal.h /usr/include/QtMqtt/qmqttmessage.h /usr/include/QtMqtt/qmqttsubscription.h /usr/include/QtMqtt/qmqtttopicfilter.h /usr/include/QtMqtt/qmqtttopicname.h /usr/include/QtMqtt/qtmqttversion.h /usr/lib/cmake/Qt5Mqtt/Qt5MqttConfig.cmake /usr/lib/cmake/Qt5Mqtt/Qt5MqttConfigVersion.cmake /usr/lib/libQt5Mqtt.prl /usr/lib/libQt5Mqtt.so /usr/lib/pkgconfig/Qt5Mqtt.pc

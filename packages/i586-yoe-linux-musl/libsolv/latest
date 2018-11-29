@@ -1,0 +1,5 @@
+PV = 0.7.1
+PR = r0
+DEPENDS = cmake-native expat ninja-native rpm virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc zlib
+PACKAGES = libsolv-tools libsolvext libsolv-dbg libsolv-staticdev libsolv-dev libsolv-doc libsolv-locale libsolv
+LAYER = core

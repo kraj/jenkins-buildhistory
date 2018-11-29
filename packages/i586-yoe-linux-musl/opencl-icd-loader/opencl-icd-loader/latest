@@ -1,0 +1,9 @@
+PV = git
+PR = r0
+PKGR = r0.15
+RPROVIDES = 
+RDEPENDS = libicdlog (>= git) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 127168
+FILES = /usr/bin/icd_loader_test /usr/lib/libOpenCLDriverStub.so /usr/lib/libOpenCL.so.1.2
+FILELIST = /usr/bin/icd_loader_test /usr/lib/libOpenCL.so.1.2 /usr/lib/libOpenCLDriverStub.so

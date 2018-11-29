@@ -1,0 +1,9 @@
+PV = 3.0.3
+PR = r0
+PKGR = r0.23
+RPROVIDES = 
+RDEPENDS = base-files base-passwd libcap (>= 2.25) libpam (>= 1.3.0) libwrap (>= 7.6) musl (>= 1.1.20+git1+79f653c6bc) pam-plugin-listfile shadow
+RRECOMMENDS = 
+PKGSIZE = 189424
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/vsftpd /usr/lib/vsftpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/vsftpd.service
+FILELIST = /etc/default/volatiles/99_vsftpd /etc/pam.d/vsftpd /etc/tmpfiles.d/vsftpd.conf /etc/vsftpd.conf /etc/vsftpd.ftpusers /etc/vsftpd.user_list /lib/systemd/system/vsftpd.service /usr/sbin/vsftpd

@@ -1,0 +1,9 @@
+PV = 5.2
+PR = r0
+PKGR = r0.21
+RPROVIDES = 
+RDEPENDS = libwrap (>= 7.6) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 39067
+FILES = /usr/sbin /etc /var /lib/systemd/system/tftpd-hpa.socket /lib/systemd/system/tftpd-hpa.service
+FILELIST = /etc/default/tftpd-hpa /lib/systemd/system/tftpd-hpa.service /lib/systemd/system/tftpd-hpa.socket /usr/sbin/in.tftpd-hpa

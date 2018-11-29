@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.6
+RPROVIDES = kernel-module-lttng-probe-skb
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-lttng-tracer-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7484
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/lttng-modules/probes/lttng-probe-skb.ko /etc/modules-load.d/lttng-probe-skb.conf /etc/modprobe.d/lttng-probe-skb.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/lttng-modules/probes/lttng-probe-skb.ko

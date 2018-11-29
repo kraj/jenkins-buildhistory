@@ -1,0 +1,7 @@
+set -e
+    mkdir -p $D/etc/postinst-test
+    touch $D/etc/postinst-test/rootfs-before-failure
+    run_a_really_broken_command
+    # Scriptlet execution should stop here; the following commands are NOT supposed to run.
+    # (oe-selftest checks for it).
+    touch $D/etc/postinst-test/rootfs-after-failure

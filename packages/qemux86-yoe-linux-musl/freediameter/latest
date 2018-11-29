@@ -1,0 +1,5 @@
+PV = 1.2.1
+PR = r0
+DEPENDS = bison bison-native cmake-native cmake-native flex gnutls libgcrypt libidn lksctp-tools ninja-native pkgconfig-native systemd-systemctl-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/kernel virtual/libc
+PACKAGES = freediameter-ptest freediameter-dbg freediameter-staticdev freediameter-dev freediameter-doc freediameter-locale freediameter
+LAYER = networking-layer

@@ -1,0 +1,10 @@
+PE = 1
+PV = 4.14.2.1
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = db (>= 5.3.28) file (>= 5.34) libbz2 (>= 1.0.6) libdw (>= 0.175) libelf (>= 0.175) liblzma (>= 5.2.4) libpython3 (>= 3.5.6) musl (>= 1.1.20+git1+79f653c6bc) nss (>= 3.40) popt (>= 1.16) rpm (>= 4.14.2.1) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 162368
+FILES = /usr/lib/python3.5/site-packages/rpm/*
+FILELIST = /usr/lib/python3.5/site-packages/rpm/__init__.py /usr/lib/python3.5/site-packages/rpm/_rpm.so /usr/lib/python3.5/site-packages/rpm/_rpmb.so /usr/lib/python3.5/site-packages/rpm/_rpms.so /usr/lib/python3.5/site-packages/rpm/transaction.py

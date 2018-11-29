@@ -1,0 +1,12 @@
+PE = 1
+PV = 2018.11
+PR = r0
+PKGR = r0.2
+RPROVIDES = u-boot-mkimage
+RDEPENDS = dtc libcrypto (>= 1.1.1a) libssl (>= 1.1.1a) musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+RREPLACES = u-boot-mkimage
+RCONFLICTS = u-boot-mkimage
+PKGSIZE = 230277
+FILES = /usr/bin/uboot-mkimage /usr/bin/mkimage
+FILELIST = /usr/bin/mkimage /usr/bin/uboot-mkimage

@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.52
+RPROVIDES = kernel-module-iwlmvm
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-cfg80211-4.18.14-yocto-standard kernel-module-iwlwifi-4.18.14-yocto-standard kernel-module-mac80211-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 320748
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/wireless/intel/iwlwifi/mvm/iwlmvm.ko /etc/modules-load.d/iwlmvm.conf /etc/modprobe.d/iwlmvm.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/wireless/intel/iwlwifi/mvm/iwlmvm.ko

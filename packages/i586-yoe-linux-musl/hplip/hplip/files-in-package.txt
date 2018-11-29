@@ -1,0 +1,191 @@
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/hp
+-rw-r--r-- root       root              913 ./etc/hp/hplip.conf
+drwxr-xr-x root       root               60 ./etc/udev
+drwxr-xr-x root       root              120 ./etc/udev/rules.d
+-rw-r--r-- root       root             8641 ./etc/udev/rules.d/55-hpmud.rules
+-rw-r--r-- root       root              713 ./etc/udev/rules.d/56-hpmud_add_printer.rules
+-rw-r--r-- root       root              643 ./etc/udev/rules.d/56-hpmud_support.rules
+-rw-r--r-- root       root             1416 ./etc/udev/rules.d/86-hpmud_plugin.rules
+drwxr-xr-x root       root               60 ./etc/xdg
+drwxr-xr-x root       root               60 ./etc/xdg/autostart
+-rw-r--r-- root       root              301 ./etc/xdg/autostart/hplip-systray.desktop
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              740 ./usr/bin
+lrwxrwxrwx root       root               23 ./usr/bin/hp-align -> ../share/hplip/align.py
+lrwxrwxrwx root       root               30 ./usr/bin/hp-check-plugin -> ../share/hplip/check-plugin.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-check -> ../share/hplip/check.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-clean -> ../share/hplip/clean.py
+lrwxrwxrwx root       root               26 ./usr/bin/hp-colorcal -> ../share/hplip/colorcal.py
+lrwxrwxrwx root       root               36 ./usr/bin/hp-config_usb_printer -> ../share/hplip/config_usb_printer.py
+lrwxrwxrwx root       root               32 ./usr/bin/hp-devicesettings -> ../share/hplip/devicesettings.py
+lrwxrwxrwx root       root               33 ./usr/bin/hp-diagnose_plugin -> ../share/hplip/diagnose_plugin.py
+lrwxrwxrwx root       root               33 ./usr/bin/hp-diagnose_queues -> ../share/hplip/diagnose_queues.py
+lrwxrwxrwx root       root               21 ./usr/bin/hp-fab -> ../share/hplip/fab.py
+lrwxrwxrwx root       root               26 ./usr/bin/hp-faxsetup -> ../share/hplip/faxsetup.py
+lrwxrwxrwx root       root               26 ./usr/bin/hp-firmware -> ../share/hplip/firmware.py
+lrwxrwxrwx root       root               22 ./usr/bin/hp-info -> ../share/hplip/info.py
+lrwxrwxrwx root       root               24 ./usr/bin/hp-levels -> ../share/hplip/levels.py
+lrwxrwxrwx root       root               29 ./usr/bin/hp-linefeedcal -> ../share/hplip/linefeedcal.py
+lrwxrwxrwx root       root               28 ./usr/bin/hp-makecopies -> ../share/hplip/makecopies.py
+lrwxrwxrwx root       root               25 ./usr/bin/hp-makeuri -> ../share/hplip/makeuri.py
+-rwxr-xr-x root       root            13620 ./usr/bin/hp-mkuri
+lrwxrwxrwx root       root               27 ./usr/bin/hp-pkservice -> ../share/hplip/pkservice.py
+lrwxrwxrwx root       root               24 ./usr/bin/hp-plugin -> ../share/hplip/plugin.py
+lrwxrwxrwx root       root               24 ./usr/bin/hp-pqdiag -> ../share/hplip/pqdiag.py
+lrwxrwxrwx root       root               31 ./usr/bin/hp-printsettings -> ../share/hplip/printsettings.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-print -> ../share/hplip/print.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-probe -> ../share/hplip/probe.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-query -> ../share/hplip/query.py
+lrwxrwxrwx root       root               22 ./usr/bin/hp-scan -> ../share/hplip/scan.py
+lrwxrwxrwx root       root               25 ./usr/bin/hp-sendfax -> ../share/hplip/sendfax.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-setup -> ../share/hplip/setup.py
+lrwxrwxrwx root       root               25 ./usr/bin/hp-systray -> ../share/hplip/systray.py
+lrwxrwxrwx root       root               26 ./usr/bin/hp-testpage -> ../share/hplip/testpage.py
+lrwxrwxrwx root       root               26 ./usr/bin/hp-timedate -> ../share/hplip/timedate.py
+lrwxrwxrwx root       root               27 ./usr/bin/hp-uninstall -> ../share/hplip/uninstall.py
+lrwxrwxrwx root       root               24 ./usr/bin/hp-unload -> ../share/hplip/unload.py
+lrwxrwxrwx root       root               25 ./usr/bin/hp-upgrade -> ../share/hplip/upgrade.py
+lrwxrwxrwx root       root               28 ./usr/bin/hp-wificonfig -> ../share/hplip/wificonfig.py
+drwxr-xr-x root       root              140 ./usr/lib
+-rwxr-xr-x root       root           163680 ./usr/lib/libhpip.so.0.0.1
+lrwxrwxrwx root       root               16 ./usr/lib/libhpip.so.0 -> libhpip.so.0.0.1
+-rwxr-xr-x root       root            79244 ./usr/lib/libhpmud.so.0.0.6
+lrwxrwxrwx root       root               17 ./usr/lib/libhpmud.so.0 -> libhpmud.so.0.0.6
+drwxr-xr-x root       root               60 ./usr/lib/python2.7
+drwxr-xr-x root       root              100 ./usr/lib/python2.7/site-packages
+-rwxr-xr-x root       root            35588 ./usr/lib/python2.7/site-packages/cupsext.so
+-rwxr-xr-x root       root            13936 ./usr/lib/python2.7/site-packages/hpmudext.so
+-rwxr-xr-x root       root            17920 ./usr/lib/python2.7/site-packages/pcardext.so
+drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/applications
+-rw-r--r-- root       root              341 ./usr/share/applications/hplip.desktop
+drwxr-xr-x root       root              920 ./usr/share/hplip
+-rwxr-xr-x root       root             8977 ./usr/share/hplip/align.py
+drwxr-xr-x root       root              560 ./usr/share/hplip/base
+-rw-r--r-- root       root            29990 ./usr/share/hplip/base/codes.py
+-rw-r--r-- root       root            95149 ./usr/share/hplip/base/device.py
+-rw-r--r-- root       root             3400 ./usr/share/hplip/base/dime.py
+-rw-r--r-- root       root            35885 ./usr/share/hplip/base/exif.py
+-rw-r--r-- root       root            11892 ./usr/share/hplip/base/g.py
+-rw-r--r-- root       root             5904 ./usr/share/hplip/base/imagesize.py
+-rw-r--r-- root       root              798 ./usr/share/hplip/base/__init__.py
+-rw-r--r-- root       root            16777 ./usr/share/hplip/base/ldif.py
+-rw-r--r-- root       root            23340 ./usr/share/hplip/base/LedmWifi.py
+-rw-r--r-- root       root            18099 ./usr/share/hplip/base/logger.py
+-rw-r--r-- root       root            65491 ./usr/share/hplip/base/magic.py
+-rw-r--r-- root       root            54127 ./usr/share/hplip/base/maint.py
+-rw-r--r-- root       root            10079 ./usr/share/hplip/base/mdns.py
+-rw-r--r-- root       root            17780 ./usr/share/hplip/base/mfpdtf.py
+-rw-r--r-- root       root            17495 ./usr/share/hplip/base/models.py
+-rw-r--r-- root       root            25794 ./usr/share/hplip/base/module.py
+-rw-r--r-- root       root            61879 ./usr/share/hplip/base/pexpect.py
+-rw-r--r-- root       root            17236 ./usr/share/hplip/base/pkit.py
+-rw-r--r-- root       root            26507 ./usr/share/hplip/base/pml.py
+-rw-r--r-- root       root             5638 ./usr/share/hplip/base/slp.py
+-rw-r--r-- root       root            69086 ./usr/share/hplip/base/status.py
+-rw-r--r-- root       root            23432 ./usr/share/hplip/base/strings.py
+-rw-r--r-- root       root            13843 ./usr/share/hplip/base/tui.py
+-rw-r--r-- root       root            59676 ./usr/share/hplip/base/utils.py
+-rw-r--r-- root       root            44736 ./usr/share/hplip/base/vcard.py
+-rw-r--r-- root       root            23637 ./usr/share/hplip/base/wifi.py
+-rwxr-xr-x root       root            10582 ./usr/share/hplip/check-plugin.py
+-rwxr-xr-x root       root            49397 ./usr/share/hplip/check.py
+-rwxr-xr-x root       root             6444 ./usr/share/hplip/clean.py
+-rwxr-xr-x root       root             9168 ./usr/share/hplip/colorcal.py
+-rwxr-xr-x root       root            10040 ./usr/share/hplip/config_usb_printer.py
+drwxr-xr-x root       root               80 ./usr/share/hplip/copier
+-rw-r--r-- root       root            14132 ./usr/share/hplip/copier/copier.py
+-rw-r--r-- root       root              798 ./usr/share/hplip/copier/__init__.py
+drwxr-xr-x root       root              140 ./usr/share/hplip/data
+drwxr-xr-x root       root              180 ./usr/share/hplip/data/ldl
+-rw-r--r-- root       root             1593 ./usr/share/hplip/data/ldl/cb2pcal_done.ldl.gz
+-rw-r--r-- root       root            20986 ./usr/share/hplip/data/ldl/cb2pcal.ldl.gz
+-rw-r--r-- root       root             7007 ./usr/share/hplip/data/ldl/cbbcal.ldl.gz
+-rw-r--r-- root       root             2076 ./usr/share/hplip/data/ldl/cbccal_done.ldl.gz
+-rw-r--r-- root       root             6405 ./usr/share/hplip/data/ldl/cbccal.ldl.gz
+-rw-r--r-- root       root           824660 ./usr/share/hplip/data/ldl/cbcpcal.ldl.gz
+-rw-r--r-- root       root             6131 ./usr/share/hplip/data/ldl/cbpcal.ldl.gz
+drwxr-xr-x root       root              180 ./usr/share/hplip/data/localization
+-rw-r--r-- root       root           109687 ./usr/share/hplip/data/localization/hplip_de.qm
+-rw-r--r-- root       root           110777 ./usr/share/hplip/data/localization/hplip_es.qm
+-rw-r--r-- root       root           114309 ./usr/share/hplip/data/localization/hplip_fr.qm
+-rw-r--r-- root       root           107431 ./usr/share/hplip/data/localization/hplip_it.qm
+-rw-r--r-- root       root           106663 ./usr/share/hplip/data/localization/hplip_pt.qm
+-rw-r--r-- root       root           108771 ./usr/share/hplip/data/localization/hplip_ru.qm
+-rw-r--r-- root       root            56501 ./usr/share/hplip/data/localization/hplip_zh.qm
+drwxr-xr-x root       root               60 ./usr/share/hplip/data/models
+-rw-r--r-- root       root           917227 ./usr/share/hplip/data/models/models.dat
+drwxr-xr-x root       root              400 ./usr/share/hplip/data/pcl
+-rw-r--r-- root       root            13102 ./usr/share/hplip/data/pcl/align1_8xx.pcl.gz
+-rw-r--r-- root       root            95888 ./usr/share/hplip/data/pcl/align1_9xx.pcl.gz
+-rw-r--r-- root       root             2702 ./usr/share/hplip/data/pcl/align2_8xx.pcl.gz
+-rw-r--r-- root       root            11930 ./usr/share/hplip/data/pcl/align2_9xx.pcl.gz
+-rw-r--r-- root       root             1733 ./usr/share/hplip/data/pcl/align3_8xx.pcl.gz
+-rw-r--r-- root       root             3656 ./usr/share/hplip/data/pcl/align3_9xx.pcl.gz
+-rw-r--r-- root       root            38210 ./usr/share/hplip/data/pcl/align4_450.pcl.gz
+-rw-r--r-- root       root             1447 ./usr/share/hplip/data/pcl/align4_8xx.pcl.gz
+-rw-r--r-- root       root            17466 ./usr/share/hplip/data/pcl/align5_8xx.pcl.gz
+-rw-r--r-- root       root            39148 ./usr/share/hplip/data/pcl/align6_450.pcl.gz
+-rw-r--r-- root       root          3590197 ./usr/share/hplip/data/pcl/colorcal1_450.pcl.gz
+-rw-r--r-- root       root               72 ./usr/share/hplip/data/pcl/colorcal2_450.pcl.gz
+-rw-r--r-- root       root            10715 ./usr/share/hplip/data/pcl/crbcal.pcl.gz
+-rw-r--r-- root       root              725 ./usr/share/hplip/data/pcl/crcaldone.pcl.gz
+-rw-r--r-- root       root            31232 ./usr/share/hplip/data/pcl/crcbcal.pcl.gz
+-rw-r--r-- root       root            17315 ./usr/share/hplip/data/pcl/crccal.pcl.gz
+-rw-r--r-- root       root            41768 ./usr/share/hplip/data/pcl/crcpcal.pcl.gz
+-rw-r--r-- root       root            12230 ./usr/share/hplip/data/pcl/crpcal.pcl.gz
+drwxr-xr-x root       root               80 ./usr/share/hplip/data/ps
+-rw-r--r-- root       root             2357 ./usr/share/hplip/data/ps/clean_page.pdf.gz
+-rw-r--r-- root       root           100138 ./usr/share/hplip/data/ps/testpage.ps.gz
+-rwxr-xr-x root       root             2418 ./usr/share/hplip/devicesettings.py
+-rwxr-xr-x root       root             3317 ./usr/share/hplip/diagnose_plugin.py
+-rwxr-xr-x root       root            16977 ./usr/share/hplip/diagnose_queues.py
+-rwxr-xr-x root       root            24861 ./usr/share/hplip/fab.py
+-rwxr-xr-x root       root             2299 ./usr/share/hplip/faxsetup.py
+-rwxr-xr-x root       root             6139 ./usr/share/hplip/firmware.py
+-rwxr-xr-x root       root             6992 ./usr/share/hplip/hpdio.py
+-rwxr-xr-x root       root            20568 ./usr/share/hplip/hpssd.py
+-rwxr-xr-x root       root             6338 ./usr/share/hplip/info.py
+-rwxr-xr-x root       root              799 ./usr/share/hplip/__init__.py
+drwxr-xr-x root       root              120 ./usr/share/hplip/installer
+-rw-r--r-- root       root           100098 ./usr/share/hplip/installer/core_install.py
+-rw-r--r-- root       root            10147 ./usr/share/hplip/installer/dcheck.py
+-rw-r--r-- root       root           118522 ./usr/share/hplip/installer/distros.dat
+-rw-r--r-- root       root              799 ./usr/share/hplip/installer/__init__.py
+-rwxr-xr-x root       root             6887 ./usr/share/hplip/levels.py
+-rwxr-xr-x root       root             2541 ./usr/share/hplip/linefeedcal.py
+-rwxr-xr-x root       root            11554 ./usr/share/hplip/makecopies.py
+-rwxr-xr-x root       root             5740 ./usr/share/hplip/makeuri.py
+drwxr-xr-x root       root               80 ./usr/share/hplip/pcard
+-rw-r--r-- root       root              819 ./usr/share/hplip/pcard/__init__.py
+-rw-r--r-- root       root            21616 ./usr/share/hplip/pcard/photocard.py
+-rwxr-xr-x root       root             3202 ./usr/share/hplip/pkservice.py
+-rwxr-xr-x root       root            15720 ./usr/share/hplip/plugin.py
+-rwxr-xr-x root       root             2393 ./usr/share/hplip/pqdiag.py
+-rwxr-xr-x root       root             4024 ./usr/share/hplip/print.py
+-rwxr-xr-x root       root             2696 ./usr/share/hplip/printsettings.py
+drwxr-xr-x root       root              140 ./usr/share/hplip/prnt
+-rw-r--r-- root       root            12112 ./usr/share/hplip/prnt/colorcal.py
+-rw-r--r-- root       root            26126 ./usr/share/hplip/prnt/cups.py
+-rw-r--r-- root       root              798 ./usr/share/hplip/prnt/__init__.py
+-rw-r--r-- root       root            16576 ./usr/share/hplip/prnt/ldl.py
+-rw-r--r-- root       root             1963 ./usr/share/hplip/prnt/pcl.py
+-rwxr-xr-x root       root             8190 ./usr/share/hplip/probe.py
+-rwxr-xr-x root       root             5020 ./usr/share/hplip/query.py
+-rwxr-xr-x root       root            43700 ./usr/share/hplip/scan.py
+-rwxr-xr-x root       root            20948 ./usr/share/hplip/sendfax.py
+-rwxr-xr-x root       root            36283 ./usr/share/hplip/setup.py
+-rwxr-xr-x root       root             4499 ./usr/share/hplip/systray.py
+-rwxr-xr-x root       root             5701 ./usr/share/hplip/testpage.py
+-rwxr-xr-x root       root             3308 ./usr/share/hplip/timedate.py
+-rwxr-xr-x root       root             8266 ./usr/share/hplip/toolbox.py
+-rwxr-xr-x root       root             3311 ./usr/share/hplip/uninstall.py
+-rwxr-xr-x root       root            24540 ./usr/share/hplip/unload.py
+-rwxr-xr-x root       root            12958 ./usr/share/hplip/upgrade.py
+-rwxr-xr-x root       root             2480 ./usr/share/hplip/wificonfig.py
+drwxr-xr-x root       root               80 ./var
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxrwxr-- root       lp                 40 ./var/volatile/log/hp

@@ -1,0 +1,11 @@
+PV = 5.11.2+gitAUTOINC+15e22118d0
+PR = r0
+PKG = libqt5xmlpatterns-tools
+PKGV = 5.11.2+git0+15e22118d0
+PKGR = r0.30
+RPROVIDES = qtxmlpatterns-tools (=5.11.2+git0+15e22118d0)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git1+79f653c6bc) qtbase (>= 5.11.2+git0+49efea26a5) qtxmlpatterns (>= 5.11.2+git0+15e22118d0)
+RRECOMMENDS = 
+PKGSIZE = 76676
+FILES = /usr/bin/*
+FILELIST = /usr/bin/xmlpatterns /usr/bin/xmlpatternsvalidator

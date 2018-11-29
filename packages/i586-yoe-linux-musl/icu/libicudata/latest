@@ -1,0 +1,10 @@
+PV = 63.1
+PR = r0
+PKG = libicudata63
+PKGR = r0.2
+RPROVIDES = libicudata (=63.1)
+RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc)
+RRECOMMENDS = 
+PKGSIZE = 27186462
+FILES = /usr/lib/libicudata.so.*
+FILELIST = /usr/lib/libicudata.so.63 /usr/lib/libicudata.so.63.1
