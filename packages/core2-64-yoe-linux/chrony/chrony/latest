@@ -1,0 +1,10 @@
+PV = 3.3
+PR = r0
+PKGR = r0.19
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+RCONFLICTS = ntimed ntp
+PKGSIZE = 221512
+FILES = /usr/sbin/chronyd /etc /var /lib/systemd/system/chronyd.service
+FILELIST = /etc/chrony.conf /lib/systemd/system/chronyd.service /usr/sbin/chronyd

@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.38
+RPROVIDES = kernel-module-rt2x00pci
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-mac80211-4.18.14-yocto-standard kernel-module-rt2x00lib-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9336
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00pci.ko /etc/modules-load.d/rt2x00pci.conf /etc/modprobe.d/rt2x00pci.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00pci.ko

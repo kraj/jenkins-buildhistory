@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = nasm-native ovmf-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = ovmf-shell-efi ovmf-dbg ovmf-staticdev ovmf-dev ovmf-doc ovmf-locale ovmf
+LAYER = core

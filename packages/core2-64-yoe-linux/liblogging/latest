@@ -1,0 +1,5 @@
+PV = 1.0.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native systemd virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = liblogging-dbg liblogging-staticdev liblogging-dev liblogging-doc liblogging-locale liblogging
+LAYER = openembedded-layer

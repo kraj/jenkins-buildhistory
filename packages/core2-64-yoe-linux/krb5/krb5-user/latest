@@ -1,0 +1,9 @@
+PV = 1.16.2
+PR = r0
+PKGR = r0.4
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcomerr (>= 1.44.3) libk5crypto (>= 1.16.2) libkadm5clnt-mit (>= 1.16.2) libkadm5srv-mit (>= 1.16.2) libkdb5 (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2)
+RRECOMMENDS = 
+PKGSIZE = 274848
+FILES = /usr/bin/k*
+FILELIST = /usr/bin/k5srvutil /usr/bin/kadmin /usr/bin/kdestroy /usr/bin/kinit /usr/bin/klist /usr/bin/kpasswd /usr/bin/krb5-config /usr/bin/ksu /usr/bin/kswitch /usr/bin/ktutil /usr/bin/kvno

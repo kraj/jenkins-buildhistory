@@ -1,0 +1,5 @@
+PV = 1.99.7+git1fd19417b8a4dd9945347e98dfa97e4cfd798d77
+PR = r2
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native libtool-cross libtool-native ncurses systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gpm-dbg gpm-staticdev gpm-dev gpm-doc gpm-locale gpm
+LAYER = openembedded-layer

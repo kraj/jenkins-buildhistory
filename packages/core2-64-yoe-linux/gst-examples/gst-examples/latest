@@ -1,0 +1,10 @@
+PV = 0.0.1+gitAUTOINC+48247c6ab6
+PR = r0
+PKGV = 0.0.1+git0+48247c6ab6
+PKGR = r0.27
+RPROVIDES = gst-player gst-player-bin
+RDEPENDS = gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.58.0) glibc (>= 2.28) gstreamer1.0 (>= 1.14.4) gstreamer1.0-plugins-base-playback gtk+3 (>= 3.24.1) libgstplayer-1.0 (>= 1.14.4) libgsttag-1.0 (>= 1.14.4) libx11 (>= 1.6.7)
+RRECOMMENDS = gstreamer1.0-plugins-bad-meta gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta
+PKGSIZE = 111241
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gst-examples /usr/lib/gst-examples/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/gst-play /usr/bin/gtk-play /usr/share/applications/gst-player.desktop

@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.38
+RPROVIDES = kernel-module-mcs7830
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-usbnet-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 14392
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/usb/mcs7830.ko /etc/modules-load.d/mcs7830.conf /etc/modprobe.d/mcs7830.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/usb/mcs7830.ko

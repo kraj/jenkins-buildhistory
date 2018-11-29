@@ -1,0 +1,73 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              240 ./usr/include
+-rw-r--r-- root       root             5467 ./usr/include/libpmemblk.h
+-rw-r--r-- root       root             6315 ./usr/include/libpmemcto.h
+-rw-r--r-- root       root             4705 ./usr/include/libpmem.h
+-rw-r--r-- root       root             5127 ./usr/include/libpmemlog.h
+drwxr-xr-x root       root              360 ./usr/include/libpmemobj
+drwxr-xr-x root       root              360 ./usr/include/libpmemobj++
+-rw-r--r-- root       root             3174 ./usr/include/libpmemobj/action_base.h
+-rw-r--r-- root       root             2092 ./usr/include/libpmemobj/action.h
+-rw-r--r-- root       root            12753 ./usr/include/libpmemobj++/allocator.hpp
+-rw-r--r-- root       root             3592 ./usr/include/libpmemobj/atomic_base.h
+-rw-r--r-- root       root             2630 ./usr/include/libpmemobj/atomic.h
+-rw-r--r-- root       root             6985 ./usr/include/libpmemobj/base.h
+-rw-r--r-- root       root            17688 ./usr/include/libpmemobj++/condition_variable.hpp
+-rw-r--r-- root       root             7568 ./usr/include/libpmemobj/ctl.h
+drwxr-xr-x root       root              240 ./usr/include/libpmemobj++/detail
+-rw-r--r-- root       root             2475 ./usr/include/libpmemobj++/detail/array_traits.hpp
+-rw-r--r-- root       root             2871 ./usr/include/libpmemobj++/detail/check_persistent_ptr_array.hpp
+-rw-r--r-- root       root             3386 ./usr/include/libpmemobj++/detail/common.hpp
+-rw-r--r-- root       root             2523 ./usr/include/libpmemobj++/detail/conversions.hpp
+-rw-r--r-- root       root             3020 ./usr/include/libpmemobj++/detail/integer_sequence.hpp
+-rw-r--r-- root       root             3880 ./usr/include/libpmemobj++/detail/life.hpp
+-rw-r--r-- root       root             3326 ./usr/include/libpmemobj++/detail/make_atomic_impl.hpp
+-rw-r--r-- root       root             9685 ./usr/include/libpmemobj++/detail/persistent_ptr_base.hpp
+-rw-r--r-- root       root             3343 ./usr/include/libpmemobj++/detail/pexceptions.hpp
+-rw-r--r-- root       root             3666 ./usr/include/libpmemobj++/detail/specialization.hpp
+-rw-r--r-- root       root             2177 ./usr/include/libpmemobj.h
+-rw-r--r-- root       root             2371 ./usr/include/libpmemobj/iterator_base.h
+-rw-r--r-- root       root             3557 ./usr/include/libpmemobj/iterator.h
+-rw-r--r-- root       root             2537 ./usr/include/libpmemobj/lists_atomic_base.h
+-rw-r--r-- root       root             6636 ./usr/include/libpmemobj/lists_atomic.h
+-rw-r--r-- root       root             5373 ./usr/include/libpmemobj++/make_persistent_array_atomic.hpp
+-rw-r--r-- root       root             6718 ./usr/include/libpmemobj++/make_persistent_array.hpp
+-rw-r--r-- root       root             3880 ./usr/include/libpmemobj++/make_persistent_atomic.hpp
+-rw-r--r-- root       root             4321 ./usr/include/libpmemobj++/make_persistent.hpp
+-rw-r--r-- root       root             5031 ./usr/include/libpmemobj++/mutex.hpp
+-rw-r--r-- root       root            14102 ./usr/include/libpmemobj++/persistent_ptr.hpp
+-rw-r--r-- root       root             6551 ./usr/include/libpmemobj++/pext.hpp
+-rw-r--r-- root       root             4910 ./usr/include/libpmemobj++/p.hpp
+-rw-r--r-- root       root             4067 ./usr/include/libpmemobj/pool_base.h
+-rw-r--r-- root       root             1894 ./usr/include/libpmemobj/pool.h
+-rw-r--r-- root       root            15474 ./usr/include/libpmemobj++/pool.hpp
+-rw-r--r-- root       root             7061 ./usr/include/libpmemobj++/shared_mutex.hpp
+-rw-r--r-- root       root             3665 ./usr/include/libpmemobj/thread.h
+-rw-r--r-- root       root             7194 ./usr/include/libpmemobj++/timed_mutex.hpp
+-rw-r--r-- root       root            13132 ./usr/include/libpmemobj++/transaction.hpp
+-rw-r--r-- root       root             9598 ./usr/include/libpmemobj/tx_base.h
+-rw-r--r-- root       root             5581 ./usr/include/libpmemobj/tx.h
+-rw-r--r-- root       root             5982 ./usr/include/libpmemobj/types.h
+-rw-r--r-- root       root             2886 ./usr/include/libpmemobj++/utils.hpp
+-rw-r--r-- root       root             7547 ./usr/include/libpmempool.h
+-rw-r--r-- root       root             5075 ./usr/include/libvmem.h
+-rw-r--r-- root       root             4280 ./usr/include/libvmmalloc.h
+drwxr-xr-x root       root              220 ./usr/lib
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemblk.so -> libpmemblk.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemcto.so -> libpmemcto.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemlog.so -> libpmemlog.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemobj.so -> libpmemobj.so.1
+lrwxrwxrwx root       root               16 ./usr/lib/libpmempool.so -> libpmempool.so.1
+lrwxrwxrwx root       root               12 ./usr/lib/libpmem.so -> libpmem.so.1
+lrwxrwxrwx root       root               12 ./usr/lib/libvmem.so -> libvmem.so.1
+lrwxrwxrwx root       root               16 ./usr/lib/libvmmalloc.so -> libvmmalloc.so.1
+drwxr-xr-x root       root              220 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              274 ./usr/lib/pkgconfig/libpmemblk.pc
+-rw-r--r-- root       root              274 ./usr/lib/pkgconfig/libpmemcto.pc
+-rw-r--r-- root       root              274 ./usr/lib/pkgconfig/libpmemlog.pc
+-rw-r--r-- root       root              293 ./usr/lib/pkgconfig/libpmemobj.pc
+-rw-r--r-- root       root              289 ./usr/lib/pkgconfig/libpmemobj++.pc
+-rw-r--r-- root       root              249 ./usr/lib/pkgconfig/libpmem.pc
+-rw-r--r-- root       root              296 ./usr/lib/pkgconfig/libpmempool.pc
+-rw-r--r-- root       root              249 ./usr/lib/pkgconfig/libvmem.pc
+-rw-r--r-- root       root              261 ./usr/lib/pkgconfig/libvmmalloc.pc

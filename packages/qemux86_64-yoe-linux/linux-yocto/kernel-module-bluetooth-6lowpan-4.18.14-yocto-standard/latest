@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.38
+RPROVIDES = kernel-module-bluetooth-6lowpan
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-6lowpan-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 24792
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/net/bluetooth/bluetooth_6lowpan.ko /etc/modules-load.d/bluetooth_6lowpan.conf /etc/modprobe.d/bluetooth_6lowpan.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/net/bluetooth/bluetooth_6lowpan.ko

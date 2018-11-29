@@ -1,0 +1,5 @@
+PV = 1.1.4
+PR = r0
+DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = nanomsg-tools nanomsg-dbg nanomsg-staticdev nanomsg-dev nanomsg-doc nanomsg-locale nanomsg
+LAYER = networking-layer

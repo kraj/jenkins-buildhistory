@@ -1,0 +1,18 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+-rw-r--r-- root       root             1305 ./etc/default/boinc-client
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              418 ./lib/systemd/system/boinc-client.service
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root          1006088 ./usr/bin/boinc
+-rwxr-xr-x root       root          1006088 ./usr/bin/boinc_client
+-rwxr-xr-x root       root           325880 ./usr/bin/boinccmd
+-rwxr-xr-x root       root           153848 ./usr/bin/switcher
+drwxr-xr-x root       root              120 ./usr/lib
+-rwxr-xr-x root       root            43208 ./usr/lib/libboinc_api.so.7.12.1
+lrwxrwxrwx root       root               22 ./usr/lib/libboinc_api.so.7 -> libboinc_api.so.7.12.1
+-rwxr-xr-x root       root            10424 ./usr/lib/libboinc_opencl.so.7.12.1
+lrwxrwxrwx root       root               25 ./usr/lib/libboinc_opencl.so.7 -> libboinc_opencl.so.7.12.1

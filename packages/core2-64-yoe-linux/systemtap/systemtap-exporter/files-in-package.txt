@@ -1,0 +1,20 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root              220 ./etc/stap-exporter
+lrwxrwxrwx root       root                7 ./etc/stap-exporter/autostart-also_ran.stp -> EXAMPLE
+-rwxr-xr-x root       root              146 ./etc/stap-exporter/errno.stp
+-rwxr-xr-x root       root              146 ./etc/stap-exporter/EXAMPLE
+-rwxr-xr-x root       root              172 ./etc/stap-exporter/EXAMPLE_NOERROR
+lrwxrwxrwx root       root               15 ./etc/stap-exporter/syscallerrorsbypid.stp -> EXAMPLE_NOERROR
+-rwxr-xr-x root       root              146 ./etc/stap-exporter/syscalllatency.stp
+lrwxrwxrwx root       root               15 ./etc/stap-exporter/syscallsbypid.stp -> EXAMPLE_NOERROR
+-rwxr-xr-x root       root              146 ./etc/stap-exporter/timeout.stp
+-rwxr-xr-x root       root              146 ./etc/stap-exporter/topsys.stp
+drwxr-xr-x root       root               60 ./etc/sysconfig
+-rw-r--r-- root       root              127 ./etc/sysconfig/stap-exporter
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              290 ./lib/systemd/system/stap-exporter.service
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root             6565 ./usr/sbin/stap-exporter

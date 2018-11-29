@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.38
+RPROVIDES = kernel-module-6lowpan
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 28608
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/net/6lowpan/6lowpan.ko /etc/modules-load.d/6lowpan.conf /etc/modprobe.d/6lowpan.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/net/6lowpan/6lowpan.ko

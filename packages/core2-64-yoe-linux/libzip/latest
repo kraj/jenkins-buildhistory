@@ -1,0 +1,5 @@
+PV = 1.5.1
+PR = r0
+DEPENDS = bzip2 cmake-native ninja-native openssl virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libzip-dbg libzip-staticdev libzip-dev libzip-doc libzip-locale libzip
+LAYER = openembedded-layer

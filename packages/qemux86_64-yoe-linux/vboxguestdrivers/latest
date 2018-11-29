@@ -1,0 +1,5 @@
+PV = 5.2.22
+PR = r0
+DEPENDS = pkgconfig-native virtual/kernel virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = vboxguestdrivers-dbg vboxguestdrivers-staticdev vboxguestdrivers-dev vboxguestdrivers-doc vboxguestdrivers-locale vboxguestdrivers kernel-module-vboxguest kernel-module-vboxsf kernel-module-vboxvideo kernel-module-vboxguest-4.18.14-yocto-standard kernel-module-vboxsf-4.18.14-yocto-standard kernel-module-vboxvideo-4.18.14-yocto-standard
+LAYER = openembedded-layer

@@ -1,0 +1,10 @@
+PV = 2.4.46
+PR = r0
+PKG = libldap-2.4-backend-null
+PKGR = r0.22
+RPROVIDES = openldap-backend-null (=2.4.46)
+RDEPENDS = glibc (>= 2.28) gnutls (>= 3.6.4) libgcrypt (>= 1.8.4) openldap (>= 2.4.46)
+RRECOMMENDS = 
+PKGSIZE = 14918
+FILES = /usr/libexec/openldap/back_null.so /usr/libexec/openldap/back_null-2.4.so.2 /usr/libexec/openldap/back_null-2.4.so.2.10.9
+FILELIST = /usr/libexec/openldap/back_null-2.4.so.2 /usr/libexec/openldap/back_null-2.4.so.2.10.9 /usr/libexec/openldap/back_null.so

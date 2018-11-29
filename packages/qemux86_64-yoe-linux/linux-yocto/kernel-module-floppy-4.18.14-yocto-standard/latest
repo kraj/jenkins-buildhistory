@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.38
+RPROVIDES = kernel-module-floppy
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 138592
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/block/floppy.ko /etc/modules-load.d/floppy.conf /etc/modprobe.d/floppy.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/block/floppy.ko
