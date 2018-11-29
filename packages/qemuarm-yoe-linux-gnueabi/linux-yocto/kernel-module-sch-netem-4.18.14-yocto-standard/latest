@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-sch-netem
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 15472
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/net/sched/sch_netem.ko /etc/modules-load.d/sch_netem.conf /etc/modprobe.d/sch_netem.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/net/sched/sch_netem.ko

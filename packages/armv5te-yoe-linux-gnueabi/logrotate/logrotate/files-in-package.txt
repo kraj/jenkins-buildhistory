@@ -1,0 +1,16 @@
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root              438 ./etc/logrotate.conf
+drwxr-xr-x root       root               80 ./etc/logrotate.d
+-rw-r--r-- root       root              130 ./etc/logrotate.d/btmp
+-rw-r--r-- root       root              145 ./etc/logrotate.d/wtmp
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              677 ./lib/systemd/system/logrotate.service
+-rw-r--r-- root       root              192 ./lib/systemd/system/logrotate.timer
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            59064 ./usr/sbin/logrotate
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+-rw-r--r-- root       root                0 ./var/lib/logrotate.status

@@ -1,0 +1,10 @@
+PV = 0.7.3
+PR = r0
+PKG = libquazip1
+PKGR = r0.17
+RPROVIDES = quazip (=0.7.3)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) qtbase (>= 5.11.2+git0+49efea26a5)
+RRECOMMENDS = 
+PKGSIZE = 136868
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/quazip /usr/lib/quazip/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libquazip.so.1 /usr/lib/libquazip.so.1.0 /usr/lib/libquazip.so.1.0.0

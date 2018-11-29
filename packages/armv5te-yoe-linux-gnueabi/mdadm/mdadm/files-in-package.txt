@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/udev
+drwxr-xr-x root       root              120 ./lib/udev/rules.d
+-rw-r--r-- root       root              321 ./lib/udev/rules.d/01-md-raid-creating.rules
+-rw-r--r-- root       root             2134 ./lib/udev/rules.d/63-md-raid-arrays.rules
+-rw-r--r-- root       root             1444 ./lib/udev/rules.d/64-md-raid-assembly.rules
+-rw-r--r-- root       root              846 ./lib/udev/rules.d/69-md-clustered-confirm-device.rules
+drwxr-xr-x root       root               80 ./sbin
+-rwxr-xr-x root       root           454924 ./sbin/mdadm
+-rwxr-xr-x root       root           250036 ./sbin/mdmon

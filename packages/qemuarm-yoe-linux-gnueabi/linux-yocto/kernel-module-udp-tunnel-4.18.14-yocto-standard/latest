@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-udp-tunnel
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7496
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/net/ipv4/udp_tunnel.ko /etc/modules-load.d/udp_tunnel.conf /etc/modprobe.d/udp_tunnel.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/net/ipv4/udp_tunnel.ko

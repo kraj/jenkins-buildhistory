@@ -1,0 +1,11 @@
+PV = 0.20.22
+PR = r0
+PKGR = r0.9
+RPROVIDES = mpd-systemd
+RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.10) expat (>= 2.2.6) glibc (>= 2.28) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libcurl (>= 7.62.0) libgcc (>= 8.2.0) libicui18n (>= 63.1) libicuuc (>= 63.1) libpulse (>= 12.2) libsqlite3 (>= 3.25.3) libstdc++ (>= 8.2.0) libsystemd (>= 239) shadow yajl (>= 2.1.0)
+RRECOMMENDS = 
+RREPLACES = mpd-systemd
+RCONFLICTS = mpd-systemd
+PKGSIZE = 409528
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpd /usr/lib/mpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/mpd.socket /lib/systemd/system/mpd.service
+FILELIST = /etc/mpd.conf /lib/systemd/system/mpd.service /lib/systemd/system/mpd.socket /usr/bin/mpd

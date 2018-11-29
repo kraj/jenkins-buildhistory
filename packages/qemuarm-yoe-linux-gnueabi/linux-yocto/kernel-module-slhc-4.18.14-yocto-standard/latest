@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-slhc
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8448
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/slip/slhc.ko /etc/modules-load.d/slhc.conf /etc/modprobe.d/slhc.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/drivers/net/slip/slhc.ko

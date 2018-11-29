@@ -1,0 +1,25 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               80 ./etc/default
+-rw-r--r-- root       root              559 ./etc/default/minicoredumper
+-rw-r--r-- root       root              559 ./etc/default/minicoredumper.in
+drwxr-xr-x root       root              100 ./etc/minicoredumper
+-rw-r--r-- root       root              540 ./etc/minicoredumper/generic.recept.json
+-rw-r--r-- root       root              134 ./etc/minicoredumper/minicoredumper.cfg.json
+-rw-r--r-- root       root              124 ./etc/minicoredumper/minicoredumper.cfg.json.in
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              316 ./lib/systemd/system/minicoredumper.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            13940 ./usr/bin/coreinject
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root             9712 ./usr/lib/libminicoredumper.so.2.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/libminicoredumper.so.2 -> libminicoredumper.so.2.0.0
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root            42616 ./usr/sbin/minicoredumper
+-rwxr-xr-x root       root             9856 ./usr/sbin/minicoredumper_regd
+-rwxr-xr-x root       root             2632 ./usr/sbin/minicoredumper_trigger
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/crash
+drwx------ root       root               40 ./var/crash/minicoredumper

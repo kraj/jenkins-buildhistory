@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-xt-redirect
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-nf-conntrack-4.18.14-yocto-standard kernel-module-nf-nat-4.18.14-yocto-standard kernel-module-x-tables-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5268
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/net/netfilter/xt_REDIRECT.ko /etc/modules-load.d/xt_REDIRECT.conf /etc/modprobe.d/xt_REDIRECT.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/net/netfilter/xt_REDIRECT.ko

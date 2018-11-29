@@ -1,0 +1,9 @@
+PV = 4.10
+PR = r0
+PKGR = r0.12
+RPROVIDES = 
+RDEPENDS = bash kselftests-bpf kselftests-capabilities kselftests-cpu-hotplug kselftests-efivarfs kselftests-exec kselftests-firmware kselftests-ftrace kselftests-futex kselftests-gpio kselftests-kcmp kselftests-lib kselftests-membarrier kselftests-memfd kselftests-memory-hotplug kselftests-mount kselftests-mqueue kselftests-net kselftests-nsfs kselftests-pstore kselftests-ptrace kselftests-seccomp kselftests-sigaltstack kselftests-size kselftests-static-keys kselftests-sync kselftests-sysctl kselftests-timers kselftests-user kselftests-vm kselftests-zram
+RRECOMMENDS = 
+PKGSIZE = 8363
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/kselftests /usr/lib/kselftests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/kselftests/run_kselftest.sh

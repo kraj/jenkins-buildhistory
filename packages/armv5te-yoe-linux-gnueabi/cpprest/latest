@@ -1,0 +1,5 @@
+PV = 2.10.8
+PR = r0
+DEPENDS = boost brotli cmake-native ninja-native openssl virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc websocketpp zlib
+PACKAGES = cpprest-dbg cpprest-staticdev cpprest-dev cpprest-doc cpprest-locale cpprest
+LAYER = openembedded-layer

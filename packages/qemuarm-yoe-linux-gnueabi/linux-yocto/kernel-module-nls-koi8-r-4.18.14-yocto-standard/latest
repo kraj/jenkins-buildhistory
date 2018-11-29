@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-nls-koi8-r
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7932
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/fs/nls/nls_koi8-r.ko /etc/modules-load.d/nls_koi8-r.conf /etc/modprobe.d/nls_koi8-r.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/fs/nls/nls_koi8-r.ko

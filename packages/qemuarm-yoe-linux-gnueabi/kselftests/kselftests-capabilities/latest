@@ -1,0 +1,9 @@
+PV = 4.10
+PR = r0
+PKGR = r0.12
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcap-ng (>= 0.7.9)
+RRECOMMENDS = 
+PKGSIZE = 19692
+FILES = /usr/bin/kselftests/capabilities
+FILELIST = /usr/bin/kselftests/capabilities/test_execve /usr/bin/kselftests/capabilities/validate_cap

@@ -1,0 +1,5 @@
+PV = 0.20.22
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd boost curl dbus expat gnu-config-native icu libtool-cross libtool-native pkgconfig-native pulseaudio shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc yajl
+PACKAGES = mpd-dbg mpd-staticdev mpd-dev mpd-doc mpd-locale mpd
+LAYER = multimedia-layer

@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-michael-mic
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5640
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/crypto/michael_mic.ko /etc/modules-load.d/michael_mic.conf /etc/modprobe.d/michael_mic.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/crypto/michael_mic.ko

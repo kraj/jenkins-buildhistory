@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_0573ed3c73
+PKGR = r0.41
+RPROVIDES = kernel-module-trace-events-sample
+RDEPENDS = kernel-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 22512
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/samples/trace_events/trace-events-sample.ko /etc/modules-load.d/trace-events-sample.conf /etc/modprobe.d/trace-events-sample.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/samples/trace_events/trace-events-sample.ko
