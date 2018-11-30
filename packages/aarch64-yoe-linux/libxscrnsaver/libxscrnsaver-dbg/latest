@@ -1,0 +1,11 @@
+PE = 1
+PV = 1.2.3
+PR = r0
+PKG = libxss-dbg
+PKGR = r0.19
+RPROVIDES = libxscrnsaver-dbg (=1.2.3)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libx11-dbg libxext-dbg
+PKGSIZE = 74329
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libXss.so.1.0.0 /usr/src/debug/libxscrnsaver/1_1.2.3-r0/libXScrnSaver-1.2.3/include/X11/extensions/scrnsaver.h /usr/src/debug/libxscrnsaver/1_1.2.3-r0/libXScrnSaver-1.2.3/src/XScrnSaver.c

@@ -1,0 +1,10 @@
+PV = 4.18.14+gitAUTOINC+bf98e195a4_33859b3077
+PR = r0
+PKGV = 4.18.14+git0+bf98e195a4_33859b3077
+PKGR = r0.32
+RPROVIDES = kernel-module-ebt-mark
+RDEPENDS = kernel-4.18.14-yocto-standard kernel-module-x-tables-4.18.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7384
+FILES = /lib/modules/4.18.14-yocto-standard/kernel/net/bridge/netfilter/ebt_mark.ko /etc/modules-load.d/ebt_mark.conf /etc/modprobe.d/ebt_mark.conf
+FILELIST = /lib/modules/4.18.14-yocto-standard/kernel/net/bridge/netfilter/ebt_mark.ko

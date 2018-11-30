@@ -1,0 +1,9 @@
+PV = 4.10
+PR = r0
+PKGR = r0.10
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) popt (>= 1.16)
+RRECOMMENDS = 
+PKGSIZE = 135720
+FILES = /usr/bin/kselftests/mqueue
+FILELIST = /usr/bin/kselftests/mqueue/mq_open_tests /usr/bin/kselftests/mqueue/mq_perf_tests

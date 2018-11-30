@@ -1,0 +1,5 @@
+PV = 1.2
+PR = r0
+DEPENDS = virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc virtual/libx11
+PACKAGES = recipeutils-test-dbg recipeutils-test-staticdev recipeutils-test-dev recipeutils-test-doc recipeutils-test-locale recipeutils-test
+LAYER = selftest

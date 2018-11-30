@@ -1,0 +1,10 @@
+PV = 1.16.2
+PR = r0
+PKG = libgssrpc4
+PKGR = r0.3
+RPROVIDES = libgssrpc (=1.16.2)
+RDEPENDS = glibc (>= 2.28) libcomerr (>= 1.44.3) libgssapi-krb5 (>= 1.16.2) libk5crypto (>= 1.16.2) libkrb5 (>= 1.16.2)
+RRECOMMENDS = 
+PKGSIZE = 134352
+FILES = /usr/lib/libgssrpc.so.*
+FILELIST = /usr/lib/libgssrpc.so.4 /usr/lib/libgssrpc.so.4.2

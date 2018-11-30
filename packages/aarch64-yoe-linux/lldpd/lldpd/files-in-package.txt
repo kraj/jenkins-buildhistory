@@ -1,0 +1,18 @@
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+-rw-r--r-- root       root              101 ./etc/default/lldpd
+-rw-r--r-- root       root                0 ./etc/lldpd.conf
+drwxr-xr-x root       root               60 ./etc/lldpd.d
+-rw-r--r-- root       root              342 ./etc/lldpd.d/README.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              524 ./lib/systemd/system/lldpd.service
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root           141384 ./usr/lib/liblldpctl.so.4.8.0
+lrwxrwxrwx root       root               19 ./usr/lib/liblldpctl.so.4 -> liblldpctl.so.4.8.0
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root           133488 ./usr/sbin/lldpcli
+lrwxrwxrwx root       root                7 ./usr/sbin/lldpctl -> lldpcli
+-rwxr-xr-x root       root           203744 ./usr/sbin/lldpd

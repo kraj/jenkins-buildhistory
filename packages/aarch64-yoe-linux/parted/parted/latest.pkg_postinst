@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/partprobe partprobe /usr/sbin/partprobe.parted 100
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

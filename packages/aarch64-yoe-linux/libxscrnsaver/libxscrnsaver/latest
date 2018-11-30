@@ -1,0 +1,12 @@
+PE = 1
+PV = 1.2.3
+PR = r0
+PKG = libxss1
+PKGR = r0.19
+RPROVIDES = libxscrnsaver (=1.2.3)
+RDEPENDS = glibc (>= 2.28) libx11 (>= 1.6.7) libxext (>= 1.3.3)
+RRECOMMENDS = 
+RREPLACES = libxss
+PKGSIZE = 67783
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxscrnsaver /usr/lib/libxscrnsaver/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libXss.so.1 /usr/lib/libXss.so.1.0.0

@@ -1,0 +1,10 @@
+PV = 63.1
+PR = r0
+PKG = libicuio63
+PKGR = r0.2
+RPROVIDES = libicuio (=63.1)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libicudata (>= 63.1) libicui18n (>= 63.1) libicuuc (>= 63.1) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 67864
+FILES = /usr/lib/libicuio.so.*
+FILELIST = /usr/lib/libicuio.so.63 /usr/lib/libicuio.so.63.1

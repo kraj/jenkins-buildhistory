@@ -1,0 +1,5 @@
+PV = 0.17
+PR = r0
+DEPENDS = libgcrypt libpam pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/crypt virtual/libc xinetd
+PACKAGES = netkit-rsh-client netkit-rsh-server netkit-rsh-doc netkit-rsh-dbg
+LAYER = networking-layer

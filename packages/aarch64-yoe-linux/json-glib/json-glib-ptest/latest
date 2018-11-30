@@ -1,0 +1,10 @@
+PV = 1.4.2
+PR = r0
+PKG = libjson-glib-1.0-ptest
+PKGR = r0.25
+RPROVIDES = json-glib-ptest (=1.4.2)
+RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.28) gnome-desktop-testing json-glib (>= 1.4.2)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 950208
+FILES = /usr/lib/json-glib/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/
+FILELIST = /usr/lib/json-glib/ptest/run-ptest /usr/libexec/installed-tests/json-glib-1.0/array /usr/libexec/installed-tests/json-glib-1.0/boxed /usr/libexec/installed-tests/json-glib-1.0/builder /usr/libexec/installed-tests/json-glib-1.0/generator /usr/libexec/installed-tests/json-glib-1.0/gvariant /usr/libexec/installed-tests/json-glib-1.0/invalid /usr/libexec/installed-tests/json-glib-1.0/node /usr/libexec/installed-tests/json-glib-1.0/object /usr/libexec/installed-tests/json-glib-1.0/parser /usr/libexec/installed-tests/json-glib-1.0/path /usr/libexec/installed-tests/json-glib-1.0/reader /usr/libexec/installed-tests/json-glib-1.0/serialize-complex /usr/libexec/installed-tests/json-glib-1.0/serialize-full /usr/libexec/installed-tests/json-glib-1.0/serialize-simple /usr/libexec/installed-tests/json-glib-1.0/stream-load.json /usr/share/installed-tests/json-glib-1.0/array.test /usr/share/installed-tests/json-glib-1.0/boxed.test /usr/share/installed-tests/json-glib-1.0/builder.test /usr/share/installed-tests/json-glib-1.0/generator.test /usr/share/installed-tests/json-glib-1.0/gvariant.test /usr/share/installed-tests/json-glib-1.0/invalid.test /usr/share/installed-tests/json-glib-1.0/node.test /usr/share/installed-tests/json-glib-1.0/object.test /usr/share/installed-tests/json-glib-1.0/parser.test /usr/share/installed-tests/json-glib-1.0/path.test /usr/share/installed-tests/json-glib-1.0/reader.test /usr/share/installed-tests/json-glib-1.0/serialize-complex.test /usr/share/installed-tests/json-glib-1.0/serialize-full.test /usr/share/installed-tests/json-glib-1.0/serialize-simple.test

@@ -1,0 +1,10 @@
+PV = 4.13.3
+PR = r0
+PKG = libxfce4panel-2.0-4
+PKGR = r0.27
+RPROVIDES = xfce4-panel-gtk3 (=4.13.3)
+RDEPENDS = atk (>= 2.28.1) cairo (>= 1.14.12) cairo-gobject (>= 1.14.12) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.58.0) glibc (>= 2.28) gtk+3 (>= 3.24.1) libxfce4util (>= 4.13.2) pango (>= 1.42.4)
+RRECOMMENDS = 
+PKGSIZE = 201074
+FILES = /usr/lib/libxfce4panel-2.0.so.* /usr/lib/xfce4/panel/wrapper-2.0
+FILELIST = /usr/lib/libxfce4panel-2.0.so.4 /usr/lib/libxfce4panel-2.0.so.4.0.0 /usr/lib/xfce4/panel/wrapper-2.0

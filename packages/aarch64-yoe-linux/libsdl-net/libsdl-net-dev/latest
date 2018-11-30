@@ -1,0 +1,10 @@
+PV = 1.2.8
+PR = r0
+PKG = libsdl-net-1.2-dev
+PKGR = r0.26
+RPROVIDES = libsdl-net-dev (=1.2.8)
+RDEPENDS = libsdl-net (= 1.2.8-r0.26)
+RRECOMMENDS = glibc-dev libsdl-dev
+PKGSIZE = 18575
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsdl-net/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/SDL/SDL_net.h /usr/lib/libSDL_net.so /usr/lib/pkgconfig/SDL_net.pc

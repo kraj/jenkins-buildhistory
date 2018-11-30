@@ -1,0 +1,5 @@
+PV = 5.1.1.r37
+PR = r0
+DEPENDS = libbsd libcap libpcre openssl10 systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
+PACKAGES = android-tools-dbg android-tools-staticdev android-tools-dev android-tools-doc android-tools-locale android-tools android-tools-fstools
+LAYER = openembedded-layer

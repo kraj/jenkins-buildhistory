@@ -1,0 +1,5 @@
+PV = 0.5.0
+PR = r0
+DEPENDS = virtual/aarch64-go virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/aarch64-yoe-linux-go-runtime virtual/libc
+PACKAGES = go-dep-ptest go-dep-dbg go-dep-staticdev go-dep-dev go-dep-doc go-dep-locale go-dep
+LAYER = core

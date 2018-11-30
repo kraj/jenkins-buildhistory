@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native opencl-headers pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+PACKAGES = opencl-icd-loader opencl-icd-loader-dev libicdlog libicdlog-dbg
+LAYER = openembedded-layer

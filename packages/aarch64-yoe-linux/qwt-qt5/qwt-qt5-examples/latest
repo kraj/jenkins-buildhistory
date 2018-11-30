@@ -1,0 +1,10 @@
+PV = 6.1.3
+PR = r0
+PKG = libqwt-examples
+PKGR = r0.25
+RPROVIDES = qwt-qt5-examples (=6.1.3)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) qtbase (>= 5.11.2+git0+49efea26a5) qwt-qt5 (>= 6.1.3)
+RRECOMMENDS = 
+PKGSIZE = 1925944
+FILES = /usr/bin/*
+FILELIST = /usr/bin/animation /usr/bin/barchart /usr/bin/bode /usr/bin/controls /usr/bin/cpuplot /usr/bin/curvdemo1 /usr/bin/dials /usr/bin/distrowatch /usr/bin/event_filter /usr/bin/friedberg /usr/bin/itemeditor /usr/bin/legends /usr/bin/oscilloscope /usr/bin/radio /usr/bin/rasterview /usr/bin/realtime /usr/bin/refreshtest /usr/bin/scatterplot /usr/bin/simpleplot /usr/bin/sinusplot /usr/bin/spectrogram /usr/bin/stockchart /usr/bin/sysinfo /usr/bin/tvplot

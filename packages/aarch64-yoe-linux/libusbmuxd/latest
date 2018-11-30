@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libplist libtool-cross libtool-native libusb1 pkgconfig-native udev virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+PACKAGES = libusbmuxd-dbg libusbmuxd-staticdev libusbmuxd-dev libusbmuxd-doc libusbmuxd-locale libusbmuxd
+LAYER = openembedded-layer

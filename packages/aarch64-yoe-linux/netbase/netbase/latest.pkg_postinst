@@ -1,0 +1,5 @@
+set -e
+	if [ -s $D/etc/hostname ]; then
+		hostname=`cat $D/etc/hostname`
+		echo "127.0.1.1 $hostname" >> $D/etc/hosts
+	fi

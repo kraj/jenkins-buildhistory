@@ -1,0 +1,11 @@
+PV = 0.0+AUTOINC+a1694a1c93
+PR = r0
+PKG = libqrtr-apps
+PKGV = 0.0+0+a1694a1c93
+PKGR = r0.17
+RPROVIDES = qrtr-apps (=0.0+0+a1694a1c93)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 203424
+FILES = /usr/bin/*
+FILELIST = /usr/bin/qrtr-cfg /usr/bin/qrtr-lookup /usr/bin/qrtr-ns

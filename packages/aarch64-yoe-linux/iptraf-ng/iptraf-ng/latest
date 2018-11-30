@@ -1,0 +1,11 @@
+PV = 1.1.4
+PR = r0
+PKGR = r0.17
+RPROVIDES = iptraf
+RDEPENDS = glibc (>= 2.28) ncurses-libncursesw (>= 6.1+20181013) ncurses-libpanel (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013)
+RRECOMMENDS = 
+RREPLACES = iptraf
+RCONFLICTS = iptraf
+PKGSIZE = 267528
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iptraf-ng /usr/lib/iptraf-ng/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/sbin/iptraf-ng /usr/sbin/rvnamed-ng
