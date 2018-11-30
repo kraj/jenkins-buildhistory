@@ -1,8 +1,8 @@
 PV = 5.7.1
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc) strongswan
+RDEPENDS = musl (>= 1.1.20+git2+39ef612aa1) strongswan
 RRECOMMENDS = 
 PKGSIZE = 18037
 FILES = /usr/lib/ipsec/plugins/libstrongswan-updown.so /etc/strongswan.d/charon/updown.conf

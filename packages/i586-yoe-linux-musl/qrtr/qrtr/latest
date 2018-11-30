@@ -2,9 +2,9 @@ PV = 0.0+AUTOINC+a1694a1c93
 PR = r0
 PKG = libqrtr1
 PKGV = 0.0+0+a1694a1c93
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = qrtr (=0.0+0+a1694a1c93)
-RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc)
+RDEPENDS = musl (>= 1.1.20+git2+39ef612aa1)
 RRECOMMENDS = 
 PKGSIZE = 17992
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qrtr /usr/lib/qrtr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/qrtr.service

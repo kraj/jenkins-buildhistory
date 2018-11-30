@@ -1,8 +1,8 @@
 PV = 0.7
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = 
-RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.10) expat (>= 2.2.6) libavahi-common (>= 0.7) libavahi-core (>= 0.7) libcap (>= 2.25) libdaemon (>= 0.14) musl (>= 1.1.20+git1+79f653c6bc) shadow
+RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.10) expat (>= 2.2.6) libavahi-common (>= 0.7) libavahi-core (>= 0.7) libcap (>= 2.25) libdaemon (>= 0.14) musl (>= 1.1.20+git2+39ef612aa1) shadow
 RRECOMMENDS = 
 PKGSIZE = 158846
 FILES = /usr/sbin/avahi-daemon /etc/avahi/avahi-daemon.conf /etc/avahi/hosts /etc/avahi/services /etc/dbus-1 /etc/init.d/avahi-daemon /usr/share/avahi/introspection/*.introspect /usr/share/avahi/avahi-service.dtd /usr/share/avahi/service-types /usr/share/dbus-1/system-services /lib/systemd/system/avahi-daemon.service /lib/systemd/system/avahi-daemon.socket

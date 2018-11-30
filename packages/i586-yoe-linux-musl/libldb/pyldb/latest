@@ -1,9 +1,9 @@
 PV = 1.4.1
 PR = r0
 PKG = libpyldb-util1
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = pyldb (=1.4.1)
-RDEPENDS = libldb (>= 1.4.1) libpython2 (>= 2.7.15) libtalloc (>= 2.1.14) musl (>= 1.1.20+git1+79f653c6bc) python samba
+RDEPENDS = libldb (>= 1.4.1) libpython2 (>= 2.7.15) libtalloc (>= 2.1.14) musl (>= 1.1.20+git2+39ef612aa1) python samba
 RRECOMMENDS = 
 PKGSIZE = 100814
 FILES = /usr/lib/python2.7/site-packages/* /usr/lib/libpyldb-util.so.*

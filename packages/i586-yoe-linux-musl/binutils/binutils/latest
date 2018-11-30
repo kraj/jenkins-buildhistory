@@ -1,8 +1,8 @@
 PV = 2.31
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = binutils-symlinks
-RDEPENDS = libbfd (>= 2.31) musl (>= 1.1.20+git1+79f653c6bc) update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = libbfd (>= 2.31) musl (>= 1.1.20+git2+39ef612aa1) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 14851171
 FILES = /usr/bin/i586-yoe-linux-musl-* /usr/lib/lib*-*.so /usr/i586-yoe-linux-musl/bin/* /usr/bin/embedspu

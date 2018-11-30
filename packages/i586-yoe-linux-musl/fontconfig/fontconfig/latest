@@ -1,9 +1,9 @@
 PV = 2.12.6
 PR = r0
 PKG = libfontconfig1
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = fontconfig (=2.12.6)
-RDEPENDS = expat (>= 2.2.6) freetype (>= 2.9.1) musl (>= 1.1.20+git1+79f653c6bc)
+RDEPENDS = expat (>= 2.2.6) freetype (>= 2.9.1) musl (>= 1.1.20+git2+39ef612aa1)
 RRECOMMENDS = 
 PKGSIZE = 380187
 FILES = /usr/share/xml/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fontconfig /usr/lib/fontconfig/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

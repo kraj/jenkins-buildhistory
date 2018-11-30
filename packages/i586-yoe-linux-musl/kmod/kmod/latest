@@ -1,9 +1,9 @@
 PV = 25+gitAUTOINC+aca4eca103
 PR = r0
 PKGV = 25+git0+aca4eca103
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = module-init-tools module-init-tools-depmod module-init-tools-insmod-static
-RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc) update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = musl (>= 1.1.20+git2+39ef612aa1) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = module-init-tools module-init-tools-depmod module-init-tools-insmod-static
 RCONFLICTS = module-init-tools module-init-tools-depmod module-init-tools-insmod-static

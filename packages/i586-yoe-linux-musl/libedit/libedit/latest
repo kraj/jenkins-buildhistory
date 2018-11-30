@@ -1,9 +1,9 @@
 PV = 20180525-3.1
 PR = r0
 PKG = libedit0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = libedit (=20180525-3.1)
-RDEPENDS = musl (>= 1.1.20+git1+79f653c6bc) ncurses-libncurses (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013)
+RDEPENDS = musl (>= 1.1.20+git2+39ef612aa1) ncurses-libncurses (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013)
 RRECOMMENDS = 
 PKGSIZE = 210389
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libedit /usr/lib/libedit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
