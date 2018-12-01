@@ -1,5 +1,5 @@
-PV = 2.0.0
+PV = 3.0.2
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
-PACKAGES = parse-edid read-edid-dbg read-edid-staticdev read-edid-dev read-edid-doc read-edid-locale read-edid
+DEPENDS = cmake-native ninja-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = read-edid-dbg read-edid-staticdev read-edid-dev read-edid-doc read-edid-locale read-edid
 LAYER = openembedded-layer
