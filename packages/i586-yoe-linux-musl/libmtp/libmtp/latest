@@ -1,10 +1,10 @@
-PV = 1.1.16
+PV = 1.1.5
 PR = r0
 PKG = libmtp9
-PKGR = r0.2
-RPROVIDES = libmtp (=1.1.16)
+PKGR = r0.24
+RPROVIDES = libmtp (=1.1.5)
 RDEPENDS = libmtp-common libusb1 (>= 1.0.22) musl (>= 1.1.20+git2+39ef612aa1)
 RRECOMMENDS = libmtp-bin libmtp-runtime
-PKGSIZE = 497847
+PKGSIZE = 302287
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmtp /usr/lib/libmtp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libmtp.so.9 /usr/lib/libmtp.so.9.4.0 /usr/lib/udev/hwdb.d/69-libmtp.hwdb
+FILELIST = /usr/lib/libmtp.so.9 /usr/lib/libmtp.so.9.0.5

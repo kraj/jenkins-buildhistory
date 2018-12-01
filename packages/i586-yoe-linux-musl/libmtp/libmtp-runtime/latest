@@ -1,9 +1,9 @@
-PV = 1.1.16
+PV = 1.1.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.24
 RPROVIDES = 
-RDEPENDS = libmtp (>= 1.1.16) libmtp-common musl (>= 1.1.20+git2+39ef612aa1)
+RDEPENDS = libmtp (>= 1.1.5) musl (>= 1.1.20+git2+39ef612aa1)
 RRECOMMENDS = 
-PKGSIZE = 9524
-FILES = /usr/lib/udev/mtp-probe
-FILELIST = /usr/lib/udev/mtp-probe
+PKGSIZE = 5428
+FILES = /lib/udev/mtp-probe
+FILELIST = /lib/udev/mtp-probe
