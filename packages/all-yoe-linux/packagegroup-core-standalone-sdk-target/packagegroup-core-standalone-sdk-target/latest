@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r8
-PKGR = r8.50
+PKGR = r8.51
 RPROVIDES = 
-RDEPENDS = bsd-headers-dev libatomic libatomic-dev libgcc libgcc-dev libstdc++ libstdc++-dev musl musl-dbg musl-dev musl-utils musl-utils-iconv
+RDEPENDS = glibc glibc-dbg glibc-dev glibc-gconv-cp1252 glibc-gconv-ibm850 glibc-gconv-iso8859-1 glibc-gconv-iso8859-15 glibc-localedata-i18n glibc-thread-db glibc-utils libatomic libatomic-dev libgcc libgcc-dev libsegfault libstdc++ libstdc++-dev
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/packagegroup-core-standalone-sdk-target /usr/lib/packagegroup-core-standalone-sdk-target/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
