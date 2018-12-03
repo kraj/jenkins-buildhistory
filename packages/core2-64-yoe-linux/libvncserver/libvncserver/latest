@@ -1,9 +1,9 @@
-PV = 0.9.11
+PV = git
 PR = r0
-PKGR = r0.29
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28) gnutls (>= 3.6.4) gtk+ libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.0) libpng (>= 1.6.35) libsystemd (>= 239) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.28) gnutls (>= 3.6.4) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.0) libpng (>= 1.6.35) libsystemd (>= 239) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 447986
+PKGSIZE = 480972
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libvncserver /usr/lib/libvncserver/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libvncclient.so.1 /usr/lib/libvncclient.so.1.0.0 /usr/lib/libvncserver.so.1 /usr/lib/libvncserver.so.1.0.0
+FILELIST = /usr/lib/libvncclient.so.0.9.12 /usr/lib/libvncclient.so.1 /usr/lib/libvncserver.so.0.9.12 /usr/lib/libvncserver.so.1
