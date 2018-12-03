@@ -1,9 +1,9 @@
 PV = 0.9.13
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 RPROVIDES = 
-RDEPENDS = x11vnc (= 0.9.13-r0.26)
-RRECOMMENDS = avahi-dev glibc-dev jpeg-dev libtasn1-dev libvncserver-dev libx11-dev libxcrypt-dev libxdamage-dev libxext-dev libxfixes-dev libxrandr-dev libxtst-dev openssl-dev p11-kit-dev zlib-dev
-PKGSIZE = 0
+RDEPENDS = x11vnc (= 0.9.13-r0.27)
+RRECOMMENDS = avahi-dev glibc-dev jpeg-dev libjpeg-turbo-dev libtasn1-dev libvncserver-dev libx11-dev libxcrypt-dev libxdamage-dev libxext-dev libxfixes-dev libxrandr-dev libxtst-dev openssl-dev p11-kit-dev zlib-dev
+PKGSIZE = 197915
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/x11vnc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /usr/include/rfb/keysym.h /usr/include/rfb/rfb.h /usr/include/rfb/rfbclient.h /usr/include/rfb/rfbconfig.h /usr/include/rfb/rfbint.h /usr/include/rfb/rfbproto.h /usr/include/rfb/rfbregion.h
