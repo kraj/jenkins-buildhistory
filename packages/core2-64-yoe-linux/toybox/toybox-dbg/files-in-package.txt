@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./bin
 drwxr-xr-x root       root               60 ./bin/.debug
--rwxr-xr-x root       root          4266896 ./bin/.debug/toybox
+-rwxr-xr-x root       root          4241624 ./bin/.debug/toybox
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -90,7 +90,6 @@ drwxr-xr-x root       root             1440 ./usr/src/debug/toybox/0.7.5-r0/toyb
 -rw-r--r-- root       root             2877 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/modinfo.c
 -rw-r--r-- root       root             1830 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/mountpoint.c
 -rw-r--r-- root       root             3042 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/nbd_client.c
--rw-r--r-- root       root             4748 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/nsenter.c
 -rw-r--r-- root       root             3714 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/oneit.c
 -rw-r--r-- root       root              669 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/partprobe.c
 -rw-r--r-- root       root              864 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/pivot_root.c
@@ -108,6 +107,7 @@ drwxr-xr-x root       root             1440 ./usr/src/debug/toybox/0.7.5-r0/toyb
 -rw-r--r-- root       root             2640 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/shred.c
 -rw-r--r-- root       root             7479 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/stat.c
 -rw-r--r-- root       root              427 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/swapoff.c
+-rw-r--r-- root       root              765 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/swapon.c
 -rw-r--r-- root       root             2967 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/switch_root.c
 -rw-r--r-- root       root             3902 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/sysctl.c
 -rw-r--r-- root       root              821 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/tac.c
@@ -122,7 +122,7 @@ drwxr-xr-x root       root             1440 ./usr/src/debug/toybox/0.7.5-r0/toyb
 -rw-r--r-- root       root             1467 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/which.c
 -rw-r--r-- root       root             3511 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/xxd.c
 -rw-r--r-- root       root              501 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/other/yes.c
-drwxr-xr-x root       root             1280 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix
+drwxr-xr-x root       root             1260 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix
 -rw-r--r-- root       root              652 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/basename.c
 -rw-r--r-- root       root             2898 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/cal.c
 -rw-r--r-- root       root             2336 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/cat.c
@@ -176,7 +176,6 @@ drwxr-xr-x root       root             1280 ./usr/src/debug/toybox/0.7.5-r0/toyb
 -rw-r--r-- root       root             3410 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/touch.c
 -rw-r--r-- root       root              385 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/true.c
 -rw-r--r-- root       root              606 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/tty.c
--rw-r--r-- root       root             4217 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/ulimit.c
 -rw-r--r-- root       root             1515 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/uname.c
 -rw-r--r-- root       root             2869 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/uniq.c
 -rw-r--r-- root       root              448 ./usr/src/debug/toybox/0.7.5-r0/toybox-0.7.5/toys/posix/unlink.c
