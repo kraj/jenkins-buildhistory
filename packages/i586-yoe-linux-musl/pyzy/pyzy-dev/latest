@@ -1,9 +1,9 @@
 PV = git
 PR = r0
 PKG = libpyzy-1.0-dev
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = pyzy-dev (=git)
-RDEPENDS = pyzy (= git-r0.1)
+RDEPENDS = pyzy (= git-r0.2)
 RRECOMMENDS = glib-2.0-dev libgcc-dev libsqlite3-dev libstdc++-dev musl-dev sqlite3-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 20877
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pyzy/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
