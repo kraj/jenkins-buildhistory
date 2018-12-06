@@ -6,23 +6,23 @@ drwxr-x--- root       root               40 ./etc/sudoers.d
 -r--r----- root       root             3174 ./etc/sudoers.dist
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root           244224 ./usr/bin/cvtsudoers
----s--x--x root       root           136872 ./usr/bin/sudo
+-rwxr-xr-x root       root           260544 ./usr/bin/cvtsudoers
+---s--x--x root       root           140968 ./usr/bin/sudo
 lrwxrwxrwx root       root                4 ./usr/bin/sudoedit -> sudo
--rwxr-xr-x root       root            56296 ./usr/bin/sudoreplay
+-rwxr-xr-x root       root            60424 ./usr/bin/sudoreplay
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              160 ./usr/libexec/sudo
 -rw-r--r-- root       root            10392 ./usr/libexec/sudo/group_file.so
--rwxr-xr-x root       root           109464 ./usr/libexec/sudo/libsudo_util.so.0.0.0
+-rwxr-xr-x root       root           117848 ./usr/libexec/sudo/libsudo_util.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
--rw-r--r-- root       root           335000 ./usr/libexec/sudo/sudoers.so
+-rw-r--r-- root       root           347128 ./usr/libexec/sudo/sudoers.so
 -rw-r--r-- root       root            10328 ./usr/libexec/sudo/sudo_noexec.so
 -rw-r--r-- root       root             6288 ./usr/libexec/sudo/system_group.so
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              305 ./usr/lib/tmpfiles.d/sudo.conf
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root           206944 ./usr/sbin/visudo
+-rwxr-xr-x root       root           210880 ./usr/sbin/visudo
 drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwx--x--x root       root               60 ./var/lib/sudo
