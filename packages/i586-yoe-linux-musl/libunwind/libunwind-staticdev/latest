@@ -1,9 +1,9 @@
 PV = 1.2.1
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = 
-RDEPENDS = libunwind-dev (= 1.2.1-r0.28)
+RDEPENDS = libunwind-dev (= 1.2.1-r0.29)
 RRECOMMENDS = 
-PKGSIZE = 15
+PKGSIZE = 1331731
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libunwind/*.a
-FILELIST = /usr/lib/libunwind-generic.a
+FILELIST = /usr/lib/libunwind-coredump.a /usr/lib/libunwind-generic.a /usr/lib/libunwind-ptrace.a /usr/lib/libunwind-setjmp.a /usr/lib/libunwind-x86.a /usr/lib/libunwind.a
