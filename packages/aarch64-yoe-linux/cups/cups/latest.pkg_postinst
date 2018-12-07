@@ -17,6 +17,3 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl --no-block restart org.cups.cupsd.socket org.cups.cupsd.path org.cups.cupsd.service org.cups.cups-lpd.socket org.cups.cups-lpd@.service
 	fi
 fi
-if [ x"$D" = "x" ]; then
-	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
-fi
