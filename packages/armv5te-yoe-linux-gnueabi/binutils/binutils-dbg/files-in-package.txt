@@ -8,8 +8,8 @@ drwxr-xr-x root       root              380 ./usr/bin/.debug
 -rwxr-xr-x root       root         62071028 ./usr/bin/.debug/arm-yoe-linux-gnueabi-dwp
 -rwxr-xr-x root       root           236004 ./usr/bin/.debug/arm-yoe-linux-gnueabi-elfedit
 -rwxr-xr-x root       root           932552 ./usr/bin/.debug/arm-yoe-linux-gnueabi-gprof
--rwxr-xr-x root       root        101288392 ./usr/bin/.debug/arm-yoe-linux-gnueabi-ld
 -rwxr-xr-x root       root          1519528 ./usr/bin/.debug/arm-yoe-linux-gnueabi-ld.bfd
+-rwxr-xr-x root       root        101288392 ./usr/bin/.debug/arm-yoe-linux-gnueabi-ld.gold
 -rwxr-xr-x root       root           298392 ./usr/bin/.debug/arm-yoe-linux-gnueabi-nm
 -rwxr-xr-x root       root           912788 ./usr/bin/.debug/arm-yoe-linux-gnueabi-objcopy
 -rwxr-xr-x root       root          1460252 ./usr/bin/.debug/arm-yoe-linux-gnueabi-objdump
@@ -20,7 +20,7 @@ drwxr-xr-x root       root              380 ./usr/bin/.debug
 -rwxr-xr-x root       root           912784 ./usr/bin/.debug/arm-yoe-linux-gnueabi-strip
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root          4017176 ./usr/lib/.debug/libbfd-2.31.1.20180818.so
+-rwxr-xr-x root       root          4017944 ./usr/lib/.debug/libbfd-2.31.1.20180818.so
 -rwxr-xr-x root       root           327300 ./usr/lib/.debug/libopcodes-2.31.1.20180818.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -75,7 +75,7 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/binutils/2.31-r0/git
 -rw-r--r-- root       root            54501 ./usr/src/debug/binutils/2.31-r0/git/bfd/opncls.c
 -rw-r--r-- root       root            16122 ./usr/src/debug/binutils/2.31-r0/git/bfd/plugin.c
 -rw-r--r-- root       root             1408 ./usr/src/debug/binutils/2.31-r0/git/bfd/plugin.h
--rw-r--r-- root       root           195350 ./usr/src/debug/binutils/2.31-r0/git/bfd/reloc.c
+-rw-r--r-- root       root           195352 ./usr/src/debug/binutils/2.31-r0/git/bfd/reloc.c
 -rw-r--r-- root       root            50463 ./usr/src/debug/binutils/2.31-r0/git/bfd/section.c
 -rw-r--r-- root       root             8687 ./usr/src/debug/binutils/2.31-r0/git/bfd/simple.c
 -rw-r--r-- root       root            33733 ./usr/src/debug/binutils/2.31-r0/git/bfd/srec.c
