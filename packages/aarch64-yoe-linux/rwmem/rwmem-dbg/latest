@@ -1,9 +1,9 @@
 PV = 1.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 12104
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
+PKGSIZE = 1843335
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/rwmem
+FILELIST = /usr/bin/.debug/rwmem /usr/src/debug/rwmem/1.1-r0/git/ext/inih/ini.c /usr/src/debug/rwmem/1.1-r0/git/ext/inih/ini.h /usr/src/debug/rwmem/1.1-r0/git/librwmem/helpers.cpp /usr/src/debug/rwmem/1.1-r0/git/librwmem/helpers.h /usr/src/debug/rwmem/1.1-r0/git/librwmem/i2ctarget.cpp /usr/src/debug/rwmem/1.1-r0/git/librwmem/i2ctarget.h /usr/src/debug/rwmem/1.1-r0/git/librwmem/itarget.h /usr/src/debug/rwmem/1.1-r0/git/librwmem/mmaptarget.cpp /usr/src/debug/rwmem/1.1-r0/git/librwmem/mmaptarget.h /usr/src/debug/rwmem/1.1-r0/git/librwmem/regfiledata.cpp /usr/src/debug/rwmem/1.1-r0/git/librwmem/regfiledata.h /usr/src/debug/rwmem/1.1-r0/git/librwmem/regs.cpp /usr/src/debug/rwmem/1.1-r0/git/librwmem/regs.h /usr/src/debug/rwmem/1.1-r0/git/rwmem/cmdline.cpp /usr/src/debug/rwmem/1.1-r0/git/rwmem/inifile.cpp /usr/src/debug/rwmem/1.1-r0/git/rwmem/inireader.cpp /usr/src/debug/rwmem/1.1-r0/git/rwmem/inireader.h /usr/src/debug/rwmem/1.1-r0/git/rwmem/opts.cpp /usr/src/debug/rwmem/1.1-r0/git/rwmem/opts.h /usr/src/debug/rwmem/1.1-r0/git/rwmem/rwmem.cpp /usr/src/debug/rwmem/1.1-r0/git/rwmem/rwmem.h

@@ -1,5 +1,5 @@
 PV = 1.1
 PR = r0
-DEPENDS = virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = cmake-native ninja-native pkgconfig-native python3 virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = rwmem-dbg rwmem-staticdev rwmem-dev rwmem-doc rwmem-locale rwmem
 LAYER = meta-ti

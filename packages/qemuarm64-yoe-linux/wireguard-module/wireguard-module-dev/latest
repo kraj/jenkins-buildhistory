@@ -1,8 +1,8 @@
 PV = 0.0.20171221
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = wireguard-module (= 0.0.20171221-r0.22)
+RDEPENDS = wireguard-module (= 0.0.20171221-r0.23)
 RRECOMMENDS = kernel-4.18.14-yocto-standard-dev kernel-module-ip6-udp-tunnel-4.18.14-yocto-standard-dev kernel-module-udp-tunnel-4.18.14-yocto-standard-dev kernel-module-wireguard-4.18.14-yocto-standard-dev libmnl-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wireguard-module/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
