@@ -1,8 +1,8 @@
 PV = 0.7.9
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = device-mapper-multipath-libs
-RDEPENDS = glibc (>= 2.28) json-c (>= 0.13.1) libaio (>= 0.3.111) libdevmapper (>= 2.03.01) libsystemd (>= 239) libudev (>= 239) liburcu (>= 0.10.1)
+RDEPENDS = glibc (>= 2.29) json-c (>= 0.13.1) libaio (>= 0.3.111) libdevmapper (>= 2.03.01) libsystemd (>= 239) libudev (>= 239) liburcu (>= 0.10.1)
 RRECOMMENDS = 
 PKGSIZE = 559108
 FILES = /lib/lib*.so.* /lib/multipath/lib*.so*
