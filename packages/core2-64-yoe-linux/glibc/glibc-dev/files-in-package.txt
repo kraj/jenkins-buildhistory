@@ -15,7 +15,7 @@ drwxr-xr-x root       root              160 ./usr/include/arpa
 -rw-r--r-- root       root            10263 ./usr/include/arpa/telnet.h
 -rw-r--r-- root       root             3051 ./usr/include/arpa/tftp.h
 -rw-r--r-- root       root             4561 ./usr/include/assert.h
-drwxr-xr-x root       root             2940 ./usr/include/bits
+drwxr-xr-x root       root             3160 ./usr/include/bits
 -rw-r--r-- root       root              268 ./usr/include/bits/a.out.h
 -rw-r--r-- root       root             2449 ./usr/include/bits/byteswap.h
 -rw-r--r-- root       root             4138 ./usr/include/bits/cmathcalls.h
@@ -66,15 +66,17 @@ drwxr-xr-x root       root             2940 ./usr/include/bits
 -rw-r--r-- root       root             1306 ./usr/include/bits/mathcalls-narrow.h
 -rw-r--r-- root       root              890 ./usr/include/bits/mathdef.h
 -rw-r--r-- root       root             5374 ./usr/include/bits/math-finite.h
--rw-r--r-- root       root            13015 ./usr/include/bits/mathinline.h
+-rw-r--r-- root       root            12843 ./usr/include/bits/mathinline.h
 -rw-r--r-- root       root             2307 ./usr/include/bits/math-vector.h
--rw-r--r-- root       root             2063 ./usr/include/bits/mman.h
--rw-r--r-- root       root             4895 ./usr/include/bits/mman-linux.h
--rw-r--r-- root       root             2736 ./usr/include/bits/mman-shared.h
+-rw-r--r-- root       root             1308 ./usr/include/bits/mman.h
+-rw-r--r-- root       root             4793 ./usr/include/bits/mman-linux.h
+-rw-r--r-- root       root             1996 ./usr/include/bits/mman-map-flags-generic.h
+-rw-r--r-- root       root             2812 ./usr/include/bits/mman-shared.h
 -rw-r--r-- root       root             1046 ./usr/include/bits/monetary-ldbl.h
 -rw-r--r-- root       root             2150 ./usr/include/bits/mqueue2.h
 -rw-r--r-- root       root             1245 ./usr/include/bits/mqueue.h
--rw-r--r-- root       root             2637 ./usr/include/bits/msq.h
+-rw-r--r-- root       root             2817 ./usr/include/bits/msq.h
+-rw-r--r-- root       root             1277 ./usr/include/bits/msq-pad.h
 -rw-r--r-- root       root             1263 ./usr/include/bits/netdb.h
 -rw-r--r-- root       root             1432 ./usr/include/bits/param.h
 -rw-r--r-- root       root             2936 ./usr/include/bits/poll2.h
@@ -83,24 +85,31 @@ drwxr-xr-x root       root             2940 ./usr/include/bits
 -rw-r--r-- root       root             2866 ./usr/include/bits/posix2_lim.h
 -rw-r--r-- root       root             5705 ./usr/include/bits/posix_opt.h
 -rw-r--r-- root       root              991 ./usr/include/bits/printf-ldbl.h
+-rw-r--r-- root       root              957 ./usr/include/bits/procfs-extra.h
+-rw-r--r-- root       root             2023 ./usr/include/bits/procfs.h
+-rw-r--r-- root       root             1142 ./usr/include/bits/procfs-id.h
+-rw-r--r-- root       root             1044 ./usr/include/bits/procfs-prregset.h
 -rw-r--r-- root       root             3290 ./usr/include/bits/pthreadtypes-arch.h
 -rw-r--r-- root       root             3071 ./usr/include/bits/pthreadtypes.h
 -rw-r--r-- root       root             2900 ./usr/include/bits/ptrace-shared.h
 -rw-r--r-- root       root             6298 ./usr/include/bits/resource.h
--rw-r--r-- root       root             3747 ./usr/include/bits/sched.h
+-rw-r--r-- root       root             3853 ./usr/include/bits/sched.h
 -rw-r--r-- root       root             1437 ./usr/include/bits/select2.h
 -rw-r--r-- root       root             2105 ./usr/include/bits/select.h
 -rw-r--r-- root       root             1237 ./usr/include/bits/semaphore.h
--rw-r--r-- root       root             2619 ./usr/include/bits/sem.h
+-rw-r--r-- root       root             2904 ./usr/include/bits/sem.h
+-rw-r--r-- root       root             1013 ./usr/include/bits/sem-pad.h
 -rw-r--r-- root       root             1704 ./usr/include/bits/setjmp2.h
 -rw-r--r-- root       root             1286 ./usr/include/bits/setjmp.h
--rw-r--r-- root       root             3591 ./usr/include/bits/shm.h
+-rw-r--r-- root       root             3871 ./usr/include/bits/shm.h
+-rw-r--r-- root       root             1100 ./usr/include/bits/shmlba.h
+-rw-r--r-- root       root             1662 ./usr/include/bits/shm-pad.h
 -rw-r--r-- root       root             2934 ./usr/include/bits/sigaction.h
 -rw-r--r-- root       root             4264 ./usr/include/bits/sigcontext.h
 -rw-r--r-- root       root             1470 ./usr/include/bits/sigevent-consts.h
 -rw-r--r-- root       root              729 ./usr/include/bits/siginfo-arch.h
 -rw-r--r-- root       root              204 ./usr/include/bits/siginfo-consts-arch.h
--rw-r--r-- root       root             6138 ./usr/include/bits/siginfo-consts.h
+-rw-r--r-- root       root             6854 ./usr/include/bits/siginfo-consts.h
 -rw-r--r-- root       root             1066 ./usr/include/bits/signalfd.h
 -rw-r--r-- root       root             4340 ./usr/include/bits/signum-generic.h
 -rw-r--r-- root       root             1633 ./usr/include/bits/signum.h
@@ -108,7 +117,7 @@ drwxr-xr-x root       root             2940 ./usr/include/bits
 -rw-r--r-- root       root             1691 ./usr/include/bits/sigthread.h
 -rw-r--r-- root       root             1513 ./usr/include/bits/sockaddr.h
 -rw-r--r-- root       root             3025 ./usr/include/bits/socket2.h
--rw-r--r-- root       root            14322 ./usr/include/bits/socket.h
+-rw-r--r-- root       root            14405 ./usr/include/bits/socket.h
 -rw-r--r-- root       root             2215 ./usr/include/bits/socket_type.h
 -rw-r--r-- root       root             1187 ./usr/include/bits/ss_flags.h
 -rw-r--r-- root       root             9039 ./usr/include/bits/stab.def
@@ -129,7 +138,7 @@ drwxr-xr-x root       root             2940 ./usr/include/bits
 -rw-r--r-- root       root             4313 ./usr/include/bits/string_fortified.h
 -rw-r--r-- root       root             1208 ./usr/include/bits/strings_fortified.h
 -rw-r--r-- root       root             8453 ./usr/include/bits/stropts.h
--rw-r--r-- root       root            40610 ./usr/include/bits/syscall-64.h
+-rw-r--r-- root       root            40743 ./usr/include/bits/syscall-64.h
 -rw-r--r-- root       root             1930 ./usr/include/bits/syscall.h
 -rw-r--r-- root       root              898 ./usr/include/bits/sysctl.h
 -rw-r--r-- root       root             1215 ./usr/include/bits/sys_errlist.h
@@ -138,9 +147,11 @@ drwxr-xr-x root       root             2940 ./usr/include/bits
 -rw-r--r-- root       root             1060 ./usr/include/bits/syslog-path.h
 -rw-r--r-- root       root             2952 ./usr/include/bits/sysmacros.h
 -rw-r--r-- root       root             5363 ./usr/include/bits/termios.h
--rw-r--r-- root       root             5610 ./usr/include/bits/thread-shared-types.h
+-rw-r--r-- root       root             6720 ./usr/include/bits/thread-shared-types.h
+-rw-r--r-- root       root             1334 ./usr/include/bits/time64.h
 -rw-r--r-- root       root             2998 ./usr/include/bits/time.h
 -rw-r--r-- root       root             1102 ./usr/include/bits/timerfd.h
+-rw-r--r-- root       root             1075 ./usr/include/bits/timesize.h
 -rw-r--r-- root       root             4595 ./usr/include/bits/timex.h
 drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root              174 ./usr/include/bits/types/clockid_t.h
@@ -151,7 +162,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root              180 ./usr/include/bits/types/FILE.h
 -rw-r--r-- root       root              410 ./usr/include/bits/types/__fpos64_t.h
 -rw-r--r-- root       root              381 ./usr/include/bits/types/__fpos_t.h
--rw-r--r-- root       root             8326 ./usr/include/bits/types.h
+-rw-r--r-- root       root             8551 ./usr/include/bits/types.h
 -rw-r--r-- root       root             3397 ./usr/include/bits/typesizes.h
 -rw-r--r-- root       root             1721 ./usr/include/bits/types/__locale_t.h
 -rw-r--r-- root       root              982 ./usr/include/bits/types/locale_t.h
@@ -160,7 +171,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root             2009 ./usr/include/bits/types/res_state.h
 -rw-r--r-- root       root              272 ./usr/include/bits/types/sig_atomic_t.h
 -rw-r--r-- root       root             1204 ./usr/include/bits/types/sigevent_t.h
--rw-r--r-- root       root             3886 ./usr/include/bits/types/siginfo_t.h
+-rw-r--r-- root       root             3892 ./usr/include/bits/types/siginfo_t.h
 -rw-r--r-- root       root              206 ./usr/include/bits/types/__sigset_t.h
 -rw-r--r-- root       root              195 ./usr/include/bits/types/sigset_t.h
 -rw-r--r-- root       root             1147 ./usr/include/bits/types/__sigval_t.h
@@ -170,7 +181,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root             1065 ./usr/include/bits/types/struct_iovec.h
 -rw-r--r-- root       root              288 ./usr/include/bits/types/struct_itimerspec.h
 -rw-r--r-- root       root              274 ./usr/include/bits/types/struct_osockaddr.h
--rw-r--r-- root       root             4076 ./usr/include/bits/types/struct_rusage.h
+-rw-r--r-- root       root             4120 ./usr/include/bits/types/struct_rusage.h
 -rw-r--r-- root       root             1072 ./usr/include/bits/types/struct_sched_param.h
 -rw-r--r-- root       root             1072 ./usr/include/bits/types/struct_sigstack.h
 -rw-r--r-- root       root              376 ./usr/include/bits/types/struct_timespec.h
@@ -201,7 +212,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root            10963 ./usr/include/ctype.h
 -rw-r--r-- root       root            12484 ./usr/include/dirent.h
 -rw-r--r-- root       root             7018 ./usr/include/dlfcn.h
--rw-r--r-- root       root           174545 ./usr/include/elf.h
+-rw-r--r-- root       root           179028 ./usr/include/elf.h
 -rw-r--r-- root       root             3189 ./usr/include/endian.h
 -rw-r--r-- root       root             2866 ./usr/include/envz.h
 -rw-r--r-- root       root             2209 ./usr/include/err.h
@@ -276,8 +287,8 @@ drwxr-xr-x root       root              300 ./usr/include/netinet
 -rw-r--r-- root       root             5393 ./usr/include/netinet/ip6.h
 -rw-r--r-- root       root             9435 ./usr/include/netinet/ip.h
 -rw-r--r-- root       root            10126 ./usr/include/netinet/ip_icmp.h
--rw-r--r-- root       root             9927 ./usr/include/netinet/tcp.h
--rw-r--r-- root       root             3646 ./usr/include/netinet/udp.h
+-rw-r--r-- root       root            10422 ./usr/include/netinet/tcp.h
+-rw-r--r-- root       root             3704 ./usr/include/netinet/udp.h
 drwxr-xr-x root       root               60 ./usr/include/netipx
 -rw-r--r-- root       root             2899 ./usr/include/netipx/ipx.h
 drwxr-xr-x root       root               60 ./usr/include/netiucv
@@ -325,13 +336,13 @@ drwxr-xr-x root       root              100 ./usr/include/scsi
 -rw-r--r-- root       root             1343 ./usr/include/sgtty.h
 -rw-r--r-- root       root             5471 ./usr/include/shadow.h
 -rw-r--r-- root       root            12243 ./usr/include/signal.h
--rw-r--r-- root       root             6690 ./usr/include/spawn.h
+-rw-r--r-- root       root             7236 ./usr/include/spawn.h
 -rw-r--r-- root       root              264 ./usr/include/stab.h
 -rw-r--r-- root       root             2289 ./usr/include/stdc-predef.h
 -rw-r--r-- root       root             8469 ./usr/include/stdint.h
 -rw-r--r-- root       root             2799 ./usr/include/stdio_ext.h
 -rw-r--r-- root       root            30168 ./usr/include/stdio.h
--rw-r--r-- root       root            35653 ./usr/include/stdlib.h
+-rw-r--r-- root       root            35654 ./usr/include/stdlib.h
 -rw-r--r-- root       root            17545 ./usr/include/string.h
 -rw-r--r-- root       root             4752 ./usr/include/strings.h
 -rw-r--r-- root       root             3047 ./usr/include/stropts.h
@@ -340,7 +351,7 @@ drwxr-xr-x root       root             1700 ./usr/include/sys
 -rw-r--r-- root       root             1259 ./usr/include/sys/auxv.h
 -rw-r--r-- root       root               86 ./usr/include/sys/bitypes.h
 -rw-r--r-- root       root               25 ./usr/include/syscall.h
--rw-r--r-- root       root            18008 ./usr/include/sys/cdefs.h
+-rw-r--r-- root       root            18307 ./usr/include/sys/cdefs.h
 -rw-r--r-- root       root             3575 ./usr/include/sys/debugreg.h
 -rw-r--r-- root       root              921 ./usr/include/sys/dir.h
 -rw-r--r-- root       root             1023 ./usr/include/sys/elf.h
@@ -354,7 +365,7 @@ drwxr-xr-x root       root             1700 ./usr/include/sys
 -rw-r--r-- root       root             1187 ./usr/include/sys/fsuid.h
 -rw-r--r-- root       root             6210 ./usr/include/sys/gmon.h
 -rw-r--r-- root       root             2635 ./usr/include/sys/gmon_out.h
--rw-r--r-- root       root             3837 ./usr/include/sys/inotify.h
+-rw-r--r-- root       root             3900 ./usr/include/sys/inotify.h
 -rw-r--r-- root       root             1739 ./usr/include/sys/ioctl.h
 -rw-r--r-- root       root             5085 ./usr/include/sys/io.h
 -rw-r--r-- root       root             1461 ./usr/include/sys/ipc.h
@@ -371,7 +382,7 @@ drwxr-xr-x root       root             1700 ./usr/include/sys
 -rw-r--r-- root       root             2722 ./usr/include/sys/personality.h
 -rw-r--r-- root       root             2549 ./usr/include/sys/poll.h
 -rw-r--r-- root       root             1058 ./usr/include/sys/prctl.h
--rw-r--r-- root       root             4985 ./usr/include/sys/procfs.h
+-rw-r--r-- root       root             4337 ./usr/include/sys/procfs.h
 -rw-r--r-- root       root             1958 ./usr/include/sys/profil.h
 -rw-r--r-- root       root             5988 ./usr/include/sys/ptrace.h
 -rw-r--r-- root       root            19539 ./usr/include/sys/queue.h
@@ -385,7 +396,7 @@ drwxr-xr-x root       root             1700 ./usr/include/sys
 -rw-r--r-- root       root             2036 ./usr/include/sys/sem.h
 -rw-r--r-- root       root             1805 ./usr/include/sys/sendfile.h
 -rw-r--r-- root       root             1873 ./usr/include/sys/shm.h
--rw-r--r-- root       root             1599 ./usr/include/sys/signalfd.h
+-rw-r--r-- root       root             1713 ./usr/include/sys/signalfd.h
 -rw-r--r-- root       root               20 ./usr/include/sys/signal.h
 -rw-r--r-- root       root            10203 ./usr/include/sys/socket.h
 -rw-r--r-- root       root              141 ./usr/include/sys/socketvar.h
@@ -449,7 +460,7 @@ drwxr-xr-x root       root              520 ./usr/lib
 -rw-r--r-- root       root             9352 ./usr/lib/gcrt1.o
 lrwxrwxrwx root       root               21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 lrwxrwxrwx root       root               30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
--rw-r--r-- root       root           118810 ./usr/lib/libc_nonshared.a
+-rw-r--r-- root       root           118850 ./usr/lib/libc_nonshared.a
 -rw-r--r-- root       root              247 ./usr/lib/libc.so
 lrwxrwxrwx root       root               20 ./usr/lib/libdl.so -> ../../lib/libdl.so.2
 -rw-r--r-- root       root              135 ./usr/lib/libm.so
