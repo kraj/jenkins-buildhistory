@@ -109,7 +109,7 @@ drwxr-xr-x root       root              140 ./usr/lib/mkspecs/devices/common
 -rw-r--r-- root       root              878 ./usr/lib/mkspecs/devices/common/freebsd_device_pre.conf
 -rw-r--r-- root       root              273 ./usr/lib/mkspecs/devices/common/linux_arm_device_post.conf
 -rw-r--r-- root       root              429 ./usr/lib/mkspecs/devices/common/linux_device_post.conf
--rw-r--r-- root       root              863 ./usr/lib/mkspecs/devices/common/linux_device_pre.conf
+-rw-r--r-- root       root             1004 ./usr/lib/mkspecs/devices/common/linux_device_pre.conf
 drwxr-xr-x root       root               80 ./usr/lib/mkspecs/devices/freebsd-generic-clang
 -rw-r--r-- root       root              329 ./usr/lib/mkspecs/devices/freebsd-generic-clang/qmake.conf
 -rw-r--r-- root       root             1962 ./usr/lib/mkspecs/devices/freebsd-generic-clang/qplatformdefs.h
@@ -271,12 +271,12 @@ drwxr-xr-x root       root               60 ./usr/lib/mkspecs/features/data/unix
 -rw-r--r-- root       root             1294 ./usr/lib/mkspecs/features/ltcg.prf
 drwxr-xr-x root       root              240 ./usr/lib/mkspecs/features/mac
 -rw-r--r-- root       root             5458 ./usr/lib/mkspecs/features/mac/asset_catalogs.prf
--rw-r--r-- root       root            10903 ./usr/lib/mkspecs/features/mac/default_post.prf
+-rw-r--r-- root       root            10930 ./usr/lib/mkspecs/features/mac/default_post.prf
 -rw-r--r-- root       root             2744 ./usr/lib/mkspecs/features/mac/default_pre.prf
 -rw-r--r-- root       root              557 ./usr/lib/mkspecs/features/mac/mac.prf
 -rw-r--r-- root       root              427 ./usr/lib/mkspecs/features/mac/objective_c.prf
 -rw-r--r-- root       root              555 ./usr/lib/mkspecs/features/mac/rez.prf
--rw-r--r-- root       root              829 ./usr/lib/mkspecs/features/mac/sdk.mk
+-rw-r--r-- root       root              880 ./usr/lib/mkspecs/features/mac/sdk.mk
 -rw-r--r-- root       root             2150 ./usr/lib/mkspecs/features/mac/sdk.prf
 -rw-r--r-- root       root              146 ./usr/lib/mkspecs/features/mac/toolchain.prf
 drwxr-xr-x root       root               60 ./usr/lib/mkspecs/features/mac/unsupported
@@ -298,7 +298,7 @@ drwxr-xr-x root       root               60 ./usr/lib/mkspecs/features/mac/unsup
 -rw-r--r-- root       root             1770 ./usr/lib/mkspecs/features/qt_app.prf
 -rw-r--r-- root       root             4582 ./usr/lib/mkspecs/features/qt_build_config.prf
 -rw-r--r-- root       root             1106 ./usr/lib/mkspecs/features/qt_build_extra.prf
--rw-r--r-- root       root              986 ./usr/lib/mkspecs/features/qt_build_paths.prf
+-rw-r--r-- root       root             1038 ./usr/lib/mkspecs/features/qt_build_paths.prf
 -rw-r--r-- root       root              233 ./usr/lib/mkspecs/features/qt_clear_installs.prf
 -rw-r--r-- root       root             5659 ./usr/lib/mkspecs/features/qt_common.prf
 -rw-r--r-- root       root             1626 ./usr/lib/mkspecs/features/qt_config.prf
@@ -309,7 +309,7 @@ drwxr-xr-x root       root               60 ./usr/lib/mkspecs/features/mac/unsup
 -rw-r--r-- root       root            12359 ./usr/lib/mkspecs/features/qt_functions.prf
 -rw-r--r-- root       root             1922 ./usr/lib/mkspecs/features/qt_helper_lib.prf
 -rw-r--r-- root       root             1942 ./usr/lib/mkspecs/features/qt_installs.prf
--rw-r--r-- root       root            12897 ./usr/lib/mkspecs/features/qt_module_headers.prf
+-rw-r--r-- root       root            12909 ./usr/lib/mkspecs/features/qt_module_headers.prf
 -rw-r--r-- root       root            11275 ./usr/lib/mkspecs/features/qt_module.prf
 -rw-r--r-- root       root             8467 ./usr/lib/mkspecs/features/qt_module_pris.prf
 -rw-r--r-- root       root             2500 ./usr/lib/mkspecs/features/qt_parts.prf
@@ -326,7 +326,7 @@ drwxr-xr-x root       root               60 ./usr/lib/mkspecs/features/mac/unsup
 -rw-r--r-- root       root             6745 ./usr/lib/mkspecs/features/simd.prf
 -rw-r--r-- root       root             4738 ./usr/lib/mkspecs/features/spec_post.prf
 -rw-r--r-- root       root             1512 ./usr/lib/mkspecs/features/spec_pre.prf
--rw-r--r-- root       root              178 ./usr/lib/mkspecs/features/static_runtime.prf
+-rw-r--r-- root       root              176 ./usr/lib/mkspecs/features/static_runtime.prf
 -rw-r--r-- root       root             7193 ./usr/lib/mkspecs/features/testcase.prf
 -rw-r--r-- root       root              556 ./usr/lib/mkspecs/features/testcase_targets.prf
 -rw-r--r-- root       root             2277 ./usr/lib/mkspecs/features/testcocoon.prf
@@ -522,7 +522,7 @@ drwxr-xr-x root       root              820 ./usr/lib/mkspecs/modules
 -rw-r--r-- root       root              778 ./usr/lib/mkspecs/modules/qt_lib_fb_support_private.pri
 -rw-r--r-- root       root              988 ./usr/lib/mkspecs/modules/qt_lib_fontdatabase_support_private.pri
 -rw-r--r-- root       root              799 ./usr/lib/mkspecs/modules/qt_lib_glx_support_private.pri
--rw-r--r-- root       root             1499 ./usr/lib/mkspecs/modules/qt_lib_gui.pri
+-rw-r--r-- root       root             1508 ./usr/lib/mkspecs/modules/qt_lib_gui.pri
 -rw-r--r-- root       root             2425 ./usr/lib/mkspecs/modules/qt_lib_gui_private.pri
 -rw-r--r-- root       root              873 ./usr/lib/mkspecs/modules/qt_lib_input_support_private.pri
 -rw-r--r-- root       root              778 ./usr/lib/mkspecs/modules/qt_lib_network.pri

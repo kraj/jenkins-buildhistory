@@ -1,8 +1,8 @@
 PV = 1.25
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = dbus dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0) glibc (>= 2.28) libudev (>= 239)
+RDEPENDS = dbus dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0) glibc (>= 2.29) libudev (>= 239)
 RRECOMMENDS = kernel-module-tun mobile-broadband-provider-info
 PKGSIZE = 1976237
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ofono /usr/lib/ofono/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd /lib/systemd/system/ofono.service

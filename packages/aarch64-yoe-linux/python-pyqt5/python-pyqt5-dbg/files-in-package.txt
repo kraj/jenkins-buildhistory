@@ -6,7 +6,7 @@ drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/Py
 drwxr-xr-x root       root              180 ./usr/lib/python2.7/site-packages/PyQt5/.debug
 -rwxr-xr-x root       root          6764960 ./usr/lib/python2.7/site-packages/PyQt5/.debug/pylupdate.so
 -rwxr-xr-x root       root          1215760 ./usr/lib/python2.7/site-packages/PyQt5/.debug/pyrcc.so
--rwxr-xr-x root       root         63798472 ./usr/lib/python2.7/site-packages/PyQt5/.debug/QtCore.so
+-rwxr-xr-x root       root         63798424 ./usr/lib/python2.7/site-packages/PyQt5/.debug/QtCore.so
 -rwxr-xr-x root       root         61887536 ./usr/lib/python2.7/site-packages/PyQt5/.debug/QtGui.so
 -rwxr-xr-x root       root         19213568 ./usr/lib/python2.7/site-packages/PyQt5/.debug/QtNetwork.so
 -rwxr-xr-x root       root            23296 ./usr/lib/python2.7/site-packages/PyQt5/.debug/Qt.so
@@ -18,12 +18,12 @@ drwxr-xr-x root       root               60 ./usr/src/debug/python-pyqt5/5.11.3-
 drwxr-xr-x root       root              220 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3
 drwxr-xr-x root       root              140 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate
 -rw-r--r-- root       root             2653 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate/moc_translator.cpp
--rw-r--r-- root       root            18934 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate/sipAPIpylupdate.h
+-rw-r--r-- root       root            18903 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate/sipAPIpylupdate.h
 -rw-r--r-- root       root            12190 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate/sippylupdatecmodule.cpp
 -rw-r--r-- root       root             8546 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate/sippylupdateMetaTranslator.cpp
 -rw-r--r-- root       root             6548 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pylupdate/sippylupdateQMap0100QString0100QString.cpp
 drwxr-xr-x root       root              100 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pyrcc
--rw-r--r-- root       root            17873 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pyrcc/sipAPIpyrcc.h
+-rw-r--r-- root       root            17842 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pyrcc/sipAPIpyrcc.h
 -rw-r--r-- root       root             8251 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pyrcc/sippyrcccmodule.cpp
 -rw-r--r-- root       root            11521 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/pyrcc/sippyrccRCCResourceLibrary.cpp
 drwxr-xr-x root       root              140 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/qpy
@@ -112,7 +112,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/python-pyqt5/5.11.3-
 drwxr-xr-x root       root             5000 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore
 -rw-r--r-- root       root             3481 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/moc_qpycore_event_handlers.cpp
 -rw-r--r-- root       root             6009 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/qpycore_post_init.cpp
--rw-r--r-- root       root           559067 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipAPIQtCore.h
+-rw-r--r-- root       root           559036 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipAPIQtCore.h
 -rw-r--r-- root       root           567149 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipQtCorecmodule.cpp
 -rw-r--r-- root       root            40170 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipQtCoreQAbstractAnimation.cpp
 -rw-r--r-- root       root            48736 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipQtCoreQAbstractEventDispatcher.cpp
@@ -359,7 +359,7 @@ drwxr-xr-x root       root             5000 ./usr/src/debug/python-pyqt5/5.11.3-
 -rw-r--r-- root       root            63084 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipQtCoreQXmlStreamReader.cpp
 -rw-r--r-- root       root            39044 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtCore/sipQtCoreQXmlStreamWriter.cpp
 drwxr-xr-x root       root             4780 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui
--rw-r--r-- root       root           450576 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipAPIQtGui.h
+-rw-r--r-- root       root           450545 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipAPIQtGui.h
 -rw-r--r-- root       root           467845 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipQtGuicmodule.cpp
 -rw-r--r-- root       root             2621 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipQtGuiQAbstractOpenGLFunctions.cpp
 -rw-r--r-- root       root            52165 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipQtGuiQAbstractTextDocumentLayout.cpp
@@ -597,7 +597,7 @@ drwxr-xr-x root       root             4780 ./usr/src/debug/python-pyqt5/5.11.3-
 -rw-r--r-- root       root           141380 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipQtGuiQWindow.cpp
 -rw-r--r-- root       root             4779 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtGui/sipQtGuiQWindowStateChangeEvent.cpp
 drwxr-xr-x root       root             1680 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork
--rw-r--r-- root       root           152576 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork/sipAPIQtNetwork.h
+-rw-r--r-- root       root           152545 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork/sipAPIQtNetwork.h
 -rw-r--r-- root       root           157803 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork/sipQtNetworkcmodule.cpp
 -rw-r--r-- root       root            29231 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork/sipQtNetworkQAbstractNetworkCache.cpp
 -rw-r--r-- root       root            19048 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork/sipQtNetworkQAbstractSocketBindMode.cpp
@@ -681,7 +681,7 @@ drwxr-xr-x root       root             1680 ./usr/src/debug/python-pyqt5/5.11.3-
 -rw-r--r-- root       root             6316 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtNetwork/sipQtNetworkQVector0100QSslEllipticCurve.cpp
 -rw-r--r-- root       root             2152 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/Qt/sipQtcmodule.c
 drwxr-xr-x root       root             5160 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtWidgets
--rw-r--r-- root       root           583947 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtWidgets/sipAPIQtWidgets.h
+-rw-r--r-- root       root           583916 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtWidgets/sipAPIQtWidgets.h
 -rw-r--r-- root       root           624763 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtWidgets/sipQtWidgetscmodule.cpp
 -rw-r--r-- root       root            91839 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtWidgets/sipQtWidgetsQAbstractButton.cpp
 -rw-r--r-- root       root            43528 ./usr/src/debug/python-pyqt5/5.11.3-r0/PyQt5_gpl-5.11.3/QtWidgets/sipQtWidgetsQAbstractGraphicsShapeItem.cpp

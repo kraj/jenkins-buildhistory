@@ -1,8 +1,8 @@
 PV = 2.31
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = binutils-symlinks
-RDEPENDS = glibc (>= 2.28) libbfd (>= 2.31) update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) libbfd (>= 2.31) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 14194249
 FILES = /usr/bin/aarch64-yoe-linux-* /usr/lib/lib*-*.so /usr/aarch64-yoe-linux/bin/* /usr/bin/embedspu
