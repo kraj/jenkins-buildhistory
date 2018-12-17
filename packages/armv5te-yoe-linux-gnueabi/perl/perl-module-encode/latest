@@ -1,9 +1,9 @@
-PV = 5.24.4
+PV = 5.28.1
 PR = r0
-PKGR = r0.29
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) perl perl-module-bytes perl-module-carp perl-module-constant perl-module-encode-alias perl-module-encode-config perl-module-encode-configlocal-pm perl-module-encode-encoding perl-module-exporter perl-module-strict perl-module-warnings perl-module-xsloader
+RDEPENDS = glibc (>= 2.29) perl perl-module-bytes perl-module-carp perl-module-constant perl-module-encode-alias perl-module-encode-config perl-module-encode-configlocal-pm perl-module-encode-mime-name perl-module-exporter perl-module-parent perl-module-storable perl-module-strict perl-module-warnings perl-module-xsloader
 RRECOMMENDS = 
-PKGSIZE = 60381
-FILES = /usr/lib/perl/5.24.4/auto/Encode/Encode.so /usr/lib/perl/5.24.4/Encode.pm
-FILELIST = /usr/lib/perl/5.24.4/Encode.pm /usr/lib/perl/5.24.4/auto/Encode/Encode.so
+PKGSIZE = 65625
+FILES = /usr/lib/perl/5.28.1/arm-linux-gnueabi/auto/Encode/Encode.so /usr/lib/perl/5.28.1/arm-linux-gnueabi/Encode.pm
+FILELIST = /usr/lib/perl/5.28.1/arm-linux-gnueabi/Encode.pm /usr/lib/perl/5.28.1/arm-linux-gnueabi/auto/Encode/Encode.so
