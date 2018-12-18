@@ -1,0 +1,10 @@
+PV = 4.19.8+gitAUTOINC+ced14887c3_e727c70583
+PR = r0
+PKGV = 4.19.8+git0+ced14887c3_e727c70583
+PKGR = r0.1
+RPROVIDES = kernel-module-psnap
+RDEPENDS = kernel-4.19.8-yocto-standard kernel-module-llc-4.19.8-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5268
+FILES = /lib/modules/4.19.8-yocto-standard/kernel/net/802/psnap.ko /etc/modules-load.d/psnap.conf /etc/modprobe.d/psnap.conf
+FILELIST = /lib/modules/4.19.8-yocto-standard/kernel/net/802/psnap.ko

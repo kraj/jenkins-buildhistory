@@ -1,9 +1,9 @@
-PV = 5.28.1
+PV = 5.24.4
 PR = r0
-PKGR = r0.0
+PKGR = r0.37
 RPROVIDES = 
-RDEPENDS = perl perl-module-bytes perl-module-carp perl-module-constant perl-module-encode perl-module-exporter perl-module-file-globmapper perl-module-io-file perl-module-io-handle perl-module-scalar-util perl-module-strict perl-module-symbol perl-module-utf8 perl-module-warnings
+RDEPENDS = perl perl-module-carp perl-module-io-compress-base-common perl-module-io-file perl-module-io-handle perl-module-scalar-util perl-module-strict perl-module-symbol perl-module-warnings
 RRECOMMENDS = 
-PKGSIZE = 46923
-FILES = /usr/lib/perl/5.28.1/IO/Compress/Base /usr/lib/perl/5.28.1/IO/Compress/Base.pm
-FILELIST = /usr/lib/perl/5.28.1/IO/Compress/Base.pm /usr/lib/perl/5.28.1/IO/Compress/Base/Common.pm
+PKGSIZE = 23828
+FILES = /usr/lib/perl/5.24.4/IO/Compress/Base.pm
+FILELIST = /usr/lib/perl/5.24.4/IO/Compress/Base.pm

@@ -1,0 +1,10 @@
+PV = 4.19.8+gitAUTOINC+ced14887c3_e727c70583
+PR = r0
+PKGV = 4.19.8+git0+ced14887c3_e727c70583
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-intel8x0
+RDEPENDS = kernel-4.19.8-yocto-standard kernel-module-snd-4.19.8-yocto-standard kernel-module-snd-ac97-codec-4.19.8-yocto-standard kernel-module-snd-pcm-4.19.8-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 41328
+FILES = /lib/modules/4.19.8-yocto-standard/kernel/sound/pci/snd-intel8x0.ko /etc/modules-load.d/snd-intel8x0.conf /etc/modprobe.d/snd-intel8x0.conf
+FILELIST = /lib/modules/4.19.8-yocto-standard/kernel/sound/pci/snd-intel8x0.ko

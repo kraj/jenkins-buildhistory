@@ -1,0 +1,9 @@
+PV = 5.2.22
+PR = r0
+PKGR = r0.17
+RPROVIDES = kernel-module-vboxsf
+RDEPENDS = kernel-4.19.8-yocto-standard kernel-module-vboxguest-4.19.8-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 45743
+FILES = /lib/modules/4.19.8-yocto-standard/kernel/misc/vboxsf.ko /etc/modules-load.d/vboxsf.conf /etc/modprobe.d/vboxsf.conf
+FILELIST = /etc/modules-load.d/vboxsf.conf /lib/modules/4.19.8-yocto-standard/kernel/misc/vboxsf.ko

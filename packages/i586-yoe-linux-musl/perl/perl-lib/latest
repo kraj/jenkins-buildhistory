@@ -1,10 +1,10 @@
-PV = 5.28.1
+PV = 5.24.4
 PR = r0
 PKG = libperl5
-PKGR = r0.0
+PKGR = r0.37
 RPROVIDES = perl-lib
 RDEPENDS = musl (>= 1.1.20+git2+39ef612aa1)
 RRECOMMENDS = 
-PKGSIZE = 2819878
-FILES = /usr/lib/libperl.so* /usr/lib/perl5 /usr/lib/perl/config.sh /usr/lib/perl/5.28.1/i586-linux-musl/Config.pm /usr/lib/perl/5.28.1/i586-linux-musl/Config_git.pl /usr/lib/perl/5.28.1/i586-linux-musl/Config_heavy.pl /usr/lib/perl/5.28.1/i586-linux-musl/Config_heavy-target.pl
-FILELIST = /usr/lib/libperl.so.5 /usr/lib/libperl.so.5.28.1 /usr/lib/perl/5.28.1/i586-linux-musl/Config.pm /usr/lib/perl/5.28.1/i586-linux-musl/Config_git.pl /usr/lib/perl/5.28.1/i586-linux-musl/Config_heavy-target.pl /usr/lib/perl/5.28.1/i586-linux-musl/Config_heavy.pl /usr/lib/perl/config.sh
+PKGSIZE = 2209195
+FILES = /usr/lib/libperl.so* /usr/lib/perl5 /usr/lib/perl/config.sh /usr/lib/perl/5.24.4/Config_git.pl /usr/lib/perl/5.24.4/Config_heavy.pl /usr/lib/perl/5.24.4/Config_heavy-target.pl
+FILELIST = /usr/lib/libperl.so.5 /usr/lib/libperl.so.5.24.4 /usr/lib/perl/5.24.4/Config_git.pl /usr/lib/perl/5.24.4/Config_heavy-target.pl /usr/lib/perl/5.24.4/Config_heavy.pl /usr/lib/perl/config.sh

@@ -1,23 +1,5 @@
-drwxr-xr-x root       root               80 ./etc
-drwxr-xr-x root       root              380 ./etc/bash_completion.d
--rw-r--r-- root       root             1058 ./etc/bash_completion.d/cardos-tool
--rw-r--r-- root       root             1349 ./etc/bash_completion.d/cryptoflex-tool
--rw-r--r-- root       root             1093 ./etc/bash_completion.d/dnie-tool
--rw-r--r-- root       root             1039 ./etc/bash_completion.d/eidenv
--rw-r--r-- root       root             1147 ./etc/bash_completion.d/gids-tool
--rw-r--r-- root       root             1052 ./etc/bash_completion.d/iasecc-tool
--rw-r--r-- root       root             1068 ./etc/bash_completion.d/netkey-tool
--rw-r--r-- root       root             1166 ./etc/bash_completion.d/openpgp-tool
--rw-r--r-- root       root             1047 ./etc/bash_completion.d/opensc-explorer
--rw-r--r-- root       root             1280 ./etc/bash_completion.d/opensc-tool
--rw-r--r-- root       root             1280 ./etc/bash_completion.d/piv-tool
--rw-r--r-- root       root             2172 ./etc/bash_completion.d/pkcs11-tool
--rw-r--r-- root       root             1227 ./etc/bash_completion.d/pkcs15-crypt
--rw-r--r-- root       root             2366 ./etc/bash_completion.d/pkcs15-init
--rw-r--r-- root       root             1584 ./etc/bash_completion.d/pkcs15-tool
--rw-r--r-- root       root             1483 ./etc/bash_completion.d/sc-hsm-tool
--rw-r--r-- root       root             1322 ./etc/bash_completion.d/westcos-tool
--rw-r--r-- root       root            49017 ./etc/opensc.conf
+drwxr-xr-x root       root               60 ./etc
+-rw-r--r-- root       root              116 ./etc/opensc.conf
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              460 ./usr/bin
 -rwxr-xr-x root       root            30236 ./usr/bin/cardos-tool
@@ -31,18 +13,18 @@ drwxr-xr-x root       root              460 ./usr/bin
 -rwxr-xr-x root       root            39384 ./usr/bin/npa-tool
 -rwxr-xr-x root       root            26068 ./usr/bin/openpgp-tool
 -rwxr-xr-x root       root            13728 ./usr/bin/opensc-asn1
--rwxr-xr-x root       root            47108 ./usr/bin/opensc-explorer
+-rwxr-xr-x root       root            51204 ./usr/bin/opensc-explorer
 -rwxr-xr-x root       root            17972 ./usr/bin/opensc-notify
--rwxr-xr-x root       root            26480 ./usr/bin/opensc-tool
+-rwxr-xr-x root       root            30608 ./usr/bin/opensc-tool
 -rwxr-xr-x root       root            26160 ./usr/bin/piv-tool
 -rwxr-xr-x root       root           131396 ./usr/bin/pkcs11-tool
 -rwxr-xr-x root       root            26080 ./usr/bin/pkcs15-crypt
 -rwxr-xr-x root       root            63228 ./usr/bin/pkcs15-init
--rwxr-xr-x root       root            55072 ./usr/bin/pkcs15-tool
+-rwxr-xr-x root       root            55360 ./usr/bin/pkcs15-tool
 -rwxr-xr-x root       root            42560 ./usr/bin/sc-hsm-tool
 -rwxr-xr-x root       root            26172 ./usr/bin/westcos-tool
 drwxr-xr-x root       root              180 ./usr/lib
--rwxr-xr-x root       root          2110156 ./usr/lib/libopensc.so.6.0.0
+-rwxr-xr-x root       root          2117356 ./usr/lib/libopensc.so.6.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libopensc.so.6 -> libopensc.so.6.0.0
 -rwxr-xr-x root       root            75248 ./usr/lib/libsmm-local.so.6.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libsmm-local.so.6 -> libsmm-local.so.6.0.0
@@ -51,7 +33,7 @@ lrwxrwxrwx root       root               21 ./usr/lib/libsmm-local.so.6 -> libsm
 -rwxr-xr-x root       root            80392 ./usr/lib/pkcs11-spy.so
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
--rw-r--r-- root       root              203 ./usr/share/applications/org.opensc.notify.desktop
+-rw-r--r-- root       root              246 ./usr/share/applications/org.opensc.notify.desktop
 drwxr-xr-x root       root              660 ./usr/share/opensc
 -rw-r--r-- root       root             2596 ./usr/share/opensc/asepcos.profile
 -rw-r--r-- root       root             2925 ./usr/share/opensc/authentic.profile
