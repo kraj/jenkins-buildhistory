@@ -1,8 +1,8 @@
 PV = 7.9p1+git
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = sshd
-RDEPENDS = base-files base-passwd glibc (>= 2.29) libcrypto (>= 1.1.1a) libpam (>= 1.3.0) libxcrypt (>= 4.1.1) openssh-keygen pam-plugin-keyinit pam-plugin-loginuid shadow zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd glibc (>= 2.29) libcrypto (>= 1.1.1a) libpam (>= 1.3.0) libxcrypt (>= 4.4.1) openssh-keygen pam-plugin-keyinit pam-plugin-loginuid shadow zlib (>= 1.2.11)
 RRECOMMENDS = 
 RCONFLICTS = dropbear
 PKGSIZE = 1134830
