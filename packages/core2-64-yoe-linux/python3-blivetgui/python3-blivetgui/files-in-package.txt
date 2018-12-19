@@ -10,11 +10,11 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/python3.5
 drwxr-xr-x root       root               80 ./usr/lib/python3.5/site-packages
 drwxr-xr-x root       root              480 ./usr/lib/python3.5/site-packages/blivetgui
--rw-r--r-- root       root              269 ./usr/lib/python3.5/site-packages/blivet_gui-2.1.9-py3.5.egg-info
+-rw-r--r-- root       root              270 ./usr/lib/python3.5/site-packages/blivet_gui-2.1.10-py3.5.egg-info
 -rw-r--r-- root       root             3383 ./usr/lib/python3.5/site-packages/blivetgui/actions_menu.py
 -rw-r--r-- root       root             4172 ./usr/lib/python3.5/site-packages/blivetgui/actions_toolbar.py
 -rw-r--r-- root       root            30552 ./usr/lib/python3.5/site-packages/blivetgui/blivetgui.py
--rw-r--r-- root       root            55850 ./usr/lib/python3.5/site-packages/blivetgui/blivet_utils.py
+-rw-r--r-- root       root            56117 ./usr/lib/python3.5/site-packages/blivetgui/blivet_utils.py
 drwxr-xr-x root       root              180 ./usr/lib/python3.5/site-packages/blivetgui/communication
 -rw-r--r-- root       root             9501 ./usr/lib/python3.5/site-packages/blivetgui/communication/client.py
 -rw-r--r-- root       root               86 ./usr/lib/python3.5/site-packages/blivetgui/communication/constants.py
@@ -35,7 +35,7 @@ drwxr-xr-x root       root              260 ./usr/lib/python3.5/site-packages/bl
 -rw-r--r-- root       root               76 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/constants.py
 -rw-r--r-- root       root            12118 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/device_info_dialog.py
 -rw-r--r-- root       root            22005 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/edit_dialog.py
--rw-r--r-- root       root             6375 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/helpers.py
+-rw-r--r-- root       root             6096 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/helpers.py
 -rw-r--r-- root       root               76 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__init__.py
 -rw-r--r-- root       root            11128 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/message_dialogs.py
 -rw-r--r-- root       root             4087 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/other_dialogs.py
@@ -44,7 +44,7 @@ drwxr-xr-x root       root              240 ./usr/lib/python3.5/site-packages/bl
 -rw-r--r-- root       root              379 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/constants.cpython-35.pyc
 -rw-r--r-- root       root             9393 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/device_info_dialog.cpython-35.pyc
 -rw-r--r-- root       root            17275 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/edit_dialog.cpython-35.pyc
--rw-r--r-- root       root             3841 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/helpers.cpython-35.pyc
+-rw-r--r-- root       root             4092 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/helpers.cpython-35.pyc
 -rw-r--r-- root       root              226 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/__init__.cpython-35.pyc
 -rw-r--r-- root       root            10069 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/message_dialogs.cpython-35.pyc
 -rw-r--r-- root       root             3552 ./usr/lib/python3.5/site-packages/blivetgui/dialogs/__pycache__/other_dialogs.cpython-35.pyc
@@ -55,7 +55,7 @@ drwxr-xr-x root       root              240 ./usr/lib/python3.5/site-packages/bl
 -rw-r--r-- root       root             3643 ./usr/lib/python3.5/site-packages/blivetgui/exception_handler.py
 -rw-r--r-- root       root             2153 ./usr/lib/python3.5/site-packages/blivetgui/gui_utils.py
 -rw-r--r-- root       root             1388 ./usr/lib/python3.5/site-packages/blivetgui/i18n.py
--rw-r--r-- root       root               50 ./usr/lib/python3.5/site-packages/blivetgui/__init__.py
+-rw-r--r-- root       root               51 ./usr/lib/python3.5/site-packages/blivetgui/__init__.py
 -rw-r--r-- root       root             5863 ./usr/lib/python3.5/site-packages/blivetgui/list_actions.py
 -rw-r--r-- root       root             7026 ./usr/lib/python3.5/site-packages/blivetgui/list_devices.py
 -rw-r--r-- root       root             3344 ./usr/lib/python3.5/site-packages/blivetgui/list_parents.py
@@ -69,12 +69,12 @@ drwxr-xr-x root       root              400 ./usr/lib/python3.5/site-packages/bl
 -rw-r--r-- root       root             2433 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/actions_menu.cpython-35.pyc
 -rw-r--r-- root       root             3397 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/actions_toolbar.cpython-35.pyc
 -rw-r--r-- root       root            23969 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/blivetgui.cpython-35.pyc
--rw-r--r-- root       root            38123 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/blivet_utils.cpython-35.pyc
+-rw-r--r-- root       root            38357 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/blivet_utils.cpython-35.pyc
 -rw-r--r-- root       root             1263 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/config.cpython-35.pyc
 -rw-r--r-- root       root             2266 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/exception_handler.cpython-35.pyc
 -rw-r--r-- root       root             1189 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/gui_utils.cpython-35.pyc
 -rw-r--r-- root       root              631 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/i18n.cpython-35.pyc
--rw-r--r-- root       root              194 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/__init__.cpython-35.pyc
+-rw-r--r-- root       root              195 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/__init__.cpython-35.pyc
 -rw-r--r-- root       root             3868 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/list_actions.cpython-35.pyc
 -rw-r--r-- root       root             4339 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/list_devices.cpython-35.pyc
 -rw-r--r-- root       root             2096 ./usr/lib/python3.5/site-packages/blivetgui/__pycache__/list_parents.cpython-35.pyc
