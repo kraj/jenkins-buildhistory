@@ -1,5 +1,5 @@
-PV = 0.18.0
+PV = 0.19.0
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openct openssl pcsc-lite pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc virtual/libiconv
-PACKAGES = opensc-dbg opensc-staticdev opensc-dev opensc-doc opensc-locale opensc
+DEPENDS = autoconf-native automake-native bash-completion gnu-config-native libtool-cross libtool-native openct openssl pcsc-lite pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc virtual/libiconv
+PACKAGES = opensc-dbg opensc-staticdev opensc-dev opensc-doc opensc-locale opensc opensc-bash-completion
 LAYER = openembedded-layer
