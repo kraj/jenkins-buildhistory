@@ -1,10 +1,10 @@
 PV = 1.5.1
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.20+git2+39ef612aa1)
 RRECOMMENDS = 
 RCONFLICTS = busybox-syslog rsyslog syslog-ng
-PKGSIZE = 59390
+PKGSIZE = 59278
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sysklogd /usr/lib/sysklogd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tmpfiles.d/sysklogd.conf /lib/systemd/system/syslogd.service /lib/systemd/system/klogd.service
 FILELIST = /etc/syslog.conf /lib/systemd/system/klogd.service /lib/systemd/system/syslogd.service /sbin/klogd /sbin/syslogd /usr/lib/tmpfiles.d/sysklogd.conf
