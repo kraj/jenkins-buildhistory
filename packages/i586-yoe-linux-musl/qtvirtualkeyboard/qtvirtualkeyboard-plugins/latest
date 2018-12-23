@@ -1,10 +1,11 @@
-PV = 5.11.3+gitAUTOINC+a8cab520dc
+PV = 5.12.0+gitAUTOINC+5aaf55adcf
 PR = r0
-PKGV = 5.11.3+git0+a8cab520dc
-PKGR = r0.5
-RPROVIDES = 
-RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libxcb (>= 1.13.1) libxcb-xfixes (>= 1.13.1) musl (>= 1.1.20+git3+21a172dd36) qtbase (>= 5.11.3+git0+08de243eaa) qtdeclarative (>= 5.11.3+git0+e3c0bb7811)
+PKG = libqt5virtualkeyboard-plugins
+PKGV = 5.12.0+git0+5aaf55adcf
+PKGR = r0.0
+RPROVIDES = qtvirtualkeyboard-plugins (=5.12.0+git0+5aaf55adcf)
+RDEPENDS = libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.20+git3+21a172dd36) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b) qtvirtualkeyboard (>= 5.12.0+git0+5aaf55adcf)
 RRECOMMENDS = 
-PKGSIZE = 6360116
+PKGSIZE = 5694148
 FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
-FILELIST = /usr/lib/plugins/lipi_toolkit/libactivedtw.so /usr/lib/plugins/lipi_toolkit/libboxfld.so /usr/lib/plugins/lipi_toolkit/libl7.so /usr/lib/plugins/lipi_toolkit/liblipiengine.so /usr/lib/plugins/lipi_toolkit/liblogger.so /usr/lib/plugins/lipi_toolkit/libneuralnet.so /usr/lib/plugins/lipi_toolkit/libnn.so /usr/lib/plugins/lipi_toolkit/libnpen.so /usr/lib/plugins/lipi_toolkit/libpointfloat.so /usr/lib/plugins/lipi_toolkit/libpreproc.so /usr/lib/plugins/lipi_toolkit/libsubstroke.so /usr/lib/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so
+FILELIST = /usr/lib/plugins/lipi_toolkit/libactivedtw.so /usr/lib/plugins/lipi_toolkit/libboxfld.so /usr/lib/plugins/lipi_toolkit/libl7.so /usr/lib/plugins/lipi_toolkit/liblipiengine.so /usr/lib/plugins/lipi_toolkit/liblogger.so /usr/lib/plugins/lipi_toolkit/libneuralnet.so /usr/lib/plugins/lipi_toolkit/libnn.so /usr/lib/plugins/lipi_toolkit/libnpen.so /usr/lib/plugins/lipi_toolkit/libpointfloat.so /usr/lib/plugins/lipi_toolkit/libpreproc.so /usr/lib/plugins/lipi_toolkit/libsubstroke.so /usr/lib/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so /usr/lib/plugins/virtualkeyboard/libqtvirtualkeyboard_hangul.so /usr/lib/plugins/virtualkeyboard/libqtvirtualkeyboard_lipi.so /usr/lib/plugins/virtualkeyboard/libqtvirtualkeyboard_openwnn.so /usr/lib/plugins/virtualkeyboard/libqtvirtualkeyboard_pinyin.so /usr/lib/plugins/virtualkeyboard/libqtvirtualkeyboard_tcime.so /usr/lib/plugins/virtualkeyboard/libqtvirtualkeyboard_thai.so
