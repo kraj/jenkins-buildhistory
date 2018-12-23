@@ -1,9 +1,9 @@
 PV = 2.29
 PR = r0
 PKG = libc6-staticdev
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = eglibc-staticdev glibc-staticdev (=2.29) libc-staticdev
-RDEPENDS = glibc-dev (= 2.29-r0.5)
+RDEPENDS = glibc-dev (= 2.29-r0.6)
 RRECOMMENDS = 
 PKGSIZE = 49525101
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/glibc/*.a /usr/lib/*.a /lib/*.a
