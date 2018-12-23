@@ -1,0 +1,11 @@
+PV = 8.37.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = rsyslog-systemd
+RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.4) libcurl (>= 7.62.0) libestr (>= 0.1.11) libfastjson (>= 0.99.8) libgcrypt (>= 1.8.4) liblogging (>= 1.0.6) librelp (>= 1.2.18) libsystemd (>= 239) logrotate util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
+RRECOMMENDS = 
+RREPLACES = rsyslog-systemd
+RCONFLICTS = busybox-syslog rsyslog-systemd sysklogd syslog-ng
+PKGSIZE = 1487724
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rsyslog /usr/lib/rsyslog/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin /lib/systemd/system/rsyslog.service
+FILELIST = /etc/logrotate.d/logrotate.rsyslog /etc/rsyslog.conf /lib/systemd/system/rsyslog.service /usr/lib/rsyslog/fmhash.so /usr/lib/rsyslog/fmhttp.so /usr/lib/rsyslog/imdiag.so /usr/lib/rsyslog/imfile.so /usr/lib/rsyslog/imklog.so /usr/lib/rsyslog/immark.so /usr/lib/rsyslog/imrelp.so /usr/lib/rsyslog/imtcp.so /usr/lib/rsyslog/imudp.so /usr/lib/rsyslog/imuxsock.so /usr/lib/rsyslog/liboverride_getaddrinfo.so /usr/lib/rsyslog/liboverride_gethostname.so /usr/lib/rsyslog/liboverride_gethostname_nonfqdn.so /usr/lib/rsyslog/lmcry_gcry.so /usr/lib/rsyslog/lmnet.so /usr/lib/rsyslog/lmnetstrms.so /usr/lib/rsyslog/lmnsd_gtls.so /usr/lib/rsyslog/lmnsd_ptcp.so /usr/lib/rsyslog/lmregexp.so /usr/lib/rsyslog/lmstrmsrv.so /usr/lib/rsyslog/lmtcpclt.so /usr/lib/rsyslog/lmtcpsrv.so /usr/lib/rsyslog/lmzlibw.so /usr/lib/rsyslog/mmexternal.so /usr/lib/rsyslog/omrelp.so /usr/lib/rsyslog/omstdout.so /usr/lib/rsyslog/omtesting.so /usr/sbin/rsyslogd

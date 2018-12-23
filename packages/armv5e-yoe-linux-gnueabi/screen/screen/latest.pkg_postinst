@@ -1,0 +1,2 @@
+set -e
+	grep -q "^/usr/bin/screen$" $D/etc/shells || echo /usr/bin/screen >> $D/etc/shells

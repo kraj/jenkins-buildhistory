@@ -1,0 +1,11 @@
+PV = 5.11.3+gitAUTOINC+0dab0ff3d3
+PR = r0
+PKG = libqt5sensors5
+PKGV = 5.11.3+git0+0dab0ff3d3
+PKGR = r0.0
+RPROVIDES = qtsensors (=5.11.3+git0+0dab0ff3d3)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) qtbase (>= 5.11.3+git0+08de243eaa)
+RRECOMMENDS = qtsensors-plugins qtsensors-qmlplugins
+PKGSIZE = 206470
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtsensors /usr/lib/qtsensors/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
+FILELIST = /usr/lib/libQt5Sensors.so.5 /usr/lib/libQt5Sensors.so.5.11 /usr/lib/libQt5Sensors.so.5.11.3

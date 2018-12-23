@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  mailq.1 /usr/share/man/man1/mailq.1.postfix
+	update-alternatives --remove  newaliases.1 /usr/share/man/man1/newaliases.1.postfix
+	update-alternatives --remove  sendmail.1 /usr/share/man/man1/sendmail.1.postfix

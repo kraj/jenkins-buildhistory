@@ -1,0 +1,11 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc/ssl
+drwxr-xr-x root       root               40 ./etc/ssl/certs
+drwxr-xr-x root       root               40 ./etc/ssl/private
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              120 ./usr/lib/ssl
+lrwxrwxrwx root       root               22 ./usr/lib/ssl/certs -> ../../../etc/ssl/certs
+drwxr-xr-x root       root               40 ./usr/lib/ssl/engines
+lrwxrwxrwx root       root               28 ./usr/lib/ssl/openssl.cnf -> ../../../etc/ssl/openssl.cnf
+lrwxrwxrwx root       root               24 ./usr/lib/ssl/private -> ../../../etc/ssl/private

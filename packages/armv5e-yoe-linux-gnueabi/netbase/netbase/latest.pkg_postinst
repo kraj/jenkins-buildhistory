@@ -1,0 +1,7 @@
+set -e
+	if [ -s $D/etc/hostname ]; then
+		hostname=`cat $D/etc/hostname`
+		if ! grep -q "[[:space:]]$hostname[[:space:]]*" $D/etc/hosts; then
+			echo "127.0.1.1 $hostname" >> $D/etc/hosts
+		fi
+	fi
