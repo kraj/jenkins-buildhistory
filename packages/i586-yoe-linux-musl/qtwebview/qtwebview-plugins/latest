@@ -2,9 +2,9 @@ PV = 5.11.3+gitAUTOINC+779bf9c3f2
 PR = r0
 PKG = libqt5webview-plugins
 PKGV = 5.11.3+git0+779bf9c3f2
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = qtwebview-plugins (=5.11.3+git0+779bf9c3f2)
-RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git2+39ef612aa1) qtbase (>= 5.11.3+git0+08de243eaa) qtdeclarative (>= 5.11.3+git0+e3c0bb7811) qtwebengine (>= 5.11.3+git0+18412af977_2095a35f30) qtwebview (>= 5.11.3+git0+779bf9c3f2)
+RDEPENDS = libstdc++ (>= 8.2.0) musl (>= 1.1.20+git3+21a172dd36) qtbase (>= 5.11.3+git0+08de243eaa) qtdeclarative (>= 5.11.3+git0+e3c0bb7811) qtwebengine (>= 5.11.3+git0+18412af977_2095a35f30) qtwebview (>= 5.11.3+git0+779bf9c3f2)
 RRECOMMENDS = 
 PKGSIZE = 26196
 FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so

@@ -1,8 +1,8 @@
 PV = 7.9p1+git
 PR = r0
-PKGR = r0.29
+PKGR = r0.31
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1a) make musl (>= 1.1.20+git2+39ef612aa1) openssh-misc openssh-sftp openssh-sftp-server
+RDEPENDS = libcrypto (>= 1.1.1a) make musl (>= 1.1.20+git3+21a172dd36) openssh-misc openssh-sftp openssh-sftp-server
 RRECOMMENDS = ptest-runner
 PKGSIZE = 649401
 FILES = /usr/lib/openssh/ptest

@@ -1,9 +1,9 @@
 PV = 0.8.4
 PR = r0
 PKG = libssh4
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = libssh (=0.8.4)
-RDEPENDS = libgcrypt (>= 1.8.4) musl (>= 1.1.20+git2+39ef612aa1) zlib (>= 1.2.11)
+RDEPENDS = libgcrypt (>= 1.8.4) musl (>= 1.1.20+git3+21a172dd36) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 561895
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libssh /usr/lib/libssh/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
