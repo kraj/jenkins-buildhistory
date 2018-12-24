@@ -1,10 +1,10 @@
-PV = 5.11.3+gitAUTOINC+e3c0bb7811
+PV = 5.12.0+gitAUTOINC+c401ae278b
 PR = r0
-PKGV = 5.11.3+git0+e3c0bb7811
-PKGR = r0.4
+PKGV = 5.12.0+git0+c401ae278b
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) qtbase (>= 5.11.3+git0+08de243eaa) qtdeclarative (>= 5.11.3+git0+e3c0bb7811)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b)
 RRECOMMENDS = 
-PKGSIZE = 617952
+PKGSIZE = 706416
 FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
-FILELIST = /usr/lib/plugins/qmltooling/libqmldbg_debugger.so /usr/lib/plugins/qmltooling/libqmldbg_inspector.so /usr/lib/plugins/qmltooling/libqmldbg_local.so /usr/lib/plugins/qmltooling/libqmldbg_messages.so /usr/lib/plugins/qmltooling/libqmldbg_native.so /usr/lib/plugins/qmltooling/libqmldbg_nativedebugger.so /usr/lib/plugins/qmltooling/libqmldbg_profiler.so /usr/lib/plugins/qmltooling/libqmldbg_quickprofiler.so /usr/lib/plugins/qmltooling/libqmldbg_server.so /usr/lib/plugins/qmltooling/libqmldbg_tcp.so
+FILELIST = /usr/lib/plugins/qmltooling/libqmldbg_debugger.so /usr/lib/plugins/qmltooling/libqmldbg_inspector.so /usr/lib/plugins/qmltooling/libqmldbg_local.so /usr/lib/plugins/qmltooling/libqmldbg_messages.so /usr/lib/plugins/qmltooling/libqmldbg_native.so /usr/lib/plugins/qmltooling/libqmldbg_nativedebugger.so /usr/lib/plugins/qmltooling/libqmldbg_preview.so /usr/lib/plugins/qmltooling/libqmldbg_profiler.so /usr/lib/plugins/qmltooling/libqmldbg_quickprofiler.so /usr/lib/plugins/qmltooling/libqmldbg_server.so /usr/lib/plugins/qmltooling/libqmldbg_tcp.so
