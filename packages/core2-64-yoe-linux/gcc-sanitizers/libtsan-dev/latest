@@ -1,9 +1,9 @@
 PV = 8.2.0
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = 
 RDEPENDS = gcc-sanitizers libtsan
 RRECOMMENDS = gcc-runtime-dev glibc-dev libgcc-dev libstdc++-dev
-PKGSIZE = 3328
+PKGSIZE = 3336
 FILES = /usr/lib/libtsan.so /usr/lib/libtsan.la /usr/lib/libtsan_*.o
 FILELIST = /usr/lib/libtsan.so /usr/lib/libtsan_preinit.o

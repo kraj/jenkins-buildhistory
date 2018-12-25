@@ -136,7 +136,7 @@ drwxr-xr-x root       root              180 ./opt/mce-test/cases/function/erst-i
 -rw-r--r-- root       root             7349 ./opt/mce-test/cases/function/erst-inject/cper.h
 -rwxr-xr-x root       root            10400 ./opt/mce-test/cases/function/erst-inject/erst-inject
 -rw-r--r-- root       root             6153 ./opt/mce-test/cases/function/erst-inject/erst-inject.c
--rw-r--r-- root       root            15176 ./opt/mce-test/cases/function/erst-inject/erst-inject.o
+-rw-r--r-- root       root            15192 ./opt/mce-test/cases/function/erst-inject/erst-inject.o
 -rw-r--r-- root       root              100 ./opt/mce-test/cases/function/erst-inject/Makefile
 -rwxr-xr-x root       root             4003 ./opt/mce-test/cases/function/erst-inject/runtest.sh
 -rw-r--r-- root       root              797 ./opt/mce-test/cases/function/erst-inject/uuid.h
@@ -184,7 +184,7 @@ drwxr-xr-x root       root               60 ./opt/mce-test/cases/function/kvm/pa
 drwxr-xr-x root       root              180 ./opt/mce-test/cases/function/pfa
 -rwxr-xr-x root       root             6296 ./opt/mce-test/cases/function/pfa/busy
 -rw-r--r-- root       root               63 ./opt/mce-test/cases/function/pfa/busy.c
--rw-r--r-- root       root             3448 ./opt/mce-test/cases/function/pfa/busy.o
+-rw-r--r-- root       root             3464 ./opt/mce-test/cases/function/pfa/busy.o
 -rwxr-xr-x root       root              382 ./opt/mce-test/cases/function/pfa/load.sh
 -rw-r--r-- root       root              273 ./opt/mce-test/cases/function/pfa/Makefile
 -rwxr-xr-x root       root             2354 ./opt/mce-test/cases/function/pfa/run_pfa.sh
@@ -205,7 +205,7 @@ drwxr-xr-x root       root              180 ./opt/mce-test/cases/stress/hwpoison
 -rwxr-xr-x root       root             2583 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/k-thread.sh
 -rw-r--r-- root       root             2488 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/k-tree-gen.c
 -rw-r--r-- root       root             2247 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/k-tree-trav.c
--rw-r--r-- root       root            15152 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/k-tree-trav.o
+-rw-r--r-- root       root            15184 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/k-tree-trav.o
 -rw-r--r-- root       root              204 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/Makefile
 -rw-r--r-- root       root             1194 ./opt/mce-test/cases/stress/hwpoison/tools/fs-metadata/README
 -rw-r--r-- root       root              269 ./opt/mce-test/cases/stress/hwpoison/tools/Makefile
@@ -213,7 +213,7 @@ drwxr-xr-x root       root              140 ./opt/mce-test/cases/stress/hwpoison
 -rw-r--r-- root       root              194 ./opt/mce-test/cases/stress/hwpoison/tools/page-poisoning/Makefile
 -rwxr-xr-x root       root            23216 ./opt/mce-test/cases/stress/hwpoison/tools/page-poisoning/page-poisoning
 -rw-r--r-- root       root            20089 ./opt/mce-test/cases/stress/hwpoison/tools/page-poisoning/page-poisoning.c
--rw-r--r-- root       root           102064 ./opt/mce-test/cases/stress/hwpoison/tools/page-poisoning/page-poisoning.o
+-rw-r--r-- root       root           102080 ./opt/mce-test/cases/stress/hwpoison/tools/page-poisoning/page-poisoning.o
 -rw-r--r-- root       root              656 ./opt/mce-test/cases/stress/hwpoison/tools/page-poisoning/README
 -rw-r--r-- root       root               93 ./opt/mce-test/cases/stress/Makefile
 -rw-r--r-- root       root            18007 ./opt/mce-test/COPYING
@@ -255,14 +255,14 @@ drwxr-xr-x root       root              140 ./opt/mce-test/tools
 drwxr-xr-x root       root              240 ./opt/mce-test/tools/ltp-pan
 -rwxr-xr-x root       root            34992 ./opt/mce-test/tools/ltp-pan/ltp-pan
 -rw-r--r-- root       root            35395 ./opt/mce-test/tools/ltp-pan/ltp-pan.c
--rw-r--r-- root       root            58288 ./opt/mce-test/tools/ltp-pan/ltp-pan.o
+-rw-r--r-- root       root            58296 ./opt/mce-test/tools/ltp-pan/ltp-pan.o
 -rw-r--r-- root       root              128 ./opt/mce-test/tools/ltp-pan/Makefile
 -rw-r--r-- root       root             5355 ./opt/mce-test/tools/ltp-pan/splitstr.c
 -rw-r--r-- root       root             1151 ./opt/mce-test/tools/ltp-pan/splitstr.h
--rw-r--r-- root       root             6920 ./opt/mce-test/tools/ltp-pan/splitstr.o
+-rw-r--r-- root       root             6928 ./opt/mce-test/tools/ltp-pan/splitstr.o
 -rw-r--r-- root       root             9764 ./opt/mce-test/tools/ltp-pan/zoolib.c
 -rw-r--r-- root       root             2701 ./opt/mce-test/tools/ltp-pan/zoolib.h
--rw-r--r-- root       root            16848 ./opt/mce-test/tools/ltp-pan/zoolib.o
+-rw-r--r-- root       root            16864 ./opt/mce-test/tools/ltp-pan/zoolib.o
 -rw-r--r-- root       root              251 ./opt/mce-test/tools/Makefile
 drwxr-xr-x root       root              200 ./opt/mce-test/tools/page-types
 -rw-r--r-- root       root              608 ./opt/mce-test/tools/page-types/debugfs.h
@@ -272,7 +272,7 @@ drwxr-xr-x root       root              200 ./opt/mce-test/tools/page-types
 -rw-r--r-- root       root              124 ./opt/mce-test/tools/page-types/Makefile
 -rwxr-xr-x root       root            35256 ./opt/mce-test/tools/page-types/page-types
 -rw-r--r-- root       root            28064 ./opt/mce-test/tools/page-types/page-types.c
--rw-r--r-- root       root            60648 ./opt/mce-test/tools/page-types/page-types.o
+-rw-r--r-- root       root            60664 ./opt/mce-test/tools/page-types/page-types.o
 drwxr-xr-x root       root              140 ./opt/mce-test/tools/scripts
 -rw-r--r-- root       root             1758 ./opt/mce-test/tools/scripts/gcov_merge.py
 -rwxr-xr-x root       root              347 ./opt/mce-test/tools/scripts/grep_result.sh
@@ -282,6 +282,6 @@ drwxr-xr-x root       root              140 ./opt/mce-test/tools/scripts
 drwxr-xr-x root       root              100 ./opt/mce-test/tools/victim
 -rw-r--r-- root       root              101 ./opt/mce-test/tools/victim/Makefile
 -rw-r--r-- root       root             7689 ./opt/mce-test/tools/victim/victim.c
--rw-r--r-- root       root            17640 ./opt/mce-test/tools/victim/victim.o
+-rw-r--r-- root       root            17648 ./opt/mce-test/tools/victim/victim.o
 drwxr-xr-x root       root               60 ./opt/mce-test/work
 -rw-r--r-- root       root                2 ./opt/mce-test/work/.gitignore
