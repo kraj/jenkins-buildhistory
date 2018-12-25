@@ -1,11 +1,11 @@
-PV = 5.11.3+gitAUTOINC+326bf6a105
+PV = 5.12.0+gitAUTOINC+fd6f1d80aa
 PR = r0
 PKG = libqt5opcua5
-PKGV = 5.11.3+git0+326bf6a105
-PKGR = r0.3
-RPROVIDES = qtopcua (=5.11.3+git0+326bf6a105)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) qtbase (>= 5.11.3+git0+08de243eaa)
+PKGV = 5.12.0+git0+fd6f1d80aa
+PKGR = r0.0
+RPROVIDES = qtopcua (=5.12.0+git0+fd6f1d80aa)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) qtbase (>= 5.12.0+git0+13ed06640c)
 RRECOMMENDS = qtopcua-plugins qtopcua-qmlplugins
-PKGSIZE = 198954
+PKGSIZE = 919850
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtopcua /usr/lib/qtopcua/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
-FILELIST = /usr/lib/libQt5OpcUa.so.5 /usr/lib/libQt5OpcUa.so.5.11 /usr/lib/libQt5OpcUa.so.5.11.3
+FILELIST = /usr/lib/libQt5OpcUa.so.5 /usr/lib/libQt5OpcUa.so.5.12 /usr/lib/libQt5OpcUa.so.5.12.0

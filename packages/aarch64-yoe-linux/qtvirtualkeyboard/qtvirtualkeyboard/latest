@@ -1,10 +1,11 @@
-PV = 5.11.3+gitAUTOINC+a8cab520dc
+PV = 5.12.0+gitAUTOINC+5aaf55adcf
 PR = r0
-PKGV = 5.11.3+git0+a8cab520dc
-PKGR = r0.3
-RPROVIDES = 
-RDEPENDS = 
+PKG = libqt5virtualkeyboard5
+PKGV = 5.12.0+git0+5aaf55adcf
+PKGR = r0.0
+RPROVIDES = qtvirtualkeyboard (=5.12.0+git0+5aaf55adcf)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) libxcb (>= 1.13.1) libxcb-xfixes (>= 1.13.1) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b)
 RRECOMMENDS = qtvirtualkeyboard-dictionaries qtvirtualkeyboard-plugins qtvirtualkeyboard-qmlplugins
-PKGSIZE = 12947067
+PKGSIZE = 13622899
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtvirtualkeyboard /usr/lib/qtvirtualkeyboard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec /usr/share/qtvirtualkeyboard/lipi_toolkit
-FILELIST = /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/nn.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/nn.mdt /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/profile.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/project.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/unicodeMapfile_alphanumeric.ini /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/nn.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/nn.mdt /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/profile.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/project.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/unicodeMapfile_demonumerals.ini /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/lipiengine.cfg /usr/share/qtvirtualkeyboard/pinyin/dict_pinyin.dat /usr/share/qtvirtualkeyboard/tcime/dict_cangjie.dat /usr/share/qtvirtualkeyboard/tcime/dict_phrases.dat /usr/share/qtvirtualkeyboard/tcime/dict_zhuyin.dat
+FILELIST = /usr/lib/libQt5VirtualKeyboard.so.5 /usr/lib/libQt5VirtualKeyboard.so.5.12 /usr/lib/libQt5VirtualKeyboard.so.5.12.0 /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/nn.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/nn.mdt /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/profile.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/project.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/unicodeMapfile_alphanumeric.ini /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/nn.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/nn.mdt /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/profile.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/project.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/unicodeMapfile_demonumerals.ini /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/lipiengine.cfg

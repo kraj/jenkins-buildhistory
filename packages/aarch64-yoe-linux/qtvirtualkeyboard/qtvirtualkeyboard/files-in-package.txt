@@ -1,6 +1,10 @@
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr/lib
+-rwxr-xr-x root       root          1968400 ./usr/lib/libQt5VirtualKeyboard.so.5.12.0
+lrwxrwxrwx root       root               31 ./usr/lib/libQt5VirtualKeyboard.so.5.12 -> libQt5VirtualKeyboard.so.5.12.0
+lrwxrwxrwx root       root               31 ./usr/lib/libQt5VirtualKeyboard.so.5 -> libQt5VirtualKeyboard.so.5.12.0
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root              100 ./usr/share/qtvirtualkeyboard
+drwxr-xr-x root       root               60 ./usr/share/qtvirtualkeyboard
 drwxr-xr-x root       root               60 ./usr/share/qtvirtualkeyboard/lipi_toolkit
 drwxr-xr-x root       root              100 ./usr/share/qtvirtualkeyboard/lipi_toolkit/projects
 drwxr-xr-x root       root               60 ./usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric
@@ -20,9 +24,3 @@ drwxr-xr-x root       root              100 ./usr/share/qtvirtualkeyboard/lipi_t
 -rw-r--r-- root       root               66 ./usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/project.cfg
 -rw-r--r-- root       root              173 ./usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/unicodeMapfile_demonumerals.ini
 -rw-r--r-- root       root               90 ./usr/share/qtvirtualkeyboard/lipi_toolkit/projects/lipiengine.cfg
-drwxr-xr-x root       root               60 ./usr/share/qtvirtualkeyboard/pinyin
--rw-r--r-- root       root          1068442 ./usr/share/qtvirtualkeyboard/pinyin/dict_pinyin.dat
-drwxr-xr-x root       root              100 ./usr/share/qtvirtualkeyboard/tcime
--rw-r--r-- root       root            54840 ./usr/share/qtvirtualkeyboard/tcime/dict_cangjie.dat
--rw-r--r-- root       root           133304 ./usr/share/qtvirtualkeyboard/tcime/dict_phrases.dat
--rw-r--r-- root       root            36044 ./usr/share/qtvirtualkeyboard/tcime/dict_zhuyin.dat

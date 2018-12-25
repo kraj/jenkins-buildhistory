@@ -25,7 +25,7 @@ drwxr-xr-x root       root               60 ./usr/bin/kselftests/futex/functiona
 drwxr-xr-x root       root              180 ./usr/bin/kselftests/futex/functional/.debug
 -rwxr-xr-x root       root            77272 ./usr/bin/kselftests/futex/functional/.debug/futex_requeue_pi
 -rwxr-xr-x root       root            20428 ./usr/bin/kselftests/futex/functional/.debug/futex_requeue_pi_mismatched_ops
--rwxr-xr-x root       root            29024 ./usr/bin/kselftests/futex/functional/.debug/futex_requeue_pi_signal_restart
+-rwxr-xr-x root       root            29032 ./usr/bin/kselftests/futex/functional/.debug/futex_requeue_pi_signal_restart
 -rwxr-xr-x root       root            20620 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_private_mapped_file
 -rwxr-xr-x root       root            17852 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_timeout
 -rwxr-xr-x root       root            24448 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_uninitialized_heap
@@ -41,7 +41,7 @@ drwxr-xr-x root       root               60 ./usr/bin/kselftests/kcmp/.debug
 -rwxr-xr-x root       root            17784 ./usr/bin/kselftests/kcmp/.debug/kcmp_test
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/membarrier
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/membarrier/.debug
--rwxr-xr-x root       root            14936 ./usr/bin/kselftests/membarrier/.debug/membarrier_test
+-rwxr-xr-x root       root            14944 ./usr/bin/kselftests/membarrier/.debug/membarrier_test
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/memfd
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/memfd/.debug
 -rwxr-xr-x root       root            40496 ./usr/bin/kselftests/memfd/.debug/memfd_test
@@ -51,7 +51,7 @@ drwxr-xr-x root       root               60 ./usr/bin/kselftests/mount/.debug
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/mqueue
 drwxr-xr-x root       root               80 ./usr/bin/kselftests/mqueue/.debug
 -rwxr-xr-x root       root            41536 ./usr/bin/kselftests/mqueue/.debug/mq_open_tests
--rwxr-xr-x root       root            61260 ./usr/bin/kselftests/mqueue/.debug/mq_perf_tests
+-rwxr-xr-x root       root            61268 ./usr/bin/kselftests/mqueue/.debug/mq_perf_tests
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/ptrace
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/ptrace/.debug
 -rwxr-xr-x root       root            25904 ./usr/bin/kselftests/ptrace/.debug/peeksiginfo
@@ -63,11 +63,11 @@ drwxr-xr-x root       root               60 ./usr/bin/kselftests/sync/.debug
 -rwxr-xr-x root       root            57632 ./usr/bin/kselftests/sync/.debug/sync_test
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/timers
 drwxr-xr-x root       root              440 ./usr/bin/kselftests/timers/.debug
--rwxr-xr-x root       root            38912 ./usr/bin/kselftests/timers/.debug/adjtick
+-rwxr-xr-x root       root            38920 ./usr/bin/kselftests/timers/.debug/adjtick
 -rwxr-xr-x root       root            18760 ./usr/bin/kselftests/timers/.debug/alarmtimer-suspend
 -rwxr-xr-x root       root            14352 ./usr/bin/kselftests/timers/.debug/change_skew
 -rwxr-xr-x root       root            18768 ./usr/bin/kselftests/timers/.debug/clocksource-switch
--rwxr-xr-x root       root            17120 ./usr/bin/kselftests/timers/.debug/inconsistency-check
+-rwxr-xr-x root       root            17128 ./usr/bin/kselftests/timers/.debug/inconsistency-check
 -rwxr-xr-x root       root            27168 ./usr/bin/kselftests/timers/.debug/leap-a-day
 -rwxr-xr-x root       root            14376 ./usr/bin/kselftests/timers/.debug/leapcrash
 -rwxr-xr-x root       root            16168 ./usr/bin/kselftests/timers/.debug/mqueue-lat
@@ -76,8 +76,8 @@ drwxr-xr-x root       root              440 ./usr/bin/kselftests/timers/.debug
 -rwxr-xr-x root       root            18048 ./usr/bin/kselftests/timers/.debug/posix_timers
 -rwxr-xr-x root       root            31396 ./usr/bin/kselftests/timers/.debug/raw_skew
 -rwxr-xr-x root       root            24504 ./usr/bin/kselftests/timers/.debug/rtctest
--rwxr-xr-x root       root            13548 ./usr/bin/kselftests/timers/.debug/set-2038
--rwxr-xr-x root       root            14680 ./usr/bin/kselftests/timers/.debug/set-tai
+-rwxr-xr-x root       root            13556 ./usr/bin/kselftests/timers/.debug/set-2038
+-rwxr-xr-x root       root            14688 ./usr/bin/kselftests/timers/.debug/set-tai
 -rwxr-xr-x root       root            20128 ./usr/bin/kselftests/timers/.debug/set-timer-lat
 -rwxr-xr-x root       root            16320 ./usr/bin/kselftests/timers/.debug/set-tz
 -rwxr-xr-x root       root            13248 ./usr/bin/kselftests/timers/.debug/skew_consistency
@@ -85,7 +85,7 @@ drwxr-xr-x root       root              440 ./usr/bin/kselftests/timers/.debug
 -rwxr-xr-x root       root            45764 ./usr/bin/kselftests/timers/.debug/valid-adjtimex
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/vm
 drwxr-xr-x root       root              240 ./usr/bin/kselftests/vm/.debug
--rwxr-xr-x root       root            11796 ./usr/bin/kselftests/vm/.debug/compaction_test
+-rwxr-xr-x root       root            11804 ./usr/bin/kselftests/vm/.debug/compaction_test
 -rwxr-xr-x root       root             8104 ./usr/bin/kselftests/vm/.debug/hugepage-mmap
 -rwxr-xr-x root       root             7980 ./usr/bin/kselftests/vm/.debug/hugepage-shm
 -rwxr-xr-x root       root             8036 ./usr/bin/kselftests/vm/.debug/map_hugetlb
@@ -93,7 +93,7 @@ drwxr-xr-x root       root              240 ./usr/bin/kselftests/vm/.debug
 -rwxr-xr-x root       root            10356 ./usr/bin/kselftests/vm/.debug/mlock-random-test
 -rwxr-xr-x root       root             8056 ./usr/bin/kselftests/vm/.debug/on-fault-limit
 -rwxr-xr-x root       root             9068 ./usr/bin/kselftests/vm/.debug/thuge-gen
--rwxr-xr-x root       root            11192 ./usr/bin/kselftests/vm/.debug/transhuge-stress
+-rwxr-xr-x root       root            11200 ./usr/bin/kselftests/vm/.debug/transhuge-stress
 -rwxr-xr-x root       root            10424 ./usr/bin/kselftests/vm/.debug/userfaultfd
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug

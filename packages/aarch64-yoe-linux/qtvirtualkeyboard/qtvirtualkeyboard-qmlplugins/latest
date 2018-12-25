@@ -1,10 +1,11 @@
-PV = 5.11.3+gitAUTOINC+a8cab520dc
+PV = 5.12.0+gitAUTOINC+5aaf55adcf
 PR = r0
-PKGV = 5.11.3+git0+a8cab520dc
-PKGR = r0.3
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) qtbase (>= 5.11.3+git0+08de243eaa) qtdeclarative (>= 5.11.3+git0+e3c0bb7811) qtsvg (>= 5.11.3+git0+ab492718de)
+PKG = libqt5virtualkeyboard-qmlplugins
+PKGV = 5.12.0+git0+5aaf55adcf
+PKGR = r0.0
+RPROVIDES = qtvirtualkeyboard-qmlplugins (=5.12.0+git0+5aaf55adcf)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.2.0) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b) qtsvg (>= 5.12.0+git0+aa7431fdab) qtvirtualkeyboard (>= 5.12.0+git0+5aaf55adcf)
 RRECOMMENDS = 
-PKGSIZE = 301151
+PKGSIZE = 404190
 FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
-FILELIST = /usr/lib/qml/QtQuick/VirtualKeyboard/Settings/plugins.qmltypes /usr/lib/qml/QtQuick/VirtualKeyboard/Settings/qmldir /usr/lib/qml/QtQuick/VirtualKeyboard/Styles/libqtvirtualkeyboardstylesplugin.so /usr/lib/qml/QtQuick/VirtualKeyboard/Styles/plugins.qmltypes /usr/lib/qml/QtQuick/VirtualKeyboard/Styles/qmldir /usr/lib/qml/QtQuick/VirtualKeyboard/plugins.qmltypes /usr/lib/qml/QtQuick/VirtualKeyboard/qmldir
+FILELIST = /usr/lib/qml/QtQuick/VirtualKeyboard/Settings/libqtquickvirtualkeyboardsettingsplugin.so /usr/lib/qml/QtQuick/VirtualKeyboard/Settings/plugins.qmltypes /usr/lib/qml/QtQuick/VirtualKeyboard/Settings/qmldir /usr/lib/qml/QtQuick/VirtualKeyboard/Styles/libqtquickvirtualkeyboardstylesplugin.so /usr/lib/qml/QtQuick/VirtualKeyboard/Styles/plugins.qmltypes /usr/lib/qml/QtQuick/VirtualKeyboard/Styles/qmldir /usr/lib/qml/QtQuick/VirtualKeyboard/libqtquickvirtualkeyboardplugin.so /usr/lib/qml/QtQuick/VirtualKeyboard/plugins.qmltypes /usr/lib/qml/QtQuick/VirtualKeyboard/qmldir
