@@ -3,9 +3,9 @@ drwxr-xr-x root       root              460 ./lib/.debug
 -rwxr-xr-x root       root          1349272 ./lib/.debug/ld-2.28.9000.so
 -rwxr-xr-x root       root           135856 ./lib/.debug/libanl-2.28.9000.so
 -rwxr-xr-x root       root            23088 ./lib/.debug/libBrokenLocale-2.28.9000.so
--rwxr-xr-x root       root         17183928 ./lib/.debug/libc-2.28.9000.so
+-rwxr-xr-x root       root         17183960 ./lib/.debug/libc-2.28.9000.so
 -rwxr-xr-x root       root           241248 ./lib/.debug/libdl-2.28.9000.so
--rwxr-xr-x root       root          4650928 ./lib/.debug/libm-2.28.9000.so
+-rwxr-xr-x root       root          4669032 ./lib/.debug/libm-2.28.9000.so
 -rwxr-xr-x root       root            53584 ./lib/.debug/libmemusage.so
 -rwxr-xr-x root       root           705032 ./lib/.debug/libmvec-2.28.9000.so
 -rwxr-xr-x root       root           717448 ./lib/.debug/libnsl-2.28.9000.so
@@ -1438,12 +1438,12 @@ drwxr-xr-x root       root              140 ./usr/src/debug/glibc/2.29-r0/git/po
 -rw-r--r-- root       root             1238 ./usr/src/debug/glibc/2.29-r0/git/posix/glob_pattern_p.c
 -rw-r--r-- root       root             1354 ./usr/src/debug/glibc/2.29-r0/git/posix/group_member.c
 -rw-r--r-- root       root             5287 ./usr/src/debug/glibc/2.29-r0/git/posix/posix-envs.def
--rw-r--r-- root       root           114812 ./usr/src/debug/glibc/2.29-r0/git/posix/regcomp.c
--rw-r--r-- root       root             3208 ./usr/src/debug/glibc/2.29-r0/git/posix/regex.c
+-rw-r--r-- root       root           114692 ./usr/src/debug/glibc/2.29-r0/git/posix/regcomp.c
+-rw-r--r-- root       root             3140 ./usr/src/debug/glibc/2.29-r0/git/posix/regex.c
 -rw-r--r-- root       root           130256 ./usr/src/debug/glibc/2.29-r0/git/posix/regexec.c
 -rw-r--r-- root       root            24715 ./usr/src/debug/glibc/2.29-r0/git/posix/regex.h
 -rw-r--r-- root       root            49164 ./usr/src/debug/glibc/2.29-r0/git/posix/regex_internal.c
--rw-r--r-- root       root            25069 ./usr/src/debug/glibc/2.29-r0/git/posix/regex_internal.h
+-rw-r--r-- root       root            24794 ./usr/src/debug/glibc/2.29-r0/git/posix/regex_internal.h
 -rw-r--r-- root       root              920 ./usr/src/debug/glibc/2.29-r0/git/posix/sched_cpualloc.c
 -rw-r--r-- root       root             1563 ./usr/src/debug/glibc/2.29-r0/git/posix/sched_cpucount.c
 -rw-r--r-- root       root              886 ./usr/src/debug/glibc/2.29-r0/git/posix/sched_cpufree.c
@@ -2109,8 +2109,8 @@ drwxr-xr-x root       root             1440 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root             1638 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_scalblnf.c
 -rw-r--r-- root       root             1632 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_scalbnf.c
 -rw-r--r-- root       root             1816 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_setpayloadf_main.c
--rw-r--r-- root       root             2274 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf_data.c
--rw-r--r-- root       root             5034 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf.h
+-rw-r--r-- root       root             2870 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf.c
+-rw-r--r-- root       root             3375 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf.h
 -rw-r--r-- root       root             2422 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sinf.c
 -rw-r--r-- root       root             1895 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_tanf.c
 -rw-r--r-- root       root             1656 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_tanhf.c
@@ -2762,7 +2762,7 @@ drwxr-xr-x root       root              960 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root            16976 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/dl-trampoline.h
 -rw-r--r-- root       root             1307 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/ffs.c
 -rw-r--r-- root       root             1356 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/ffsll.c
-drwxr-xr-x root       root             2140 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu
+drwxr-xr-x root       root             2120 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu
 -rw-r--r-- root       root             1271 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/e_exp2l.S
 -rw-r--r-- root       root             5795 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/e_expl.S
 -rw-r--r-- root       root              424 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/e_fmodl.S
@@ -2793,7 +2793,7 @@ drwxr-xr-x root       root             2140 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root             1853 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/fsetexcptflg.c
 -rw-r--r-- root       root             1112 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/ftestexcept.c
 -rw-r--r-- root       root             2807 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/math_ldbl.h
-drwxr-xr-x root       root             2400 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch
+drwxr-xr-x root       root             2380 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch
 -rw-r--r-- root       root             1477 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/e_asin.c
 -rw-r--r-- root       root             1181 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/e_atan2.c
 -rw-r--r-- root       root             1343 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/e_exp2f.c
@@ -2833,7 +2833,6 @@ drwxr-xr-x root       root             2400 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root              978 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_rint-sse4_1.S
 -rw-r--r-- root       root             1350 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_sin.c
 -rw-r--r-- root       root             1070 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_sincosf.c
--rw-r--r-- root       root             7821 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_sincosf-fma.c
 -rw-r--r-- root       root             1037 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_sinf.c
 -rw-r--r-- root       root             1108 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_tan.c
 -rw-r--r-- root       root             1150 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/multiarch/s_trunc.c
@@ -2935,7 +2934,6 @@ drwxr-xr-x root       root             2400 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root              328 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/s_scalbnl.S
 -rw-r--r-- root       root              995 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/s_signbitf.S
 -rw-r--r-- root       root              994 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/s_signbit.S
--rw-r--r-- root       root            17325 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/s_sincosf.S
 -rw-r--r-- root       root             1195 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/s_truncl.S
 -rw-r--r-- root       root             1015 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/svml_d_cos2_core.S
 -rw-r--r-- root       root              990 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86_64/fpu/svml_d_cos4_core_avx.S
@@ -3117,7 +3115,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root             1604 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/dl-procinfo.h
 -rw-r--r-- root       root             2091 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/dl-procruntime.c
 -rw-r--r-- root       root             5425 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/dl-prop.h
-drwxr-xr-x root       root              180 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu
+drwxr-xr-x root       root              220 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu
 drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/bits
 -rw-r--r-- root       root             4606 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/bits/fenv.h
 -rw-r--r-- root       root             3583 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu_control.h
@@ -3129,6 +3127,8 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root             1133 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/math_private.h
 -rw-r--r-- root       root             8496 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/powl_helper.c
 -rw-r--r-- root       root             6514 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/sfp-machine.h
+-rw-r--r-- root       root             3123 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/sincosf_poly.h
+-rw-r--r-- root       root             2297 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/fpu/s_sincosf_data.c
 -rw-r--r-- root       root             2403 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/hp-timing.h
 -rw-r--r-- root       root             1183 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/link_map.h
 -rw-r--r-- root       root              443 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/x86/linkmap.h
