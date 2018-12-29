@@ -1,12 +1,12 @@
 PE = 1
-PV = 0.3.6
+PV = 0.4.0
 PR = r0
-PKGR = r0.39
+PKGR = r0.0
 RPROVIDES = opkg-collateral
-RDEPENDS = glibc (>= 2.29) libarchive libopkg (>= 0.3.6) opkg-arch-config update-alternatives-opkg
+RDEPENDS = glibc (>= 2.29) libarchive libopkg (>= 0.4.0) opkg-arch-config update-alternatives-opkg
 RRECOMMENDS = 
 RREPLACES = opkg-collateral opkg-nogpg
 RCONFLICTS = opkg-collateral
-PKGSIZE = 72783
+PKGSIZE = 72847
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/opkg /usr/lib/opkg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/opkg/opkg.conf /usr/bin/opkg /usr/bin/opkg-check-config /usr/share/opkg/intercept/depmod /usr/share/opkg/intercept/ldconfig /usr/share/opkg/intercept/update-modules

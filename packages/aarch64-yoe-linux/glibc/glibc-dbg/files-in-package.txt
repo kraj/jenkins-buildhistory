@@ -5,7 +5,7 @@ drwxr-xr-x root       root              440 ./lib/.debug
 -rwxr-xr-x root       root            23656 ./lib/.debug/libBrokenLocale-2.28.9000.so
 -rwxr-xr-x root       root         16386256 ./lib/.debug/libc-2.28.9000.so
 -rwxr-xr-x root       root           219304 ./lib/.debug/libdl-2.28.9000.so
--rwxr-xr-x root       root          2298248 ./lib/.debug/libm-2.28.9000.so
+-rwxr-xr-x root       root          2298232 ./lib/.debug/libm-2.28.9000.so
 -rwxr-xr-x root       root            87104 ./lib/.debug/libmemusage.so
 -rwxr-xr-x root       root           726568 ./lib/.debug/libnsl-2.28.9000.so
 -rwxr-xr-x root       root           178256 ./lib/.debug/libnss_compat-2.28.9000.so
@@ -1448,11 +1448,11 @@ drwxr-xr-x root       root              140 ./usr/src/debug/glibc/2.29-r0/git/po
 -rw-r--r-- root       root             1238 ./usr/src/debug/glibc/2.29-r0/git/posix/glob_pattern_p.c
 -rw-r--r-- root       root             1354 ./usr/src/debug/glibc/2.29-r0/git/posix/group_member.c
 -rw-r--r-- root       root             5287 ./usr/src/debug/glibc/2.29-r0/git/posix/posix-envs.def
--rw-r--r-- root       root           114812 ./usr/src/debug/glibc/2.29-r0/git/posix/regcomp.c
+-rw-r--r-- root       root           114692 ./usr/src/debug/glibc/2.29-r0/git/posix/regcomp.c
 -rw-r--r-- root       root           130256 ./usr/src/debug/glibc/2.29-r0/git/posix/regexec.c
 -rw-r--r-- root       root            24715 ./usr/src/debug/glibc/2.29-r0/git/posix/regex.h
 -rw-r--r-- root       root            49164 ./usr/src/debug/glibc/2.29-r0/git/posix/regex_internal.c
--rw-r--r-- root       root            25069 ./usr/src/debug/glibc/2.29-r0/git/posix/regex_internal.h
+-rw-r--r-- root       root            24794 ./usr/src/debug/glibc/2.29-r0/git/posix/regex_internal.h
 -rw-r--r-- root       root              920 ./usr/src/debug/glibc/2.29-r0/git/posix/sched_cpualloc.c
 -rw-r--r-- root       root             1563 ./usr/src/debug/glibc/2.29-r0/git/posix/sched_cpucount.c
 -rw-r--r-- root       root              886 ./usr/src/debug/glibc/2.29-r0/git/posix/sched_cpufree.c
@@ -2153,7 +2153,7 @@ drwxr-xr-x root       root              420 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root             1677 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/dbl-64/wordsize-64/s_totalordermag.c
 -rw-r--r-- root       root             2414 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/dbl-64/x2y2m1.c
 -rw-r--r-- root       root             1177 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/dbl-64/x2y2m1f.c
-drwxr-xr-x root       root             1360 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32
+drwxr-xr-x root       root             1380 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32
 -rw-r--r-- root       root             2464 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/e_acosf.c
 -rw-r--r-- root       root             1410 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/e_acoshf.c
 -rw-r--r-- root       root             3279 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/e_asinf.c
@@ -2198,6 +2198,7 @@ drwxr-xr-x root       root             1360 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root             1201 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_frexpf.c
 -rw-r--r-- root       root             2314 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_fromfpf_main.c
 -rw-r--r-- root       root             1183 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_getpayloadf.c
+-rw-r--r-- root       root             2513 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/sincosf_poly.h
 -rw-r--r-- root       root              532 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_isinff.c
 -rw-r--r-- root       root              966 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_isnanf.c
 -rw-r--r-- root       root             1690 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_issignalingf.c
@@ -2214,7 +2215,7 @@ drwxr-xr-x root       root             1360 ./usr/src/debug/glibc/2.29-r0/git/sy
 -rw-r--r-- root       root              978 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_signbitf.c
 -rw-r--r-- root       root             2870 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf.c
 -rw-r--r-- root       root             2274 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf_data.c
--rw-r--r-- root       root             5034 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf.h
+-rw-r--r-- root       root             3375 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sincosf.h
 -rw-r--r-- root       root             2422 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_sinf.c
 -rw-r--r-- root       root             1895 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_tanf.c
 -rw-r--r-- root       root             1656 ./usr/src/debug/glibc/2.29-r0/git/sysdeps/ieee754/flt-32/s_tanhf.c
