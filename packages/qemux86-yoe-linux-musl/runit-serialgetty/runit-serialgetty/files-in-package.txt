@@ -1,0 +1,18 @@
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/runit
+drwxr-xr-x root       root               60 ./etc/runit/runsvdir
+drwxr-xr-x root       root               80 ./etc/runit/runsvdir/default
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/getty-ttyS0 -> /etc/sv/getty-ttyS0
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/getty-ttyS1 -> /etc/sv/getty-ttyS1
+drwxr-xr-x root       root               80 ./etc/service
+lrwxrwxrwx root       root               19 ./etc/service/getty-ttyS0 -> /etc/sv/getty-ttyS0
+lrwxrwxrwx root       root               19 ./etc/service/getty-ttyS1 -> /etc/sv/getty-ttyS1
+drwxr-xr-x root       root               80 ./etc/sv
+drwxr-xr-x root       root              100 ./etc/sv/getty-ttyS0
+-rwxr-xr-x root       root               32 ./etc/sv/getty-ttyS0/finish
+-rwxr-xr-x root       root               46 ./etc/sv/getty-ttyS0/run
+lrwxrwxrwx root       root               23 ./etc/sv/getty-ttyS0/supervise -> /var/run/sv.getty-ttyS0
+drwxr-xr-x root       root              100 ./etc/sv/getty-ttyS1
+-rwxr-xr-x root       root               32 ./etc/sv/getty-ttyS1/finish
+-rwxr-xr-x root       root               46 ./etc/sv/getty-ttyS1/run
+lrwxrwxrwx root       root               23 ./etc/sv/getty-ttyS1/supervise -> /var/run/sv.getty-ttyS1

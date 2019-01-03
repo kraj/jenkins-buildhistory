@@ -57,6 +57,7 @@ set -e
 	update-alternatives --install /bin/mktemp mktemp /bin/busybox.nosuid 50
 	update-alternatives --install /bin/more more /bin/busybox.nosuid 50
 	update-alternatives --install /bin/mount mount /bin/busybox.nosuid 50
+	update-alternatives --install /bin/mountpoint mountpoint /bin/busybox.nosuid 50
 	update-alternatives --install /bin/mv mv /bin/busybox.nosuid 50
 	update-alternatives --install /bin/netstat netstat /bin/busybox.nosuid 50
 	update-alternatives --install /bin/pidof pidof /bin/busybox.nosuid 50
@@ -110,6 +111,7 @@ set -e
 	update-alternatives --install /sbin/switch_root switch_root /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/sysctl sysctl /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/udhcpc udhcpc /bin/busybox.nosuid 50
+	update-alternatives --install /sbin/watchdog watchdog /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/[ lbracket /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/[[ [[ /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/awk awk /bin/busybox.nosuid 50
@@ -160,6 +162,7 @@ set -e
 	update-alternatives --install /usr/bin/reset reset /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/resize resize /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/seq seq /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/setsid setsid /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/sha1sum sha1sum /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/sha256sum sha256sum /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/shuf shuf /bin/busybox.nosuid 50

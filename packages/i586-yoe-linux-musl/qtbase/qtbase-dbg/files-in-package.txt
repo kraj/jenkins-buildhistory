@@ -17,10 +17,10 @@ drwxr-xr-x root       root              280 ./usr/lib/.debug
 -rwxr-xr-x root       root        131648444 ./usr/lib/.debug/libQt5Gui.so.5.12.0
 -rwxr-xr-x root       root         50308768 ./usr/lib/.debug/libQt5Network.so.5.12.0
 -rwxr-xr-x root       root         10224508 ./usr/lib/.debug/libQt5OpenGL.so.5.12.0
--rwxr-xr-x root       root          8493328 ./usr/lib/.debug/libQt5PrintSupport.so.5.12.0
+-rwxr-xr-x root       root          8493384 ./usr/lib/.debug/libQt5PrintSupport.so.5.12.0
 -rwxr-xr-x root       root          7061508 ./usr/lib/.debug/libQt5Sql.so.5.12.0
 -rwxr-xr-x root       root          7266912 ./usr/lib/.debug/libQt5Test.so.5.12.0
--rwxr-xr-x root       root        109882940 ./usr/lib/.debug/libQt5Widgets.so.5.12.0
+-rwxr-xr-x root       root        109892240 ./usr/lib/.debug/libQt5Widgets.so.5.12.0
 -rwxr-xr-x root       root         62863560 ./usr/lib/.debug/libQt5XcbQpa.so.5.12.0
 -rwxr-xr-x root       root          2188988 ./usr/lib/.debug/libQt5Xml.so.5.12.0
 drwxr-xr-x root       root              180 ./usr/lib/plugins
@@ -47,7 +47,7 @@ drwxr-xr-x root       root               60 ./usr/lib/plugins/platforms
 drwxr-xr-x root       root              120 ./usr/lib/plugins/platforms/.debug
 -rwxr-xr-x root       root          4345124 ./usr/lib/plugins/platforms/.debug/libqminimal.so
 -rwxr-xr-x root       root          5307900 ./usr/lib/plugins/platforms/.debug/libqoffscreen.so
--rwxr-xr-x root       root          8758252 ./usr/lib/plugins/platforms/.debug/libqvnc.so
+-rwxr-xr-x root       root          8758800 ./usr/lib/plugins/platforms/.debug/libqvnc.so
 -rwxr-xr-x root       root           473140 ./usr/lib/plugins/platforms/.debug/libqxcb.so
 drwxr-xr-x root       root               60 ./usr/lib/plugins/platformthemes
 drwxr-xr-x root       root               60 ./usr/lib/plugins/platformthemes/.debug
@@ -2346,7 +2346,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/qtbase/5.12.0+gitAUT
 drwxr-xr-x root       root               80 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformheaders/xcbfunctions
 -rw-r--r-- root       root             2555 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformheaders/xcbfunctions/qxcbscreenfunctions.h
 -rw-r--r-- root       root             4448 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformheaders/xcbfunctions/qxcbwindowfunctions.h
-drwxr-xr-x root       root              280 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport
+drwxr-xr-x root       root              300 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport
 drwxr-xr-x root       root               80 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/accessibility
 -rw-r--r-- root       root             4521 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/accessibility/qaccessiblebridgeutils.cpp
 -rw-r--r-- root       root             2645 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/accessibility/qaccessiblebridgeutils_p.h
@@ -2383,7 +2383,7 @@ drwxr-xr-x root       root              240 ./usr/src/debug/qtbase/5.12.0+gitAUT
 -rw-r--r-- root       root             6383 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbcursor.cpp
 -rw-r--r-- root       root             3935 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbcursor_p.h
 -rw-r--r-- root       root             8034 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbscreen.cpp
--rw-r--r-- root       root             4245 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbscreen_p.h
+-rw-r--r-- root       root             4288 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbscreen_p.h
 -rw-r--r-- root       root             5798 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbvthandler.cpp
 -rw-r--r-- root       root             2797 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbvthandler_p.h
 -rw-r--r-- root       root             5324 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/fbconvenience/qfbwindow.cpp
@@ -2428,6 +2428,9 @@ drwxr-xr-x root       root              140 ./usr/src/debug/qtbase/5.12.0+gitAUT
 drwxr-xr-x root       root               80 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/input/shared
 -rw-r--r-- root       root             3666 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/input/shared/qtouchoutputmapping.cpp
 -rw-r--r-- root       root             2516 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/input/shared/qtouchoutputmapping_p.h
+drwxr-xr-x root       root               80 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/kmsconvenience
+-rw-r--r-- root       root            39584 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/kmsconvenience/qkmsdevice.cpp
+-rw-r--r-- root       root             9535 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/kmsconvenience/qkmsdevice_p.h
 drwxr-xr-x root       root              120 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/platformcompositor
 -rw-r--r-- root       root            10663 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/platformcompositor/qopenglcompositorbackingstore.cpp
 -rw-r--r-- root       root             3481 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/platformsupport/platformcompositor/qopenglcompositorbackingstore_p.h
@@ -2913,7 +2916,7 @@ drwxr-xr-x root       root             1080 ./usr/src/debug/qtbase/5.12.0+gitAUT
 -rw-r--r-- root       root            17707 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicsitemanimation.cpp
 -rw-r--r-- root       root             3835 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicsitemanimation.h
 -rw-r--r-- root       root           379026 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicsitem.cpp
--rw-r--r-- root       root            40248 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicsitem.h
+-rw-r--r-- root       root            40256 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicsitem.h
 -rw-r--r-- root       root            26754 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicsitem_p.h
 -rw-r--r-- root       root            20172 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicslayout.cpp
 -rw-r--r-- root       root             3317 ./usr/src/debug/qtbase/5.12.0+gitAUTOINC+13ed06640c-r0/git/src/widgets/graphicsview/qgraphicslayout.h
