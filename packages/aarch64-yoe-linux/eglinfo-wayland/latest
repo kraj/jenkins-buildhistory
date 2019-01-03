@@ -1,0 +1,5 @@
+PV = 1.0.0
+PR = r0
+DEPENDS = pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/egl virtual/libc wayland
+PACKAGES = eglinfo-wayland-dbg eglinfo-wayland-staticdev eglinfo-wayland-dev eglinfo-wayland-doc eglinfo-wayland-locale eglinfo-wayland
+LAYER = core

@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/busybox
 drwxr-xr-x root       root              140 ./usr/lib/busybox/ptest
-drwxr-xr-x root       root             3640 ./usr/lib/busybox/ptest/bin
+drwxr-xr-x root       root             3700 ./usr/lib/busybox/ptest/bin
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/addgroup -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/adduser -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ash -> /bin/busybox.nosuid
@@ -97,6 +97,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mktemp -
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/modprobe -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/more -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mount -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mountpoint -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mv -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/nc -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/netstat -> /bin/busybox.nosuid
@@ -130,6 +131,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/run-part
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sed -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/seq -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/setconsole -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/setsid -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sha1sum -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sha256sum -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sh -> /bin/busybox.nosuid
@@ -174,6 +176,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/usleep -
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/vi -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/vlock -> /bin/busybox.suid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/watch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/watchdog -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/wc -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/wget -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/which -> /bin/busybox.nosuid
@@ -184,7 +187,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/xzcat ->
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/yes -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/zcat -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               12 ./usr/lib/busybox/ptest/busybox -> /bin/busybox
--rw-r--r-- root       root            32559 ./usr/lib/busybox/ptest/.config
+-rw-r--r-- root       root            32526 ./usr/lib/busybox/ptest/.config
 -rwxr-xr-x root       root              214 ./usr/lib/busybox/ptest/run-ptest
 drwxr-xr-x root       root             2360 ./usr/lib/busybox/ptest/testsuite
 -rwxr-xr-x root       root             2703 ./usr/lib/busybox/ptest/testsuite/all_sourcecode.tests
