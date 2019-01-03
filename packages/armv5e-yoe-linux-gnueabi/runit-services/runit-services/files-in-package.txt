@@ -1,0 +1,119 @@
+drwxr-xr-x root       root              120 ./bin
+lrwxrwxrwx root       root               13 ./bin/halt -> /usr/bin/halt
+lrwxrwxrwx root       root               17 ./bin/poweroff -> /usr/bin/poweroff
+lrwxrwxrwx root       root               15 ./bin/reboot -> /usr/bin/reboot
+lrwxrwxrwx root       root               17 ./bin/shutdown -> /usr/bin/shutdown
+drwxr-xr-x root       root              140 ./etc
+-rw-r--r-- root       root              602 ./etc/rc.conf
+-rwxr-xr-x root       root              151 ./etc/rc.local
+-rwxr-xr-x root       root              152 ./etc/rc.shutdown
+drwxr-xr-x root       root              240 ./etc/runit
+-rwxr-xr-x root       root              601 ./etc/runit/1
+-rwxr-xr-x root       root              898 ./etc/runit/2
+-rwxr-xr-x root       root             1435 ./etc/runit/3
+drwxr-xr-x root       root              260 ./etc/runit/core-services
+-rw-r--r-- root       root             1001 ./etc/runit/core-services/00-pseudofs.sh
+-rw-r--r-- root       root              230 ./etc/runit/core-services/01-static-devnodes.sh
+-rw-r--r-- root       root              277 ./etc/runit/core-services/02-kmods.sh
+-rw-r--r-- root       root              493 ./etc/runit/core-services/02-udev.sh
+-rw-r--r-- root       root              689 ./etc/runit/core-services/03-console-setup.sh
+-rw-r--r-- root       root             1888 ./etc/runit/core-services/03-filesystems.sh
+-rw-r--r-- root       root              120 ./etc/runit/core-services/04-swap.sh
+-rw-r--r-- root       root              715 ./etc/runit/core-services/05-misc.sh
+-rw-r--r-- root       root              411 ./etc/runit/core-services/08-sysctl.sh
+-rw-r--r-- root       root              317 ./etc/runit/core-services/98-sbin-merge.sh
+-rw-r--r-- root       root              362 ./etc/runit/core-services/99-cleanup.sh
+-rw-r--r-- root       root             3836 ./etc/runit/crypt.awk
+-rwxr-xr-x root       root              206 ./etc/runit/ctrlaltdel
+-rw-r--r-- root       root             1226 ./etc/runit/functions
+lrwxrwxrwx root       root               17 ./etc/runit/reboot -> /run/runit/reboot
+drwxr-xr-x root       root              100 ./etc/runit/runsvdir
+lrwxrwxrwx root       root                7 ./etc/runit/runsvdir/current -> default
+drwxr-xr-x root       root              180 ./etc/runit/runsvdir/default
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/agetty-tty1 -> /etc/sv/agetty-tty1
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/agetty-tty2 -> /etc/sv/agetty-tty2
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/agetty-tty3 -> /etc/sv/agetty-tty3
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/agetty-tty4 -> /etc/sv/agetty-tty4
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/agetty-tty5 -> /etc/sv/agetty-tty5
+lrwxrwxrwx root       root               19 ./etc/runit/runsvdir/default/agetty-tty6 -> /etc/sv/agetty-tty6
+lrwxrwxrwx root       root               16 ./etc/runit/runsvdir/default/dropbear -> /etc/sv/dropbear
+drwxr-xr-x root       root               60 ./etc/runit/runsvdir/single
+lrwxrwxrwx root       root               15 ./etc/runit/runsvdir/single/sulogin -> /etc/sv/sulogin
+lrwxrwxrwx root       root               17 ./etc/runit/stopit -> /run/runit/stopit
+drwxr-xr-x root       root              320 ./etc/sv
+drwxr-xr-x root       root              120 ./etc/sv/agetty-console
+-rw-r--r-- root       root               32 ./etc/sv/agetty-console/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-console/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-console/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               35 ./etc/sv/agetty-console/supervise -> /run/runit/supervise.agetty-console
+drwxr-xr-x root       root               80 ./etc/sv/agetty-generic
+-rwxr-xr-x root       root               46 ./etc/sv/agetty-generic/finish
+-rwxr-xr-x root       root              279 ./etc/sv/agetty-generic/run
+drwxr-xr-x root       root              100 ./etc/sv/agetty-serial
+-rw-r--r-- root       root              163 ./etc/sv/agetty-serial/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-serial/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-serial/run -> ../agetty-generic/run
+drwxr-xr-x root       root              120 ./etc/sv/agetty-tty1
+-rw-r--r-- root       root              176 ./etc/sv/agetty-tty1/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-tty1/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-tty1/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               32 ./etc/sv/agetty-tty1/supervise -> /run/runit/supervise.agetty-tty1
+drwxr-xr-x root       root              120 ./etc/sv/agetty-tty2
+lrwxrwxrwx root       root               19 ./etc/sv/agetty-tty2/conf -> ../agetty-tty1/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-tty2/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-tty2/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               32 ./etc/sv/agetty-tty2/supervise -> /run/runit/supervise.agetty-tty2
+drwxr-xr-x root       root              120 ./etc/sv/agetty-tty3
+lrwxrwxrwx root       root               19 ./etc/sv/agetty-tty3/conf -> ../agetty-tty1/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-tty3/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-tty3/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               32 ./etc/sv/agetty-tty3/supervise -> /run/runit/supervise.agetty-tty3
+drwxr-xr-x root       root              120 ./etc/sv/agetty-tty4
+lrwxrwxrwx root       root               19 ./etc/sv/agetty-tty4/conf -> ../agetty-tty1/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-tty4/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-tty4/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               32 ./etc/sv/agetty-tty4/supervise -> /run/runit/supervise.agetty-tty4
+drwxr-xr-x root       root              120 ./etc/sv/agetty-tty5
+lrwxrwxrwx root       root               19 ./etc/sv/agetty-tty5/conf -> ../agetty-tty1/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-tty5/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-tty5/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               32 ./etc/sv/agetty-tty5/supervise -> /run/runit/supervise.agetty-tty5
+drwxr-xr-x root       root              120 ./etc/sv/agetty-tty6
+lrwxrwxrwx root       root               19 ./etc/sv/agetty-tty6/conf -> ../agetty-tty1/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-tty6/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-tty6/run -> ../agetty-generic/run
+lrwxrwxrwx root       root               32 ./etc/sv/agetty-tty6/supervise -> /run/runit/supervise.agetty-tty6
+drwxr-xr-x root       root              120 ./etc/sv/agetty-ttyAMA0
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-ttyAMA0/conf -> ../agetty-serial/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-ttyAMA0/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               20 ./etc/sv/agetty-ttyAMA0/run -> ../agetty-serial/run
+lrwxrwxrwx root       root               35 ./etc/sv/agetty-ttyAMA0/supervise -> /run/runit/supervise.agetty-ttyAMA0
+drwxr-xr-x root       root              120 ./etc/sv/agetty-ttyS0
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-ttyS0/conf -> ../agetty-serial/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-ttyS0/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               20 ./etc/sv/agetty-ttyS0/run -> ../agetty-serial/run
+lrwxrwxrwx root       root               33 ./etc/sv/agetty-ttyS0/supervise -> /run/runit/supervise.agetty-ttyS0
+drwxr-xr-x root       root              120 ./etc/sv/agetty-ttyUSB0
+lrwxrwxrwx root       root               21 ./etc/sv/agetty-ttyUSB0/conf -> ../agetty-serial/conf
+lrwxrwxrwx root       root               24 ./etc/sv/agetty-ttyUSB0/finish -> ../agetty-generic/finish
+lrwxrwxrwx root       root               20 ./etc/sv/agetty-ttyUSB0/run -> ../agetty-serial/run
+lrwxrwxrwx root       root               35 ./etc/sv/agetty-ttyUSB0/supervise -> /run/runit/supervise.agetty-ttyUSB0
+drwxr-xr-x root       root              100 ./etc/sv/dropbear
+drwxr-xr-x root       root               60 ./etc/sv/dropbear/log
+-rwxr-xr-x root       root               73 ./etc/sv/dropbear/log/run
+-rwxr-xr-x root       root               42 ./etc/sv/dropbear/run
+lrwxrwxrwx root       root               29 ./etc/sv/dropbear/supervise -> /run/runit/supervise.dropbear
+drwxr-xr-x root       root               80 ./etc/sv/sulogin
+-rwxr-xr-x root       root              148 ./etc/sv/sulogin/run
+lrwxrwxrwx root       root               28 ./etc/sv/sulogin/supervise -> /run/runit/supervise.sulogin
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              220 ./usr/sbin
+-rwxr-xr-x root       root             5744 ./usr/sbin/halt
+-rwxr-xr-x root       root              784 ./usr/sbin/modules-load
+-rwxr-xr-x root       root             5744 ./usr/sbin/pause
+lrwxrwxrwx root       root                4 ./usr/sbin/poweroff -> halt
+lrwxrwxrwx root       root                4 ./usr/sbin/reboot -> halt
+-rwxr-xr-x root       root             1467 ./usr/sbin/shutdown
+-rwxr-xr-x root       root            10112 ./usr/sbin/vlogger
+-rwxr-xr-x root       root             1647 ./usr/sbin/zzz
+lrwxrwxrwx root       root                3 ./usr/sbin/ZZZ -> zzz

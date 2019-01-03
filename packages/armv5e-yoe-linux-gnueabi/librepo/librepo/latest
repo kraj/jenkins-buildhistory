@@ -1,10 +1,10 @@
-PV = 1.9.2
+PV = 1.9.3
 PR = r0
 PKG = librepo0
-PKGR = r0.2
-RPROVIDES = librepo (=1.9.2)
-RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.29) gpgme (>= 1.12.0) libcrypto (>= 1.1.1a) libcurl (>= 7.62.0) libpython3 (>= 3.5.6) libxml2 (>= 2.9.8) python3-core
+PKGR = r0.0
+RPROVIDES = librepo (=1.9.3)
+RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.29) gpgme (>= 1.12.0) libcrypto (>= 1.1.1a) libcurl (>= 7.63.0) libpython3 (>= 3.5.6) libxml2 (>= 2.9.8) python3-core
 RRECOMMENDS = 
-PKGSIZE = 247208
+PKGSIZE = 251336
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/librepo /usr/lib/librepo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
 FILELIST = /usr/lib/librepo.so.0 /usr/lib/python3.5/site-packages/librepo/__init__.py /usr/lib/python3.5/site-packages/librepo/_librepo.so

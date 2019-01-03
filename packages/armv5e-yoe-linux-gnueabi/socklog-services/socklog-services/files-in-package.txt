@@ -1,0 +1,50 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x 3004       3004               80 ./etc/sv
+drwxr-xr-x 3004       3004               80 ./etc/sv/nanoklogd
+-rwxr-xr-x 3004       3004               49 ./etc/sv/nanoklogd/run
+lrwxrwxrwx root       root               30 ./etc/sv/nanoklogd/supervise -> /run/runit/supervise.nanoklogd
+drwxr-xr-x 3004       3004              120 ./etc/sv/socklog-unix
+-rwxr-xr-x 3004       3004               55 ./etc/sv/socklog-unix/check
+drwxr-xr-x 3004       3004               80 ./etc/sv/socklog-unix/log
+-rwxr-xr-x 3004       3004               60 ./etc/sv/socklog-unix/log/run
+lrwxrwxrwx root       root               37 ./etc/sv/socklog-unix/log/supervise -> /run/runit/supervise.socklog-unix-log
+-rwxr-xr-x 3004       3004               66 ./etc/sv/socklog-unix/run
+lrwxrwxrwx root       root               33 ./etc/sv/socklog-unix/supervise -> /run/runit/supervise.socklog-unix
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              100 ./usr/bin
+-rwxr-xr-x root       root             5748 ./usr/bin/nanoklogd
+-rwxr-xr-x root       root              580 ./usr/bin/svlogtail
+-rwxr-xr-x root       root              420 ./usr/bin/syslog-stripdate
+drwxr-xr-x root       root               80 ./var
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxr-xr-x 3004       3004              320 ./var/volatile/log/socklog
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/cron
+-rw-r--r-- 3004       3004               29 ./var/volatile/log/socklog/cron/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/daemon
+-rw-r--r-- 3004       3004               31 ./var/volatile/log/socklog/daemon/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/debug
+-rw-r--r-- 3004       3004               32 ./var/volatile/log/socklog/debug/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/errors
+-rw-r--r-- 3004       3004               73 ./var/volatile/log/socklog/errors/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/everything
+-rw-r--r-- 3004       3004               38 ./var/volatile/log/socklog/everything/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/kernel
+-rw-r--r-- 3004       3004               11 ./var/volatile/log/socklog/kernel/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/lpr
+-rw-r--r-- 3004       3004               28 ./var/volatile/log/socklog/lpr/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/mail
+-rw-r--r-- 3004       3004               29 ./var/volatile/log/socklog/mail/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/messages
+-rw-r--r-- 3004       3004               97 ./var/volatile/log/socklog/messages/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/remote-udp
+-rw-r--r-- 3004       3004               87 ./var/volatile/log/socklog/remote-udp/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/secure
+-rw-r--r-- 3004       3004               41 ./var/volatile/log/socklog/secure/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/tty12
+-rw-r--r-- 3004       3004              110 ./var/volatile/log/socklog/tty12/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/user
+-rw-r--r-- 3004       3004               29 ./var/volatile/log/socklog/user/config
+drwxr-xr-x 3004       3004               60 ./var/volatile/log/socklog/xbps
+-rw-r--r-- 3004       3004               36 ./var/volatile/log/socklog/xbps/config

@@ -9,7 +9,7 @@ drwxr-xr-x root       root              380 ./usr/bin/.debug
 -rwxr-xr-x root       root           227120 ./usr/bin/.debug/arm-yoe-linux-gnueabi-elfedit
 -rwxr-xr-x root       root           937692 ./usr/bin/.debug/arm-yoe-linux-gnueabi-gprof
 -rwxr-xr-x root       root        100278520 ./usr/bin/.debug/arm-yoe-linux-gnueabi-ld
--rwxr-xr-x root       root          1512680 ./usr/bin/.debug/arm-yoe-linux-gnueabi-ld.bfd
+-rwxr-xr-x root       root          1513480 ./usr/bin/.debug/arm-yoe-linux-gnueabi-ld.bfd
 -rwxr-xr-x root       root           301948 ./usr/bin/.debug/arm-yoe-linux-gnueabi-nm
 -rwxr-xr-x root       root           891480 ./usr/bin/.debug/arm-yoe-linux-gnueabi-objcopy
 -rwxr-xr-x root       root          1426248 ./usr/bin/.debug/arm-yoe-linux-gnueabi-objdump
@@ -20,8 +20,8 @@ drwxr-xr-x root       root              380 ./usr/bin/.debug
 -rwxr-xr-x root       root           891480 ./usr/bin/.debug/arm-yoe-linux-gnueabi-strip
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root          3953184 ./usr/lib/.debug/libbfd-2.31.51.20181224.so
--rwxr-xr-x root       root           331720 ./usr/lib/.debug/libopcodes-2.31.51.20181224.so
+-rwxr-xr-x root       root          3953296 ./usr/lib/.debug/libbfd-2.31.51.20190101.so
+-rwxr-xr-x root       root           331720 ./usr/lib/.debug/libopcodes-2.31.51.20190101.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/binutils
@@ -47,11 +47,11 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/binutils/2.32-r0/git
 -rw-r--r-- root       root             3260 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf32-gen.c
 -rw-r--r-- root       root            20128 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf-attrs.c
 -rw-r--r-- root       root           108339 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf-bfd.h
--rw-r--r-- root       root           347147 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf.c
+-rw-r--r-- root       root           347165 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf.c
 -rw-r--r-- root       root            59498 ./usr/src/debug/binutils/2.32-r0/git/bfd/elfcode.h
 -rw-r--r-- root       root             9469 ./usr/src/debug/binutils/2.32-r0/git/bfd/elfcore.h
 -rw-r--r-- root       root            74221 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf-eh-frame.c
--rw-r--r-- root       root           427682 ./usr/src/debug/binutils/2.32-r0/git/bfd/elflink.c
+-rw-r--r-- root       root           427681 ./usr/src/debug/binutils/2.32-r0/git/bfd/elflink.c
 -rw-r--r-- root       root             9068 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf-linux-core.h
 -rw-r--r-- root       root            11010 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf-nacl.c
 -rw-r--r-- root       root             1009 ./usr/src/debug/binutils/2.32-r0/git/bfd/elf-nacl.h
@@ -65,11 +65,11 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/binutils/2.32-r0/git
 -rw-r--r-- root       root            25907 ./usr/src/debug/binutils/2.32-r0/git/bfd/ihex.c
 -rw-r--r-- root       root             1689 ./usr/src/debug/binutils/2.32-r0/git/bfd/init.c
 -rw-r--r-- root       root            23504 ./usr/src/debug/binutils/2.32-r0/git/bfd/libaout.h
--rw-r--r-- root       root            28211 ./usr/src/debug/binutils/2.32-r0/git/bfd/libbfd.c
+-rw-r--r-- root       root            28258 ./usr/src/debug/binutils/2.32-r0/git/bfd/libbfd.c
 -rw-r--r-- root       root           112073 ./usr/src/debug/binutils/2.32-r0/git/bfd/libbfd.h
 -rw-r--r-- root       root            32708 ./usr/src/debug/binutils/2.32-r0/git/bfd/libcoff.h
 -rw-r--r-- root       root            13378 ./usr/src/debug/binutils/2.32-r0/git/bfd/libecoff.h
--rw-r--r-- root       root           105636 ./usr/src/debug/binutils/2.32-r0/git/bfd/linker.c
+-rw-r--r-- root       root           105657 ./usr/src/debug/binutils/2.32-r0/git/bfd/linker.c
 -rw-r--r-- root       root            27399 ./usr/src/debug/binutils/2.32-r0/git/bfd/mach-o.h
 -rw-r--r-- root       root            23908 ./usr/src/debug/binutils/2.32-r0/git/bfd/merge.c
 -rw-r--r-- root       root            54501 ./usr/src/debug/binutils/2.32-r0/git/bfd/opncls.c
@@ -143,8 +143,8 @@ drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.32-r0/git
 -rw-r--r-- root       root             2192 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/gprof/flat_bl.c
 -rw-r--r-- root       root             5747 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/gprof/fsf_callg_bl.c
 drwxr-xr-x root       root              160 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld
--rw-r--r-- root       root           310190 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/earmelfb_linux_eabi.c
--rw-r--r-- root       root           310165 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/earmelf_linux_eabi.c
+-rw-r--r-- root       root           310219 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/earmelfb_linux_eabi.c
+-rw-r--r-- root       root           310194 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/earmelf_linux_eabi.c
 -rw-r--r-- root       root              288 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/ldemul-list.h
 -rw-r--r-- root       root           168929 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/ldgram.c
 -rw-r--r-- root       root             8219 ./usr/src/debug/binutils/2.32-r0/git/build.arm-yoe-linux-gnueabi.arm-yoe-linux-gnueabi/ld/ldgram.h
@@ -440,7 +440,7 @@ drwxr-xr-x root       root             1540 ./usr/src/debug/binutils/2.32-r0/git
 -rw-r--r-- root       root             4262 ./usr/src/debug/binutils/2.32-r0/git/include/elf/msp430.h
 -rw-r--r-- root       root             1634 ./usr/src/debug/binutils/2.32-r0/git/include/elf/mt.h
 -rw-r--r-- root       root            13023 ./usr/src/debug/binutils/2.32-r0/git/include/elf/nds32.h
--rwxr-xr-x root       root            10945 ./usr/src/debug/binutils/2.32-r0/git/include/elf/nfp.h
+-rw-r--r-- root       root            10945 ./usr/src/debug/binutils/2.32-r0/git/include/elf/nfp.h
 -rw-r--r-- root       root             4232 ./usr/src/debug/binutils/2.32-r0/git/include/elf/nios2.h
 -rw-r--r-- root       root             3293 ./usr/src/debug/binutils/2.32-r0/git/include/elf/or1k.h
 -rw-r--r-- root       root             1587 ./usr/src/debug/binutils/2.32-r0/git/include/elf/pj.h

@@ -1,5 +1,5 @@
-PV = 3.0.12
+PV = 3.0.8
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libpcre libtool-cross libtool-native pkgconfig-native python3-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native libpcre libtool-cross libtool-native python python-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = swig-dbg swig-staticdev swig-dev swig-doc swig-locale swig
-LAYER = core
+LAYER = atmel
