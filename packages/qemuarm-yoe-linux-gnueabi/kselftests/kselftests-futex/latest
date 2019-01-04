@@ -1,9 +1,9 @@
 PV = 4.10
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = 
 RDEPENDS = bash glibc (>= 2.29) ncurses
 RRECOMMENDS = 
-PKGSIZE = 88689
+PKGSIZE = 88717
 FILES = /usr/bin/kselftests/futex
 FILELIST = /usr/bin/kselftests/futex/functional/futex_requeue_pi /usr/bin/kselftests/futex/functional/futex_requeue_pi_mismatched_ops /usr/bin/kselftests/futex/functional/futex_requeue_pi_signal_restart /usr/bin/kselftests/futex/functional/futex_wait_private_mapped_file /usr/bin/kselftests/futex/functional/futex_wait_timeout /usr/bin/kselftests/futex/functional/futex_wait_uninitialized_heap /usr/bin/kselftests/futex/functional/futex_wait_wouldblock /usr/bin/kselftests/futex/functional/run.sh /usr/bin/kselftests/futex/run.sh

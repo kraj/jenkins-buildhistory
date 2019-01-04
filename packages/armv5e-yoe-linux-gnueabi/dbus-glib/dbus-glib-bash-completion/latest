@@ -1,10 +1,10 @@
 PV = 0.110
 PR = r0
 PKG = libdbus-glib-1-bash-completion
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = dbus-glib-bash-completion (=0.110)
 RDEPENDS = bash-completion dbus-glib (>= 0.110) dbus-lib (>= 1.12.10) expat (>= 2.2.6) glib-2.0 (>= 2.58.0) glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 26809
+PKGSIZE = 26813
 FILES = /usr/share/bash-completion /etc/bash_completion.d /usr/libexec/dbus-bash-completion-helper
 FILELIST = /etc/bash_completion.d/dbus-bash-completion.sh /usr/libexec/dbus-bash-completion-helper

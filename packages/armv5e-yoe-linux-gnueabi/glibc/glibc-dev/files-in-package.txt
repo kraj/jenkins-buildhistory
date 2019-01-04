@@ -15,7 +15,7 @@ drwxr-xr-x root       root              160 ./usr/include/arpa
 -rw-r--r-- root       root            10263 ./usr/include/arpa/telnet.h
 -rw-r--r-- root       root             3051 ./usr/include/arpa/tftp.h
 -rw-r--r-- root       root             4561 ./usr/include/assert.h
-drwxr-xr-x root       root             3580 ./usr/include/bits
+drwxr-xr-x root       root             3760 ./usr/include/bits
 -rw-r--r-- root       root              241 ./usr/include/bits/a.out.h
 -rw-r--r-- root       root             2449 ./usr/include/bits/byteswap.h
 -rw-r--r-- root       root             4138 ./usr/include/bits/cmathcalls.h
@@ -148,7 +148,7 @@ drwxr-xr-x root       root             3580 ./usr/include/bits
 -rw-r--r-- root       root             1048 ./usr/include/bits/stdint-uintn.h
 -rw-r--r-- root       root            12678 ./usr/include/bits/stdio2.h
 -rw-r--r-- root       root             5583 ./usr/include/bits/stdio.h
--rw-r--r-- root       root             3013 ./usr/include/bits/stdio-ldbl.h
+-rw-r--r-- root       root             2842 ./usr/include/bits/stdio-ldbl.h
 -rw-r--r-- root       root             1212 ./usr/include/bits/stdio_lim.h
 -rw-r--r-- root       root             1377 ./usr/include/bits/stdlib-bsearch.h
 -rw-r--r-- root       root             1114 ./usr/include/bits/stdlib-float.h
@@ -165,7 +165,16 @@ drwxr-xr-x root       root             3580 ./usr/include/bits
 -rw-r--r-- root       root             1205 ./usr/include/bits/syslog-ldbl.h
 -rw-r--r-- root       root             1060 ./usr/include/bits/syslog-path.h
 -rw-r--r-- root       root             2952 ./usr/include/bits/sysmacros.h
--rw-r--r-- root       root             5363 ./usr/include/bits/termios.h
+-rw-r--r-- root       root             1818 ./usr/include/bits/termios-baud.h
+-rw-r--r-- root       root             1273 ./usr/include/bits/termios-c_cc.h
+-rw-r--r-- root       root             1224 ./usr/include/bits/termios-c_cflag.h
+-rw-r--r-- root       root             1930 ./usr/include/bits/termios-c_iflag.h
+-rw-r--r-- root       root             2588 ./usr/include/bits/termios-c_lflag.h
+-rw-r--r-- root       root             2816 ./usr/include/bits/termios-c_oflag.h
+-rw-r--r-- root       root             2167 ./usr/include/bits/termios.h
+-rw-r--r-- root       root              963 ./usr/include/bits/termios-misc.h
+-rw-r--r-- root       root             1427 ./usr/include/bits/termios-struct.h
+-rw-r--r-- root       root             1056 ./usr/include/bits/termios-tcflow.h
 -rw-r--r-- root       root             6720 ./usr/include/bits/thread-shared-types.h
 -rw-r--r-- root       root             1339 ./usr/include/bits/time64.h
 -rw-r--r-- root       root             2998 ./usr/include/bits/time.h
@@ -221,7 +230,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root             2286 ./usr/include/bits/waitstatus.h
 -rw-r--r-- root       root            20505 ./usr/include/bits/wchar2.h
 -rw-r--r-- root       root             1905 ./usr/include/bits/wchar.h
--rw-r--r-- root       root             2423 ./usr/include/bits/wchar-ldbl.h
+-rw-r--r-- root       root             2250 ./usr/include/bits/wchar-ldbl.h
 -rw-r--r-- root       root             6301 ./usr/include/bits/wctype-wchar.h
 -rw-r--r-- root       root              921 ./usr/include/bits/wordsize-32.h
 -rw-r--r-- root       root             1934 ./usr/include/bits/wordsize.h
@@ -241,7 +250,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits/types
 -rw-r--r-- root       root             2039 ./usr/include/error.h
 -rw-r--r-- root       root             1522 ./usr/include/execinfo.h
 -rw-r--r-- root       root            10958 ./usr/include/fcntl.h
--rw-r--r-- root       root            15721 ./usr/include/features.h
+-rw-r--r-- root       root            16743 ./usr/include/features.h
 -rw-r--r-- root       root             5857 ./usr/include/fenv.h
 -rw-r--r-- root       root             3239 ./usr/include/fmtmsg.h
 -rw-r--r-- root       root             2295 ./usr/include/fnmatch.h
@@ -366,7 +375,7 @@ drwxr-xr-x root       root              100 ./usr/include/scsi
 -rw-r--r-- root       root             2289 ./usr/include/stdc-predef.h
 -rw-r--r-- root       root             8469 ./usr/include/stdint.h
 -rw-r--r-- root       root             2799 ./usr/include/stdio_ext.h
--rw-r--r-- root       root            30168 ./usr/include/stdio.h
+-rw-r--r-- root       root            29949 ./usr/include/stdio.h
 -rw-r--r-- root       root            35654 ./usr/include/stdlib.h
 -rw-r--r-- root       root            17545 ./usr/include/string.h
 -rw-r--r-- root       root             4752 ./usr/include/strings.h
@@ -476,17 +485,17 @@ drwxr-xr-x root       root             1720 ./usr/include/sys
 -rw-r--r-- root       root             4099 ./usr/include/utmpx.h
 -rw-r--r-- root       root             1955 ./usr/include/values.h
 -rw-r--r-- root       root               22 ./usr/include/wait.h
--rw-r--r-- root       root            31111 ./usr/include/wchar.h
+-rw-r--r-- root       root            31039 ./usr/include/wchar.h
 -rw-r--r-- root       root             5548 ./usr/include/wctype.h
 -rw-r--r-- root       root             2501 ./usr/include/wordexp.h
 drwxr-xr-x root       root              480 ./usr/lib
--rw-r--r-- root       root             2908 ./usr/lib/crt1.o
+-rw-r--r-- root       root             2912 ./usr/lib/crt1.o
 -rw-r--r-- root       root             2188 ./usr/lib/crti.o
 -rw-r--r-- root       root             1780 ./usr/lib/crtn.o
--rw-r--r-- root       root             6948 ./usr/lib/gcrt1.o
+-rw-r--r-- root       root             6952 ./usr/lib/gcrt1.o
 lrwxrwxrwx root       root               21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 lrwxrwxrwx root       root               30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
--rw-r--r-- root       root           131386 ./usr/lib/libc_nonshared.a
+-rw-r--r-- root       root           131474 ./usr/lib/libc_nonshared.a
 -rw-r--r-- root       root              243 ./usr/lib/libc.so
 lrwxrwxrwx root       root               20 ./usr/lib/libdl.so -> ../../lib/libdl.so.2
 lrwxrwxrwx root       root               19 ./usr/lib/libm.so -> ../../lib/libm.so.6
@@ -501,4 +510,4 @@ lrwxrwxrwx root       root               20 ./usr/lib/librt.so -> ../../lib/libr
 lrwxrwxrwx root       root               27 ./usr/lib/libthread_db.so -> ../../lib/libthread_db.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libutil.so -> ../../lib/libutil.so.1
 -rw-r--r-- root       root             1136 ./usr/lib/Mcrt1.o
--rw-r--r-- root       root             2860 ./usr/lib/Scrt1.o
+-rw-r--r-- root       root             2864 ./usr/lib/Scrt1.o

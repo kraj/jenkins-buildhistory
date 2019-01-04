@@ -1,10 +1,10 @@
 PV = 2.6.9
 PR = r0
 PKG = libfko-daemon
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = fwknop-daemon (=2.6.9)
 RDEPENDS = fwknop (>= 2.6.9) glibc (>= 2.29) libpcap (>= 1.8.1)
 RRECOMMENDS = 
-PKGSIZE = 148928
+PKGSIZE = 148932
 FILES = /usr/sbin/fwknopd /etc/fwknop/access.conf /etc/fwknop/fwknopd.conf
 FILELIST = /etc/fwknop/access.conf /etc/fwknop/fwknopd.conf /usr/sbin/fwknopd

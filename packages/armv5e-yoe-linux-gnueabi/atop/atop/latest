@@ -1,9 +1,9 @@
 PV = 2.3.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) ncurses-libncurses (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013) procps zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 456982
+PKGSIZE = 456990
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/atop /usr/lib/atop/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-sleep /lib/systemd/system/atop.service
 FILELIST = /etc/cron.d/atop /etc/logrotate.d/psaccs_atop /etc/logrotate.d/psaccu_atop /etc/tmpfiles.d/atop.conf /lib/systemd/system-sleep/atop-pm.sh /lib/systemd/system/atop.service /usr/bin/atop /usr/bin/atop-2.3.0 /usr/bin/atopsar /usr/bin/atopsar-2.3.0 /usr/share/atop/atop.daily /var/volatile/log/atop/dummy_after /var/volatile/log/atop/dummy_before
