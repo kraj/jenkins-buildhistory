@@ -1,5 +1,5 @@
-PV = 0.1.102+gitAUTOINC+85d16f33a8
+PV = 0.24.2+gitAUTOINC+aa82b2fb32
 PR = r0
-DEPENDS = cmake-native luajit ncurses pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+DEPENDS = cmake-native elfutils jq jsoncpp luajit ncurses openssl pkgconfig-native tbb virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
 PACKAGES = sysdig-dbg sysdig-staticdev sysdig-dev sysdig-doc sysdig-locale sysdig
 LAYER = openembedded-layer

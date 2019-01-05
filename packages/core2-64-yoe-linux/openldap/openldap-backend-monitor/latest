@@ -1,9 +1,9 @@
 PV = 2.4.46
 PR = r0
 PKG = libldap-2.4-backend-monitor
-PKGR = r0.42
+PKGR = r0.43
 RPROVIDES = openldap-backend-monitor (=2.4.46)
-RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.5) libgcrypt (>= 1.8.4) openldap (>= 2.4.46)
+RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.4) libgcrypt (>= 1.8.4) openldap (>= 2.4.46)
 RRECOMMENDS = 
 PKGSIZE = 105068
 FILES = /usr/libexec/openldap/back_monitor.so /usr/libexec/openldap/back_monitor-2.4.so.2 /usr/libexec/openldap/back_monitor-2.4.so.2.10.9
