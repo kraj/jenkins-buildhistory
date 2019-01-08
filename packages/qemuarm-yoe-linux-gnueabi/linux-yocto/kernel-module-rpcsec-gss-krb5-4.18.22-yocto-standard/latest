@@ -1,0 +1,10 @@
+PV = 4.18.22+gitAUTOINC+9e348b6f9d_5a58952eb0
+PR = r0
+PKGV = 4.18.22+git0+9e348b6f9d_5a58952eb0
+PKGR = r0.1
+RPROVIDES = kernel-module-rpcsec-gss-krb5
+RDEPENDS = kernel-4.18.22-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 32768
+FILES = /lib/modules/4.18.22-yocto-standard/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko /etc/modules-load.d/rpcsec_gss_krb5.conf /etc/modprobe.d/rpcsec_gss_krb5.conf
+FILELIST = /lib/modules/4.18.22-yocto-standard/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko
