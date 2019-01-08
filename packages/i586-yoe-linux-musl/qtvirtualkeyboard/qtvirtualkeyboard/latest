@@ -2,9 +2,9 @@ PV = 5.12.0+gitAUTOINC+5aaf55adcf
 PR = r0
 PKG = libqt5virtualkeyboard5
 PKGV = 5.12.0+git0+5aaf55adcf
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = qtvirtualkeyboard (=5.12.0+git0+5aaf55adcf)
-RDEPENDS = libstdc++ (>= 8.2.0) libxcb (>= 1.13.1) libxcb-xfixes (>= 1.13.1) musl (>= 1.1.20+git3+21a172dd36) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b)
+RDEPENDS = libstdc++ (>= 8.2.0) libxcb (>= 1.13.1) libxcb-xfixes (>= 1.13.1) musl (>= 1.1.20+git4+de7dc1318f) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b)
 RRECOMMENDS = qtvirtualkeyboard-dictionaries qtvirtualkeyboard-plugins qtvirtualkeyboard-qmlplugins
 PKGSIZE = 13618119
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtvirtualkeyboard /usr/lib/qtvirtualkeyboard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec /usr/share/qtvirtualkeyboard/lipi_toolkit

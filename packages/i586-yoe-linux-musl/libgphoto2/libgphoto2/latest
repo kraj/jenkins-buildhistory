@@ -1,9 +1,9 @@
 PV = 2.5.17
 PR = r0
 PKG = libgphoto2-6
-PKGR = r0.50
+PKGR = r0.51
 RPROVIDES = libgphoto2 (=2.5.17)
-RDEPENDS = libexif (>= 0.6.21) libgphotoport (>= 2.5.17) libltdl (>= 2.4.6) musl (>= 1.1.20+git3+21a172dd36)
+RDEPENDS = libexif (>= 0.6.21) libgphotoport (>= 2.5.17) libltdl (>= 2.4.6) musl (>= 1.1.20+git4+de7dc1318f)
 RRECOMMENDS = libgphoto2-camlibs
 PKGSIZE = 2521109
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgphoto2 /usr/lib/libgphoto2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/udev/* /usr/share/hal

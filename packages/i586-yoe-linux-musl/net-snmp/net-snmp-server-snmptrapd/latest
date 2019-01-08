@@ -1,8 +1,8 @@
 PV = 5.8
 PR = r0
-PKGR = r0.54
+PKGR = r0.55
 RPROVIDES = net-snmp-server-snmptrapd-systemd
-RDEPENDS = musl (>= 1.1.20+git3+21a172dd36) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8) net-snmp-lib-trapd (>= 5.8) net-snmp-server-snmpd
+RDEPENDS = musl (>= 1.1.20+git4+de7dc1318f) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8) net-snmp-lib-trapd (>= 5.8) net-snmp-server-snmpd
 RRECOMMENDS = 
 RREPLACES = net-snmp-server-snmptrapd-systemd
 RCONFLICTS = net-snmp-server-snmptrapd-systemd

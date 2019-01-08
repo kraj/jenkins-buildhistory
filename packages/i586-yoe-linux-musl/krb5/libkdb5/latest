@@ -1,9 +1,9 @@
 PV = 1.16.2
 PR = r0
 PKG = libkdb5-9
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = libkdb5 (=1.16.2)
-RDEPENDS = libcomerr (>= 1.44.3) libgssrpc (>= 1.16.2) libk5crypto (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2) musl (>= 1.1.20+git3+21a172dd36)
+RDEPENDS = libcomerr (>= 1.44.3) libgssrpc (>= 1.16.2) libk5crypto (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2) musl (>= 1.1.20+git4+de7dc1318f)
 RRECOMMENDS = 
 PKGSIZE = 79426
 FILES = /usr/lib/libkdb5.so.*
