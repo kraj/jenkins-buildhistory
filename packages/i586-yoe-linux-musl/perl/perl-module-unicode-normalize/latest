@@ -1,9 +1,9 @@
-PV = 5.24.4
+PV = 5.28.1
 PR = r0
-PKGR = r0.48
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.20+git4+de7dc1318f) perl perl-module-carp perl-module-dynaloader perl-module-exporter perl-module-strict perl-module-warnings
+RDEPENDS = musl (>= 1.1.20+git4+de7dc1318f) perl perl-module-exporter perl-module-strict perl-module-warnings perl-module-xsloader
 RRECOMMENDS = 
-PKGSIZE = 311532
-FILES = /usr/lib/perl/5.24.4/auto/Unicode/Normalize/Normalize.so /usr/lib/perl/5.24.4/Unicode/Normalize.pm
-FILELIST = /usr/lib/perl/5.24.4/Unicode/Normalize.pm /usr/lib/perl/5.24.4/auto/Unicode/Normalize/Normalize.so
+PKGSIZE = 312805
+FILES = /usr/lib/perl5/5.28.1/i586-linux/auto/Unicode/Normalize/Normalize.so /usr/lib/perl5/5.28.1/i586-linux/Unicode/Normalize.pm
+FILELIST = /usr/lib/perl5/5.28.1/i586-linux/Unicode/Normalize.pm /usr/lib/perl5/5.28.1/i586-linux/auto/Unicode/Normalize/Normalize.so
