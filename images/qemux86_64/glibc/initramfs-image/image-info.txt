@@ -1,0 +1,13 @@
+DISTRO = yoe
+DISTRO_VERSION = 2.6
+USER_CLASSES = buildstats buildhistory buildstats-summary image-mklibs image-prelink
+IMAGE_CLASSES = qemuboot qemuboot license_image
+IMAGE_FEATURES = 
+IMAGE_LINGUAS = 
+IMAGE_INSTALL = packagegroup-core-boot packagegroup-base-extended
+BAD_RECOMMENDATIONS = busybox-syslog
+NO_RECOMMENDATIONS = 
+PACKAGE_EXCLUDE = 
+ROOTFS_POSTPROCESS_COMMAND = write_package_manifest; license_create_manifest;  zap_empty_root_password ;     rootfs_update_timestamp ;   write_image_test_data ;  set_systemd_default_target; systemd_create_users; empty_var_volatile; sort_passwd; rootfs_reproducible;
+IMAGE_POSTPROCESS_COMMAND =  buildhistory_get_imageinfo ;
+IMAGESIZE = 9464
