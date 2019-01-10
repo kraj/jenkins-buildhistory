@@ -1,9 +1,9 @@
-PV = 2.0.0
-PR = r0+gitAUTOINC+1c0d5960b0
-PKGR = r0+gitAUTOINC+1c0d5960b0.43
+PV = 2.0.1
+PR = r0+gitAUTOINC+16a0d44f17
+PKGR = r0+gitAUTOINC+16a0d44f17.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) glibc-thread-db (>= 2.29) json-c (>= 0.13.1) libelf (>= 0.175)
 RRECOMMENDS = 
-PKGSIZE = 275826
+PKGSIZE = 274592
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/minicoredumper /usr/lib/minicoredumper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/minicoredumper.service
-FILELIST = /etc/default/minicoredumper /etc/default/minicoredumper.in /etc/minicoredumper/generic.recept.json /etc/minicoredumper/minicoredumper.cfg.json /etc/minicoredumper/minicoredumper.cfg.json.in /lib/systemd/system/minicoredumper.service /usr/bin/coreinject /usr/lib/libminicoredumper.so.2 /usr/lib/libminicoredumper.so.2.0.0 /usr/sbin/minicoredumper /usr/sbin/minicoredumper_regd /usr/sbin/minicoredumper_trigger
+FILELIST = /etc/default/minicoredumper /etc/default/minicoredumper.in /etc/minicoredumper/generic.recept.json /etc/minicoredumper/minicoredumper.cfg.json /etc/minicoredumper/minicoredumper.cfg.json.in /lib/systemd/system/minicoredumper.service /usr/bin/coreinject /usr/lib/libminicoredumper.so.2 /usr/lib/libminicoredumper.so.2.0.1 /usr/sbin/minicoredumper /usr/sbin/minicoredumper_regd /usr/sbin/minicoredumper_trigger

@@ -1,9 +1,9 @@
-PV = 5.24.4
+PV = 5.28.1
 PR = r0
-PKGR = r0.35
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) perl perl-module-carp perl-module-constant perl-module-dynaloader perl-module-exporter perl-module-integer perl-module-overload perl-module-strict perl-module-time-local perl-module-time-seconds
+RDEPENDS = glibc (>= 2.29) perl perl-module-constant perl-module-exporter perl-module-integer perl-module-overload perl-module-strict perl-module-time-local perl-module-time-seconds perl-module-xsloader
 RRECOMMENDS = 
-PKGSIZE = 91635
-FILES = /usr/lib/perl/5.24.4/auto/Time/Piece/Piece.so /usr/lib/perl/5.24.4/Time/Piece.pm
-FILELIST = /usr/lib/perl/5.24.4/Time/Piece.pm /usr/lib/perl/5.24.4/auto/Time/Piece/Piece.so
+PKGSIZE = 99032
+FILES = /usr/lib/perl5/5.28.1/aarch64-linux/auto/Time/Piece/Piece.so /usr/lib/perl5/5.28.1/aarch64-linux/Time/Piece.pm
+FILELIST = /usr/lib/perl5/5.28.1/aarch64-linux/Time/Piece.pm /usr/lib/perl5/5.28.1/aarch64-linux/auto/Time/Piece/Piece.so

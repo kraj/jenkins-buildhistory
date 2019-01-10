@@ -2,9 +2,9 @@ PV = 1.0.18+gitAUTOINC+1b077af62d
 PR = r0
 PKG = libsctp-dev
 PKGV = 1.0.18+git0+1b077af62d
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = lksctp-tools-dev (=1.0.18+git0+1b077af62d)
-RDEPENDS = lksctp-tools (= 1.0.18+git0+1b077af62d-r0.35) lksctp-tools-withsctp
+RDEPENDS = lksctp-tools (= 1.0.18+git0+1b077af62d-r0.36) lksctp-tools-withsctp
 RRECOMMENDS = glibc-dev lksctp-tools-withsctp-dev
 PKGSIZE = 148156
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lksctp-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config /usr/lib/libsctp.so /usr/lib/lksctp-tools/libwithsctp.so /usr/share/lksctp-tools/*.c /usr/share/lksctp-tools/*.h

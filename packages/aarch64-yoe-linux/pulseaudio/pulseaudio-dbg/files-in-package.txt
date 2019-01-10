@@ -15,7 +15,7 @@ drwxr-xr-x root       root              100 ./usr/lib/.debug
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/pulse
 drwxr-xr-x root       root               60 ./usr/libexec/pulse/.debug
--rwxr-xr-x root       root            27456 ./usr/libexec/pulse/.debug/gconf-helper
+-rwxr-xr-x root       root            26024 ./usr/libexec/pulse/.debug/gsettings-helper
 drwxr-xr-x root       root               60 ./usr/lib/pulse-12.2
 drwxr-xr-x root       root               60 ./usr/lib/pulse-12.2/modules
 drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
@@ -61,7 +61,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
 -rwxr-xr-x root       root            70624 ./usr/lib/pulse-12.2/modules/.debug/module-esound-sink.so
 -rwxr-xr-x root       root           128760 ./usr/lib/pulse-12.2/modules/.debug/module-filter-apply.so
 -rwxr-xr-x root       root            62192 ./usr/lib/pulse-12.2/modules/.debug/module-filter-heuristics.so
--rwxr-xr-x root       root            68400 ./usr/lib/pulse-12.2/modules/.debug/module-gconf.so
+-rwxr-xr-x root       root            68472 ./usr/lib/pulse-12.2/modules/.debug/module-gsettings.so
 -rwxr-xr-x root       root            43888 ./usr/lib/pulse-12.2/modules/.debug/module-http-protocol-tcp.so
 -rwxr-xr-x root       root            42992 ./usr/lib/pulse-12.2/modules/.debug/module-http-protocol-unix.so
 -rwxr-xr-x root       root            58984 ./usr/lib/pulse-12.2/modules/.debug/module-intended-roles.so
@@ -194,9 +194,9 @@ drwxr-xr-x root       root              120 ./usr/src/debug/pulseaudio/12.2-r0/p
 -rw-r--r-- root       root            81440 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/echo-cancel/module-echo-cancel.c
 -rw-r--r-- root       root             1950 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/echo-cancel/null.c
 -rw-r--r-- root       root             8324 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/echo-cancel/speex.c
-drwxr-xr-x root       root               80 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gconf
--rw-r--r-- root       root             3404 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gconf/gconf-helper.c
--rw-r--r-- root       root             2815 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gconf/module-gconf.c
+drwxr-xr-x root       root               80 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings
+-rw-r--r-- root       root             3842 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings/gsettings-helper.c
+-rw-r--r-- root       root             2824 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings/module-gsettings.c
 -rw-r--r-- root       root            27485 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/ladspa.h
 -rw-r--r-- root       root            10257 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/module-allow-passthrough.c
 -rw-r--r-- root       root             5450 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/module-always-sink.c
