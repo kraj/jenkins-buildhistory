@@ -6,7 +6,7 @@ drwxr-xr-x root       root              160 ./usr/bin/.debug
 -rwxr-xr-x root       root            81312 ./usr/bin/.debug/pactl
 -rwxr-xr-x root       root            22860 ./usr/bin/.debug/pasuspender
 -rwxr-xr-x root       root            17416 ./usr/bin/.debug/pax11publish
--rwxr-xr-x root       root           155004 ./usr/bin/.debug/pulseaudio
+-rwxr-xr-x root       root           154812 ./usr/bin/.debug/pulseaudio
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/.debug
 -rwxr-xr-x root       root            45592 ./usr/lib/.debug/libpulse-mainloop-glib.so.0.0.5
@@ -19,7 +19,7 @@ drwxr-xr-x root       root               60 ./usr/libexec/pulse/.debug
 drwxr-xr-x root       root               60 ./usr/lib/pulse-12.2
 drwxr-xr-x root       root               60 ./usr/lib/pulse-12.2/modules
 drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
--rwxr-xr-x root       root           587908 ./usr/lib/pulse-12.2/modules/.debug/libalsa-util.so
+-rwxr-xr-x root       root           587716 ./usr/lib/pulse-12.2/modules/.debug/libalsa-util.so
 -rwxr-xr-x root       root            14612 ./usr/lib/pulse-12.2/modules/.debug/libavahi-wrap.so
 -rwxr-xr-x root       root           163544 ./usr/lib/pulse-12.2/modules/.debug/libbluez5-util.so
 -rwxr-xr-x root       root            35988 ./usr/lib/pulse-12.2/modules/.debug/libcli.so
@@ -112,7 +112,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
 -rwxr-xr-x root       root            73032 ./usr/lib/pulse-12.2/modules/.debug/module-zeroconf-publish.so
 drwxr-xr-x root       root               60 ./usr/lib/pulseaudio
 drwxr-xr-x root       root              100 ./usr/lib/pulseaudio/.debug
--rwxr-xr-x root       root           921800 ./usr/lib/pulseaudio/.debug/libpulsecommon-12.2.so
+-rwxr-xr-x root       root           921596 ./usr/lib/pulseaudio/.debug/libpulsecommon-12.2.so
 -rwxr-xr-x root       root          1495148 ./usr/lib/pulseaudio/.debug/libpulsecore-12.2.so
 -rwxr-xr-x root       root            75092 ./usr/lib/pulseaudio/.debug/libpulsedsp.so
 drwxr-xr-x root       root               60 ./usr/src
@@ -132,18 +132,18 @@ drwxr-xr-x root       root              340 ./usr/src/debug/pulseaudio/12.2-r0/p
 -rw-r--r-- root       root             1157 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/cmdline.h
 -rw-r--r-- root       root             6427 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/cpulimit.c
 -rw-r--r-- root       root             1103 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/cpulimit.h
--rw-r--r-- root       root            29527 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/daemon-conf.c
+-rw-r--r-- root       root            29597 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/daemon-conf.c
 -rw-r--r-- root       root             4871 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/daemon-conf.h
 -rw-r--r-- root       root             4031 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/dumpmodules.c
 -rw-r--r-- root       root             1014 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/dumpmodules.h
 -rw-r--r-- root       root             3947 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/ltdl-bind-now.c
 -rw-r--r-- root       root              861 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/ltdl-bind-now.h
--rw-r--r-- root       root            35656 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/main.c
+-rw-r--r-- root       root            35831 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/main.c
 -rw-r--r-- root       root            16567 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/server-lookup.c
 -rw-r--r-- root       root             1371 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/daemon/server-lookup.h
 drwxr-xr-x root       root             1520 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules
 drwxr-xr-x root       root              300 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/alsa
--rw-r--r-- root       root           157660 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/alsa/alsa-mixer.c
+-rw-r--r-- root       root           157746 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/alsa/alsa-mixer.c
 -rw-r--r-- root       root            12555 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/alsa/alsa-mixer.h
 -rw-r--r-- root       root            86539 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/alsa/alsa-sink.c
 -rw-r--r-- root       root             1118 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/alsa/alsa-sink.h
@@ -196,7 +196,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/pulseaudio/12.2-r0/p
 -rw-r--r-- root       root             8324 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/echo-cancel/speex.c
 drwxr-xr-x root       root               80 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings
 -rw-r--r-- root       root             3842 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings/gsettings-helper.c
--rw-r--r-- root       root             2824 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings/module-gsettings.c
+-rw-r--r-- root       root             2839 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/gsettings/module-gsettings.c
 -rw-r--r-- root       root            27485 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/ladspa.h
 -rw-r--r-- root       root            10257 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/module-allow-passthrough.c
 -rw-r--r-- root       root             5450 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/modules/module-always-sink.c
@@ -334,7 +334,7 @@ drwxr-xr-x root       root             4760 ./usr/src/debug/pulseaudio/12.2-r0/p
 -rw-r--r-- root       root             2339 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/core-scache.h
 -rw-r--r-- root       root             7685 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/core-subscribe.c
 -rw-r--r-- root       root             1377 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/core-subscribe.h
--rw-r--r-- root       root            83747 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/core-util.c
+-rw-r--r-- root       root            83790 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/core-util.c
 -rw-r--r-- root       root             9190 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/core-util.h
 -rw-r--r-- root       root             4601 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/cpu-arm.c
 -rw-r--r-- root       root             1680 ./usr/src/debug/pulseaudio/12.2-r0/pulseaudio-12.2/src/pulsecore/cpu-arm.h
