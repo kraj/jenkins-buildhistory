@@ -1,0 +1,15 @@
+drwxr-xr-x root       root               60 ./lib
+lrwxrwxrwx root       root               18 ./lib/ld-musl-arm.so.1 -> ../usr/lib/libc.so
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+lrwxrwxrwx root       root               14 ./usr/bin/ldd -> ../lib/libc.so
+drwxr-xr-x root       root              220 ./usr/lib
+lrwxrwxrwx root       root                7 ./usr/lib/libcrypt.so -> libc.so
+-rwxr-xr-x root       root           694040 ./usr/lib/libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/libdl.so -> libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/libm.so -> libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/libpthread.so -> libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/libresolv.so -> libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/librt.so -> libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/libutil.so -> libc.so
+lrwxrwxrwx root       root                7 ./usr/lib/libxnet.so -> libc.so

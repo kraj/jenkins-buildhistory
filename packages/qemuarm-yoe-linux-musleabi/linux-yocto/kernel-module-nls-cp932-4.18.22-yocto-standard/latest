@@ -1,0 +1,10 @@
+PV = 4.18.22+gitAUTOINC+9e348b6f9d_5a58952eb0
+PR = r0
+PKGV = 4.18.22+git0+9e348b6f9d_5a58952eb0
+PKGR = r0.13
+RPROVIDES = kernel-module-nls-cp932
+RDEPENDS = kernel-4.18.22-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 85180
+FILES = /lib/modules/4.18.22-yocto-standard/kernel/fs/nls/nls_cp932.ko /etc/modules-load.d/nls_cp932.conf /etc/modprobe.d/nls_cp932.conf
+FILELIST = /lib/modules/4.18.22-yocto-standard/kernel/fs/nls/nls_cp932.ko

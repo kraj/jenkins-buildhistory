@@ -1,0 +1,10 @@
+PV = 8.2.0
+PR = r0
+PKG = libgcc-s-dev
+PKGR = r0.9
+RPROVIDES = libgcc-dev (=8.2.0)
+RDEPENDS = libgcc (= 8.2.0-r0.9)
+RRECOMMENDS = musl-dev
+PKGSIZE = 23782362
+FILES = /lib/libgcc*.so /usr/lib/arm-yoe-linux-gnueabi /usr/lib/arm-yoe-linux-musleabi/8.2.0* /usr/lib/arm-yoe*
+FILELIST = /lib/libgcc_s.so /usr/lib/arm-yoe-linux-musleabi/8.2.0/crtbegin.o /usr/lib/arm-yoe-linux-musleabi/8.2.0/crtbeginS.o /usr/lib/arm-yoe-linux-musleabi/8.2.0/crtbeginT.o /usr/lib/arm-yoe-linux-musleabi/8.2.0/crtend.o /usr/lib/arm-yoe-linux-musleabi/8.2.0/crtendS.o /usr/lib/arm-yoe-linux-musleabi/8.2.0/crtfastmath.o /usr/lib/arm-yoe-linux-musleabi/8.2.0/libgcc.a /usr/lib/arm-yoe-linux-musleabi/8.2.0/libgcc_eh.a /usr/lib/arm-yoe-linux-musleabi/8.2.0/libgcov.a

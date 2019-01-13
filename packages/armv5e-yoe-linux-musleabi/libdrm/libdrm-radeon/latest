@@ -1,0 +1,10 @@
+PV = 2.4.96
+PR = r0
+PKG = libdrm-radeon1
+PKGR = r0.9
+RPROVIDES = libdrm-radeon (=2.4.96)
+RDEPENDS = libdrm (>= 2.4.96) musl (>= 1.1.20+git0+de7dc1318f)
+RRECOMMENDS = 
+PKGSIZE = 46486
+FILES = /usr/lib/libdrm_radeon.so.*
+FILELIST = /usr/lib/libdrm_radeon.so.1 /usr/lib/libdrm_radeon.so.1.0.1
