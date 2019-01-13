@@ -1,0 +1,5 @@
+PV = 9.0.16-1
+PR = r0
+DEPENDS = pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/kernel virtual/libc
+PACKAGES = drbd-dbg drbd-staticdev drbd-dev drbd-doc drbd-locale drbd kernel-module-drbd-4.18.22-yocto-standard kernel-module-drbd-transport-tcp-4.18.22-yocto-standard
+LAYER = networking-layer

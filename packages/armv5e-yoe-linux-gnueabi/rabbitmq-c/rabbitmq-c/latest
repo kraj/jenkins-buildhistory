@@ -1,9 +1,9 @@
 PV = 0.7.0
 PR = r0
 PKG = librabbitmq4
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = rabbitmq-c (=0.7.0)
-RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1a) libssl (>= 1.1.1a)
+RDEPENDS = glibc (>= 2.28.9000) libcrypto (>= 1.1.1a) libssl (>= 1.1.1a)
 RRECOMMENDS = 
 PKGSIZE = 71328
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rabbitmq-c /usr/lib/rabbitmq-c/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

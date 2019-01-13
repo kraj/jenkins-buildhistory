@@ -2,9 +2,9 @@ PV = 1.2.104+gitAUTOINC+75f041e225
 PR = r0
 PKG = libcherokee-server0
 PKGV = 1.2.104+git0+75f041e225
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = libcherokee-server (=1.2.104+git0+75f041e225)
-RDEPENDS = glibc (>= 2.29) libcherokee-base (>= 1.2.104+git0+75f041e225) libpcre (>= 8.42)
+RDEPENDS = glibc (>= 2.28.9000) libcherokee-base (>= 1.2.104+git0+75f041e225) libpcre (>= 8.42)
 RRECOMMENDS = 
 PKGSIZE = 149067
 FILES = /usr/lib/libcherokee-server.so.*

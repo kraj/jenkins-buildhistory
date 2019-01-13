@@ -1,8 +1,8 @@
 PV = 0.9.8
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.29) libbsd (>= 0.9.1) libevent (>= 2.1.8) os-release shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.28.9000) libbsd (>= 0.9.1) libevent (>= 2.1.8) os-release shadow
 RRECOMMENDS = 
 PKGSIZE = 299585
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lldpd /usr/lib/lldpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sysusers.d /lib/systemd/system/lldpd.service
