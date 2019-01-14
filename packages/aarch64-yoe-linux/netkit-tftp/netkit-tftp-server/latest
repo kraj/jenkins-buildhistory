@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.36
+PKGR = r0.37
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) tcp-wrappers xinetd
+RDEPENDS = glibc (>= 2.28.9000) tcp-wrappers xinetd
 RRECOMMENDS = 
 PKGSIZE = 68521
 FILES = /usr/sbin/* /etc/xinetd.d/*
