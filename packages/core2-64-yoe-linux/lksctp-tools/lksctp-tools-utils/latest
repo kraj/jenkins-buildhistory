@@ -2,9 +2,9 @@ PV = 1.0.18+gitAUTOINC+1b077af62d
 PR = r0
 PKG = libsctp-utils
 PKGV = 1.0.18+git0+1b077af62d
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = lksctp-tools-utils (=1.0.18+git0+1b077af62d)
-RDEPENDS = glibc (>= 2.29) lksctp-tools (>= 1.0.18+git0+1b077af62d)
+RDEPENDS = glibc (>= 2.28.9000) lksctp-tools (>= 1.0.18+git0+1b077af62d)
 RRECOMMENDS = kernel-module-sctp
 PKGSIZE = 108317
 FILES = /usr/bin/*
