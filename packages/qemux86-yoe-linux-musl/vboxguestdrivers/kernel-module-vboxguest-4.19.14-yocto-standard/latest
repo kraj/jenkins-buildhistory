@@ -1,0 +1,9 @@
+PV = 5.2.22
+PR = r0
+PKGR = r0.30
+RPROVIDES = kernel-module-vboxguest
+RDEPENDS = kernel-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 269670
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/misc/vboxguest.ko /etc/modules-load.d/vboxguest.conf /etc/modprobe.d/vboxguest.conf
+FILELIST = /etc/modules-load.d/vboxguest.conf /lib/modules/4.19.14-yocto-standard/kernel/misc/vboxguest.ko

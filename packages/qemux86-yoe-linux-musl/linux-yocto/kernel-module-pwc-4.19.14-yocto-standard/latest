@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-pwc
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-videobuf2-common-4.19.14-yocto-standard kernel-module-videobuf2-v4l2-4.19.14-yocto-standard kernel-module-videobuf2-vmalloc-4.19.14-yocto-standard kernel-module-videodev-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 78684
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/drivers/media/usb/pwc/pwc.ko /etc/modules-load.d/pwc.conf /etc/modprobe.d/pwc.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/drivers/media/usb/pwc/pwc.ko

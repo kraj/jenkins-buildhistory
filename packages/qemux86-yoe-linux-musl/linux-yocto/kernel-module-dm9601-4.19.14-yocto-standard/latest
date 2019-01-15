@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-dm9601
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-usbnet-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12192
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/drivers/net/usb/dm9601.ko /etc/modules-load.d/dm9601.conf /etc/modprobe.d/dm9601.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/drivers/net/usb/dm9601.ko

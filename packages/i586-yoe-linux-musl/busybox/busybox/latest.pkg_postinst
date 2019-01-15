@@ -97,6 +97,7 @@ set -e
 	update-alternatives --install /sbin/logread logread /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/losetup losetup /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/lsmod lsmod /bin/busybox.nosuid 50
+	update-alternatives --install /sbin/mkfs.vfat mkfs.vfat /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/mkswap mkswap /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/modprobe modprobe /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/pivot_root pivot_root /bin/busybox.nosuid 50
@@ -111,7 +112,6 @@ set -e
 	update-alternatives --install /sbin/switch_root switch_root /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/sysctl sysctl /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/udhcpc udhcpc /bin/busybox.nosuid 50
-	update-alternatives --install /sbin/watchdog watchdog /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/[ lbracket /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/[[ [[ /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/awk awk /bin/busybox.nosuid 50
@@ -165,6 +165,7 @@ set -e
 	update-alternatives --install /usr/bin/setsid setsid /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/sha1sum sha1sum /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/sha256sum sha256sum /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/sha512sum sha512sum /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/shuf shuf /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/sort sort /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/strings strings /bin/busybox.nosuid 50
@@ -186,6 +187,7 @@ set -e
 	update-alternatives --install /usr/bin/which which /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/whoami whoami /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/xargs xargs /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/xz xz /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/xzcat xzcat /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/yes yes /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/addgroup addgroup /bin/busybox.nosuid 50

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./bin
 drwxr-xr-x root       root               80 ./bin/.debug
--rwxr-xr-x root       root          3098844 ./bin/.debug/busybox.nosuid
+-rwxr-xr-x root       root          3111292 ./bin/.debug/busybox.nosuid
 -rwxr-xr-x root       root           397932 ./bin/.debug/busybox.suid
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/src
@@ -151,7 +151,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/busybox/1.29.2-r0/bu
 -rw-r--r-- root       root            21059 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/findutils/xargs.c
 drwxr-xr-x root       root              340 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include
 -rw-r--r-- root       root              624 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include/applet_metadata.h
--rw-r--r-- root       root             9771 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include/applet_tables.h
+-rw-r--r-- root       root             9857 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include/applet_tables.h
 -rw-r--r-- root       root            10667 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include/bb_archive.h
 -rw-r--r-- root       root            20479 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include/bb_e2fs_defs.h
 -rw-r--r-- root       root             1559 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/include/busybox.h
@@ -302,14 +302,13 @@ drwxr-xr-x root       root              220 ./usr/src/debug/busybox/1.29.2-r0/bu
 -rw-r--r-- root       root             6080 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/loginutils/su.c
 -rw-r--r-- root       root             2291 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/loginutils/sulogin.c
 -rw-r--r-- root       root             3643 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/loginutils/vlock.c
-drwxr-xr-x root       root              180 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils
+drwxr-xr-x root       root              160 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils
 -rw-r--r-- root       root             5789 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/dc.c
 -rw-r--r-- root       root            57495 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/less.c
 -rw-r--r-- root       root             5094 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/microcom.c
 -rw-r--r-- root       root             3960 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/rfkill.c
 -rw-r--r-- root       root             2875 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/strings.c
 -rw-r--r-- root       root            14742 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/time.c
--rw-r--r-- root       root             4806 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/miscutils/watchdog.c
 drwxr-xr-x root       root              180 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/modutils
 -rw-r--r-- root       root             7201 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/modutils/depmod.c
 -rw-r--r-- root       root             2242 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/modutils/insmod.c
@@ -399,7 +398,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/busybox/1.29.2-r0/bu
 -rw-r--r-- root       root             6268 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/sysklogd/logread.c
 -rw-r--r-- root       root             1706 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/sysklogd/syslogd_and_logger.c
 -rw-r--r-- root       root            32705 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/sysklogd/syslogd.c
-drwxr-xr-x root       root              500 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux
+drwxr-xr-x root       root              520 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux
 -rw-r--r-- root       root             1202 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/blkid.c
 -rw-r--r-- root       root             3512 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/dmesg.c
 -rw-r--r-- root       root            17016 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/fbset.c
@@ -411,6 +410,7 @@ drwxr-xr-x root       root              500 ./usr/src/debug/busybox/1.29.2-r0/bu
 -rw-r--r-- root       root            10685 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/hwclock.c
 -rw-r--r-- root       root             4964 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/losetup.c
 -rw-r--r-- root       root             2303 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/mesg.c
+-rw-r--r-- root       root            23027 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/mkfs_vfat.c
 -rw-r--r-- root       root             5111 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/mkswap.c
 -rw-r--r-- root       root             6130 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/more.c
 -rw-r--r-- root       root            66428 ./usr/src/debug/busybox/1.29.2-r0/busybox-1.29.2/util-linux/mount.c

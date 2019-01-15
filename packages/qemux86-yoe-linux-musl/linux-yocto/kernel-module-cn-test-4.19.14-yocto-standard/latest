@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-cn-test
+RDEPENDS = kernel-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4360
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/samples/connector/cn_test.ko /etc/modules-load.d/cn_test.conf /etc/modprobe.d/cn_test.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/samples/connector/cn_test.ko
