@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.32
+RPROVIDES = kernel-module-lttng-probe-statedump
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-lttng-lib-ring-buffer-4.19.14-yocto-standard kernel-module-lttng-tracer-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 26888
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/lttng-modules/probes/lttng-probe-statedump.ko /etc/modules-load.d/lttng-probe-statedump.conf /etc/modprobe.d/lttng-probe-statedump.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/lttng-modules/probes/lttng-probe-statedump.ko

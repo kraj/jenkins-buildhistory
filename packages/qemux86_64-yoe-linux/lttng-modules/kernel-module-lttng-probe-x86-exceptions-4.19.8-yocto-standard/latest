@@ -1,9 +1,0 @@
-PV = 2.10.8
-PR = r0
-PKGR = r0.31
-RPROVIDES = kernel-module-lttng-probe-x86-exceptions
-RDEPENDS = kernel-4.19.8-yocto-standard kernel-module-lttng-tracer-4.19.8-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 8448
-FILES = /lib/modules/4.19.8-yocto-standard/kernel/lttng-modules/probes/lttng-probe-x86-exceptions.ko /etc/modules-load.d/lttng-probe-x86-exceptions.conf /etc/modprobe.d/lttng-probe-x86-exceptions.conf
-FILELIST = /lib/modules/4.19.8-yocto-standard/kernel/lttng-modules/probes/lttng-probe-x86-exceptions.ko

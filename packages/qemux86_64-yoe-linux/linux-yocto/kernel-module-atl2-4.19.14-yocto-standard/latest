@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-atl2
+RDEPENDS = kernel-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 48720
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/drivers/net/ethernet/atheros/atlx/atl2.ko /etc/modules-load.d/atl2.conf /etc/modprobe.d/atl2.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/drivers/net/ethernet/atheros/atlx/atl2.ko

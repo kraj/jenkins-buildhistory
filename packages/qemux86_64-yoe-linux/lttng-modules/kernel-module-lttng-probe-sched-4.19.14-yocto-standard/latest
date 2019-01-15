@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.32
+RPROVIDES = kernel-module-lttng-probe-sched
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-lttng-lib-ring-buffer-4.19.14-yocto-standard kernel-module-lttng-tracer-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 34856
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sched.ko /etc/modules-load.d/lttng-probe-sched.conf /etc/modprobe.d/lttng-probe-sched.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sched.ko

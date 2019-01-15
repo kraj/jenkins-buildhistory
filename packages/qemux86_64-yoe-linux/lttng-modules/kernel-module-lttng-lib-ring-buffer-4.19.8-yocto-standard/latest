@@ -1,9 +1,0 @@
-PV = 2.10.8
-PR = r0
-PKGR = r0.31
-RPROVIDES = kernel-module-lttng-lib-ring-buffer
-RDEPENDS = kernel-4.19.8-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 80696
-FILES = /lib/modules/4.19.8-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko /etc/modules-load.d/lttng-lib-ring-buffer.conf /etc/modprobe.d/lttng-lib-ring-buffer.conf
-FILELIST = /lib/modules/4.19.8-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko

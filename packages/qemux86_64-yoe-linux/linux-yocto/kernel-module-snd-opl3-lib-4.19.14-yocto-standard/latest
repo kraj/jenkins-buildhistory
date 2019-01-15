@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-opl3-lib
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-snd-4.19.14-yocto-standard kernel-module-snd-hwdep-4.19.14-yocto-standard kernel-module-snd-seq-device-4.19.14-yocto-standard kernel-module-snd-timer-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 18392
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/sound/drivers/opl3/snd-opl3-lib.ko /etc/modules-load.d/snd-opl3-lib.conf /etc/modprobe.d/snd-opl3-lib.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/sound/drivers/opl3/snd-opl3-lib.ko

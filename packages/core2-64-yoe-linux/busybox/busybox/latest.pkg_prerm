@@ -89,6 +89,7 @@ set -e
 	update-alternatives --remove  logread /bin/busybox.nosuid
 	update-alternatives --remove  losetup /bin/busybox.nosuid
 	update-alternatives --remove  lsmod /bin/busybox.nosuid
+	update-alternatives --remove  mkfs.vfat /bin/busybox.nosuid
 	update-alternatives --remove  mkswap /bin/busybox.nosuid
 	update-alternatives --remove  modprobe /bin/busybox.nosuid
 	update-alternatives --remove  pivot_root /bin/busybox.nosuid
@@ -103,7 +104,6 @@ set -e
 	update-alternatives --remove  switch_root /bin/busybox.nosuid
 	update-alternatives --remove  sysctl /bin/busybox.nosuid
 	update-alternatives --remove  udhcpc /bin/busybox.nosuid
-	update-alternatives --remove  watchdog /bin/busybox.nosuid
 	update-alternatives --remove  lbracket /bin/busybox.nosuid
 	update-alternatives --remove  [[ /bin/busybox.nosuid
 	update-alternatives --remove  awk /bin/busybox.nosuid
@@ -157,6 +157,7 @@ set -e
 	update-alternatives --remove  setsid /bin/busybox.nosuid
 	update-alternatives --remove  sha1sum /bin/busybox.nosuid
 	update-alternatives --remove  sha256sum /bin/busybox.nosuid
+	update-alternatives --remove  sha512sum /bin/busybox.nosuid
 	update-alternatives --remove  shuf /bin/busybox.nosuid
 	update-alternatives --remove  sort /bin/busybox.nosuid
 	update-alternatives --remove  strings /bin/busybox.nosuid
@@ -180,6 +181,7 @@ set -e
 	update-alternatives --remove  who /bin/busybox.nosuid
 	update-alternatives --remove  whoami /bin/busybox.nosuid
 	update-alternatives --remove  xargs /bin/busybox.nosuid
+	update-alternatives --remove  xz /bin/busybox.nosuid
 	update-alternatives --remove  xzcat /bin/busybox.nosuid
 	update-alternatives --remove  yes /bin/busybox.nosuid
 	update-alternatives --remove  addgroup /bin/busybox.nosuid

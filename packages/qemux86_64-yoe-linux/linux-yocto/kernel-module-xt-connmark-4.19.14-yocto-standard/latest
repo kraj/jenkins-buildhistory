@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-connmark
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-nf-conntrack-4.19.14-yocto-standard kernel-module-x-tables-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8368
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/net/netfilter/xt_connmark.ko /etc/modules-load.d/xt_connmark.conf /etc/modprobe.d/xt_connmark.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/net/netfilter/xt_connmark.ko
