@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-kretprobe-example
+RDEPENDS = kernel-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7496
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/samples/kprobes/kretprobe_example.ko /etc/modules-load.d/kretprobe_example.conf /etc/modprobe.d/kretprobe_example.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/samples/kprobes/kretprobe_example.ko
