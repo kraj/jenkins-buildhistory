@@ -1,9 +1,9 @@
 PV = 0.3.6
 PR = r0
 PKG = libaudiofile-dev
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = audiofile-dev (=0.3.6)
-RDEPENDS = audiofile (= 0.3.6-r0.8)
+RDEPENDS = audiofile (= 0.3.6-r0.9)
 RRECOMMENDS = alsa-lib-dev flac-dev glibc-dev libflac-dev libgcc-dev libogg-dev libstdc++-dev
 PKGSIZE = 28081
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/audiofile/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
