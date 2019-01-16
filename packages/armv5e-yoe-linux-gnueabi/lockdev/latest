@@ -1,5 +1,6 @@
-PV = 1.0.3+gitAUTOINC+16b899645d
+PE = 1
+PV = 1.0.3
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = perl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = lockdev-dbg lockdev-staticdev lockdev-dev lockdev-doc lockdev-locale lockdev-bin lockdev
 LAYER = openembedded-layer
