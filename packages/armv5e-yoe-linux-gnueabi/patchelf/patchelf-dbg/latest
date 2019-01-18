@@ -1,9 +1,9 @@
 PV = 0.9
 PR = r0
-PKGR = r0.10
+PKGR = r0.9
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
-PKGSIZE = 1565200
+PKGSIZE = 1768945
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/patchelf
+FILELIST = /usr/bin/.debug/patchelf /usr/src/debug/patchelf/0.9-r0/patchelf-0.9/src/elf.h /usr/src/debug/patchelf/0.9-r0/patchelf-0.9/src/patchelf.cc

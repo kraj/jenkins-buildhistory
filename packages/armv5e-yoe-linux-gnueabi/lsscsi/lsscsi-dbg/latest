@@ -1,9 +1,9 @@
 PV = 0.30
 PR = r0
-PKGR = r0.10
+PKGR = r0.9
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 228708
+PKGSIZE = 429312
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/lsscsi
+FILELIST = /usr/bin/.debug/lsscsi /usr/src/debug/lsscsi/0.30-r0/lsscsi-030r154/src/lsscsi.c /usr/src/debug/lsscsi/0.30-r0/lsscsi-030r154/src/sg_unaligned.h

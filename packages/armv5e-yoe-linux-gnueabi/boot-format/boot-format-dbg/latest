@@ -1,9 +1,9 @@
 PV = git
 PR = r6
-PKGR = r6.10
+PKGR = r6.9
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 61004
+PKGSIZE = 103216
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/boot_format
+FILELIST = /usr/bin/.debug/boot_format /usr/src/debug/boot-format/git-r6/git/boot_format.c /usr/src/debug/boot-format/git-r6/git/boot_format.h
