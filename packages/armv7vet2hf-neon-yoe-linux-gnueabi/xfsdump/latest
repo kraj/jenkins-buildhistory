@@ -1,0 +1,5 @@
+PV = 3.1.8
+PR = r0
+DEPENDS = attr autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc xfsprogs
+PACKAGES = xfsdump-dbg xfsdump-staticdev xfsdump-dev xfsdump-doc xfsdump-locale xfsdump
+LAYER = filesystems-layer

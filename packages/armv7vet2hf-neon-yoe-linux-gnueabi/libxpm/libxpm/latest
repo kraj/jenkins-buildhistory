@@ -1,0 +1,11 @@
+PE = 1
+PV = 3.5.12
+PR = r0
+PKG = libxpm4
+PKGR = r0.0
+RPROVIDES = libxpm (=3.5.12)
+RDEPENDS = glibc (>= 2.28.9000) libx11 (>= 1.6.7)
+RRECOMMENDS = 
+PKGSIZE = 42648
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxpm /usr/lib/libxpm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libXpm.so.4 /usr/lib/libXpm.so.4.11.0

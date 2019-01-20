@@ -1,9 +1,9 @@
 PV = 4.10
 PR = r0
-PKGR = r0.35
+PKGR = r0.37
 RPROVIDES = 
 RDEPENDS = bash glibc (>= 2.28.9000) libcap (>= 2.26) sudo
 RRECOMMENDS = 
-PKGSIZE = 106788
+PKGSIZE = 94600
 FILES = /usr/bin/kselftests/vm
 FILELIST = /usr/bin/kselftests/vm/compaction_test /usr/bin/kselftests/vm/hugepage-mmap /usr/bin/kselftests/vm/hugepage-shm /usr/bin/kselftests/vm/map_hugetlb /usr/bin/kselftests/vm/mlock-random-test /usr/bin/kselftests/vm/mlock2-tests /usr/bin/kselftests/vm/on-fault-limit /usr/bin/kselftests/vm/run_vmtests /usr/bin/kselftests/vm/thuge-gen /usr/bin/kselftests/vm/transhuge-stress /usr/bin/kselftests/vm/userfaultfd

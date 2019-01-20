@@ -1,0 +1,23 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/pkcs11
+-rw-r--r-- root       root              390 ./etc/pkcs11/pkcs11.conf.example
+drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
+-rwxr-xr-x root       root            22264 ./usr/bin/p11-kit
+-rwxr-xr-x root       root           132980 ./usr/bin/trust
+drwxr-xr-x root       root              120 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              100 ./usr/libexec/p11-kit
+-rwxr-xr-x root       root            14028 ./usr/libexec/p11-kit/p11-kit-remote
+-rwxr-xr-x root       root            26316 ./usr/libexec/p11-kit/p11-kit-server
+-rwxr-xr-x root       root             1154 ./usr/libexec/p11-kit/trust-extract-compat
+-rwxr-xr-x root       root           725472 ./usr/lib/libp11-kit.so.0.3.0
+lrwxrwxrwx root       root               19 ./usr/lib/libp11-kit.so.0 -> libp11-kit.so.0.3.0
+lrwxrwxrwx root       root               19 ./usr/lib/p11-kit-proxy.so -> libp11-kit.so.0.3.0
+drwxr-xr-x root       root               80 ./usr/lib/pkcs11
+-rwxr-xr-x root       root           684248 ./usr/lib/pkcs11/p11-kit-client.so
+-rwxr-xr-x root       root           149660 ./usr/lib/pkcs11/p11-kit-trust.so
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/p11-kit
+drwxr-xr-x root       root               60 ./usr/share/p11-kit/modules
+-rw-r--r-- root       root              776 ./usr/share/p11-kit/modules/p11-kit-trust.module

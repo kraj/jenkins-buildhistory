@@ -1,0 +1,5 @@
+PV = 1.0+AUTOINC+e5394615dd
+PR = r0
+DEPENDS = libusb1 pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = imx-usb-loader-dbg imx-usb-loader-staticdev imx-usb-loader-dev imx-usb-loader-doc imx-usb-loader-locale imx-usb-loader
+LAYER = freescale-layer

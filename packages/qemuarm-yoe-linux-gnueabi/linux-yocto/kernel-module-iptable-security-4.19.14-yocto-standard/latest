@@ -1,0 +1,10 @@
+PV = 4.19.14+gitAUTOINC+d9a3d567a7_eebb51300a
+PR = r0
+PKGV = 4.19.14+git0+d9a3d567a7_eebb51300a
+PKGR = r0.1
+RPROVIDES = kernel-module-iptable-security
+RDEPENDS = kernel-4.19.14-yocto-standard kernel-module-ip-tables-4.19.14-yocto-standard kernel-module-x-tables-4.19.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5456
+FILES = /lib/modules/4.19.14-yocto-standard/kernel/net/ipv4/netfilter/iptable_security.ko /etc/modules-load.d/iptable_security.conf /etc/modprobe.d/iptable_security.conf
+FILELIST = /lib/modules/4.19.14-yocto-standard/kernel/net/ipv4/netfilter/iptable_security.ko

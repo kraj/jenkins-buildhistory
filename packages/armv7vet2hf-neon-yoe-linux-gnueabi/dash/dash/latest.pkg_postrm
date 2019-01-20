@@ -1,0 +1,2 @@
+set -e
+    printf "$(grep -v "^/bin/dash$" $D/etc/shells)\n" > $D/etc/shells

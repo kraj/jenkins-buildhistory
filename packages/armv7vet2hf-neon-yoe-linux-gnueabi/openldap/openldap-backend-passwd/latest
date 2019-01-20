@@ -1,0 +1,10 @@
+PV = 2.4.46
+PR = r0
+PKG = libldap-2.4-backend-passwd
+PKGR = r0.0
+RPROVIDES = openldap-backend-passwd (=2.4.46)
+RDEPENDS = glibc (>= 2.28.9000) gnutls (>= 3.6.5) libgcrypt (>= 1.8.4) openldap (>= 2.4.46)
+RRECOMMENDS = 
+PKGSIZE = 9914
+FILES = /usr/libexec/openldap/back_passwd.so /usr/libexec/openldap/back_passwd-2.4.so.2 /usr/libexec/openldap/back_passwd-2.4.so.2.10.9
+FILELIST = /usr/libexec/openldap/back_passwd-2.4.so.2 /usr/libexec/openldap/back_passwd-2.4.so.2.10.9 /usr/libexec/openldap/back_passwd.so

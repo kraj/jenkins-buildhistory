@@ -1,0 +1,40 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root            10508 ./etc/init.d/rc.target
+drwxr-xr-x root       root               80 ./etc/target
+-rwxr-xr-x root       root               31 ./etc/target/lio_start.sh
+-rwxr-xr-x root       root               25 ./etc/target/tcm_start.sh
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/python2.7
+drwxr-xr-x root       root              480 ./usr/lib/python2.7/site-packages
+-rw-r--r-- root       root              324 ./usr/lib/python2.7/site-packages/lio-4.1-py2.7.egg-info
+-rwxr-xr-x root       root             9206 ./usr/lib/python2.7/site-packages/lio_dump.py
+-rw-r--r-- root       root             7805 ./usr/lib/python2.7/site-packages/lio_dump.pyc
+-rwxr-xr-x root       root            49477 ./usr/lib/python2.7/site-packages/lio_node.py
+-rw-r--r-- root       root            48869 ./usr/lib/python2.7/site-packages/lio_node.pyc
+-rw-r--r-- root       root              321 ./usr/lib/python2.7/site-packages/tcm-4.1-py2.7.egg-info
+-rwxr-xr-x root       root            10947 ./usr/lib/python2.7/site-packages/tcm_dump.py
+-rw-r--r-- root       root             9703 ./usr/lib/python2.7/site-packages/tcm_dump.pyc
+-rwxr-xr-x root       root            17866 ./usr/lib/python2.7/site-packages/tcm_fabric.py
+-rw-r--r-- root       root            13646 ./usr/lib/python2.7/site-packages/tcm_fabric.pyc
+-rw-r--r-- root       root             2896 ./usr/lib/python2.7/site-packages/tcm_fileio.py
+-rw-r--r-- root       root             2984 ./usr/lib/python2.7/site-packages/tcm_fileio.pyc
+-rw-r--r-- root       root             2223 ./usr/lib/python2.7/site-packages/tcm_iblock.py
+-rw-r--r-- root       root             2750 ./usr/lib/python2.7/site-packages/tcm_iblock.pyc
+-rwxr-xr-x root       root             8188 ./usr/lib/python2.7/site-packages/tcm_loop.py
+-rw-r--r-- root       root             8094 ./usr/lib/python2.7/site-packages/tcm_loop.pyc
+-rwxr-xr-x root       root            25385 ./usr/lib/python2.7/site-packages/tcm_node.py
+-rw-r--r-- root       root            27411 ./usr/lib/python2.7/site-packages/tcm_node.pyc
+-rw-r--r-- root       root             5212 ./usr/lib/python2.7/site-packages/tcm_pscsi.py
+-rw-r--r-- root       root             5053 ./usr/lib/python2.7/site-packages/tcm_pscsi.pyc
+-rw-r--r-- root       root             1428 ./usr/lib/python2.7/site-packages/tcm_ramdisk.py
+-rw-r--r-- root       root             1819 ./usr/lib/python2.7/site-packages/tcm_ramdisk.pyc
+drwxr-xr-x root       root              180 ./usr/sbin
+-rwxr-xr-x root       root             9860 ./usr/sbin/iscsi-name
+lrwxrwxrwx root       root               44 ./usr/sbin/lio_dump -> /usr/lib/python2.7/site-packages/lio_dump.py
+lrwxrwxrwx root       root               44 ./usr/sbin/lio_node -> /usr/lib/python2.7/site-packages/lio_node.py
+lrwxrwxrwx root       root               44 ./usr/sbin/tcm_dump -> /usr/lib/python2.7/site-packages/tcm_dump.py
+lrwxrwxrwx root       root               46 ./usr/sbin/tcm_fabric -> /usr/lib/python2.7/site-packages/tcm_fabric.py
+lrwxrwxrwx root       root               44 ./usr/sbin/tcm_loop -> /usr/lib/python2.7/site-packages/tcm_loop.py
+lrwxrwxrwx root       root               44 ./usr/sbin/tcm_node -> /usr/lib/python2.7/site-packages/tcm_node.py

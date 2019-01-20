@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man1/mailq.1 mailq.1 /usr/share/man/man1/mailq.1.postfix 120
+	update-alternatives --install /usr/share/man/man1/newaliases.1 newaliases.1 /usr/share/man/man1/newaliases.1.postfix 120
+	update-alternatives --install /usr/share/man/man1/sendmail.1 sendmail.1 /usr/share/man/man1/sendmail.1.postfix 120

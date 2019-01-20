@@ -1,0 +1,10 @@
+PV = 2.7.15
+PR = r1
+PKG = libpython2.7-1.0
+PKGR = r1.0
+RPROVIDES = libpython2 (=2.7.15)
+RDEPENDS = glibc (>= 2.28.9000)
+RRECOMMENDS = 
+PKGSIZE = 1200452
+FILES = /usr/lib/libpython*.so.*
+FILELIST = /usr/lib/libpython2.7.so.1.0

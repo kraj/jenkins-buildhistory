@@ -1,0 +1,5 @@
+PV = 3.8.0
+PR = r0
+DEPENDS = autoconf-archive-native autoconf-native automake-native e2fsprogs glib-2.0 gnu-config-native libgcrypt libtool-cross libtool-native libxml2 ncurses net-snmp openssl os-release pkgconfig-native popt systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = openhpi-libs openhpi-ptest openhpi-dbg openhpi-staticdev openhpi-dev openhpi-doc openhpi-locale openhpi
+LAYER = networking-layer

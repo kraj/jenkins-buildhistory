@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28.9000) libxcrypt (>= 4.4.2) quagga (>= 1.2.4) quagga-ospfd (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 19617
+FILES = /usr/sbin/ospfclient /usr/lib/libospfapiclient.so.*
+FILELIST = /usr/lib/libospfapiclient.so.0 /usr/lib/libospfapiclient.so.0.0.0 /usr/sbin/ospfclient

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cargo-native libstd-rs virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/arm-yoe-linux-gnueabi-rust virtual/libc
+PACKAGES = rust-hello-world-dbg rust-hello-world-staticdev rust-hello-world-dev rust-hello-world-doc rust-hello-world-locale rust-hello-world
+LAYER = rust-layer

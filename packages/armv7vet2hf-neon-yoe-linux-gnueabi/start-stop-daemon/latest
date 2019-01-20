@@ -1,0 +1,5 @@
+PV = 1.18.25
+PR = r0
+DEPENDS = autoconf-native automake-native bzip2 gettext-native gnu-config-native libtool-cross libtool-native ncurses perl perl-native pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc xz zlib
+PACKAGES = start-stop-daemon-dbg start-stop-daemon-staticdev start-stop-daemon-dev start-stop-daemon-doc start-stop-daemon-locale start-stop-daemon
+LAYER = openembedded-layer
