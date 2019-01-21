@@ -1,8 +1,8 @@
 PV = 1.31.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = rust-llvm (= 1.31.1-r0.8) rust-llvm-liblto
+RDEPENDS = rust-llvm (= 1.31.1-r0.9) rust-llvm-liblto
 RRECOMMENDS = libgcc-dev libstdc++-dev musl-dev rust-llvm-liblto-dev
 PKGSIZE = 15014798
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rust-llvm/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/llvm /usr/lib/llvm-rust/lib/*.so /usr/lib/llvm-rust/include /usr/lib/llvm-rust/share /usr/lib/llvm-rust/lib/cmake
