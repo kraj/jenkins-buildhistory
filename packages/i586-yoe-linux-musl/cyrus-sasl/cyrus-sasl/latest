@@ -1,9 +1,9 @@
 PV = 2.1.27
 PR = r0
 PKG = libsasl2-3
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = cyrus-sasl (=2.1.27)
-RDEPENDS = db (>= 5.3.28) libcrypto (>= 1.1.1a) musl (>= 1.1.20+git4+de7dc1318f)
+RDEPENDS = db (>= 5.3.28) libcrypto (>= 1.1.1a) musl (>= 1.1.21+git0+1691b23955)
 RRECOMMENDS = 
 PKGSIZE = 419893
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cyrus-sasl /usr/lib/cyrus-sasl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sasl2/*.so*

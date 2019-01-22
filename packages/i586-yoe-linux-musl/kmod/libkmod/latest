@@ -2,9 +2,9 @@ PV = 25+gitAUTOINC+aca4eca103
 PR = r0
 PKG = libkmod2
 PKGV = 25+git0+aca4eca103
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = libkmod (=25+git0+aca4eca103)
-RDEPENDS = musl (>= 1.1.20+git4+de7dc1318f) zlib (>= 1.2.11)
+RDEPENDS = musl (>= 1.1.21+git0+1691b23955) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 95700
 FILES = /lib/libkmod*.so.* /usr/lib/libkmod*.so.*

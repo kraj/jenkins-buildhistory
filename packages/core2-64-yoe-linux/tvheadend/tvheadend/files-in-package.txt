@@ -91,7 +91,7 @@ drwxr-xr-x root       root              440 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- root       root             1633 ./usr/share/tvheadend/data/dvb-scan/channels-conf/dvb-t/uk-Sandy-Heath
 -rw-r--r-- root       root            17987 ./usr/share/tvheadend/data/dvb-scan/COPYING
 -rw-r--r-- root       root            26423 ./usr/share/tvheadend/data/dvb-scan/COPYING.LGPL
-drwxr-xr-x root       root             1240 ./usr/share/tvheadend/data/dvb-scan/dvb-c
+drwxr-xr-x root       root             1280 ./usr/share/tvheadend/data/dvb-scan/dvb-c
 -rw-r--r-- root       root              948 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Innsbruck
 -rw-r--r-- root       root             3542 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Kabel-Braunau
 -rw-r--r-- root       root             5324 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Kabelsignal
@@ -106,6 +106,7 @@ drwxr-xr-x root       root             1240 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- root       root             4117 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-interGGA
 -rw-r--r-- root       root              220 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-quickline-ewaarberg
 -rw-r--r-- root       root             3733 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-Rega-Sense
+-rw-r--r-- root       root             3964 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-Sion-esr
 -rw-r--r-- root       root              218 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-Video2000
 -rw-r--r-- root       root              201 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-Zuerich-upc-cablecom
 -rw-r--r-- root       root             2280 ./usr/share/tvheadend/data/dvb-scan/dvb-c/cz-Moravianet
@@ -152,6 +153,7 @@ drwxr-xr-x root       root             1240 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- root       root             3138 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ro-Timisoara-DigiTV
 -rw-r--r-- root       root             4556 ./usr/share/tvheadend/data/dvb-scan/dvb-c/se-comhem
 -rw-r--r-- root       root             2159 ./usr/share/tvheadend/data/dvb-scan/dvb-c/se-Gothnet
+-rw-r--r-- root       root             4273 ./usr/share/tvheadend/data/dvb-scan/dvb-c/sk-UPC
 drwxr-xr-x root       root             2340 ./usr/share/tvheadend/data/dvb-scan/dvb-s
 -rw-r--r-- root       root             1166 ./usr/share/tvheadend/data/dvb-scan/dvb-s/ABS1-75.0E
 -rw-r--r-- root       root             2980 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Agila2_C-146.0E
@@ -268,7 +270,7 @@ drwxr-xr-x root       root             2340 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- root       root            14405 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Turksat-42.0E
 -rw-r--r-- root       root              485 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Vinasat1_C-132.0E
 -rw-r--r-- root       root             3586 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Yamal201-90.0E
-drwxr-xr-x root       root            22580 ./usr/share/tvheadend/data/dvb-scan/dvb-t
+drwxr-xr-x root       root            22600 ./usr/share/tvheadend/data/dvb-scan/dvb-t
 -rw-r--r-- root       root              920 ./usr/share/tvheadend/data/dvb-scan/dvb-t/ad-Andorra
 -rw-r--r-- root       root            11236 ./usr/share/tvheadend/data/dvb-scan/dvb-t/at-All
 -rwxr-xr-x root       root             1438 ./usr/share/tvheadend/data/dvb-scan/dvb-t/au-Adelaide
@@ -1284,7 +1286,7 @@ drwxr-xr-x root       root            22580 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- root       root              658 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-BanskaBystrica
 -rw-r--r-- root       root              660 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-BanskaStiavnica
 -rw-r--r-- root       root              644 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Bardejov
--rw-r--r-- root       root             1065 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Bratislava
+-rw-r--r-- root       root             2019 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Bratislava
 -rw-r--r-- root       root              638 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Cadca
 -rw-r--r-- root       root              638 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Detva
 -rw-r--r-- root       root              640 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Hnusta
@@ -1306,6 +1308,7 @@ drwxr-xr-x root       root            22580 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- root       root              654 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-StaraLubovna
 -rw-r--r-- root       root              642 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Sturovo
 -rw-r--r-- root       root              642 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Trencin
+-rw-r--r-- root       root              506 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Trnava
 -rw-r--r-- root       root              640 ./usr/share/tvheadend/data/dvb-scan/dvb-t/sk-Zilina
 -rw-r--r-- root       root             2486 ./usr/share/tvheadend/data/dvb-scan/dvb-t/tw-All
 -rw-r--r-- root       root              939 ./usr/share/tvheadend/data/dvb-scan/dvb-t/ua-Kharkov

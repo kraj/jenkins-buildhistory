@@ -1,9 +1,9 @@
 PV = 2.4.96
 PR = r0
 PKG = libdrm-freedreno1
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = libdrm-freedreno (=2.4.96)
-RDEPENDS = libdrm (>= 2.4.96) musl (>= 1.1.20+git4+de7dc1318f)
+RDEPENDS = libdrm (>= 2.4.96) musl (>= 1.1.21+git0+1691b23955)
 RRECOMMENDS = 
 PKGSIZE = 30057
 FILES = /usr/lib/libdrm_freedreno.so.*

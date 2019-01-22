@@ -1,8 +1,8 @@
 PV = 5.28.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = perl-module-config perl-module-strict perl-module-vars perl-module-warnings perl-module-warnings-register
-RDEPENDS = musl (>= 1.1.20+git4+de7dc1318f) perl-module-config-heavy
+RDEPENDS = musl (>= 1.1.21+git0+1691b23955) perl-module-config-heavy
 RRECOMMENDS = 
 PKGSIZE = 2746877
 FILES = /usr/bin/perl /usr/bin/perl.real /usr/bin/perl5.28.1 /usr/lib/libperl.so* /usr/lib/perl5/site_perl /usr/lib/perl5/5.28.1/Config.pm /usr/lib/perl5/5.28.1/*/Config_heavy-target.pl /usr/lib/perl5/config.sh /usr/lib/perl5/5.28.1/strict.pm /usr/lib/perl5/5.28.1/warnings.pm /usr/lib/perl5/5.28.1/warnings /usr/lib/perl5/5.28.1/vars.pm /usr/lib/perl5/site_perl

@@ -1,9 +1,9 @@
 PV = 3.6.5
 PR = r0
 PKG = libgnutls30
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = gnutls (=3.6.5)
-RDEPENDS = gmp (>= 6.1.2) libidn2 (>= 2.0.5) libunistring (>= 0.9.10) musl (>= 1.1.20+git4+de7dc1318f) nettle (>= 3.4.1)
+RDEPENDS = gmp (>= 6.1.2) libidn2 (>= 2.0.5) libunistring (>= 0.9.10) musl (>= 1.1.21+git0+1691b23955) nettle (>= 3.4.1)
 RRECOMMENDS = 
 PKGSIZE = 1878348
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gnutls /usr/lib/gnutls/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

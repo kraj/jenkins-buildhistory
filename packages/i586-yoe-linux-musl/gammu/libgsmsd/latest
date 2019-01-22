@@ -1,9 +1,9 @@
 PV = 1.32.0
 PR = r0
 PKG = libgsmsd7
-PKGR = r0.59
+PKGR = r0.60
 RPROVIDES = libgsmsd (=1.32.0)
-RDEPENDS = libdbi (>= 0.9.0) libgammu (>= 1.32.0) libmysqlclient (>= 5.5.62) musl (>= 1.1.20+git4+de7dc1318f) unixodbc (>= 2.3.6)
+RDEPENDS = libdbi (>= 0.9.0) libgammu (>= 1.32.0) libmysqlclient (>= 5.5.62) musl (>= 1.1.21+git0+1691b23955) unixodbc (>= 2.3.6)
 RRECOMMENDS = 
 PKGSIZE = 104276
 FILES = /usr/lib/libgsmsd.so.*

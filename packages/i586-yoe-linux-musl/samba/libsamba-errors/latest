@@ -1,9 +1,9 @@
 PV = 4.8.4
 PR = r0
 PKG = libsamba-errors1
-PKGR = r0.64
+PKGR = r0.65
 RPROVIDES = libsamba-errors (=4.8.4)
-RDEPENDS = libtalloc (>= 2.1.14) musl (>= 1.1.20+git4+de7dc1318f) samba-common
+RDEPENDS = libtalloc (>= 2.1.14) musl (>= 1.1.21+git0+1691b23955) samba-common
 RRECOMMENDS = 
 PKGSIZE = 980304
 FILES = /usr/lib/libsamba-errors.so.1
