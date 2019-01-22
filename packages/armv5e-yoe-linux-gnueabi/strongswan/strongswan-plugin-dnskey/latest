@@ -1,9 +1,9 @@
 PV = 5.7.1
 PR = r0
-PKGR = r0.10
+PKGR = r0.12
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28.9000) strongswan
 RRECOMMENDS = 
-PKGSIZE = 5809
+PKGSIZE = 5805
 FILES = /usr/lib/ipsec/plugins/libstrongswan-dnskey.so /etc/strongswan.d/charon/dnskey.conf
 FILELIST = /etc/strongswan.d/charon/dnskey.conf /usr/lib/ipsec/plugins/libstrongswan-dnskey.so

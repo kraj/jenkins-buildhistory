@@ -2,17 +2,17 @@ drwxr-xr-x root       root              100 ./etc
 drwxr-xr-x root       root               60 ./etc/runit
 drwxr-xr-x root       root               60 ./etc/runit/runsvdir
 drwxr-xr-x root       root               80 ./etc/runit/runsvdir/default
-lrwxrwxrwx root       root               18 ./etc/runit/runsvdir/default/getty-hvc0 -> /etc/sv/getty-hvc0
 lrwxrwxrwx root       root               21 ./etc/runit/runsvdir/default/getty-ttyAMA0 -> /etc/sv/getty-ttyAMA0
+lrwxrwxrwx root       root               21 ./etc/runit/runsvdir/default/getty-ttyAMA1 -> /etc/sv/getty-ttyAMA1
 drwxr-xr-x root       root               80 ./etc/service
-lrwxrwxrwx root       root               18 ./etc/service/getty-hvc0 -> /etc/sv/getty-hvc0
 lrwxrwxrwx root       root               21 ./etc/service/getty-ttyAMA0 -> /etc/sv/getty-ttyAMA0
+lrwxrwxrwx root       root               21 ./etc/service/getty-ttyAMA1 -> /etc/sv/getty-ttyAMA1
 drwxr-xr-x root       root               80 ./etc/sv
-drwxr-xr-x root       root              100 ./etc/sv/getty-hvc0
--rwxr-xr-x root       root               31 ./etc/sv/getty-hvc0/finish
--rwxr-xr-x root       root               45 ./etc/sv/getty-hvc0/run
-lrwxrwxrwx root       root               22 ./etc/sv/getty-hvc0/supervise -> /var/run/sv.getty-hvc0
 drwxr-xr-x root       root              100 ./etc/sv/getty-ttyAMA0
 -rwxr-xr-x root       root               34 ./etc/sv/getty-ttyAMA0/finish
 -rwxr-xr-x root       root               48 ./etc/sv/getty-ttyAMA0/run
 lrwxrwxrwx root       root               25 ./etc/sv/getty-ttyAMA0/supervise -> /var/run/sv.getty-ttyAMA0
+drwxr-xr-x root       root              100 ./etc/sv/getty-ttyAMA1
+-rwxr-xr-x root       root               34 ./etc/sv/getty-ttyAMA1/finish
+-rwxr-xr-x root       root               48 ./etc/sv/getty-ttyAMA1/run
+lrwxrwxrwx root       root               25 ./etc/sv/getty-ttyAMA1/supervise -> /var/run/sv.getty-ttyAMA1

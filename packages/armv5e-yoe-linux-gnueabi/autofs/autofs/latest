@@ -1,11 +1,11 @@
 PV = 5.1.5
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = autofs-systemd
 RDEPENDS = glibc (>= 2.28.9000) libnsl2 (>= 1.2.0+git0+37c5ffe303) libsystemd (>= 239) libtirpc (>= 1.0.3)
 RRECOMMENDS = 
 RREPLACES = autofs-systemd
 RCONFLICTS = autofs-systemd
-PKGSIZE = 2380336
+PKGSIZE = 2380268
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/autofs /usr/lib/autofs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/autofs.service
 FILELIST = /etc/auto.master /etc/auto.misc /etc/auto.net /etc/auto.smb /etc/autofs.conf /etc/autofs_ldap_auth.conf /etc/default/autofs /lib/systemd/system/autofs.service /usr/lib/autofs/lookup_dir.so /usr/lib/autofs/lookup_file.so /usr/lib/autofs/lookup_files.so /usr/lib/autofs/lookup_hosts.so /usr/lib/autofs/lookup_multi.so /usr/lib/autofs/lookup_nis.so /usr/lib/autofs/lookup_nisplus.so /usr/lib/autofs/lookup_program.so /usr/lib/autofs/lookup_userhome.so /usr/lib/autofs/lookup_yp.so /usr/lib/autofs/mount_afs.so /usr/lib/autofs/mount_autofs.so /usr/lib/autofs/mount_bind.so /usr/lib/autofs/mount_changer.so /usr/lib/autofs/mount_generic.so /usr/lib/autofs/mount_nfs.so /usr/lib/autofs/mount_nfs4.so /usr/lib/autofs/parse_amd.so /usr/lib/autofs/parse_sun.so /usr/sbin/automount

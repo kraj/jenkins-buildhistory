@@ -3,12 +3,15 @@ drwxr-xr-x root       root               40 ./etc/usb_modeswitch.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
--rw-r--r-- root       root            40499 ./lib/udev/rules.d/40-usb_modeswitch.rules
+-rw-r--r-- root       root            40478 ./lib/udev/rules.d/40-usb_modeswitch.rules
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root             9680 ./usr/share/usb_modeswitch
+drwxr-xr-x root       root             9780 ./usr/share/usb_modeswitch
 -rw-r--r-- root       root              130 ./usr/share/usb_modeswitch/03f0:002a
 -rw-r--r-- root       root              131 ./usr/share/usb_modeswitch/03f0:032a
+-rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:371d
+-rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:4b1d
+-rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:4e1d
 -rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:521d
 -rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:531d
 -rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:541d
@@ -20,6 +23,7 @@ drwxr-xr-x root       root             9680 ./usr/share/usb_modeswitch
 -rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:931d
 -rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:9a1d
 -rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:9d1d
+-rw-r--r-- root       root               28 ./usr/share/usb_modeswitch/03f0:a31d
 -rw-r--r-- root       root              138 ./usr/share/usb_modeswitch/0408:1000
 -rw-r--r-- root       root               85 ./usr/share/usb_modeswitch/0408:ea17
 -rw-r--r-- root       root               71 ./usr/share/usb_modeswitch/0408:ea25
@@ -77,9 +81,10 @@ drwxr-xr-x root       root             9680 ./usr/share/usb_modeswitch
 -rw-r--r-- root       root              105 ./usr/share/usb_modeswitch/07d1:a800
 -rw-r--r-- root       root               96 ./usr/share/usb_modeswitch/07d1:a804
 -rw-r--r-- root       root              141 ./usr/share/usb_modeswitch/07d1:f000
+-rw-r--r-- root       root               78 ./usr/share/usb_modeswitch/0846:0fff
 -rw-r--r-- root       root              130 ./usr/share/usb_modeswitch/0922:1001
--rw-r--r-- root       root               94 ./usr/share/usb_modeswitch/0922:1003
--rw-r--r-- root       root              102 ./usr/share/usb_modeswitch/0922:1007
+-rw-r--r-- root       root              137 ./usr/share/usb_modeswitch/0922:1003
+-rw-r--r-- root       root              145 ./usr/share/usb_modeswitch/0922:1007
 -rw-r--r-- root       root               72 ./usr/share/usb_modeswitch/0930:0d46
 -rw-r--r-- root       root               80 ./usr/share/usb_modeswitch/0ace:2011
 -rw-r--r-- root       root               80 ./usr/share/usb_modeswitch/0ace:20ff
@@ -169,7 +174,6 @@ drwxr-xr-x root       root             9680 ./usr/share/usb_modeswitch
 -rw-r--r-- root       root               68 ./usr/share/usb_modeswitch/1004:614e
 -rw-r--r-- root       root               73 ./usr/share/usb_modeswitch/1004:6156
 -rw-r--r-- root       root               91 ./usr/share/usb_modeswitch/1004:6190
--rw-r--r-- root       root               67 ./usr/share/usb_modeswitch/1004:61aa
 -rw-r--r-- root       root               72 ./usr/share/usb_modeswitch/1004:61dd
 -rw-r--r-- root       root               68 ./usr/share/usb_modeswitch/1004:61e7
 -rw-r--r-- root       root               81 ./usr/share/usb_modeswitch/1004:61eb
@@ -249,6 +253,7 @@ drwxr-xr-x root       root             9680 ./usr/share/usb_modeswitch
 -rw-r--r-- root       root               82 ./usr/share/usb_modeswitch/12d1:15d0
 -rw-r--r-- root       root               82 ./usr/share/usb_modeswitch/12d1:15d2
 -rw-r--r-- root       root               72 ./usr/share/usb_modeswitch/12d1:15e7
+-rw-r--r-- root       root               81 ./usr/share/usb_modeswitch/12d1:15ec
 -rw-r--r-- root       root               31 ./usr/share/usb_modeswitch/12d1:15f0
 -rw-r--r-- root       root              118 ./usr/share/usb_modeswitch/12d1:1805
 -rw-r--r-- root       root               96 ./usr/share/usb_modeswitch/12d1:1c0b
