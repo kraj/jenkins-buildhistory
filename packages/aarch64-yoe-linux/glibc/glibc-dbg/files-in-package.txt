@@ -3,14 +3,14 @@ drwxr-xr-x root       root              440 ./lib/.debug
 -rwxr-xr-x root       root          1268144 ./lib/.debug/ld-2.28.9000.so
 -rwxr-xr-x root       root           132888 ./lib/.debug/libanl-2.28.9000.so
 -rwxr-xr-x root       root            23656 ./lib/.debug/libBrokenLocale-2.28.9000.so
--rwxr-xr-x root       root         16354816 ./lib/.debug/libc-2.28.9000.so
+-rwxr-xr-x root       root         16355648 ./lib/.debug/libc-2.28.9000.so
 -rwxr-xr-x root       root           219320 ./lib/.debug/libdl-2.28.9000.so
 -rwxr-xr-x root       root          2299080 ./lib/.debug/libm-2.28.9000.so
 -rwxr-xr-x root       root            87104 ./lib/.debug/libmemusage.so
 -rwxr-xr-x root       root           726688 ./lib/.debug/libnsl-2.28.9000.so
 -rwxr-xr-x root       root           178256 ./lib/.debug/libnss_compat-2.28.9000.so
 -rwxr-xr-x root       root           263720 ./lib/.debug/libnss_db-2.28.9000.so
--rwxr-xr-x root       root           130328 ./lib/.debug/libnss_dns-2.28.9000.so
+-rwxr-xr-x root       root           132456 ./lib/.debug/libnss_dns-2.28.9000.so
 -rwxr-xr-x root       root           399232 ./lib/.debug/libnss_files-2.28.9000.so
 -rwxr-xr-x root       root           120744 ./lib/.debug/libnss_hesiod-2.28.9000.so
 -rwxr-xr-x root       root            10736 ./lib/.debug/libpcprofile.so
@@ -43,7 +43,7 @@ drwxr-xr-x root       root               60 ./usr/lib/audit/.debug
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              120 ./usr/sbin/.debug
 -rwxr-xr-x root       root            77208 ./usr/sbin/.debug/iconvconfig
--rwxr-xr-x root       root           834408 ./usr/sbin/.debug/nscd
+-rwxr-xr-x root       root           834416 ./usr/sbin/.debug/nscd
 -rwxr-xr-x root       root            53448 ./usr/sbin/.debug/zdump
 -rwxr-xr-x root       root           152448 ./usr/sbin/.debug/zic
 drwxr-xr-x root       root               60 ./usr/src
@@ -358,7 +358,7 @@ drwxr-xr-x root       root             1560 ./usr/src/debug/glibc/2.28.9000-r0/g
 -rw-r--r-- root       root              333 ./usr/src/debug/glibc/2.28.9000-r0/git/include/argp.h
 -rw-r--r-- root       root             1567 ./usr/src/debug/glibc/2.28.9000-r0/git/include/argz.h
 drwxr-xr-x root       root               80 ./usr/src/debug/glibc/2.28.9000-r0/git/include/arpa
--rw-r--r-- root       root              430 ./usr/src/debug/glibc/2.28.9000-r0/git/include/arpa/inet.h
+-rw-r--r-- root       root              472 ./usr/src/debug/glibc/2.28.9000-r0/git/include/arpa/inet.h
 -rw-r--r-- root       root             2494 ./usr/src/debug/glibc/2.28.9000-r0/git/include/arpa/nameser.h
 -rw-r--r-- root       root             1001 ./usr/src/debug/glibc/2.28.9000-r0/git/include/assert.h
 drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.28.9000-r0/git/include/bits
@@ -1342,9 +1342,9 @@ drwxr-xr-x root       root              620 ./usr/src/debug/glibc/2.28.9000-r0/g
 -rw-r--r-- root       root            69196 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/connections.c
 -rw-r--r-- root       root             2053 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/dbg_log.c
 -rw-r--r-- root       root             1109 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/dbg_log.h
--rw-r--r-- root       root             1660 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/gai.c
+-rw-r--r-- root       root             1630 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/gai.c
 -rw-r--r-- root       root             1565 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/gethstbyad_r.c
--rw-r--r-- root       root             1751 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/gethstbynm3_r.c
+-rw-r--r-- root       root             1720 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/gethstbynm3_r.c
 -rw-r--r-- root       root            15023 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/grpcache.c
 -rw-r--r-- root       root            16731 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/hstcache.c
 -rw-r--r-- root       root            11427 ./usr/src/debug/glibc/2.28.9000-r0/git/nscd/initgrcache.c
@@ -1369,7 +1369,7 @@ drwxr-xr-x root       root              620 ./usr/src/debug/glibc/2.28.9000-r0/g
 drwxr-xr-x root       root              480 ./usr/src/debug/glibc/2.28.9000-r0/git/nss
 -rw-r--r-- root       root             1764 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/compat-lookup.c
 -rw-r--r-- root       root             1435 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/databases.def
--rw-r--r-- root       root             7550 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/digits_dots.c
+-rw-r--r-- root       root             7525 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/digits_dots.c
 -rw-r--r-- root       root            19855 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/getent.c
 -rw-r--r-- root       root             1692 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/getnssent.c
 -rw-r--r-- root       root             7241 ./usr/src/debug/glibc/2.28.9000-r0/git/nss/getnssent_r.c
@@ -1516,7 +1516,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.28.9000-r0/g
 -rw-r--r-- root       root             4615 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/gai_suspend.c
 -rw-r--r-- root       root             4920 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/getaddrinfo_a.c
 -rw-r--r-- root       root             3820 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/herror.c
--rw-r--r-- root       root             5827 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/inet_addr.c
+-rw-r--r-- root       root             7285 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/inet_addr.c
 -rw-r--r-- root       root             1927 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/inet_neta.c
 -rw-r--r-- root       root             3130 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/inet_net_ntop.c
 -rw-r--r-- root       root             5318 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/inet_net_pton.c
@@ -1534,7 +1534,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.28.9000-r0/g
 -rw-r--r-- root       root             4825 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/ns_samedomain.c
 drwxr-xr-x root       root              100 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/nss_dns
 -rw-r--r-- root       root             4663 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/nss_dns/dns-canon.c
--rw-r--r-- root       root            38585 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/nss_dns/dns-host.c
+-rw-r--r-- root       root            39212 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/nss_dns/dns-host.c
 -rw-r--r-- root       root            13892 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/nss_dns/dns-network.c
 -rw-r--r-- root       root             3281 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/ns_ttl.c
 -rw-r--r-- root       root             5895 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res-close.c
@@ -1543,7 +1543,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/glibc/2.28.9000-r0/g
 -rw-r--r-- root       root            30496 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_debug.c
 -rw-r--r-- root       root            14282 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_hconf.c
 -rw-r--r-- root       root             2228 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_hconf.h
--rw-r--r-- root       root            24002 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_init.c
+-rw-r--r-- root       root            24146 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_init.c
 -rw-r--r-- root       root             4488 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_libc.c
 -rw-r--r-- root       root            10927 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/res_mkquery.c
 -rw-r--r-- root       root            23174 ./usr/src/debug/glibc/2.28.9000-r0/git/resolv/resolv_conf.c
@@ -2356,7 +2356,7 @@ drwxr-xr-x root       root             1140 ./usr/src/debug/glibc/2.28.9000-r0/g
 -rw-r--r-- root       root             4782 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/fpathconf.c
 -rw-r--r-- root       root             1755 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/gai_strerror.c
 -rw-r--r-- root       root              879 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/gai_strerror-strs.h
--rw-r--r-- root       root            66182 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/getaddrinfo.c
+-rw-r--r-- root       root            66188 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/getaddrinfo.c
 -rw-r--r-- root       root            12224 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/getcwd.c
 -rw-r--r-- root       root             1283 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/getdtsz.c
 -rw-r--r-- root       root             1416 ./usr/src/debug/glibc/2.28.9000-r0/git/sysdeps/posix/gethostname.c
