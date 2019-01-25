@@ -1,10 +1,10 @@
 PV = 0.4.0
 PR = r0
 PKG = libxcb-keysyms-dbg
-PKGR = r0.57
+PKGR = r0.58
 RPROVIDES = xcb-util-keysyms-dbg (=0.4.0)
 RDEPENDS = 
 RRECOMMENDS = libxcb-dbg musl-dbg
-PKGSIZE = 33913
+PKGSIZE = 15568
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libxcb-keysyms.so.1.0.0 /usr/src/debug/xcb-util-keysyms/0.4.0-r0/xcb-util-keysyms-0.4.0/keysyms/keysyms.c /usr/src/debug/xcb-util-keysyms/0.4.0-r0/xcb-util-keysyms-0.4.0/keysyms/xcb_keysyms.h
+FILELIST = /usr/lib/.debug/libxcb-keysyms.so.1.0.0
