@@ -1,9 +1,9 @@
 PV = 1.12
 PR = r0
 PKG = libmb-dev
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libmatchbox-dev (=1.12)
-RDEPENDS = libmatchbox (= 1.12-r0.13)
+RDEPENDS = libmatchbox (= 1.12-r0.14)
 RRECOMMENDS = glibc-dev jpeg-dev libjpeg-turbo-dev libpng-dev libx11-dev libxext-dev libxft-dev zlib-dev
 PKGSIZE = 76069
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmatchbox/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
