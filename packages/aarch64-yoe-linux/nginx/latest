@@ -1,5 +1,5 @@
 PV = 1.15.7
 PR = r0
 DEPENDS = base-files base-passwd libpcre openssl shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
-PACKAGES = nginx-dbg nginx-staticdev nginx-dev nginx-doc nginx-locale nginx
+PACKAGES = nginx-dbg nginx-staticdev nginx-dev nginx-doc nginx-locale nginx nginx-src
 LAYER = webserver
