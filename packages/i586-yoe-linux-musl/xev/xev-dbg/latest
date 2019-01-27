@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.2.2
 PR = r0
-PKGR = r0.51
+PKGR = r0.52
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = libx11-dbg libxrandr-dbg musl-dbg
-PKGSIZE = 54664
+PKGSIZE = 95458
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/xev
+FILELIST = /usr/bin/.debug/xev /usr/src/debug/xev/1_1.2.2-r0/xev-1.2.2/xev.c

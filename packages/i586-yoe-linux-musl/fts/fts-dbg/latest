@@ -1,10 +1,10 @@
 PV = 1.2.7
 PR = r0
 PKG = libfts-dbg
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = fts-dbg (=1.2.7)
 RDEPENDS = 
 RRECOMMENDS = musl-dbg
-PKGSIZE = 28080
+PKGSIZE = 66282
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libfts.so.0.0.0
+FILELIST = /usr/lib/.debug/libfts.so.0.0.0 /usr/src/debug/fts/1.2.7-r0/git/fts.c /usr/src/debug/fts/1.2.7-r0/git/fts.h

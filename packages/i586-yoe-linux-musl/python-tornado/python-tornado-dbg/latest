@@ -1,9 +1,9 @@
 PV = 5.1
 PR = r0
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = libpython2-dbg musl-dbg
-PKGSIZE = 19988
+PKGSIZE = 21652
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python2.7/site-packages/tornado/.debug/speedups.so
+FILELIST = /usr/lib/python2.7/site-packages/tornado/.debug/speedups.so /usr/src/debug/python-tornado/5.1-r0/tornado-5.1/tornado/speedups.c

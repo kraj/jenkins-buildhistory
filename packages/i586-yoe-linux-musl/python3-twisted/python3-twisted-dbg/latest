@@ -1,9 +1,9 @@
 PV = 18.4.0
 PR = r0
-PKGR = r0.57
+PKGR = r0.58
 RPROVIDES = 
 RDEPENDS = python3-twisted
 RRECOMMENDS = libpython3-dbg musl-dbg
-PKGSIZE = 53092
+PKGSIZE = 148373
 FILES = /usr/lib/debug /usr/src/debug /usr/lib/python3.5/site-packages/twisted/*/.debug /usr/lib/python3.5/site-packages/twisted/*/*/.debug
-FILELIST = /usr/lib/python3.5/site-packages/twisted/test/.debug/raiser.cpython-35m-i386-linux-gnu.so
+FILELIST = /usr/lib/python3.5/site-packages/twisted/test/.debug/raiser.cpython-35m-i386-linux-gnu.so /usr/src/debug/python3-twisted/18.4.0-r0/Twisted-18.4.0/src/twisted/test/raiser.c

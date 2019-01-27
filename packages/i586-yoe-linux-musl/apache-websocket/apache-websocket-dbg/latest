@@ -1,9 +1,9 @@
 PV = 0.1.1
 PR = r0
-PKGR = r0.53
+PKGR = r0.54
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = musl-dbg
-PKGSIZE = 56840
+PKGSIZE = 140606
 FILES = /usr/lib/debug /usr/src/debug /usr/lib/apache2/modules/.debug/*
-FILELIST = /usr/lib/apache2/modules/.debug/mod_websocket.so
+FILELIST = /usr/lib/apache2/modules/.debug/mod_websocket.so /usr/src/debug/apache-websocket/0.1.1-r0/git/mod_websocket.c /usr/src/debug/apache-websocket/0.1.1-r0/git/validate_utf8.h /usr/src/debug/apache-websocket/0.1.1-r0/git/websocket_plugin.h

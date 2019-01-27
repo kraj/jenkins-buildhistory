@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.3.1
 PR = r0
-PKGR = r0.52
+PKGR = r0.53
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = libx11-dbg libxkbfile-dbg musl-dbg
-PKGSIZE = 37472
+PKGSIZE = 70325
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/setxkbmap
+FILELIST = /usr/bin/.debug/setxkbmap /usr/src/debug/setxkbmap/1_1.3.1-r0/setxkbmap-1.3.1/setxkbmap.c
