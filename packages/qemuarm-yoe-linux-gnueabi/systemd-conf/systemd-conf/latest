@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r0
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 5529
-FILES = /etc/machine-id /etc/systemd
-FILELIST = /etc/machine-id /etc/systemd/coredump.conf /etc/systemd/journald.conf /etc/systemd/logind.conf /etc/systemd/system.conf /etc/systemd/user.conf
+PKGSIZE = 162
+FILES = /usr/lib/journald.conf.d/* /usr/lib/logind.conf.d/* /usr/lib/system.conf.d/* /etc/systemd/*
+FILELIST = /etc/systemd/journald.conf.d/00-systemd-conf.conf /etc/systemd/logind.conf.d/00-systemd-conf.conf /etc/systemd/system.conf.d/00-systemd-conf.conf /usr/lib/journald.conf.d/00-systemd-conf.conf /usr/lib/logind.conf.d/00-systemd-conf.conf /usr/lib/system.conf.d/00-systemd-conf.conf

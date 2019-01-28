@@ -4,16 +4,12 @@ set -e
 		/etc/init.d/syslog stop || :
 	fi
 	fi
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop syslogd.service klogd.service
-	fi
+	systemctl stop syslogd.service klogd.service
 
 	systemctl $OPTS disable syslogd.service klogd.service
 fi

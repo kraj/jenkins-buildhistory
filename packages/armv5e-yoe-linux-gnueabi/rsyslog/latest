@@ -1,5 +1,5 @@
 PV = 8.37.0
 PR = r0
-DEPENDS = autoconf-native automake-native bison-native curl flex-native gnu-config-native gnutls libestr libfastjson libgcrypt liblogging librelp libtool-cross libtool-native pkgconfig-native systemd systemd-systemctl-native util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc zlib
-PACKAGES = rsyslog-ptest rsyslog-dbg rsyslog-staticdev rsyslog-dev rsyslog-doc rsyslog-locale rsyslog
+DEPENDS = autoconf-native automake-native bison-native curl flex-native gnu-config-native gnutls libestr libfastjson libgcrypt liblogging librelp libtool-cross libtool-native pkgconfig-native systemd util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = rsyslog-ptest rsyslog-dbg rsyslog-staticdev rsyslog-dev rsyslog-doc rsyslog-locale rsyslog rsyslog-src
 LAYER = openembedded-layer

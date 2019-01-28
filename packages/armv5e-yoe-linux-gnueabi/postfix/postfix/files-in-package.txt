@@ -21,9 +21,11 @@ drwxr-xr-x root       root               40 ./etc/postfix/postfix-files.d
 -rw-r--r-- root       root            12666 ./etc/postfix/transport
 -rw-r--r-- root       root            12823 ./etc/postfix/virtual
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              416 ./lib/systemd/system/postfix.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-postfix.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 lrwxrwxrwx root       root               31 ./usr/bin/mailq.postfix -> ../../usr/sbin/sendmail.postfix
@@ -43,7 +45,7 @@ drwxr-xr-x root       root              720 ./usr/libexec/postfix
 -rwxr-xr-x root       root           190900 ./usr/libexec/postfix/master
 -rwxr-xr-x root       root           289276 ./usr/libexec/postfix/nqmgr
 -rwxr-xr-x root       root           285180 ./usr/libexec/postfix/oqmgr
--rwxr-xr-x root       root           240140 ./usr/libexec/postfix/pickup
+-rwxr-xr-x root       root           236044 ./usr/libexec/postfix/pickup
 -rwxr-xr-x root       root           269432 ./usr/libexec/postfix/pipe
 -rwxr-xr-x root       root             9492 ./usr/libexec/postfix/postfix-script
 -rwxr-xr-x root       root            32807 ./usr/libexec/postfix/postfix-tls-script

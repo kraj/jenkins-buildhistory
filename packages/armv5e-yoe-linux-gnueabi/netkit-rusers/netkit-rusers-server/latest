@@ -1,9 +1,9 @@
 PV = 0.17
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28.9000) libtirpc (>= 1.0.3) rpcbind tcp-wrappers xinetd
 RRECOMMENDS = 
-PKGSIZE = 10224
+PKGSIZE = 10228
 FILES = /usr/sbin/* /etc
 FILELIST = /etc/xinetd.d/rusersd /usr/sbin/rpc.rusersd

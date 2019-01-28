@@ -1,5 +1,5 @@
 PV = 2.27.1
 PR = r0
-DEPENDS = autoconf-native automake-native base-passwd gnu-config-native libtool-cross libtool-native systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/crypt virtual/libc virtual/update-alternatives
-PACKAGES = sthttpd-dbg sthttpd-staticdev sthttpd-dev sthttpd-doc sthttpd-locale sthttpd
+DEPENDS = autoconf-native automake-native base-passwd gnu-config-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/crypt virtual/libc virtual/update-alternatives
+PACKAGES = sthttpd-dbg sthttpd-staticdev sthttpd-dev sthttpd-doc sthttpd-locale sthttpd sthttpd-src
 LAYER = webserver

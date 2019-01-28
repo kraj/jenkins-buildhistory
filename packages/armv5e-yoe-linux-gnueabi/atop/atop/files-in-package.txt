@@ -7,15 +7,17 @@ drwxr-xr-x root       root               80 ./etc/logrotate.d
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               79 ./etc/tmpfiles.d/atop.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root              100 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              227 ./lib/systemd/system/atop.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-atop.preset
 drwxr-xr-x root       root               60 ./lib/systemd/system-sleep
 -rwxr-xr-x root       root              146 ./lib/systemd/system-sleep/atop-pm.sh
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root           231124 ./usr/bin/atop
--rwxr-xr-x root       root           231128 ./usr/bin/atop-2.3.0
+-rwxr-xr-x root       root           227032 ./usr/bin/atop
+-rwxr-xr-x root       root           227036 ./usr/bin/atop-2.3.0
 lrwxrwxrwx root       root               10 ./usr/bin/atopsar-2.3.0 -> atop-2.3.0
 lrwxrwxrwx root       root                4 ./usr/bin/atopsar -> atop
 drwxr-xr-x root       root               60 ./usr/share

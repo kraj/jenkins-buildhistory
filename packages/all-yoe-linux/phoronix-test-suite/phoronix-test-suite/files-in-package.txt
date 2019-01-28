@@ -2,10 +2,12 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/bash_completion.d
 -rw-r--r-- root       root              290 ./etc/bash_completion.d/phoronix-test-suite
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              292 ./lib/systemd/system/phoromatic-client.service
 -rw-r--r-- root       root              286 ./lib/systemd/system/phoromatic-server.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               68 ./lib/systemd/system-preset/98-phoronix-test-suite.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root             8091 ./usr/bin/phoronix-test-suite

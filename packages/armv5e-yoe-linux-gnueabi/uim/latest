@@ -1,5 +1,5 @@
 PV = 0.0
 PR = r0
-DEPENDS = systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
-PACKAGES = uim-dbg uim-staticdev uim-dev uim-doc uim-locale uim
+DEPENDS = virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = uim-dbg uim-staticdev uim-dev uim-doc uim-locale uim uim-src
 LAYER = meta-96boards

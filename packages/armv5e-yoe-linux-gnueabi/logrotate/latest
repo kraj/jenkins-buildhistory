@@ -1,5 +1,5 @@
 PV = 3.15.0
 PR = r0
-DEPENDS = acl autoconf-native automake-native coreutils gnu-config-native libtool-cross libtool-native popt systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
-PACKAGES = logrotate-dbg logrotate-staticdev logrotate-dev logrotate-doc logrotate-locale logrotate
+DEPENDS = acl autoconf-native automake-native coreutils gnu-config-native libtool-cross libtool-native popt virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = logrotate-dbg logrotate-staticdev logrotate-dev logrotate-doc logrotate-locale logrotate logrotate-src
 LAYER = core

@@ -1,9 +1,9 @@
 PV = 12.1.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28.9000)
 RRECOMMENDS = 
-PKGSIZE = 729937
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sysstat /usr/lib/sysstat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sa /lib/systemd/system/sysstat.service
-FILELIST = /etc/sysconfig/sysstat /etc/sysconfig/sysstat.ioconf /etc/tmpfiles.d/sysstat.conf /lib/systemd/system/sysstat.service /usr/bin/cifsiostat /usr/bin/iostat /usr/bin/mpstat /usr/bin/pidstat /usr/bin/sadf /usr/bin/sar /usr/bin/tapestat /usr/lib/sa/sa1 /usr/lib/sa/sa2 /usr/lib/sa/sadc
+PKGSIZE = 705416
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sysstat /usr/lib/sysstat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sa /lib/systemd/system-preset/98-sysstat.preset /lib/systemd/system/sysstat.service
+FILELIST = /etc/sysconfig/sysstat /etc/sysconfig/sysstat.ioconf /etc/tmpfiles.d/sysstat.conf /lib/systemd/system-preset/98-sysstat.preset /lib/systemd/system/sysstat.service /usr/bin/cifsiostat /usr/bin/iostat /usr/bin/mpstat /usr/bin/pidstat /usr/bin/sadf /usr/bin/sar /usr/bin/tapestat /usr/lib/sa/sa1 /usr/lib/sa/sa2 /usr/lib/sa/sadc

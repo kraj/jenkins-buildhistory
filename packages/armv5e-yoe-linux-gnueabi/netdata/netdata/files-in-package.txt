@@ -114,9 +114,11 @@ drwxr-xr-x root       root               60 ./etc/netdata/statsd.d
 -rw-r--r-- root       root             1914 ./etc/netdata/statsd.d/example.conf
 -rw-r--r-- root       root             5358 ./etc/netdata/stream.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              345 ./lib/systemd/system/netdata.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-netdata.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              120 ./usr/libexec/netdata
@@ -165,9 +167,9 @@ drwxr-xr-x root       root              320 ./usr/libexec/netdata/plugins.d
 -rwxr-xr-x root       root              110 ./usr/libexec/netdata/plugins.d/alarm-email.sh
 -rwxr-xr-x root       root            56551 ./usr/libexec/netdata/plugins.d/alarm-notify.sh
 -rwxr-xr-x root       root              265 ./usr/libexec/netdata/plugins.d/alarm-test.sh
--rwsr-xr-x root       root           112948 ./usr/libexec/netdata/plugins.d/apps.plugin
+-rwsr-xr-x root       root           112952 ./usr/libexec/netdata/plugins.d/apps.plugin
 -rwxr-xr-x root       root             4648 ./usr/libexec/netdata/plugins.d/cgroup-name.sh
--rwxr-xr-x root       root            35088 ./usr/libexec/netdata/plugins.d/cgroup-network
+-rwxr-xr-x root       root            35092 ./usr/libexec/netdata/plugins.d/cgroup-network
 -rwxr-xr-x root       root             1206 ./usr/libexec/netdata/plugins.d/charts.d.dryrun-helper.sh
 -rwxr-xr-x root       root            19622 ./usr/libexec/netdata/plugins.d/charts.d.plugin
 -rwxr-xr-x root       root             5146 ./usr/libexec/netdata/plugins.d/fping.plugin
@@ -302,7 +304,7 @@ drwxr-xr-x root       root              240 ./usr/libexec/netdata/python.d/pytho
 -rw-r--r-- root       root            11599 ./usr/libexec/netdata/python.d/varnish.chart.py
 -rw-r--r-- root       root            45479 ./usr/libexec/netdata/python.d/web_log.chart.py
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root           867728 ./usr/sbin/netdata
+-rwxr-xr-x root       root           859540 ./usr/sbin/netdata
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/netdata
 drwxr-xr-x root       root              580 ./usr/share/netdata/web
