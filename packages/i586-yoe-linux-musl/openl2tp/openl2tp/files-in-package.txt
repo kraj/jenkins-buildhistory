@@ -2,9 +2,11 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rwxr-xr-x root       root              558 ./etc/default/openl2tpd
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              657 ./lib/systemd/system/openl2tpd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               26 ./lib/systemd/system-preset/98-openl2tp.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root           222848 ./usr/bin/l2tpconfig

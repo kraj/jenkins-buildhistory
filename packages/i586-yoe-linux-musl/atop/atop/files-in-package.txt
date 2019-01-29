@@ -7,9 +7,11 @@ drwxr-xr-x root       root               80 ./etc/logrotate.d
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               79 ./etc/tmpfiles.d/atop.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root              100 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              227 ./lib/systemd/system/atop.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-atop.preset
 drwxr-xr-x root       root               60 ./lib/systemd/system-sleep
 -rwxr-xr-x root       root              146 ./lib/systemd/system-sleep/atop-pm.sh
 drwxr-xr-x root       root               80 ./usr

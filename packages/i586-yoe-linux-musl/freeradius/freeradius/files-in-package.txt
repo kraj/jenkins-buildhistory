@@ -246,8 +246,10 @@ lrwxrwxrwx root       root               29 ./etc/raddb/users -> ./mods-config/f
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               84 ./etc/tmpfiles.d/radiusd-volatiles.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-freeradius.preset
 -rw-r--r-- root       root              520 ./lib/systemd/system/radiusd.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root             3260 ./usr/lib

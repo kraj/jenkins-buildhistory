@@ -1,15 +1,11 @@
 #!/bin/sh
 set -e
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
-	fi
+	systemctl stop dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
 
 	systemctl $OPTS disable dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
 fi

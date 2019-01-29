@@ -14,9 +14,13 @@ drwxr-xr-x root       root               60 ./etc/pam.d
 -rw-r--r-- root       root              210 ./etc/pam.d/systemd-user
 lrwxrwxrwx root       root               34 ./etc/resolv-conf.systemd -> ../run/systemd/resolve/resolv.conf
 drwxr-xr-x root       root               40 ./etc/sysctl.d
-drwxr-xr-x root       root              120 ./etc/systemd
+drwxr-xr-x root       root              220 ./etc/systemd
+-rw-r--r-- root       root              615 ./etc/systemd/coredump.conf
+-rw-r--r-- root       root             1027 ./etc/systemd/journald.conf
+-rw-r--r-- root       root             1043 ./etc/systemd/logind.conf
 drwxr-xr-x root       root               40 ./etc/systemd/network
 drwxr-xr-x root       root              160 ./etc/systemd/system
+-rw-r--r-- root       root             1682 ./etc/systemd/system.conf
 lrwxrwxrwx root       root               52 ./etc/systemd/system/dbus-org.freedesktop.network1.service -> ../../../lib/systemd/system/systemd-networkd.service
 drwxr-xr-x root       root               60 ./etc/systemd/system/getty.target.wants
 lrwxrwxrwx root       root               45 ./etc/systemd/system/getty.target.wants/getty@tty1.service -> ../../../../lib/systemd/system/getty@.service
@@ -32,6 +36,7 @@ drwxr-xr-x root       root               60 ./etc/systemd/system/sysinit.target.
 lrwxrwxrwx root       root               56 ./etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service -> ../../../../lib/systemd/system/systemd-timesyncd.service
 -rw-r--r-- root       root              657 ./etc/systemd/timesyncd.conf
 drwxr-xr-x root       root               40 ./etc/systemd/user
+-rw-r--r-- root       root             1130 ./etc/systemd/user.conf
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root              225 ./etc/tmpfiles.d/00-create-volatile.conf
 drwxr-xr-x root       root               60 ./etc/xdg

@@ -32,9 +32,11 @@ drwxr-xr-x root       root              580 ./etc/keepalived/samples
 drwxr-xr-x root       root               60 ./etc/sysconfig
 -rw-r--r-- root       root              667 ./etc/sysconfig/keepalived
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              369 ./lib/systemd/system/keepalived.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               27 ./lib/systemd/system-preset/98-keepalived.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            46760 ./usr/bin/genhash

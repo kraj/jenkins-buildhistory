@@ -2,8 +2,10 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/tinyproxy
 -rw-r--r-- root       root            10878 ./etc/tinyproxy/tinyproxy.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               50 ./lib/systemd/system-preset/98-tinyproxy.preset
 -rw-r--r-- root       root              401 ./lib/systemd/system/tinyproxy.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin

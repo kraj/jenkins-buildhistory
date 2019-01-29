@@ -1,15 +1,11 @@
 #!/bin/sh
 set -e
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop polkit.service
-	fi
+	systemctl stop polkit.service
 
 	systemctl $OPTS disable polkit.service
 fi

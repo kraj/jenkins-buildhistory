@@ -13,8 +13,10 @@ drwxr-xr-x root       root               60 ./etc/network/if-pre-up.d
 -rwxr-xr-x root       root             1999 ./etc/network/if-pre-up.d/wpa-supplicant
 -rw------- root       root                0 ./etc/wpa_supplicant.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root              109 ./lib/systemd/system-preset/98-wpa-supplicant.preset
 -rw-r--r-- root       root              490 ./lib/systemd/system/wpa_supplicant-nl80211@.service
 -rw-r--r-- root       root              245 ./lib/systemd/system/wpa_supplicant.service
 -rw-r--r-- root       root              444 ./lib/systemd/system/wpa_supplicant@.service

@@ -13,13 +13,15 @@ drwxr-xr-x root       root               40 ./etc/NetworkManager/dnsmasq.d
 drwxr-xr-x root       root               40 ./etc/NetworkManager/dnsmasq-shared.d
 drwxr-xr-x root       root               40 ./etc/NetworkManager/system-connections
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
 -rw-r--r-- root       root              353 ./lib/systemd/system/NetworkManager-dispatcher.service
 -rw-r--r-- root       root             1326 ./lib/systemd/system/NetworkManager.service
 drwxr-xr-x root       root               60 ./lib/systemd/system/NetworkManager.service.d
 -rw-r--r-- root       root               33 ./lib/systemd/system/NetworkManager.service.d/NetworkManager-ovs.conf
 -rw-r--r-- root       root              302 ./lib/systemd/system/NetworkManager-wait-online.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               71 ./lib/systemd/system-preset/98-networkmanager.preset
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root              100 ./lib/udev/rules.d
 -rw-r--r-- root       root              523 ./lib/udev/rules.d/84-nm-drivers.rules

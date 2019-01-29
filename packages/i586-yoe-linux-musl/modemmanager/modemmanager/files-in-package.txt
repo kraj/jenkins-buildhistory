@@ -3,9 +3,11 @@ drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
 -rw-r--r-- root       root              422 ./etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              410 ./lib/systemd/system/ModemManager.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               28 ./lib/systemd/system-preset/98-modemmanager.preset
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root              400 ./lib/udev/rules.d
 -rw-r--r-- root       root              646 ./lib/udev/rules.d/77-mm-cinterion-port-types.rules

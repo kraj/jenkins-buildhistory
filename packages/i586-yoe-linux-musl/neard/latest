@@ -1,5 +1,5 @@
 PV = 0.16
 PR = r0
-DEPENDS = autoconf-native automake-native dbus glib-2.0 gnu-config-native libnl libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
-PACKAGES = neard-dbg neard-staticdev neard-dev neard-doc neard-locale neard
+DEPENDS = autoconf-native automake-native dbus glib-2.0 gnu-config-native libnl libtool-cross libtool-native pkgconfig-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = neard-dbg neard-staticdev neard-dev neard-doc neard-locale neard neard-src
 LAYER = core

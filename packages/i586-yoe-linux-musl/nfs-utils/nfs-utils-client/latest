@@ -1,9 +1,9 @@
 PV = 2.3.3
 PR = r0
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = 
 RDEPENDS = base-files base-passwd libcap (>= 2.26) libtirpc (>= 1.0.3) musl (>= 1.1.21+git0+1691b23955) nfs-utils-mount rpcbind shadow
 RRECOMMENDS = 
-PKGSIZE = 239325
-FILES = /usr/sbin/*statd /usr/sbin/rpc.idmapd /usr/sbin/sm-notify /usr/sbin/showmount /usr/sbin/nfsstat /var/lib/nfs /etc/nfs-utils.conf /etc/nfsmount.conf /etc/init.d/nfscommon /lib/systemd/system/nfs-statd.service /lib/systemd/system/nfs-statd.service
-FILELIST = /etc/nfs-utils.conf /etc/nfsmount.conf /lib/systemd/system/nfs-statd.service /usr/sbin/nfsstat /usr/sbin/rpc.statd /usr/sbin/showmount /usr/sbin/sm-notify /usr/sbin/start-statd /var/lib/nfs/etab /var/lib/nfs/rmtab /var/lib/nfs/statd/state
+PKGSIZE = 239350
+FILES = /usr/sbin/*statd /usr/sbin/rpc.idmapd /usr/sbin/sm-notify /usr/sbin/showmount /usr/sbin/nfsstat /var/lib/nfs /etc/nfs-utils.conf /etc/nfsmount.conf /etc/init.d/nfscommon /lib/systemd/system/nfs-statd.service /lib/systemd/system-preset/98-nfs-utils-client.preset /lib/systemd/system/nfs-statd.service
+FILELIST = /etc/nfs-utils.conf /etc/nfsmount.conf /lib/systemd/system-preset/98-nfs-utils-client.preset /lib/systemd/system/nfs-statd.service /usr/sbin/nfsstat /usr/sbin/rpc.statd /usr/sbin/showmount /usr/sbin/sm-notify /usr/sbin/start-statd /var/lib/nfs/etab /var/lib/nfs/rmtab /var/lib/nfs/statd/state

@@ -11,9 +11,11 @@ drwxr-xr-x root       root               60 ./etc/pam.d
 drwxr-xr-x root       root               60 ./etc/sysconfig
 -rw-r--r-- root       root              110 ./etc/sysconfig/crond
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              222 ./lib/systemd/system/crond.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-cronie.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            42840 ./usr/bin/cronnext

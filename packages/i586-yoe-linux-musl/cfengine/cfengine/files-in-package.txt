@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rw-r--r-- root       root               63 ./etc/default/cfengine3
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              200 ./lib/systemd/system
 -rw-r--r-- root       root              433 ./lib/systemd/system/cf-apache.service
 -rw-r--r-- root       root              851 ./lib/systemd/system/cfengine3.service
@@ -12,6 +12,8 @@ drwxr-xr-x root       root              200 ./lib/systemd/system
 -rw-r--r-- root       root             1150 ./lib/systemd/system/cf-postgres.service
 -rw-r--r-- root       root              638 ./lib/systemd/system/cf-runalerts.service
 -rw-r--r-- root       root              437 ./lib/systemd/system/cf-serverd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root              212 ./lib/systemd/system-preset/98-cfengine.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              240 ./usr/bin
 -rwxr-xr-x root       root           415252 ./usr/bin/cf-agent

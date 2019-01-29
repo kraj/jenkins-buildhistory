@@ -1,15 +1,11 @@
 #!/bin/sh
 set -e
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop gateone.service
-	fi
+	systemctl stop gateone.service
 
 	systemctl $OPTS disable gateone.service
 fi

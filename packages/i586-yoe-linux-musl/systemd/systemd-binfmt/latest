@@ -1,10 +1,10 @@
 PE = 1
 PV = 239
 PR = r0
-PKGR = r0.66
+PKGR = r0.67
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.21+git0+1691b23955) systemd (>= 239)
 RRECOMMENDS = kernel-module-binfmt-misc
-PKGSIZE = 12319
-FILES = /etc/binfmt.d/ /usr/lib/binfmt.d /lib/systemd/systemd-binfmt /lib/systemd/system/proc-sys-fs-binfmt_misc.* /lib/systemd/system/systemd-binfmt.service /lib/systemd/system/systemd-binfmt.service
-FILELIST = /lib/systemd/system/proc-sys-fs-binfmt_misc.automount /lib/systemd/system/proc-sys-fs-binfmt_misc.mount /lib/systemd/system/systemd-binfmt.service /lib/systemd/systemd-binfmt
+PKGSIZE = 12349
+FILES = /etc/binfmt.d/ /usr/lib/binfmt.d /lib/systemd/systemd-binfmt /lib/systemd/system/proc-sys-fs-binfmt_misc.* /lib/systemd/system/systemd-binfmt.service /lib/systemd/system-preset/98-systemd-binfmt.preset /lib/systemd/system/systemd-binfmt.service
+FILELIST = /lib/systemd/system-preset/98-systemd-binfmt.preset /lib/systemd/system/proc-sys-fs-binfmt_misc.automount /lib/systemd/system/proc-sys-fs-binfmt_misc.mount /lib/systemd/system/systemd-binfmt.service /lib/systemd/systemd-binfmt

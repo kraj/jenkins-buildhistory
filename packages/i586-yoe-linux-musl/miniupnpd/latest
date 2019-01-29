@@ -1,5 +1,5 @@
 PV = 2.1.20180706
 PR = r0
-DEPENDS = autoconf-native automake-native gettext-native gnu-config-native iptables libmnl libnetfilter-conntrack libtool-cross libtool-native net-tools pkgconfig-native systemd-systemctl-native util-linux virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
-PACKAGES = miniupnpd-dbg miniupnpd-staticdev miniupnpd-dev miniupnpd-doc miniupnpd-locale miniupnpd
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native iptables libmnl libnetfilter-conntrack libtool-cross libtool-native net-tools pkgconfig-native util-linux virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = miniupnpd-dbg miniupnpd-staticdev miniupnpd-dev miniupnpd-doc miniupnpd-locale miniupnpd miniupnpd-src
 LAYER = networking-layer
