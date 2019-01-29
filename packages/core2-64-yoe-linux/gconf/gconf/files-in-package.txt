@@ -1,4 +1,7 @@
-drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/dbus-1
+drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
+-rw-r--r-- root       root              570 ./etc/dbus-1/system.d/org.gnome.GConf.Defaults.conf
 drwxr-xr-x root       root              120 ./etc/gconf
 drwxr-xr-x root       root               60 ./etc/gconf/2
 -rw-r--r-- root       root             1448 ./etc/gconf/2/path
@@ -15,8 +18,9 @@ drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root            22696 ./usr/bin/gsettings-data-convert
 -rwxr-xr-x root       root            41802 ./usr/bin/gsettings-schema-convert
 drwxr-xr-x root       root              140 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root               80 ./usr/libexec
 -rwxr-xr-x root       root            47392 ./usr/libexec/gconfd-2
+-rwxr-xr-x root       root            31136 ./usr/libexec/gconf-defaults-mechanism
 drwxr-xr-x root       root               60 ./usr/lib/GConf
 drwxr-xr-x root       root               80 ./usr/lib/GConf/2
 -rwxr-xr-x root       root            55600 ./usr/lib/GConf/2/libgconfbackend-oldxml.so
@@ -28,7 +32,12 @@ drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
 -rw-r--r-- root       root            14836 ./usr/lib/girepository-1.0/GConf-2.0.typelib
 -rwxr-xr-x root       root           203384 ./usr/lib/libgconf-2.so.4.1.5
 lrwxrwxrwx root       root               19 ./usr/lib/libgconf-2.so.4 -> libgconf-2.so.4.1.5
-drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/dbus-1
+drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
 -rw-r--r-- root       root               64 ./usr/share/dbus-1/services/org.gnome.GConf.service
+drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services
+-rw-r--r-- root       root               99 ./usr/share/dbus-1/system-services/org.gnome.GConf.Defaults.service
+drwxr-xr-x root       root               60 ./usr/share/polkit-1
+drwxr-xr-x root       root               60 ./usr/share/polkit-1/actions
+-rw-r--r-- root       root            28750 ./usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy
