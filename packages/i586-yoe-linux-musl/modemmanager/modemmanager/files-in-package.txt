@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
--rw-r--r-- root       root              422 ./etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
+-rw-r--r-- root       root            10016 ./etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -70,8 +70,8 @@ drwxr-xr-x root       root              680 ./usr/lib/ModemManager
 -rwxr-xr-x root       root            17768 ./usr/lib/ModemManager/libmm-plugin-x22x.so
 -rwxr-xr-x root       root            79248 ./usr/lib/ModemManager/libmm-plugin-zte.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          1583108 ./usr/sbin/ModemManager
-drwxr-xr-x root       root               80 ./usr/share
+-rwxr-xr-x root       root          1587204 ./usr/sbin/ModemManager
+drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              380 ./usr/share/dbus-1/interfaces
 -rw-r--r-- root       root            11760 ./usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Bearer.xml
@@ -98,3 +98,6 @@ drwxr-xr-x root       root               60 ./usr/share/icons/hicolor
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/22x22
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/22x22/apps
 -rw-r--r-- root       root              817 ./usr/share/icons/hicolor/22x22/apps/ModemManager.png
+drwxr-xr-x root       root               60 ./usr/share/polkit-1
+drwxr-xr-x root       root               60 ./usr/share/polkit-1/actions
+-rw-r--r-- root       root            27859 ./usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy

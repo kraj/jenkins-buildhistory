@@ -1,19 +1,14 @@
 #!/bin/sh
 set -e
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl daemon-reload
-	fi
+	systemctl daemon-reload
+	systemctl preset var-volatile-lib.service var-volatile-cache.service var-volatile-spool.service var-volatile-srv.service
 
-	systemctl $OPTS enable var-volatile-lib.service var-volatile-cache.service var-volatile-spool.service var-volatile-srv.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
+	if [ "enable" = "enable" ]; then
 		systemctl --no-block restart var-volatile-lib.service var-volatile-cache.service var-volatile-spool.service var-volatile-srv.service
 	fi
 fi

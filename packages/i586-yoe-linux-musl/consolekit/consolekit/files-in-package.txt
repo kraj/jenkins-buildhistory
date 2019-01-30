@@ -48,8 +48,8 @@ drwxr-xr-x root       root              120 ./usr/sbin
 -rwxr-xr-x root       root            17728 ./usr/sbin/ck-log-system-restart
 -rwxr-xr-x root       root            17724 ./usr/sbin/ck-log-system-start
 -rwxr-xr-x root       root            17724 ./usr/sbin/ck-log-system-stop
--rwxr-xr-x root       root           165544 ./usr/sbin/console-kit-daemon
-drwxr-xr-x root       root               60 ./usr/share
+-rwxr-xr-x root       root           169640 ./usr/sbin/console-kit-daemon
+drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              100 ./usr/share/dbus-1/interfaces
 -rw-r--r-- root       root            14059 ./usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Manager.xml
@@ -57,3 +57,6 @@ drwxr-xr-x root       root              100 ./usr/share/dbus-1/interfaces
 -rw-r--r-- root       root            16704 ./usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Session.xml
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services
 -rw-r--r-- root       root              146 ./usr/share/dbus-1/system-services/org.freedesktop.ConsoleKit.service
+drwxr-xr-x root       root               60 ./usr/share/polkit-1
+drwxr-xr-x root       root               60 ./usr/share/polkit-1/actions
+-rw-r--r-- root       root             1652 ./usr/share/polkit-1/actions/org.freedesktop.consolekit.policy
