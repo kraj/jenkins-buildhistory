@@ -1,9 +1,9 @@
 PV = 1.13
 PR = r0
-PKGR = r0.39
+PKGR = r0.40
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 624
-FILES = /usr/sbin/wcnss-start /lib/systemd/system/wcnss-start.service /lib/systemd/system/wcnss-start.service
-FILELIST = /lib/systemd/system/wcnss-start.service /usr/sbin/wcnss-start
+PKGSIZE = 651
+FILES = /usr/sbin/wcnss-start /lib/systemd/system/wcnss-start.service /lib/systemd/system-preset/98-wcnss-start.preset /lib/systemd/system/wcnss-start.service
+FILELIST = /lib/systemd/system-preset/98-wcnss-start.preset /lib/systemd/system/wcnss-start.service /usr/sbin/wcnss-start

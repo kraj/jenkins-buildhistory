@@ -1,5 +1,5 @@
-PV = 1.31.0
+PV = 1.51.03
 PR = r0
-DEPENDS = cmake-native curl libxml2 ninja-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native curl gnu-config-native libtool-cross libtool-native libxml2 pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = xmlrpc-c-dbg xmlrpc-c-staticdev xmlrpc-c-dev xmlrpc-c-doc xmlrpc-c-locale xmlrpc-c xmlrpc-c-src
 LAYER = openembedded-layer

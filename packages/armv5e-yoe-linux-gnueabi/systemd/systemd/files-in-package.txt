@@ -1,9 +1,8 @@
-drwxr-xr-x root       root              240 ./bin
+drwxr-xr-x root       root              220 ./bin
 -rwxr-xr-x root       root            54920 ./bin/journalctl
 -rwxr-xr-x root       root            42648 ./bin/loginctl
 -rwxr-xr-x root       root            38540 ./bin/networkctl
 -rwxr-xr-x root       root           169856 ./bin/systemctl
--rwxr-xr-x root       root            30340 ./bin/systemd-firstboot
 -rwxr-xr-x root       root           108548 ./bin/systemd-hwdb
 -rwxr-xr-x root       root            13964 ./bin/systemd-machine-id-setup
 -rwxr-xr-x root       root             9864 ./bin/systemd-notify
@@ -52,14 +51,14 @@ drwxr-xr-x root       root               60 ./lib/modprobe.d
 drwxr-xr-x root       root               60 ./lib/security
 -rwxr-xr-x root       root           306156 ./lib/security/pam_systemd.so
 drwxr-xr-x root       root              800 ./lib/systemd
--rwxr-xr-x root       root          1946424 ./lib/systemd/libsystemd-shared-239.so
+-rwxr-xr-x root       root          1950520 ./lib/systemd/libsystemd-shared-239.so
 drwxr-xr-x root       root              120 ./lib/systemd/network
 -rw-r--r-- root       root              645 ./lib/systemd/network/80-container-host0.network
 -rw-r--r-- root       root              718 ./lib/systemd/network/80-container-ve.network
 -rw-r--r-- root       root              704 ./lib/systemd/network/80-container-vz.network
 -rw-r--r-- root       root              412 ./lib/systemd/network/99-default.link
 -rw-r--r-- root       root              678 ./lib/systemd/resolv.conf
-drwxr-xr-x root       root             3040 ./lib/systemd/system
+drwxr-xr-x root       root             3020 ./lib/systemd/system
 lrwxrwxrwx root       root               14 ./lib/systemd/system/autovt@.service -> getty@.service
 -rw-r--r-- root       root              919 ./lib/systemd/system/basic.target
 -rw-r--r-- root       root              419 ./lib/systemd/system/bluetooth.target
@@ -205,7 +204,7 @@ lrwxrwxrwx root       root               26 ./lib/systemd/system/sockets.target.
 -rw-r--r-- root       root              393 ./lib/systemd/system/swap.target
 -rw-r--r-- root       root              795 ./lib/systemd/system/sys-fs-fuse-connections.mount
 -rw-r--r-- root       root              558 ./lib/systemd/system/sysinit.target
-drwxr-xr-x root       root              460 ./lib/systemd/system/sysinit.target.wants
+drwxr-xr-x root       root              440 ./lib/systemd/system/sysinit.target.wants
 lrwxrwxrwx root       root               22 ./lib/systemd/system/sysinit.target.wants/dev-hugepages.mount -> ../dev-hugepages.mount
 lrwxrwxrwx root       root               19 ./lib/systemd/system/sysinit.target.wants/dev-mqueue.mount -> ../dev-mqueue.mount
 lrwxrwxrwx root       root               28 ./lib/systemd/system/sysinit.target.wants/kmod-static-nodes.service -> ../kmod-static-nodes.service
@@ -213,7 +212,6 @@ lrwxrwxrwx root       root               19 ./lib/systemd/system/sysinit.target.
 lrwxrwxrwx root       root               32 ./lib/systemd/system/sysinit.target.wants/sys-fs-fuse-connections.mount -> ../sys-fs-fuse-connections.mount
 lrwxrwxrwx root       root               26 ./lib/systemd/system/sysinit.target.wants/sys-kernel-config.mount -> ../sys-kernel-config.mount
 lrwxrwxrwx root       root               25 ./lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount -> ../sys-kernel-debug.mount
-lrwxrwxrwx root       root               28 ./lib/systemd/system/sysinit.target.wants/systemd-firstboot.service -> ../systemd-firstboot.service
 lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.wants/systemd-hwdb-update.service -> ../systemd-hwdb-update.service
 lrwxrwxrwx root       root               41 ./lib/systemd/system/sysinit.target.wants/systemd-journal-catalog-update.service -> ../systemd-journal-catalog-update.service
 lrwxrwxrwx root       root               27 ./lib/systemd/system/sysinit.target.wants/systemd-journald.service -> ../systemd-journald.service
@@ -232,7 +230,6 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root             1407 ./lib/systemd/system/syslog.socket
 -rw-r--r-- root       root              752 ./lib/systemd/system/systemd-backlight@.service
 -rw-r--r-- root       root              537 ./lib/systemd/system/systemd-exit.service
--rw-r--r-- root       root              795 ./lib/systemd/system/systemd-firstboot.service
 -rw-r--r-- root       root              614 ./lib/systemd/system/systemd-fsck-root.service
 -rw-r--r-- root       root              667 ./lib/systemd/system/systemd-fsck@.service
 -rw-r--r-- root       root              584 ./lib/systemd/system/systemd-halt.service
@@ -394,7 +391,7 @@ drwxr-xr-x root       root               80 ./usr/share/factory/etc
 drwxr-xr-x root       root               80 ./usr/share/factory/etc/pam.d
 -rw-r--r-- root       root              149 ./usr/share/factory/etc/pam.d/other
 -rw-r--r-- root       root              340 ./usr/share/factory/etc/pam.d/system-auth
-drwxr-xr-x root       root               60 ./usr/share/polkit-1
+drwxr-xr-x root       root               80 ./usr/share/polkit-1
 drwxr-xr-x root       root              160 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             2541 ./usr/share/polkit-1/actions/org.freedesktop.hostname1.policy
 -rw-r--r-- root       root             1923 ./usr/share/polkit-1/actions/org.freedesktop.locale1.policy
@@ -402,6 +399,8 @@ drwxr-xr-x root       root              160 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             2011 ./usr/share/polkit-1/actions/org.freedesktop.resolve1.policy
 -rw-r--r-- root       root             3819 ./usr/share/polkit-1/actions/org.freedesktop.systemd1.policy
 -rw-r--r-- root       root             3125 ./usr/share/polkit-1/actions/org.freedesktop.timedate1.policy
+drwx------ polkitd    root               60 ./usr/share/polkit-1/rules.d
+-rw-r--r-- root       root              330 ./usr/share/polkit-1/rules.d/systemd-networkd.rules
 drwxr-xr-x root       root               80 ./usr/share/systemd
 -rw-r--r-- root       root             3564 ./usr/share/systemd/kbd-model-map
 -rw-r--r-- root       root              218 ./usr/share/systemd/language-fallback-map
