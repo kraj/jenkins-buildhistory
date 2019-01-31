@@ -1,10 +1,10 @@
 PV = 16+gitAUTOINC+fc874afa09
 PR = r0
 PKGV = 16+git0+fc874afa09
-PKGR = r0.46
+PKGR = r0.47
 RPROVIDES = 
 RDEPENDS = dbus expat (>= 2.2.6) glib-2.0 (>= 2.58.0) glibc (>= 2.28.9000) libsystemd (>= 239)
 RRECOMMENDS = 
-PKGSIZE = 398873
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dbus-broker /usr/lib/dbus-broker/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system /usr/lib/systemd/user /lib/systemd/system/dbus-broker.service
-FILELIST = /lib/systemd/system/dbus-broker.service /usr/bin/dbus-broker /usr/bin/dbus-broker-launch /usr/lib/systemd/user/dbus-broker.service
+PKGSIZE = 398900
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dbus-broker /usr/lib/dbus-broker/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system /usr/lib/systemd/user /lib/systemd/system-preset/98-dbus-broker.preset /lib/systemd/system/dbus-broker.service
+FILELIST = /lib/systemd/system-preset/98-dbus-broker.preset /lib/systemd/system/dbus-broker.service /usr/bin/dbus-broker /usr/bin/dbus-broker-launch /usr/lib/systemd/user/dbus-broker.service

@@ -5,20 +5,15 @@ set -e
 
     /usr/share/sfcb/genSslCert.sh /etc/sfcb
     /usr/bin/sfcbrepos -f
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl daemon-reload
-	fi
+	systemctl daemon-reload
+	systemctl preset sblim-sfcb.service
 
-	systemctl $OPTS enable sblim-sfcb.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
+	if [ "enable" = "enable" ]; then
 		systemctl --no-block restart sblim-sfcb.service
 	fi
 fi

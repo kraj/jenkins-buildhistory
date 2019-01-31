@@ -4,10 +4,12 @@ drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               80 ./lib/bootchart
 -rwxr-xr-x root       root            67800 ./lib/bootchart/bootchart-collector
 drwxr-xr-x root       root               40 ./lib/bootchart/tmpfs
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              100 ./lib/systemd/system
 -rw-r--r-- root       root              519 ./lib/systemd/system/bootchart2-done.service
 -rw-r--r-- root       root              496 ./lib/systemd/system/bootchart2-done.timer
 -rw-r--r-- root       root              549 ./lib/systemd/system/bootchart2.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               86 ./lib/systemd/system-preset/98-bootchart2.preset
 drwxr-xr-x root       root               60 ./sbin
 -rwxr-xr-x root       root             5673 ./sbin/bootchartd.bootchart2

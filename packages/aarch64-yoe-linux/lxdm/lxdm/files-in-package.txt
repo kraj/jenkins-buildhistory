@@ -11,9 +11,11 @@ drwxr-xr-x root       root              200 ./etc/lxdm
 drwxr-xr-x root       root               60 ./etc/pam.d
 -rw-r--r-- root       root              614 ./etc/pam.d/lxdm
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              277 ./lib/systemd/system/lxdm.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               20 ./lib/systemd/system-preset/98-lxdm.preset
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            67840 ./usr/bin/lxdm-config

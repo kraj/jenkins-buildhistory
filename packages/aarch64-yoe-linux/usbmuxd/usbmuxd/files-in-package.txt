@@ -1,6 +1,8 @@
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-usbmuxd.preset
 -rw-r--r-- root       root              200 ./lib/systemd/system/usbmuxd.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d

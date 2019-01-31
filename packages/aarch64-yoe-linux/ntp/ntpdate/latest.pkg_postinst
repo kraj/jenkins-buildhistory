@@ -4,20 +4,15 @@ set -e
         test -d $D/var/spool/cron || mkdir -p $D/var/spool/cron
         echo "30 * * * *    /usr/bin/ntpdate-sync silent" >> $D/var/spool/cron/root
     fi
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl daemon-reload
-	fi
+	systemctl daemon-reload
+	systemctl preset ntpdate.service
 
-	systemctl $OPTS enable ntpdate.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
+	if [ "enable" = "enable" ]; then
 		systemctl --no-block restart ntpdate.service
 	fi
 fi

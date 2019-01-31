@@ -1,11 +1,11 @@
 PV = 5.8
 PR = r0
-PKGR = r0.55
+PKGR = r0.56
 RPROVIDES = net-snmp-server-snmptrapd-systemd
 RDEPENDS = glibc (>= 2.28.9000) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8) net-snmp-lib-trapd (>= 5.8) net-snmp-server-snmpd
 RRECOMMENDS = 
 RREPLACES = net-snmp-server-snmptrapd-systemd
 RCONFLICTS = net-snmp-server-snmptrapd-systemd
-PKGSIZE = 68764
-FILES = /usr/sbin/snmptrapd /etc/snmp/snmptrapd.conf /lib/systemd/system/snmptrapd.service /lib/systemd/system/snmptrapd.service
-FILELIST = /etc/snmp/snmptrapd.conf /lib/systemd/system/snmptrapd.service /usr/sbin/snmptrapd
+PKGSIZE = 68789
+FILES = /usr/sbin/snmptrapd /etc/snmp/snmptrapd.conf /lib/systemd/system/snmptrapd.service /lib/systemd/system-preset/98-net-snmp-server-snmptrapd.preset /lib/systemd/system/snmptrapd.service
+FILELIST = /etc/snmp/snmptrapd.conf /lib/systemd/system-preset/98-net-snmp-server-snmptrapd.preset /lib/systemd/system/snmptrapd.service /usr/sbin/snmptrapd

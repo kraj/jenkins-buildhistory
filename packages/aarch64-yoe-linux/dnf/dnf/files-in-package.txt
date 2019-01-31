@@ -12,7 +12,7 @@ drwxr-xr-x root       root               60 ./etc/logrotate.d
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root              164 ./etc/tmpfiles.d/dnf.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              240 ./lib/systemd/system
 -rw-r--r-- root       root              370 ./lib/systemd/system/dnf-automatic-download.service
 -rw-r--r-- root       root              273 ./lib/systemd/system/dnf-automatic-download.timer
@@ -24,6 +24,8 @@ drwxr-xr-x root       root              240 ./lib/systemd/system
 -rw-r--r-- root       root              264 ./lib/systemd/system/dnf-automatic.timer
 -rw-r--r-- root       root              457 ./lib/systemd/system/dnf-makecache.service
 -rw-r--r-- root       root              301 ./lib/systemd/system/dnf-makecache.timer
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root              346 ./lib/systemd/system-preset/98-dnf.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root             1946 ./usr/bin/dnf-3

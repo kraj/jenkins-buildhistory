@@ -8,9 +8,11 @@ drwxr-xr-x root       root              180 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rw-r--r-- root       root              339 ./etc/default/autofs
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              482 ./lib/systemd/system/autofs.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               22 ./lib/systemd/system-preset/98-autofs.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              420 ./usr/lib/autofs

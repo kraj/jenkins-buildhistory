@@ -10,6 +10,8 @@ drwxr-xr-x root       root              100 ./etc/X11/Xsession.d
 drwxr-xr-x root       root               60 ./etc/xserver-nodm
 -rwxr-xr-x root       root              652 ./etc/xserver-nodm/Xserver
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               28 ./lib/systemd/system-preset/98-xserver-nodm-init.preset
 -rw-r--r-- root       root              216 ./lib/systemd/system/xserver-nodm.service

@@ -2,9 +2,11 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/ndctl
 -rw-r--r-- root       root             2022 ./etc/ndctl/monitor.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              174 ./lib/systemd/system/ndctl-monitor.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               29 ./lib/systemd/system-preset/98-ndctl.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            67800 ./usr/bin/daxctl

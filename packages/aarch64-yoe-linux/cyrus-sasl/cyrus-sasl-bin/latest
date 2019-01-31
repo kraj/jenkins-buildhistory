@@ -1,10 +1,10 @@
 PV = 2.1.27
 PR = r0
 PKG = libsasl2-bin
-PKGR = r0.50
+PKGR = r0.51
 RPROVIDES = cyrus-sasl-bin (=2.1.27)
 RDEPENDS = base-files base-passwd cyrus-sasl (>= 2.1.27) db (>= 5.3.28) glibc (>= 2.28.9000) libpam (>= 1.3.0) libxcrypt (>= 4.4.2) shadow
 RRECOMMENDS = 
-PKGSIZE = 339920
-FILES = /usr/bin/* /usr/sbin/* /usr/bin /etc/default/saslauthd /lib/systemd/system/saslauthd.service /etc/tmpfiles.d/saslauthd.conf /lib/systemd/system/saslauthd.service
-FILELIST = /etc/default/saslauthd /etc/tmpfiles.d/saslauthd.conf /lib/systemd/system/saslauthd.service /usr/sbin/pluginviewer /usr/sbin/saslauthd /usr/sbin/sasldblistusers2 /usr/sbin/saslpasswd2 /usr/sbin/testsaslauthd
+PKGSIZE = 339946
+FILES = /usr/bin/* /usr/sbin/* /usr/bin /etc/default/saslauthd /lib/systemd/system/saslauthd.service /etc/tmpfiles.d/saslauthd.conf /lib/systemd/system-preset/98-cyrus-sasl-bin.preset /lib/systemd/system/saslauthd.service
+FILELIST = /etc/default/saslauthd /etc/tmpfiles.d/saslauthd.conf /lib/systemd/system-preset/98-cyrus-sasl-bin.preset /lib/systemd/system/saslauthd.service /usr/sbin/pluginviewer /usr/sbin/saslauthd /usr/sbin/sasldblistusers2 /usr/sbin/saslpasswd2 /usr/sbin/testsaslauthd

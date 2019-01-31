@@ -5,8 +5,10 @@ drwxr-xr-x root       root               60 ./etc/default
 drwxr-xr-x root       root               40 ./etc/smartd_warning.d
 -rwxr-xr-x root       root             5884 ./etc/smartd_warning.sh
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-smartmontools.preset
 -rw-r--r-- root       root              279 ./lib/systemd/system/smartd.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              100 ./usr/sbin

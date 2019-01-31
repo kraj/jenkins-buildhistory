@@ -16,9 +16,11 @@ drwxr-xr-x root       root              140 ./lib/drbd
 -rwxr-xr-x root       root           283592 ./lib/drbd/drbdadm-84
 -rwxr-xr-x root       root           141640 ./lib/drbd/drbdsetup-83
 -rwxr-xr-x root       root           217576 ./lib/drbd/drbdsetup-84
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              380 ./lib/systemd/system/drbd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-drbd-utils.preset
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
 -rw-r--r-- root       root              967 ./lib/udev/rules.d/65-drbd.rules

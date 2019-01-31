@@ -5,8 +5,10 @@ drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
 drwxr-xr-x root       root               60 ./etc/UPower
 -rw-r--r-- root       root             2836 ./etc/UPower/UPower.conf
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-upower.preset
 -rw-r--r-- root       root              215 ./lib/systemd/system/upower.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root              100 ./lib/udev/rules.d

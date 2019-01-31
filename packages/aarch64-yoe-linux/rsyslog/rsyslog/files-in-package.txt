@@ -3,8 +3,10 @@ drwxr-xr-x root       root               60 ./etc/logrotate.d
 -rw-r--r-- root       root              705 ./etc/logrotate.d/logrotate.rsyslog
 -rw-r--r-- root       root             3081 ./etc/rsyslog.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-rsyslog.preset
 -rw-r--r-- root       root              434 ./lib/systemd/system/rsyslog.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               40 ./usr/bin
