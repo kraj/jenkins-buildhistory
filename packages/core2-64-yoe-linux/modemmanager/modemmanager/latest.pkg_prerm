@@ -1,15 +1,11 @@
 #!/bin/sh
 set -e
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop ModemManager.service
-	fi
+	systemctl stop ModemManager.service
 
 	systemctl $OPTS disable ModemManager.service
 fi

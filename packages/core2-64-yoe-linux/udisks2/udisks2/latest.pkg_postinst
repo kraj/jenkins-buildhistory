@@ -1,19 +1,14 @@
 #!/bin/sh
 set -e
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl daemon-reload
-	fi
+	systemctl daemon-reload
+	systemctl preset udisks2.service
 
-	systemctl $OPTS disable udisks2.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
+	if [ "disable" = "enable" ]; then
 		systemctl --no-block restart udisks2.service
 	fi
 fi

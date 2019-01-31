@@ -1,9 +1,9 @@
 PV = 2.7.8
 PR = r0
-PKGR = r0.57
+PKGR = r0.58
 RPROVIDES = 
 RDEPENDS = acl glib-2.0 (>= 2.58.0) glibc (>= 2.28.9000) libacl (>= 2.2.52) libatasmart (>= 0.19) libblockdev (>= 2.20) libgudev (>= 232) libsystemd (>= 239) polkit (>= 0.115) udisks2-libs (>= 2.7.8) util-linux-libmount (>= 2.32.1)
 RRECOMMENDS = 
-PKGSIZE = 940155
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/udisks2 /usr/lib/udisks2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/ /usr/share/polkit-1 /usr/share/bash-completion /usr/lib/polkit-1/extensions/*.so /lib/udev/* /usr/lib/udisks2/* /lib/systemd/system /usr/lib/girepository-*/*.typelib /lib/systemd/system/udisks2.service
-FILELIST = /etc/dbus-1/system.d/org.freedesktop.UDisks2.conf /etc/udisks2/udisks2.conf /lib/systemd/system/clean-mount-point@.service /lib/systemd/system/udisks2.service /lib/udev/rules.d/80-udisks2.rules /usr/bin/udisksctl /usr/lib/girepository-1.0/UDisks-2.0.typelib /usr/libexec/udisks2/udisksd /usr/sbin/umount.udisks2 /usr/share/bash-completion/completions/udisksctl /usr/share/dbus-1/system-services/org.freedesktop.UDisks2.service /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy
+PKGSIZE = 940179
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/udisks2 /usr/lib/udisks2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/ /usr/share/polkit-1 /usr/share/bash-completion /usr/lib/polkit-1/extensions/*.so /lib/udev/* /usr/lib/udisks2/* /lib/systemd/system /usr/lib/girepository-*/*.typelib /lib/systemd/system-preset/98-udisks2.preset /lib/systemd/system/udisks2.service
+FILELIST = /etc/dbus-1/system.d/org.freedesktop.UDisks2.conf /etc/udisks2/udisks2.conf /lib/systemd/system-preset/98-udisks2.preset /lib/systemd/system/clean-mount-point@.service /lib/systemd/system/udisks2.service /lib/udev/rules.d/80-udisks2.rules /usr/bin/udisksctl /usr/lib/girepository-1.0/UDisks-2.0.typelib /usr/libexec/udisks2/udisksd /usr/sbin/umount.udisks2 /usr/share/bash-completion/completions/udisksctl /usr/share/dbus-1/system-services/org.freedesktop.UDisks2.service /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy

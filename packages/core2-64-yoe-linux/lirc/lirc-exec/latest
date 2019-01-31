@@ -1,9 +1,9 @@
 PV = 0.9.4d
 PR = r0
-PKGR = r0.63
+PKGR = r0.64
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28.9000) lirc (>= 0.9.4d)
 RRECOMMENDS = 
-PKGSIZE = 11119
-FILES = /usr/bin/irexec /etc/lircexec /lib/systemd/system/irexec.service /lib/systemd/system/irexec.service
-FILELIST = /lib/systemd/system/irexec.service /usr/bin/irexec
+PKGSIZE = 11141
+FILES = /usr/bin/irexec /etc/lircexec /lib/systemd/system/irexec.service /lib/systemd/system-preset/98-lirc-exec.preset /lib/systemd/system/irexec.service
+FILELIST = /lib/systemd/system-preset/98-lirc-exec.preset /lib/systemd/system/irexec.service /usr/bin/irexec

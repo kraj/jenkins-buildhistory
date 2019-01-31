@@ -1,19 +1,14 @@
 set -e
     mkdir -p $D//var/lib/dhcp
-OPTS=""
-
 if [ -n "$D" ]; then
-    OPTS="--root=$D"
+	exit 0
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl daemon-reload
-	fi
+	systemctl daemon-reload
+	systemctl preset dhclient.service
 
-	systemctl $OPTS disable dhclient.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
+	if [ "disable" = "enable" ]; then
 		systemctl --no-block restart dhclient.service
 	fi
 fi

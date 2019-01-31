@@ -1,9 +1,9 @@
 PV = v63
 PR = r0
-PKGR = r0.33
+PKGR = r0.34
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.28.9000) json-c (>= 0.13.1) libkmod (>= 25+git0+aca4eca103) libudev (>= 239) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
-PKGSIZE = 412584
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ndctl /usr/lib/ndctl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/ndctl-monitor.service
-FILELIST = /etc/ndctl/monitor.conf /lib/systemd/system/ndctl-monitor.service /usr/bin/daxctl /usr/bin/ndctl /usr/lib/libdaxctl.so.1 /usr/lib/libdaxctl.so.1.2.0 /usr/lib/libndctl.so.6 /usr/lib/libndctl.so.6.12.0
+PKGSIZE = 412613
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ndctl /usr/lib/ndctl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-ndctl.preset /lib/systemd/system/ndctl-monitor.service
+FILELIST = /etc/ndctl/monitor.conf /lib/systemd/system-preset/98-ndctl.preset /lib/systemd/system/ndctl-monitor.service /usr/bin/daxctl /usr/bin/ndctl /usr/lib/libdaxctl.so.1 /usr/lib/libdaxctl.so.1.2.0 /usr/lib/libndctl.so.6 /usr/lib/libndctl.so.6.12.0

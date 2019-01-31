@@ -1,7 +1,9 @@
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              394 ./lib/systemd/system/ospfd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-quagga-ospfd.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 -rwxr-xr-x root       root           624496 ./usr/lib/libospf.so.0.0.0

@@ -29,9 +29,11 @@ drwxr-xr-x root       root               60 ./etc/monkey/plugins/proxy_reverse
 drwxr-xr-x root       root               60 ./etc/monkey/sites
 -rw-r--r-- root       root             1481 ./etc/monkey/sites/default
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              220 ./lib/systemd/system/monkey.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               22 ./lib/systemd/system-preset/98-monkey.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root             2199 ./usr/bin/banana

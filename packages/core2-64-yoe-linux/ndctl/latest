@@ -1,5 +1,5 @@
 PV = v63
 PR = r0
-DEPENDS = autoconf-native automake-native bash-completion gnu-config-native json-c kmod libtool-cross libtool-native pkgconfig-native systemd systemd-systemctl-native udev virtual/kernel virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native bash-completion gnu-config-native json-c kmod libtool-cross libtool-native pkgconfig-native systemd udev virtual/kernel virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = ndctl-dbg ndctl-staticdev ndctl-dev ndctl-doc ndctl-locale ndctl ndctl-bash-completion ndctl-src
 LAYER = openembedded-layer

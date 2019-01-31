@@ -3,10 +3,12 @@ drwxr-xr-x root       root               80 ./etc/dovecot
 -rw-r--r-- root       root                0 ./etc/dovecot/dovecot.conf
 -rw-r--r-- root       root              116 ./etc/dovecot/README
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              271 ./lib/systemd/system/dovecot.service
 -rw-r--r-- root       root              294 ./lib/systemd/system/dovecot.socket
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               47 ./lib/systemd/system-preset/98-dovecot.preset
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root           606888 ./usr/bin/doveadm
