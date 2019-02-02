@@ -1,15 +1,20 @@
 #!/bin/sh
 set -e
 	update-alternatives --install /sbin/bootchartd bootchartd /sbin/bootchartd.bootchart2 100
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl daemon-reload
-	systemctl preset bootchart2.service bootchart2-done.service bootchart2-done.timer
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
 
-	if [ "enable" = "enable" ]; then
+	systemctl $OPTS enable bootchart2.service bootchart2-done.service bootchart2-done.timer
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
 		systemctl --no-block restart bootchart2.service bootchart2-done.service bootchart2-done.timer
 	fi
 fi

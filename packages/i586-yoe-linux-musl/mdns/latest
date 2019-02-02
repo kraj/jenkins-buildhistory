@@ -1,5 +1,5 @@
 PV = 765.50.9
 PR = r0
-DEPENDS = virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+DEPENDS = systemd-systemctl-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
 PACKAGES = mdns mdns-dev mdns-man mdns-dbg mdns-src
 LAYER = networking-layer

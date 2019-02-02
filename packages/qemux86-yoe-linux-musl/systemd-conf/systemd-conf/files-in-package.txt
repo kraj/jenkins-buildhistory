@@ -1,16 +1,8 @@
-drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root              100 ./etc/systemd
-drwxr-xr-x root       root               60 ./etc/systemd/journald.conf.d
-lrwxrwxrwx root       root               16 ./etc/systemd/journald.conf.d/00-systemd-conf.conf -> ../journald.conf
-drwxr-xr-x root       root               60 ./etc/systemd/logind.conf.d
-lrwxrwxrwx root       root               14 ./etc/systemd/logind.conf.d/00-systemd-conf.conf -> ../logind.conf
-drwxr-xr-x root       root               60 ./etc/systemd/system.conf.d
-lrwxrwxrwx root       root               14 ./etc/systemd/system.conf.d/00-systemd-conf.conf -> ../system.conf
-drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              100 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/journald.conf.d
--rw-r--r-- root       root               38 ./usr/lib/journald.conf.d/00-systemd-conf.conf
-drwxr-xr-x root       root               60 ./usr/lib/logind.conf.d
--rw-r--r-- root       root               22 ./usr/lib/logind.conf.d/00-systemd-conf.conf
-drwxr-xr-x root       root               60 ./usr/lib/system.conf.d
--rw-r--r-- root       root               58 ./usr/lib/system.conf.d/00-systemd-conf.conf
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root                0 ./etc/machine-id
+drwxr-xr-x root       root              140 ./etc/systemd
+-rw-r--r-- root       root              615 ./etc/systemd/coredump.conf
+-rw-r--r-- root       root             1029 ./etc/systemd/journald.conf
+-rw-r--r-- root       root             1043 ./etc/systemd/logind.conf
+-rw-r--r-- root       root             1712 ./etc/systemd/system.conf
+-rw-r--r-- root       root             1130 ./etc/systemd/user.conf

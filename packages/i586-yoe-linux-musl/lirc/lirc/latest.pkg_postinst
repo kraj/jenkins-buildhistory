@@ -1,14 +1,19 @@
 set -e
     if [ ! -c $D/dev/lirc -a ! -f /sbin/udevd ]; then mknod $D/dev/lirc c 61 0; fi
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl daemon-reload
-	systemctl preset lircd.service lircmd.service lircd-setup.service lircd-uinput.service
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
 
-	if [ "enable" = "enable" ]; then
+	systemctl $OPTS enable lircd.service lircmd.service lircd-setup.service lircd-uinput.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
 		systemctl --no-block restart lircd.service lircmd.service lircd-setup.service lircd-uinput.service
 	fi
 fi

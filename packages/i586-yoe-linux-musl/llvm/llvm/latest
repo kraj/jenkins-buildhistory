@@ -1,9 +1,9 @@
-PV = 6.0
+PV = 8.0
 PR = r0
-PKGR = r0.59
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = libllvm6.0-llvm-6.0 (>= 6.0) libllvm6.0-llvm-6.0.1 libstdc++ (>= 8.2.0) musl (>= 1.1.21+git0+1691b23955) ncurses-terminfo
+RDEPENDS = libllvm8.0-llvm-8 (>= 8.0) libllvm8.0-llvm-8.0.0 libllvm8.0-optremarks libstdc++ (>= 8.2.0) musl (>= 1.1.21+git0+1691b23955) ncurses-terminfo
 RRECOMMENDS = 
-PKGSIZE = 120307
-FILES = /usr/lib/llvm6.0/libLTO.so.*
-FILELIST = /usr/lib/llvm6.0/libLTO.so.6 /usr/lib/llvm6.0/libLTO.so.6.0.1
+PKGSIZE = 129832
+FILES = /usr/lib/llvm8.0/libLTO.so.* /usr/lib/llvm8.0/libOptRemarks.so.*
+FILELIST = /usr/lib/llvm8.0/libLTO.so.8 /usr/lib/llvm8.0/libOptRemarks.so.8

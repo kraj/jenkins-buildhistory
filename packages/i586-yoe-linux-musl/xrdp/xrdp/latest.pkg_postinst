@@ -14,15 +14,20 @@ set -e
 			chmod 400 /etc/xrdp/key.pem
 		fi
         fi
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl daemon-reload
-	systemctl preset xrdp.service xrdp-sesman.service
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
 
-	if [ "enable" = "enable" ]; then
+	systemctl $OPTS enable xrdp.service xrdp-sesman.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
 		systemctl --no-block restart xrdp.service xrdp-sesman.service
 	fi
 fi

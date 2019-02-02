@@ -1,5 +1,5 @@
 PV = 8.1.0347
 PR = r0
-DEPENDS = acl autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native ncurses virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc virtual/update-alternatives
+DEPENDS = acl autoconf-native automake-native gettext-native gnu-config-native gtk+ libtool-cross libtool-native ncurses virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc virtual/update-alternatives xt
 PACKAGES = vim-common vim-syntax vim-help vim-tutor vim-vimrc vim-tools vim-dbg vim-staticdev vim-dev vim-doc vim-locale vim vim-src
 LAYER = openembedded-layer

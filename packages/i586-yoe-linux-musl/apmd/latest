@@ -1,5 +1,5 @@
 PV = 3.2.2-15
 PR = r0
-DEPENDS = libtool-cross virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+DEPENDS = libtool-cross systemd-systemctl-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
 PACKAGES = libapm apm apmd-dbg apmd-staticdev apmd-dev apmd-doc apmd-locale apmd apmd-src
 LAYER = core

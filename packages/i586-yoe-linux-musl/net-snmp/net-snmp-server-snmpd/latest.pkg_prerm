@@ -1,11 +1,15 @@
 #!/bin/sh
 set -e
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop snmpd.service
+	if [ -z "$D" ]; then
+		systemctl stop snmpd.service
+	fi
 
 	systemctl $OPTS disable snmpd.service
 fi

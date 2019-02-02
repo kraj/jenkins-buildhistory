@@ -8,12 +8,10 @@ drwxr-xr-x root       root               40 ./etc/syslog-ng/patterndb.d
 -rw-r--r-- root       root             1336 ./etc/syslog-ng/scl.conf
 -rwxr-xr-x root       root             6053 ./etc/syslog-ng/syslog-ng.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 drwxr-xr-x root       root               60 ./lib/systemd/system/multi-user.target.wants
 lrwxrwxrwx root       root               21 ./lib/systemd/system/multi-user.target.wants/syslog-ng@default.service -> ../syslog-ng@.service
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root               26 ./lib/systemd/system-preset/98-syslog-ng.preset
 -rw-r--r-- root       root              522 ./lib/systemd/system/syslog-ng@.service
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              120 ./usr/bin

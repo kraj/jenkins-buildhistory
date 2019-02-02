@@ -1,11 +1,15 @@
 #!/bin/sh
 set -e
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop phoromatic-client.service phoromatic-server.service
+	if [ -z "$D" ]; then
+		systemctl stop phoromatic-client.service phoromatic-server.service
+	fi
 
 	systemctl $OPTS disable phoromatic-client.service phoromatic-server.service
 fi
