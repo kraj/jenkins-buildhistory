@@ -1,11 +1,15 @@
 set -e
     /etc/init.d/quagga stop ospf6d
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop ospf6d.service
+	if [ -z "$D" ]; then
+		systemctl stop ospf6d.service
+	fi
 
 	systemctl $OPTS disable ospf6d.service
 fi

@@ -1,9 +1,9 @@
 PV = 5.28.1
-PR = r0
-PKGR = r0.14
+PR = r1
+PKGR = r1.0
 RPROVIDES = perl-module-config perl-module-strict perl-module-vars perl-module-warnings perl-module-warnings-register
-RDEPENDS = glibc (>= 2.28.9000) perl-module-config-heavy
+RDEPENDS = glibc (>= 2.29) libxcrypt (>= 4.4.2) perl-module-config-heavy
 RRECOMMENDS = 
-PKGSIZE = 3251552
+PKGSIZE = 3252289
 FILES = /usr/bin/perl /usr/bin/perl.real /usr/bin/perl5.28.1 /usr/lib/libperl.so* /usr/lib/perl5/site_perl /usr/lib/perl5/5.28.1/Config.pm /usr/lib/perl5/5.28.1/*/Config_heavy-target.pl /usr/lib/perl5/config.sh /usr/lib/perl5/5.28.1/strict.pm /usr/lib/perl5/5.28.1/warnings.pm /usr/lib/perl5/5.28.1/warnings /usr/lib/perl5/5.28.1/vars.pm /usr/lib/perl5/site_perl
-FILELIST = /usr/bin/perl /usr/bin/perl5.28.1 /usr/lib/libperl.so.5 /usr/lib/libperl.so.5.28.0 /usr/lib/perl5/5.28.1/Config.pm /usr/lib/perl5/5.28.1/aarch64-linux/Config_heavy-target.pl /usr/lib/perl5/5.28.1/strict.pm /usr/lib/perl5/5.28.1/vars.pm /usr/lib/perl5/5.28.1/warnings.pm /usr/lib/perl5/5.28.1/warnings/register.pm /usr/lib/perl5/config.sh
+FILELIST = /usr/bin/perl /usr/lib/libperl.so.5 /usr/lib/libperl.so.5.28.0 /usr/lib/perl5/5.28.1/Config.pm /usr/lib/perl5/5.28.1/aarch64-linux/Config_heavy-target.pl /usr/lib/perl5/5.28.1/strict.pm /usr/lib/perl5/5.28.1/vars.pm /usr/lib/perl5/5.28.1/warnings.pm /usr/lib/perl5/5.28.1/warnings/register.pm /usr/lib/perl5/config.sh

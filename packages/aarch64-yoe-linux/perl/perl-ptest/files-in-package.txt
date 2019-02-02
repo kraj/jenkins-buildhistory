@@ -44,7 +44,7 @@ drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/cpan
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/cpan/Digest
 -rw-r--r-- root       root             5707 ./usr/lib/perl/ptest/cnf/cpan/Digest/MD5.pm
-drwxr-xr-x root       root              480 ./usr/lib/perl/ptest/cnf/diffs
+drwxr-xr-x root       root              520 ./usr/lib/perl/ptest/cnf/diffs
 drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0
 -rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/configpm.patch
 -rw-r--r-- root       root             1185 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/customized.patch
@@ -233,6 +233,19 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/xconfig.patch -> ../perl5-5.26.0/xconfig.patch
+drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/configpm.patch -> ../perl5-5.22.3/configpm.patch
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/constant.patch -> ../perl5-5.22.3/constant.patch
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/customized.patch -> ../perl5-5.26.1/customized.patch
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/findext.patch -> ../perl5-5.24.0/findext.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/installscripts.patch -> ../perl5-5.24.0/installscripts.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/liblist.patch -> ../perl5-5.26.0/liblist.patch
+lrwxrwxrwx root       root               31 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/makemaker.patch -> ../perl5-5.26.0/makemaker.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/xconfig.patch -> ../perl5-5.26.0/xconfig.patch
 drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0
 -rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/configpm.patch
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/constant.patch -> ../perl5-5.22.3/constant.patch
@@ -308,6 +321,18 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.3/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.3/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.3/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/configpm.patch -> ../perl5-5.28.0/configpm.patch
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/constant.patch -> ../perl5-5.22.3/constant.patch
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/findext.patch -> ../perl5-5.22.3/findext.patch
+-rw-r--r-- root       root             2709 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/installscripts.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/liblist.patch -> ../perl5-5.28.0/liblist.patch
+lrwxrwxrwx root       root               31 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/makemaker.patch -> ../perl5-5.26.0/makemaker.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.29.7/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
 -rw-r--r-- root       root              348 ./usr/lib/perl/ptest/cnf/diffs/README
 drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/cnf/hints
 -rw-r--r-- root       root              604 ./usr/lib/perl/ptest/cnf/hints/android
@@ -324,11 +349,11 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/stub/File/S
 -rw-r--r-- root       root              341 ./usr/lib/perl/ptest/cnf/stub/File/Temp.pm
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/stub/IPC
 -rw-r--r-- root       root               49 ./usr/lib/perl/ptest/cnf/stub/IPC/Cmd.pm
--rw-r--r-- root       root           161791 ./usr/lib/perl/ptest/config.h
+-rw-r--r-- root       root           162168 ./usr/lib/perl/ptest/config.h
 -r-xr-xr-x root       root           166635 ./usr/lib/perl/ptest/config_h.SH
--rw-r--r-- root       root           919947 ./usr/lib/perl/ptest/config.log
+-rw-r--r-- root       root           932188 ./usr/lib/perl/ptest/config.log
 -r-xr-xr-x root       root            33590 ./usr/lib/perl/ptest/configpm
--rw-r--r-- root       root            34626 ./usr/lib/perl/ptest/config.sh
+-rw-r--r-- root       root            35363 ./usr/lib/perl/ptest/config.sh
 -rwxr-xr-x root       root             2085 ./usr/lib/perl/ptest/configure
 -r--r--r-- root       root           220749 ./usr/lib/perl/ptest/configure.com
 -r-xr-xr-x root       root             2556 ./usr/lib/perl/ptest/configure.gnu
@@ -1028,20 +1053,39 @@ drwxr-xr-x root       root              140 ./usr/lib/perl/ptest/cpan/CPAN/t
 -r--r--r-- root       root              997 ./usr/lib/perl/ptest/cpan/CPAN/t/03pkgs.t
 -r--r--r-- root       root             2690 ./usr/lib/perl/ptest/cpan/CPAN/t/10version.t
 -r--r--r-- root       root              763 ./usr/lib/perl/ptest/cpan/CPAN/t/11mirroredby.t
-drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cpan/DB_File
+drwxr-xr-x root       root              400 ./usr/lib/perl/ptest/cpan/DB_File
+drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/cpan/DB_File/blib
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/DB_File/blib/bin
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/DB_File/blib/bin/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/DB_File/blib/man1
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/DB_File/blib/man1/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/DB_File/blib/man3
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/DB_File/blib/man3/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/DB_File/blib/script
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/DB_File/blib/script/.exists
 -r--r--r-- root       root             3117 ./usr/lib/perl/ptest/cpan/DB_File/config.in
+-rw-r--r-- root       root            11491 ./usr/lib/perl/ptest/cpan/DB_File/constants.h
+-rw-r--r-- root       root             2692 ./usr/lib/perl/ptest/cpan/DB_File/constants.xs
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/DB_File/DB_File.bs
 -r--r--r-- root       root              164 ./usr/lib/perl/ptest/cpan/DB_File/DB_File_BS
+-rw-r--r-- root       root            77121 ./usr/lib/perl/ptest/cpan/DB_File/DB_File.c
 -r--r--r-- root       root            65045 ./usr/lib/perl/ptest/cpan/DB_File/DB_File.pm
+-r--r--r-- root       root            65045 ./usr/lib/perl/ptest/cpan/DB_File/DB_File.pm.bak
 -r--r--r-- root       root            49058 ./usr/lib/perl/ptest/cpan/DB_File/DB_File.xs
 -r--r--r-- root       root             3228 ./usr/lib/perl/ptest/cpan/DB_File/dbinfo
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/cpan/DB_File/hints
 -r--r--r-- root       root              101 ./usr/lib/perl/ptest/cpan/DB_File/hints/dynixptx.pl
 -r--r--r-- root       root              146 ./usr/lib/perl/ptest/cpan/DB_File/hints/sco.pl
 -r--r--r-- root       root             8586 ./usr/lib/perl/ptest/cpan/DB_File/Makefile.PL
-drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/cpan/DB_File/t
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/DB_File/pm_to_blib
+-rw-r--r-- root       root           206407 ./usr/lib/perl/ptest/cpan/DB_File/ppport.h
+drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/cpan/DB_File/t
 -r--r--r-- root       root            36917 ./usr/lib/perl/ptest/cpan/DB_File/t/db-btree.t
+-r--r--r-- root       root            36917 ./usr/lib/perl/ptest/cpan/DB_File/t/db-btree.t.bak
 -r--r--r-- root       root            28305 ./usr/lib/perl/ptest/cpan/DB_File/t/db-hash.t
+-r--r--r-- root       root            28305 ./usr/lib/perl/ptest/cpan/DB_File/t/db-hash.t.bak
 -r--r--r-- root       root            37688 ./usr/lib/perl/ptest/cpan/DB_File/t/db-recno.t
+-r--r--r-- root       root            37688 ./usr/lib/perl/ptest/cpan/DB_File/t/db-recno.t.bak
 -r--r--r-- root       root             1177 ./usr/lib/perl/ptest/cpan/DB_File/typemap
 -r--r--r-- root       root             2287 ./usr/lib/perl/ptest/cpan/DB_File/version.c
 drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/cpan/Digest
@@ -6800,12 +6844,26 @@ drwxr-xr-x root       root              180 ./usr/lib/perl/ptest/ext/File-Glob/t
 -r--r--r-- root       root             3300 ./usr/lib/perl/ptest/ext/File-Glob/t/rt131211.t
 -r--r--r-- root       root              540 ./usr/lib/perl/ptest/ext/File-Glob/t/taint.t
 -r--r--r-- root       root             1590 ./usr/lib/perl/ptest/ext/File-Glob/t/threads.t
-drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/ext/GDBM_File
+drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/ext/GDBM_File
+drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/ext/GDBM_File/blib
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/GDBM_File/blib/bin
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/GDBM_File/blib/bin/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/GDBM_File/blib/man1
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/GDBM_File/blib/man1/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/GDBM_File/blib/man3
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/GDBM_File/blib/man3/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/GDBM_File/blib/script
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/GDBM_File/blib/script/.exists
+-rw-r--r-- root       root             3394 ./usr/lib/perl/ptest/ext/GDBM_File/const-c.inc
+-rw-r--r-- root       root             4449 ./usr/lib/perl/ptest/ext/GDBM_File/const-xs.inc
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/GDBM_File/GDBM_File.bs
+-rw-r--r-- root       root            24733 ./usr/lib/perl/ptest/ext/GDBM_File/GDBM_File.c
 -r--r--r-- root       root             1738 ./usr/lib/perl/ptest/ext/GDBM_File/GDBM_File.pm
 -r--r--r-- root       root             4618 ./usr/lib/perl/ptest/ext/GDBM_File/GDBM_File.xs
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/GDBM_File/hints
 -r--r--r-- root       root              101 ./usr/lib/perl/ptest/ext/GDBM_File/hints/sco.pl
 -r--r--r-- root       root              744 ./usr/lib/perl/ptest/ext/GDBM_File/Makefile.PL
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/GDBM_File/pm_to_blib
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/ext/GDBM_File/t
 -r--r--r-- root       root             1305 ./usr/lib/perl/ptest/ext/GDBM_File/t/fatal.t
 -r--r--r-- root       root              132 ./usr/lib/perl/ptest/ext/GDBM_File/t/gdbm.t
@@ -6919,7 +6977,16 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/mro/blib/sc
 -r--r--r-- root       root            10116 ./usr/lib/perl/ptest/ext/mro/mro.pm
 -r--r--r-- root       root            21153 ./usr/lib/perl/ptest/ext/mro/mro.xs
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/mro/pm_to_blib
-drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/ext/NDBM_File
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/ext/NDBM_File
+drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/ext/NDBM_File/blib
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/NDBM_File/blib/bin
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/NDBM_File/blib/bin/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/NDBM_File/blib/man1
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/NDBM_File/blib/man1/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/NDBM_File/blib/man3
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/NDBM_File/blib/man3/.exists
+drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/NDBM_File/blib/script
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/NDBM_File/blib/script/.exists
 drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/ext/NDBM_File/hints
 -r--r--r-- root       root               81 ./usr/lib/perl/ptest/ext/NDBM_File/hints/cygwin.pl
 -r--r--r-- root       root               69 ./usr/lib/perl/ptest/ext/NDBM_File/hints/dec_osf.pl
@@ -6933,8 +7000,11 @@ drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/ext/NDBM_File/h
 -r--r--r-- root       root              143 ./usr/lib/perl/ptest/ext/NDBM_File/hints/solaris.pl
 -r--r--r-- root       root              183 ./usr/lib/perl/ptest/ext/NDBM_File/hints/svr4.pl
 -r--r--r-- root       root              217 ./usr/lib/perl/ptest/ext/NDBM_File/Makefile.PL
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/NDBM_File/NDBM_File.bs
+-rw-r--r-- root       root            16491 ./usr/lib/perl/ptest/ext/NDBM_File/NDBM_File.c
 -r--r--r-- root       root             2500 ./usr/lib/perl/ptest/ext/NDBM_File/NDBM_File.pm
 -r--r--r-- root       root             3544 ./usr/lib/perl/ptest/ext/NDBM_File/NDBM_File.xs
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/NDBM_File/pm_to_blib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/NDBM_File/t
 -r--r--r-- root       root               79 ./usr/lib/perl/ptest/ext/NDBM_File/t/ndbm.t
 -r--r--r-- root       root             1042 ./usr/lib/perl/ptest/ext/NDBM_File/typemap
@@ -7628,7 +7698,7 @@ drwxr-xr-x root       root             1720 ./usr/lib/perl/ptest/hints
 -rw-r--r-- root       root            90980 ./usr/lib/perl/ptest/keywords.c
 -rw-r--r-- root       root             6587 ./usr/lib/perl/ptest/keywords.h
 -r--r--r-- root       root           126918 ./usr/lib/perl/ptest/l1_char_class_tab.h
-drwxr-xr-x root       root             4440 ./usr/lib/perl/ptest/lib
+drwxr-xr-x root       root             4500 ./usr/lib/perl/ptest/lib
 -r--r--r-- root       root             2618 ./usr/lib/perl/ptest/lib/AnyDBM_File.pm
 -r--r--r-- root       root             3439 ./usr/lib/perl/ptest/lib/AnyDBM_File.t
 drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/App
@@ -7651,7 +7721,7 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Attribute
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Attribute/.exists
 -r--r--r-- root       root            30449 ./usr/lib/perl/ptest/lib/Attribute/Handlers.pm
 -r--r--r-- root       root            16353 ./usr/lib/perl/ptest/lib/attributes.pm
-drwxr-xr-x root       root             1580 ./usr/lib/perl/ptest/lib/auto
+drwxr-xr-x root       root             1640 ./usr/lib/perl/ptest/lib/auto
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Archive
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Archive/Tar
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/Archive/Tar/.exists
@@ -7710,6 +7780,9 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Data
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/Data/Dumper
 -rwxr-xr-x root       root            67744 ./usr/lib/perl/ptest/lib/auto/Data/Dumper/Dumper.so
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/Data/Dumper/.exists
+drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/DB_File
+-rwxr-xr-x root       root            67664 ./usr/lib/perl/ptest/lib/auto/DB_File/DB_File.so
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/DB_File/.exists
 drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/auto/Devel
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/Devel/Peek
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/Devel/Peek/.exists
@@ -7822,6 +7895,9 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Filter
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/Filter/Util/Call
 -rwxr-xr-x root       root            67664 ./usr/lib/perl/ptest/lib/auto/Filter/Util/Call/Call.so
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/Filter/Util/Call/.exists
+drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/GDBM_File
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/GDBM_File/.exists
+-rwxr-xr-x root       root            67752 ./usr/lib/perl/ptest/lib/auto/GDBM_File/GDBM_File.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Getopt
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Getopt/Long
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/Getopt/Long/.exists
@@ -7910,6 +7986,9 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Module
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/mro
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/mro/.exists
 -rwxr-xr-x root       root            67744 ./usr/lib/perl/ptest/lib/auto/mro/mro.so
+drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/NDBM_File
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/NDBM_File/.exists
+-rwxr-xr-x root       root            67672 ./usr/lib/perl/ptest/lib/auto/NDBM_File/NDBM_File.so
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/Net
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/auto/Net/.exists
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Net/Ping
@@ -8110,7 +8189,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/Config
 -r--r--r-- root       root             1354 ./usr/lib/perl/ptest/lib/Config/Extensions.pm
 -r--r--r-- root       root              749 ./usr/lib/perl/ptest/lib/Config/Extensions.t
 -rw-r--r-- root       root              409 ./usr/lib/perl/ptest/lib/Config_git.pl
--rw-r--r-- root       root            39349 ./usr/lib/perl/ptest/lib/Config_heavy.pl
+-rw-r--r-- root       root            40094 ./usr/lib/perl/ptest/lib/Config_heavy.pl
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Config/Perl
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Config/Perl/.exists
 -r--r--r-- root       root            14899 ./usr/lib/perl/ptest/lib/Config/Perl/V.pm
@@ -8188,6 +8267,7 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/CPAN/Plugin
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Data
 -r--r--r-- root       root            46081 ./usr/lib/perl/ptest/lib/Data/Dumper.pm
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Data/.exists
+-r--r--r-- root       root            65045 ./usr/lib/perl/ptest/lib/DB_File.pm
 drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/lib/DBM_Filter
 -r--r--r-- root       root              854 ./usr/lib/perl/ptest/lib/DBM_Filter/compress.pm
 -r--r--r-- root       root             1361 ./usr/lib/perl/ptest/lib/DBM_Filter/encode.pm
@@ -8417,6 +8497,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/Filter/Util
 -r--r--r-- root       root             1114 ./usr/lib/perl/ptest/lib/Filter/Util/filter-util.pl
 -r--r--r-- root       root             4561 ./usr/lib/perl/ptest/lib/FindBin.pm
 -r--r--r-- root       root              338 ./usr/lib/perl/ptest/lib/FindBin.t
+-r--r--r-- root       root             1738 ./usr/lib/perl/ptest/lib/GDBM_File.pm
 drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/lib/Getopt
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Getopt/.exists
 -r--r--r-- root       root            83186 ./usr/lib/perl/ptest/lib/Getopt/Long.pm
@@ -8619,6 +8700,7 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Module/Load
 -r--r--r-- root       root             8517 ./usr/lib/perl/ptest/lib/Module/Load.pm
 -r--r--r-- root       root            33613 ./usr/lib/perl/ptest/lib/Module/Metadata.pm
 -r--r--r-- root       root            10116 ./usr/lib/perl/ptest/lib/mro.pm
+-r--r--r-- root       root             2500 ./usr/lib/perl/ptest/lib/NDBM_File.pm
 drwxr-xr-x root       root              460 ./usr/lib/perl/ptest/lib/Net
 -r--r--r-- root       root            20597 ./usr/lib/perl/ptest/lib/Net/Cmd.pm
 -r--r--r-- root       root             8488 ./usr/lib/perl/ptest/lib/Net/Config.pm
@@ -9787,7 +9869,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r-xr-xr-x root       root             9258 ./usr/lib/perl/ptest/makedepend.SH
 -rw-r--r-- root       root             3548 ./usr/lib/perl/ptest/make_ext_Makefile.pl
 -r--r--r-- root       root            26137 ./usr/lib/perl/ptest/make_ext.pl
--rw-r--r-- root       root             4487 ./usr/lib/perl/ptest/Makefile.config
+-rw-r--r-- root       root             4495 ./usr/lib/perl/ptest/Makefile.config
 -rwxr-xr-x root       root             3821 ./usr/lib/perl/ptest/Makefile.config.SH
 -r--r--r-- root       root             5466 ./usr/lib/perl/ptest/Makefile.micro
 -r-xr-xr-x root       root            52864 ./usr/lib/perl/ptest/Makefile.SH
@@ -10017,7 +10099,7 @@ lrwxrwxrwx root       root               18 ./usr/lib/perl/ptest/pod/perlsynolog
 -r--r--r-- root       root            44983 ./usr/lib/perl/ptest/pod/perlsyn.pod
 -r--r--r-- root       root            46459 ./usr/lib/perl/ptest/pod/perlthrtut.pod
 -r--r--r-- root       root            38744 ./usr/lib/perl/ptest/pod/perltie.pod
--rw-r--r-- root       root           705219 ./usr/lib/perl/ptest/pod/perltoc.pod
+-rw-r--r-- root       root           707757 ./usr/lib/perl/ptest/pod/perltoc.pod
 -r--r--r-- root       root              376 ./usr/lib/perl/ptest/pod/perltodo.pod
 -r--r--r-- root       root              294 ./usr/lib/perl/ptest/pod/perltooc.pod
 -r--r--r-- root       root              294 ./usr/lib/perl/ptest/pod/perltoot.pod
@@ -10035,7 +10117,7 @@ lrwxrwxrwx root       root               12 ./usr/lib/perl/ptest/pod/perltw.pod 
 -r--r--r-- root       root            50823 ./usr/lib/perl/ptest/pod/perlvms.pod
 lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perlvos.pod -> ../README.vos
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlwin32.pod -> ../README.win32
--rw-r--r-- root       root            29487 ./usr/lib/perl/ptest/pod/roffitall
+-rw-r--r-- root       root            29563 ./usr/lib/perl/ptest/pod/roffitall
 -r--r--r-- root       root             1438 ./usr/lib/perl/ptest/pod/rofftoc
 -r--r--r-- root       root              644 ./usr/lib/perl/ptest/pod/splitman
 -r--r--r-- root       root             1357 ./usr/lib/perl/ptest/pod/splitpod
@@ -10265,7 +10347,7 @@ drwxr-xr-x root       root              580 ./usr/lib/perl/ptest/t/comp
 -r--r--r-- root       root             3284 ./usr/lib/perl/ptest/t/comp/utf.t
 -r--r--r-- root       root             4060 ./usr/lib/perl/ptest/TestInit.pm
 -rw-r--r-- root       root             1088 ./usr/lib/perl/ptest/TestInit.pm.testpack
--rwxr-xr-x root       root             4638 ./usr/lib/perl/ptest/TESTPACK.px
+-rwxr-xr-x root       root             4772 ./usr/lib/perl/ptest/TESTPACK.px
 -r--r--r-- root       root             7502 ./usr/lib/perl/ptest/t/harness
 -r--r--r-- root       root            12095 ./usr/lib/perl/ptest/thread.h
 -r--r--r-- root       root            15535 ./usr/lib/perl/ptest/time64.c
@@ -11035,7 +11117,7 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/win32/include/s
 -r--r--r-- root       root             3747 ./usr/lib/perl/ptest/win32/wince.h
 -r--r--r-- root       root             9267 ./usr/lib/perl/ptest/win32/wincesck.c
 -r--r--r-- root       root             3223 ./usr/lib/perl/ptest/write_buildcustomize.pl
--rw-r--r-- root       root           161399 ./usr/lib/perl/ptest/xconfig.h
--rw-r--r-- root       root            25331 ./usr/lib/perl/ptest/xconfig.sh
+-rw-r--r-- root       root           161791 ./usr/lib/perl/ptest/xconfig.h
+-rw-r--r-- root       root            25978 ./usr/lib/perl/ptest/xconfig.sh
 -r--r--r-- root       root            24352 ./usr/lib/perl/ptest/XSUB.h
 -r--r--r-- root       root            10541 ./usr/lib/perl/ptest/zaphod32_hash.h

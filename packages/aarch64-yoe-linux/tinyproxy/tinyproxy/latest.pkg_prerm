@@ -1,20 +1,28 @@
 #!/bin/sh
 set -e
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop tinyproxy.service
+	if [ -z "$D" ]; then
+		systemctl stop tinyproxy.service
+	fi
 
 	systemctl $OPTS disable tinyproxy.service
 fi
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop tinyproxy.service
+	if [ -z "$D" ]; then
+		systemctl stop tinyproxy.service
+	fi
 
 	systemctl $OPTS disable tinyproxy.service
 fi

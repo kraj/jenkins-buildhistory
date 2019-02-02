@@ -6,15 +6,20 @@ set -e
             /etc/init.d/populate-volatile.sh update
         fi
     fi
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl daemon-reload
-	systemctl preset nginx.service
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
 
-	if [ "enable" = "enable" ]; then
+	systemctl $OPTS enable nginx.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
 		systemctl --no-block restart nginx.service
 	fi
 fi

@@ -1,9 +1,9 @@
 PV = 1.0.2q
 PR = r0
 PKG = libcrypto1.0.2
-PKGR = r0.33
+PKGR = r0.34
 RPROVIDES = libcrypto10 (=1.0.2q)
-RDEPENDS = glibc (>= 2.28.9000)
+RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = openssl10-conf
 PKGSIZE = 2077216
 FILES = /usr/lib/libcrypto.so.*

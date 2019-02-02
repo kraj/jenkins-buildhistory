@@ -1,11 +1,15 @@
 #!/bin/sh
 set -e
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service
+	if [ -z "$D" ]; then
+		systemctl stop cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service
+	fi
 
 	systemctl $OPTS disable cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service
 fi

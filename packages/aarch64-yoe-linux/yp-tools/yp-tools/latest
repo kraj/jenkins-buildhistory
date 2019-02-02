@@ -1,11 +1,11 @@
 PV = 4.2.3
 PR = r0
-PKGR = r0.47
+PKGR = r0.48
 RPROVIDES = yp-tools-systemd
-RDEPENDS = glibc (>= 2.28.9000) libnsl2 (>= 1.2.0+git0+37c5ffe303) libtirpc (>= 1.0.3) libxcrypt (>= 4.4.2)
+RDEPENDS = glibc (>= 2.29) libnsl2 (>= 1.2.0+git0+37c5ffe303) libtirpc (>= 1.0.3) libxcrypt (>= 4.4.2)
 RRECOMMENDS = 
 RREPLACES = yp-tools-systemd
 RCONFLICTS = yp-tools-systemd
-PKGSIZE = 543361
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/yp-tools /usr/lib/yp-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/yp-nis/*.so.*.* /usr/lib/yp-nis/pkgconfig/ /lib/systemd/system-preset/98-yp-tools.preset /lib/systemd/system/domainname.service
-FILELIST = /lib/systemd/system-preset/98-yp-tools.preset /lib/systemd/system/domainname.service /usr/bin/ypcat /usr/bin/ypchfn /usr/bin/ypchsh /usr/bin/ypmatch /usr/bin/yppasswd /usr/bin/ypwhich /usr/sbin/yp_dump_binding /usr/sbin/yppoll /usr/sbin/ypset /usr/sbin/yptest /var/yp/nicknames
+PKGSIZE = 543335
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/yp-tools /usr/lib/yp-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/yp-nis/*.so.*.* /usr/lib/yp-nis/pkgconfig/ /lib/systemd/system/domainname.service
+FILELIST = /lib/systemd/system/domainname.service /usr/bin/ypcat /usr/bin/ypchfn /usr/bin/ypchsh /usr/bin/ypmatch /usr/bin/yppasswd /usr/bin/ypwhich /usr/sbin/yp_dump_binding /usr/sbin/yppoll /usr/sbin/ypset /usr/sbin/yptest /var/yp/nicknames

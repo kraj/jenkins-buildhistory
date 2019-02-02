@@ -1,9 +1,9 @@
 PV = 0.6.20
 PR = r0
-PKGR = r0.55
+PKGR = r0.56
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28.9000) libltdl (>= 2.4.6) libusb-compat (>= 0.1.5) pcsc-lite-lib (>= 1.8.22)
+RDEPENDS = glibc (>= 2.29) libltdl (>= 2.4.6) libusb-compat (>= 0.1.5) pcsc-lite-lib (>= 1.8.22)
 RRECOMMENDS = 
-PKGSIZE = 1150536
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openct /usr/lib/openct/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/ctapi /lib/udev /usr/lib/openct-ifd.so /usr/lib/pcsc /run/openct/status /lib/systemd/system-preset/98-openct.preset /lib/systemd/system/openct.service
-FILELIST = /etc/openct.conf /etc/reader.conf.d/openct.conf /etc/sysconfig/openct /etc/udev/rules.d/60-openct.rules /lib/systemd/system-preset/98-openct.preset /lib/systemd/system/openct.service /lib/udev/openct_pcmcia /lib/udev/openct_serial /lib/udev/openct_usb /usr/bin/openct-tool /usr/lib/ctapi/libopenctapi.so /usr/lib/libopenct.so.1 /usr/lib/libopenct.so.1.0.0 /usr/lib/openct-ifd.so /usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Info.plist /usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Linux/openct-ifd.so /usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/PkgInfo /usr/sbin/ifdhandler /usr/sbin/ifdproxy /usr/sbin/openct-control
+PKGSIZE = 1150514
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openct /usr/lib/openct/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/ctapi /lib/udev /usr/lib/openct-ifd.so /usr/lib/pcsc /run/openct/status /lib/systemd/system/openct.service
+FILELIST = /etc/openct.conf /etc/reader.conf.d/openct.conf /etc/sysconfig/openct /etc/udev/rules.d/60-openct.rules /lib/systemd/system/openct.service /lib/udev/openct_pcmcia /lib/udev/openct_serial /lib/udev/openct_usb /usr/bin/openct-tool /usr/lib/ctapi/libopenctapi.so /usr/lib/libopenct.so.1 /usr/lib/libopenct.so.1.0.0 /usr/lib/openct-ifd.so /usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Info.plist /usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Linux/openct-ifd.so /usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/PkgInfo /usr/sbin/ifdhandler /usr/sbin/ifdproxy /usr/sbin/openct-control

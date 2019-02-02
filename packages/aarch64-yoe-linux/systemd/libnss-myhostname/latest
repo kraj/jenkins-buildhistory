@@ -2,9 +2,9 @@ PE = 1
 PV = 239
 PR = r0
 PKG = libnss-myhostname2
-PKGR = r0.57
+PKGR = r0.58
 RPROVIDES = libnss-myhostname (=239)
-RDEPENDS = glibc (>= 2.28.9000) util-linux-libmount (>= 2.32.1)
+RDEPENDS = glibc (>= 2.29) util-linux-libmount (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 133536
 FILES = /lib/libnss_myhostname.so.2

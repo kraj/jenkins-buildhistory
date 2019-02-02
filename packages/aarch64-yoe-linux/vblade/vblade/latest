@@ -1,9 +1,9 @@
 PV = 22
 PR = r0
-PKGR = r0.46
+PKGR = r0.47
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28.9000)
+RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 72446
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/vblade /usr/lib/vblade/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-vblade.preset /lib/systemd/system/vblade.service
-FILELIST = /etc/tmpfiles.d/vblade.conf /etc/vblade.conf /lib/systemd/system-preset/98-vblade.preset /lib/systemd/system/vblade.service /usr/bin/vblade.init /usr/sbin/vblade /usr/sbin/vbladed
+PKGSIZE = 72423
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/vblade /usr/lib/vblade/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/vblade.service
+FILELIST = /etc/tmpfiles.d/vblade.conf /etc/vblade.conf /lib/systemd/system/vblade.service /usr/bin/vblade.init /usr/sbin/vblade /usr/sbin/vbladed

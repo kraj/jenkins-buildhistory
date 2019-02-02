@@ -4,11 +4,9 @@ drwx------ root       root               40 ./etc/default/postgresql
 drwxr-xr-x root       root               60 ./etc/pam.d
 -rw-r--r-- root       root              149 ./etc/pam.d/postgresql
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              625 ./lib/systemd/system/postgresql.service
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root               27 ./lib/systemd/system-preset/98-postgresql.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              440 ./usr/bin
 -rwxr-xr-x root       root           920168 ./usr/bin/ecpg
@@ -59,7 +57,7 @@ drwxr-xr-x root       root               80 ./usr/lib/postgresql/pgxs/config
 -rwxr-xr-x root       root            13997 ./usr/lib/postgresql/pgxs/config/install-sh
 -rwxr-xr-x root       root             1348 ./usr/lib/postgresql/pgxs/config/missing
 drwxr-xr-x root       root              180 ./usr/lib/postgresql/pgxs/src
--rw-r--r-- root       root            39240 ./usr/lib/postgresql/pgxs/src/Makefile.global
+-rw-r--r-- root       root            39248 ./usr/lib/postgresql/pgxs/src/Makefile.global
 -rw-r--r-- root       root              380 ./usr/lib/postgresql/pgxs/src/Makefile.port
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src/makefiles
 -rw-r--r-- root       root            16156 ./usr/lib/postgresql/pgxs/src/Makefile.shlib
