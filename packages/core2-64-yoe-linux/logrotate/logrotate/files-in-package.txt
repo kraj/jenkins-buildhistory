@@ -4,12 +4,10 @@ drwxr-xr-x root       root               80 ./etc/logrotate.d
 -rw-r--r-- root       root              130 ./etc/logrotate.d/btmp
 -rw-r--r-- root       root              145 ./etc/logrotate.d/wtmp
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              704 ./lib/systemd/system/logrotate.service
 -rw-r--r-- root       root              192 ./lib/systemd/system/logrotate.timer
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root               48 ./lib/systemd/system-preset/98-logrotate.preset
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root            88320 ./usr/sbin/logrotate

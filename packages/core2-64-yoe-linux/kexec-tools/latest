@@ -1,5 +1,5 @@
 PV = 2.0.18
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xz zlib
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xz zlib
 PACKAGES = kexec kdump vmcore-dmesg kexec-tools-dbg kexec-tools-staticdev kexec-tools-dev kexec-tools-doc kexec-tools-locale kexec-tools kexec-tools-src
 LAYER = core

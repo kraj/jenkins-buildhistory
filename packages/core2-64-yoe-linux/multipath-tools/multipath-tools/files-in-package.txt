@@ -1,12 +1,10 @@
 drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root             2597 ./etc/multipath.conf.example
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              815 ./lib/systemd/system/multipathd.service
 -rw-r--r-- root       root              186 ./lib/systemd/system/multipathd.socket
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root               27 ./lib/systemd/system-preset/98-multipath-tools.preset
 drwxr-xr-x root       root              120 ./sbin
 -rwxr-xr-x root       root            11148 ./sbin/mpathconf
 -rwxr-xr-x root       root            23592 ./sbin/mpathpersist

@@ -2,10 +2,10 @@ PV = 0.0+AUTOINC+a1694a1c93
 PR = r0
 PKG = libqrtr1
 PKGV = 0.0+0+a1694a1c93
-PKGR = r0.53
+PKGR = r0.54
 RPROVIDES = qrtr (=0.0+0+a1694a1c93)
-RDEPENDS = glibc (>= 2.28.9000)
+RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 18868
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qrtr /usr/lib/qrtr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-qrtr.preset /lib/systemd/system/qrtr.service
-FILELIST = /lib/systemd/system-preset/98-qrtr.preset /lib/systemd/system/qrtr.service /usr/lib/libqrtr.so.1 /usr/lib/libqrtr.so.1.0
+PKGSIZE = 18848
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qrtr /usr/lib/qrtr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/qrtr.service
+FILELIST = /lib/systemd/system/qrtr.service /usr/lib/libqrtr.so.1 /usr/lib/libqrtr.so.1.0

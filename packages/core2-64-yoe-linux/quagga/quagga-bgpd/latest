@@ -1,9 +1,9 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.58
+PKGR = r0.59
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28.9000) quagga (>= 1.2.4)
+RDEPENDS = glibc (>= 2.29) quagga (>= 1.2.4)
 RRECOMMENDS = 
-PKGSIZE = 1070631
-FILES = /usr/sbin/bgpd /lib/systemd/system-preset/98-quagga-bgpd.preset /lib/systemd/system/bgpd.service
-FILELIST = /lib/systemd/system-preset/98-quagga-bgpd.preset /lib/systemd/system/bgpd.service /usr/sbin/bgpd
+PKGSIZE = 1070611
+FILES = /usr/sbin/bgpd /lib/systemd/system/bgpd.service
+FILELIST = /lib/systemd/system/bgpd.service /usr/sbin/bgpd

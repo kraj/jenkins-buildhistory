@@ -1,5 +1,5 @@
 PV = 2.03.01
 PR = r0
-DEPENDS = autoconf-archive-native autoconf-native automake-native gnu-config-native libaio libtool-cross libtool-native pkgconfig-native udev util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-archive-native autoconf-native automake-native gnu-config-native libaio libtool-cross libtool-native pkgconfig-native systemd-systemctl-native udev util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = libdevmapper-dbg libdevmapper-staticdev libdevmapper-dev libdevmapper-doc libdevmapper-locale libdevmapper libdevmapper-src
 LAYER = openembedded-layer

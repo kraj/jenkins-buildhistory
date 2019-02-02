@@ -1,10 +1,10 @@
 PV = git
 PR = r0
 PKG = libusrsctp-dbg
-PKGR = r0.53
+PKGR = r0.54
 RPROVIDES = usrsctp-dbg (=git)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcrypto-dbg libssl-dbg
-PKGSIZE = 2320320
+PKGSIZE = 2320304
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libusrsctp.so.1.0.0

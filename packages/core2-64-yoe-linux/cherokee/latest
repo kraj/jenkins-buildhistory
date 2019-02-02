@@ -1,5 +1,5 @@
 PV = 1.2.104+gitAUTOINC+75f041e225
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libpam libpcre libtool-cross libtool-native mysql5 openssl pkgconfig-native python-native unzip-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native libpam libpcre libtool-cross libtool-native mysql5 openssl pkgconfig-native python-native systemd-systemctl-native unzip-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = libcherokee-server libcherokee-client libcherokee-base cget cherokee-dbg cherokee-staticdev cherokee-dev cherokee-doc cherokee-locale cherokee cherokee-src
 LAYER = webserver

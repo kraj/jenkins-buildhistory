@@ -5,11 +5,9 @@ drwxr-xr-x root       root               80 ./etc/ipmi
 drwxr-xr-x root       root               60 ./etc/sysconfig
 -rw-r--r-- root       root             2296 ./etc/sysconfig/ipmi
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-rw-r-- root       root              226 ./lib/systemd/system/ipmi.service
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-openipmi.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              260 ./usr/bin
 lrwxrwxrwx root       root               11 ./usr/bin/ipmicmd -> openipmicmd

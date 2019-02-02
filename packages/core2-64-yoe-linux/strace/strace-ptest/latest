@@ -1,8 +1,8 @@
 PV = 4.26
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = coreutils gawk glibc (>= 2.28.9000) grep make sed
+RDEPENDS = coreutils gawk glibc (>= 2.29) grep make sed
 RRECOMMENDS = ptest-runner
 PKGSIZE = 10804208
 FILES = /usr/lib/strace/ptest

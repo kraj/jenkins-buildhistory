@@ -1,9 +1,9 @@
 PV = 3.15.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28.9000) libacl (>= 2.2.52) popt (>= 1.16)
+RDEPENDS = glibc (>= 2.29) libacl (>= 2.2.52) popt (>= 1.16)
 RRECOMMENDS = 
-PKGSIZE = 89973
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/logrotate /usr/lib/logrotate/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-logrotate.preset /lib/systemd/system/logrotate.service /lib/systemd/system/logrotate.timer
-FILELIST = /etc/logrotate.conf /etc/logrotate.d/btmp /etc/logrotate.d/wtmp /lib/systemd/system-preset/98-logrotate.preset /lib/systemd/system/logrotate.service /lib/systemd/system/logrotate.timer /usr/sbin/logrotate /var/lib/logrotate.status
+PKGSIZE = 89925
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/logrotate /usr/lib/logrotate/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/logrotate.service /lib/systemd/system/logrotate.timer
+FILELIST = /etc/logrotate.conf /etc/logrotate.d/btmp /etc/logrotate.d/wtmp /lib/systemd/system/logrotate.service /lib/systemd/system/logrotate.timer /usr/sbin/logrotate /var/lib/logrotate.status
