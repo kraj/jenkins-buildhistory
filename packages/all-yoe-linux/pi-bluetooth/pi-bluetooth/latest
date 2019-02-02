@@ -1,10 +1,10 @@
 PV = 1.1+gitAUTOINC+2e1a393955
 PR = r0
 PKGV = 1.1+git0+2e1a393955
-PKGR = r0.25
+PKGR = r0.27
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 1864
-FILES = /usr/bin /etc /lib/systemd/system /lib/systemd/system-preset/98-pi-bluetooth.preset /lib/systemd/system/hciuart.service /lib/systemd/system/bthelper@.service
-FILELIST = /etc/udev/rules.d/90-pi-bluetooth.rules /lib/systemd/system-preset/98-pi-bluetooth.preset /lib/systemd/system/bthelper@.service /lib/systemd/system/hciuart.service /usr/bin/bthelper /usr/bin/btuart
+PKGSIZE = 1816
+FILES = /usr/bin /etc /lib/systemd/system /lib/systemd/system/hciuart.service /lib/systemd/system/bthelper@.service
+FILELIST = /etc/udev/rules.d/90-pi-bluetooth.rules /lib/systemd/system/bthelper@.service /lib/systemd/system/hciuart.service /usr/bin/bthelper /usr/bin/btuart

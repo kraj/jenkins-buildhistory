@@ -7,12 +7,16 @@ set -e
 	fi
 	update-alternatives --remove  klogd /bin/busybox.nosuid
 	update-alternatives --remove  syslogd /bin/busybox.nosuid
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop busybox-syslog.service
+	if [ -z "$D" ]; then
+		systemctl stop busybox-syslog.service
+	fi
 
 	systemctl $OPTS disable busybox-syslog.service
 fi

@@ -1,11 +1,15 @@
 #!/bin/sh
 set -e
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop mip6d.service
+	if [ -z "$D" ]; then
+		systemctl stop mip6d.service
+	fi
 
 	systemctl $OPTS disable mip6d.service
 fi

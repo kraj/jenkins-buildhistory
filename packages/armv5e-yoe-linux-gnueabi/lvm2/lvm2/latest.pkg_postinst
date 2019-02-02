@@ -1,14 +1,19 @@
 #!/bin/sh
 set -e
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl daemon-reload
-	systemctl preset lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
 
-	if [ "disable" = "enable" ]; then
+	systemctl $OPTS disable lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
+
+	if [ -z "$D" -a "disable" = "enable" ]; then
 		systemctl --no-block restart lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
 	fi
 fi

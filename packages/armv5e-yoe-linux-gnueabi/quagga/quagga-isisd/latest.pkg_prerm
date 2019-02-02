@@ -1,11 +1,15 @@
 set -e
     /etc/init.d/quagga stop isisd
+OPTS=""
+
 if [ -n "$D" ]; then
-	exit 0
+    OPTS="--root=$D"
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl stop isisd.service
+	if [ -z "$D" ]; then
+		systemctl stop isisd.service
+	fi
 
 	systemctl $OPTS disable isisd.service
 fi

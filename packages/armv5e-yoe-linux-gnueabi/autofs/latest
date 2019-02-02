@@ -1,5 +1,5 @@
 PV = 5.1.5
 PR = r0
-DEPENDS = autoconf-native automake-native bison-native cyrus-sasl e2fsprogs flex-native gnu-config-native libnsl2 libtirpc libtool-cross libtool-native libxml2 openssl pkgconfig-native systemd util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native bison-native cyrus-sasl e2fsprogs flex-native gnu-config-native libnsl2 libtirpc libtool-cross libtool-native libxml2 openssl pkgconfig-native systemd systemd-systemctl-native util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = autofs-dbg autofs-staticdev autofs-dev autofs-doc autofs-locale autofs autofs-src
 LAYER = networking-layer

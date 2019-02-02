@@ -21,14 +21,12 @@ drwxr-xr-x root       root               80 ./etc/sysconfig
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               27 ./etc/tmpfiles.d/corosync.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
 -rw-r--r-- root       root              310 ./lib/systemd/system/corosync-notifyd.service
 -rw-r--r-- root       root              388 ./lib/systemd/system/corosync-qdevice.service
 -rw-r--r-- root       root              508 ./lib/systemd/system/corosync-qnetd.service
 -rw-r--r-- root       root              842 ./lib/systemd/system/corosync.service
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root              122 ./lib/systemd/system-preset/98-corosync.preset
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root             1830 ./usr/bin/corosync-blackbox
