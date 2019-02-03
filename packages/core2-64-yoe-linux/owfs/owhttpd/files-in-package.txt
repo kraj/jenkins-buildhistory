@@ -1,6 +1,7 @@
-drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root              827 ./etc/init.d/owhttpd
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              263 ./lib/systemd/system/owhttpd.service
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            43240 ./usr/bin/owhttpd
