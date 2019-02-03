@@ -1,9 +1,9 @@
 PV = 2.4
 PR = r0
-PKGR = r0.55
+PKGR = r0.56
 RPROVIDES = 
-RDEPENDS = rtmpdump (= 2.4-r0.55)
-RRECOMMENDS = libcrypto10-dev libssl10-dev musl-dev openssl10-dev zlib-dev
-PKGSIZE = 20722
+RDEPENDS = rtmpdump (= 2.4-r0.56)
+RRECOMMENDS = gmp-dev gnutls-dev musl-dev nettle-dev zlib-dev
+PKGSIZE = 20732
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rtmpdump/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/librtmp/amf.h /usr/include/librtmp/http.h /usr/include/librtmp/log.h /usr/include/librtmp/rtmp.h /usr/lib/librtmp.so /usr/lib/pkgconfig/librtmp.pc

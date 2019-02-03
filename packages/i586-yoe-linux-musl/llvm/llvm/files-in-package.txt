@@ -1,5 +1,61 @@
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root               80 ./usr/lib/llvm8.0
--rwxr-xr-x root       root           124384 ./usr/lib/llvm8.0/libLTO.so.8
--rwxr-xr-x root       root             5448 ./usr/lib/llvm8.0/libOptRemarks.so.8
+drwxr-xr-x root       root               60 ./usr/bin
+drwxr-xr-x root       root             1200 ./usr/bin/llvm8.0
+-rwxr-xr-x root       root           423484 ./usr/bin/llvm8.0/bugpoint
+-rwxr-xr-x root       root           501312 ./usr/bin/llvm8.0/dsymutil
+-rwxr-xr-x root       root           144852 ./usr/bin/llvm8.0/llc
+-rwxr-xr-x root       root           329228 ./usr/bin/llvm8.0/lli
+-rwxr-xr-x root       root            67036 ./usr/bin/llvm8.0/llvm-ar
+-rwxr-xr-x root       root            21976 ./usr/bin/llvm8.0/llvm-as
+-rwxr-xr-x root       root            62944 ./usr/bin/llvm8.0/llvm-bcanalyzer
+-rwxr-xr-x root       root            21980 ./usr/bin/llvm8.0/llvm-cat
+-rwxr-xr-x root       root           124448 ./usr/bin/llvm8.0/llvm-cfi-verify
+-rwxr-xr-x root       root            63174 ./usr/bin/llvm8.0/llvm-config
+-rwxr-xr-x root       root           308832 ./usr/bin/llvm8.0/llvm-cov
+-rwxr-xr-x root       root           132516 ./usr/bin/llvm8.0/llvm-c-test
+-rwxr-xr-x root       root            22036 ./usr/bin/llvm8.0/llvm-cvtres
+-rwxr-xr-x root       root            83428 ./usr/bin/llvm8.0/llvm-cxxdump
+-rwxr-xr-x root       root            21984 ./usr/bin/llvm8.0/llvm-cxxfilt
+-rwxr-xr-x root       root            34268 ./usr/bin/llvm8.0/llvm-cxxmap
+-rwxr-xr-x root       root           103912 ./usr/bin/llvm8.0/llvm-diff
+-rwxr-xr-x root       root            34324 ./usr/bin/llvm8.0/llvm-dis
+lrwxrwxrwx root       root                7 ./usr/bin/llvm8.0/llvm-dlltool -> llvm-ar
+-rwxr-xr-x root       root           108060 ./usr/bin/llvm8.0/llvm-dwarfdump
+-rwxr-xr-x root       root            91616 ./usr/bin/llvm8.0/llvm-dwp
+-rwxr-xr-x root       root            34276 ./usr/bin/llvm8.0/llvm-elfabi
+-rwxr-xr-x root       root           362684 ./usr/bin/llvm8.0/llvm-exegesis
+-rwxr-xr-x root       root            46560 ./usr/bin/llvm8.0/llvm-extract
+lrwxrwxrwx root       root                7 ./usr/bin/llvm8.0/llvm-lib -> llvm-ar
+-rwxr-xr-x root       root            46556 ./usr/bin/llvm8.0/llvm-link
+-rwxr-xr-x root       root           169436 ./usr/bin/llvm8.0/llvm-lto
+-rwxr-xr-x root       root           136724 ./usr/bin/llvm8.0/llvm-lto2
+-rwxr-xr-x root       root            87516 ./usr/bin/llvm8.0/llvm-mc
+-rwxr-xr-x root       root           140868 ./usr/bin/llvm8.0/llvm-mca
+-rwxr-xr-x root       root            17888 ./usr/bin/llvm8.0/llvm-modextract
+-rwxr-xr-x root       root            22032 ./usr/bin/llvm8.0/llvm-mt
+-rwxr-xr-x root       root           132628 ./usr/bin/llvm8.0/llvm-nm
+-rwxr-xr-x root       root           378424 ./usr/bin/llvm8.0/llvm-objcopy
+-rwxr-xr-x root       root           644664 ./usr/bin/llvm8.0/llvm-objdump
+-rwxr-xr-x root       root            42464 ./usr/bin/llvm8.0/llvm-opt-report
+-rwxr-xr-x root       root          1025644 ./usr/bin/llvm8.0/llvm-pdbutil
+-rwxr-xr-x root       root           136672 ./usr/bin/llvm8.0/llvm-profdata
+lrwxrwxrwx root       root                7 ./usr/bin/llvm8.0/llvm-ranlib -> llvm-ar
+-rwxr-xr-x root       root           194132 ./usr/bin/llvm8.0/llvm-rc
+lrwxrwxrwx root       root               12 ./usr/bin/llvm8.0/llvm-readelf -> llvm-readobj
+-rwxr-xr-x root       root          1242896 ./usr/bin/llvm8.0/llvm-readobj
+-rwxr-xr-x root       root            71132 ./usr/bin/llvm8.0/llvm-rtdyld
+-rwxr-xr-x root       root            87516 ./usr/bin/llvm8.0/llvm-size
+-rwxr-xr-x root       root            13788 ./usr/bin/llvm8.0/llvm-split
+-rwxr-xr-x root       root            67092 ./usr/bin/llvm8.0/llvm-stress
+-rwxr-xr-x root       root            26080 ./usr/bin/llvm8.0/llvm-strings
+lrwxrwxrwx root       root               12 ./usr/bin/llvm8.0/llvm-strip -> llvm-objcopy
+-rwxr-xr-x root       root            42464 ./usr/bin/llvm8.0/llvm-symbolizer
+-rwxr-xr-x root       root          3959968 ./usr/bin/llvm8.0/llvm-tblgen
+-rwxr-xr-x root       root            17888 ./usr/bin/llvm8.0/llvm-undname
+-rwxr-xr-x root       root           452100 ./usr/bin/llvm8.0/llvm-xray
+-rwxr-xr-x root       root           304688 ./usr/bin/llvm8.0/obj2yaml
+-rwxr-xr-x root       root           329256 ./usr/bin/llvm8.0/opt
+-rwxr-xr-x root       root           112144 ./usr/bin/llvm8.0/sancov
+-rwxr-xr-x root       root            21980 ./usr/bin/llvm8.0/sanstats
+-rwxr-xr-x root       root            62948 ./usr/bin/llvm8.0/verify-uselistorder
+-rwxr-xr-x root       root           181796 ./usr/bin/llvm8.0/yaml2obj
