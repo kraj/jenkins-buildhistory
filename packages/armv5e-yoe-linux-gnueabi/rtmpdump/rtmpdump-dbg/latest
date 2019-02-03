@@ -1,9 +1,9 @@
 PV = 2.4
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libcrypto10-dbg libssl10-dbg zlib-dbg
-PKGSIZE = 510596
+RRECOMMENDS = glibc-dbg gmp-dbg gnutls-dbg nettle-dbg zlib-dbg
+PKGSIZE = 474416
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/bin/.debug/rtmpdump /usr/lib/.debug/librtmp.so.1 /usr/sbin/.debug/rtmpgw /usr/sbin/.debug/rtmpsrv /usr/sbin/.debug/rtmpsuck
