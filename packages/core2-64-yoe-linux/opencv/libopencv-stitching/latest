@@ -1,11 +1,10 @@
-PV = 3.4.3+gitAUTOINC+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4
+PV = 3.4.5
 PR = r0
 PKG = libopencv-stitching3.4
-PKGV = 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4
-PKGR = r0.69
-RPROVIDES = libopencv-stitching (=3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libopencv-calib3d (>= 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4) libopencv-core (>= 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4) libopencv-features2d (>= 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4) libopencv-flann (>= 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4) libopencv-imgproc (>= 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4) libopencv-xfeatures2d (>= 3.4.3+git0+b38c50b3d0_1f6d6f0626_bdb7bb85f3_34e4206aef_fccf7cd6a4) libstdc++ (>= 8.2.0)
+PKGR = r0.0
+RPROVIDES = libopencv-stitching (=3.4.5)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libopencv-calib3d (>= 3.4.5) libopencv-core (>= 3.4.5) libopencv-features2d (>= 3.4.5) libopencv-flann (>= 3.4.5) libopencv-imgproc (>= 3.4.5) libopencv-xfeatures2d (>= 3.4.5) libstdc++ (>= 8.2.0)
 RRECOMMENDS = 
-PKGSIZE = 543108
-FILES = /usr/lib/libopencv_stitching.so /usr/lib/libopencv_stitching.so.3.4 /usr/lib/libopencv_stitching.so.3.4.3
-FILELIST = /usr/lib/libopencv_stitching.so.3.4 /usr/lib/libopencv_stitching.so.3.4.3
+PKGSIZE = 588164
+FILES = /usr/lib/libopencv_stitching.so /usr/lib/libopencv_stitching.so.3.4 /usr/lib/libopencv_stitching.so.3.4.5
+FILELIST = /usr/lib/libopencv_stitching.so.3.4 /usr/lib/libopencv_stitching.so.3.4.5
