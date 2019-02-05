@@ -1,10 +1,10 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              160 ./usr/bin/.debug
--rwxr-xr-x root       root            53080 ./usr/bin/.debug/pacat
--rwxr-xr-x root       root            22512 ./usr/bin/.debug/pacmd
--rwxr-xr-x root       root            81312 ./usr/bin/.debug/pactl
--rwxr-xr-x root       root            22860 ./usr/bin/.debug/pasuspender
+-rwxr-xr-x root       root            53076 ./usr/bin/.debug/pacat
+-rwxr-xr-x root       root            22508 ./usr/bin/.debug/pacmd
+-rwxr-xr-x root       root            81308 ./usr/bin/.debug/pactl
+-rwxr-xr-x root       root            22856 ./usr/bin/.debug/pasuspender
 -rwxr-xr-x root       root            17416 ./usr/bin/.debug/pax11publish
 -rwxr-xr-x root       root           154812 ./usr/bin/.debug/pulseaudio
 drwxr-xr-x root       root              100 ./usr/lib
@@ -32,8 +32,8 @@ drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
 -rwxr-xr-x root       root            60572 ./usr/lib/pulse-12.2/modules/.debug/librtp.so
 -rwxr-xr-x root       root            50196 ./usr/lib/pulse-12.2/modules/.debug/module-allow-passthrough.so
 -rwxr-xr-x root       root            73624 ./usr/lib/pulse-12.2/modules/.debug/module-alsa-card.so
--rwxr-xr-x root       root            34032 ./usr/lib/pulse-12.2/modules/.debug/module-alsa-sink.so
--rwxr-xr-x root       root            34008 ./usr/lib/pulse-12.2/modules/.debug/module-alsa-source.so
+-rwxr-xr-x root       root            34024 ./usr/lib/pulse-12.2/modules/.debug/module-alsa-sink.so
+-rwxr-xr-x root       root            34000 ./usr/lib/pulse-12.2/modules/.debug/module-alsa-source.so
 -rwxr-xr-x root       root            39984 ./usr/lib/pulse-12.2/modules/.debug/module-always-sink.so
 -rwxr-xr-x root       root            39916 ./usr/lib/pulse-12.2/modules/.debug/module-always-source.so
 -rwxr-xr-x root       root            50164 ./usr/lib/pulse-12.2/modules/.debug/module-augment-properties.so
@@ -51,7 +51,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
 -rwxr-xr-x root       root           449100 ./usr/lib/pulse-12.2/modules/.debug/module-dbus-protocol.so
 -rwxr-xr-x root       root            38720 ./usr/lib/pulse-12.2/modules/.debug/module-default-device-restore.so
 -rwxr-xr-x root       root            36292 ./usr/lib/pulse-12.2/modules/.debug/module-detect.so
--rwxr-xr-x root       root           101244 ./usr/lib/pulse-12.2/modules/.debug/module-device-manager.so
+-rwxr-xr-x root       root           101236 ./usr/lib/pulse-12.2/modules/.debug/module-device-manager.so
 -rwxr-xr-x root       root            79464 ./usr/lib/pulse-12.2/modules/.debug/module-device-restore.so
 -rwxr-xr-x root       root           179204 ./usr/lib/pulse-12.2/modules/.debug/module-echo-cancel.so
 -rwxr-xr-x root       root            33168 ./usr/lib/pulse-12.2/modules/.debug/module-esound-compat-spawnfd.so
@@ -68,10 +68,10 @@ drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
 -rwxr-xr-x root       root            98252 ./usr/lib/pulse-12.2/modules/.debug/module-ladspa-sink.so
 -rwxr-xr-x root       root           114616 ./usr/lib/pulse-12.2/modules/.debug/module-loopback.so
 -rwxr-xr-x root       root            44804 ./usr/lib/pulse-12.2/modules/.debug/module-match.so
--rwxr-xr-x root       root            38220 ./usr/lib/pulse-12.2/modules/.debug/module-mmkbd-evdev.so
+-rwxr-xr-x root       root            38212 ./usr/lib/pulse-12.2/modules/.debug/module-mmkbd-evdev.so
 -rwxr-xr-x root       root            33908 ./usr/lib/pulse-12.2/modules/.debug/module-native-protocol-fd.so
 -rwxr-xr-x root       root            37616 ./usr/lib/pulse-12.2/modules/.debug/module-native-protocol-tcp.so
--rwxr-xr-x root       root            37032 ./usr/lib/pulse-12.2/modules/.debug/module-native-protocol-unix.so
+-rwxr-xr-x root       root            37024 ./usr/lib/pulse-12.2/modules/.debug/module-native-protocol-unix.so
 -rwxr-xr-x root       root            47928 ./usr/lib/pulse-12.2/modules/.debug/module-null-sink.so
 -rwxr-xr-x root       root            45364 ./usr/lib/pulse-12.2/modules/.debug/module-null-source.so
 -rwxr-xr-x root       root            74508 ./usr/lib/pulse-12.2/modules/.debug/module-oss.so
@@ -100,7 +100,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/pulse-12.2/modules/.debug
 -rwxr-xr-x root       root            55688 ./usr/lib/pulse-12.2/modules/.debug/module-tunnel-source-new.so
 -rwxr-xr-x root       root            84776 ./usr/lib/pulse-12.2/modules/.debug/module-tunnel-source.so
 -rwxr-xr-x root       root            66456 ./usr/lib/pulse-12.2/modules/.debug/module-udev-detect.so
--rwxr-xr-x root       root            71836 ./usr/lib/pulse-12.2/modules/.debug/module-virtual-sink.so
+-rwxr-xr-x root       root            71828 ./usr/lib/pulse-12.2/modules/.debug/module-virtual-sink.so
 -rwxr-xr-x root       root            72116 ./usr/lib/pulse-12.2/modules/.debug/module-virtual-source.so
 -rwxr-xr-x root       root            80684 ./usr/lib/pulse-12.2/modules/.debug/module-virtual-surround-sink.so
 -rwxr-xr-x root       root            33512 ./usr/lib/pulse-12.2/modules/.debug/module-volume-restore.so
