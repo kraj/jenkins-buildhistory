@@ -3,11 +3,11 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              120 ./usr/bin/.debug
 -rwxr-xr-x root       root           989680 ./usr/bin/.debug/lttng
 -rwxr-xr-x root       root           324516 ./usr/bin/.debug/lttng-crash
--rwxr-xr-x root       root          1266808 ./usr/bin/.debug/lttng-relayd
+-rwxr-xr-x root       root          1266800 ./usr/bin/.debug/lttng-relayd
 -rwxr-xr-x root       root          3011384 ./usr/bin/.debug/lttng-sessiond
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          1136304 ./usr/lib/.debug/liblttng-ctl.so.0.0.0
+-rwxr-xr-x root       root          1136296 ./usr/lib/.debug/liblttng-ctl.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/lttng
 drwxr-xr-x root       root               60 ./usr/lib/lttng/libexec
 drwxr-xr-x root       root               60 ./usr/lib/lttng/libexec/.debug
@@ -26,9 +26,9 @@ drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/re
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health
 drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug
 -rwxr-xr-x root       root            16652 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug/health_check
--rwxr-xr-x root       root            14080 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug/libhealthexit.so
+-rwxr-xr-x root       root            14072 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug/libhealthexit.so
 -rwxr-xr-x root       root            15916 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug/libhealthstall.so
--rwxr-xr-x root       root            13264 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug/libhealthtpfail.so
+-rwxr-xr-x root       root            13256 ./usr/lib/lttng-tools/ptest/tests/regression/tools/health/.debug/libhealthtpfail.so
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/tools/live
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/tools/live/.debug
 -rwxr-xr-x root       root           631520 ./usr/lib/lttng-tools/ptest/tests/regression/tools/live/.debug/live_test
@@ -39,7 +39,7 @@ drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/re
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/tools/notification
 drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/tools/notification/.debug
 -rwxr-xr-x root       root            33700 ./usr/lib/lttng-tools/ptest/tests/regression/tools/notification/.debug/base_client
--rwxr-xr-x root       root           650332 ./usr/lib/lttng-tools/ptest/tests/regression/tools/notification/.debug/libpause_consumer.so
+-rwxr-xr-x root       root           650324 ./usr/lib/lttng-tools/ptest/tests/regression/tools/notification/.debug/libpause_consumer.so
 -rwxr-xr-x root       root            67692 ./usr/lib/lttng-tools/ptest/tests/regression/tools/notification/.debug/notification
 drwxr-xr-x root       root              320 ./usr/lib/lttng-tools/ptest/tests/regression/ust
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump
@@ -58,7 +58,7 @@ drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root            34448 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast/.debug/exit-fast
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/.debug
--rwxr-xr-x root       root            54252 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/.debug/fork
+-rwxr-xr-x root       root            54244 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/.debug/fork
 -rwxr-xr-x root       root            51736 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/.debug/fork2
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/getcpu-override
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/getcpu-override/.debug
@@ -87,7 +87,7 @@ drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/re
 drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/overlap/demo/.debug
 -rwxr-xr-x root       root            22932 ./usr/lib/lttng-tools/ptest/tests/regression/ust/overlap/demo/.debug/demo
 -rwxr-xr-x root       root            28500 ./usr/lib/lttng-tools/ptest/tests/regression/ust/overlap/demo/.debug/liblttng-ust-provider-ust-tests-demo3.so
--rwxr-xr-x root       root            68316 ./usr/lib/lttng-tools/ptest/tests/regression/ust/overlap/demo/.debug/liblttng-ust-provider-ust-tests-demo.so
+-rwxr-xr-x root       root            68308 ./usr/lib/lttng-tools/ptest/tests/regression/ust/overlap/demo/.debug/liblttng-ust-provider-ust-tests-demo.so
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations/.debug
 -rwxr-xr-x root       root            55188 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations/.debug/type-declarations
@@ -102,14 +102,14 @@ drwxr-xr-x root       root              180 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root            12284 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/.debug/prog
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/unit
 drwxr-xr-x root       root              200 ./usr/lib/lttng-tools/ptest/tests/unit/.debug
--rwxr-xr-x root       root           728032 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_kernel_data
+-rwxr-xr-x root       root           728024 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_kernel_data
 -rwxr-xr-x root       root            56772 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_notification
 -rwxr-xr-x root       root           763512 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_session
 -rwxr-xr-x root       root            52944 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_string_utils
--rwxr-xr-x root       root           274156 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_uri
+-rwxr-xr-x root       root           274148 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_uri
 -rwxr-xr-x root       root          1468516 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_ust_data
 -rwxr-xr-x root       root           245964 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_utils_expand_path
--rwxr-xr-x root       root           235244 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_utils_parse_size_suffix
+-rwxr-xr-x root       root           235236 ./usr/lib/lttng-tools/ptest/tests/unit/.debug/test_utils_parse_size_suffix
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/unit/ini_config
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/unit/ini_config/.debug
 -rwxr-xr-x root       root           366392 ./usr/lib/lttng-tools/ptest/tests/unit/ini_config/.debug/ini_config
@@ -117,7 +117,7 @@ drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/ut
 drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/utils/testapp
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-events
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-events/.debug
--rwxr-xr-x root       root           111248 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-events/.debug/gen-ust-events
+-rwxr-xr-x root       root           111240 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-events/.debug/gen-ust-events
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-nevents
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-nevents/.debug
 -rwxr-xr-x root       root           190672 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-nevents/.debug/gen-ust-nevents
@@ -126,4 +126,4 @@ drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/ut
 -rwxr-xr-x root       root            76464 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-nevents-str/.debug/gen-ust-nevents-str
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-tracef
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-tracef/.debug
--rwxr-xr-x root       root            20632 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-tracef/.debug/gen-ust-tracef
+-rwxr-xr-x root       root            20624 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-tracef/.debug/gen-ust-tracef

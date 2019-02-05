@@ -3,7 +3,7 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              400 ./usr/bin/kselftests
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/bpf
 drwxr-xr-x root       root              100 ./usr/bin/kselftests/bpf/.debug
--rwxr-xr-x root       root            62828 ./usr/bin/kselftests/bpf/.debug/test_lru_map
+-rwxr-xr-x root       root            62820 ./usr/bin/kselftests/bpf/.debug/test_lru_map
 -rwxr-xr-x root       root            70644 ./usr/bin/kselftests/bpf/.debug/test_maps
 -rwxr-xr-x root       root            27400 ./usr/bin/kselftests/bpf/.debug/test_verifier
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/breakpoints
@@ -19,7 +19,7 @@ drwxr-xr-x root       root               80 ./usr/bin/kselftests/efivarfs/.debug
 -rwxr-xr-x root       root             8220 ./usr/bin/kselftests/efivarfs/.debug/open-unlink
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/exec
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/exec/.debug
--rwxr-xr-x root       root            11152 ./usr/bin/kselftests/exec/.debug/execveat
+-rwxr-xr-x root       root            11144 ./usr/bin/kselftests/exec/.debug/execveat
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/futex
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/futex/functional
 drwxr-xr-x root       root              180 ./usr/bin/kselftests/futex/functional/.debug
@@ -28,14 +28,14 @@ drwxr-xr-x root       root              180 ./usr/bin/kselftests/futex/functiona
 -rwxr-xr-x root       root            29028 ./usr/bin/kselftests/futex/functional/.debug/futex_requeue_pi_signal_restart
 -rwxr-xr-x root       root            20624 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_private_mapped_file
 -rwxr-xr-x root       root            17856 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_timeout
--rwxr-xr-x root       root            24452 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_uninitialized_heap
+-rwxr-xr-x root       root            24444 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_uninitialized_heap
 -rwxr-xr-x root       root            17408 ./usr/bin/kselftests/futex/functional/.debug/futex_wait_wouldblock
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/gpio
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/gpio/.debug
 -rwxr-xr-x root       root            35892 ./usr/bin/kselftests/gpio/.debug/gpio-mockup-chardev
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/ipc
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/ipc/.debug
--rwxr-xr-x root       root            22340 ./usr/bin/kselftests/ipc/.debug/msgque_test
+-rwxr-xr-x root       root            22332 ./usr/bin/kselftests/ipc/.debug/msgque_test
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/kcmp
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/kcmp/.debug
 -rwxr-xr-x root       root            17780 ./usr/bin/kselftests/kcmp/.debug/kcmp_test
@@ -60,7 +60,7 @@ drwxr-xr-x root       root               60 ./usr/bin/kselftests/sigaltstack/.de
 -rwxr-xr-x root       root             8660 ./usr/bin/kselftests/sigaltstack/.debug/sas
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/sync
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/sync/.debug
--rwxr-xr-x root       root            57636 ./usr/bin/kselftests/sync/.debug/sync_test
+-rwxr-xr-x root       root            57628 ./usr/bin/kselftests/sync/.debug/sync_test
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/timers
 drwxr-xr-x root       root              440 ./usr/bin/kselftests/timers/.debug
 -rwxr-xr-x root       root            38916 ./usr/bin/kselftests/timers/.debug/adjtick
@@ -70,7 +70,7 @@ drwxr-xr-x root       root              440 ./usr/bin/kselftests/timers/.debug
 -rwxr-xr-x root       root            17124 ./usr/bin/kselftests/timers/.debug/inconsistency-check
 -rwxr-xr-x root       root            27172 ./usr/bin/kselftests/timers/.debug/leap-a-day
 -rwxr-xr-x root       root            14380 ./usr/bin/kselftests/timers/.debug/leapcrash
--rwxr-xr-x root       root            16172 ./usr/bin/kselftests/timers/.debug/mqueue-lat
+-rwxr-xr-x root       root            16164 ./usr/bin/kselftests/timers/.debug/mqueue-lat
 -rwxr-xr-x root       root            16760 ./usr/bin/kselftests/timers/.debug/nanosleep
 -rwxr-xr-x root       root            29316 ./usr/bin/kselftests/timers/.debug/nsleep-lat
 -rwxr-xr-x root       root            18044 ./usr/bin/kselftests/timers/.debug/posix_timers
@@ -78,10 +78,10 @@ drwxr-xr-x root       root              440 ./usr/bin/kselftests/timers/.debug
 -rwxr-xr-x root       root            24500 ./usr/bin/kselftests/timers/.debug/rtctest
 -rwxr-xr-x root       root            13552 ./usr/bin/kselftests/timers/.debug/set-2038
 -rwxr-xr-x root       root            14684 ./usr/bin/kselftests/timers/.debug/set-tai
--rwxr-xr-x root       root            20132 ./usr/bin/kselftests/timers/.debug/set-timer-lat
+-rwxr-xr-x root       root            20124 ./usr/bin/kselftests/timers/.debug/set-timer-lat
 -rwxr-xr-x root       root            16316 ./usr/bin/kselftests/timers/.debug/set-tz
--rwxr-xr-x root       root            13252 ./usr/bin/kselftests/timers/.debug/skew_consistency
--rwxr-xr-x root       root            19652 ./usr/bin/kselftests/timers/.debug/threadtest
+-rwxr-xr-x root       root            13244 ./usr/bin/kselftests/timers/.debug/skew_consistency
+-rwxr-xr-x root       root            19644 ./usr/bin/kselftests/timers/.debug/threadtest
 -rwxr-xr-x root       root            45768 ./usr/bin/kselftests/timers/.debug/valid-adjtimex
 drwxr-xr-x root       root               60 ./usr/bin/kselftests/vm
 drwxr-xr-x root       root              240 ./usr/bin/kselftests/vm/.debug
