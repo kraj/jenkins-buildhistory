@@ -1,9 +1,9 @@
 PV = 3.3.2
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 777800
+RRECOMMENDS = glibc-dbg libpython3-dbg
+PKGSIZE = 793040
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/multidict/.debug/_istr.cpython-35m-arm-linux-gnueabi.so /usr/lib/python3.5/site-packages/multidict/.debug/_multidict.cpython-35m-arm-linux-gnueabi.so
+FILELIST = /usr/lib/python3.7/site-packages/multidict/.debug/_istr.cpython-37m-arm-linux-gnueabi.so /usr/lib/python3.7/site-packages/multidict/.debug/_multidict.cpython-37m-arm-linux-gnueabi.so

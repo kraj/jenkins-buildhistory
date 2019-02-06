@@ -1,9 +1,9 @@
 PV = 2.9.8
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libxml2 (>= 2.9.8) python3-core zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) libpython3 (>= 3.7.2) libxml2 (>= 2.9.8) python3-core zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 3345130
-FILES = /usr/lib/python3.5/site-packages
-FILELIST = /usr/lib/python3.5/site-packages/drv_libxml2.py /usr/lib/python3.5/site-packages/libxml2.py /usr/lib/python3.5/site-packages/libxml2mod.so
+PKGSIZE = 709006
+FILES = /usr/lib/python3.7/site-packages
+FILELIST = /usr/lib/python3.7/site-packages/drv_libxml2.py /usr/lib/python3.7/site-packages/libxml2.py /usr/lib/python3.7/site-packages/libxml2mod.so

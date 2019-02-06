@@ -1,9 +1,9 @@
 PV = 3.7.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 254768
+RRECOMMENDS = glibc-dbg libpython3-dbg
+PKGSIZE = 260984
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/bson/.debug/_cbson.cpython-35m-arm-linux-gnueabi.so /usr/lib/python3.5/site-packages/pymongo/.debug/_cmessage.cpython-35m-arm-linux-gnueabi.so
+FILELIST = /usr/lib/python3.7/site-packages/bson/.debug/_cbson.cpython-37m-arm-linux-gnueabi.so /usr/lib/python3.7/site-packages/pymongo/.debug/_cmessage.cpython-37m-arm-linux-gnueabi.so

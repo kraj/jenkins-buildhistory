@@ -1,9 +1,9 @@
 PV = 4.0
 PR = r1
-PKGR = r1.21
+PKGR = r1.22
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg i2c-tools-dbg
-PKGSIZE = 44784
+RRECOMMENDS = glibc-dbg i2c-tools-dbg libpython3-dbg
+PKGSIZE = 47168
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/.debug/smbus.cpython-35m-arm-linux-gnueabi.so
+FILELIST = /usr/lib/python3.7/site-packages/.debug/smbus.cpython-37m-arm-linux-gnueabi.so
