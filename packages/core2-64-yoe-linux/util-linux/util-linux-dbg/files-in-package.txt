@@ -6,7 +6,7 @@ drwxr-xr-x root       root              200 ./bin/.debug
 -rwxr-xr-x root       root           111664 ./bin/.debug/more.util-linux
 -rwxr-xr-x root       root            41336 ./bin/.debug/mountpoint.util-linux
 -rwxr-xr-x root       root           130128 ./bin/.debug/mount.util-linux
--rwxr-xr-x root       root           136384 ./bin/.debug/su.util-linux
+-rwxr-xr-x root       root           136368 ./bin/.debug/su.util-linux
 -rwxr-xr-x root       root            77184 ./bin/.debug/umount.util-linux
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root              140 ./lib/.debug
@@ -30,7 +30,7 @@ drwxr-xr-x root       root              380 ./sbin/.debug
 -rwxr-xr-x root       root           304576 ./sbin/.debug/mkswap.util-linux
 -rwxr-xr-x root       root            18560 ./sbin/.debug/nologin.util-linux
 -rwxr-xr-x root       root            34120 ./sbin/.debug/pivot_root.util-linux
--rwxr-xr-x root       root           167272 ./sbin/.debug/sulogin.util-linux
+-rwxr-xr-x root       root           167256 ./sbin/.debug/sulogin.util-linux
 -rwxr-xr-x root       root            55624 ./sbin/.debug/swapoff.util-linux
 -rwxr-xr-x root       root           148624 ./sbin/.debug/swapon.util-linux
 -rwxr-xr-x root       root            44144 ./sbin/.debug/switch_root.util-linux
@@ -43,7 +43,7 @@ drwxr-xr-x root       root             1060 ./usr/bin/.debug
 -rwxr-xr-x root       root            94224 ./usr/bin/.debug/col
 -rwxr-xr-x root       root            41312 ./usr/bin/.debug/colcrt
 -rwxr-xr-x root       root            82120 ./usr/bin/.debug/colrm
--rwxr-xr-x root       root           169896 ./usr/bin/.debug/column
+-rwxr-xr-x root       root           169880 ./usr/bin/.debug/column
 -rwxr-xr-x root       root           182872 ./usr/bin/.debug/eject.util-linux
 -rwxr-xr-x root       root            96248 ./usr/bin/.debug/fallocate.util-linux
 -rwxr-xr-x root       root            98096 ./usr/bin/.debug/fincore
@@ -52,7 +52,7 @@ drwxr-xr-x root       root             1060 ./usr/bin/.debug
 -rwxr-xr-x root       root           198480 ./usr/bin/.debug/hexdump.util-linux
 -rwxr-xr-x root       root            87040 ./usr/bin/.debug/ionice.util-linux
 -rwxr-xr-x root       root            92504 ./usr/bin/.debug/ipcmk
--rwxr-xr-x root       root            93216 ./usr/bin/.debug/ipcrm
+-rwxr-xr-x root       root            93200 ./usr/bin/.debug/ipcrm
 -rwxr-xr-x root       root           182136 ./usr/bin/.debug/ipcs
 -rwxr-xr-x root       root            86704 ./usr/bin/.debug/isosize
 -rwxr-xr-x root       root           151992 ./usr/bin/.debug/last.util-linux
@@ -72,7 +72,7 @@ drwxr-xr-x root       root             1060 ./usr/bin/.debug
 -rwxr-xr-x root       root           103400 ./usr/bin/.debug/prlimit
 -rwxr-xr-x root       root            45256 ./usr/bin/.debug/rename
 -rwxr-xr-x root       root            38256 ./usr/bin/.debug/renice.util-linux
--rwxr-xr-x root       root            38512 ./usr/bin/.debug/rev.util-linux
+-rwxr-xr-x root       root            38496 ./usr/bin/.debug/rev.util-linux
 -rwxr-xr-x root       root            96424 ./usr/bin/.debug/script
 -rwxr-xr-x root       root            85912 ./usr/bin/.debug/scriptreplay
 -rwxr-xr-x root       root            42800 ./usr/bin/.debug/setarch
@@ -93,7 +93,7 @@ drwxr-xr-x root       root               60 ./usr/lib/util-linux
 drwxr-xr-x root       root               60 ./usr/lib/util-linux/ptest
 drwxr-xr-x root       root              980 ./usr/lib/util-linux/ptest/.debug
 -rwxr-xr-x root       root            67936 ./usr/lib/util-linux/ptest/.debug/sample-fdisk-mkpart
--rwxr-xr-x root       root            23336 ./usr/lib/util-linux/ptest/.debug/sample-fdisk-mkpart-fullspec
+-rwxr-xr-x root       root            23320 ./usr/lib/util-linux/ptest/.debug/sample-fdisk-mkpart-fullspec
 -rwxr-xr-x root       root            14592 ./usr/lib/util-linux/ptest/.debug/sample-mkfs
 -rwxr-xr-x root       root            17936 ./usr/lib/util-linux/ptest/.debug/sample-partitions
 -rwxr-xr-x root       root            20128 ./usr/lib/util-linux/ptest/.debug/sample-scols-continuous
@@ -127,7 +127,7 @@ drwxr-xr-x root       root              980 ./usr/lib/util-linux/ptest/.debug
 -rwxr-xr-x root       root            30936 ./usr/lib/util-linux/ptest/.debug/test_procutils
 -rwxr-xr-x root       root            18272 ./usr/lib/util-linux/ptest/.debug/test_pwdutils
 -rwxr-xr-x root       root            23144 ./usr/lib/util-linux/ptest/.debug/test_randutils
--rwxr-xr-x root       root            96936 ./usr/lib/util-linux/ptest/.debug/test_script
+-rwxr-xr-x root       root            96920 ./usr/lib/util-linux/ptest/.debug/test_script
 -rwxr-xr-x root       root            29744 ./usr/lib/util-linux/ptest/.debug/test_sha1
 -rwxr-xr-x root       root            63680 ./usr/lib/util-linux/ptest/.debug/test_sigreceive
 -rwxr-xr-x root       root            57824 ./usr/lib/util-linux/ptest/.debug/test_strutils
@@ -154,7 +154,7 @@ drwxr-xr-x root       root              520 ./usr/sbin/.debug
 -rwxr-xr-x root       root            38376 ./usr/sbin/.debug/mkfs
 -rwxr-xr-x root       root           133664 ./usr/sbin/.debug/mkfs.cramfs
 -rwxr-xr-x root       root           331640 ./usr/sbin/.debug/partx
--rwxr-xr-x root       root            42760 ./usr/sbin/.debug/raw
+-rwxr-xr-x root       root            42744 ./usr/sbin/.debug/raw
 -rwxr-xr-x root       root            52904 ./usr/sbin/.debug/readprofile.util-linux
 -rwxr-xr-x root       root           151496 ./usr/sbin/.debug/resizepart
 -rwxr-xr-x root       root           167704 ./usr/sbin/.debug/rfkill.util-linux

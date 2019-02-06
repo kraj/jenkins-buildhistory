@@ -1,10 +1,10 @@
 PV = 1.7+gitAUTOINC+57cd0a7cad
 PR = r0
 PKGV = 1.7+git0+57cd0a7cad
-PKGR = r0.62
+PKGR = r0.63
 RPROVIDES = 
-RDEPENDS = libcap (>= 2.26) libpython3 (>= 3.5.6) musl (>= 1.1.21+git0+1691b23955) python3-core
+RDEPENDS = libcap (>= 2.26) libpython3 (>= 3.7.2) musl (>= 1.1.21+git0+1691b23955) python3-core
 RRECOMMENDS = 
-PKGSIZE = 33415
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-prctl /usr/lib/python3-prctl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
-FILELIST = /usr/lib/python3.5/site-packages/__pycache__/prctl.cpython-35.pyc /usr/lib/python3.5/site-packages/_prctl.cpython-35m-i386-linux-gnu.so /usr/lib/python3.5/site-packages/prctl.py /usr/lib/python3.5/site-packages/python_prctl-1.7-py3.5.egg-info
+PKGSIZE = 32620
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-prctl /usr/lib/python3-prctl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.7/*
+FILELIST = /usr/lib/python3.7/site-packages/__pycache__/prctl.cpython-37.pyc /usr/lib/python3.7/site-packages/_prctl.cpython-37m-i386-linux-gnu.so /usr/lib/python3.7/site-packages/prctl.py /usr/lib/python3.7/site-packages/python_prctl-1.7-py3.7.egg-info

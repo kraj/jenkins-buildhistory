@@ -1,9 +1,9 @@
-PV = 3.5.6
-PR = r1.0
-PKGR = r1.0.69
+PV = 3.7.2
+PR = r0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = python3-core
+RDEPENDS = libpython3 (>= 3.7.2) musl (>= 1.1.21+git0+1691b23955) python3-core
 RRECOMMENDS = 
-PKGSIZE = 81098
-FILES = /usr/lib/python3.5/_dummy_thread.py /usr/lib/python3.5/_threading_local.py /usr/lib/python3.5/dummy_threading.py /usr/lib/python3.5/queue.py /usr/lib/python3.5/__pycache__/_dummy_thread.*.pyc /usr/lib/python3.5/__pycache__/_threading_local.*.pyc /usr/lib/python3.5/__pycache__/dummy_threading.*.pyc /usr/lib/python3.5/__pycache__/queue.*.pyc
-FILELIST = /usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.pyc /usr/lib/python3.5/__pycache__/_threading_local.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/_threading_local.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/_threading_local.cpython-35.pyc /usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.pyc /usr/lib/python3.5/__pycache__/queue.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/queue.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/queue.cpython-35.pyc /usr/lib/python3.5/_dummy_thread.py /usr/lib/python3.5/_threading_local.py /usr/lib/python3.5/dummy_threading.py /usr/lib/python3.5/queue.py
+PKGSIZE = 92808
+FILES = /usr/lib/python3.7/_dummy_thread.py /usr/lib/python3.7/_threading_local.py /usr/lib/python3.7/lib-dynload/_queue.*.so /usr/lib/python3.7/queue.py /usr/lib/python3.7/__pycache__/_dummy_thread.*.pyc /usr/lib/python3.7/__pycache__/_threading_local.*.pyc /usr/lib/python3.7/__pycache__/queue.*.pyc
+FILELIST = /usr/lib/python3.7/__pycache__/_dummy_thread.cpython-37.opt-1.pyc /usr/lib/python3.7/__pycache__/_dummy_thread.cpython-37.opt-2.pyc /usr/lib/python3.7/__pycache__/_dummy_thread.cpython-37.pyc /usr/lib/python3.7/__pycache__/_threading_local.cpython-37.opt-1.pyc /usr/lib/python3.7/__pycache__/_threading_local.cpython-37.opt-2.pyc /usr/lib/python3.7/__pycache__/_threading_local.cpython-37.pyc /usr/lib/python3.7/__pycache__/queue.cpython-37.opt-1.pyc /usr/lib/python3.7/__pycache__/queue.cpython-37.opt-2.pyc /usr/lib/python3.7/__pycache__/queue.cpython-37.pyc /usr/lib/python3.7/_dummy_thread.py /usr/lib/python3.7/_threading_local.py /usr/lib/python3.7/lib-dynload/_queue.cpython-37m-i386-linux-gnu.so /usr/lib/python3.7/queue.py
