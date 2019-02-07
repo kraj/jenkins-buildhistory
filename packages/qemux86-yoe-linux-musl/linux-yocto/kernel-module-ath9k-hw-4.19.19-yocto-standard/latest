@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+4c0da29403_ad24af0809
+PR = r0
+PKGV = 4.19.19+git0+4c0da29403_ad24af0809
+PKGR = r0.1
+RPROVIDES = kernel-module-ath9k-hw
+RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-ath-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 469816
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko /etc/modules-load.d/ath9k_hw.conf /etc/modprobe.d/ath9k_hw.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko

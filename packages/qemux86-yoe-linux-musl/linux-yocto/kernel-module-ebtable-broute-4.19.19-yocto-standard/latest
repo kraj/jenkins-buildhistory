@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+4c0da29403_ad24af0809
+PR = r0
+PKGV = 4.19.19+git0+4c0da29403_ad24af0809
+PKGR = r0.1
+RPROVIDES = kernel-module-ebtable-broute
+RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-bridge-4.19.19-yocto-standard kernel-module-ebtables-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 3920
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/net/bridge/netfilter/ebtable_broute.ko /etc/modules-load.d/ebtable_broute.conf /etc/modprobe.d/ebtable_broute.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/net/bridge/netfilter/ebtable_broute.ko

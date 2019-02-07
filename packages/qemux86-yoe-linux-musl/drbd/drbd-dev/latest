@@ -1,9 +1,9 @@
 PV = 9.0.16-1
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = drbd (= 9.0.16-1-r0.13)
-RRECOMMENDS = kernel-4.19.14-yocto-standard-dev kernel-module-drbd-4.19.14-yocto-standard-dev kernel-module-drbd-transport-tcp-4.19.14-yocto-standard-dev
+RDEPENDS = drbd (= 9.0.16-1-r0.14)
+RRECOMMENDS = kernel-4.19.19-yocto-standard-dev kernel-module-drbd-4.19.19-yocto-standard-dev kernel-module-drbd-transport-tcp-4.19.19-yocto-standard-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/drbd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 
