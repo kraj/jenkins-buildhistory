@@ -1,9 +1,9 @@
 PV = 3.3.3+git
 PR = r0
 PKG = libyui9
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = libyui-dev (=3.3.3+git)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libyui (= 3.3.3+git-r0.23)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libyui (= 3.3.3+git-r0.24)
 RRECOMMENDS = boost-dev glibc-dev libgcc-dev libstdc++-dev
 PKGSIZE = 1238084
 FILES = /usr/lib/* /usr/include/yui*

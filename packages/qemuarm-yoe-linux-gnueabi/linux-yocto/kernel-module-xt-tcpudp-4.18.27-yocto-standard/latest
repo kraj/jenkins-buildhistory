@@ -1,0 +1,10 @@
+PV = 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
+PR = r0
+PKGV = 4.18.27+git0+9e348b6f9d_e66e05d38c
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-tcpudp
+RDEPENDS = kernel-4.18.27-yocto-standard kernel-module-x-tables-4.18.27-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6228
+FILES = /lib/modules/4.18.27-yocto-standard/kernel/net/netfilter/xt_tcpudp.ko /etc/modules-load.d/xt_tcpudp.conf /etc/modprobe.d/xt_tcpudp.conf
+FILELIST = /lib/modules/4.18.27-yocto-standard/kernel/net/netfilter/xt_tcpudp.ko
