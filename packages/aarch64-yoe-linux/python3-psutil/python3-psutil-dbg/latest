@@ -1,9 +1,9 @@
 PV = 5.4.6
 PR = r0
-PKGR = r0.54
+PKGR = r0.55
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 157536
+RRECOMMENDS = glibc-dbg libpython3-dbg
+PKGSIZE = 166128
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/psutil/.debug/_psutil_linux.cpython-35m-aarch64-linux-gnu.so /usr/lib/python3.5/site-packages/psutil/.debug/_psutil_posix.cpython-35m-aarch64-linux-gnu.so
+FILELIST = /usr/lib/python3.7/site-packages/psutil/.debug/_psutil_linux.cpython-37m-aarch64-linux-gnu.so /usr/lib/python3.7/site-packages/psutil/.debug/_psutil_posix.cpython-37m-aarch64-linux-gnu.so
