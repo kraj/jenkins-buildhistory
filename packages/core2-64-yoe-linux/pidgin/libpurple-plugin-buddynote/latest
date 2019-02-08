@@ -1,8 +1,8 @@
 PV = 2.12.0
 PR = r0
-PKGR = r0.71
+PKGR = r0.72
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.29)
+RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.29) libnsl2 (>= 1.2.0+git0+37c5ffe303)
 RRECOMMENDS = 
 PKGSIZE = 10544
 FILES = /usr/lib/purple-2/buddynote.so

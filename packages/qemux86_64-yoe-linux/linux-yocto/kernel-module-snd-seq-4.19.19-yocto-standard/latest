@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+4c0da29403_ad24af0809
+PR = r0
+PKGV = 4.19.19+git0+4c0da29403_ad24af0809
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-seq
+RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-snd-4.19.19-yocto-standard kernel-module-snd-seq-device-4.19.19-yocto-standard kernel-module-snd-timer-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 92104
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/sound/core/seq/snd-seq.ko /etc/modules-load.d/snd-seq.conf /etc/modprobe.d/snd-seq.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/sound/core/seq/snd-seq.ko
