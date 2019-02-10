@@ -1,9 +1,9 @@
 PV = 1.35
 PR = r0
-PKGR = r0.60
+PKGR = r0.61
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) python3-core python3-datetime python3-numbers
+RDEPENDS = glibc (>= 2.29) libpython3 (>= 3.7.2) python3-core python3-datetime python3-numbers
 RRECOMMENDS = 
 PKGSIZE = 68859
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-ujson /usr/lib/python3-ujson/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
-FILELIST = /usr/lib/python3.5/site-packages/ujson-1.35-py3.5.egg-info/PKG-INFO /usr/lib/python3.5/site-packages/ujson-1.35-py3.5.egg-info/SOURCES.txt /usr/lib/python3.5/site-packages/ujson-1.35-py3.5.egg-info/dependency_links.txt /usr/lib/python3.5/site-packages/ujson-1.35-py3.5.egg-info/top_level.txt /usr/lib/python3.5/site-packages/ujson.cpython-35m-x86_64-linux-gnu.so
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-ujson /usr/lib/python3-ujson/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.7/*
+FILELIST = /usr/lib/python3.7/site-packages/ujson-1.35-py3.7.egg-info/PKG-INFO /usr/lib/python3.7/site-packages/ujson-1.35-py3.7.egg-info/SOURCES.txt /usr/lib/python3.7/site-packages/ujson-1.35-py3.7.egg-info/dependency_links.txt /usr/lib/python3.7/site-packages/ujson-1.35-py3.7.egg-info/top_level.txt /usr/lib/python3.7/site-packages/ujson.cpython-37m-x86_64-linux-gnu.so

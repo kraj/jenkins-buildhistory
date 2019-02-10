@@ -1,9 +1,0 @@
-PV = 5.2.22
-PR = r0
-PKGR = r0.40
-RPROVIDES = kernel-module-vboxvideo
-RDEPENDS = kernel-4.19.14-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 64154
-FILES = /lib/modules/4.19.14-yocto-standard/kernel/misc/vboxvideo.ko /etc/modules-load.d/vboxvideo.conf /etc/modprobe.d/vboxvideo.conf
-FILELIST = /etc/modules-load.d/vboxvideo.conf /lib/modules/4.19.14-yocto-standard/kernel/misc/vboxvideo.ko

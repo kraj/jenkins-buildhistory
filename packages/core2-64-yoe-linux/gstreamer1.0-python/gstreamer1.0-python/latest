@@ -1,9 +1,9 @@
 PV = 1.14.4
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.29) gstreamer1.0 (>= 1.14.4) python3-core python3-pygobject
+RDEPENDS = glib-2.0 (>= 2.58.0) glibc (>= 2.29) gstreamer1.0 (>= 1.14.4) libpython3 (>= 3.7.2) python3-core python3-pygobject
 RRECOMMENDS = 
-PKGSIZE = 2924887
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gstreamer1.0-python /usr/lib/gstreamer1.0-python/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/* /usr/lib/girepository-*/*.typelib
-FILELIST = /usr/lib/gstreamer-1.0/libgstpython.cpython-35m-x86_64-linux-gnu.so /usr/lib/python3.5/site-packages/gi/overrides/Gst.py /usr/lib/python3.5/site-packages/gi/overrides/GstPbutils.py /usr/lib/python3.5/site-packages/gi/overrides/__pycache__/Gst.cpython-35.opt-1.pyc /usr/lib/python3.5/site-packages/gi/overrides/__pycache__/Gst.cpython-35.pyc /usr/lib/python3.5/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-35.opt-1.pyc /usr/lib/python3.5/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-35.pyc /usr/lib/python3.5/site-packages/gi/overrides/_gi_gst.cpython-35m-x86_64-linux-gnu.so
+PKGSIZE = 112521
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gstreamer1.0-python /usr/lib/gstreamer1.0-python/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.7/* /usr/lib/girepository-*/*.typelib
+FILELIST = /usr/lib/gstreamer-1.0/libgstpython.cpython-37m-x86_64-linux-gnu.so /usr/lib/python3.7/site-packages/gi/overrides/Gst.py /usr/lib/python3.7/site-packages/gi/overrides/GstPbutils.py /usr/lib/python3.7/site-packages/gi/overrides/__pycache__/Gst.cpython-37.opt-1.pyc /usr/lib/python3.7/site-packages/gi/overrides/__pycache__/Gst.cpython-37.pyc /usr/lib/python3.7/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-37.opt-1.pyc /usr/lib/python3.7/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-37.pyc /usr/lib/python3.7/site-packages/gi/overrides/_gi_gst.cpython-37m-x86_64-linux-gnu.so
