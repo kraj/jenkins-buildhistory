@@ -1,5 +1,5 @@
 PV = 1.48.04
 PR = r0
-DEPENDS = portaudio-v19 virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = portaudio-v19 qemu-helper-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = espeak-dbg espeak-staticdev espeak-dev espeak-doc espeak-locale espeak espeak-src
 LAYER = openembedded-layer
