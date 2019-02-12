@@ -11,9 +11,9 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl daemon-reload
 	fi
 
-	systemctl $OPTS disable atop.service atopgpu.service
+	systemctl $OPTS disable atop.service
 
 	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart atop.service atopgpu.service
+		systemctl --no-block restart atop.service
 	fi
 fi

@@ -1,9 +1,9 @@
-PV = 2.7
-PR = r1
-PKGR = r1.24
+PV = 2.8.8
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libfaad-dbg
-PKGSIZE = 892316
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 1554628
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/faad /usr/lib/.debug/libfaad.so.2.0.0
+FILELIST = /usr/bin/.debug/faad /usr/lib/.debug/libfaad.so.2.0.0 /usr/lib/.debug/libfaad_drm.so.2.0.0

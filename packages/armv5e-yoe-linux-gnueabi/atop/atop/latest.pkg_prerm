@@ -8,8 +8,8 @@ fi
 
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop atop.service atopgpu.service
+		systemctl stop atop.service
 	fi
 
-	systemctl $OPTS disable atop.service atopgpu.service
+	systemctl $OPTS disable atop.service
 fi
