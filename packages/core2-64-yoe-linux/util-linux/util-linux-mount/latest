@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
-PKGR = r0.63
+PKGR = r0.64
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) update-alternatives-opkg util-linux-libmount (>= 2.32.1)
 RRECOMMENDS = 
-PKGSIZE = 43264
-FILES = /bin/mount.util-linux
-FILELIST = /bin/mount.util-linux
+PKGSIZE = 43300
+FILES = /etc/default/mountall /bin/mount.util-linux
+FILELIST = /bin/mount.util-linux /etc/default/mountall
