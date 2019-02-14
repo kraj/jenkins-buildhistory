@@ -2,9 +2,9 @@ PE = 1
 PV = 2.0.1
 PR = r0
 PKG = libjpeg-dev
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = libjpeg-turbo-dev (=2.0.1)
-RDEPENDS = libjpeg-turbo (= 1:2.0.1-r0.23) libturbojpeg
+RDEPENDS = libjpeg-turbo (= 1:2.0.1-r0.24) libturbojpeg
 RRECOMMENDS = glibc-dev libturbojpeg-dev
 PKGSIZE = 157140
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libjpeg-turbo/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
