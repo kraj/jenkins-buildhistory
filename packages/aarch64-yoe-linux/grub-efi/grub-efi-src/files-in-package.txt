@@ -47,7 +47,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/grub-efi/2.02-r0/gru
 -rw-r--r-- root       root             3387 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/hexdump.c
 -rw-r--r-- root       root             3097 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/keystatus.c
 -rw-r--r-- root       root            11495 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/loadenv.c
--rw-r--r-- root       root             9499 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/lsacpi.c
+-rw-r--r-- root       root             9584 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/lsacpi.c
 -rw-r--r-- root       root             6664 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/ls.c
 -rw-r--r-- root       root             2748 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/lsmmap.c
 -rw-r--r-- root       root             6265 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/commands/macbless.c
@@ -106,15 +106,15 @@ drwxr-xr-x root       root              680 ./usr/src/debug/grub-efi/2.02-r0/gru
 -rw-r--r-- root       root            10164 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/cbfs.c
 -rw-r--r-- root       root             1591 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/cpio_be.c
 -rw-r--r-- root       root             1600 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/cpio.c
--rw-r--r-- root       root             5628 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/cpio_common.c
+-rw-r--r-- root       root             5711 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/cpio_common.c
 -rw-r--r-- root       root            29417 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/ext2.c
 -rw-r--r-- root       root            29441 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/fat.c
 -rw-r--r-- root       root            11688 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/fshelp.c
--rw-r--r-- root       root            34556 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/hfs.c
--rw-r--r-- root       root            29874 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/hfsplus.c
+-rw-r--r-- root       root            34629 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/hfs.c
+-rw-r--r-- root       root            29954 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/hfsplus.c
 -rw-r--r-- root       root             8598 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/hfspluscomp.c
 -rw-r--r-- root       root            28226 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/iso9660.c
--rw-r--r-- root       root            23723 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/jfs.c
+-rw-r--r-- root       root            23808 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/jfs.c
 -rw-r--r-- root       root            19185 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/minix.c
 -rw-r--r-- root       root             1761 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/newc.c
 -rw-r--r-- root       root            30909 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/fs/nilfs2.c
@@ -190,7 +190,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/grub-efi/2.02-r0/gru
 -rw-r--r-- root       root            18916 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/dl.c
 drwxr-xr-x root       root              140 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi
 -rw-r--r-- root       root             1914 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi/acpi.c
--rw-r--r-- root       root            26054 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi/efi.c
+-rw-r--r-- root       root            26138 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi/efi.c
 -rw-r--r-- root       root             1436 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi/fdt.c
 -rw-r--r-- root       root             2164 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi/init.c
 -rw-r--r-- root       root            15051 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/kern/efi/mm.c
@@ -324,7 +324,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/grub-efi/2.02-r0/gru
 -rw-r--r-- root       root             9703 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/arm64/linux.c
 -rw-r--r-- root       root            12859 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/arm64/xen_boot.c
 drwxr-xr-x root       root               60 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/efi
--rw-r--r-- root       root            10699 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/efi/chainloader.c
+-rw-r--r-- root       root            10784 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/efi/chainloader.c
 drwxr-xr-x root       root               80 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/i386
 -rw-r--r-- root       root             3391 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/i386/xen_file.c
 -rw-r--r-- root       root            10603 ./usr/src/debug/grub-efi/2.02-r0/grub-2.02/grub-core/loader/i386/xen_fileXX.c

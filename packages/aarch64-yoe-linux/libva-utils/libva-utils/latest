@@ -1,9 +1,9 @@
-PV = 2.3.0
+PV = 2.4.0
 PR = r0
-PKGR = r0.34
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libva (>= 2.3.0) libva-wayland (>= 2.3.0) libva-x11 (>= 2.3.0) libx11 (>= 1.6.7) wayland (>= 1.16.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) libva (>= 2.4.0) libva-wayland (>= 2.4.0) libva-x11 (>= 2.4.0) libx11 (>= 1.6.7) wayland (>= 1.16.0)
 RRECOMMENDS = 
-PKGSIZE = 2823376
+PKGSIZE = 3231032
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libva-utils /usr/lib/libva-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/avcenc /usr/bin/avcstreamoutdemo /usr/bin/h264encode /usr/bin/hevcencode /usr/bin/jpegenc /usr/bin/loadjpeg /usr/bin/mpeg2vaenc /usr/bin/mpeg2vldemo /usr/bin/putsurface /usr/bin/putsurface_wayland /usr/bin/vainfo /usr/bin/vavpp /usr/bin/vp8enc /usr/bin/vp9enc
+FILELIST = /usr/bin/avcenc /usr/bin/avcstreamoutdemo /usr/bin/h264encode /usr/bin/hevcencode /usr/bin/jpegenc /usr/bin/loadjpeg /usr/bin/mpeg2vaenc /usr/bin/mpeg2vldemo /usr/bin/putsurface /usr/bin/putsurface_wayland /usr/bin/sfcsample /usr/bin/vainfo /usr/bin/vavpp /usr/bin/vp8enc /usr/bin/vp9enc /usr/bin/vppblending /usr/bin/vppchromasitting /usr/bin/vppdenoise /usr/bin/vppscaling_csc /usr/bin/vppsharpness
