@@ -1,9 +1,9 @@
 PV = 1.9.12
 PR = r0
-PKGR = r0.71
+PKGR = r0.72
 RPROVIDES = 
 RDEPENDS = libgcc (>= 8.2.0) libjack (>= 1.9.12) libstdc++ (>= 8.2.0) musl (>= 1.1.21+git0+1691b23955)
 RRECOMMENDS = 
 PKGSIZE = 17884
-FILES = /usr/bin/jackd
+FILES = /usr/share/dbus-1/services /usr/bin/jackdbus /usr/bin/jackd
 FILELIST = /usr/bin/jackd
