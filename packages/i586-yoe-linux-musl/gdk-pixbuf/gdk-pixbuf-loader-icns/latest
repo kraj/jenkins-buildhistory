@@ -1,9 +1,9 @@
 PV = 2.36.11
 PR = r0
 PKG = libgdk-pixbuf-2.0-loader-icns
-PKGR = r0.85
+PKGR = r0.86
 RPROVIDES = gdk-pixbuf-loader-icns (=2.36.11)
-RDEPENDS = gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.58.0) libpng (>= 1.6.36) musl (>= 1.1.21+git0+1691b23955) zlib (>= 1.2.11)
+RDEPENDS = gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.58.3) libpng (>= 1.6.36) musl (>= 1.1.21+git0+1691b23955) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 9564
 FILES = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-icns.so
