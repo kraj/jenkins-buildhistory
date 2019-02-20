@@ -1,9 +1,9 @@
 PV = 2.0.3
 PR = r0
 PKG = libfluidsynth2
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = fluidsynth (=2.0.3)
-RDEPENDS = alsa-lib (>= 1.1.6) dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.3) libpulse-simple (>= 12.2) musl (>= 1.1.21+git0+1691b23955) readline (>= 7.0)
+RDEPENDS = alsa-lib (>= 1.1.6) dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) libpulse-simple (>= 12.2) musl (>= 1.1.21+git0+1691b23955) readline (>= 7.0)
 RRECOMMENDS = 
 PKGSIZE = 382542
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fluidsynth /usr/lib/fluidsynth/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

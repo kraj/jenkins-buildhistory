@@ -45,7 +45,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root              956 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/callgrind/tests/simwork.c
 -rw-r--r-- root       root              650 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/callgrind/tests/threads.c
 -rw-r--r-- root       root            12989 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/callgrind/threads.c
-drwxr-xr-x root       root             2060 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind
+drwxr-xr-x root       root             2020 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind
 -rw-r--r-- root       root            16891 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/launcher-linux.c
 -rw-r--r-- root       root            24100 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_addrinfo.c
 -rw-r--r-- root       root             2277 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_aspacehl.c
@@ -57,7 +57,6 @@ drwxr-xr-x root       root              120 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root            25787 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_cache.c
 -rw-r--r-- root       root             5034 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_clientstate.c
 -rw-r--r-- root       root             8378 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_commandline.c
--rw-r--r-- root       root             7504 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_compiler.c
 drwxr-xr-x root       root               60 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_coredump
 -rw-r--r-- root       root            23500 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_coredump/coredump-elf.c
 -rw-r--r-- root       root             3971 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_cpuid.S
@@ -86,15 +85,13 @@ drwxr-xr-x root       root              480 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root            32258 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_debuginfo/tytypes.c
 -rw-r--r-- root       root            35791 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_debuglog.c
 -rw-r--r-- root       root            13565 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_deduppoolalloc.c
-drwxr-xr-x root       root              280 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle
+drwxr-xr-x root       root              240 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle
 -rw-r--r-- root       root           181181 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/cp-demangle.c
 -rw-r--r-- root       root             6021 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/cp-demangle.h
 -rw-r--r-- root       root           128632 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/cplus-dem.c
 -rw-r--r-- root       root            37118 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/d-demangle.c
 -rw-r--r-- root       root            13768 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/demangle.c
 -rw-r--r-- root       root            28686 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/demangle.h
--rw-r--r-- root       root            11563 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/dyn-string.c
--rw-r--r-- root       root             2706 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/dyn-string.h
 -rw-r--r-- root       root            10374 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/rust-demangle.c
 -rw-r--r-- root       root            10386 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/safe-ctype.c
 -rw-r--r-- root       root             5696 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_demangle/safe-ctype.h
@@ -103,7 +100,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root             8139 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_dispatch/dispatch-x86-linux.S
 -rw-r--r-- root       root            68435 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_errormgr.c
 -rw-r--r-- root       root            20237 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_execontext.c
-drwxr-xr-x root       root              520 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver
+drwxr-xr-x root       root              360 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver
 drwxr-xr-x root       root               60 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/gdb
 -rw-r--r-- root       root             8501 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/gdb/signals.h
 -rw-r--r-- root       root             5652 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/inferiors.c
@@ -118,15 +115,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root            29259 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/target.c
 -rw-r--r-- root       root            11311 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/target.h
 -rw-r--r-- root       root             2597 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/utils.c
--rw-r--r-- root       root            13879 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-amd64.c
--rw-r--r-- root       root            10832 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-arm64.c
--rw-r--r-- root       root            10883 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-arm.c
 -rw-r--r-- root       root             4817 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind_low.h
--rw-r--r-- root       root            14651 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-mips32.c
--rw-r--r-- root       root            14764 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-mips64.c
--rw-r--r-- root       root            14702 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-ppc32.c
--rw-r--r-- root       root            23303 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-ppc64.c
--rw-r--r-- root       root             8551 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-s390x.c
 -rw-r--r-- root       root            10006 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/valgrind-low-x86.c
 -rw-r--r-- root       root               92 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_gdbserver/version.c
 -rw-r--r-- root       root            14289 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_hashtable.c
@@ -167,7 +156,6 @@ drwxr-xr-x root       root              100 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root             4812 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_sigframe/sigframe-common.c
 -rw-r--r-- root       root            21149 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_sigframe/sigframe-x86-linux.c
 -rw-r--r-- root       root           112695 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_signals.c
--rw-r--r-- root       root            12529 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_sparsewa.c
 -rw-r--r-- root       root            16873 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_stacks.c
 -rw-r--r-- root       root            60389 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_stacktrace.c
 -rw-r--r-- root       root            37528 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_syscall.c
@@ -435,7 +423,7 @@ drwxr-xr-x root       root             1020 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root             3253 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/helgrind/tests/tc23_bogus_condwait.c
 -rw-r--r-- root       root             1897 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/helgrind/tests/tc24_nonzero_sem.c
 -rw-r--r-- root       root             2666 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/helgrind/tests/tls_threads.c
-drwxr-xr-x root       root              860 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include
+drwxr-xr-x root       root              840 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include
 -rw-r--r-- root       root             8601 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_addrinfo.h
 -rw-r--r-- root       root             1953 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_aspacehl.h
 -rw-r--r-- root       root             6097 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_aspacemgr.h
@@ -465,7 +453,6 @@ drwxr-xr-x root       root              860 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root             3650 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_replacemalloc.h
 -rw-r--r-- root       root             4567 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_seqmatch.h
 -rw-r--r-- root       root             2063 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_signals.h
--rw-r--r-- root       root             3982 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_sparsewa.h
 -rw-r--r-- root       root             4304 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_stacktrace.h
 -rw-r--r-- root       root             1941 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_threadstate.h
 -rw-r--r-- root       root            35983 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_tooliface.h
