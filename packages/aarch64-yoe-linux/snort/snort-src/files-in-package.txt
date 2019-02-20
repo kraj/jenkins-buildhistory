@@ -23,7 +23,7 @@ drwxr-xr-x root       root              280 ./usr/src/debug/snort/2.9.11.1-r0/bu
 -rw-r--r-- root       root             2483 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-plugins/sf_engine/sf_sechash.c
 -rw-r--r-- root       root             3741 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-plugins/sf_engine/sf_sechash.h
 drwxr-xr-x root       root               60 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors
-drwxr-xr-x root       root             1340 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include
+drwxr-xr-x root       root             1200 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include
 -rw-r--r-- root       root             4239 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/appdata_adjuster.c
 -rw-r--r-- root       root              963 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/appdata_adjuster.h
 -rw-r--r-- root       root             1458 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/bitop.h
@@ -43,8 +43,6 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/snort/2.9.11.1-r0/bu
 -rw-r--r-- root       root             3495 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/segment_mem.c
 -rw-r--r-- root       root             1365 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/segment_mem.h
 -rw-r--r-- root       root            28947 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/session_api.h
--rw-r--r-- root       root             5409 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_base64decode.c
--rw-r--r-- root       root             1164 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_base64decode.h
 -rw-r--r-- root       root             2483 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfcontrol.h
 -rw-r--r-- root       root             3736 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_dynamic_common.h
 -rw-r--r-- root       root             3881 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_dynamic_define.h
@@ -52,7 +50,6 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/snort/2.9.11.1-r0/bu
 -rw-r--r-- root       root             1768 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_dynamic_meta.h
 -rw-r--r-- root       root            23183 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_dynamic_preprocessor.h
 -rw-r--r-- root       root             2419 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_dynamic_preproc_lib.c
--rw-r--r-- root       root            19630 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_email_attach_decode.c
 -rw-r--r-- root       root             6885 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_email_attach_decode.h
 -rw-r--r-- root       root             3419 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfhashfcn.c
 -rw-r--r-- root       root             2678 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfhashfcn.h
@@ -75,8 +72,6 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/snort/2.9.11.1-r0/bu
 -rw-r--r-- root       root             8094 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfrt_flat.h
 -rw-r--r-- root       root            10119 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfrt.h
 -rw-r--r-- root       root             4992 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfrt_trie.h
--rw-r--r-- root       root             9524 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_sdlist.c
--rw-r--r-- root       root             1646 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_sdlist_types.h
 -rw-r--r-- root       root            24306 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sf_snort_packet.h
 -rw-r--r-- root       root            37122 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfxhash.c
 -rw-r--r-- root       root             7699 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/sfxhash.h
@@ -87,8 +82,6 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/snort/2.9.11.1-r0/bu
 -rw-r--r-- root       root             4040 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/str_search.h
 -rw-r--r-- root       root             5465 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/treenodes.h
 -rw-r--r-- root       root             7209 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/Unified2_common.h
--rw-r--r-- root       root             5503 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/util_unfold.c
--rw-r--r-- root       root             1303 ./usr/src/debug/snort/2.9.11.1-r0/build/src/dynamic-preprocessors/include/util_unfold.h
 drwxr-xr-x root       root               80 ./usr/src/debug/snort/2.9.11.1-r0/build/src/target-based
 -rw-r--r-- root       root             5809 ./usr/src/debug/snort/2.9.11.1-r0/build/src/target-based/sf_attribute_table.h
 -rw-r--r-- root       root           397444 ./usr/src/debug/snort/2.9.11.1-r0/build/src/target-based/sf_attribute_table_parser.c
@@ -199,9 +192,7 @@ drwxr-xr-x root       root             1740 ./usr/src/debug/snort/2.9.11.1-r0/sn
 -rw-r--r-- root       root             1854 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/detection-plugins/sp_urilen_check.h
 -rw-r--r-- root       root             5388 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/detection_util.c
 -rw-r--r-- root       root             7700 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/detection_util.h
-drwxr-xr-x root       root               80 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output
-drwxr-xr-x root       root               60 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output/libs
--rw-r--r-- root       root             2840 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output/libs/output_lib.c
+drwxr-xr-x root       root               60 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output
 drwxr-xr-x root       root              140 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output/plugins
 -rw-r--r-- root       root             2923 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output/plugins/output_api.h
 -rw-r--r-- root       root            11767 ./usr/src/debug/snort/2.9.11.1-r0/snort-2.9.11.1/src/dynamic-output/plugins/output_base.c

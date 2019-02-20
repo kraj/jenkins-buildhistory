@@ -2,9 +2,9 @@ PE = 1
 PV = 2.58.3
 PR = r0
 PKG = libglib-2.0-ptest
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = glib-2.0-ptest (=2.58.3)
-RDEPENDS = dbus dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.3) glibc (>= 2.29) glibc-charmap-cp1255 glibc-charmap-invariant glibc-charmap-utf-8 glibc-gconv-cp1255 glibc-gconv-euc-jp glibc-gconv-iso8859-1 glibc-gconv-iso8859-15 glibc-gconv-utf-16 glibc-gconv-utf-32 glibc-gconv-utf-7 glibc-localedata-translit-cjk-variants gnome-desktop-testing libffi (>= 3.2.1) libpcre (>= 8.42) locale-base-de-de locale-base-el-gr locale-base-en-gb locale-base-es-es locale-base-fa-ir locale-base-fr-fr locale-base-hr-hr locale-base-ja-jp.euc-jp locale-base-lt-lt locale-base-pl-pl locale-base-ru-ru locale-base-tr-tr shared-mime-info tzdata tzdata-americas tzdata-asia tzdata-europe tzdata-posix util-linux-libmount (>= 2.32.1) zlib (>= 1.2.11)
+RDEPENDS = dbus dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) glibc (>= 2.29) glibc-charmap-cp1255 glibc-charmap-invariant glibc-charmap-utf-8 glibc-gconv-cp1255 glibc-gconv-euc-jp glibc-gconv-iso8859-1 glibc-gconv-iso8859-15 glibc-gconv-utf-16 glibc-gconv-utf-32 glibc-gconv-utf-7 glibc-localedata-translit-cjk-variants gnome-desktop-testing libffi (>= 3.2.1) libpcre (>= 8.42) locale-base-de-de locale-base-el-gr locale-base-en-gb locale-base-es-es locale-base-fa-ir locale-base-fr-fr locale-base-hr-hr locale-base-ja-jp.euc-jp locale-base-lt-lt locale-base-pl-pl locale-base-ru-ru locale-base-tr-tr shared-mime-info tzdata tzdata-americas tzdata-asia tzdata-europe tzdata-posix util-linux-libmount (>= 2.32.1) zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 18743498
 FILES = /usr/lib/glib-2.0/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/
