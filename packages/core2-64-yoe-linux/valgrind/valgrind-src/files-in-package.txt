@@ -43,7 +43,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root              956 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/callgrind/tests/simwork.c
 -rw-r--r-- root       root              650 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/callgrind/tests/threads.c
 -rw-r--r-- root       root            12989 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/callgrind/threads.c
-drwxr-xr-x root       root             2060 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind
+drwxr-xr-x root       root             2020 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind
 -rw-r--r-- root       root            16891 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/launcher-linux.c
 -rw-r--r-- root       root            24100 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_addrinfo.c
 -rw-r--r-- root       root             2277 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_aspacehl.c
@@ -55,7 +55,6 @@ drwxr-xr-x root       root              120 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root            25787 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_cache.c
 -rw-r--r-- root       root             5034 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_clientstate.c
 -rw-r--r-- root       root             8378 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_commandline.c
--rw-r--r-- root       root             7504 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_compiler.c
 drwxr-xr-x root       root               60 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_coredump
 -rw-r--r-- root       root            23500 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_coredump/coredump-elf.c
 -rw-r--r-- root       root             3971 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_cpuid.S
@@ -155,7 +154,6 @@ drwxr-xr-x root       root              100 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root            19571 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_sigframe/sigframe-amd64-linux.c
 -rw-r--r-- root       root             4812 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_sigframe/sigframe-common.c
 -rw-r--r-- root       root           112695 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_signals.c
--rw-r--r-- root       root            12529 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_sparsewa.c
 -rw-r--r-- root       root            16873 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_stacks.c
 -rw-r--r-- root       root            60389 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_stacktrace.c
 -rw-r--r-- root       root            37528 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/coregrind/m_syscall.c
@@ -425,7 +423,7 @@ drwxr-xr-x root       root             1020 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root             3253 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/helgrind/tests/tc23_bogus_condwait.c
 -rw-r--r-- root       root             1897 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/helgrind/tests/tc24_nonzero_sem.c
 -rw-r--r-- root       root             2666 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/helgrind/tests/tls_threads.c
-drwxr-xr-x root       root              860 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include
+drwxr-xr-x root       root              840 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include
 -rw-r--r-- root       root             8601 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_addrinfo.h
 -rw-r--r-- root       root             1953 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_aspacehl.h
 -rw-r--r-- root       root             6097 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_aspacemgr.h
@@ -455,7 +453,6 @@ drwxr-xr-x root       root              860 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root             3650 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_replacemalloc.h
 -rw-r--r-- root       root             4567 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_seqmatch.h
 -rw-r--r-- root       root             2063 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_signals.h
--rw-r--r-- root       root             3982 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_sparsewa.h
 -rw-r--r-- root       root             4304 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_stacktrace.h
 -rw-r--r-- root       root             1941 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_threadstate.h
 -rw-r--r-- root       root            35983 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/include/pub_tool_tooliface.h
@@ -903,7 +900,7 @@ drwxr-xr-x root       root              280 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root               32 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/tests/true.c
 -rw-r--r-- root       root             4928 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/tests/x86_amd64_features.c
 drwxr-xr-x root       root               80 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX
-drwxr-xr-x root       root             1400 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv
+drwxr-xr-x root       root             1380 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv
 -rw-r--r-- root       root            23305 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_amd64_defs.h
 -rw-r--r-- root       root           165169 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_amd64_helpers.c
 -rw-r--r-- root       root          1186116 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_amd64_toIR.c
@@ -928,7 +925,6 @@ drwxr-xr-x root       root             1400 ./usr/src/debug/valgrind/3.14.0-r0/v
 -rw-r--r-- root       root           704788 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_s390_toIR.c
 -rw-r--r-- root       root            16427 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_x86_defs.h
 -rw-r--r-- root       root           101794 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_x86_helpers.c
--rw-r--r-- root       root           537011 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/guest_x86_toIR.c
 -rw-r--r-- root       root           147605 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/host_amd64_defs.c
 -rw-r--r-- root       root            30194 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/host_amd64_defs.h
 -rw-r--r-- root       root           191886 ./usr/src/debug/valgrind/3.14.0-r0/valgrind-3.14.0/VEX/priv/host_amd64_isel.c

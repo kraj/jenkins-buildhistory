@@ -1,5 +1,5 @@
-PV = 17
+PV = 16+gitAUTOINC+fc874afa09
 PR = r0
-DEPENDS = expat meson-native ninja-native pkgconfig-native python3-native systemd systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = dbus expat glib-2.0 meson-native ninja-native pkgconfig-native python3-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = dbus-broker-dbg dbus-broker-staticdev dbus-broker-dev dbus-broker-doc dbus-broker-locale dbus-broker dbus-broker-src
 LAYER = openembedded-layer

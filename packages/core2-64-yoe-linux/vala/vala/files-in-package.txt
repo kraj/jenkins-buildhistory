@@ -10,11 +10,11 @@ lrwxrwxrwx root       root                9 ./usr/bin/vala -> vala-0.42
 lrwxrwxrwx root       root               12 ./usr/bin/vapigen -> vapigen-0.42
 -rwxr-xr-x root       root               29 ./usr/bin/vapigen-wrapper
 drwxr-xr-x root       root              100 ./usr/lib
--rwxr-xr-x root       root          1740376 ./usr/lib/libvala-0.42.so.0.0.0
+-rwxr-xr-x root       root          1744472 ./usr/lib/libvala-0.42.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libvala-0.42.so.0 -> libvala-0.42.so.0.0.0
 drwxr-xr-x root       root               80 ./usr/lib/vala-0.42
 -rwxr-xr-x root       root           137680 ./usr/lib/vala-0.42/gen-introspect-0.42
--rwxr-xr-x root       root          1173672 ./usr/lib/vala-0.42/libvalaccodegen.so
+-rwxr-xr-x root       root          1177768 ./usr/lib/vala-0.42/libvalaccodegen.so
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/vala
 drwxr-xr-x root       root               60 ./usr/share/vala-0.42
@@ -33,7 +33,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root             1308 ./usr/share/vala-0.42/vapi/cairo-xcb.vapi
 -rw-r--r-- root       root            11649 ./usr/share/vala-0.42/vapi/ccss-1.vapi
 -rw-r--r-- root       root               39 ./usr/share/vala-0.42/vapi/clutter-1.0.deps
--rw-r--r-- root       root           479212 ./usr/share/vala-0.42/vapi/clutter-1.0.vapi
+-rw-r--r-- root       root           479224 ./usr/share/vala-0.42/vapi/clutter-1.0.vapi
 -rw-r--r-- root       root               20 ./usr/share/vala-0.42/vapi/clutter-gdk-1.0.deps
 -rw-r--r-- root       root             1378 ./usr/share/vala-0.42/vapi/clutter-gdk-1.0.vapi
 -rw-r--r-- root       root               65 ./usr/share/vala-0.42/vapi/clutter-gst-2.0.deps
@@ -60,7 +60,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root               46 ./usr/share/vala-0.42/vapi/gdk-2.0.deps
 -rw-r--r-- root       root           258768 ./usr/share/vala-0.42/vapi/gdk-2.0.vapi
 -rw-r--r-- root       root               46 ./usr/share/vala-0.42/vapi/gdk-3.0.deps
--rw-r--r-- root       root           334877 ./usr/share/vala-0.42/vapi/gdk-3.0.vapi
+-rw-r--r-- root       root           334878 ./usr/share/vala-0.42/vapi/gdk-3.0.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.42/vapi/gdk-pixbuf-2.0.deps
 -rw-r--r-- root       root            18373 ./usr/share/vala-0.42/vapi/gdk-pixbuf-2.0.vapi
 -rw-r--r-- root       root               58 ./usr/share/vala-0.42/vapi/gdk-x11-2.0.deps
@@ -75,12 +75,12 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root            41474 ./usr/share/vala-0.42/vapi/gedit-2.20.vapi
 -rw-r--r-- root       root               35 ./usr/share/vala-0.42/vapi/geocode-glib-1.0.deps
 -rw-r--r-- root       root            11581 ./usr/share/vala-0.42/vapi/geocode-glib-1.0.vapi
--rw-r--r-- root       root           259323 ./usr/share/vala-0.42/vapi/gio-2.0.vapi
+-rw-r--r-- root       root           259421 ./usr/share/vala-0.42/vapi/gio-2.0.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.42/vapi/gio-unix-2.0.deps
 -rw-r--r-- root       root             9620 ./usr/share/vala-0.42/vapi/gio-unix-2.0.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.42/vapi/gio-windows-2.0.deps
 -rw-r--r-- root       root             1051 ./usr/share/vala-0.42/vapi/gio-windows-2.0.vapi
--rw-r--r-- root       root           215505 ./usr/share/vala-0.42/vapi/glib-2.0.vapi
+-rw-r--r-- root       root           215705 ./usr/share/vala-0.42/vapi/glib-2.0.vapi
 -rw-r--r-- root       root             1635 ./usr/share/vala-0.42/vapi/gmodule-2.0.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.42/vapi/gnet-2.0.deps
 -rw-r--r-- root       root            20108 ./usr/share/vala-0.42/vapi/gnet-2.0.vapi
@@ -90,7 +90,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root            17505 ./usr/share/vala-0.42/vapi/gnome-desktop-3.0.vapi
 -rw-r--r-- root       root            70864 ./usr/share/vala-0.42/vapi/gnome-vfs-2.0.vapi
 -rw-r--r-- root       root            67833 ./usr/share/vala-0.42/vapi/gnutls.vapi
--rw-r--r-- root       root            46624 ./usr/share/vala-0.42/vapi/gobject-2.0.vapi
+-rw-r--r-- root       root            47220 ./usr/share/vala-0.42/vapi/gobject-2.0.vapi
 -rw-r--r-- root       root            16867 ./usr/share/vala-0.42/vapi/gobject-introspection-1.0.vapi
 -rw-r--r-- root       root               57 ./usr/share/vala-0.42/vapi/goocanvas.deps
 -rw-r--r-- root       root            42902 ./usr/share/vala-0.42/vapi/goocanvas.vapi
@@ -98,10 +98,10 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root            27068 ./usr/share/vala-0.42/vapi/graphene-1.0.vapi
 -rw-r--r-- root       root           169618 ./usr/share/vala-0.42/vapi/gsl.vapi
 -rw-r--r-- root       root               64 ./usr/share/vala-0.42/vapi/gst-editing-services-1.0.deps
--rw-r--r-- root       root            48606 ./usr/share/vala-0.42/vapi/gst-editing-services-1.0.vapi
--rw-r--r-- root       root           192642 ./usr/share/vala-0.42/vapi/gstreamer-1.0.vapi
+-rw-r--r-- root       root            48744 ./usr/share/vala-0.42/vapi/gst-editing-services-1.0.vapi
+-rw-r--r-- root       root           191994 ./usr/share/vala-0.42/vapi/gstreamer-1.0.vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.42/vapi/gstreamer-allocators-1.0.deps
--rw-r--r-- root       root             3711 ./usr/share/vala-0.42/vapi/gstreamer-allocators-1.0.vapi
+-rw-r--r-- root       root             3740 ./usr/share/vala-0.42/vapi/gstreamer-allocators-1.0.vapi
 -rw-r--r-- root       root               19 ./usr/share/vala-0.42/vapi/gstreamer-app-1.0.deps
 -rw-r--r-- root       root             4269 ./usr/share/vala-0.42/vapi/gstreamer-app-1.0.vapi
 -rw-r--r-- root       root               37 ./usr/share/vala-0.42/vapi/gstreamer-audio-1.0.deps
@@ -109,7 +109,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.42/vapi/gstreamer-bad-allocators-1.0.deps
 -rw-r--r-- root       root              803 ./usr/share/vala-0.42/vapi/gstreamer-bad-allocators-1.0.vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.42/vapi/gstreamer-base-1.0.deps
--rw-r--r-- root       root            46814 ./usr/share/vala-0.42/vapi/gstreamer-base-1.0.vapi
+-rw-r--r-- root       root            46872 ./usr/share/vala-0.42/vapi/gstreamer-base-1.0.vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.42/vapi/gstreamer-check-1.0.deps
 -rw-r--r-- root       root            14841 ./usr/share/vala-0.42/vapi/gstreamer-check-1.0.vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.42/vapi/gstreamer-controller-1.0.deps
@@ -117,7 +117,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.42/vapi/gstreamer-fft-1.0.deps
 -rw-r--r-- root       root             2836 ./usr/share/vala-0.42/vapi/gstreamer-fft-1.0.vapi
 -rw-r--r-- root       root               22 ./usr/share/vala-0.42/vapi/gstreamer-net-1.0.deps
--rw-r--r-- root       root             7081 ./usr/share/vala-0.42/vapi/gstreamer-net-1.0.vapi
+-rw-r--r-- root       root             7080 ./usr/share/vala-0.42/vapi/gstreamer-net-1.0.vapi
 -rw-r--r-- root       root               77 ./usr/share/vala-0.42/vapi/gstreamer-pbutils-1.0.deps
 -rw-r--r-- root       root            27401 ./usr/share/vala-0.42/vapi/gstreamer-pbutils-1.0.vapi
 -rw-r--r-- root       root               36 ./usr/share/vala-0.42/vapi/gstreamer-player-1.0.deps
@@ -125,7 +125,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root               71 ./usr/share/vala-0.42/vapi/gstreamer-riff-1.0.deps
 -rw-r--r-- root       root            21502 ./usr/share/vala-0.42/vapi/gstreamer-riff-1.0.vapi
 -rw-r--r-- root       root               19 ./usr/share/vala-0.42/vapi/gstreamer-rtp-1.0.deps
--rw-r--r-- root       root            30456 ./usr/share/vala-0.42/vapi/gstreamer-rtp-1.0.vapi
+-rw-r--r-- root       root            30458 ./usr/share/vala-0.42/vapi/gstreamer-rtp-1.0.vapi
 -rw-r--r-- root       root               59 ./usr/share/vala-0.42/vapi/gstreamer-rtsp-1.0.deps
 -rw-r--r-- root       root            23396 ./usr/share/vala-0.42/vapi/gstreamer-rtsp-1.0.vapi
 -rw-r--r-- root       root               45 ./usr/share/vala-0.42/vapi/gstreamer-rtsp-server-1.0.deps
@@ -135,15 +135,15 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root               19 ./usr/share/vala-0.42/vapi/gstreamer-tag-1.0.deps
 -rw-r--r-- root       root            13548 ./usr/share/vala-0.42/vapi/gstreamer-tag-1.0.vapi
 -rw-r--r-- root       root               19 ./usr/share/vala-0.42/vapi/gstreamer-video-1.0.deps
--rw-r--r-- root       root            77309 ./usr/share/vala-0.42/vapi/gstreamer-video-1.0.vapi
+-rw-r--r-- root       root            79885 ./usr/share/vala-0.42/vapi/gstreamer-video-1.0.vapi
 -rw-r--r-- root       root               37 ./usr/share/vala-0.42/vapi/gstreamer-webrtc-1.0.deps
 -rw-r--r-- root       root             8901 ./usr/share/vala-0.42/vapi/gstreamer-webrtc-1.0.vapi
 -rw-r--r-- root       root               47 ./usr/share/vala-0.42/vapi/gtk+-2.0.deps
 -rw-r--r-- root       root           354696 ./usr/share/vala-0.42/vapi/gtk+-2.0.vapi
 -rw-r--r-- root       root               51 ./usr/share/vala-0.42/vapi/gtk+-3.0.deps
--rw-r--r-- root       root           614715 ./usr/share/vala-0.42/vapi/gtk+-3.0.vapi
+-rw-r--r-- root       root           612594 ./usr/share/vala-0.42/vapi/gtk+-3.0.vapi
 -rw-r--r-- root       root               56 ./usr/share/vala-0.42/vapi/gtk+-4.0.deps
--rw-r--r-- root       root           694922 ./usr/share/vala-0.42/vapi/gtk+-4.0.vapi
+-rw-r--r-- root       root           695041 ./usr/share/vala-0.42/vapi/gtk+-4.0.vapi
 -rw-r--r-- root       root               33 ./usr/share/vala-0.42/vapi/gtkmozembed.deps
 -rw-r--r-- root       root             3691 ./usr/share/vala-0.42/vapi/gtkmozembed.vapi
 -rw-r--r-- root       root               56 ./usr/share/vala-0.42/vapi/gtksourceview-2.0.deps
@@ -162,7 +162,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root            52705 ./usr/share/vala-0.42/vapi/hildon-1.vapi
 -rw-r--r-- root       root               65 ./usr/share/vala-0.42/vapi/hildon-fm-2.deps
 -rw-r--r-- root       root            10471 ./usr/share/vala-0.42/vapi/hildon-fm-2.vapi
--rw-r--r-- root       root            18224 ./usr/share/vala-0.42/vapi/javascriptcoregtk-4.0.vapi
+-rw-r--r-- root       root            18034 ./usr/share/vala-0.42/vapi/javascriptcoregtk-4.0.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.42/vapi/json-glib-1.0.deps
 -rw-r--r-- root       root            20887 ./usr/share/vala-0.42/vapi/json-glib-1.0.vapi
 -rw-r--r-- root       root                6 ./usr/share/vala-0.42/vapi/libarchive.deps
@@ -208,7 +208,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root               56 ./usr/share/vala-0.42/vapi/libsexy.deps
 -rw-r--r-- root       root             3046 ./usr/share/vala-0.42/vapi/libsexy.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.42/vapi/libsoup-2.4.deps
--rw-r--r-- root       root            90893 ./usr/share/vala-0.42/vapi/libsoup-2.4.vapi
+-rw-r--r-- root       root            90927 ./usr/share/vala-0.42/vapi/libsoup-2.4.vapi
 -rw-r--r-- root       root               16 ./usr/share/vala-0.42/vapi/libusb-1.0.deps
 -rw-r--r-- root       root            18612 ./usr/share/vala-0.42/vapi/libusb-1.0.vapi
 -rw-r--r-- root       root             6652 ./usr/share/vala-0.42/vapi/libusb.vapi
@@ -258,7 +258,7 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root                4 ./usr/share/vala-0.42/vapi/sdl-ttf.deps
 -rw-r--r-- root       root             3320 ./usr/share/vala-0.42/vapi/sdl-ttf.vapi
 -rw-r--r-- root       root            26490 ./usr/share/vala-0.42/vapi/sdl.vapi
--rw-r--r-- root       root            16912 ./usr/share/vala-0.42/vapi/sqlite3.vapi
+-rw-r--r-- root       root            16985 ./usr/share/vala-0.42/vapi/sqlite3.vapi
 -rw-r--r-- root       root             3530 ./usr/share/vala-0.42/vapi/taglib_c.vapi
 -rw-r--r-- root       root            37731 ./usr/share/vala-0.42/vapi/tiff.vapi
 -rw-r--r-- root       root            33409 ./usr/share/vala-0.42/vapi/tokyocabinet.vapi
@@ -286,4 +286,4 @@ drwxr-xr-x root       root             5340 ./usr/share/vala-0.42/vapi
 -rw-r--r-- root       root             6551 ./usr/share/vala-0.42/vapi/zlib.vapi
 -rw-r--r-- root       root             2170 ./usr/share/vala/Makefile.vapigen
 drwxr-xr-x root       root               60 ./usr/share/vala/vapi
--rw-r--r-- root       root           132379 ./usr/share/vala/vapi/libvala-0.42.vapi
+-rw-r--r-- root       root           132691 ./usr/share/vala/vapi/libvala-0.42.vapi
