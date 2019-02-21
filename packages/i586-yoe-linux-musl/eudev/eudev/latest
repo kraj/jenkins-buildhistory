@@ -1,8 +1,8 @@
 PV = 3.2.7
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = hotplug udev
-RDEPENDS = libkmod (>= 25+git0+aca4eca103) musl (>= 1.1.21+git0+1691b23955) util-linux-libblkid (>= 2.32.1)
+RDEPENDS = libkmod (>= 26) musl (>= 1.1.21+git0+1691b23955) util-linux-libblkid (>= 2.32.1)
 RRECOMMENDS = update-rc.d
 PKGSIZE = 1275370
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/eudev /usr/lib/eudev/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/libexec /lib/udev /usr/bin/udevadm

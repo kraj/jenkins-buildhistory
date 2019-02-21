@@ -1,8 +1,8 @@
 PV = 3.2.7
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = eudev (= 3.2.7-r0.0) libudev
+RDEPENDS = eudev (= 3.2.7-r0.1) libudev
 RRECOMMENDS = glib-2.0-dev initscripts-dev kmod-dev libkmod-dev libudev-dev musl-dev update-rc.d-dev util-linux-dev util-linux-libblkid-dev
 PKGSIZE = 19934
 FILES = /usr/share/pkgconfig/udev.pc /usr/include/libudev.h /usr/lib/libudev.so /usr/include/udev.h /usr/lib/libudev.la /usr/lib/libudev.a /usr/lib/pkgconfig/libudev.pc
