@@ -1,12 +1,18 @@
-drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               80 ./etc/dbus-1
 -rw-r--r-- root       root              838 ./etc/dbus-1/session.conf
 -rw-r--r-- root       root              833 ./etc/dbus-1/system.conf
-drwxr-xr-x root       root               60 ./etc/default
-drwxr-xr-x root       root               60 ./etc/default/volatiles
--rw-r--r-- root       root               48 ./etc/default/volatiles/99_dbus
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root             2887 ./etc/init.d/dbus-1
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root              140 ./lib/systemd/system
+-rw-r--r-- root       root              380 ./lib/systemd/system/dbus.service
+-rw-r--r-- root       root              106 ./lib/systemd/system/dbus.socket
+drwxr-xr-x root       root               60 ./lib/systemd/system/dbus.target.wants
+lrwxrwxrwx root       root               14 ./lib/systemd/system/dbus.target.wants/dbus.socket -> ../dbus.socket
+drwxr-xr-x root       root               60 ./lib/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               15 ./lib/systemd/system/multi-user.target.wants/dbus.service -> ../dbus.service
+drwxr-xr-x root       root               60 ./lib/systemd/system/sockets.target.wants
+lrwxrwxrwx root       root               14 ./lib/systemd/system/sockets.target.wants/dbus.socket -> ../dbus.socket
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              200 ./usr/bin
 -rwxr-xr-x root       root             9536 ./usr/bin/dbus-cleanup-sockets
@@ -17,7 +23,7 @@ drwxr-xr-x root       root              200 ./usr/bin
 -rwxr-xr-x root       root            26016 ./usr/bin/dbus-send
 -rwxr-xr-x root       root             9656 ./usr/bin/dbus-update-activation-environment
 -rwxr-xr-x root       root             9636 ./usr/bin/dbus-uuidgen
-drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 -rwsr-xr-x root       messagebus      58848 ./usr/libexec/dbus-daemon-launch-helper
 drwxr-xr-x root       root               60 ./usr/lib/systemd
@@ -26,6 +32,10 @@ drwxr-xr-x root       root              100 ./usr/lib/systemd/user
 -rw-r--r-- root       root              174 ./usr/lib/systemd/user/dbus.socket
 drwxr-xr-x root       root               60 ./usr/lib/systemd/user/sockets.target.wants
 lrwxrwxrwx root       root               14 ./usr/lib/systemd/user/sockets.target.wants/dbus.socket -> ../dbus.socket
+drwxr-xr-x root       root               60 ./usr/lib/sysusers.d
+-rw-r--r-- root       root              211 ./usr/lib/sysusers.d/dbus.conf
+drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root              365 ./usr/lib/tmpfiles.d/dbus.conf
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root              160 ./usr/share/dbus-1
 drwxr-xr-x root       root               40 ./usr/share/dbus-1/services

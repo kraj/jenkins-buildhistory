@@ -3,8 +3,10 @@ drwxr-xr-x root       root              120 ./bin
 -rwxr-xr-x root       root            13792 ./bin/pidof.procps
 -rwxr-xr-x root       root           112268 ./bin/ps.procps
 -rwxr-xr-x root       root            22036 ./bin/watch.procps
-drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc
 -rw-r--r-- root       root             2049 ./etc/sysctl.conf
+drwxr-xr-x root       root               60 ./etc/sysctl.d
+lrwxrwxrwx root       root               14 ./etc/sysctl.d/99-sysctl.conf -> ../sysctl.conf
 drwxr-xr-x root       root               60 ./sbin
 -rwxr-xr-x root       root            25976 ./sbin/sysctl.procps
 drwxr-xr-x root       root               80 ./usr

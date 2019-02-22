@@ -1,8 +1,8 @@
 PV = 4.1.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = libavcodec (>= 4.1.1) libavdevice (>= 4.1.1) libavfilter (>= 4.1.1) libavformat (>= 4.1.1) libavutil (>= 4.1.1) libpostproc (>= 4.1.1) libswresample (>= 4.1.1) libswscale (>= 4.1.1) musl (>= 1.1.21+git0+1691b23955)
+RDEPENDS = libavcodec (>= 4.1.1) libavdevice (>= 4.1.1) libavfilter (>= 4.1.1) libavformat (>= 4.1.1) libavresample (>= 4.1.1) libavutil (>= 4.1.1) libpostproc (>= 4.1.1) libswresample (>= 4.1.1) libswscale (>= 4.1.1) musl (>= 1.1.21+git0+1691b23955)
 RRECOMMENDS = 
 PKGSIZE = 699432
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ffmpeg /usr/lib/ffmpeg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
