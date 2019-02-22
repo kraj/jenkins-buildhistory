@@ -1,9 +1,9 @@
 PE = 1
 PV = 049
 PR = r0
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = 
-RDEPENDS = bash cpio findutils glibc (>= 2.29) ldd libkmod (>= 25+git0+aca4eca103) systemd util-linux util-linux-blkid util-linux-getopt
+RDEPENDS = bash cpio findutils glibc (>= 2.29) ldd libkmod (>= 26) systemd util-linux util-linux-blkid util-linux-getopt
 RRECOMMENDS = busybox coreutils kernel-modules
 PKGSIZE = 778421
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dracut /usr/lib/dracut/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/kernel /usr/lib/dracut /lib/systemd

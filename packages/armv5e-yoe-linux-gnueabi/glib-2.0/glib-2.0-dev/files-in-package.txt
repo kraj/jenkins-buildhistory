@@ -2,7 +2,7 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root            34436 ./usr/bin/glib-compile-resources
 -rwxr-xr-x root       root            40916 ./usr/bin/glib-genmarshal
--rwxr-xr-x root       root             5391 ./usr/bin/glib-gettextize
+-rwxr-xr-x root       root             5386 ./usr/bin/glib-gettextize
 -rwxr-xr-x root       root            27915 ./usr/bin/glib-mkenums
 drwxr-xr-x root       root               80 ./usr/include
 drwxr-xr-x root       root               60 ./usr/include/gio-unix-2.0
@@ -89,7 +89,7 @@ drwxr-xr-x root       root             3000 ./usr/include/glib-2.0/gio
 -rw-r--r-- root       root             9188 ./usr/include/glib-2.0/gio/ginputstream.h
 -rw-r--r-- root       root             8902 ./usr/include/glib-2.0/gio/gio-autocleanups.h
 -rw-r--r-- root       root            72475 ./usr/include/glib-2.0/gio/gioenums.h
--rw-r--r-- root       root            11976 ./usr/include/glib-2.0/gio/gioenumtypes.h
+-rw-r--r-- root       root            11970 ./usr/include/glib-2.0/gio/gioenumtypes.h
 -rw-r--r-- root       root             1558 ./usr/include/glib-2.0/gio/gioerror.h
 -rw-r--r-- root       root             5576 ./usr/include/glib-2.0/gio/gio.h
 -rw-r--r-- root       root             8064 ./usr/include/glib-2.0/gio/giomodule.h
@@ -280,21 +280,21 @@ drwxr-xr-x root       root              440 ./usr/include/glib-2.0/gobject
 drwxr-xr-x root       root              180 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/glib-2.0
 drwxr-xr-x root       root               60 ./usr/lib/glib-2.0/include
--rw-r--r-- root       root             5725 ./usr/lib/glib-2.0/include/glibconfig.h
-lrwxrwxrwx root       root               22 ./usr/lib/libgio-2.0.so -> libgio-2.0.so.0.5800.3
-lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so -> libglib-2.0.so.0.5800.3
-lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so -> libgmodule-2.0.so.0.5800.3
-lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so -> libgobject-2.0.so.0.5800.3
-lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so -> libgthread-2.0.so.0.5800.3
+-rw-r--r-- root       root             5885 ./usr/lib/glib-2.0/include/glibconfig.h
+lrwxrwxrwx root       root               15 ./usr/lib/libgio-2.0.so -> libgio-2.0.so.0
+lrwxrwxrwx root       root               16 ./usr/lib/libglib-2.0.so -> libglib-2.0.so.0
+lrwxrwxrwx root       root               19 ./usr/lib/libgmodule-2.0.so -> libgmodule-2.0.so.0
+lrwxrwxrwx root       root               19 ./usr/lib/libgobject-2.0.so -> libgobject-2.0.so.0
+lrwxrwxrwx root       root               19 ./usr/lib/libgthread-2.0.so -> libgthread-2.0.so.0
 drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
--rw-r--r-- root       root              488 ./usr/lib/pkgconfig/gio-2.0.pc
--rw-r--r-- root       root              267 ./usr/lib/pkgconfig/gio-unix-2.0.pc
--rw-r--r-- root       root              369 ./usr/lib/pkgconfig/glib-2.0.pc
--rw-r--r-- root       root              285 ./usr/lib/pkgconfig/gmodule-2.0.pc
--rw-r--r-- root       root              285 ./usr/lib/pkgconfig/gmodule-export-2.0.pc
--rw-r--r-- root       root              264 ./usr/lib/pkgconfig/gmodule-no-export-2.0.pc
--rw-r--r-- root       root              240 ./usr/lib/pkgconfig/gobject-2.0.pc
--rw-r--r-- root       root              214 ./usr/lib/pkgconfig/gthread-2.0.pc
+-rw-r--r-- root       root              522 ./usr/lib/pkgconfig/gio-2.0.pc
+-rw-r--r-- root       root              232 ./usr/lib/pkgconfig/gio-unix-2.0.pc
+-rw-r--r-- root       root              378 ./usr/lib/pkgconfig/glib-2.0.pc
+-rw-r--r-- root       root              254 ./usr/lib/pkgconfig/gmodule-2.0.pc
+-rw-r--r-- root       root              254 ./usr/lib/pkgconfig/gmodule-export-2.0.pc
+-rw-r--r-- root       root              273 ./usr/lib/pkgconfig/gmodule-no-export-2.0.pc
+-rw-r--r-- root       root              287 ./usr/lib/pkgconfig/gobject-2.0.pc
+-rw-r--r-- root       root              223 ./usr/lib/pkgconfig/gthread-2.0.pc
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root              100 ./usr/share/aclocal
 -rw-r--r-- root       root             8316 ./usr/share/aclocal/glib-2.0.m4
