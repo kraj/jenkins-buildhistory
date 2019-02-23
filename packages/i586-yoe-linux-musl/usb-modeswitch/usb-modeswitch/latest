@@ -1,8 +1,8 @@
 PV = 2.5.2
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.21+git0+1691b23955) tcl
+RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.21+git1+ad795d56ba) tcl
 RRECOMMENDS = usb-modeswitch-data
 PKGSIZE = 88321
 FILES = /usr/bin /etc /lib/udev/usb_modeswitch /usr/sbin /var/lib/usb_modeswitch /lib/systemd/system/usb_modeswitch@.service

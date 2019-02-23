@@ -1,8 +1,8 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.71
+PKGR = r0.72
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.21+git0+1691b23955) quagga (>= 1.2.4)
+RDEPENDS = musl (>= 1.1.21+git1+ad795d56ba) quagga (>= 1.2.4)
 RRECOMMENDS = 
 PKGSIZE = 668582
 FILES = /usr/sbin/ospfd /usr/lib/libospf.so.* /lib/systemd/system/ospfd.service

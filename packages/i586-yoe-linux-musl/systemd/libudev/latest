@@ -2,9 +2,9 @@ PE = 1
 PV = 239
 PR = r0
 PKG = libudev1
-PKGR = r0.83
+PKGR = r0.84
 RPROVIDES = libudev (=239)
-RDEPENDS = musl (>= 1.1.21+git0+1691b23955) util-linux-libmount (>= 2.32.1)
+RDEPENDS = musl (>= 1.1.21+git1+ad795d56ba) util-linux-libmount (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 169637
 FILES = /lib/libudev.so /lib/libudev.so.1 /lib/libudev.so.1.6.11

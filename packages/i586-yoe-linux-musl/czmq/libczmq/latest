@@ -1,9 +1,9 @@
 PV = 4.1.1
 PR = r0
 PKG = libczmq4
-PKGR = r0.47
+PKGR = r0.48
 RPROVIDES = libczmq (=4.1.1)
-RDEPENDS = lz4 (>= 1.8.3) musl (>= 1.1.21+git0+1691b23955) util-linux-libuuid (>= 2.32.1) zeromq (>= 4.2.5)
+RDEPENDS = lz4 (>= 1.8.3) musl (>= 1.1.21+git1+ad795d56ba) util-linux-libuuid (>= 2.32.1) zeromq (>= 4.2.5)
 RRECOMMENDS = 
 PKGSIZE = 559088
 FILES = /usr/lib/*.so.*

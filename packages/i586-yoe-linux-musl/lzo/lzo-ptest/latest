@@ -1,9 +1,9 @@
 PV = 2.10
 PR = r0
 PKG = liblzo2-ptest
-PKGR = r0.76
+PKGR = r0.77
 RPROVIDES = lzo-ptest (=2.10)
-RDEPENDS = lzo (>= 2.10) musl (>= 1.1.21+git0+1691b23955)
+RDEPENDS = lzo (>= 2.10) musl (>= 1.1.21+git1+ad795d56ba)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 86314
 FILES = /usr/lib/lzo/ptest

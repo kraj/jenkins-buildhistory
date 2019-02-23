@@ -1,8 +1,8 @@
 PV = 1.16.2
 PR = r0
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = 
-RDEPENDS = libcomerr (>= 1.44.5) libgssapi-krb5 (>= 1.16.2) libgssrpc (>= 1.16.2) libk5crypto (>= 1.16.2) libkadm5srv-mit (>= 1.16.2) libkdb5 (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2) libverto (>= 1.16.2) musl (>= 1.1.21+git0+1691b23955)
+RDEPENDS = libcomerr (>= 1.44.5) libgssapi-krb5 (>= 1.16.2) libgssrpc (>= 1.16.2) libk5crypto (>= 1.16.2) libkadm5srv-mit (>= 1.16.2) libkdb5 (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2) libverto (>= 1.16.2) musl (>= 1.1.21+git1+ad795d56ba)
 RRECOMMENDS = 
 PKGSIZE = 380576
 FILES = /usr/lib/krb5/plugins/kdb/db2.so /var/krb5kdc /usr/sbin/kdb5_util /usr/sbin/kproplog /usr/sbin/krb5kdc /etc/default/krb5-kdc /etc/default/volatiles/87_krb5 /etc/init.d/krb5-kdc /etc/tmpfiles.d/krb5.conf /lib/systemd/system/krb5-kdc.service /lib/systemd/system/krb5-kdc.service

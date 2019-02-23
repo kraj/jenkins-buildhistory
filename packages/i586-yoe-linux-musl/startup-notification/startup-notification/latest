@@ -1,9 +1,9 @@
 PV = 0.12
 PR = r2
 PKG = libstartup-notification-1-0
-PKGR = r2.75
+PKGR = r2.76
 RPROVIDES = startup-notification (=0.12)
-RDEPENDS = libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) musl (>= 1.1.21+git0+1691b23955) xcb-util (>= 0.4.0)
+RDEPENDS = libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) musl (>= 1.1.21+git1+ad795d56ba) xcb-util (>= 0.4.0)
 RRECOMMENDS = 
 PKGSIZE = 38266
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/startup-notification /usr/lib/startup-notification/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

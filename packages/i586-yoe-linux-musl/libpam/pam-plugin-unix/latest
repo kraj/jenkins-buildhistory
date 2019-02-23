@@ -1,8 +1,8 @@
 PV = 1.3.0
 PR = r5
-PKGR = r5.79
+PKGR = r5.80
 RPROVIDES = pam-plugin-unix-suffix
-RDEPENDS = libpam (>= 1.3.0) libpam-suffix musl (>= 1.1.21+git0+1691b23955)
+RDEPENDS = libpam (>= 1.3.0) libpam-suffix musl (>= 1.1.21+git1+ad795d56ba)
 RRECOMMENDS = 
 PKGSIZE = 122956
 FILES = /lib/security/pam_unix.so /usr/sbin/unix_chkpwd /usr/sbin/unix_update

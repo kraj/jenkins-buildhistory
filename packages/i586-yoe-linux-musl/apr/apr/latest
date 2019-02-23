@@ -1,9 +1,9 @@
 PV = 1.6.5
 PR = r0
 PKG = libapr-1-0
-PKGR = r0.61
+PKGR = r0.62
 RPROVIDES = apr (=1.6.5)
-RDEPENDS = musl (>= 1.1.21+git0+1691b23955) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = musl (>= 1.1.21+git1+ad795d56ba) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 235109
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/apr /usr/lib/apr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

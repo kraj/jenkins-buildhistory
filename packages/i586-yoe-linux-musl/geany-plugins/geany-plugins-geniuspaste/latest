@@ -1,9 +1,9 @@
-PV = 1.31
+PV = 1.34
 PR = r0
-PKGR = r0.81
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = atk (>= 2.30.0) cairo (>= 1.16.0) fontconfig (>= 2.12.6) freetype (>= 2.9.1) gdk-pixbuf (>= 2.36.11) geany (>= 1.31) geany-plugins glib-2.0 (>= 2.58.3) gtk+ (>= 2.24.32) libsoup-2.4 (>= 2.64.2) musl (>= 1.1.21+git0+1691b23955) pango (>= 1.42.4)
+RDEPENDS = atk (>= 2.30.0) cairo (>= 1.16.0) cairo-gobject (>= 1.16.0) gdk-pixbuf (>= 2.36.11) geany (>= 1.34.1) glib-2.0 (>= 2.58.3) gtk+3 (>= 3.24.5) libsoup-2.4 (>= 2.64.2) musl (>= 1.1.21+git1+ad795d56ba) pango (>= 1.42.4)
 RRECOMMENDS = 
-PKGSIZE = 34828
+PKGSIZE = 34829
 FILES = /usr/lib/geany/geniuspaste.so /usr/share/geany-plugins/geniuspaste
 FILELIST = /usr/lib/geany/geniuspaste.so /usr/share/geany-plugins/geniuspaste/pastebins/codepad.org.conf /usr/share/geany-plugins/geniuspaste/pastebins/dpaste.de.conf /usr/share/geany-plugins/geniuspaste/pastebins/fpaste.org.conf /usr/share/geany-plugins/geniuspaste/pastebins/paste.debian.net.conf /usr/share/geany-plugins/geniuspaste/pastebins/pastebin.geany.org.conf /usr/share/geany-plugins/geniuspaste/pastebins/sprunge.us.conf
