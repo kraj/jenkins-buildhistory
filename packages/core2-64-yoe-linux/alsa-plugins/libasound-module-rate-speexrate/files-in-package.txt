@@ -1,6 +1,14 @@
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/alsa
+drwxr-xr-x root       root               60 ./etc/alsa/conf.d
+lrwxrwxrwx root       root               45 ./etc/alsa/conf.d/10-speexrate.conf -> /usr/share/alsa/alsa.conf.d/10-speexrate.conf
+drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/alsa-lib
 lrwxrwxrwx root       root               34 ./usr/lib/alsa-lib/libasound_module_rate_speexrate_best.so -> libasound_module_rate_speexrate.so
 lrwxrwxrwx root       root               34 ./usr/lib/alsa-lib/libasound_module_rate_speexrate_medium.so -> libasound_module_rate_speexrate.so
 -rwxr-xr-x root       root            10464 ./usr/lib/alsa-lib/libasound_module_rate_speexrate.so
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/alsa
+drwxr-xr-x root       root               60 ./usr/share/alsa/alsa.conf.d
+-rw-r--r-- root       root              424 ./usr/share/alsa/alsa.conf.d/10-speexrate.conf

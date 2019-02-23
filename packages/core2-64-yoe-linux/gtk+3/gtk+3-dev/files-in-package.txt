@@ -17,7 +17,7 @@ drwxr-xr-x root       root               60 ./usr/include/gtk-3.0/gdk/deprecated
 -rw-r--r-- root       root             1892 ./usr/include/gtk-3.0/gdk/gdk-autocleanup.h
 -rw-r--r-- root       root             3883 ./usr/include/gtk-3.0/gdk/gdkcairo.h
 -rw-r--r-- root       root              388 ./usr/include/gtk-3.0/gdk/gdkconfig.h
--rw-r--r-- root       root             8491 ./usr/include/gtk-3.0/gdk/gdkcursor.h
+-rw-r--r-- root       root             8523 ./usr/include/gtk-3.0/gdk/gdkcursor.h
 -rw-r--r-- root       root            10797 ./usr/include/gtk-3.0/gdk/gdkdevice.h
 -rw-r--r-- root       root             1863 ./usr/include/gtk-3.0/gdk/gdkdevicemanager.h
 -rw-r--r-- root       root             2522 ./usr/include/gtk-3.0/gdk/gdkdevicepad.h
@@ -27,7 +27,7 @@ drwxr-xr-x root       root               60 ./usr/include/gtk-3.0/gdk/deprecated
 -rw-r--r-- root       root             8662 ./usr/include/gtk-3.0/gdk/gdkdnd.h
 -rw-r--r-- root       root             1955 ./usr/include/gtk-3.0/gdk/gdkdrawingcontext.h
 -rw-r--r-- root       root             7404 ./usr/include/gtk-3.0/gdk/gdkenumtypes.h
--rw-r--r-- root       root            55345 ./usr/include/gtk-3.0/gdk/gdkevents.h
+-rw-r--r-- root       root            55357 ./usr/include/gtk-3.0/gdk/gdkevents.h
 -rw-r--r-- root       root             4926 ./usr/include/gtk-3.0/gdk/gdkframeclock.h
 -rw-r--r-- root       root             2018 ./usr/include/gtk-3.0/gdk/gdkframetimings.h
 -rw-r--r-- root       root             4310 ./usr/include/gtk-3.0/gdk/gdkglcontext.h
@@ -79,7 +79,7 @@ drwxr-xr-x root       root              460 ./usr/include/gtk-3.0/gdk/x11
 -rw-r--r-- root       root             2500 ./usr/include/gtk-3.0/gdk/x11/gdkx11property.h
 -rw-r--r-- root       root             3731 ./usr/include/gtk-3.0/gdk/x11/gdkx11screen.h
 -rw-r--r-- root       root             2955 ./usr/include/gtk-3.0/gdk/x11/gdkx11selection.h
--rw-r--r-- root       root             2355 ./usr/include/gtk-3.0/gdk/x11/gdkx11utils.h
+-rw-r--r-- root       root             2440 ./usr/include/gtk-3.0/gdk/x11/gdkx11utils.h
 -rw-r--r-- root       root             2509 ./usr/include/gtk-3.0/gdk/x11/gdkx11visual.h
 -rw-r--r-- root       root             4677 ./usr/include/gtk-3.0/gdk/x11/gdkx11window.h
 -rw-r--r-- root       root             1853 ./usr/include/gtk-3.0/gdk/x11/gdkx-autocleanups.h
@@ -90,7 +90,7 @@ drwxr-xr-x root       root             1080 ./usr/include/gtk-3.0/gtk/a11y
 -rw-r--r-- root       root             2420 ./usr/include/gtk-3.0/gtk/a11y/gtkbooleancellaccessible.h
 -rw-r--r-- root       root             2298 ./usr/include/gtk-3.0/gtk/a11y/gtkbuttonaccessible.h
 -rw-r--r-- root       root             2371 ./usr/include/gtk-3.0/gtk/a11y/gtkcellaccessible.h
--rw-r--r-- root       root             6421 ./usr/include/gtk-3.0/gtk/a11y/gtkcellaccessibleparent.h
+-rw-r--r-- root       root             7752 ./usr/include/gtk-3.0/gtk/a11y/gtkcellaccessibleparent.h
 -rw-r--r-- root       root             2481 ./usr/include/gtk-3.0/gtk/a11y/gtkcheckmenuitemaccessible.h
 -rw-r--r-- root       root             2376 ./usr/include/gtk-3.0/gtk/a11y/gtkcomboboxaccessible.h
 -rw-r--r-- root       root             2655 ./usr/include/gtk-3.0/gtk/a11y/gtkcontaineraccessible.h
@@ -195,7 +195,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root             3525 ./usr/include/gtk-3.0/gtk/gtkapplicationwindow.h
 -rw-r--r-- root       root             3054 ./usr/include/gtk-3.0/gtk/gtkaspectframe.h
 -rw-r--r-- root       root            10946 ./usr/include/gtk-3.0/gtk/gtkassistant.h
--rw-r--r-- root       root            12120 ./usr/include/gtk-3.0/gtk/gtk-autocleanups.h
+-rw-r--r-- root       root            12188 ./usr/include/gtk-3.0/gtk/gtk-autocleanups.h
 -rw-r--r-- root       root             4946 ./usr/include/gtk-3.0/gtk/gtkbbox.h
 -rw-r--r-- root       root             7039 ./usr/include/gtk-3.0/gtk/gtkbindings.h
 -rw-r--r-- root       root             2651 ./usr/include/gtk-3.0/gtk/gtkbin.h
@@ -230,7 +230,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root             1762 ./usr/include/gtk-3.0/gtk/gtkcolorutils.h
 -rw-r--r-- root       root             8511 ./usr/include/gtk-3.0/gtk/gtkcombobox.h
 -rw-r--r-- root       root             4419 ./usr/include/gtk-3.0/gtk/gtkcomboboxtext.h
--rw-r--r-- root       root            11374 ./usr/include/gtk-3.0/gtk/gtkcontainer.h
+-rw-r--r-- root       root            11423 ./usr/include/gtk-3.0/gtk/gtkcontainer.h
 -rw-r--r-- root       root             4570 ./usr/include/gtk-3.0/gtk/gtkcssprovider.h
 -rw-r--r-- root       root             3876 ./usr/include/gtk-3.0/gtk/gtkcsssection.h
 -rw-r--r-- root       root             2704 ./usr/include/gtk-3.0/gtk/gtkdebug.h
@@ -294,7 +294,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root            14290 ./usr/include/gtk-3.0/gtk/gtklistbox.h
 -rw-r--r-- root       root             5881 ./usr/include/gtk-3.0/gtk/gtkliststore.h
 -rw-r--r-- root       root             2579 ./usr/include/gtk-3.0/gtk/gtklockbutton.h
--rw-r--r-- root       root             7229 ./usr/include/gtk-3.0/gtk/gtkmain.h
+-rw-r--r-- root       root             7241 ./usr/include/gtk-3.0/gtk/gtkmain.h
 -rw-r--r-- root       root             3272 ./usr/include/gtk-3.0/gtk/gtkmenubar.h
 -rw-r--r-- root       root             4033 ./usr/include/gtk-3.0/gtk/gtkmenubutton.h
 -rw-r--r-- root       root            11177 ./usr/include/gtk-3.0/gtk/gtkmenu.h
@@ -376,7 +376,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root             4768 ./usr/include/gtk-3.0/gtk/gtktextmark.h
 -rw-r--r-- root       root             5154 ./usr/include/gtk-3.0/gtk/gtktexttag.h
 -rw-r--r-- root       root             4202 ./usr/include/gtk-3.0/gtk/gtktexttagtable.h
--rw-r--r-- root       root            22293 ./usr/include/gtk-3.0/gtk/gtktextview.h
+-rw-r--r-- root       root            22305 ./usr/include/gtk-3.0/gtk/gtktextview.h
 -rw-r--r-- root       root             3881 ./usr/include/gtk-3.0/gtk/gtktogglebutton.h
 -rw-r--r-- root       root             3275 ./usr/include/gtk-3.0/gtk/gtktoggletoolbutton.h
 -rw-r--r-- root       root             5400 ./usr/include/gtk-3.0/gtk/gtktoolbar.h
@@ -416,8 +416,8 @@ drwxr-xr-x root       root              160 ./usr/include/gtk-3.0/unix-print/gtk
 -rw-r--r-- root       root             1034 ./usr/include/gtk-3.0/unix-print/gtk/gtkunixprint.h
 drwxr-xr-x root       root              120 ./usr/lib
 lrwxrwxrwx root       root               22 ./usr/lib/libgailutil-3.so -> libgailutil-3.so.0.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libgdk-3.so -> libgdk-3.so.0.2400.1
-lrwxrwxrwx root       root               20 ./usr/lib/libgtk-3.so -> libgtk-3.so.0.2400.1
+lrwxrwxrwx root       root               20 ./usr/lib/libgdk-3.so -> libgdk-3.so.0.2404.1
+lrwxrwxrwx root       root               20 ./usr/lib/libgtk-3.so -> libgtk-3.so.0.2404.1
 drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              240 ./usr/lib/pkgconfig/gail-3.0.pc
 -rw-r--r-- root       root              543 ./usr/lib/pkgconfig/gdk-3.0.pc
@@ -435,8 +435,8 @@ drwxr-xr-x root       root               80 ./usr/share/gettext/its
 -rw-r--r-- root       root             1051 ./usr/share/gettext/its/gtkbuilder.its
 -rw-r--r-- root       root              189 ./usr/share/gettext/its/gtkbuilder.loc
 drwxr-xr-x root       root              100 ./usr/share/gir-1.0
--rw-r--r-- root       root          1277981 ./usr/share/gir-1.0/Gdk-3.0.gir
--rw-r--r-- root       root            68723 ./usr/share/gir-1.0/GdkX11-3.0.gir
--rw-r--r-- root       root          7146824 ./usr/share/gir-1.0/Gtk-3.0.gir
+-rw-r--r-- root       root          1278015 ./usr/share/gir-1.0/Gdk-3.0.gir
+-rw-r--r-- root       root            69591 ./usr/share/gir-1.0/GdkX11-3.0.gir
+-rw-r--r-- root       root          7155965 ./usr/share/gir-1.0/Gtk-3.0.gir
 drwxr-xr-x root       root               60 ./usr/share/gtk-3.0
 -rw-r--r-- root       root             7978 ./usr/share/gtk-3.0/gtkbuilder.rng
