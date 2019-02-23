@@ -2,7 +2,7 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/installed-tests
-drwxr-xr-x root       root             5620 ./usr/libexec/installed-tests/glib
+drwxr-xr-x root       root             5860 ./usr/libexec/installed-tests/glib
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/1bit-mutex
 -rw-r--r-- root       root             4096 ./usr/libexec/installed-tests/glib/4096-random-bytes
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/642026
@@ -25,7 +25,8 @@ drwxr-xr-x root       root             5620 ./usr/libexec/installed-tests/glib
 -rwxr-xr-x root       root            67760 ./usr/libexec/installed-tests/glib/async-splice-output-stream
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/atomic
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/atomic-test
--rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/autoptr
+-rwxr-xr-x root       root            67776 ./usr/libexec/installed-tests/glib/autoptr
+-rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/autoptr-gio
 -rwxr-xr-x root       root            67824 ./usr/libexec/installed-tests/glib/base64
 -rwxr-xr-x root       root            68008 ./usr/libexec/installed-tests/glib/basic-application
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/binding
@@ -99,6 +100,7 @@ drwxr-xr-x root       root              220 ./usr/libexec/installed-tests/glib/c
 -rwxr-xr-x root       root           140640 ./usr/libexec/installed-tests/glib/checksum
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/child-test
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/closure
+-rwxr-xr-x root       root            67752 ./usr/libexec/installed-tests/glib/closures
 -rwxr-xr-x root       root            68672 ./usr/libexec/installed-tests/glib/collate
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/completion-test
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/cond
@@ -112,7 +114,7 @@ drwxr-xr-x root       root              220 ./usr/libexec/installed-tests/glib/c
 -rwxr-xr-x root       root            67784 ./usr/libexec/installed-tests/glib/data-input-stream
 -rwxr-xr-x root       root            67784 ./usr/libexec/installed-tests/glib/data-output-stream
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/dataset
--rwxr-xr-x root       root           133272 ./usr/libexec/installed-tests/glib/date
+-rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/date
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/datetime
 -rwxr-xr-x root       root            67832 ./usr/libexec/installed-tests/glib/dbus-appinfo
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/dbus-launch
@@ -161,7 +163,7 @@ drwxr-xr-x root       root              120 ./usr/libexec/installed-tests/glib/d
 -rwxr-xr-x root       root            67976 ./usr/libexec/installed-tests/glib/dynamictests
 -rwxr-xr-x root       root            67816 ./usr/libexec/installed-tests/glib/dynamictype
 -rwxr-xr-x root       root               12 ./usr/libexec/installed-tests/glib/echo-script
--rwxr-xr-x root       root               20 ./usr/libexec/installed-tests/glib/echo-script.bat
+-rw-r--r-- root       root               20 ./usr/libexec/installed-tests/glib/echo-script.bat
 -rw-r--r-- root       root                0 ./usr/libexec/installed-tests/glib/empty
 -rwxr-xr-x root       root            67824 ./usr/libexec/installed-tests/glib/enums
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/environment
@@ -214,6 +216,7 @@ drwxr-xr-x root       root              120 ./usr/libexec/installed-tests/glib/d
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/glistmodel
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/gmenumodel
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/gnotification
+-rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/gobject-private
 -rwxr-xr-x root       root            67880 ./usr/libexec/installed-tests/glib/gsubprocess
 -rwxr-xr-x root       root            67752 ./usr/libexec/installed-tests/glib/gsubprocess-testprog
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/guuid
@@ -232,9 +235,7 @@ drwxr-xr-x root       root              120 ./usr/libexec/installed-tests/glib/d
 -rwxr-xr-x root       root            67880 ./usr/libexec/installed-tests/glib/keyfile
 -rw-r--r-- root       root            50132 ./usr/libexec/installed-tests/glib/keyfile.c
 -rw-r--r-- root       root               41 ./usr/libexec/installed-tests/glib/keyfiletest.ini
--rwxr-xr-x root       root            67776 ./usr/libexec/installed-tests/glib/libgdbus-example-objectmanager.so.0.0.0
-lrwxrwxrwx root       root               39 ./usr/libexec/installed-tests/glib/libgdbus-example-objectmanager.so.0 -> libgdbus-example-objectmanager.so.0.0.0
-lrwxrwxrwx root       root               39 ./usr/libexec/installed-tests/glib/libgdbus-example-objectmanager.so -> libgdbus-example-objectmanager.so.0.0.0
+-rwxr-xr-x root       root            67768 ./usr/libexec/installed-tests/glib/libgdbus-example-objectmanager.so
 -rwxr-xr-x root       root            67680 ./usr/libexec/installed-tests/glib/libmoduletestplugin_a.so
 -rwxr-xr-x root       root            67680 ./usr/libexec/installed-tests/glib/libmoduletestplugin_b.so
 -rwxr-xr-x root       root            67728 ./usr/libexec/installed-tests/glib/libresourceplugin.so
@@ -249,7 +250,7 @@ lrwxrwxrwx root       root               39 ./usr/libexec/installed-tests/glib/l
 -rwxr-xr-x root       root            68464 ./usr/libexec/installed-tests/glib/markup-collect
 -rwxr-xr-x root       root            68136 ./usr/libexec/installed-tests/glib/markup-escape
 -rwxr-xr-x root       root            67832 ./usr/libexec/installed-tests/glib/markup-parse
-drwxr-xr-x root       root             2800 ./usr/libexec/installed-tests/glib/markups
+drwxr-xr-x root       root             2840 ./usr/libexec/installed-tests/glib/markups
 -rw-r--r-- root       root              130 ./usr/libexec/installed-tests/glib/markups/fail-10.expected
 -rw-r--r-- root       root               13 ./usr/libexec/installed-tests/glib/markups/fail-10.gmarkup
 -rw-r--r-- root       root              158 ./usr/libexec/installed-tests/glib/markups/fail-11.expected
@@ -369,6 +370,7 @@ drwxr-xr-x root       root             2800 ./usr/libexec/installed-tests/glib/m
 -rw-r--r-- root       root              853 ./usr/libexec/installed-tests/glib/markups/valid-14.gmarkup
 -rw-r--r-- root       root               44 ./usr/libexec/installed-tests/glib/markups/valid-15.expected
 -rw-r--r-- root       root               25 ./usr/libexec/installed-tests/glib/markups/valid-15.gmarkup
+-rw-r--r-- root       root              456 ./usr/libexec/installed-tests/glib/markups/valid-16.cdata-as-text
 -rw-r--r-- root       root              468 ./usr/libexec/installed-tests/glib/markups/valid-16.expected
 -rw-r--r-- root       root              133 ./usr/libexec/installed-tests/glib/markups/valid-16.gmarkup
 -rw-r--r-- root       root              664 ./usr/libexec/installed-tests/glib/markups/valid-1.expected
@@ -385,6 +387,7 @@ drwxr-xr-x root       root             2800 ./usr/libexec/installed-tests/glib/m
 -rw-r--r-- root       root               57 ./usr/libexec/installed-tests/glib/markups/valid-6.gmarkup
 -rw-r--r-- root       root               60 ./usr/libexec/installed-tests/glib/markups/valid-7.expected
 -rw-r--r-- root       root               31 ./usr/libexec/installed-tests/glib/markups/valid-7.gmarkup
+-rw-r--r-- root       root               75 ./usr/libexec/installed-tests/glib/markups/valid-8.cdata-as-text
 -rw-r--r-- root       root               87 ./usr/libexec/installed-tests/glib/markups/valid-8.expected
 -rw-r--r-- root       root               45 ./usr/libexec/installed-tests/glib/markups/valid-8.gmarkup
 -rw-r--r-- root       root               38 ./usr/libexec/installed-tests/glib/markups/valid-9.expected
@@ -405,6 +408,8 @@ drwxr-xr-x root       root               80 ./usr/libexec/installed-tests/glib/m
 -rwxr-xr-x root       root            67752 ./usr/libexec/installed-tests/glib/network-monitor-race
 -rwxr-xr-x root       root            69920 ./usr/libexec/installed-tests/glib/node
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/object
+-rwxr-xr-x root       root            67808 ./usr/libexec/installed-tests/glib/objects
+-rwxr-xr-x root       root            67824 ./usr/libexec/installed-tests/glib/objects2
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/once
 -rwxr-xr-x root       root           264440 ./usr/libexec/installed-tests/glib/onceinit
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/option-argv0
@@ -419,8 +424,11 @@ drwxr-xr-x root       root               80 ./usr/libexec/installed-tests/glib/m
 -rwxr-xr-x root       root            69640 ./usr/libexec/installed-tests/glib/pattern
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/permission
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/pollable
--rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/private
--rwxr-xr-x root       root            67832 ./usr/libexec/installed-tests/glib/properties
+-rwxr-xr-x root       root            67800 ./usr/libexec/installed-tests/glib/private
+-rwxr-xr-x root       root            67824 ./usr/libexec/installed-tests/glib/properties
+-rwxr-xr-x root       root            67816 ./usr/libexec/installed-tests/glib/properties2
+-rwxr-xr-x root       root            67752 ./usr/libexec/installed-tests/glib/properties3
+-rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/properties4
 -rwxr-xr-x root       root            67816 ./usr/libexec/installed-tests/glib/protocol
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/proxy-test
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/qdata
@@ -430,6 +438,8 @@ drwxr-xr-x root       root               80 ./usr/libexec/installed-tests/glib/m
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/rcbox
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/readwrite
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/rec-mutex
+-rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/refcount
+-rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/refcount-macro
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/reference
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/references
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/refstring
@@ -441,6 +451,10 @@ drwxr-xr-x root       root               80 ./usr/libexec/installed-tests/glib/m
 -rwxr-xr-x root       root            68224 ./usr/libexec/installed-tests/glib/search-utils
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/sequence
 -rwxr-xr-x root       root            70744 ./usr/libexec/installed-tests/glib/shell
+-rwxr-xr-x root       root            67808 ./usr/libexec/installed-tests/glib/signal1
+-rwxr-xr-x root       root            67808 ./usr/libexec/installed-tests/glib/signal2
+-rwxr-xr-x root       root            67808 ./usr/libexec/installed-tests/glib/signal3
+-rwxr-xr-x root       root            67808 ./usr/libexec/installed-tests/glib/signal4
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/signal-handler
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/signals
 -rwxr-xr-x root       root            67752 ./usr/libexec/installed-tests/glib/simple-async-result
@@ -471,7 +485,7 @@ drwxr-xr-x root       root               80 ./usr/libexec/installed-tests/glib/m
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/testgdate
 -rwxr-xr-x root       root            68512 ./usr/libexec/installed-tests/glib/testglib
 -rwxr-xr-x root       root            67792 ./usr/libexec/installed-tests/glib/testgobject
--rw-r--r-- root       root              848 ./usr/libexec/installed-tests/glib/test.gresource
+-rw-r--r-- root       root              838 ./usr/libexec/installed-tests/glib/test.gresource
 -rwxr-xr-x root       root            67736 ./usr/libexec/installed-tests/glib/testing
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/testing-helper
 -rwxr-xr-x root       root            67744 ./usr/libexec/installed-tests/glib/test-printf
@@ -536,7 +550,7 @@ drwxr-xr-x root       root               60 ./usr/lib/glib-2.0/ptest
 -rwxr-xr-x root       root              101 ./usr/lib/glib-2.0/ptest/run-ptest
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/installed-tests
-drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
+drwxr-xr-x root       root             4940 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/1bit-mutex.test
 -rw-r--r-- root       root               86 ./usr/share/installed-tests/glib/642026-ec.test
 -rw-r--r-- root       root               83 ./usr/share/installed-tests/glib/642026.test
@@ -550,6 +564,7 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root              103 ./usr/share/installed-tests/glib/async-splice-output-stream.test
 -rw-r--r-- root       root               83 ./usr/share/installed-tests/glib/atomic.test
 -rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/atomic-test.test
+-rw-r--r-- root       root               88 ./usr/share/installed-tests/glib/autoptr-gio.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/autoptr.test
 -rw-r--r-- root       root               83 ./usr/share/installed-tests/glib/base64.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/binding.test
@@ -565,6 +580,7 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/charset.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/checksum.test
 -rw-r--r-- root       root               70 ./usr/share/installed-tests/glib/child-test.test
+-rw-r--r-- root       root               68 ./usr/share/installed-tests/glib/closures.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/closure.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/collate.test
 -rw-r--r-- root       root               75 ./usr/share/installed-tests/glib/completion-test.test
@@ -634,9 +650,10 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/glistmodel.test
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/gmenumodel.test
 -rw-r--r-- root       root               90 ./usr/share/installed-tests/glib/gnotification.test
+-rw-r--r-- root       root               92 ./usr/share/installed-tests/glib/gobject-private.test
 -rw-r--r-- root       root               88 ./usr/share/installed-tests/glib/gsubprocess.test
 -rw-r--r-- root       root               82 ./usr/share/installed-tests/glib/guuid.test
--rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/gvalue-test.test
+-rw-r--r-- root       root               88 ./usr/share/installed-tests/glib/gvalue-test.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/gvariant.test
 -rw-r--r-- root       root               81 ./usr/share/installed-tests/glib/hash.test
 -rw-r--r-- root       root               81 ./usr/share/installed-tests/glib/hmac.test
@@ -672,6 +689,8 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               97 ./usr/share/installed-tests/glib/network-monitor-race.test
 -rw-r--r-- root       root               92 ./usr/share/installed-tests/glib/network-monitor.test
 -rw-r--r-- root       root               81 ./usr/share/installed-tests/glib/node.test
+-rw-r--r-- root       root               68 ./usr/share/installed-tests/glib/objects2.test
+-rw-r--r-- root       root               67 ./usr/share/installed-tests/glib/objects.test
 -rw-r--r-- root       root               83 ./usr/share/installed-tests/glib/object.test
 -rw-r--r-- root       root               68 ./usr/share/installed-tests/glib/onceinit.test
 -rw-r--r-- root       root               81 ./usr/share/installed-tests/glib/once.test
@@ -680,13 +699,16 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               94 ./usr/share/installed-tests/glib/overflow-fallback.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/overflow.test
 -rw-r--r-- root       root               68 ./usr/share/installed-tests/glib/override.test
--rw-r--r-- root       root               74 ./usr/share/installed-tests/glib/paramspec-test.test
+-rw-r--r-- root       root               91 ./usr/share/installed-tests/glib/paramspec-test.test
 -rw-r--r-- root       root               82 ./usr/share/installed-tests/glib/param.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/pattern.test
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/permission.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/pollable.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/private.test
--rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/properties.test
+-rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/properties2.test
+-rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/properties3.test
+-rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/properties4.test
+-rw-r--r-- root       root               70 ./usr/share/installed-tests/glib/properties.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/protocol.test
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/proxy-test.test
 -rw-r--r-- root       root               82 ./usr/share/installed-tests/glib/qdata.test
@@ -696,6 +718,8 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               82 ./usr/share/installed-tests/glib/rcbox.test
 -rw-r--r-- root       root               86 ./usr/share/installed-tests/glib/readwrite.test
 -rw-r--r-- root       root               86 ./usr/share/installed-tests/glib/rec-mutex.test
+-rw-r--r-- root       root               91 ./usr/share/installed-tests/glib/refcount-macro.test
+-rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/refcount.test
 -rw-r--r-- root       root               70 ./usr/share/installed-tests/glib/references.test
 -rw-r--r-- root       root               86 ./usr/share/installed-tests/glib/reference.test
 -rw-r--r-- root       root               86 ./usr/share/installed-tests/glib/refstring.test
@@ -707,6 +731,10 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               89 ./usr/share/installed-tests/glib/search-utils.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/sequence.test
 -rw-r--r-- root       root               82 ./usr/share/installed-tests/glib/shell.test
+-rw-r--r-- root       root               67 ./usr/share/installed-tests/glib/signal1.test
+-rw-r--r-- root       root               67 ./usr/share/installed-tests/glib/signal2.test
+-rw-r--r-- root       root               67 ./usr/share/installed-tests/glib/signal3.test
+-rw-r--r-- root       root               67 ./usr/share/installed-tests/glib/signal4.test
 -rw-r--r-- root       root               91 ./usr/share/installed-tests/glib/signal-handler.test
 -rw-r--r-- root       root               67 ./usr/share/installed-tests/glib/signals.test
 -rw-r--r-- root       root               96 ./usr/share/installed-tests/glib/simple-async-result.test
@@ -733,7 +761,7 @@ drwxr-xr-x root       root             4660 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               81 ./usr/share/installed-tests/glib/task.test
 -rw-r--r-- root       root               92 ./usr/share/installed-tests/glib/testfilemonitor.test
 -rw-r--r-- root       root               69 ./usr/share/installed-tests/glib/testgdate.test
--rw-r--r-- root       root               68 ./usr/share/installed-tests/glib/testglib.test
+-rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/testglib.test
 -rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/testgobject.test
 -rw-r--r-- root       root               84 ./usr/share/installed-tests/glib/testing.test
 -rw-r--r-- root       root               88 ./usr/share/installed-tests/glib/test-printf.test

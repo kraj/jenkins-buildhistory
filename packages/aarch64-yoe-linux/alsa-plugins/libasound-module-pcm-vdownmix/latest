@@ -1,9 +1,9 @@
-PV = 1.1.6
+PV = 1.1.8
 PR = r0
-PKGR = r0.69
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.29)
+RDEPENDS = alsa-lib (>= 1.1.8) glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 67792
-FILES = /usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so
-FILELIST = /usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so
+PKGSIZE = 68229
+FILES = /usr/share/alsa/alsa.conf.d/60-vdownmix.conf /etc/alsa/conf.d/60-vdownmix.conf /usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so
+FILELIST = /etc/alsa/conf.d/60-vdownmix.conf /usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so /usr/share/alsa/alsa.conf.d/60-vdownmix.conf
