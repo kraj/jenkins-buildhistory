@@ -1,10 +1,10 @@
-PV = 2.36.11
+PV = 2.38.0
 PR = r0
 PKG = libgdk-pixbuf-2.0-bin
-PKGR = r0.90
-RPROVIDES = gdk-pixbuf-bin (=2.36.11)
-RDEPENDS = gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.58.3) musl (>= 1.1.21+git1+ad795d56ba)
+PKGR = r0.0
+RPROVIDES = gdk-pixbuf-bin (=2.38.0)
+RDEPENDS = gdk-pixbuf (>= 2.38.0) glib-2.0 (>= 2.58.3) musl (>= 1.1.21+git1+ad795d56ba)
 RRECOMMENDS = 
-PKGSIZE = 14210
+PKGSIZE = 19654
 FILES = /usr/bin/* /usr/sbin/* /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
-FILELIST = /usr/bin/gdk-pixbuf-thumbnailer /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
+FILELIST = /usr/bin/gdk-pixbuf-query-loaders /usr/bin/gdk-pixbuf-thumbnailer /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
