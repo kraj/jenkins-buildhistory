@@ -1,12 +1,12 @@
 PE = 2
 PV = 18.3.4
 PR = r0
-PKGR = r0.1
-RPROVIDES = mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
+PKGR = r0.2
+RPROVIDES = mesa mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
 RDEPENDS = expat (>= 2.2.6) glibc (>= 2.29) libatomic (>= 8.2.0) libdrm (>= 2.4.97) libgcc (>= 8.2.0) libglapi (>= 18.3.4) libstdc++ (>= 8.2.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-RREPLACES = mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
-RCONFLICTS = mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
-PKGSIZE = 6548048
-FILES = /usr/lib/dri/*
-FILELIST = /usr/lib/dri/kms_swrast_dri.so /usr/lib/dri/swrast_dri.so /usr/lib/dri/virtio_gpu_dri.so
+RREPLACES = mesa mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
+RCONFLICTS = mesa mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
+PKGSIZE = 6563014
+FILES = /usr/lib/dri/* /usr/share/drirc.d/00-mesa-defaults.conf
+FILELIST = /usr/lib/dri/kms_swrast_dri.so /usr/lib/dri/swrast_dri.so /usr/lib/dri/virtio_gpu_dri.so /usr/share/drirc.d/00-mesa-defaults.conf
