@@ -1,8 +1,8 @@
 PV = 5.7.1
 PR = r0
-PKGR = r0.65
+PKGR = r0.66
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.21+git1+ad795d56ba) strongswan
+RDEPENDS = musl (>= 1.1.21+git2+6516282d2a) strongswan
 RRECOMMENDS = 
 PKGSIZE = 14159
 FILES = /usr/lib/ipsec/plugins/libstrongswan-socket-default.so /etc/strongswan.d/charon/socket-default.conf

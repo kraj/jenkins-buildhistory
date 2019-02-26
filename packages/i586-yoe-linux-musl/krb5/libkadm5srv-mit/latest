@@ -1,9 +1,9 @@
 PV = 1.16.2
 PR = r0
 PKG = libkadm5srv-mit11
-PKGR = r0.58
+PKGR = r0.59
 RPROVIDES = libkadm5srv-mit (=1.16.2)
-RDEPENDS = libcomerr (>= 1.44.5) libgssapi-krb5 (>= 1.16.2) libgssrpc (>= 1.16.2) libk5crypto (>= 1.16.2) libkdb5 (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2) musl (>= 1.1.21+git1+ad795d56ba)
+RDEPENDS = libcomerr (>= 1.44.5) libgssapi-krb5 (>= 1.16.2) libgssrpc (>= 1.16.2) libk5crypto (>= 1.16.2) libkdb5 (>= 1.16.2) libkrb5 (>= 1.16.2) libkrb5support (>= 1.16.2) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 120331
 FILES = /usr/lib/libkadm5srv_mit.so.*

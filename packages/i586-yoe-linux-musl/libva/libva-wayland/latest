@@ -1,9 +1,9 @@
 PV = 2.4.0
 PR = r0
 PKG = libva-wayland2
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = libva-wayland (=2.4.0)
-RDEPENDS = libdrm (>= 2.4.97) libva (>= 2.4.0) musl (>= 1.1.21+git1+ad795d56ba) wayland (>= 1.16.0)
+RDEPENDS = libdrm (>= 2.4.97) libva (>= 2.4.0) musl (>= 1.1.21+git2+6516282d2a) wayland (>= 1.16.0)
 RRECOMMENDS = 
 PKGSIZE = 13816
 FILES = /usr/lib/libva-wayland*.so.*

@@ -1,8 +1,8 @@
 PV = 1.1.8
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.8) musl (>= 1.1.21+git1+ad795d56ba)
+RDEPENDS = alsa-lib (>= 1.1.8) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 14530
 FILES = /usr/share/alsa/alsa.conf.d/60-upmix.conf /etc/alsa/conf.d/60-upmix.conf /usr/lib/alsa-lib/libasound_module_pcm_upmix.so

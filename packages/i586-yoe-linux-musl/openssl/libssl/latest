@@ -1,9 +1,9 @@
 PV = 1.1.1a
 PR = r0
 PKG = libssl1.1
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = libssl (=1.1.1a)
-RDEPENDS = libcrypto (>= 1.1.1a) musl (>= 1.1.21+git1+ad795d56ba)
+RDEPENDS = libcrypto (>= 1.1.1a) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 610904
 FILES = /usr/lib/libssl.so.*

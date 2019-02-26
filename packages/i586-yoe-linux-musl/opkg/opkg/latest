@@ -1,9 +1,9 @@
 PE = 1
 PV = 0.4.0
 PR = r0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = opkg-collateral
-RDEPENDS = libarchive libopkg (>= 0.4.0) musl (>= 1.1.21+git1+ad795d56ba) opkg-arch-config update-alternatives-opkg
+RDEPENDS = libarchive libopkg (>= 0.4.0) musl (>= 1.1.21+git2+6516282d2a) opkg-arch-config update-alternatives-opkg
 RRECOMMENDS = 
 RREPLACES = opkg-collateral opkg-nogpg
 RCONFLICTS = opkg-collateral

@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
 PKG = libavahi-ui-gtk3-utils
-PKGR = r0.82
+PKGR = r0.83
 RPROVIDES = avahi-ui-utils (=0.7)
-RDEPENDS = avahi-ui (>= 0.7) glib-2.0 (>= 2.58.3) gtk+3 (>= 3.24.5) libavahi-client (>= 0.7) libavahi-common (>= 0.7) musl (>= 1.1.21+git1+ad795d56ba)
+RDEPENDS = avahi-ui (>= 0.7) glib-2.0 (>= 2.58.3) gtk+3 (>= 3.24.5) libavahi-client (>= 0.7) libavahi-common (>= 0.7) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 21455
 FILES = /usr/bin/b* /usr/share/applications/b*
