@@ -1,9 +1,9 @@
 PV = 3.5.27
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) make
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) make
 RRECOMMENDS = ptest-runner
-PKGSIZE = 1695394
+PKGSIZE = 1695742
 FILES = /usr/lib/squid/ptest
 FILELIST = /usr/lib/squid/ptest/run-ptest /usr/lib/squid/ptest/test-suite/ESIExpressions.cc /usr/lib/squid/ptest/test-suite/Makefile /usr/lib/squid/ptest/test-suite/Makefile.am /usr/lib/squid/ptest/test-suite/Makefile.in /usr/lib/squid/ptest/test-suite/MemPoolTest /usr/lib/squid/ptest/test-suite/MemPoolTest.cc /usr/lib/squid/ptest/test-suite/MemPoolTest.o /usr/lib/squid/ptest/test-suite/VirtualDeleteOperator /usr/lib/squid/ptest/test-suite/VirtualDeleteOperator.cc /usr/lib/squid/ptest/test-suite/VirtualDeleteOperator.o /usr/lib/squid/ptest/test-suite/debug /usr/lib/squid/ptest/test-suite/debug.cc /usr/lib/squid/ptest/test-suite/debug.o /usr/lib/squid/ptest/test-suite/mem_hdr_test /usr/lib/squid/ptest/test-suite/mem_hdr_test.cc /usr/lib/squid/ptest/test-suite/mem_hdr_test.o /usr/lib/squid/ptest/test-suite/mem_node_test /usr/lib/squid/ptest/test-suite/mem_node_test.cc /usr/lib/squid/ptest/test-suite/mem_node_test.o /usr/lib/squid/ptest/test-suite/membanger.c /usr/lib/squid/ptest/test-suite/splay /usr/lib/squid/ptest/test-suite/splay.cc /usr/lib/squid/ptest/test-suite/splay.o /usr/lib/squid/ptest/test-suite/squidconf/empty /usr/lib/squid/ptest/test-suite/squidconf/regressions-3.3 /usr/lib/squid/ptest/test-suite/squidconf/regressions-3.4.0.1 /usr/lib/squid/ptest/test-suite/squidconf/regressions-3.5.0.2 /usr/lib/squid/ptest/test-suite/stub_MemBuf.cc /usr/lib/squid/ptest/test-suite/stub_MemBuf.o /usr/lib/squid/ptest/test-suite/stub_SBuf.cc /usr/lib/squid/ptest/test-suite/stub_SBuf.o /usr/lib/squid/ptest/test-suite/stub_cbdata.cc /usr/lib/squid/ptest/test-suite/stub_cbdata.o /usr/lib/squid/ptest/test-suite/stub_debug.cc /usr/lib/squid/ptest/test-suite/stub_debug.o /usr/lib/squid/ptest/test-suite/stub_fatal.cc /usr/lib/squid/ptest/test-suite/stub_fatal.o /usr/lib/squid/ptest/test-suite/stub_tools.cc /usr/lib/squid/ptest/test-suite/stub_tools.o /usr/lib/squid/ptest/test-suite/syntheticoperators /usr/lib/squid/ptest/test-suite/syntheticoperators.cc /usr/lib/squid/ptest/test-suite/syntheticoperators.o /usr/lib/squid/ptest/test-suite/tcp-banger2.c /usr/lib/squid/ptest/test-suite/test_tools.cc /usr/lib/squid/ptest/test-suite/test_tools.o /usr/lib/squid/ptest/test-suite/testheaders.sh

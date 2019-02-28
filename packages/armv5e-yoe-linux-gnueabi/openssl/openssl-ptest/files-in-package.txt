@@ -87,7 +87,7 @@ drwxr-xr-x root       root              260 ./usr/lib/openssl/ptest/fuzz
 -rwxr-xr-x root       root             9868 ./usr/lib/openssl/ptest/fuzz/x509-test
 lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/libcrypto.so -> /usr/lib/libcrypto.so.1.1
 lrwxrwxrwx root       root               22 ./usr/lib/openssl/ptest/libssl.so -> /usr/lib/libssl.so.1.1
--rwxr-xr-x root       root              264 ./usr/lib/openssl/ptest/run-ptest
+-rwxr-xr-x root       root              378 ./usr/lib/openssl/ptest/run-ptest
 drwxr-xr-x root       root             7120 ./usr/lib/openssl/ptest/test
 -rwxr-xr-x root       root             5748 ./usr/lib/openssl/ptest/test/aborttest
 -rw-r--r-- root       root              464 ./usr/lib/openssl/ptest/test/aborttest.c
@@ -1047,7 +1047,7 @@ drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/test/recipes
 -rw-r--r-- root       root             2519 ./usr/lib/openssl/ptest/test/shibboleth.pfx
 -rwxr-xr-x root       root            38520 ./usr/lib/openssl/ptest/test/shlibloadtest
 -rw-r--r-- root       root             7339 ./usr/lib/openssl/ptest/test/shlibloadtest.c
--rwxr-xr-x root       root          1708580 ./usr/lib/openssl/ptest/test/siphash_internal_test
+-rwxr-xr-x root       root          1712676 ./usr/lib/openssl/ptest/test/siphash_internal_test
 -rw-r--r-- root       root            17438 ./usr/lib/openssl/ptest/test/siphash_internal_test.c
 -rwxr-xr-x root       root          1704480 ./usr/lib/openssl/ptest/test/sm2_internal_test
 -rw-r--r-- root       root            11685 ./usr/lib/openssl/ptest/test/sm2_internal_test.c
@@ -1180,10 +1180,10 @@ drwxr-xr-x root       root              740 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root             5200 ./usr/lib/openssl/ptest/test/testutil/cb.o
 -rw-r--r-- root       root             7706 ./usr/lib/openssl/ptest/test/testutil/driver.c
 -rw-r--r-- root       root              922 ./usr/lib/openssl/ptest/test/testutil/driver.d
--rw-r--r-- root       root            20028 ./usr/lib/openssl/ptest/test/testutil/driver.o
+-rw-r--r-- root       root            20064 ./usr/lib/openssl/ptest/test/testutil/driver.o
 -rw-r--r-- root       root            17098 ./usr/lib/openssl/ptest/test/testutil/format_output.c
 -rw-r--r-- root       root              939 ./usr/lib/openssl/ptest/test/testutil/format_output.d
--rw-r--r-- root       root            43028 ./usr/lib/openssl/ptest/test/testutil/format_output.o
+-rw-r--r-- root       root            43124 ./usr/lib/openssl/ptest/test/testutil/format_output.o
 -rw-r--r-- root       root            19509 ./usr/lib/openssl/ptest/test/testutil.h
 -rw-r--r-- root       root              395 ./usr/lib/openssl/ptest/test/testutil/init.c
 -rw-r--r-- root       root              782 ./usr/lib/openssl/ptest/test/testutil/init.d
@@ -1197,10 +1197,10 @@ drwxr-xr-x root       root              740 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root             3804 ./usr/lib/openssl/ptest/test/testutil/output_helpers.o
 -rw-r--r-- root       root             3944 ./usr/lib/openssl/ptest/test/testutil/stanza.c
 -rw-r--r-- root       root              878 ./usr/lib/openssl/ptest/test/testutil/stanza.d
--rw-r--r-- root       root            16160 ./usr/lib/openssl/ptest/test/testutil/stanza.o
+-rw-r--r-- root       root            16168 ./usr/lib/openssl/ptest/test/testutil/stanza.o
 -rw-r--r-- root       root             4116 ./usr/lib/openssl/ptest/test/testutil/tap_bio.c
 -rw-r--r-- root       root              834 ./usr/lib/openssl/ptest/test/testutil/tap_bio.d
--rw-r--r-- root       root            15032 ./usr/lib/openssl/ptest/test/testutil/tap_bio.o
+-rw-r--r-- root       root            15064 ./usr/lib/openssl/ptest/test/testutil/tap_bio.o
 -rw-r--r-- root       root              384 ./usr/lib/openssl/ptest/test/testutil/test_cleanup.c
 -rw-r--r-- root       root              801 ./usr/lib/openssl/ptest/test/testutil/test_cleanup.d
 -rw-r--r-- root       root             4520 ./usr/lib/openssl/ptest/test/testutil/test_cleanup.o

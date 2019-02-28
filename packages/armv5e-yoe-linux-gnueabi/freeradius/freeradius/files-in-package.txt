@@ -33,9 +33,9 @@ drwxr-x--- radiusd    radiusd           680 ./etc/raddb/certs
 -rw-r----- radiusd    radiusd          1125 ./etc/raddb/certs/server.cnf
 -rw-r--r-- radiusd    radiusd          4431 ./etc/raddb/certs/server.crt
 -rw-r--r-- radiusd    radiusd          1062 ./etc/raddb/certs/server.csr
--rw-r----- radiusd    radiusd          1854 ./etc/raddb/certs/server.key
--rw-r----- radiusd    radiusd          2589 ./etc/raddb/certs/server.p12
--rw-r----- radiusd    radiusd          3710 ./etc/raddb/certs/server.pem
+-rw-r----- radiusd    radiusd          1842 ./etc/raddb/certs/server.key
+-rw-r----- radiusd    radiusd          2581 ./etc/raddb/certs/server.p12
+-rw-r----- radiusd    radiusd          3698 ./etc/raddb/certs/server.pem
 -rw-r----- radiusd    radiusd          3687 ./etc/raddb/certs/user@example.org.pem
 -rw-r----- radiusd    radiusd           708 ./etc/raddb/certs/xpextensions
 -rw-r----- radiusd    radiusd          7476 ./etc/raddb/clients.conf
@@ -248,7 +248,7 @@ drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              520 ./lib/systemd/system/radiusd.service
+-rw-r--r-- root       root              400 ./lib/systemd/system/radiusd.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root             3260 ./usr/lib
 -rwxr-xr-x root       root            26164 ./usr/lib/libfreeradius-dhcp.so.0.0.0

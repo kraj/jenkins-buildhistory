@@ -2,9 +2,9 @@ PV = 5.12.0+gitAUTOINC+a7bb269981
 PR = r0
 PKG = libqt5webchannel5
 PKGV = 5.12.0+git0+a7bb269981
-PKGR = r0.40
+PKGR = r0.41
 RPROVIDES = qtwebchannel (=5.12.0+git0+a7bb269981)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) qtbase (>= 5.12.0+git0+13ed06640c) qtdeclarative (>= 5.12.0+git0+c401ae278b)
 RRECOMMENDS = qtwebchannel-plugins qtwebchannel-qmlplugins
 PKGSIZE = 108180
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebchannel /usr/lib/qtwebchannel/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec

@@ -41,7 +41,7 @@ drwxr-xr-x root       root             4340 ./usr/lib/openssl10/ptest/test
 -rw-r--r-- root       root             8236 ./usr/lib/openssl10/ptest/test/asn1test.o
 -rwxr-xr-x root       root            18616 ./usr/lib/openssl10/ptest/test/bad_dtls_test
 -rw-r--r-- root       root            29708 ./usr/lib/openssl10/ptest/test/bad_dtls_test.c
--rw-r--r-- root       root           109192 ./usr/lib/openssl10/ptest/test/bad_dtls_test.o
+-rw-r--r-- root       root           109232 ./usr/lib/openssl10/ptest/test/bad_dtls_test.o
 -rwxr-xr-x root       root             4204 ./usr/lib/openssl10/ptest/test/bctest
 -rw-r--r-- root       root             4707 ./usr/lib/openssl10/ptest/test/bctest.com
 -rwxr-xr-x root       root            11140 ./usr/lib/openssl10/ptest/test/bftest
@@ -88,10 +88,10 @@ drwxr-xr-x root       root              320 ./usr/lib/openssl10/ptest/test/certs
 -rw-r--r-- root       root            75208 ./usr/lib/openssl10/ptest/test/destest.o
 -rwxr-xr-x root       root            13992 ./usr/lib/openssl10/ptest/test/dhtest
 -rw-r--r-- root       root            27172 ./usr/lib/openssl10/ptest/test/dhtest.c
--rw-r--r-- root       root            34352 ./usr/lib/openssl10/ptest/test/dhtest.o
+-rw-r--r-- root       root            34320 ./usr/lib/openssl10/ptest/test/dhtest.o
 -rwxr-xr-x root       root            10012 ./usr/lib/openssl10/ptest/test/dsatest
 -rw-r--r-- root       root             8775 ./usr/lib/openssl10/ptest/test/dsatest.c
--rw-r--r-- root       root            19368 ./usr/lib/openssl10/ptest/test/dsatest.o
+-rw-r--r-- root       root            19404 ./usr/lib/openssl10/ptest/test/dsatest.o
 -rwxr-xr-x root       root            14060 ./usr/lib/openssl10/ptest/test/dtlstest
 -rw-r--r-- root       root             4111 ./usr/lib/openssl10/ptest/test/dtlstest.c
 -rw-r--r-- root       root            54472 ./usr/lib/openssl10/ptest/test/dtlstest.o
@@ -101,9 +101,9 @@ drwxr-xr-x root       root              320 ./usr/lib/openssl10/ptest/test/certs
 -rwxr-xr-x root       root            13944 ./usr/lib/openssl10/ptest/test/ecdhtest
 -rw-r--r-- root       root            18022 ./usr/lib/openssl10/ptest/test/ecdhtest.c
 -rw-r--r-- root       root            38388 ./usr/lib/openssl10/ptest/test/ecdhtest.o
--rwxr-xr-x root       root            14004 ./usr/lib/openssl10/ptest/test/ecdsatest
+-rwxr-xr-x root       root            18100 ./usr/lib/openssl10/ptest/test/ecdsatest
 -rw-r--r-- root       root            18090 ./usr/lib/openssl10/ptest/test/ecdsatest.c
--rw-r--r-- root       root            41088 ./usr/lib/openssl10/ptest/test/ecdsatest.o
+-rw-r--r-- root       root            41104 ./usr/lib/openssl10/ptest/test/ecdsatest.o
 -rwxr-xr-x root       root            67188 ./usr/lib/openssl10/ptest/test/ectest
 -rw-r--r-- root       root            60525 ./usr/lib/openssl10/ptest/test/ectest.c
 -rw-r--r-- root       root           316516 ./usr/lib/openssl10/ptest/test/ectest.o
@@ -115,11 +115,11 @@ drwxr-xr-x root       root              320 ./usr/lib/openssl10/ptest/test/certs
 -rw-r--r-- root       root            35944 ./usr/lib/openssl10/ptest/test/evp_extra_test.o
 -rwxr-xr-x root       root            13944 ./usr/lib/openssl10/ptest/test/evp_test
 -rwxr-xr-x root       root            19703 ./usr/lib/openssl10/ptest/test/evp_test.c
--rw-r--r-- root       root            70728 ./usr/lib/openssl10/ptest/test/evp_test.o
+-rw-r--r-- root       root            70736 ./usr/lib/openssl10/ptest/test/evp_test.o
 -rw-r--r-- root       root            72217 ./usr/lib/openssl10/ptest/test/evptests.txt
 -rwxr-xr-x root       root             9844 ./usr/lib/openssl10/ptest/test/exptest
 -rw-r--r-- root       root             9540 ./usr/lib/openssl10/ptest/test/exptest.c
--rw-r--r-- root       root            30080 ./usr/lib/openssl10/ptest/test/exptest.o
+-rw-r--r-- root       root            30028 ./usr/lib/openssl10/ptest/test/exptest.o
 -rwxr-xr-x root       root            14028 ./usr/lib/openssl10/ptest/test/fatalerrtest
 -rw-r--r-- root       root             2981 ./usr/lib/openssl10/ptest/test/fatalerrtest.c
 -rw-r--r-- root       root            53932 ./usr/lib/openssl10/ptest/test/fatalerrtest.o
@@ -281,7 +281,7 @@ drwxr-xr-x root       root              300 ./usr/lib/openssl10/ptest/test/smime
 -rw-r--r-- root       root           113147 ./usr/lib/openssl10/ptest/test/ssltest.c
 -rw-r--r-- root       root            20030 ./usr/lib/openssl10/ptest/test/ssltestlib.c
 -rw-r--r-- root       root            79244 ./usr/lib/openssl10/ptest/test/ssltestlib.o
--rw-r--r-- root       root           251948 ./usr/lib/openssl10/ptest/test/ssltest.o
+-rw-r--r-- root       root           252032 ./usr/lib/openssl10/ptest/test/ssltest.o
 -rwxr-xr-x root       root             9852 ./usr/lib/openssl10/ptest/test/sslv2conftest
 -rw-r--r-- root       root             8046 ./usr/lib/openssl10/ptest/test/sslv2conftest.c
 -rw-r--r-- root       root            54896 ./usr/lib/openssl10/ptest/test/sslv2conftest.o

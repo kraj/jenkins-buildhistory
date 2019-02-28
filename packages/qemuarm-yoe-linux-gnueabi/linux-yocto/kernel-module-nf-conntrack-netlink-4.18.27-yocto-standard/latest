@@ -1,10 +1,10 @@
 PV = 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
 PR = r0
 PKGV = 4.18.27+git0+9e348b6f9d_e66e05d38c
-PKGR = r0.27
+PKGR = r0.31
 RPROVIDES = kernel-module-nf-conntrack-netlink
 RDEPENDS = kernel-4.18.27-yocto-standard kernel-module-nf-conntrack-4.18.27-yocto-standard kernel-module-nfnetlink-4.18.27-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 35500
+PKGSIZE = 35452
 FILES = /lib/modules/4.18.27-yocto-standard/kernel/net/netfilter/nf_conntrack_netlink.ko /etc/modules-load.d/nf_conntrack_netlink.conf /etc/modprobe.d/nf_conntrack_netlink.conf
 FILELIST = /lib/modules/4.18.27-yocto-standard/kernel/net/netfilter/nf_conntrack_netlink.ko

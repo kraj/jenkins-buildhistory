@@ -1,9 +1,9 @@
 PV = 8.0
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) llvm-libllvm (>= 8.0) ncurses-libtinfo (>= 6.1+20181013) ncurses-terminfo
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) llvm-libllvm (>= 8.0) ncurses-libtinfo (>= 6.1+20181013) ncurses-terminfo
 RRECOMMENDS = 
-PKGSIZE = 11031729
+PKGSIZE = 11101361
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/llvm /usr/lib/llvm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/llvm8.0/bugpoint /usr/bin/llvm8.0/dsymutil /usr/bin/llvm8.0/llc /usr/bin/llvm8.0/lli /usr/bin/llvm8.0/llvm-ar /usr/bin/llvm8.0/llvm-as /usr/bin/llvm8.0/llvm-bcanalyzer /usr/bin/llvm8.0/llvm-c-test /usr/bin/llvm8.0/llvm-cat /usr/bin/llvm8.0/llvm-cfi-verify /usr/bin/llvm8.0/llvm-config /usr/bin/llvm8.0/llvm-cov /usr/bin/llvm8.0/llvm-cvtres /usr/bin/llvm8.0/llvm-cxxdump /usr/bin/llvm8.0/llvm-cxxfilt /usr/bin/llvm8.0/llvm-cxxmap /usr/bin/llvm8.0/llvm-diff /usr/bin/llvm8.0/llvm-dis /usr/bin/llvm8.0/llvm-dlltool /usr/bin/llvm8.0/llvm-dwarfdump /usr/bin/llvm8.0/llvm-dwp /usr/bin/llvm8.0/llvm-elfabi /usr/bin/llvm8.0/llvm-exegesis /usr/bin/llvm8.0/llvm-extract /usr/bin/llvm8.0/llvm-lib /usr/bin/llvm8.0/llvm-link /usr/bin/llvm8.0/llvm-lto /usr/bin/llvm8.0/llvm-lto2 /usr/bin/llvm8.0/llvm-mc /usr/bin/llvm8.0/llvm-mca /usr/bin/llvm8.0/llvm-modextract /usr/bin/llvm8.0/llvm-mt /usr/bin/llvm8.0/llvm-nm /usr/bin/llvm8.0/llvm-objcopy /usr/bin/llvm8.0/llvm-objdump /usr/bin/llvm8.0/llvm-opt-report /usr/bin/llvm8.0/llvm-pdbutil /usr/bin/llvm8.0/llvm-profdata /usr/bin/llvm8.0/llvm-ranlib /usr/bin/llvm8.0/llvm-rc /usr/bin/llvm8.0/llvm-readelf /usr/bin/llvm8.0/llvm-readobj /usr/bin/llvm8.0/llvm-rtdyld /usr/bin/llvm8.0/llvm-size /usr/bin/llvm8.0/llvm-split /usr/bin/llvm8.0/llvm-stress /usr/bin/llvm8.0/llvm-strings /usr/bin/llvm8.0/llvm-strip /usr/bin/llvm8.0/llvm-symbolizer /usr/bin/llvm8.0/llvm-tblgen /usr/bin/llvm8.0/llvm-undname /usr/bin/llvm8.0/llvm-xray /usr/bin/llvm8.0/obj2yaml /usr/bin/llvm8.0/opt /usr/bin/llvm8.0/sancov /usr/bin/llvm8.0/sanstats /usr/bin/llvm8.0/verify-uselistorder /usr/bin/llvm8.0/yaml2obj
