@@ -1,8 +1,8 @@
 PV = 0.8.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = device-mapper-multipath
-RDEPENDS = bash glibc (>= 2.29) kpartx libdevmapper (>= 2.03.01) libsystemd (>= 239) libudev (>= 239) liburcu (>= 0.10.2) multipath-tools-libs (>= 0.8.0) readline (>= 8.0)
+RDEPENDS = bash glibc (>= 2.29) kpartx libdevmapper (>= 2.03.02) libsystemd (>= 239) libudev (>= 239) liburcu (>= 0.10.2) multipath-tools-libs (>= 0.8.0) readline (>= 8.0)
 RRECOMMENDS = 
 PKGSIZE = 296646
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/multipath-tools /usr/lib/multipath-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/multipathd.service /lib/systemd/system/multipathd.socket

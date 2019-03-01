@@ -1,10 +1,10 @@
 PV = 4.19.19+gitAUTOINC+8d7d003531_11e0e616ed
 PR = r0
 PKGV = 4.19.19+git1+8d7d003531_11e0e616ed
-PKGR = r0.20
+PKGR = r0.23
 RPROVIDES = kernel-module-tipc
 RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-ip6-udp-tunnel-4.19.19-yocto-standard kernel-module-udp-tunnel-4.19.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 345248
+PKGSIZE = 345072
 FILES = /lib/modules/4.19.19-yocto-standard/kernel/net/tipc/tipc.ko /etc/modules-load.d/tipc.conf /etc/modprobe.d/tipc.conf
 FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/net/tipc/tipc.ko

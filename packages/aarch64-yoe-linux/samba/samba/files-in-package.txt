@@ -43,7 +43,7 @@ drwxr-x--- root       root               60 ./etc/sudoers.d
 -rw-r--r-- root       root              100 ./etc/sudoers.d/ctdb
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root              580 ./usr/bin
--rwxr-xr-x root       root           472152 ./usr/bin/ctdb
+-rwxr-xr-x root       root           468056 ./usr/bin/ctdb
 -rwxr-xr-x root       root             8577 ./usr/bin/ctdb_diagnostics
 -rwxr-xr-x root       root            18528 ./usr/bin/dbwrap_tool
 -rwxr-xr-x root       root            38800 ./usr/bin/eventlogadm
@@ -73,7 +73,7 @@ drwxr-xr-x root       root              580 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/libexec
 drwxr-xr-x root       root              260 ./usr/libexec/ctdb
--rwxr-xr-x root       root           385608 ./usr/libexec/ctdb/ctdb_event
+-rwxr-xr-x root       root           381512 ./usr/libexec/ctdb/ctdb_event
 -rwxr-xr-x root       root           259128 ./usr/libexec/ctdb/ctdb_eventd
 -rwxr-xr-x root       root           108696 ./usr/libexec/ctdb/ctdb_killtcp
 -rwxr-xr-x root       root            30624 ./usr/libexec/ctdb/ctdb_lock_helper
@@ -81,7 +81,7 @@ drwxr-xr-x root       root              260 ./usr/libexec/ctdb
 -rwxr-xr-x root       root            26528 ./usr/libexec/ctdb/ctdb_mutex_fcntl_helper
 -rwxr-xr-x root       root             4893 ./usr/libexec/ctdb/ctdb_natgw
 -rwxr-xr-x root       root           402024 ./usr/libexec/ctdb/ctdb_recovery_helper
--rwxr-xr-x root       root           393824 ./usr/libexec/ctdb/ctdb_takeover_helper
+-rwxr-xr-x root       root           389728 ./usr/libexec/ctdb/ctdb_takeover_helper
 -rwxr-xr-x root       root            10512 ./usr/libexec/ctdb/smnotify
 drwxr-xr-x root       root              860 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root            34712 ./usr/libexec/ctdb/tests/comm_client_test
@@ -94,12 +94,12 @@ drwxr-xr-x root       root              860 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root           283328 ./usr/libexec/ctdb/tests/fake_ctdbd
 -rwxr-xr-x root       root           365992 ./usr/libexec/ctdb/tests/fetch_loop
 -rwxr-xr-x root       root           366000 ./usr/libexec/ctdb/tests/fetch_loop_key
--rwxr-xr-x root       root           366000 ./usr/libexec/ctdb/tests/fetch_readonly
+-rwxr-xr-x root       root           361904 ./usr/libexec/ctdb/tests/fetch_readonly
 -rwxr-xr-x root       root           366000 ./usr/libexec/ctdb/tests/fetch_readonly_loop
--rwxr-xr-x root       root           370088 ./usr/libexec/ctdb/tests/fetch_ring
+-rwxr-xr-x root       root           365992 ./usr/libexec/ctdb/tests/fetch_ring
 -rwxr-xr-x root       root           365992 ./usr/libexec/ctdb/tests/g_lock_loop
 -rwxr-xr-x root       root            30616 ./usr/libexec/ctdb/tests/hash_count_test
--rwxr-xr-x root       root           365992 ./usr/libexec/ctdb/tests/lock_tdb
+-rwxr-xr-x root       root           361896 ./usr/libexec/ctdb/tests/lock_tdb
 -rwxr-xr-x root       root           366000 ./usr/libexec/ctdb/tests/message_ring
 -rwxr-xr-x root       root            26520 ./usr/libexec/ctdb/tests/pidfile_test
 -rwxr-xr-x root       root            26520 ./usr/libexec/ctdb/tests/pkt_read_test
@@ -121,7 +121,7 @@ drwxr-xr-x root       root              860 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root            30608 ./usr/libexec/ctdb/tests/srvid_test
 -rwxr-xr-x root       root            14232 ./usr/libexec/ctdb/tests/test_mutex_raw
 -rwxr-xr-x root       root           370096 ./usr/libexec/ctdb/tests/transaction_loop
--rwxr-xr-x root       root           365992 ./usr/libexec/ctdb/tests/tunnel_cmd
+-rwxr-xr-x root       root           361896 ./usr/libexec/ctdb/tests/tunnel_cmd
 -rwxr-xr-x root       root           370088 ./usr/libexec/ctdb/tests/tunnel_test
 -rwxr-xr-x root       root           366000 ./usr/libexec/ctdb/tests/update_record
 -rwxr-xr-x root       root           366008 ./usr/libexec/ctdb/tests/update_record_persistent
