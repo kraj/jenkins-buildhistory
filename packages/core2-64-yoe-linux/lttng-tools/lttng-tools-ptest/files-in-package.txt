@@ -7,16 +7,22 @@ drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/config
 -rwxr-xr-x root       root             4642 ./usr/lib/lttng-tools/ptest/config/test-driver
 -rwxr-xr-x root       root            32971 ./usr/lib/lttng-tools/ptest/Makefile
 -rwxr-xr-x root       root              277 ./usr/lib/lttng-tools/ptest/run-ptest
-drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src
-drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/src/bin
+drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/src
+drwxr-xr-x root       root              140 ./usr/lib/lttng-tools/ptest/src/bin
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src/bin/lttng
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src/bin/lttng-consumerd
 lrwxrwxrwx root       root               38 ./usr/lib/lttng-tools/ptest/src/bin/lttng-consumerd/lttng-consumerd -> /usr/lib/lttng/libexec/lttng-consumerd
+drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src/bin/lttng-crash
+lrwxrwxrwx root       root               20 ./usr/lib/lttng-tools/ptest/src/bin/lttng-crash/lttng-crash -> /usr/bin/lttng-crash
 lrwxrwxrwx root       root               14 ./usr/lib/lttng-tools/ptest/src/bin/lttng/lttng -> /usr/bin/lttng
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src/bin/lttng-relayd
 lrwxrwxrwx root       root               21 ./usr/lib/lttng-tools/ptest/src/bin/lttng-relayd/lttng-relayd -> /usr/bin/lttng-relayd
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src/bin/lttng-sessiond
 lrwxrwxrwx root       root               23 ./usr/lib/lttng-tools/ptest/src/bin/lttng-sessiond/lttng-sessiond -> /usr/bin/lttng-sessiond
+drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/src/common
+drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/src/common/config
+-rwxr-xr-x root       root            12361 ./usr/lib/lttng-tools/ptest/src/common/config/session.xsd
+-rwxr-xr-x root       root            23261 ./usr/lib/lttng-tools/ptest/src/common/mi-lttng-3.0.xsd
 drwxr-xr-x root       root              180 ./usr/lib/lttng-tools/ptest/tests
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/destructive
 -rwxr-xr-x root       root            17870 ./usr/lib/lttng-tools/ptest/tests/destructive/Makefile
@@ -35,7 +41,7 @@ drwxr-xr-x root       root              200 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root             3657 ./usr/lib/lttng-tools/ptest/tests/regression/kernel/test_rotation_destroy_flush
 -rwxr-xr-x root       root            10787 ./usr/lib/lttng-tools/ptest/tests/regression/kernel/test_select_poll_epoll
 -rwxr-xr-x root       root            18075 ./usr/lib/lttng-tools/ptest/tests/regression/kernel/test_syscall
--rwxr-xr-x root       root            55676 ./usr/lib/lttng-tools/ptest/tests/regression/Makefile
+-rwxr-xr-x root       root            55031 ./usr/lib/lttng-tools/ptest/tests/regression/Makefile
 drwxr-xr-x root       root              340 ./usr/lib/lttng-tools/ptest/tests/regression/tools
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/regression/tools/crash
 -rwxr-xr-x root       root            17949 ./usr/lib/lttng-tools/ptest/tests/regression/tools/crash/Makefile
@@ -95,9 +101,14 @@ drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root            18039 ./usr/lib/lttng-tools/ptest/tests/regression/tools/regen-statedump/Makefile
 -rwxr-xr-x root       root             2135 ./usr/lib/lttng-tools/ptest/tests/regression/tools/regen-statedump/test_kernel
 -rwxr-xr-x root       root             2325 ./usr/lib/lttng-tools/ptest/tests/regression/tools/regen-statedump/test_ust
-drwxr-xr-x root       root              140 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load
-drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/configuration
+drwxr-xr-x root       root              200 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load
+drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/configuration
+-rwxr-xr-x root       root              499 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/configuration/load-42-live.lttng
+-rwxr-xr-x root       root              635 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/configuration/load-42-snapshot.lttng
 -rwxr-xr-x root       root            18061 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/configuration/Makefile
+-rwxr-xr-x root       root             4227 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/load-42-complex.lttng
+-rwxr-xr-x root       root             1192 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/load-42.lttng
+-rwxr-xr-x root       root             1368 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/load-42-trackers.lttng
 -rwxr-xr-x root       root            24445 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/Makefile
 -rwxr-xr-x root       root             2026 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/test_autoload
 -rwxr-xr-x root       root            13396 ./usr/lib/lttng-tools/ptest/tests/regression/tools/save-load/test_load

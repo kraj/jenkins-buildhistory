@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+41fe45f7c5_11e0e616ed
+PR = r0
+PKGV = 4.19.19+git2+41fe45f7c5_11e0e616ed
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-log-ipv4
+RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-nf-log-common-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11760
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/net/ipv4/netfilter/nf_log_ipv4.ko /etc/modules-load.d/nf_log_ipv4.conf /etc/modprobe.d/nf_log_ipv4.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/net/ipv4/netfilter/nf_log_ipv4.ko

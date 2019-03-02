@@ -1,0 +1,5 @@
+PV = 1.3.1
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = spdlog-dbg spdlog-staticdev spdlog-dev spdlog-doc spdlog-locale spdlog spdlog-src
+LAYER = openembedded-layer

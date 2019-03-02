@@ -73,7 +73,7 @@ drwxr-xr-x root       root               60 ./usr/lib/rsyslog/ptest/tests/bad_qi
 -rwxr-xr-x root       root             3887 ./usr/lib/rsyslog/ptest/tests/cfg.sh
 -rwxr-xr-x root       root            10392 ./usr/lib/rsyslog/ptest/tests/chkseq
 -rw-r--r-- root       root             6462 ./usr/lib/rsyslog/ptest/tests/chkseq.c
--rw-r--r-- root       root            30040 ./usr/lib/rsyslog/ptest/tests/chkseq.o
+-rw-r--r-- root       root            30032 ./usr/lib/rsyslog/ptest/tests/chkseq.o
 -rwxr-xr-x root       root             2999 ./usr/lib/rsyslog/ptest/tests/complex1.sh
 -rwxr-xr-x root       root             1030 ./usr/lib/rsyslog/ptest/tests/compresssp.sh
 -rwxr-xr-x root       root              998 ./usr/lib/rsyslog/ptest/tests/compresssp-stringtpl.sh
@@ -358,10 +358,10 @@ lrwxrwxrwx root       root               29 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rwxr-xr-x root       root             6168 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_getaddrinfo.so
 -rw-r--r-- root       root              995 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname.lai
 lrwxrwxrwx root       root               29 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname.la -> ../liboverride_gethostname.la
--rw-r--r-- root       root             4832 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_la-override_gethostname.o
+-rw-r--r-- root       root             4824 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_la-override_gethostname.o
 -rw-r--r-- root       root             1043 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_nonfqdn.lai
 lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_nonfqdn.la -> ../liboverride_gethostname_nonfqdn.la
--rw-r--r-- root       root             5808 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_nonfqdn_la-override_gethostname_nonfqdn.o
+-rw-r--r-- root       root             5800 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_nonfqdn_la-override_gethostname_nonfqdn.o
 -rwxr-xr-x root       root             6176 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname_nonfqdn.so
 -rwxr-xr-x root       root             6168 ./usr/lib/rsyslog/ptest/tests/.libs/liboverride_gethostname.so
 -rwxr-xr-x root       root              691 ./usr/lib/rsyslog/ptest/tests/linkedlistqueue.sh
@@ -450,7 +450,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rwxr-xr-x root       root             1133 ./usr/lib/rsyslog/ptest/tests/msgvar-concurrency.sh
 -rwxr-xr-x root       root             6296 ./usr/lib/rsyslog/ptest/tests/msleep
 -rw-r--r-- root       root             1652 ./usr/lib/rsyslog/ptest/tests/msleep.c
--rw-r--r-- root       root             9064 ./usr/lib/rsyslog/ptest/tests/msleep.o
+-rw-r--r-- root       root             9056 ./usr/lib/rsyslog/ptest/tests/msleep.o
 -rwxr-xr-x root       root             2065 ./usr/lib/rsyslog/ptest/tests/multiple_lookup_tables.sh
 -rwxr-xr-x root       root             2106 ./usr/lib/rsyslog/ptest/tests/multiple_lookup_tables-vg.sh
 -rwxr-xr-x root       root              967 ./usr/lib/rsyslog/ptest/tests/mysql-actq-mt.sh
@@ -499,7 +499,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rwxr-xr-x root       root             1154 ./usr/lib/rsyslog/ptest/tests/omprog-transactions-vg.sh
 -rwxr-xr-x root       root             6312 ./usr/lib/rsyslog/ptest/tests/omrelp_dflt_port
 -rw-r--r-- root       root              166 ./usr/lib/rsyslog/ptest/tests/omrelp_dflt_port.c
--rw-r--r-- root       root             6800 ./usr/lib/rsyslog/ptest/tests/omrelp_dflt_port.o
+-rw-r--r-- root       root             6792 ./usr/lib/rsyslog/ptest/tests/omrelp_dflt_port.o
 -rwxr-xr-x root       root             1534 ./usr/lib/rsyslog/ptest/tests/omruleset-queue.sh
 -rwxr-xr-x root       root             1431 ./usr/lib/rsyslog/ptest/tests/omruleset.sh
 -rwxr-xr-x root       root              634 ./usr/lib/rsyslog/ptest/tests/omstdout-basic.sh
@@ -704,14 +704,14 @@ drwxr-xr-x root       root              120 ./usr/lib/rsyslog/ptest/tests/result
 -rwxr-xr-x root       root             1016 ./usr/lib/rsyslog/ptest/tests/stop_when_array_has_element.sh
 -rwxr-xr-x root       root            10400 ./usr/lib/rsyslog/ptest/tests/syslog_caller
 -rw-r--r-- root       root             3468 ./usr/lib/rsyslog/ptest/tests/syslog_caller.c
--rw-r--r-- root       root            17072 ./usr/lib/rsyslog/ptest/tests/syslog_caller-syslog_caller.o
+-rw-r--r-- root       root            17080 ./usr/lib/rsyslog/ptest/tests/syslog_caller-syslog_caller.o
 -rwxr-xr-x root       root              733 ./usr/lib/rsyslog/ptest/tests/tabescape_dflt.sh
 -rwxr-xr-x root       root              742 ./usr/lib/rsyslog/ptest/tests/tabescape_dflt-udp.sh
 -rwxr-xr-x root       root              789 ./usr/lib/rsyslog/ptest/tests/tabescape_off.sh
 -rwxr-xr-x root       root              798 ./usr/lib/rsyslog/ptest/tests/tabescape_off-udp.sh
 -rwxr-xr-x root       root            26864 ./usr/lib/rsyslog/ptest/tests/tcpflood
 -rw-r--r-- root       root            47721 ./usr/lib/rsyslog/ptest/tests/tcpflood.c
--rw-r--r-- root       root           128736 ./usr/lib/rsyslog/ptest/tests/tcpflood-tcpflood.o
+-rw-r--r-- root       root           128768 ./usr/lib/rsyslog/ptest/tests/tcpflood-tcpflood.o
 -rwxr-xr-x root       root             1408 ./usr/lib/rsyslog/ptest/tests/tcp_forwarding_dflt_tpl.sh
 -rwxr-xr-x root       root             1822 ./usr/lib/rsyslog/ptest/tests/tcp_forwarding_ns_tpl.sh
 -rwxr-xr-x root       root             1235 ./usr/lib/rsyslog/ptest/tests/tcp_forwarding_retries.sh
