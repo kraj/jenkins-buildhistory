@@ -1,9 +1,9 @@
 PV = 1.69.0
 PR = r0
 PKG = libboost-timer1.69.0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = boost-timer (=1.69.0)
-RDEPENDS = boost-chrono (>= 1.69.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = boost-chrono (>= 1.69.0) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 30252
 FILES = /usr/lib/libboost_timer*.so.*

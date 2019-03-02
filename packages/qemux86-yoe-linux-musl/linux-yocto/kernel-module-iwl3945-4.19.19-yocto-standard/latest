@@ -1,10 +1,10 @@
 PV = 4.19.19+gitAUTOINC+8d7d003531_11e0e616ed
 PR = r0
 PKGV = 4.19.19+git1+8d7d003531_11e0e616ed
-PKGR = r0.17
+PKGR = r0.21
 RPROVIDES = kernel-module-iwl3945
 RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-cfg80211-4.19.19-yocto-standard kernel-module-iwlegacy-4.19.19-yocto-standard kernel-module-mac80211-4.19.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 73472
+PKGSIZE = 73536
 FILES = /lib/modules/4.19.19-yocto-standard/kernel/drivers/net/wireless/intel/iwlegacy/iwl3945.ko /etc/modules-load.d/iwl3945.conf /etc/modprobe.d/iwl3945.conf
 FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/drivers/net/wireless/intel/iwlegacy/iwl3945.ko

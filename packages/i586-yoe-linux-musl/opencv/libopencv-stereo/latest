@@ -1,9 +1,9 @@
 PV = 3.4.5
 PR = r0
 PKG = libopencv-stereo3.4
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = libopencv-stereo (=3.4.5)
-RDEPENDS = libgcc (>= 8.2.0) libopencv-calib3d (>= 3.4.5) libopencv-core (>= 3.4.5) libopencv-imgproc (>= 3.4.5) libstdc++ (>= 8.2.0) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = libgcc (>= 8.3.0) libopencv-calib3d (>= 3.4.5) libopencv-core (>= 3.4.5) libopencv-imgproc (>= 3.4.5) libstdc++ (>= 8.3.0) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 140877
 FILES = /usr/lib/libopencv_stereo.so /usr/lib/libopencv_stereo.so.3.4 /usr/lib/libopencv_stereo.so.3.4.5

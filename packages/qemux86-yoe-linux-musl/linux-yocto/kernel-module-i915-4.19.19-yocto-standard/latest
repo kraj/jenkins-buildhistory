@@ -1,10 +1,10 @@
 PV = 4.19.19+gitAUTOINC+8d7d003531_11e0e616ed
 PR = r0
 PKGV = 4.19.19+git1+8d7d003531_11e0e616ed
-PKGR = r0.17
+PKGR = r0.21
 RPROVIDES = kernel-module-i915
 RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-backlight-4.19.19-yocto-standard kernel-module-video-4.19.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 1717016
+PKGSIZE = 1717180
 FILES = /lib/modules/4.19.19-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko /etc/modules-load.d/i915.conf /etc/modprobe.d/i915.conf
 FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko

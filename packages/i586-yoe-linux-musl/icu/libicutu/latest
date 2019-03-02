@@ -1,9 +1,9 @@
 PV = 63.1
 PR = r0
 PKG = libicutu63
-PKGR = r0.58
+PKGR = r0.59
 RPROVIDES = libicutu (=63.1)
-RDEPENDS = libgcc (>= 8.2.0) libicudata (>= 63.1) libicui18n (>= 63.1) libicuuc (>= 63.1) libstdc++ (>= 8.2.0) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = libgcc (>= 8.3.0) libicudata (>= 63.1) libicui18n (>= 63.1) libicuuc (>= 63.1) libstdc++ (>= 8.3.0) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 PKGSIZE = 211332
 FILES = /usr/lib/libicutu.so.*

@@ -2,9 +2,9 @@ PV = 5.12.0+gitAUTOINC+a15a7f1362
 PR = r0
 PKG = libqt5serialport5
 PKGV = 5.12.0+git0+a15a7f1362
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = qtserialport (=5.12.0+git0+a15a7f1362)
-RDEPENDS = libstdc++ (>= 8.2.0) libudev (>= 239) musl (>= 1.1.21+git2+6516282d2a) qtbase (>= 5.12.0+git0+13ed06640c)
+RDEPENDS = libstdc++ (>= 8.3.0) libudev (>= 239) musl (>= 1.1.21+git2+6516282d2a) qtbase (>= 5.12.0+git0+13ed06640c)
 RRECOMMENDS = qtserialport-plugins qtserialport-qmlplugins
 PKGSIZE = 104020
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtserialport /usr/lib/qtserialport/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec

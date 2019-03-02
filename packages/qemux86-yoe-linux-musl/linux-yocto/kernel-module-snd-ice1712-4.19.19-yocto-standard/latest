@@ -1,10 +1,10 @@
 PV = 4.19.19+gitAUTOINC+8d7d003531_11e0e616ed
 PR = r0
 PKGV = 4.19.19+git1+8d7d003531_11e0e616ed
-PKGR = r0.17
+PKGR = r0.21
 RPROVIDES = kernel-module-snd-ice1712
 RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-snd-4.19.19-yocto-standard kernel-module-snd-ac97-codec-4.19.19-yocto-standard kernel-module-snd-ak4xxx-adda-4.19.19-yocto-standard kernel-module-snd-cs8427-4.19.19-yocto-standard kernel-module-snd-i2c-4.19.19-yocto-standard kernel-module-snd-ice17xx-ak4xxx-4.19.19-yocto-standard kernel-module-snd-mpu401-uart-4.19.19-yocto-standard kernel-module-snd-pcm-4.19.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 75044
+PKGSIZE = 74908
 FILES = /lib/modules/4.19.19-yocto-standard/kernel/sound/pci/ice1712/snd-ice1712.ko /etc/modules-load.d/snd-ice1712.conf /etc/modprobe.d/snd-ice1712.conf
 FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/sound/pci/ice1712/snd-ice1712.ko

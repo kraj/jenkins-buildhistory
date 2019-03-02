@@ -1,10 +1,10 @@
 PV = 4.19.19+gitAUTOINC+8d7d003531_11e0e616ed
 PR = r0
 PKGV = 4.19.19+git1+8d7d003531_11e0e616ed
-PKGR = r0.17
+PKGR = r0.21
 RPROVIDES = kernel-module-snd-hda-codec-generic
 RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-snd-4.19.19-yocto-standard kernel-module-snd-hda-codec-4.19.19-yocto-standard kernel-module-snd-hda-core-4.19.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 68996
+PKGSIZE = 68968
 FILES = /lib/modules/4.19.19-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-generic.ko /etc/modules-load.d/snd-hda-codec-generic.conf /etc/modprobe.d/snd-hda-codec-generic.conf
 FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-generic.ko
