@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = binutils-cross-arm coreutils-native gcc-cross-arm sed-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = cross-compiler-ldd-dbg cross-compiler-ldd-staticdev cross-compiler-ldd-dev cross-compiler-ldd-doc cross-compiler-ldd-locale cross-compiler-ldd cross-compiler-ldd-src
+LAYER = meta-initramfs

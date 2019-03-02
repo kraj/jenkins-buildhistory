@@ -1,10 +1,10 @@
 PE = 1
-PV = 049
-PR = r0
-PKGR = r0.35
+PV = 050
+PR = r0.alpha.rootfs
+PKGR = r0.alpha.rootfs.0
 RPROVIDES = 
-RDEPENDS = dracut (= 1:049-r0.35)
-RRECOMMENDS = bash-completion-dev bash-dev cpio-dev findutils-dev glibc-dev kmod-dev ldd-dev libkmod-dev systemd-dev util-linux-blkid-dev util-linux-dev util-linux-getopt-dev
-PKGSIZE = 159
+RDEPENDS = dracut (= 1:050-r0.alpha.rootfs.0)
+RRECOMMENDS = bash-completion-dev bash-dev cpio-dev findutils-dev glibc-dev gzip-dev kbd-consolefonts-dev kbd-consoletrans-dev kbd-keymaps-dev kbd-unimaps-dev kmod-dev ldd-dev libkmod-dev linux-firmware-dev openssh-scp-dev openssh-ssh-dev sed-dev systemd-dev tar-dev util-linux-blkid-dev util-linux-dev util-linux-getopt-dev util-linux-losetup-dev util-linux-umount-dev xz-dev
+PKGSIZE = 172
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dracut/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/share/pkgconfig/dracut.pc
