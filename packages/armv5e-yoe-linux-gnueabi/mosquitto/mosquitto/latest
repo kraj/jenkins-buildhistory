@@ -1,8 +1,8 @@
 PV = 1.5.4
 PR = r0
-PKGR = r0.38
+PKGR = r0.39
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.29) libcrypto (>= 1.1.1a) libssl (>= 1.1.1a) libsystemd (>= 239) shadow util-linux-libuuid (>= 2.32.1)
+RDEPENDS = base-files base-passwd glibc (>= 2.29) libcrypto (>= 1.1.1a) libssl (>= 1.1.1a) libsystemd (>= 241) shadow util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 210453
 FILES = /usr/sbin/mosquitto /usr/bin/mosquitto_passwd /etc/mosquitto /etc/init.d /lib/systemd/system/mosquitto.service /lib/systemd/system/mosquitto.service

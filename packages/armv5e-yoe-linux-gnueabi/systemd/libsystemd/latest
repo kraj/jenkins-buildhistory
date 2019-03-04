@@ -1,11 +1,11 @@
 PE = 1
-PV = 239
+PV = 241
 PR = r0
 PKG = libsystemd0
-PKGR = r0.42
-RPROVIDES = libsystemd (=239)
-RDEPENDS = glibc (>= 2.29) libcap (>= 2.26) liblzma (>= 5.2.4) util-linux-libmount (>= 2.32.1)
+PKGR = r0.0
+RPROVIDES = libsystemd (=241)
+RDEPENDS = glibc (>= 2.29) libcap (>= 2.26) liblzma (>= 5.2.4)
 RRECOMMENDS = 
-PKGSIZE = 584776
-FILES = /lib/libsystemd.so /lib/libsystemd.so.0 /lib/libsystemd.so.0.23.0
-FILELIST = /lib/libsystemd.so.0 /lib/libsystemd.so.0.23.0
+PKGSIZE = 670896
+FILES = /lib/libsystemd.so /lib/libsystemd.so.0 /lib/libsystemd.so.0.25.0
+FILELIST = /lib/libsystemd.so.0 /lib/libsystemd.so.0.25.0
