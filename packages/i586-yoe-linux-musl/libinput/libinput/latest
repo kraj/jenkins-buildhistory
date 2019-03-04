@@ -1,9 +1,9 @@
 PV = 1.12.6
 PR = r0
 PKG = libinput10
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libinput
-RDEPENDS = libevdev (>= 1.6.0) libudev (>= 239) mtdev (>= 1.1.5) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = libevdev (>= 1.6.0) libudev (>= 241) mtdev (>= 1.1.5) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
 RREPLACES = libinput
 RCONFLICTS = libinput

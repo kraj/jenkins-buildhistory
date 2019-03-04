@@ -1,9 +1,9 @@
 PV = 1.12.12
 PR = r0
 PKG = libdbus-1-3
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = dbus-lib (=1.12.12)
-RDEPENDS = libsystemd (>= 239) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = libsystemd (>= 241) musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = dbus
 PKGSIZE = 382611
 FILES = /usr/lib/lib*.so.*

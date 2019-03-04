@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = binutils-cross-i586 coreutils-native gcc-cross-i586 sed-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = cross-compiler-ldd-dbg cross-compiler-ldd-staticdev cross-compiler-ldd-dev cross-compiler-ldd-doc cross-compiler-ldd-locale cross-compiler-ldd cross-compiler-ldd-src
+LAYER = meta-initramfs

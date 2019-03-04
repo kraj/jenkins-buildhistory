@@ -1881,7 +1881,7 @@ drwxr-xr-x root       root               80 ./lib/modules/4.19.19-yocto-standard
 drwxr-xr-x root       root               80 ./lib/modules/4.19.19-yocto-standard/build/certs
 -rw-r--r-- root       root             3494 ./lib/modules/4.19.19-yocto-standard/build/certs/Kconfig
 -rw-r--r-- root       root             4187 ./lib/modules/4.19.19-yocto-standard/build/certs/Makefile
--rw-r--r-- root       root           128729 ./lib/modules/4.19.19-yocto-standard/build/.config
+-rw-r--r-- root       root           128719 ./lib/modules/4.19.19-yocto-standard/build/.config
 drwxr-xr-x root       root              120 ./lib/modules/4.19.19-yocto-standard/build/crypto
 drwxr-xr-x root       root               80 ./lib/modules/4.19.19-yocto-standard/build/crypto/asymmetric_keys
 -rw-r--r-- root       root             2211 ./lib/modules/4.19.19-yocto-standard/build/crypto/asymmetric_keys/Kconfig
@@ -6075,7 +6075,7 @@ drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/atl1e.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/atl1.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/atl2.h
--rw-r--r-- root       root           128729 ./lib/modules/4.19.19-yocto-standard/build/include/config/auto.conf
+-rw-r--r-- root       root           128719 ./lib/modules/4.19.19-yocto-standard/build/include/config/auto.conf
 -rw-r--r-- root       root            41510 ./lib/modules/4.19.19-yocto-standard/build/include/config/auto.conf.cmd
 drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard/build/include/config/autofs
 drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard/build/include/config/autofs4
@@ -7466,12 +7466,13 @@ drwxr-xr-x root       root              580 ./lib/modules/4.19.19-yocto-standard
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/match/tcpmss.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/match/u32.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/nat.h
-drwxr-xr-x root       root              300 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target
+drwxr-xr-x root       root              320 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/classify.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/connmark.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/ct.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/dscp.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/hl.h
+-rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/log.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/mark.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/netmap.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/netfilter/xt/target/nflog.h
@@ -7587,7 +7588,7 @@ drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/network/filesystems.h
 drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard/build/include/config/new
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/new/leds.h
-drwxr-xr-x root       root              180 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf
+drwxr-xr-x root       root              200 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf
 drwxr-xr-x root       root              280 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/conntrack
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/conntrack/amanda.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/conntrack/broadcast.h
@@ -7613,6 +7614,10 @@ drwxr-xr-x root       root              120 ./lib/modules/4.19.19-yocto-standard
 drwxr-xr-x root       root               80 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/defrag
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/defrag/ipv4.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/defrag/ipv6.h
+drwxr-xr-x root       root              100 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/log
+-rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/log/common.h
+-rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/log/ipv4.h
+-rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/log/ipv6.h
 drwxr-xr-x root       root              280 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/nat
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/nat/amanda.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/nf/nat/ftp.h
@@ -8319,7 +8324,7 @@ drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/tracing/support.h
 drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard/build/include/config/tree
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/tree/srcu.h
--rw-r--r-- root       root            17620 ./lib/modules/4.19.19-yocto-standard/build/include/config/tristate.conf
+-rw-r--r-- root       root            17718 ./lib/modules/4.19.19-yocto-standard/build/include/config/tristate.conf
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/tty.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/tun.h
 -rw-r--r-- root       root                0 ./lib/modules/4.19.19-yocto-standard/build/include/config/typhoon.h
@@ -9307,7 +9312,7 @@ drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard
 -rw-r--r-- root       root             2481 ./lib/modules/4.19.19-yocto-standard/build/include/dt-bindings/usb/pd.h
 drwxr-xr-x root       root              180 ./lib/modules/4.19.19-yocto-standard/build/include/generated
 -rw-r--r-- root       root             5241 ./lib/modules/4.19.19-yocto-standard/build/include/generated/asm-offsets.h
--rw-r--r-- root       root            62758 ./lib/modules/4.19.19-yocto-standard/build/include/generated/autoconf.h
+-rw-r--r-- root       root            62916 ./lib/modules/4.19.19-yocto-standard/build/include/generated/autoconf.h
 -rw-r--r-- root       root              317 ./lib/modules/4.19.19-yocto-standard/build/include/generated/bounds.h
 -rw-r--r-- root       root              276 ./lib/modules/4.19.19-yocto-standard/build/include/generated/compile.h
 -rw-r--r-- root       root             1100 ./lib/modules/4.19.19-yocto-standard/build/include/generated/timeconst.h
@@ -13724,7 +13729,7 @@ drwxr-xr-x root       root               60 ./lib/modules/4.19.19-yocto-standard
 -rw-r--r-- root       root            25325 ./lib/modules/4.19.19-yocto-standard/build/mm/Kconfig
 -rw-r--r-- root       root             3884 ./lib/modules/4.19.19-yocto-standard/build/mm/Kconfig.debug
 -rw-r--r-- root       root             3684 ./lib/modules/4.19.19-yocto-standard/build/mm/Makefile
--rw-r--r-- root       root           698745 ./lib/modules/4.19.19-yocto-standard/build/Module.symvers
+-rw-r--r-- root       root           699141 ./lib/modules/4.19.19-yocto-standard/build/Module.symvers
 drwxr-xr-x root       root             1440 ./lib/modules/4.19.19-yocto-standard/build/net
 drwxr-xr-x root       root               80 ./lib/modules/4.19.19-yocto-standard/build/net/6lowpan
 -rw-r--r-- root       root             2760 ./lib/modules/4.19.19-yocto-standard/build/net/6lowpan/Kconfig
