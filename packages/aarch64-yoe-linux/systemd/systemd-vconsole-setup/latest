@@ -1,9 +1,9 @@
 PE = 1
-PV = 239
+PV = 241
 PR = r0
-PKGR = r0.73
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) systemd (>= 239)
+RDEPENDS = glibc (>= 2.29) systemd (>= 241)
 RRECOMMENDS = kbd kbd-consolefonts kbd-keymaps
 PKGSIZE = 68362
 FILES = /lib/systemd/systemd-vconsole-setup /lib/systemd/system/systemd-vconsole-setup.service /lib/systemd/system/sysinit.target.wants/systemd-vconsole-setup.service
