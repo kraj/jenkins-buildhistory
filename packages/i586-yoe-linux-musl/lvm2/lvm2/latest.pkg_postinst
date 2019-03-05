@@ -11,9 +11,9 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl daemon-reload
 	fi
 
-	systemctl $OPTS disable lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
+	systemctl $OPTS disable lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service
 
 	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
+		systemctl --no-block restart lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service
 	fi
 fi

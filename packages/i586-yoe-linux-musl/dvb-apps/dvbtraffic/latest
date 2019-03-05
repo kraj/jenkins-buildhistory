@@ -1,9 +1,9 @@
 PV = 1.1.1
 PR = r0
-PKGR = r0.54
+PKGR = r0.55
 RPROVIDES = 
-RDEPENDS = libdvbapi
+RDEPENDS = libdvbapi musl (>= 1.1.21+git2+6516282d2a)
 RRECOMMENDS = 
-PKGSIZE = 34064
+PKGSIZE = 9524
 FILES = /usr/bin/dvbtraffic
 FILELIST = /usr/bin/dvbtraffic

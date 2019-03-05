@@ -3,14 +3,14 @@ drwxr-xr-x root       root               60 ./etc/logrotate.d
 -rw-r--r-- root       root              781 ./etc/logrotate.d/mysql
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              200 ./usr/bin
--rwxr-xr-x root       root          3887696 ./usr/bin/aria_chk
--rwxr-xr-x root       root          3650676 ./usr/bin/aria_dump_log
--rwxr-xr-x root       root          3667152 ./usr/bin/aria_ftdump
--rwxr-xr-x root       root          3696208 ./usr/bin/aria_pack
--rwxr-xr-x root       root          3839924 ./usr/bin/aria_read_log
+-rwxr-xr-x root       root          3871312 ./usr/bin/aria_chk
+-rwxr-xr-x root       root          3638388 ./usr/bin/aria_dump_log
+-rwxr-xr-x root       root          3658960 ./usr/bin/aria_ftdump
+-rwxr-xr-x root       root          3679824 ./usr/bin/aria_pack
+-rwxr-xr-x root       root          3831732 ./usr/bin/aria_read_log
 -rwxr-xr-x root       root            13472 ./usr/bin/innochecksum
--rwxr-xr-x root       root         12521456 ./usr/bin/mysql_embedded
--rwxr-xr-x root       root            62852 ./usr/bin/mytop
+-rwxr-xr-x root       root         12464112 ./usr/bin/mysql_embedded
+-rwxr-xr-x root       root            62886 ./usr/bin/mytop
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/plugin
 -rw-r--r-- root       root              227 ./usr/lib/plugin/daemon_example.ini
@@ -585,13 +585,13 @@ drwxr-xr-x root       root              380 ./usr/share/mysql-test/lib/v1
 -rw-r--r-- root       root             4618 ./usr/share/mysql-test/lib/v1/mtr_unique.pl
 drwxr-xr-x root       root               60 ./usr/share/mysql-test/lib/v1/My
 -rw-r--r-- root       root             8566 ./usr/share/mysql-test/lib/v1/My/Config.pm
--rwxr-xr-x root       root           158218 ./usr/share/mysql-test/lib/v1/mysql-test-run.pl
+-rwxr-xr-x root       root           158214 ./usr/share/mysql-test/lib/v1/mysql-test-run.pl
 -rw-r--r-- root       root             1008 ./usr/share/mysql-test/lib/v1/ndb_config_1_node.ini
 -rw-r--r-- root       root             1283 ./usr/share/mysql-test/lib/v1/ndb_config_2_node.ini
 lrwxrwxrwx root       root               19 ./usr/share/mysql-test/mtr -> ./mysql-test-run.pl
 -rwxr-xr-x root       root            36860 ./usr/share/mysql-test/mysql-stress-test.pl
 lrwxrwxrwx root       root               19 ./usr/share/mysql-test/mysql-test-run -> ./mysql-test-run.pl
--rwxr-xr-x root       root           194556 ./usr/share/mysql-test/mysql-test-run.pl
+-rwxr-xr-x root       root           194845 ./usr/share/mysql-test/mysql-test-run.pl
 drwxr-xr-x root       root              140 ./usr/share/mysql-test/plugin
 drwxr-xr-x root       root               80 ./usr/share/mysql-test/plugin/example
 drwxr-xr-x root       root               80 ./usr/share/mysql-test/plugin/example/mtr
@@ -769,13 +769,13 @@ drwxr-xr-x root       root            15920 ./usr/share/mysql-test/r
 -rw-r--r-- root       root             1171 ./usr/share/mysql-test/r/ansi.result
 -rw-r--r-- root       root              516 ./usr/share/mysql-test/r/assign_key_cache-5405.result
 -rw-r--r-- root       root              733 ./usr/share/mysql-test/r/auth_rpl.result
--rw-r--r-- root       root             7389 ./usr/share/mysql-test/r/auto_increment_ranges_innodb.result
+-rw-r--r-- root       root             7703 ./usr/share/mysql-test/r/auto_increment_ranges_innodb.result
 -rw-r--r-- root       root             7464 ./usr/share/mysql-test/r/auto_increment_ranges_myisam.result
 -rw-r--r-- root       root            13086 ./usr/share/mysql-test/r/auto_increment.result
 -rw-r--r-- root       root             4396 ./usr/share/mysql-test/r/backup.result
 -rw-r--r-- root       root              406 ./usr/share/mysql-test/r/bad_frm_crash_5029.result
 -rw-r--r-- root       root              450 ./usr/share/mysql-test/r/bench_count_distinct.result
--rw-r--r-- root       root            21400 ./usr/share/mysql-test/r/bigint.result
+-rw-r--r-- root       root            21661 ./usr/share/mysql-test/r/bigint.result
 -rw-r--r-- root       root               17 ./usr/share/mysql-test/r/big_test.require
 -rw-r--r-- root       root             5810 ./usr/share/mysql-test/r/binary.result
 -rw-r--r-- root       root             6011 ./usr/share/mysql-test/r/binary_to_hex.result
@@ -1197,7 +1197,7 @@ drwxr-xr-x root       root            15920 ./usr/share/mysql-test/r
 -rw-r--r-- root       root               92 ./usr/share/mysql-test/r/mysql_not_windows.result
 -rw-r--r-- root       root             3784 ./usr/share/mysql-test/r/mysql_plugin.result
 -rw-r--r-- root       root              208 ./usr/share/mysql-test/r/mysql_protocols.result
--rw-r--r-- root       root            10452 ./usr/share/mysql-test/r/mysql.result
+-rw-r--r-- root       root            10826 ./usr/share/mysql-test/r/mysql.result
 -rw-r--r-- root       root             1760 ./usr/share/mysql-test/r/mysqlshow.result
 -rw-r--r-- root       root             7371 ./usr/share/mysql-test/r/mysqlslap.result
 -rw-r--r-- root       root                7 ./usr/share/mysql-test/r/mysqltest_256.result
@@ -1339,7 +1339,7 @@ drwxr-xr-x root       root            15920 ./usr/share/mysql-test/r
 -rw-r--r-- root       root            66154 ./usr/share/mysql-test/r/range_vs_index_merge.result
 -rw-r--r-- root       root             2913 ./usr/share/mysql-test/r/read_many_rows_innodb.result
 -rw-r--r-- root       root             5167 ./usr/share/mysql-test/r/read_only_innodb.result
--rw-r--r-- root       root             5454 ./usr/share/mysql-test/r/read_only.result
+-rw-r--r-- root       root             5825 ./usr/share/mysql-test/r/read_only.result
 -rw-r--r-- root       root              882 ./usr/share/mysql-test/r/renamedb.result
 -rw-r--r-- root       root             1612 ./usr/share/mysql-test/r/rename.result
 -rw-r--r-- root       root             8481 ./usr/share/mysql-test/r/repair.result
@@ -1347,8 +1347,8 @@ drwxr-xr-x root       root            15920 ./usr/share/mysql-test/r
 -rw-r--r-- root       root             1127 ./usr/share/mysql-test/r/replace.result
 -rw-r--r-- root       root              582 ./usr/share/mysql-test/r/rollback.result
 -rw-r--r-- root       root             6898 ./usr/share/mysql-test/r/round.result
--rw-r--r-- root       root             2258 ./usr/share/mysql-test/r/row-checksum-old.result
--rw-r--r-- root       root             2274 ./usr/share/mysql-test/r/row-checksum.result
+-rw-r--r-- root       root             3098 ./usr/share/mysql-test/r/row-checksum-old.result
+-rw-r--r-- root       root             3114 ./usr/share/mysql-test/r/row-checksum.result
 -rw-r--r-- root       root             3396 ./usr/share/mysql-test/r/rowid_order_innodb.result
 -rw-r--r-- root       root            16212 ./usr/share/mysql-test/r/row.result
 -rw-r--r-- root       root             4493 ./usr/share/mysql-test/r/rpl_colSize.result
@@ -1431,7 +1431,7 @@ drwxr-xr-x root       root            15920 ./usr/share/mysql-test/r
 -rw-r--r-- root       root              640 ./usr/share/mysql-test/r/strict_autoinc_2innodb.result
 -rw-r--r-- root       root              640 ./usr/share/mysql-test/r/strict_autoinc_3heap.result
 -rw-r--r-- root       root            63634 ./usr/share/mysql-test/r/strict.result
--rw-r--r-- root       root            25261 ./usr/share/mysql-test/r/subselect2.result
+-rw-r--r-- root       root            26036 ./usr/share/mysql-test/r/subselect2.result
 -rw-r--r-- root       root            58847 ./usr/share/mysql-test/r/subselect3_jcl6.result
 -rw-r--r-- root       root            57237 ./usr/share/mysql-test/r/subselect3.result
 -rw-r--r-- root       root            99784 ./usr/share/mysql-test/r/subselect4.result
@@ -1508,7 +1508,7 @@ drwxr-xr-x root       root            15920 ./usr/share/mysql-test/r
 -rw-r--r-- root       root            12641 ./usr/share/mysql-test/r/type_float.result
 -rw-r--r-- root       root             1471 ./usr/share/mysql-test/r/type_nchar.result
 -rw-r--r-- root       root              678 ./usr/share/mysql-test/r/type_newdecimal-big.result
--rw-r--r-- root       root            63121 ./usr/share/mysql-test/r/type_newdecimal.result
+-rw-r--r-- root       root            65501 ./usr/share/mysql-test/r/type_newdecimal.result
 -rw-r--r-- root       root            17289 ./usr/share/mysql-test/r/type_ranges.result
 -rw-r--r-- root       root             4087 ./usr/share/mysql-test/r/type_set.result
 -rw-r--r-- root       root            10437 ./usr/share/mysql-test/r/type_time_hires.result
@@ -2825,7 +2825,7 @@ drwxr-xr-x root       root              360 ./usr/share/mysql-test/suite/engines
 -rw-r--r-- root       root             5418 ./usr/share/mysql-test/suite/engines/iuds/r/delete_year.result
 -rw-r--r-- root       root          1581397 ./usr/share/mysql-test/suite/engines/iuds/r/insert_calendar.result
 -rw-r--r-- root       root            99894 ./usr/share/mysql-test/suite/engines/iuds/r/insert_decimal.result
--rw-r--r-- root       root          1031148 ./usr/share/mysql-test/suite/engines/iuds/r/insert_number.result
+-rw-r--r-- root       root          1034122 ./usr/share/mysql-test/suite/engines/iuds/r/insert_number.result
 -rw-r--r-- root       root           157415 ./usr/share/mysql-test/suite/engines/iuds/r/insert_time.result
 -rw-r--r-- root       root           217420 ./usr/share/mysql-test/suite/engines/iuds/r/insert_year.result
 -rw-r--r-- root       root           113361 ./usr/share/mysql-test/suite/engines/iuds/r/strings_charsets_update_delete.result
@@ -2833,7 +2833,7 @@ drwxr-xr-x root       root              360 ./usr/share/mysql-test/suite/engines
 -rw-r--r-- root       root          2991836 ./usr/share/mysql-test/suite/engines/iuds/r/type_bit_iuds.result
 -rw-r--r-- root       root            37285 ./usr/share/mysql-test/suite/engines/iuds/r/update_decimal.result
 -rw-r--r-- root       root            80573 ./usr/share/mysql-test/suite/engines/iuds/r/update_delete_calendar.result
--rw-r--r-- root       root            94994 ./usr/share/mysql-test/suite/engines/iuds/r/update_delete_number.result
+-rw-r--r-- root       root            95385 ./usr/share/mysql-test/suite/engines/iuds/r/update_delete_number.result
 -rw-r--r-- root       root            24581 ./usr/share/mysql-test/suite/engines/iuds/r/update_time.result
 -rw-r--r-- root       root            10070 ./usr/share/mysql-test/suite/engines/iuds/r/update_year.result
 -rw-r--r-- root       root               18 ./usr/share/mysql-test/suite/engines/iuds/suite.opt
@@ -7235,12 +7235,12 @@ drwxr-xr-x root       root            17120 ./usr/share/mysql-test/t
 -rw-r--r-- root       root               23 ./usr/share/mysql-test/t/auth_rpl-slave.opt
 -rw-r--r-- root       root             1766 ./usr/share/mysql-test/t/auth_rpl.test
 -rw-r--r-- root       root             6290 ./usr/share/mysql-test/t/auto_increment_ranges.inc
--rw-r--r-- root       root              149 ./usr/share/mysql-test/t/auto_increment_ranges_innodb.test
+-rw-r--r-- root       root              574 ./usr/share/mysql-test/t/auto_increment_ranges_innodb.test
 -rw-r--r-- root       root              117 ./usr/share/mysql-test/t/auto_increment_ranges_myisam.test
 -rw-r--r-- root       root            12266 ./usr/share/mysql-test/t/auto_increment.test
 -rw-r--r-- root       root              751 ./usr/share/mysql-test/t/bad_frm_crash_5029.test
 -rw-r--r-- root       root              433 ./usr/share/mysql-test/t/bench_count_distinct.test
--rw-r--r-- root       root            13784 ./usr/share/mysql-test/t/bigint.test
+-rw-r--r-- root       root            14055 ./usr/share/mysql-test/t/bigint.test
 -rw-r--r-- root       root             4554 ./usr/share/mysql-test/t/binary.test
 -rw-r--r-- root       root             2292 ./usr/share/mysql-test/t/binary_to_hex.test
 -rw-r--r-- root       root              941 ./usr/share/mysql-test/t/blackhole_plugin.test
@@ -7699,7 +7699,7 @@ drwxr-xr-x root       root            17120 ./usr/share/mysql-test/t
 -rw-r--r-- root       root              715 ./usr/share/mysql-test/t/mysql_protocols.test
 -rw-r--r-- root       root             1120 ./usr/share/mysql-test/t/mysqlshow.test
 -rw-r--r-- root       root             6258 ./usr/share/mysql-test/t/mysqlslap.test
--rw-r--r-- root       root            23904 ./usr/share/mysql-test/t/mysql.test
+-rw-r--r-- root       root            24611 ./usr/share/mysql-test/t/mysql.test
 -rw-r--r-- root       root              257 ./usr/share/mysql-test/t/mysqltest_256.test
 -rw-r--r-- root       root              375 ./usr/share/mysql-test/t/mysqltest_cont_on_error.test
 -rw-r--r-- root       root              790 ./usr/share/mysql-test/t/mysqltest_ps.test
@@ -7845,7 +7845,7 @@ drwxr-xr-x root       root            17120 ./usr/share/mysql-test/t
 -rw-r--r-- root       root            40956 ./usr/share/mysql-test/t/range_vs_index_merge.test
 -rw-r--r-- root       root              417 ./usr/share/mysql-test/t/read_many_rows_innodb.test
 -rw-r--r-- root       root             6088 ./usr/share/mysql-test/t/read_only_innodb.test
--rw-r--r-- root       root             7330 ./usr/share/mysql-test/t/read_only.test
+-rw-r--r-- root       root             7689 ./usr/share/mysql-test/t/read_only.test
 -rw-r--r-- root       root             1275 ./usr/share/mysql-test/t/renamedb.test
 -rw-r--r-- root       root             2312 ./usr/share/mysql-test/t/rename.test
 -rw-r--r-- root       root              825 ./usr/share/mysql-test/t/repair_symlink-5543.test
@@ -7855,7 +7855,7 @@ drwxr-xr-x root       root            17120 ./usr/share/mysql-test/t
 -rw-r--r-- root       root             4781 ./usr/share/mysql-test/t/round.test
 -rw-r--r-- root       root                6 ./usr/share/mysql-test/t/row-checksum-old-master.opt
 -rw-r--r-- root       root               71 ./usr/share/mysql-test/t/row-checksum-old.test
--rw-r--r-- root       root             1761 ./usr/share/mysql-test/t/row-checksum.test
+-rw-r--r-- root       root             2580 ./usr/share/mysql-test/t/row-checksum.test
 -rw-r--r-- root       root              382 ./usr/share/mysql-test/t/rowid_order_innodb.test
 -rw-r--r-- root       root             9223 ./usr/share/mysql-test/t/row.test
 -rw-r--r-- root       root             1349 ./usr/share/mysql-test/t/rpl_mysqldump_slave.test
@@ -7943,7 +7943,7 @@ drwxr-xr-x root       root            17120 ./usr/share/mysql-test/t
 -rw-r--r-- root       root              117 ./usr/share/mysql-test/t/strict_autoinc_3heap.test
 -rw-r--r-- root       root               32 ./usr/share/mysql-test/t/strict-master.opt
 -rw-r--r-- root       root            43799 ./usr/share/mysql-test/t/strict.test
--rw-r--r-- root       root            21515 ./usr/share/mysql-test/t/subselect2.test
+-rw-r--r-- root       root            22286 ./usr/share/mysql-test/t/subselect2.test
 -rw-r--r-- root       root              647 ./usr/share/mysql-test/t/subselect3_jcl6.test
 -rw-r--r-- root       root            39216 ./usr/share/mysql-test/t/subselect3.test
 -rw-r--r-- root       root            63961 ./usr/share/mysql-test/t/subselect4.test
@@ -8022,7 +8022,7 @@ drwxr-xr-x root       root            17120 ./usr/share/mysql-test/t
 -rw-r--r-- root       root             9826 ./usr/share/mysql-test/t/type_float.test
 -rw-r--r-- root       root              650 ./usr/share/mysql-test/t/type_nchar.test
 -rw-r--r-- root       root              977 ./usr/share/mysql-test/t/type_newdecimal-big.test
--rw-r--r-- root       root            41140 ./usr/share/mysql-test/t/type_newdecimal.test
+-rw-r--r-- root       root            43474 ./usr/share/mysql-test/t/type_newdecimal.test
 -rw-r--r-- root       root             9085 ./usr/share/mysql-test/t/type_ranges.test
 -rw-r--r-- root       root             3344 ./usr/share/mysql-test/t/type_set.test
 -rw-r--r-- root       root              512 ./usr/share/mysql-test/t/type_time_hires.test
