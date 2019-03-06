@@ -2,5 +2,5 @@ PE = 2
 PV = 1.0
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
-PACKAGES = breakpad-minidump-upload breakpad-sym-upload breakpad-dbg breakpad-staticdev breakpad-dev breakpad-doc breakpad-locale breakpad breakpad-src
+PACKAGES = breakpad-src breakpad-dbg breakpad-minidump-upload breakpad-sym-upload breakpad-staticdev breakpad-dev breakpad-doc breakpad-locale breakpad
 LAYER = openembedded-layer
