@@ -1,10 +1,10 @@
-PV = 5.5.62
+PV = 10.3.13
 PR = r0
-PKG = libmysqld18
-PKGR = r0.60
-RPROVIDES = libmysqld (=5.5.62)
-RDEPENDS = glibc (>= 2.29) libaio (>= 0.3.111) libstdc++ (>= 8.3.0) libxcrypt (>= 4.4.2)
+PKG = libmariadbd19
+PKGR = r0.0
+RPROVIDES = libmysqld (=10.3.13)
+RDEPENDS = glibc (>= 2.29) libaio (>= 0.3.111) libcrypto (>= 1.1.1a) libgcc (>= 8.3.0) libssl (>= 1.1.1a) libstdc++ (>= 8.3.0) libxcrypt (>= 4.4.2) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 12809776
-FILES = /usr/lib/libmysqld.so.*
-FILELIST = /usr/lib/libmysqld.so.18
+PKGSIZE = 18678968
+FILES = /usr/lib/libmysqld.so.* /usr/lib/libmariadbd.so.*
+FILELIST = /usr/lib/libmariadbd.so.19

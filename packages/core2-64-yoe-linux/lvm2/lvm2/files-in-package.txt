@@ -13,30 +13,31 @@ drwxr-xr-x root       root              200 ./etc/lvm/profile
 -r--r--r-- root       root              572 ./etc/lvm/profile/vdo-small.profile
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
-drwxr-xr-x root       root              120 ./lib/systemd/system
--r--r--r-- root       root              402 ./lib/systemd/system/blk-availability.service
+drwxr-xr-x root       root              140 ./lib/systemd/system
+-r--r--r-- root       root              381 ./lib/systemd/system/blk-availability.service
 -r--r--r-- root       root              345 ./lib/systemd/system/dm-event.service
 -r--r--r-- root       root              248 ./lib/systemd/system/dm-event.socket
 -r--r--r-- root       root              569 ./lib/systemd/system/lvm2-monitor.service
+-r--r--r-- root       root              343 ./lib/systemd/system/lvm2-pvscan@.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root              140 ./usr/lib/device-mapper
--r-xr-xr-x root       root           117648 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
--r-xr-xr-x root       root           117648 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
--r-xr-xr-x root       root           196112 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
--r-xr-xr-x root       root           196112 ./usr/lib/device-mapper/libdevmapper-event-lvm2thin.so
--r-xr-xr-x root       root           192016 ./usr/lib/device-mapper/libdevmapper-event-lvm2vdo.so
--r-xr-xr-x root       root           109504 ./usr/lib/libdevmapper-event-lvm2.so.2.03
+-r-xr-xr-x root       root            10344 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
+-r-xr-xr-x root       root            10344 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
+-r-xr-xr-x root       root            14440 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
+-r-xr-xr-x root       root            14440 ./usr/lib/device-mapper/libdevmapper-event-lvm2thin.so
+-r-xr-xr-x root       root            14440 ./usr/lib/device-mapper/libdevmapper-event-lvm2vdo.so
+-r-xr-xr-x root       root            10384 ./usr/lib/libdevmapper-event-lvm2.so.2.03
 -r-xr-xr-x root       root            26728 ./usr/lib/libdevmapper-event.so.1.02
--r-xr-xr-x root       root          2204560 ./usr/lib/liblvm2cmd.so.2.03
+-r-xr-xr-x root       root          2203680 ./usr/lib/liblvm2cmd.so.2.03
 drwxr-xr-x root       root              940 ./usr/sbin
--r-xr-xr-x root       root           142336 ./usr/sbin/dmeventd
+-r-xr-xr-x root       root            39152 ./usr/sbin/dmeventd
 lrwxrwxrwx root       root                3 ./usr/sbin/lvchange -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvconvert -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvcreate -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvdisplay -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvextend -> lvm
--r-xr-xr-x root       root          2257128 ./usr/sbin/lvm
+-r-xr-xr-x root       root          2256216 ./usr/sbin/lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmconfig -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmdiskscan -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmsadc -> lvm
