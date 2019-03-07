@@ -1,8 +1,8 @@
 PV = 5.7.1
 PR = r0
-PKGR = r0.69
+PKGR = r0.70
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.21+git2+6516282d2a) strongswan
+RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) strongswan
 RRECOMMENDS = 
 PKGSIZE = 9823
 FILES = /usr/lib/ipsec/plugins/libstrongswan-mgf1.so /etc/strongswan.d/charon/mgf1.conf

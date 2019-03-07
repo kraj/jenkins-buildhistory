@@ -1,8 +1,8 @@
 PV = 1.1.8
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.8) musl (>= 1.1.21+git2+6516282d2a) speexdsp (>= 1.2rc3)
+RDEPENDS = alsa-lib (>= 1.1.8) musl (>= 1.1.21+git3+43e7efb465) speexdsp (>= 1.2rc3)
 RRECOMMENDS = 
 PKGSIZE = 10277
 FILES = /usr/share/alsa/alsa.conf.d/10-speexrate.conf /etc/alsa/conf.d/10-speexrate.conf /usr/lib/alsa-lib/*rate_speexrate_*.so /usr/lib/alsa-lib/libasound_module_rate_speexrate.so

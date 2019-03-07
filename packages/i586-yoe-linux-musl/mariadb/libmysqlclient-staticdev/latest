@@ -1,9 +1,10 @@
-PV = 5.5.63
+PV = 10.3.13
 PR = r0
+PKG = libmariadb-staticdev
 PKGR = r0.0
-RPROVIDES = 
+RPROVIDES = libmysqlclient-staticdev (=10.3.13)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 88689280
+PKGSIZE = 203773059
 FILES = /usr/lib/*.a
-FILELIST = /usr/lib/libmysqlclient.a /usr/lib/libmysqld.a /usr/lib/libmysqlservices.a
+FILELIST = /usr/lib/libmariadbclient.a /usr/lib/libmariadbd.a /usr/lib/libmysqlclient.a /usr/lib/libmysqld.a /usr/lib/libmysqlservices.a

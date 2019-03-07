@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
 PKG = libblkid1
-PKGR = r0.85
+PKGR = r0.86
 RPROVIDES = util-linux-libblkid (=2.32.1)
-RDEPENDS = musl (>= 1.1.21+git2+6516282d2a) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 354349
 FILES = /lib/libblkid.so.1 /lib/libblkid.so.1.1.0

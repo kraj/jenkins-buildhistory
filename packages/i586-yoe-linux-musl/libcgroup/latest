@@ -1,5 +1,5 @@
 PV = 0.41
 PR = r0
 DEPENDS = autoconf-native automake-native bison-native flex-native fts gnu-config-native libpam libtool-cross libtool-native pkgconfig-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
-PACKAGES = cgroups-pam-plugin libcgroup-dbg libcgroup-staticdev libcgroup-dev libcgroup-doc libcgroup-locale libcgroup libcgroup-src
+PACKAGES = libcgroup-src libcgroup-dbg cgroups-pam-plugin libcgroup-staticdev libcgroup-dev libcgroup-doc libcgroup-locale libcgroup
 LAYER = core

@@ -1,5 +1,7 @@
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              100 ./usr/lib
--rw-r--r-- root       root          6924620 ./usr/lib/libmysqlclient.a
--rw-r--r-- root       root         81750804 ./usr/lib/libmysqld.a
--rw-r--r-- root       root            13856 ./usr/lib/libmysqlservices.a
+drwxr-xr-x root       root              140 ./usr/lib
+-rw-r--r-- root       root          1062316 ./usr/lib/libmariadbclient.a
+-rw-r--r-- root       root        202674426 ./usr/lib/libmariadbd.a
+lrwxrwxrwx root       root               18 ./usr/lib/libmysqlclient.a -> libmariadbclient.a
+lrwxrwxrwx root       root               13 ./usr/lib/libmysqld.a -> libmariadbd.a
+-rw-r--r-- root       root            36286 ./usr/lib/libmysqlservices.a

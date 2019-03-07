@@ -1,8 +1,8 @@
 PV = 0.7
 PR = r0
-PKGR = r0.92
+PKGR = r0.93
 RPROVIDES = 
-RDEPENDS = base-files base-passwd libdaemon (>= 0.14) musl (>= 1.1.21+git2+6516282d2a) shadow
+RDEPENDS = base-files base-passwd libdaemon (>= 0.14) musl (>= 1.1.21+git3+43e7efb465) shadow
 RRECOMMENDS = 
 PKGSIZE = 41183
 FILES = /usr/sbin/avahi-autoipd /etc/avahi/avahi-autoipd.action /etc/dhcp/*/avahi-autoipd /etc/udhcpc.d/00avahi-autoipd /etc/udhcpc.d/99avahi-autoipd

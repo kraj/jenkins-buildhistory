@@ -2,5 +2,5 @@ PE = 2
 PV = 0.0.6
 PR = r21.1
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native tslib util-macros virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc virtual/xserver xorgproto xorgproto
-PACKAGES = xf86-input-tslib-dbg xf86-input-tslib-staticdev xf86-input-tslib-dev xf86-input-tslib-doc xf86-input-tslib-locale xf86-input-tslib xf86-input-tslib-src
+PACKAGES = xf86-input-tslib-src xf86-input-tslib-dbg xf86-input-tslib-staticdev xf86-input-tslib-dev xf86-input-tslib-doc xf86-input-tslib-locale xf86-input-tslib
 LAYER = openembedded-layer

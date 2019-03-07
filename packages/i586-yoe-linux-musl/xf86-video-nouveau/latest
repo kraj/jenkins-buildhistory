@@ -2,5 +2,5 @@ PE = 2
 PV = 1.0.15
 PR = r0
 DEPENDS = autoconf-native automake-native drm gnu-config-native libpciaccess libtool-cross libtool-native libxvmc pkgconfig-native util-macros virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc virtual/libgl virtual/libx11 virtual/xserver xorgproto xorgproto xorgproto
-PACKAGES = xf86-video-nouveau-dbg xf86-video-nouveau-staticdev xf86-video-nouveau-dev xf86-video-nouveau-doc xf86-video-nouveau-locale xf86-video-nouveau xf86-video-nouveau-src
+PACKAGES = xf86-video-nouveau-src xf86-video-nouveau-dbg xf86-video-nouveau-staticdev xf86-video-nouveau-dev xf86-video-nouveau-doc xf86-video-nouveau-locale xf86-video-nouveau
 LAYER = openembedded-layer

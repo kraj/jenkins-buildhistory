@@ -1,10 +1,10 @@
-PV = 0.7.0
+PV = 0.9.0
 PR = r0
 PKG = librabbitmq-tools
-PKGR = r0.74
-RPROVIDES = rabbitmq-c-tools (=0.7.0)
-RDEPENDS = musl (>= 1.1.21+git2+6516282d2a) popt (>= 1.16) rabbitmq-c (>= 0.7.0)
+PKGR = r0.0
+RPROVIDES = rabbitmq-c-tools (=0.9.0)
+RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) popt (>= 1.16) rabbitmq-c (>= 0.9.0)
 RRECOMMENDS = 
-PKGSIZE = 91004
+PKGSIZE = 95100
 FILES = /usr/bin
 FILELIST = /usr/bin/amqp-consume /usr/bin/amqp-declare-queue /usr/bin/amqp-delete-queue /usr/bin/amqp-get /usr/bin/amqp-publish

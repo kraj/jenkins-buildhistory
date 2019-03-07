@@ -2,9 +2,9 @@ PE = 2
 PV = 9.0.0
 PR = 0
 PKG = libglu1
-PKGR = 0.89
+PKGR = 0.90
 RPROVIDES = libglu (=9.0.0)
-RDEPENDS = libgcc (>= 8.3.0) libgl-mesa (>= 18.3.4) libstdc++ (>= 8.3.0) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = libgcc (>= 8.3.0) libgl-mesa (>= 18.3.4) libstdc++ (>= 8.3.0) musl (>= 1.1.21+git3+43e7efb465)
 RRECOMMENDS = 
 PKGSIZE = 570987
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libglu /usr/lib/libglu/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

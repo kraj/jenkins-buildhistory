@@ -1,9 +1,9 @@
 PV = 26
 PR = r0
 PKG = libkmod2
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = libkmod (=26)
-RDEPENDS = musl (>= 1.1.21+git2+6516282d2a) zlib (>= 1.2.11)
+RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 95700
 FILES = /lib/libkmod*.so.* /usr/lib/libkmod*.so.*

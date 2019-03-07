@@ -1,9 +1,9 @@
 PV = 1.16.0
 PR = r0
 PKG = libcairo-perf-utils
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = cairo-perf-utils (=1.16.0)
-RDEPENDS = musl (>= 1.1.21+git2+6516282d2a) zlib (>= 1.2.11)
+RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 131227
 FILES = /usr/bin/cairo-trace* /usr/lib/cairo/*.la /usr/lib/cairo/libcairo-trace.so

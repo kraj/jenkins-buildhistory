@@ -1,9 +1,9 @@
 PV = 1.4
 PR = r0
 PKG = libftdi1-2
-PKGR = r0.80
+PKGR = r0.81
 RPROVIDES = libftdi (=1.4)
-RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.21+git2+6516282d2a)
+RDEPENDS = libusb1 (>= 1.0.22) musl (>= 1.1.21+git3+43e7efb465)
 RRECOMMENDS = 
 PKGSIZE = 58925
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libftdi /usr/lib/libftdi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
