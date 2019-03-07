@@ -1,5 +1,5 @@
 PV = git
 PR = r0
 DEPENDS = cargo-native libstd-rs virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc virtual/x86_64-yoe-linux-rust
-PACKAGES = rust-hello-world-dbg rust-hello-world-staticdev rust-hello-world-dev rust-hello-world-doc rust-hello-world-locale rust-hello-world rust-hello-world-src
+PACKAGES = rust-hello-world-src rust-hello-world-dbg rust-hello-world-staticdev rust-hello-world-dev rust-hello-world-doc rust-hello-world-locale rust-hello-world
 LAYER = rust-layer

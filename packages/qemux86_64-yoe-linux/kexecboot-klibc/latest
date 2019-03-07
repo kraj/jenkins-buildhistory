@@ -1,5 +1,5 @@
 PV = 0.6+gitAUTOINC+7409a1e0aa
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native klcc-cross libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
-PACKAGES = kexecboot-klibc-dbg kexecboot-klibc-staticdev kexecboot-klibc-dev kexecboot-klibc-doc kexecboot-klibc-locale kexecboot-klibc kexecboot-klibc-src
+PACKAGES = kexecboot-klibc-src kexecboot-klibc-dbg kexecboot-klibc-staticdev kexecboot-klibc-dev kexecboot-klibc-doc kexecboot-klibc-locale kexecboot-klibc
 LAYER = meta-initramfs

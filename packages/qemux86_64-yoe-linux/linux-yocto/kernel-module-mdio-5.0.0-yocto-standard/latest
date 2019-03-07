@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+be627e4e38_1a0da7e50b
+PR = r0
+PKGV = 5.0+git0+be627e4e38_1a0da7e50b
+PKGR = r0.1
+RPROVIDES = kernel-module-mdio
+RDEPENDS = kernel-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9176
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/drivers/net/mdio.ko /etc/modules-load.d/mdio.conf /etc/modprobe.d/mdio.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/drivers/net/mdio.ko

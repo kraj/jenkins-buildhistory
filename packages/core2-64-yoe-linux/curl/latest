@@ -1,5 +1,5 @@
 PV = 7.64.0
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native gnutls libidn2 libtool-cross libtool-native pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
-PACKAGES = libcurl curl-dbg curl-staticdev curl-dev curl-doc curl-locale curl curl-src
+PACKAGES = curl-src curl-dbg libcurl curl-staticdev curl-dev curl-doc curl-locale curl
 LAYER = core

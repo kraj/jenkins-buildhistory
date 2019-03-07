@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.54
+RPROVIDES = kernel-module-lttng-ring-buffer-metadata-client
+RDEPENDS = kernel-5.0.0-yocto-standard kernel-module-lttng-lib-ring-buffer-5.0.0-yocto-standard kernel-module-lttng-tracer-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16136
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-client.ko /etc/modules-load.d/lttng-ring-buffer-metadata-client.conf /etc/modprobe.d/lttng-ring-buffer-metadata-client.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-client.ko

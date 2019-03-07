@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+be627e4e38_1a0da7e50b
+PR = r0
+PKGV = 5.0+git0+be627e4e38_1a0da7e50b
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-mpu401-uart
+RDEPENDS = kernel-5.0.0-yocto-standard kernel-module-snd-5.0.0-yocto-standard kernel-module-snd-rawmidi-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 14360
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/sound/drivers/mpu401/snd-mpu401-uart.ko /etc/modules-load.d/snd-mpu401-uart.conf /etc/modprobe.d/snd-mpu401-uart.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/sound/drivers/mpu401/snd-mpu401-uart.ko

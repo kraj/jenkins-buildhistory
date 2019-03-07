@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.54
+RPROVIDES = kernel-module-lttng-probe-i2c
+RDEPENDS = kernel-5.0.0-yocto-standard kernel-module-lttng-lib-ring-buffer-5.0.0-yocto-standard kernel-module-lttng-tracer-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16624
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/lttng-modules/probes/lttng-probe-i2c.ko /etc/modules-load.d/lttng-probe-i2c.conf /etc/modprobe.d/lttng-probe-i2c.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/lttng-modules/probes/lttng-probe-i2c.ko

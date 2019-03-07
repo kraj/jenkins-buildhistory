@@ -1,9 +1,0 @@
-PV = 2.10.8
-PR = r0
-PKGR = r0.53
-RPROVIDES = kernel-module-lttng-probe-ext4
-RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-lttng-tracer-4.19.19-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 164352
-FILES = /lib/modules/4.19.19-yocto-standard/kernel/lttng-modules/probes/lttng-probe-ext4.ko /etc/modules-load.d/lttng-probe-ext4.conf /etc/modprobe.d/lttng-probe-ext4.conf
-FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/lttng-modules/probes/lttng-probe-ext4.ko

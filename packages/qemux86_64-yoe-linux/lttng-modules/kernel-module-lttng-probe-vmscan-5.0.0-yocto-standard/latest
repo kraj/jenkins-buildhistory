@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.54
+RPROVIDES = kernel-module-lttng-probe-vmscan
+RDEPENDS = kernel-5.0.0-yocto-standard kernel-module-lttng-tracer-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 30552
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/lttng-modules/probes/lttng-probe-vmscan.ko /etc/modules-load.d/lttng-probe-vmscan.conf /etc/modprobe.d/lttng-probe-vmscan.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/lttng-modules/probes/lttng-probe-vmscan.ko
