@@ -1,9 +1,9 @@
 PV = 6.6
 PR = r0
-PKGR = r0.39
+PKGR = r0.40
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1a) libcurl (>= 7.64.0) libgcrypt (>= 1.8.4) libjitterentropy (>= 2.1.2) libsysfs (>= 2.1.0) libxml2 (>= 2.9.8)
+RDEPENDS = glibc (>= 2.29) libgcrypt (>= 1.8.4) libjitterentropy (>= 2.1.2) libsysfs (>= 2.1.0)
 RRECOMMENDS = 
-PKGSIZE = 71067
+PKGSIZE = 62423
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rng-tools /usr/lib/rng-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/rngd.service
 FILELIST = /lib/systemd/system/rngd.service /usr/bin/rngtest /usr/sbin/rngd

@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+be627e4e38_1fbecad0e6
+PR = r0
+PKGV = 5.0+git0+be627e4e38_1fbecad0e6
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-ct
+RDEPENDS = kernel-5.0.0-yocto-standard kernel-module-nf-conntrack-5.0.0-yocto-standard kernel-module-x-tables-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7760
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/net/netfilter/xt_CT.ko /etc/modules-load.d/xt_CT.conf /etc/modprobe.d/xt_CT.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/net/netfilter/xt_CT.ko
