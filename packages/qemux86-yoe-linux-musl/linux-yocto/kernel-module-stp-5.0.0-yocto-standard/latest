@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+be627e4e38_1a0da7e50b
+PR = r0
+PKGV = 5.0+git0+be627e4e38_1a0da7e50b
+PKGR = r0.1
+RPROVIDES = kernel-module-stp
+RDEPENDS = kernel-5.0.0-yocto-standard kernel-module-llc-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4220
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/net/802/stp.ko /etc/modules-load.d/stp.conf /etc/modprobe.d/stp.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/net/802/stp.ko

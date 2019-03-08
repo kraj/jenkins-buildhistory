@@ -1,32 +1,36 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              240 ./usr/bin
--rwxr-xr-x root       root            42548 ./usr/bin/capinfos
+-rwxr-xr-x root       root            42552 ./usr/bin/capinfos
 -rwxr-xr-x root       root            17772 ./usr/bin/captype
--rwxr-xr-x root       root           116332 ./usr/bin/dumpcap
--rwxr-xr-x root       root            46564 ./usr/bin/editcap
+-rwxr-xr-x root       root           116428 ./usr/bin/dumpcap
+-rwxr-xr-x root       root            50672 ./usr/bin/editcap
 -rwxr-xr-x root       root            25968 ./usr/bin/mergecap
--rwxr-xr-x root       root            23868 ./usr/bin/randpkt
+-rwxr-xr-x root       root            27964 ./usr/bin/randpkt
 -rwxr-xr-x root       root            99748 ./usr/bin/rawshark
 -rwxr-xr-x root       root            21872 ./usr/bin/reordercap
--rwxr-xr-x root       root           144804 ./usr/bin/sharkd
+-rwxr-xr-x root       root           165348 ./usr/bin/sharkd
 -rwxr-xr-x root       root            46508 ./usr/bin/text2pcap
 drwxr-xr-x root       root              220 ./usr/lib
--rwxr-xr-x root       root         62945328 ./usr/lib/libwireshark.so.11.1.6
-lrwxrwxrwx root       root               22 ./usr/lib/libwireshark.so.11 -> libwireshark.so.11.1.6
--rwxr-xr-x root       root           484224 ./usr/lib/libwiretap.so.8.0.6
-lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.8 -> libwiretap.so.8.0.6
+-rwxr-xr-x root       root         68179568 ./usr/lib/libwireshark.so.12.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libwireshark.so.12 -> libwireshark.so.12.0.0
+-rwxr-xr-x root       root           491220 ./usr/lib/libwiretap.so.9.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.9 -> libwiretap.so.9.0.0
 -rwxr-xr-x root       root            27148 ./usr/lib/libwscodecs.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libwscodecs.so.2 -> libwscodecs.so.2.0.0
--rwxr-xr-x root       root           124696 ./usr/lib/libwsutil.so.9.0.0
-lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so.9 -> libwsutil.so.9.0.0
-drwxr-xr-x root       root              220 ./usr/lib/wireshark
-drwxr-xr-x root       root               60 ./usr/lib/wireshark/extcap
+-rwxr-xr-x root       root           112408 ./usr/lib/libwsutil.so.10.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libwsutil.so.10 -> libwsutil.so.10.0.0
+drwxr-xr-x root       root               80 ./usr/lib/wireshark
+drwxr-xr-x root       root              220 ./usr/lib/wireshark/cmake
+-rw-r--r-- root       root             3285 ./usr/lib/wireshark/cmake/FindGLIB2.cmake
+-rw-r--r-- root       root             2045 ./usr/lib/wireshark/cmake/FindWSWinLibs.cmake
+-rw-r--r-- root       root             2007 ./usr/lib/wireshark/cmake/LocatePythonModule.cmake
+-rw-r--r-- root       root             2821 ./usr/lib/wireshark/cmake/UseAsn2Wrs.cmake
+-rw-r--r-- root       root              452 ./usr/lib/wireshark/cmake/UseMakePluginReg.cmake
+-rw-r--r-- root       root             1892 ./usr/lib/wireshark/cmake/WiresharkConfig.cmake
+-rw-r--r-- root       root             1269 ./usr/lib/wireshark/cmake/WiresharkConfigVersion.cmake
+-rw-r--r-- root       root             6335 ./usr/lib/wireshark/cmake/WiresharkTargets.cmake
+-rw-r--r-- root       root             1742 ./usr/lib/wireshark/cmake/WiresharkTargets-relwithdebinfo.cmake
+drwxr-xr-x root       root              100 ./usr/lib/wireshark/extcap
+-rwxr-xr-x root       root            30460 ./usr/lib/wireshark/extcap/dpauxmon
+-rwxr-xr-x root       root            26268 ./usr/lib/wireshark/extcap/sdjournal
 -rwxr-xr-x root       root            26172 ./usr/lib/wireshark/extcap/udpdump
--rw-r--r-- root       root             2923 ./usr/lib/wireshark/FindGLIB2.cmake
--rw-r--r-- root       root              888 ./usr/lib/wireshark/FindWireshark.cmake
--rw-r--r-- root       root             1064 ./usr/lib/wireshark/FindWSWinLibs.cmake
--rw-r--r-- root       root             1970 ./usr/lib/wireshark/LocatePythonModule.cmake
--rw-r--r-- root       root             2788 ./usr/lib/wireshark/UseAsn2Wrs.cmake
--rw-r--r-- root       root              452 ./usr/lib/wireshark/UseMakePluginReg.cmake
--rw-r--r-- root       root              572 ./usr/lib/wireshark/WiresharkConfig.cmake
--rw-r--r-- root       root              300 ./usr/lib/wireshark/WiresharkConfigVersion.cmake

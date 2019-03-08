@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+be627e4e38_1a0da7e50b
+PR = r0
+PKGV = 5.0+git0+be627e4e38_1a0da7e50b
+PKGR = r0.1
+RPROVIDES = kernel-module-tunnel6
+RDEPENDS = kernel-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5580
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/net/ipv6/tunnel6.ko /etc/modules-load.d/tunnel6.conf /etc/modprobe.d/tunnel6.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/net/ipv6/tunnel6.ko
