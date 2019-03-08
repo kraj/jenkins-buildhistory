@@ -1,9 +1,9 @@
 PV = 4.0
 PR = r0
-PKGR = r0.65
+PKGR = r0.66
 RPROVIDES = 
 RDEPENDS = python3-core python3-netclient systemtap
 RRECOMMENDS = 
-PKGSIZE = 7921
+PKGSIZE = 7365
 FILES = /etc/stap-exporter/* /etc/sysconfig/stap-exporter /lib/systemd/system/stap-exporter.service /usr/sbin/stap-exporter
 FILELIST = /etc/stap-exporter/EXAMPLE /etc/stap-exporter/EXAMPLE_NOERROR /etc/stap-exporter/autostart-also_ran.stp /etc/stap-exporter/errno.stp /etc/stap-exporter/syscallerrorsbypid.stp /etc/stap-exporter/syscalllatency.stp /etc/stap-exporter/syscallsbypid.stp /etc/stap-exporter/timeout.stp /etc/stap-exporter/topsys.stp /etc/sysconfig/stap-exporter /lib/systemd/system/stap-exporter.service /usr/sbin/stap-exporter

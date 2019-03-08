@@ -1,10 +1,10 @@
 PV = 1.0+gitAUTOINC+6003f99975
 PR = r0
 PKGV = 1.0+git0+6003f99975
-PKGR = r0.67
+PKGR = r0.68
 RPROVIDES = 
-RDEPENDS = can-isotp (= 1.0+git0+6003f99975-r0.67)
-RRECOMMENDS = kernel-4.19.19-yocto-standard-dev kernel-module-can-isotp-4.19.19-yocto-standard-dev
+RDEPENDS = can-isotp (= 1.0+git0+6003f99975-r0.68)
+RRECOMMENDS = kernel-5.0.0-yocto-standard-dev kernel-module-can-isotp-5.0.0-yocto-standard-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/can-isotp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/can-isotp/Module.symvers
