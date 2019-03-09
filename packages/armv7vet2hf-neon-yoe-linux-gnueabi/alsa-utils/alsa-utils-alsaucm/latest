@@ -1,9 +1,9 @@
-PV = 1.1.6
+PV = 1.1.8
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.28.9000)
+RDEPENDS = alsa-lib (>= 1.1.8) glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 10156
-FILES = /usr/bin/alsaucm
-FILELIST = /usr/bin/alsaucm
+PKGSIZE = 10412
+FILES = /usr/bin/alsaucm */udev/rules.d/89-alsa-ucm.rules */*/udev/rules.d/89-alsa-ucm.rules
+FILELIST = /lib/udev/rules.d/89-alsa-ucm.rules /usr/bin/alsaucm

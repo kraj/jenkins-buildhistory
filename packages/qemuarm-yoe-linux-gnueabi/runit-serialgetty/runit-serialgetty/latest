@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 298
+PKGSIZE = 283
 FILES = /etc
-FILELIST = /etc/runit/runsvdir/default/getty-ttyAMA0 /etc/runit/runsvdir/default/getty-ttyAMA1 /etc/service/getty-ttyAMA0 /etc/service/getty-ttyAMA1 /etc/sv/getty-ttyAMA0/finish /etc/sv/getty-ttyAMA0/run /etc/sv/getty-ttyAMA0/supervise /etc/sv/getty-ttyAMA1/finish /etc/sv/getty-ttyAMA1/run /etc/sv/getty-ttyAMA1/supervise
+FILELIST = /etc/runit/runsvdir/default/getty-hvc0 /etc/runit/runsvdir/default/getty-ttyAMA0 /etc/service/getty-hvc0 /etc/service/getty-ttyAMA0 /etc/sv/getty-hvc0/finish /etc/sv/getty-hvc0/run /etc/sv/getty-hvc0/supervise /etc/sv/getty-ttyAMA0/finish /etc/sv/getty-ttyAMA0/run /etc/sv/getty-ttyAMA0/supervise

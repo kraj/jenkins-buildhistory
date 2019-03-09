@@ -8,8 +8,8 @@ fi
 
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
+		systemctl stop lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service
 	fi
 
-	systemctl $OPTS disable lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service
+	systemctl $OPTS disable lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service
 fi

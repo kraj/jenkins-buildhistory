@@ -1,9 +1,9 @@
-PV = 0.31.0
+PV = 1.33.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28.9000) libcrypto (>= 1.1.1a) libcurl (>= 7.63.0) libgcc (>= 8.2.0) libgit2 (>= 0.27.4) libssh2 (>= 1.8.0) libssl (>= 1.1.1a)
+RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1a) libcurl (>= 7.64.0) libgcc (>= 8.3.0) libgit2 (>= 0.27.8) libssh2 (>= 1.8.0) libssl (>= 1.1.1a) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 5248960
+PKGSIZE = 5060520
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cargo /usr/lib/cargo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/rust/*.so
 FILELIST = /usr/bin/cargo

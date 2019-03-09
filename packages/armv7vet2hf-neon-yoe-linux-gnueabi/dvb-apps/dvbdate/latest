@@ -1,9 +1,9 @@
 PV = 1.1.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = libdvbapi libucsi
+RDEPENDS = glibc (>= 2.29) libdvbapi libucsi
 RRECOMMENDS = 
-PKGSIZE = 391884
+PKGSIZE = 9988
 FILES = /usr/bin/dvbdate
 FILELIST = /usr/bin/dvbdate

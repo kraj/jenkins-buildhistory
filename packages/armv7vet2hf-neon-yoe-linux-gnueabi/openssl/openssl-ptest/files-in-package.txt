@@ -33,7 +33,7 @@ lrwxrwxrwx root       root               16 ./usr/lib/openssl/ptest/apps/openssl
 -rw-r--r-- root       root             3285 ./usr/lib/openssl/ptest/apps/server.pem
 -rw-r--r-- root       root                3 ./usr/lib/openssl/ptest/apps/server.srl
 -rw-r--r-- root       root              432 ./usr/lib/openssl/ptest/apps/testCA.pem
--rwxr-xr-x root       root           647200 ./usr/lib/openssl/ptest/configdata.pm
+-rwxr-xr-x root       root           648091 ./usr/lib/openssl/ptest/configdata.pm
 -rwxr-xr-x root       root           118988 ./usr/lib/openssl/ptest/Configure
 drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/engines
 -rwxr-xr-x root       root            13880 ./usr/lib/openssl/ptest/engines/ossltest.so
@@ -87,7 +87,7 @@ drwxr-xr-x root       root              260 ./usr/lib/openssl/ptest/fuzz
 -rwxr-xr-x root       root             9884 ./usr/lib/openssl/ptest/fuzz/x509-test
 lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/libcrypto.so -> /usr/lib/libcrypto.so.1.1
 lrwxrwxrwx root       root               22 ./usr/lib/openssl/ptest/libssl.so -> /usr/lib/libssl.so.1.1
--rwxr-xr-x root       root              264 ./usr/lib/openssl/ptest/run-ptest
+-rwxr-xr-x root       root              378 ./usr/lib/openssl/ptest/run-ptest
 drwxr-xr-x root       root             7120 ./usr/lib/openssl/ptest/test
 -rwxr-xr-x root       root             5764 ./usr/lib/openssl/ptest/test/aborttest
 -rw-r--r-- root       root              464 ./usr/lib/openssl/ptest/test/aborttest.c
@@ -630,7 +630,7 @@ drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/test/ossl_sh
 -rw-r--r-- root       root             4044 ./usr/lib/openssl/ptest/test/rc4test.c
 -rwxr-xr-x root       root            26240 ./usr/lib/openssl/ptest/test/rc5test
 -rw-r--r-- root       root             9044 ./usr/lib/openssl/ptest/test/rc5test.c
--rwxr-xr-x root       root          1376812 ./usr/lib/openssl/ptest/test/rdrand_sanitytest
+-rwxr-xr-x root       root          1380908 ./usr/lib/openssl/ptest/test/rdrand_sanitytest
 -rw-r--r-- root       root             3457 ./usr/lib/openssl/ptest/test/rdrand_sanitytest.c
 -rw-r--r-- root       root             4511 ./usr/lib/openssl/ptest/test/README
 -rw-r--r-- root       root             4731 ./usr/lib/openssl/ptest/test/README.external
@@ -1183,7 +1183,7 @@ drwxr-xr-x root       root              740 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root            19168 ./usr/lib/openssl/ptest/test/testutil/driver.o
 -rw-r--r-- root       root            17098 ./usr/lib/openssl/ptest/test/testutil/format_output.c
 -rw-r--r-- root       root              939 ./usr/lib/openssl/ptest/test/testutil/format_output.d
--rw-r--r-- root       root            44316 ./usr/lib/openssl/ptest/test/testutil/format_output.o
+-rw-r--r-- root       root            44428 ./usr/lib/openssl/ptest/test/testutil/format_output.o
 -rw-r--r-- root       root            19509 ./usr/lib/openssl/ptest/test/testutil.h
 -rw-r--r-- root       root              395 ./usr/lib/openssl/ptest/test/testutil/init.c
 -rw-r--r-- root       root              782 ./usr/lib/openssl/ptest/test/testutil/init.d
@@ -1197,10 +1197,10 @@ drwxr-xr-x root       root              740 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root             3776 ./usr/lib/openssl/ptest/test/testutil/output_helpers.o
 -rw-r--r-- root       root             3944 ./usr/lib/openssl/ptest/test/testutil/stanza.c
 -rw-r--r-- root       root              878 ./usr/lib/openssl/ptest/test/testutil/stanza.d
--rw-r--r-- root       root            15660 ./usr/lib/openssl/ptest/test/testutil/stanza.o
+-rw-r--r-- root       root            15668 ./usr/lib/openssl/ptest/test/testutil/stanza.o
 -rw-r--r-- root       root             4116 ./usr/lib/openssl/ptest/test/testutil/tap_bio.c
 -rw-r--r-- root       root              834 ./usr/lib/openssl/ptest/test/testutil/tap_bio.d
--rw-r--r-- root       root            14972 ./usr/lib/openssl/ptest/test/testutil/tap_bio.o
+-rw-r--r-- root       root            15004 ./usr/lib/openssl/ptest/test/testutil/tap_bio.o
 -rw-r--r-- root       root              384 ./usr/lib/openssl/ptest/test/testutil/test_cleanup.c
 -rw-r--r-- root       root              801 ./usr/lib/openssl/ptest/test/testutil/test_cleanup.d
 -rw-r--r-- root       root             4568 ./usr/lib/openssl/ptest/test/testutil/test_cleanup.o

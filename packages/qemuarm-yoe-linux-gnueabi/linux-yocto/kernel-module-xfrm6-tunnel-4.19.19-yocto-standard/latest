@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+41fe45f7c5_0d83500d73
+PR = r0
+PKGV = 4.19.19+git0+41fe45f7c5_0d83500d73
+PKGR = r0.1
+RPROVIDES = kernel-module-xfrm6-tunnel
+RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-tunnel6-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9800
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/net/ipv6/xfrm6_tunnel.ko /etc/modules-load.d/xfrm6_tunnel.conf /etc/modprobe.d/xfrm6_tunnel.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/net/ipv6/xfrm6_tunnel.ko

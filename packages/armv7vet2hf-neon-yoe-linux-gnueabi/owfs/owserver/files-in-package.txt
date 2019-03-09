@@ -1,6 +1,8 @@
-drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root              823 ./etc/init.d/owserver
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              253 ./lib/systemd/system/owserver.service
+-rw-r--r-- root       root              142 ./lib/systemd/system/owserver.socket
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            22188 ./usr/bin/owserver

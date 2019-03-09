@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+41fe45f7c5_0d83500d73
+PR = r0
+PKGV = 4.19.19+git0+41fe45f7c5_0d83500d73
+PKGR = r0.1
+RPROVIDES = kernel-module-nls-cp874
+RDEPENDS = kernel-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7676
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/fs/nls/nls_cp874.ko /etc/modules-load.d/nls_cp874.conf /etc/modprobe.d/nls_cp874.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/fs/nls/nls_cp874.ko

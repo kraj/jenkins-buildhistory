@@ -1,9 +1,9 @@
 PV = 7.9p1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.28.9000) libcrypto (>= 1.1.1a) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1a) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1334950
+PKGSIZE = 1314470
 FILES = /usr/bin/ssh* /usr/libexec/ssh*
 FILELIST = /usr/bin/ssh-add /usr/bin/ssh-agent /usr/bin/ssh-copy-id /usr/bin/ssh-keyscan /usr/libexec/ssh-keysign /usr/libexec/ssh-pkcs11-helper

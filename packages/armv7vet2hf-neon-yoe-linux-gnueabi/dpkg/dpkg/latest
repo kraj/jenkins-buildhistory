@@ -1,9 +1,9 @@
-PV = 1.18.25
+PV = 1.19.4
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = dpkg-start-stop glibc (>= 2.28.9000) libbz2 (>= 1.0.6) liblzma (>= 5.2.4) perl update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = dpkg-start-stop glibc (>= 2.29) libbz2 (>= 1.0.6) liblzma (>= 5.2.4) perl update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 855758
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dpkg /usr/lib/dpkg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/dpkg-configure.service
-FILELIST = /lib/systemd/system/dpkg-configure.service /usr/bin/dpkg /usr/bin/dpkg-architecture /usr/bin/dpkg-buildflags /usr/bin/dpkg-buildpackage /usr/bin/dpkg-checkbuilddeps /usr/bin/dpkg-deb /usr/bin/dpkg-distaddfile /usr/bin/dpkg-divert /usr/bin/dpkg-genbuildinfo /usr/bin/dpkg-genchanges /usr/bin/dpkg-gencontrol /usr/bin/dpkg-gensymbols /usr/bin/dpkg-maintscript-helper /usr/bin/dpkg-mergechangelogs /usr/bin/dpkg-name /usr/bin/dpkg-parsechangelog /usr/bin/dpkg-query /usr/bin/dpkg-scanpackages /usr/bin/dpkg-scansources /usr/bin/dpkg-shlibdeps /usr/bin/dpkg-source /usr/bin/dpkg-split /usr/bin/dpkg-statoverride /usr/bin/dpkg-trigger /usr/bin/dpkg-vendor /usr/share/dpkg/abitable /usr/share/dpkg/architecture.mk /usr/share/dpkg/buildflags.mk /usr/share/dpkg/cputable /usr/share/dpkg/default.mk /usr/share/dpkg/no-pie-compile.specs /usr/share/dpkg/no-pie-link.specs /usr/share/dpkg/ostable /usr/share/dpkg/pie-compile.specs /usr/share/dpkg/pie-link.specs /usr/share/dpkg/pkg-info.mk /usr/share/dpkg/tupletable /usr/share/dpkg/vendor.mk
+PKGSIZE = 879550
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dpkg /usr/lib/dpkg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/dpkg /usr/bin/dpkg-architecture /usr/bin/dpkg-buildflags /usr/bin/dpkg-buildpackage /usr/bin/dpkg-checkbuilddeps /usr/bin/dpkg-deb /usr/bin/dpkg-distaddfile /usr/bin/dpkg-divert /usr/bin/dpkg-genbuildinfo /usr/bin/dpkg-genchanges /usr/bin/dpkg-gencontrol /usr/bin/dpkg-gensymbols /usr/bin/dpkg-maintscript-helper /usr/bin/dpkg-mergechangelogs /usr/bin/dpkg-name /usr/bin/dpkg-parsechangelog /usr/bin/dpkg-query /usr/bin/dpkg-scanpackages /usr/bin/dpkg-scansources /usr/bin/dpkg-shlibdeps /usr/bin/dpkg-source /usr/bin/dpkg-split /usr/bin/dpkg-statoverride /usr/bin/dpkg-trigger /usr/bin/dpkg-vendor /usr/share/dpkg/abitable /usr/share/dpkg/architecture.mk /usr/share/dpkg/buildflags.mk /usr/share/dpkg/buildtools.mk /usr/share/dpkg/cputable /usr/share/dpkg/default.mk /usr/share/dpkg/no-pie-compile.specs /usr/share/dpkg/no-pie-link.specs /usr/share/dpkg/ostable /usr/share/dpkg/pie-compile.specs /usr/share/dpkg/pie-link.specs /usr/share/dpkg/pkg-info.mk /usr/share/dpkg/tupletable /usr/share/dpkg/vendor.mk

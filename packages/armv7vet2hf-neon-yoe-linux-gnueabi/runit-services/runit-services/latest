@@ -1,9 +1,9 @@
 PV = 20180623+gitAUTOINC+8d5db5c266
 PR = r0
 PKGV = 20180623+git0+8d5db5c266
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = coreutils findutils glibc (>= 2.28.9000) runit util-linux-fsck
+RDEPENDS = coreutils findutils glibc (>= 2.29) runit util-linux-fsck
 RRECOMMENDS = 
 PKGSIZE = 43404
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/runit-services /usr/lib/runit-services/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,0 +1,10 @@
+PV = 4.19.19+gitAUTOINC+41fe45f7c5_0d83500d73
+PR = r0
+PKGV = 4.19.19+git0+41fe45f7c5_0d83500d73
+PKGR = r0.1
+RPROVIDES = kernel-module-bsd-comp
+RDEPENDS = kernel-4.19.19-yocto-standard kernel-module-ppp-generic-4.19.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9520
+FILES = /lib/modules/4.19.19-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko /etc/modules-load.d/bsd_comp.conf /etc/modprobe.d/bsd_comp.conf
+FILELIST = /lib/modules/4.19.19-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko

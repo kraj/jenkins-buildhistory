@@ -12,7 +12,7 @@ drwxr-xr-x root       root              240 ./usr/libexec/libinput
 -rwxr-xr-x root       root            51456 ./usr/libexec/libinput/libinput-debug-events
 -rwxr-xr-x root       root            38704 ./usr/libexec/libinput/libinput-list-devices
 -rwxr-xr-x root       root            34636 ./usr/libexec/libinput/libinput-measure
--rwxr-xr-x root       root            15881 ./usr/libexec/libinput/libinput-measure-fuzz
+-rwxr-xr-x root       root            15873 ./usr/libexec/libinput/libinput-measure-fuzz
 -rwxr-xr-x root       root            10688 ./usr/libexec/libinput/libinput-measure-touchpad-pressure
 -rwxr-xr-x root       root             8661 ./usr/libexec/libinput/libinput-measure-touchpad-tap
 -rwxr-xr-x root       root            12010 ./usr/libexec/libinput/libinput-measure-touch-size
@@ -22,12 +22,13 @@ drwxr-xr-x root       root              240 ./usr/libexec/libinput
 -rwxr-xr-x root       root           170064 ./usr/lib/libinput.so.10.13.0
 lrwxrwxrwx root       root               19 ./usr/lib/libinput.so.10 -> libinput.so.10.13.0
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root              560 ./usr/share/libinput
+drwxr-xr-x root       root              580 ./usr/share/libinput
 -rw-r--r-- root       root              245 ./usr/share/libinput/10-generic-keyboard.quirks
 -rw-r--r-- root       root              268 ./usr/share/libinput/10-generic-lid.quirks
 -rw-r--r-- root       root              110 ./usr/share/libinput/10-generic-trackball.quirks
 -rw-r--r-- root       root              180 ./usr/share/libinput/30-vendor-aiptek.quirks
 -rw-r--r-- root       root              781 ./usr/share/libinput/30-vendor-alps.quirks
+-rw-r--r-- root       root              229 ./usr/share/libinput/30-vendor-contour.quirks
 -rw-r--r-- root       root              140 ./usr/share/libinput/30-vendor-cyapa.quirks
 -rw-r--r-- root       root              250 ./usr/share/libinput/30-vendor-elantech.quirks
 -rw-r--r-- root       root              540 ./usr/share/libinput/30-vendor-huion.quirks
@@ -39,13 +40,13 @@ drwxr-xr-x root       root              560 ./usr/share/libinput
 -rw-r--r-- root       root              194 ./usr/share/libinput/30-vendor-synaptics.quirks
 -rw-r--r-- root       root              246 ./usr/share/libinput/30-vendor-vmware.quirks
 -rw-r--r-- root       root              279 ./usr/share/libinput/30-vendor-wacom.quirks
--rw-r--r-- root       root              138 ./usr/share/libinput/50-system-acer.quirks
--rw-r--r-- root       root             1215 ./usr/share/libinput/50-system-apple.quirks
--rw-r--r-- root       root              693 ./usr/share/libinput/50-system-asus.quirks
+-rw-r--r-- root       root              265 ./usr/share/libinput/50-system-acer.quirks
+-rw-r--r-- root       root             1371 ./usr/share/libinput/50-system-apple.quirks
+-rw-r--r-- root       root             1123 ./usr/share/libinput/50-system-asus.quirks
 -rw-r--r-- root       root              424 ./usr/share/libinput/50-system-chicony.quirks
 -rw-r--r-- root       root             1526 ./usr/share/libinput/50-system-cyborg.quirks
 -rw-r--r-- root       root             1425 ./usr/share/libinput/50-system-dell.quirks
 -rw-r--r-- root       root             2102 ./usr/share/libinput/50-system-google.quirks
--rw-r--r-- root       root             1205 ./usr/share/libinput/50-system-hp.quirks
--rw-r--r-- root       root             3623 ./usr/share/libinput/50-system-lenovo.quirks
+-rw-r--r-- root       root             1455 ./usr/share/libinput/50-system-hp.quirks
+-rw-r--r-- root       root             3751 ./usr/share/libinput/50-system-lenovo.quirks
 -rw-r--r-- root       root              575 ./usr/share/libinput/50-system-system76.quirks

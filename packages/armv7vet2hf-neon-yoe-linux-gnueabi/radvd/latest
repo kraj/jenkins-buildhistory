@@ -1,5 +1,5 @@
-PV = 2.17
+PV = 2.18
 PR = r0
 DEPENDS = autoconf-native automake-native base-files base-passwd bison-native flex-native gnu-config-native libdaemon libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
-PACKAGES = radvd-dbg radvd-staticdev radvd-dev radvd-doc radvd-locale radvd
+PACKAGES = radvd-src radvd-dbg radvd-staticdev radvd-dev radvd-doc radvd-locale radvd
 LAYER = networking-layer

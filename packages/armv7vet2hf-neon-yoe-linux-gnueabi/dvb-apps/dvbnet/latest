@@ -1,9 +1,9 @@
 PV = 1.1.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = libdvbapi
+RDEPENDS = glibc (>= 2.29) libdvbapi
 RRECOMMENDS = 
-PKGSIZE = 329764
+PKGSIZE = 9856
 FILES = /usr/bin/dvbnet
 FILELIST = /usr/bin/dvbnet

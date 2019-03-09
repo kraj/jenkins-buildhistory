@@ -1,9 +1,9 @@
 PV = 4.0.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 28086
+RRECOMMENDS = glibc-dbg libpython3-dbg
+PKGSIZE = 27084
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/websockets/.debug/speedups.cpython-35m-arm-linux-gnueabihf.so /usr/src/debug/python3-websockets/4.0.1-r0/websockets-4.0.1/websockets/speedups.c
+FILELIST = /usr/lib/python3.7/site-packages/websockets/.debug/speedups.cpython-37m-arm-linux-gnueabihf.so

@@ -1,5 +1,5 @@
 PV = 2.4
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl10 virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc zlib
-PACKAGES = rtmpdump-dbg rtmpdump-staticdev rtmpdump-dev rtmpdump-doc rtmpdump-locale rtmpdump
+DEPENDS = autoconf-native automake-native gnu-config-native gnutls libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = rtmpdump-src rtmpdump-dbg rtmpdump-staticdev rtmpdump-dev rtmpdump-doc rtmpdump-locale rtmpdump
 LAYER = multimedia-layer

@@ -1,9 +1,9 @@
 PV = 1.1.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = libdvbapi libdvbcfg libdvbsec
+RDEPENDS = glibc (>= 2.29) libdvbapi libdvbcfg libdvbsec
 RRECOMMENDS = 
-PKGSIZE = 828988
+PKGSIZE = 51516
 FILES = /usr/bin/*scan
 FILELIST = /usr/bin/dvbscan /usr/bin/scan

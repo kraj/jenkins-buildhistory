@@ -1,5 +1,5 @@
-PV = 8.14.0
+PV = 10.15.1
 PR = r0
-DEPENDS = icu openssl pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc zlib
-PACKAGES = nodejs-systemtap nodejs-npm nodejs-dbg nodejs-staticdev nodejs-dev nodejs-doc nodejs-locale nodejs
+DEPENDS = icu nodejs-native openssl pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = nodejs-src nodejs-dbg nodejs-systemtap nodejs-npm nodejs-staticdev nodejs-dev nodejs-doc nodejs-locale nodejs
 LAYER = openembedded-layer

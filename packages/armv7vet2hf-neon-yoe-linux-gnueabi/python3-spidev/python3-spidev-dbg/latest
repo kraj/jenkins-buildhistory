@@ -1,9 +1,9 @@
 PV = 3.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 72279
+RRECOMMENDS = glibc-dbg libpython3-dbg
+PKGSIZE = 51188
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/.debug/spidev.cpython-35m-arm-linux-gnueabihf.so /usr/src/debug/python3-spidev/3.2-r0/spidev-3.2/spidev_module.c
+FILELIST = /usr/lib/python3.7/site-packages/.debug/spidev.cpython-37m-arm-linux-gnueabihf.so

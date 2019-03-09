@@ -1,10 +1,10 @@
 PV = 0.3
 PR = r0
 PKG = libwebrtc-audio-processing-dev
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = webrtc-audio-processing-dev (=0.3)
-RDEPENDS = webrtc-audio-processing (= 0.3-r0.1)
+RDEPENDS = webrtc-audio-processing (= 0.3-r0.2)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev
-PKGSIZE = 128459
+PKGSIZE = 128680
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/webrtc-audio-processing/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/webrtc_audio_processing/webrtc/base/arraysize.h /usr/include/webrtc_audio_processing/webrtc/base/basictypes.h /usr/include/webrtc_audio_processing/webrtc/base/checks.h /usr/include/webrtc_audio_processing/webrtc/base/constructormagic.h /usr/include/webrtc_audio_processing/webrtc/base/maybe.h /usr/include/webrtc_audio_processing/webrtc/base/platform_file.h /usr/include/webrtc_audio_processing/webrtc/common.h /usr/include/webrtc_audio_processing/webrtc/common_types.h /usr/include/webrtc_audio_processing/webrtc/modules/audio_processing/beamformer/array_util.h /usr/include/webrtc_audio_processing/webrtc/modules/audio_processing/include/audio_processing.h /usr/include/webrtc_audio_processing/webrtc/modules/interface/module_common_types.h /usr/include/webrtc_audio_processing/webrtc/system_wrappers/include/trace.h /usr/include/webrtc_audio_processing/webrtc/typedefs.h /usr/lib/libwebrtc_audio_processing.so /usr/lib/pkgconfig/webrtc-audio-processing.pc

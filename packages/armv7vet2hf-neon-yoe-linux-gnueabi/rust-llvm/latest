@@ -1,5 +1,5 @@
-PV = 1.31.1
+PV = 1.33.0
 PR = r0
 DEPENDS = cmake-native ninja-native ninja-native python-native rust-llvm-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
-PACKAGES = rust-llvm-bugpointpasses rust-llvm-llvmhello rust-llvm-liblto rust-llvm-dbg rust-llvm-staticdev rust-llvm-dev rust-llvm-doc rust-llvm-locale rust-llvm
+PACKAGES = rust-llvm-src rust-llvm-dbg rust-llvm-bugpointpasses rust-llvm-llvmhello rust-llvm-liblto rust-llvm-staticdev rust-llvm-dev rust-llvm-doc rust-llvm-locale rust-llvm
 LAYER = rust-layer

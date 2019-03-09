@@ -1,9 +1,9 @@
 PV = 2.2.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 75155
+RRECOMMENDS = glibc-dbg libpython3-dbg
+PKGSIZE = 57672
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python3.5/site-packages/.debug/pytun.cpython-35m-arm-linux-gnueabihf.so /usr/src/debug/python3-pytun/2.2.1-r0/python-pytun-2.2.1/pytun.c
+FILELIST = /usr/lib/python3.7/site-packages/.debug/pytun.cpython-37m-arm-linux-gnueabihf.so

@@ -1,5 +1,5 @@
-PV = 2.28.9000
+PV = 2.29
 PR = r0
 DEPENDS = autoconf-native automake-native bison-native gnu-config-native gperf-native libgcc-initial libtool-native linux-libc-headers make-native systemd-systemctl-native texinfo-native virtual/arm-yoe-linux-gnueabi-gcc
-PACKAGES = glibc-dbg catchsegv sln nscd ldd tzcode glibc-thread-db glibc-pic libcidn libmemusage libnss-db libsegfault glibc-pcprofile libsotruss glibc glibc-utils glibc-extra-nss glibc-dev glibc-staticdev glibc-doc
+PACKAGES = glibc-src glibc-dbg catchsegv sln nscd ldd tzcode glibc-thread-db glibc-pic libcidn libmemusage libnss-db libsegfault glibc-pcprofile libsotruss glibc glibc-utils glibc-extra-nss glibc-dev glibc-staticdev glibc-doc
 LAYER = core
