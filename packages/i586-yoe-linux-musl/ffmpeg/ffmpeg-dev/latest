@@ -1,8 +1,8 @@
 PV = 4.1.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = ffmpeg (= 4.1.1-r0.9) libavcodec libavdevice libavfilter libavformat libavresample libavutil libpostproc libswresample libswscale
+RDEPENDS = ffmpeg (= 4.1.1-r0.10) libavcodec libavdevice libavfilter libavformat libavresample libavutil libpostproc libswresample libswscale
 RRECOMMENDS = alsa-lib-dev bzip2-dev libavcodec-dev libavdevice-dev libavfilter-dev libavformat-dev libavresample-dev libavutil-dev libbz2-dev liblzma-dev libogg-dev libpostproc-dev libswresample-dev libswscale-dev libtheora-dev libx11-dev libxext-dev libxv-dev musl-dev x264-dev xz-dev zlib-dev
 PKGSIZE = 1067418
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ffmpeg/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
