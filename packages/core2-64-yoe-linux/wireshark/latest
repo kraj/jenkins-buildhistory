@@ -1,6 +1,6 @@
 PE = 1
-PV = 2.6.6
+PV = 3.0.0
 PR = r0
-DEPENDS = bison-native chrpath-replacement-native cmake-native expat glib-2.0 glib-2.0-native gnutls gtk+3 libcap libgcrypt libgpg-error libnl libpcap libxml2 ninja-native pcre perl-native pkgconfig-native python-native sbc virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wireshark-native
+DEPENDS = bison-native chrpath-replacement-native cmake-native expat git glib-2.0 glib-2.0-native gnutls gtk+3 libcap libgcrypt libgpg-error libnl libpcap libxml2 ninja-native pcre perl-native pkgconfig-native python3-native sbc virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wireshark-native
 PACKAGES = wireshark-src wireshark-dbg wireshark-staticdev wireshark-dev wireshark-doc wireshark-locale tshark wireshark-gtk wireshark
 LAYER = networking-layer

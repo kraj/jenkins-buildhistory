@@ -51,7 +51,7 @@ drwxr-x--- root       logcheck         2540 ./etc/logcheck/ignore.d.server
 -rw-r--r-- root       logcheck          615 ./etc/logcheck/ignore.d.server/cyrus
 -rw-r--r-- root       logcheck          539 ./etc/logcheck/ignore.d.server/dcc
 -rw-r--r-- root       logcheck          350 ./etc/logcheck/ignore.d.server/ddclient
--rw-r--r-- root       logcheck         1896 ./etc/logcheck/ignore.d.server/dhclient
+-rw-r--r-- root       logcheck         1902 ./etc/logcheck/ignore.d.server/dhclient
 -rw-r--r-- root       logcheck         6978 ./etc/logcheck/ignore.d.server/dhcp
 -rw-r--r-- root       logcheck           99 ./etc/logcheck/ignore.d.server/dictd
 -rw-r--r-- root       logcheck          411 ./etc/logcheck/ignore.d.server/dkfilter
@@ -97,14 +97,14 @@ drwxr-x--- root       logcheck         2540 ./etc/logcheck/ignore.d.server
 -rw-r--r-- root       logcheck          236 ./etc/logcheck/ignore.d.server/nntpcache
 -rw-r--r-- root       logcheck          120 ./etc/logcheck/ignore.d.server/nscd
 -rw-r--r-- root       logcheck          257 ./etc/logcheck/ignore.d.server/nslcd
--rw-r--r-- root       logcheck        16473 ./etc/logcheck/ignore.d.server/openvpn
+-rw-r--r-- root       logcheck        16489 ./etc/logcheck/ignore.d.server/openvpn
 -rw-r--r-- root       logcheck           83 ./etc/logcheck/ignore.d.server/otrs
 -rw-r--r-- root       logcheck          426 ./etc/logcheck/ignore.d.server/passwd
 -rw-r--r-- root       logcheck         7443 ./etc/logcheck/ignore.d.server/pdns
 -rw-r--r-- root       logcheck          760 ./etc/logcheck/ignore.d.server/perdition
 -rw-r--r-- root       logcheck          382 ./etc/logcheck/ignore.d.server/policyd
 -rw-r--r-- root       logcheck          374 ./etc/logcheck/ignore.d.server/popa3d
--rw-r--r-- root       logcheck        35342 ./etc/logcheck/ignore.d.server/postfix
+-rw-r--r-- root       logcheck        35358 ./etc/logcheck/ignore.d.server/postfix
 -rw-r--r-- root       logcheck          335 ./etc/logcheck/ignore.d.server/postfix-policyd
 -rw-r--r-- root       logcheck         1675 ./etc/logcheck/ignore.d.server/ppp
 -rw-r--r-- root       logcheck         1197 ./etc/logcheck/ignore.d.server/pptpd
@@ -139,7 +139,7 @@ drwxr-x--- root       logcheck         2540 ./etc/logcheck/ignore.d.server
 -rw-r--r-- root       logcheck          549 ./etc/logcheck/ignore.d.server/sudo
 -rw-r--r-- root       logcheck         4608 ./etc/logcheck/ignore.d.server/sympa
 -rw-r--r-- root       logcheck           93 ./etc/logcheck/ignore.d.server/syslogd
--rw-r--r-- root       logcheck          682 ./etc/logcheck/ignore.d.server/systemd
+-rw-r--r-- root       logcheck          686 ./etc/logcheck/ignore.d.server/systemd
 -rw-r--r-- root       logcheck          193 ./etc/logcheck/ignore.d.server/systemd-timesyncd
 -rw-r--r-- root       logcheck          720 ./etc/logcheck/ignore.d.server/teapop
 -rw-r--r-- root       logcheck          198 ./etc/logcheck/ignore.d.server/telnetd
@@ -187,10 +187,10 @@ drwxr-x--- root       logcheck          760 ./etc/logcheck/ignore.d.workstation
 -rw-r--r-- root       logcheck          281 ./etc/logcheck/ignore.d.workstation/udev
 -rw-r--r-- root       logcheck          488 ./etc/logcheck/ignore.d.workstation/wdm
 -rw-r--r-- root       logcheck          235 ./etc/logcheck/ignore.d.workstation/winbind
--rw-r--r-- root       logcheck         3772 ./etc/logcheck/ignore.d.workstation/wpasupplicant
+-rw-r--r-- root       logcheck         3803 ./etc/logcheck/ignore.d.workstation/wpasupplicant
 -rw-r--r-- root       logcheck          664 ./etc/logcheck/ignore.d.workstation/xdm
 -rw-r--r-- root       logcheck          461 ./etc/logcheck/ignore.d.workstation/xlockmore
--rw-r----- root       logcheck         2647 ./etc/logcheck/logcheck.conf
+-rw-r----- root       logcheck         3215 ./etc/logcheck/logcheck.conf
 -rw-r----- root       logcheck          131 ./etc/logcheck/logcheck.logfiles
 drwxr-x--- root       logcheck           40 ./etc/logcheck/logcheck.logfiles.d
 drwxr-x--- root       logcheck          140 ./etc/logcheck/violations.d
@@ -208,7 +208,7 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root             5859 ./usr/bin/logcheck-test
 drwxr-xr-x root       root              100 ./usr/sbin
--rwxr-xr-x root       root            22361 ./usr/sbin/logcheck
+-rwxr-xr-x root       root            22546 ./usr/sbin/logcheck
 -rwxr-xr-x root       root             3056 ./usr/sbin/logtail
 -rwxr-xr-x root       root             5558 ./usr/sbin/logtail2
 drwxr-xr-x root       root               60 ./usr/share
