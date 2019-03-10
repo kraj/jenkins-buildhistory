@@ -1,8 +1,8 @@
 PV = 8.3.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = gcc (= 8.3.0-r0.5) glibc (>= 2.29)
+RDEPENDS = gcc (= 8.3.0-r0.6) glibc (>= 2.29)
 RRECOMMENDS = cpp-dev g++-dev gcov-dev glibc-dev gmp-dev libgcc-dev libmpc-dev libstdc++-dev mpfr-dev zlib-dev
 PKGSIZE = 200185
 FILES = /usr/lib/gcc/aarch64-yoe-linux/8.3.0/lib*.so /usr/libexec/gcc/aarch64-yoe-linux/8.3.0/lib*.so /usr/lib/gcc/aarch64-yoe-linux/8.3.0/plugin/include/ /usr/libexec/gcc/aarch64-yoe-linux/8.3.0/plugin/gengtype /usr/lib/gcc/aarch64-yoe-linux/8.3.0/plugin/gtype.state
