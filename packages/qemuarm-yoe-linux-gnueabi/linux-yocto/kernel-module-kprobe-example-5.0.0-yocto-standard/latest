@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+4faa441988_1fbecad0e6
+PR = r0
+PKGV = 5.0+git1+4faa441988_1fbecad0e6
+PKGR = r0.1
+RPROVIDES = kernel-module-kprobe-example
+RDEPENDS = kernel-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5564
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/samples/kprobes/kprobe_example.ko /etc/modules-load.d/kprobe_example.conf /etc/modprobe.d/kprobe_example.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/samples/kprobes/kprobe_example.ko

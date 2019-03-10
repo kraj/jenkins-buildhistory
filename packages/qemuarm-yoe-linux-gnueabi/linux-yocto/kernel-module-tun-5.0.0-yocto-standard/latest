@@ -1,0 +1,10 @@
+PV = 5.0+gitAUTOINC+4faa441988_1fbecad0e6
+PR = r0
+PKGV = 5.0+git1+4faa441988_1fbecad0e6
+PKGR = r0.1
+RPROVIDES = kernel-module-tun
+RDEPENDS = kernel-5.0.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 48120
+FILES = /lib/modules/5.0.0-yocto-standard/kernel/drivers/net/tun.ko /etc/modules-load.d/tun.conf /etc/modprobe.d/tun.conf
+FILELIST = /lib/modules/5.0.0-yocto-standard/kernel/drivers/net/tun.ko
