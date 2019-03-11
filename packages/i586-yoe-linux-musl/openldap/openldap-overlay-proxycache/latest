@@ -1,9 +1,9 @@
 PV = 2.4.47
 PR = r0
 PKG = libldap-2.4-overlay-proxycache
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = openldap-overlay-proxycache (=2.4.47)
-RDEPENDS = gnutls (>= 3.6.5) libgcrypt (>= 1.8.4) musl (>= 1.1.21+git3+43e7efb465) openldap (>= 2.4.47)
+RDEPENDS = gnutls (>= 3.6.6) libgcrypt (>= 1.8.4) musl (>= 1.1.21+git3+43e7efb465) openldap (>= 2.4.47)
 RRECOMMENDS = 
 PKGSIZE = 80081
 FILES = /usr/libexec/openldap/pcache-*.so.*

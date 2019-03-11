@@ -1,9 +1,9 @@
 PV = 6.1.4
 PR = r0
 PKG = libqwt-dev
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libqwt-qt5-dev qwt-qt5-dev (=6.1.4)
-RDEPENDS = qwt-qt5 (= 6.1.4-r0.13)
+RDEPENDS = qwt-qt5 (= 6.1.4-r0.14)
 RRECOMMENDS = libgcc-dev libstdc++-dev musl-dev qtbase-dev qtsvg-dev qttools-dev
 PKGSIZE = 359152
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qwt-qt5/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
