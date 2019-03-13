@@ -1,0 +1,5 @@
+PV = 3.0.251
+PR = r0
+DEPENDS = cmake-native ninja-native openssl protobuf util-linux virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
+PACKAGES = librcf-src librcf-dbg librcf-staticdev librcf-dev librcf-doc librcf-locale librcf
+LAYER = openembedded-layer
