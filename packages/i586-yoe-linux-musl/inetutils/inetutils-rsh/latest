@@ -1,9 +1,10 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.79
-RPROVIDES = 
-RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) update-alternatives-opkg
+PKGR = r0.80
+RPROVIDES = rsh
+RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 67304
-FILES = /usr/bin/rsh.inetutils /usr/bin/rlogin.inetutils /usr/bin/rexec.inetutils /usr/bin/rcp.inetutils
-FILELIST = /usr/bin/rexec.inetutils
+RCONFLICTS = netkit-rsh-client
+PKGSIZE = 0
+FILES = /usr/bin/rsh /usr/bin/rlogin /usr/bin/rexec /usr/bin/rcp
+FILELIST = 
