@@ -1,11 +1,11 @@
 PV = 2.80
 PR = r0
-PKGR = r0.53
+PKGR = r0.54
 RPROVIDES = dnsmasq-systemd
 RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = 
 RREPLACES = dnsmasq-systemd
 RCONFLICTS = dnsmasq-systemd
-PKGSIZE = 366188
+PKGSIZE = 366286
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dnsmasq /usr/lib/dnsmasq/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/dnsmasq.service
-FILELIST = /etc/dnsmasq.conf /lib/systemd/system/dnsmasq.service /usr/bin/dhcp_release /usr/bin/dnsmasq
+FILELIST = /etc/dnsmasq.conf /etc/systemd/resolved.conf.d/dnsmasq-resolved.conf /lib/systemd/system/dnsmasq.service /usr/bin/dhcp_release /usr/bin/dnsmasq

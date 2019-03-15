@@ -41,7 +41,7 @@ drwxr-xr-x root       root              200 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root             3657 ./usr/lib/lttng-tools/ptest/tests/regression/kernel/test_rotation_destroy_flush
 -rwxr-xr-x root       root            10787 ./usr/lib/lttng-tools/ptest/tests/regression/kernel/test_select_poll_epoll
 -rwxr-xr-x root       root            18075 ./usr/lib/lttng-tools/ptest/tests/regression/kernel/test_syscall
--rwxr-xr-x root       root            55031 ./usr/lib/lttng-tools/ptest/tests/regression/Makefile
+-rwxr-xr-x root       root            55676 ./usr/lib/lttng-tools/ptest/tests/regression/Makefile
 drwxr-xr-x root       root              340 ./usr/lib/lttng-tools/ptest/tests/regression/tools
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/regression/tools/crash
 -rwxr-xr-x root       root            17949 ./usr/lib/lttng-tools/ptest/tests/regression/tools/crash/Makefile
@@ -134,12 +134,13 @@ drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root            18022 ./usr/lib/lttng-tools/ptest/tests/regression/tools/wildcard/Makefile
 -rwxr-xr-x root       root             4995 ./usr/lib/lttng-tools/ptest/tests/regression/tools/wildcard/test_event_wildcard
 drwxr-xr-x root       root              580 ./usr/lib/lttng-tools/ptest/tests/regression/ust
-drwxr-xr-x root       root              140 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump
+drwxr-xr-x root       root              160 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump
 -rwxr-xr-x root       root            23808 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump/Makefile
 -rwxr-xr-x root       root            15096 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump/prog
 -rwxr-xr-x root       root             3264 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump/prog.debug
 -rwxr-xr-x root       root            15104 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump/prog.strip
 -rwxr-xr-x root       root              918 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump/test_baddr-statedump
+-rwxr-xr-x root       root             4036 ./usr/lib/lttng-tools/ptest/tests/regression/ust/baddr-statedump/test_baddr-statedump.py
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/regression/ust/before-after
 -rwxr-xr-x root       root            17998 ./usr/lib/lttng-tools/ptest/tests/regression/ust/before-after/Makefile
 -rwxr-xr-x root       root             2843 ./usr/lib/lttng-tools/ptest/tests/regression/ust/before-after/test_before_after
@@ -155,19 +156,22 @@ lrwxrwxrwx root       root               35 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root            10344 ./usr/lib/lttng-tools/ptest/tests/regression/ust/clock-override/lttng-ust-clock-override-test.so
 -rwxr-xr-x root       root            24754 ./usr/lib/lttng-tools/ptest/tests/regression/ust/clock-override/Makefile
 -rwxr-xr-x root       root             5738 ./usr/lib/lttng-tools/ptest/tests/regression/ust/clock-override/test_clock_override
-drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/daemon
+drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/regression/ust/daemon
 -rwxr-xr-x root       root            15256 ./usr/lib/lttng-tools/ptest/tests/regression/ust/daemon/daemon
 -rwxr-xr-x root       root            23191 ./usr/lib/lttng-tools/ptest/tests/regression/ust/daemon/Makefile
 -rwxr-xr-x root       root              909 ./usr/lib/lttng-tools/ptest/tests/regression/ust/daemon/test_daemon
-drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast
+-rwxr-xr-x root       root             4379 ./usr/lib/lttng-tools/ptest/tests/regression/ust/daemon/test_daemon.py
+drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast
 -rwxr-xr-x root       root            11008 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast/exit-fast
 -rwxr-xr-x root       root            23275 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast/Makefile
 -rwxr-xr-x root       root              912 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast/test_exit-fast
-drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork
+-rwxr-xr-x root       root             3805 ./usr/lib/lttng-tools/ptest/tests/regression/ust/exit-fast/test_exit-fast.py
+drwxr-xr-x root       root              140 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork
 -rwxr-xr-x root       root            19448 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/fork
 -rwxr-xr-x root       root            19448 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/fork2
 -rwxr-xr-x root       root            23663 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/Makefile
 -rwxr-xr-x root       root              907 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/test_fork
+-rwxr-xr-x root       root             4324 ./usr/lib/lttng-tools/ptest/tests/regression/ust/fork/test_fork.py
 drwxr-xr-x root       root              140 ./usr/lib/lttng-tools/ptest/tests/regression/ust/getcpu-override
 drwxr-xr-x root       root               60 ./usr/lib/lttng-tools/ptest/tests/regression/ust/getcpu-override/.libs
 lrwxrwxrwx root       root               36 ./usr/lib/lttng-tools/ptest/tests/regression/ust/getcpu-override/.libs/lttng-ust-getcpu-override-test.so -> ../lttng-ust-getcpu-override-test.so
@@ -185,11 +189,12 @@ drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/re
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/regression/ust/java-log4j
 -rwxr-xr-x root       root            18826 ./usr/lib/lttng-tools/ptest/tests/regression/ust/java-log4j/Makefile
 -rwxr-xr-x root       root            19898 ./usr/lib/lttng-tools/ptest/tests/regression/ust/java-log4j/test_java_log4j
-drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/libc-wrapper
+drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/regression/ust/libc-wrapper
 -rwxr-xr-x root       root            23136 ./usr/lib/lttng-tools/ptest/tests/regression/ust/libc-wrapper/Makefile
 -rwxr-xr-x root       root             6296 ./usr/lib/lttng-tools/ptest/tests/regression/ust/libc-wrapper/prog
 -rwxr-xr-x root       root              915 ./usr/lib/lttng-tools/ptest/tests/regression/ust/libc-wrapper/test_libc-wrapper
-drwxr-xr-x root       root              220 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking
+-rwxr-xr-x root       root             3025 ./usr/lib/lttng-tools/ptest/tests/regression/ust/libc-wrapper/test_libc-wrapper.py
+drwxr-xr-x root       root              240 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking
 -rwxr-xr-x root       root            10936 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/demo
 -rwxr-xr-x root       root            27872 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/demo_builtin
 -rwxr-xr-x root       root              178 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/demo_preload
@@ -201,6 +206,7 @@ lrwxrwxrwx root       root               43 ./usr/lib/lttng-tools/ptest/tests/re
 lrwxrwxrwx root       root               42 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/.libs/liblttng-ust-provider-ust-tests-demo.so -> ../liblttng-ust-provider-ust-tests-demo.so
 -rwxr-xr-x root       root            39479 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/Makefile
 -rwxr-xr-x root       root              975 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/test_linking
+-rwxr-xr-x root       root             8043 ./usr/lib/lttng-tools/ptest/tests/regression/ust/linking/test_linking.py
 drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/low-throughput
 -rwxr-xr-x root       root            15104 ./usr/lib/lttng-tools/ptest/tests/regression/ust/low-throughput/gen-events
 -rwxr-xr-x root       root            23387 ./usr/lib/lttng-tools/ptest/tests/regression/ust/low-throughput/Makefile
@@ -237,12 +243,15 @@ drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root             2547 ./usr/lib/lttng-tools/ptest/tests/regression/ust/test_event_basic
 -rwxr-xr-x root       root             3451 ./usr/lib/lttng-tools/ptest/tests/regression/ust/test_event_perf
 -rwxr-xr-x root       root             1883 ./usr/lib/lttng-tools/ptest/tests/regression/ust/test_event_tracef
-drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations
+drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations
 -rwxr-xr-x root       root            23533 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations/Makefile
 -rwxr-xr-x root       root             1087 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations/test_type_declarations
+-rwxr-xr-x root       root             4535 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations/test_type_declarations.py
 -rwxr-xr-x root       root            19368 ./usr/lib/lttng-tools/ptest/tests/regression/ust/type-declarations/type-declarations
-drwxr-xr-x root       root              240 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl
+drwxr-xr-x root       root              300 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl
+-rwxr-xr-x root       root            10648 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/libbar.so
 -rwxr-xr-x root       root             2920 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/libbar.so.debug
+-rwxr-xr-x root       root            10648 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/libfoo.so
 -rwxr-xr-x root       root             2920 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/libfoo.so.debug
 drwxr-xr-x root       root              100 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/.libs
 lrwxrwxrwx root       root               12 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/.libs/libbar.so -> ../libbar.so
@@ -255,6 +264,7 @@ lrwxrwxrwx root       root               12 ./usr/lib/lttng-tools/ptest/tests/re
 -rwxr-xr-x root       root            29245 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/Makefile
 -rwxr-xr-x root       root             6296 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/prog
 -rwxr-xr-x root       root             1056 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/test_ust-dl
+-rwxr-xr-x root       root             6130 ./usr/lib/lttng-tools/ptest/tests/regression/ust/ust-dl/test_ust-dl.py
 drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/stress
 -rwxr-xr-x root       root             1674 ./usr/lib/lttng-tools/ptest/tests/stress/launch_ust_app
 -rwxr-xr-x root       root            18020 ./usr/lib/lttng-tools/ptest/tests/stress/Makefile
@@ -275,7 +285,7 @@ drwxr-xr-x root       root              120 ./usr/lib/lttng-tools/ptest/tests/un
 -rwxr-xr-x root       root           399840 ./usr/lib/lttng-tools/ptest/tests/unit/test_ust_data
 -rwxr-xr-x root       root            84360 ./usr/lib/lttng-tools/ptest/tests/unit/test_utils_expand_path
 -rwxr-xr-x root       root            80224 ./usr/lib/lttng-tools/ptest/tests/unit/test_utils_parse_size_suffix
-drwxr-xr-x root       root              160 ./usr/lib/lttng-tools/ptest/tests/utils
+drwxr-xr-x root       root              180 ./usr/lib/lttng-tools/ptest/tests/utils
 -rwxr-xr-x root       root             3974 ./usr/lib/lttng-tools/ptest/tests/utils/babelstats.pl
 -rwxr-xr-x root       root            27459 ./usr/lib/lttng-tools/ptest/tests/utils/Makefile
 drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/utils/tap
@@ -295,5 +305,6 @@ drwxr-xr-x root       root               80 ./usr/lib/lttng-tools/ptest/tests/ut
 -rwxr-xr-x root       root            10408 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-tracef/gen-ust-tracef
 -rwxr-xr-x root       root            23032 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/gen-ust-tracef/Makefile
 -rwxr-xr-x root       root            23968 ./usr/lib/lttng-tools/ptest/tests/utils/testapp/Makefile
+-rwxr-xr-x root       root             3930 ./usr/lib/lttng-tools/ptest/tests/utils/test_utils.py
 -rwxr-xr-x root       root            36323 ./usr/lib/lttng-tools/ptest/tests/utils/utils.sh
 -rwxr-xr-x root       root              661 ./usr/lib/lttng-tools/ptest/tests/utils/warn_processes.sh
