@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root             3780 ./lib/firmware
+drwxr-xr-x root       root             3800 ./lib/firmware
 drwxr-xr-x root       root               80 ./lib/firmware/3com
 -rw-r--r-- root       root            24880 ./lib/firmware/3com/3C359.bin
 -rw-r--r-- root       root            44548 ./lib/firmware/3com/typhoon.bin
@@ -16,7 +16,9 @@ drwxr-xr-x root       root              120 ./lib/firmware/advansys
 -rw-r--r-- root       root             2308 ./lib/firmware/advansys/mcode.bin
 -rw-r--r-- root       root            50698 ./lib/firmware/agere_ap_fw.bin
 -rw-r--r-- root       root            65046 ./lib/firmware/agere_sta_fw.bin
-drwxr-xr-x root       root             5840 ./lib/firmware/amdgpu
+drwxr-xr-x root       root               60 ./lib/firmware/amd
+-rw-r--r-- root       root            32000 ./lib/firmware/amd/amd_sev_fam17h_model0xh.sbin
+drwxr-xr-x root       root             5820 ./lib/firmware/amdgpu
 -rw-r--r-- root       root            61932 ./lib/firmware/amdgpu/banks_k_2_smc.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/amdgpu/bonaire_ce.bin
 -rw-r--r-- root       root           130796 ./lib/firmware/amdgpu/bonaire_k_smc.bin
@@ -192,8 +194,7 @@ drwxr-xr-x root       root             5840 ./lib/firmware/amdgpu
 -rw-r--r-- root       root           268048 ./lib/firmware/amdgpu/raven2_mec2.bin
 -rw-r--r-- root       root           268048 ./lib/firmware/amdgpu/raven2_mec.bin
 -rw-r--r-- root       root            21632 ./lib/firmware/amdgpu/raven2_pfp.bin
--rw-r--r-- root       root            38308 ./lib/firmware/amdgpu/raven2_rlc.bin
--rw-r--r-- root       root            16896 ./lib/firmware/amdgpu/raven2_sdma1.bin
+-rw-r--r-- root       root            38324 ./lib/firmware/amdgpu/raven2_rlc.bin
 -rw-r--r-- root       root            17408 ./lib/firmware/amdgpu/raven2_sdma.bin
 -rw-r--r-- root       root           343456 ./lib/firmware/amdgpu/raven2_vcn.bin
 -rw-r--r-- root       root            49664 ./lib/firmware/amdgpu/raven_asd.bin
@@ -276,7 +277,7 @@ drwxr-xr-x root       root             5840 ./lib/firmware/amdgpu
 -rw-r--r-- root       root           170896 ./lib/firmware/amdgpu/vega12_sos.bin
 -rw-r--r-- root       root           374688 ./lib/firmware/amdgpu/vega12_uvd.bin
 -rw-r--r-- root       root           165408 ./lib/firmware/amdgpu/vega12_vce.bin
--rw-r--r-- root       root            49664 ./lib/firmware/amdgpu/vega20_asd.bin
+-rw-r--r-- root       root            57856 ./lib/firmware/amdgpu/vega20_asd.bin
 -rw-r--r-- root       root             9344 ./lib/firmware/amdgpu/vega20_ce.bin
 -rw-r--r-- root       root            17536 ./lib/firmware/amdgpu/vega20_me.bin
 -rw-r--r-- root       root           268048 ./lib/firmware/amdgpu/vega20_mec2.bin
@@ -492,14 +493,14 @@ drwxr-xr-x root       root              280 ./lib/firmware/cxgb4
 -rw-r--r-- root       root           208900 ./lib/firmware/cxgb4/bcm8483.bin
 -rw-r--r-- root       root           539648 ./lib/firmware/cxgb4/t4fw-1.14.4.0.bin
 -rw-r--r-- root       root           541184 ./lib/firmware/cxgb4/t4fw-1.15.37.0.bin
--rw-r--r-- root       root           565248 ./lib/firmware/cxgb4/t4fw-1.22.9.0.bin
-lrwxrwxrwx root       root               17 ./lib/firmware/cxgb4/t4fw.bin -> t4fw-1.22.9.0.bin
+-rw-r--r-- root       root           570880 ./lib/firmware/cxgb4/t4fw-1.23.3.0.bin
+lrwxrwxrwx root       root               17 ./lib/firmware/cxgb4/t4fw.bin -> t4fw-1.23.3.0.bin
 -rw-r--r-- root       root           593920 ./lib/firmware/cxgb4/t5fw-1.14.4.0.bin
 -rw-r--r-- root       root           596992 ./lib/firmware/cxgb4/t5fw-1.15.37.0.bin
--rw-r--r-- root       root           652800 ./lib/firmware/cxgb4/t5fw-1.22.9.0.bin
-lrwxrwxrwx root       root               17 ./lib/firmware/cxgb4/t5fw.bin -> t5fw-1.22.9.0.bin
--rw-r--r-- root       root           703488 ./lib/firmware/cxgb4/t6fw-1.22.9.0.bin
-lrwxrwxrwx root       root               17 ./lib/firmware/cxgb4/t6fw.bin -> t6fw-1.22.9.0.bin
+-rw-r--r-- root       root           659456 ./lib/firmware/cxgb4/t5fw-1.23.3.0.bin
+lrwxrwxrwx root       root               17 ./lib/firmware/cxgb4/t5fw.bin -> t5fw-1.23.3.0.bin
+-rw-r--r-- root       root           708608 ./lib/firmware/cxgb4/t6fw-1.23.3.0.bin
+lrwxrwxrwx root       root               17 ./lib/firmware/cxgb4/t6fw.bin -> t6fw-1.23.3.0.bin
 drwxr-xr-x root       root               80 ./lib/firmware/dabusb
 -rw-r--r-- root       root            12042 ./lib/firmware/dabusb/bitstream.bin
 -rw-r--r-- root       root             9822 ./lib/firmware/dabusb/firmware.fw
@@ -577,11 +578,11 @@ drwxr-xr-x root       root              340 ./lib/firmware/intel
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-0-1.ddc
 -rw-r--r-- root       root           625216 ./lib/firmware/intel/ibt-18-0-1.sfi
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-16-1.ddc
--rw-r--r-- root       root           641280 ./lib/firmware/intel/ibt-18-16-1.sfi
+-rw-r--r-- root       root           648108 ./lib/firmware/intel/ibt-18-16-1.sfi
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-1.ddc
 -rw-r--r-- root       root           625216 ./lib/firmware/intel/ibt-18-1.sfi
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-2.ddc
--rw-r--r-- root       root           641280 ./lib/firmware/intel/ibt-18-2.sfi
+-rw-r--r-- root       root           648108 ./lib/firmware/intel/ibt-18-2.sfi
 -rw-r--r-- root       root           260320 ./lib/firmware/intel/IntcSST2.bin
 lrwxrwxrwx root       root               52 ./lib/firmware/intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 -rw-r--r-- root       root          1212984 ./lib/firmware/intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
@@ -751,31 +752,31 @@ drwxr-xr-x root       root              280 ./lib/firmware/netronome/nic
 lrwxrwxrwx root       root               31 ./lib/firmware/netronome/nic_AMDA0058-0011_2x40.nffw -> nic/nic_AMDA0058-0011_2x40.nffw
 lrwxrwxrwx root       root               31 ./lib/firmware/netronome/nic_AMDA0058-0012_2x40.nffw -> nic/nic_AMDA0058-0012_2x40.nffw
 lrwxrwxrwx root       root               32 ./lib/firmware/netronome/nic_AMDA0078-0011_1x100.nffw -> nic/nic_AMDA0078-0011_1x100.nffw
--rw-r--r-- root       root          3238480 ./lib/firmware/netronome/nic/nic_AMDA0058-0011_2x40.nffw
--rw-r--r-- root       root          3238480 ./lib/firmware/netronome/nic/nic_AMDA0058-0012_2x40.nffw
--rw-r--r-- root       root          3196392 ./lib/firmware/netronome/nic/nic_AMDA0078-0011_1x100.nffw
--rw-r--r-- root       root          3196424 ./lib/firmware/netronome/nic/nic_AMDA0081-0001_1x40.nffw
--rw-r--r-- root       root          3313280 ./lib/firmware/netronome/nic/nic_AMDA0081-0001_4x10.nffw
--rw-r--r-- root       root          3237368 ./lib/firmware/netronome/nic/nic_AMDA0096-0001_2x10.nffw
--rw-r--r-- root       root          3237640 ./lib/firmware/netronome/nic/nic_AMDA0097-0001_2x40.nffw
--rw-r--r-- root       root          3350624 ./lib/firmware/netronome/nic/nic_AMDA0097-0001_4x10_1x40.nffw
--rw-r--r-- root       root          3464800 ./lib/firmware/netronome/nic/nic_AMDA0097-0001_8x10.nffw
--rw-r--r-- root       root          3238424 ./lib/firmware/netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw
--rw-r--r-- root       root          3237352 ./lib/firmware/netronome/nic/nic_AMDA0099-0001_2x10.nffw
--rw-r--r-- root       root          3238344 ./lib/firmware/netronome/nic/nic_AMDA0099-0001_2x25.nffw
+-rw-r--r-- root       root          3222512 ./lib/firmware/netronome/nic/nic_AMDA0058-0011_2x40.nffw
+-rw-r--r-- root       root          3222512 ./lib/firmware/netronome/nic/nic_AMDA0058-0012_2x40.nffw
+-rw-r--r-- root       root          3180672 ./lib/firmware/netronome/nic/nic_AMDA0078-0011_1x100.nffw
+-rw-r--r-- root       root          3181080 ./lib/firmware/netronome/nic/nic_AMDA0081-0001_1x40.nffw
+-rw-r--r-- root       root          3297408 ./lib/firmware/netronome/nic/nic_AMDA0081-0001_4x10.nffw
+-rw-r--r-- root       root          3221848 ./lib/firmware/netronome/nic/nic_AMDA0096-0001_2x10.nffw
+-rw-r--r-- root       root          3221944 ./lib/firmware/netronome/nic/nic_AMDA0097-0001_2x40.nffw
+-rw-r--r-- root       root          3335048 ./lib/firmware/netronome/nic/nic_AMDA0097-0001_4x10_1x40.nffw
+-rw-r--r-- root       root          3449264 ./lib/firmware/netronome/nic/nic_AMDA0097-0001_8x10.nffw
+-rw-r--r-- root       root          3222856 ./lib/firmware/netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw
+-rw-r--r-- root       root          3221832 ./lib/firmware/netronome/nic/nic_AMDA0099-0001_2x10.nffw
+-rw-r--r-- root       root          3222648 ./lib/firmware/netronome/nic/nic_AMDA0099-0001_2x25.nffw
 drwxr-xr-x root       root              280 ./lib/firmware/netronome/nic-sriov
--rw-r--r-- root       root          4975416 ./lib/firmware/netronome/nic-sriov/nic_AMDA0058-0011_2x40.nffw
--rw-r--r-- root       root          4975416 ./lib/firmware/netronome/nic-sriov/nic_AMDA0058-0012_2x40.nffw
--rw-r--r-- root       root          5220392 ./lib/firmware/netronome/nic-sriov/nic_AMDA0078-0011_1x100.nffw
--rw-r--r-- root       root          5220696 ./lib/firmware/netronome/nic-sriov/nic_AMDA0081-0001_1x40.nffw
--rw-r--r-- root       root          5050600 ./lib/firmware/netronome/nic-sriov/nic_AMDA0081-0001_4x10.nffw
--rw-r--r-- root       root          4974664 ./lib/firmware/netronome/nic-sriov/nic_AMDA0096-0001_2x10.nffw
--rw-r--r-- root       root          4974776 ./lib/firmware/netronome/nic-sriov/nic_AMDA0097-0001_2x40.nffw
--rw-r--r-- root       root          5088760 ./lib/firmware/netronome/nic-sriov/nic_AMDA0097-0001_4x10_1x40.nffw
--rw-r--r-- root       root          5202112 ./lib/firmware/netronome/nic-sriov/nic_AMDA0097-0001_8x10.nffw
--rw-r--r-- root       root          4975976 ./lib/firmware/netronome/nic-sriov/nic_AMDA0099-0001_1x10_1x25.nffw
--rw-r--r-- root       root          4974648 ./lib/firmware/netronome/nic-sriov/nic_AMDA0099-0001_2x10.nffw
--rw-r--r-- root       root          4975480 ./lib/firmware/netronome/nic-sriov/nic_AMDA0099-0001_2x25.nffw
+-rw-r--r-- root       root          4958776 ./lib/firmware/netronome/nic-sriov/nic_AMDA0058-0011_2x40.nffw
+-rw-r--r-- root       root          4958776 ./lib/firmware/netronome/nic-sriov/nic_AMDA0058-0012_2x40.nffw
+-rw-r--r-- root       root          5203752 ./lib/firmware/netronome/nic-sriov/nic_AMDA0078-0011_1x100.nffw
+-rw-r--r-- root       root          5204048 ./lib/firmware/netronome/nic-sriov/nic_AMDA0081-0001_1x40.nffw
+-rw-r--r-- root       root          5033952 ./lib/firmware/netronome/nic-sriov/nic_AMDA0081-0001_4x10.nffw
+-rw-r--r-- root       root          4958016 ./lib/firmware/netronome/nic-sriov/nic_AMDA0096-0001_2x10.nffw
+-rw-r--r-- root       root          4958128 ./lib/firmware/netronome/nic-sriov/nic_AMDA0097-0001_2x40.nffw
+-rw-r--r-- root       root          5072120 ./lib/firmware/netronome/nic-sriov/nic_AMDA0097-0001_4x10_1x40.nffw
+-rw-r--r-- root       root          5185472 ./lib/firmware/netronome/nic-sriov/nic_AMDA0097-0001_8x10.nffw
+-rw-r--r-- root       root          4959328 ./lib/firmware/netronome/nic-sriov/nic_AMDA0099-0001_1x10_1x25.nffw
+-rw-r--r-- root       root          4958000 ./lib/firmware/netronome/nic-sriov/nic_AMDA0099-0001_2x10.nffw
+-rw-r--r-- root       root          4958832 ./lib/firmware/netronome/nic-sriov/nic_AMDA0099-0001_2x25.nffw
 drwxr-xr-x root       root              380 ./lib/firmware/nvidia
 drwxr-xr-x root       root              200 ./lib/firmware/nvidia/gk20a
 -rw-r--r-- root       root             1920 ./lib/firmware/nvidia/gk20a/fecs_data.bin
@@ -1137,7 +1138,7 @@ drwxr-xr-x root       root              360 ./lib/firmware/rtl_bt
 -rw-r--r-- root       root            37356 ./lib/firmware/rtl_bt/rtl8821c_fw.bin
 -rw-r--r-- root       root               14 ./lib/firmware/rtl_bt/rtl8822b_config.bin
 -rw-r--r-- root       root            51176 ./lib/firmware/rtl_bt/rtl8822b_fw.bin
--rw-r--r-- root       root            22412 ./lib/firmware/rtl_bt/rtl8822cu_fw.bin
+-rw-r--r-- root       root            41588 ./lib/firmware/rtl_bt/rtl8822cu_fw.bin
 drwxr-xr-x root       root              200 ./lib/firmware/rtl_nic
 -rw-r--r-- root       root             2076 ./lib/firmware/rtl_nic/rtl8105e-1.fw
 -rw-r--r-- root       root             1856 ./lib/firmware/rtl_nic/rtl8106e-1.fw
@@ -1157,7 +1158,7 @@ drwxr-xr-x root       root              180 ./lib/firmware/rtlwifi
 -rw-r--r-- root       root           127496 ./lib/firmware/rtlwifi/rtl8822befw.bin
 drwxr-xr-x root       root               80 ./lib/firmware/rtw88
 -rw-r--r-- root       root           150984 ./lib/firmware/rtw88/rtw8822b_fw.bin
--rw-r--r-- root       root           162064 ./lib/firmware/rtw88/rtw8822c_fw.bin
+-rw-r--r-- root       root           184640 ./lib/firmware/rtw88/rtw8822c_fw.bin
 lrwxrwxrwx root       root               17 ./lib/firmware/s2250.fw -> go7007/s2250-2.fw
 lrwxrwxrwx root       root               17 ./lib/firmware/s2250_loader.fw -> go7007/s2250-1.fw
 -rw-r--r-- root       root           352652 ./lib/firmware/s5p-mfc.fw
