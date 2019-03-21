@@ -1,6 +1,12 @@
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root           264904 ./usr/lib/libopenconnect.so.5.4.0
-lrwxrwxrwx root       root               23 ./usr/lib/libopenconnect.so.5 -> libopenconnect.so.5.4.0
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              120 ./usr/libexec/openconnect
+-rwxr-xr-x root       root             3192 ./usr/libexec/openconnect/csd-post.sh
+-rwxr-xr-x root       root             3742 ./usr/libexec/openconnect/csd-wrapper.sh
+-rwxr-xr-x root       root             5841 ./usr/libexec/openconnect/hipreport.sh
+-rwxr-xr-x root       root             4062 ./usr/libexec/openconnect/tncc-wrapper.py
+-rwxr-xr-x root       root           265176 ./usr/lib/libopenconnect.so.5.5.0
+lrwxrwxrwx root       root               23 ./usr/lib/libopenconnect.so.5 -> libopenconnect.so.5.5.0
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root            67840 ./usr/sbin/openconnect

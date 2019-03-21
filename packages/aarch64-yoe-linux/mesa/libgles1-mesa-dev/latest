@@ -1,12 +1,12 @@
 PE = 2
-PV = 19.0.0
+PV = 18.3.4
 PR = r0
-PKGR = r0.0
+PKGR = r0.15
 RPROVIDES = libgles1-dev
 RDEPENDS = libgles1-mesa
 RRECOMMENDS = expat-dev glibc-dev libdrm-dev libglapi-dev libxdamage-dev libxext-dev libxfixes-dev libxshmfence-dev libxxf86vm-dev wayland-dev wayland-protocols-dev xorgproto-dev xrandr-dev zlib-dev
 RREPLACES = libgles1-dev
 RCONFLICTS = libgles1-dev
-PKGSIZE = 87050
+PKGSIZE = 87084
 FILES = /usr/lib/libGLESv1*.* /usr/include/GLES /usr/lib/pkgconfig/glesv1*.pc
 FILELIST = /usr/include/GLES/egl.h /usr/include/GLES/gl.h /usr/include/GLES/glext.h /usr/include/GLES/glplatform.h /usr/lib/libGLESv1_CM.so /usr/lib/pkgconfig/glesv1_cm.pc

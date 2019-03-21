@@ -1,16 +1,16 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              860 ./usr/include/log4cplus
--rw-r--r-- root       root            10224 ./usr/include/log4cplus/appender.h
--rw-r--r-- root       root             2932 ./usr/include/log4cplus/asyncappender.h
+-rw-r--r-- root       root            10431 ./usr/include/log4cplus/appender.h
+-rw-r--r-- root       root             3185 ./usr/include/log4cplus/asyncappender.h
 drwxr-xr-x root       root               60 ./usr/include/log4cplus/boost
 -rw-r--r-- root       root             4990 ./usr/include/log4cplus/boost/deviceappender.hxx
 -rw-r--r-- root       root             2545 ./usr/include/log4cplus/callbackappender.h
 -rw-r--r-- root       root             2834 ./usr/include/log4cplus/clfsappender.h
--rw-r--r-- root       root             3724 ./usr/include/log4cplus/clogger.h
+-rw-r--r-- root       root             4176 ./usr/include/log4cplus/clogger.h
 drwxr-xr-x root       root              120 ./usr/include/log4cplus/config
 -rw-r--r-- root       root             5688 ./usr/include/log4cplus/config/defines.hxx
--rw-r--r-- root       root             7088 ./usr/include/log4cplus/config.hxx
+-rw-r--r-- root       root             7274 ./usr/include/log4cplus/config.hxx
 -rw-r--r-- root       root             1078 ./usr/include/log4cplus/config/macosx.h
 -rw-r--r-- root       root            15159 ./usr/include/log4cplus/configurator.h
 -rw-r--r-- root       root             5828 ./usr/include/log4cplus/config/win32.h
@@ -36,7 +36,8 @@ drwxr-xr-x root       root              320 ./usr/include/log4cplus/helpers
 -rw-r--r-- root       root            11731 ./usr/include/log4cplus/hierarchy.h
 -rw-r--r-- root       root             2117 ./usr/include/log4cplus/hierarchylocker.h
 -rw-r--r-- root       root             2385 ./usr/include/log4cplus/initializer.h
-drwxr-xr-x root       root              120 ./usr/include/log4cplus/internal
+drwxr-xr-x root       root              140 ./usr/include/log4cplus/internal
+-rw-r--r-- root       root             4636 ./usr/include/log4cplus/internal/customloglevelmanager.h
 -rw-r--r-- root       root             2107 ./usr/include/log4cplus/internal/cygwin-win32.h
 -rw-r--r-- root       root             2693 ./usr/include/log4cplus/internal/env.h
 -rw-r--r-- root       root             5452 ./usr/include/log4cplus/internal/internal.h
@@ -48,17 +49,17 @@ drwxr-xr-x root       root              120 ./usr/include/log4cplus/internal
 -rw-r--r-- root       root            15652 ./usr/include/log4cplus/loggingmacros.h
 -rw-r--r-- root       root             6861 ./usr/include/log4cplus/loglevel.h
 -rw-r--r-- root       root             2490 ./usr/include/log4cplus/mdc.h
--rw-r--r-- root       root             3376 ./usr/include/log4cplus/msttsappender.h
+-rw-r--r-- root       root             3410 ./usr/include/log4cplus/msttsappender.h
 -rw-r--r-- root       root            12059 ./usr/include/log4cplus/ndc.h
 -rw-r--r-- root       root             2480 ./usr/include/log4cplus/nteventlogappender.h
 -rw-r--r-- root       root             1619 ./usr/include/log4cplus/nullappender.h
--rw-r--r-- root       root             3263 ./usr/include/log4cplus/qt4debugappender.h
--rw-r--r-- root       root             3263 ./usr/include/log4cplus/qt5debugappender.h
+-rw-r--r-- root       root             3300 ./usr/include/log4cplus/qt4debugappender.h
+-rw-r--r-- root       root             3300 ./usr/include/log4cplus/qt5debugappender.h
 -rw-r--r-- root       root             5456 ./usr/include/log4cplus/socketappender.h
 drwxr-xr-x root       root              200 ./usr/include/log4cplus/spi
 -rw-r--r-- root       root             2573 ./usr/include/log4cplus/spi/appenderattachable.h
 -rw-r--r-- root       root             8643 ./usr/include/log4cplus/spi/factory.h
--rw-r--r-- root       root            11295 ./usr/include/log4cplus/spi/filter.h
+-rw-r--r-- root       root            15479 ./usr/include/log4cplus/spi/filter.h
 -rw-r--r-- root       root             1814 ./usr/include/log4cplus/spi/loggerfactory.h
 -rw-r--r-- root       root             7155 ./usr/include/log4cplus/spi/loggerimpl.h
 -rw-r--r-- root       root             8527 ./usr/include/log4cplus/spi/loggingevent.h
@@ -83,7 +84,7 @@ drwxr-xr-x root       root              140 ./usr/include/log4cplus/thread/impl
 -rw-r--r-- root       root             3363 ./usr/include/log4cplus/win32consoleappender.h
 -rw-r--r-- root       root             1836 ./usr/include/log4cplus/win32debugappender.h
 drwxr-xr-x root       root              100 ./usr/lib
-lrwxrwxrwx root       root               25 ./usr/lib/liblog4cplus.so -> liblog4cplus-2.0.so.3.3.3
-lrwxrwxrwx root       root               26 ./usr/lib/liblog4cplusU.so -> liblog4cplusU-2.0.so.3.3.3
+lrwxrwxrwx root       root               25 ./usr/lib/liblog4cplus.so -> liblog4cplus-2.0.so.3.4.3
+lrwxrwxrwx root       root               26 ./usr/lib/liblog4cplusU.so -> liblog4cplusU-2.0.so.3.4.3
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              246 ./usr/lib/pkgconfig/log4cplus.pc

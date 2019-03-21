@@ -1,10 +1,10 @@
 PV = 8.3.0
 PR = r0
 PKG = libgcc-s-dev
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = libgcc-dev (=8.3.0)
-RDEPENDS = libgcc (= 8.3.0-r0.10)
+RDEPENDS = libgcc (= 8.3.0-r0.11)
 RRECOMMENDS = glibc-dev
-PKGSIZE = 2247483
+PKGSIZE = 2246691
 FILES = /lib/libgcc*.so /usr/lib/aarch64-yoe-linux/8.3.0* /usr/lib/aarch64-yoe*
 FILELIST = /lib/libgcc_s.so /usr/lib/aarch64-yoe-linux/8.3.0/crtbegin.o /usr/lib/aarch64-yoe-linux/8.3.0/crtbeginS.o /usr/lib/aarch64-yoe-linux/8.3.0/crtbeginT.o /usr/lib/aarch64-yoe-linux/8.3.0/crtend.o /usr/lib/aarch64-yoe-linux/8.3.0/crtendS.o /usr/lib/aarch64-yoe-linux/8.3.0/crtfastmath.o /usr/lib/aarch64-yoe-linux/8.3.0/libgcc.a /usr/lib/aarch64-yoe-linux/8.3.0/libgcc_eh.a /usr/lib/aarch64-yoe-linux/8.3.0/libgcov.a
