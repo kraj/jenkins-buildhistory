@@ -1,9 +1,9 @@
 PV = 2.29
 PR = r0
 PKG = libc6-dev
-PKGR = r0.31
+PKGR = r0.32
 RPROVIDES = eglibc-dev glibc-dev (=2.29) libc-dev libc6-dev virtual-libc-dev
-RDEPENDS = glibc (= 2.29-r0.31) glibc-extra-nss glibc-thread-db libnss-db
+RDEPENDS = glibc (= 2.29-r0.32) glibc-extra-nss glibc-thread-db libnss-db
 RRECOMMENDS = glibc-extra-nss-dev glibc-thread-db-dev glibc-utils-dev libgcc-initial-dev libnss-db-dev libsegfault-dev linux-libc-headers-dev
 PKGSIZE = 2212314
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/glibc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/*_nonshared.a /lib/*_nonshared.a /lib/*.o /usr/share/aclocal
