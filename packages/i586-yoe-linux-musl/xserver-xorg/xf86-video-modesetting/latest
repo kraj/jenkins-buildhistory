@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.20.4
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = libudev (>= 241) musl (>= 1.1.21+git3+43e7efb465)
+RDEPENDS = libudev (>= 241+0+c1f8ff8d0d) musl (>= 1.1.21+git3+43e7efb465)
 RRECOMMENDS = 
 PKGSIZE = 109460
 FILES = /usr/lib/xorg/modules/drivers/modesetting_drv.so

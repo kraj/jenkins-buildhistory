@@ -1,8 +1,8 @@
 PV = 1.16.0
 PR = r0
-PKGR = r0.84
+PKGR = r0.85
 RPROVIDES = 
-RDEPENDS = libjpeg-turbo (>= 2.0.2) libudev (>= 241) media-ctl (>= 1.16.0) musl (>= 1.1.21+git3+43e7efb465)
+RDEPENDS = libjpeg-turbo (>= 2.0.2) libudev (>= 241+0+c1f8ff8d0d) media-ctl (>= 1.16.0) musl (>= 1.1.21+git3+43e7efb465)
 RRECOMMENDS = 
 PKGSIZE = 683272
 FILES = /usr/lib/libv4l*.so.* /usr/lib/libv4l/*.so /usr/lib/libv4l/plugins/*.so /usr/lib/libdvbv5*.so.* /usr/lib/libv4l/*-decomp
