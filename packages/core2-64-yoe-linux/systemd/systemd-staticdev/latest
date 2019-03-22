@@ -1,9 +1,10 @@
 PE = 1
-PV = 241
+PV = 241+AUTOINC+c1f8ff8d0d
 PR = r0
-PKGR = r0.8
+PKGV = 241+0+c1f8ff8d0d
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = systemd-dev (= 1:241-r0.8)
+RDEPENDS = systemd-dev (= 1:241+0+c1f8ff8d0d-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/systemd/*.a
