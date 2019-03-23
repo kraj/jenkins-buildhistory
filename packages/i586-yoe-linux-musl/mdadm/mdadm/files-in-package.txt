@@ -2,12 +2,13 @@ drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root             2687 ./etc/mdadm.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
-drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              589 ./lib/systemd/system/mdmonitor.service
+-rw-r--r-- root       root             1035 ./lib/systemd/system/mdmon@.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root              120 ./lib/udev/rules.d
 -rw-r--r-- root       root              321 ./lib/udev/rules.d/01-md-raid-creating.rules
--rw-r--r-- root       root             2134 ./lib/udev/rules.d/63-md-raid-arrays.rules
+-rw-r--r-- root       root             2256 ./lib/udev/rules.d/63-md-raid-arrays.rules
 -rw-r--r-- root       root             1444 ./lib/udev/rules.d/64-md-raid-assembly.rules
 -rw-r--r-- root       root              846 ./lib/udev/rules.d/69-md-clustered-confirm-device.rules
 drwxr-xr-x root       root               80 ./sbin
