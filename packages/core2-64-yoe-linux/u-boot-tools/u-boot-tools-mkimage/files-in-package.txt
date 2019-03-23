@@ -1,4 +1,8 @@
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root               80 ./usr/bin
+drwxr-xr-x root       root              160 ./usr/bin
+lrwxrwxrwx root       root               15 ./usr/bin/dumpimage -> uboot-dumpimage
+lrwxrwxrwx root       root               20 ./usr/bin/fit_check_sign -> uboot-fit_check_sign
 lrwxrwxrwx root       root               13 ./usr/bin/mkimage -> uboot-mkimage
+-rwxr-xr-x root       root           258696 ./usr/bin/uboot-dumpimage
+-rwxr-xr-x root       root           258488 ./usr/bin/uboot-fit_check_sign
 -rwxr-xr-x root       root           266888 ./usr/bin/uboot-mkimage
