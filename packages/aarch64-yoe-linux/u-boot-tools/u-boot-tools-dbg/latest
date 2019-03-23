@@ -1,10 +1,10 @@
 PE = 1
 PV = 2019.01
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcrypto-dbg libssl-dbg
-PKGSIZE = 1406000
+PKGSIZE = 4096848
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/uboot-mkenvimage /usr/bin/.debug/uboot-mkimage
+FILELIST = /usr/bin/.debug/uboot-dumpimage /usr/bin/.debug/uboot-fit_check_sign /usr/bin/.debug/uboot-mkenvimage /usr/bin/.debug/uboot-mkimage

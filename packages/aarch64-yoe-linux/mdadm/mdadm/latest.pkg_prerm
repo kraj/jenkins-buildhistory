@@ -8,8 +8,8 @@ fi
 
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop mdmonitor.service
+		systemctl stop mdmonitor.service mdmon@.service
 	fi
 
-	systemctl $OPTS disable mdmonitor.service
+	systemctl $OPTS disable mdmonitor.service mdmon@.service
 fi

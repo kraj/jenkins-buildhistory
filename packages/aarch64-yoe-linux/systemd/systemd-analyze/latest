@@ -1,9 +1,10 @@
 PE = 1
-PV = 241
+PV = 241+AUTOINC+c1f8ff8d0d
 PR = r0
-PKGR = r0.10
+PKGV = 241+0+c1f8ff8d0d
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libpam (>= 1.3.0) systemd (>= 241) util-linux-libmount (>= 2.32.1)
+RDEPENDS = glibc (>= 2.29) libpam (>= 1.3.0) systemd (>= 241+0+c1f8ff8d0d) util-linux-libmount (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 1445400
 FILES = /usr/bin/systemd-analyze

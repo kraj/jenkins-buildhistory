@@ -1,9 +1,9 @@
 PV = 0.0+AUTOINC+0d3c49ec5a
 PR = r0
 PKGV = 0.0+0+0d3c49ec5a
-PKGR = r0.80
+PKGR = r0.81
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libudev (>= 241) qrtr (>= 0.0+0+a1694a1c93)
+RDEPENDS = glibc (>= 2.29) libudev (>= 241+0+c1f8ff8d0d) qrtr (>= 0.0+0+a1694a1c93)
 RRECOMMENDS = 
 PKGSIZE = 69844
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rmtfs /usr/lib/rmtfs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/rmtfs.service

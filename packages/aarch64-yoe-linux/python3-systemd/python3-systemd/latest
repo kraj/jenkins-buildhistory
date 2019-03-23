@@ -1,8 +1,8 @@
 PV = 234
 PR = r0
-PKGR = r0.80
+PKGR = r0.81
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libpython3 (>= 3.7.2) libsystemd (>= 241) python3-core python3-logging python3-syslog systemd
+RDEPENDS = glibc (>= 2.29) libpython3 (>= 3.7.2) libsystemd (>= 241+0+c1f8ff8d0d) python3-core python3-logging python3-syslog systemd
 RRECOMMENDS = 
 PKGSIZE = 446882
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-systemd /usr/lib/python3-systemd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.7/*

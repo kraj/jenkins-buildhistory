@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.5) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.36) libsystemd (>= 241) lzo (>= 2.10) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.5) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.36) libsystemd (>= 241+0+c1f8ff8d0d) lzo (>= 2.10) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 530084
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libvncserver /usr/lib/libvncserver/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
