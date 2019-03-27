@@ -1,0 +1,10 @@
+PV = 5.0.3+gitAUTOINC+705457837e_3df4aae607
+PR = r0
+PKGV = 5.0.3+git0+705457837e_3df4aae607
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-ice17xx-ak4xxx
+RDEPENDS = kernel-5.0.3-yocto-standard kernel-module-snd-ak4xxx-adda-5.0.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6816
+FILES = /lib/modules/5.0.3-yocto-standard/kernel/sound/pci/ice1712/snd-ice17xx-ak4xxx.ko /etc/modules-load.d/snd-ice17xx-ak4xxx.conf /etc/modprobe.d/snd-ice17xx-ak4xxx.conf
+FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/sound/pci/ice1712/snd-ice17xx-ak4xxx.ko

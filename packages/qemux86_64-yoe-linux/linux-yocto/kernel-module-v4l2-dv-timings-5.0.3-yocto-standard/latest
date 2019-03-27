@@ -1,0 +1,10 @@
+PV = 5.0.3+gitAUTOINC+705457837e_3df4aae607
+PR = r0
+PKGV = 5.0.3+git0+705457837e_3df4aae607
+PKGR = r0.1
+RPROVIDES = kernel-module-v4l2-dv-timings
+RDEPENDS = kernel-5.0.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 31208
+FILES = /lib/modules/5.0.3-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko /etc/modules-load.d/v4l2-dv-timings.conf /etc/modprobe.d/v4l2-dv-timings.conf
+FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko

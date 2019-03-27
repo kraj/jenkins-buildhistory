@@ -1,0 +1,9 @@
+PV = 0.0.20190123
+PR = r0
+PKGR = r0.21
+RPROVIDES = kernel-module-wireguard
+RDEPENDS = kernel-5.0.3-yocto-standard kernel-module-ip6-udp-tunnel-5.0.3-yocto-standard kernel-module-udp-tunnel-5.0.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 255968
+FILES = /lib/modules/5.0.3-yocto-standard/kernel/wireguard/wireguard.ko /etc/modules-load.d/wireguard.conf /etc/modprobe.d/wireguard.conf
+FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/wireguard/wireguard.ko

@@ -1,0 +1,10 @@
+PV = 5.0.3+gitAUTOINC+705457837e_3df4aae607
+PR = r0
+PKGV = 5.0.3+git0+705457837e_3df4aae607
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-quota
+RDEPENDS = kernel-5.0.3-yocto-standard kernel-module-x-tables-5.0.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5304
+FILES = /lib/modules/5.0.3-yocto-standard/kernel/net/netfilter/xt_quota.ko /etc/modules-load.d/xt_quota.conf /etc/modprobe.d/xt_quota.conf
+FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/net/netfilter/xt_quota.ko

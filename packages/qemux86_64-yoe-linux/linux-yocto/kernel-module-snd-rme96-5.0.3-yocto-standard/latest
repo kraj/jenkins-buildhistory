@@ -1,0 +1,10 @@
+PV = 5.0.3+gitAUTOINC+705457837e_3df4aae607
+PR = r0
+PKGV = 5.0.3+git0+705457837e_3df4aae607
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-rme96
+RDEPENDS = kernel-5.0.3-yocto-standard kernel-module-snd-5.0.3-yocto-standard kernel-module-snd-pcm-5.0.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 41336
+FILES = /lib/modules/5.0.3-yocto-standard/kernel/sound/pci/snd-rme96.ko /etc/modules-load.d/snd-rme96.conf /etc/modprobe.d/snd-rme96.conf
+FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/sound/pci/snd-rme96.ko
