@@ -1,10 +1,10 @@
 PV = 1.2.11
 PR = r0
 PKG = libz-dbg
-PKGR = r0.88
+PKGR = r0.89
 RPROVIDES = zlib-dbg (=1.2.11)
 RDEPENDS = 
 RRECOMMENDS = musl-dbg
-PKGSIZE = 605744
+PKGSIZE = 213360
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /lib/.debug/libz.so.1.2.11 /usr/lib/zlib/ptest/.debug/example /usr/lib/zlib/ptest/.debug/examplesh /usr/lib/zlib/ptest/.debug/minigzip /usr/lib/zlib/ptest/.debug/minigzipsh
+FILELIST = /lib/.debug/libz.so.1.2.11 /usr/lib/zlib/ptest/.debug/examplesh
