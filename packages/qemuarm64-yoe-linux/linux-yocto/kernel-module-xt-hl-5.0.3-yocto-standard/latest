@@ -1,0 +1,10 @@
+PV = 5.0.3+gitAUTOINC+705457837e_3df4aae607
+PR = r0
+PKGV = 5.0.3+git0+705457837e_3df4aae607
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-hl
+RDEPENDS = kernel-5.0.3-yocto-standard kernel-module-x-tables-5.0.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13312
+FILES = /lib/modules/5.0.3-yocto-standard/kernel/net/netfilter/xt_HL.ko /etc/modules-load.d/xt_HL.conf /etc/modprobe.d/xt_HL.conf /lib/modules/5.0.3-yocto-standard/kernel/net/netfilter/xt_hl.ko /etc/modules-load.d/xt_hl.conf /etc/modprobe.d/xt_hl.conf
+FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/net/netfilter/xt_HL.ko /lib/modules/5.0.3-yocto-standard/kernel/net/netfilter/xt_hl.ko
