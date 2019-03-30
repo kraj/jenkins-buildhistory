@@ -1,10 +1,10 @@
 PV = 1.1.1+gitAUTOINC+319783c635
 PR = r0
 PKGV = 1.1.1+git0+319783c635
-PKGR = r0.26
+PKGR = r0.27
 RPROVIDES = 
-RDEPENDS = jsonrpc (= 1.1.1+git0+319783c635-r0.26)
+RDEPENDS = jsonrpc (= 1.1.1+git0+319783c635-r0.27)
 RRECOMMENDS = curl-dev glibc-dev hiredis-dev jsoncpp-dev libcurl-dev libgcc-dev libmicrohttpd-dev libstdc++-dev
-PKGSIZE = 58142
+PKGSIZE = 58258
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/jsonrpc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/libjson-rpc-cpp/cmake
 FILELIST = /usr/include/jsonrpccpp/client.h /usr/include/jsonrpccpp/client/batchcall.h /usr/include/jsonrpccpp/client/batchresponse.h /usr/include/jsonrpccpp/client/client.h /usr/include/jsonrpccpp/client/connectors/httpclient.h /usr/include/jsonrpccpp/client/connectors/redisclient.h /usr/include/jsonrpccpp/client/iclientconnector.h /usr/include/jsonrpccpp/common/errors.h /usr/include/jsonrpccpp/common/exception.h /usr/include/jsonrpccpp/common/jsonparser.h /usr/include/jsonrpccpp/common/procedure.h /usr/include/jsonrpccpp/common/sharedconstants.h /usr/include/jsonrpccpp/common/specification.h /usr/include/jsonrpccpp/common/specificationparser.h /usr/include/jsonrpccpp/common/specificationwriter.h /usr/include/jsonrpccpp/common/streamreader.h /usr/include/jsonrpccpp/common/streamwriter.h /usr/include/jsonrpccpp/server.h /usr/include/jsonrpccpp/server/abstractserver.h /usr/include/jsonrpccpp/server/abstractserverconnector.h /usr/include/jsonrpccpp/server/abstractthreadedserver.h /usr/include/jsonrpccpp/server/connectors/httpserver.h /usr/include/jsonrpccpp/server/connectors/redisserver.h /usr/include/jsonrpccpp/server/iclientconnectionhandler.h /usr/include/jsonrpccpp/server/iprocedureinvokationhandler.h /usr/include/jsonrpccpp/server/requesthandlerfactory.h /usr/include/jsonrpccpp/server/threadpool.h /usr/include/jsonrpccpp/version.h /usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppConfig.cmake /usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppConfigVersion.cmake /usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppTargets-noconfig.cmake /usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppTargets.cmake /usr/lib/libjsonrpccpp-client.so /usr/lib/libjsonrpccpp-common.so /usr/lib/libjsonrpccpp-server.so /usr/lib/pkgconfig/libjsonrpccpp-client.pc /usr/lib/pkgconfig/libjsonrpccpp-common.pc /usr/lib/pkgconfig/libjsonrpccpp-server.pc
