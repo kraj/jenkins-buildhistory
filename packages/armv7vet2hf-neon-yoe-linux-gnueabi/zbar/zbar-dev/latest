@@ -1,9 +1,9 @@
 PV = 0.10
 PR = r0
 PKG = libzbar-dev
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = zbar-dev (=0.10)
-RDEPENDS = zbar (= 0.10-r0.11)
+RDEPENDS = zbar (= 0.10-r0.12)
 RRECOMMENDS = glibc-dev jpeg-dev libice-dev libjpeg-turbo-dev libpng-dev libsm-dev libx11-dev libxau-dev libxcb-dev libxdmcp-dev libxext-dev libxv-dev pkgconfig-dev
 PKGSIZE = 99435
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/zbar/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
