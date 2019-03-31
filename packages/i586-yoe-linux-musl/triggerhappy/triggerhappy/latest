@@ -1,0 +1,9 @@
+PV = 0.5.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libsystemd (>= 241+0+c1f8ff8d0d) musl (>= 1.1.21+git3+43e7efb465)
+RRECOMMENDS = 
+PKGSIZE = 52692
+FILES = /usr/sbin/thd /usr/sbin/th-cmd /etc/triggerhappy/triggers.d /lib/udev/rules.d/80-triggerhappy.rules /etc/init.d/triggerhappy /lib/systemd/system /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket
+FILELIST = /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket /lib/udev/rules.d/80-triggerhappy.rules /usr/sbin/th-cmd /usr/sbin/thd
