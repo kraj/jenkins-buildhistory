@@ -1,9 +1,9 @@
-PV = 3.0.6
+PV = 3.1.4
 PR = r0
-PKGR = r0.80
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libmodbus (= 3.0.6-r0.80)
+RDEPENDS = libmodbus (= 3.1.4-r0.0)
 RRECOMMENDS = musl-dev
-PKGSIZE = 13358
+PKGSIZE = 15800
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmodbus/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/modbus/modbus-rtu.h /usr/include/modbus/modbus-tcp.h /usr/include/modbus/modbus-version.h /usr/include/modbus/modbus.h /usr/lib/libmodbus.so /usr/lib/pkgconfig/libmodbus.pc

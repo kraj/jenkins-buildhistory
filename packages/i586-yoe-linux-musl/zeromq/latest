@@ -1,5 +1,5 @@
-PV = 4.2.5
+PV = 4.3.1
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libsodium libtool-cross libtool-native pkgconfig-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+DEPENDS = cmake-native libsodium ninja-native pkgconfig-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
 PACKAGES = zeromq-src zeromq-dbg zeromq-ptest zeromq-staticdev zeromq-dev zeromq-doc zeromq-locale zeromq
 LAYER = openembedded-layer

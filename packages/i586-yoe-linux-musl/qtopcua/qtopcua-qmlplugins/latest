@@ -1,11 +1,11 @@
-PV = 5.12.0+gitAUTOINC+fd6f1d80aa
+PV = 5.12.2+gitAUTOINC+72c2ee600f
 PR = r0
 PKG = libqt5opcua-qmlplugins
-PKGV = 5.12.0+git0+fd6f1d80aa
-PKGR = r0.58
-RPROVIDES = qtopcua-qmlplugins (=5.12.0+git0+fd6f1d80aa)
-RDEPENDS = 
+PKGV = 5.12.2+git0+72c2ee600f
+PKGR = r0.0
+RPROVIDES = qtopcua-qmlplugins (=5.12.2+git0+72c2ee600f)
+RDEPENDS = libstdc++ (>= 8.3.0) musl (>= 1.1.21+git3+43e7efb465) qtbase (>= 5.12.2+git0+856fb1ab44) qtdeclarative (>= 5.12.2+git0+cd7ce85ff0) qtopcua (>= 5.12.2+git0+72c2ee600f)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 168334
 FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
-FILELIST = 
+FILELIST = /usr/lib/qml/QtOpcUa/libdeclarative_opcua.so /usr/lib/qml/QtOpcUa/plugins.qmltypes /usr/lib/qml/QtOpcUa/qmldir
