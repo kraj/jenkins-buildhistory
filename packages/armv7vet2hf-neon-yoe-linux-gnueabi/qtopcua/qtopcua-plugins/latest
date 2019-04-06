@@ -1,11 +1,11 @@
-PV = 5.12.0+gitAUTOINC+fd6f1d80aa
+PV = 5.12.2+gitAUTOINC+72c2ee600f
 PR = r0
 PKG = libqt5opcua-plugins
-PKGV = 5.12.0+git0+fd6f1d80aa
-PKGR = r0.13
-RPROVIDES = qtopcua-plugins (=5.12.0+git0+fd6f1d80aa)
-RDEPENDS = 
+PKGV = 5.12.2+git0+72c2ee600f
+PKGR = r0.0
+RPROVIDES = qtopcua-plugins (=5.12.2+git0+72c2ee600f)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) qtbase (>= 5.12.2+git0+856fb1ab44) qtopcua (>= 5.12.2+git0+72c2ee600f)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 478564
 FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
-FILELIST = 
+FILELIST = /usr/lib/plugins/opcua/libopen62541_backend.so

@@ -1,5 +1,5 @@
-PV = 5.12.0+gitAUTOINC+fd6f1d80aa
+PV = 5.12.2+gitAUTOINC+72c2ee600f
 PR = r0
-DEPENDS = qtbase qtbase-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = qtbase qtbase-native qtdeclarative virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = qtopcua-src qtopcua-dbg qtopcua-qmldesigner qtopcua-qmlplugins qtopcua-tools qtopcua-plugins qtopcua-mkspecs qtopcua-examples qtopcua-staticdev qtopcua-dev qtopcua-doc qtopcua-locale qtopcua
 LAYER = qt5-layer
