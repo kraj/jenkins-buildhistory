@@ -2,11 +2,11 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/man
 drwxr-xr-x root       root               80 ./usr/share/man/man1
--rw-r--r-- root       root           131847 ./usr/share/man/man1/curl.1
+-rw-r--r-- root       root           133108 ./usr/share/man/man1/curl.1
 -rw-r--r-- root       root             4402 ./usr/share/man/man1/curl-config.1
-drwxr-xr-x root       root             8520 ./usr/share/man/man3
+drwxr-xr-x root       root             8560 ./usr/share/man/man3
 -rw-r--r-- root       root             3074 ./usr/share/man/man3/curl_easy_cleanup.3
--rw-r--r-- root       root             2347 ./usr/share/man/man3/curl_easy_duphandle.3
+-rw-r--r-- root       root             2446 ./usr/share/man/man3/curl_easy_duphandle.3
 -rw-r--r-- root       root             2737 ./usr/share/man/man3/curl_easy_escape.3
 -rw-r--r-- root       root            10534 ./usr/share/man/man3/curl_easy_getinfo.3
 -rw-r--r-- root       root             2524 ./usr/share/man/man3/curl_easy_init.3
@@ -15,7 +15,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             3783 ./usr/share/man/man3/curl_easy_recv.3
 -rw-r--r-- root       root             1892 ./usr/share/man/man3/curl_easy_reset.3
 -rw-r--r-- root       root             3461 ./usr/share/man/man3/curl_easy_send.3
--rw-r--r-- root       root            28503 ./usr/share/man/man3/curl_easy_setopt.3
+-rw-r--r-- root       root            28683 ./usr/share/man/man3/curl_easy_setopt.3
 -rw-r--r-- root       root             1808 ./usr/share/man/man3/curl_easy_strerror.3
 -rw-r--r-- root       root             2501 ./usr/share/man/man3/curl_easy_unescape.3
 -rw-r--r-- root       root             2743 ./usr/share/man/man3/curl_easy_upkeep.3
@@ -111,7 +111,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             2709 ./usr/share/man/man3/CURLMOPT_MAX_HOST_CONNECTIONS.3
 -rw-r--r-- root       root             2362 ./usr/share/man/man3/CURLMOPT_MAX_PIPELINE_LENGTH.3
 -rw-r--r-- root       root             2420 ./usr/share/man/man3/CURLMOPT_MAX_TOTAL_CONNECTIONS.3
--rw-r--r-- root       root             3796 ./usr/share/man/man3/CURLMOPT_PIPELINING.3
+-rw-r--r-- root       root             3792 ./usr/share/man/man3/CURLMOPT_PIPELINING.3
 -rw-r--r-- root       root             2411 ./usr/share/man/man3/CURLMOPT_PIPELINING_SERVER_BL.3
 -rw-r--r-- root       root             2144 ./usr/share/man/man3/CURLMOPT_PIPELINING_SITE_BL.3
 -rw-r--r-- root       root             2697 ./usr/share/man/man3/CURLMOPT_PUSHDATA.3
@@ -119,7 +119,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             2401 ./usr/share/man/man3/CURLMOPT_SOCKETDATA.3
 -rw-r--r-- root       root             3598 ./usr/share/man/man3/CURLMOPT_SOCKETFUNCTION.3
 -rw-r--r-- root       root             2610 ./usr/share/man/man3/CURLMOPT_TIMERDATA.3
--rw-r--r-- root       root             3562 ./usr/share/man/man3/CURLMOPT_TIMERFUNCTION.3
+-rw-r--r-- root       root             3535 ./usr/share/man/man3/CURLMOPT_TIMERFUNCTION.3
 -rw-r--r-- root       root             3888 ./usr/share/man/man3/curl_mprintf.3
 -rw-r--r-- root       root             3240 ./usr/share/man/man3/curl_multi_add_handle.3
 -rw-r--r-- root       root             2967 ./usr/share/man/man3/curl_multi_assign.3
@@ -128,7 +128,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             3848 ./usr/share/man/man3/curl_multi_info_read.3
 -rw-r--r-- root       root             1790 ./usr/share/man/man3/curl_multi_init.3
 -rw-r--r-- root       root             5016 ./usr/share/man/man3/curl_multi_perform.3
--rw-r--r-- root       root             2058 ./usr/share/man/man3/curl_multi_remove_handle.3
+-rw-r--r-- root       root             2172 ./usr/share/man/man3/curl_multi_remove_handle.3
 -rw-r--r-- root       root             3365 ./usr/share/man/man3/curl_multi_setopt.3
 -rw-r--r-- root       root             6910 ./usr/share/man/man3/curl_multi_socket.3
 -rw-r--r-- root       root             7259 ./usr/share/man/man3/curl_multi_socket_action.3
@@ -140,6 +140,8 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             4436 ./usr/share/man/man3/CURLOPT_ACCEPT_ENCODING.3
 -rw-r--r-- root       root             2078 ./usr/share/man/man3/CURLOPT_ACCEPTTIMEOUT_MS.3
 -rw-r--r-- root       root             2089 ./usr/share/man/man3/CURLOPT_ADDRESS_SCOPE.3
+-rw-r--r-- root       root             2444 ./usr/share/man/man3/CURLOPT_ALTSVC.3
+-rw-r--r-- root       root             3794 ./usr/share/man/man3/CURLOPT_ALTSVC_CTRL.3
 -rw-r--r-- root       root             2081 ./usr/share/man/man3/CURLOPT_APPEND.3
 -rw-r--r-- root       root             2174 ./usr/share/man/man3/CURLOPT_AUTOREFERER.3
 -rw-r--r-- root       root             2577 ./usr/share/man/man3/CURLOPT_BUFFERSIZE.3
@@ -151,7 +153,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             2468 ./usr/share/man/man3/CURLOPT_CHUNK_END_FUNCTION.3
 -rw-r--r-- root       root             2186 ./usr/share/man/man3/CURLOPT_CLOSESOCKETDATA.3
 -rw-r--r-- root       root             2625 ./usr/share/man/man3/CURLOPT_CLOSESOCKETFUNCTION.3
--rw-r--r-- root       root             2440 ./usr/share/man/man3/CURLOPT_CONNECT_ONLY.3
+-rw-r--r-- root       root             2587 ./usr/share/man/man3/CURLOPT_CONNECT_ONLY.3
 -rw-r--r-- root       root             2511 ./usr/share/man/man3/CURLOPT_CONNECTTIMEOUT.3
 -rw-r--r-- root       root             2419 ./usr/share/man/man3/CURLOPT_CONNECTTIMEOUT_MS.3
 -rw-r--r-- root       root             4690 ./usr/share/man/man3/CURLOPT_CONNECT_TO.3
@@ -411,7 +413,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             2303 ./usr/share/man/man3/curl_strequal.3
 -rw-r--r-- root       root               25 ./usr/share/man/man3/curl_strnequal.3
 -rw-r--r-- root       root             2162 ./usr/share/man/man3/curl_unescape.3
--rw-r--r-- root       root             2331 ./usr/share/man/man3/curl_url.3
+-rw-r--r-- root       root             1964 ./usr/share/man/man3/curl_url.3
 -rw-r--r-- root       root             1672 ./usr/share/man/man3/curl_url_cleanup.3
 -rw-r--r-- root       root             1953 ./usr/share/man/man3/curl_url_dup.3
 -rw-r--r-- root       root             4095 ./usr/share/man/man3/curl_url_get.3
@@ -425,7 +427,7 @@ drwxr-xr-x root       root             8520 ./usr/share/man/man3
 -rw-r--r-- root       root             9472 ./usr/share/man/man3/libcurl-multi.3
 -rw-r--r-- root       root            18395 ./usr/share/man/man3/libcurl-security.3
 -rw-r--r-- root       root             3055 ./usr/share/man/man3/libcurl-share.3
--rw-r--r-- root       root            45815 ./usr/share/man/man3/libcurl-symbols.3
+-rw-r--r-- root       root            46283 ./usr/share/man/man3/libcurl-symbols.3
 -rw-r--r-- root       root             5471 ./usr/share/man/man3/libcurl-thread.3
 -rw-r--r-- root       root            62181 ./usr/share/man/man3/libcurl-tutorial.3
 -rw-r--r-- root       root             5285 ./usr/share/man/man3/libcurl-url.3

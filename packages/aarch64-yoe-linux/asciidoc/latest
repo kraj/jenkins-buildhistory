@@ -1,5 +1,5 @@
-PV = 8.6.9
+PV = 8.6.9+py3-gitAUTOINC+618f6e6f6b
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = autoconf-native automake-native docbook-xml-dtd4-native docbook-xsl-stylesheets-native gnu-config-native libtool-cross libtool-native libxml2-native libxslt-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = asciidoc-src asciidoc-dbg asciidoc-staticdev asciidoc-dev asciidoc-doc asciidoc-locale asciidoc
 LAYER = core

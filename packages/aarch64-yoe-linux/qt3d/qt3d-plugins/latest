@@ -1,10 +1,10 @@
-PV = 5.12.0+gitAUTOINC+338addb5a7
+PV = 5.12.2+gitAUTOINC+3de900a10c
 PR = r0
-PKGV = 5.12.0+git0+338addb5a7
-PKGR = r0.50
+PKGV = 5.12.2+git0+3de900a10c
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qt3d (>= 5.12.0+git0+338addb5a7) qtbase (>= 5.12.0+git0+13ed06640c)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) qt3d (>= 5.12.2+git0+3de900a10c) qtbase (>= 5.12.2+git0+856fb1ab44) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 535928
+PKGSIZE = 8148280
 FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
-FILELIST = /usr/lib/plugins/geometryloaders/libdefaultgeometryloader.so /usr/lib/plugins/geometryloaders/libgltfgeometryloader.so /usr/lib/plugins/renderplugins/libscene2d.so /usr/lib/plugins/sceneparsers/libgltfsceneexport.so /usr/lib/plugins/sceneparsers/libgltfsceneimport.so
+FILELIST = /usr/lib/plugins/geometryloaders/libdefaultgeometryloader.so /usr/lib/plugins/geometryloaders/libgltfgeometryloader.so /usr/lib/plugins/renderplugins/libscene2d.so /usr/lib/plugins/sceneparsers/libassimpsceneimport.so /usr/lib/plugins/sceneparsers/libgltfsceneexport.so /usr/lib/plugins/sceneparsers/libgltfsceneimport.so

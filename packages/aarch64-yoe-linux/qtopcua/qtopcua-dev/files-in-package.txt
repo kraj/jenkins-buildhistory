@@ -1,17 +1,17 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              860 ./usr/include/QtOpcUa
-drwxr-xr-x root       root               60 ./usr/include/QtOpcUa/5.12.0
-drwxr-xr-x root       root               60 ./usr/include/QtOpcUa/5.12.0/QtOpcUa
-drwxr-xr-x root       root              200 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private
--rw-r--r-- root       root             5493 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuabackend_p.h
--rw-r--r-- root       root             6283 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuaclientimpl_p.h
--rw-r--r-- root       root             3352 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuaclient_p.h
--rw-r--r-- root       root             3694 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuamonitoringparameters_p.h
--rw-r--r-- root       root             4205 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuanodecreationattributes_p.h
--rw-r--r-- root       root             4713 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuanodeimpl_p.h
--rw-r--r-- root       root            11224 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qopcuanode_p.h
--rw-r--r-- root       root              129 ./usr/include/QtOpcUa/5.12.0/QtOpcUa/private/qtopcua-config_p.h
+drwxr-xr-x root       root               60 ./usr/include/QtOpcUa/5.12.2
+drwxr-xr-x root       root               60 ./usr/include/QtOpcUa/5.12.2/QtOpcUa
+drwxr-xr-x root       root              200 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private
+-rw-r--r-- root       root             5493 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuabackend_p.h
+-rw-r--r-- root       root             6283 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuaclientimpl_p.h
+-rw-r--r-- root       root             3352 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuaclient_p.h
+-rw-r--r-- root       root             3694 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuamonitoringparameters_p.h
+-rw-r--r-- root       root             4205 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuanodecreationattributes_p.h
+-rw-r--r-- root       root             4713 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuanodeimpl_p.h
+-rw-r--r-- root       root            11224 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qopcuanode_p.h
+-rw-r--r-- root       root              167 ./usr/include/QtOpcUa/5.12.2/QtOpcUa/private/qtopcua-config_p.h
 -rw-r--r-- root       root               31 ./usr/include/QtOpcUa/QOpcUaAddNodeItem
 -rw-r--r-- root       root             3191 ./usr/include/QtOpcUa/qopcuaaddnodeitem.h
 -rw-r--r-- root       root               36 ./usr/include/QtOpcUa/QOpcUaAddReferenceItem
@@ -33,9 +33,9 @@ drwxr-xr-x root       root              200 ./usr/include/QtOpcUa/5.12.0/QtOpcUa
 -rw-r--r-- root       root             6781 ./usr/include/QtOpcUa/qopcuanode.h
 -rw-r--r-- root       root           381239 ./usr/include/QtOpcUa/qopcuanodeids.h
 -rw-r--r-- root       root               26 ./usr/include/QtOpcUa/QOpcUaPlugin
--rw-r--r-- root       root             2290 ./usr/include/QtOpcUa/qopcuaplugin.h
+-rw-r--r-- root       root             2326 ./usr/include/QtOpcUa/qopcuaplugin.h
 -rw-r--r-- root       root               28 ./usr/include/QtOpcUa/QOpcUaProvider
--rw-r--r-- root       root             2359 ./usr/include/QtOpcUa/qopcuaprovider.h
+-rw-r--r-- root       root             2413 ./usr/include/QtOpcUa/qopcuaprovider.h
 -rw-r--r-- root       root               28 ./usr/include/QtOpcUa/QOpcUaReadItem
 -rw-r--r-- root       root             2634 ./usr/include/QtOpcUa/qopcuareaditem.h
 -rw-r--r-- root       root               30 ./usr/include/QtOpcUa/QOpcUaReadResult
@@ -54,10 +54,11 @@ drwxr-xr-x root       root              200 ./usr/include/QtOpcUa/5.12.0/QtOpcUa
 -rw-r--r-- root       root              203 ./usr/include/QtOpcUa/qtopcuaversion.h
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/cmake
-drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5OpcUa
+drwxr-xr-x root       root              100 ./usr/lib/cmake/Qt5OpcUa
 -rw-r--r-- root       root             7258 ./usr/lib/cmake/Qt5OpcUa/Qt5OpcUaConfig.cmake
 -rw-r--r-- root       root              288 ./usr/lib/cmake/Qt5OpcUa/Qt5OpcUaConfigVersion.cmake
+-rw-r--r-- root       root              198 ./usr/lib/cmake/Qt5OpcUa/Qt5OpcUa_QOpen62541Plugin.cmake
 -rw-r--r-- root       root             1085 ./usr/lib/libQt5OpcUa.prl
-lrwxrwxrwx root       root               21 ./usr/lib/libQt5OpcUa.so -> libQt5OpcUa.so.5.12.0
+lrwxrwxrwx root       root               21 ./usr/lib/libQt5OpcUa.so -> libQt5OpcUa.so.5.12.2
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              256 ./usr/lib/pkgconfig/Qt5OpcUa.pc
