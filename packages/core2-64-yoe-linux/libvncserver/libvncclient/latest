@@ -1,0 +1,10 @@
+PV = git
+PR = r0
+PKG = libvncclient1
+PKGR = r0.67
+RPROVIDES = libvncclient (=git)
+RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.5) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.2) lzo (>= 2.10) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 149942
+FILES = /usr/lib/libvncclient.*
+FILELIST = /usr/lib/libvncclient.so.0.9.12 /usr/lib/libvncclient.so.1

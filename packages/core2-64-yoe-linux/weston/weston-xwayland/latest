@@ -1,9 +1,9 @@
-PV = 5.0.0
+PV = 6.0.0
 PR = r0
-PKGR = r0.95
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.16.0) glib-2.0 (>= 2.58.3) glibc (>= 2.29) libinput (>= 1.12.6) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.36) libweston-5 (>= 5.0.0) libxcb (>= 1.13.1) libxcb-composite (>= 1.13.1) libxcb-render (>= 1.13.1) libxcb-shape (>= 1.13.1) libxcb-xfixes (>= 1.13.1) libxcursor (>= 1.2.0) libxkbcommon (>= 0.8.4) pango (>= 1.42.4) pixman (>= 0.38.0) wayland (>= 1.17.0) xserver-xorg-xwayland zlib (>= 1.2.11)
+RDEPENDS = cairo (>= 1.16.0) glib-2.0 (>= 2.58.3) glibc (>= 2.29) libinput (>= 1.13.0) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.36) libweston-6 (>= 6.0.0) libxcb (>= 1.13.1) libxcb-composite (>= 1.13.1) libxcb-render (>= 1.13.1) libxcb-shape (>= 1.13.1) libxcb-xfixes (>= 1.13.1) libxcursor (>= 1.2.0) libxkbcommon (>= 0.8.4) pango (>= 1.42.4) pixman (>= 0.38.0) wayland (>= 1.17.0) xserver-xorg-xwayland zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 92624
-FILES = /usr/lib/libweston-5/xwayland.so
-FILELIST = /usr/lib/libweston-5/xwayland.so
+PKGSIZE = 96720
+FILES = /usr/lib/libweston-6/xwayland.so
+FILELIST = /usr/lib/libweston-6/xwayland.so
