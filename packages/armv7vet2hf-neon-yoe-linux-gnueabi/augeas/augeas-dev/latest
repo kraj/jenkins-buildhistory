@@ -1,9 +1,9 @@
-PV = 1.10.1
+PV = 1.11.0
 PR = r0
-PKGR = r0.12
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = augeas (= 1.10.1-r0.12) libaugeas
+RDEPENDS = augeas (= 1.11.0-r0.0) libaugeas
 RRECOMMENDS = augeas-lenses-dev glibc-dev libaugeas-dev libgcc-dev libxml2-dev readline-dev
-PKGSIZE = 35975
+PKGSIZE = 36030
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/augeas/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/augeas.h /usr/include/fa.h /usr/lib/libaugeas.so /usr/lib/libfa.so /usr/lib/pkgconfig/augeas.pc
