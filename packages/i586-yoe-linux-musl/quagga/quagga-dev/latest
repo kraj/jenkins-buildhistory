@@ -1,8 +1,8 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.91
+PKGR = r0.92
 RPROVIDES = 
-RDEPENDS = quagga (= 1.2.4-r0.91) quagga-ospfclient quagga-ospfd
+RDEPENDS = quagga (= 1.2.4-r0.92) quagga-ospfclient quagga-ospfd
 RRECOMMENDS = base-files-dev base-passwd-dev c-ares-dev iproute2-dev libpam-dev musl-dev ncurses-dev quagga-bgpd-dev quagga-isisd-dev quagga-ospf6d-dev quagga-ospfclient-dev quagga-ospfd-dev quagga-ripd-dev quagga-ripngd-dev readline-dev shadow-dev shadow-sysroot-dev
 PKGSIZE = 286331
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quagga/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
