@@ -11,17 +11,19 @@ drwxr-xr-x root       root               60 ./etc/xen/scripts
 -rwxr-xr-x root       root             8168 ./etc/xen/scripts/block-drbd
 drwxr-xr-x root       root              100 ./lib
 drwxr-xr-x root       root              140 ./lib/drbd
--rwxr-xr-x root       root             8249 ./lib/drbd/drbd
+-rwxr-xr-x root       root             8399 ./lib/drbd/drbd
 -rwxr-xr-x root       root           200992 ./lib/drbd/drbdadm-83
 -rwxr-xr-x root       root           283592 ./lib/drbd/drbdadm-84
 -rwxr-xr-x root       root           141640 ./lib/drbd/drbdsetup-83
 -rwxr-xr-x root       root           217576 ./lib/drbd/drbdsetup-84
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              380 ./lib/systemd/system/drbd.service
+-rw-r--r-- root       root              545 ./lib/systemd/system/drbd.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
 -rw-r--r-- root       root              967 ./lib/udev/rules.d/65-drbd.rules
+drwxr-xr-x root       root               60 ./run
+drwxr-xr-x root       root               40 ./run/drbd
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              300 ./usr/lib/drbd
@@ -40,11 +42,11 @@ lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-split-brain.sh
 lrwxrwxrwx root       root               29 ./usr/lib/drbd/unsnapshot-resync-target-lvm.sh -> snapshot-resync-target-lvm.sh
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -r--r--r-- root       root               29 ./usr/lib/tmpfiles.d/drbd.conf
-drwxr-xr-x root       root              120 ./usr/sbin
--rwxr-xr-x root       root           286296 ./usr/sbin/drbdadm
--rwxr-xr-x root       root           134832 ./usr/sbin/drbdmeta
--rwxr-xr-x root       root            12915 ./usr/sbin/drbd-overview
--rwxr-xr-x root       root           222872 ./usr/sbin/drbdsetup
-drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root           286288 ./usr/sbin/drbdadm
+-rwxr-xr-x root       root           134840 ./usr/sbin/drbdmeta
+-rwxr-xr-x root       root           222904 ./usr/sbin/drbdsetup
+drwxr-xr-x root       root               80 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwxr-xr-x root       root               40 ./var/lib/drbd
+lrwxrwxrwx root       root                4 ./var/run -> /run
