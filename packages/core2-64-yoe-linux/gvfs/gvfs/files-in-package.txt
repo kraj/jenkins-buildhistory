@@ -22,11 +22,11 @@ drwxr-xr-x root       root               80 ./usr/lib/gvfs
 -rwxr-xr-x root       root           256168 ./usr/lib/gvfs/libgvfscommon.so
 -rwxr-xr-x root       root           161968 ./usr/lib/gvfs/libgvfsdaemon.so
 drwxr-xr-x root       root               60 ./usr/lib/systemd
-drwxr-xr-x root       root              120 ./usr/lib/systemd/user
--rwxr-xr-x root       root              123 ./usr/lib/systemd/user/gvfs-daemon.service
--rwxr-xr-x root       root              184 ./usr/lib/systemd/user/gvfs-gphoto2-volume-monitor.service
--rwxr-xr-x root       root              143 ./usr/lib/systemd/user/gvfs-metadata.service
--rwxr-xr-x root       root              181 ./usr/lib/systemd/user/gvfs-udisks2-volume-monitor.service
+drw-r--r-- root       root              120 ./usr/lib/systemd/user
+-rw-r--r-- root       root              123 ./usr/lib/systemd/user/gvfs-daemon.service
+-rw-r--r-- root       root              184 ./usr/lib/systemd/user/gvfs-gphoto2-volume-monitor.service
+-rw-r--r-- root       root              143 ./usr/lib/systemd/user/gvfs-metadata.service
+-rw-r--r-- root       root              181 ./usr/lib/systemd/user/gvfs-udisks2-volume-monitor.service
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root              120 ./usr/share/dbus-1/services
