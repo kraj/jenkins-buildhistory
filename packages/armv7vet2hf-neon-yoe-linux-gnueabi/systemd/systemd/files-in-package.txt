@@ -50,11 +50,10 @@ drwxr-xr-x root       root               60 ./lib/security
 -rwxr-xr-x root       root           228424 ./lib/security/pam_systemd.so
 drwxr-xr-x root       root              820 ./lib/systemd
 -rwxr-xr-x root       root          1594304 ./lib/systemd/libsystemd-shared-241.so
-drwxr-xr-x root       root              120 ./lib/systemd/network
+drwxr-xr-x root       root              100 ./lib/systemd/network
 -rw-r--r-- root       root              645 ./lib/systemd/network/80-container-host0.network
 -rw-r--r-- root       root              718 ./lib/systemd/network/80-container-ve.network
 -rw-r--r-- root       root              704 ./lib/systemd/network/80-container-vz.network
--rw-r--r-- root       root              417 ./lib/systemd/network/99-default.link
 -rw-r--r-- root       root              692 ./lib/systemd/resolv.conf
 drwxr-xr-x root       root             3080 ./lib/systemd/system
 lrwxrwxrwx root       root               14 ./lib/systemd/system/autovt@.service -> getty@.service

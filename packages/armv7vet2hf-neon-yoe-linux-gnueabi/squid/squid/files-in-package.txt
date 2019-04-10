@@ -5,60 +5,61 @@ drwxr-xr-x root       root               60 ./etc/default/volatiles
 drwxr-xr-x root       root              220 ./etc/squid
 -rw-r--r-- root       root              692 ./etc/squid/cachemgr.conf
 -rw-r--r-- root       root              692 ./etc/squid/cachemgr.conf.default
--rw-r--r-- root       root             1817 ./etc/squid/errorpage.css
--rw-r--r-- root       root             1817 ./etc/squid/errorpage.css.default
+-rw-r--r-- root       root             1800 ./etc/squid/errorpage.css
+-rw-r--r-- root       root             1800 ./etc/squid/errorpage.css.default
 -rw-r--r-- root       root            12077 ./etc/squid/mime.conf
 -rw-r--r-- root       root            12077 ./etc/squid/mime.conf.default
--rw-r--r-- root       root             2315 ./etc/squid/squid.conf
--rw-r--r-- root       root             2315 ./etc/squid/squid.conf.default
--rw-r--r-- root       root           293115 ./etc/squid/squid.conf.documented
+-rw-r--r-- root       root             2553 ./etc/squid/squid.conf
+-rw-r--r-- root       root             2553 ./etc/squid/squid.conf.default
+-rw-r--r-- root       root           318126 ./etc/squid/squid.conf.documented
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               72 ./etc/tmpfiles.d/squid.conf
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            30352 ./usr/bin/purge
--rwxr-xr-x root       root            47180 ./usr/bin/squidclient
-drwxr-xr-x root       root              660 ./usr/libexec
--rwxr-xr-x root       root             5403 ./usr/libexec/basic_db_auth
+-rwxr-xr-x root       root            55372 ./usr/bin/squidclient
+drwxr-xr-x root       root              680 ./usr/libexec
+-rwxr-xr-x root       root             5615 ./usr/libexec/basic_db_auth
 -rwxr-xr-x root       root            18072 ./usr/libexec/basic_ldap_auth
--rwxr-xr-x root       root             9872 ./usr/libexec/basic_pam_auth
+-rwxr-xr-x root       root            13968 ./usr/libexec/basic_pam_auth
 -rwxr-xr-x root       root             9864 ./usr/libexec/basic_sasl_auth
--rwxr-xr-x root       root            42752 ./usr/libexec/cachemgr.cgi
+-rwxr-xr-x root       root            50944 ./usr/libexec/cachemgr.cgi
 -rwxr-xr-x root       root             2515 ./usr/libexec/cert_tool
 -rwxr-xr-x root       root            22180 ./usr/libexec/digest_edirectory_auth
 -rwxr-xr-x root       root            13964 ./usr/libexec/digest_file_auth
--rwxr-xr-x root       root            18080 ./usr/libexec/digest_ldap_auth
+-rwxr-xr-x root       root            18084 ./usr/libexec/digest_ldap_auth
 -rwxr-xr-x root       root            14064 ./usr/libexec/diskd
--rwxr-xr-x root       root             7873 ./usr/libexec/ext_delayer_acl
+-rwxr-xr-x root       root             7891 ./usr/libexec/ext_delayer_acl
 -rwxr-xr-x root       root            30380 ./usr/libexec/ext_edirectory_userip_acl
 -rwxr-xr-x root       root             9868 ./usr/libexec/ext_file_userip_acl
 -rwxr-xr-x root       root             5784 ./usr/libexec/ext_kerberos_ldap_group_acl
--rwxr-xr-x root       root            18072 ./usr/libexec/ext_ldap_group_acl
+-rwxr-xr-x root       root            26264 ./usr/libexec/ext_ldap_group_acl
 -rwxr-xr-x root       root             9868 ./usr/libexec/ext_session_acl
--rwxr-xr-x root       root             5053 ./usr/libexec/ext_sql_session_acl
+-rwxr-xr-x root       root             5071 ./usr/libexec/ext_sql_session_acl
 -rwxr-xr-x root       root             9868 ./usr/libexec/ext_unix_group_acl
--rwxr-xr-x root       root             5067 ./usr/libexec/ext_wbinfo_group_acl
--rwxr-xr-x root       root             5393 ./usr/libexec/helper-mux.pl
--rwxr-xr-x root       root            12453 ./usr/libexec/log_db_daemon
+-rwxr-xr-x root       root             5085 ./usr/libexec/ext_wbinfo_group_acl
+-rwxr-xr-x root       root             6669 ./usr/libexec/helper-mux
+-rwxr-xr-x root       root            12984 ./usr/libexec/log_db_daemon
 -rwxr-xr-x root       root             9864 ./usr/libexec/log_file_daemon
 -rwxr-xr-x root       root             5776 ./usr/libexec/negotiate_kerberos_auth
 -rwxr-xr-x root       root             5784 ./usr/libexec/negotiate_kerberos_auth_test
 -rwxr-xr-x root       root            13968 ./usr/libexec/negotiate_wrapper_auth
 -rwxr-xr-x root       root            13964 ./usr/libexec/ntlm_fake_auth
--rwxr-xr-x root       root            44124 ./usr/libexec/ntlm_smb_lm_auth
--rwxr-xr-x root       root             3912 ./usr/libexec/storeid_file_rewrite
+-rwxr-xr-x root       root             7515 ./usr/libexec/security_fake_certverify
+-rwxr-xr-x root       root             3930 ./usr/libexec/storeid_file_rewrite
 -rwxr-xr-x root       root             5760 ./usr/libexec/unlinkd
 -rwxr-xr-x root       root             5772 ./usr/libexec/url_fake_rewrite
 -rwxr-xr-x root       root             2526 ./usr/libexec/url_fake_rewrite.sh
+-rwxr-xr-x root       root             4635 ./usr/libexec/url_lfs_rewrite
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          3601520 ./usr/sbin/squid
+-rwxr-xr-x root       root          4050596 ./usr/sbin/squid
 drwxr-xr-x root       root               80 ./usr/share
-drwxr-xr-x root       root             3380 ./usr/share/errors
-drwxr-xr-x root       root              880 ./usr/share/errors/af
+drwxr-xr-x root       root             3460 ./usr/share/errors
+drwxr-xr-x root       root              900 ./usr/share/errors/af
 -rw-r--r-- root       root             1062 ./usr/share/errors/af/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1230 ./usr/share/errors/af/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1549 ./usr/share/errors/af/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1508 ./usr/share/errors/af/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1519 ./usr/share/errors/af/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1478 ./usr/share/errors/af/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1066 ./usr/share/errors/af/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1224 ./usr/share/errors/af/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1387 ./usr/share/errors/af/ERR_CANNOT_FORWARD
@@ -86,6 +87,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/af
 -rw-r--r-- root       root             1206 ./usr/share/errors/af/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/af/error-details.txt
 -rw-r--r-- root       root              993 ./usr/share/errors/af/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1032 ./usr/share/errors/af/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1089 ./usr/share/errors/af/ERR_READ_ERROR
 -rw-r--r-- root       root             1148 ./usr/share/errors/af/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1342 ./usr/share/errors/af/ERR_SECURE_CONNECT_FAIL
@@ -97,15 +99,15 @@ drwxr-xr-x root       root              880 ./usr/share/errors/af
 -rw-r--r-- root       root              994 ./usr/share/errors/af/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1091 ./usr/share/errors/af/ERR_WRITE_ERROR
 -rw-r--r-- root       root              984 ./usr/share/errors/af/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/ar
+drwxr-xr-x root       root              900 ./usr/share/errors/ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ae -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-bh -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-dz -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-eg -> ar
 -rw-r--r-- root       root             1061 ./usr/share/errors/ar/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1221 ./usr/share/errors/ar/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1528 ./usr/share/errors/ar/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1483 ./usr/share/errors/ar/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1492 ./usr/share/errors/ar/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1447 ./usr/share/errors/ar/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1040 ./usr/share/errors/ar/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1219 ./usr/share/errors/ar/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1380 ./usr/share/errors/ar/ERR_CANNOT_FORWARD
@@ -133,6 +135,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ar-eg -> ar
 -rw-r--r-- root       root             1197 ./usr/share/errors/ar/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ar/error-details.txt
 -rw-r--r-- root       root              990 ./usr/share/errors/ar/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1020 ./usr/share/errors/ar/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1056 ./usr/share/errors/ar/ERR_READ_ERROR
 -rw-r--r-- root       root             1098 ./usr/share/errors/ar/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1328 ./usr/share/errors/ar/ERR_SECURE_CONNECT_FAIL
@@ -156,12 +159,12 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ar-sa -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-sy -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-tn -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ye -> ar
-drwxr-xr-x root       root              880 ./usr/share/errors/az
+drwxr-xr-x root       root              900 ./usr/share/errors/az
 lrwxrwxrwx root       root                2 ./usr/share/errors/az-az -> az
 -rw-r--r-- root       root             1070 ./usr/share/errors/az/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1224 ./usr/share/errors/az/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/az/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/az/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/az/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1446 ./usr/share/errors/az/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1073 ./usr/share/errors/az/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1258 ./usr/share/errors/az/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1425 ./usr/share/errors/az/ERR_CANNOT_FORWARD
@@ -189,6 +192,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/az-az -> az
 -rw-r--r-- root       root             1173 ./usr/share/errors/az/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/az/error-details.txt
 -rw-r--r-- root       root              993 ./usr/share/errors/az/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1023 ./usr/share/errors/az/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1060 ./usr/share/errors/az/ERR_READ_ERROR
 -rw-r--r-- root       root             1125 ./usr/share/errors/az/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1331 ./usr/share/errors/az/ERR_SECURE_CONNECT_FAIL
@@ -200,12 +204,12 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/az-az -> az
 -rw-r--r-- root       root              982 ./usr/share/errors/az/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1052 ./usr/share/errors/az/ERR_WRITE_ERROR
 -rw-r--r-- root       root              973 ./usr/share/errors/az/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/bg
+drwxr-xr-x root       root              900 ./usr/share/errors/bg
 lrwxrwxrwx root       root                2 ./usr/share/errors/bg-bg -> bg
 -rw-r--r-- root       root             1358 ./usr/share/errors/bg/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1465 ./usr/share/errors/bg/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1685 ./usr/share/errors/bg/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1775 ./usr/share/errors/bg/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1583 ./usr/share/errors/bg/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1673 ./usr/share/errors/bg/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1306 ./usr/share/errors/bg/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1611 ./usr/share/errors/bg/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1536 ./usr/share/errors/bg/ERR_CANNOT_FORWARD
@@ -233,6 +237,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/bg-bg -> bg
 -rw-r--r-- root       root             1666 ./usr/share/errors/bg/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/bg/error-details.txt
 -rw-r--r-- root       root             1140 ./usr/share/errors/bg/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1124 ./usr/share/errors/bg/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1328 ./usr/share/errors/bg/ERR_READ_ERROR
 -rw-r--r-- root       root             1513 ./usr/share/errors/bg/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1707 ./usr/share/errors/bg/ERR_SECURE_CONNECT_FAIL
@@ -244,11 +249,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/bg-bg -> bg
 -rw-r--r-- root       root             1206 ./usr/share/errors/bg/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1330 ./usr/share/errors/bg/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1143 ./usr/share/errors/bg/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/ca
+drwxr-xr-x root       root              900 ./usr/share/errors/ca
 -rw-r--r-- root       root             1095 ./usr/share/errors/ca/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1242 ./usr/share/errors/ca/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1541 ./usr/share/errors/ca/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1496 ./usr/share/errors/ca/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1505 ./usr/share/errors/ca/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1460 ./usr/share/errors/ca/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1069 ./usr/share/errors/ca/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1249 ./usr/share/errors/ca/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1413 ./usr/share/errors/ca/ERR_CANNOT_FORWARD
@@ -276,6 +281,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ca
 -rw-r--r-- root       root             1240 ./usr/share/errors/ca/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ca/error-details.txt
 -rw-r--r-- root       root              997 ./usr/share/errors/ca/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1041 ./usr/share/errors/ca/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1071 ./usr/share/errors/ca/ERR_READ_ERROR
 -rw-r--r-- root       root             1134 ./usr/share/errors/ca/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1349 ./usr/share/errors/ca/ERR_SECURE_CONNECT_FAIL
@@ -287,13 +293,14 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ca
 -rw-r--r-- root       root              984 ./usr/share/errors/ca/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1066 ./usr/share/errors/ca/ERR_WRITE_ERROR
 -rw-r--r-- root       root              982 ./usr/share/errors/ca/ERR_ZERO_SIZE_OBJECT
+lrwxrwxrwx root       root                2 ./usr/share/errors/ca-es -> ca
 -rw-r--r-- root       root             2241 ./usr/share/errors/COPYRIGHT
-drwxr-xr-x root       root              880 ./usr/share/errors/cs
+drwxr-xr-x root       root              900 ./usr/share/errors/cs
 lrwxrwxrwx root       root                2 ./usr/share/errors/cs-cz -> cs
 -rw-r--r-- root       root             1051 ./usr/share/errors/cs/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1206 ./usr/share/errors/cs/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/cs/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/cs/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/cs/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1446 ./usr/share/errors/cs/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1060 ./usr/share/errors/cs/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1245 ./usr/share/errors/cs/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1365 ./usr/share/errors/cs/ERR_CANNOT_FORWARD
@@ -321,6 +328,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/cs-cz -> cs
 -rw-r--r-- root       root             1199 ./usr/share/errors/cs/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/cs/error-details.txt
 -rw-r--r-- root       root              975 ./usr/share/errors/cs/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1005 ./usr/share/errors/cs/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1053 ./usr/share/errors/cs/ERR_READ_ERROR
 -rw-r--r-- root       root             1094 ./usr/share/errors/cs/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1320 ./usr/share/errors/cs/ERR_SECURE_CONNECT_FAIL
@@ -332,12 +340,12 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/cs-cz -> cs
 -rw-r--r-- root       root              965 ./usr/share/errors/cs/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1039 ./usr/share/errors/cs/ERR_WRITE_ERROR
 -rw-r--r-- root       root              956 ./usr/share/errors/cs/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/da
+drwxr-xr-x root       root              900 ./usr/share/errors/da
 lrwxrwxrwx root       root                2 ./usr/share/errors/da-dk -> da
 -rw-r--r-- root       root             1050 ./usr/share/errors/da/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1204 ./usr/share/errors/da/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1526 ./usr/share/errors/da/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1481 ./usr/share/errors/da/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1490 ./usr/share/errors/da/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1445 ./usr/share/errors/da/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1057 ./usr/share/errors/da/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1261 ./usr/share/errors/da/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1367 ./usr/share/errors/da/ERR_CANNOT_FORWARD
@@ -365,6 +373,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/da-dk -> da
 -rw-r--r-- root       root             1243 ./usr/share/errors/da/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/da/error-details.txt
 -rw-r--r-- root       root              973 ./usr/share/errors/da/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1003 ./usr/share/errors/da/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1038 ./usr/share/errors/da/ERR_READ_ERROR
 -rw-r--r-- root       root             1082 ./usr/share/errors/da/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1311 ./usr/share/errors/da/ERR_SECURE_CONNECT_FAIL
@@ -376,14 +385,14 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/da-dk -> da
 -rw-r--r-- root       root              977 ./usr/share/errors/da/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1027 ./usr/share/errors/da/ERR_WRITE_ERROR
 -rw-r--r-- root       root              953 ./usr/share/errors/da/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/de
+drwxr-xr-x root       root              900 ./usr/share/errors/de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-at -> de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-ch -> de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-de -> de
 -rw-r--r-- root       root             1088 ./usr/share/errors/de/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1303 ./usr/share/errors/de/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1580 ./usr/share/errors/de/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1537 ./usr/share/errors/de/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1526 ./usr/share/errors/de/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1483 ./usr/share/errors/de/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1054 ./usr/share/errors/de/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1285 ./usr/share/errors/de/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1398 ./usr/share/errors/de/ERR_CANNOT_FORWARD
@@ -411,6 +420,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/de-de -> de
 -rw-r--r-- root       root             1257 ./usr/share/errors/de/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/de/error-details.txt
 -rw-r--r-- root       root             1020 ./usr/share/errors/de/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1041 ./usr/share/errors/de/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1067 ./usr/share/errors/de/ERR_READ_ERROR
 -rw-r--r-- root       root             1166 ./usr/share/errors/de/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1377 ./usr/share/errors/de/ERR_SECURE_CONNECT_FAIL
@@ -424,11 +434,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/de-de -> de
 -rw-r--r-- root       root              988 ./usr/share/errors/de/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-li -> de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-lu -> de
-drwxr-xr-x root       root              880 ./usr/share/errors/el
+drwxr-xr-x root       root              900 ./usr/share/errors/el
 -rw-r--r-- root       root             1195 ./usr/share/errors/el/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1324 ./usr/share/errors/el/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1583 ./usr/share/errors/el/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1538 ./usr/share/errors/el/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1547 ./usr/share/errors/el/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1502 ./usr/share/errors/el/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1212 ./usr/share/errors/el/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1673 ./usr/share/errors/el/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1532 ./usr/share/errors/el/ERR_CANNOT_FORWARD
@@ -456,6 +466,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/el
 -rw-r--r-- root       root             1359 ./usr/share/errors/el/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/el/error-details.txt
 -rw-r--r-- root       root             1044 ./usr/share/errors/el/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1123 ./usr/share/errors/el/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1199 ./usr/share/errors/el/ERR_READ_ERROR
 -rw-r--r-- root       root             1257 ./usr/share/errors/el/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1431 ./usr/share/errors/el/ERR_SECURE_CONNECT_FAIL
@@ -468,14 +479,15 @@ drwxr-xr-x root       root              880 ./usr/share/errors/el
 -rw-r--r-- root       root             1190 ./usr/share/errors/el/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1100 ./usr/share/errors/el/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/el-gr -> el
-drwxr-xr-x root       root              880 ./usr/share/errors/en
+drwxr-xr-x root       root              900 ./usr/share/errors/en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-au -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-bz -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-ca -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-cn -> en
 -rw-r--r-- root       root             1060 ./usr/share/errors/en/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/en/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/en/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/en/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/en/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1446 ./usr/share/errors/en/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1039 ./usr/share/errors/en/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/en/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1379 ./usr/share/errors/en/ERR_CANNOT_FORWARD
@@ -503,6 +515,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/en-ca -> en
 -rw-r--r-- root       root             1196 ./usr/share/errors/en/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/en/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/en/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1019 ./usr/share/errors/en/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1048 ./usr/share/errors/en/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/en/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1327 ./usr/share/errors/en/ERR_SECURE_CONNECT_FAIL
@@ -526,7 +539,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/en-uk -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-us -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-za -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-zw -> en
-drwxr-xr-x root       root              880 ./usr/share/errors/es
+drwxr-xr-x root       root              900 ./usr/share/errors/es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-ar -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-bo -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-cl -> es
@@ -536,8 +549,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-do -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-ec -> es
 -rw-r--r-- root       root             1114 ./usr/share/errors/es/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1264 ./usr/share/errors/es/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1611 ./usr/share/errors/es/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1590 ./usr/share/errors/es/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1549 ./usr/share/errors/es/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1528 ./usr/share/errors/es/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1056 ./usr/share/errors/es/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1278 ./usr/share/errors/es/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1416 ./usr/share/errors/es/ERR_CANNOT_FORWARD
@@ -565,6 +578,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-ec -> es
 -rw-r--r-- root       root             1276 ./usr/share/errors/es/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/es/error-details.txt
 -rw-r--r-- root       root              998 ./usr/share/errors/es/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1037 ./usr/share/errors/es/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1065 ./usr/share/errors/es/ERR_READ_ERROR
 -rw-r--r-- root       root             1202 ./usr/share/errors/es/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1368 ./usr/share/errors/es/ERR_SECURE_CONNECT_FAIL
@@ -589,12 +603,13 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-sv -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-us -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-uy -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-ve -> es
-drwxr-xr-x root       root              880 ./usr/share/errors/et
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-xl -> es
+drwxr-xr-x root       root              900 ./usr/share/errors/et
 lrwxrwxrwx root       root                2 ./usr/share/errors/et-ee -> et
 -rw-r--r-- root       root             1063 ./usr/share/errors/et/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1207 ./usr/share/errors/et/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1529 ./usr/share/errors/et/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1484 ./usr/share/errors/et/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1493 ./usr/share/errors/et/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1448 ./usr/share/errors/et/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1083 ./usr/share/errors/et/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1348 ./usr/share/errors/et/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1365 ./usr/share/errors/et/ERR_CANNOT_FORWARD
@@ -622,6 +637,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/et-ee -> et
 -rw-r--r-- root       root             1209 ./usr/share/errors/et/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/et/error-details.txt
 -rw-r--r-- root       root              973 ./usr/share/errors/et/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1006 ./usr/share/errors/et/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1039 ./usr/share/errors/et/ERR_READ_ERROR
 -rw-r--r-- root       root             1094 ./usr/share/errors/et/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1314 ./usr/share/errors/et/ERR_SECURE_CONNECT_FAIL
@@ -633,11 +649,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/et-ee -> et
 -rw-r--r-- root       root              950 ./usr/share/errors/et/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1035 ./usr/share/errors/et/ERR_WRITE_ERROR
 -rw-r--r-- root       root              954 ./usr/share/errors/et/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/fa
+drwxr-xr-x root       root              900 ./usr/share/errors/fa
 -rw-r--r-- root       root             1120 ./usr/share/errors/fa/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1271 ./usr/share/errors/fa/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1540 ./usr/share/errors/fa/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1495 ./usr/share/errors/fa/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1504 ./usr/share/errors/fa/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1459 ./usr/share/errors/fa/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1124 ./usr/share/errors/fa/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1312 ./usr/share/errors/fa/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1445 ./usr/share/errors/fa/ERR_CANNOT_FORWARD
@@ -665,6 +681,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/fa
 -rw-r--r-- root       root             1247 ./usr/share/errors/fa/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/fa/error-details.txt
 -rw-r--r-- root       root             1040 ./usr/share/errors/fa/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1070 ./usr/share/errors/fa/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1113 ./usr/share/errors/fa/ERR_READ_ERROR
 -rw-r--r-- root       root             1182 ./usr/share/errors/fa/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1420 ./usr/share/errors/fa/ERR_SECURE_CONNECT_FAIL
@@ -678,11 +695,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/fa
 -rw-r--r-- root       root             1011 ./usr/share/errors/fa/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/fa-fa -> fa
 lrwxrwxrwx root       root                2 ./usr/share/errors/fa-ir -> fa
-drwxr-xr-x root       root              880 ./usr/share/errors/fi
+drwxr-xr-x root       root              900 ./usr/share/errors/fi
 -rw-r--r-- root       root             1060 ./usr/share/errors/fi/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/fi/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/fi/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1486 ./usr/share/errors/fi/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/fi/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1450 ./usr/share/errors/fi/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1121 ./usr/share/errors/fi/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1368 ./usr/share/errors/fi/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1375 ./usr/share/errors/fi/ERR_CANNOT_FORWARD
@@ -710,6 +727,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/fi
 -rw-r--r-- root       root             1194 ./usr/share/errors/fi/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/fi/error-details.txt
 -rw-r--r-- root       root              994 ./usr/share/errors/fi/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1017 ./usr/share/errors/fi/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1055 ./usr/share/errors/fi/ERR_READ_ERROR
 -rw-r--r-- root       root             1115 ./usr/share/errors/fi/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1325 ./usr/share/errors/fi/ERR_SECURE_CONNECT_FAIL
@@ -722,14 +740,14 @@ drwxr-xr-x root       root              880 ./usr/share/errors/fi
 -rw-r--r-- root       root             1060 ./usr/share/errors/fi/ERR_WRITE_ERROR
 -rw-r--r-- root       root              958 ./usr/share/errors/fi/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/fi-fi -> fi
-drwxr-xr-x root       root              880 ./usr/share/errors/fr
+drwxr-xr-x root       root              900 ./usr/share/errors/fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-be -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-ca -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-ch -> fr
 -rw-r--r-- root       root             1077 ./usr/share/errors/fr/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1311 ./usr/share/errors/fr/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1679 ./usr/share/errors/fr/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1618 ./usr/share/errors/fr/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1632 ./usr/share/errors/fr/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1571 ./usr/share/errors/fr/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1068 ./usr/share/errors/fr/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1362 ./usr/share/errors/fr/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1403 ./usr/share/errors/fr/ERR_CANNOT_FORWARD
@@ -757,6 +775,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fr-ch -> fr
 -rw-r--r-- root       root             1279 ./usr/share/errors/fr/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/fr/error-details.txt
 -rw-r--r-- root       root             1014 ./usr/share/errors/fr/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1028 ./usr/share/errors/fr/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1089 ./usr/share/errors/fr/ERR_READ_ERROR
 -rw-r--r-- root       root             1168 ./usr/share/errors/fr/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1397 ./usr/share/errors/fr/ERR_SECURE_CONNECT_FAIL
@@ -771,11 +790,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fr-ch -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-fr -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-lu -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-mc -> fr
-drwxr-xr-x root       root              880 ./usr/share/errors/he
+drwxr-xr-x root       root              900 ./usr/share/errors/he
 -rw-r--r-- root       root             1123 ./usr/share/errors/he/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1380 ./usr/share/errors/he/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1822 ./usr/share/errors/he/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1718 ./usr/share/errors/he/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1684 ./usr/share/errors/he/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1580 ./usr/share/errors/he/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1099 ./usr/share/errors/he/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1283 ./usr/share/errors/he/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1448 ./usr/share/errors/he/ERR_CANNOT_FORWARD
@@ -803,6 +822,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/he
 -rw-r--r-- root       root             1252 ./usr/share/errors/he/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/he/error-details.txt
 -rw-r--r-- root       root             1085 ./usr/share/errors/he/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1075 ./usr/share/errors/he/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1121 ./usr/share/errors/he/ERR_READ_ERROR
 -rw-r--r-- root       root             1193 ./usr/share/errors/he/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1415 ./usr/share/errors/he/ERR_SECURE_CONNECT_FAIL
@@ -815,11 +835,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/he
 -rw-r--r-- root       root             1112 ./usr/share/errors/he/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1023 ./usr/share/errors/he/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/he-il -> he
-drwxr-xr-x root       root              880 ./usr/share/errors/hu
+drwxr-xr-x root       root              900 ./usr/share/errors/hu
 -rw-r--r-- root       root             1051 ./usr/share/errors/hu/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1289 ./usr/share/errors/hu/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1708 ./usr/share/errors/hu/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1714 ./usr/share/errors/hu/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1616 ./usr/share/errors/hu/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1622 ./usr/share/errors/hu/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1080 ./usr/share/errors/hu/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1261 ./usr/share/errors/hu/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1329 ./usr/share/errors/hu/ERR_CANNOT_FORWARD
@@ -847,6 +867,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/hu
 -rw-r--r-- root       root             1248 ./usr/share/errors/hu/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/hu/error-details.txt
 -rw-r--r-- root       root              946 ./usr/share/errors/hu/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root              995 ./usr/share/errors/hu/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1050 ./usr/share/errors/hu/ERR_READ_ERROR
 -rw-r--r-- root       root             1160 ./usr/share/errors/hu/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1323 ./usr/share/errors/hu/ERR_SECURE_CONNECT_FAIL
@@ -859,13 +880,13 @@ drwxr-xr-x root       root              880 ./usr/share/errors/hu
 -rw-r--r-- root       root             1050 ./usr/share/errors/hu/ERR_WRITE_ERROR
 -rw-r--r-- root       root              934 ./usr/share/errors/hu/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/hu-hu -> hu
-drwxr-xr-x root       root              880 ./usr/share/errors/hy
+drwxr-xr-x root       root              900 ./usr/share/errors/hy
 lrwxrwxrwx root       root                2 ./usr/share/errors/hy-am -> hy
 lrwxrwxrwx root       root                2 ./usr/share/errors/hy-armn -> hy
 -rw-r--r-- root       root             1290 ./usr/share/errors/hy/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1518 ./usr/share/errors/hy/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1904 ./usr/share/errors/hy/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1868 ./usr/share/errors/hy/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1675 ./usr/share/errors/hy/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1639 ./usr/share/errors/hy/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1339 ./usr/share/errors/hy/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1382 ./usr/share/errors/hy/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1694 ./usr/share/errors/hy/ERR_CANNOT_FORWARD
@@ -893,6 +914,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/hy-armn -> hy
 -rw-r--r-- root       root             1400 ./usr/share/errors/hy/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/hy/error-details.txt
 -rw-r--r-- root       root             1127 ./usr/share/errors/hy/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1102 ./usr/share/errors/hy/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1217 ./usr/share/errors/hy/ERR_READ_ERROR
 -rw-r--r-- root       root             1442 ./usr/share/errors/hy/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1290 ./usr/share/errors/hy/ERR_SECURE_CONNECT_FAIL
@@ -904,11 +926,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/hy-armn -> hy
 -rw-r--r-- root       root             1112 ./usr/share/errors/hy/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1222 ./usr/share/errors/hy/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1129 ./usr/share/errors/hy/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/id
+drwxr-xr-x root       root              900 ./usr/share/errors/id
 -rw-r--r-- root       root             1059 ./usr/share/errors/id/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/id/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/id/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/id/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/id/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1446 ./usr/share/errors/id/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1037 ./usr/share/errors/id/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/id/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1379 ./usr/share/errors/id/ERR_CANNOT_FORWARD
@@ -936,6 +958,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/id
 -rw-r--r-- root       root             1196 ./usr/share/errors/id/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/id/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/id/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1019 ./usr/share/errors/id/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1048 ./usr/share/errors/id/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/id/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1327 ./usr/share/errors/id/ERR_SECURE_CONNECT_FAIL
@@ -948,12 +971,12 @@ drwxr-xr-x root       root              880 ./usr/share/errors/id
 -rw-r--r-- root       root             1042 ./usr/share/errors/id/ERR_WRITE_ERROR
 -rw-r--r-- root       root              960 ./usr/share/errors/id/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/id-id -> id
-drwxr-xr-x root       root              880 ./usr/share/errors/it
+drwxr-xr-x root       root              900 ./usr/share/errors/it
 lrwxrwxrwx root       root                2 ./usr/share/errors/it-ch -> it
 -rw-r--r-- root       root             1060 ./usr/share/errors/it/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1239 ./usr/share/errors/it/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1640 ./usr/share/errors/it/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1591 ./usr/share/errors/it/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1587 ./usr/share/errors/it/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1538 ./usr/share/errors/it/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1146 ./usr/share/errors/it/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1317 ./usr/share/errors/it/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1545 ./usr/share/errors/it/ERR_CANNOT_FORWARD
@@ -981,6 +1004,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/it-ch -> it
 -rw-r--r-- root       root             1282 ./usr/share/errors/it/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/it/error-details.txt
 -rw-r--r-- root       root             1041 ./usr/share/errors/it/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1046 ./usr/share/errors/it/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1090 ./usr/share/errors/it/ERR_READ_ERROR
 -rw-r--r-- root       root             1166 ./usr/share/errors/it/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1344 ./usr/share/errors/it/ERR_SECURE_CONNECT_FAIL
@@ -993,11 +1017,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/it-ch -> it
 -rw-r--r-- root       root             1112 ./usr/share/errors/it/ERR_WRITE_ERROR
 -rw-r--r-- root       root              999 ./usr/share/errors/it/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/it-it -> it
-drwxr-xr-x root       root              880 ./usr/share/errors/ja
+drwxr-xr-x root       root              900 ./usr/share/errors/ja
 -rw-r--r-- root       root             1141 ./usr/share/errors/ja/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1276 ./usr/share/errors/ja/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1633 ./usr/share/errors/ja/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1613 ./usr/share/errors/ja/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1521 ./usr/share/errors/ja/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1501 ./usr/share/errors/ja/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1199 ./usr/share/errors/ja/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1517 ./usr/share/errors/ja/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1426 ./usr/share/errors/ja/ERR_CANNOT_FORWARD
@@ -1025,6 +1049,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ja
 -rw-r--r-- root       root             1425 ./usr/share/errors/ja/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ja/error-details.txt
 -rw-r--r-- root       root             1045 ./usr/share/errors/ja/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1075 ./usr/share/errors/ja/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1147 ./usr/share/errors/ja/ERR_READ_ERROR
 -rw-r--r-- root       root             1203 ./usr/share/errors/ja/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1528 ./usr/share/errors/ja/ERR_SECURE_CONNECT_FAIL
@@ -1037,55 +1062,56 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ja
 -rw-r--r-- root       root             1170 ./usr/share/errors/ja/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1065 ./usr/share/errors/ja/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/ja-jp -> ja
-drwxr-xr-x root       root              880 ./usr/share/errors/ka
--rw-r--r-- root       root             1060 ./usr/share/errors/ka/ERR_ACCESS_DENIED
--rw-r--r-- root       root             1220 ./usr/share/errors/ka/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/ka/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/ka/ERR_AGENT_WPAD
--rw-r--r-- root       root             1039 ./usr/share/errors/ka/ERR_CACHE_ACCESS_DENIED
--rw-r--r-- root       root             1218 ./usr/share/errors/ka/ERR_CACHE_MGR_ACCESS_DENIED
--rw-r--r-- root       root             1379 ./usr/share/errors/ka/ERR_CANNOT_FORWARD
--rw-r--r-- root       root             1294 ./usr/share/errors/ka/ERR_CONFLICT_HOST
--rw-r--r-- root       root             1041 ./usr/share/errors/ka/ERR_CONNECT_FAIL
--rw-r--r-- root       root              973 ./usr/share/errors/ka/ERR_DIR_LISTING
--rw-r--r-- root       root             1152 ./usr/share/errors/ka/ERR_DNS_FAIL
--rw-r--r-- root       root             1107 ./usr/share/errors/ka/ERR_ESI
--rw-r--r-- root       root             1077 ./usr/share/errors/ka/ERR_FORWARDING_DENIED
--rw-r--r-- root       root              944 ./usr/share/errors/ka/ERR_FTP_DISABLED
--rw-r--r-- root       root             1026 ./usr/share/errors/ka/ERR_FTP_FAILURE
--rw-r--r-- root       root             1035 ./usr/share/errors/ka/ERR_FTP_FORBIDDEN
--rw-r--r-- root       root             1181 ./usr/share/errors/ka/ERR_FTP_NOT_FOUND
--rw-r--r-- root       root              644 ./usr/share/errors/ka/ERR_FTP_PUT_CREATED
--rw-r--r-- root       root             1116 ./usr/share/errors/ka/ERR_FTP_PUT_ERROR
--rw-r--r-- root       root              647 ./usr/share/errors/ka/ERR_FTP_PUT_MODIFIED
--rw-r--r-- root       root             1012 ./usr/share/errors/ka/ERR_FTP_UNAVAILABLE
--rw-r--r-- root       root             1175 ./usr/share/errors/ka/ERR_GATEWAY_FAILURE
--rw-r--r-- root       root             1131 ./usr/share/errors/ka/ERR_ICAP_FAILURE
--rw-r--r-- root       root             1713 ./usr/share/errors/ka/ERR_INVALID_REQ
--rw-r--r-- root       root             1160 ./usr/share/errors/ka/ERR_INVALID_RESP
--rw-r--r-- root       root             1254 ./usr/share/errors/ka/ERR_INVALID_URL
--rw-r--r-- root       root             1012 ./usr/share/errors/ka/ERR_LIFETIME_EXP
--rw-r--r-- root       root              987 ./usr/share/errors/ka/ERR_NO_RELAY
--rw-r--r-- root       root             1196 ./usr/share/errors/ka/ERR_ONLY_IF_CACHED_MISS
+drwxr-xr-x root       root              900 ./usr/share/errors/ka
+-rw-r--r-- root       root             1666 ./usr/share/errors/ka/ERR_ACCESS_DENIED
+-rw-r--r-- root       root             1529 ./usr/share/errors/ka/ERR_ACL_TIME_QUOTA_EXCEEDED
+-rw-r--r-- root       root             1622 ./usr/share/errors/ka/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1577 ./usr/share/errors/ka/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1280 ./usr/share/errors/ka/ERR_CACHE_ACCESS_DENIED
+-rw-r--r-- root       root             1409 ./usr/share/errors/ka/ERR_CACHE_MGR_ACCESS_DENIED
+-rw-r--r-- root       root             1688 ./usr/share/errors/ka/ERR_CANNOT_FORWARD
+-rw-r--r-- root       root             1603 ./usr/share/errors/ka/ERR_CONFLICT_HOST
+-rw-r--r-- root       root             1435 ./usr/share/errors/ka/ERR_CONNECT_FAIL
+-rw-r--r-- root       root             1189 ./usr/share/errors/ka/ERR_DIR_LISTING
+-rw-r--r-- root       root             1491 ./usr/share/errors/ka/ERR_DNS_FAIL
+-rw-r--r-- root       root             1363 ./usr/share/errors/ka/ERR_ESI
+-rw-r--r-- root       root             1386 ./usr/share/errors/ka/ERR_FORWARDING_DENIED
+-rw-r--r-- root       root             1269 ./usr/share/errors/ka/ERR_FTP_DISABLED
+-rw-r--r-- root       root             1335 ./usr/share/errors/ka/ERR_FTP_FAILURE
+-rw-r--r-- root       root             1344 ./usr/share/errors/ka/ERR_FTP_FORBIDDEN
+-rw-r--r-- root       root             1571 ./usr/share/errors/ka/ERR_FTP_NOT_FOUND
+-rw-r--r-- root       root              811 ./usr/share/errors/ka/ERR_FTP_PUT_CREATED
+-rw-r--r-- root       root             1316 ./usr/share/errors/ka/ERR_FTP_PUT_ERROR
+-rw-r--r-- root       root              814 ./usr/share/errors/ka/ERR_FTP_PUT_MODIFIED
+-rw-r--r-- root       root             1321 ./usr/share/errors/ka/ERR_FTP_UNAVAILABLE
+-rw-r--r-- root       root             1484 ./usr/share/errors/ka/ERR_GATEWAY_FAILURE
+-rw-r--r-- root       root             1440 ./usr/share/errors/ka/ERR_ICAP_FAILURE
+-rw-r--r-- root       root             2061 ./usr/share/errors/ka/ERR_INVALID_REQ
+-rw-r--r-- root       root             1469 ./usr/share/errors/ka/ERR_INVALID_RESP
+-rw-r--r-- root       root             1580 ./usr/share/errors/ka/ERR_INVALID_URL
+-rw-r--r-- root       root             1321 ./usr/share/errors/ka/ERR_LIFETIME_EXP
+-rw-r--r-- root       root             1296 ./usr/share/errors/ka/ERR_NO_RELAY
+-rw-r--r-- root       root             1505 ./usr/share/errors/ka/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ka/error-details.txt
--rw-r--r-- root       root              989 ./usr/share/errors/ka/ERR_PRECONDITION_FAILED
--rw-r--r-- root       root             1048 ./usr/share/errors/ka/ERR_READ_ERROR
--rw-r--r-- root       root             1097 ./usr/share/errors/ka/ERR_READ_TIMEOUT
--rw-r--r-- root       root             1327 ./usr/share/errors/ka/ERR_SECURE_CONNECT_FAIL
--rw-r--r-- root       root              972 ./usr/share/errors/ka/ERR_SHUTTING_DOWN
--rw-r--r-- root       root             1061 ./usr/share/errors/ka/ERR_SOCKET_FAILURE
--rw-r--r-- root       root             1277 ./usr/share/errors/ka/ERR_TOO_BIG
--rw-r--r-- root       root              974 ./usr/share/errors/ka/ERR_UNSUP_HTTPVERSION
--rw-r--r-- root       root             1051 ./usr/share/errors/ka/ERR_UNSUP_REQ
--rw-r--r-- root       root              969 ./usr/share/errors/ka/ERR_URN_RESOLVE
--rw-r--r-- root       root             1042 ./usr/share/errors/ka/ERR_WRITE_ERROR
--rw-r--r-- root       root              960 ./usr/share/errors/ka/ERR_ZERO_SIZE_OBJECT
+-rw-r--r-- root       root             1274 ./usr/share/errors/ka/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1328 ./usr/share/errors/ka/ERR_PROTOCOL_UNKNOWN
+-rw-r--r-- root       root             1426 ./usr/share/errors/ka/ERR_READ_ERROR
+-rw-r--r-- root       root             1436 ./usr/share/errors/ka/ERR_READ_TIMEOUT
+-rw-r--r-- root       root             1754 ./usr/share/errors/ka/ERR_SECURE_CONNECT_FAIL
+-rw-r--r-- root       root             1281 ./usr/share/errors/ka/ERR_SHUTTING_DOWN
+-rw-r--r-- root       root             1400 ./usr/share/errors/ka/ERR_SOCKET_FAILURE
+-rw-r--r-- root       root             1586 ./usr/share/errors/ka/ERR_TOO_BIG
+-rw-r--r-- root       root             1202 ./usr/share/errors/ka/ERR_UNSUP_HTTPVERSION
+-rw-r--r-- root       root             1360 ./usr/share/errors/ka/ERR_UNSUP_REQ
+-rw-r--r-- root       root             1100 ./usr/share/errors/ka/ERR_URN_RESOLVE
+-rw-r--r-- root       root             1413 ./usr/share/errors/ka/ERR_WRITE_ERROR
+-rw-r--r-- root       root             1269 ./usr/share/errors/ka/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/ka-ge -> ka
-drwxr-xr-x root       root              880 ./usr/share/errors/ko
+drwxr-xr-x root       root              900 ./usr/share/errors/ko
 -rw-r--r-- root       root             1101 ./usr/share/errors/ko/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1229 ./usr/share/errors/ko/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1528 ./usr/share/errors/ko/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1483 ./usr/share/errors/ko/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1492 ./usr/share/errors/ko/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1447 ./usr/share/errors/ko/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1104 ./usr/share/errors/ko/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1289 ./usr/share/errors/ko/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1405 ./usr/share/errors/ko/ERR_CANNOT_FORWARD
@@ -1113,6 +1139,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ko
 -rw-r--r-- root       root             1198 ./usr/share/errors/ko/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ko/error-details.txt
 -rw-r--r-- root       root              998 ./usr/share/errors/ko/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1028 ./usr/share/errors/ko/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1102 ./usr/share/errors/ko/ERR_READ_ERROR
 -rw-r--r-- root       root             1156 ./usr/share/errors/ko/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1336 ./usr/share/errors/ko/ERR_SECURE_CONNECT_FAIL
@@ -1126,11 +1153,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ko
 -rw-r--r-- root       root             1028 ./usr/share/errors/ko/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kp -> ko
 lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kr -> ko
-drwxr-xr-x root       root              880 ./usr/share/errors/lt
+drwxr-xr-x root       root              900 ./usr/share/errors/lt
 -rw-r--r-- root       root             1088 ./usr/share/errors/lt/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1238 ./usr/share/errors/lt/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1528 ./usr/share/errors/lt/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1483 ./usr/share/errors/lt/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1492 ./usr/share/errors/lt/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1447 ./usr/share/errors/lt/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1083 ./usr/share/errors/lt/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1296 ./usr/share/errors/lt/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1394 ./usr/share/errors/lt/ERR_CANNOT_FORWARD
@@ -1158,6 +1185,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/lt
 -rw-r--r-- root       root             1196 ./usr/share/errors/lt/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/lt/error-details.txt
 -rw-r--r-- root       root             1007 ./usr/share/errors/lt/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1037 ./usr/share/errors/lt/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1067 ./usr/share/errors/lt/ERR_READ_ERROR
 -rw-r--r-- root       root             1130 ./usr/share/errors/lt/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1345 ./usr/share/errors/lt/ERR_SECURE_CONNECT_FAIL
@@ -1170,11 +1198,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/lt
 -rw-r--r-- root       root             1059 ./usr/share/errors/lt/ERR_WRITE_ERROR
 -rw-r--r-- root       root              977 ./usr/share/errors/lt/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/lt-lt -> lt
-drwxr-xr-x root       root              880 ./usr/share/errors/lv
+drwxr-xr-x root       root              900 ./usr/share/errors/lv
 -rw-r--r-- root       root             1045 ./usr/share/errors/lv/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1206 ./usr/share/errors/lv/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1539 ./usr/share/errors/lv/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1494 ./usr/share/errors/lv/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1503 ./usr/share/errors/lv/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1458 ./usr/share/errors/lv/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1034 ./usr/share/errors/lv/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1273 ./usr/share/errors/lv/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1383 ./usr/share/errors/lv/ERR_CANNOT_FORWARD
@@ -1202,6 +1230,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/lv
 -rw-r--r-- root       root             1186 ./usr/share/errors/lv/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/lv/error-details.txt
 -rw-r--r-- root       root              966 ./usr/share/errors/lv/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1005 ./usr/share/errors/lv/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1043 ./usr/share/errors/lv/ERR_READ_ERROR
 -rw-r--r-- root       root             1090 ./usr/share/errors/lv/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1312 ./usr/share/errors/lv/ERR_SECURE_CONNECT_FAIL
@@ -1214,11 +1243,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/lv
 -rw-r--r-- root       root             1038 ./usr/share/errors/lv/ERR_WRITE_ERROR
 -rw-r--r-- root       root              959 ./usr/share/errors/lv/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/lv-lv -> lv
-drwxr-xr-x root       root              880 ./usr/share/errors/ms
+drwxr-xr-x root       root              900 ./usr/share/errors/ms
 -rw-r--r-- root       root             1056 ./usr/share/errors/ms/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1217 ./usr/share/errors/ms/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/ms/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/ms/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/ms/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1446 ./usr/share/errors/ms/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1048 ./usr/share/errors/ms/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1224 ./usr/share/errors/ms/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1376 ./usr/share/errors/ms/ERR_CANNOT_FORWARD
@@ -1246,6 +1275,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ms
 -rw-r--r-- root       root             1193 ./usr/share/errors/ms/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ms/error-details.txt
 -rw-r--r-- root       root              988 ./usr/share/errors/ms/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1016 ./usr/share/errors/ms/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1045 ./usr/share/errors/ms/ERR_READ_ERROR
 -rw-r--r-- root       root             1094 ./usr/share/errors/ms/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1316 ./usr/share/errors/ms/ERR_SECURE_CONNECT_FAIL
@@ -1258,11 +1288,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ms
 -rw-r--r-- root       root             1045 ./usr/share/errors/ms/ERR_WRITE_ERROR
 -rw-r--r-- root       root              957 ./usr/share/errors/ms/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/ms-my -> ms
-drwxr-xr-x root       root              880 ./usr/share/errors/nl
+drwxr-xr-x root       root              900 ./usr/share/errors/nl
 -rw-r--r-- root       root             1067 ./usr/share/errors/nl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1247 ./usr/share/errors/nl/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1594 ./usr/share/errors/nl/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1568 ./usr/share/errors/nl/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1515 ./usr/share/errors/nl/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1489 ./usr/share/errors/nl/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1057 ./usr/share/errors/nl/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1251 ./usr/share/errors/nl/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1383 ./usr/share/errors/nl/ERR_CANNOT_FORWARD
@@ -1290,6 +1320,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/nl
 -rw-r--r-- root       root             1232 ./usr/share/errors/nl/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/nl/error-details.txt
 -rw-r--r-- root       root              985 ./usr/share/errors/nl/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1018 ./usr/share/errors/nl/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1053 ./usr/share/errors/nl/ERR_READ_ERROR
 -rw-r--r-- root       root             1122 ./usr/share/errors/nl/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1345 ./usr/share/errors/nl/ERR_SECURE_CONNECT_FAIL
@@ -1302,11 +1333,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/nl
 -rw-r--r-- root       root             1052 ./usr/share/errors/nl/ERR_WRITE_ERROR
 -rw-r--r-- root       root              964 ./usr/share/errors/nl/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/nl-nl -> nl
-drwxr-xr-x root       root              880 ./usr/share/errors/oc
+drwxr-xr-x root       root              900 ./usr/share/errors/oc
 -rw-r--r-- root       root             1071 ./usr/share/errors/oc/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1228 ./usr/share/errors/oc/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1536 ./usr/share/errors/oc/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1491 ./usr/share/errors/oc/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1500 ./usr/share/errors/oc/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1455 ./usr/share/errors/oc/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1055 ./usr/share/errors/oc/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1214 ./usr/share/errors/oc/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1386 ./usr/share/errors/oc/ERR_CANNOT_FORWARD
@@ -1334,6 +1365,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/oc
 -rw-r--r-- root       root             1204 ./usr/share/errors/oc/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/oc/error-details.txt
 -rw-r--r-- root       root              991 ./usr/share/errors/oc/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1027 ./usr/share/errors/oc/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1064 ./usr/share/errors/oc/ERR_READ_ERROR
 -rw-r--r-- root       root             1107 ./usr/share/errors/oc/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1335 ./usr/share/errors/oc/ERR_SECURE_CONNECT_FAIL
@@ -1345,11 +1377,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/oc
 -rw-r--r-- root       root              989 ./usr/share/errors/oc/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1062 ./usr/share/errors/oc/ERR_WRITE_ERROR
 -rw-r--r-- root       root              975 ./usr/share/errors/oc/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/pl
+drwxr-xr-x root       root              900 ./usr/share/errors/pl
 -rw-r--r-- root       root             1066 ./usr/share/errors/pl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1221 ./usr/share/errors/pl/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1531 ./usr/share/errors/pl/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1486 ./usr/share/errors/pl/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1495 ./usr/share/errors/pl/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1450 ./usr/share/errors/pl/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1092 ./usr/share/errors/pl/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1302 ./usr/share/errors/pl/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1390 ./usr/share/errors/pl/ERR_CANNOT_FORWARD
@@ -1377,6 +1409,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/pl
 -rw-r--r-- root       root             1205 ./usr/share/errors/pl/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/pl/error-details.txt
 -rw-r--r-- root       root              990 ./usr/share/errors/pl/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1020 ./usr/share/errors/pl/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1060 ./usr/share/errors/pl/ERR_READ_ERROR
 -rw-r--r-- root       root             1118 ./usr/share/errors/pl/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1335 ./usr/share/errors/pl/ERR_SECURE_CONNECT_FAIL
@@ -1389,12 +1422,12 @@ drwxr-xr-x root       root              880 ./usr/share/errors/pl
 -rw-r--r-- root       root             1052 ./usr/share/errors/pl/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1000 ./usr/share/errors/pl/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/pl-pl -> pl
-drwxr-xr-x root       root              880 ./usr/share/errors/pt
-drwxr-xr-x root       root              880 ./usr/share/errors/pt-br
+drwxr-xr-x root       root              900 ./usr/share/errors/pt
+drwxr-xr-x root       root              900 ./usr/share/errors/pt-br
 -rw-r--r-- root       root             1080 ./usr/share/errors/pt-br/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1238 ./usr/share/errors/pt-br/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1592 ./usr/share/errors/pt-br/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1590 ./usr/share/errors/pt-br/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1516 ./usr/share/errors/pt-br/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1514 ./usr/share/errors/pt-br/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1112 ./usr/share/errors/pt-br/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1281 ./usr/share/errors/pt-br/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1465 ./usr/share/errors/pt-br/ERR_CANNOT_FORWARD
@@ -1422,6 +1455,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/pt-br
 -rw-r--r-- root       root             1217 ./usr/share/errors/pt-br/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/pt-br/error-details.txt
 -rw-r--r-- root       root              995 ./usr/share/errors/pt-br/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1010 ./usr/share/errors/pt-br/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1040 ./usr/share/errors/pt-br/ERR_READ_ERROR
 -rw-r--r-- root       root             1115 ./usr/share/errors/pt-br/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1336 ./usr/share/errors/pt-br/ERR_SECURE_CONNECT_FAIL
@@ -1436,8 +1470,8 @@ drwxr-xr-x root       root              880 ./usr/share/errors/pt-br
 lrwxrwxrwx root       root                5 ./usr/share/errors/pt-bz -> pt-br
 -rw-r--r-- root       root             1062 ./usr/share/errors/pt/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/pt/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1535 ./usr/share/errors/pt/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1519 ./usr/share/errors/pt/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1499 ./usr/share/errors/pt/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1483 ./usr/share/errors/pt/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1056 ./usr/share/errors/pt/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1266 ./usr/share/errors/pt/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1393 ./usr/share/errors/pt/ERR_CANNOT_FORWARD
@@ -1465,6 +1499,7 @@ lrwxrwxrwx root       root                5 ./usr/share/errors/pt-bz -> pt-br
 -rw-r--r-- root       root             1193 ./usr/share/errors/pt/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/pt/error-details.txt
 -rw-r--r-- root       root              992 ./usr/share/errors/pt/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1017 ./usr/share/errors/pt/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1050 ./usr/share/errors/pt/ERR_READ_ERROR
 -rw-r--r-- root       root             1127 ./usr/share/errors/pt/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1327 ./usr/share/errors/pt/ERR_SECURE_CONNECT_FAIL
@@ -1477,11 +1512,12 @@ lrwxrwxrwx root       root                5 ./usr/share/errors/pt-bz -> pt-br
 -rw-r--r-- root       root             1046 ./usr/share/errors/pt/ERR_WRITE_ERROR
 -rw-r--r-- root       root              973 ./usr/share/errors/pt/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/pt-pt -> pt
-drwxr-xr-x root       root              880 ./usr/share/errors/ro
+lrwxrwxrwx root       root                5 ./usr/share/errors/pt-xl -> pt-br
+drwxr-xr-x root       root              900 ./usr/share/errors/ro
 -rw-r--r-- root       root             1116 ./usr/share/errors/ro/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1289 ./usr/share/errors/ro/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1599 ./usr/share/errors/ro/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1565 ./usr/share/errors/ro/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1563 ./usr/share/errors/ro/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1529 ./usr/share/errors/ro/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1076 ./usr/share/errors/ro/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1318 ./usr/share/errors/ro/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1393 ./usr/share/errors/ro/ERR_CANNOT_FORWARD
@@ -1509,6 +1545,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ro
 -rw-r--r-- root       root             1265 ./usr/share/errors/ro/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ro/error-details.txt
 -rw-r--r-- root       root              988 ./usr/share/errors/ro/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1022 ./usr/share/errors/ro/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1087 ./usr/share/errors/ro/ERR_READ_ERROR
 -rw-r--r-- root       root             1167 ./usr/share/errors/ro/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1371 ./usr/share/errors/ro/ERR_SECURE_CONNECT_FAIL
@@ -1522,11 +1559,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ro
 -rw-r--r-- root       root              990 ./usr/share/errors/ro/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/ro-md -> ro
 lrwxrwxrwx root       root                2 ./usr/share/errors/ro-ro -> ro
-drwxr-xr-x root       root              880 ./usr/share/errors/ru
+drwxr-xr-x root       root              900 ./usr/share/errors/ru
 -rw-r--r-- root       root             1221 ./usr/share/errors/ru/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1345 ./usr/share/errors/ru/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1846 ./usr/share/errors/ru/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1914 ./usr/share/errors/ru/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1630 ./usr/share/errors/ru/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1698 ./usr/share/errors/ru/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1200 ./usr/share/errors/ru/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1682 ./usr/share/errors/ru/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1539 ./usr/share/errors/ru/ERR_CANNOT_FORWARD
@@ -1554,6 +1591,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ru
 -rw-r--r-- root       root             1450 ./usr/share/errors/ru/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/ru/error-details.txt
 -rw-r--r-- root       root             1073 ./usr/share/errors/ru/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1125 ./usr/share/errors/ru/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1187 ./usr/share/errors/ru/ERR_READ_ERROR
 -rw-r--r-- root       root             1390 ./usr/share/errors/ru/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1667 ./usr/share/errors/ru/ERR_SECURE_CONNECT_FAIL
@@ -1566,11 +1604,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ru
 -rw-r--r-- root       root             1163 ./usr/share/errors/ru/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1148 ./usr/share/errors/ru/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/ru-ru -> ru
-drwxr-xr-x root       root              880 ./usr/share/errors/sk
+drwxr-xr-x root       root              900 ./usr/share/errors/sk
 -rw-r--r-- root       root             1076 ./usr/share/errors/sk/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1177 ./usr/share/errors/sk/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1607 ./usr/share/errors/sk/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1564 ./usr/share/errors/sk/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1546 ./usr/share/errors/sk/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1503 ./usr/share/errors/sk/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1046 ./usr/share/errors/sk/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1237 ./usr/share/errors/sk/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1366 ./usr/share/errors/sk/ERR_CANNOT_FORWARD
@@ -1598,6 +1636,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/sk
 -rw-r--r-- root       root             1230 ./usr/share/errors/sk/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/sk/error-details.txt
 -rw-r--r-- root       root              974 ./usr/share/errors/sk/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1003 ./usr/share/errors/sk/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1039 ./usr/share/errors/sk/ERR_READ_ERROR
 -rw-r--r-- root       root             1131 ./usr/share/errors/sk/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1361 ./usr/share/errors/sk/ERR_SECURE_CONNECT_FAIL
@@ -1610,11 +1649,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/sk
 -rw-r--r-- root       root             1022 ./usr/share/errors/sk/ERR_WRITE_ERROR
 -rw-r--r-- root       root              972 ./usr/share/errors/sk/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/sk-sk -> sk
-drwxr-xr-x root       root              880 ./usr/share/errors/sl
+drwxr-xr-x root       root              900 ./usr/share/errors/sl
 -rw-r--r-- root       root             1090 ./usr/share/errors/sl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1215 ./usr/share/errors/sl/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1693 ./usr/share/errors/sl/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1592 ./usr/share/errors/sl/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1637 ./usr/share/errors/sl/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1536 ./usr/share/errors/sl/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1064 ./usr/share/errors/sl/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1287 ./usr/share/errors/sl/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1393 ./usr/share/errors/sl/ERR_CANNOT_FORWARD
@@ -1642,6 +1681,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/sl
 -rw-r--r-- root       root             1238 ./usr/share/errors/sl/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/sl/error-details.txt
 -rw-r--r-- root       root              998 ./usr/share/errors/sl/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1033 ./usr/share/errors/sl/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1048 ./usr/share/errors/sl/ERR_READ_ERROR
 -rw-r--r-- root       root             1138 ./usr/share/errors/sl/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1359 ./usr/share/errors/sl/ERR_SECURE_CONNECT_FAIL
@@ -1654,12 +1694,12 @@ drwxr-xr-x root       root              880 ./usr/share/errors/sl
 -rw-r--r-- root       root             1040 ./usr/share/errors/sl/ERR_WRITE_ERROR
 -rw-r--r-- root       root              982 ./usr/share/errors/sl/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/sl-si -> sl
-drwxr-xr-x root       root              880 ./usr/share/errors/sr-cyrl
+drwxr-xr-x root       root              900 ./usr/share/errors/sr-cyrl
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-cs -> sr-cyrl
 -rw-r--r-- root       root             1060 ./usr/share/errors/sr-cyrl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/sr-cyrl/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1527 ./usr/share/errors/sr-cyrl/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1482 ./usr/share/errors/sr-cyrl/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1491 ./usr/share/errors/sr-cyrl/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1446 ./usr/share/errors/sr-cyrl/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1039 ./usr/share/errors/sr-cyrl/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/sr-cyrl/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1379 ./usr/share/errors/sr-cyrl/ERR_CANNOT_FORWARD
@@ -1687,6 +1727,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-cs -> sr-
 -rw-r--r-- root       root             1196 ./usr/share/errors/sr-cyrl/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/sr-cyrl/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/sr-cyrl/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1019 ./usr/share/errors/sr-cyrl/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1048 ./usr/share/errors/sr-cyrl/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/sr-cyrl/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1327 ./usr/share/errors/sr-cyrl/ERR_SECURE_CONNECT_FAIL
@@ -1700,12 +1741,12 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-cs -> sr-
 -rw-r--r-- root       root              960 ./usr/share/errors/sr-cyrl/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-me -> sr-cyrl
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-rs -> sr-cyrl
-drwxr-xr-x root       root              880 ./usr/share/errors/sr-latn
+drwxr-xr-x root       root              900 ./usr/share/errors/sr-latn
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-cs -> sr-latn
 -rw-r--r-- root       root             1063 ./usr/share/errors/sr-latn/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1214 ./usr/share/errors/sr-latn/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1537 ./usr/share/errors/sr-latn/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1492 ./usr/share/errors/sr-latn/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1501 ./usr/share/errors/sr-latn/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1456 ./usr/share/errors/sr-latn/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1080 ./usr/share/errors/sr-latn/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1258 ./usr/share/errors/sr-latn/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1374 ./usr/share/errors/sr-latn/ERR_CANNOT_FORWARD
@@ -1733,6 +1774,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-cs -> sr-
 -rw-r--r-- root       root             1173 ./usr/share/errors/sr-latn/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/sr-latn/error-details.txt
 -rw-r--r-- root       root              976 ./usr/share/errors/sr-latn/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1013 ./usr/share/errors/sr-latn/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1047 ./usr/share/errors/sr-latn/ERR_READ_ERROR
 -rw-r--r-- root       root             1093 ./usr/share/errors/sr-latn/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1316 ./usr/share/errors/sr-latn/ERR_SECURE_CONNECT_FAIL
@@ -1749,11 +1791,11 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-rs -> sr-
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-rs -> sr-cyrl
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-sp -> sr-latn
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr -> sr-latn
-drwxr-xr-x root       root              880 ./usr/share/errors/sv
+drwxr-xr-x root       root              900 ./usr/share/errors/sv
 -rw-r--r-- root       root             1076 ./usr/share/errors/sv/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1229 ./usr/share/errors/sv/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1537 ./usr/share/errors/sv/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1492 ./usr/share/errors/sv/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1501 ./usr/share/errors/sv/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1456 ./usr/share/errors/sv/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1091 ./usr/share/errors/sv/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1318 ./usr/share/errors/sv/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1427 ./usr/share/errors/sv/ERR_CANNOT_FORWARD
@@ -1781,6 +1823,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/sv
 -rw-r--r-- root       root             1261 ./usr/share/errors/sv/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/sv/error-details.txt
 -rw-r--r-- root       root              983 ./usr/share/errors/sv/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1028 ./usr/share/errors/sv/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1059 ./usr/share/errors/sv/ERR_READ_ERROR
 -rw-r--r-- root       root             1125 ./usr/share/errors/sv/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1477 ./usr/share/errors/sv/ERR_SECURE_CONNECT_FAIL
@@ -1794,7 +1837,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/sv
 -rw-r--r-- root       root             1021 ./usr/share/errors/sv/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/sv-fi -> sv
 lrwxrwxrwx root       root                2 ./usr/share/errors/sv-se -> sv
-drwxr-xr-x root       root              880 ./usr/share/errors/templates
+drwxr-xr-x root       root              900 ./usr/share/errors/templates
 -rw-r--r-- root       root             1148 ./usr/share/errors/templates/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1308 ./usr/share/errors/templates/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1615 ./usr/share/errors/templates/ERR_AGENT_CONFIGURE
@@ -1826,6 +1869,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/templates
 -rw-r--r-- root       root             1284 ./usr/share/errors/templates/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/templates/error-details.txt
 -rw-r--r-- root       root             1077 ./usr/share/errors/templates/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1107 ./usr/share/errors/templates/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1136 ./usr/share/errors/templates/ERR_READ_ERROR
 -rw-r--r-- root       root             1185 ./usr/share/errors/templates/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1415 ./usr/share/errors/templates/ERR_SECURE_CONNECT_FAIL
@@ -1837,11 +1881,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/templates
 -rw-r--r-- root       root             1057 ./usr/share/errors/templates/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1130 ./usr/share/errors/templates/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1048 ./usr/share/errors/templates/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/th
+drwxr-xr-x root       root              900 ./usr/share/errors/th
 -rw-r--r-- root       root             1312 ./usr/share/errors/th/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1472 ./usr/share/errors/th/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1568 ./usr/share/errors/th/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1523 ./usr/share/errors/th/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1532 ./usr/share/errors/th/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1487 ./usr/share/errors/th/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1354 ./usr/share/errors/th/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1563 ./usr/share/errors/th/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1740 ./usr/share/errors/th/ERR_CANNOT_FORWARD
@@ -1869,6 +1913,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/th
 -rw-r--r-- root       root             1448 ./usr/share/errors/th/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/th/error-details.txt
 -rw-r--r-- root       root             1200 ./usr/share/errors/th/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1271 ./usr/share/errors/th/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1415 ./usr/share/errors/th/ERR_READ_ERROR
 -rw-r--r-- root       root             1465 ./usr/share/errors/th/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1670 ./usr/share/errors/th/ERR_SECURE_CONNECT_FAIL
@@ -1881,12 +1926,12 @@ drwxr-xr-x root       root              880 ./usr/share/errors/th
 -rw-r--r-- root       root             1408 ./usr/share/errors/th/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1272 ./usr/share/errors/th/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/th-th -> th
-drwxr-xr-x root       root              880 ./usr/share/errors/tr
--rw-r--r-- root       root             3720 ./usr/share/errors/TRANSLATORS
+drwxr-xr-x root       root              900 ./usr/share/errors/tr
+-rw-r--r-- root       root             4027 ./usr/share/errors/TRANSLATORS
 -rw-r--r-- root       root             1038 ./usr/share/errors/tr/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1198 ./usr/share/errors/tr/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1532 ./usr/share/errors/tr/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1487 ./usr/share/errors/tr/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1496 ./usr/share/errors/tr/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1451 ./usr/share/errors/tr/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1068 ./usr/share/errors/tr/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1238 ./usr/share/errors/tr/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1367 ./usr/share/errors/tr/ERR_CANNOT_FORWARD
@@ -1914,6 +1959,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/tr
 -rw-r--r-- root       root             1216 ./usr/share/errors/tr/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/tr/error-details.txt
 -rw-r--r-- root       root              973 ./usr/share/errors/tr/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root              997 ./usr/share/errors/tr/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1031 ./usr/share/errors/tr/ERR_READ_ERROR
 -rw-r--r-- root       root             1099 ./usr/share/errors/tr/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1305 ./usr/share/errors/tr/ERR_SECURE_CONNECT_FAIL
@@ -1926,11 +1972,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/tr
 -rw-r--r-- root       root             1024 ./usr/share/errors/tr/ERR_WRITE_ERROR
 -rw-r--r-- root       root              954 ./usr/share/errors/tr/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/tr-tr -> tr
-drwxr-xr-x root       root              880 ./usr/share/errors/uk
+drwxr-xr-x root       root              900 ./usr/share/errors/uk
 -rw-r--r-- root       root             1342 ./usr/share/errors/uk/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1421 ./usr/share/errors/uk/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1898 ./usr/share/errors/uk/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1941 ./usr/share/errors/uk/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1680 ./usr/share/errors/uk/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1723 ./usr/share/errors/uk/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1191 ./usr/share/errors/uk/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1670 ./usr/share/errors/uk/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1521 ./usr/share/errors/uk/ERR_CANNOT_FORWARD
@@ -1958,6 +2004,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/uk
 -rw-r--r-- root       root             1456 ./usr/share/errors/uk/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/uk/error-details.txt
 -rw-r--r-- root       root             1072 ./usr/share/errors/uk/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1114 ./usr/share/errors/uk/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1218 ./usr/share/errors/uk/ERR_READ_ERROR
 -rw-r--r-- root       root             1368 ./usr/share/errors/uk/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1609 ./usr/share/errors/uk/ERR_SECURE_CONNECT_FAIL
@@ -1970,11 +2017,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/uk
 -rw-r--r-- root       root             1233 ./usr/share/errors/uk/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1122 ./usr/share/errors/uk/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/uk-ua -> uk
-drwxr-xr-x root       root              880 ./usr/share/errors/uz
+drwxr-xr-x root       root              900 ./usr/share/errors/uz
 -rw-r--r-- root       root             1110 ./usr/share/errors/uz/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1250 ./usr/share/errors/uz/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1555 ./usr/share/errors/uz/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1510 ./usr/share/errors/uz/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1519 ./usr/share/errors/uz/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1474 ./usr/share/errors/uz/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1160 ./usr/share/errors/uz/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1640 ./usr/share/errors/uz/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1451 ./usr/share/errors/uz/ERR_CANNOT_FORWARD
@@ -2002,6 +2049,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/uz
 -rw-r--r-- root       root             1226 ./usr/share/errors/uz/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/uz/error-details.txt
 -rw-r--r-- root       root             1019 ./usr/share/errors/uz/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1049 ./usr/share/errors/uz/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1097 ./usr/share/errors/uz/ERR_READ_ERROR
 -rw-r--r-- root       root             1148 ./usr/share/errors/uz/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1416 ./usr/share/errors/uz/ERR_SECURE_CONNECT_FAIL
@@ -2013,11 +2061,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/uz
 -rw-r--r-- root       root             1013 ./usr/share/errors/uz/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1080 ./usr/share/errors/uz/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1035 ./usr/share/errors/uz/ERR_ZERO_SIZE_OBJECT
-drwxr-xr-x root       root              880 ./usr/share/errors/vi
+drwxr-xr-x root       root              900 ./usr/share/errors/vi
 -rw-r--r-- root       root             1129 ./usr/share/errors/vi/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1225 ./usr/share/errors/vi/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1534 ./usr/share/errors/vi/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1531 ./usr/share/errors/vi/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1498 ./usr/share/errors/vi/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1495 ./usr/share/errors/vi/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1136 ./usr/share/errors/vi/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1482 ./usr/share/errors/vi/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1396 ./usr/share/errors/vi/ERR_CANNOT_FORWARD
@@ -2045,6 +2093,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/vi
 -rw-r--r-- root       root             1201 ./usr/share/errors/vi/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/vi/error-details.txt
 -rw-r--r-- root       root              994 ./usr/share/errors/vi/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1024 ./usr/share/errors/vi/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1052 ./usr/share/errors/vi/ERR_READ_ERROR
 -rw-r--r-- root       root             1134 ./usr/share/errors/vi/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1356 ./usr/share/errors/vi/ERR_SECURE_CONNECT_FAIL
@@ -2058,12 +2107,12 @@ drwxr-xr-x root       root              880 ./usr/share/errors/vi
 -rw-r--r-- root       root              968 ./usr/share/errors/vi/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                2 ./usr/share/errors/vi-vn -> vi
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-cn -> zh-hans
-drwxr-xr-x root       root              880 ./usr/share/errors/zh-hans
+drwxr-xr-x root       root              900 ./usr/share/errors/zh-hans
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-cn -> zh-hans
 -rw-r--r-- root       root             1034 ./usr/share/errors/zh-hans/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1190 ./usr/share/errors/zh-hans/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1529 ./usr/share/errors/zh-hans/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1484 ./usr/share/errors/zh-hans/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1493 ./usr/share/errors/zh-hans/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1448 ./usr/share/errors/zh-hans/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1045 ./usr/share/errors/zh-hans/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1241 ./usr/share/errors/zh-hans/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1347 ./usr/share/errors/zh-hans/ERR_CANNOT_FORWARD
@@ -2091,6 +2140,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-cn -> zh-
 -rw-r--r-- root       root             1245 ./usr/share/errors/zh-hans/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/zh-hans/error-details.txt
 -rw-r--r-- root       root              959 ./usr/share/errors/zh-hans/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root              989 ./usr/share/errors/zh-hans/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1026 ./usr/share/errors/zh-hans/ERR_READ_ERROR
 -rw-r--r-- root       root             1073 ./usr/share/errors/zh-hans/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1228 ./usr/share/errors/zh-hans/ERR_SECURE_CONNECT_FAIL
@@ -2103,11 +2153,11 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-cn -> zh-
 -rw-r--r-- root       root             1019 ./usr/share/errors/zh-hans/ERR_WRITE_ERROR
 -rw-r--r-- root       root              962 ./usr/share/errors/zh-hans/ERR_ZERO_SIZE_OBJECT
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-sg -> zh-hans
-drwxr-xr-x root       root              880 ./usr/share/errors/zh-hant
+drwxr-xr-x root       root              900 ./usr/share/errors/zh-hant
 -rw-r--r-- root       root             1079 ./usr/share/errors/zh-hant/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1238 ./usr/share/errors/zh-hant/ERR_ACL_TIME_QUOTA_EXCEEDED
--rw-r--r-- root       root             1528 ./usr/share/errors/zh-hant/ERR_AGENT_CONFIGURE
--rw-r--r-- root       root             1483 ./usr/share/errors/zh-hant/ERR_AGENT_WPAD
+-rw-r--r-- root       root             1492 ./usr/share/errors/zh-hant/ERR_AGENT_CONFIGURE
+-rw-r--r-- root       root             1447 ./usr/share/errors/zh-hant/ERR_AGENT_WPAD
 -rw-r--r-- root       root             1100 ./usr/share/errors/zh-hant/ERR_CACHE_ACCESS_DENIED
 -rw-r--r-- root       root             1325 ./usr/share/errors/zh-hant/ERR_CACHE_MGR_ACCESS_DENIED
 -rw-r--r-- root       root             1410 ./usr/share/errors/zh-hant/ERR_CANNOT_FORWARD
@@ -2135,6 +2185,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/zh-hant
 -rw-r--r-- root       root             1233 ./usr/share/errors/zh-hant/ERR_ONLY_IF_CACHED_MISS
 -rw-r--r-- root       root             7284 ./usr/share/errors/zh-hant/error-details.txt
 -rw-r--r-- root       root             1007 ./usr/share/errors/zh-hant/ERR_PRECONDITION_FAILED
+-rw-r--r-- root       root             1037 ./usr/share/errors/zh-hant/ERR_PROTOCOL_UNKNOWN
 -rw-r--r-- root       root             1083 ./usr/share/errors/zh-hant/ERR_READ_ERROR
 -rw-r--r-- root       root             1136 ./usr/share/errors/zh-hant/ERR_READ_TIMEOUT
 -rw-r--r-- root       root             1345 ./usr/share/errors/zh-hant/ERR_SECURE_CONNECT_FAIL
