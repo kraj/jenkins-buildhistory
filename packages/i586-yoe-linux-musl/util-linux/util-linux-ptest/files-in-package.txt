@@ -1,9 +1,55 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/util-linux
-drwxr-xr-x root       root             1040 ./usr/lib/util-linux/ptest
+drwxr-xr-x root       root             1060 ./usr/lib/util-linux/ptest
+drwxr-xr-x root       root              940 ./usr/lib/util-linux/ptest/bin
+lrwxrwxrwx root       root               22 ./usr/lib/util-linux/ptest/bin/blkid -> /sbin/blkid.util-linux
+lrwxrwxrwx root       root               25 ./usr/lib/util-linux/ptest/bin/blockdev -> /sbin/blockdev.util-linux
+lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/cal -> /usr/bin/cal.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/chrt -> /usr/bin/chrt.util-linux
+lrwxrwxrwx root       root               21 ./usr/lib/util-linux/ptest/bin/dmesg -> /bin/dmesg.util-linux
+lrwxrwxrwx root       root               25 ./usr/lib/util-linux/ptest/bin/eject -> /usr/bin/eject.util-linux
+lrwxrwxrwx root       root               29 ./usr/lib/util-linux/ptest/bin/fallocate -> /usr/bin/fallocate.util-linux
+lrwxrwxrwx root       root               22 ./usr/lib/util-linux/ptest/bin/fdisk -> /sbin/fdisk.util-linux
+lrwxrwxrwx root       root               25 ./usr/lib/util-linux/ptest/bin/flock -> /usr/bin/flock.util-linux
+lrwxrwxrwx root       root               21 ./usr/lib/util-linux/ptest/bin/fsck -> /sbin/fsck.util-linux
+lrwxrwxrwx root       root               29 ./usr/lib/util-linux/ptest/bin/fsfreeze -> /usr/sbin/fsfreeze.util-linux
+lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/fstrim -> /sbin/fstrim.util-linux
+lrwxrwxrwx root       root               22 ./usr/lib/util-linux/ptest/bin/getopt -> /bin/getopt.util-linux
+lrwxrwxrwx root       root               12 ./usr/lib/util-linux/ptest/bin/getty -> /sbin/agetty
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/hexdump -> /usr/bin/hexdump.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/hwclock -> /sbin/hwclock.util-linux
+lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/ionice -> /usr/bin/ionice.util-linux
+lrwxrwxrwx root       root               20 ./usr/lib/util-linux/ptest/bin/kill -> /bin/kill.util-linux
+lrwxrwxrwx root       root               25 ./usr/lib/util-linux/ptest/bin/lastb -> /usr/bin/lastb.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/last -> /usr/bin/last.util-linux
+lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/logger -> /usr/bin/logger.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/losetup -> /sbin/losetup.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/mesg -> /usr/bin/mesg.util-linux
+lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/mkswap -> /sbin/mkswap.util-linux
+lrwxrwxrwx root       root               20 ./usr/lib/util-linux/ptest/bin/more -> /bin/more.util-linux
+lrwxrwxrwx root       root               21 ./usr/lib/util-linux/ptest/bin/mount -> /bin/mount.util-linux
+lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/mountpoint -> /bin/mountpoint.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/nologin -> /sbin/nologin.util-linux
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/nsenter -> /usr/bin/nsenter.util-linux
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/pivot_root -> /sbin/pivot_root.util-linux
+lrwxrwxrwx root       root               32 ./usr/lib/util-linux/ptest/bin/readprofile -> /usr/sbin/readprofile.util-linux
+lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/renice -> /usr/bin/renice.util-linux
+lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/rev -> /usr/bin/rev.util-linux
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/rfkill -> /usr/sbin/rfkill.util-linux
+lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/setsid -> /usr/bin/setsid.util-linux
+lrwxrwxrwx root       root               18 ./usr/lib/util-linux/ptest/bin/su -> /bin/su.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/sulogin -> /sbin/sulogin.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/swapoff -> /sbin/swapoff.util-linux
+lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/swapon -> /sbin/swapon.util-linux
+lrwxrwxrwx root       root               28 ./usr/lib/util-linux/ptest/bin/switch_root -> /sbin/switch_root.util-linux
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/taskset -> /usr/bin/taskset.util-linux
+lrwxrwxrwx root       root               22 ./usr/lib/util-linux/ptest/bin/umount -> /bin/umount.util-linux
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/unshare -> /usr/bin/unshare.util-linux
+lrwxrwxrwx root       root               28 ./usr/lib/util-linux/ptest/bin/utmpdump -> /usr/bin/utmpdump.util-linux
+lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/wall -> /usr/bin/wall.util-linux
 -rw-r--r-- root       root            23943 ./usr/lib/util-linux/ptest/config.h
--rwxr-xr-x root       root              711 ./usr/lib/util-linux/ptest/run-ptest
+-rwxr-xr-x root       root              812 ./usr/lib/util-linux/ptest/run-ptest
 -rwxr-xr-x root       root            21992 ./usr/lib/util-linux/ptest/sample-fdisk-mkpart
 -rwxr-xr-x root       root             9712 ./usr/lib/util-linux/ptest/sample-fdisk-mkpart-fullspec
 -rwxr-xr-x root       root             5536 ./usr/lib/util-linux/ptest/sample-mkfs
@@ -40,7 +86,7 @@ drwxr-xr-x root       root             1040 ./usr/lib/util-linux/ptest
 -rwxr-xr-x root       root             5432 ./usr/lib/util-linux/ptest/test_pwdutils
 -rwxr-xr-x root       root             9576 ./usr/lib/util-linux/ptest/test_randutils
 drwxr-xr-x root       root              140 ./usr/lib/util-linux/ptest/tests
--rw-r--r-- root       root             5151 ./usr/lib/util-linux/ptest/tests/commands.sh
+-rw-r--r-- root       root             5176 ./usr/lib/util-linux/ptest/tests/commands.sh
 -rwxr-xr-x root       root            30064 ./usr/lib/util-linux/ptest/test_script
 drwxr-xr-x root       root             1020 ./usr/lib/util-linux/ptest/tests/expected
 drwxr-xr-x root       root               60 ./usr/lib/util-linux/ptest/tests/expected/bitops

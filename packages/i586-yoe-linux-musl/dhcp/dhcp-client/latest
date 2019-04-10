@@ -1,8 +1,8 @@
 PV = 4.4.1
 PR = r0
-PKGR = r0.90
+PKGR = r0.91
 RPROVIDES = 
-RDEPENDS = bind-libs (>= 9.11.5) dhcp-libs (>= 4.4.1) musl (>= 1.1.21+git3+43e7efb465)
+RDEPENDS = bind-libs (>= 9.11.5-P4) dhcp-libs (>= 4.4.1) musl (>= 1.1.21+git3+43e7efb465)
 RRECOMMENDS = 
 PKGSIZE = 184859
 FILES = /sbin/dhclient /sbin/dhclient-script /etc/dhcp/dhclient.conf /sbin/dhclient-systemd-wrapper /lib/systemd/system/dhclient.service
