@@ -1,5 +1,5 @@
 PV = git
 PR = r0
-DEPENDS = sg3-utils systemd systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = sg3-utils systemd-systemctl-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = ledmon-src ledmon-dbg ledmon-staticdev ledmon-dev ledmon-doc ledmon-locale ledmon
 LAYER = openembedded-layer
