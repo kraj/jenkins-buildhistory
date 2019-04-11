@@ -7,7 +7,9 @@ drwxr-xr-x root       root               60 ./etc/udev/rules.d
 -rw-r--r-- root       root              855 ./etc/udev/rules.d/touchscreen.rules
 -rw-r--r-- root       root              281 ./etc/udev/udev.conf
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root              100 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/network
+-rw-r--r-- root       root              417 ./lib/systemd/network/99-default.link
 drwxr-xr-x root       root              200 ./lib/systemd/system
 -rwxr-xr-x root       root           789896 ./lib/systemd/systemd-udevd
 -rw-r--r-- root       root              704 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
