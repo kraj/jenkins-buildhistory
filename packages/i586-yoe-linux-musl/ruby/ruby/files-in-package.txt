@@ -10,7 +10,7 @@ drwxr-xr-x root       root              100 ./usr/lib
 -rwxr-xr-x root       root          3110588 ./usr/lib/libruby.so.2.5.3
 lrwxrwxrwx root       root               16 ./usr/lib/libruby.so.2.5 -> libruby.so.2.5.3
 drwxr-xr-x root       root              120 ./usr/lib/ruby
-drwxr-xr-x root       root             1940 ./usr/lib/ruby/2.5.0
+drwxr-xr-x root       root             1980 ./usr/lib/ruby/2.5.0
 -rw-r--r-- root       root             3573 ./usr/lib/ruby/2.5.0/abbrev.rb
 -rw-r--r-- root       root             3375 ./usr/lib/ruby/2.5.0/base64.rb
 -rw-r--r-- root       root            18322 ./usr/lib/ruby/2.5.0/benchmark.rb
@@ -54,13 +54,23 @@ drwxr-xr-x root       root              260 ./usr/lib/ruby/2.5.0/drb
 -rw-r--r-- root       root             6460 ./usr/lib/ruby/2.5.0/English.rb
 -rw-r--r-- root       root            28121 ./usr/lib/ruby/2.5.0/erb.rb
 -rw-r--r-- root       root             2217 ./usr/lib/ruby/2.5.0/expect.rb
+drwxr-xr-x root       root              200 ./usr/lib/ruby/2.5.0/fiddle
+-rw-r--r-- root       root             1241 ./usr/lib/ruby/2.5.0/fiddle/closure.rb
+-rw-r--r-- root       root             6200 ./usr/lib/ruby/2.5.0/fiddle/cparser.rb
+-rw-r--r-- root       root              323 ./usr/lib/ruby/2.5.0/fiddle/function.rb
+-rw-r--r-- root       root             8890 ./usr/lib/ruby/2.5.0/fiddle/import.rb
+-rw-r--r-- root       root             3015 ./usr/lib/ruby/2.5.0/fiddle/pack.rb
+-rw-r--r-- root       root             1722 ./usr/lib/ruby/2.5.0/fiddle.rb
+-rw-r--r-- root       root             6501 ./usr/lib/ruby/2.5.0/fiddle/struct.rb
+-rw-r--r-- root       root             1911 ./usr/lib/ruby/2.5.0/fiddle/types.rb
+-rw-r--r-- root       root             2682 ./usr/lib/ruby/2.5.0/fiddle/value.rb
 -rw-r--r-- root       root            45210 ./usr/lib/ruby/2.5.0/fileutils.rb
 -rw-r--r-- root       root             2532 ./usr/lib/ruby/2.5.0/find.rb
 drwxr-xr-x root       root               60 ./usr/lib/ruby/2.5.0/forwardable
 -rw-r--r-- root       root              483 ./usr/lib/ruby/2.5.0/forwardable/impl.rb
 -rw-r--r-- root       root             8690 ./usr/lib/ruby/2.5.0/forwardable.rb
 -rw-r--r-- root       root            15787 ./usr/lib/ruby/2.5.0/getoptlong.rb
-drwxr-xr-x root       root              680 ./usr/lib/ruby/2.5.0/i586-linux-musl
+drwxr-xr-x root       root              700 ./usr/lib/ruby/2.5.0/i586-linux-musl
 -rwxr-xr-x root       root            79200 ./usr/lib/ruby/2.5.0/i586-linux-musl/bigdecimal.so
 drwxr-xr-x root       root               60 ./usr/lib/ruby/2.5.0/i586-linux-musl/cgi
 -rwxr-xr-x root       root            13572 ./usr/lib/ruby/2.5.0/i586-linux-musl/cgi/escape.so
@@ -139,6 +149,7 @@ drwxr-xr-x root       root              440 ./usr/lib/ruby/2.5.0/i586-linux-musl
 -rwxr-xr-x root       root            25856 ./usr/lib/ruby/2.5.0/i586-linux-musl/etc.so
 -rwxr-xr-x root       root             5380 ./usr/lib/ruby/2.5.0/i586-linux-musl/fcntl.so
 -rwxr-xr-x root       root             5332 ./usr/lib/ruby/2.5.0/i586-linux-musl/fiber.so
+-rwxr-xr-x root       root            38208 ./usr/lib/ruby/2.5.0/i586-linux-musl/fiddle.so
 -rwxr-xr-x root       root            25916 ./usr/lib/ruby/2.5.0/i586-linux-musl/gdbm.so
 drwxr-xr-x root       root              100 ./usr/lib/ruby/2.5.0/i586-linux-musl/io
 -rwxr-xr-x root       root            17668 ./usr/lib/ruby/2.5.0/i586-linux-musl/io/console.so
@@ -157,7 +168,7 @@ drwxr-xr-x root       root               80 ./usr/lib/ruby/2.5.0/i586-linux-musl
 drwxr-xr-x root       root               60 ./usr/lib/ruby/2.5.0/i586-linux-musl/racc
 -rwxr-xr-x root       root            17728 ./usr/lib/ruby/2.5.0/i586-linux-musl/racc/cparse.so
 drwxr-xr-x root       root               60 ./usr/lib/ruby/2.5.0/i586-linux-musl/rbconfig
--rw-r--r-- root       root            14124 ./usr/lib/ruby/2.5.0/i586-linux-musl/rbconfig.rb
+-rw-r--r-- root       root            14155 ./usr/lib/ruby/2.5.0/i586-linux-musl/rbconfig.rb
 -rwxr-xr-x root       root            17668 ./usr/lib/ruby/2.5.0/i586-linux-musl/rbconfig/sizeof.so
 -rwxr-xr-x root       root            34052 ./usr/lib/ruby/2.5.0/i586-linux-musl/readline.so
 -rwxr-xr-x root       root           226624 ./usr/lib/ruby/2.5.0/i586-linux-musl/ripper.so
@@ -650,7 +661,7 @@ drwxr-xr-x root       root               60 ./usr/lib/ruby/2.5.0/rubygems/ssl_ce
 -rw-r--r-- root       root             1521 ./usr/lib/ruby/2.5.0/rubygems/ssl_certs/rubygems.org/AddTrustExternalCARoot.pem
 -rw-r--r-- root       root             4981 ./usr/lib/ruby/2.5.0/rubygems/stub_specification.rb
 -rw-r--r-- root       root             2168 ./usr/lib/ruby/2.5.0/rubygems/syck_hack.rb
--rw-r--r-- root       root            41298 ./usr/lib/ruby/2.5.0/rubygems/test_case.rb
+-rw-r--r-- root       root            41328 ./usr/lib/ruby/2.5.0/rubygems/test_case.rb
 -rw-r--r-- root       root             8842 ./usr/lib/ruby/2.5.0/rubygems/test_utilities.rb
 -rw-r--r-- root       root             1923 ./usr/lib/ruby/2.5.0/rubygems/text.rb
 -rw-r--r-- root       root             8945 ./usr/lib/ruby/2.5.0/rubygems/uninstaller.rb
@@ -1125,7 +1136,7 @@ drwxr-xr-x root       root              220 ./usr/lib/ruby/gems/2.5.0/gems/xmlrp
 -rw-r--r-- root       root               89 ./usr/lib/ruby/gems/2.5.0/gems/xmlrpc-0.3.0/.travis.yml
 -rw-r--r-- root       root             1736 ./usr/lib/ruby/gems/2.5.0/gems/xmlrpc-0.3.0/xmlrpc.gemspec
 drwxr-xr-x root       root              200 ./usr/lib/ruby/gems/2.5.0/specifications
-drwxr-xr-x root       root              460 ./usr/lib/ruby/gems/2.5.0/specifications/default
+drwxr-xr-x root       root              480 ./usr/lib/ruby/gems/2.5.0/specifications/default
 -rw-r--r-- root       root             2387 ./usr/lib/ruby/gems/2.5.0/specifications/default/bigdecimal-1.3.4.gemspec
 -rw-r--r-- root       root             1465 ./usr/lib/ruby/gems/2.5.0/specifications/default/cmath-1.0.0.gemspec
 -rw-r--r-- root       root             1245 ./usr/lib/ruby/gems/2.5.0/specifications/default/csv-1.0.0.gemspec
@@ -1133,6 +1144,7 @@ drwxr-xr-x root       root              460 ./usr/lib/ruby/gems/2.5.0/specificat
 -rw-r--r-- root       root             1451 ./usr/lib/ruby/gems/2.5.0/specifications/default/dbm-1.0.0.gemspec
 -rw-r--r-- root       root             2074 ./usr/lib/ruby/gems/2.5.0/specifications/default/etc-1.0.0.gemspec
 -rw-r--r-- root       root             1645 ./usr/lib/ruby/gems/2.5.0/specifications/default/fcntl-1.0.0.gemspec
+-rw-r--r-- root       root             2517 ./usr/lib/ruby/gems/2.5.0/specifications/default/fiddle-1.0.0.gemspec
 -rw-r--r-- root       root             1436 ./usr/lib/ruby/gems/2.5.0/specifications/default/fileutils-1.0.2.gemspec
 -rw-r--r-- root       root             1762 ./usr/lib/ruby/gems/2.5.0/specifications/default/gdbm-2.0.0.gemspec
 -rw-r--r-- root       root             1579 ./usr/lib/ruby/gems/2.5.0/specifications/default/io-console-0.4.6.gemspec
