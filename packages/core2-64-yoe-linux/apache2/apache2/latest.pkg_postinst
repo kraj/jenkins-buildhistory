@@ -11,9 +11,9 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl daemon-reload
 	fi
 
-	systemctl $OPTS enable apache2.service
+	systemctl $OPTS disable apache2.service
 
-	if [ -z "$D" -a "enable" = "enable" ]; then
+	if [ -z "$D" -a "disable" = "enable" ]; then
 		systemctl --no-block restart apache2.service
 	fi
 fi

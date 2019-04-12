@@ -2,5 +2,5 @@ PE = 1
 PV = 0.4.0
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libarchive libsolv libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
-PACKAGES = opkg-src opkg-dbg libopkg opkg-staticdev opkg-dev opkg-doc opkg-locale opkg
+PACKAGES = opkg-src opkg-dbg libopkg opkg-ptest opkg-staticdev opkg-dev opkg-doc opkg-locale opkg
 LAYER = core
