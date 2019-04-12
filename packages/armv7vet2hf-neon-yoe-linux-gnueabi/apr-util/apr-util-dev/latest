@@ -1,9 +1,9 @@
 PV = 1.6.1
 PR = r0
 PKG = libaprutil-1-dev
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = apr-util-dev (=1.6.1)
-RDEPENDS = apr-util (= 1.6.1-r0.14)
+RDEPENDS = apr-util (= 1.6.1-r0.15)
 RRECOMMENDS = apr-dev expat-dev gdbm-dev glibc-dev glibc-gconv-iso8859-1-dev glibc-gconv-iso8859-2-dev glibc-gconv-utf-7-dev libcrypto-dev libssl-dev libxcrypt-dev openssl-dev util-linux-libuuid-dev
 PKGSIZE = 320793
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/apr-util/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config /usr/lib/aprutil.exp /usr/lib/apr-util-1/*.la
