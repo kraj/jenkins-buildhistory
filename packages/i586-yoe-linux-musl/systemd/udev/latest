@@ -2,9 +2,9 @@ PE = 1
 PV = 241+AUTOINC+c1f8ff8d0d
 PR = r0
 PKGV = 241+0+c1f8ff8d0d
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = hotplug
-RDEPENDS = libacl (>= 2.2.52) libcap (>= 2.26) libkmod (>= 26) musl (>= 1.1.21+git3+43e7efb465) util-linux-libblkid (>= 2.32.1)
+RDEPENDS = libacl (>= 2.2.52) libcap (>= 2.26) libkmod (>= 26) musl (>= 1.1.22+git0+65c8be3804) util-linux-libblkid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 1873636
 FILES = /sbin/udevd /lib/systemd/network/99-default.link /lib/systemd/systemd-udevd /lib/udev/accelerometer /lib/udev/ata_id /lib/udev/cdrom_id /lib/udev/collect /lib/udev/findkeyboards /lib/udev/keyboard-force-release.sh /lib/udev/keymap /lib/udev/mtd_probe /lib/udev/scsi_id /lib/udev/v4l_id /lib/udev/keymaps /lib/udev/rules.d/*.rules /etc/udev /etc/init.d/systemd-udevd /lib/systemd/system/*udev* /lib/systemd/system/*.wants/*udev* /bin/udevadm /usr/libexec/udevadm /usr/share/bash-completion/completions/udevadm

@@ -3,9 +3,9 @@ PV = 241+AUTOINC+c1f8ff8d0d
 PR = r0
 PKG = libsystemd0
 PKGV = 241+0+c1f8ff8d0d
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = libsystemd (=241+0+c1f8ff8d0d)
-RDEPENDS = libcap (>= 2.26) liblzma (>= 5.2.4) musl (>= 1.1.21+git3+43e7efb465)
+RDEPENDS = libcap (>= 2.26) liblzma (>= 5.2.4) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
 PKGSIZE = 846596
 FILES = /lib/libsystemd.so /lib/libsystemd.so.0 /lib/libsystemd.so.0.25.0

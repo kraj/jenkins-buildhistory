@@ -1,9 +1,9 @@
 PV = 1.16
 PR = r0
 PKG = libts0
-PKGR = r0.87
+PKGR = r0.88
 RPROVIDES = tslib (=1.16)
-RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) tslib-conf
+RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) tslib-conf
 RRECOMMENDS = pointercal
 PKGSIZE = 121254
 FILES = /usr/lib/*.so.* /usr/lib/ts/*.so*

@@ -1,9 +1,9 @@
 PV = 10.3.13
 PR = r0
 PKG = libmariadb3
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = libmysqlclient (=10.3.13)
-RDEPENDS = libcrypto (>= 1.1.1b) libssl (>= 1.1.1b) musl (>= 1.1.21+git3+43e7efb465) zlib (>= 1.2.11)
+RDEPENDS = libcrypto (>= 1.1.1b) libssl (>= 1.1.1b) musl (>= 1.1.22+git0+65c8be3804) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 300267
 FILES = /usr/lib/libmysqlclient.so.* /usr/lib/libmariadb.so.* /etc/my.cnf.d/client.cnf

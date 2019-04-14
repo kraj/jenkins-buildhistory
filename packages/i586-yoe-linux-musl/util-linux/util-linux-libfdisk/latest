@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
 PKG = libfdisk1
-PKGR = r0.98
+PKGR = r0.99
 RPROVIDES = util-linux-libfdisk (=2.32.1)
-RDEPENDS = musl (>= 1.1.21+git3+43e7efb465) util-linux-libblkid (>= 2.32.1) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) util-linux-libblkid (>= 2.32.1) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 485769
 FILES = /lib/libfdisk.so.1 /lib/libfdisk.so.1.1.0

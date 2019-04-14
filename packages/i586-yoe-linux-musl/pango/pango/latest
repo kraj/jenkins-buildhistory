@@ -1,8 +1,8 @@
 PV = 1.42.4
 PR = r0
-PKGR = r0.113
+PKGR = r0.114
 RPROVIDES = pango-module-arabic-lang pango-module-basic-fc pango-module-indic-lang pango-modules
-RDEPENDS = cairo (>= 1.16.0) fontconfig (>= 2.13.1) freetype (>= 2.9.1) fribidi (>= 1.0.5) glib-2.0 (>= 2.58.3) harfbuzz (>= 2.4.0) libx11 (>= 1.6.7) libxft (>= 2.3.3) libxrender (>= 0.9.10) musl (>= 1.1.21+git3+43e7efb465)
+RDEPENDS = cairo (>= 1.16.0) fontconfig (>= 2.13.1) freetype (>= 2.9.1) fribidi (>= 1.0.5) glib-2.0 (>= 2.58.3) harfbuzz (>= 2.4.0) libx11 (>= 1.6.7) libxft (>= 2.3.3) libxrender (>= 0.9.10) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
 PKGSIZE = 623599
 FILES = /usr/bin/* /usr/lib/libpango*.so.* /usr/lib/girepository-*/*.typelib

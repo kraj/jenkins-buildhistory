@@ -1,9 +1,9 @@
 PV = 0.4.0
 PR = r0
 PKG = libxcb-keysyms1
-PKGR = r0.94
+PKGR = r0.95
 RPROVIDES = xcb-util-keysyms (=0.4.0)
-RDEPENDS = libxcb (>= 1.13.1) musl (>= 1.1.21+git3+43e7efb465)
+RDEPENDS = libxcb (>= 1.13.1) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
 PKGSIZE = 9511
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xcb-util-keysyms /usr/lib/xcb-util-keysyms/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
