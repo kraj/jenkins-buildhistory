@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-cdc-ncm
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-usbnet-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 38424
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/usb/cdc_ncm.ko /etc/modules-load.d/cdc_ncm.conf /etc/modprobe.d/cdc_ncm.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/usb/cdc_ncm.ko

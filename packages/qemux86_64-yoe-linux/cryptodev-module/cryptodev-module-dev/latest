@@ -1,9 +1,9 @@
 PV = 1.10
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = cryptodev-module (= 1.10-r0.20)
-RRECOMMENDS = cryptodev-linux-dev kernel-5.0.3-yocto-standard-dev kernel-module-cryptodev-5.0.3-yocto-standard-dev
+RDEPENDS = cryptodev-module (= 1.10-r0.21)
+RRECOMMENDS = cryptodev-linux-dev kernel-5.0.7-yocto-standard-dev kernel-module-cryptodev-5.0.7-yocto-standard-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/cryptodev-module/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/cryptodev-module/Module.symvers

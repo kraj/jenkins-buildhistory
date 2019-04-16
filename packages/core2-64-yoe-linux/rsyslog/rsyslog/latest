@@ -1,8 +1,8 @@
 PV = 8.1903.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = rsyslog-systemd
-RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.5) libcurl (>= 7.64.1) libestr (>= 0.1.11) libfastjson (>= 0.99.8) libgcrypt (>= 1.8.4) librelp (>= 1.4.0) libsystemd (>= 241+0+c1f8ff8d0d) logrotate util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.7) libcurl (>= 7.64.1) libestr (>= 0.1.11) libfastjson (>= 0.99.8) libgcrypt (>= 1.8.4) librelp (>= 1.4.0) libsystemd (>= 241+0+c1f8ff8d0d) logrotate util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = rsyslog-systemd
 RCONFLICTS = busybox-syslog rsyslog-systemd sysklogd syslog-ng

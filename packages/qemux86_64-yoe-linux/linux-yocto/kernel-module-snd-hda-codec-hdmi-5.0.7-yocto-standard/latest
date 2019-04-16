@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-hda-codec-hdmi
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-snd-5.0.7-yocto-standard kernel-module-snd-hda-codec-5.0.7-yocto-standard kernel-module-snd-hda-core-5.0.7-yocto-standard kernel-module-snd-pcm-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 78056
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-hdmi.ko /etc/modules-load.d/snd-hda-codec-hdmi.conf /etc/modprobe.d/snd-hda-codec-hdmi.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-hdmi.ko
