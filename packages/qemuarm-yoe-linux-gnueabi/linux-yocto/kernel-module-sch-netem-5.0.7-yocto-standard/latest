@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_ed9d11e2c8
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_ed9d11e2c8
+PKGR = r0.1
+RPROVIDES = kernel-module-sch-netem
+RDEPENDS = kernel-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 15500
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/sched/sch_netem.ko /etc/modules-load.d/sch_netem.conf /etc/modprobe.d/sch_netem.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/sched/sch_netem.ko

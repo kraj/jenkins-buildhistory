@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_ed9d11e2c8
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_ed9d11e2c8
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-conntrack-broadcast
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-nf-conntrack-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 3612
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/netfilter/nf_conntrack_broadcast.ko /etc/modules-load.d/nf_conntrack_broadcast.conf /etc/modprobe.d/nf_conntrack_broadcast.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/netfilter/nf_conntrack_broadcast.ko

@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_ed9d11e2c8
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_ed9d11e2c8
+PKGR = r0.1
+RPROVIDES = kernel-module-arp-tables
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-x-tables-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16732
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/ipv4/netfilter/arp_tables.ko /etc/modules-load.d/arp_tables.conf /etc/modprobe.d/arp_tables.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/ipv4/netfilter/arp_tables.ko

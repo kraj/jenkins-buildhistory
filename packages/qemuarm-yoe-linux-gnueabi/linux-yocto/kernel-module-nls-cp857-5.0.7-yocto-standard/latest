@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_ed9d11e2c8
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_ed9d11e2c8
+PKGR = r0.1
+RPROVIDES = kernel-module-nls-cp857
+RDEPENDS = kernel-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7424
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/fs/nls/nls_cp857.ko /etc/modules-load.d/nls_cp857.conf /etc/modprobe.d/nls_cp857.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/fs/nls/nls_cp857.ko

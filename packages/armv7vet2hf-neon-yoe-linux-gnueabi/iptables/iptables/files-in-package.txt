@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
-lrwxrwxrwx root       root               23 ./usr/bin/iptables-xml -> /usr/sbin/xtables-multi
+lrwxrwxrwx root       root               30 ./usr/bin/iptables-xml -> /usr/sbin/xtables-legacy-multi
 drwxr-xr-x root       root              200 ./usr/lib
 -rwxr-xr-x root       root            18284 ./usr/lib/libip4tc.so.0.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
@@ -8,13 +8,19 @@ lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.
 lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
 -rwxr-xr-x root       root             5572 ./usr/lib/libiptc.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libiptc.so.0 -> libiptc.so.0.0.0
--rwxr-xr-x root       root            34460 ./usr/lib/libxtables.so.12.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libxtables.so.12 -> libxtables.so.12.0.0
-drwxr-xr-x root       root              180 ./usr/sbin
-lrwxrwxrwx root       root               13 ./usr/sbin/ip6tables-restore -> xtables-multi
-lrwxrwxrwx root       root               13 ./usr/sbin/ip6tables-save -> xtables-multi
-lrwxrwxrwx root       root               13 ./usr/sbin/ip6tables -> xtables-multi
-lrwxrwxrwx root       root               13 ./usr/sbin/iptables-restore -> xtables-multi
-lrwxrwxrwx root       root               13 ./usr/sbin/iptables-save -> xtables-multi
-lrwxrwxrwx root       root               13 ./usr/sbin/iptables -> xtables-multi
--rwxr-xr-x root       root            68684 ./usr/sbin/xtables-multi
+-rwxr-xr-x root       root            38556 ./usr/lib/libxtables.so.12.2.0
+lrwxrwxrwx root       root               20 ./usr/lib/libxtables.so.12 -> libxtables.so.12.2.0
+drwxr-xr-x root       root              300 ./usr/sbin
+lrwxrwxrwx root       root               20 ./usr/sbin/ip6tables-legacy-restore -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/ip6tables-legacy-save -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/ip6tables-legacy -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/ip6tables-restore -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/ip6tables-save -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/ip6tables -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/iptables-legacy-restore -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/iptables-legacy-save -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/iptables-legacy -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/iptables-restore -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/iptables-save -> xtables-legacy-multi
+lrwxrwxrwx root       root               20 ./usr/sbin/iptables -> xtables-legacy-multi
+-rwxr-xr-x root       root            68628 ./usr/sbin/xtables-legacy-multi
