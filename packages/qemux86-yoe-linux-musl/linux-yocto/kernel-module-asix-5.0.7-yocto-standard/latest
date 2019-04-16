@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-asix
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-libphy-5.0.7-yocto-standard kernel-module-usbnet-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 35772
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/usb/asix.ko /etc/modules-load.d/asix.conf /etc/modprobe.d/asix.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/usb/asix.ko

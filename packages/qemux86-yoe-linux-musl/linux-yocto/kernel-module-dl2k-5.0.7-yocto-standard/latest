@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-dl2k
+RDEPENDS = kernel-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 29144
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ethernet/dlink/dl2k.ko /etc/modules-load.d/dl2k.conf /etc/modprobe.d/dl2k.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ethernet/dlink/dl2k.ko

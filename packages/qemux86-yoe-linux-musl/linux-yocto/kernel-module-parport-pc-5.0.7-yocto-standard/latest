@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-parport-pc
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-parport-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 29980
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/parport/parport_pc.ko /etc/modules-load.d/parport_pc.conf /etc/modprobe.d/parport_pc.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/parport/parport_pc.ko

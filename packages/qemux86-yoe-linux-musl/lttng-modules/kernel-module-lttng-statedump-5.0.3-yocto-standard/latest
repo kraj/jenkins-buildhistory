@@ -1,9 +1,0 @@
-PV = 2.10.8
-PR = r0
-PKGR = r0.75
-RPROVIDES = kernel-module-lttng-statedump
-RDEPENDS = kernel-5.0.3-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 11032
-FILES = /lib/modules/5.0.3-yocto-standard/kernel/lttng-modules/lttng-statedump.ko /etc/modules-load.d/lttng-statedump.conf /etc/modprobe.d/lttng-statedump.conf
-FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/lttng-modules/lttng-statedump.ko

@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-ak4114
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-snd-5.0.7-yocto-standard kernel-module-snd-pcm-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12288
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/sound/i2c/other/snd-ak4114.ko /etc/modules-load.d/snd-ak4114.conf /etc/modprobe.d/snd-ak4114.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/sound/i2c/other/snd-ak4114.ko

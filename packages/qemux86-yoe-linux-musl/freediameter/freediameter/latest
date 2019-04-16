@@ -1,8 +1,8 @@
 PV = 1.2.1
 PR = r0
-PKGR = r0.95
+PKGR = r0.96
 RPROVIDES = 
-RDEPENDS = glib-2.0 gnutls (>= 3.6.5) libidn (>= 1.35) lksctp-tools (>= 1.0.18+git0+1b077af62d) musl (>= 1.1.22+git0+65c8be3804) openssl openssl-conf openssl-engines
+RDEPENDS = glib-2.0 gnutls (>= 3.6.7) libidn (>= 1.35) lksctp-tools (>= 1.0.18+git0+1b077af62d) musl (>= 1.1.22+git0+65c8be3804) openssl openssl-conf openssl-engines
 RRECOMMENDS = kernel-module-ipip kernel-module-sctp kernel-module-tipc kernel-module-udp-tunnel
 PKGSIZE = 3111693
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/freediameter /usr/lib/freediameter/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/freeDiameter/* /lib/systemd/system/freediameter.service

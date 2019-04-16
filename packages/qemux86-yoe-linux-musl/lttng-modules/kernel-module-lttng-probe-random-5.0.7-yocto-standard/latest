@@ -1,0 +1,9 @@
+PV = 2.10.8
+PR = r0
+PKGR = r0.76
+RPROVIDES = kernel-module-lttng-probe-random
+RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-lttng-lib-ring-buffer-5.0.7-yocto-standard kernel-module-lttng-tracer-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10480
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/lttng-modules/probes/lttng-probe-random.ko /etc/modules-load.d/lttng-probe-random.conf /etc/modprobe.d/lttng-probe-random.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/lttng-modules/probes/lttng-probe-random.ko
