@@ -1,0 +1,10 @@
+PV = 5.0.7+gitAUTOINC+7477b32eaf_9c40ed0d86
+PR = r0
+PKGV = 5.0.7+git0+7477b32eaf_9c40ed0d86
+PKGR = r0.1
+RPROVIDES = kernel-module-wp512
+RDEPENDS = kernel-5.0.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 29464
+FILES = /lib/modules/5.0.7-yocto-standard/kernel/crypto/wp512.ko /etc/modules-load.d/wp512.conf /etc/modprobe.d/wp512.conf
+FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/crypto/wp512.ko

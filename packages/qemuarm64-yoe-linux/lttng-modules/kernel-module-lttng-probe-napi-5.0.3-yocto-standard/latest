@@ -1,9 +1,0 @@
-PV = 2.10.8
-PR = r0
-PKGR = r0.68
-RPROVIDES = kernel-module-lttng-probe-napi
-RDEPENDS = kernel-5.0.3-yocto-standard kernel-module-lttng-lib-ring-buffer-5.0.3-yocto-standard kernel-module-lttng-tracer-5.0.3-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 8320
-FILES = /lib/modules/5.0.3-yocto-standard/kernel/lttng-modules/probes/lttng-probe-napi.ko /etc/modules-load.d/lttng-probe-napi.conf /etc/modprobe.d/lttng-probe-napi.conf
-FILELIST = /lib/modules/5.0.3-yocto-standard/kernel/lttng-modules/probes/lttng-probe-napi.ko
