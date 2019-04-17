@@ -1,5 +1,5 @@
-PV = 0.9.3
+PV = 0.12.0
 PR = r0
-DEPENDS = bison-native boost cmake-native flex-native glib-2.0 libevent ninja-native openssl pkgconfig-native python python-native thrift-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
-PACKAGES = thrift-src thrift-dbg thrift-staticdev thrift-dev thrift-doc thrift-locale thrift-compiler libthrift thrift
+DEPENDS = bison-native boost boost cmake-native flex-native glib-2.0 libevent ninja-native openssl pkgconfig-native python-native thrift-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc
+PACKAGES = thrift-src thrift-dbg thrift-staticdev thrift-dev thrift-doc thrift-locale thrift-compiler libthrift libthriftz libthriftnb libthrift-c-glib thrift
 LAYER = openembedded-layer
