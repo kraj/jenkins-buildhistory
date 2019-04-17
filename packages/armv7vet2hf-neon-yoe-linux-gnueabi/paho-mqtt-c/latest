@@ -1,5 +1,5 @@
-PV = 1.2.1
+PV = 1.3.0
 PR = r0
-DEPENDS = openssl virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = cmake-native ninja-native openssl virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = paho-mqtt-c-src paho-mqtt-c-dbg paho-mqtt-c-staticdev paho-mqtt-c-dev paho-mqtt-c-doc paho-mqtt-c-locale paho-mqtt-c
 LAYER = openembedded-layer
