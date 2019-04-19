@@ -1,8 +1,8 @@
 PV = 4.8.4
 PR = r0
-PKGR = r0.96
+PKGR = r0.97
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libldbsamba-samba4 (>= 4.8.4) libsamba-debug-samba4 (>= 4.8.4) libsamba-hostconfig (>= 4.8.4) libsamba-modules-samba4 (>= 4.8.4) libsamba-util (>= 4.8.4) libsamdb (>= 4.8.4) libtalloc (>= 2.1.14) samba (>= 4.8.4) samba-common
+RDEPENDS = glibc (>= 2.29) libldbsamba-samba4 (>= 4.8.4) libsamba-debug-samba4 (>= 4.8.4) libsamba-hostconfig (>= 4.8.4) libsamba-modules-samba4 (>= 4.8.4) libsamba-util (>= 4.8.4) libsamdb (>= 4.8.4) libtalloc (>= 2.1.14) samba-bundled-ldb (>= 4.8.4) samba-common
 RRECOMMENDS = 
 PKGSIZE = 34736
 FILES = /usr/lib/samba/libshares-samba4.so
