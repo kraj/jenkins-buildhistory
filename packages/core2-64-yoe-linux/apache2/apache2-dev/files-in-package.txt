@@ -1,4 +1,6 @@
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            23555 ./usr/bin/apxs
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root             1300 ./usr/include/apache2
 -rw-r--r-- root       root            15968 ./usr/include/apache2/apache_noprobes.h
@@ -65,7 +67,17 @@ drwxr-xr-x root       root             1300 ./usr/include/apache2
 -rw-r--r-- root       root             8286 ./usr/include/apache2/util_varbuf.h
 -rw-r--r-- root       root             1341 ./usr/include/apache2/util_xml.h
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root               80 ./usr/share/apache2
+drwxr-xr-x root       root              100 ./usr/share/apache2
+drwxr-xr-x root       root              220 ./usr/share/apache2/build
+-rwxr-xr-x root       root             2223 ./usr/share/apache2/build/config.nice
+-rw-r--r-- root       root             3706 ./usr/share/apache2/build/config_vars.mk
+-rwxr-xr-x root       root             3095 ./usr/share/apache2/build/instdso.sh
+-rw-r--r-- root       root             1060 ./usr/share/apache2/build/library.mk
+-rw-r--r-- root       root              951 ./usr/share/apache2/build/ltlib.mk
+-rwxr-xr-x root       root             1663 ./usr/share/apache2/build/mkdir.sh
+-rw-r--r-- root       root             1032 ./usr/share/apache2/build/program.mk
+-rw-r--r-- root       root             7603 ./usr/share/apache2/build/rules.mk
+-rw-r--r-- root       root             1276 ./usr/share/apache2/build/special.mk
 drwxr-xr-x root       root              440 ./usr/share/apache2/error
 -rw-r--r-- root       root             5349 ./usr/share/apache2/error/contact.html.var
 -rw-r--r-- root       root            11594 ./usr/share/apache2/error/HTTP_BAD_GATEWAY.html.var
