@@ -1,0 +1,5 @@
+PV = 1.19.1
+PR = r0
+DEPENDS = alsa-lib cmake-native ninja-native pkgconfig-native pulseaudio virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = openal-soft-src openal-soft-dbg openal-soft-staticdev openal-soft-dev openal-soft-doc openal-soft-locale openal-soft
+LAYER = multimedia-layer

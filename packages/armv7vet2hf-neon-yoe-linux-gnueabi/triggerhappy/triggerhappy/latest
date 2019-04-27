@@ -1,8 +1,8 @@
 PV = 0.5.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libsystemd (>= 241+0+c1f8ff8d0d)
+RDEPENDS = glibc (>= 2.29) libsystemd (>= 242+0+1e5d2d6564)
 RRECOMMENDS = 
 PKGSIZE = 44896
 FILES = /usr/sbin/thd /usr/sbin/th-cmd /etc/triggerhappy/triggers.d /lib/udev/rules.d/80-triggerhappy.rules /etc/init.d/triggerhappy /lib/systemd/system /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket

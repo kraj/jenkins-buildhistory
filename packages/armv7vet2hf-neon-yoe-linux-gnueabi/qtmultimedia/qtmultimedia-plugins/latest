@@ -1,0 +1,10 @@
+PV = 5.12.3+gitAUTOINC+64981aee3b
+PR = r0
+PKGV = 5.12.3+git0+64981aee3b
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.8) glibc (>= 2.29) libgcc (>= 8.3.0) libpulse (>= 12.2) libstdc++ (>= 8.3.0) qtbase (>= 5.12.3+git0+b527725766) qtmultimedia (>= 5.12.3+git0+64981aee3b)
+RRECOMMENDS = 
+PKGSIZE = 178616
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/audio/libqtaudio_alsa.so /usr/lib/plugins/audio/libqtmedia_pulse.so /usr/lib/plugins/mediaservice/libqtmedia_audioengine.so /usr/lib/plugins/playlistformats/libqtmultimedia_m3u.so

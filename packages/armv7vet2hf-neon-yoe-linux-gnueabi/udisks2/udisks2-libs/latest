@@ -1,0 +1,10 @@
+PV = 2.8.2
+PR = r0
+PKG = libudisks2-0
+PKGR = r0.0
+RPROVIDES = udisks2-libs (=2.8.2)
+RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29)
+RRECOMMENDS = 
+PKGSIZE = 276035
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libudisks2.so.0 /usr/lib/libudisks2.so.0.0.0

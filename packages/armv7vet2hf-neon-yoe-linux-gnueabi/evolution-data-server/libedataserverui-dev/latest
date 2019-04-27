@@ -1,0 +1,10 @@
+PV = 3.26.6
+PR = r0
+PKG = libedataserverui-1.2-dev
+PKGR = r0.0
+RPROVIDES = libedataserverui-dev (=3.26.6)
+RDEPENDS = libedataserverui
+RRECOMMENDS = cairo-dev db-dev dbus-dev gconf-dev gcr-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev libcamel-dev libedataserver-dev libgdata-dev libgnome-keyring-dev libical-dev libsecret-dev libsoup-2.4-dev nss-dev pango-dev zlib-dev
+PKGSIZE = 610
+FILES = /usr/lib/libedataserverui-*.so /usr/lib/pkgconfig/libedataserverui-*.pc /usr/include/evolution-data-server-*/libedataserverui/*.h
+FILELIST = /usr/lib/libedataserverui-1.2.so /usr/lib/pkgconfig/libedataserverui-1.2.pc
