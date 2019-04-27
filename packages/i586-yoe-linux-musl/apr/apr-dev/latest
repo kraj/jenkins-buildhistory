@@ -1,9 +1,9 @@
 PV = 1.6.5
 PR = r0
 PKG = libapr-1-dev
-PKGR = r0.83
+PKGR = r0.84
 RPROVIDES = apr-dev (=1.6.5)
-RDEPENDS = apr (= 1.6.5-r0.83) bash
+RDEPENDS = apr (= 1.6.5-r0.84) bash
 RRECOMMENDS = bash-dev musl-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 567844
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/apr/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config /usr/lib/apr.exp /usr/share/build-1/*
