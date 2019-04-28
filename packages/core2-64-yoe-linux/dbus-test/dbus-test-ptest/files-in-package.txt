@@ -1,9 +1,11 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/dbus-test
-drwxr-xr-x root       root               80 ./usr/lib/dbus-test/ptest
--rwxr-xr-x root       root              379 ./usr/lib/dbus-test/ptest/run-ptest
-drwxr-xr-x root       root              540 ./usr/lib/dbus-test/ptest/test
+drwxr-xr-x root       root              100 ./usr/lib/dbus-test/ptest
+drwxr-xr-x root       root               60 ./usr/lib/dbus-test/ptest/bus
+-rwxr-xr-x root       root            96560 ./usr/lib/dbus-test/ptest/bus/dbus-daemon-launch-helper-test
+-rwxr-xr-x root       root              621 ./usr/lib/dbus-test/ptest/run-ptest
+drwxr-xr-x root       root              600 ./usr/lib/dbus-test/ptest/test
 drwxr-xr-x root       root              320 ./usr/lib/dbus-test/ptest/test/data
 drwxr-xr-x root       root              340 ./usr/lib/dbus-test/ptest/test/data/auth
 -rw-r--r-- root       root              404 ./usr/lib/dbus-test/ptest/test/data/auth/anonymous-client-successful.auth-script
@@ -144,14 +146,14 @@ drwxr-xr-x root       root              120 ./usr/lib/dbus-test/ptest/test/data/
 -rw-r--r-- root       root              199 ./usr/lib/dbus-test/ptest/test/data/valid-service-files-system/org.freedesktop.DBus.TestSuiteShellEchoServiceFail.service
 -rw-r--r-- root       root              195 ./usr/lib/dbus-test/ptest/test/data/valid-service-files-system/org.freedesktop.DBus.TestSuiteShellEchoServiceSuccess.service
 drwxr-xr-x root       root              100 ./usr/lib/dbus-test/ptest/test/.libs
--rwxr-xr-x root       root           618328 ./usr/lib/dbus-test/ptest/test/.libs/libdbus-1.so.3.19.9
+-rwxr-xr-x root       root           565008 ./usr/lib/dbus-test/ptest/test/.libs/libdbus-1.so.3.19.9
 lrwxrwxrwx root       root               19 ./usr/lib/dbus-test/ptest/test/.libs/libdbus-1.so.3 -> libdbus-1.so.3.19.9
 lrwxrwxrwx root       root               19 ./usr/lib/dbus-test/ptest/test/.libs/libdbus-1.so -> libdbus-1.so.3.19.9
--rwxr-xr-x root       root           487008 ./usr/lib/dbus-test/ptest/test/test-bus
--rwxr-xr-x root       root           100648 ./usr/lib/dbus-test/ptest/test/test-bus-launch-helper
--rwxr-xr-x root       root            88352 ./usr/lib/dbus-test/ptest/test/test-bus-system
--rwxr-xr-x root       root            55584 ./usr/lib/dbus-test/ptest/test/test-corrupt
--rwxr-xr-x root       root           182736 ./usr/lib/dbus-test/ptest/test/test-dbus
+-rwxr-xr-x root       root           450112 ./usr/lib/dbus-test/ptest/test/test-bus
+-rwxr-xr-x root       root            96552 ./usr/lib/dbus-test/ptest/test/test-bus-launch-helper
+-rwxr-xr-x root       root            84256 ./usr/lib/dbus-test/ptest/test/test-bus-system
+-rwxr-xr-x root       root            51488 ./usr/lib/dbus-test/ptest/test/test-corrupt
+-rwxr-xr-x root       root           174544 ./usr/lib/dbus-test/ptest/test/test-dbus
 -rwxr-xr-x root       root            88792 ./usr/lib/dbus-test/ptest/test/test-dbus-daemon
 -rwxr-xr-x root       root            47408 ./usr/lib/dbus-test/ptest/test/test-dbus-daemon-eavesdrop
 -rwxr-xr-x root       root            59680 ./usr/lib/dbus-test/ptest/test/test-fdpass
@@ -164,9 +166,12 @@ lrwxrwxrwx root       root               19 ./usr/lib/dbus-test/ptest/test/.libs
 -rwxr-xr-x root       root            51488 ./usr/lib/dbus-test/ptest/test/test-refs
 -rwxr-xr-x root       root            47392 ./usr/lib/dbus-test/ptest/test/test-relay
 -rwxr-xr-x root       root            76152 ./usr/lib/dbus-test/ptest/test/test-sd-activation
+-rwxr-xr-x root       root             6304 ./usr/lib/dbus-test/ptest/test/test-segfault
+-rwxr-xr-x root       root            35168 ./usr/lib/dbus-test/ptest/test/test-service
 -rwxr-xr-x root       root            14496 ./usr/lib/dbus-test/ptest/test/test-shell
--rwxr-xr-x root       root            71848 ./usr/lib/dbus-test/ptest/test/test-spawn
--rwxr-xr-x root       root            51568 ./usr/lib/dbus-test/ptest/test/test-syntax
+-rwxr-xr-x root       root            31080 ./usr/lib/dbus-test/ptest/test/test-shell-service
+-rwxr-xr-x root       root            67752 ./usr/lib/dbus-test/ptest/test/test-spawn
+-rwxr-xr-x root       root            47472 ./usr/lib/dbus-test/ptest/test/test-syntax
 -rwxr-xr-x root       root            43296 ./usr/lib/dbus-test/ptest/test/test-syslog
 -rwxr-xr-x root       root            47432 ./usr/lib/dbus-test/ptest/test/test-uid-permissions
 -rwxr-xr-x root       root            55584 ./usr/lib/dbus-test/ptest/test/test-variant
