@@ -1,11 +1,11 @@
-PV = 5.12.2+gitAUTOINC+b4bac09b3b
+PV = 5.12.3+gitAUTOINC+0f1373617f
 PR = r0
 PKG = libqt5websockets5
-PKGV = 5.12.2+git0+b4bac09b3b
-PKGR = r0.6
-RPROVIDES = qtwebsockets (=5.12.2+git0+b4bac09b3b)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qtbase (>= 5.12.2+git0+856fb1ab44)
+PKGV = 5.12.3+git0+0f1373617f
+PKGR = r0.0
+RPROVIDES = qtwebsockets (=5.12.3+git0+0f1373617f)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qtbase (>= 5.12.3+git0+b527725766)
 RRECOMMENDS = qtwebsockets-plugins qtwebsockets-qmlplugins
 PKGSIZE = 264500
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebsockets /usr/lib/qtwebsockets/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
-FILELIST = /usr/lib/libQt5WebSockets.so.5 /usr/lib/libQt5WebSockets.so.5.12 /usr/lib/libQt5WebSockets.so.5.12.2
+FILELIST = /usr/lib/libQt5WebSockets.so.5 /usr/lib/libQt5WebSockets.so.5.12 /usr/lib/libQt5WebSockets.so.5.12.3

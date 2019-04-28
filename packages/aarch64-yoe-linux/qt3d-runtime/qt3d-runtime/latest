@@ -2,9 +2,9 @@ PV = 2.2+gitAUTOINC+8cdb99c910
 PR = r0
 PKG = libqt53dstudioruntime2-2
 PKGV = 2.2+git0+8cdb99c910
-PKGR = r0.54
+PKGR = r0.55
 RPROVIDES = qt3d-runtime (=2.2+git0+8cdb99c910)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qt3d (>= 5.12.2+git0+3de900a10c) qtbase (>= 5.12.2+git0+856fb1ab44) qtdeclarative (>= 5.12.2+git0+cd7ce85ff0)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qt3d (>= 5.12.3+git0+e84d8d2a81) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
 RRECOMMENDS = qt3d-runtime-plugins qt3d-runtime-qmlplugins
 PKGSIZE = 4938038
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qt3d-runtime /usr/lib/qt3d-runtime/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec

@@ -1,10 +1,9 @@
-PV = 0.8+gitAUTOINC+3f473f5136
+PV = 0.9
 PR = r0
-PKGV = 0.8+git0+3f473f5136
-PKGR = r0.79
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libnl-dbg libnl-genl-dbg
-PKGSIZE = 275896
+PKGSIZE = 219248
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/af_ieee802154_rx /usr/bin/.debug/af_ieee802154_tx /usr/bin/.debug/af_inet6_rx /usr/bin/.debug/af_inet6_tx /usr/bin/.debug/af_packet_rx /usr/bin/.debug/af_packet_tx /usr/bin/.debug/iwpan /usr/bin/.debug/wpan-ping
+FILELIST = /usr/bin/.debug/iwpan /usr/bin/.debug/wpan-hwsim /usr/bin/.debug/wpan-ping

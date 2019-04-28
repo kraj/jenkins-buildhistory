@@ -2,9 +2,9 @@ PV = 4.0.2+gitrAUTOINC+0a97062dd4
 PR = r0
 PKG = libcec4
 PKGV = 4.0.2+gitr0+0a97062dd4
-PKGR = r0.90
+PKGR = r0.91
 RPROVIDES = libcec (=4.0.2+gitr0+0a97062dd4)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) libudev (>= 241+0+c1f8ff8d0d) libx11 (>= 1.6.7) libxrandr (>= 1.5.2) python3-core
+RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) libudev (>= 242+0+1e5d2d6564) libx11 (>= 1.6.7) libxrandr (>= 1.5.2) python3-core
 RRECOMMENDS = kernel-module-cdc-acm
 PKGSIZE = 725959
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcec /usr/lib/libcec/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so
