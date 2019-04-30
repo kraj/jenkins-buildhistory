@@ -1,8 +1,8 @@
 PV = 1.1.1b
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = libcrypto libssl openssl (= 1.1.1b-r0.12)
+RDEPENDS = libcrypto libssl openssl (= 1.1.1b-r0.13)
 RRECOMMENDS = bash-dev libcrypto-dev libssl-dev musl-dev openssl-bin-dev openssl-conf-dev perl-dev perl-modules-dev
 PKGSIZE = 1365815
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/openssl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake

@@ -1,8 +1,8 @@
 PV = 3.4.1
 PR = r0
-PKGR = r0.52
+PKGR = r0.53
 RPROVIDES = 
-RDEPENDS = gmp (>= 6.1.2) musl (>= 1.1.22+git0+65c8be3804) nettle (>= 3.4.1)
+RDEPENDS = gmp (>= 6.1.2) musl (>= 1.1.22+git0+65c8be3804) nettle (>= 3.4.1) nettle-dev
 RRECOMMENDS = ptest-runner
 PKGSIZE = 5778828
 FILES = /usr/lib/nettle/ptest
