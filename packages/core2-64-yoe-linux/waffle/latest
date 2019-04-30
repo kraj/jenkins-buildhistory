@@ -1,5 +1,5 @@
 PV = 1.5.2
 PR = r0
-DEPENDS = cmake-native libx11 ninja-native virtual/libc virtual/libgl virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = cmake-native libx11 libxcb ninja-native udev virtual/libc virtual/libgl virtual/libgl virtual/libgl virtual/libgl virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wayland
 PACKAGES = waffle-src waffle-dbg waffle-staticdev waffle-dev waffle-doc waffle-locale waffle-bin waffle
 LAYER = core

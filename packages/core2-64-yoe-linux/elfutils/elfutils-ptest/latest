@@ -1,8 +1,8 @@
 PV = 0.176
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.29) libasm (>= 0.176) libdw (>= 0.176) libelf (>= 0.176) libstdc++ (>= 8.3.0)
+RDEPENDS = bash gcc glibc (>= 2.29) libasm (>= 0.176) libdw (>= 0.176) libelf (>= 0.176) libstdc++ (>= 8.3.0)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 19978116
 FILES = /usr/lib/elfutils/ptest
