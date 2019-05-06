@@ -1,9 +1,9 @@
 PV = 2.0.19
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 3684
-FILES = /usr/sbin/kdump /etc/sysconfig/kdump.conf /etc/init.d/kdump /usr/libexec/kdump-helper /lib/systemd/system/kdump.service /lib/systemd/system/kdump.service
-FILELIST = /etc/sysconfig/kdump.conf /lib/systemd/system/kdump.service /usr/libexec/kdump-helper
+PKGSIZE = 3705
+FILES = /usr/sbin/kdump /etc/sysconfig/kdump.conf /etc/init.d/kdump /usr/libexec/kdump-helper /lib/systemd/system/kdump.service /lib/systemd/system-preset/98-kdump.preset /lib/systemd/system/kdump.service
+FILELIST = /etc/sysconfig/kdump.conf /lib/systemd/system-preset/98-kdump.preset /lib/systemd/system/kdump.service /usr/libexec/kdump-helper

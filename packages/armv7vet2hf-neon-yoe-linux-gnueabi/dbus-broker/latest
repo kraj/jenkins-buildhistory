@@ -1,5 +1,5 @@
 PV = 19
 PR = r0
-DEPENDS = expat meson-native ninja-native pkgconfig-native python3-native systemd systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = expat meson-native ninja-native pkgconfig-native python3-native systemd virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = dbus-broker-src dbus-broker-dbg dbus-broker-staticdev dbus-broker-dev dbus-broker-doc dbus-broker-locale dbus-broker
 LAYER = openembedded-layer

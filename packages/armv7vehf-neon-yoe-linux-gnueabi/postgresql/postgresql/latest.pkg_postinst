@@ -5,20 +5,13 @@ set -e
         fi
         systemctl $OPTS mask postgresql-server.service
     fi
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "postgresql.service"
 
-	systemctl $OPTS disable postgresql.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart postgresql.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "postgresql.service"
+		fi
 	fi
 fi

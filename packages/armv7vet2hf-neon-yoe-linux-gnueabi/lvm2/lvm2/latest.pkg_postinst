@@ -1,20 +1,13 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service"
 
-	systemctl $OPTS disable lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service"
+		fi
 	fi
 fi
 if [ x"$D" = "x" ]; then

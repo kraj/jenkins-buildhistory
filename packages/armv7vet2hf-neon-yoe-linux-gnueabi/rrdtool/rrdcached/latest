@@ -1,9 +1,9 @@
 PV = 1.7.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29) rrdtool (>= 1.7.1)
 RRECOMMENDS = 
-PKGSIZE = 60200
-FILES = /usr/bin/rrdcached /lib/systemd/system/rrdcached.service /lib/systemd/system/rrdcached.socket /lib/systemd/system/rrdcached.socket /lib/systemd/system/rrdcached.service
-FILELIST = /lib/systemd/system/rrdcached.service /lib/systemd/system/rrdcached.socket /usr/bin/rrdcached
+PKGSIZE = 60249
+FILES = /usr/bin/rrdcached /lib/systemd/system/rrdcached.service /lib/systemd/system/rrdcached.socket /lib/systemd/system-preset/98-rrdcached.preset /lib/systemd/system/rrdcached.socket /lib/systemd/system/rrdcached.service
+FILELIST = /lib/systemd/system-preset/98-rrdcached.preset /lib/systemd/system/rrdcached.service /lib/systemd/system/rrdcached.socket /usr/bin/rrdcached

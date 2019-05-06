@@ -1,20 +1,13 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "collectd.service"
 
-	systemctl $OPTS enable collectd.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart collectd.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "collectd.service"
+		fi
 	fi
 fi
 if [ x"$D" = "x" ]; then

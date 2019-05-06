@@ -1,9 +1,9 @@
-PV = s20190324
+PV = s20180629
 PR = r0
-PKGR = r0.0
+PKGR = r0.22
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libcap (>= 2.27) libgcrypt (>= 1.8.4) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.29) libcap (>= 2.27) nettle (>= 3.4.1) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 51416
+PKGSIZE = 47316
 FILES = /bin/ping.iputils
 FILELIST = /bin/ping.iputils

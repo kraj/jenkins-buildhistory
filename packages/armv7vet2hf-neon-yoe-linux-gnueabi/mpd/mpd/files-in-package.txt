@@ -1,10 +1,12 @@
 drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root            13751 ./etc/mpd.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              652 ./lib/systemd/system/mpd.service
 -rw-r--r-- root       root              137 ./lib/systemd/system/mpd.socket
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               18 ./lib/systemd/system-preset/98-mpd.preset
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root           374524 ./usr/bin/mpd

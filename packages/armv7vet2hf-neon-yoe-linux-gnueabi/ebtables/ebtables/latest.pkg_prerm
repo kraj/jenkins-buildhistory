@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop ebtables.service
-	fi
+		systemctl stop "ebtables.service"
 
-	systemctl $OPTS disable ebtables.service
+		systemctl disable "ebtables.service"
+	fi
 fi

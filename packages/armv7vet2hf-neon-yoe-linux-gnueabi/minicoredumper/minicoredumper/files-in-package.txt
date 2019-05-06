@@ -7,9 +7,11 @@ drwxr-xr-x root       root              100 ./etc/minicoredumper
 -rw-r--r-- root       root              134 ./etc/minicoredumper/minicoredumper.cfg.json
 -rw-r--r-- root       root              124 ./etc/minicoredumper/minicoredumper.cfg.json.in
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              316 ./lib/systemd/system/minicoredumper.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               30 ./lib/systemd/system-preset/98-minicoredumper.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            13956 ./usr/bin/coreinject

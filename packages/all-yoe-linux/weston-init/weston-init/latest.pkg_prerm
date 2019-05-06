@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop weston@%i.service
-	fi
+		systemctl stop "weston@%i.service"
 
-	systemctl $OPTS disable weston@%i.service
+		systemctl disable "weston@%i.service"
+	fi
 fi

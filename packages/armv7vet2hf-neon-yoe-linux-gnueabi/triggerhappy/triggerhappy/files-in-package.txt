@@ -2,8 +2,10 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/triggerhappy
 drwxr-xr-x root       root               40 ./etc/triggerhappy/triggers.d
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               55 ./lib/systemd/system-preset/98-triggerhappy.preset
 -rw-r--r-- root       root              271 ./lib/systemd/system/triggerhappy.service
 -rw-r--r-- root       root               73 ./lib/systemd/system/triggerhappy.socket
 drwxr-xr-x root       root               60 ./lib/udev

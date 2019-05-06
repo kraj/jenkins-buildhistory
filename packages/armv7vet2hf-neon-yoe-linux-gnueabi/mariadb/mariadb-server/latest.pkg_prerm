@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop mysqld.service
-	fi
+		systemctl stop "mysqld.service"
 
-	systemctl $OPTS disable mysqld.service
+		systemctl disable "mysqld.service"
+	fi
 fi

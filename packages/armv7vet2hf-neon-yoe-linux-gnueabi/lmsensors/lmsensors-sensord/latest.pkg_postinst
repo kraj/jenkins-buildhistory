@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "sensord.service lm_sensors.service fancontrol.service"
 
-	systemctl $OPTS disable sensord.service lm_sensors.service fancontrol.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart sensord.service lm_sensors.service fancontrol.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "sensord.service lm_sensors.service fancontrol.service"
+		fi
 	fi
 fi

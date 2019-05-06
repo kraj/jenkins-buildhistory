@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop atop.service atopgpu.service
-	fi
+		systemctl stop "atop.service atopgpu.service"
 
-	systemctl $OPTS disable atop.service atopgpu.service
+		systemctl disable "atop.service atopgpu.service"
+	fi
 fi

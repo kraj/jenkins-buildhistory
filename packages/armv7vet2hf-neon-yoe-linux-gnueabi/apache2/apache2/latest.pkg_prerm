@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop apache2.service
-	fi
+		systemctl stop "apache2.service"
 
-	systemctl $OPTS disable apache2.service
+		systemctl disable "apache2.service"
+	fi
 fi

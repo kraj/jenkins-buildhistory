@@ -1,20 +1,13 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "blueman-mechanism.service"
 
-	systemctl $OPTS disable blueman-mechanism.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart blueman-mechanism.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "blueman-mechanism.service"
+		fi
 	fi
 fi
 	glib-compile-schemas $D/usr/share/glib-2.0/schemas

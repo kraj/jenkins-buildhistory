@@ -7,9 +7,11 @@ drwxr-xr-x root       root              160 ./etc/hiawatha
 -rw-r--r-- root       root             2345 ./etc/hiawatha/mimetype.conf
 -rw-r--r-- root       root               96 ./etc/hiawatha/php-fcgi.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              482 ./lib/systemd/system/hiawatha.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               24 ./lib/systemd/system-preset/98-hiawatha.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            26304 ./usr/bin/ssi-cgi

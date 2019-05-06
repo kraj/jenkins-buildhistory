@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer"
 
-	systemctl $OPTS disable dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer"
+		fi
 	fi
 fi

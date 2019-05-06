@@ -1,9 +1,8 @@
-drwxr-xr-x root       root              240 ./bin
+drwxr-xr-x root       root              220 ./bin
 -rwxr-xr-x root       root            46740 ./bin/journalctl
 -rwxr-xr-x root       root            34540 ./bin/loginctl
 -rwxr-xr-x root       root            30372 ./bin/networkctl
 -rwxr-xr-x root       root           145416 ./bin/systemctl
--rwxr-xr-x root       root            26376 ./bin/systemd-firstboot
 -rwxr-xr-x root       root            84028 ./bin/systemd-hwdb
 -rwxr-xr-x root       root            14048 ./bin/systemd-machine-id-setup
 -rwxr-xr-x root       root             9876 ./bin/systemd-notify
@@ -15,16 +14,20 @@ drwxr-xr-x root       root               60 ./etc/pam.d
 -rw-r--r-- root       root              210 ./etc/pam.d/systemd-user
 lrwxrwxrwx root       root               34 ./etc/resolv-conf.systemd -> ../run/systemd/resolve/resolv.conf
 drwxr-xr-x root       root               40 ./etc/sysctl.d
-drwxr-xr-x root       root              180 ./etc/systemd
+drwxr-xr-x root       root              260 ./etc/systemd
+-rw-r--r-- root       root             1041 ./etc/systemd/journald.conf
+-rw-r--r-- root       root             1043 ./etc/systemd/logind.conf
 drwxr-xr-x root       root               40 ./etc/systemd/network
 -rw-r--r-- root       root              529 ./etc/systemd/networkd.conf
 -rw-r--r-- root       root              751 ./etc/systemd/resolved.conf
 -rw-r--r-- root       root              790 ./etc/systemd/sleep.conf
 drwxr-xr-x root       root               80 ./etc/systemd/system
+-rw-r--r-- root       root             1631 ./etc/systemd/system.conf
 drwxr-xr-x root       root               40 ./etc/systemd/system/getty.target.wants
 drwxr-xr-x root       root               40 ./etc/systemd/system/multi-user.target.wants
 -rw-r--r-- root       root              657 ./etc/systemd/timesyncd.conf
 drwxr-xr-x root       root               40 ./etc/systemd/user
+-rw-r--r-- root       root             1130 ./etc/systemd/user.conf
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root              225 ./etc/tmpfiles.d/00-create-volatile.conf
 drwxr-xr-x root       root               60 ./etc/xdg
@@ -42,7 +45,7 @@ drwxr-xr-x root       root              100 ./lib/systemd/network
 -rw-r--r-- root       root              718 ./lib/systemd/network/80-container-ve.network
 -rw-r--r-- root       root              704 ./lib/systemd/network/80-container-vz.network
 -rw-r--r-- root       root              692 ./lib/systemd/resolv.conf
-drwxr-xr-x root       root             3100 ./lib/systemd/system
+drwxr-xr-x root       root             3080 ./lib/systemd/system
 lrwxrwxrwx root       root               14 ./lib/systemd/system/autovt@.service -> getty@.service
 -rw-r--r-- root       root              919 ./lib/systemd/system/basic.target
 -rw-r--r-- root       root              419 ./lib/systemd/system/bluetooth.target
@@ -145,8 +148,9 @@ lrwxrwxrwx root       root               32 ./lib/systemd/system/multi-user.targ
 -rw-r--r-- root       root              592 ./lib/systemd/system/poweroff.target
 drwxr-xr-x root       root               60 ./lib/systemd/system/poweroff.target.wants
 lrwxrwxrwx root       root               39 ./lib/systemd/system/poweroff.target.wants/systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
-drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+drwxr-xr-x root       root               80 ./lib/systemd/system-preset
 -rw-r--r-- root       root              951 ./lib/systemd/system-preset/90-systemd.preset
+-rw-r--r-- root       root               10 ./lib/systemd/system-preset/99-default.preset
 -rw-r--r-- root       root              417 ./lib/systemd/system/printer.target
 -rw-r--r-- root       root              617 ./lib/systemd/system/quotaon.service
 -rw-r--r-- root       root              716 ./lib/systemd/system/rc-local.service
@@ -190,7 +194,7 @@ lrwxrwxrwx root       root               26 ./lib/systemd/system/sockets.target.
 -rw-r--r-- root       root              393 ./lib/systemd/system/swap.target
 -rw-r--r-- root       root              823 ./lib/systemd/system/sys-fs-fuse-connections.mount
 -rw-r--r-- root       root              558 ./lib/systemd/system/sysinit.target
-drwxr-xr-x root       root              460 ./lib/systemd/system/sysinit.target.wants
+drwxr-xr-x root       root              440 ./lib/systemd/system/sysinit.target.wants
 lrwxrwxrwx root       root               22 ./lib/systemd/system/sysinit.target.wants/dev-hugepages.mount -> ../dev-hugepages.mount
 lrwxrwxrwx root       root               19 ./lib/systemd/system/sysinit.target.wants/dev-mqueue.mount -> ../dev-mqueue.mount
 lrwxrwxrwx root       root               28 ./lib/systemd/system/sysinit.target.wants/kmod-static-nodes.service -> ../kmod-static-nodes.service
@@ -198,7 +202,6 @@ lrwxrwxrwx root       root               19 ./lib/systemd/system/sysinit.target.
 lrwxrwxrwx root       root               32 ./lib/systemd/system/sysinit.target.wants/sys-fs-fuse-connections.mount -> ../sys-fs-fuse-connections.mount
 lrwxrwxrwx root       root               26 ./lib/systemd/system/sysinit.target.wants/sys-kernel-config.mount -> ../sys-kernel-config.mount
 lrwxrwxrwx root       root               25 ./lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount -> ../sys-kernel-debug.mount
-lrwxrwxrwx root       root               28 ./lib/systemd/system/sysinit.target.wants/systemd-firstboot.service -> ../systemd-firstboot.service
 lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.wants/systemd-hwdb-update.service -> ../systemd-hwdb-update.service
 lrwxrwxrwx root       root               41 ./lib/systemd/system/sysinit.target.wants/systemd-journal-catalog-update.service -> ../systemd-journal-catalog-update.service
 lrwxrwxrwx root       root               27 ./lib/systemd/system/sysinit.target.wants/systemd-journald.service -> ../systemd-journald.service
@@ -218,7 +221,6 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              752 ./lib/systemd/system/systemd-backlight@.service
 -rw-r--r-- root       root              718 ./lib/systemd/system/systemd-boot-check-no-failures.service
 -rw-r--r-- root       root              556 ./lib/systemd/system/systemd-exit.service
--rw-r--r-- root       root              795 ./lib/systemd/system/systemd-firstboot.service
 -rw-r--r-- root       root              640 ./lib/systemd/system/systemd-fsck-root.service
 -rw-r--r-- root       root              693 ./lib/systemd/system/systemd-fsck@.service
 -rw-r--r-- root       root              584 ./lib/systemd/system/systemd-halt.service

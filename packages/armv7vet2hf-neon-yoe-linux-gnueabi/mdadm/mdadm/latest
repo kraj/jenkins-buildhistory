@@ -1,9 +1,9 @@
 PV = 4.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 660800
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mdadm /usr/lib/mdadm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/mdmonitor.service /lib/systemd/system/mdmon@.service
-FILELIST = /etc/mdadm.conf /lib/systemd/system/mdmon@.service /lib/systemd/system/mdmonitor.service /lib/udev/rules.d/01-md-raid-creating.rules /lib/udev/rules.d/63-md-raid-arrays.rules /lib/udev/rules.d/64-md-raid-assembly.rules /lib/udev/rules.d/69-md-clustered-confirm-device.rules /sbin/mdadm /sbin/mdmon
+PKGSIZE = 660849
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mdadm /usr/lib/mdadm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-mdadm.preset /lib/systemd/system/mdmonitor.service /lib/systemd/system/mdmon@.service
+FILELIST = /etc/mdadm.conf /lib/systemd/system-preset/98-mdadm.preset /lib/systemd/system/mdmon@.service /lib/systemd/system/mdmonitor.service /lib/udev/rules.d/01-md-raid-creating.rules /lib/udev/rules.d/63-md-raid-arrays.rules /lib/udev/rules.d/64-md-raid-assembly.rules /lib/udev/rules.d/69-md-clustered-confirm-device.rules /sbin/mdadm /sbin/mdmon

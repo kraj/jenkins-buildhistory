@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop radvd.service
-	fi
+		systemctl stop "radvd.service"
 
-	systemctl $OPTS disable radvd.service
+		systemctl disable "radvd.service"
+	fi
 fi

@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop avahi-dnsconfd.service
-	fi
+		systemctl stop "avahi-dnsconfd.service"
 
-	systemctl $OPTS disable avahi-dnsconfd.service
+		systemctl disable "avahi-dnsconfd.service"
+	fi
 fi
