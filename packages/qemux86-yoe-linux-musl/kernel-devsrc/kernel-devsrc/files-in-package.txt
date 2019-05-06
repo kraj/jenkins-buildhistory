@@ -1490,7 +1490,7 @@ drwxr-xr-x root       root              160 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root             7354 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/iosf_mbi.h
 -rw-r--r-- root       root             2912 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/ipi.h
 -rw-r--r-- root       root             1644 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/irqdomain.h
--rw-r--r-- root       root             4263 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/irqflags.h
+-rw-r--r-- root       root             4446 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/irqflags.h
 -rw-r--r-- root       root             1473 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/irq.h
 -rw-r--r-- root       root              679 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/irq_regs.h
 -rw-r--r-- root       root             3068 ./lib/modules/5.0.7-yocto-standard/build/arch/x86/include/asm/irq_remapping.h
@@ -1933,7 +1933,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.0.7-yocto-standard/b
 drwxr-xr-x root       root               80 ./lib/modules/5.0.7-yocto-standard/build/certs
 -rw-r--r-- root       root             3494 ./lib/modules/5.0.7-yocto-standard/build/certs/Kconfig
 -rw-r--r-- root       root             4167 ./lib/modules/5.0.7-yocto-standard/build/certs/Makefile
--rw-r--r-- root       root           129589 ./lib/modules/5.0.7-yocto-standard/build/.config
+-rw-r--r-- root       root           129578 ./lib/modules/5.0.7-yocto-standard/build/.config
 drwxr-xr-x root       root              120 ./lib/modules/5.0.7-yocto-standard/build/crypto
 drwxr-xr-x root       root               80 ./lib/modules/5.0.7-yocto-standard/build/crypto/asymmetric_keys
 -rw-r--r-- root       root             3190 ./lib/modules/5.0.7-yocto-standard/build/crypto/asymmetric_keys/Kconfig
@@ -6197,7 +6197,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/atl1e.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/atl1.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/atl2.h
--rw-r--r-- root       root           129589 ./lib/modules/5.0.7-yocto-standard/build/include/config/auto.conf
+-rw-r--r-- root       root           129578 ./lib/modules/5.0.7-yocto-standard/build/include/config/auto.conf
 -rw-r--r-- root       root            42268 ./lib/modules/5.0.7-yocto-standard/build/include/config/auto.conf.cmd
 drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/build/include/config/autofs
 drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/build/include/config/autofs4
@@ -8454,7 +8454,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/tracing/support.h
 drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/build/include/config/tree
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/tree/srcu.h
--rw-r--r-- root       root            17690 ./lib/modules/5.0.7-yocto-standard/build/include/config/tristate.conf
+-rw-r--r-- root       root            17718 ./lib/modules/5.0.7-yocto-standard/build/include/config/tristate.conf
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/tty.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/tun.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/typhoon.h
@@ -8555,7 +8555,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/kaweth.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/kc2190.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/m5602.h
-drwxr-xr-x root       root              260 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net
+drwxr-xr-x root       root              280 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net
 drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/ax88179
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/ax88179/178a.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/ax8817x.h
@@ -8570,6 +8570,8 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/drivers.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/mcs7830.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/net1080.h
+drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/rndis
+-rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/rndis/host.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/smsc75xx.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/smsc95xx.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.7-yocto-standard/build/include/config/usb/net/zaurus.h
@@ -9491,7 +9493,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root             3458 ./lib/modules/5.0.7-yocto-standard/build/include/dt-bindings/usb/pd.h
 drwxr-xr-x root       root              180 ./lib/modules/5.0.7-yocto-standard/build/include/generated
 -rw-r--r-- root       root             4581 ./lib/modules/5.0.7-yocto-standard/build/include/generated/asm-offsets.h
--rw-r--r-- root       root            63015 ./lib/modules/5.0.7-yocto-standard/build/include/generated/autoconf.h
+-rw-r--r-- root       root            63058 ./lib/modules/5.0.7-yocto-standard/build/include/generated/autoconf.h
 -rw-r--r-- root       root              317 ./lib/modules/5.0.7-yocto-standard/build/include/generated/bounds.h
 -rw-r--r-- root       root              276 ./lib/modules/5.0.7-yocto-standard/build/include/generated/compile.h
 -rw-r--r-- root       root             1100 ./lib/modules/5.0.7-yocto-standard/build/include/generated/timeconst.h
@@ -13958,7 +13960,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.7-yocto-standard/b
 -rw-r--r-- root       root            25229 ./lib/modules/5.0.7-yocto-standard/build/mm/Kconfig
 -rw-r--r-- root       root             3884 ./lib/modules/5.0.7-yocto-standard/build/mm/Kconfig.debug
 -rw-r--r-- root       root             3604 ./lib/modules/5.0.7-yocto-standard/build/mm/Makefile
--rw-r--r-- root       root           705819 ./lib/modules/5.0.7-yocto-standard/build/Module.symvers
+-rw-r--r-- root       root           706244 ./lib/modules/5.0.7-yocto-standard/build/Module.symvers
 drwxr-xr-x root       root             1440 ./lib/modules/5.0.7-yocto-standard/build/net
 drwxr-xr-x root       root               80 ./lib/modules/5.0.7-yocto-standard/build/net/6lowpan
 -rw-r--r-- root       root             2760 ./lib/modules/5.0.7-yocto-standard/build/net/6lowpan/Kconfig

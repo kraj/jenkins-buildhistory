@@ -1,9 +1,9 @@
 PV = 2.0.31
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
-PKGSIZE = 82633
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/acpid /usr/lib/acpid/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/acpid.service
-FILELIST = /lib/systemd/system/acpid.service /usr/bin/acpi_listen /usr/sbin/acpid /usr/sbin/kacpimon
+PKGSIZE = 82654
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/acpid /usr/lib/acpid/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-acpid.preset /lib/systemd/system/acpid.service
+FILELIST = /lib/systemd/system-preset/98-acpid.preset /lib/systemd/system/acpid.service /usr/bin/acpi_listen /usr/sbin/acpid /usr/sbin/kacpimon

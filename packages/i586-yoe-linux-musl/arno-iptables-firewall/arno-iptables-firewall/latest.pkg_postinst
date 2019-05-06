@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "arno-iptables-firewall.service"
 
-	systemctl $OPTS enable arno-iptables-firewall.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart arno-iptables-firewall.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "arno-iptables-firewall.service"
+		fi
 	fi
 fi

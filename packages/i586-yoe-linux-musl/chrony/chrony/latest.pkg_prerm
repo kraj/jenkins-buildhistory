@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop chronyd.service
-	fi
+		systemctl stop "chronyd.service"
 
-	systemctl $OPTS disable chronyd.service
+		systemctl disable "chronyd.service"
+	fi
 fi

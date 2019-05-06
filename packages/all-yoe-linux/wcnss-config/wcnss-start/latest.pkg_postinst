@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "wcnss-start.service"
 
-	systemctl $OPTS enable wcnss-start.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart wcnss-start.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "wcnss-start.service"
+		fi
 	fi
 fi

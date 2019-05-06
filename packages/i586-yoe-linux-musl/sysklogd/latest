@@ -1,5 +1,5 @@
 PV = 1.5.1
 PR = r0
-DEPENDS = systemd-systemctl-native virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc virtual/update-alternatives
+DEPENDS = virtual/i586-yoe-linux-musl-compilerlibs virtual/i586-yoe-linux-musl-gcc virtual/libc virtual/update-alternatives
 PACKAGES = sysklogd-src sysklogd-dbg sysklogd-staticdev sysklogd-dev sysklogd-doc sysklogd-locale sysklogd
 LAYER = core

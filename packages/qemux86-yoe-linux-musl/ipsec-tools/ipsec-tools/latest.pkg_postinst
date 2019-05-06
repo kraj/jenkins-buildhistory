@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "racoon.service"
 
-	systemctl $OPTS enable racoon.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart racoon.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "racoon.service"
+		fi
 	fi
 fi

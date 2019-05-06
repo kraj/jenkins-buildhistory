@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop netdata.service
-	fi
+		systemctl stop "netdata.service"
 
-	systemctl $OPTS disable netdata.service
+		systemctl disable "netdata.service"
+	fi
 fi

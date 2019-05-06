@@ -1,9 +1,9 @@
 PV = 7.0
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = 
 RDEPENDS = libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) mailx musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
-PKGSIZE = 1571118
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/smartmontools /usr/lib/smartmontools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/smartd.service
-FILELIST = /etc/default/smartmontools /etc/smartd.conf /etc/smartd_warning.sh /lib/systemd/system/smartd.service /usr/sbin/smartctl /usr/sbin/smartd /usr/sbin/update-smart-drivedb /usr/share/smartmontools/drivedb.h
+PKGSIZE = 1571141
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/smartmontools /usr/lib/smartmontools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-smartmontools.preset /lib/systemd/system/smartd.service
+FILELIST = /etc/default/smartmontools /etc/smartd.conf /etc/smartd_warning.sh /lib/systemd/system-preset/98-smartmontools.preset /lib/systemd/system/smartd.service /usr/sbin/smartctl /usr/sbin/smartd /usr/sbin/update-smart-drivedb /usr/share/smartmontools/drivedb.h

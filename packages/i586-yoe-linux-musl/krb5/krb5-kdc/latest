@@ -1,9 +1,9 @@
 PV = 1.17
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
 RDEPENDS = libcomerr (>= 1.44.5) libgssapi-krb5 (>= 1.17) libgssrpc (>= 1.17) libk5crypto (>= 1.17) libkadm5srv-mit (>= 1.17) libkdb5 (>= 1.17) libkrb5 (>= 1.17) libkrb5support (>= 1.17) libverto (>= 1.17) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
-PKGSIZE = 384432
-FILES = /usr/lib/krb5/plugins/kdb/db2.so /var/krb5kdc /usr/sbin/kdb5_util /usr/sbin/kproplog /usr/sbin/krb5kdc /etc/default/krb5-kdc /etc/default/volatiles/87_krb5 /etc/init.d/krb5-kdc /etc/tmpfiles.d/krb5.conf /lib/systemd/system/krb5-kdc.service /lib/systemd/system/krb5-kdc.service
-FILELIST = /etc/default/krb5-kdc /etc/tmpfiles.d/krb5.conf /lib/systemd/system/krb5-kdc.service /usr/lib/krb5/plugins/kdb/db2.so /usr/sbin/kdb5_util /usr/sbin/kproplog /usr/sbin/krb5kdc
+PKGSIZE = 384456
+FILES = /usr/lib/krb5/plugins/kdb/db2.so /var/krb5kdc /usr/sbin/kdb5_util /usr/sbin/kproplog /usr/sbin/krb5kdc /etc/default/krb5-kdc /etc/default/volatiles/87_krb5 /etc/init.d/krb5-kdc /etc/tmpfiles.d/krb5.conf /lib/systemd/system/krb5-kdc.service /lib/systemd/system-preset/98-krb5-kdc.preset /lib/systemd/system/krb5-kdc.service
+FILELIST = /etc/default/krb5-kdc /etc/tmpfiles.d/krb5.conf /lib/systemd/system-preset/98-krb5-kdc.preset /lib/systemd/system/krb5-kdc.service /usr/lib/krb5/plugins/kdb/db2.so /usr/sbin/kdb5_util /usr/sbin/kproplog /usr/sbin/krb5kdc

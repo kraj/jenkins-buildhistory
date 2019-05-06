@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop wcnss-start.service
-	fi
+		systemctl stop "wcnss-start.service"
 
-	systemctl $OPTS disable wcnss-start.service
+		systemctl disable "wcnss-start.service"
+	fi
 fi
