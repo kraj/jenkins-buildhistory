@@ -1,3 +1,4 @@
 #!/bin/sh
 set -e
 	update-alternatives --remove  acpixtract /usr/bin/acpixtract.acpica
+	update-alternatives --remove  acpidump /usr/bin/acpidump.acpica
