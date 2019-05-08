@@ -1,5 +1,5 @@
 PV = 0.2.0
 PR = r0
-DEPENDS = autoconf-native automake-native curl dbus-glib dbus-glib-native freetype gdk-pixbuf gettext-native gnu-config-native gtk-doc-native gtk-icon-utils-native hicolor-icon-theme intltool-native libgsf libtool-cross libtool-native libxml2 pkgconfig-native poppler python3-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc xfce4-dev-tools-native
+DEPENDS = autoconf-native automake-native curl dbus-glib dbus-glib-native freetype gdk-pixbuf gettext-native gnu-config-native gtk+3-native gtk-doc-native hicolor-icon-theme intltool-native libgsf libtool-cross libtool-native libxml2 pkgconfig-native poppler python3-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc xfce4-dev-tools-native
 PACKAGES = tumbler-src tumbler-dbg tumbler-staticdev tumbler-dev tumbler-doc tumbler-locale tumbler
 LAYER = xfce-layer

@@ -32,9 +32,11 @@ drwxr-xr-x root       root              660 ./etc/opensaf
 -rw-r--r-- root       root                3 ./etc/opensaf/subslot_id
 -rw-r--r-- root       root              526 ./etc/opensaf/transportd.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              385 ./lib/systemd/system/opensafd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               25 ./lib/systemd/system-preset/98-opensaf.preset
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              460 ./usr/bin
 -rwxr-xr-x root       root             2033 ./usr/bin/amf-adm

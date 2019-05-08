@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop dlm.service
-	fi
+		systemctl stop "dlm.service"
 
-	systemctl $OPTS disable dlm.service
+		systemctl disable "dlm.service"
+	fi
 fi

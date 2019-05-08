@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "mosquitto.service"
 
-	systemctl $OPTS enable mosquitto.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart mosquitto.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "mosquitto.service"
+		fi
 	fi
 fi

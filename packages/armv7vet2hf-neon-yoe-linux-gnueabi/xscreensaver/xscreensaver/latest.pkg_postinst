@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "xscreensaver.service"
 
-	systemctl $OPTS enable xscreensaver.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart xscreensaver.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "xscreensaver.service"
+		fi
 	fi
 fi
