@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop systemd-bootchart.service
-	fi
+		systemctl stop "systemd-bootchart.service"
 
-	systemctl $OPTS disable systemd-bootchart.service
+		systemctl disable "systemd-bootchart.service"
+	fi
 fi

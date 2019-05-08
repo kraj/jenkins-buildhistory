@@ -1,16 +1,10 @@
 #!/bin/sh
 set -e
 	update-alternatives --remove  ntpd /usr/sbin/ntpd.ntp
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop ntpd.service
-	fi
+		systemctl stop "ntpd.service"
 
-	systemctl $OPTS disable ntpd.service
+		systemctl disable "ntpd.service"
+	fi
 fi

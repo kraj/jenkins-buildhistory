@@ -8,7 +8,7 @@ drwxr-xr-x root       root               80 ./etc/lirc/lircd.conf.d
 -rw-r--r-- root       root              155 ./etc/lirc/lircmd.conf
 -rw-r--r-- root       root              646 ./etc/lirc/lirc_options.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              160 ./lib/systemd/system
 -rw-r--r-- root       root              507 ./lib/systemd/system/lircd.service
 -rw-r--r-- root       root              182 ./lib/systemd/system/lircd-setup.service
@@ -16,6 +16,8 @@ drwxr-xr-x root       root              160 ./lib/systemd/system
 -rw-r--r-- root       root              489 ./lib/systemd/system/lircd-uinput.service
 -rwxr-xr-x root       root              994 ./lib/systemd/system/lircexec.init
 -rw-r--r-- root       root              507 ./lib/systemd/system/lircmd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               98 ./lib/systemd/system-preset/98-lirc.preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              440 ./usr/bin
 -rwxr-xr-x root       root            10536 ./usr/bin/ircat

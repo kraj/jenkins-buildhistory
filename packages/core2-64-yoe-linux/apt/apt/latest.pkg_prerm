@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop apt-daily.timer
-	fi
+		systemctl stop "apt-daily.timer"
 
-	systemctl $OPTS disable apt-daily.timer
+		systemctl disable "apt-daily.timer"
+	fi
 fi

@@ -2,20 +2,13 @@ set -e
     if [ -z "$D" -a -x /etc/init.d/populate-volatile.sh ]; then
         /etc/init.d/populate-volatile.sh update
     fi
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "radvd.service"
 
-	systemctl $OPTS disable radvd.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart radvd.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "radvd.service"
+		fi
 	fi
 fi

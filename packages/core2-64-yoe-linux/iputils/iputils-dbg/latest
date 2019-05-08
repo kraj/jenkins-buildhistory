@@ -1,9 +1,9 @@
-PV = s20190324
+PV = s20180629
 PR = r0
-PKGR = r0.0
+PKGR = r0.94
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libcap-dbg libgcrypt-dbg
-PKGSIZE = 921536
+RRECOMMENDS = glibc-dbg libcap-dbg nettle-dbg
+PKGSIZE = 592128
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /bin/.debug/arping /bin/.debug/clockdiff /bin/.debug/ping.iputils /bin/.debug/tftpd /bin/.debug/tracepath /bin/.debug/traceroute6 /sbin/.debug/ninfod /sbin/.debug/rarpd /sbin/.debug/rdisc
+FILELIST = /bin/.debug/arping /bin/.debug/clockdiff /bin/.debug/ping.iputils /bin/.debug/rarpd /bin/.debug/rdisc /bin/.debug/tftpd /bin/.debug/tracepath /bin/.debug/traceroute6

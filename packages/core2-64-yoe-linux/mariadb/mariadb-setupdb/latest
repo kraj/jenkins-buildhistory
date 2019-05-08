@@ -1,9 +1,9 @@
 PV = 10.3.13
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = 
 RDEPENDS = coreutils
 RRECOMMENDS = 
-PKGSIZE = 318
-FILES = /etc/init.d/install_db /lib/systemd/system/install_db.service
-FILELIST = /lib/systemd/system/install_db.service
+PKGSIZE = 344
+FILES = /etc/init.d/install_db /lib/systemd/system-preset/98-mariadb-setupdb.preset /lib/systemd/system/install_db.service
+FILELIST = /lib/systemd/system-preset/98-mariadb-setupdb.preset /lib/systemd/system/install_db.service

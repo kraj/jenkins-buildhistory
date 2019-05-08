@@ -2,7 +2,9 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/systemd
 -rw-r--r-- root       root              720 ./etc/systemd/bootchart.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root              100 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rwxr-xr-x root       root            92720 ./lib/systemd/systemd-bootchart
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               33 ./lib/systemd/system-preset/98-systemd-bootchart.preset
 -rw-r--r-- root       root              650 ./lib/systemd/system/systemd-bootchart.service

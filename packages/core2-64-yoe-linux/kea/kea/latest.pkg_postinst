@@ -1,20 +1,13 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service"
 
-	systemctl $OPTS disable kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service"
+		fi
 	fi
 fi
 if [ x"$D" = "x" ]; then

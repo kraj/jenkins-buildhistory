@@ -7,10 +7,12 @@ drwxr-xr-x root       root               40 ./etc/apt/sources.list.d
 drwxr-xr-x root       root               60 ./etc/cron.daily
 -rwxr-xr-x root       root             1474 ./etc/cron.daily/apt.apt-compat.cron.daily
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              169 ./lib/systemd/system/apt-daily.service
 -rw-r--r-- root       root              212 ./lib/systemd/system/apt-daily.timer
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-apt.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
 -rwxr-xr-x root       root            80280 ./usr/bin/apt-cache

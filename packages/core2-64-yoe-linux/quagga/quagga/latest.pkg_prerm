@@ -1,15 +1,9 @@
 set -e
     /etc/init.d/quagga stop
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop zebra.service
-	fi
+		systemctl stop "zebra.service"
 
-	systemctl $OPTS disable zebra.service
+		systemctl disable "zebra.service"
+	fi
 fi

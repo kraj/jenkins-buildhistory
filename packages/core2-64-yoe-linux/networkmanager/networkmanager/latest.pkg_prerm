@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop NetworkManager.service NetworkManager-dispatcher.service
-	fi
+		systemctl stop "NetworkManager.service NetworkManager-dispatcher.service"
 
-	systemctl $OPTS disable NetworkManager.service NetworkManager-dispatcher.service
+		systemctl disable "NetworkManager.service NetworkManager-dispatcher.service"
+	fi
 fi

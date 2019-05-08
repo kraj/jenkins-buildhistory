@@ -1,20 +1,13 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "NetworkManager.service NetworkManager-dispatcher.service"
 
-	systemctl $OPTS enable NetworkManager.service NetworkManager-dispatcher.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart NetworkManager.service NetworkManager-dispatcher.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "NetworkManager.service NetworkManager-dispatcher.service"
+		fi
 	fi
 fi
 if [ x"$D" = "x" ]; then

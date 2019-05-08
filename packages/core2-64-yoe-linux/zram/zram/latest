@@ -1,11 +1,11 @@
 PV = 0.1
 PR = r3
-PKGR = r3.85
+PKGR = r3.86
 RPROVIDES = zram-systemd
 RDEPENDS = kmod util-linux-swaponoff
 RRECOMMENDS = kernel-module-zram
 RREPLACES = zram-systemd
 RCONFLICTS = zram-systemd
-PKGSIZE = 243
-FILES = /etc /lib/systemd/system/zram.service
-FILELIST = /lib/systemd/system/zram.service
+PKGSIZE = 263
+FILES = /etc /lib/systemd/system-preset/98-zram.preset /lib/systemd/system/zram.service
+FILELIST = /lib/systemd/system-preset/98-zram.preset /lib/systemd/system/zram.service

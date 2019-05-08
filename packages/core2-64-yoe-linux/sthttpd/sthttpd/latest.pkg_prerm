@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop thttpd.service
-	fi
+		systemctl stop "thttpd.service"
 
-	systemctl $OPTS disable thttpd.service
+		systemctl disable "thttpd.service"
+	fi
 fi

@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop owfs.service
-	fi
+		systemctl stop "owfs.service"
 
-	systemctl $OPTS disable owfs.service
+		systemctl disable "owfs.service"
+	fi
 fi

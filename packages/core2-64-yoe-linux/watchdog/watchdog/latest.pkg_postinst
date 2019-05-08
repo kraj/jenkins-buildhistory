@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "watchdog.service"
 
-	systemctl $OPTS disable watchdog.service
-
-	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl --no-block restart watchdog.service
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart "watchdog.service"
+		fi
 	fi
 fi

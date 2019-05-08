@@ -1,19 +1,12 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "logrotate.service logrotate.timer"
 
-	systemctl $OPTS enable logrotate.service logrotate.timer
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart logrotate.service logrotate.timer
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "logrotate.service logrotate.timer"
+		fi
 	fi
 fi

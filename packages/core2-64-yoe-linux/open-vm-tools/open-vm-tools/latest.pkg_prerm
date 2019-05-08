@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop vmtoolsd.service
-	fi
+		systemctl stop "vmtoolsd.service"
 
-	systemctl $OPTS disable vmtoolsd.service
+		systemctl disable "vmtoolsd.service"
+	fi
 fi
