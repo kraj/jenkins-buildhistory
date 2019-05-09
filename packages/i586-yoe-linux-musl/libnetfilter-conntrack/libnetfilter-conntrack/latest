@@ -1,10 +1,10 @@
-PV = 1.0.6
+PV = 1.0.7
 PR = r0
 PKG = libnetfilter-conntrack3
-PKGR = r0.97
-RPROVIDES = libnetfilter-conntrack (=1.0.6)
+PKGR = r0.0
+RPROVIDES = libnetfilter-conntrack (=1.0.7)
 RDEPENDS = libmnl (>= 1.0.4) libnfnetlink (>= 1.0.1) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
 PKGSIZE = 136471
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libnetfilter-conntrack /usr/lib/libnetfilter-conntrack/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libnetfilter_conntrack.so.3 /usr/lib/libnetfilter_conntrack.so.3.6.0
+FILELIST = /usr/lib/libnetfilter_conntrack.so.3 /usr/lib/libnetfilter_conntrack.so.3.7.0
