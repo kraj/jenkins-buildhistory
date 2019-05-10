@@ -47,7 +47,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            26016 ./usr/lib/apache2/modules/mod_auth_form.so
 -rwxr-xr-x root       root             5588 ./usr/lib/apache2/modules/mod_authn_anon.so
 -rwxr-xr-x root       root             9632 ./usr/lib/apache2/modules/mod_authn_core.so
--rwxr-xr-x root       root             9632 ./usr/lib/apache2/modules/mod_authn_dbd.so
+-rwxr-xr-x root       root            13728 ./usr/lib/apache2/modules/mod_authn_dbd.so
 -rwxr-xr-x root       root             9684 ./usr/lib/apache2/modules/mod_authn_dbm.so
 -rwxr-xr-x root       root             9684 ./usr/lib/apache2/modules/mod_authn_file.so
 -rwxr-xr-x root       root            13784 ./usr/lib/apache2/modules/mod_authn_socache.so
@@ -75,7 +75,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root             9668 ./usr/lib/apache2/modules/mod_file_cache.so
 -rwxr-xr-x root       root            17820 ./usr/lib/apache2/modules/mod_filter.so
 -rwxr-xr-x root       root            21916 ./usr/lib/apache2/modules/mod_headers.so
--rwxr-xr-x root       root            54736 ./usr/lib/apache2/modules/mod_include.so
+-rwxr-xr-x root       root            50640 ./usr/lib/apache2/modules/mod_include.so
 -rwxr-xr-x root       root            26060 ./usr/lib/apache2/modules/mod_info.so
 -rwxr-xr-x root       root             5544 ./usr/lib/apache2/modules/mod_lbmethod_bybusyness.so
 -rwxr-xr-x root       root             5544 ./usr/lib/apache2/modules/mod_lbmethod_byrequests.so
@@ -89,7 +89,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            42452 ./usr/lib/apache2/modules/mod_mpm_worker.so
 -rwxr-xr-x root       root            34208 ./usr/lib/apache2/modules/mod_negotiation.so
 -rwxr-xr-x root       root            54688 ./usr/lib/apache2/modules/mod_proxy_ajp.so
--rwxr-xr-x root       root            54692 ./usr/lib/apache2/modules/mod_proxy_balancer.so
+-rwxr-xr-x root       root            50596 ./usr/lib/apache2/modules/mod_proxy_balancer.so
 -rwxr-xr-x root       root            17828 ./usr/lib/apache2/modules/mod_proxy_connect.so
 -rwxr-xr-x root       root             9636 ./usr/lib/apache2/modules/mod_proxy_express.so
 -rwxr-xr-x root       root            26016 ./usr/lib/apache2/modules/mod_proxy_fcgi.so
@@ -106,7 +106,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            13728 ./usr/lib/apache2/modules/mod_reqtimeout.so
 -rwxr-xr-x root       root             9628 ./usr/lib/apache2/modules/mod_request.so
 -rwxr-xr-x root       root            75164 ./usr/lib/apache2/modules/mod_rewrite.so
--rwxr-xr-x root       root            34200 ./usr/lib/apache2/modules/mod_sed.so
+-rwxr-xr-x root       root            38296 ./usr/lib/apache2/modules/mod_sed.so
 -rwxr-xr-x root       root             9636 ./usr/lib/apache2/modules/mod_session_cookie.so
 -rwxr-xr-x root       root            21924 ./usr/lib/apache2/modules/mod_session_crypto.so
 -rwxr-xr-x root       root            13724 ./usr/lib/apache2/modules/mod_session_dbd.so
@@ -139,7 +139,7 @@ drwxr-xr-x root       root              200 ./usr/sbin
 -rw-r--r-- root       root             1045 ./usr/sbin/envvars-std
 -rwxr-xr-x root       root             9524 ./usr/sbin/fcgistarter
 -rwxr-xr-x root       root            34108 ./usr/sbin/htcacheclean
--rwxr-xr-x root       root           578236 ./usr/sbin/httpd
+-rwxr-xr-x root       root           582332 ./usr/sbin/httpd
 -rwxr-xr-x root       root            17776 ./usr/sbin/rotatelogs
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/apache2

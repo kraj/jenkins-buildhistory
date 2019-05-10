@@ -1,10 +1,10 @@
 PV = 64.2
 PR = r0
 PKG = libicuio64
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libicuio (=64.2)
-RDEPENDS = libgcc (>= 8.3.0) libicudata (>= 64.2) libicui18n (>= 64.2) libicuuc (>= 64.2) libstdc++ (>= 8.3.0) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = libgcc (>= 9.1.0) libicudata (>= 64.2) libicui18n (>= 64.2) libicuuc (>= 64.2) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
-PKGSIZE = 54840
+PKGSIZE = 58936
 FILES = /usr/lib/libicuio.so.*
 FILELIST = /usr/lib/libicuio.so.64 /usr/lib/libicuio.so.64.2

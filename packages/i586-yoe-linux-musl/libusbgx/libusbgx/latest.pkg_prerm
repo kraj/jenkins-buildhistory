@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "usbgx.service"
+		systemctl stop usbgx.service
 
-		systemctl disable "usbgx.service"
+		systemctl disable usbgx.service
 	fi
 fi

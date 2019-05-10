@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-ppp-synctty
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-ppp-generic-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 10564
+PKGSIZE = 10560
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ppp/ppp_synctty.ko /etc/modules-load.d/ppp_synctty.conf /etc/modprobe.d/ppp_synctty.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ppp/ppp_synctty.ko

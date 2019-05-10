@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "chronyd.service"
+		systemctl stop chronyd.service
 
-		systemctl disable "chronyd.service"
+		systemctl disable chronyd.service
 	fi
 fi

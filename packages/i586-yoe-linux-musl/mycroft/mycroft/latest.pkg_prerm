@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "mycroft-setup.service mycroft.service"
+		systemctl stop mycroft-setup.service mycroft.service
 
-		systemctl disable "mycroft-setup.service mycroft.service"
+		systemctl disable mycroft-setup.service mycroft.service
 	fi
 fi

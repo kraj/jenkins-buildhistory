@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-atl2
 RDEPENDS = kernel-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 33180
+PKGSIZE = 33044
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ethernet/atheros/atlx/atl2.ko /etc/modules-load.d/atl2.conf /etc/modprobe.d/atl2.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ethernet/atheros/atlx/atl2.ko

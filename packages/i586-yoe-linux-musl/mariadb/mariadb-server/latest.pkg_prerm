@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "mysqld.service"
+		systemctl stop mysqld.service
 
-		systemctl disable "mysqld.service"
+		systemctl disable mysqld.service
 	fi
 fi

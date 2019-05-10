@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-ebtables
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-x-tables-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 19052
+PKGSIZE = 19060
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/bridge/netfilter/ebtables.ko /etc/modules-load.d/ebtables.conf /etc/modprobe.d/ebtables.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/bridge/netfilter/ebtables.ko

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "nginx.service"
+		systemctl stop nginx.service
 
-		systemctl disable "nginx.service"
+		systemctl disable nginx.service
 	fi
 fi

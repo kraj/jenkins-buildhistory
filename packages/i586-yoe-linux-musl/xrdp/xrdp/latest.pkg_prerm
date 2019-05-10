@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "xrdp.service xrdp-sesman.service"
+		systemctl stop xrdp.service xrdp-sesman.service
 
-		systemctl disable "xrdp.service xrdp-sesman.service"
+		systemctl disable xrdp.service xrdp-sesman.service
 	fi
 fi

@@ -1,12 +1,28 @@
 #!/bin/sh
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "enable" = "enable" ]; then
+		for service in strongswan.service; do
+			case "${service}" in
+			*@*)
+				systemctl ${OPTS} enable "${service}"
+				;;
+			esac
+		done
+	fi
+
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset "strongswan.service"
+		systemctl preset strongswan.service
 
 		if [ "enable" = "enable" ]; then
-			systemctl --no-block restart "strongswan.service"
+			systemctl --no-block restart strongswan.service
 		fi
 	fi
 fi

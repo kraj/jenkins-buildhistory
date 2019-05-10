@@ -1,9 +1,9 @@
 PV = 0.9.0
 PR = r0
-PKGR = r0.81
+PKGR = r0.82
 RPROVIDES = 
 RDEPENDS = gmp (>= 6.1.2) libmnl (>= 1.0.4) libnftnl (>= 1.1.1+git0+d379dfcb6c) musl (>= 1.1.22+git0+65c8be3804) readline (>= 8.0)
 RRECOMMENDS = kernel-module-nf-tables
-PKGSIZE = 579664
+PKGSIZE = 583760
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nftables /usr/lib/nftables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/nftables/all-in-one.nft /etc/nftables/arp-filter.nft /etc/nftables/bridge-filter.nft /etc/nftables/inet-filter.nft /etc/nftables/ipv4-filter.nft /etc/nftables/ipv4-mangle.nft /etc/nftables/ipv4-nat.nft /etc/nftables/ipv4-raw.nft /etc/nftables/ipv6-filter.nft /etc/nftables/ipv6-mangle.nft /etc/nftables/ipv6-nat.nft /etc/nftables/ipv6-raw.nft /usr/lib/libnftables.so.0 /usr/lib/libnftables.so.0.0.0 /usr/sbin/nft

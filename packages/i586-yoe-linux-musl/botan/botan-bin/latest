@@ -1,10 +1,10 @@
 PV = 2.9.0
 PR = r0
 PKG = libbotan-2-bin
-PKGR = r0.40
+PKGR = r0.41
 RPROVIDES = botan-bin (=2.9.0)
-RDEPENDS = botan (>= 2.9.0) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = botan (>= 2.9.0) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
-PKGSIZE = 595560
+PKGSIZE = 611944
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/botan

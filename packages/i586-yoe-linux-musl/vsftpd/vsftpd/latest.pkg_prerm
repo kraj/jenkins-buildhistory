@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "vsftpd.service"
+		systemctl stop vsftpd.service
 
-		systemctl disable "vsftpd.service"
+		systemctl disable vsftpd.service
 	fi
 fi

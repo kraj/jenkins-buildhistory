@@ -1,10 +1,9 @@
-PV = 3.14+gitAUTOINC+1df9af4d6c
+PV = 3.20.1
 PR = r0
-PKGV = 3.14+git0+1df9af4d6c
-PKGR = r0.94
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libinotifytools (>= 3.14+git0+1df9af4d6c) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = libinotifytools (>= 3.20.1) musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = 
-PKGSIZE = 51820
+PKGSIZE = 51940
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/inotify-tools /usr/lib/inotify-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/inotifywait /usr/bin/inotifywatch

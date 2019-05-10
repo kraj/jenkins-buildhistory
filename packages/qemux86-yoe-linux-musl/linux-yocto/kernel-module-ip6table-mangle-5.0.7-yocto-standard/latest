@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-ip6table-mangle
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-ip6-tables-5.0.7-yocto-standard kernel-module-x-tables-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 4556
+PKGSIZE = 4620
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/ipv6/netfilter/ip6table_mangle.ko /etc/modules-load.d/ip6table_mangle.conf /etc/modprobe.d/ip6table_mangle.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/ipv6/netfilter/ip6table_mangle.ko

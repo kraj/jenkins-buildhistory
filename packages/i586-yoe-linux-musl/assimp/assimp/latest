@@ -1,10 +1,10 @@
 PV = 4.1.0
 PR = r0
 PKG = libassimp4
-PKGR = r0.97
+PKGR = r0.98
 RPROVIDES = assimp (=4.1.0)
-RDEPENDS = libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) musl (>= 1.1.22+git0+65c8be3804) zlib (>= 1.2.11)
+RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 7720854
+PKGSIZE = 7909270
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/assimp /usr/lib/assimp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libassimp.so.4 /usr/lib/libassimp.so.4.1.0

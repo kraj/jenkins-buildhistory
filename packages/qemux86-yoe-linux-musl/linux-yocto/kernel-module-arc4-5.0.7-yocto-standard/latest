@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-arc4
 RDEPENDS = kernel-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 4492
+PKGSIZE = 4556
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/crypto/arc4.ko /etc/modules-load.d/arc4.conf /etc/modprobe.d/arc4.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/crypto/arc4.ko

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service"
+		systemctl stop kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service
 
-		systemctl disable "kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service"
+		systemctl disable kea-dhcp4.service kea-dhcp6.service kea-dhcp-ddns.service
 	fi
 fi

@@ -1,9 +1,9 @@
 PV = 1.9.0
 PR = r0
 PKG = libpocopdf60
-PKGR = r0.102
+PKGR = r0.103
 RPROVIDES = poco-pdf (=1.9.0)
-RDEPENDS = libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) musl (>= 1.1.22+git0+65c8be3804) poco-foundation (>= 1.9.0) poco-util (>= 1.9.0) poco-xml (>= 1.9.0) zlib (>= 1.2.11)
+RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804) poco-foundation (>= 1.9.0) poco-util (>= 1.9.0) poco-xml (>= 1.9.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1238844
 FILES = /usr/lib/libPocoPDF.so.60

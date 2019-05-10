@@ -1,9 +1,9 @@
 PV = 2.18
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
 RDEPENDS = base-files base-passwd musl (>= 1.1.22+git0+65c8be3804) shadow
 RRECOMMENDS = 
-PKGSIZE = 127103
+PKGSIZE = 131199
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/radvd /usr/lib/radvd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-radvd.preset /lib/systemd/system/radvd.service
 FILELIST = /etc/default/radvd /etc/default/volatiles/03_radvd /lib/systemd/system-preset/98-radvd.preset /lib/systemd/system/radvd.service /usr/sbin/radvd /usr/sbin/radvdump
