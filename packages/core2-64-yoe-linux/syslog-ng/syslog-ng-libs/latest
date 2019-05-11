@@ -1,9 +1,9 @@
 PV = 3.19.1
 PR = r0
 PKG = libsyslog-ng-3.19-0
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = syslog-ng-libs (=3.19.1)
-RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29) libcrypto (>= 1.1.1b) libpcre (>= 8.43) libssl (>= 1.1.1b) libsystemd (>= 242+0+1e5d2d6564) syslog-ng (>= 3.19.1) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29) libcrypto (>= 1.1.1b) libpcre (>= 8.43) libssl (>= 1.1.1b) libsystemd (>= 242+1+db2e367bfc) syslog-ng (>= 3.19.1) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 2324770
 FILES = /usr/lib/syslog-ng/*.so /usr/lib/libsyslog-ng-*.so*

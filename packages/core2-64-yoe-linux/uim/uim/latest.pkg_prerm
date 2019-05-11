@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ti-uim.service"
+		systemctl stop ti-uim.service
 
-		systemctl disable "ti-uim.service"
+		systemctl disable ti-uim.service
 	fi
 fi

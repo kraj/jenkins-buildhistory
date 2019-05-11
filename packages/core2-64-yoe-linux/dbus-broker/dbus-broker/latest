@@ -1,9 +1,9 @@
 PV = 19
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = expat (>= 2.2.6) glibc (>= 2.29) libsystemd (>= 242+0+1e5d2d6564)
+RDEPENDS = expat (>= 2.2.6) glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc)
 RRECOMMENDS = 
-PKGSIZE = 329339
+PKGSIZE = 325323
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dbus-broker /usr/lib/dbus-broker/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system /usr/lib/systemd/user /lib/systemd/system-preset/98-dbus-broker.preset /lib/systemd/system/dbus-broker.service
 FILELIST = /lib/systemd/system-preset/98-dbus-broker.preset /lib/systemd/system/dbus-broker.service /usr/bin/dbus-broker /usr/bin/dbus-broker-launch /usr/lib/systemd/user/dbus-broker.service

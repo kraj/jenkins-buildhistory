@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ndctl-monitor.service"
+		systemctl stop ndctl-monitor.service
 
-		systemctl disable "ndctl-monitor.service"
+		systemctl disable ndctl-monitor.service
 	fi
 fi

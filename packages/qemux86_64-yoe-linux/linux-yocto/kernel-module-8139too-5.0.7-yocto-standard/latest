@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-8139too
 RDEPENDS = kernel-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 43768
+PKGSIZE = 43872
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ethernet/realtek/8139too.ko /etc/modules-load.d/8139too.conf /etc/modprobe.d/8139too.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ethernet/realtek/8139too.ko

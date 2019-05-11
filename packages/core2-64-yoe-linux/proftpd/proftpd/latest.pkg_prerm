@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "proftpd.service"
+		systemctl stop proftpd.service
 
-		systemctl disable "proftpd.service"
+		systemctl disable proftpd.service
 	fi
 fi

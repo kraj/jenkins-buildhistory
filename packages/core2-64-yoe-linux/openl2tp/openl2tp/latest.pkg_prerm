@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "openl2tpd.service"
+		systemctl stop openl2tpd.service
 
-		systemctl disable "openl2tpd.service"
+		systemctl disable openl2tpd.service
 	fi
 fi

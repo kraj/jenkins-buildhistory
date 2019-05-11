@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "lldpd.service"
+		systemctl stop lldpd.service
 
-		systemctl disable "lldpd.service"
+		systemctl disable lldpd.service
 	fi
 fi

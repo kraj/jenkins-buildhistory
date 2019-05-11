@@ -1,9 +1,9 @@
 PV = 12.2
 PR = r0
-PKGR = r0.107
+PKGR = r0.108
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.12.12) glibc (>= 2.29) libcap (>= 2.27) libice (>= 1.0.9) libpulse (>= 12.2) libpulsecommon (>= 12.2) libsm (>= 1.2.3) libsndfile1 (>= 1.0.28) libsystemd (>= 242+0+1e5d2d6564) libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) libxtst (>= 1.2.3) pulseaudio-module-cli-protocol-unix
+RDEPENDS = dbus-lib (>= 1.12.12) glibc (>= 2.29) libcap (>= 2.27) libice (>= 1.0.9) libpulse (>= 12.2) libpulsecommon (>= 12.2) libsm (>= 1.2.3) libsndfile1 (>= 1.0.28) libsystemd (>= 242+1+db2e367bfc) libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) libxtst (>= 1.2.3) pulseaudio-module-cli-protocol-unix
 RRECOMMENDS = 
-PKGSIZE = 143006
+PKGSIZE = 147102
 FILES = /usr/bin/* /usr/lib/pulseaudio/libpulsedsp.so
 FILELIST = /usr/bin/esdcompat /usr/bin/pacat /usr/bin/pacmd /usr/bin/padsp /usr/bin/pamon /usr/bin/paplay /usr/bin/parec /usr/bin/parecord /usr/bin/pasuspender /usr/bin/pax11publish /usr/lib/pulseaudio/libpulsedsp.so

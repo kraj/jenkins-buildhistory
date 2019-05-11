@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "apt-daily.timer"
+		systemctl stop apt-daily.timer
 
-		systemctl disable "apt-daily.timer"
+		systemctl disable apt-daily.timer
 	fi
 fi

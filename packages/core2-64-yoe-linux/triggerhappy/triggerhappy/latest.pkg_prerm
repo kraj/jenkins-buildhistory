@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "triggerhappy.service triggerhappy.socket"
+		systemctl stop triggerhappy.service triggerhappy.socket
 
-		systemctl disable "triggerhappy.service triggerhappy.socket"
+		systemctl disable triggerhappy.service triggerhappy.socket
 	fi
 fi

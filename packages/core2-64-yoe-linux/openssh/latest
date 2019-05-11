@@ -1,5 +1,5 @@
 PV = 7.9p1
 PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libpam libtool-cross libtool-native openssl shadow shadow-native shadow-sysroot virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libpam libtool-cross libtool-native openssl shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
 PACKAGES = openssh-src openssh-dbg openssh-keygen openssh-scp openssh-ssh openssh-sshd openssh-sftp openssh-misc openssh-sftp-server openssh-ptest openssh-staticdev openssh-dev openssh-doc openssh-locale openssh
 LAYER = core

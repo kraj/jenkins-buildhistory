@@ -1,9 +1,9 @@
 PV = 3.6.7
 PR = r0
 PKG = libgnutls-openssl27
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = gnutls-openssl (=3.6.7)
-RDEPENDS = glibc (>= 2.29) gmp (>= 6.1.2) gnutls (>= 3.6.7) libatomic (>= 8.3.0) libidn2 (>= 2.0.5) libunistring (>= 0.9.10) nettle (>= 3.4.1)
+RDEPENDS = glibc (>= 2.29) gmp (>= 6.1.2) gnutls (>= 3.6.7) libatomic (>= 9.1.0) libidn2 (>= 2.0.5) libunistring (>= 0.9.10) nettle (>= 3.4.1)
 RRECOMMENDS = 
 PKGSIZE = 88275
 FILES = /usr/lib/libgnutls-openssl.so.*

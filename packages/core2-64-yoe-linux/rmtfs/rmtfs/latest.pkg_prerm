@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "rmtfs.service"
+		systemctl stop rmtfs.service
 
-		systemctl disable "rmtfs.service"
+		systemctl disable rmtfs.service
 	fi
 fi

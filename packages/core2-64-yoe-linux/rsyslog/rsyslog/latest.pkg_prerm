@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "rsyslog.service"
+		systemctl stop rsyslog.service
 
-		systemctl disable "rsyslog.service"
+		systemctl disable rsyslog.service
 	fi
 fi

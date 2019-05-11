@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "openwsmand.service"
+		systemctl stop openwsmand.service
 
-		systemctl disable "openwsmand.service"
+		systemctl disable openwsmand.service
 	fi
 fi

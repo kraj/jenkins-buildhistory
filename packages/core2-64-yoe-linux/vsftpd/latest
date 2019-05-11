@@ -1,5 +1,5 @@
 PV = 3.0.3
 PR = r0
-DEPENDS = base-files base-passwd libcap libpam openssl shadow shadow-native shadow-sysroot tcp-wrappers virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = base-files base-passwd libcap libpam openssl shadow shadow-native shadow-sysroot systemd-systemctl-native tcp-wrappers virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = vsftpd-src vsftpd-dbg vsftpd-staticdev vsftpd-dev vsftpd-doc vsftpd-locale vsftpd
 LAYER = networking-layer

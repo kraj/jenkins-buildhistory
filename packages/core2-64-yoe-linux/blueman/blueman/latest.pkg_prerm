@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "blueman-mechanism.service"
+		systemctl stop blueman-mechanism.service
 
-		systemctl disable "blueman-mechanism.service"
+		systemctl disable blueman-mechanism.service
 	fi
 fi

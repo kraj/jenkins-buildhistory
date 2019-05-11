@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "snmpd.service"
+		systemctl stop snmpd.service
 
-		systemctl disable "snmpd.service"
+		systemctl disable snmpd.service
 	fi
 fi

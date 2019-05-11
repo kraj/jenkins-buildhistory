@@ -1,11 +1,11 @@
 PV = 0.20.22
 PR = r0
-PKGR = r0.91
+PKGR = r0.92
 RPROVIDES = mpd-systemd
-RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.12) expat (>= 2.2.6) glibc (>= 2.29) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libcurl (>= 7.64.1) libgcc (>= 8.3.0) libicui18n (>= 64.2) libicuuc (>= 64.2) libpulse (>= 12.2) libsqlite3 (>= 3.28.0) libstdc++ (>= 8.3.0) libsystemd (>= 242+0+1e5d2d6564) shadow yajl (>= 2.1.0)
+RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.12) expat (>= 2.2.6) glibc (>= 2.29) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libcurl (>= 7.64.1) libgcc (>= 9.1.0) libicui18n (>= 64.2) libicuuc (>= 64.2) libpulse (>= 12.2) libsqlite3 (>= 3.28.0) libstdc++ (>= 9.1.0) libsystemd (>= 242+1+db2e367bfc) shadow yajl (>= 2.1.0)
 RRECOMMENDS = 
 RREPLACES = mpd-systemd
 RCONFLICTS = mpd-systemd
-PKGSIZE = 692966
+PKGSIZE = 688870
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpd /usr/lib/mpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-mpd.preset /lib/systemd/system/mpd.socket /lib/systemd/system/mpd.service
 FILELIST = /etc/mpd.conf /lib/systemd/system-preset/98-mpd.preset /lib/systemd/system/mpd.service /lib/systemd/system/mpd.socket /usr/bin/mpd

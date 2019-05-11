@@ -1,11 +1,11 @@
 PV = 8.1903.0
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = rsyslog-systemd
-RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.7) libcurl (>= 7.64.1) libestr (>= 0.1.11) libfastjson (>= 0.99.8) libgcrypt (>= 1.8.4) librelp (>= 1.4.0) libsystemd (>= 242+0+1e5d2d6564) logrotate util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.7) libcurl (>= 7.64.1) libestr (>= 0.1.11) libfastjson (>= 0.99.8) libgcrypt (>= 1.8.4) librelp (>= 1.4.0) libsystemd (>= 242+1+db2e367bfc) logrotate util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = rsyslog-systemd
 RCONFLICTS = busybox-syslog rsyslog-systemd sysklogd syslog-ng
-PKGSIZE = 1258412
+PKGSIZE = 1257716
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rsyslog /usr/lib/rsyslog/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin /lib/systemd/system-preset/98-rsyslog.preset /lib/systemd/system/rsyslog.service
 FILELIST = /etc/logrotate.d/logrotate.rsyslog /etc/rsyslog.conf /lib/systemd/system-preset/98-rsyslog.preset /lib/systemd/system/rsyslog.service /usr/lib/rsyslog/fmhash.so /usr/lib/rsyslog/fmhttp.so /usr/lib/rsyslog/imdiag.so /usr/lib/rsyslog/imfile.so /usr/lib/rsyslog/imklog.so /usr/lib/rsyslog/immark.so /usr/lib/rsyslog/imrelp.so /usr/lib/rsyslog/imtcp.so /usr/lib/rsyslog/imudp.so /usr/lib/rsyslog/imuxsock.so /usr/lib/rsyslog/liboverride_getaddrinfo.so /usr/lib/rsyslog/liboverride_gethostname.so /usr/lib/rsyslog/liboverride_gethostname_nonfqdn.so /usr/lib/rsyslog/lmcry_gcry.so /usr/lib/rsyslog/lmnet.so /usr/lib/rsyslog/lmnetstrms.so /usr/lib/rsyslog/lmnsd_gtls.so /usr/lib/rsyslog/lmnsd_ptcp.so /usr/lib/rsyslog/lmregexp.so /usr/lib/rsyslog/lmtcpclt.so /usr/lib/rsyslog/lmtcpsrv.so /usr/lib/rsyslog/lmzlibw.so /usr/lib/rsyslog/mmexternal.so /usr/lib/rsyslog/omrelp.so /usr/lib/rsyslog/omstdout.so /usr/lib/rsyslog/omtesting.so /usr/sbin/rsyslogd

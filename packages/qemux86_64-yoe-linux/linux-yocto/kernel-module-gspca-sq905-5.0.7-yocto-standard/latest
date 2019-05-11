@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-gspca-sq905
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-gspca-main-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 12184
+PKGSIZE = 12176
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/media/usb/gspca/gspca_sq905.ko /etc/modules-load.d/gspca_sq905.conf /etc/modprobe.d/gspca_sq905.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/media/usb/gspca/gspca_sq905.ko

@@ -1,5 +1,5 @@
 PV = 5.8
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libnl libtool-cross libtool-native openssl pciutils perl-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native libnl libtool-cross libtool-native openssl pciutils perl-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = net-snmp-src net-snmp-dbg net-snmp-ptest net-snmp-staticdev net-snmp-dev net-snmp-doc net-snmp-locale net-snmp net-snmp-libs net-snmp-mibs net-snmp-server net-snmp-client net-snmp-server-snmpd net-snmp-server-snmptrapd net-snmp-lib-netsnmp net-snmp-lib-agent net-snmp-lib-helpers net-snmp-lib-mibs net-snmp-lib-trapd
 LAYER = networking-layer

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "rarpd.service"
+		systemctl stop rarpd.service
 
-		systemctl disable "rarpd.service"
+		systemctl disable rarpd.service
 	fi
 fi

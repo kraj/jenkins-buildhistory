@@ -2,10 +2,10 @@ PV = 5.12.3+gitAUTOINC+c7f9640cb8
 PR = r0
 PKG = libqt5virtualkeyboard5
 PKGV = 5.12.3+git0+c7f9640cb8
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = qtvirtualkeyboard (=5.12.3+git0+c7f9640cb8)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) libxcb (>= 1.13.1) libxcb-xfixes (>= 1.13.1) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 9.1.0) libxcb (>= 1.13.1) libxcb-xfixes (>= 1.13.1) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
 RRECOMMENDS = qtvirtualkeyboard-dictionaries qtvirtualkeyboard-plugins qtvirtualkeyboard-qmlplugins
-PKGSIZE = 13598395
+PKGSIZE = 13594299
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtvirtualkeyboard /usr/lib/qtvirtualkeyboard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec /usr/share/qtvirtualkeyboard/lipi_toolkit
 FILELIST = /usr/lib/libQt5VirtualKeyboard.so.5 /usr/lib/libQt5VirtualKeyboard.so.5.12 /usr/lib/libQt5VirtualKeyboard.so.5.12.3 /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/nn.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/nn.mdt /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/default/profile.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/project.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/alphanumeric/config/unicodeMapfile_alphanumeric.ini /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/nn.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/nn.mdt /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/pointfloat_nn/profile.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/project.cfg /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/demonumerals/config/unicodeMapfile_demonumerals.ini /usr/share/qtvirtualkeyboard/lipi_toolkit/projects/lipiengine.cfg

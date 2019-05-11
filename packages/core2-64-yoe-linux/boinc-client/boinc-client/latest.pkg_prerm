@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "boinc-client.service"
+		systemctl stop boinc-client.service
 
-		systemctl disable "boinc-client.service"
+		systemctl disable boinc-client.service
 	fi
 fi

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "atd.service"
+		systemctl stop atd.service
 
-		systemctl disable "atd.service"
+		systemctl disable atd.service
 	fi
 fi

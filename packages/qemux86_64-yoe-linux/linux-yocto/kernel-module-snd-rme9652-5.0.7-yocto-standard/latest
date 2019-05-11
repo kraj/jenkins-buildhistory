@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_891531d68e
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_891531d68e
-PKGR = r0.8
+PKGR = r0.11
 RPROVIDES = kernel-module-snd-rme9652
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-snd-5.0.7-yocto-standard kernel-module-snd-pcm-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 44592
+PKGSIZE = 44064
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/sound/pci/rme9652/snd-rme9652.ko /etc/modules-load.d/snd-rme9652.conf /etc/modprobe.d/snd-rme9652.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/sound/pci/rme9652/snd-rme9652.ko

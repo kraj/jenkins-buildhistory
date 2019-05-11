@@ -10,8 +10,8 @@ drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             1140 ./etc/gimp/2.0/unitrc
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root          6156856 ./usr/bin/gimp-2.8
--rwxr-xr-x root       root          2834336 ./usr/bin/gimp-console-2.8
+-rwxr-xr-x root       root          6169144 ./usr/bin/gimp-2.8
+-rwxr-xr-x root       root          2838432 ./usr/bin/gimp-console-2.8
 lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
 lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
 -rwxr-xr-x root       root            18680 ./usr/bin/gimptool-2.0
@@ -69,7 +69,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            22792 ./usr/lib/gimp/2.0/plug-ins/cubism
 -rwxr-xr-x root       root            55712 ./usr/lib/gimp/2.0/plug-ins/curve-bend
 -rwxr-xr-x root       root            35256 ./usr/lib/gimp/2.0/plug-ins/decompose
--rwxr-xr-x root       root            18680 ./usr/lib/gimp/2.0/plug-ins/deinterlace
+-rwxr-xr-x root       root            14584 ./usr/lib/gimp/2.0/plug-ins/deinterlace
 -rwxr-xr-x root       root            26864 ./usr/lib/gimp/2.0/plug-ins/depth-merge
 -rwxr-xr-x root       root            22784 ./usr/lib/gimp/2.0/plug-ins/despeckle
 -rwxr-xr-x root       root            18688 ./usr/lib/gimp/2.0/plug-ins/destripe
@@ -111,7 +111,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            26872 ./usr/lib/gimp/2.0/plug-ins/file-pnm
 -rwxr-xr-x root       root            51504 ./usr/lib/gimp/2.0/plug-ins/file-psd-load
 -rwxr-xr-x root       root            26872 ./usr/lib/gimp/2.0/plug-ins/file-psd-save
--rwxr-xr-x root       root            26872 ./usr/lib/gimp/2.0/plug-ins/file-psp
+-rwxr-xr-x root       root            30968 ./usr/lib/gimp/2.0/plug-ins/file-psp
 -rwxr-xr-x root       root            30968 ./usr/lib/gimp/2.0/plug-ins/file-raw
 -rwxr-xr-x root       root            26872 ./usr/lib/gimp/2.0/plug-ins/file-sgi
 -rwxr-xr-x root       root            26888 ./usr/lib/gimp/2.0/plug-ins/file-sunras
@@ -140,7 +140,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            18664 ./usr/lib/gimp/2.0/plug-ins/hot
 -rwxr-xr-x root       root            80736 ./usr/lib/gimp/2.0/plug-ins/ifs-compose
 -rwxr-xr-x root       root            18688 ./usr/lib/gimp/2.0/plug-ins/illusion
--rwxr-xr-x root       root           217808 ./usr/lib/gimp/2.0/plug-ins/imagemap
+-rwxr-xr-x root       root           221904 ./usr/lib/gimp/2.0/plug-ins/imagemap
 -rwxr-xr-x root       root            39248 ./usr/lib/gimp/2.0/plug-ins/iwarp
 -rwxr-xr-x root       root            43272 ./usr/lib/gimp/2.0/plug-ins/jigsaw
 -rwxr-xr-x root       root            39152 ./usr/lib/gimp/2.0/plug-ins/lcms
@@ -162,7 +162,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            22824 ./usr/lib/gimp/2.0/plug-ins/noise-solid
 -rwxr-xr-x root       root            18696 ./usr/lib/gimp/2.0/plug-ins/noise-spread
 -rwxr-xr-x root       root            31064 ./usr/lib/gimp/2.0/plug-ins/nova
--rwxr-xr-x root       root            26920 ./usr/lib/gimp/2.0/plug-ins/oilify
+-rwxr-xr-x root       root            22824 ./usr/lib/gimp/2.0/plug-ins/oilify
 -rwxr-xr-x root       root            55536 ./usr/lib/gimp/2.0/plug-ins/pagecurl
 -rwxr-xr-x root       root            26920 ./usr/lib/gimp/2.0/plug-ins/photocopy
 -rwxr-xr-x root       root            22776 ./usr/lib/gimp/2.0/plug-ins/pixelize
@@ -195,7 +195,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            27512 ./usr/lib/gimp/2.0/plug-ins/tile-small
 -rwxr-xr-x root       root            27024 ./usr/lib/gimp/2.0/plug-ins/unit-editor
 -rwxr-xr-x root       root            22800 ./usr/lib/gimp/2.0/plug-ins/unsharp-mask
--rwxr-xr-x root       root            14584 ./usr/lib/gimp/2.0/plug-ins/value-invert
+-rwxr-xr-x root       root            10488 ./usr/lib/gimp/2.0/plug-ins/value-invert
 -rwxr-xr-x root       root            27240 ./usr/lib/gimp/2.0/plug-ins/value-propagate
 -rwxr-xr-x root       root            22824 ./usr/lib/gimp/2.0/plug-ins/van-gogh-lic
 -rwxr-xr-x root       root            51456 ./usr/lib/gimp/2.0/plug-ins/video
@@ -206,7 +206,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            22792 ./usr/lib/gimp/2.0/plug-ins/wind
 -rwxr-xr-x root       root           301352 ./usr/lib/libgimp-2.0.so.0.800.22
 lrwxrwxrwx root       root               23 ./usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.800.22
--rwxr-xr-x root       root           104632 ./usr/lib/libgimpbase-2.0.so.0.800.22
+-rwxr-xr-x root       root           108728 ./usr/lib/libgimpbase-2.0.so.0.800.22
 lrwxrwxrwx root       root               27 ./usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.800.22
 -rwxr-xr-x root       root            55480 ./usr/lib/libgimpcolor-2.0.so.0.800.22
 lrwxrwxrwx root       root               28 ./usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.800.22

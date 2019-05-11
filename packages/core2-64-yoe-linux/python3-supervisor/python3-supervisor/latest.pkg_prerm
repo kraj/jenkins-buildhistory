@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "supervisor.service"
+		systemctl stop supervisor.service
 
-		systemctl disable "supervisor.service"
+		systemctl disable supervisor.service
 	fi
 fi

@@ -1,10 +1,10 @@
 PV = 0.28.1
 PR = r0
 PKG = libdnf2
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libdnf (=0.28.1)
-RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29) json-c (>= 0.13.1) libcrypto (>= 1.1.1b) libgcc (>= 8.3.0) libmodulemd (>= 2.2.3) libpython3 (>= 3.7.3) librepo (>= 1.9.6) libsolv (>= 0.7.4) libsolvext (>= 0.7.4) libsqlite3 (>= 3.28.0) libstdc++ (>= 8.3.0) python3-core rpm (>= 4.14.2.1) util-linux-libsmartcols (>= 2.32.1)
+RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29) json-c (>= 0.13.1) libcrypto (>= 1.1.1b) libgcc (>= 9.1.0) libmodulemd (>= 2.2.3) libpython3 (>= 3.7.3) librepo (>= 1.9.6) libsolv (>= 0.7.4) libsolvext (>= 0.7.4) libsqlite3 (>= 3.28.0) libstdc++ (>= 9.1.0) python3-core rpm (>= 4.14.2.1) util-linux-libsmartcols (>= 2.32.1)
 RRECOMMENDS = 
-PKGSIZE = 4688317
+PKGSIZE = 4712893
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdnf /usr/lib/libdnf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.7/* /usr/lib/girepository-*/*.typelib
 FILELIST = /usr/lib/libdnf.so.2 /usr/lib/libdnf/plugins/README /usr/lib/python3.7/site-packages/hawkey/__init__.py /usr/lib/python3.7/site-packages/hawkey/_hawkey.so /usr/lib/python3.7/site-packages/libdnf/__init__.py /usr/lib/python3.7/site-packages/libdnf/_common_types.so /usr/lib/python3.7/site-packages/libdnf/_conf.so /usr/lib/python3.7/site-packages/libdnf/_module.so /usr/lib/python3.7/site-packages/libdnf/_repo.so /usr/lib/python3.7/site-packages/libdnf/_smartcols.so /usr/lib/python3.7/site-packages/libdnf/_transaction.so /usr/lib/python3.7/site-packages/libdnf/_utils.so /usr/lib/python3.7/site-packages/libdnf/common_types.py /usr/lib/python3.7/site-packages/libdnf/conf.py /usr/lib/python3.7/site-packages/libdnf/module.py /usr/lib/python3.7/site-packages/libdnf/repo.py /usr/lib/python3.7/site-packages/libdnf/smartcols.py /usr/lib/python3.7/site-packages/libdnf/transaction.py /usr/lib/python3.7/site-packages/libdnf/utils.py

@@ -1,5 +1,5 @@
 PV = 3.0.5
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl openssl-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl openssl-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = ipmiutil-src ipmiutil-dbg ipmiutil-staticdev ipmiutil-dev ipmiutil-doc ipmiutil-locale ipmiutil
 LAYER = openembedded-layer

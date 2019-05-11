@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "arptables.service"
+		systemctl stop arptables.service
 
-		systemctl disable "arptables.service"
+		systemctl disable arptables.service
 	fi
 fi

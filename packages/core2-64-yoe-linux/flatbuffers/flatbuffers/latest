@@ -1,10 +1,10 @@
 PV = 1.10.0
 PR = r0
 PKG = libflatbuffers1
-PKGR = r0.59
+PKGR = r0.60
 RPROVIDES = flatbuffers (=1.10.0)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0)
 RRECOMMENDS = 
-PKGSIZE = 383840
+PKGSIZE = 404320
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/flatbuffers /usr/lib/flatbuffers/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libflatbuffers.so.1 /usr/lib/libflatbuffers.so.1.10.0

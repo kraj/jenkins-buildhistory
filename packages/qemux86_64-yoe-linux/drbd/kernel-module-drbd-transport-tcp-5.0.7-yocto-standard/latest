@@ -1,9 +1,9 @@
 PV = 9.0.17-1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = kernel-module-drbd-transport-tcp
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-drbd-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 30448
+PKGSIZE = 30216
 FILES = /lib/modules/5.0.7-yocto-standard/updates/drbd_transport_tcp.ko /etc/modules-load.d/drbd_transport_tcp.conf /etc/modprobe.d/drbd_transport_tcp.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/updates/drbd_transport_tcp.ko

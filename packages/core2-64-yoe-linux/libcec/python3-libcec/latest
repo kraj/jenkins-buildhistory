@@ -1,10 +1,9 @@
-PV = 4.0.2+gitrAUTOINC+0a97062dd4
+PV = 4.0.4
 PR = r0
-PKGV = 4.0.2+gitr0+0a97062dd4
-PKGR = r0.102
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libcec (>= 4.0.2+gitr0+0a97062dd4) libgcc (>= 8.3.0) libpython3 (>= 3.7.3) libstdc++ (>= 8.3.0)
+RDEPENDS = glibc (>= 2.29) libcec (>= 4.0.4) libgcc (>= 9.1.0) libpython3 (>= 3.7.3) libstdc++ (>= 9.1.0)
 RRECOMMENDS = 
 PKGSIZE = 639300
 FILES = /usr/lib/python3* /usr/bin/py*
-FILELIST = /usr/lib/python3.7/dist-packages/cec/__init__.py /usr/lib/python3.7/dist-packages/cec/_cec.so
+FILELIST = /usr/lib/python3.7/dist-packages/_cec.so /usr/lib/python3.7/dist-packages/cec.py

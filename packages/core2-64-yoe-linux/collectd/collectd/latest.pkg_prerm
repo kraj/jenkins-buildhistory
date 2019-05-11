@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "collectd.service"
+		systemctl stop collectd.service
 
-		systemctl disable "collectd.service"
+		systemctl disable collectd.service
 	fi
 fi

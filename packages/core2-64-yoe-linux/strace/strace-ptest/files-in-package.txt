@@ -8,7 +8,7 @@ drwxr-xr-x root       root              160 ./usr/lib/strace/ptest
 -rwxr-xr-x root       root             1311 ./usr/lib/strace/ptest/strace-log-merge
 -rwxr-xr-x root       root             4642 ./usr/lib/strace/ptest/test-driver
 drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
--rwxr-xr-x root       root            14488 ./usr/lib/strace/ptest/tests/accept
+-rwxr-xr-x root       root            18584 ./usr/lib/strace/ptest/tests/accept
 -rwxr-xr-x root       root            18584 ./usr/lib/strace/ptest/tests/accept4
 -rwxr-xr-x root       root              149 ./usr/lib/strace/ptest/tests/accept4.gen.test
 -rwxr-xr-x root       root              786 ./usr/lib/strace/ptest/tests/accept_compat.h
@@ -49,7 +49,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              202 ./usr/lib/strace/ptest/tests/bpf-obj_get_info_by_fd-v.gen.test
 -rwxr-xr-x root       root            42560 ./usr/lib/strace/ptest/tests/bpf-success
 -rwxr-xr-x root       root              258 ./usr/lib/strace/ptest/tests/bpf-success.test
--rwxr-xr-x root       root            42568 ./usr/lib/strace/ptest/tests/bpf-success-v
+-rwxr-xr-x root       root            46664 ./usr/lib/strace/ptest/tests/bpf-success-v
 -rwxr-xr-x root       root              263 ./usr/lib/strace/ptest/tests/bpf-success-v.test
 -rwxr-xr-x root       root            42560 ./usr/lib/strace/ptest/tests/bpf-v
 -rwxr-xr-x root       root              177 ./usr/lib/strace/ptest/tests/bpf-v.gen.test
@@ -354,7 +354,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              142 ./usr/lib/strace/ptest/tests/ioctl_perf.gen.test
 -rwxr-xr-x root       root            18600 ./usr/lib/strace/ptest/tests/ioctl_perf-success
 -rwxr-xr-x root       root              558 ./usr/lib/strace/ptest/tests/ioctl_perf-success.test
--rwxr-xr-x root       root            14576 ./usr/lib/strace/ptest/tests/ioctl_ptp
+-rwxr-xr-x root       root            10480 ./usr/lib/strace/ptest/tests/ioctl_ptp
 -rwxr-xr-x root       root              141 ./usr/lib/strace/ptest/tests/ioctl_ptp.gen.test
 -rwxr-xr-x root       root             6304 ./usr/lib/strace/ptest/tests/ioctl_random
 -rwxr-xr-x root       root              144 ./usr/lib/strace/ptest/tests/ioctl_random.gen.test
@@ -419,9 +419,9 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root            14488 ./usr/lib/strace/ptest/tests/ip_mreq
 -rwxr-xr-x root       root              177 ./usr/lib/strace/ptest/tests/ip_mreq.gen.test
 -rwxr-xr-x root       root            10408 ./usr/lib/strace/ptest/tests/is_linux_mips_n64
--rwxr-xr-x root       root            14488 ./usr/lib/strace/ptest/tests/kcmp
+-rwxr-xr-x root       root            18584 ./usr/lib/strace/ptest/tests/kcmp
 -rwxr-xr-x root       root              146 ./usr/lib/strace/ptest/tests/kcmp.gen.test
--rwxr-xr-x root       root            14488 ./usr/lib/strace/ptest/tests/kcmp-y
+-rwxr-xr-x root       root            18584 ./usr/lib/strace/ptest/tests/kcmp-y
 -rwxr-xr-x root       root              180 ./usr/lib/strace/ptest/tests/kcmp-y.gen.test
 -rwxr-xr-x root       root            14496 ./usr/lib/strace/ptest/tests/kernel_version
 -rwxr-xr-x root       root              186 ./usr/lib/strace/ptest/tests/kernel_version.gen.test
@@ -525,9 +525,9 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              157 ./usr/lib/strace/ptest/tests/mmap-Xverbose.gen.test
 -rwxr-xr-x root       root            14488 ./usr/lib/strace/ptest/tests/mmsg
 -rwxr-xr-x root       root              230 ./usr/lib/strace/ptest/tests/mmsg.gen.test
--rwxr-xr-x root       root            14496 ./usr/lib/strace/ptest/tests/mmsg_name
+-rwxr-xr-x root       root            18592 ./usr/lib/strace/ptest/tests/mmsg_name
 -rwxr-xr-x root       root              203 ./usr/lib/strace/ptest/tests/mmsg_name.gen.test
--rwxr-xr-x root       root            14496 ./usr/lib/strace/ptest/tests/mmsg_name-v
+-rwxr-xr-x root       root            18592 ./usr/lib/strace/ptest/tests/mmsg_name-v
 -rwxr-xr-x root       root              211 ./usr/lib/strace/ptest/tests/mmsg_name-v.gen.test
 -rwxr-xr-x root       root            10400 ./usr/lib/strace/ptest/tests/mmsg-silent
 -rwxr-xr-x root       root              237 ./usr/lib/strace/ptest/tests/mmsg-silent.gen.test
@@ -948,7 +948,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root             6304 ./usr/lib/strace/ptest/tests/rt_sigaction
 -rwxr-xr-x root       root             2121 ./usr/lib/strace/ptest/tests/rt_sigaction.awk
 -rwxr-xr-x root       root              238 ./usr/lib/strace/ptest/tests/rt_sigaction.test
--rwxr-xr-x root       root            10400 ./usr/lib/strace/ptest/tests/rt_sigpending
+-rwxr-xr-x root       root            14496 ./usr/lib/strace/ptest/tests/rt_sigpending
 -rwxr-xr-x root       root              155 ./usr/lib/strace/ptest/tests/rt_sigpending.gen.test
 -rwxr-xr-x root       root            14496 ./usr/lib/strace/ptest/tests/rt_sigprocmask
 -rwxr-xr-x root       root              148 ./usr/lib/strace/ptest/tests/rt_sigprocmask.gen.test

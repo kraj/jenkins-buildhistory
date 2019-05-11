@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "domainname.service"
+		systemctl stop domainname.service
 
-		systemctl disable "domainname.service"
+		systemctl disable domainname.service
 	fi
 fi

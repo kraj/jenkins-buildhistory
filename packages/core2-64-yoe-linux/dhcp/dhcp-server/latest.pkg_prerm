@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "dhcpd.service dhcpd6.service"
+		systemctl stop dhcpd.service dhcpd6.service
 
-		systemctl disable "dhcpd.service dhcpd6.service"
+		systemctl disable dhcpd.service dhcpd6.service
 	fi
 fi

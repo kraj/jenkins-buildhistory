@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "openct.service"
+		systemctl stop openct.service
 
-		systemctl disable "openct.service"
+		systemctl disable openct.service
 	fi
 fi

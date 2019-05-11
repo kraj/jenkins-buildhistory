@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "winbind.service"
+		systemctl stop winbind.service
 
-		systemctl disable "winbind.service"
+		systemctl disable winbind.service
 	fi
 fi

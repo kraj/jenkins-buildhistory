@@ -1,10 +1,10 @@
 PV = 0.9.0
 PR = r0
 PKG = librabbitmq-dbg
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = rabbitmq-c-dbg (=0.9.0)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcrypto-dbg libssl-dbg popt-dbg
-PKGSIZE = 770504
+PKGSIZE = 763368
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/bin/.debug/amqp-consume /usr/bin/.debug/amqp-declare-queue /usr/bin/.debug/amqp-delete-queue /usr/bin/.debug/amqp-get /usr/bin/.debug/amqp-publish /usr/lib/.debug/librabbitmq.so.4.3.0

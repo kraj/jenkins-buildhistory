@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "webmin.service"
+		systemctl stop webmin.service
 
-		systemctl disable "webmin.service"
+		systemctl disable webmin.service
 	fi
 fi

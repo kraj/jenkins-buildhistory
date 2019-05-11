@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "evince.service"
+		systemctl stop evince.service
 
-		systemctl disable "evince.service"
+		systemctl disable evince.service
 	fi
 fi

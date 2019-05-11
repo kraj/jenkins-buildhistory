@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ofono.service"
+		systemctl stop ofono.service
 
-		systemctl disable "ofono.service"
+		systemctl disable ofono.service
 	fi
 fi

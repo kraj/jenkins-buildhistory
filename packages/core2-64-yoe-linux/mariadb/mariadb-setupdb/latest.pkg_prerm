@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "install_db.service"
+		systemctl stop install_db.service
 
-		systemctl disable "install_db.service"
+		systemctl disable install_db.service
 	fi
 fi

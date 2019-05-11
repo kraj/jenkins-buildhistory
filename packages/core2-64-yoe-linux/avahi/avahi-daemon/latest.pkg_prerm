@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "avahi-daemon.service"
+		systemctl stop avahi-daemon.service
 
-		systemctl disable "avahi-daemon.service"
+		systemctl disable avahi-daemon.service
 	fi
 fi

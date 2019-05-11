@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ippool.service"
+		systemctl stop ippool.service
 
-		systemctl disable "ippool.service"
+		systemctl disable ippool.service
 	fi
 fi
