@@ -1,8 +1,9 @@
-PV = git
+PV = 0.9.12+gitAUTOINC+c0a23857a5
 PR = r0
 PKG = libvncserver1
-PKGR = r0.79
-RPROVIDES = libvncserver (=git)
+PKGV = 0.9.12+git0+c0a23857a5
+PKGR = r0.0
+RPROVIDES = libvncserver (=0.9.12+git0+c0a23857a5)
 RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.7) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.37) libsystemd (>= 242+1+db2e367bfc) lzo (>= 2.10) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 310622
