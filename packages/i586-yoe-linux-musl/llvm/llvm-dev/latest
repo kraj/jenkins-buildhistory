@@ -1,8 +1,8 @@
 PV = 8.0.0
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = libstdc++ (>= 9.1.0) llvm (= 8.0.0-r0.15) llvm-libllvm (>= 8.0.0) llvm-liboptremarks musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = libstdc++ (>= 9.1.0) llvm (= 8.0.0-r0.16) llvm-libllvm (>= 8.0.0) llvm-liboptremarks musl (>= 1.1.22+git0+65c8be3804)
 RRECOMMENDS = libffi-dev libgcc-dev libstdc++-dev libxml2-dev llvm-bugpointpasses llvm-libllvm-dev llvm-liboptremarks llvm-liboptremarks-dev llvm-llvmhello musl-dev ncurses-libtinfo-dev ncurses-terminfo-dev zlib-dev
 PKGSIZE = 15267582
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/llvm/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/llvm8.0.0/llvm-config /usr/lib/llvm8.0.0/libOptRemarks.so /usr/lib/llvm8.0.0/libLLVM-8.0.0.so
