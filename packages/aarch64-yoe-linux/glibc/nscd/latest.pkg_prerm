@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop nscd.service
-	fi
+		systemctl stop "nscd.service"
 
-	systemctl $OPTS disable nscd.service
+		systemctl disable "nscd.service"
+	fi
 fi

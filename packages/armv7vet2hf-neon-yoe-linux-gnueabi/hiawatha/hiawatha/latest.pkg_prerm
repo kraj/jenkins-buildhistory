@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "hiawatha.service"
+		systemctl stop hiawatha.service
 
-		systemctl disable "hiawatha.service"
+		systemctl disable hiawatha.service
 	fi
 fi

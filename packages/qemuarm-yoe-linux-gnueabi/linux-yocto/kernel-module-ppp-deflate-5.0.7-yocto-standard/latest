@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_99f3821bdc
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_99f3821bdc
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = kernel-module-ppp-deflate
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-ppp-generic-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 8792
+PKGSIZE = 8932
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ppp/ppp_deflate.ko /etc/modules-load.d/ppp_deflate.conf /etc/modprobe.d/ppp_deflate.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/ppp/ppp_deflate.ko

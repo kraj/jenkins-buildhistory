@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_99f3821bdc
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_99f3821bdc
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = kernel-module-af-key
 RDEPENDS = kernel-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 41780
+PKGSIZE = 42060
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/key/af_key.ko /etc/modules-load.d/af_key.conf /etc/modprobe.d/af_key.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/key/af_key.ko

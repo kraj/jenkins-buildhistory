@@ -1,9 +1,9 @@
-PV = 8.3.0
+PV = 9.1.0
 PR = r0
-PKGR = r0.21
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29)
+RDEPENDS = glibc (>= 2.29) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1030280
+PKGSIZE = 1095872
 FILES = /usr/bin/arm-yoe-linux-gnueabi-gcov* /usr/bin/arm-yoe-linux-gnueabi-gcov-tool*
 FILELIST = /usr/bin/arm-yoe-linux-gnueabi-gcov /usr/bin/arm-yoe-linux-gnueabi-gcov-dump /usr/bin/arm-yoe-linux-gnueabi-gcov-tool

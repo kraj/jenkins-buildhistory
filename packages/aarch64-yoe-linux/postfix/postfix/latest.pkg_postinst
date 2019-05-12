@@ -22,21 +22,14 @@ set -e
         fi
 
     fi
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "postfix.service"
 
-	systemctl $OPTS enable postfix.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart postfix.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "postfix.service"
+		fi
 	fi
 fi
 	update-alternatives --install /usr/sbin/sendmail sendmail /usr/sbin/sendmail.postfix 120

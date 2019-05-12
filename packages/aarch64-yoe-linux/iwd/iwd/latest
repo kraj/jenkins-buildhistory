@@ -1,9 +1,9 @@
 PV = 0.14
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = 
 RDEPENDS = ell (>= 0.17) glibc (>= 2.29) readline (>= 8.0)
 RRECOMMENDS = 
-PKGSIZE = 807274
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iwd /usr/lib/iwd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1 /lib/systemd/system/iwd.service
-FILELIST = /lib/systemd/system/iwd.service /usr/bin/iwctl /usr/bin/iwmon /usr/libexec/iwd /usr/share/dbus-1/system-services/net.connman.iwd.service /usr/share/dbus-1/system.d/iwd-dbus.conf
+PKGSIZE = 807293
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iwd /usr/lib/iwd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1 /lib/systemd/system-preset/98-iwd.preset /lib/systemd/system/iwd.service
+FILELIST = /lib/systemd/system-preset/98-iwd.preset /lib/systemd/system/iwd.service /usr/bin/iwctl /usr/bin/iwmon /usr/libexec/iwd /usr/share/dbus-1/system-services/net.connman.iwd.service /usr/share/dbus-1/system.d/iwd-dbus.conf

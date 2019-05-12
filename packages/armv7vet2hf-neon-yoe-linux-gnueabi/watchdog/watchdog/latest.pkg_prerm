@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "watchdog.service"
+		systemctl stop watchdog.service
 
-		systemctl disable "watchdog.service"
+		systemctl disable watchdog.service
 	fi
 fi

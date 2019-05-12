@@ -2,10 +2,10 @@ PV = 5.12.3+gitAUTOINC+b1cb2782b3
 PR = r0
 PKG = libqt5sensors-qmlplugins
 PKGV = 5.12.3+git0+b1cb2782b3
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = qtsensors-qmlplugins (=5.12.3+git0+b1cb2782b3)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67) qtsensors (>= 5.12.3+git0+b1cb2782b3)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 9.1.0) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67) qtsensors (>= 5.12.3+git0+b1cb2782b3)
 RRECOMMENDS = 
-PKGSIZE = 157098
+PKGSIZE = 165290
 FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
 FILELIST = /usr/lib/qml/QtSensors/libdeclarative_sensors.so /usr/lib/qml/QtSensors/plugins.qmltypes /usr/lib/qml/QtSensors/qmldir

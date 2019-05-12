@@ -1,12 +1,28 @@
 #!/bin/sh
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "disable" = "enable" ]; then
+		for service in cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service; do
+			case "${service}" in
+			*@*)
+				systemctl ${OPTS} enable "${service}"
+				;;
+			esac
+		done
+	fi
+
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset "cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service"
+		systemctl preset cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service
 
 		if [ "disable" = "enable" ]; then
-			systemctl --no-block restart "cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service"
+			systemctl --no-block restart cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service
 		fi
 	fi
 fi

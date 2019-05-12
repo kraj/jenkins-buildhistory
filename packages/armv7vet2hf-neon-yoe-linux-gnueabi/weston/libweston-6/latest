@@ -1,9 +1,9 @@
 PV = 6.0.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.16.0) dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) glibc (>= 2.29) libdrm (>= 2.4.98) libegl-mesa (>= 19.0.3) libgbm (>= 19.0.3) libgles2-mesa (>= 19.0.3) libinput (>= 1.13.1) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.37) libsystemd (>= 242+0+1e5d2d6564) libudev (>= 242+0+1e5d2d6564) libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) libxcb-shm (>= 1.13.1) libxcb-xkb (>= 1.13.1) libxkbcommon (>= 0.8.4) pango (>= 1.42.4) pixman (>= 0.38.4) wayland (>= 1.17.0) zlib (>= 1.2.11)
+RDEPENDS = cairo (>= 1.16.0) dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) glibc (>= 2.29) libdrm (>= 2.4.98) libegl-mesa (>= 19.0.3) libgbm (>= 19.0.3) libgles2-mesa (>= 19.0.3) libinput (>= 1.13.1) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.37) libsystemd (>= 242+1+db2e367bfc) libudev (>= 242+1+db2e367bfc) libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) libxcb-shm (>= 1.13.1) libxcb-xkb (>= 1.13.1) libxkbcommon (>= 0.8.4) pango (>= 1.42.4) pixman (>= 0.38.4) wayland (>= 1.17.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 475812
+PKGSIZE = 479908
 FILES = /usr/lib/lib*.so.* /usr/lib/libweston-6/*.so
 FILELIST = /usr/lib/libweston-6.so.0 /usr/lib/libweston-6.so.0.0.0 /usr/lib/libweston-6/drm-backend.so /usr/lib/libweston-6/fbdev-backend.so /usr/lib/libweston-6/gl-renderer.so /usr/lib/libweston-6/wayland-backend.so /usr/lib/libweston-6/x11-backend.so /usr/lib/libweston-desktop-6.so.0 /usr/lib/libweston-desktop-6.so.0.0.0

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "phoromatic-client.service phoromatic-server.service"
+		systemctl stop phoromatic-client.service phoromatic-server.service
 
-		systemctl disable "phoromatic-client.service phoromatic-server.service"
+		systemctl disable phoromatic-client.service phoromatic-server.service
 	fi
 fi

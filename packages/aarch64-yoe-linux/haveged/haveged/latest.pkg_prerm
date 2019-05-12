@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop haveged.service
-	fi
+		systemctl stop "haveged.service"
 
-	systemctl $OPTS disable haveged.service
+		systemctl disable "haveged.service"
+	fi
 fi

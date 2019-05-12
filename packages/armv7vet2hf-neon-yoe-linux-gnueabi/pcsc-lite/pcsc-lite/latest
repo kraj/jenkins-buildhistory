@@ -1,11 +1,11 @@
 PV = 1.8.22
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = pcsc-lite-systemd
-RDEPENDS = glibc (>= 2.29) libudev (>= 242+0+1e5d2d6564)
+RDEPENDS = glibc (>= 2.29) libudev (>= 242+1+db2e367bfc)
 RRECOMMENDS = ccid
 RREPLACES = pcsc-lite-systemd
 RCONFLICTS = pcsc-lite-systemd
-PKGSIZE = 84394
+PKGSIZE = 88490
 FILES = /usr/sbin/pcscd /lib/systemd/system-preset/98-pcsc-lite.preset /lib/systemd/system/pcscd.socket /lib/systemd/system/pcscd.service
 FILELIST = /lib/systemd/system-preset/98-pcsc-lite.preset /lib/systemd/system/pcscd.service /lib/systemd/system/pcscd.socket /usr/sbin/pcscd

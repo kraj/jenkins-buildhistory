@@ -2,8 +2,8 @@ set -e
     /etc/init.d/quagga stop bgpd
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "bgpd.service"
+		systemctl stop bgpd.service
 
-		systemctl disable "bgpd.service"
+		systemctl disable bgpd.service
 	fi
 fi

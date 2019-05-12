@@ -1,10 +1,10 @@
 PV = 1.12.12
 PR = r0
 PKG = libdbus-1-3
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = dbus-lib (=1.12.12)
-RDEPENDS = glibc (>= 2.29) libsystemd (>= 242+0+1e5d2d6564)
+RDEPENDS = glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc)
 RRECOMMENDS = dbus
-PKGSIZE = 198359
+PKGSIZE = 202455
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libdbus-1.so.3 /usr/lib/libdbus-1.so.3.19.9

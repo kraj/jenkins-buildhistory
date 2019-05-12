@@ -1,10 +1,10 @@
 PV = 1.10.0
 PR = r0
 PKG = libflatbuffers-compiler
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = flatbuffers-compiler (=1.10.0)
-RDEPENDS = flatbuffers glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0)
+RDEPENDS = flatbuffers glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0)
 RRECOMMENDS = 
-PKGSIZE = 961880
+PKGSIZE = 1064280
 FILES = /usr/bin
 FILELIST = /usr/bin/flatc

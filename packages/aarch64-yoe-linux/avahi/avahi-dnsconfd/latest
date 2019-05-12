@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
-PKGR = r0.99
+PKGR = r0.100
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libavahi-common (>= 0.7) libdaemon (>= 0.14)
 RRECOMMENDS = 
-PKGSIZE = 71551
-FILES = /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /lib/systemd/system/avahi-dnsconfd.service /lib/systemd/system/avahi-daemon.socket /lib/systemd/system/avahi-daemon.service
-FILELIST = /etc/avahi/avahi-dnsconfd.action /lib/systemd/system/avahi-dnsconfd.service /usr/sbin/avahi-dnsconfd
+PKGSIZE = 71581
+FILES = /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /lib/systemd/system-preset/98-avahi-dnsconfd.preset /lib/systemd/system/avahi-dnsconfd.service /lib/systemd/system/avahi-daemon.socket /lib/systemd/system/avahi-daemon.service
+FILELIST = /etc/avahi/avahi-dnsconfd.action /lib/systemd/system-preset/98-avahi-dnsconfd.preset /lib/systemd/system/avahi-dnsconfd.service /usr/sbin/avahi-dnsconfd

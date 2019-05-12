@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop drbd.service
-	fi
+		systemctl stop "drbd.service"
 
-	systemctl $OPTS disable drbd.service
+		systemctl disable "drbd.service"
+	fi
 fi

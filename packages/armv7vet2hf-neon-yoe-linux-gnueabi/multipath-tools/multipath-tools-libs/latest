@@ -1,9 +1,9 @@
 PV = 0.8.0
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = device-mapper-multipath-libs
-RDEPENDS = glibc (>= 2.29) json-c (>= 0.13.1) libaio (>= 0.3.111) libdevmapper (>= 2.03.02) libsystemd (>= 242+0+1e5d2d6564) libudev (>= 242+0+1e5d2d6564) liburcu (>= 0.10.2)
+RDEPENDS = glibc (>= 2.29) json-c (>= 0.13.1) libaio (>= 0.3.111) libdevmapper (>= 2.03.02) libsystemd (>= 242+1+db2e367bfc) libudev (>= 242+1+db2e367bfc) liburcu (>= 0.10.2)
 RRECOMMENDS = 
-PKGSIZE = 451828
+PKGSIZE = 459904
 FILES = /lib/lib*.so.* /lib/multipath/lib*.so*
 FILELIST = /lib/libdmmp.so.0.2.0 /lib/libmpathcmd.so.0 /lib/libmpathpersist.so.0 /lib/libmultipath.so.0 /lib/multipath/libcheckcciss_tur.so /lib/multipath/libcheckdirectio.so /lib/multipath/libcheckemc_clariion.so /lib/multipath/libcheckhp_sw.so /lib/multipath/libcheckrdac.so /lib/multipath/libcheckreadsector0.so /lib/multipath/libchecktur.so /lib/multipath/libforeign-nvme.so /lib/multipath/libprioalua.so /lib/multipath/libprioana.so /lib/multipath/libprioconst.so /lib/multipath/libpriodatacore.so /lib/multipath/libprioemc.so /lib/multipath/libpriohds.so /lib/multipath/libpriohp_sw.so /lib/multipath/libprioiet.so /lib/multipath/libprioontap.so /lib/multipath/libpriopath_latency.so /lib/multipath/libpriorandom.so /lib/multipath/libpriordac.so /lib/multipath/libpriosysfs.so /lib/multipath/libprioweightedpath.so

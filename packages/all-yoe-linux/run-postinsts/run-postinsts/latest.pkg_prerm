@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "run-postinsts.service"
+		systemctl stop run-postinsts.service
 
-		systemctl disable "run-postinsts.service"
+		systemctl disable run-postinsts.service
 	fi
 fi

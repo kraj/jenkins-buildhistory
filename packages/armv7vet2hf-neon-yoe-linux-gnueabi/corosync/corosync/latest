@@ -1,9 +1,9 @@
 PV = 2.4.4
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash dbus-lib (>= 1.12.12) glibc (>= 2.29) libqb (>= 1.0.3+git0+28dff090c7) net-snmp-lib-netsnmp (>= 5.8) nspr (>= 4.21) nss (>= 3.43) procps shadow
+RDEPENDS = base-files base-passwd bash dbus-lib (>= 1.12.12) glibc (>= 2.29) libqb (>= 1.0.5) net-snmp-lib-netsnmp (>= 5.8) nspr (>= 4.21) nss (>= 3.43) procps shadow
 RRECOMMENDS = 
-PKGSIZE = 670238
+PKGSIZE = 682362
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/corosync /usr/lib/corosync/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-corosync.preset /lib/systemd/system/corosync.service /lib/systemd/system/corosync-notifyd.service /lib/systemd/system/corosync-qdevice.service /lib/systemd/system/corosync-qnetd.service
 FILELIST = /etc/corosync/corosync.conf.example /etc/corosync/corosync.conf.example.udpu /etc/dbus-1/system.d/corosync-signals.conf /etc/default/volatiles/05_corosync /etc/logrotate.d/corosync /etc/sysconfig/corosync /etc/sysconfig/corosync-notifyd /etc/tmpfiles.d/corosync.conf /lib/systemd/system-preset/98-corosync.preset /lib/systemd/system/corosync-notifyd.service /lib/systemd/system/corosync-qdevice.service /lib/systemd/system/corosync-qnetd.service /lib/systemd/system/corosync.service /usr/bin/corosync-blackbox /usr/bin/corosync-qnetd /usr/bin/corosync-qnetd-certutil /usr/bin/corosync-qnetd-tool /usr/lib/libcfg.so.6 /usr/lib/libcfg.so.6.0.0 /usr/lib/libcmap.so.4 /usr/lib/libcmap.so.4.1.0 /usr/lib/libcorosync_common.so.4 /usr/lib/libcorosync_common.so.4.0.0 /usr/lib/libcpg.so.4 /usr/lib/libcpg.so.4.1.0 /usr/lib/libquorum.so.5 /usr/lib/libquorum.so.5.0.0 /usr/lib/libsam.so.4 /usr/lib/libsam.so.4.4.0 /usr/lib/libtotem_pg.so.5 /usr/lib/libtotem_pg.so.5.0.0 /usr/lib/libvotequorum.so.8 /usr/lib/libvotequorum.so.8.0.0 /usr/sbin/corosync /usr/sbin/corosync-cfgtool /usr/sbin/corosync-cmapctl /usr/sbin/corosync-cpgtool /usr/sbin/corosync-keygen /usr/sbin/corosync-notifyd /usr/sbin/corosync-qdevice /usr/sbin/corosync-qdevice-net-certutil /usr/sbin/corosync-qdevice-tool /usr/sbin/corosync-quorumtool /usr/share/corosync/corosync /usr/share/corosync/corosync-notifyd /usr/share/corosync/corosync-qdevice /usr/share/corosync/corosync-qnetd

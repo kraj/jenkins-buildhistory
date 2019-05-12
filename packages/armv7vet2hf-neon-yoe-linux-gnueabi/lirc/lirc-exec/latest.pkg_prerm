@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "irexec.service"
+		systemctl stop irexec.service
 
-		systemctl disable "irexec.service"
+		systemctl disable irexec.service
 	fi
 fi

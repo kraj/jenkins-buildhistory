@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop freediameter.service
-	fi
+		systemctl stop "freediameter.service"
 
-	systemctl $OPTS disable freediameter.service
+		systemctl disable "freediameter.service"
+	fi
 fi

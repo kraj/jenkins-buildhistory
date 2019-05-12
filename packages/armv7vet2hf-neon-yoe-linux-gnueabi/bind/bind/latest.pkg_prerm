@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "named.service"
+		systemctl stop named.service
 
-		systemctl disable "named.service"
+		systemctl disable named.service
 	fi
 fi

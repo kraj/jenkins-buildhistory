@@ -5,9 +5,11 @@ drwxr-xr-x root       root               60 ./etc/systemd
 drwxr-xr-x root       root               60 ./etc/systemd/resolved.conf.d
 -rw-r--r-- root       root               98 ./etc/systemd/resolved.conf.d/dnsmasq-resolved.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              339 ./lib/systemd/system/dnsmasq.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-dnsmasq.preset
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            67744 ./usr/bin/dhcp_release

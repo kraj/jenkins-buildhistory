@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_99f3821bdc
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_99f3821bdc
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = kernel-module-slip
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-slhc-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 18036
+PKGSIZE = 18308
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/slip/slip.ko /etc/modules-load.d/slip.conf /etc/modprobe.d/slip.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/drivers/net/slip/slip.ko

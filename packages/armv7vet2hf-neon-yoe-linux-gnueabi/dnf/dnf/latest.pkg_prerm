@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer"
+		systemctl stop dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
 
-		systemctl disable "dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer"
+		systemctl disable dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer
 	fi
 fi

@@ -73,7 +73,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libevt_common.so.0 -> libe
 lrwxrwxrwx root       root               22 ./usr/lib/libimm_common.so.0 -> libimm_common.so.0.0.0
 -rwxr-xr-x root       root            18024 ./usr/lib/libimmpbe_dump.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libimmpbe_dump.so.0 -> libimmpbe_dump.so.0.0.0
--rwxr-xr-x root       root            16600 ./usr/lib/liblck_common.so.0.0.0
+-rwxr-xr-x root       root            20696 ./usr/lib/liblck_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/liblck_common.so.0 -> liblck_common.so.0.0.0
 -rwxr-xr-x root       root            24280 ./usr/lib/libmsg_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libmsg_common.so.0 -> libmsg_common.so.0.0.0
@@ -81,7 +81,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libmsg_common.so.0 -> libm
 lrwxrwxrwx root       root               21 ./usr/lib/libntfclient.so.0 -> libntfclient.so.0.0.0
 -rwxr-xr-x root       root            38392 ./usr/lib/libntf_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libntf_common.so.0 -> libntf_common.so.0.0.0
--rwxr-xr-x root       root           372224 ./usr/lib/libopensaf_core.so.0.2.0
+-rwxr-xr-x root       root           376320 ./usr/lib/libopensaf_core.so.0.2.0
 lrwxrwxrwx root       root               24 ./usr/lib/libopensaf_core.so.0 -> libopensaf_core.so.0.2.0
 -rwxr-xr-x root       root            75428 ./usr/lib/libosaf_common.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libosaf_common.so.0 -> libosaf_common.so.0.0.0
@@ -154,7 +154,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/opensaf/libimm_common.so -
 -rwxr-xr-x root       root            18024 ./usr/lib/opensaf/libimmpbe_dump.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/opensaf/libimmpbe_dump.so.0 -> libimmpbe_dump.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/opensaf/libimmpbe_dump.so -> libimmpbe_dump.so.0.0.0
--rwxr-xr-x root       root            16600 ./usr/lib/opensaf/liblck_common.so.0.0.0
+-rwxr-xr-x root       root            20696 ./usr/lib/opensaf/liblck_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/opensaf/liblck_common.so.0 -> liblck_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/opensaf/liblck_common.so -> liblck_common.so.0.0.0
 -rwxr-xr-x root       root            24280 ./usr/lib/opensaf/libmsg_common.so.0.0.0
@@ -176,15 +176,15 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root             6116 ./usr/lib/opensaf/opensaf_reboot
 -rwxr-xr-x root       root             1081 ./usr/lib/opensaf/opensaf_sc_active
 -rwxr-xr-x root       root             2265 ./usr/lib/opensaf/opensaf_scale_out
--rwxr-xr-x root       root           740044 ./usr/lib/opensaf/osafamfd
--rwxr-xr-x root       root           292672 ./usr/lib/opensaf/osafamfnd
+-rwxr-xr-x root       root           789196 ./usr/lib/opensaf/osafamfd
+-rwxr-xr-x root       root           296768 ./usr/lib/opensaf/osafamfnd
 -rwxr-xr-x root       root             9860 ./usr/lib/opensaf/osafamfwd
 -rwxr-xr-x root       root            91888 ./usr/lib/opensaf/osafckptd
 -rwxr-xr-x root       root           112284 ./usr/lib/opensaf/osafckptnd
 -rwxr-xr-x root       root           132880 ./usr/lib/opensaf/osafclmd
 -rwxr-xr-x root       root            26308 ./usr/lib/opensaf/osafclmna
--rwxr-xr-x root       root           108180 ./usr/lib/opensaf/osafdtmd
--rwxr-xr-x root       root            94100 ./usr/lib/opensaf/osafevtd
+-rwxr-xr-x root       root           104084 ./usr/lib/opensaf/osafdtmd
+-rwxr-xr-x root       root            98196 ./usr/lib/opensaf/osafevtd
 -rwxr-xr-x root       root            34516 ./usr/lib/opensaf/osaffmd
 -rwxr-xr-x root       root            83596 ./usr/lib/opensaf/osafimmd
 -rwxr-xr-x root       root            55060 ./usr/lib/opensaf/osafimmloadd
@@ -192,12 +192,12 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root            59152 ./usr/lib/opensaf/osafimmpbed
 -rwxr-xr-x root       root            50916 ./usr/lib/opensaf/osaflckd
 -rwxr-xr-x root       root            79552 ./usr/lib/opensaf/osaflcknd
--rwxr-xr-x root       root           286936 ./usr/lib/opensaf/osaflogd
+-rwxr-xr-x root       root           291032 ./usr/lib/opensaf/osaflogd
 -rwxr-xr-x root       root            73672 ./usr/lib/opensaf/osafmsgd
 -rwxr-xr-x root       root            79556 ./usr/lib/opensaf/osafmsgnd
--rwxr-xr-x root       root           149412 ./usr/lib/opensaf/osafntfd
+-rwxr-xr-x root       root           141220 ./usr/lib/opensaf/osafntfd
 -rwxr-xr-x root       root            34584 ./usr/lib/opensaf/osafrded
--rwxr-xr-x root       root           808788 ./usr/lib/opensaf/osafsmfd
+-rwxr-xr-x root       root           837460 ./usr/lib/opensaf/osafsmfd
 -rwxr-xr-x root       root            18116 ./usr/lib/opensaf/osafsmfnd
 -rwxr-xr-x root       root            26360 ./usr/lib/opensaf/osaftransportd
 -rwxr-xr-x root       root             1479 ./usr/lib/opensaf/plm_scale_out
@@ -221,8 +221,8 @@ drwxr-xr-x root       root              240 ./usr/share/opensaf/immxml
 -rwxr-xr-x root       root            22251 ./usr/share/opensaf/immxml/immxml-validate
 -rw-r--r-- root       root              530 ./usr/share/opensaf/immxml/README
 drwxr-xr-x root       root              960 ./usr/share/opensaf/immxml/services
--rw-r--r-- root       root            36456 ./usr/share/opensaf/immxml/services/amf_classes.xml
--rw-r--r-- root       root             6109 ./usr/share/opensaf/immxml/services/amf_objects.xml
+-rw-r--r-- root       root            36781 ./usr/share/opensaf/immxml/services/amf_classes.xml
+-rw-r--r-- root       root             6293 ./usr/share/opensaf/immxml/services/amf_objects.xml
 -rw-r--r-- root       root             2381 ./usr/share/opensaf/immxml/services/amfwdog_objects.xml
 -rw-r--r-- root       root              843 ./usr/share/opensaf/immxml/services/amfwdog_pl_template.xml
 -rw-r--r-- root       root              843 ./usr/share/opensaf/immxml/services/amfwdog_sc_template.xml

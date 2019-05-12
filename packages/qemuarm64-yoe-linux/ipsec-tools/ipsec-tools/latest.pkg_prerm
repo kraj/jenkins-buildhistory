@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop racoon.service
-	fi
+		systemctl stop "racoon.service"
 
-	systemctl $OPTS disable racoon.service
+		systemctl disable "racoon.service"
+	fi
 fi

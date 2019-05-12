@@ -11,21 +11,14 @@ set -e
         chown -R radiusd:radiusd /etc/raddb
         chown -R radiusd:radiusd /var/lib/radiusd
     fi
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset "radiusd.service"
 
-	systemctl $OPTS enable radiusd.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart radiusd.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart "radiusd.service"
+		fi
 	fi
 fi
 if [ x"$D" = "x" ]; then

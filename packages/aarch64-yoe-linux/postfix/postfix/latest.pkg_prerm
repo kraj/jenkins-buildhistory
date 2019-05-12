@@ -1,17 +1,11 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop postfix.service
-	fi
+		systemctl stop "postfix.service"
 
-	systemctl $OPTS disable postfix.service
+		systemctl disable "postfix.service"
+	fi
 fi
 	update-alternatives --remove  sendmail /usr/sbin/sendmail.postfix
 	update-alternatives --remove  mailq /usr/bin/mailq.postfix

@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/lib/strace
 drwxr-xr-x root       root              160 ./usr/lib/strace/ptest
 -rw-r--r-- root       root            61005 ./usr/lib/strace/ptest/config.h
 -rwxr-xr-x root       root               45 ./usr/lib/strace/ptest/run-ptest
--rwxr-xr-x root       root           677672 ./usr/lib/strace/ptest/strace
+-rwxr-xr-x root       root           681768 ./usr/lib/strace/ptest/strace
 -rwxr-xr-x root       root             1311 ./usr/lib/strace/ptest/strace-log-merge
 -rwxr-xr-x root       root             4642 ./usr/lib/strace/ptest/test-driver
 drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
@@ -134,7 +134,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root             9916 ./usr/lib/strace/ptest/tests/execve
 -rwxr-xr-x root       root             9920 ./usr/lib/strace/ptest/tests/execveat
 -rwxr-xr-x root       root              142 ./usr/lib/strace/ptest/tests/execveat.gen.test
--rwxr-xr-x root       root             9920 ./usr/lib/strace/ptest/tests/execveat-v
+-rwxr-xr-x root       root            14016 ./usr/lib/strace/ptest/tests/execveat-v
 -rwxr-xr-x root       root              182 ./usr/lib/strace/ptest/tests/execveat-v.gen.test
 -rwxr-xr-x root       root              360 ./usr/lib/strace/ptest/tests/execve.test
 -rwxr-xr-x root       root             9920 ./usr/lib/strace/ptest/tests/execve-v
@@ -181,7 +181,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              386 ./usr/lib/strace/ptest/tests/fflush.test
 -rwxr-xr-x root       root            14016 ./usr/lib/strace/ptest/tests/file_handle
 -rwxr-xr-x root       root              231 ./usr/lib/strace/ptest/tests/file_handle.gen.test
--rwxr-xr-x root       root             5824 ./usr/lib/strace/ptest/tests/file_ioctl
+-rwxr-xr-x root       root             9920 ./usr/lib/strace/ptest/tests/file_ioctl
 -rwxr-xr-x root       root              142 ./usr/lib/strace/ptest/tests/file_ioctl.gen.test
 -rwxr-xr-x root       root              877 ./usr/lib/strace/ptest/tests/filtering_fd-syntax.test
 -rwxr-xr-x root       root             3007 ./usr/lib/strace/ptest/tests/filtering_syscall-syntax.test
@@ -408,9 +408,9 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root             9932 ./usr/lib/strace/ptest/tests/ipc_sem-Xverbose
 -rwxr-xr-x root       root              168 ./usr/lib/strace/ptest/tests/ipc_sem-Xverbose.gen.test
 -rwxr-xr-x root       root              272 ./usr/lib/strace/ptest/tests/ipc.sh
--rwxr-xr-x root       root             9860 ./usr/lib/strace/ptest/tests/ipc_shm
+-rwxr-xr-x root       root            13956 ./usr/lib/strace/ptest/tests/ipc_shm
 -rwxr-xr-x root       root              139 ./usr/lib/strace/ptest/tests/ipc_shm.gen.test
--rwxr-xr-x root       root             9868 ./usr/lib/strace/ptest/tests/ipc_shm-Xabbrev
+-rwxr-xr-x root       root            13964 ./usr/lib/strace/ptest/tests/ipc_shm-Xabbrev
 -rwxr-xr-x root       root              165 ./usr/lib/strace/ptest/tests/ipc_shm-Xabbrev.gen.test
 -rwxr-xr-x root       root             9868 ./usr/lib/strace/ptest/tests/ipc_shm-Xraw
 -rwxr-xr-x root       root              156 ./usr/lib/strace/ptest/tests/ipc_shm-Xraw.gen.test
@@ -579,7 +579,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root             5776 ./usr/lib/strace/ptest/tests/netlink_netlink_diag
 -rwxr-xr-x root       root            18060 ./usr/lib/strace/ptest/tests/netlink_protocol
 -rwxr-xr-x root       root              178 ./usr/lib/strace/ptest/tests/netlink_protocol.gen.test
--rwxr-xr-x root       root            18056 ./usr/lib/strace/ptest/tests/netlink_route
+-rwxr-xr-x root       root            22152 ./usr/lib/strace/ptest/tests/netlink_route
 -rwxr-xr-x root       root              169 ./usr/lib/strace/ptest/tests/netlink_route.gen.test
 -rwxr-xr-x root       root            13960 ./usr/lib/strace/ptest/tests/netlink_selinux
 -rwxr-xr-x root       root              171 ./usr/lib/strace/ptest/tests/netlink_selinux.gen.test
@@ -685,7 +685,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              179 ./usr/lib/strace/ptest/tests/nlattr_netlink_diag_msg.gen.test
 -rwxr-xr-x root       root             9864 ./usr/lib/strace/ptest/tests/nlattr_nlmsgerr
 -rwxr-xr-x root       root              171 ./usr/lib/strace/ptest/tests/nlattr_nlmsgerr.gen.test
--rwxr-xr-x root       root            13968 ./usr/lib/strace/ptest/tests/nlattr_packet_diag_msg
+-rwxr-xr-x root       root            18064 ./usr/lib/strace/ptest/tests/nlattr_packet_diag_msg
 -rwxr-xr-x root       root              178 ./usr/lib/strace/ptest/tests/nlattr_packet_diag_msg.gen.test
 -rwxr-xr-x root       root            13960 ./usr/lib/strace/ptest/tests/nlattr_rtgenmsg
 -rwxr-xr-x root       root              171 ./usr/lib/strace/ptest/tests/nlattr_rtgenmsg.gen.test
@@ -1043,12 +1043,12 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root             5764 ./usr/lib/strace/ptest/tests/setregid32
 -rwxr-xr-x root       root              152 ./usr/lib/strace/ptest/tests/setregid32.gen.test
 -rwxr-xr-x root       root              150 ./usr/lib/strace/ptest/tests/setregid.gen.test
--rwxr-xr-x root       root             5764 ./usr/lib/strace/ptest/tests/setresgid
+-rwxr-xr-x root       root             9860 ./usr/lib/strace/ptest/tests/setresgid
 -rwxr-xr-x root       root             5764 ./usr/lib/strace/ptest/tests/setresgid32
 -rwxr-xr-x root       root              153 ./usr/lib/strace/ptest/tests/setresgid32.gen.test
 -rwxr-xr-x root       root              151 ./usr/lib/strace/ptest/tests/setresgid.gen.test
 -rwxr-xr-x root       root             1866 ./usr/lib/strace/ptest/tests/setresugid.c
--rwxr-xr-x root       root             5764 ./usr/lib/strace/ptest/tests/setresuid
+-rwxr-xr-x root       root             9860 ./usr/lib/strace/ptest/tests/setresuid
 -rwxr-xr-x root       root             5764 ./usr/lib/strace/ptest/tests/setresuid32
 -rwxr-xr-x root       root              153 ./usr/lib/strace/ptest/tests/setresuid32.gen.test
 -rwxr-xr-x root       root              151 ./usr/lib/strace/ptest/tests/setresuid.gen.test
@@ -1276,7 +1276,7 @@ drwxr-xr-x root       root            26260 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              204 ./usr/lib/strace/ptest/tests/utimensat-Xraw.gen.test
 -rwxr-xr-x root       root            13964 ./usr/lib/strace/ptest/tests/utimensat-Xverbose
 -rwxr-xr-x root       root              216 ./usr/lib/strace/ptest/tests/utimensat-Xverbose.gen.test
--rwxr-xr-x root       root             9856 ./usr/lib/strace/ptest/tests/utimes
+-rwxr-xr-x root       root            13952 ./usr/lib/strace/ptest/tests/utimes
 -rwxr-xr-x root       root              148 ./usr/lib/strace/ptest/tests/utimes.gen.test
 -rwxr-xr-x root       root             9856 ./usr/lib/strace/ptest/tests/vfork-f
 -rwxr-xr-x root       root              221 ./usr/lib/strace/ptest/tests/vfork-f.gen.test

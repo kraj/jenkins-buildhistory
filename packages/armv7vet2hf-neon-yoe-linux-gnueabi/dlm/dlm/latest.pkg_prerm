@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "dlm.service"
+		systemctl stop dlm.service
 
-		systemctl disable "dlm.service"
+		systemctl disable dlm.service
 	fi
 fi

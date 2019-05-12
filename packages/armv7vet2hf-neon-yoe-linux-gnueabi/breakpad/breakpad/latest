@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.0
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0)
 RRECOMMENDS = 
-PKGSIZE = 1468700
+PKGSIZE = 1485084
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/breakpad /usr/lib/breakpad/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/core2md /usr/bin/dump_syms /usr/bin/microdump_stackwalk /usr/bin/minidump-2-core /usr/bin/minidump_dump /usr/bin/minidump_stackwalk

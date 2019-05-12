@@ -1,8 +1,8 @@
 PV = 010
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libudev (>= 242+0+1e5d2d6564) libusb1 (>= 1.0.22) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.29) libudev (>= 242+1+db2e367bfc) libusb1 (>= 1.0.22) update-alternatives-opkg
 RRECOMMENDS = udev-hwdb
 PKGSIZE = 173524
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/usbutils /usr/lib/usbutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

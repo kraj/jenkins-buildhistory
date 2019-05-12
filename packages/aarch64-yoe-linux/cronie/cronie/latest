@@ -1,9 +1,9 @@
 PV = 1.5.4
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
 RDEPENDS = base-files base-passwd glibc (>= 2.29) libpam (>= 1.3.0) libpam-runtime pam-plugin-access pam-plugin-loginuid shadow
 RRECOMMENDS = 
-PKGSIZE = 206165
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cronie /usr/lib/cronie/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc/cron* /lib/systemd/system/crond.service
-FILELIST = /etc/cron.deny /etc/crontab /etc/pam.d/crond /etc/sysconfig/crond /lib/systemd/system/crond.service /usr/bin/cronnext /usr/bin/crontab /usr/sbin/crond
+PKGSIZE = 206186
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cronie /usr/lib/cronie/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc/cron* /lib/systemd/system-preset/98-cronie.preset /lib/systemd/system/crond.service
+FILELIST = /etc/cron.deny /etc/crontab /etc/pam.d/crond /etc/sysconfig/crond /lib/systemd/system-preset/98-cronie.preset /lib/systemd/system/crond.service /usr/bin/cronnext /usr/bin/crontab /usr/sbin/crond

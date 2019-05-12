@@ -2,10 +2,10 @@ PV = 2.2+gitAUTOINC+8cdb99c910
 PR = r0
 PKG = libqt53dstudioruntime2-qmlplugins
 PKGV = 2.2+git0+8cdb99c910
-PKGR = r0.27
+PKGR = r0.28
 RPROVIDES = qt3d-runtime-qmlplugins (=2.2+git0+8cdb99c910)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) qt3d (>= 5.12.3+git1+7da5c4c35a) qt3d-runtime (>= 2.2+git0+8cdb99c910) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) qt3d (>= 5.12.3+git1+7da5c4c35a) qt3d-runtime (>= 2.2+git0+8cdb99c910) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
 RRECOMMENDS = 
-PKGSIZE = 141128
+PKGSIZE = 137032
 FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
 FILELIST = /usr/lib/qml/QtStudio3D.2/libq3dsstudio3dplugin.so /usr/lib/qml/QtStudio3D.2/plugins.qmltypes /usr/lib/qml/QtStudio3D.2/qmldir

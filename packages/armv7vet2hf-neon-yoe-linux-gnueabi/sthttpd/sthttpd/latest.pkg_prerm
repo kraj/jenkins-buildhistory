@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "thttpd.service"
+		systemctl stop thttpd.service
 
-		systemctl disable "thttpd.service"
+		systemctl disable thttpd.service
 	fi
 fi

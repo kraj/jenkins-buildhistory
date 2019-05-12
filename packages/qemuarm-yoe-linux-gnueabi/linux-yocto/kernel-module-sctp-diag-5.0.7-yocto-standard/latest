@@ -1,10 +1,10 @@
 PV = 5.0.7+gitAUTOINC+d26eec23cf_99f3821bdc
 PR = r0
 PKGV = 5.0.7+git2+d26eec23cf_99f3821bdc
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = kernel-module-sctp-diag
 RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-sctp-5.0.7-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 9236
+PKGSIZE = 9456
 FILES = /lib/modules/5.0.7-yocto-standard/kernel/net/sctp/sctp_diag.ko /etc/modules-load.d/sctp_diag.conf /etc/modprobe.d/sctp_diag.conf
 FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/net/sctp/sctp_diag.ko

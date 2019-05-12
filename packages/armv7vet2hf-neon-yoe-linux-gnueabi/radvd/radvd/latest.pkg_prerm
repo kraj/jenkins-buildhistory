@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "radvd.service"
+		systemctl stop radvd.service
 
-		systemctl disable "radvd.service"
+		systemctl disable radvd.service
 	fi
 fi

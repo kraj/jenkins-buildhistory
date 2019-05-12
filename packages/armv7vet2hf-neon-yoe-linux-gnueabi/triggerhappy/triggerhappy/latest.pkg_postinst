@@ -1,12 +1,28 @@
 #!/bin/sh
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "enable" = "enable" ]; then
+		for service in triggerhappy.service triggerhappy.socket; do
+			case "${service}" in
+			*@*)
+				systemctl ${OPTS} enable "${service}"
+				;;
+			esac
+		done
+	fi
+
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset "triggerhappy.service triggerhappy.socket"
+		systemctl preset triggerhappy.service triggerhappy.socket
 
 		if [ "enable" = "enable" ]; then
-			systemctl --no-block restart "triggerhappy.service triggerhappy.socket"
+			systemctl --no-block restart triggerhappy.service triggerhappy.socket
 		fi
 	fi
 fi

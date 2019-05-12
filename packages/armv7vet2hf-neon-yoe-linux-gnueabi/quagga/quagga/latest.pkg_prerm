@@ -2,8 +2,8 @@ set -e
     /etc/init.d/quagga stop
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "zebra.service"
+		systemctl stop zebra.service
 
-		systemctl disable "zebra.service"
+		systemctl disable zebra.service
 	fi
 fi

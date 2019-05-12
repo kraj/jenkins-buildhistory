@@ -2,10 +2,10 @@ PV = 5.12.3+gitAUTOINC+db1e447c46
 PR = r0
 PKG = libqt5remoteobjects-qmlplugins
 PKGV = 5.12.3+git1+db1e447c46
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtremoteobjects-qmlplugins (=5.12.3+git1+db1e447c46)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67) qtremoteobjects (>= 5.12.3+git1+db1e447c46)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 9.1.0) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67) qtremoteobjects (>= 5.12.3+git1+db1e447c46)
 RRECOMMENDS = 
-PKGSIZE = 36880
+PKGSIZE = 40976
 FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
 FILELIST = /usr/lib/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so /usr/lib/qml/QtQml/RemoteObjects/plugins.qmltypes /usr/lib/qml/QtQml/RemoteObjects/qmldir /usr/lib/qml/QtRemoteObjects/libqtremoteobjects.so /usr/lib/qml/QtRemoteObjects/plugins.qmltypes /usr/lib/qml/QtRemoteObjects/qmldir

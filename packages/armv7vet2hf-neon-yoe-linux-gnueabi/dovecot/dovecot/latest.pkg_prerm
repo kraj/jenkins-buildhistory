@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "dovecot.service dovecot.socket"
+		systemctl stop dovecot.service dovecot.socket
 
-		systemctl disable "dovecot.service dovecot.socket"
+		systemctl disable dovecot.service dovecot.socket
 	fi
 fi

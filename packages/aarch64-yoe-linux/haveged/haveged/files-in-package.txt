@@ -1,7 +1,9 @@
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              218 ./lib/systemd/system/haveged.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-haveged.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 -rwxr-xr-x root       root           133440 ./usr/lib/libhavege.so.1.1.0

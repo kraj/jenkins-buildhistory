@@ -6,8 +6,8 @@ set -e
 	fi
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "syslogd.service klogd.service"
+		systemctl stop syslogd.service klogd.service
 
-		systemctl disable "syslogd.service klogd.service"
+		systemctl disable syslogd.service klogd.service
 	fi
 fi

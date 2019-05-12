@@ -12,13 +12,15 @@ drwxr-xr-x root       root              200 ./etc/lvm/profile
 -r--r--r-- root       root               80 ./etc/lvm/profile/thin-performance.profile
 -r--r--r-- root       root              572 ./etc/lvm/profile/vdo-small.profile
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              140 ./lib/systemd/system
 -r--r--r-- root       root              381 ./lib/systemd/system/blk-availability.service
 -r--r--r-- root       root              345 ./lib/systemd/system/dm-event.service
 -r--r--r-- root       root              248 ./lib/systemd/system/dm-event.socket
 -r--r--r-- root       root              569 ./lib/systemd/system/lvm2-monitor.service
 -r--r--r-- root       root              343 ./lib/systemd/system/lvm2-pvscan@.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root              140 ./lib/systemd/system-preset/98-lvm2.preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root              140 ./usr/lib/device-mapper

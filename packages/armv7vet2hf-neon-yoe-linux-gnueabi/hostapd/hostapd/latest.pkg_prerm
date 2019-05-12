@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "hostapd.service"
+		systemctl stop hostapd.service
 
-		systemctl disable "hostapd.service"
+		systemctl disable hostapd.service
 	fi
 fi

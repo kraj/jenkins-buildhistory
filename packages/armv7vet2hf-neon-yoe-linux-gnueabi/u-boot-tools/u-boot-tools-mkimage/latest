@@ -1,12 +1,12 @@
 PE = 1
 PV = 2019.04
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = u-boot-mkimage
 RDEPENDS = dtc glibc (>= 2.29) libcrypto (>= 1.1.1b) libssl (>= 1.1.1b)
 RRECOMMENDS = 
 RREPLACES = u-boot-mkimage
 RCONFLICTS = u-boot-mkimage
-PKGSIZE = 498108
+PKGSIZE = 502204
 FILES = /usr/bin/uboot-mkimage /usr/bin/mkimage /usr/bin/uboot-dumpimage /usr/bin/dumpimage /usr/bin/uboot-fit_check_sign /usr/bin/fit_check_sign
 FILELIST = /usr/bin/dumpimage /usr/bin/fit_check_sign /usr/bin/mkimage /usr/bin/uboot-dumpimage /usr/bin/uboot-fit_check_sign /usr/bin/uboot-mkimage

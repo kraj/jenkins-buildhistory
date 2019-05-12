@@ -1,5 +1,5 @@
 PV = 3.2.2-15
 PR = r0
-DEPENDS = libtool-cross virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = libtool-cross systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = apmd-src apmd-dbg libapm apm apmd-staticdev apmd-dev apmd-doc apmd-locale apmd
 LAYER = core

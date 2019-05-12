@@ -1,12 +1,28 @@
 #!/bin/sh
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "disable" = "enable" ]; then
+		for service in phoromatic-client.service phoromatic-server.service; do
+			case "${service}" in
+			*@*)
+				systemctl ${OPTS} enable "${service}"
+				;;
+			esac
+		done
+	fi
+
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset "phoromatic-client.service phoromatic-server.service"
+		systemctl preset phoromatic-client.service phoromatic-server.service
 
 		if [ "disable" = "enable" ]; then
-			systemctl --no-block restart "phoromatic-client.service phoromatic-server.service"
+			systemctl --no-block restart phoromatic-client.service phoromatic-server.service
 		fi
 	fi
 fi

@@ -2,9 +2,9 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "postfix.service"
+		systemctl stop postfix.service
 
-		systemctl disable "postfix.service"
+		systemctl disable postfix.service
 	fi
 fi
 	update-alternatives --remove  sendmail /usr/sbin/sendmail.postfix

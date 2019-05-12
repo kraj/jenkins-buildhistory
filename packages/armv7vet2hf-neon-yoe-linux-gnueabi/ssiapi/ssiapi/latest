@@ -1,9 +1,9 @@
 PV = 1.0.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) mdadm sg3-utils (>= 1.44)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) mdadm sg3-utils (>= 1.44)
 RRECOMMENDS = 
-PKGSIZE = 340903
+PKGSIZE = 344999
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ssiapi /usr/lib/ssiapi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/ssieventmonitor /usr/bin/ssimsg /usr/lib/libssi.so.1 /usr/lib/libssi.so.1.0.0

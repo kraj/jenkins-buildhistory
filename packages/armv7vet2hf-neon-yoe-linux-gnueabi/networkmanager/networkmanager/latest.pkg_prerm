@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "NetworkManager.service NetworkManager-dispatcher.service"
+		systemctl stop NetworkManager.service NetworkManager-dispatcher.service
 
-		systemctl disable "NetworkManager.service NetworkManager-dispatcher.service"
+		systemctl disable NetworkManager.service NetworkManager-dispatcher.service
 	fi
 fi

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "nmb.service smb.service"
+		systemctl stop nmb.service smb.service
 
-		systemctl disable "nmb.service smb.service"
+		systemctl disable nmb.service smb.service
 	fi
 fi

@@ -2,10 +2,10 @@ PV = 3.6.1+gitAUTOINC+48cb18e5c4
 PR = r0
 PKG = libprotobuf17
 PKGV = 3.6.1+git0+48cb18e5c4
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = protobuf (=3.6.1+git0+48cb18e5c4)
-RDEPENDS = glibc (>= 2.29) libatomic (>= 8.3.0) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) libatomic (>= 9.1.0) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1854189
+PKGSIZE = 1964781
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/protobuf /usr/lib/protobuf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libprotobuf.so.17 /usr/lib/libprotobuf.so.17.0.0

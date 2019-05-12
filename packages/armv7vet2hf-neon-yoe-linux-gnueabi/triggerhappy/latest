@@ -1,5 +1,5 @@
 PV = 0.5.0
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native systemd virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native systemd systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = triggerhappy-src triggerhappy-dbg triggerhappy-staticdev triggerhappy-dev triggerhappy-doc triggerhappy-locale triggerhappy
 LAYER = openembedded-layer

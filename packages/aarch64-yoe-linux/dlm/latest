@@ -1,5 +1,5 @@
 PV = 4.0.7
 PR = r0
-DEPENDS = corosync pkgconfig-native systemd systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = corosync pkgconfig-native systemd virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = dlm-src dlm-dbg dlm-staticdev dlm-dev dlm-doc dlm-locale dlm
 LAYER = networking-layer

@@ -267,7 +267,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/proto_dhcp.so -> proto_dhc
 -rwxr-xr-x root       root            13864 ./usr/lib/proto_vmps.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/proto_vmps.so.0 -> proto_vmps.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/proto_vmps.so -> proto_vmps.so.0.0.0
--rwxr-xr-x root       root             5764 ./usr/lib/rlm_always.so.0.0.0
+-rwxr-xr-x root       root             5600 ./usr/lib/rlm_always.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/rlm_always.so.0 -> rlm_always.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/rlm_always.so -> rlm_always.so.0.0.0
 -rwxr-xr-x root       root             9868 ./usr/lib/rlm_attr_filter.so.0.0.0
@@ -321,13 +321,13 @@ lrwxrwxrwx root       root               21 ./usr/lib/rlm_eap_peap.so -> rlm_eap
 -rwxr-xr-x root       root            26224 ./usr/lib/rlm_eap_pwd.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_eap_pwd.so.0 -> rlm_eap_pwd.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_eap_pwd.so -> rlm_eap_pwd.so.0.0.0
--rwxr-xr-x root       root             9740 ./usr/lib/rlm_eap_sim.so.0.0.0
+-rwxr-xr-x root       root            13836 ./usr/lib/rlm_eap_sim.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_eap_sim.so.0 -> rlm_eap_sim.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_eap_sim.so -> rlm_eap_sim.so.0.0.0
 -rwxr-xr-x root       root            30340 ./usr/lib/rlm_eap.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/rlm_eap.so.0 -> rlm_eap.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/rlm_eap.so -> rlm_eap.so.0.0.0
--rwxr-xr-x root       root             9800 ./usr/lib/rlm_eap_tls.so.0.0.0
+-rwxr-xr-x root       root             9636 ./usr/lib/rlm_eap_tls.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_eap_tls.so.0 -> rlm_eap_tls.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_eap_tls.so -> rlm_eap_tls.so.0.0.0
 -rwxr-xr-x root       root            22188 ./usr/lib/rlm_eap_ttls.so.0.0.0
@@ -381,7 +381,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/rlm_replicate.so -> rlm_re
 -rwxr-xr-x root       root             9860 ./usr/lib/rlm_soh.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/rlm_soh.so.0 -> rlm_soh.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/rlm_soh.so -> rlm_soh.so.0.0.0
--rwxr-xr-x root       root             5768 ./usr/lib/rlm_sometimes.so.0.0.0
+-rwxr-xr-x root       root             5604 ./usr/lib/rlm_sometimes.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/rlm_sometimes.so.0 -> rlm_sometimes.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/rlm_sometimes.so -> rlm_sometimes.so.0.0.0
 -rwxr-xr-x root       root            13960 ./usr/lib/rlm_sqlcounter.so.0.0.0
@@ -390,7 +390,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/rlm_sqlcounter.so -> rlm_s
 -rwxr-xr-x root       root            15120 ./usr/lib/rlm_sqlippool.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/rlm_sqlippool.so.0 -> rlm_sqlippool.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/rlm_sqlippool.so -> rlm_sqlippool.so.0.0.0
--rwxr-xr-x root       root             5692 ./usr/lib/rlm_sql_null.so.0.0.0
+-rwxr-xr-x root       root             5528 ./usr/lib/rlm_sql_null.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/rlm_sql_null.so.0 -> rlm_sql_null.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/rlm_sql_null.so -> rlm_sql_null.so.0.0.0
 -rwxr-xr-x root       root            30340 ./usr/lib/rlm_sql.so.0.0.0
@@ -417,7 +417,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/rlm_yubikey.so -> rlm_yubi
 drwxr-xr-x root       root              120 ./usr/sbin
 -rwxr-xr-x root       root            38390 ./usr/sbin/checkrad
 -rwxr-xr-x root       root             3626 ./usr/sbin/raddebug
--rwxr-xr-x root       root           314012 ./usr/sbin/radiusd
+-rwxr-xr-x root       root           318108 ./usr/sbin/radiusd
 -rwxr-xr-x root       root            18056 ./usr/sbin/radmin
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root             4340 ./usr/share/freeradius

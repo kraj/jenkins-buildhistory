@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "gpm.service"
+		systemctl stop gpm.service
 
-		systemctl disable "gpm.service"
+		systemctl disable gpm.service
 	fi
 fi

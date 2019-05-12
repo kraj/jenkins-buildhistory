@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "pcscd.socket"
+		systemctl stop pcscd.socket
 
-		systemctl disable "pcscd.socket"
+		systemctl disable pcscd.socket
 	fi
 fi

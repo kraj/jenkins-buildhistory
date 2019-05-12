@@ -32,9 +32,11 @@ drwxr-xr-x root       root              660 ./etc/opensaf
 -rw-r--r-- root       root                3 ./etc/opensaf/subslot_id
 -rw-r--r-- root       root              526 ./etc/opensaf/transportd.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              385 ./lib/systemd/system/opensafd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               25 ./lib/systemd/system-preset/98-opensaf.preset
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              460 ./usr/bin
 -rwxr-xr-x root       root             2033 ./usr/bin/amf-adm
@@ -174,7 +176,7 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root             6116 ./usr/lib/opensaf/opensaf_reboot
 -rwxr-xr-x root       root             1081 ./usr/lib/opensaf/opensaf_sc_active
 -rwxr-xr-x root       root             2265 ./usr/lib/opensaf/opensaf_scale_out
--rwxr-xr-x root       root          1053000 ./usr/lib/opensaf/osafamfd
+-rwxr-xr-x root       root          1118536 ./usr/lib/opensaf/osafamfd
 -rwxr-xr-x root       root           395824 ./usr/lib/opensaf/osafamfnd
 -rwxr-xr-x root       root            67744 ./usr/lib/opensaf/osafamfwd
 -rwxr-xr-x root       root           133448 ./usr/lib/opensaf/osafckptd
@@ -219,8 +221,8 @@ drwxr-xr-x root       root              240 ./usr/share/opensaf/immxml
 -rwxr-xr-x root       root            22251 ./usr/share/opensaf/immxml/immxml-validate
 -rw-r--r-- root       root              530 ./usr/share/opensaf/immxml/README
 drwxr-xr-x root       root              960 ./usr/share/opensaf/immxml/services
--rw-r--r-- root       root            36456 ./usr/share/opensaf/immxml/services/amf_classes.xml
--rw-r--r-- root       root             6109 ./usr/share/opensaf/immxml/services/amf_objects.xml
+-rw-r--r-- root       root            36781 ./usr/share/opensaf/immxml/services/amf_classes.xml
+-rw-r--r-- root       root             6293 ./usr/share/opensaf/immxml/services/amf_objects.xml
 -rw-r--r-- root       root             2381 ./usr/share/opensaf/immxml/services/amfwdog_objects.xml
 -rw-r--r-- root       root              843 ./usr/share/opensaf/immxml/services/amfwdog_pl_template.xml
 -rw-r--r-- root       root              843 ./usr/share/opensaf/immxml/services/amfwdog_sc_template.xml

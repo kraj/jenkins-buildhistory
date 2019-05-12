@@ -52,8 +52,8 @@ drwxr-xr-x root       root               60 ./usr/share/ctdb-tests/complex/scrip
 drwxr-xr-x root       root               60 ./usr/share/ctdb/tests/complex/scripts
 -rw-r--r-- root       root             7116 ./usr/share/ctdb-tests/complex/scripts/local.bash
 -rw-r--r-- root       root             7116 ./usr/share/ctdb/tests/complex/scripts/local.bash
-drwxr-xr-x root       root              480 ./usr/share/ctdb-tests/cunit
-drwxr-xr-x root       root              480 ./usr/share/ctdb/tests/cunit
+drwxr-xr-x root       root              500 ./usr/share/ctdb-tests/cunit
+drwxr-xr-x root       root              500 ./usr/share/ctdb/tests/cunit
 -rwxr-xr-x root       root              201 ./usr/share/ctdb-tests/cunit/comm_test_001.sh
 -rwxr-xr-x root       root              201 ./usr/share/ctdb/tests/cunit/comm_test_001.sh
 -rwxr-xr-x root       root              330 ./usr/share/ctdb-tests/cunit/comm_test_002.sh
@@ -62,6 +62,8 @@ drwxr-xr-x root       root              480 ./usr/share/ctdb/tests/cunit
 -rwxr-xr-x root       root               76 ./usr/share/ctdb/tests/cunit/db_hash_test_001.sh
 -rwxr-xr-x root       root               79 ./usr/share/ctdb-tests/cunit/hash_count_test_001.sh
 -rwxr-xr-x root       root               79 ./usr/share/ctdb/tests/cunit/hash_count_test_001.sh
+-rwxr-xr-x root       root             1484 ./usr/share/ctdb-tests/cunit/line_test_001.sh
+-rwxr-xr-x root       root             1484 ./usr/share/ctdb/tests/cunit/line_test_001.sh
 -rwxr-xr-x root       root              128 ./usr/share/ctdb-tests/cunit/pidfile_test_001.sh
 -rwxr-xr-x root       root              128 ./usr/share/ctdb/tests/cunit/pidfile_test_001.sh
 -rwxr-xr-x root       root               77 ./usr/share/ctdb-tests/cunit/pkt_read_001.sh
@@ -686,7 +688,7 @@ drwxr-xr-x root       root               80 ./usr/share/ctdb/tests/onnode/stubs
 -rwxr-xr-x root       root               20 ./usr/share/ctdb/tests/onnode/stubs/ssh
 drwxr-xr-x root       root              140 ./usr/share/ctdb/tests/scripts
 -rw-r--r-- root       root             2141 ./usr/share/ctdb/tests/scripts/common.sh
--rw-r--r-- root       root            16839 ./usr/share/ctdb/tests/scripts/integration.bash
+-rw-r--r-- root       root            16891 ./usr/share/ctdb/tests/scripts/integration.bash
 -rw-r--r-- root       root              754 ./usr/share/ctdb/tests/scripts/script_install_paths.sh
 -rwxr-xr-x root       root              584 ./usr/share/ctdb/tests/scripts/test_wrap
 -rw-r--r-- root       root             4161 ./usr/share/ctdb/tests/scripts/unit.sh
@@ -700,8 +702,8 @@ drwxr-xr-x root       root              200 ./usr/share/ctdb/tests/shellcheck
 drwxr-xr-x root       root               60 ./usr/share/ctdb/tests/shellcheck/scripts
 -rw-r--r-- root       root             1467 ./usr/share/ctdb/tests/shellcheck/scripts/local.sh
 -rwxr-xr-x root       root              175 ./usr/share/ctdb/tests/shellcheck/tools.sh
-drwxr-xr-x root       root             1120 ./usr/share/ctdb-tests/simple
-drwxr-xr-x root       root             1180 ./usr/share/ctdb/tests/simple
+drwxr-xr-x root       root             1160 ./usr/share/ctdb-tests/simple
+drwxr-xr-x root       root             1220 ./usr/share/ctdb/tests/simple
 -rwxr-xr-x root       root              496 ./usr/share/ctdb-tests/simple/00_ctdb_init.sh
 -rwxr-xr-x root       root              496 ./usr/share/ctdb/tests/simple/00_ctdb_init.sh
 -rwxr-xr-x root       root              594 ./usr/share/ctdb-tests/simple/00_ctdb_onnode.sh
@@ -786,6 +788,8 @@ drwxr-xr-x root       root             1180 ./usr/share/ctdb/tests/simple
 -rwxr-xr-x root       root             2762 ./usr/share/ctdb/tests/simple/58_ctdb_restoredb.sh
 -rwxr-xr-x root       root             2236 ./usr/share/ctdb-tests/simple/60_recoverd_missing_ip.sh
 -rwxr-xr-x root       root             2236 ./usr/share/ctdb/tests/simple/60_recoverd_missing_ip.sh
+-rwxr-xr-x root       root             2034 ./usr/share/ctdb-tests/simple/69_recovery_resurrect_deleted.sh
+-rwxr-xr-x root       root             2034 ./usr/share/ctdb/tests/simple/69_recovery_resurrect_deleted.sh
 -rwxr-xr-x root       root             2843 ./usr/share/ctdb-tests/simple/70_recoverpdbbyseqnum.sh
 -rwxr-xr-x root       root             2843 ./usr/share/ctdb/tests/simple/70_recoverpdbbyseqnum.sh
 -rwxr-xr-x root       root             1669 ./usr/share/ctdb-tests/simple/71_ctdb_wipedb.sh
@@ -802,6 +806,8 @@ drwxr-xr-x root       root             1180 ./usr/share/ctdb/tests/simple
 -rwxr-xr-x root       root             3699 ./usr/share/ctdb/tests/simple/77_ctdb_db_recovery.sh
 -rwxr-xr-x root       root             2771 ./usr/share/ctdb-tests/simple/78_ctdb_large_db_recovery.sh
 -rwxr-xr-x root       root             2771 ./usr/share/ctdb/tests/simple/78_ctdb_large_db_recovery.sh
+-rwxr-xr-x root       root             2112 ./usr/share/ctdb-tests/simple/79_volatile_db_traverse.sh
+-rwxr-xr-x root       root             2112 ./usr/share/ctdb/tests/simple/79_volatile_db_traverse.sh
 -rwxr-xr-x root       root             1271 ./usr/share/ctdb-tests/simple/80_ctdb_traverse.sh
 -rwxr-xr-x root       root             1271 ./usr/share/ctdb/tests/simple/80_ctdb_traverse.sh
 -rwxr-xr-x root       root              932 ./usr/share/ctdb-tests/simple/81_tunnel_ring.sh

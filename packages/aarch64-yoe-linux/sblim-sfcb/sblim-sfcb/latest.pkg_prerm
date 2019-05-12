@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop sblim-sfcb.service
-	fi
+		systemctl stop "sblim-sfcb.service"
 
-	systemctl $OPTS disable sblim-sfcb.service
+		systemctl disable "sblim-sfcb.service"
+	fi
 fi

@@ -1,5 +1,5 @@
 PV = 2.8
 PR = r0
-DEPENDS = libnl openssl pkgconfig-native systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = libnl openssl pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = hostapd-src hostapd-dbg hostapd-staticdev hostapd-dev hostapd-doc hostapd-locale hostapd
 LAYER = openembedded-layer

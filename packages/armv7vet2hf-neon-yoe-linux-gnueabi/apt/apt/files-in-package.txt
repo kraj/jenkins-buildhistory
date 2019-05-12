@@ -16,7 +16,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
 -rwxr-xr-x root       root            50964 ./usr/bin/apt-cache
--rwxr-xr-x root       root            18164 ./usr/bin/apt-cdrom
+-rwxr-xr-x root       root            18200 ./usr/bin/apt-cdrom
 -rwxr-xr-x root       root            18052 ./usr/bin/apt-config
 -rwxr-xr-x root       root            30448 ./usr/bin/apt-get
 -rwxr-xr-x root       root            20495 ./usr/bin/apt-key
@@ -25,7 +25,7 @@ drwxr-xr-x root       root               80 ./usr/lib/apt
 -rw-r--r-- root       root            15416 ./usr/lib/apt/apt.systemd.daily
 drwxr-xr-x root       root              360 ./usr/lib/apt/methods
 -rwxr-xr-x root       root            14004 ./usr/lib/apt/methods/bzip2
--rwxr-xr-x root       root            18100 ./usr/lib/apt/methods/cdrom
+-rwxr-xr-x root       root            22196 ./usr/lib/apt/methods/cdrom
 -rwxr-xr-x root       root            14004 ./usr/lib/apt/methods/copy
 -rwxr-xr-x root       root            14004 ./usr/lib/apt/methods/file
 -rwxr-xr-x root       root            42704 ./usr/lib/apt/methods/ftp
@@ -50,9 +50,9 @@ drwxr-xr-x root       root              140 ./usr/lib/dpkg/methods/apt
 -rwxr-xr-x root       root             1242 ./usr/lib/dpkg/methods/apt/update
 -rwxr-xr-x root       root            34452 ./usr/lib/libapt-inst.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libapt-inst.so.2.0 -> libapt-inst.so.2.0.0
--rwxr-xr-x root       root           977368 ./usr/lib/libapt-pkg.so.5.0.0
+-rwxr-xr-x root       root          1006040 ./usr/lib/libapt-pkg.so.5.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libapt-pkg.so.5.0 -> libapt-pkg.so.5.0.0
--rwxr-xr-x root       root           218832 ./usr/lib/libapt-private.so.0.0.0
+-rwxr-xr-x root       root           222928 ./usr/lib/libapt-private.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libapt-private.so.0.0 -> libapt-private.so.0.0.0
 drwxr-xr-x root       root               80 ./var
 drwxr-xr-x root       root               60 ./var/cache

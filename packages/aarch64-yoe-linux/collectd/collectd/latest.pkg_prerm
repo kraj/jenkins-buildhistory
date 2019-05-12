@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop collectd.service
-	fi
+		systemctl stop "collectd.service"
 
-	systemctl $OPTS disable collectd.service
+		systemctl disable "collectd.service"
+	fi
 fi

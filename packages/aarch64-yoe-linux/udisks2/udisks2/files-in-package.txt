@@ -2,9 +2,11 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/udisks2
 -rw-r--r-- root       root              251 ./etc/udisks2/udisks2.conf
 drwxr-xr-x root       root               80 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              169 ./lib/systemd/system/clean-mount-point@.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               24 ./lib/systemd/system-preset/98-udisks2.preset
 -rw-r--r-- root       root              207 ./lib/systemd/system/udisks2.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d

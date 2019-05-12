@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop miniupnpd.service
-	fi
+		systemctl stop "miniupnpd.service"
 
-	systemctl $OPTS disable miniupnpd.service
+		systemctl disable "miniupnpd.service"
+	fi
 fi

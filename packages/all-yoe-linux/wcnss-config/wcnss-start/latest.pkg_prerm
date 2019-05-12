@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "wcnss-start.service"
+		systemctl stop wcnss-start.service
 
-		systemctl disable "wcnss-start.service"
+		systemctl disable wcnss-start.service
 	fi
 fi

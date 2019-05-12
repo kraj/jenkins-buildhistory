@@ -1,15 +1,9 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop minicoredumper.service
-	fi
+		systemctl stop "minicoredumper.service"
 
-	systemctl $OPTS disable minicoredumper.service
+		systemctl disable "minicoredumper.service"
+	fi
 fi

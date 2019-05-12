@@ -1,5 +1,5 @@
-PV = 2.4.6
+PV = 2.4.7
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native iproute2 libpam libtool-cross libtool-native lzo openssl virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native iproute2 libpam libtool-cross libtool-native lzo openssl systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = openvpn-src openvpn-dbg openvpn-sample openvpn-staticdev openvpn-dev openvpn-doc openvpn-locale openvpn
 LAYER = networking-layer

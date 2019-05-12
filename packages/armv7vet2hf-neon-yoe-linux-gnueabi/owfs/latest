@@ -1,5 +1,5 @@
 PV = 3.2p2
 PR = r0
-DEPENDS = autoconf-native automake-native fuse gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc virtual/libusb0
+DEPENDS = autoconf-native automake-native fuse gnu-config-native libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc virtual/libusb0
 PACKAGES = owfs-src owfs-dbg owftpd owhttpd owserver owshell libowcapi libow libownet owmon owtap owfs-staticdev owfs-dev owfs-doc owfs-locale owfs
 LAYER = filesystems-layer

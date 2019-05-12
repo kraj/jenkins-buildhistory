@@ -1,9 +1,9 @@
 PV = 2.29
 PR = r0
-PKGR = r0.48
+PKGR = r0.49
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 134086
-FILES = /usr/sbin/nscd* /etc/init.d/nscd /lib/systemd/system/nscd* /etc/tmpfiles.d/nscd.conf /etc/nscd.conf /etc/default/volatiles/98_nscd /var/db/nscd /lib/systemd/system/nscd.service
-FILELIST = /etc/nscd.conf /etc/tmpfiles.d/nscd.conf /lib/systemd/system/nscd.service /usr/sbin/nscd
+PKGSIZE = 134106
+FILES = /usr/sbin/nscd* /etc/init.d/nscd /lib/systemd/system/nscd* /etc/tmpfiles.d/nscd.conf /etc/nscd.conf /etc/default/volatiles/98_nscd /var/db/nscd /lib/systemd/system-preset/98-nscd.preset /lib/systemd/system/nscd.service
+FILELIST = /etc/nscd.conf /etc/tmpfiles.d/nscd.conf /lib/systemd/system-preset/98-nscd.preset /lib/systemd/system/nscd.service /usr/sbin/nscd
