@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ebtables.service"
+		systemctl stop ebtables.service
 
-		systemctl disable "ebtables.service"
+		systemctl disable ebtables.service
 	fi
 fi

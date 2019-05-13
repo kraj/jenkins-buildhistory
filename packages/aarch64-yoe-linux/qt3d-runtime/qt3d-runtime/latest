@@ -2,10 +2,10 @@ PV = 2.2+gitAUTOINC+8cdb99c910
 PR = r0
 PKG = libqt53dstudioruntime2-2
 PKGV = 2.2+git0+8cdb99c910
-PKGR = r0.57
+PKGR = r0.58
 RPROVIDES = qt3d-runtime (=2.2+git0+8cdb99c910)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qt3d (>= 5.12.3+git1+7da5c4c35a) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 9.1.0) qt3d (>= 5.12.3+git1+7da5c4c35a) qtbase (>= 5.12.3+git0+b527725766) qtdeclarative (>= 5.12.3+git0+95c938cd67)
 RRECOMMENDS = qt3d-runtime-plugins qt3d-runtime-qmlplugins
-PKGSIZE = 4938038
+PKGSIZE = 5069110
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qt3d-runtime /usr/lib/qt3d-runtime/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
 FILELIST = /usr/lib/libQt53DStudioRuntime2.so.2 /usr/lib/libQt53DStudioRuntime2.so.2.2 /usr/lib/libQt53DStudioRuntime2.so.2.2.0

@@ -1,22 +1,28 @@
 #!/bin/sh
 set -e
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
 if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "enable" = "enable" ]; then
+		for service in winbind.service; do
+			case "${service}" in
+			*@*)
+				systemctl ${OPTS} enable "${service}"
+				;;
+			esac
+		done
+	fi
+
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-	fi
+		systemctl preset winbind.service
 
-	systemctl $OPTS enable winbind.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl --no-block restart winbind.service
+		if [ "enable" = "enable" ]; then
+			systemctl --no-block restart winbind.service
+		fi
 	fi
-fi
-if [ x"$D" = "x" ]; then
-	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
 fi

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ipmi.service"
+		systemctl stop ipmi.service
 
-		systemctl disable "ipmi.service"
+		systemctl disable ipmi.service
 	fi
 fi

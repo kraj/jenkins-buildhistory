@@ -4,8 +4,8 @@ set -e
         -i $D/etc/nsswitch.conf
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "mdns.service"
+		systemctl stop mdns.service
 
-		systemctl disable "mdns.service"
+		systemctl disable mdns.service
 	fi
 fi

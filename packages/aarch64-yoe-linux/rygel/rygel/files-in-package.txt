@@ -1,8 +1,10 @@
 drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root             5211 ./etc/rygel.conf
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               21 ./lib/systemd/system-preset/98-rygel.preset
 -rw-r--r-- root       root              167 ./lib/systemd/system/rygel.service
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
@@ -21,13 +23,13 @@ drwxr-xr-x root       root              120 ./usr/lib/girepository-1.0
 lrwxrwxrwx root       root               26 ./usr/lib/librygel-core-2.6.so.2 -> librygel-core-2.6.so.2.0.4
 -rwxr-xr-x root       root            67760 ./usr/lib/librygel-db-2.6.so.2.0.4
 lrwxrwxrwx root       root               24 ./usr/lib/librygel-db-2.6.so.2 -> librygel-db-2.6.so.2.0.4
--rwxr-xr-x root       root           133304 ./usr/lib/librygel-renderer-2.6.so.2.0.4
+-rwxr-xr-x root       root           198840 ./usr/lib/librygel-renderer-2.6.so.2.0.4
 lrwxrwxrwx root       root               30 ./usr/lib/librygel-renderer-2.6.so.2 -> librygel-renderer-2.6.so.2.0.4
 -rwxr-xr-x root       root            68144 ./usr/lib/librygel-renderer-gst-2.6.so.2.0.4
 lrwxrwxrwx root       root               34 ./usr/lib/librygel-renderer-gst-2.6.so.2 -> librygel-renderer-gst-2.6.so.2.0.4
 -rwxr-xr-x root       root            67760 ./usr/lib/librygel-ruih-2.0.so.1.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/librygel-ruih-2.0.so.1 -> librygel-ruih-2.0.so.1.0.0
--rwxr-xr-x root       root           657656 ./usr/lib/librygel-server-2.6.so.2.0.4
+-rwxr-xr-x root       root           723192 ./usr/lib/librygel-server-2.6.so.2.0.4
 lrwxrwxrwx root       root               28 ./usr/lib/librygel-server-2.6.so.2 -> librygel-server-2.6.so.2.0.4
 drwxr-xr-x root       root               60 ./usr/lib/rygel-2.6
 drwxr-xr-x root       root              120 ./usr/lib/rygel-2.6/engines

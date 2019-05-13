@@ -1,12 +1,14 @@
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-winbind.preset
 -rw-r--r-- root       root              406 ./lib/systemd/system/winbind.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            71648 ./usr/bin/ntlm_auth
 -rwxr-xr-x root       root            56240 ./usr/bin/wbinfo
-drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/samba
 drwxr-xr-x root       root              180 ./usr/lib/samba/idmap
 -rwxr-xr-x root       root            88192 ./usr/lib/samba/idmap/ad.so
@@ -21,7 +23,5 @@ drwxr-xr-x root       root              120 ./usr/lib/samba/nss_info
 -rwxr-xr-x root       root            30760 ./usr/lib/samba/nss_info/rfc2307.so
 -rwxr-xr-x root       root            30760 ./usr/lib/samba/nss_info/sfu20.so
 -rwxr-xr-x root       root            30752 ./usr/lib/samba/nss_info/sfu.so
--rwxr-xr-x root       root             9992 ./usr/lib/winbind-krb5-localauth.so
--rwxr-xr-x root       root            10064 ./usr/lib/winbind_krb5_locator.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          1188552 ./usr/sbin/winbindd
+-rwxr-xr-x root       root          1192648 ./usr/sbin/winbindd

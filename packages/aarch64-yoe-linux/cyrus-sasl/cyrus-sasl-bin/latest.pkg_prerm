@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "saslauthd.service"
+		systemctl stop saslauthd.service
 
-		systemctl disable "saslauthd.service"
+		systemctl disable saslauthd.service
 	fi
 fi

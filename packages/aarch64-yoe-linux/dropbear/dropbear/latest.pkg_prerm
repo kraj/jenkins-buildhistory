@@ -4,8 +4,8 @@ set -e
 	update-alternatives --remove  ssh /usr/sbin/dropbearmulti
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "dropbear.socket"
+		systemctl stop dropbear.socket
 
-		systemctl disable "dropbear.socket"
+		systemctl disable dropbear.socket
 	fi
 fi

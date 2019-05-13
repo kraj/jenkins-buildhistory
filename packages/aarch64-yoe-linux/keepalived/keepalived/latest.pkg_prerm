@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "keepalived.service"
+		systemctl stop keepalived.service
 
-		systemctl disable "keepalived.service"
+		systemctl disable keepalived.service
 	fi
 fi

@@ -9,8 +9,8 @@ set -e
 	update-alternatives --remove  syslogd /bin/busybox.nosuid
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "busybox-syslog.service"
+		systemctl stop busybox-syslog.service
 
-		systemctl disable "busybox-syslog.service"
+		systemctl disable busybox-syslog.service
 	fi
 fi

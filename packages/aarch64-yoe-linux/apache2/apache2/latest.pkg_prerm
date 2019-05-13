@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "apache2.service"
+		systemctl stop apache2.service
 
-		systemctl disable "apache2.service"
+		systemctl disable apache2.service
 	fi
 fi

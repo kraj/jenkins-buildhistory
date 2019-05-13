@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "qrtr.service"
+		systemctl stop qrtr.service
 
-		systemctl disable "qrtr.service"
+		systemctl disable qrtr.service
 	fi
 fi

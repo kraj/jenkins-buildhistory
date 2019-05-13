@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "kdump.service"
+		systemctl stop kdump.service
 
-		systemctl disable "kdump.service"
+		systemctl disable kdump.service
 	fi
 fi

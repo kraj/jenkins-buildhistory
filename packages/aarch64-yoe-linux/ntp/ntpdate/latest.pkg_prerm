@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ntpdate.service"
+		systemctl stop ntpdate.service
 
-		systemctl disable "ntpdate.service"
+		systemctl disable ntpdate.service
 	fi
 fi

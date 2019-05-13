@@ -2,9 +2,9 @@ PV = 5.12.3+gitAUTOINC+64199169df
 PR = r0
 PKG = libqt5serialbus-tools
 PKGV = 5.12.3+git0+64199169df
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtserialbus-tools (=5.12.3+git0+64199169df)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qtbase (>= 5.12.3+git0+b527725766) qtserialbus (>= 5.12.3+git0+64199169df)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 9.1.0) qtbase (>= 5.12.3+git0+b527725766) qtserialbus (>= 5.12.3+git0+64199169df)
 RRECOMMENDS = 
 PKGSIZE = 67824
 FILES = /usr/bin/*

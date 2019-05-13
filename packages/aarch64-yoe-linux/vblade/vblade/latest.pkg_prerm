@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "vblade.service"
+		systemctl stop vblade.service
 
-		systemctl disable "vblade.service"
+		systemctl disable vblade.service
 	fi
 fi

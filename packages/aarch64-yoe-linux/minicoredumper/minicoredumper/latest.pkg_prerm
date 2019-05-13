@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "minicoredumper.service"
+		systemctl stop minicoredumper.service
 
-		systemctl disable "minicoredumper.service"
+		systemctl disable minicoredumper.service
 	fi
 fi

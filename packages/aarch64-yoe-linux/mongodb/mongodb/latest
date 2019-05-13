@@ -1,10 +1,10 @@
-PV = 4.0.1+gitAUTOINC+54f1582fc6
+PV = 4.0.6+gitAUTOINC+caa42a1f75
 PR = r0
-PKGV = 4.0.1+git0+54f1582fc6
-PKGR = r0.52
+PKGV = 4.0.6+git0+caa42a1f75
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) gperftools (>= 2.7) libcrypto (>= 1.1.1a) libcurl (>= 7.63.0) libgcc (>= 8.2.0) libpcrecpp (>= 8.42) libssl (>= 1.1.1a) libstdc++ (>= 8.2.0) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.29) gperftools (>= 2.7) libcrypto (>= 1.1.1b) libcurl (>= 7.64.1) libgcc (>= 9.1.0) libpcrecpp (>= 8.43) libssl (>= 1.1.1b) libstdc++ (>= 9.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 62798512
+PKGSIZE = 64768576
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mongodb /usr/lib/mongodb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/install_compass /usr/bin/mongod /usr/bin/mongos

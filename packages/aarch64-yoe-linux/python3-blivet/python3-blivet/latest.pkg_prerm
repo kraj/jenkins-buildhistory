@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "blivet.service"
+		systemctl stop blivet.service
 
-		systemctl disable "blivet.service"
+		systemctl disable blivet.service
 	fi
 fi

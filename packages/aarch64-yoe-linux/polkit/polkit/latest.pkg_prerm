@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "polkit.service"
+		systemctl stop polkit.service
 
-		systemctl disable "polkit.service"
+		systemctl disable polkit.service
 	fi
 fi

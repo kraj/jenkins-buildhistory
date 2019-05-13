@@ -2,8 +2,8 @@ set -e
     /etc/init.d/quagga stop ospfd
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ospfd.service"
+		systemctl stop ospfd.service
 
-		systemctl disable "ospfd.service"
+		systemctl disable ospfd.service
 	fi
 fi

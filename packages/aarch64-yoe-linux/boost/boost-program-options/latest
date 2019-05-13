@@ -1,9 +1,9 @@
 PV = 1.69.0
 PR = r0
 PKG = libboost-program-options1.69.0
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = boost-program-options (=1.69.0)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0)
 RRECOMMENDS = 
 PKGSIZE = 592240
 FILES = /usr/lib/libboost_program_options*.so.*

@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "atop.service atopgpu.service"
+		systemctl stop atop.service atopgpu.service
 
-		systemctl disable "atop.service atopgpu.service"
+		systemctl disable atop.service atopgpu.service
 	fi
 fi

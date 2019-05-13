@@ -2,9 +2,9 @@ PV = 5.12.3+gitAUTOINC+64199169df
 PR = r0
 PKG = libqt5serialbus5
 PKGV = 5.12.3+git0+64199169df
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtserialbus (=5.12.3+git0+64199169df)
-RDEPENDS = glibc (>= 2.29) libstdc++ (>= 8.3.0) qtbase (>= 5.12.3+git0+b527725766) qtserialport (>= 5.12.3+git0+6fad8e67d8)
+RDEPENDS = glibc (>= 2.29) libstdc++ (>= 9.1.0) qtbase (>= 5.12.3+git0+b527725766) qtserialport (>= 5.12.3+git0+6fad8e67d8)
 RRECOMMENDS = qtserialbus-plugins qtserialbus-qmlplugins
 PKGSIZE = 330034
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtserialbus /usr/lib/qtserialbus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec

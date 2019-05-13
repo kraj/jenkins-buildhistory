@@ -1,5 +1,5 @@
 PV = 0.99
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = open-isns-src open-isns-dbg open-isns-staticdev open-isns-dev open-isns-doc open-isns-locale open-isns
 LAYER = networking-layer

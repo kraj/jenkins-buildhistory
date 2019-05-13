@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "ntop.service"
+		systemctl stop ntop.service
 
-		systemctl disable "ntop.service"
+		systemctl disable ntop.service
 	fi
 fi

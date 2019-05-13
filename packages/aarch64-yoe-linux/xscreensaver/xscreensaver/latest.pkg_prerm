@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "xscreensaver.service"
+		systemctl stop xscreensaver.service
 
-		systemctl disable "xscreensaver.service"
+		systemctl disable xscreensaver.service
 	fi
 fi
