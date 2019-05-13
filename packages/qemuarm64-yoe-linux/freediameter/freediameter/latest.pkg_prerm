@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop "freediameter.service"
+		systemctl stop freediameter.service
 
-		systemctl disable "freediameter.service"
+		systemctl disable freediameter.service
 	fi
 fi
