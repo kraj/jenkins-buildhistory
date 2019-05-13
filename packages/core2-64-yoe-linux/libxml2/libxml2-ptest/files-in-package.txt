@@ -1116,7 +1116,7 @@ drwxr-xr-x root       root              220 ./usr/lib/libxml2/ptest/result/regex
 -rw-r--r-- root       root              171 ./usr/lib/libxml2/ptest/result/regexp/ranges
 -rw-r--r-- root       root              168 ./usr/lib/libxml2/ptest/result/regexp/ranges2
 -rw-r--r-- root       root              966 ./usr/lib/libxml2/ptest/result/regexp/xpath
-drwxr-xr-x root       root             9980 ./usr/lib/libxml2/ptest/result/relaxng
+drwxr-xr-x root       root            10220 ./usr/lib/libxml2/ptest/result/relaxng
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/302836_0
 -rw-r--r-- root       root               38 ./usr/lib/libxml2/ptest/result/relaxng/302836_0.err
 -rw-r--r-- root       root               36 ./usr/lib/libxml2/ptest/result/relaxng/302836_err
@@ -1171,6 +1171,10 @@ drwxr-xr-x root       root             9980 ./usr/lib/libxml2/ptest/result/relax
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/710744_valid
 -rw-r--r-- root       root               41 ./usr/lib/libxml2/ptest/result/relaxng/addressBook_err
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/addressBook_valid
+-rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/anyName0_0
+-rw-r--r-- root       root               40 ./usr/lib/libxml2/ptest/result/relaxng/anyName0_0.err
+-rw-r--r-- root       root               38 ./usr/lib/libxml2/ptest/result/relaxng/anyName0_err
+-rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/anyName0_valid
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/choice0_0
 -rw-r--r-- root       root               39 ./usr/lib/libxml2/ptest/result/relaxng/choice0_0.err
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/choice0_1
@@ -1219,6 +1223,14 @@ drwxr-xr-x root       root             9980 ./usr/lib/libxml2/ptest/result/relax
 -rw-r--r-- root       root               38 ./usr/lib/libxml2/ptest/result/relaxng/empty1_1.err
 -rw-r--r-- root       root               36 ./usr/lib/libxml2/ptest/result/relaxng/empty1_err
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/empty1_valid
+-rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/include0_0
+-rw-r--r-- root       root               40 ./usr/lib/libxml2/ptest/result/relaxng/include0_0.err
+-rw-r--r-- root       root               38 ./usr/lib/libxml2/ptest/result/relaxng/include0_err
+-rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/include0_valid
+-rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/include1_0
+-rw-r--r-- root       root               40 ./usr/lib/libxml2/ptest/result/relaxng/include1_0.err
+-rw-r--r-- root       root               38 ./usr/lib/libxml2/ptest/result/relaxng/include1_err
+-rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/include1_valid
 -rw-r--r-- root       root               37 ./usr/lib/libxml2/ptest/result/relaxng/inline2_err
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/result/relaxng/inline2_valid
 -rw-r--r-- root       root               37 ./usr/lib/libxml2/ptest/result/relaxng/inline3_err
@@ -2526,7 +2538,7 @@ drwxr-xr-x root       root              260 ./usr/lib/libxml2/ptest/result/XPath
 -rwxr-xr-x root       root            67168 ./usr/lib/libxml2/ptest/runtest
 -rwxr-xr-x root       root            18608 ./usr/lib/libxml2/ptest/runxmlconf
 drwxr-xr-x root       root             2960 ./usr/lib/libxml2/ptest/test
--rwxr-xr-x root       root           489624 ./usr/lib/libxml2/ptest/testapi
+-rwxr-xr-x root       root           493720 ./usr/lib/libxml2/ptest/testapi
 -rw-r--r-- root       root               43 ./usr/lib/libxml2/ptest/test/att1
 -rw-r--r-- root       root              507 ./usr/lib/libxml2/ptest/test/att10
 -rw-r--r-- root       root              366 ./usr/lib/libxml2/ptest/test/att11
@@ -2922,7 +2934,7 @@ drwxr-xr-x root       root              220 ./usr/lib/libxml2/ptest/test/regexp
 -rw-r--r-- root       root               98 ./usr/lib/libxml2/ptest/test/regexp/ranges2
 -rw-r--r-- root       root              992 ./usr/lib/libxml2/ptest/test/regexp/xpath
 -rwxr-xr-x root       root            10400 ./usr/lib/libxml2/ptest/testRelax
-drwxr-xr-x root       root             5100 ./usr/lib/libxml2/ptest/test/relaxng
+drwxr-xr-x root       root             5280 ./usr/lib/libxml2/ptest/test/relaxng
 -rw-r--r-- root       root              207 ./usr/lib/libxml2/ptest/test/relaxng/302836_0.xml
 -rw-r--r-- root       root              795 ./usr/lib/libxml2/ptest/test/relaxng/302836.rng
 -rw-r--r-- root       root               29 ./usr/lib/libxml2/ptest/test/relaxng/307377_0.xml
@@ -2950,6 +2962,8 @@ drwxr-xr-x root       root             5100 ./usr/lib/libxml2/ptest/test/relaxng
 -rw-r--r-- root       root              114 ./usr/lib/libxml2/ptest/test/relaxng/710744_2.xml
 -rw-r--r-- root       root              411 ./usr/lib/libxml2/ptest/test/relaxng/710744.rng
 -rw-r--r-- root       root              395 ./usr/lib/libxml2/ptest/test/relaxng/addressBook.rng
+-rw-r--r-- root       root                5 ./usr/lib/libxml2/ptest/test/relaxng/anyName0_0.xml
+-rw-r--r-- root       root              308 ./usr/lib/libxml2/ptest/test/relaxng/anyName0.rng
 -rw-r--r-- root       root               35 ./usr/lib/libxml2/ptest/test/relaxng/choice0_0.xml
 -rw-r--r-- root       root               33 ./usr/lib/libxml2/ptest/test/relaxng/choice0_1.xml
 -rw-r--r-- root       root               57 ./usr/lib/libxml2/ptest/test/relaxng/choice0_2.xml
@@ -2975,6 +2989,13 @@ drwxr-xr-x root       root             5100 ./usr/lib/libxml2/ptest/test/relaxng
 -rw-r--r-- root       root               20 ./usr/lib/libxml2/ptest/test/relaxng/empty1_0.xml
 -rw-r--r-- root       root               13 ./usr/lib/libxml2/ptest/test/relaxng/empty1_1.xml
 -rw-r--r-- root       root              347 ./usr/lib/libxml2/ptest/test/relaxng/empty1.rng
+-rw-r--r-- root       root                8 ./usr/lib/libxml2/ptest/test/relaxng/include0_0.xml
+-rw-r--r-- root       root              104 ./usr/lib/libxml2/ptest/test/relaxng/include0.inc
+-rw-r--r-- root       root              228 ./usr/lib/libxml2/ptest/test/relaxng/include0.rng
+-rw-r--r-- root       root              238 ./usr/lib/libxml2/ptest/test/relaxng/include1-0.inc
+-rw-r--r-- root       root                5 ./usr/lib/libxml2/ptest/test/relaxng/include1_0.xml
+-rw-r--r-- root       root              134 ./usr/lib/libxml2/ptest/test/relaxng/include1-1.inc
+-rw-r--r-- root       root              238 ./usr/lib/libxml2/ptest/test/relaxng/include1.rng
 -rw-r--r-- root       root              393 ./usr/lib/libxml2/ptest/test/relaxng/inline2.rng
 -rw-r--r-- root       root              389 ./usr/lib/libxml2/ptest/test/relaxng/inline3.rng
 -rw-r--r-- root       root              410 ./usr/lib/libxml2/ptest/test/relaxng/inline.rng
