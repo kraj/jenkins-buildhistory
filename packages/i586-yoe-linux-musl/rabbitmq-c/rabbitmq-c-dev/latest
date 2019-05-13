@@ -1,9 +1,9 @@
 PV = 0.9.0
 PR = r0
 PKG = librabbitmq-dev
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = rabbitmq-c-dev (=0.9.0)
-RDEPENDS = rabbitmq-c (= 0.9.0-r0.25)
+RDEPENDS = rabbitmq-c (= 0.9.0-r0.26)
 RRECOMMENDS = libcrypto-dev libssl-dev musl-dev openssl-dev popt-dev
 PKGSIZE = 154325
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rabbitmq-c/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
