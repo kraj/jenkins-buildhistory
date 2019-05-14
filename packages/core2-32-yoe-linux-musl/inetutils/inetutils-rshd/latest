@@ -1,0 +1,10 @@
+PV = 1.9.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = rshd
+RDEPENDS = tcp-wrappers xinetd
+RRECOMMENDS = 
+RCONFLICTS = netkit-rshd-server
+PKGSIZE = 0
+FILES = /usr/sbin/in.rshd /usr/sbin/in.rlogind /usr/sbin/in.rexecd /etc/xinetd.d/rsh /etc/xinetd.d/rlogin /etc/xinetd.d/rexec
+FILELIST = 

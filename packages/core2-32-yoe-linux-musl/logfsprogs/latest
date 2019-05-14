@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc zlib
+PACKAGES = logfsprogs-src logfsprogs-dbg logfsprogs-staticdev logfsprogs-dev logfsprogs-doc logfsprogs-locale logfsprogs
+LAYER = filesystems-layer

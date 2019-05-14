@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  addr2line /usr/bin/i686-yoe-linux-musl-addr2line
+	update-alternatives --remove  ar /usr/bin/i686-yoe-linux-musl-ar
+	update-alternatives --remove  as /usr/bin/i686-yoe-linux-musl-as
+	update-alternatives --remove  c++filt /usr/bin/i686-yoe-linux-musl-c++filt
+	update-alternatives --remove  elfedit /usr/bin/i686-yoe-linux-musl-elfedit
+	update-alternatives --remove  gprof /usr/bin/i686-yoe-linux-musl-gprof
+	update-alternatives --remove  ld /usr/bin/i686-yoe-linux-musl-ld
+	update-alternatives --remove  ld.bfd /usr/bin/i686-yoe-linux-musl-ld.bfd
+	update-alternatives --remove  ld.gold /usr/bin/i686-yoe-linux-musl-ld.gold
+	update-alternatives --remove  dwp /usr/bin/i686-yoe-linux-musl-dwp
+	update-alternatives --remove  nm /usr/bin/i686-yoe-linux-musl-nm
+	update-alternatives --remove  objcopy /usr/bin/i686-yoe-linux-musl-objcopy
+	update-alternatives --remove  objdump /usr/bin/i686-yoe-linux-musl-objdump
+	update-alternatives --remove  ranlib /usr/bin/i686-yoe-linux-musl-ranlib
+	update-alternatives --remove  readelf /usr/bin/i686-yoe-linux-musl-readelf
+	update-alternatives --remove  size /usr/bin/i686-yoe-linux-musl-size
+	update-alternatives --remove  strings /usr/bin/i686-yoe-linux-musl-strings
+	update-alternatives --remove  strip /usr/bin/i686-yoe-linux-musl-strip

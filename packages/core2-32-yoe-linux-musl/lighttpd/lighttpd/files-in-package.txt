@@ -1,0 +1,20 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/lighttpd
+drwxr-xr-x root       root               40 ./etc/lighttpd.d
+-rw-r--r-- root       root            11595 ./etc/lighttpd/lighttpd.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              339 ./lib/systemd/system/lighttpd.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               24 ./lib/systemd/system-preset/98-lighttpd.preset
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/sbin
+-rwxr-xr-x root       root           355608 ./usr/sbin/lighttpd
+-rwxr-xr-x root       root             5440 ./usr/sbin/lighttpd-angel
+drwxr-xr-x root       root              100 ./www
+lrwxrwxrwx root       root                8 ./www/logs -> /var/log
+drwxr-xr-x root       root               80 ./www/pages
+drwxr-xr-x root       root               40 ./www/pages/dav
+-rw-r--r-- root       root               45 ./www/pages/index.html
+lrwxrwxrwx root       root                8 ./www/var -> /var/tmp

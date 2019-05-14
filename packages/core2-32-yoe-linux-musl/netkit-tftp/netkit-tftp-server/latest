@@ -1,0 +1,9 @@
+PV = 0.17
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) tcp-wrappers xinetd
+RRECOMMENDS = 
+PKGSIZE = 18461
+FILES = /usr/sbin/* /etc/xinetd.d/*
+FILELIST = /etc/xinetd.d/tftp /usr/sbin/in.tftpd

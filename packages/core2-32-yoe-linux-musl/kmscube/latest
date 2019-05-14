@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = libdrm meson-native ninja-native pkgconfig-native python3-native virtual/egl virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc virtual/libgles2
+PACKAGES = kmscube-src kmscube-dbg kmscube-staticdev kmscube-dev kmscube-doc kmscube-locale kmscube
+LAYER = core

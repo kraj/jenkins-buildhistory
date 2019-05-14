@@ -1,0 +1,5 @@
+PV = 1.1.1b
+PR = r0
+DEPENDS = hostperl-runtime-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = openssl-src openssl-dbg libcrypto libssl openssl-conf openssl-engines openssl-misc openssl-ptest openssl-staticdev openssl-dev openssl-doc openssl-locale openssl-bin openssl
+LAYER = core

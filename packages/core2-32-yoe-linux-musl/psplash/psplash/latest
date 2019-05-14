@@ -1,0 +1,10 @@
+PV = 0.1+gitAUTOINC+2015f7073e
+PR = r15
+PKGV = 0.1+git0+2015f7073e
+PKGR = r15.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.22+git0+65c8be3804)
+RRECOMMENDS = psplash-default
+PKGSIZE = 6079
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/psplash /usr/lib/psplash/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /mnt/.psplash
+FILELIST = /etc/init.d/psplash.sh /usr/bin/psplash-write

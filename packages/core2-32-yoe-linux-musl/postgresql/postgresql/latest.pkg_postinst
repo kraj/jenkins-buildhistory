@@ -1,0 +1,33 @@
+set -e
+    if false; then
+        if [ -n "$D" ]; then
+            OPTS="--root=$D"
+        fi
+        systemctl $OPTS mask postgresql-server.service
+    fi
+if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "disable" = "enable" ]; then
+		for service in postgresql.service; do
+			case "${service}" in
+			*@*)
+				systemctl ${OPTS} enable "${service}"
+				;;
+			esac
+		done
+	fi
+
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+		systemctl preset postgresql.service
+
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart postgresql.service
+		fi
+	fi
+fi

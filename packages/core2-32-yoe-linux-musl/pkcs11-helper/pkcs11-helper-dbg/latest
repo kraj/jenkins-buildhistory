@@ -1,0 +1,10 @@
+PV = 1.25.1
+PR = r0
+PKG = libpkcs11-helper-dbg
+PKGR = r0.0
+RPROVIDES = pkcs11-helper-dbg (=1.25.1)
+RDEPENDS = 
+RRECOMMENDS = gnutls-dbg libcrypto-dbg musl-dbg nspr-dbg nss-dbg
+PKGSIZE = 262056
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libpkcs11-helper.so.1.0.0

@@ -1,0 +1,10 @@
+PV = 2.1.0
+PR = r0
+PKG = libcdio19
+PKGR = r0.0
+RPROVIDES = libcdio (=2.1.0)
+RDEPENDS = musl (>= 1.1.22+git0+65c8be3804)
+RRECOMMENDS = 
+PKGSIZE = 166621
+FILES = /usr/lib/libcdio${SOLIB} /usr/lib/libcdio.so.19 /usr/lib/libcdio.so.19.0.0
+FILELIST = /usr/lib/libcdio.so.19 /usr/lib/libcdio.so.19.0.0

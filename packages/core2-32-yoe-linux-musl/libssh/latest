@@ -1,0 +1,5 @@
+PV = 0.8.4
+PR = r0
+DEPENDS = cmake-native libgcrypt ninja-native openssl virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc zlib
+PACKAGES = libssh-src libssh-dbg libssh-staticdev libssh-dev libssh-doc libssh-locale libssh
+LAYER = openembedded-layer

@@ -1,0 +1,15 @@
+drwxr-xr-x root       root               60 ./bin
+-rwxr-xr-x root       root            21932 ./bin/dietsplash
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              189 ./lib/systemd/system/dietsplash-quit.service
+drwxr-xr-x root       root               60 ./lib/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               26 ./lib/systemd/system/multi-user.target.wants/dietsplash-quit.service -> ../dietsplash-quit.service
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root             5432 ./usr/bin/dietsplashctl
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               80 ./usr/share/dietsplash
+lrwxrwxrwx root       root               22 ./usr/share/dietsplash/background.ppm -> default_background.ppm
+-rw-r--r-- root       root            76845 ./usr/share/dietsplash/default_background.ppm

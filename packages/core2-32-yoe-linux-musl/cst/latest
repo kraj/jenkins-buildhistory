@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = openssl virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = cst-src cst-dbg cst-staticdev cst-dev cst-doc cst-locale cst
+LAYER = freescale-layer

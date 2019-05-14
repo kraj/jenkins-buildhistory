@@ -1,0 +1,22 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              168 ./lib/systemd/system/lttng-sessiond.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               31 ./lib/systemd/system-preset/98-lttng-tools.preset
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root           322472 ./usr/bin/lttng
+-rwxr-xr-x root       root           112176 ./usr/bin/lttng-crash
+-rwxr-xr-x root       root           374596 ./usr/bin/lttng-relayd
+-rwxr-xr-x root       root           924716 ./usr/bin/lttng-sessiond
+drwxr-xr-x root       root              100 ./usr/lib
+-rwxr-xr-x root       root           333532 ./usr/lib/liblttng-ctl.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/liblttng-ctl.so.0 -> liblttng-ctl.so.0.0.0
+drwxr-xr-x root       root               60 ./usr/lib/lttng
+drwxr-xr-x root       root               60 ./usr/lib/lttng/libexec
+-rwxr-xr-x root       root           419572 ./usr/lib/lttng/libexec/lttng-consumerd
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/xml
+drwxr-xr-x root       root               60 ./usr/share/xml/lttng
+-rw-r--r-- root       root            12361 ./usr/share/xml/lttng/session.xsd

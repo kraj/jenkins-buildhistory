@@ -1,0 +1,9 @@
+PV = 3.2.2-15
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libapm (>= 3.2.2-15) musl (>= 1.1.22+git0+65c8be3804)
+RRECOMMENDS = 
+PKGSIZE = 27199
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/apmd /usr/lib/apmd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service
+FILELIST = /etc/apm/apmd_proxy /etc/default/apmd /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service /usr/sbin/apmd /usr/share/apmd/apmd_proxy.conf

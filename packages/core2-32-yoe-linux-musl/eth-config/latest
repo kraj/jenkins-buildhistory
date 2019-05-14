@@ -1,0 +1,5 @@
+PV = git
+PR = r2
+DEPENDS = virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = eth-config-src eth-config-dbg eth-config-staticdev eth-config-dev eth-config-doc eth-config-locale eth-config
+LAYER = freescale-layer

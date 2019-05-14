@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = util-linux virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = abootimg-src abootimg-dbg abootimg-staticdev abootimg-dev abootimg-doc abootimg-locale abootimg
+LAYER = meta-96boards
