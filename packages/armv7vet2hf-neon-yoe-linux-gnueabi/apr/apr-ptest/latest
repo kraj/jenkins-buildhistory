@@ -1,10 +1,10 @@
-PV = 1.6.5
+PV = 1.7.0
 PR = r0
 PKG = libapr-1-ptest
-PKGR = r0.24
-RPROVIDES = apr-ptest (=1.6.5)
-RDEPENDS = apr (>= 1.6.5) glibc (>= 2.29) libxcrypt (>= 4.4.4) util-linux-libuuid (>= 2.32.1)
+PKGR = r0.0
+RPROVIDES = apr-ptest (=1.7.0)
+RDEPENDS = apr (>= 1.7.0) glibc (>= 2.29) libxcrypt (>= 4.4.4) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = ptest-runner
-PKGSIZE = 191520
+PKGSIZE = 208024
 FILES = /usr/lib/apr/ptest
 FILELIST = /usr/lib/apr/ptest/run-ptest /usr/lib/apr/ptest/test/.libs/libmod_test.so /usr/lib/apr/ptest/test/.libs/mod_test.so /usr/lib/apr/ptest/test/data/file_datafile.txt /usr/lib/apr/ptest/test/data/mmap_datafile.txt /usr/lib/apr/ptest/test/proc_child /usr/lib/apr/ptest/test/readchild /usr/lib/apr/ptest/test/sockchild /usr/lib/apr/ptest/test/sockperf /usr/lib/apr/ptest/test/testall /usr/lib/apr/ptest/test/tryread
