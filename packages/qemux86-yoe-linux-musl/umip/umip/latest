@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libcrypto (>= 1.1.1b) musl (>= 1.1.22+git0+65c8be3804)
+RRECOMMENDS = kernel-module-ipv6 kernel-module-mip6
+PKGSIZE = 343202
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/umip /usr/lib/umip/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-umip.preset /lib/systemd/system/mip6d.service
+FILELIST = /lib/systemd/system-preset/98-umip.preset /lib/systemd/system/mip6d.service /usr/sbin/mip6d
