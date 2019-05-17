@@ -1,8 +1,8 @@
 PV = 5.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) make
+RDEPENDS = ethtool glibc (>= 2.29) make
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1352983
 FILES = /usr/lib/ethtool/ptest

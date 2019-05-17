@@ -1,8 +1,8 @@
 PV = 1.1.1b
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.29) libcrypto (>= 1.1.1b) libssl (>= 1.1.1b) openssl-bin perl perl-modules
+RDEPENDS = bash glibc (>= 2.29) libcrypto (>= 1.1.1b) libssl (>= 1.1.1b) openssl openssl-bin perl perl-modules
 RRECOMMENDS = ptest-runner
 PKGSIZE = 60981051
 FILES = /usr/lib/openssl/ptest
