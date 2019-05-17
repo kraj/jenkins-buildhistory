@@ -27,7 +27,7 @@ drwxr-xr-x root       root              400 ./usr/lib/valgrind/.debug
 -rwxr-xr-x root       root            78256 ./usr/lib/valgrind/.debug/vgpreload_exp-sgcheck-amd64-linux.so
 -rwxr-xr-x root       root           263352 ./usr/lib/valgrind/.debug/vgpreload_helgrind-amd64-linux.so
 -rwxr-xr-x root       root            53824 ./usr/lib/valgrind/.debug/vgpreload_massif-amd64-linux.so
-drwxr-xr-x root       root              200 ./usr/lib/valgrind/ptest
+drwxr-xr-x root       root              220 ./usr/lib/valgrind/ptest
 drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/cachegrind
 drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/cachegrind/tests
 drwxr-xr-x root       root              120 ./usr/lib/valgrind/ptest/cachegrind/tests/.debug
@@ -113,6 +113,17 @@ drwxr-xr-x root       root             1420 ./usr/lib/valgrind/ptest/drd/tests/.
 -rwxr-xr-x root       root           658440 ./usr/lib/valgrind/ptest/drd/tests/.debug/tsan_unittest
 -rwxr-xr-x root       root           431320 ./usr/lib/valgrind/ptest/drd/tests/.debug/unit_bitmap
 -rwxr-xr-x root       root            20032 ./usr/lib/valgrind/ptest/drd/tests/.debug/unit_vc
+drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/gdbserver_tests
+drwxr-xr-x root       root              220 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug
+-rwxr-xr-x root       root            11856 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/clean_after_fork
+-rwxr-xr-x root       root            11936 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/fork_chain
+-rwxr-xr-x root       root            11632 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/gone
+-rwxr-xr-x root       root            11360 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/main_pic
+-rwxr-xr-x root       root            14000 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/passsigalrm
+-rwxr-xr-x root       root             9448 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/self_invalidate
+-rwxr-xr-x root       root            18160 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/sleepers
+-rwxr-xr-x root       root            17592 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/t
+-rwxr-xr-x root       root            11832 ./usr/lib/valgrind/ptest/gdbserver_tests/.debug/watchpoints
 drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/helgrind
 drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/helgrind/tests
 drwxr-xr-x root       root              980 ./usr/lib/valgrind/ptest/helgrind/tests/.debug
