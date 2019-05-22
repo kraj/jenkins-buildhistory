@@ -10,7 +10,7 @@ drwxr-xr-x root       root              660 ./etc/opensaf
 -rw-r--r-- root       root             2682 ./etc/opensaf/clmna.conf
 -rw-r--r-- root       root             5240 ./etc/opensaf/dtmd.conf
 -rw-r--r-- root       root             1165 ./etc/opensaf/evtd.conf
--rw-r--r-- root       root             2163 ./etc/opensaf/fmd.conf
+-rw-r--r-- root       root             2992 ./etc/opensaf/fmd.conf
 -rw-r--r-- root       root             4506 ./etc/opensaf/immd.conf
 -rw-r--r-- root       root             5116 ./etc/opensaf/immnd.conf
 -rw-r--r-- root       root             1168 ./etc/opensaf/lckd.conf
@@ -23,7 +23,7 @@ drwxr-xr-x root       root              660 ./etc/opensaf
 -rw-r--r-- root       root             4576 ./etc/opensaf/nodeinit.conf.payload
 -rw-r--r-- root       root                5 ./etc/opensaf/node_name
 -rw-r--r-- root       root               11 ./etc/opensaf/node_type
--rw-r--r-- root       root             1761 ./etc/opensaf/ntfd.conf
+-rw-r--r-- root       root             2434 ./etc/opensaf/ntfd.conf
 -rw-r--r-- root       root             1188 ./etc/opensaf/osafdir.conf
 -rw-r--r-- root       root             1456 ./etc/opensaf/rde.conf
 -rw-r--r-- root       root                2 ./etc/opensaf/slot_id
@@ -48,7 +48,7 @@ drwxr-xr-x root       root              460 ./usr/bin
 -rwxr-xr-x root       root             3781 ./usr/bin/clm-state
 -rwxr-xr-x root       root            18920 ./usr/bin/immadm
 -rwxr-xr-x root       root            97520 ./usr/bin/immcfg
--rwxr-xr-x root       root            59928 ./usr/bin/immdump
+-rwxr-xr-x root       root            59960 ./usr/bin/immdump
 -rwxr-xr-x root       root            14664 ./usr/bin/immfind
 -rwxr-xr-x root       root            18792 ./usr/bin/immlist
 -rwxr-xr-x root       root            15064 ./usr/bin/ntfread
@@ -77,7 +77,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/libimmpbe_dump.so.0 -> lib
 lrwxrwxrwx root       root               22 ./usr/lib/liblck_common.so.0 -> liblck_common.so.0.0.0
 -rwxr-xr-x root       root            47672 ./usr/lib/libmsg_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libmsg_common.so.0 -> libmsg_common.so.0.0.0
--rwxr-xr-x root       root            35000 ./usr/lib/libntfclient.so.0.0.0
+-rwxr-xr-x root       root            34992 ./usr/lib/libntfclient.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libntfclient.so.0 -> libntfclient.so.0.0.0
 -rwxr-xr-x root       root            59488 ./usr/lib/libntf_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libntf_common.so.0 -> libntf_common.so.0.0.0
@@ -99,7 +99,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/libSaImmOi.so.0 -> libSaIm
 lrwxrwxrwx root       root               19 ./usr/lib/libSaImmOm.so.0 -> libSaImmOm.so.0.4.0
 -rwxr-xr-x root       root            51296 ./usr/lib/libSaLck.so.0.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libSaLck.so.0 -> libSaLck.so.0.0.0
--rwxr-xr-x root       root            76040 ./usr/lib/libSaLog.so.1.0.2
+-rwxr-xr-x root       root            88400 ./usr/lib/libSaLog.so.1.0.2
 lrwxrwxrwx root       root               17 ./usr/lib/libSaLog.so.1 -> libSaLog.so.1.0.2
 -rwxr-xr-x root       root           125136 ./usr/lib/libSaMsg.so.1.0.2
 lrwxrwxrwx root       root               17 ./usr/lib/libSaMsg.so.1 -> libSaMsg.so.1.0.2
@@ -111,7 +111,7 @@ lrwxrwxrwx root       root               17 ./usr/lib/libSaSmf.so.0 -> libSaSmf.
 lrwxrwxrwx root       root               24 ./usr/lib/libsmfsv_common.so.0 -> libsmfsv_common.so.0.0.0
 drwxr-xr-x root       root             1500 ./usr/lib/opensaf
 drwxr-xr-x root       root              480 ./usr/lib/opensaf/clc-cli
--rwxr-xr-x root       root             2239 ./usr/lib/opensaf/clc-cli/osaf-amfd
+-rwxr-xr-x root       root             2285 ./usr/lib/opensaf/clc-cli/osaf-amfd
 -rwxr-xr-x root       root             2212 ./usr/lib/opensaf/clc-cli/osaf-amfnd
 -rwxr-xr-x root       root             2604 ./usr/lib/opensaf/clc-cli/osaf-amfwd
 -rwxr-xr-x root       root             1951 ./usr/lib/opensaf/clc-cli/osaf-ckptd
@@ -129,7 +129,7 @@ drwxr-xr-x root       root              480 ./usr/lib/opensaf/clc-cli
 -rwxr-xr-x root       root             1998 ./usr/lib/opensaf/clc-cli/osaf-msgd
 -rwxr-xr-x root       root             2594 ./usr/lib/opensaf/clc-cli/osaf-msgnd
 -rwxr-xr-x root       root             2713 ./usr/lib/opensaf/clc-cli/osaf-ntfd
--rwxr-xr-x root       root             2874 ./usr/lib/opensaf/clc-cli/osaf-rded
+-rwxr-xr-x root       root             2920 ./usr/lib/opensaf/clc-cli/osaf-rded
 -rwxr-xr-x root       root             1998 ./usr/lib/opensaf/clc-cli/osaf-smfd
 -rwxr-xr-x root       root             2594 ./usr/lib/opensaf/clc-cli/osaf-smfnd
 -rwxr-xr-x root       root             3965 ./usr/lib/opensaf/clc-cli/osaf-transport
@@ -160,7 +160,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/opensaf/liblck_common.so -
 -rwxr-xr-x root       root            47672 ./usr/lib/opensaf/libmsg_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/opensaf/libmsg_common.so.0 -> libmsg_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/opensaf/libmsg_common.so -> libmsg_common.so.0.0.0
--rwxr-xr-x root       root            35000 ./usr/lib/opensaf/libntfclient.so.0.0.0
+-rwxr-xr-x root       root            34992 ./usr/lib/opensaf/libntfclient.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/opensaf/libntfclient.so.0 -> libntfclient.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/opensaf/libntfclient.so -> libntfclient.so.0.0.0
 -rwxr-xr-x root       root            59488 ./usr/lib/opensaf/libntf_common.so.0.0.0
@@ -173,7 +173,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/opensaf/libosaf_common.so 
 lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so.0 -> libsmfsv_common.so.0.0.0
 lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so -> libsmfsv_common.so.0.0.0
 -rwxr-xr-x root       root            39352 ./usr/lib/opensaf/opensafd
--rwxr-xr-x root       root             6116 ./usr/lib/opensaf/opensaf_reboot
+-rwxr-xr-x root       root             6676 ./usr/lib/opensaf/opensaf_reboot
 -rwxr-xr-x root       root             1081 ./usr/lib/opensaf/opensaf_sc_active
 -rwxr-xr-x root       root             2265 ./usr/lib/opensaf/opensaf_scale_out
 -rwxr-xr-x root       root          1208528 ./usr/lib/opensaf/osafamfd
@@ -181,13 +181,13 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root            14496 ./usr/lib/opensaf/osafamfwd
 -rwxr-xr-x root       root           129448 ./usr/lib/opensaf/osafckptd
 -rwxr-xr-x root       root           162144 ./usr/lib/opensaf/osafckptnd
--rwxr-xr-x root       root           182784 ./usr/lib/opensaf/osafclmd
+-rwxr-xr-x root       root           186880 ./usr/lib/opensaf/osafclmd
 -rwxr-xr-x root       root            39256 ./usr/lib/opensaf/osafclmna
 -rwxr-xr-x root       root           149864 ./usr/lib/opensaf/osafdtmd
 -rwxr-xr-x root       root           141992 ./usr/lib/opensaf/osafevtd
 -rwxr-xr-x root       root            47560 ./usr/lib/opensaf/osaffmd
 -rwxr-xr-x root       root           112816 ./usr/lib/opensaf/osafimmd
--rwxr-xr-x root       root            76296 ./usr/lib/opensaf/osafimmloadd
+-rwxr-xr-x root       root            80392 ./usr/lib/opensaf/osafimmloadd
 -rwxr-xr-x root       root           686520 ./usr/lib/opensaf/osafimmnd
 -rwxr-xr-x root       root            80384 ./usr/lib/opensaf/osafimmpbed
 -rwxr-xr-x root       root            72168 ./usr/lib/opensaf/osaflckd
@@ -196,7 +196,7 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root           105384 ./usr/lib/opensaf/osafmsgd
 -rwxr-xr-x root       root           108824 ./usr/lib/opensaf/osafmsgnd
 -rwxr-xr-x root       root           203528 ./usr/lib/opensaf/osafntfd
--rwxr-xr-x root       root            51688 ./usr/lib/opensaf/osafrded
+-rwxr-xr-x root       root            55800 ./usr/lib/opensaf/osafrded
 -rwxr-xr-x root       root          1264192 ./usr/lib/opensaf/osafsmfd
 -rwxr-xr-x root       root            26872 ./usr/lib/opensaf/osafsmfnd
 -rwxr-xr-x root       root            39328 ./usr/lib/opensaf/osaftransportd

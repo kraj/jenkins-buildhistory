@@ -1,10 +1,10 @@
-PV = 2.30.0
+PV = 2.32.1
 PR = r0
 PKG = libatspi0
-PKGR = r0.92
-RPROVIDES = at-spi2-core (=2.30.0)
+PKGR = r0.0
+RPROVIDES = at-spi2-core (=2.32.1)
 RDEPENDS = dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) glibc (>= 2.29) libx11 (>= 1.6.7) libxtst (>= 1.2.3)
 RRECOMMENDS = 
-PKGSIZE = 373350
+PKGSIZE = 373786
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/at-spi2-core /usr/lib/at-spi2-core/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/services/*.service /usr/share/dbus-1/accessibility-services/*.service /usr/share/defaults/at-spi2 /usr/lib/systemd/user/at-spi-dbus-bus.service /usr/lib/girepository-*/*.typelib
 FILELIST = /etc/xdg/autostart/at-spi-dbus-bus.desktop /usr/lib/girepository-1.0/Atspi-2.0.typelib /usr/lib/libatspi.so.0 /usr/lib/libatspi.so.0.0.1 /usr/lib/systemd/user/at-spi-dbus-bus.service /usr/libexec/at-spi-bus-launcher /usr/libexec/at-spi2-registryd /usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service /usr/share/dbus-1/services/org.a11y.Bus.service /usr/share/defaults/at-spi2/accessibility.conf

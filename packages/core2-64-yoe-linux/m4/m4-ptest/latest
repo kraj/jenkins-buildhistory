@@ -1,8 +1,8 @@
 PV = 1.4.18
 PR = r0
-PKGR = r0.90
+PKGR = r0.91
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) locale-base-fr-fr.iso-8859-1 m4
+RDEPENDS = coreutils diffutils glibc (>= 2.29) locale-base-fr-fr.iso-8859-1 m4 make
 RRECOMMENDS = ptest-runner
 PKGSIZE = 2671427
 FILES = /usr/lib/m4/ptest
