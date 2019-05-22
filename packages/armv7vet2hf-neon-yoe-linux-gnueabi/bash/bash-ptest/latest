@@ -1,8 +1,8 @@
 PV = 5.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.29) locale-base-de-de locale-base-fr-fr make
+RDEPENDS = bash coreutils glibc (>= 2.29) glibc-utils locale-base-de-de locale-base-en-us locale-base-fr-fr locale-base-fr-fr.iso-8859-1 locale-base-zh-hk.big5-hkscs make perl
 RRECOMMENDS = ptest-runner
 PKGSIZE = 865581
 FILES = /usr/lib/bash/ptest
