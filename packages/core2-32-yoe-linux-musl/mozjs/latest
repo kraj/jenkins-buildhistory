@@ -1,5 +1,5 @@
-PV = 52.9.1
+PV = 60.5.2
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native nspr perl-native pkgconfig-native python-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc virtual/libx11 zlib
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native nspr perl-native pkgconfig-native python-futures-native python-jsmin-native python-native python-pytoml-native python-six-native python-which-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc virtual/libx11 zlib
 PACKAGES = mozjs-src mozjs-dbg libmozjs mozjs-staticdev mozjs-dev mozjs-doc mozjs-locale mozjs
 LAYER = openembedded-layer

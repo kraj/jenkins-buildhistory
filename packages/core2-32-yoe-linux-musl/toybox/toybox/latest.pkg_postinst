@@ -68,7 +68,6 @@ set -e
 	update-alternatives --install /usr/bin/iotop iotop /bin/toybox 60
 	update-alternatives --install /bin/kill kill /bin/toybox 60
 	update-alternatives --install /usr/bin/killall killall /bin/toybox 60
-	update-alternatives --install /sbin/killall5 killall5 /bin/toybox 60
 	update-alternatives --install /usr/bin/link link /bin/toybox 60
 	update-alternatives --install /bin/ln ln /bin/toybox 60
 	update-alternatives --install /bin/login login /bin/toybox 60
@@ -101,6 +100,7 @@ set -e
 	update-alternatives --install /usr/bin/nl nl /bin/toybox 60
 	update-alternatives --install /usr/bin/nohup nohup /bin/toybox 60
 	update-alternatives --install /usr/bin/nproc nproc /bin/toybox 60
+	update-alternatives --install /usr/bin/nsenter nsenter /bin/toybox 60
 	update-alternatives --install /usr/bin/od od /bin/toybox 60
 	update-alternatives --install /sbin/oneit oneit /bin/toybox 60
 	update-alternatives --install /sbin/partprobe partprobe /bin/toybox 60
@@ -141,7 +141,6 @@ set -e
 	update-alternatives --install /usr/bin/strings strings /bin/toybox 60
 	update-alternatives --install /bin/su su /bin/toybox 60
 	update-alternatives --install /sbin/swapoff swapoff /bin/toybox 60
-	update-alternatives --install /sbin/swapon swapon /bin/toybox 60
 	update-alternatives --install /sbin/switch_root switch_root /bin/toybox 60
 	update-alternatives --install /bin/sync sync /bin/toybox 60
 	update-alternatives --install /sbin/sysctl sysctl /bin/toybox 60
@@ -157,11 +156,13 @@ set -e
 	update-alternatives --install /usr/bin/truncate truncate /bin/toybox 60
 	update-alternatives --install /usr/bin/tty tty /bin/toybox 60
 	update-alternatives --install /usr/bin/tunctl tunctl /bin/toybox 60
+	update-alternatives --install /usr/bin/ulimit ulimit /bin/toybox 60
 	update-alternatives --install /bin/umount umount /bin/toybox 60
 	update-alternatives --install /bin/uname uname /bin/toybox 60
 	update-alternatives --install /usr/bin/uniq uniq /bin/toybox 60
 	update-alternatives --install /bin/unix2dos unix2dos /bin/toybox 60
 	update-alternatives --install /usr/bin/unlink unlink /bin/toybox 60
+	update-alternatives --install /usr/bin/unshare unshare /bin/toybox 60
 	update-alternatives --install /usr/bin/uptime uptime /bin/toybox 60
 	update-alternatives --install /bin/usleep usleep /bin/toybox 60
 	update-alternatives --install /usr/bin/uudecode uudecode /bin/toybox 60

@@ -1,0 +1,9 @@
+PV = 1.1.9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.9) libsamplerate0 (>= 0.1.9) musl (>= 1.1.22+git0+65c8be3804)
+RRECOMMENDS = 
+PKGSIZE = 10355
+FILES = /usr/share/alsa/alsa.conf.d/10-samplerate.conf /etc/alsa/conf.d/10-samplerate.conf /usr/lib/alsa-lib/*rate_samplerate_*.so /usr/lib/alsa-lib/libasound_module_rate_samplerate.so
+FILELIST = /etc/alsa/conf.d/10-samplerate.conf /usr/lib/alsa-lib/libasound_module_rate_samplerate.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_best.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_linear.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_medium.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_order.so /usr/share/alsa/alsa.conf.d/10-samplerate.conf

@@ -1,0 +1,10 @@
+PV = 1.5.2
+PR = r0
+PKG = libwaffle-1-dbg
+PKGR = r0.0
+RPROVIDES = waffle-dbg (=1.5.2)
+RDEPENDS = 
+RRECOMMENDS = libudev-dbg libx11-dbg libx11-xcb-dbg libxcb-dbg musl-dbg wayland-dbg
+PKGSIZE = 323700
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/wflinfo /usr/lib/.debug/libwaffle-1.so.0.5.2

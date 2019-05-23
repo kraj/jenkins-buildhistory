@@ -1,0 +1,5 @@
+PV = 1.7.1
+PR = r0
+DEPENDS = autoconf-native automake-native cairo gettext-native glib-2.0 gnu-config-native groff-native libpng libtool-cross libtool-native libxml2 pango perl perl perl-native python python-native python-setuptools-native systemd systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc zlib
+PACKAGES = rrdtool-src rrdtool-dbg rrdcached rrdtool-perl rrdtool-python rrdtool-staticdev rrdtool-dev rrdtool-doc rrdtool rrdtool-locale-fr rrdtool-locale-hu
+LAYER = openembedded-layer

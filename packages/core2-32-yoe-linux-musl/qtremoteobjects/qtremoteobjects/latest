@@ -1,0 +1,11 @@
+PV = 5.12.3+gitAUTOINC+db1e447c46
+PR = r0
+PKG = libqt5remoteobjects5
+PKGV = 5.12.3+git0+db1e447c46
+PKGR = r0.0
+RPROVIDES = qtremoteobjects (=5.12.3+git0+db1e447c46)
+RDEPENDS = libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804) qtbase (>= 5.12.3+git0+b527725766)
+RRECOMMENDS = qtremoteobjects-plugins qtremoteobjects-qmlplugins
+PKGSIZE = 751342
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtremoteobjects /usr/lib/qtremoteobjects/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
+FILELIST = /usr/lib/libQt5RemoteObjects.so.5 /usr/lib/libQt5RemoteObjects.so.5.12 /usr/lib/libQt5RemoteObjects.so.5.12.3

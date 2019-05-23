@@ -1,0 +1,9 @@
+PV = 1.16.5
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) rc-keymaps
+RRECOMMENDS = 
+PKGSIZE = 113418
+FILES = /usr/bin/ir-keytable /lib/udev/rules.d/*-infrared.rules
+FILELIST = /lib/udev/rules.d/70-infrared.rules /usr/bin/ir-keytable

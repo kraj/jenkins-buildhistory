@@ -1,0 +1,11 @@
+PV = 2.3+gitAUTOINC+5e0bfe934b
+PR = r0
+PKG = libqt53dstudioruntime2-tools
+PKGV = 2.3+git0+5e0bfe934b
+PKGR = r0.0
+RPROVIDES = qt3d-runtime-tools (=2.3+git0+5e0bfe934b)
+RDEPENDS = libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804) qt3d-runtime (>= 2.3+git0+5e0bfe934b) qtbase (>= 5.12.3+git0+b527725766)
+RRECOMMENDS = 
+PKGSIZE = 128520
+FILES = /usr/bin/*
+FILELIST = /usr/bin/q3dsviewer

@@ -1,0 +1,5 @@
+PV = 4.2.0
+PR = r0
+DEPENDS = cmake-native curl lz4 ninja-native systemd util-linux virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc zeromq
+PACKAGES = czmq-src czmq-dbg libczmq libczmq-dev libczmq-staticdev czmq
+LAYER = openembedded-layer

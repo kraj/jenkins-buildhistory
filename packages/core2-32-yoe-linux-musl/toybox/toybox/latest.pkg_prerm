@@ -68,7 +68,6 @@ set -e
 	update-alternatives --remove  iotop /bin/toybox
 	update-alternatives --remove  kill /bin/toybox
 	update-alternatives --remove  killall /bin/toybox
-	update-alternatives --remove  killall5 /bin/toybox
 	update-alternatives --remove  link /bin/toybox
 	update-alternatives --remove  ln /bin/toybox
 	update-alternatives --remove  login /bin/toybox
@@ -101,6 +100,7 @@ set -e
 	update-alternatives --remove  nl /bin/toybox
 	update-alternatives --remove  nohup /bin/toybox
 	update-alternatives --remove  nproc /bin/toybox
+	update-alternatives --remove  nsenter /bin/toybox
 	update-alternatives --remove  od /bin/toybox
 	update-alternatives --remove  oneit /bin/toybox
 	update-alternatives --remove  partprobe /bin/toybox
@@ -141,7 +141,6 @@ set -e
 	update-alternatives --remove  strings /bin/toybox
 	update-alternatives --remove  su /bin/toybox
 	update-alternatives --remove  swapoff /bin/toybox
-	update-alternatives --remove  swapon /bin/toybox
 	update-alternatives --remove  switch_root /bin/toybox
 	update-alternatives --remove  sync /bin/toybox
 	update-alternatives --remove  sysctl /bin/toybox
@@ -157,11 +156,13 @@ set -e
 	update-alternatives --remove  truncate /bin/toybox
 	update-alternatives --remove  tty /bin/toybox
 	update-alternatives --remove  tunctl /bin/toybox
+	update-alternatives --remove  ulimit /bin/toybox
 	update-alternatives --remove  umount /bin/toybox
 	update-alternatives --remove  uname /bin/toybox
 	update-alternatives --remove  uniq /bin/toybox
 	update-alternatives --remove  unix2dos /bin/toybox
 	update-alternatives --remove  unlink /bin/toybox
+	update-alternatives --remove  unshare /bin/toybox
 	update-alternatives --remove  uptime /bin/toybox
 	update-alternatives --remove  usleep /bin/toybox
 	update-alternatives --remove  uudecode /bin/toybox

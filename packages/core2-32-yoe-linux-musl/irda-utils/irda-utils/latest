@@ -1,9 +1,9 @@
 PV = 0.9.18
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.22+git0+65c8be3804)
-RRECOMMENDS = 
+RRECOMMENDS = kernel-module-ircomm kernel-module-ircomm-tty kernel-module-irda kernel-module-irlan kernel-module-irport kernel-module-irtty kernel-module-irtty-sir kernel-module-pxaficp-ir kernel-module-sir-dev
 PKGSIZE = 34414
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/irda-utils /usr/lib/irda-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/irattach /usr/sbin/dongle_attach /usr/sbin/irattach /usr/sbin/irdaping

@@ -1,0 +1,10 @@
+PV = 5.12.3+gitAUTOINC+bcdc00bcdc
+PR = r0
+PKGV = 5.12.3+git0+bcdc00bcdc
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libegl-mesa (>= 19.0.3) libgcc (>= 9.1.0) libgl-mesa (>= 19.0.3) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git0+65c8be3804) qtbase (>= 5.12.3+git0+b527725766) qtwayland (>= 5.12.3+git0+bcdc00bcdc) wayland (>= 1.17.0)
+RRECOMMENDS = 
+PKGSIZE = 652920
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/platforms/libqwayland-egl.so /usr/lib/plugins/platforms/libqwayland-generic.so /usr/lib/plugins/wayland-decoration-client/libbradient.so /usr/lib/plugins/wayland-graphics-integration-client/libdmabuf-server.so /usr/lib/plugins/wayland-graphics-integration-client/libqt-plugin-wayland-egl.so /usr/lib/plugins/wayland-graphics-integration-client/libshm-emulation-server.so /usr/lib/plugins/wayland-graphics-integration-server/libdmabuf-server.so /usr/lib/plugins/wayland-graphics-integration-server/libqt-plugin-wayland-egl.so /usr/lib/plugins/wayland-graphics-integration-server/libshm-emulation-server.so /usr/lib/plugins/wayland-graphics-integration-server/libwayland-eglstream-controller.so /usr/lib/plugins/wayland-shell-integration/libivi-shell.so /usr/lib/plugins/wayland-shell-integration/libwl-shell.so /usr/lib/plugins/wayland-shell-integration/libxdg-shell-v5.so /usr/lib/plugins/wayland-shell-integration/libxdg-shell-v6.so /usr/lib/plugins/wayland-shell-integration/libxdg-shell.so

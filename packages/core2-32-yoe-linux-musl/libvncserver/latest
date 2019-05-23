@@ -1,0 +1,5 @@
+PV = 0.9.12+gitAUTOINC+c0a23857a5
+PR = r0
+DEPENDS = cmake-native gnutls jpeg libgcrypt libpng libsdl2 lzo ninja-native systemd virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc zlib
+PACKAGES = libvncserver-src libvncserver-dbg libvncserver-staticdev libvncserver-dev libvncserver-doc libvncserver-locale libvncclient libvncserver
+LAYER = openembedded-layer

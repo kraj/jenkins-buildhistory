@@ -1,12 +1,12 @@
 PE = 2
 PV = 19.0.3
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libgl-dev
 RDEPENDS = libgl-mesa
-RRECOMMENDS = expat-dev libdrm-dev libglapi-dev libx11-dev libx11-xcb-dev libxcb-dev libxcb-dri2-dev libxcb-dri3-dev libxcb-glx-dev libxcb-present-dev libxcb-sync-dev libxcb-xfixes-dev libxdamage-dev libxext-dev libxfixes-dev libxshmfence-dev libxxf86vm-dev musl-dev wayland-dev wayland-protocols-dev xorgproto-dev xrandr-dev zlib-dev
+RRECOMMENDS = expat-dev libdrm-dev libglapi-dev libx11-dev libx11-xcb-dev libxcb-dev libxcb-dri2-dev libxcb-dri3-dev libxcb-glx-dev libxcb-present-dev libxcb-sync-dev libxdamage-dev libxext-dev libxfixes-dev libxshmfence-dev libxxf86vm-dev musl-dev wayland-dev wayland-protocols-dev xorgproto-dev xrandr-dev zlib-dev
 RREPLACES = libgl-dev
 RCONFLICTS = libgl-dev
-PKGSIZE = 1625956
+PKGSIZE = 1625951
 FILES = /usr/lib/libGL.* /usr/include/GL /usr/lib/pkgconfig/gl.pc
 FILELIST = /usr/include/GL/gl.h /usr/include/GL/gl_mangle.h /usr/include/GL/glcorearb.h /usr/include/GL/glext.h /usr/include/GL/glx.h /usr/include/GL/glx_mangle.h /usr/include/GL/glxext.h /usr/include/GL/internal/dri_interface.h /usr/lib/libGL.so /usr/lib/pkgconfig/gl.pc

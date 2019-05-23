@@ -1,0 +1,9 @@
+PV = 8
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.9) dbus-lib (>= 1.12.12) libjack (>= 1.9.12) musl (>= 1.1.22+git0+65c8be3804)
+RRECOMMENDS = 
+PKGSIZE = 74603
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/a2jmidid /usr/lib/a2jmidid/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/services
+FILELIST = /usr/bin/a2j /usr/bin/a2j_control /usr/bin/a2jmidi_bridge /usr/bin/a2jmidid /usr/bin/j2amidi_bridge /usr/share/dbus-1/services/org.gna.home.a2jmidid.service

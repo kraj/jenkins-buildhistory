@@ -1,0 +1,5 @@
+PV = 0.8.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libusb1 pkgconfig-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = usbredir-src usbredir-dbg usbredir-staticdev usbredir-dev usbredir-doc usbredir-locale usbredir
+LAYER = networking-layer

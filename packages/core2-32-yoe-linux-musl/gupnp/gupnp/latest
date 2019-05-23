@@ -1,0 +1,10 @@
+PV = 1.0.2
+PR = r0
+PKG = libgupnp-1.0-4
+PKGR = r0.0
+RPROVIDES = gupnp (=1.0.2)
+RDEPENDS = glib-2.0 (>= 2.58.3) gssdp (>= 1.0.2) libsoup-2.4 (>= 2.66.2) libxml2 (>= 2.9.9) musl (>= 1.1.22+git0+65c8be3804) util-linux-libuuid (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 225125
+FILES = /usr/lib/*.so.* /usr/lib/girepository-*/*.typelib
+FILELIST = /usr/lib/girepository-1.0/GUPnP-1.0.typelib /usr/lib/libgupnp-1.0.so.4 /usr/lib/libgupnp-1.0.so.4.0.1
