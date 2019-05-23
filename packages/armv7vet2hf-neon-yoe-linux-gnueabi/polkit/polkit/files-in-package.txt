@@ -18,7 +18,7 @@ drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root             9860 ./usr/bin/pkaction
 -rwxr-xr-x root       root            13952 ./usr/bin/pkcheck
 -rwsr-xr-x root       root            18112 ./usr/bin/pkexec
--rwxr-xr-x root       root             9860 ./usr/bin/pkttyagent
+-rwxr-xr-x root       root            13956 ./usr/bin/pkttyagent
 drwxr-xr-x root       root              160 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/girepository-1.0
 -rw-r--r-- root       root            19080 ./usr/lib/girepository-1.0/Polkit-1.0.typelib
@@ -29,7 +29,7 @@ lrwxrwxrwx root       root               26 ./usr/lib/libpolkit-agent-1.so.0 -> 
 lrwxrwxrwx root       root               28 ./usr/lib/libpolkit-gobject-1.so.0 -> libpolkit-gobject-1.so.0.0.0
 drwxr-xr-x root       root               80 ./usr/lib/polkit-1
 -rwsr-xr-x root       root             9872 ./usr/lib/polkit-1/polkit-agent-helper-1
--rwxr-xr-x root       root            87976 ./usr/lib/polkit-1/polkitd
+-rwxr-xr-x root       root            88028 ./usr/lib/polkit-1/polkitd
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services
@@ -40,6 +40,6 @@ drwxr-xr-x root       root               80 ./usr/share/gettext/its
 -rw-r--r-- root       root              195 ./usr/share/gettext/its/polkit.loc
 drwxr-xr-x root       root               80 ./usr/share/polkit-1
 drwxr-xr-x root       root               80 ./usr/share/polkit-1/actions
--rw-r--r-- root       root             5319 ./usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy
--rw-r--r-- root       root             3520 ./usr/share/polkit-1/actions/org.freedesktop.policykit.policy
+-rw-r--r-- root       root             5638 ./usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy
+-rw-r--r-- root       root             3716 ./usr/share/polkit-1/actions/org.freedesktop.policykit.policy
 drwx------ polkitd    root               40 ./usr/share/polkit-1/rules.d

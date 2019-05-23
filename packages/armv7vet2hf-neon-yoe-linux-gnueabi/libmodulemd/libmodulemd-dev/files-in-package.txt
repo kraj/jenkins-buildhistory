@@ -1,6 +1,28 @@
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root               60 ./usr/include
+drwxr-xr-x root       root               80 ./usr/include
 drwxr-xr-x root       root              420 ./usr/include/modulemd
+drwxr-xr-x root       root              460 ./usr/include/modulemd-2.0
+-rw-r--r-- root       root             3203 ./usr/include/modulemd-2.0/modulemd-buildopts.h
+-rw-r--r-- root       root             6373 ./usr/include/modulemd-2.0/modulemd-component.h
+-rw-r--r-- root       root             2448 ./usr/include/modulemd-2.0/modulemd-component-module.h
+-rw-r--r-- root       root             5114 ./usr/include/modulemd-2.0/modulemd-component-rpm.h
+-rw-r--r-- root       root             4793 ./usr/include/modulemd-2.0/modulemd-defaults.h
+-rw-r--r-- root       root             6040 ./usr/include/modulemd-2.0/modulemd-defaults-v1.h
+-rw-r--r-- root       root             5632 ./usr/include/modulemd-2.0/modulemd-dependencies.h
+-rw-r--r-- root       root              871 ./usr/include/modulemd-2.0/modulemd-deprecated.h
+-rw-r--r-- root       root             7396 ./usr/include/modulemd-2.0/modulemd.h
+-rw-r--r-- root       root             6298 ./usr/include/modulemd-2.0/modulemd-module.h
+-rw-r--r-- root       root            17588 ./usr/include/modulemd-2.0/modulemd-module-index.h
+-rw-r--r-- root       root             7078 ./usr/include/modulemd-2.0/modulemd-module-index-merger.h
+-rw-r--r-- root       root            14604 ./usr/include/modulemd-2.0/modulemd-module-stream.h
+-rw-r--r-- root       root            24119 ./usr/include/modulemd-2.0/modulemd-module-stream-v1.h
+-rw-r--r-- root       root            22574 ./usr/include/modulemd-2.0/modulemd-module-stream-v2.h
+-rw-r--r-- root       root             3606 ./usr/include/modulemd-2.0/modulemd-profile.h
+-rw-r--r-- root       root             5324 ./usr/include/modulemd-2.0/modulemd-rpm-map-entry.h
+-rw-r--r-- root       root             3840 ./usr/include/modulemd-2.0/modulemd-service-level.h
+-rw-r--r-- root       root             1477 ./usr/include/modulemd-2.0/modulemd-subdocument-info.h
+-rw-r--r-- root       root             4854 ./usr/include/modulemd-2.0/modulemd-translation-entry.h
+-rw-r--r-- root       root             3722 ./usr/include/modulemd-2.0/modulemd-translation.h
 -rw-r--r-- root       root             3706 ./usr/include/modulemd/modulemd-buildopts.h
 -rw-r--r-- root       root             4507 ./usr/include/modulemd/modulemd-component.h
 -rw-r--r-- root       root             3712 ./usr/include/modulemd/modulemd-component-module.h
@@ -21,9 +43,11 @@ drwxr-xr-x root       root              420 ./usr/include/modulemd
 -rw-r--r-- root       root             6781 ./usr/include/modulemd/modulemd-translation-entry.h
 -rw-r--r-- root       root             9194 ./usr/include/modulemd/modulemd-translation.h
 drwxr-xr-x root       root               80 ./usr/lib
-lrwxrwxrwx root       root               16 ./usr/lib/libmodulemd.so -> libmodulemd.so.1
-drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
--rw-r--r-- root       root              264 ./usr/lib/pkgconfig/modulemd.pc
+lrwxrwxrwx root       root               16 ./usr/lib/libmodulemd.so -> libmodulemd.so.2
+drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              272 ./usr/lib/pkgconfig/modulemd-2.0.pc
+-rw-r--r-- root       root              235 ./usr/lib/pkgconfig/modulemd.pc
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/gir-1.0
+drwxr-xr-x root       root               80 ./usr/share/gir-1.0
 -rw-r--r-- root       root           562576 ./usr/share/gir-1.0/Modulemd-1.0.gir
+-rw-r--r-- root       root           473051 ./usr/share/gir-1.0/Modulemd-2.0.gir

@@ -1,10 +1,10 @@
-PV = 2.30.0
+PV = 2.32.0
 PR = r0
 PKG = libatk-bridge-2.0-0
-PKGR = r0.7
-RPROVIDES = at-spi2-atk (=2.30.0)
-RDEPENDS = at-spi2-core (>= 2.30.0) atk (>= 2.30.0) dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) glibc (>= 2.29)
+PKGR = r0.0
+RPROVIDES = at-spi2-atk (=2.32.0)
+RDEPENDS = at-spi2-core (>= 2.32.1) atk (>= 2.32.0) dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 138538
+PKGSIZE = 138554
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/at-spi2-atk /usr/lib/at-spi2-atk/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/share/appdata /usr/share/icons
 FILELIST = /usr/lib/libatk-bridge-2.0.so.0 /usr/lib/libatk-bridge-2.0.so.0.0.0

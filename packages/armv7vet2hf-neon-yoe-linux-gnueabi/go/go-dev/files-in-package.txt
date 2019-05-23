@@ -85,7 +85,7 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root            27816 ./usr/lib/go/src/cmd/compile/internal/gc/const.go
 -rw-r--r-- root       root            29011 ./usr/lib/go/src/cmd/compile/internal/gc/dcl.go
 -rw-r--r-- root       root             6652 ./usr/lib/go/src/cmd/compile/internal/gc/dump.go
--rw-r--r-- root       root            10298 ./usr/lib/go/src/cmd/compile/internal/gc/dwinl.go
+-rw-r--r-- root       root            10333 ./usr/lib/go/src/cmd/compile/internal/gc/dwinl.go
 -rw-r--r-- root       root            70532 ./usr/lib/go/src/cmd/compile/internal/gc/esc.go
 -rw-r--r-- root       root             5365 ./usr/lib/go/src/cmd/compile/internal/gc/export.go
 -rw-r--r-- root       root             2287 ./usr/lib/go/src/cmd/compile/internal/gc/fixedbugs_test.go
@@ -115,8 +115,8 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root              215 ./usr/lib/go/src/cmd/compile/internal/gc/norace.go
 -rw-r--r-- root       root            11502 ./usr/lib/go/src/cmd/compile/internal/gc/obj.go
 -rw-r--r-- root       root             1915 ./usr/lib/go/src/cmd/compile/internal/gc/op_string.go
--rw-r--r-- root       root            37730 ./usr/lib/go/src/cmd/compile/internal/gc/order.go
--rw-r--r-- root       root            21545 ./usr/lib/go/src/cmd/compile/internal/gc/pgen.go
+-rw-r--r-- root       root            37761 ./usr/lib/go/src/cmd/compile/internal/gc/order.go
+-rw-r--r-- root       root            22218 ./usr/lib/go/src/cmd/compile/internal/gc/pgen.go
 -rw-r--r-- root       root             6153 ./usr/lib/go/src/cmd/compile/internal/gc/pgen_test.go
 -rw-r--r-- root       root            15070 ./usr/lib/go/src/cmd/compile/internal/gc/phi.go
 -rw-r--r-- root       root            41426 ./usr/lib/go/src/cmd/compile/internal/gc/plive.go
@@ -290,7 +290,7 @@ drwxr-xr-x root       root              620 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root              950 ./usr/lib/go/src/cmd/compile/internal/ssa/TODO
 -rw-r--r-- root       root             3888 ./usr/lib/go/src/cmd/compile/internal/ssa/trim.go
 -rw-r--r-- root       root            10443 ./usr/lib/go/src/cmd/compile/internal/ssa/value.go
--rw-r--r-- root       root            13459 ./usr/lib/go/src/cmd/compile/internal/ssa/writebarrier.go
+-rw-r--r-- root       root            14301 ./usr/lib/go/src/cmd/compile/internal/ssa/writebarrier.go
 -rw-r--r-- root       root             1791 ./usr/lib/go/src/cmd/compile/internal/ssa/writebarrier_test.go
 -rw-r--r-- root       root             2170 ./usr/lib/go/src/cmd/compile/internal/ssa/zcse.go
 -rw-r--r-- root       root             1702 ./usr/lib/go/src/cmd/compile/internal/ssa/zeroextension_test.go
@@ -452,7 +452,7 @@ drwxr-xr-x root       root              180 ./usr/lib/go/src/cmd/go/internal/get
 -rw-r--r-- root       root             5485 ./usr/lib/go/src/cmd/go/internal/get/path.go
 -rw-r--r-- root       root             4095 ./usr/lib/go/src/cmd/go/internal/get/pkg_test.go
 -rw-r--r-- root       root             2223 ./usr/lib/go/src/cmd/go/internal/get/tag_test.go
--rw-r--r-- root       root            33433 ./usr/lib/go/src/cmd/go/internal/get/vcs.go
+-rw-r--r-- root       root            33457 ./usr/lib/go/src/cmd/go/internal/get/vcs.go
 -rw-r--r-- root       root            12816 ./usr/lib/go/src/cmd/go/internal/get/vcs_test.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/help
 -rw-r--r-- root       root            27233 ./usr/lib/go/src/cmd/go/internal/help/helpdoc.go
@@ -461,7 +461,7 @@ drwxr-xr-x root       root              160 ./usr/lib/go/src/cmd/go/internal/imp
 -rw-r--r-- root       root             5907 ./usr/lib/go/src/cmd/go/internal/imports/build.go
 -rw-r--r-- root       root             5785 ./usr/lib/go/src/cmd/go/internal/imports/read.go
 -rw-r--r-- root       root             3902 ./usr/lib/go/src/cmd/go/internal/imports/read_test.go
--rw-r--r-- root       root             2548 ./usr/lib/go/src/cmd/go/internal/imports/scan.go
+-rw-r--r-- root       root             2568 ./usr/lib/go/src/cmd/go/internal/imports/scan.go
 -rw-r--r-- root       root             1627 ./usr/lib/go/src/cmd/go/internal/imports/scan_test.go
 -rw-r--r-- root       root              707 ./usr/lib/go/src/cmd/go/internal/imports/tags.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/list
@@ -471,9 +471,9 @@ drwxr-xr-x root       root              160 ./usr/lib/go/src/cmd/go/internal/loa
 -rw-r--r-- root       root             2678 ./usr/lib/go/src/cmd/go/internal/load/flag.go
 -rw-r--r-- root       root             4010 ./usr/lib/go/src/cmd/go/internal/load/flag_test.go
 -rw-r--r-- root       root             1024 ./usr/lib/go/src/cmd/go/internal/load/path.go
--rw-r--r-- root       root            66896 ./usr/lib/go/src/cmd/go/internal/load/pkg.go
+-rw-r--r-- root       root            67396 ./usr/lib/go/src/cmd/go/internal/load/pkg.go
 -rw-r--r-- root       root             1718 ./usr/lib/go/src/cmd/go/internal/load/search.go
--rw-r--r-- root       root            19448 ./usr/lib/go/src/cmd/go/internal/load/test.go
+-rw-r--r-- root       root            19704 ./usr/lib/go/src/cmd/go/internal/load/test.go
 drwxr-xr-x root       root              160 ./usr/lib/go/src/cmd/go/internal/lockedfile
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/go/internal/lockedfile/internal
 drwxr-xr-x root       root              180 ./usr/lib/go/src/cmd/go/internal/lockedfile/internal/filelock
@@ -581,7 +581,7 @@ drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/str
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/go/internal/test
 -rw-r--r-- root       root             2057 ./usr/lib/go/src/cmd/go/internal/test/cover.go
 -rw-r--r-- root       root             6686 ./usr/lib/go/src/cmd/go/internal/test/testflag.go
--rw-r--r-- root       root            52737 ./usr/lib/go/src/cmd/go/internal/test/test.go
+-rw-r--r-- root       root            52744 ./usr/lib/go/src/cmd/go/internal/test/test.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/go/internal/tool
 -rw-r--r-- root       root             3519 ./usr/lib/go/src/cmd/go/internal/tool/tool.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/txtar
@@ -603,10 +603,10 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/go/internal/web
 -rw-r--r-- root       root             6887 ./usr/lib/go/src/cmd/go/internal/webtest/test.go
 drwxr-xr-x root       root              260 ./usr/lib/go/src/cmd/go/internal/work
 -rw-r--r-- root       root            26480 ./usr/lib/go/src/cmd/go/internal/work/action.go
--rw-r--r-- root       root            19179 ./usr/lib/go/src/cmd/go/internal/work/build.go
+-rw-r--r-- root       root            19181 ./usr/lib/go/src/cmd/go/internal/work/build.go
 -rw-r--r-- root       root            26060 ./usr/lib/go/src/cmd/go/internal/work/buildid.go
 -rw-r--r-- root       root             8362 ./usr/lib/go/src/cmd/go/internal/work/build_test.go
--rw-r--r-- root       root            90932 ./usr/lib/go/src/cmd/go/internal/work/exec.go
+-rw-r--r-- root       root            90986 ./usr/lib/go/src/cmd/go/internal/work/exec.go
 -rw-r--r-- root       root            15335 ./usr/lib/go/src/cmd/go/internal/work/gccgo.go
 -rw-r--r-- root       root            19228 ./usr/lib/go/src/cmd/go/internal/work/gc.go
 -rw-r--r-- root       root             7252 ./usr/lib/go/src/cmd/go/internal/work/init.go
@@ -756,9 +756,10 @@ drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/internal/sys
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/internal/test2json
 -rw-r--r-- root       root            12097 ./usr/lib/go/src/cmd/internal/test2json/test2json.go
 -rw-r--r-- root       root             7062 ./usr/lib/go/src/cmd/internal/test2json/test2json_test.go
-drwxr-xr-x root       root              160 ./usr/lib/go/src/cmd/link
+drwxr-xr-x root       root              180 ./usr/lib/go/src/cmd/link
 -rw-r--r-- root       root             4036 ./usr/lib/go/src/cmd/link/doc.go
 -rw-r--r-- root       root             4639 ./usr/lib/go/src/cmd/link/dwarf_test.go
+-rw-r--r-- root       root             2576 ./usr/lib/go/src/cmd/link/elf_test.go
 drwxr-xr-x root       root              360 ./usr/lib/go/src/cmd/link/internal
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/link/internal/amd64
 -rw-r--r-- root       root            24621 ./usr/lib/go/src/cmd/link/internal/amd64/asm.go
@@ -799,7 +800,7 @@ drwxr-xr-x root       root              540 ./usr/lib/go/src/cmd/link/internal/l
 -rw-r--r-- root       root             1935 ./usr/lib/go/src/cmd/link/internal/ld/util.go
 -rw-r--r-- root       root            37530 ./usr/lib/go/src/cmd/link/internal/ld/xcoff.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/link/internal/loadelf
--rw-r--r-- root       root            31847 ./usr/lib/go/src/cmd/link/internal/loadelf/ldelf.go
+-rw-r--r-- root       root            32032 ./usr/lib/go/src/cmd/link/internal/loadelf/ldelf.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/link/internal/loadmacho
 -rw-r--r-- root       root            22223 ./usr/lib/go/src/cmd/link/internal/loadmacho/ldmacho.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/link/internal/loadpe
@@ -1395,8 +1396,8 @@ drwxr-xr-x root       root              140 ./usr/lib/go/src/cmd/vendor/golang.o
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools
 drwxr-xr-x root       root              120 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go
 drwxr-xr-x root       root              160 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis
--rw-r--r-- root       root             7347 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/analysis.go
--rw-r--r-- root       root            13523 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/doc.go
+-rw-r--r-- root       root             7415 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/analysis.go
+-rw-r--r-- root       root            13508 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/doc.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/internal
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/internal/analysisflags
 -rw-r--r-- root       root             8931 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/internal/analysisflags/flags.go
@@ -1407,7 +1408,7 @@ drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.o
 -rw-r--r-- root       root             2067 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/internal/facts/imports.go
 drwxr-xr-x root       root              540 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/asmdecl
--rw-r--r-- root       root            21075 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/asmdecl/asmdecl.go
+-rw-r--r-- root       root            21154 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/asmdecl/asmdecl.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/assign
 -rw-r--r-- root       root             1913 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/assign/assign.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/atomic
@@ -1417,9 +1418,9 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.o
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/buildtag
 -rw-r--r-- root       root             4213 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/buildtag/buildtag.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/cgocall
--rw-r--r-- root       root            11727 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/cgocall/cgocall.go
+-rw-r--r-- root       root            11641 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/cgocall/cgocall.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/composite
--rw-r--r-- root       root             2840 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/composite/composite.go
+-rw-r--r-- root       root             2952 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/composite/composite.go
 -rw-r--r-- root       root             1100 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/composite/whitelist.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/copylock
 -rw-r--r-- root       root             8376 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/copylock/copylock.go
@@ -1428,7 +1429,7 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.o
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/httpresponse
 -rw-r--r-- root       root             4877 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/httpresponse/httpresponse.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect
--rw-r--r-- root       root             1248 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect/inspect.go
+-rw-r--r-- root       root             1338 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect/inspect.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/internal
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
 -rw-r--r-- root       root             2479 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil/util.go
@@ -1441,15 +1442,15 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.o
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/pkgfact
 -rw-r--r-- root       root             3494 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/pkgfact/pkgfact.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/printf
--rw-r--r-- root       root            30327 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/printf/printf.go
--rw-r--r-- root       root             7047 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/printf/types.go
+-rw-r--r-- root       root            30577 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/printf/printf.go
+-rw-r--r-- root       root             6969 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/printf/types.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/shift
 -rw-r--r-- root       root             2249 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/shift/dead.go
--rw-r--r-- root       root             3302 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/shift/shift.go
+-rw-r--r-- root       root             2730 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/shift/shift.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/stdmethods
 -rw-r--r-- root       root             6660 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/stdmethods/stdmethods.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/structtag
--rw-r--r-- root       root             7758 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/structtag/structtag.go
+-rw-r--r-- root       root             7932 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/structtag/structtag.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/tests
 -rw-r--r-- root       root             4800 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/tests/tests.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/passes/unmarshal
@@ -1463,7 +1464,7 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/vendor/golang.o
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/unitchecker
 -rw-r--r-- root       root             2053 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/unitchecker/main.go
 -rw-r--r-- root       root              121 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/unitchecker/unitchecker112.go
--rw-r--r-- root       root            10874 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/unitchecker/unitchecker.go
+-rw-r--r-- root       root            10907 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/unitchecker/unitchecker.go
 -rw-r--r-- root       root             2301 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/analysis/validate.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast
 drwxr-xr-x root       root              120 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/astutil
@@ -1472,7 +1473,7 @@ drwxr-xr-x root       root              120 ./usr/lib/go/src/cmd/vendor/golang.o
 -rw-r--r-- root       root            12272 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/astutil/rewrite.go
 -rw-r--r-- root       root              211 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/astutil/util.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/inspector
--rw-r--r-- root       root             5492 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/inspector/inspector.go
+-rw-r--r-- root       root             5488 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/inspector/inspector.go
 -rw-r--r-- root       root             4620 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/ast/inspector/typeof.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/cfg
 -rw-r--r-- root       root            11258 ./usr/lib/go/src/cmd/vendor/golang.org/x/tools/go/cfg/builder.go
@@ -1544,4 +1545,4 @@ drwxr-xr-x root       root              960 ./usr/lib/go/src/cmd/vet/all/whiteli
 -rw-r--r-- root       root             3151 ./usr/lib/go/src/cmd/vet/doc.go
 -rw-r--r-- root       root             1610 ./usr/lib/go/src/cmd/vet/main.go
 -rw-r--r-- root       root             1677 ./usr/lib/go/src/cmd/vet/README
--rw-r--r-- root       root            10271 ./usr/lib/go/src/cmd/vet/vet_test.go
+-rw-r--r-- root       root            10283 ./usr/lib/go/src/cmd/vet/vet_test.go
