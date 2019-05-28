@@ -1,8 +1,8 @@
 PV = 3.7.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1b) libpython3 (>= 3.7.3) musl (>= 1.1.22+git0+65c8be3804) python3-core python3-math python3-stringold
+RDEPENDS = libcrypto (>= 1.1.1b) libpython3 (>= 3.7.3) musl (>= 1.1.22+git1+ac304227bb) python3-core python3-math python3-stringold
 RRECOMMENDS = ca-certificates openssl
 PKGSIZE = 244971
 FILES = /usr/lib/python3.7/crypt.py /usr/lib/python3.7/hashlib.py /usr/lib/python3.7/lib-dynload/_blake2.*.so /usr/lib/python3.7/lib-dynload/_crypt.*.so /usr/lib/python3.7/lib-dynload/_hashlib.*.so /usr/lib/python3.7/lib-dynload/_sha256.*.so /usr/lib/python3.7/lib-dynload/_sha3.*.so /usr/lib/python3.7/lib-dynload/_sha1.*.so /usr/lib/python3.7/lib-dynload/_md5.*.so /usr/lib/python3.7/lib-dynload/_sha512.*.so /usr/lib/python3.7/__pycache__/crypt.*.pyc /usr/lib/python3.7/__pycache__/hashlib.*.pyc

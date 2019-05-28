@@ -1,9 +1,9 @@
 PV = 3.6.7
 PR = r0
 PKG = libgnutls-dev
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = gnutls-dev (=3.6.7)
-RDEPENDS = gnutls (= 3.6.7-r0.1) gnutls (>= 3.6.7) gnutls-openssl gnutls-xx musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = gnutls (= 3.6.7-r0.2) gnutls (>= 3.6.7) gnutls-openssl gnutls-xx musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = argp-standalone-dev gmp-dev gnutls-openssl-dev gnutls-xx-dev libatomic-dev libgcc-dev libidn2-dev libstdc++-dev libunistring-dev musl-dev nettle-dev
 PKGSIZE = 536822
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gnutls/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/gnutls-cli-debug

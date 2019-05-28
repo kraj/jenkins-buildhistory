@@ -1,9 +1,9 @@
 PV = 4.60.1
 PR = r0
 PKG = libwavpack-bin
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = wavpack-bin (=4.60.1)
-RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) wavpack (>= 4.60.1)
+RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) wavpack (>= 4.60.1)
 RRECOMMENDS = 
 PKGSIZE = 119288
 FILES = /usr/bin/* /usr/sbin/*

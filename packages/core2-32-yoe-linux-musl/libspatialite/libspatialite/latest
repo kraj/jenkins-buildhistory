@@ -1,9 +1,9 @@
 PV = 4.2.0
 PR = r0
 PKG = libspatialite7
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libspatialite (=4.2.0)
-RDEPENDS = geos-c1 (>= 3.4.3) libsqlite3 (>= 3.28.0) libxml2 (>= 2.9.9) musl (>= 1.1.22+git0+65c8be3804) proj (>= 4.9.3) zlib (>= 1.2.11)
+RDEPENDS = geos-c1 (>= 3.4.3) libsqlite3 (>= 3.28.0) libxml2 (>= 2.9.9) musl (>= 1.1.22+git1+ac304227bb) proj (>= 4.9.3) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 6029854
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libspatialite /usr/lib/libspatialite/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,0 +1,10 @@
+PV = 5.8
+PR = r0
+PKG = libnetsnmpagent35
+PKGR = r0.1
+RPROVIDES = net-snmp-lib-agent (=5.8)
+RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) net-snmp-lib-netsnmp (>= 5.8)
+RRECOMMENDS = 
+PKGSIZE = 542169
+FILES = /usr/lib/libnetsnmpagent.so.*
+FILELIST = /usr/lib/libnetsnmpagent.so.35 /usr/lib/libnetsnmpagent.so.35.0.0

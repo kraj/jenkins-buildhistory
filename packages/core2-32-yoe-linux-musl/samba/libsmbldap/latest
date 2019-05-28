@@ -1,9 +1,9 @@
 PV = 4.8.11
 PR = r0
 PKG = libsmbldap2
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libsmbldap (=4.8.11)
-RDEPENDS = libsamba-debug-samba4 (>= 4.8.11) libsamba-security-samba4 (>= 4.8.11) libsamba-util (>= 4.8.11) libsmbconf (>= 4.8.11) libsmbd-shim-samba4 (>= 4.8.11) libtalloc (>= 2.1.14) libtevent (>= 0.9.37) musl (>= 1.1.22+git0+65c8be3804) openldap (>= 2.4.47) samba-common
+RDEPENDS = libsamba-debug-samba4 (>= 4.8.11) libsamba-security-samba4 (>= 4.8.11) libsamba-util (>= 4.8.11) libsmbconf (>= 4.8.11) libsmbd-shim-samba4 (>= 4.8.11) libtalloc (>= 2.1.14) libtevent (>= 0.9.37) musl (>= 1.1.22+git1+ac304227bb) openldap (>= 2.4.47) samba-common
 RRECOMMENDS = 
 PKGSIZE = 46356
 FILES = /usr/lib/libsmbldap.so.2

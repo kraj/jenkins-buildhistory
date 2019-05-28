@@ -1,8 +1,8 @@
 PV = 09.05.0300
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) postgresql unixodbc (>= 2.3.7)
+RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) postgresql unixodbc (>= 2.3.7)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 918235
 FILES = /usr/lib/psqlodbc/ptest

@@ -1,8 +1,8 @@
 PV = 4.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash mdadm musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = bash mdadm musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = coreutils kernel-module-linear kernel-module-loop kernel-module-raid0 kernel-module-raid1 kernel-module-raid10 kernel-module-raid456 ptest-runner util-linux
 PKGSIZE = 241510
 FILES = /usr/lib/mdadm/ptest

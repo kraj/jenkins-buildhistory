@@ -2,9 +2,9 @@ PE = 1
 PV = 1.2.0
 PR = r0
 PKG = libxcursor1
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libxcursor (=1.2.0)
-RDEPENDS = libx11 (>= 1.6.7) libxfixes (>= 5.0.3) libxrender (>= 0.9.10) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = libx11 (>= 1.6.7) libxfixes (>= 5.0.3) libxrender (>= 0.9.10) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 42271
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxcursor /usr/lib/libxcursor/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

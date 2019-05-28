@@ -1,9 +1,9 @@
 PV = 2.4.47
 PR = r0
 PKG = libldap-2.4-bin
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = openldap-bin (=2.4.47)
-RDEPENDS = musl (>= 1.1.22+git0+65c8be3804) openldap (>= 2.4.47)
+RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) openldap (>= 2.4.47)
 RRECOMMENDS = 
 PKGSIZE = 529030
 FILES = /usr/bin

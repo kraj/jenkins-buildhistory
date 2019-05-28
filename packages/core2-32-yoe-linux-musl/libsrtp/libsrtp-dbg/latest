@@ -1,9 +1,9 @@
 PV = 1.6.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
+RRECOMMENDS = musl-dbg
+PKGSIZE = 208044
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = 
+FILELIST = /usr/lib/.debug/libsrtp.so.1

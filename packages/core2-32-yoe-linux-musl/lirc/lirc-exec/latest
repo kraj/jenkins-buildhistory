@@ -1,8 +1,8 @@
 PV = 0.9.4d
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = lirc (>= 0.9.4d) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = lirc (>= 0.9.4d) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 10237
 FILES = /usr/bin/irexec /etc/lircexec /lib/systemd/system/irexec.service /lib/systemd/system-preset/98-lirc-exec.preset /lib/systemd/system/irexec.service

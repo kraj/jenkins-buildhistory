@@ -1,9 +1,9 @@
 PV = 3.0.0
 PR = r0
 PKG = libglut3
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = freeglut (=3.0.0)
-RDEPENDS = libgl-mesa (>= 19.0.3) libx11 (>= 1.6.7) libxi (>= 1.7.9) libxrandr (>= 1.5.2) libxxf86vm (>= 1.1.4) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = libgl-mesa (>= 19.0.3) libx11 (>= 1.6.7) libxi (>= 1.7.9) libxrandr (>= 1.5.2) libxxf86vm (>= 1.1.4) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 289193
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/freeglut /usr/lib/freeglut/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

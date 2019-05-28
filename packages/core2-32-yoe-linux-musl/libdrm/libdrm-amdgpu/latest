@@ -1,9 +1,9 @@
 PV = 2.4.98
 PR = r0
 PKG = libdrm-amdgpu1
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libdrm-amdgpu (=2.4.98)
-RDEPENDS = libdrm (>= 2.4.98) musl (>= 1.1.22+git0+65c8be3804)
+RDEPENDS = libdrm (>= 2.4.98) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 42278
 FILES = /usr/lib/libdrm_amdgpu.so.*

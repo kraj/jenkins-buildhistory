@@ -1,0 +1,9 @@
+PV = 4.0.7
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = corosync (>= 2.4.4) libsystemd (>= 242+0+db2e367bfc) musl (>= 1.1.22+git1+ac304227bb)
+RRECOMMENDS = 
+PKGSIZE = 220657
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dlm /usr/lib/dlm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service
+FILELIST = /etc/sysconfig/dlm /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service /usr/lib/libdlm.so.3 /usr/lib/libdlm.so.3.0 /usr/lib/libdlm_lt.so.3 /usr/lib/libdlm_lt.so.3.0 /usr/lib/libdlmcontrol.so.3 /usr/lib/libdlmcontrol.so.3.1 /usr/lib/udev/rules.d/51-dlm.rules /usr/sbin/dlm_controld /usr/sbin/dlm_tool

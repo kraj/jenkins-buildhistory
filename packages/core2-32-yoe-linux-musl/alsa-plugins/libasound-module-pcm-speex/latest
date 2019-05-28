@@ -1,8 +1,8 @@
 PV = 1.1.9
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.9) musl (>= 1.1.22+git0+65c8be3804) speexdsp (>= 1.2rc3)
+RDEPENDS = alsa-lib (>= 1.1.9) musl (>= 1.1.22+git1+ac304227bb) speexdsp (>= 1.2rc3)
 RRECOMMENDS = 
 PKGSIZE = 14887
 FILES = /usr/share/alsa/alsa.conf.d/60-speex.conf /etc/alsa/conf.d/60-speex.conf /usr/lib/alsa-lib/libasound_module_pcm_speex.so
