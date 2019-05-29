@@ -1,9 +1,9 @@
 PV = 1.6.0
 PR = r0
-PKGR = r0.83
+PKGR = r0.84
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 314736
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = 
+FILELIST = /usr/lib/.debug/libsrtp.so.1

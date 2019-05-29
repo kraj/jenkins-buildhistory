@@ -3,8 +3,8 @@ drwxr-xr-x root       root               40 ./etc/systemtap
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
 -rwxr-xr-x root       root            17061 ./usr/bin/dtrace
--rwxr-xr-x root       root          3217792 ./usr/bin/stap
--rwxr-xr-x root       root            68000 ./usr/bin/stapbpf
+-rwxr-xr-x root       root          3283328 ./usr/bin/stap
+-rwxr-xr-x root       root           133536 ./usr/bin/stapbpf
 -rwxr-xr-x root       root            67744 ./usr/bin/stap-merge
 -rwxr-xr-x root       root             4855 ./usr/bin/stap-report
 -rwxr-xr-x root       root           199752 ./usr/bin/staprun
@@ -112,7 +112,7 @@ drwxr-xr-x root       root              100 ./usr/share/systemtap/examples/gener
 -rw-r--r-- root       root              364 ./usr/share/systemtap/examples/general/tcl-trace.meta
 -rwxr-xr-x root       root             1042 ./usr/share/systemtap/examples/general/tcl-trace.stp
 -rw-r--r-- root       root              583 ./usr/share/systemtap/examples/general/varwatch.meta
--rwxr-xr-x root       root              640 ./usr/share/systemtap/examples/general/varwatch.stp
+-rwxr-xr-x root       root              464 ./usr/share/systemtap/examples/general/varwatch.stp
 -rw-r--r-- root       root             2678 ./usr/share/systemtap/examples/general/varwatch.txt
 -rw-r--r-- root       root              922 ./usr/share/systemtap/examples/general/watchdog.meta
 -rwxr-xr-x root       root              452 ./usr/share/systemtap/examples/general/watchdog.stp
@@ -123,8 +123,8 @@ drwxr-xr-x root       root              100 ./usr/share/systemtap/examples/html
 -rw-r--r-- root       root              970 ./usr/share/systemtap/examples/html/systemtapcorner.gif
 -rw-r--r-- root       root             2987 ./usr/share/systemtap/examples/html/systemtap.css
 -rw-r--r-- root       root             1860 ./usr/share/systemtap/examples/html/systemtaplogo.png
--rw-r--r-- root       root           123087 ./usr/share/systemtap/examples/index.html
--rw-r--r-- root       root            72480 ./usr/share/systemtap/examples/index.txt
+-rw-r--r-- root       root           125152 ./usr/share/systemtap/examples/index.html
+-rw-r--r-- root       root            73809 ./usr/share/systemtap/examples/index.txt
 drwxr-xr-x root       root              160 ./usr/share/systemtap/examples/interrupt
 -rw-r--r-- root       root              507 ./usr/share/systemtap/examples/interrupt/interrupts-by-dev.meta
 -rwxr-xr-x root       root              838 ./usr/share/systemtap/examples/interrupt/interrupts-by-dev.stp
@@ -153,13 +153,13 @@ drwxr-xr-x root       root             1080 ./usr/share/systemtap/examples/io
 -rw-r--r-- root       root              769 ./usr/share/systemtap/examples/io/ioblktime.meta
 -rwxr-xr-x root       root              793 ./usr/share/systemtap/examples/io/ioblktime.stp
 -rw-r--r-- root       root              738 ./usr/share/systemtap/examples/io/iodevstats.meta
--rwxr-xr-x root       root             1150 ./usr/share/systemtap/examples/io/iodevstats.stp
+-rwxr-xr-x root       root             1157 ./usr/share/systemtap/examples/io/iodevstats.stp
 -rw-r--r-- root       root              528 ./usr/share/systemtap/examples/io/iodevstats.txt
 -rw-r--r-- root       root              608 ./usr/share/systemtap/examples/io/iostat-scsi.meta
 -rwxr-xr-x root       root             3496 ./usr/share/systemtap/examples/io/iostat-scsi.stp
 -rw-r--r-- root       root              481 ./usr/share/systemtap/examples/io/iostat-scsi.txt
 -rw-r--r-- root       root              671 ./usr/share/systemtap/examples/io/iostats.meta
--rwxr-xr-x root       root             1152 ./usr/share/systemtap/examples/io/iostats.stp
+-rwxr-xr-x root       root             1159 ./usr/share/systemtap/examples/io/iostats.stp
 -rw-r--r-- root       root              361 ./usr/share/systemtap/examples/io/iostats.txt
 -rw-r--r-- root       root              508 ./usr/share/systemtap/examples/io/io_submit.meta
 -rwxr-xr-x root       root             1911 ./usr/share/systemtap/examples/io/io_submit.stp
@@ -167,7 +167,7 @@ drwxr-xr-x root       root             1080 ./usr/share/systemtap/examples/io
 -rw-r--r-- root       root             1024 ./usr/share/systemtap/examples/io/iotime.meta
 -rwxr-xr-x root       root             2898 ./usr/share/systemtap/examples/io/iotime.stp
 -rw-r--r-- root       root              410 ./usr/share/systemtap/examples/io/iotop.meta
--rwxr-xr-x root       root              661 ./usr/share/systemtap/examples/io/iotop.stp
+-rwxr-xr-x root       root              629 ./usr/share/systemtap/examples/io/iotop.stp
 -rw-r--r-- root       root              559 ./usr/share/systemtap/examples/io/mbrwatch.meta
 -rwxr-xr-x root       root              239 ./usr/share/systemtap/examples/io/mbrwatch.stp
 -rw-r--r-- root       root              140 ./usr/share/systemtap/examples/io/mbrwatch.tcl
@@ -185,8 +185,8 @@ drwxr-xr-x root       root             1080 ./usr/share/systemtap/examples/io
 -rw-r--r-- root       root              521 ./usr/share/systemtap/examples/io/ttyspy.meta
 -rwxr-xr-x root       root             1686 ./usr/share/systemtap/examples/io/ttyspy.stp
 -rw-r--r-- root       root              455 ./usr/share/systemtap/examples/io/ttyspy.txt
--rw-r--r-- root       root           224633 ./usr/share/systemtap/examples/keyword-index.html
--rw-r--r-- root       root           148892 ./usr/share/systemtap/examples/keyword-index.txt
+-rw-r--r-- root       root           228029 ./usr/share/systemtap/examples/keyword-index.html
+-rw-r--r-- root       root           151329 ./usr/share/systemtap/examples/keyword-index.txt
 drwxr-xr-x root       root              120 ./usr/share/systemtap/examples/locks
 -rw-r--r-- root       root             1105 ./usr/share/systemtap/examples/locks/bkl.meta
 -rw-r--r-- root       root              977 ./usr/share/systemtap/examples/locks/bkl_stats.meta
@@ -237,9 +237,9 @@ drwxr-xr-x root       root              860 ./usr/share/systemtap/examples/lwtoo
 drwxr-xr-x root       root              920 ./usr/share/systemtap/examples/memory
 -rw-r--r-- root       root              459 ./usr/share/systemtap/examples/memory/cachestat_bpf.meta
 -rw-r--r-- root       root              443 ./usr/share/systemtap/examples/memory/cachestat.meta
--rw-r--r-- root       root             1471 ./usr/share/systemtap/examples/memory/cachestat.stp
+-rwxr-xr-x root       root             1323 ./usr/share/systemtap/examples/memory/cachestat.stp
 -rw-r--r-- root       root              381 ./usr/share/systemtap/examples/memory/glibc-malloc.meta
--rw-r--r-- root       root             2491 ./usr/share/systemtap/examples/memory/glibc-malloc.stp
+-rwxr-xr-x root       root             2491 ./usr/share/systemtap/examples/memory/glibc-malloc.stp
 -rw-r--r-- root       root              946 ./usr/share/systemtap/examples/memory/hugepage_clear_delays.meta
 -rwxr-xr-x root       root              488 ./usr/share/systemtap/examples/memory/hugepage_clear_delays.stp
 -rw-r--r-- root       root              718 ./usr/share/systemtap/examples/memory/hugepage_collapse.meta
@@ -297,7 +297,7 @@ drwxr-xr-x root       root             1220 ./usr/share/systemtap/examples/netwo
 -rwxr-xr-x root       root              596 ./usr/share/systemtap/examples/network/netfilter_summary.stp
 -rw-r--r-- root       root             2873 ./usr/share/systemtap/examples/network/netfilter_summary.txt
 -rw-r--r-- root       root              519 ./usr/share/systemtap/examples/network/nettop.meta
--rwxr-xr-x root       root             1152 ./usr/share/systemtap/examples/network/nettop.stp
+-rwxr-xr-x root       root              994 ./usr/share/systemtap/examples/network/nettop.stp
 -rw-r--r-- root       root              953 ./usr/share/systemtap/examples/network/nettop.txt
 -rw-r--r-- root       root              453 ./usr/share/systemtap/examples/network/net_xmit_json.meta
 -rw-r--r-- root       root             1801 ./usr/share/systemtap/examples/network/net_xmit_json.stp
@@ -399,10 +399,10 @@ drwxr-xr-x root       root             1940 ./usr/share/systemtap/examples/proce
 -rw-r--r-- root       root              267 ./usr/share/systemtap/examples/process/semop-watch.meta
 -rwxr-xr-x root       root              795 ./usr/share/systemtap/examples/process/semop-watch.stp
 -rw-r--r-- root       root              357 ./usr/share/systemtap/examples/process/sig_by_pid.meta
--rwxr-xr-x root       root             1071 ./usr/share/systemtap/examples/process/sig_by_pid.stp
+-rwxr-xr-x root       root             1083 ./usr/share/systemtap/examples/process/sig_by_pid.stp
 -rw-r--r-- root       root             1514 ./usr/share/systemtap/examples/process/sig_by_pid.txt
 -rw-r--r-- root       root              364 ./usr/share/systemtap/examples/process/sig_by_proc.meta
--rwxr-xr-x root       root              844 ./usr/share/systemtap/examples/process/sig_by_proc.stp
+-rwxr-xr-x root       root              856 ./usr/share/systemtap/examples/process/sig_by_proc.stp
 -rw-r--r-- root       root              951 ./usr/share/systemtap/examples/process/sig_by_proc.txt
 -rw-r--r-- root       root              560 ./usr/share/systemtap/examples/process/sigkill.meta
 -rwxr-xr-x root       root              661 ./usr/share/systemtap/examples/process/sigkill.stp
@@ -420,10 +420,10 @@ drwxr-xr-x root       root             1940 ./usr/share/systemtap/examples/proce
 -rwxr-xr-x root       root             2081 ./usr/share/systemtap/examples/process/strace.stp
 -rw-r--r-- root       root             3672 ./usr/share/systemtap/examples/process/strace.txt
 -rw-r--r-- root       root              514 ./usr/share/systemtap/examples/process/syscalls_by_pid.meta
--rwxr-xr-x root       root              628 ./usr/share/systemtap/examples/process/syscalls_by_pid.stp
+-rwxr-xr-x root       root              638 ./usr/share/systemtap/examples/process/syscalls_by_pid.stp
 -rw-r--r-- root       root              597 ./usr/share/systemtap/examples/process/syscalls_by_pid.txt
 -rw-r--r-- root       root              531 ./usr/share/systemtap/examples/process/syscalls_by_proc.meta
--rwxr-xr-x root       root              682 ./usr/share/systemtap/examples/process/syscalls_by_proc.stp
+-rwxr-xr-x root       root              697 ./usr/share/systemtap/examples/process/syscalls_by_proc.stp
 -rw-r--r-- root       root             1130 ./usr/share/systemtap/examples/process/syscalls_by_proc.txt
 -rwxr-xr-x root       root             6291 ./usr/share/systemtap/examples/process/syscalltimes
 -rw-r--r-- root       root              454 ./usr/share/systemtap/examples/process/syscalltimes.meta
@@ -543,7 +543,7 @@ drwxr-xr-x root       root              180 ./usr/share/systemtap/examples/virtu
 -rwxr-xr-x root       root              785 ./usr/share/systemtap/examples/virtualization/qemu_io.stp
 drwxr-xr-x root       root             1300 ./usr/share/systemtap/runtime
 -rw-r--r-- root       root              523 ./usr/share/systemtap/runtime/addr-map.c
--rw-r--r-- root       root              864 ./usr/share/systemtap/runtime/addr-map.h
+-rw-r--r-- root       root              869 ./usr/share/systemtap/runtime/addr-map.h
 -rw-r--r-- root       root              498 ./usr/share/systemtap/runtime/alloc.c
 -rw-r--r-- root       root              483 ./usr/share/systemtap/runtime/arith.c
 -rw-r--r-- root       root             6222 ./usr/share/systemtap/runtime/common_probe_context.h
@@ -553,7 +553,7 @@ drwxr-xr-x root       root             1300 ./usr/share/systemtap/runtime
 -rw-r--r-- root       root              485 ./usr/share/systemtap/runtime/debug.h
 -rw-r--r-- root       root              508 ./usr/share/systemtap/runtime/io.c
 -rw-r--r-- root       root              182 ./usr/share/systemtap/runtime/k_syms.h
-drwxr-xr-x root       root             2540 ./usr/share/systemtap/runtime/linux
+drwxr-xr-x root       root             2560 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root             3882 ./usr/share/systemtap/runtime/linux/access_process_vm.h
 -rw-r--r-- root       root             8385 ./usr/share/systemtap/runtime/linux/addr-map.c
 -rw-r--r-- root       root            15379 ./usr/share/systemtap/runtime/linux/alloc.c
@@ -615,6 +615,7 @@ drwxr-xr-x root       root             2540 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root              169 ./usr/share/systemtap/runtime/linux/autoconf-smpcall-5args.c
 -rw-r--r-- root       root              409 ./usr/share/systemtap/runtime/linux/autoconf-stacktrace_ops-int-address.c
 -rw-r--r-- root       root              188 ./usr/share/systemtap/runtime/linux/autoconf-stacktrace_ops-warning.c
+-rw-r--r-- root       root              214 ./usr/share/systemtap/runtime/linux/autoconf-syscall_get_args_3args.c
 -rw-r--r-- root       root              152 ./usr/share/systemtap/runtime/linux/autoconf-task-uid.c
 -rw-r--r-- root       root              219 ./usr/share/systemtap/runtime/linux/autoconf-task_work-struct.c
 -rw-r--r-- root       root               53 ./usr/share/systemtap/runtime/linux/autoconf-time32.c
@@ -638,13 +639,13 @@ drwxr-xr-x root       root             2540 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root             3004 ./usr/share/systemtap/runtime/linux/common_session_state.h
 -rw-r--r-- root       root              858 ./usr/share/systemtap/runtime/linux/compat_net.h
 -rw-r--r-- root       root             4409 ./usr/share/systemtap/runtime/linux/compat_structs.h
--rw-r--r-- root       root            67308 ./usr/share/systemtap/runtime/linux/compat_unistd.h
+-rw-r--r-- root       root            67708 ./usr/share/systemtap/runtime/linux/compat_unistd.h
 -rw-r--r-- root       root             2640 ./usr/share/systemtap/runtime/linux/copy.c
 -rw-r--r-- root       root             2558 ./usr/share/systemtap/runtime/linux/debug.h
 -rw-r--r-- root       root             4709 ./usr/share/systemtap/runtime/linux/io.c
 -rw-r--r-- root       root            14874 ./usr/share/systemtap/runtime/linux/itrace.c
 -rw-r--r-- root       root            23112 ./usr/share/systemtap/runtime/linux/kprobes.c
--rw-r--r-- root       root            24439 ./usr/share/systemtap/runtime/linux/loc2c-runtime.h
+-rw-r--r-- root       root            25965 ./usr/share/systemtap/runtime/linux/loc2c-runtime.h
 -rw-r--r-- root       root             1220 ./usr/share/systemtap/runtime/linux/map_list.h
 -rw-r--r-- root       root             4218 ./usr/share/systemtap/runtime/linux/map_runtime.h
 -rw-r--r-- root       root             7128 ./usr/share/systemtap/runtime/linux/namespaces.h
@@ -665,8 +666,8 @@ drwxr-xr-x root       root             2540 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root            11337 ./usr/share/systemtap/runtime/linux/stp_tracepoint.c
 -rw-r--r-- root       root             2148 ./usr/share/systemtap/runtime/linux/stp_tracepoint.h
 -rw-r--r-- root       root              976 ./usr/share/systemtap/runtime/linux/syscalls-common.h
--rw-r--r-- root       root            54785 ./usr/share/systemtap/runtime/linux/task_finder2.c
--rw-r--r-- root       root            53425 ./usr/share/systemtap/runtime/linux/task_finder.c
+-rw-r--r-- root       root            54849 ./usr/share/systemtap/runtime/linux/task_finder2.c
+-rw-r--r-- root       root            53435 ./usr/share/systemtap/runtime/linux/task_finder.c
 -rw-r--r-- root       root             5194 ./usr/share/systemtap/runtime/linux/task_finder_map.c
 -rw-r--r-- root       root             2442 ./usr/share/systemtap/runtime/linux/task_finder_stubs.c
 -rw-r--r-- root       root             1283 ./usr/share/systemtap/runtime/linux/task_work_compatibility.h
@@ -702,7 +703,7 @@ drwxr-xr-x root       root              200 ./usr/share/systemtap/runtime/linux/
 -rw-r--r-- root       root             2866 ./usr/share/systemtap/runtime/linux/uprobes/uprobes_x86_64.h
 -rw-r--r-- root       root            25144 ./usr/share/systemtap/runtime/linux/uprobes/uprobes_x86.c
 -rw-r--r-- root       root             3383 ./usr/share/systemtap/runtime/linux/uprobes/uprobes_x86.h
--rw-r--r-- root       root             9170 ./usr/share/systemtap/runtime/loc2c-runtime.h
+-rw-r--r-- root       root             9515 ./usr/share/systemtap/runtime/loc2c-runtime.h
 -rw-r--r-- root       root            14443 ./usr/share/systemtap/runtime/map.c
 -rw-r--r-- root       root            25899 ./usr/share/systemtap/runtime/map-gen.c
 -rw-r--r-- root       root             5918 ./usr/share/systemtap/runtime/map.h
@@ -725,7 +726,7 @@ drwxr-xr-x root       root              200 ./usr/share/systemtap/runtime/linux/
 -rw-r--r-- root       root             3582 ./usr/share/systemtap/runtime/runtime_defines.h
 -rw-r--r-- root       root              928 ./usr/share/systemtap/runtime/runtime.h
 -rw-r--r-- root       root             1688 ./usr/share/systemtap/runtime/stack-arm.c
--rw-r--r-- root       root            20195 ./usr/share/systemtap/runtime/stack.c
+-rw-r--r-- root       root            19893 ./usr/share/systemtap/runtime/stack.c
 -rw-r--r-- root       root             1083 ./usr/share/systemtap/runtime/stack-ia64.c
 -rw-r--r-- root       root              125 ./usr/share/systemtap/runtime/stack-mips.c
 -rw-r--r-- root       root             2300 ./usr/share/systemtap/runtime/stack-s390.c
@@ -740,7 +741,7 @@ drwxr-xr-x root       root              200 ./usr/share/systemtap/runtime/linux/
 -rw-r--r-- root       root            14010 ./usr/share/systemtap/runtime/stp_utrace.h
 -rw-r--r-- root       root            35897 ./usr/share/systemtap/runtime/sym.c
 -rw-r--r-- root       root             5969 ./usr/share/systemtap/runtime/sym.h
--rw-r--r-- root       root            15984 ./usr/share/systemtap/runtime/syscall.h
+-rw-r--r-- root       root            16418 ./usr/share/systemtap/runtime/syscall.h
 -rw-r--r-- root       root            13113 ./usr/share/systemtap/runtime/task_finder_vma.c
 -rw-r--r-- root       root            14026 ./usr/share/systemtap/runtime/time.c
 -rw-r--r-- root       root              481 ./usr/share/systemtap/runtime/timer.c
@@ -756,7 +757,7 @@ drwxr-xr-x root       root              300 ./usr/share/systemtap/runtime/transp
 -rw-r--r-- root       root            12057 ./usr/share/systemtap/runtime/transport/relay_v2.c
 -rw-r--r-- root       root            20050 ./usr/share/systemtap/runtime/transport/ring_buffer.c
 -rw-r--r-- root       root            15986 ./usr/share/systemtap/runtime/transport/symbols.c
--rw-r--r-- root       root            22295 ./usr/share/systemtap/runtime/transport/transport.c
+-rw-r--r-- root       root            22409 ./usr/share/systemtap/runtime/transport/transport.c
 -rw-r--r-- root       root             3457 ./usr/share/systemtap/runtime/transport/transport.h
 -rw-r--r-- root       root             5205 ./usr/share/systemtap/runtime/transport/transport_msgs.h
 -rw-r--r-- root       root              603 ./usr/share/systemtap/runtime/uidgid_compatibility.h
@@ -784,7 +785,7 @@ drwxr-xr-x root       root               60 ./usr/share/systemtap/tapset/arm64
 drwxr-xr-x root       root              160 ./usr/share/systemtap/tapset/bpf
 -rw-r--r-- root       root             4939 ./usr/share/systemtap/tapset/bpf/context.stp
 -rw-r--r-- root       root             4235 ./usr/share/systemtap/tapset/bpf/conversions.stp
--rw-r--r-- root       root              639 ./usr/share/systemtap/tapset/bpf/exit.stp
+-rw-r--r-- root       root             1079 ./usr/share/systemtap/tapset/bpf/exit.stp
 -rw-r--r-- root       root              213 ./usr/share/systemtap/tapset/bpf/syscalls.stpm
 -rw-r--r-- root       root              583 ./usr/share/systemtap/tapset/bpf/task.stp
 -rw-r--r-- root       root              539 ./usr/share/systemtap/tapset/bpf/time.stp
@@ -821,7 +822,7 @@ drwxr-xr-x root       root               80 ./usr/share/systemtap/tapset/linux/a
 -rw-r--r-- root       root            30478 ./usr/share/systemtap/tapset/linux/arm/syscall_num.stp
 -rw-r--r-- root       root             1782 ./usr/share/systemtap/tapset/linux/arm/sysc_execve.stp
 -rw-r--r-- root       root             1563 ./usr/share/systemtap/tapset/linux/atomic.stp
--rw-r--r-- root       root           148343 ./usr/share/systemtap/tapset/linux/aux_syscalls.stp
+-rw-r--r-- root       root           149696 ./usr/share/systemtap/tapset/linux/aux_syscalls.stp
 -rw-r--r-- root       root             3148 ./usr/share/systemtap/tapset/linux/context-caller.stp
 -rw-r--r-- root       root             1761 ./usr/share/systemtap/tapset/linux/context-envvar.stp
 -rw-r--r-- root       root            19013 ./usr/share/systemtap/tapset/linux/context.stp
@@ -962,7 +963,7 @@ drwxr-xr-x root       root              360 ./usr/share/systemtap/tapset/linux/s
 -rw-r--r-- root       root             2583 ./usr/share/systemtap/tapset/linux/sysc_alarm.stp
 -rw-r--r-- root       root             1560 ./usr/share/systemtap/tapset/linux/syscall_any.stp
 -rw-r--r-- root       root              111 ./usr/share/systemtap/tapset/linux/syscalls_cfg_trunc.stp
--rw-r--r-- root       root            14616 ./usr/share/systemtap/tapset/linux/syscalls.stpm
+-rw-r--r-- root       root            14624 ./usr/share/systemtap/tapset/linux/syscalls.stpm
 -rw-r--r-- root       root             1475 ./usr/share/systemtap/tapset/linux/syscall_table.stp
 -rw-r--r-- root       root             2813 ./usr/share/systemtap/tapset/linux/sysc_bdflush.stp
 -rw-r--r-- root       root             6586 ./usr/share/systemtap/tapset/linux/sysc_bind.stp
@@ -1335,7 +1336,7 @@ drwxr-xr-x root       root              440 ./usr/share/systemtap/tapset/linux/x
 -rw-r--r-- root       root             2296 ./usr/share/systemtap/tapset/linux/x86_64/sysc_sigaltstack.stp
 -rw-r--r-- root       root             1143 ./usr/share/systemtap/tapset/linux/x86_64/sysc_sysctl32.stp
 -rw-r--r-- root       root             1200 ./usr/share/systemtap/tapset/linux/x86_64/sysc_vm86_warning.stp
--rw-r--r-- root       root             4890 ./usr/share/systemtap/tapset/logging.stp
+-rw-r--r-- root       root             4873 ./usr/share/systemtap/tapset/logging.stp
 -rw-r--r-- root       root              456 ./usr/share/systemtap/tapset/macros.stpm
 drwxr-xr-x root       root               60 ./usr/share/systemtap/tapset/mips
 -rw-r--r-- root       root            10702 ./usr/share/systemtap/tapset/mips/registers.stp
@@ -1355,7 +1356,7 @@ drwxr-xr-x root       root               60 ./usr/share/systemtap/tapset/powerpc
 -rw-r--r-- root       root              432 ./usr/share/systemtap/tapset/random.stp
 -rw-r--r-- root       root              371 ./usr/share/systemtap/tapset/README
 -rw-r--r-- root       root             4107 ./usr/share/systemtap/tapset/regex.stp
--rw-r--r-- root       root             7578 ./usr/share/systemtap/tapset/registers.stp
+-rw-r--r-- root       root             7948 ./usr/share/systemtap/tapset/registers.stp
 drwxr-xr-x root       root               60 ./usr/share/systemtap/tapset/s390
 -rw-r--r-- root       root             8149 ./usr/share/systemtap/tapset/s390/registers.stp
 -rw-r--r-- root       root              212 ./usr/share/systemtap/tapset/sizeof.stpm

@@ -1,8 +1,8 @@
-PV = 1.1.8
+PV = 1.1.9
 PR = r0
-PKGR = r0.34
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.8) glibc (>= 2.29) libsamplerate0 (>= 0.1.9)
+RDEPENDS = alsa-lib (>= 1.1.9) glibc (>= 2.29) libsamplerate0 (>= 0.1.9)
 RRECOMMENDS = 
 PKGSIZE = 68399
 FILES = /usr/share/alsa/alsa.conf.d/10-samplerate.conf /etc/alsa/conf.d/10-samplerate.conf /usr/lib/alsa-lib/*rate_samplerate_*.so /usr/lib/alsa-lib/libasound_module_rate_samplerate.so
