@@ -1,10 +1,11 @@
 drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root              140 ./etc/kea
--rw-r--r-- root       root             3578 ./etc/kea/kea-ctrl-agent.conf
--rw-r--r-- root       root              829 ./etc/kea/keactrl.conf
--rw-r--r-- root       root            21898 ./etc/kea/kea-dhcp4.conf
--rw-r--r-- root       root            17492 ./etc/kea/kea-dhcp6.conf
--rw-r--r-- root       root             2802 ./etc/kea/kea-dhcp-ddns.conf
+drwxr-xr-x root       root              160 ./etc/kea
+-rw-r--r-- root       root             3631 ./etc/kea/kea-ctrl-agent.conf
+-rw-r--r-- root       root             1018 ./etc/kea/keactrl.conf
+-rw-r--r-- root       root            21983 ./etc/kea/kea-dhcp4.conf
+-rw-r--r-- root       root            17545 ./etc/kea/kea-dhcp6.conf
+-rw-r--r-- root       root             2855 ./etc/kea/kea-dhcp-ddns.conf
+-rw-r--r-- root       root             3656 ./etc/kea/kea-netconf.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              100 ./lib/systemd/system
@@ -14,72 +15,75 @@ drwxr-xr-x root       root              100 ./lib/systemd/system
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               82 ./lib/systemd/system-preset/98-kea.preset
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root              840 ./usr/lib
+drwxr-xr-x root       root              880 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/hooks
--rwxr-xr-x root       root           457992 ./usr/lib/hooks/libdhcp_ha.so
+-rwxr-xr-x root       root           503112 ./usr/lib/hooks/libdhcp_ha.so
 -rwxr-xr-x root       root           174672 ./usr/lib/hooks/libdhcp_stat_cmds.so
 drwxr-xr-x root       root               60 ./usr/lib/kea
 drwxr-xr-x root       root               60 ./usr/lib/kea/hooks
--rwxr-xr-x root       root           174640 ./usr/lib/kea/hooks/libdhcp_lease_cmds.so
+-rwxr-xr-x root       root           191024 ./usr/lib/kea/hooks/libdhcp_lease_cmds.so
 -rwxr-xr-x root       root           273256 ./usr/lib/libkea-asiodns.so.0.0.2
 lrwxrwxrwx root       root               23 ./usr/lib/libkea-asiodns.so.0 -> libkea-asiodns.so.0.0.2
--rwxr-xr-x root       root           346480 ./usr/lib/libkea-asiolink.so.6.0.1
-lrwxrwxrwx root       root               24 ./usr/lib/libkea-asiolink.so.6 -> libkea-asiolink.so.6.0.1
--rwxr-xr-x root       root           260496 ./usr/lib/libkea-cc.so.5.0.0
-lrwxrwxrwx root       root               18 ./usr/lib/libkea-cc.so.5 -> libkea-cc.so.5.0.0
--rwxr-xr-x root       root           273208 ./usr/lib/libkea-cfgclient.so.5.0.1
-lrwxrwxrwx root       root               25 ./usr/lib/libkea-cfgclient.so.5 -> libkea-cfgclient.so.5.0.1
--rwxr-xr-x root       root            43280 ./usr/lib/libkea-cryptolink.so.3.0.0
-lrwxrwxrwx root       root               26 ./usr/lib/libkea-cryptolink.so.3 -> libkea-cryptolink.so.3.0.0
+-rwxr-xr-x root       root           358768 ./usr/lib/libkea-asiolink.so.7.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libkea-asiolink.so.7 -> libkea-asiolink.so.7.0.0
+-rwxr-xr-x root       root           334232 ./usr/lib/libkea-cc.so.7.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libkea-cc.so.7 -> libkea-cc.so.7.0.0
+-rwxr-xr-x root       root           273224 ./usr/lib/libkea-cfgclient.so.6.0.0
+lrwxrwxrwx root       root               25 ./usr/lib/libkea-cfgclient.so.6 -> libkea-cfgclient.so.6.0.0
+-rwxr-xr-x root       root            51472 ./usr/lib/libkea-cryptolink.so.4.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/libkea-cryptolink.so.4 -> libkea-cryptolink.so.4.0.0
+-rwxr-xr-x root       root           150144 ./usr/lib/libkea-database.so.1.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libkea-database.so.1 -> libkea-database.so.1.0.0
 -rwxr-xr-x root       root           297720 ./usr/lib/libkea-dhcp_ddns.so.1.0.3
 lrwxrwxrwx root       root               25 ./usr/lib/libkea-dhcp_ddns.so.1 -> libkea-dhcp_ddns.so.1.0.3
--rwxr-xr-x root       root          1190496 ./usr/lib/libkea-dhcp++.so.8.0.0
-lrwxrwxrwx root       root               22 ./usr/lib/libkea-dhcp++.so.8 -> libkea-dhcp++.so.8.0.0
--rwxr-xr-x root       root          2211456 ./usr/lib/libkea-dhcpsrv.so.10.0.0
-lrwxrwxrwx root       root               24 ./usr/lib/libkea-dhcpsrv.so.10 -> libkea-dhcpsrv.so.10.0.0
--rwxr-xr-x root       root          1292720 ./usr/lib/libkea-dns++.so.2.0.1
-lrwxrwxrwx root       root               21 ./usr/lib/libkea-dns++.so.2 -> libkea-dns++.so.2.0.1
--rwxr-xr-x root       root           314240 ./usr/lib/libkea-eval.so.7.0.1
-lrwxrwxrwx root       root               20 ./usr/lib/libkea-eval.so.7 -> libkea-eval.so.7.0.1
+-rwxr-xr-x root       root          1305184 ./usr/lib/libkea-dhcp++.so.11.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libkea-dhcp++.so.11 -> libkea-dhcp++.so.11.0.0
+-rwxr-xr-x root       root          2236288 ./usr/lib/libkea-dhcpsrv.so.14.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libkea-dhcpsrv.so.14 -> libkea-dhcpsrv.so.14.0.0
+-rwxr-xr-x root       root          1292720 ./usr/lib/libkea-dns++.so.3.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libkea-dns++.so.3 -> libkea-dns++.so.3.0.0
+-rwxr-xr-x root       root           322448 ./usr/lib/libkea-eval.so.10.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libkea-eval.so.10 -> libkea-eval.so.10.0.0
 -rwxr-xr-x root       root            14600 ./usr/lib/libkea-exceptions.so.0.0.1
 lrwxrwxrwx root       root               26 ./usr/lib/libkea-exceptions.so.0 -> libkea-exceptions.so.0.0.1
--rwxr-xr-x root       root           207744 ./usr/lib/libkea-hooks.so.6.0.0
-lrwxrwxrwx root       root               21 ./usr/lib/libkea-hooks.so.6 -> libkea-hooks.so.6.0.0
--rwxr-xr-x root       root           879576 ./usr/lib/libkea-http.so.2.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libkea-http.so.2 -> libkea-http.so.2.0.0
+-rwxr-xr-x root       root           211840 ./usr/lib/libkea-hooks.so.7.0.2
+lrwxrwxrwx root       root               21 ./usr/lib/libkea-hooks.so.7 -> libkea-hooks.so.7.0.2
+-rwxr-xr-x root       root           887768 ./usr/lib/libkea-http.so.4.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libkea-http.so.4 -> libkea-http.so.4.0.0
 -rwxr-xr-x root       root           191240 ./usr/lib/libkea-log.so.3.0.1
 lrwxrwxrwx root       root               19 ./usr/lib/libkea-log.so.3 -> libkea-log.so.3.0.1
--rwxr-xr-x root       root           240480 ./usr/lib/libkea-process.so.2.0.1
-lrwxrwxrwx root       root               23 ./usr/lib/libkea-process.so.2 -> libkea-process.so.2.0.1
+-rwxr-xr-x root       root           293728 ./usr/lib/libkea-process.so.3.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libkea-process.so.3 -> libkea-process.so.3.0.0
 -rwxr-xr-x root       root           141568 ./usr/lib/libkea-stats.so.2.0.2
 lrwxrwxrwx root       root               21 ./usr/lib/libkea-stats.so.2 -> libkea-stats.so.2.0.2
--rwxr-xr-x root       root            47368 ./usr/lib/libkea-threads.so.1.0.0
-lrwxrwxrwx root       root               23 ./usr/lib/libkea-threads.so.1 -> libkea-threads.so.1.0.0
+-rwxr-xr-x root       root            55560 ./usr/lib/libkea-threads.so.2.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libkea-threads.so.2 -> libkea-threads.so.2.0.0
 -rwxr-xr-x root       root            51464 ./usr/lib/libkea-util-io.so.0.0.1
 lrwxrwxrwx root       root               23 ./usr/lib/libkea-util-io.so.0 -> libkea-util-io.so.0.0.1
--rwxr-xr-x root       root           371088 ./usr/lib/libkea-util.so.3.0.1
-lrwxrwxrwx root       root               20 ./usr/lib/libkea-util.so.3 -> libkea-util.so.3.0.1
+-rwxr-xr-x root       root           523688 ./usr/lib/libkea-util.so.5.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libkea-util.so.5 -> libkea-util.so.5.0.0
 drwxr-xr-x root       root              200 ./usr/sbin
--rwxr-xr-x root       root            21228 ./usr/sbin/kea-admin
--rwxr-xr-x root       root            15096 ./usr/sbin/keactrl
--rwxr-xr-x root       root           338664 ./usr/sbin/kea-ctrl-agent
--rwxr-xr-x root       root           856536 ./usr/sbin/kea-dhcp4
--rwxr-xr-x root       root           864856 ./usr/sbin/kea-dhcp6
--rwxr-xr-x root       root           622384 ./usr/sbin/kea-dhcp-ddns
--rwxr-xr-x root       root           166584 ./usr/sbin/kea-lfc
+-rwxr-xr-x root       root            21513 ./usr/sbin/kea-admin
+-rwxr-xr-x root       root            17827 ./usr/sbin/keactrl
+-rwxr-xr-x root       root           334568 ./usr/sbin/kea-ctrl-agent
+-rwxr-xr-x root       root           897528 ./usr/sbin/kea-dhcp4
+-rwxr-xr-x root       root           897640 ./usr/sbin/kea-dhcp6
+-rwxr-xr-x root       root           618288 ./usr/sbin/kea-dhcp-ddns
+-rwxr-xr-x root       root           170680 ./usr/sbin/kea-lfc
 -rwxr-xr-x root       root           416208 ./usr/sbin/perfdhcp
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/kea
+drwxr-xr-x root       root               80 ./usr/share/kea
 drwxr-xr-x root       root              120 ./usr/share/kea/scripts
--rw-r--r-- root       root             4408 ./usr/share/kea/scripts/admin-utils.sh
-drwxr-xr-x root       root              120 ./usr/share/kea/scripts/cql
--rw-r--r-- root       root            10998 ./usr/share/kea/scripts/cql/dhcpdb_create.cql
--rw-r--r-- root       root             1779 ./usr/share/kea/scripts/cql/dhcpdb_drop.cql
--rw-r--r-- root       root             1196 ./usr/share/kea/scripts/cql/soft_wipe.cql
+-rw-r--r-- root       root             4448 ./usr/share/kea/scripts/admin-utils.sh
+drwxr-xr-x root       root              140 ./usr/share/kea/scripts/cql
+-rw-r--r-- root       root            12077 ./usr/share/kea/scripts/cql/dhcpdb_create.cql
+-rw-r--r-- root       root             1903 ./usr/share/kea/scripts/cql/dhcpdb_drop.cql
+-rw-r--r-- root       root             1222 ./usr/share/kea/scripts/cql/soft_wipe.cql
 -rw-r--r-- root       root             3694 ./usr/share/kea/scripts/cql/upgrade_1.0_to_2.0.sh
-drwxr-xr-x root       root              240 ./usr/share/kea/scripts/mysql
--rw-r--r-- root       root            27447 ./usr/share/kea/scripts/mysql/dhcpdb_create.mysql
--rw-r--r-- root       root             1336 ./usr/share/kea/scripts/mysql/dhcpdb_drop.mysql
+-rw-r--r-- root       root             7714 ./usr/share/kea/scripts/cql/upgrade_2.0_to_3.0.sh
+drwxr-xr-x root       root              260 ./usr/share/kea/scripts/mysql
+-rw-r--r-- root       root            53698 ./usr/share/kea/scripts/mysql/dhcpdb_create.mysql
+-rw-r--r-- root       root             2428 ./usr/share/kea/scripts/mysql/dhcpdb_drop.mysql
 -rw-r--r-- root       root             1432 ./usr/share/kea/scripts/mysql/upgrade_1.0_to_2.0.sh
 -rw-r--r-- root       root             3166 ./usr/share/kea/scripts/mysql/upgrade_2.0_to_3.0.sh
 -rw-r--r-- root       root             5031 ./usr/share/kea/scripts/mysql/upgrade_3.0_to_4.0.sh
@@ -88,12 +92,31 @@ drwxr-xr-x root       root              240 ./usr/share/kea/scripts/mysql
 -rw-r--r-- root       root             1353 ./usr/share/kea/scripts/mysql/upgrade_5.0_to_5.1.sh
 -rw-r--r-- root       root              892 ./usr/share/kea/scripts/mysql/upgrade_5.1_to_5.2.sh
 -rw-r--r-- root       root             6816 ./usr/share/kea/scripts/mysql/upgrade_5.2_to_6.0.sh
-drwxr-xr-x root       root              200 ./usr/share/kea/scripts/pgsql
--rw-r--r-- root       root            27713 ./usr/share/kea/scripts/pgsql/dhcpdb_create.pgsql
--rw-r--r-- root       root             1353 ./usr/share/kea/scripts/pgsql/dhcpdb_drop.pgsql
+-rw-r--r-- root       root            24192 ./usr/share/kea/scripts/mysql/upgrade_6.0_to_7.0.sh
+drwxr-xr-x root       root              220 ./usr/share/kea/scripts/pgsql
+-rw-r--r-- root       root            31363 ./usr/share/kea/scripts/pgsql/dhcpdb_create.pgsql
+-rw-r--r-- root       root             1388 ./usr/share/kea/scripts/pgsql/dhcpdb_drop.pgsql
 -rw-r--r-- root       root             5099 ./usr/share/kea/scripts/pgsql/upgrade_1.0_to_2.0.sh
 -rw-r--r-- root       root             9136 ./usr/share/kea/scripts/pgsql/upgrade_2.0_to_3.0.sh
 -rw-r--r-- root       root             1337 ./usr/share/kea/scripts/pgsql/upgrade_3.0_to_3.1.sh
 -rw-r--r-- root       root             2236 ./usr/share/kea/scripts/pgsql/upgrade_3.1_to_3.2.sh
 -rw-r--r-- root       root             1072 ./usr/share/kea/scripts/pgsql/upgrade_3.2_to_3.3.sh
 -rw-r--r-- root       root             7664 ./usr/share/kea/scripts/pgsql/upgrade_3.3_to_4.0.sh
+-rw-r--r-- root       root             4896 ./usr/share/kea/scripts/pgsql/upgrade_4.0_to_5.0.sh
+drwxr-xr-x root       root               60 ./usr/share/kea/yang
+drwxr-xr-x root       root              340 ./usr/share/kea/yang/modules
+-rw-r--r-- root       root             9762 ./usr/share/kea/yang/modules/ietf-dhcpv6-client@2018-09-04.yang
+-rw-r--r-- root       root            43001 ./usr/share/kea/yang/modules/ietf-dhcpv6-options@2018-09-04.yang
+-rw-r--r-- root       root            13608 ./usr/share/kea/yang/modules/ietf-dhcpv6-relay@2018-09-04.yang
+-rw-r--r-- root       root            46275 ./usr/share/kea/yang/modules/ietf-dhcpv6-server@2018-09-04.yang
+-rw-r--r-- root       root             5974 ./usr/share/kea/yang/modules/ietf-dhcpv6-types@2018-09-04.yang
+-rw-r--r-- root       root            16829 ./usr/share/kea/yang/modules/ietf-inet-types@2013-07-15.yang
+-rw-r--r-- root       root            24940 ./usr/share/kea/yang/modules/ietf-interfaces@2014-05-08.yang
+-rw-r--r-- root       root            17933 ./usr/share/kea/yang/modules/ietf-yang-types@2013-07-15.yang
+-rw-r--r-- root       root             1902 ./usr/share/kea/yang/modules/kea-ctrl-agent@2018-11-20.yang
+-rw-r--r-- root       root            13143 ./usr/share/kea/yang/modules/kea-dhcp4-server@2018-11-20.yang
+-rw-r--r-- root       root            14797 ./usr/share/kea/yang/modules/kea-dhcp6-server@2018-11-20.yang
+-rw-r--r-- root       root             4306 ./usr/share/kea/yang/modules/kea-dhcp-ddns@2018-11-20.yang
+-rw-r--r-- root       root            20222 ./usr/share/kea/yang/modules/kea-dhcp-types@2018-11-20.yang
+-rw-r--r-- root       root             2921 ./usr/share/kea/yang/modules/kea-logging@2018-11-20.yang
+-rw-r--r-- root       root             1533 ./usr/share/kea/yang/modules/kea-types@2018-11-20.yang
