@@ -15,7 +15,7 @@ drwxr-xr-x root       root              380 ./usr/lib/gstreamer1.0/ptest/element
 -rwxr-xr-x root       root             9860 ./usr/lib/gstreamer1.0/ptest/elements/identity
 -rwxr-xr-x root       root            34436 ./usr/lib/gstreamer1.0/ptest/elements/multiqueue
 -rwxr-xr-x root       root            30408 ./usr/lib/gstreamer1.0/ptest/elements/queue
--rwxr-xr-x root       root            18048 ./usr/lib/gstreamer1.0/ptest/elements/queue2
+-rwxr-xr-x root       root            22144 ./usr/lib/gstreamer1.0/ptest/elements/queue2
 -rwxr-xr-x root       root            22292 ./usr/lib/gstreamer1.0/ptest/elements/selector
 -rwxr-xr-x root       root            22152 ./usr/lib/gstreamer1.0/ptest/elements/streamiddemux
 -rwxr-xr-x root       root            34500 ./usr/lib/gstreamer1.0/ptest/elements/tee
@@ -50,7 +50,7 @@ drwxr-xr-x root       root             1100 ./usr/lib/gstreamer1.0/ptest/gst
 -rwxr-xr-x root       root            13956 ./usr/lib/gstreamer1.0/ptest/gst/gstiterator
 -rwxr-xr-x root       root            26244 ./usr/lib/gstreamer1.0/ptest/gst/gstmemory
 -rwxr-xr-x root       root            26244 ./usr/lib/gstreamer1.0/ptest/gst/gstmessage
--rwxr-xr-x root       root            18056 ./usr/lib/gstreamer1.0/ptest/gst/gstmeta
+-rwxr-xr-x root       root            22152 ./usr/lib/gstreamer1.0/ptest/gst/gstmeta
 -rwxr-xr-x root       root            18056 ./usr/lib/gstreamer1.0/ptest/gst/gstminiobject
 -rwxr-xr-x root       root            26244 ./usr/lib/gstreamer1.0/ptest/gst/gstobject
 -rwxr-xr-x root       root            87824 ./usr/lib/gstreamer1.0/ptest/gst/gstpad
@@ -77,7 +77,7 @@ drwxr-xr-x root       root             1100 ./usr/lib/gstreamer1.0/ptest/gst
 -rwxr-xr-x root       root            50876 ./usr/lib/gstreamer1.0/ptest/gst/gsturi
 -rwxr-xr-x root       root            55268 ./usr/lib/gstreamer1.0/ptest/gst/gstutils
 -rwxr-xr-x root       root           104480 ./usr/lib/gstreamer1.0/ptest/gst/gstvalue
-drwxr-xr-x root       root              540 ./usr/lib/gstreamer1.0/ptest/libs
+drwxr-xr-x root       root              560 ./usr/lib/gstreamer1.0/ptest/libs
 -rwxr-xr-x root       root            38528 ./usr/lib/gstreamer1.0/ptest/libs/adapter
 -rwxr-xr-x root       root            34580 ./usr/lib/gstreamer1.0/ptest/libs/aggregator
 -rwxr-xr-x root       root            18196 ./usr/lib/gstreamer1.0/ptest/libs/baseparse
@@ -85,6 +85,7 @@ drwxr-xr-x root       root              540 ./usr/lib/gstreamer1.0/ptest/libs
 -rwxr-xr-x root       root            26312 ./usr/lib/gstreamer1.0/ptest/libs/basesrc
 -rwxr-xr-x root       root            26244 ./usr/lib/gstreamer1.0/ptest/libs/bitreader
 -rwxr-xr-x root       root            22156 ./usr/lib/gstreamer1.0/ptest/libs/bitreader-noinline
+-rwxr-xr-x root       root            18080 ./usr/lib/gstreamer1.0/ptest/libs/bitwriter
 -rwxr-xr-x root       root            59012 ./usr/lib/gstreamer1.0/ptest/libs/bytereader
 -rwxr-xr-x root       root            67212 ./usr/lib/gstreamer1.0/ptest/libs/bytereader-noinline
 -rwxr-xr-x root       root            18064 ./usr/lib/gstreamer1.0/ptest/libs/bytewriter
@@ -98,12 +99,12 @@ drwxr-xr-x root       root              540 ./usr/lib/gstreamer1.0/ptest/libs
 -rwxr-xr-x root       root             9868 ./usr/lib/gstreamer1.0/ptest/libs/gstnettimeprovider
 -rwxr-xr-x root       root            34440 ./usr/lib/gstreamer1.0/ptest/libs/gsttestclock
 -rwxr-xr-x root       root            10288 ./usr/lib/gstreamer1.0/ptest/libs/libsabi
--rwxr-xr-x root       root            13956 ./usr/lib/gstreamer1.0/ptest/libs/queuearray
+-rwxr-xr-x root       root            18052 ./usr/lib/gstreamer1.0/ptest/libs/queuearray
 -rwxr-xr-x root       root            13956 ./usr/lib/gstreamer1.0/ptest/libs/sparsefile
 -rwxr-xr-x root       root            26396 ./usr/lib/gstreamer1.0/ptest/libs/transform1
 -rwxr-xr-x root       root            14032 ./usr/lib/gstreamer1.0/ptest/libs/transform2
 -rwxr-xr-x root       root             9888 ./usr/lib/gstreamer1.0/ptest/libs/typefindhelper
--rw-r--r-- root       root           188780 ./usr/lib/gstreamer1.0/ptest/Makefile
+-rw-r--r-- root       root           190008 ./usr/lib/gstreamer1.0/ptest/Makefile
 drwxr-xr-x root       root              160 ./usr/lib/gstreamer1.0/ptest/pipelines
 -rwxr-xr-x root       root             9856 ./usr/lib/gstreamer1.0/ptest/pipelines/cleanup
 -rwxr-xr-x root       root            26504 ./usr/lib/gstreamer1.0/ptest/pipelines/parse-launch
@@ -114,4 +115,4 @@ drwxr-xr-x root       root              160 ./usr/lib/gstreamer1.0/ptest/pipelin
 -rwxr-xr-x root       root               28 ./usr/lib/gstreamer1.0/ptest/run-ptest
 -rwxr-xr-x root       root             4642 ./usr/lib/gstreamer1.0/ptest/test-driver
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer1.0/ptest/tools
--rwxr-xr-x root       root            38804 ./usr/lib/gstreamer1.0/ptest/tools/gstinspect
+-rwxr-xr-x root       root            51100 ./usr/lib/gstreamer1.0/ptest/tools/gstinspect

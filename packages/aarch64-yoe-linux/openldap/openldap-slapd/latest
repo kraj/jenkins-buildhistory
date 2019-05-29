@@ -1,9 +1,9 @@
 PV = 2.4.47
 PR = r0
 PKG = libldap-2.4-slapd
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = openldap-slapd (=2.4.47)
-RDEPENDS = glibc (>= 2.29) libltdl (>= 2.4.6) libxcrypt (>= 4.4.4) openldap (>= 2.4.47) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = glibc (>= 2.29) libltdl (>= 2.4.6) libxcrypt (>= 4.4.6) openldap (>= 2.4.47) util-linux-libuuid (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 1752541
 FILES = /etc/init.d /usr/libexec/slapd /usr/sbin /var/run /var/volatile/run /etc/openldap/slapd.* /etc/openldap/schema /etc/openldap/DB_CONFIG.example /lib/systemd/system/*
