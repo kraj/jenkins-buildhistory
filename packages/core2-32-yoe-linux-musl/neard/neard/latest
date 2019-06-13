@@ -1,8 +1,8 @@
 PV = 0.16
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = dbus dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = dbus dbus-lib (>= 1.12.14) glib-2.0 (>= 2.60.3) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = bluez5 wpa-supplicant
 PKGSIZE = 405071
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/neard /usr/lib/neard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-neard.preset /lib/systemd/system/neard.service

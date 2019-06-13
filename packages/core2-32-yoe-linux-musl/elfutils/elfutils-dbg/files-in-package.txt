@@ -42,12 +42,11 @@ drwxr-xr-x root       root              380 ./usr/lib/elfutils/.debug
 -rwxr-xr-x root       root           155804 ./usr/lib/elfutils/.debug/libebl_x86_64-0.176.so
 drwxr-xr-x root       root               80 ./usr/lib/elfutils/ptest
 drwxr-xr-x root       root               60 ./usr/lib/elfutils/ptest/backends
-drwxr-xr-x root       root              380 ./usr/lib/elfutils/ptest/backends/.debug
+drwxr-xr-x root       root              340 ./usr/lib/elfutils/ptest/backends/.debug
 -rwxr-xr-x root       root            80276 ./usr/lib/elfutils/ptest/backends/.debug/libebl_aarch64.so
 -rwxr-xr-x root       root            58964 ./usr/lib/elfutils/ptest/backends/.debug/libebl_alpha.so
 -rwxr-xr-x root       root            69908 ./usr/lib/elfutils/ptest/backends/.debug/libebl_arm.so
 -rwxr-xr-x root       root            45648 ./usr/lib/elfutils/ptest/backends/.debug/libebl_bpf.so
--rwxr-xr-x root       root           150368 ./usr/lib/elfutils/ptest/backends/.debug/libebl_i386.so
 -rwxr-xr-x root       root            60908 ./usr/lib/elfutils/ptest/backends/.debug/libebl_ia64.so
 -rwxr-xr-x root       root            52656 ./usr/lib/elfutils/ptest/backends/.debug/libebl_m68k.so
 -rwxr-xr-x root       root            50488 ./usr/lib/elfutils/ptest/backends/.debug/libebl_mips.so
@@ -59,9 +58,8 @@ drwxr-xr-x root       root              380 ./usr/lib/elfutils/ptest/backends/.d
 -rwxr-xr-x root       root            46968 ./usr/lib/elfutils/ptest/backends/.debug/libebl_sh.so
 -rwxr-xr-x root       root            76776 ./usr/lib/elfutils/ptest/backends/.debug/libebl_sparc.so
 -rwxr-xr-x root       root            47880 ./usr/lib/elfutils/ptest/backends/.debug/libebl_tilegx.so
--rwxr-xr-x root       root           155804 ./usr/lib/elfutils/ptest/backends/.debug/libebl_x86_64.so
 drwxr-xr-x root       root               60 ./usr/lib/elfutils/ptest/tests
-drwxr-xr-x root       root             2100 ./usr/lib/elfutils/ptest/tests/.debug
+drwxr-xr-x root       root             2000 ./usr/lib/elfutils/ptest/tests/.debug
 -rwxr-xr-x root       root           146816 ./usr/lib/elfutils/ptest/tests/.debug/addrcfi
 -rwxr-xr-x root       root           149192 ./usr/lib/elfutils/ptest/tests/.debug/addrscopes
 -rwxr-xr-x root       root            17860 ./usr/lib/elfutils/ptest/tests/.debug/addsections
@@ -84,13 +82,10 @@ drwxr-xr-x root       root             2100 ./usr/lib/elfutils/ptest/tests/.debu
 -rwxr-xr-x root       root            43716 ./usr/lib/elfutils/ptest/tests/.debug/asm-tst9
 -rwxr-xr-x root       root            16360 ./usr/lib/elfutils/ptest/tests/.debug/attr-integrate-skel
 -rwxr-xr-x root       root           152960 ./usr/lib/elfutils/ptest/tests/.debug/backtrace
--rwxr-xr-x root       root            11532 ./usr/lib/elfutils/ptest/tests/.debug/backtrace-child
--rwxr-xr-x root       root             7924 ./usr/lib/elfutils/ptest/tests/.debug/backtrace-data
 -rwxr-xr-x root       root            16424 ./usr/lib/elfutils/ptest/tests/.debug/backtrace-dwarf
 -rwxr-xr-x root       root            12016 ./usr/lib/elfutils/ptest/tests/.debug/buildid
 -rwxr-xr-x root       root            11896 ./usr/lib/elfutils/ptest/tests/.debug/debugaltlink
 -rwxr-xr-x root       root            11604 ./usr/lib/elfutils/ptest/tests/.debug/debuglink
--rwxr-xr-x root       root             8780 ./usr/lib/elfutils/ptest/tests/.debug/deleted
 -rwxr-xr-x root       root             4788 ./usr/lib/elfutils/ptest/tests/.debug/deleted-lib.so
 -rwxr-xr-x root       root            20612 ./usr/lib/elfutils/ptest/tests/.debug/dwarfcfi
 -rwxr-xr-x root       root            11804 ./usr/lib/elfutils/ptest/tests/.debug/dwarf_default_lower_bound
@@ -116,7 +111,6 @@ drwxr-xr-x root       root             2100 ./usr/lib/elfutils/ptest/tests/.debu
 -rwxr-xr-x root       root            12776 ./usr/lib/elfutils/ptest/tests/.debug/elfgetzdata
 -rwxr-xr-x root       root            15468 ./usr/lib/elfutils/ptest/tests/.debug/elfputzdata
 -rwxr-xr-x root       root            13012 ./usr/lib/elfutils/ptest/tests/.debug/elfshphehdr
--rwxr-xr-x root       root            31228 ./usr/lib/elfutils/ptest/tests/.debug/elfstrmerge
 -rwxr-xr-x root       root            18796 ./usr/lib/elfutils/ptest/tests/.debug/elfstrtab
 -rwxr-xr-x root       root            16240 ./usr/lib/elfutils/ptest/tests/.debug/emptyfile
 -rwxr-xr-x root       root            20892 ./usr/lib/elfutils/ptest/tests/.debug/fillfile
@@ -153,7 +147,6 @@ drwxr-xr-x root       root             2100 ./usr/lib/elfutils/ptest/tests/.debu
 -rwxr-xr-x root       root             7912 ./usr/lib/elfutils/ptest/tests/.debug/system-elf-libelf-test
 -rwxr-xr-x root       root            11028 ./usr/lib/elfutils/ptest/tests/.debug/test-elf_cntl_gelf_getshdr
 -rwxr-xr-x root       root             8904 ./usr/lib/elfutils/ptest/tests/.debug/test-flag-nobits
--rwxr-xr-x root       root             9476 ./usr/lib/elfutils/ptest/tests/.debug/test-nlist
 -rwxr-xr-x root       root            17920 ./usr/lib/elfutils/ptest/tests/.debug/typeiter
 -rwxr-xr-x root       root            18156 ./usr/lib/elfutils/ptest/tests/.debug/typeiter2
 -rwxr-xr-x root       root            13020 ./usr/lib/elfutils/ptest/tests/.debug/unit-info

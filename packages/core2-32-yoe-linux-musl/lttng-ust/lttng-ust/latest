@@ -1,9 +1,9 @@
 PE = 2
 PV = 2.10.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = lttng2-ust
-RDEPENDS = liburcu (>= 0.10.2) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = liburcu (>= 0.11.1) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 RREPLACES = lttng2-ust
 RCONFLICTS = lttng2-ust

@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
 PKG = libavahi-client3
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libavahi-client (=0.7)
-RDEPENDS = dbus-lib (>= 1.12.12) libavahi-common (>= 0.7) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = dbus-lib (>= 1.12.14) libavahi-common (>= 0.7) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 79520
 FILES = /usr/lib/libavahi-client.so.*

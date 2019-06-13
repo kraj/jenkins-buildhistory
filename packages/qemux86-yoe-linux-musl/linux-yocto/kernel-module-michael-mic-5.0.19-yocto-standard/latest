@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-michael-mic
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4284
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/crypto/michael_mic.ko /etc/modules-load.d/michael_mic.conf /etc/modprobe.d/michael_mic.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/crypto/michael_mic.ko

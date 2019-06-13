@@ -1,9 +1,9 @@
 PV = 1.18.0
 PR = r0
 PKG = libnm-glib-vpn1
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libnmglib-vpn (=1.18.0)
-RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.12) glib-2.0 (>= 2.58.3) libnmutil (>= 1.18.0) musl (>= 1.1.22+git1+ac304227bb) nspr (>= 4.21) nss (>= 3.44) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.14) glib-2.0 (>= 2.60.3) libnmutil (>= 1.18.0) musl (>= 1.1.22+git1+ac304227bb) nspr (>= 4.21) nss (>= 3.44) util-linux-libuuid (>= 2.33.2)
 RRECOMMENDS = 
 PKGSIZE = 38295
 FILES = /usr/lib/libnm-glib-vpn.so.*

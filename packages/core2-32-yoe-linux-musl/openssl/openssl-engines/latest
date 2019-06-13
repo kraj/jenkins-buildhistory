@@ -1,9 +1,9 @@
-PV = 1.1.1b
+PV = 1.1.1c
 PR = r0
-PKGR = r0.3
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1b) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = libcrypto (>= 1.1.1c) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
-PKGSIZE = 32836
+PKGSIZE = 45360
 FILES = /usr/lib/engines-1.1
 FILELIST = /usr/lib/engines-1.1/afalg.so /usr/lib/engines-1.1/capi.so /usr/lib/engines-1.1/padlock.so

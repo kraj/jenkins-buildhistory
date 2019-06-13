@@ -90,7 +90,7 @@ drwxr-xr-x root       root             1080 ./usr/include/gtk-3.0/gtk/a11y
 -rw-r--r-- root       root             2420 ./usr/include/gtk-3.0/gtk/a11y/gtkbooleancellaccessible.h
 -rw-r--r-- root       root             2298 ./usr/include/gtk-3.0/gtk/a11y/gtkbuttonaccessible.h
 -rw-r--r-- root       root             2371 ./usr/include/gtk-3.0/gtk/a11y/gtkcellaccessible.h
--rw-r--r-- root       root             7752 ./usr/include/gtk-3.0/gtk/a11y/gtkcellaccessibleparent.h
+-rw-r--r-- root       root             7792 ./usr/include/gtk-3.0/gtk/a11y/gtkcellaccessibleparent.h
 -rw-r--r-- root       root             2481 ./usr/include/gtk-3.0/gtk/a11y/gtkcheckmenuitemaccessible.h
 -rw-r--r-- root       root             2376 ./usr/include/gtk-3.0/gtk/a11y/gtkcomboboxaccessible.h
 -rw-r--r-- root       root             2655 ./usr/include/gtk-3.0/gtk/a11y/gtkcontaineraccessible.h
@@ -400,7 +400,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root             3367 ./usr/include/gtk-3.0/gtk/gtkversion.h
 -rw-r--r-- root       root             3724 ./usr/include/gtk-3.0/gtk/gtkviewport.h
 -rw-r--r-- root       root             2550 ./usr/include/gtk-3.0/gtk/gtkvolumebutton.h
--rw-r--r-- root       root            67539 ./usr/include/gtk-3.0/gtk/gtkwidget.h
+-rw-r--r-- root       root            67581 ./usr/include/gtk-3.0/gtk/gtkwidget.h
 -rw-r--r-- root       root             8856 ./usr/include/gtk-3.0/gtk/gtkwidgetpath.h
 -rw-r--r-- root       root             3224 ./usr/include/gtk-3.0/gtk/gtkwindowgroup.h
 -rw-r--r-- root       root            21244 ./usr/include/gtk-3.0/gtk/gtkwindow.h
@@ -416,17 +416,17 @@ drwxr-xr-x root       root              160 ./usr/include/gtk-3.0/unix-print/gtk
 -rw-r--r-- root       root             1034 ./usr/include/gtk-3.0/unix-print/gtk/gtkunixprint.h
 drwxr-xr-x root       root              120 ./usr/lib
 lrwxrwxrwx root       root               22 ./usr/lib/libgailutil-3.so -> libgailutil-3.so.0.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libgdk-3.so -> libgdk-3.so.0.2404.1
-lrwxrwxrwx root       root               20 ./usr/lib/libgtk-3.so -> libgtk-3.so.0.2404.1
+lrwxrwxrwx root       root               20 ./usr/lib/libgdk-3.so -> libgdk-3.so.0.2404.4
+lrwxrwxrwx root       root               20 ./usr/lib/libgtk-3.so -> libgtk-3.so.0.2404.4
 drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              240 ./usr/lib/pkgconfig/gail-3.0.pc
--rw-r--r-- root       root              543 ./usr/lib/pkgconfig/gdk-3.0.pc
--rw-r--r-- root       root              543 ./usr/lib/pkgconfig/gdk-wayland-3.0.pc
--rw-r--r-- root       root              543 ./usr/lib/pkgconfig/gdk-x11-3.0.pc
--rw-r--r-- root       root              576 ./usr/lib/pkgconfig/gtk+-3.0.pc
+-rw-r--r-- root       root              561 ./usr/lib/pkgconfig/gdk-3.0.pc
+-rw-r--r-- root       root              561 ./usr/lib/pkgconfig/gdk-wayland-3.0.pc
+-rw-r--r-- root       root              561 ./usr/lib/pkgconfig/gdk-x11-3.0.pc
+-rw-r--r-- root       root              594 ./usr/lib/pkgconfig/gtk+-3.0.pc
 -rw-r--r-- root       root              368 ./usr/lib/pkgconfig/gtk+-unix-print-3.0.pc
--rw-r--r-- root       root              576 ./usr/lib/pkgconfig/gtk+-wayland-3.0.pc
--rw-r--r-- root       root              576 ./usr/lib/pkgconfig/gtk+-x11-3.0.pc
+-rw-r--r-- root       root              594 ./usr/lib/pkgconfig/gtk+-wayland-3.0.pc
+-rw-r--r-- root       root              594 ./usr/lib/pkgconfig/gtk+-x11-3.0.pc
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/aclocal
 -rw-r--r-- root       root             8227 ./usr/share/aclocal/gtk-3.0.m4
@@ -435,8 +435,8 @@ drwxr-xr-x root       root               80 ./usr/share/gettext/its
 -rw-r--r-- root       root             1051 ./usr/share/gettext/its/gtkbuilder.its
 -rw-r--r-- root       root              189 ./usr/share/gettext/its/gtkbuilder.loc
 drwxr-xr-x root       root              100 ./usr/share/gir-1.0
--rw-r--r-- root       root          1736443 ./usr/share/gir-1.0/Gdk-3.0.gir
--rw-r--r-- root       root            89161 ./usr/share/gir-1.0/GdkX11-3.0.gir
--rw-r--r-- root       root          9382007 ./usr/share/gir-1.0/Gtk-3.0.gir
+-rw-r--r-- root       root          1737078 ./usr/share/gir-1.0/Gdk-3.0.gir
+-rw-r--r-- root       root            92564 ./usr/share/gir-1.0/GdkX11-3.0.gir
+-rw-r--r-- root       root          9382724 ./usr/share/gir-1.0/Gtk-3.0.gir
 drwxr-xr-x root       root               60 ./usr/share/gtk-3.0
 -rw-r--r-- root       root             7978 ./usr/share/gtk-3.0/gtkbuilder.rng

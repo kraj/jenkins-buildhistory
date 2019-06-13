@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-esp
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-x-tables-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 3520
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/netfilter/xt_esp.ko /etc/modules-load.d/xt_esp.conf /etc/modprobe.d/xt_esp.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/netfilter/xt_esp.ko

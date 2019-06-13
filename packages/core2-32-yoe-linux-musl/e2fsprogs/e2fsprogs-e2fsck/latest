@@ -1,9 +1,9 @@
 PV = 1.44.5
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = libcomerr (>= 1.44.5) libe2p (>= 1.44.5) libext2fs (>= 1.44.5) musl (>= 1.1.22+git1+ac304227bb) util-linux-libblkid (>= 2.32.1) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = libcomerr (>= 1.44.5) libe2p (>= 1.44.5) libext2fs (>= 1.44.5) musl (>= 1.1.22+git1+ac304227bb) util-linux-libblkid (>= 2.33.2) util-linux-libuuid (>= 2.33.2)
 RRECOMMENDS = 
-PKGSIZE = 365648
+PKGSIZE = 365644
 FILES = /sbin/e2fsck /sbin/fsck.ext*
 FILELIST = /sbin/e2fsck /sbin/fsck.ext2 /sbin/fsck.ext3 /sbin/fsck.ext4

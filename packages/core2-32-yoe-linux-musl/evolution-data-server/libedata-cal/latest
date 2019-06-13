@@ -1,9 +1,9 @@
 PV = 3.26.6
 PR = r0
 PKG = libedata-cal-1.2-28
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libedata-cal (=3.26.6)
-RDEPENDS = evolution-data-server (>= 3.26.6) glib-2.0 (>= 2.58.3) libecal (>= 3.26.6) libedataserver (>= 3.26.6) libical (>= 2.0.0) libsoup-2.4 (>= 2.66.2) libsqlite3 (>= 3.28.0) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = evolution-data-server (>= 3.26.6) glib-2.0 (>= 2.60.3) libecal (>= 3.26.6) libedataserver (>= 3.26.6) libical (>= 2.0.0) libsoup-2.4 (>= 2.66.2) libsqlite3 (>= 3.28.0) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 390719
 FILES = /usr/libexec/e-calendar-factory /usr/share/dbus-1/services/*.Calendar.service /usr/lib/libedata-cal-*.so.* /usr/lib/evolution-data-server-*/extensions/libecal*.so

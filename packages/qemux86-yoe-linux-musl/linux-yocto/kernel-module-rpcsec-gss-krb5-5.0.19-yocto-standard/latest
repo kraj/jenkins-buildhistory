@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-rpcsec-gss-krb5
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 28124
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko /etc/modules-load.d/rpcsec_gss_krb5.conf /etc/modprobe.d/rpcsec_gss_krb5.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko

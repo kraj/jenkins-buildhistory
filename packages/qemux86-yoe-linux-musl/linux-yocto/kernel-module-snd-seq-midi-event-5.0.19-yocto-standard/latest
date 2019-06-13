@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-seq-midi-event
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-snd-seq-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8304
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/sound/core/seq/snd-seq-midi-event.ko /etc/modules-load.d/snd-seq-midi-event.conf /etc/modprobe.d/snd-seq-midi-event.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/sound/core/seq/snd-seq-midi-event.ko

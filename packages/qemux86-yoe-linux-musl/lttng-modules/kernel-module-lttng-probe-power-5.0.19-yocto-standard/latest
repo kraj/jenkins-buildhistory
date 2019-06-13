@@ -1,0 +1,9 @@
+PV = 2.10.9
+PR = r0
+PKGR = r0.6
+RPROVIDES = kernel-module-lttng-probe-power
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-lttng-lib-ring-buffer-5.0.19-yocto-standard kernel-module-lttng-tracer-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11080
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/lttng-modules/probes/lttng-probe-power.ko /etc/modules-load.d/lttng-probe-power.conf /etc/modprobe.d/lttng-probe-power.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/lttng-modules/probes/lttng-probe-power.ko
