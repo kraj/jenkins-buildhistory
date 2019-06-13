@@ -1,8 +1,8 @@
 PV = 1.00
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = 
-RDEPENDS = libxml-sax-perl perl perl-module-test
+RDEPENDS = libxml-sax-perl perl perl-module-base perl-module-encode-byte perl-module-encode-unicode perl-module-fatal perl-module-test
 RRECOMMENDS = ptest-runner
 PKGSIZE = 95768
 FILES = /usr/lib/libxml-sax-perl/ptest/t/* /usr/lib/libxml-sax-perl/ptest/run-ptest /usr/lib/libxml-sax-perl/ptest

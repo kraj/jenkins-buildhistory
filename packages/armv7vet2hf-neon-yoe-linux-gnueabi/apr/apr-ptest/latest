@@ -1,9 +1,9 @@
 PV = 1.7.0
 PR = r0
 PKG = libapr-1-ptest
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = apr-ptest (=1.7.0)
-RDEPENDS = apr (>= 1.7.0) glibc (>= 2.29) libgcc libxcrypt (>= 4.4.6) util-linux-libuuid (>= 2.32.1)
+RDEPENDS = apr (>= 1.7.0) glibc (>= 2.29) libgcc libxcrypt (>= 4.4.6) util-linux-libuuid (>= 2.33.2)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 208024
 FILES = /usr/lib/apr/ptest

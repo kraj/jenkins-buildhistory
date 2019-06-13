@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_9161b2fa2f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_9161b2fa2f
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-nat
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-nf-conntrack-5.0.19-yocto-standard kernel-module-nf-nat-5.0.19-yocto-standard kernel-module-x-tables-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7972
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/netfilter/xt_nat.ko /etc/modules-load.d/xt_nat.conf /etc/modprobe.d/xt_nat.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/netfilter/xt_nat.ko

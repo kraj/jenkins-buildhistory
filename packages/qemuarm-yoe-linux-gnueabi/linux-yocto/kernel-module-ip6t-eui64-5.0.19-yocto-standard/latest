@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_9161b2fa2f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_9161b2fa2f
+PKGR = r0.1
+RPROVIDES = kernel-module-ip6t-eui64
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-x-tables-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4736
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/ipv6/netfilter/ip6t_eui64.ko /etc/modules-load.d/ip6t_eui64.conf /etc/modprobe.d/ip6t_eui64.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/ipv6/netfilter/ip6t_eui64.ko

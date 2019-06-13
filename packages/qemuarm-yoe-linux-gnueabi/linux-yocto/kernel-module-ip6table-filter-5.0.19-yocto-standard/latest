@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_9161b2fa2f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_9161b2fa2f
+PKGR = r0.1
+RPROVIDES = kernel-module-ip6table-filter
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-ip6-tables-5.0.19-yocto-standard kernel-module-x-tables-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5916
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/ipv6/netfilter/ip6table_filter.ko /etc/modules-load.d/ip6table_filter.conf /etc/modprobe.d/ip6table_filter.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/ipv6/netfilter/ip6table_filter.ko

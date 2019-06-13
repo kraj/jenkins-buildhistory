@@ -37,7 +37,7 @@ drwxr-xr-x root       root              860 ./usr/lib/python3.7/site-packages/nu
 -rw-r--r-- root       root            71118 ./usr/lib/python3.7/site-packages/numpy/core/defchararray.py
 -rw-r--r-- root       root             3448 ./usr/lib/python3.7/site-packages/numpy/core/_dtype_ctypes.py
 -rw-r--r-- root       root             9688 ./usr/lib/python3.7/site-packages/numpy/core/_dtype.py
--rwxr-xr-x root       root             5532 ./usr/lib/python3.7/site-packages/numpy/core/_dummy.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root             5528 ./usr/lib/python3.7/site-packages/numpy/core/_dummy.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root            51207 ./usr/lib/python3.7/site-packages/numpy/core/einsumfunc.py
 -rw-r--r-- root       root           109555 ./usr/lib/python3.7/site-packages/numpy/core/fromnumeric.py
 -rw-r--r-- root       root            16343 ./usr/lib/python3.7/site-packages/numpy/core/function_base.py
@@ -82,11 +82,11 @@ drwxr-xr-x root       root               80 ./usr/lib/python3.7/site-packages/nu
 -rw-r--r-- root       root            11612 ./usr/lib/python3.7/site-packages/numpy/core/memmap.py
 -rw-r--r-- root       root             5083 ./usr/lib/python3.7/site-packages/numpy/core/_methods.py
 -rw-r--r-- root       root            50606 ./usr/lib/python3.7/site-packages/numpy/core/multiarray.py
--rwxr-xr-x root       root            76580 ./usr/lib/python3.7/site-packages/numpy/core/_multiarray_tests.cpython-37m-arm-linux-gnueabihf.so
--rwxr-xr-x root       root          1798284 ./usr/lib/python3.7/site-packages/numpy/core/_multiarray_umath.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            76576 ./usr/lib/python3.7/site-packages/numpy/core/_multiarray_tests.cpython-37m-arm-linux-gnueabi.so
+-rwxr-xr-x root       root          1798280 ./usr/lib/python3.7/site-packages/numpy/core/_multiarray_umath.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root            92560 ./usr/lib/python3.7/site-packages/numpy/core/numeric.py
 -rw-r--r-- root       root            17849 ./usr/lib/python3.7/site-packages/numpy/core/numerictypes.py
--rwxr-xr-x root       root             5552 ./usr/lib/python3.7/site-packages/numpy/core/_operand_flag_tests.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root             5552 ./usr/lib/python3.7/site-packages/numpy/core/_operand_flag_tests.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root             6658 ./usr/lib/python3.7/site-packages/numpy/core/overrides.py
 drwxr-xr-x root       root              640 ./usr/lib/python3.7/site-packages/numpy/core/__pycache__
 -rw-r--r-- root       root           187769 ./usr/lib/python3.7/site-packages/numpy/core/__pycache__/_add_newdocs.cpython-37.pyc
@@ -119,13 +119,13 @@ drwxr-xr-x root       root              640 ./usr/lib/python3.7/site-packages/nu
 -rw-r--r-- root       root             6766 ./usr/lib/python3.7/site-packages/numpy/core/__pycache__/_type_aliases.cpython-37.pyc
 -rw-r--r-- root       root             2021 ./usr/lib/python3.7/site-packages/numpy/core/__pycache__/umath.cpython-37.pyc
 -rw-r--r-- root       root              583 ./usr/lib/python3.7/site-packages/numpy/core/__pycache__/umath_tests.cpython-37.pyc
--rwxr-xr-x root       root            30912 ./usr/lib/python3.7/site-packages/numpy/core/_rational_tests.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            30912 ./usr/lib/python3.7/site-packages/numpy/core/_rational_tests.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root            30418 ./usr/lib/python3.7/site-packages/numpy/core/records.py
 -rw-r--r-- root       root            16571 ./usr/lib/python3.7/site-packages/numpy/core/setup_common.py
 -rw-r--r-- root       root            41513 ./usr/lib/python3.7/site-packages/numpy/core/setup.py
 -rw-r--r-- root       root            28273 ./usr/lib/python3.7/site-packages/numpy/core/shape_base.py
 -rw-r--r-- root       root             2855 ./usr/lib/python3.7/site-packages/numpy/core/_string_helpers.py
--rwxr-xr-x root       root             9804 ./usr/lib/python3.7/site-packages/numpy/core/_struct_ufunc_tests.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root             9804 ./usr/lib/python3.7/site-packages/numpy/core/_struct_ufunc_tests.cpython-37m-arm-linux-gnueabi.so
 drwxr-xr-x root       root              860 ./usr/lib/python3.7/site-packages/numpy/core/tests
 drwxr-xr-x root       root               80 ./usr/lib/python3.7/site-packages/numpy/core/tests/data
 -rw-r--r-- root       root              716 ./usr/lib/python3.7/site-packages/numpy/core/tests/data/astype_copy.pkl
@@ -172,7 +172,7 @@ drwxr-xr-x root       root               80 ./usr/lib/python3.7/site-packages/nu
 -rw-r--r-- root       root            13656 ./usr/lib/python3.7/site-packages/numpy/core/tests/test_unicode.py
 -rw-r--r-- root       root             9181 ./usr/lib/python3.7/site-packages/numpy/core/_type_aliases.py
 -rw-r--r-- root       root             1919 ./usr/lib/python3.7/site-packages/numpy/core/umath.py
--rwxr-xr-x root       root            14048 ./usr/lib/python3.7/site-packages/numpy/core/_umath_tests.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            14048 ./usr/lib/python3.7/site-packages/numpy/core/_umath_tests.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root              455 ./usr/lib/python3.7/site-packages/numpy/core/umath_tests.py
 -rw-r--r-- root       root            17258 ./usr/lib/python3.7/site-packages/numpy/ctypeslib.py
 -rw-r--r-- root       root              331 ./usr/lib/python3.7/site-packages/numpy/_distributor_init.py
@@ -442,7 +442,7 @@ drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/nu
 -rw-r--r-- root       root             3652 ./usr/lib/python3.7/site-packages/numpy/f2py/use_rules.py
 -rw-r--r-- root       root              254 ./usr/lib/python3.7/site-packages/numpy/f2py/__version__.py
 drwxr-xr-x root       root              200 ./usr/lib/python3.7/site-packages/numpy/fft
--rwxr-xr-x root       root            26292 ./usr/lib/python3.7/site-packages/numpy/fft/fftpack_lite.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            26292 ./usr/lib/python3.7/site-packages/numpy/fft/fftpack_lite.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root            47089 ./usr/lib/python3.7/site-packages/numpy/fft/fftpack.py
 -rw-r--r-- root       root             9710 ./usr/lib/python3.7/site-packages/numpy/fft/helper.py
 -rw-r--r-- root       root             7235 ./usr/lib/python3.7/site-packages/numpy/fft/info.py
@@ -553,7 +553,7 @@ drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/nu
 drwxr-xr-x root       root              200 ./usr/lib/python3.7/site-packages/numpy/linalg
 -rw-r--r-- root       root             1198 ./usr/lib/python3.7/site-packages/numpy/linalg/info.py
 -rw-r--r-- root       root             2326 ./usr/lib/python3.7/site-packages/numpy/linalg/__init__.py
--rwxr-xr-x root       root          1129132 ./usr/lib/python3.7/site-packages/numpy/linalg/lapack_lite.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root          1129132 ./usr/lib/python3.7/site-packages/numpy/linalg/lapack_lite.cpython-37m-arm-linux-gnueabi.so
 -rw-r--r-- root       root            85094 ./usr/lib/python3.7/site-packages/numpy/linalg/linalg.py
 drwxr-xr-x root       root              120 ./usr/lib/python3.7/site-packages/numpy/linalg/__pycache__
 -rw-r--r-- root       root             1381 ./usr/lib/python3.7/site-packages/numpy/linalg/__pycache__/info.cpython-37.pyc
@@ -567,7 +567,7 @@ drwxr-xr-x root       root              140 ./usr/lib/python3.7/site-packages/nu
 -rw-r--r-- root       root              706 ./usr/lib/python3.7/site-packages/numpy/linalg/tests/test_deprecations.py
 -rw-r--r-- root       root            69977 ./usr/lib/python3.7/site-packages/numpy/linalg/tests/test_linalg.py
 -rw-r--r-- root       root             5671 ./usr/lib/python3.7/site-packages/numpy/linalg/tests/test_regression.py
--rwxr-xr-x root       root          1203856 ./usr/lib/python3.7/site-packages/numpy/linalg/_umath_linalg.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root          1203852 ./usr/lib/python3.7/site-packages/numpy/linalg/_umath_linalg.cpython-37m-arm-linux-gnueabi.so
 drwxr-xr-x root       root              260 ./usr/lib/python3.7/site-packages/numpy/ma
 -rw-r--r-- root       root             4942 ./usr/lib/python3.7/site-packages/numpy/ma/bench.py
 -rw-r--r-- root       root           256431 ./usr/lib/python3.7/site-packages/numpy/ma/core.py
@@ -664,7 +664,7 @@ drwxr-xr-x root       root              260 ./usr/lib/python3.7/site-packages/nu
 drwxr-xr-x root       root              180 ./usr/lib/python3.7/site-packages/numpy/random
 -rw-r--r-- root       root              109 ./usr/lib/python3.7/site-packages/numpy/random/info.py
 -rw-r--r-- root       root             6053 ./usr/lib/python3.7/site-packages/numpy/random/__init__.py
--rwxr-xr-x root       root           755908 ./usr/lib/python3.7/site-packages/numpy/random/mtrand.cpython-37m-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root           755904 ./usr/lib/python3.7/site-packages/numpy/random/mtrand.cpython-37m-arm-linux-gnueabi.so
 drwxr-xr-x root       root              100 ./usr/lib/python3.7/site-packages/numpy/random/__pycache__
 -rw-r--r-- root       root              294 ./usr/lib/python3.7/site-packages/numpy/random/__pycache__/info.cpython-37.pyc
 -rw-r--r-- root       root             6202 ./usr/lib/python3.7/site-packages/numpy/random/__pycache__/__init__.cpython-37.pyc

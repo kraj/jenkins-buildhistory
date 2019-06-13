@@ -1,0 +1,9 @@
+PV = 2.10.9
+PR = r0
+PKGR = r0.4
+RPROVIDES = kernel-module-lttng-probe-regmap
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-lttng-lib-ring-buffer-5.0.19-yocto-standard kernel-module-lttng-tracer-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10896
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/lttng-modules/probes/lttng-probe-regmap.ko /etc/modules-load.d/lttng-probe-regmap.conf /etc/modprobe.d/lttng-probe-regmap.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/lttng-modules/probes/lttng-probe-regmap.ko
