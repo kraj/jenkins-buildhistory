@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-conntrack-sip
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-nf-conntrack-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 39144
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/netfilter/nf_conntrack_sip.ko /etc/modules-load.d/nf_conntrack_sip.conf /etc/modprobe.d/nf_conntrack_sip.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/netfilter/nf_conntrack_sip.ko

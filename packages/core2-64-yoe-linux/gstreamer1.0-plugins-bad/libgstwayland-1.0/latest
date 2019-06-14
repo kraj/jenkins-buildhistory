@@ -1,9 +1,9 @@
 PV = 1.16.0
 PR = r0
 PKG = libgstwayland-1.0-0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libgstwayland-1.0 (=1.16.0)
-RDEPENDS = glib-2.0 (>= 2.58.3) glibc (>= 2.29) gstreamer1.0 (>= 1.16.0) libdrm (>= 2.4.98) libgstvideo-1.0 (>= 1.16.0) wayland (>= 1.17.0)
+RDEPENDS = glib-2.0 (>= 2.60.3) glibc (>= 2.29) gstreamer1.0 (>= 1.16.0) libdrm (>= 2.4.98) libgstvideo-1.0 (>= 1.16.0) wayland (>= 1.17.0)
 RRECOMMENDS = 
 PKGSIZE = 10373
 FILES = /usr/lib/libgstwayland-1.0.so /usr/lib/libgstwayland-1.0.so.0 /usr/lib/libgstwayland-1.0.so.0.1600.0

@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-8021q
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 38944
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/8021q/8021q.ko /etc/modules-load.d/8021q.conf /etc/modprobe.d/8021q.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/8021q/8021q.ko

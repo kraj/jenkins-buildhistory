@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-video
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-backlight-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 56024
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/drivers/acpi/video.ko /etc/modules-load.d/video.conf /etc/modprobe.d/video.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/drivers/acpi/video.ko

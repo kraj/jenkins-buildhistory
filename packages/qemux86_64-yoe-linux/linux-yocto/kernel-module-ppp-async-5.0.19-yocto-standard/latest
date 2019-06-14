@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-ppp-async
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-crc-ccitt-5.0.19-yocto-standard kernel-module-ppp-generic-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 18080
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/ppp/ppp_async.ko /etc/modules-load.d/ppp_async.conf /etc/modprobe.d/ppp_async.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/ppp/ppp_async.ko

@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-hrtimer
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-snd-timer-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7184
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/sound/core/snd-hrtimer.ko /etc/modules-load.d/snd-hrtimer.conf /etc/modprobe.d/snd-hrtimer.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/sound/core/snd-hrtimer.ko

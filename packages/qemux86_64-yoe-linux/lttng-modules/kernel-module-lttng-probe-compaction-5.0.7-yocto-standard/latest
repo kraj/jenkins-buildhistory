@@ -1,9 +1,0 @@
-PV = 2.10.9
-PR = r0
-PKGR = r0.4
-RPROVIDES = kernel-module-lttng-probe-compaction
-RDEPENDS = kernel-5.0.7-yocto-standard kernel-module-lttng-tracer-5.0.7-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 10152
-FILES = /lib/modules/5.0.7-yocto-standard/kernel/lttng-modules/probes/lttng-probe-compaction.ko /etc/modules-load.d/lttng-probe-compaction.conf /etc/modprobe.d/lttng-probe-compaction.conf
-FILELIST = /lib/modules/5.0.7-yocto-standard/kernel/lttng-modules/probes/lttng-probe-compaction.ko

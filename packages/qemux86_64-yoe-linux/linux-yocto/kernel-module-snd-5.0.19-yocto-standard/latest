@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.1
+RPROVIDES = kernel-module-snd
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-soundcore-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 105200
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/sound/core/snd.ko /etc/modules-load.d/snd.conf /etc/modprobe.d/snd.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/sound/core/snd.ko
