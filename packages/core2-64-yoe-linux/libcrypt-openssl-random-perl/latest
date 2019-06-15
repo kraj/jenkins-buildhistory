@@ -1,5 +1,5 @@
-PV = 0.11
+PV = 0.15
 PR = r0
-DEPENDS = openssl perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
-PACKAGES = libcrypt-openssl-random-perl-src libcrypt-openssl-random-perl-dbg libcrypt-openssl-random-perl-staticdev libcrypt-openssl-random-perl-dev libcrypt-openssl-random-perl-doc libcrypt-openssl-random-perl-locale libcrypt-openssl-random-perl
+DEPENDS = libcrypt-openssl-guess-perl-native openssl perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libcrypt-openssl-random-perl-src libcrypt-openssl-random-perl-dbg libcrypt-openssl-random-perl-ptest libcrypt-openssl-random-perl-staticdev libcrypt-openssl-random-perl-dev libcrypt-openssl-random-perl-doc libcrypt-openssl-random-perl-locale libcrypt-openssl-random-perl
 LAYER = perl-layer

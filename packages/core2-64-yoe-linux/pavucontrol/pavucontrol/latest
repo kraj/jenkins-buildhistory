@@ -1,9 +1,9 @@
-PV = 3.0
+PV = 4.0
 PR = r0
-PKGR = r0.116
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = atkmm (>= 2.28.0) glib-2.0 (>= 2.60.3) glibc (>= 2.29) glibmm (>= 2.58.1) gtk+ (>= 2.24.32) gtkmm (>= 2.24.5) libcanberra (>= 0.30) libcanberra-gtk2 (>= 0.30) libgcc (>= 9.1.0) libpulse (>= 12.2) libpulse-mainloop-glib (>= 12.2) libsigc++-2.0 (>= 2.10.1) libstdc++ (>= 9.1.0) pulseaudio-server
+RDEPENDS = atkmm (>= 2.28.0) glib-2.0 (>= 2.60.3) glibc (>= 2.29) glibmm (>= 2.58.1) gtk+3 (>= 3.24.8) gtkmm3 (>= 3.24.1) libcanberra (>= 0.30) libcanberra-gtk3 (>= 0.30) libgcc (>= 9.1.0) libpulse (>= 12.2) libpulse-mainloop-glib (>= 12.2) libsigc++-2.0 (>= 2.10.1) libstdc++ (>= 9.1.0) pulseaudio-server
 RRECOMMENDS = 
-PKGSIZE = 512653
+PKGSIZE = 569968
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pavucontrol /usr/lib/pavucontrol/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/share/appdata /usr/share/icons /usr/share/icons/hicolor
 FILELIST = /usr/bin/pavucontrol /usr/share/applications/pavucontrol.desktop /usr/share/pavucontrol/pavucontrol.glade

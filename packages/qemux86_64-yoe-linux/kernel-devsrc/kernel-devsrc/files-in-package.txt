@@ -1933,7 +1933,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/certs
 -rw-r--r-- root       root             3494 ./lib/modules/5.0.19-yocto-standard/build/certs/Kconfig
 -rw-r--r-- root       root             4167 ./lib/modules/5.0.19-yocto-standard/build/certs/Makefile
--rw-r--r-- root       root           130988 ./lib/modules/5.0.19-yocto-standard/build/.config
+-rw-r--r-- root       root           130999 ./lib/modules/5.0.19-yocto-standard/build/.config
 drwxr-xr-x root       root              120 ./lib/modules/5.0.19-yocto-standard/build/crypto
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/crypto/asymmetric_keys
 -rw-r--r-- root       root             3190 ./lib/modules/5.0.19-yocto-standard/build/crypto/asymmetric_keys/Kconfig
@@ -6240,7 +6240,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/atl2.h
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/audit
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/audit/arch.h
--rw-r--r-- root       root           130988 ./lib/modules/5.0.19-yocto-standard/build/include/config/auto.conf
+-rw-r--r-- root       root           130999 ./lib/modules/5.0.19-yocto-standard/build/include/config/auto.conf
 -rw-r--r-- root       root            42244 ./lib/modules/5.0.19-yocto-standard/build/include/config/auto.conf.cmd
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/autofs
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/autofs4
@@ -6554,17 +6554,18 @@ drwxr-xr-x root       root              120 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/cpu/sup/intel.h
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/crash
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crash/core.h
-drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc
+drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc16.h
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc32
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc32.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc32/sliceby8.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc8.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc/ccitt.h
+-rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crc/t10dif.h
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/cross
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/cross/memory
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/cross/memory/attach.h
-drwxr-xr-x root       root             1460 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto
+drwxr-xr-x root       root             1480 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/acomp2.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/aead2.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/aead.h
@@ -6590,6 +6591,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/ccm.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/cmac.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/crc32c.h
+-rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/crct10dif.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/ctr.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/cts.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/crypto/deflate.h
@@ -8217,7 +8219,8 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/sched/omit/frame
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/sched/omit/frame/pointer.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/sched/smt.h
-drwxr-xr-x root       root              140 ./lib/modules/5.0.19-yocto-standard/build/include/config/scsi
+drwxr-xr-x root       root              160 ./lib/modules/5.0.19-yocto-standard/build/include/config/scsi
+-rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/scsi/debug.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/scsi/dma.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/scsi.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/scsi/lowlevel.h
@@ -8551,7 +8554,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/tracing/support.h
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/tree
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/tree/srcu.h
--rw-r--r-- root       root            17602 ./lib/modules/5.0.19-yocto-standard/build/include/config/tristate.conf
+-rw-r--r-- root       root            17668 ./lib/modules/5.0.19-yocto-standard/build/include/config/tristate.conf
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/tty.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/tun.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/typhoon.h
@@ -9599,7 +9602,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root             3458 ./lib/modules/5.0.19-yocto-standard/build/include/dt-bindings/usb/pd.h
 drwxr-xr-x root       root              180 ./lib/modules/5.0.19-yocto-standard/build/include/generated
 -rw-r--r-- root       root             4484 ./lib/modules/5.0.19-yocto-standard/build/include/generated/asm-offsets.h
--rw-r--r-- root       root            64966 ./lib/modules/5.0.19-yocto-standard/build/include/generated/autoconf.h
+-rw-r--r-- root       root            65077 ./lib/modules/5.0.19-yocto-standard/build/include/generated/autoconf.h
 -rw-r--r-- root       root              317 ./lib/modules/5.0.19-yocto-standard/build/include/generated/bounds.h
 -rw-r--r-- root       root              278 ./lib/modules/5.0.19-yocto-standard/build/include/generated/compile.h
 -rw-r--r-- root       root             1100 ./lib/modules/5.0.19-yocto-standard/build/include/generated/timeconst.h
@@ -14066,7 +14069,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root            25229 ./lib/modules/5.0.19-yocto-standard/build/mm/Kconfig
 -rw-r--r-- root       root             3884 ./lib/modules/5.0.19-yocto-standard/build/mm/Kconfig.debug
 -rw-r--r-- root       root             3604 ./lib/modules/5.0.19-yocto-standard/build/mm/Makefile
--rw-r--r-- root       root           695266 ./lib/modules/5.0.19-yocto-standard/build/Module.symvers
+-rw-r--r-- root       root           695443 ./lib/modules/5.0.19-yocto-standard/build/Module.symvers
 drwxr-xr-x root       root             1440 ./lib/modules/5.0.19-yocto-standard/build/net
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/net/6lowpan
 -rw-r--r-- root       root             2760 ./lib/modules/5.0.19-yocto-standard/build/net/6lowpan/Kconfig
