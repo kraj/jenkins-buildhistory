@@ -1,0 +1,52 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root              200 ./etc/vmware-tools
+-rwxr-xr-x root       root             4364 ./etc/vmware-tools/poweroff-vm-default
+-rwxr-xr-x root       root             4364 ./etc/vmware-tools/poweron-vm-default
+-rwxr-xr-x root       root             4364 ./etc/vmware-tools/resume-vm-default
+drwxr-xr-x root       root               60 ./etc/vmware-tools/scripts
+drwxr-xr-x root       root               60 ./etc/vmware-tools/scripts/vmware
+-rwxr-xr-x root       root            15148 ./etc/vmware-tools/scripts/vmware/network
+-rwxr-xr-x root       root             1478 ./etc/vmware-tools/statechange.subr
+-rwxr-xr-x root       root             4364 ./etc/vmware-tools/suspend-vm-default
+-rw-r--r-- root       root               31 ./etc/vmware-tools/tools.conf
+-rwxr-xr-x root       root             9727 ./etc/vmware-tools/vm-support
+drwxr-xr-x root       root               80 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               24 ./lib/systemd/system-preset/98-open-vm-tools.preset
+-rw-r--r-- root       root              207 ./lib/systemd/system/vmtoolsd.service
+drwxr-xr-x root       root               60 ./lib/udev
+drwxr-xr-x root       root               60 ./lib/udev/rules.d
+-rwxr-xr-x root       root              444 ./lib/udev/rules.d/99-vmware-scsi-udev.rules
+drwxr-xr-x root       root               60 ./sbin
+lrwxrwxrwx root       root               22 ./sbin/mount.vmhgfs -> /usr/sbin/mount.vmhgfs
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              180 ./usr/bin
+-rwxr-xr-x root       root            50668 ./usr/bin/vmtoolsd
+-rwxr-xr-x root       root             5484 ./usr/bin/vmware-checkvm
+-rwxr-xr-x root       root             9584 ./usr/bin/vmware-hgfsclient
+-rwxr-xr-x root       root            13632 ./usr/bin/vmware-namespace-cmd
+-rwxr-xr-x root       root            17720 ./usr/bin/vmware-rpctool
+-rwxr-xr-x root       root            42496 ./usr/bin/vmware-toolbox-cmd
+-rwxr-xr-x root       root             9580 ./usr/bin/vmware-xferlogs
+drwxr-xr-x root       root              180 ./usr/lib
+-rwxr-xr-x root       root            26036 ./usr/lib/libguestlib.so.0.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libguestlib.so.0 -> libguestlib.so.0.0.0
+-rwxr-xr-x root       root           193968 ./usr/lib/libhgfs.so.0.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/libhgfs.so.0 -> libhgfs.so.0.0.0
+-rwxr-xr-x root       root           644044 ./usr/lib/libvmtools.so.0.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libvmtools.so.0 -> libvmtools.so.0.0.0
+drwxr-xr-x root       root               60 ./usr/lib/open-vm-tools
+drwxr-xr-x root       root               80 ./usr/lib/open-vm-tools/plugins
+drwxr-xr-x root       root               80 ./usr/lib/open-vm-tools/plugins/common
+-rwxr-xr-x root       root             9552 ./usr/lib/open-vm-tools/plugins/common/libhgfsServer.so
+-rwxr-xr-x root       root           140840 ./usr/lib/open-vm-tools/plugins/common/libvix.so
+drwxr-xr-x root       root              140 ./usr/lib/open-vm-tools/plugins/vmsvc
+-rwxr-xr-x root       root            39104 ./usr/lib/open-vm-tools/plugins/vmsvc/libguestInfo.so
+-rwxr-xr-x root       root            13700 ./usr/lib/open-vm-tools/plugins/vmsvc/libpowerOps.so
+-rwxr-xr-x root       root            17940 ./usr/lib/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+-rwxr-xr-x root       root            21836 ./usr/lib/open-vm-tools/plugins/vmsvc/libtimeSync.so
+-rwxr-xr-x root       root            34436 ./usr/lib/open-vm-tools/plugins/vmsvc/libvmbackup.so
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            42420 ./usr/sbin/mount.vmhgfs

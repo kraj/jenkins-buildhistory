@@ -1,9 +1,9 @@
 PV = 1.1.22+gitAUTOINC+ac304227bb
 PR = r0
 PKGV = 1.1.22+git1+ac304227bb
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libc-dev virtual-libc-dev
-RDEPENDS = bsd-headers-dev libssp-nonshared-staticdev linux-libc-headers-dev musl (= 1.1.22+git1+ac304227bb-r0.2)
+RDEPENDS = bsd-headers-dev libssp-nonshared-staticdev linux-libc-headers-dev musl (= 1.1.22+git1+ac304227bb-r0.3)
 RRECOMMENDS = bsd-headers-dev libgcc-initial-dev libssp-nonshared-dev libssp-nonshared-staticdev-dev linux-libc-headers-dev
 PKGSIZE = 470660
 FILES = /usr/include /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/musl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
