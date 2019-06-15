@@ -1,9 +1,9 @@
-PV = 7.9p1
+PV = 8.0p1
 PR = r0
-PKGR = r0.58
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29)
+RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1c)
 RRECOMMENDS = 
-PKGSIZE = 134568
+PKGSIZE = 133568
 FILES = /usr/libexec/sftp-server
 FILELIST = /usr/libexec/sftp-server

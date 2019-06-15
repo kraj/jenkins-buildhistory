@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.4
+RPROVIDES = kernel-module-sch-dsmark
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16424
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/sched/sch_dsmark.ko /etc/modules-load.d/sch_dsmark.conf /etc/modprobe.d/sch_dsmark.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/sched/sch_dsmark.ko

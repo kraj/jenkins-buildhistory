@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+31de88e51d_00638cdd8f
+PR = r0
+PKGV = 5.0.19+git0+31de88e51d_00638cdd8f
+PKGR = r0.4
+RPROVIDES = kernel-module-ccm
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 23792
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/crypto/ccm.ko /etc/modules-load.d/ccm.conf /etc/modprobe.d/ccm.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/crypto/ccm.ko

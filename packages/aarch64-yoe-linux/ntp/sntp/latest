@@ -1,8 +1,8 @@
 PV = 4.2.8p13
 PR = r0
-PKGR = r0.9
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1b) libevent (>= 2.1.8)
+RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1c) libevent (>= 2.1.8)
 RRECOMMENDS = 
 PKGSIZE = 335938
 FILES = /usr/sbin/sntp /etc/default/sntp /lib/systemd/system/sntp.service /lib/systemd/system-preset/98-sntp.preset /lib/systemd/system/sntp.service

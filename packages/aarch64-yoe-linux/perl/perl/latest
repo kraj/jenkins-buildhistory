@@ -1,9 +1,9 @@
-PV = 5.28.2
-PR = r1
-PKGR = r1.4
+PV = 5.30.0
+PR = r0
+PKGR = r0.1
 RPROVIDES = perl-module-config perl-module-strict perl-module-vars perl-module-warnings perl-module-warnings-register
 RDEPENDS = glibc (>= 2.29) libxcrypt (>= 4.4.6) perl-module-config-heavy
 RRECOMMENDS = 
-PKGSIZE = 3252235
-FILES = /usr/bin/perl /usr/bin/perl.real /usr/bin/perl5.28.2 /usr/lib/libperl.so* /usr/lib/perl5/site_perl /usr/lib/perl5/5.28.2/Config.pm /usr/lib/perl5/5.28.2/*/Config_heavy-target.pl /usr/lib/perl5/config.sh /usr/lib/perl5/5.28.2/strict.pm /usr/lib/perl5/5.28.2/warnings.pm /usr/lib/perl5/5.28.2/warnings /usr/lib/perl5/5.28.2/vars.pm /usr/lib/perl5/site_perl
-FILELIST = /usr/bin/perl /usr/lib/libperl.so.5 /usr/lib/libperl.so.5.28.0 /usr/lib/perl5/5.28.2/Config.pm /usr/lib/perl5/5.28.2/aarch64-linux/Config_heavy-target.pl /usr/lib/perl5/5.28.2/strict.pm /usr/lib/perl5/5.28.2/vars.pm /usr/lib/perl5/5.28.2/warnings.pm /usr/lib/perl5/5.28.2/warnings/register.pm /usr/lib/perl5/config.sh
+PKGSIZE = 3516273
+FILES = /usr/bin/perl /usr/bin/perl.real /usr/bin/perl5.30.0 /usr/lib/libperl.so* /usr/lib/perl5/site_perl /usr/lib/perl5/5.30.0/Config.pm /usr/lib/perl5/5.30.0/*/Config_git.pl /usr/lib/perl5/5.30.0/*/Config_heavy-target.pl /usr/lib/perl5/config.sh /usr/lib/perl5/5.30.0/strict.pm /usr/lib/perl5/5.30.0/warnings.pm /usr/lib/perl5/5.30.0/warnings /usr/lib/perl5/5.30.0/vars.pm /usr/lib/perl5/site_perl
+FILELIST = /usr/bin/perl /usr/lib/libperl.so.5 /usr/lib/libperl.so.5.30.0 /usr/lib/perl5/5.30.0/Config.pm /usr/lib/perl5/5.30.0/aarch64-linux/Config_git.pl /usr/lib/perl5/5.30.0/aarch64-linux/Config_heavy-target.pl /usr/lib/perl5/5.30.0/strict.pm /usr/lib/perl5/5.30.0/vars.pm /usr/lib/perl5/5.30.0/warnings.pm /usr/lib/perl5/5.30.0/warnings/register.pm /usr/lib/perl5/config.sh

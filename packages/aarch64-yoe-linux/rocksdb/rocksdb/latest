@@ -1,10 +1,10 @@
-PV = 5.18.2
+PV = 6.0.2
 PR = r0
-PKG = librocksdb5
-PKGR = r0.38
-RPROVIDES = rocksdb (=5.18.2)
-RDEPENDS = glibc (>= 2.29) libbz2 (>= 1.0.6) libgcc (>= 8.3.0) libstdc++ (>= 8.3.0) lz4 (>= 1.9.0) zlib (>= 1.2.11)
+PKG = librocksdb6
+PKGR = r0.0
+RPROVIDES = rocksdb (=6.0.2)
+RDEPENDS = gflags (>= 2.2.0) glibc (>= 2.29) libbz2 (>= 1.0.6) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) lz4 (>= 1.9.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 6163780
+PKGSIZE = 6230347
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rocksdb /usr/lib/rocksdb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/librocksdb.so.5 /usr/lib/librocksdb.so.5.18.2
+FILELIST = /usr/lib/librocksdb.so.6 /usr/lib/librocksdb.so.6.0.2

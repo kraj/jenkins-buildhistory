@@ -1,9 +1,9 @@
 PV = 1.3
 PR = r0
-PKGR = r0.15
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = libgpiod (= 1.3-r0.15)
-RRECOMMENDS = glibc-dev
-PKGSIZE = 48983
+RDEPENDS = libgpiod (= 1.3-r0.17)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 74197
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgpiod/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/gpiod.h /usr/lib/libgpiod.so /usr/lib/pkgconfig/libgpiod.pc
+FILELIST = /usr/include/gpiod.h /usr/include/gpiod.hpp /usr/lib/libgpiod.so /usr/lib/libgpiodcxx.so /usr/lib/pkgconfig/libgpiod.pc /usr/lib/pkgconfig/libgpiodcxx.pc

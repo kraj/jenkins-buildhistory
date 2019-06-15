@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./etc
 drwxr-xr-x root       root               80 ./etc/ipmi
 -rw-r--r-- root       root             1967 ./etc/ipmi/ipmisim1.emu
--rw-r--r-- root       root             6606 ./etc/ipmi/lan.conf
+-rw-r--r-- root       root             6060 ./etc/ipmi/lan.conf
 drwxr-xr-x root       root               60 ./etc/sysconfig
 -rw-r--r-- root       root             2296 ./etc/sysconfig/ipmi
 drwxr-xr-x root       root               60 ./lib
@@ -15,11 +15,11 @@ drwxr-xr-x root       root              260 ./usr/bin
 lrwxrwxrwx root       root               11 ./usr/bin/ipmicmd -> openipmicmd
 -rwxr-xr-x root       root            68040 ./usr/bin/ipmilan
 lrwxrwxrwx root       root               10 ./usr/bin/ipmish -> openipmish
--rwxr-xr-x root       root           214216 ./usr/bin/ipmi_sim
+-rwxr-xr-x root       root           214264 ./usr/bin/ipmi_sim
 -rwxr-xr-x root       root            67808 ./usr/bin/ipmi_ui
 -rwxr-xr-x root       root            67752 ./usr/bin/openipmicmd
 -rwxr-xr-x root       root            67792 ./usr/bin/openipmi_eventd
--rwxr-xr-x root       root           199680 ./usr/bin/openipmish
+-rwxr-xr-x root       root            68328 ./usr/bin/openipmish
 -rwxr-xr-x root       root            67768 ./usr/bin/rmcp_ping
 -rwxr-xr-x root       root            83696 ./usr/bin/sdrcomp
 -rwxr-xr-x root       root            67808 ./usr/bin/solterm

@@ -1,8 +1,8 @@
 PV = 0.002006
 PR = r0
-PKGR = r0.3
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libtest-needs-perl perl perl-module-test-more
+RDEPENDS = libtest-needs-perl perl perl-module-ipc-open3 perl-module-lib perl-module-test-more perl-module-version
 RRECOMMENDS = ptest-runner
 PKGSIZE = 9466
 FILES = /usr/lib/libtest-needs-perl/ptest/t/* /usr/lib/libtest-needs-perl/ptest/run-ptest /usr/lib/libtest-needs-perl/ptest
