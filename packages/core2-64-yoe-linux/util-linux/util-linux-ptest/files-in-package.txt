@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/util-linux
 drwxr-xr-x root       root             1080 ./usr/lib/util-linux/ptest
-drwxr-xr-x root       root              940 ./usr/lib/util-linux/ptest/bin
+drwxr-xr-x root       root              960 ./usr/lib/util-linux/ptest/bin
 lrwxrwxrwx root       root               22 ./usr/lib/util-linux/ptest/bin/blkid -> /sbin/blkid.util-linux
 lrwxrwxrwx root       root               25 ./usr/lib/util-linux/ptest/bin/blockdev -> /sbin/blockdev.util-linux
 lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/cal -> /usr/bin/cal.util-linux
@@ -37,6 +37,7 @@ lrwxrwxrwx root       root               32 ./usr/lib/util-linux/ptest/bin/readp
 lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/renice -> /usr/bin/renice.util-linux
 lrwxrwxrwx root       root               23 ./usr/lib/util-linux/ptest/bin/rev -> /usr/bin/rev.util-linux
 lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/rfkill -> /usr/sbin/rfkill.util-linux
+lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/setpriv -> /usr/bin/setpriv.util-linux
 lrwxrwxrwx root       root               26 ./usr/lib/util-linux/ptest/bin/setsid -> /usr/bin/setsid.util-linux
 lrwxrwxrwx root       root               18 ./usr/lib/util-linux/ptest/bin/su -> /bin/su.util-linux
 lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/sulogin -> /sbin/sulogin.util-linux
@@ -48,7 +49,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/util-linux/ptest/bin/umoun
 lrwxrwxrwx root       root               27 ./usr/lib/util-linux/ptest/bin/unshare -> /usr/bin/unshare.util-linux
 lrwxrwxrwx root       root               28 ./usr/lib/util-linux/ptest/bin/utmpdump -> /usr/bin/utmpdump.util-linux
 lrwxrwxrwx root       root               24 ./usr/lib/util-linux/ptest/bin/wall -> /usr/bin/wall.util-linux
--rw-r--r-- root       root            24246 ./usr/lib/util-linux/ptest/config.h
+-rw-r--r-- root       root            24243 ./usr/lib/util-linux/ptest/config.h
 -rwxr-xr-x root       root             1204 ./usr/lib/util-linux/ptest/run-ptest
 -rwxr-xr-x root       root            26880 ./usr/lib/util-linux/ptest/sample-fdisk-mkpart
 -rwxr-xr-x root       root            14600 ./usr/lib/util-linux/ptest/sample-fdisk-mkpart-fullspec
