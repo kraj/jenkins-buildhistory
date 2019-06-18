@@ -13,6 +13,7 @@ set -e
 	update-alternatives --install /usr/share/man/man1/mountpoint.1 mountpoint.1 /usr/share/man/man1/mountpoint.1.util-linux 80
 	update-alternatives --install /usr/share/man/man8/nologin.8 nologin.8 /usr/share/man/man8/nologin.8.util-linux 80
 	update-alternatives --install /usr/share/man/man8/rfkill.8 rfkill.8 /usr/share/man/man8/rfkill.8.util-linux 80
+	update-alternatives --install /usr/share/man/man1/setpriv.1 setpriv.1 /usr/share/man/man1/setpriv.1.util-linux 80
 	update-alternatives --install /usr/share/man/man8/sulogin.8 sulogin.8 /usr/share/man/man8/sulogin.8.util-linux 80
 	update-alternatives --install /usr/share/man/man1/utmpdump.1 utmpdump.1 /usr/share/man/man1/utmpdump.1.util-linux 80
 	update-alternatives --install /usr/share/man/man3/uuid.3 uuid.3 /usr/share/man/man3/uuid.3.util-linux 80

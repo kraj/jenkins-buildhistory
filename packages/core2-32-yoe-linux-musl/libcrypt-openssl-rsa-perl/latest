@@ -1,5 +1,5 @@
-PV = 0.30
+PV = 0.31
 PR = r0
-DEPENDS = libcrypt-openssl-guess-native openssl perl perl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
-PACKAGES = libcrypt-openssl-rsa-perl-src libcrypt-openssl-rsa-perl-dbg libcrypt-openssl-rsa-perl-staticdev libcrypt-openssl-rsa-perl-dev libcrypt-openssl-rsa-perl-doc libcrypt-openssl-rsa-perl-locale libcrypt-openssl-rsa-perl
+DEPENDS = libcrypt-openssl-guess-perl-native openssl perl perl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = libcrypt-openssl-rsa-perl-src libcrypt-openssl-rsa-perl-dbg libcrypt-openssl-rsa-perl-ptest libcrypt-openssl-rsa-perl-staticdev libcrypt-openssl-rsa-perl-dev libcrypt-openssl-rsa-perl-doc libcrypt-openssl-rsa-perl-locale libcrypt-openssl-rsa-perl
 LAYER = perl-layer
