@@ -1,11 +1,11 @@
-PV = 10.3.15
+PV = 10.3.16
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = mysql5-client
 RDEPENDS = glibc (>= 2.29) libaio (>= 0.3.111) libbz2 (>= 1.0.6) libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) liblzma (>= 5.2.4) libssl (>= 1.1.1c) libstdc++ (>= 9.1.0) libxcrypt (>= 4.4.6) ncurses-libncurses (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013) perl perl-module-exporter perl-module-fcntl perl-module-file-temp perl-module-getopt-long perl-module-ipc-open3 perl-module-sys-hostname zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = mysql5-client
 RCONFLICTS = mysql5-client
-PKGSIZE = 59359328
+PKGSIZE = 59404464
 FILES = /usr/bin/myisam_ftdump /usr/bin/mysql /usr/bin/mysql_client_test /usr/bin/mysql_client_test_embedded /usr/bin/mysql_find_rows /usr/bin/mysql_fix_extensions /usr/bin/mysql_waitpid /usr/bin/mysqlaccess /usr/bin/mysqladmin /usr/bin/mysqlbug /usr/bin/mysqlcheck /usr/bin/mysqldump /usr/bin/mysqldumpslow /usr/bin/mysqlimport /usr/bin/mysqlshow /usr/bin/mysqlslap /usr/bin/mysqltest_embedded /usr/libexec/mysqlmanager /etc/my.cnf.d/mysql-clients.cnf
 FILELIST = /etc/my.cnf.d/mysql-clients.cnf /usr/bin/myisam_ftdump /usr/bin/mysql /usr/bin/mysql_client_test /usr/bin/mysql_client_test_embedded /usr/bin/mysql_find_rows /usr/bin/mysql_fix_extensions /usr/bin/mysql_waitpid /usr/bin/mysqlaccess /usr/bin/mysqladmin /usr/bin/mysqlcheck /usr/bin/mysqldump /usr/bin/mysqldumpslow /usr/bin/mysqlimport /usr/bin/mysqlshow /usr/bin/mysqlslap /usr/bin/mysqltest_embedded

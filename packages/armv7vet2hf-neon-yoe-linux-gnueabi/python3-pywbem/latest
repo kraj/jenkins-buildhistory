@@ -1,5 +1,5 @@
 PV = 0.11.0
 PR = r0
-DEPENDS = python3 python3-native python3-native python3-ply-native python3-pyyaml-native python3-setuptools-native python3-six-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = python3 python3-native python3-native python3-ply-native python3-pyyaml-native python3-setuptools-native python3-six-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
 PACKAGES = python3-pywbem-src python3-pywbem-dbg python3-pywbem-staticdev python3-pywbem-dev python3-pywbem-doc python3-pywbem-locale python3-pywbem
 LAYER = meta-python

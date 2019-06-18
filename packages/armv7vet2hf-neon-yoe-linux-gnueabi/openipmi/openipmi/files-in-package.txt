@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./etc
 drwxr-xr-x root       root               80 ./etc/ipmi
 -rw-r--r-- root       root             1967 ./etc/ipmi/ipmisim1.emu
--rw-r--r-- root       root             6606 ./etc/ipmi/lan.conf
+-rw-r--r-- root       root             6060 ./etc/ipmi/lan.conf
 drwxr-xr-x root       root               60 ./etc/sysconfig
 -rw-r--r-- root       root             2296 ./etc/sysconfig/ipmi
 drwxr-xr-x root       root               60 ./lib
@@ -15,11 +15,11 @@ drwxr-xr-x root       root              260 ./usr/bin
 lrwxrwxrwx root       root               11 ./usr/bin/ipmicmd -> openipmicmd
 -rwxr-xr-x root       root            14128 ./usr/bin/ipmilan
 lrwxrwxrwx root       root               10 ./usr/bin/ipmish -> openipmish
--rwxr-xr-x root       root            87240 ./usr/bin/ipmi_sim
+-rwxr-xr-x root       root            91364 ./usr/bin/ipmi_sim
 -rwxr-xr-x root       root             9892 ./usr/bin/ipmi_ui
 -rwxr-xr-x root       root            18060 ./usr/bin/openipmicmd
 -rwxr-xr-x root       root            13984 ./usr/bin/openipmi_eventd
--rwxr-xr-x root       root            96376 ./usr/bin/openipmish
+-rwxr-xr-x root       root            22448 ./usr/bin/openipmish
 -rwxr-xr-x root       root             9880 ./usr/bin/rmcp_ping
 -rwxr-xr-x root       root            43908 ./usr/bin/sdrcomp
 -rwxr-xr-x root       root            18088 ./usr/bin/solterm
@@ -34,7 +34,7 @@ lrwxrwxrwx root       root               27 ./usr/lib/libOpenIPMIcmdlang.so.0 ->
 lrwxrwxrwx root       root               24 ./usr/lib/libOpenIPMIglib.so.0 -> libOpenIPMIglib.so.0.0.1
 -rwxr-xr-x root       root            18100 ./usr/lib/libOpenIPMIposix.so.0.0.1
 lrwxrwxrwx root       root               25 ./usr/lib/libOpenIPMIposix.so.0 -> libOpenIPMIposix.so.0.0.1
--rwxr-xr-x root       root            18100 ./usr/lib/libOpenIPMIpthread.so.0.0.1
+-rwxr-xr-x root       root            22196 ./usr/lib/libOpenIPMIpthread.so.0.0.1
 lrwxrwxrwx root       root               27 ./usr/lib/libOpenIPMIpthread.so.0 -> libOpenIPMIpthread.so.0.0.1
 -rwxr-xr-x root       root           620552 ./usr/lib/libOpenIPMI.so.0.0.5
 lrwxrwxrwx root       root               20 ./usr/lib/libOpenIPMI.so.0 -> libOpenIPMI.so.0.0.5
