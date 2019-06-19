@@ -1,9 +1,9 @@
-PV = 1.4.53
+PV = 1.4.54
 PR = r0
-PKGR = r0.36
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29)
+RDEPENDS = glibc (>= 2.29) libcrypto (>= 1.1.1c)
 RRECOMMENDS = 
-PKGSIZE = 22952
+PKGSIZE = 27048
 FILES = /usr/lib/mod_auth.so
 FILELIST = /usr/lib/mod_auth.so
