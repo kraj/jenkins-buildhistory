@@ -1,10 +1,9 @@
 set -e
-        if [ -n "$D" ]; then
-                exit 0
-        fi
-        if [ -e /etc/init.d/populate-volatile.sh ]; then
-                /etc/init.d/populate-volatile.sh update
-        fi
+	if [  ! -n "$D" ]; then
+		if [ -e /etc/init.d/populate-volatile.sh ]; then
+			/etc/init.d/populate-volatile.sh update
+		fi
+	fi
 if type systemctl >/dev/null 2>/dev/null; then
 	OPTS=""
 
