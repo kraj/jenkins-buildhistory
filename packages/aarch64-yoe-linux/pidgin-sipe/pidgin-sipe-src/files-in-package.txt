@@ -9,7 +9,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/pidgin-sipe/1.24.0-r
 -rw-r--r-- root       root            41153 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/api/sipe-backend.h
 -rw-r--r-- root       root            21500 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/api/sipe-core.h
 -rw-r--r-- root       root             2196 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/api/sipe-mime.h
-drwxr-xr-x root       root             2000 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core
+drwxr-xr-x root       root             2020 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core
 -rw-r--r-- root       root             4462 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/md4.c
 -rw-r--r-- root       root             1099 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/md4.h
 -rw-r--r-- root       root            20634 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sip-csta.c
@@ -57,6 +57,7 @@ drwxr-xr-x root       root             2000 ./usr/src/debug/pidgin-sipe/1.24.0-r
 -rw-r--r-- root       root             1719 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-incoming.h
 -rw-r--r-- root       root            14851 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-lync-autodiscover.c
 -rw-r--r-- root       root             2338 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-lync-autodiscover.h
+-rw-r--r-- root       root             5113 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-mime.c
 -rw-r--r-- root       root             1713 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-mime-common.c
 -rw-r--r-- root       root            53576 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-notify.c
 -rw-r--r-- root       root             1112 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sipe-notify.h
@@ -108,7 +109,7 @@ drwxr-xr-x root       root             2000 ./usr/src/debug/pidgin-sipe/1.24.0-r
 -rw-r--r-- root       root             4417 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/sip-transport.h
 -rw-r--r-- root       root             4340 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/uuid.c
 -rw-r--r-- root       root              990 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/core/uuid.h
-drwxr-xr-x root       root              520 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple
+drwxr-xr-x root       root              500 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple
 -rw-r--r-- root       root            29570 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-buddy.c
 -rw-r--r-- root       root            19401 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-chat.c
 -rw-r--r-- root       root             2344 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-connection.c
@@ -121,7 +122,6 @@ drwxr-xr-x root       root              520 ./usr/src/debug/pidgin-sipe/1.24.0-r
 -rw-r--r-- root       root             7797 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-groupchat.c
 -rw-r--r-- root       root             2567 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-im.c
 -rw-r--r-- root       root             1250 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-markup.c
--rw-r--r-- root       root             2743 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-mime.c
 -rw-r--r-- root       root             4790 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-network.c
 -rw-r--r-- root       root             2968 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-notify.c
 -rw-r--r-- root       root             8421 ./usr/src/debug/pidgin-sipe/1.24.0-r0/pidgin-sipe-1.24.0/src/purple/purple-plugin.c

@@ -741,12 +741,14 @@ drwxr-xr-x root       root              740 ./usr/lib/python3.7/site-packages/tw
 -rw-r--r-- root       root            16770 ./usr/lib/python3.7/site-packages/twisted/trial/test/test_warning.py
 -rw-r--r-- root       root              721 ./usr/lib/python3.7/site-packages/twisted/trial/test/weird.py
 drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/twisted/web
-drwxr-xr-x root       root              680 ./usr/lib/python3.7/site-packages/twisted/web/test
+drwxr-xr-x root       root              700 ./usr/lib/python3.7/site-packages/twisted/web/test
 -rw-r--r-- root       root              108 ./usr/lib/python3.7/site-packages/twisted/web/test/__init__.py
-drwxr-xr-x root       root              660 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__
+-rw-r--r-- root       root             5627 ./usr/lib/python3.7/site-packages/twisted/web/test/injectionhelpers.py
+drwxr-xr-x root       root              680 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__
 -rw-r--r-- root       root              187 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/__init__.cpython-37.pyc
+-rw-r--r-- root       root             6500 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/injectionhelpers.cpython-37.pyc
 -rw-r--r-- root       root            16503 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/requesthelper.cpython-37.pyc
--rw-r--r-- root       root           111868 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_agent.cpython-37.pyc
+-rw-r--r-- root       root           115872 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_agent.cpython-37.pyc
 -rw-r--r-- root       root            15340 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_cgi.cpython-37.pyc
 -rw-r--r-- root       root             2077 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_client.cpython-37.pyc
 -rw-r--r-- root       root            20023 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_distrib.cpython-37.pyc
@@ -768,7 +770,7 @@ drwxr-xr-x root       root              660 ./usr/lib/python3.7/site-packages/tw
 -rw-r--r-- root       root            32908 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_template.cpython-37.pyc
 -rw-r--r-- root       root            12891 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_util.cpython-37.pyc
 -rw-r--r-- root       root             7412 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_vhost.cpython-37.pyc
--rw-r--r-- root       root            57138 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_webclient.cpython-37.pyc
+-rw-r--r-- root       root            65793 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_webclient.cpython-37.pyc
 -rw-r--r-- root       root            63396 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_web.cpython-37.pyc
 -rw-r--r-- root       root             1266 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_web__responses.cpython-37.pyc
 -rw-r--r-- root       root            87352 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_wsgi.cpython-37.pyc
@@ -776,7 +778,7 @@ drwxr-xr-x root       root              660 ./usr/lib/python3.7/site-packages/tw
 -rw-r--r-- root       root            33251 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/test_xmlrpc.cpython-37.pyc
 -rw-r--r-- root       root             3056 ./usr/lib/python3.7/site-packages/twisted/web/test/__pycache__/_util.cpython-37.pyc
 -rw-r--r-- root       root            13702 ./usr/lib/python3.7/site-packages/twisted/web/test/requesthelper.py
--rw-r--r-- root       root           112451 ./usr/lib/python3.7/site-packages/twisted/web/test/test_agent.py
+-rw-r--r-- root       root           116072 ./usr/lib/python3.7/site-packages/twisted/web/test/test_agent.py
 -rw-r--r-- root       root            13761 ./usr/lib/python3.7/site-packages/twisted/web/test/test_cgi.py
 -rw-r--r-- root       root             1372 ./usr/lib/python3.7/site-packages/twisted/web/test/test_client.py
 -rw-r--r-- root       root            18288 ./usr/lib/python3.7/site-packages/twisted/web/test/test_distrib.py
@@ -798,7 +800,7 @@ drwxr-xr-x root       root              660 ./usr/lib/python3.7/site-packages/tw
 -rw-r--r-- root       root            25977 ./usr/lib/python3.7/site-packages/twisted/web/test/test_template.py
 -rw-r--r-- root       root            12590 ./usr/lib/python3.7/site-packages/twisted/web/test/test_util.py
 -rw-r--r-- root       root             7398 ./usr/lib/python3.7/site-packages/twisted/web/test/test_vhost.py
--rw-r--r-- root       root            52060 ./usr/lib/python3.7/site-packages/twisted/web/test/test_webclient.py
+-rw-r--r-- root       root            59615 ./usr/lib/python3.7/site-packages/twisted/web/test/test_webclient.py
 -rw-r--r-- root       root            63142 ./usr/lib/python3.7/site-packages/twisted/web/test/test_web.py
 -rw-r--r-- root       root              877 ./usr/lib/python3.7/site-packages/twisted/web/test/test_web__responses.py
 -rw-r--r-- root       root            78210 ./usr/lib/python3.7/site-packages/twisted/web/test/test_wsgi.py
