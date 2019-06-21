@@ -1,9 +1,9 @@
 PV = 17
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = efivar (>= 37) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = efivar (>= 37) musl (>= 1.1.22+git1+ac304227bb) popt (>= 1.16)
 RRECOMMENDS = 
-PKGSIZE = 38900
+PKGSIZE = 52628
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/efibootmgr /usr/lib/efibootmgr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/sbin/efibootmgr
+FILELIST = /usr/sbin/efibootdump /usr/sbin/efibootmgr
