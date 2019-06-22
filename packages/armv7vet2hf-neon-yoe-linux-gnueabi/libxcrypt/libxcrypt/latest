@@ -1,10 +1,10 @@
 PV = 4.4.6
 PR = r0
-PKG = libcrypt1
-PKGR = r0.6
+PKG = libcrypt2
+PKGR = r0.7
 RPROVIDES = libxcrypt (=4.4.6)
 RDEPENDS = glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 198374
+PKGSIZE = 198361
 FILES = /usr/lib/libcrypt*.so.* /usr/lib/libcrypt-*.so /usr/lib/libowcrypt*.so.* /usr/lib/libowcrypt-*.so
-FILELIST = /usr/lib/libcrypt.so.1 /usr/lib/libcrypt.so.1.1.0 /usr/lib/libowcrypt.so.1
+FILELIST = /usr/lib/libcrypt.so.2 /usr/lib/libcrypt.so.2.0.0

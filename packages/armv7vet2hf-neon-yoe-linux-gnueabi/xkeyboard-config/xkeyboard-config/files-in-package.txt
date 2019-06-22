@@ -64,7 +64,7 @@ drwxr-xr-x root       root               80 ./usr/share/X11/xkb/keycodes/digital
 -rw-r--r-- root       root             6133 ./usr/share/X11/xkb/keycodes/digital_vndr/lk
 -rw-r--r-- root       root             6102 ./usr/share/X11/xkb/keycodes/digital_vndr/pc
 -rw-r--r-- root       root               68 ./usr/share/X11/xkb/keycodes/empty
--rw-r--r-- root       root             8877 ./usr/share/X11/xkb/keycodes/evdev
+-rw-r--r-- root       root             8933 ./usr/share/X11/xkb/keycodes/evdev
 -rw-r--r-- root       root             3715 ./usr/share/X11/xkb/keycodes/fujitsu
 -rw-r--r-- root       root             4971 ./usr/share/X11/xkb/keycodes/hp
 -rw-r--r-- root       root             3146 ./usr/share/X11/xkb/keycodes/ibm
@@ -80,18 +80,19 @@ drwxr-xr-x root       root              100 ./usr/share/X11/xkb/keycodes/sgi_vnd
 -rw-r--r-- root       root             5076 ./usr/share/X11/xkb/keycodes/sun
 -rw-r--r-- root       root             8634 ./usr/share/X11/xkb/keycodes/xfree86
 -rw-r--r-- root       root             3204 ./usr/share/X11/xkb/keycodes/xfree98
-drwxr-xr-x root       root              320 ./usr/share/X11/xkb/rules
--rw-r--r-- root       root            47986 ./usr/share/X11/xkb/rules/base
--rw-r--r-- root       root            36981 ./usr/share/X11/xkb/rules/base.extras.xml
--rw-r--r-- root       root            43402 ./usr/share/X11/xkb/rules/base.lst
--rw-r--r-- root       root           214994 ./usr/share/X11/xkb/rules/base.xml
--rw-r--r-- root       root            43014 ./usr/share/X11/xkb/rules/evdev
--rw-r--r-- root       root            36981 ./usr/share/X11/xkb/rules/evdev.extras.xml
--rw-r--r-- root       root            43402 ./usr/share/X11/xkb/rules/evdev.lst
--rw-r--r-- root       root           214994 ./usr/share/X11/xkb/rules/evdev.xml
+drwxr-xr-x root       root              340 ./usr/share/X11/xkb/rules
+-rw-r--r-- root       root            48054 ./usr/share/X11/xkb/rules/base
+-rw-r--r-- root       root            37780 ./usr/share/X11/xkb/rules/base.extras.xml
+-rw-r--r-- root       root            44354 ./usr/share/X11/xkb/rules/base.lst
+-rw-r--r-- root       root           228318 ./usr/share/X11/xkb/rules/base.xml
+-rw-r--r-- root       root            43082 ./usr/share/X11/xkb/rules/evdev
+-rw-r--r-- root       root            37780 ./usr/share/X11/xkb/rules/evdev.extras.xml
+-rw-r--r-- root       root            44354 ./usr/share/X11/xkb/rules/evdev.lst
+-rw-r--r-- root       root           228318 ./usr/share/X11/xkb/rules/evdev.xml
 -rw-r--r-- root       root               91 ./usr/share/X11/xkb/rules/README
 -rw-r--r-- root       root              743 ./usr/share/X11/xkb/rules/xfree98
 -rw-r--r-- root       root             1126 ./usr/share/X11/xkb/rules/xkb.dtd
+-rw-r--r-- root       root              304 ./usr/share/X11/xkb/rules/xkb.its
 lrwxrwxrwx root       root                4 ./usr/share/X11/xkb/rules/xorg -> base
 lrwxrwxrwx root       root                8 ./usr/share/X11/xkb/rules/xorg.lst -> base.lst
 lrwxrwxrwx root       root                8 ./usr/share/X11/xkb/rules/xorg.xml -> base.xml
@@ -100,7 +101,7 @@ drwxr-xr-x root       root             2720 ./usr/share/X11/xkb/symbols
 -rw-r--r-- root       root             4110 ./usr/share/X11/xkb/symbols/al
 -rw-r--r-- root       root             3363 ./usr/share/X11/xkb/symbols/altwin
 -rw-r--r-- root       root            10348 ./usr/share/X11/xkb/symbols/am
--rw-r--r-- root       root            48051 ./usr/share/X11/xkb/symbols/apl
+-rw-r--r-- root       root            48299 ./usr/share/X11/xkb/symbols/apl
 -rw-r--r-- root       root            33618 ./usr/share/X11/xkb/symbols/ara
 -rw-r--r-- root       root              564 ./usr/share/X11/xkb/symbols/at
 -rw-r--r-- root       root              179 ./usr/share/X11/xkb/symbols/au
@@ -115,14 +116,14 @@ drwxr-xr-x root       root             2720 ./usr/share/X11/xkb/symbols
 -rw-r--r-- root       root              981 ./usr/share/X11/xkb/symbols/bw
 -rw-r--r-- root       root             2059 ./usr/share/X11/xkb/symbols/by
 -rw-r--r-- root       root            21520 ./usr/share/X11/xkb/symbols/ca
--rw-r--r-- root       root             1749 ./usr/share/X11/xkb/symbols/capslock
+-rw-r--r-- root       root             2000 ./usr/share/X11/xkb/symbols/capslock
 -rw-r--r-- root       root             4120 ./usr/share/X11/xkb/symbols/cd
 -rw-r--r-- root       root             8291 ./usr/share/X11/xkb/symbols/ch
 -rw-r--r-- root       root            33794 ./usr/share/X11/xkb/symbols/cm
 -rw-r--r-- root       root            13139 ./usr/share/X11/xkb/symbols/cn
 -rw-r--r-- root       root             2303 ./usr/share/X11/xkb/symbols/compose
 -rw-r--r-- root       root             3354 ./usr/share/X11/xkb/symbols/ctrl
--rw-r--r-- root       root            12463 ./usr/share/X11/xkb/symbols/cz
+-rw-r--r-- root       root            17731 ./usr/share/X11/xkb/symbols/cz
 -rw-r--r-- root       root            88052 ./usr/share/X11/xkb/symbols/de
 drwxr-xr-x root       root              120 ./usr/share/X11/xkb/symbols/digital_vndr
 -rw-r--r-- root       root             4361 ./usr/share/X11/xkb/symbols/digital_vndr/lk
@@ -153,12 +154,12 @@ drwxr-xr-x root       root               80 ./usr/share/X11/xkb/symbols/fujitsu_
 drwxr-xr-x root       root               60 ./usr/share/X11/xkb/symbols/hp_vndr
 -rw-r--r-- root       root             3321 ./usr/share/X11/xkb/symbols/hp_vndr/us
 -rw-r--r-- root       root             2493 ./usr/share/X11/xkb/symbols/hr
--rw-r--r-- root       root            19924 ./usr/share/X11/xkb/symbols/hu
+-rw-r--r-- root       root            20058 ./usr/share/X11/xkb/symbols/hu
 -rw-r--r-- root       root             3651 ./usr/share/X11/xkb/symbols/id
 -rw-r--r-- root       root            20277 ./usr/share/X11/xkb/symbols/ie
 -rw-r--r-- root       root            16256 ./usr/share/X11/xkb/symbols/il
--rw-r--r-- root       root            94750 ./usr/share/X11/xkb/symbols/in
--rw-r--r-- root       root            64277 ./usr/share/X11/xkb/symbols/inet
+-rw-r--r-- root       root            94864 ./usr/share/X11/xkb/symbols/in
+-rw-r--r-- root       root            64346 ./usr/share/X11/xkb/symbols/inet
 -rw-r--r-- root       root              642 ./usr/share/X11/xkb/symbols/iq
 -rw-r--r-- root       root            12434 ./usr/share/X11/xkb/symbols/ir
 -rw-r--r-- root       root            14671 ./usr/share/X11/xkb/symbols/is
@@ -180,7 +181,7 @@ drwxr-xr-x root       root               60 ./usr/share/X11/xkb/symbols/jolla_vn
 -rw-r--r-- root       root             4739 ./usr/share/X11/xkb/symbols/level5
 -rw-r--r-- root       root             8221 ./usr/share/X11/xkb/symbols/lk
 -rw-r--r-- root       root            16925 ./usr/share/X11/xkb/symbols/lt
--rw-r--r-- root       root            19009 ./usr/share/X11/xkb/symbols/lv
+-rw-r--r-- root       root            19013 ./usr/share/X11/xkb/symbols/lv
 -rw-r--r-- root       root            12510 ./usr/share/X11/xkb/symbols/ma
 drwxr-xr-x root       root              360 ./usr/share/X11/xkb/symbols/macintosh_vndr
 -rw-r--r-- root       root             5105 ./usr/share/X11/xkb/symbols/macintosh_vndr/apple
@@ -206,7 +207,7 @@ drwxr-xr-x root       root              360 ./usr/share/X11/xkb/symbols/macintos
 -rw-r--r-- root       root             3329 ./usr/share/X11/xkb/symbols/ml
 -rw-r--r-- root       root             5967 ./usr/share/X11/xkb/symbols/mm
 -rw-r--r-- root       root             4274 ./usr/share/X11/xkb/symbols/mn
--rw-r--r-- root       root             2982 ./usr/share/X11/xkb/symbols/mt
+-rw-r--r-- root       root             9130 ./usr/share/X11/xkb/symbols/mt
 -rw-r--r-- root       root             3392 ./usr/share/X11/xkb/symbols/mv
 -rw-r--r-- root       root             6991 ./usr/share/X11/xkb/symbols/my
 -rw-r--r-- root       root             4406 ./usr/share/X11/xkb/symbols/nbsp
@@ -226,7 +227,7 @@ drwxr-xr-x root       root              100 ./usr/share/X11/xkb/symbols/nokia_vn
 -rw-r--r-- root       root            75980 ./usr/share/X11/xkb/symbols/ph
 -rw-r--r-- root       root            20661 ./usr/share/X11/xkb/symbols/pk
 -rw-r--r-- root       root            25560 ./usr/share/X11/xkb/symbols/pl
--rw-r--r-- root       root            12878 ./usr/share/X11/xkb/symbols/pt
+-rw-r--r-- root       root            12822 ./usr/share/X11/xkb/symbols/pt
 -rw-r--r-- root       root            11263 ./usr/share/X11/xkb/symbols/ro
 -rw-r--r-- root       root            15362 ./usr/share/X11/xkb/symbols/rs
 -rw-r--r-- root       root            66641 ./usr/share/X11/xkb/symbols/ru
@@ -292,7 +293,7 @@ drwxr-xr-x root       root              680 ./usr/share/X11/xkb/symbols/sun_vndr
 -rw-r--r-- root       root             4276 ./usr/share/X11/xkb/symbols/typo
 -rw-r--r-- root       root             3429 ./usr/share/X11/xkb/symbols/tz
 -rw-r--r-- root       root            16088 ./usr/share/X11/xkb/symbols/ua
--rw-r--r-- root       root            79045 ./usr/share/X11/xkb/symbols/us
+-rw-r--r-- root       root            84089 ./usr/share/X11/xkb/symbols/us
 -rw-r--r-- root       root             4126 ./usr/share/X11/xkb/symbols/uz
 -rw-r--r-- root       root             6035 ./usr/share/X11/xkb/symbols/vn
 drwxr-xr-x root       root               80 ./usr/share/X11/xkb/symbols/xfree68_vndr

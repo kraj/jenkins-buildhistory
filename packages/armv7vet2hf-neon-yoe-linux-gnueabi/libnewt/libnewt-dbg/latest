@@ -1,9 +1,9 @@
 PV = 0.52.20
 PR = r0
-PKGR = r0.31
+PKGR = r0.32
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg popt-dbg slang-dbg
-PKGSIZE = 345544
+RRECOMMENDS = glibc-dbg libpython3-dbg libxcrypt-dbg popt-dbg slang-dbg
+PKGSIZE = 425556
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/whiptail /usr/lib/.debug/libnewt.so.0.52.20
+FILELIST = /usr/bin/.debug/whiptail /usr/lib/.debug/libnewt.so.0.52.20 /usr/lib/python3.7/site-packages/.debug/_snack.so

@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/perl
-drwxr-xr-x root       root             5000 ./usr/lib/perl/ptest
+drwxr-xr-x root       root             4980 ./usr/lib/perl/ptest
 -r--r--r-- root       root             6321 ./usr/lib/perl/ptest/Artistic
 -r--r--r-- root       root              983 ./usr/lib/perl/ptest/asan_ignore
 -r--r--r-- root       root            48831 ./usr/lib/perl/ptest/AUTHORS
@@ -10,7 +10,7 @@ drwxr-xr-x root       root             5000 ./usr/lib/perl/ptest
 -r--r--r-- root       root             3294 ./usr/lib/perl/ptest/av.h
 -rw-r--r-- root       root              850 ./usr/lib/perl/ptest/bitcount.h
 -r--r--r-- root       root             4459 ./usr/lib/perl/ptest/caretx.c
--rwxr-xr-x root       root             3060 ./usr/lib/perl/ptest/cflags
+-rwxr-xr-x root       root             2736 ./usr/lib/perl/ptest/cflags
 -r--r--r-- root       root             3168 ./usr/lib/perl/ptest/Changes
 -r--r--r-- root       root          4114121 ./usr/lib/perl/ptest/charclass_invlists.h
 drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf
@@ -326,9 +326,8 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/stub/IPC
 -rw-r--r-- root       root               49 ./usr/lib/perl/ptest/cnf/stub/IPC/Cmd.pm
 -rw-r--r-- root       root           162824 ./usr/lib/perl/ptest/config.h
 -r-xr-xr-x root       root           167201 ./usr/lib/perl/ptest/config_h.SH
--rw-r--r-- root       root          1106113 ./usr/lib/perl/ptest/config.log
 -r-xr-xr-x root       root            33312 ./usr/lib/perl/ptest/configpm
--rw-r--r-- root       root            35602 ./usr/lib/perl/ptest/config.sh
+-rw-r--r-- root       root            35669 ./usr/lib/perl/ptest/config.sh
 -rwxr-xr-x root       root             2085 ./usr/lib/perl/ptest/configure
 -r--r--r-- root       root           220939 ./usr/lib/perl/ptest/configure.com
 -r-xr-xr-x root       root             2556 ./usr/lib/perl/ptest/configure.gnu
@@ -8064,7 +8063,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/Config
 -r--r--r-- root       root             1355 ./usr/lib/perl/ptest/lib/Config/Extensions.pm
 -r--r--r-- root       root              749 ./usr/lib/perl/ptest/lib/Config/Extensions.t
 -rw-r--r-- root       root              409 ./usr/lib/perl/ptest/lib/Config_git.pl
--rw-r--r-- root       root            40363 ./usr/lib/perl/ptest/lib/Config_heavy.pl
+-rw-r--r-- root       root            40497 ./usr/lib/perl/ptest/lib/Config_heavy.pl
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Config/Perl
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Config/Perl/.exists
 -r--r--r-- root       root            14913 ./usr/lib/perl/ptest/lib/Config/Perl/V.pm
@@ -9745,7 +9744,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r-xr-xr-x root       root             9258 ./usr/lib/perl/ptest/makedepend.SH
 -rw-r--r-- root       root             3548 ./usr/lib/perl/ptest/make_ext_Makefile.pl
 -r--r--r-- root       root            26137 ./usr/lib/perl/ptest/make_ext.pl
--rw-r--r-- root       root             4793 ./usr/lib/perl/ptest/Makefile.config
+-rw-r--r-- root       root             4128 ./usr/lib/perl/ptest/Makefile.config
 -rwxr-xr-x root       root             3821 ./usr/lib/perl/ptest/Makefile.config.SH
 -r--r--r-- root       root             5466 ./usr/lib/perl/ptest/Makefile.micro
 -r-xr-xr-x root       root            53435 ./usr/lib/perl/ptest/Makefile.SH
@@ -9978,7 +9977,7 @@ lrwxrwxrwx root       root               18 ./usr/lib/perl/ptest/pod/perlsynolog
 -r--r--r-- root       root            44990 ./usr/lib/perl/ptest/pod/perlsyn.pod
 -r--r--r-- root       root            46462 ./usr/lib/perl/ptest/pod/perlthrtut.pod
 -r--r--r-- root       root            38744 ./usr/lib/perl/ptest/pod/perltie.pod
--rw-r--r-- root       root           692377 ./usr/lib/perl/ptest/pod/perltoc.pod
+-rw-r--r-- root       root           634871 ./usr/lib/perl/ptest/pod/perltoc.pod
 -r--r--r-- root       root              376 ./usr/lib/perl/ptest/pod/perltodo.pod
 -r--r--r-- root       root              294 ./usr/lib/perl/ptest/pod/perltooc.pod
 -r--r--r-- root       root              294 ./usr/lib/perl/ptest/pod/perltoot.pod
@@ -9996,7 +9995,7 @@ lrwxrwxrwx root       root               12 ./usr/lib/perl/ptest/pod/perltw.pod 
 -r--r--r-- root       root            50823 ./usr/lib/perl/ptest/pod/perlvms.pod
 lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perlvos.pod -> ../README.vos
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlwin32.pod -> ../README.win32
--rw-r--r-- root       root            28264 ./usr/lib/perl/ptest/pod/roffitall
+-rw-r--r-- root       root            23766 ./usr/lib/perl/ptest/pod/roffitall
 -r--r--r-- root       root             1438 ./usr/lib/perl/ptest/pod/rofftoc
 -r--r--r-- root       root              644 ./usr/lib/perl/ptest/pod/splitman
 -r--r--r-- root       root             1357 ./usr/lib/perl/ptest/pod/splitpod
