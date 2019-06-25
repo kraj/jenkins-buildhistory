@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop strongswan.service
+		systemctl stop strongswan-starter.service
 
-		systemctl disable strongswan.service
+		systemctl disable strongswan-starter.service
 	fi
 fi
