@@ -1,9 +1,9 @@
-PV = 5.7.1
+PV = 5.8.0
 PR = r0
-PKGR = r0.95
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = strongswan-dbg
-RRECOMMENDS = glibc-dbg gmp-dbg libcrypto-dbg libcurl-dbg libsqlite3-dbg
-PKGSIZE = 89960
+RRECOMMENDS = glibc-dbg gmp-dbg libcrypto-dbg libcurl-dbg libsqlite3-dbg strongswan-plugin-kernel-netlink-dbg
+PKGSIZE = 90120
 FILES = /usr/lib/ipsec/plugins/.debug/libstrongswan-dnskey.so
 FILELIST = /usr/lib/ipsec/plugins/.debug/libstrongswan-dnskey.so
