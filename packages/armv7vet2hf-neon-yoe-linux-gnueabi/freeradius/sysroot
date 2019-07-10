@@ -1,0 +1,458 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 400 ./lib/systemd/system/radiusd.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  10 ./sysroot-providers/freeradius
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               14486 ./usr/bin/postinst-useradd-freeradius
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                1320 ./usr/include/freeradius
+-rw-r--r-- -          -               12714 ./usr/include/freeradius/attributes.h
+-rw-r--r-- -          -                1423 ./usr/include/freeradius/base64.h
+-rw-r--r-- -          -                3861 ./usr/include/freeradius/build.h
+-rw-r--r-- -          -               14417 ./usr/include/freeradius/conffile.h
+-rw-r--r-- -          -                 404 ./usr/include/freeradius/conf.h
+-rw-r--r-- -          -                2172 ./usr/include/freeradius/detail.h
+-rw-r--r-- -          -                2242 ./usr/include/freeradius/event.h
+-rw-r--r-- -          -                1423 ./usr/include/freeradius/features.h
+-rw-r--r-- -          -                4781 ./usr/include/freeradius/freeradius.h
+-rw-r--r-- -          -                2354 ./usr/include/freeradius/hash.h
+-rw-r--r-- -          -                1459 ./usr/include/freeradius/heap.h
+-rw-r--r-- -          -               34762 ./usr/include/freeradius/libradius.h
+-rw-r--r-- -          -                3945 ./usr/include/freeradius/map.h
+-rw-r--r-- -          -                2418 ./usr/include/freeradius/md4.h
+-rw-r--r-- -          -                2483 ./usr/include/freeradius/md5.h
+-rw-r--r-- -          -               11208 ./usr/include/freeradius/missing.h
+-rw-r--r-- -          -                1655 ./usr/include/freeradius/modcall.h
+-rw-r--r-- -          -                6260 ./usr/include/freeradius/modules.h
+-rw-r--r-- -          -                3312 ./usr/include/freeradius/packet.h
+-rw-r--r-- -          -                1475 ./usr/include/freeradius/rad_assert.h
+-rw-r--r-- -          -               22190 ./usr/include/freeradius/radiusd.h
+-rw-r--r-- -          -                5889 ./usr/include/freeradius/radius.h
+-rw-r--r-- -          -                 281 ./usr/include/freeradius/radpaths.h
+-rw-r--r-- -          -                1726 ./usr/include/freeradius/radutmp.h
+-rw-r--r-- -          -                5447 ./usr/include/freeradius/realms.h
+-rw-r--r-- -          -                1225 ./usr/include/freeradius/rfc2865.h
+-rw-r--r-- -          -                 433 ./usr/include/freeradius/rfc2866.h
+-rw-r--r-- -          -                 124 ./usr/include/freeradius/rfc2867.h
+-rw-r--r-- -          -                 388 ./usr/include/freeradius/rfc2868.h
+-rw-r--r-- -          -                 596 ./usr/include/freeradius/rfc2869.h
+-rw-r--r-- -          -                 240 ./usr/include/freeradius/rfc3162.h
+-rw-r--r-- -          -                  75 ./usr/include/freeradius/rfc3576.h
+-rw-r--r-- -          -                  48 ./usr/include/freeradius/rfc3580.h
+-rw-r--r-- -          -                  76 ./usr/include/freeradius/rfc4072.h
+-rw-r--r-- -          -                  87 ./usr/include/freeradius/rfc4372.h
+-rw-r--r-- -          -                  48 ./usr/include/freeradius/rfc4603.h
+-rw-r--r-- -          -                 171 ./usr/include/freeradius/rfc4675.h
+-rw-r--r-- -          -                1085 ./usr/include/freeradius/rfc4679.h
+-rw-r--r-- -          -                  85 ./usr/include/freeradius/rfc4818.h
+-rw-r--r-- -          -                  78 ./usr/include/freeradius/rfc4849.h
+-rw-r--r-- -          -                 648 ./usr/include/freeradius/rfc5090.h
+-rw-r--r-- -          -                  48 ./usr/include/freeradius/rfc5176.h
+-rw-r--r-- -          -                 120 ./usr/include/freeradius/rfc5447.h
+-rw-r--r-- -          -                 302 ./usr/include/freeradius/rfc5580.h
+-rw-r--r-- -          -                 206 ./usr/include/freeradius/rfc5607.h
+-rw-r--r-- -          -                 258 ./usr/include/freeradius/rfc5904.h
+-rw-r--r-- -          -                  83 ./usr/include/freeradius/rfc6519.h
+-rw-r--r-- -          -                 801 ./usr/include/freeradius/rfc6572.h
+-rw-r--r-- -          -                  79 ./usr/include/freeradius/rfc6677.h
+-rw-r--r-- -          -                 244 ./usr/include/freeradius/rfc6911.h
+-rw-r--r-- -          -                 534 ./usr/include/freeradius/rfc6929.h
+-rw-r--r-- -          -                 199 ./usr/include/freeradius/rfc6930.h
+-rw-r--r-- -          -                 212 ./usr/include/freeradius/rfc7055.h
+-rw-r--r-- -          -                  84 ./usr/include/freeradius/rfc7155.h
+-rw-r--r-- -          -                 596 ./usr/include/freeradius/rfc7268.h
+-rw-r--r-- -          -                 113 ./usr/include/freeradius/rfc7499.h
+-rw-r--r-- -          -                 119 ./usr/include/freeradius/rfc7930.h
+-rw-r--r-- -          -                1309 ./usr/include/freeradius/sha1.h
+-rw-r--r-- -          -                2812 ./usr/include/freeradius/stats.h
+-rw-r--r-- -          -                2289 ./usr/include/freeradius/sysutmp.h
+-rw-r--r-- -          -               12102 ./usr/include/freeradius/tls.h
+-rw-r--r-- -          -                2729 ./usr/include/freeradius/token.h
+-rw-r--r-- -          -                 670 ./usr/include/freeradius/udpfromto.h
+-rw-r--r-- -          -                 789 ./usr/include/freeradius/vqp.h
+drwxr-xr-x -          -                3340 ./usr/lib
+-rwxr-xr-x -          -               21992 ./usr/lib/libfreeradius-dhcp.so.0.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libfreeradius-dhcp.so.0 -> libfreeradius-dhcp.so.0.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libfreeradius-dhcp.so -> libfreeradius-dhcp.so.0.0.0
+-rwxr-xr-x -          -               38368 ./usr/lib/libfreeradius-eap.so.0.0.0
+lrwxrwxrwx -          -                  26 ./usr/lib/libfreeradius-eap.so.0 -> libfreeradius-eap.so.0.0.0
+lrwxrwxrwx -          -                  26 ./usr/lib/libfreeradius-eap.so -> libfreeradius-eap.so.0.0.0
+-rwxr-xr-x -          -              161536 ./usr/lib/libfreeradius-radius.so.0.0.0
+lrwxrwxrwx -          -                  29 ./usr/lib/libfreeradius-radius.so.0 -> libfreeradius-radius.so.0.0.0
+lrwxrwxrwx -          -                  29 ./usr/lib/libfreeradius-radius.so -> libfreeradius-radius.so.0.0.0
+-rwxr-xr-x -          -              136752 ./usr/lib/libfreeradius-server.so.0.0.0
+lrwxrwxrwx -          -                  29 ./usr/lib/libfreeradius-server.so.0 -> libfreeradius-server.so.0.0.0
+lrwxrwxrwx -          -                  29 ./usr/lib/libfreeradius-server.so -> libfreeradius-server.so.0.0.0
+-rwxr-xr-x -          -               13784 ./usr/lib/proto_dhcp.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/proto_dhcp.so.0 -> proto_dhcp.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/proto_dhcp.so -> proto_dhcp.so.0.0.0
+-rwxr-xr-x -          -               13784 ./usr/lib/proto_vmps.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/proto_vmps.so.0 -> proto_vmps.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/proto_vmps.so -> proto_vmps.so.0.0.0
+-rwxr-xr-x -          -                5520 ./usr/lib/rlm_always.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_always.so.0 -> rlm_always.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_always.so -> rlm_always.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_attr_filter.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/rlm_attr_filter.so.0 -> rlm_attr_filter.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/rlm_attr_filter.so -> rlm_attr_filter.so.0.0.0
+-rwxr-xr-x -          -                9680 ./usr/lib/rlm_cache_rbtree.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/rlm_cache_rbtree.so.0 -> rlm_cache_rbtree.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/rlm_cache_rbtree.so -> rlm_cache_rbtree.so.0.0.0
+-rwxr-xr-x -          -               13876 ./usr/lib/rlm_cache.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_cache.so.0 -> rlm_cache.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_cache.so -> rlm_cache.so.0.0.0
+-rwxr-xr-x -          -                9720 ./usr/lib/rlm_chap.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_chap.so.0 -> rlm_chap.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_chap.so -> rlm_chap.so.0.0.0
+-rwxr-xr-x -          -                9720 ./usr/lib/rlm_cram.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_cram.so.0 -> rlm_cram.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_cram.so -> rlm_cram.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_date.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_date.so.0 -> rlm_date.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_date.so -> rlm_date.so.0.0.0
+-rwxr-xr-x -          -               13876 ./usr/lib/rlm_detail.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_detail.so.0 -> rlm_detail.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_detail.so -> rlm_detail.so.0.0.0
+-rwxr-xr-x -          -                9720 ./usr/lib/rlm_dhcp.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_dhcp.so.0 -> rlm_dhcp.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_dhcp.so -> rlm_dhcp.so.0.0.0
+-rwxr-xr-x -          -               13816 ./usr/lib/rlm_digest.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_digest.so.0 -> rlm_digest.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_digest.so -> rlm_digest.so.0.0.0
+-rwxr-xr-x -          -                5624 ./usr/lib/rlm_dynamic_clients.so.0.0.0
+lrwxrwxrwx -          -                  28 ./usr/lib/rlm_dynamic_clients.so.0 -> rlm_dynamic_clients.so.0.0.0
+lrwxrwxrwx -          -                  28 ./usr/lib/rlm_dynamic_clients.so -> rlm_dynamic_clients.so.0.0.0
+-rwxr-xr-x -          -               30356 ./usr/lib/rlm_eap_fast.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_fast.so.0 -> rlm_eap_fast.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_fast.so -> rlm_eap_fast.so.0.0.0
+-rwxr-xr-x -          -                9716 ./usr/lib/rlm_eap_gtc.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_gtc.so.0 -> rlm_eap_gtc.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_gtc.so -> rlm_eap_gtc.so.0.0.0
+-rwxr-xr-x -          -               17848 ./usr/lib/rlm_eap_leap.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_leap.so.0 -> rlm_eap_leap.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_leap.so -> rlm_eap_leap.so.0.0.0
+-rwxr-xr-x -          -                9656 ./usr/lib/rlm_eap_md5.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_md5.so.0 -> rlm_eap_md5.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_md5.so -> rlm_eap_md5.so.0.0.0
+-rwxr-xr-x -          -               13832 ./usr/lib/rlm_eap_mschapv2.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/rlm_eap_mschapv2.so.0 -> rlm_eap_mschapv2.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/rlm_eap_mschapv2.so -> rlm_eap_mschapv2.so.0.0.0
+-rwxr-xr-x -          -               22164 ./usr/lib/rlm_eap_peap.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_peap.so.0 -> rlm_eap_peap.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_peap.so -> rlm_eap_peap.so.0.0.0
+-rwxr-xr-x -          -               26140 ./usr/lib/rlm_eap_pwd.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_pwd.so.0 -> rlm_eap_pwd.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_pwd.so -> rlm_eap_pwd.so.0.0.0
+-rwxr-xr-x -          -               13752 ./usr/lib/rlm_eap_sim.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_sim.so.0 -> rlm_eap_sim.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_sim.so -> rlm_eap_sim.so.0.0.0
+-rwxr-xr-x -          -               30260 ./usr/lib/rlm_eap.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_eap.so.0 -> rlm_eap.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_eap.so -> rlm_eap.so.0.0.0
+-rwxr-xr-x -          -                9552 ./usr/lib/rlm_eap_tls.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_tls.so.0 -> rlm_eap_tls.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_eap_tls.so -> rlm_eap_tls.so.0.0.0
+-rwxr-xr-x -          -               22104 ./usr/lib/rlm_eap_ttls.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_ttls.so.0 -> rlm_eap_ttls.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_eap_ttls.so -> rlm_eap_ttls.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_exec.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_exec.so.0 -> rlm_exec.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_exec.so -> rlm_exec.so.0.0.0
+-rwxr-xr-x -          -                5624 ./usr/lib/rlm_expiration.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/rlm_expiration.so.0 -> rlm_expiration.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/rlm_expiration.so -> rlm_expiration.so.0.0.0
+-rwxr-xr-x -          -               26264 ./usr/lib/rlm_expr.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_expr.so.0 -> rlm_expr.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_expr.so -> rlm_expr.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_files.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_files.so.0 -> rlm_files.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_files.so -> rlm_files.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_linelog.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_linelog.so.0 -> rlm_linelog.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_linelog.so -> rlm_linelog.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_logintime.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_logintime.so.0 -> rlm_logintime.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_logintime.so -> rlm_logintime.so.0.0.0
+-rwxr-xr-x -          -               30268 ./usr/lib/rlm_mschap.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_mschap.so.0 -> rlm_mschap.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_mschap.so -> rlm_mschap.so.0.0.0
+-rwxr-xr-x -          -               26164 ./usr/lib/rlm_otp.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_otp.so.0 -> rlm_otp.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_otp.so -> rlm_otp.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_pam.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_pam.so.0 -> rlm_pam.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_pam.so -> rlm_pam.so.0.0.0
+-rwxr-xr-x -          -               17972 ./usr/lib/rlm_pap.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_pap.so.0 -> rlm_pap.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_pap.so -> rlm_pap.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_passwd.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_passwd.so.0 -> rlm_passwd.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_passwd.so -> rlm_passwd.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_preprocess.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/rlm_preprocess.so.0 -> rlm_preprocess.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/rlm_preprocess.so -> rlm_preprocess.so.0.0.0
+-rwxr-xr-x -          -               13876 ./usr/lib/rlm_radutmp.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_radutmp.so.0 -> rlm_radutmp.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_radutmp.so -> rlm_radutmp.so.0.0.0
+-rwxr-xr-x -          -                9820 ./usr/lib/rlm_realm.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_realm.so.0 -> rlm_realm.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_realm.so -> rlm_realm.so.0.0.0
+-rwxr-xr-x -          -                9720 ./usr/lib/rlm_replicate.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_replicate.so.0 -> rlm_replicate.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_replicate.so -> rlm_replicate.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_soh.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_soh.so.0 -> rlm_soh.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_soh.so -> rlm_soh.so.0.0.0
+-rwxr-xr-x -          -                5520 ./usr/lib/rlm_sometimes.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_sometimes.so.0 -> rlm_sometimes.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_sometimes.so -> rlm_sometimes.so.0.0.0
+-rwxr-xr-x -          -               13876 ./usr/lib/rlm_sqlcounter.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/rlm_sqlcounter.so.0 -> rlm_sqlcounter.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/rlm_sqlcounter.so -> rlm_sqlcounter.so.0.0.0
+-rwxr-xr-x -          -               15036 ./usr/lib/rlm_sqlippool.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_sqlippool.so.0 -> rlm_sqlippool.so.0.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/rlm_sqlippool.so -> rlm_sqlippool.so.0.0.0
+-rwxr-xr-x -          -                5444 ./usr/lib/rlm_sql_null.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_sql_null.so.0 -> rlm_sql_null.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/rlm_sql_null.so -> rlm_sql_null.so.0.0.0
+-rwxr-xr-x -          -               30260 ./usr/lib/rlm_sql.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_sql.so.0 -> rlm_sql.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/rlm_sql.so -> rlm_sql.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_test.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_test.so.0 -> rlm_test.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_test.so -> rlm_test.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_unix.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_unix.so.0 -> rlm_unix.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_unix.so -> rlm_unix.so.0.0.0
+-rwxr-xr-x -          -                9720 ./usr/lib/rlm_unpack.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_unpack.so.0 -> rlm_unpack.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/rlm_unpack.so -> rlm_unpack.so.0.0.0
+-rwxr-xr-x -          -                5624 ./usr/lib/rlm_utf8.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_utf8.so.0 -> rlm_utf8.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/rlm_utf8.so -> rlm_utf8.so.0.0.0
+-rwxr-xr-x -          -                9780 ./usr/lib/rlm_wimax.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_wimax.so.0 -> rlm_wimax.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/rlm_wimax.so -> rlm_wimax.so.0.0.0
+-rwxr-xr-x -          -               13876 ./usr/lib/rlm_yubikey.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_yubikey.so.0 -> rlm_yubikey.so.0.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/rlm_yubikey.so -> rlm_yubikey.so.0.0.0
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                4340 ./usr/share/freeradius
+-rw-r--r-- -          -                8940 ./usr/share/freeradius/dictionary
+-rw-r--r-- -          -                1499 ./usr/share/freeradius/dictionary.3com
+-rw-r--r-- -          -                2346 ./usr/share/freeradius/dictionary.3gpp
+-rw-r--r-- -          -                5414 ./usr/share/freeradius/dictionary.3gpp2
+-rw-r--r-- -          -               10920 ./usr/share/freeradius/dictionary.acc
+-rw-r--r-- -          -               10290 ./usr/share/freeradius/dictionary.acme
+-rw-r--r-- -          -                 425 ./usr/share/freeradius/dictionary.actelis
+-rw-r--r-- -          -                 366 ./usr/share/freeradius/dictionary.adtran
+-rw-r--r-- -          -                 631 ./usr/share/freeradius/dictionary.aerohive
+-rw-r--r-- -          -                 633 ./usr/share/freeradius/dictionary.airespace
+-rw-r--r-- -          -                3652 ./usr/share/freeradius/dictionary.alcatel
+-rw-r--r-- -          -                7577 ./usr/share/freeradius/dictionary.alcatel.esam
+-rw-r--r-- -          -                3303 ./usr/share/freeradius/dictionary.alcatel-lucent.aaa
+-rw-r--r-- -          -               13303 ./usr/share/freeradius/dictionary.alcatel.sr
+-rw-r--r-- -          -                 964 ./usr/share/freeradius/dictionary.alteon
+-rw-r--r-- -          -                7444 ./usr/share/freeradius/dictionary.altiga
+-rw-r--r-- -          -               11902 ./usr/share/freeradius/dictionary.alvarion
+-rw-r--r-- -          -                1214 ./usr/share/freeradius/dictionary.alvarion.wimax.v2_2
+-rw-r--r-- -          -                1134 ./usr/share/freeradius/dictionary.apc
+-rw-r--r-- -          -                5589 ./usr/share/freeradius/dictionary.aptilo
+-rw-r--r-- -          -                8449 ./usr/share/freeradius/dictionary.aptis
+-rw-r--r-- -          -                 495 ./usr/share/freeradius/dictionary.arbor
+-rw-r--r-- -          -                 551 ./usr/share/freeradius/dictionary.arista
+-rw-r--r-- -          -                2223 ./usr/share/freeradius/dictionary.aruba
+-rw-r--r-- -          -               38943 ./usr/share/freeradius/dictionary.ascend
+-rw-r--r-- -          -               20316 ./usr/share/freeradius/dictionary.ascend.illegal
+-rw-r--r-- -          -                3105 ./usr/share/freeradius/dictionary.asn
+-rw-r--r-- -          -                 631 ./usr/share/freeradius/dictionary.audiocodes
+-rw-r--r-- -          -                 934 ./usr/share/freeradius/dictionary.avaya
+-rw-r--r-- -          -                1600 ./usr/share/freeradius/dictionary.azaire
+-rw-r--r-- -          -               11907 ./usr/share/freeradius/dictionary.bay
+-rw-r--r-- -          -                1621 ./usr/share/freeradius/dictionary.bintec
+-rw-r--r-- -          -                 735 ./usr/share/freeradius/dictionary.bluecoat
+-rw-r--r-- -          -                1523 ./usr/share/freeradius/dictionary.boingo
+-rw-r--r-- -          -                 484 ./usr/share/freeradius/dictionary.bristol
+-rw-r--r-- -          -               17651 ./usr/share/freeradius/dictionary.broadsoft
+-rw-r--r-- -          -                 688 ./usr/share/freeradius/dictionary.brocade
+-rw-r--r-- -          -                 657 ./usr/share/freeradius/dictionary.bskyb
+-rw-r--r-- -          -                 404 ./usr/share/freeradius/dictionary.bt
+-rw-r--r-- -          -                8819 ./usr/share/freeradius/dictionary.cablelabs
+-rw-r--r-- -          -                 872 ./usr/share/freeradius/dictionary.cabletron
+-rw-r--r-- -          -                 588 ./usr/share/freeradius/dictionary.camiant
+-rw-r--r-- -          -                 294 ./usr/share/freeradius/dictionary.checkpoint
+-rw-r--r-- -          -                1416 ./usr/share/freeradius/dictionary.chillispot
+-rw-r--r-- -          -                8198 ./usr/share/freeradius/dictionary.cisco
+-rw-r--r-- -          -               14878 ./usr/share/freeradius/dictionary.cisco.asa
+-rw-r--r-- -          -                 403 ./usr/share/freeradius/dictionary.cisco.bbsm
+-rw-r--r-- -          -               11047 ./usr/share/freeradius/dictionary.cisco.vpn3000
+-rw-r--r-- -          -                 674 ./usr/share/freeradius/dictionary.cisco.vpn5000
+-rw-r--r-- -          -                 636 ./usr/share/freeradius/dictionary.citrix
+-rw-r--r-- -          -                 456 ./usr/share/freeradius/dictionary.clavister
+-rw-r--r-- -          -                1783 ./usr/share/freeradius/dictionary.cnergee
+-rw-r--r-- -          -                 315 ./usr/share/freeradius/dictionary.colubris
+-rw-r--r-- -          -                 641 ./usr/share/freeradius/dictionary.columbia_university
+-rw-r--r-- -          -                1514 ./usr/share/freeradius/dictionary.compat
+-rw-r--r-- -          -                 593 ./usr/share/freeradius/dictionary.compatible
+-rw-r--r-- -          -                 729 ./usr/share/freeradius/dictionary.cosine
+-rw-r--r-- -          -                 446 ./usr/share/freeradius/dictionary.dante
+-rw-r--r-- -          -                 442 ./usr/share/freeradius/dictionary.dellemc
+-rw-r--r-- -          -               23361 ./usr/share/freeradius/dictionary.dhcp
+-rw-r--r-- -          -                1245 ./usr/share/freeradius/dictionary.digium
+-rw-r--r-- -          -                1075 ./usr/share/freeradius/dictionary.dlink
+-rw-r--r-- -          -                 797 ./usr/share/freeradius/dictionary.dragonwave
+-rw-r--r-- -          -                 980 ./usr/share/freeradius/dictionary.efficientip
+-rw-r--r-- -          -                 849 ./usr/share/freeradius/dictionary.eltex
+-rw-r--r-- -          -                4342 ./usr/share/freeradius/dictionary.epygi
+-rw-r--r-- -          -                1507 ./usr/share/freeradius/dictionary.equallogic
+-rw-r--r-- -          -                6306 ./usr/share/freeradius/dictionary.ericsson
+-rw-r--r-- -          -               17877 ./usr/share/freeradius/dictionary.ericsson.ab
+-rw-r--r-- -          -                 302 ./usr/share/freeradius/dictionary.ericsson.packet.core.networks
+-rw-r--r-- -          -               15270 ./usr/share/freeradius/dictionary.erx
+-rw-r--r-- -          -                1134 ./usr/share/freeradius/dictionary.extreme
+-rw-r--r-- -          -                1815 ./usr/share/freeradius/dictionary.f5
+-rw-r--r-- -          -                 559 ./usr/share/freeradius/dictionary.fdxtended
+-rw-r--r-- -          -                 744 ./usr/share/freeradius/dictionary.fortinet
+-rw-r--r-- -          -                1913 ./usr/share/freeradius/dictionary.foundry
+-rw-r--r-- -          -               17397 ./usr/share/freeradius/dictionary.freedhcp
+-rw-r--r-- -          -                7507 ./usr/share/freeradius/dictionary.freeradius
+-rw-r--r-- -          -               27035 ./usr/share/freeradius/dictionary.freeradius.internal
+-rw-r--r-- -          -                4605 ./usr/share/freeradius/dictionary.freeswitch
+-rw-r--r-- -          -                3666 ./usr/share/freeradius/dictionary.gandalf
+-rw-r--r-- -          -                 508 ./usr/share/freeradius/dictionary.garderos
+-rw-r--r-- -          -                 552 ./usr/share/freeradius/dictionary.gemtek
+-rw-r--r-- -          -                1816 ./usr/share/freeradius/dictionary.h3c
+-rw-r--r-- -          -                1877 ./usr/share/freeradius/dictionary.hillstone
+-rw-r--r-- -          -                2494 ./usr/share/freeradius/dictionary.hp
+-rw-r--r-- -          -                9266 ./usr/share/freeradius/dictionary.huawei
+-rw-r--r-- -          -                1185 ./usr/share/freeradius/dictionary.iana
+-rw-r--r-- -          -                 484 ./usr/share/freeradius/dictionary.iea
+-rw-r--r-- -          -                 486 ./usr/share/freeradius/dictionary.infoblox
+-rw-r--r-- -          -                1549 ./usr/share/freeradius/dictionary.infonet
+-rw-r--r-- -          -                 808 ./usr/share/freeradius/dictionary.ipunplugged
+-rw-r--r-- -          -                1306 ./usr/share/freeradius/dictionary.issanni
+-rw-r--r-- -          -                1528 ./usr/share/freeradius/dictionary.itk
+-rw-r--r-- -          -                2206 ./usr/share/freeradius/dictionary.juniper
+-rw-r--r-- -          -              102779 ./usr/share/freeradius/dictionary.karlnet
+-rw-r--r-- -          -                4644 ./usr/share/freeradius/dictionary.kineto
+-rw-r--r-- -          -                1377 ./usr/share/freeradius/dictionary.lancom
+-rw-r--r-- -          -                 230 ./usr/share/freeradius/dictionary.lantronix
+-rw-r--r-- -          -                2226 ./usr/share/freeradius/dictionary.livingston
+-rw-r--r-- -          -                1093 ./usr/share/freeradius/dictionary.localweb
+-rw-r--r-- -          -               21169 ./usr/share/freeradius/dictionary.lucent
+-rw-r--r-- -          -                 938 ./usr/share/freeradius/dictionary.manzara
+-rw-r--r-- -          -                 434 ./usr/share/freeradius/dictionary.meinberg
+-rw-r--r-- -          -                 281 ./usr/share/freeradius/dictionary.meraki
+-rw-r--r-- -          -                 331 ./usr/share/freeradius/dictionary.merit
+-rw-r--r-- -          -                 311 ./usr/share/freeradius/dictionary.meru
+-rw-r--r-- -          -                 568 ./usr/share/freeradius/dictionary.microsemi
+-rw-r--r-- -          -                5529 ./usr/share/freeradius/dictionary.microsoft
+-rw-r--r-- -          -                2148 ./usr/share/freeradius/dictionary.mikrotik
+-rw-r--r-- -          -                1681 ./usr/share/freeradius/dictionary.mimosa
+-rw-r--r-- -          -                2465 ./usr/share/freeradius/dictionary.motorola
+-rw-r--r-- -          -                1037 ./usr/share/freeradius/dictionary.motorola.illegal
+-rw-r--r-- -          -                1320 ./usr/share/freeradius/dictionary.motorola.wimax
+-rw-r--r-- -          -                 379 ./usr/share/freeradius/dictionary.navini
+-rw-r--r-- -          -                 951 ./usr/share/freeradius/dictionary.netscreen
+-rw-r--r-- -          -                 502 ./usr/share/freeradius/dictionary.networkphysics
+-rw-r--r-- -          -                 604 ./usr/share/freeradius/dictionary.nexans
+-rw-r--r-- -          -                1357 ./usr/share/freeradius/dictionary.nokia
+-rw-r--r-- -          -                1059 ./usr/share/freeradius/dictionary.nokia.conflict
+-rw-r--r-- -          -                1097 ./usr/share/freeradius/dictionary.nomadix
+-rw-r--r-- -          -                2355 ./usr/share/freeradius/dictionary.nortel
+-rw-r--r-- -          -                1336 ./usr/share/freeradius/dictionary.ntua
+-rw-r--r-- -          -                1399 ./usr/share/freeradius/dictionary.openser
+-rw-r--r-- -          -                 614 ./usr/share/freeradius/dictionary.packeteer
+-rw-r--r-- -          -                 627 ./usr/share/freeradius/dictionary.paloalto
+-rw-r--r-- -          -                8651 ./usr/share/freeradius/dictionary.patton
+-rw-r--r-- -          -               27890 ./usr/share/freeradius/dictionary.perle
+-rw-r--r-- -          -                 491 ./usr/share/freeradius/dictionary.propel
+-rw-r--r-- -          -                1323 ./usr/share/freeradius/dictionary.prosoft
+-rw-r--r-- -          -                3161 ./usr/share/freeradius/dictionary.proxim
+-rw-r--r-- -          -                1545 ./usr/share/freeradius/dictionary.purewave
+-rw-r--r-- -          -                 527 ./usr/share/freeradius/dictionary.quiconnect
+-rw-r--r-- -          -                1548 ./usr/share/freeradius/dictionary.quintum
+-rw-r--r-- -          -                 675 ./usr/share/freeradius/dictionary.redcreek
+-rw-r--r-- -          -                4217 ./usr/share/freeradius/dictionary.rfc2865
+-rw-r--r-- -          -                2002 ./usr/share/freeradius/dictionary.rfc2866
+-rw-r--r-- -          -                 572 ./usr/share/freeradius/dictionary.rfc2867
+-rw-r--r-- -          -                1718 ./usr/share/freeradius/dictionary.rfc2868
+-rw-r--r-- -          -                1186 ./usr/share/freeradius/dictionary.rfc2869
+-rw-r--r-- -          -                 469 ./usr/share/freeradius/dictionary.rfc3162
+-rw-r--r-- -          -                1039 ./usr/share/freeradius/dictionary.rfc3576
+-rw-r--r-- -          -                 519 ./usr/share/freeradius/dictionary.rfc3580
+-rw-r--r-- -          -                 259 ./usr/share/freeradius/dictionary.rfc4072
+-rw-r--r-- -          -                 268 ./usr/share/freeradius/dictionary.rfc4372
+-rw-r--r-- -          -                 559 ./usr/share/freeradius/dictionary.rfc4603
+-rw-r--r-- -          -                 786 ./usr/share/freeradius/dictionary.rfc4675
+-rw-r--r-- -          -                2393 ./usr/share/freeradius/dictionary.rfc4679
+-rw-r--r-- -          -                 430 ./usr/share/freeradius/dictionary.rfc4818
+-rw-r--r-- -          -                 261 ./usr/share/freeradius/dictionary.rfc4849
+-rw-r--r-- -          -                 997 ./usr/share/freeradius/dictionary.rfc5090
+-rw-r--r-- -          -                 333 ./usr/share/freeradius/dictionary.rfc5176
+-rw-r--r-- -          -                 334 ./usr/share/freeradius/dictionary.rfc5447
+-rw-r--r-- -          -                1162 ./usr/share/freeradius/dictionary.rfc5580
+-rw-r--r-- -          -                 931 ./usr/share/freeradius/dictionary.rfc5607
+-rw-r--r-- -          -                 729 ./usr/share/freeradius/dictionary.rfc5904
+-rw-r--r-- -          -                 266 ./usr/share/freeradius/dictionary.rfc6519
+-rw-r--r-- -          -                1128 ./usr/share/freeradius/dictionary.rfc6572
+-rw-r--r-- -          -                 577 ./usr/share/freeradius/dictionary.rfc6677
+-rw-r--r-- -          -                 412 ./usr/share/freeradius/dictionary.rfc6911
+-rw-r--r-- -          -                 959 ./usr/share/freeradius/dictionary.rfc6929
+-rw-r--r-- -          -                 355 ./usr/share/freeradius/dictionary.rfc6930
+-rw-r--r-- -          -                 378 ./usr/share/freeradius/dictionary.rfc7055
+-rw-r--r-- -          -                 387 ./usr/share/freeradius/dictionary.rfc7155
+-rw-r--r-- -          -                2364 ./usr/share/freeradius/dictionary.rfc7268
+-rw-r--r-- -          -                 467 ./usr/share/freeradius/dictionary.rfc7499
+-rw-r--r-- -          -                 274 ./usr/share/freeradius/dictionary.rfc7930
+-rw-r--r-- -          -                 597 ./usr/share/freeradius/dictionary.riverbed
+-rw-r--r-- -          -                1137 ./usr/share/freeradius/dictionary.riverstone
+-rw-r--r-- -          -                 743 ./usr/share/freeradius/dictionary.roaringpenguin
+-rw-r--r-- -          -                5758 ./usr/share/freeradius/dictionary.ruckus
+-rw-r--r-- -          -                 205 ./usr/share/freeradius/dictionary.ruggedcom
+-rw-r--r-- -          -                4422 ./usr/share/freeradius/dictionary.sangoma
+-rw-r--r-- -          -                6012 ./usr/share/freeradius/dictionary.sg
+-rw-r--r-- -          -                 556 ./usr/share/freeradius/dictionary.shasta
+-rw-r--r-- -          -                4224 ./usr/share/freeradius/dictionary.shiva
+-rw-r--r-- -          -                 782 ./usr/share/freeradius/dictionary.siemens
+-rw-r--r-- -          -                 536 ./usr/share/freeradius/dictionary.slipstream
+-rw-r--r-- -          -                1140 ./usr/share/freeradius/dictionary.sofaware
+-rw-r--r-- -          -                1027 ./usr/share/freeradius/dictionary.softbank
+-rw-r--r-- -          -                2721 ./usr/share/freeradius/dictionary.sonicwall
+-rw-r--r-- -          -                1065 ./usr/share/freeradius/dictionary.springtide
+-rw-r--r-- -          -               61845 ./usr/share/freeradius/dictionary.starent
+-rw-r--r-- -          -               55716 ./usr/share/freeradius/dictionary.starent.vsa1
+-rw-r--r-- -          -                 504 ./usr/share/freeradius/dictionary.surfnet
+-rw-r--r-- -          -                1807 ./usr/share/freeradius/dictionary.symbol
+-rw-r--r-- -          -                 483 ./usr/share/freeradius/dictionary.telebit
+-rw-r--r-- -          -                1004 ./usr/share/freeradius/dictionary.telkom
+-rw-r--r-- -          -                 358 ./usr/share/freeradius/dictionary.terena
+-rw-r--r-- -          -                1025 ./usr/share/freeradius/dictionary.trapeze
+-rw-r--r-- -          -                2753 ./usr/share/freeradius/dictionary.travelping
+-rw-r--r-- -          -                2165 ./usr/share/freeradius/dictionary.tropos
+-rw-r--r-- -          -                1262 ./usr/share/freeradius/dictionary.t_systems_nova
+-rw-r--r-- -          -                 898 ./usr/share/freeradius/dictionary.ukerna
+-rw-r--r-- -          -                 453 ./usr/share/freeradius/dictionary.unix
+-rw-r--r-- -          -               72259 ./usr/share/freeradius/dictionary.usr
+-rw-r--r-- -          -                1289 ./usr/share/freeradius/dictionary.usr.illegal
+-rw-r--r-- -          -                1666 ./usr/share/freeradius/dictionary.utstarcom
+-rw-r--r-- -          -                 733 ./usr/share/freeradius/dictionary.valemount
+-rw-r--r-- -          -                2144 ./usr/share/freeradius/dictionary.versanet
+-rw-r--r-- -          -                3063 ./usr/share/freeradius/dictionary.vqp
+-rw-r--r-- -          -                 964 ./usr/share/freeradius/dictionary.walabi
+-rw-r--r-- -          -                1964 ./usr/share/freeradius/dictionary.waverider
+-rw-r--r-- -          -                 573 ./usr/share/freeradius/dictionary.wichorus
+-rw-r--r-- -          -                3161 ./usr/share/freeradius/dictionary.wifialliance
+-rw-r--r-- -          -               20122 ./usr/share/freeradius/dictionary.wimax
+-rw-r--r-- -          -               19411 ./usr/share/freeradius/dictionary.wimax.alvarion
+-rw-r--r-- -          -               15425 ./usr/share/freeradius/dictionary.wimax.wichorus
+-rw-r--r-- -          -                1029 ./usr/share/freeradius/dictionary.wispr
+-rw-r--r-- -          -                 825 ./usr/share/freeradius/dictionary.xedia
+-rw-r--r-- -          -                1541 ./usr/share/freeradius/dictionary.xylan
+-rw-r--r-- -          -                 642 ./usr/share/freeradius/dictionary.yubico
+-rw-r--r-- -          -                 202 ./usr/share/freeradius/dictionary.zeus
+-rw-r--r-- -          -                2596 ./usr/share/freeradius/dictionary.zte
+-rw-r--r-- -          -                 765 ./usr/share/freeradius/dictionary.zyxel

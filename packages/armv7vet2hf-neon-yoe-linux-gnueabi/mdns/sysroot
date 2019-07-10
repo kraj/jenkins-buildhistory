@@ -1,0 +1,15 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 293 ./lib/systemd/system/mdns.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/mdns
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+-rw-r--r-- -          -              133419 ./usr/include/dns_sd.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rw-r--r-- -          -              125584 ./usr/lib/libdns_sd.so.1
+lrwxrwxrwx -          -                  14 ./usr/lib/libdns_sd.so -> libdns_sd.so.1
+-rwxr-xr-x -          -               34524 ./usr/lib/libnss_mdns-0.2.so
+lrwxrwxrwx -          -                  18 ./usr/lib/libnss_mdns.so.2 -> libnss_mdns-0.2.so
+drwxr-xr-x -          -                  40 ./usr/share

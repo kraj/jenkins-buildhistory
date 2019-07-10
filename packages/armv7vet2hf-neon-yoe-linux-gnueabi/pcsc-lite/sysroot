@@ -1,0 +1,26 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 193 ./lib/systemd/system/pcscd.service
+-rw-r--r-- -          -                 145 ./lib/systemd/system/pcscd.socket
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/pcsc-lite
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 160 ./usr/include/PCSC
+-rw-r--r-- -          -                4986 ./usr/include/PCSC/debuglog.h
+-rw-r--r-- -          -               30531 ./usr/include/PCSC/ifdhandler.h
+-rw-r--r-- -          -               15656 ./usr/include/PCSC/pcsclite.h
+-rw-r--r-- -          -               15389 ./usr/include/PCSC/reader.h
+-rw-r--r-- -          -                4173 ./usr/include/PCSC/winscard.h
+-rw-r--r-- -          -                3137 ./usr/include/PCSC/wintypes.h
+drwxr-xr-x -          -                 180 ./usr/lib
+-rwxr-xr-x -          -               26096 ./usr/lib/libpcsclite.so.1.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libpcsclite.so.1 -> libpcsclite.so.1.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libpcsclite.so -> libpcsclite.so.1.0.0
+-rwxr-xr-x -          -               13812 ./usr/lib/libpcscspy.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpcscspy.so.0 -> libpcscspy.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpcscspy.so -> libpcscspy.so.0.0.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 290 ./usr/lib/pkgconfig/libpcsclite.pc
+drwxr-xr-x -          -                  40 ./usr/share

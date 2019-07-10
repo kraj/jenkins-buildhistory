@@ -1,0 +1,25 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 465 ./lib/systemd/system/lldpd.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   5 ./sysroot-providers/lldpd
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               14379 ./usr/bin/postinst-useradd-lldpd
+drwxr-xr-x -          -                  80 ./usr/include
+-rw-r--r-- -          -                9867 ./usr/include/lldp-const.h
+-rw-r--r-- -          -               45351 ./usr/include/lldpctl.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rwxr-xr-x -          -               54844 ./usr/lib/liblldpctl.so.4.8.0
+lrwxrwxrwx -          -                  19 ./usr/lib/liblldpctl.so.4 -> liblldpctl.so.4.8.0
+lrwxrwxrwx -          -                  19 ./usr/lib/liblldpctl.so -> liblldpctl.so.4.8.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 185 ./usr/lib/pkgconfig/lldpctl.pc
+drwxr-xr-x -          -                  80 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/bash-completion
+drwxr-xr-x -          -                  60 ./usr/share/bash-completion/completions
+-rw-r--r-- -          -                 515 ./usr/share/bash-completion/completions/lldpcli
+drwxr-xr-x -          -                  60 ./usr/share/zsh
+drwxr-xr-x -          -                  60 ./usr/share/zsh/site-functions
+-rw-r--r-- -          -                1683 ./usr/share/zsh/site-functions/_lldpcli

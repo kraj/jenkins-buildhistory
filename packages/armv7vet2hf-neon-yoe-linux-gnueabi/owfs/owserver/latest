@@ -1,9 +1,9 @@
 PV = 3.2p2
 PR = r0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libow (>= 3.2p2)
-RRECOMMENDS = 
-PKGSIZE = 22583
+RRECOMMENDS = update-rc.d
+PKGSIZE = 23406
 FILES = /usr/bin/owserver /etc/init.d/owserver /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket
-FILELIST = /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket /usr/bin/owserver
+FILELIST = /etc/init.d/owserver /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket /usr/bin/owserver

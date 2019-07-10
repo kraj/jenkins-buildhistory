@@ -1,0 +1,795 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 307 ./lib/systemd/system/mycroft.service
+-rw-r--r-- -          -                 207 ./lib/systemd/system/mycroft-setup.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   7 ./sysroot-providers/mycroft
+drwxr-xr-x -          -                  60 ./usr
+drwxr-xr-x -          -                  60 ./usr/lib
+drwxr-xr-x -          -                 560 ./usr/lib/mycroft
+-rw-r--r-- -          -                 235 ./usr/lib/mycroft/ACKNOWLEDGEMENTS.md
+drwxr-xr-x -          -                 260 ./usr/lib/mycroft/bin
+-rwxr-xr-x -          -                 790 ./usr/lib/mycroft/bin/mycroft-cli-client
+-rwxr-xr-x -          -                1900 ./usr/lib/mycroft/bin/mycroft-help
+-rwxr-xr-x -          -                1107 ./usr/lib/mycroft/bin/mycroft-mic-test
+-rwxr-xr-x -          -                 780 ./usr/lib/mycroft/bin/mycroft-msk
+-rwxr-xr-x -          -                 785 ./usr/lib/mycroft/bin/mycroft-msm
+-rwxr-xr-x -          -                 774 ./usr/lib/mycroft/bin/mycroft-pip
+-rwxr-xr-x -          -                 891 ./usr/lib/mycroft/bin/mycroft-say-to
+-rwxr-xr-x -          -                 896 ./usr/lib/mycroft/bin/mycroft-skill-testrunner
+-rwxr-xr-x -          -                 846 ./usr/lib/mycroft/bin/mycroft-speak
+-rwxr-xr-x -          -                 706 ./usr/lib/mycroft/bin/mycroft-start
+-rwxr-xr-x -          -                 705 ./usr/lib/mycroft/bin/mycroft-stop
+-rw-r--r-- -          -                3218 ./usr/lib/mycroft/CODE_OF_CONDUCT.md
+-rw-r--r-- -          -                  70 ./usr/lib/mycroft/.coveralls.yml
+-rw-r--r-- -          -                  43 ./usr/lib/mycroft/.dev_opts.json
+-rwxr-xr-x -          -               13550 ./usr/lib/mycroft/dev_setup.sh
+drwxr-xr-x -          -                 200 ./usr/lib/mycroft/doc
+-rw-r--r-- -          -                2986 ./usr/lib/mycroft/doc/conf.py
+-rw-r--r-- -          -                 191 ./usr/lib/mycroft/doc/index.rst
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/doc/__init__.py
+-rw-r--r-- -          -                 613 ./usr/lib/mycroft/doc/Makefile
+-rw-r--r-- -          -               24363 ./usr/lib/mycroft/doc/mycroft-core-api.yaml
+-rw-r--r-- -          -                 287 ./usr/lib/mycroft/doc/README.md
+-rwxr-xr-x -          -                  39 ./usr/lib/mycroft/doc/requirements.txt
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/doc/source
+-rw-r--r-- -          -                 136 ./usr/lib/mycroft/doc/source/mycroft.audio.rst
+-rw-r--r-- -          -                1140 ./usr/lib/mycroft/doc/source/mycroft.rst
+-rw-r--r-- -          -                 340 ./usr/lib/mycroft/doc/source/mycroft.util.parse.rst
+-rw-r--r-- -          -                 747 ./usr/lib/mycroft/doc/source/mycroft.util.rst
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/.github
+-rw-r--r-- -          -                4454 ./usr/lib/mycroft/.github/CONTRIBUTING.md
+-rw-r--r-- -          -                2086 ./usr/lib/mycroft/.github/ISSUE_TEMPLATE.md
+-rw-r--r-- -          -                 288 ./usr/lib/mycroft/.github/PULL_REQUEST_TEMPLATE.md
+-rw-r--r-- -          -                 999 ./usr/lib/mycroft/.github/SUPPORT.md
+-rw-r--r-- -          -                 387 ./usr/lib/mycroft/.gitignore
+-rw-r--r-- -          -                1399 ./usr/lib/mycroft/.gitmessage
+-rw-r--r-- -          -               11733 ./usr/lib/mycroft/LICENSE.md
+-rw-r--r-- -          -                 228 ./usr/lib/mycroft/MANIFEST.in
+drwxr-xr-x -          -                 440 ./usr/lib/mycroft/mycroft
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/api
+-rw-r--r-- -          -               15050 ./usr/lib/mycroft/mycroft/api/__init__.py
+drwxr-xr-x -          -                 140 ./usr/lib/mycroft/mycroft/audio
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/audio-accuracy-test
+-rw-r--r-- -          -                6127 ./usr/lib/mycroft/mycroft/audio-accuracy-test/audio_accuracy_test.py
+-rw-r--r-- -          -               17798 ./usr/lib/mycroft/mycroft/audio/audioservice.py
+-rw-r--r-- -          -                1647 ./usr/lib/mycroft/mycroft/audio/__init__.py
+-rw-r--r-- -          -                1566 ./usr/lib/mycroft/mycroft/audio/__main__.py
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/mycroft/audio/services
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/audio/services/chromecast
+-rw-r--r-- -          -                4987 ./usr/lib/mycroft/mycroft/audio/services/chromecast/__init__.py
+-rw-r--r-- -          -                3593 ./usr/lib/mycroft/mycroft/audio/services/__init__.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/mycroft/audio/services/mopidy
+-rw-r--r-- -          -                3729 ./usr/lib/mycroft/mycroft/audio/services/mopidy/__init__.py
+-rw-r--r-- -          -                6829 ./usr/lib/mycroft/mycroft/audio/services/mopidy/mopidypost.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/audio/services/mplayer
+-rw-r--r-- -          -                3748 ./usr/lib/mycroft/mycroft/audio/services/mplayer/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/audio/services/simple
+-rw-r--r-- -          -                6318 ./usr/lib/mycroft/mycroft/audio/services/simple/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/audio/services/vlc
+-rw-r--r-- -          -                5298 ./usr/lib/mycroft/mycroft/audio/services/vlc/__init__.py
+-rw-r--r-- -          -                6081 ./usr/lib/mycroft/mycroft/audio/speech.py
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/mycroft/client
+drwxr-xr-x -          -                 180 ./usr/lib/mycroft/mycroft/client/enclosure
+-rw-r--r-- -          -               23337 ./usr/lib/mycroft/mycroft/client/enclosure/base.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/client/enclosure/generic
+-rw-r--r-- -          -                4784 ./usr/lib/mycroft/mycroft/client/enclosure/generic/__init__.py
+-rw-r--r-- -          -                 580 ./usr/lib/mycroft/mycroft/client/enclosure/__init__.py
+-rw-r--r-- -          -                1959 ./usr/lib/mycroft/mycroft/client/enclosure/__main__.py
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/mycroft/client/enclosure/mark1
+-rw-r--r-- -          -                1557 ./usr/lib/mycroft/mycroft/client/enclosure/mark1/arduino.py
+-rw-r--r-- -          -                3933 ./usr/lib/mycroft/mycroft/client/enclosure/mark1/eyes.py
+-rw-r--r-- -          -               16763 ./usr/lib/mycroft/mycroft/client/enclosure/mark1/__init__.py
+-rw-r--r-- -          -               10721 ./usr/lib/mycroft/mycroft/client/enclosure/mark1/mouth.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/client/enclosure/mark2
+-rw-r--r-- -          -                 773 ./usr/lib/mycroft/mycroft/client/enclosure/mark2/__init__.py
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/client/enclosure/version.txt
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/client/__init__.py
+drwxr-xr-x -          -                 180 ./usr/lib/mycroft/mycroft/client/speech
+-rw-r--r-- -          -               11467 ./usr/lib/mycroft/mycroft/client/speech/hotword_factory.py
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/client/speech/__init__.py
+-rw-r--r-- -          -               12299 ./usr/lib/mycroft/mycroft/client/speech/listener.py
+-rw-r--r-- -          -                5254 ./usr/lib/mycroft/mycroft/client/speech/__main__.py
+-rw-r--r-- -          -               20016 ./usr/lib/mycroft/mycroft/client/speech/mic.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/mycroft/client/speech/recognizer
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/mycroft/client/speech/recognizer/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us
+drwxr-xr-x -          -                 200 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm
+-rw-r--r-- -          -                 149 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/feat.params
+-rw-r--r-- -          -             3610854 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/mdef
+-rw-r--r-- -          -               79948 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/means
+-rw-r--r-- -          -                 113 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/noisedict
+-rw-r--r-- -          -                1833 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/README
+-rw-r--r-- -          -             9428608 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/sendump
+-rw-r--r-- -          -                2272 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/transition_matrices
+-rw-r--r-- -          -               79948 ./usr/lib/mycroft/mycroft/client/speech/recognizer/model/en-us/hmm/variances
+-rw-r--r-- -          -                2616 ./usr/lib/mycroft/mycroft/client/speech/word_extractor.py
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/mycroft/client/text
+-rw-r--r-- -          -                4734 ./usr/lib/mycroft/mycroft/client/text/gui_server.py
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/client/text/__init__.py
+-rw-r--r-- -          -                1948 ./usr/lib/mycroft/mycroft/client/text/__main__.py
+-rw-r--r-- -          -               45082 ./usr/lib/mycroft/mycroft/client/text/text_client.py
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/mycroft/configuration
+-rw-r--r-- -          -                8213 ./usr/lib/mycroft/mycroft/configuration/config.py
+-rw-r--r-- -          -                 821 ./usr/lib/mycroft/mycroft/configuration/__init__.py
+-rw-r--r-- -          -                1372 ./usr/lib/mycroft/mycroft/configuration/locations.py
+-rw-r--r-- -          -                9032 ./usr/lib/mycroft/mycroft/configuration/mycroft.conf
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/dialog
+-rw-r--r-- -          -                5583 ./usr/lib/mycroft/mycroft/dialog/__init__.py
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/mycroft/enclosure
+-rw-r--r-- -          -               11731 ./usr/lib/mycroft/mycroft/enclosure/api.py
+-rw-r--r-- -          -                5761 ./usr/lib/mycroft/mycroft/enclosure/display_manager.py
+-rw-r--r-- -          -                 653 ./usr/lib/mycroft/mycroft/enclosure/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/filesystem
+-rw-r--r-- -          -                1768 ./usr/lib/mycroft/mycroft/filesystem/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/identity
+-rw-r--r-- -          -                3205 ./usr/lib/mycroft/mycroft/identity/__init__.py
+-rw-r--r-- -          -                 981 ./usr/lib/mycroft/mycroft/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/lock
+-rw-r--r-- -          -                6698 ./usr/lib/mycroft/mycroft/lock/__init__.py
+drwxr-xr-x -          -                 140 ./usr/lib/mycroft/mycroft/messagebus
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/mycroft/messagebus/client
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/messagebus/client/__init__.py
+-rw-r--r-- -          -                2086 ./usr/lib/mycroft/mycroft/messagebus/client/threaded_event_emitter.py
+-rw-r--r-- -          -                7760 ./usr/lib/mycroft/mycroft/messagebus/client/ws.py
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/messagebus/__init__.py
+-rw-r--r-- -          -                6019 ./usr/lib/mycroft/mycroft/messagebus/message.py
+-rw-r--r-- -          -                2951 ./usr/lib/mycroft/mycroft/messagebus/send.py
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/mycroft/messagebus/service
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/messagebus/service/__init__.py
+-rw-r--r-- -          -                1780 ./usr/lib/mycroft/mycroft/messagebus/service/__main__.py
+-rw-r--r-- -          -                2184 ./usr/lib/mycroft/mycroft/messagebus/service/ws.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/metrics
+-rw-r--r-- -          -                5327 ./usr/lib/mycroft/mycroft/metrics/__init__.py
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/mycroft/res
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/res/snd
+-rw-r--r-- -          -               67090 ./usr/lib/mycroft/mycroft/res/snd/start_listening.wav
+drwxr-xr-x -          -                 340 ./usr/lib/mycroft/mycroft/res/text
+drwxr-xr-x -          -                 480 ./usr/lib/mycroft/mycroft/res/text/ca-es
+-rw-r--r-- -          -                 441 ./usr/lib/mycroft/mycroft/res/text/ca-es/backend.down.dialog
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/ca-es/cancel.voc
+-rw-r--r-- -          -                  61 ./usr/lib/mycroft/mycroft/res/text/ca-es/checking for updates.dialog
+-rw-r--r-- -          -                 104 ./usr/lib/mycroft/mycroft/res/text/ca-es/i didn't catch that.dialog
+-rw-r--r-- -          -                  54 ./usr/lib/mycroft/mycroft/res/text/ca-es/learning disabled.dialog
+-rw-r--r-- -          -                 178 ./usr/lib/mycroft/mycroft/res/text/ca-es/learning enabled.dialog
+-rw-r--r-- -          -                  21 ./usr/lib/mycroft/mycroft/res/text/ca-es/message_rebooting.dialog
+-rw-r--r-- -          -                  33 ./usr/lib/mycroft/mycroft/res/text/ca-es/message_synching.clock.dialog
+-rw-r--r-- -          -                  26 ./usr/lib/mycroft/mycroft/res/text/ca-es/message_updating.dialog
+-rw-r--r-- -          -                 206 ./usr/lib/mycroft/mycroft/res/text/ca-es/mycroft.intro.dialog
+-rw-r--r-- -          -                 384 ./usr/lib/mycroft/mycroft/res/text/ca-es/not connected to the internet.dialog
+-rw-r--r-- -          -                  43 ./usr/lib/mycroft/mycroft/res/text/ca-es/not.loaded.dialog
+-rw-r--r-- -          -                  17 ./usr/lib/mycroft/mycroft/res/text/ca-es/no.voc
+-rw-r--r-- -          -                  89 ./usr/lib/mycroft/mycroft/res/text/ca-es/phonetic_spellings.txt
+-rw-r--r-- -          -                  43 ./usr/lib/mycroft/mycroft/res/text/ca-es/reset to factory defaults.dialog
+-rw-r--r-- -          -                  64 ./usr/lib/mycroft/mycroft/res/text/ca-es/skill.error.dialog
+-rw-r--r-- -          -                  85 ./usr/lib/mycroft/mycroft/res/text/ca-es/skills updated.dialog
+-rw-r--r-- -          -                  53 ./usr/lib/mycroft/mycroft/res/text/ca-es/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  42 ./usr/lib/mycroft/mycroft/res/text/ca-es/ssh disabled.dialog
+-rw-r--r-- -          -                  45 ./usr/lib/mycroft/mycroft/res/text/ca-es/ssh enabled.dialog
+-rw-r--r-- -          -                  89 ./usr/lib/mycroft/mycroft/res/text/ca-es/time.changed.reboot.dialog
+-rw-r--r-- -          -                  48 ./usr/lib/mycroft/mycroft/res/text/ca-es/yes.voc
+drwxr-xr-x -          -                 720 ./usr/lib/mycroft/mycroft/res/text/da-dk
+-rw-r--r-- -          -                   2 ./usr/lib/mycroft/mycroft/res/text/da-dk/and.word
+-rw-r--r-- -          -                 484 ./usr/lib/mycroft/mycroft/res/text/da-dk/backend.down.dialog
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/da-dk/cancel.voc
+-rw-r--r-- -          -                  65 ./usr/lib/mycroft/mycroft/res/text/da-dk/checking for updates.dialog
+-rw-r--r-- -          -                3439 ./usr/lib/mycroft/mycroft/res/text/da-dk/date_time.json
+-rw-r--r-- -          -                2998 ./usr/lib/mycroft/mycroft/res/text/da-dk/date_time_test.json
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/da-dk/days.word
+-rw-r--r-- -          -                   3 ./usr/lib/mycroft/mycroft/res/text/da-dk/day.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/da-dk/hours.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/da-dk/hour.word
+-rw-r--r-- -          -                 121 ./usr/lib/mycroft/mycroft/res/text/da-dk/i didn't catch that.dialog
+-rw-r--r-- -          -                  62 ./usr/lib/mycroft/mycroft/res/text/da-dk/learning disabled.dialog
+-rw-r--r-- -          -                 134 ./usr/lib/mycroft/mycroft/res/text/da-dk/learning enabled.dialog
+-rw-r--r-- -          -                  16 ./usr/lib/mycroft/mycroft/res/text/da-dk/message_rebooting.dialog
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/mycroft/res/text/da-dk/message_synching.clock.dialog
+-rw-r--r-- -          -                  22 ./usr/lib/mycroft/mycroft/res/text/da-dk/message_updating.dialog
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/da-dk/minutes.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/da-dk/minute.word
+-rw-r--r-- -          -                 217 ./usr/lib/mycroft/mycroft/res/text/da-dk/mycroft.intro.dialog
+-rw-r--r-- -          -                 175 ./usr/lib/mycroft/mycroft/res/text/da-dk/not connected to the internet.dialog
+-rw-r--r-- -          -                 543 ./usr/lib/mycroft/mycroft/res/text/da-dk/not.loaded.dialog
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/mycroft/res/text/da-dk/no.voc
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/da-dk/or.word
+-rw-r--r-- -          -                 145 ./usr/lib/mycroft/mycroft/res/text/da-dk/phonetic_spellings.txt
+-rw-r--r-- -          -                  52 ./usr/lib/mycroft/mycroft/res/text/da-dk/reset to factory defaults.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/da-dk/seconds.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/da-dk/second.word
+-rw-r--r-- -          -                 605 ./usr/lib/mycroft/mycroft/res/text/da-dk/skill.error.dialog
+-rw-r--r-- -          -                 141 ./usr/lib/mycroft/mycroft/res/text/da-dk/skills updated.dialog
+-rw-r--r-- -          -                  51 ./usr/lib/mycroft/mycroft/res/text/da-dk/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/da-dk/ssh disabled.dialog
+-rw-r--r-- -          -                  24 ./usr/lib/mycroft/mycroft/res/text/da-dk/ssh enabled.dialog
+-rw-r--r-- -          -                  84 ./usr/lib/mycroft/mycroft/res/text/da-dk/time.changed.reboot.dialog
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/da-dk/yes.voc
+drwxr-xr-x -          -                 720 ./usr/lib/mycroft/mycroft/res/text/de-de
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/de-de/and.word
+-rw-r--r-- -          -                 220 ./usr/lib/mycroft/mycroft/res/text/de-de/backend.down.dialog
+-rw-r--r-- -          -                  30 ./usr/lib/mycroft/mycroft/res/text/de-de/cancel.voc
+-rw-r--r-- -          -                 107 ./usr/lib/mycroft/mycroft/res/text/de-de/checking for updates.dialog
+-rw-r--r-- -          -                4098 ./usr/lib/mycroft/mycroft/res/text/de-de/date_time.json
+-rw-r--r-- -          -                4321 ./usr/lib/mycroft/mycroft/res/text/de-de/date_time_test.json
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/de-de/days.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/de-de/day.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/de-de/hours.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/de-de/hour.word
+-rw-r--r-- -          -                 157 ./usr/lib/mycroft/mycroft/res/text/de-de/i didn't catch that.dialog
+-rw-r--r-- -          -                  59 ./usr/lib/mycroft/mycroft/res/text/de-de/learning disabled.dialog
+-rw-r--r-- -          -                 171 ./usr/lib/mycroft/mycroft/res/text/de-de/learning enabled.dialog
+-rw-r--r-- -          -                  11 ./usr/lib/mycroft/mycroft/res/text/de-de/message_rebooting.dialog
+-rw-r--r-- -          -                  16 ./usr/lib/mycroft/mycroft/res/text/de-de/message_synching.clock.dialog
+-rw-r--r-- -          -                  20 ./usr/lib/mycroft/mycroft/res/text/de-de/message_updating.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/de-de/minutes.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/de-de/minute.word
+-rw-r--r-- -          -                 205 ./usr/lib/mycroft/mycroft/res/text/de-de/mycroft.intro.dialog
+-rw-r--r-- -          -                 225 ./usr/lib/mycroft/mycroft/res/text/de-de/not connected to the internet.dialog
+-rw-r--r-- -          -                  58 ./usr/lib/mycroft/mycroft/res/text/de-de/not.loaded.dialog
+-rw-r--r-- -          -                  18 ./usr/lib/mycroft/mycroft/res/text/de-de/no.voc
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/de-de/or.word
+-rw-r--r-- -          -                  29 ./usr/lib/mycroft/mycroft/res/text/de-de/phonetic_spellings.txt
+-rw-r--r-- -          -                  51 ./usr/lib/mycroft/mycroft/res/text/de-de/reset to factory defaults.dialog
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/de-de/seconds.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/de-de/second.word
+-rw-r--r-- -          -                  80 ./usr/lib/mycroft/mycroft/res/text/de-de/skill.error.dialog
+-rw-r--r-- -          -                  93 ./usr/lib/mycroft/mycroft/res/text/de-de/skills updated.dialog
+-rw-r--r-- -          -                  72 ./usr/lib/mycroft/mycroft/res/text/de-de/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  33 ./usr/lib/mycroft/mycroft/res/text/de-de/ssh disabled.dialog
+-rw-r--r-- -          -                  33 ./usr/lib/mycroft/mycroft/res/text/de-de/ssh enabled.dialog
+-rw-r--r-- -          -                  79 ./usr/lib/mycroft/mycroft/res/text/de-de/time.changed.reboot.dialog
+-rw-r--r-- -          -                  26 ./usr/lib/mycroft/mycroft/res/text/de-de/yes.voc
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/mycroft/res/text/en-au
+-rw-r--r-- -          -                3489 ./usr/lib/mycroft/mycroft/res/text/en-au/date_time.json
+-rw-r--r-- -          -                4127 ./usr/lib/mycroft/mycroft/res/text/en-au/date_time_test.json
+drwxr-xr-x -          -                 740 ./usr/lib/mycroft/mycroft/res/text/en-us
+-rw-r--r-- -          -                   3 ./usr/lib/mycroft/mycroft/res/text/en-us/and.word
+-rw-r--r-- -          -                 443 ./usr/lib/mycroft/mycroft/res/text/en-us/backend.down.dialog
+-rw-r--r-- -          -                  27 ./usr/lib/mycroft/mycroft/res/text/en-us/cancel.voc
+-rw-r--r-- -          -                  57 ./usr/lib/mycroft/mycroft/res/text/en-us/checking for updates.dialog
+-rw-r--r-- -          -                3494 ./usr/lib/mycroft/mycroft/res/text/en-us/date_time.json
+-rw-r--r-- -          -                4131 ./usr/lib/mycroft/mycroft/res/text/en-us/date_time_test.json
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/en-us/days.word
+-rw-r--r-- -          -                   3 ./usr/lib/mycroft/mycroft/res/text/en-us/day.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/en-us/hours.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/en-us/hour.word
+-rw-r--r-- -          -                 117 ./usr/lib/mycroft/mycroft/res/text/en-us/i didn't catch that.dialog
+-rw-r--r-- -          -                  59 ./usr/lib/mycroft/mycroft/res/text/en-us/learning disabled.dialog
+-rw-r--r-- -          -                 138 ./usr/lib/mycroft/mycroft/res/text/en-us/learning enabled.dialog
+-rw-r--r-- -          -                  19 ./usr/lib/mycroft/mycroft/res/text/en-us/message_loading.skills.dialog
+-rw-r--r-- -          -                  12 ./usr/lib/mycroft/mycroft/res/text/en-us/message_rebooting.dialog
+-rw-r--r-- -          -                  16 ./usr/lib/mycroft/mycroft/res/text/en-us/message_synching.clock.dialog
+-rw-r--r-- -          -                  20 ./usr/lib/mycroft/mycroft/res/text/en-us/message_updating.dialog
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/en-us/minutes.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/en-us/minute.word
+-rw-r--r-- -          -                 196 ./usr/lib/mycroft/mycroft/res/text/en-us/mycroft.intro.dialog
+-rw-r--r-- -          -                 403 ./usr/lib/mycroft/mycroft/res/text/en-us/not connected to the internet.dialog
+-rw-r--r-- -          -                  44 ./usr/lib/mycroft/mycroft/res/text/en-us/not.loaded.dialog
+-rw-r--r-- -          -                  20 ./usr/lib/mycroft/mycroft/res/text/en-us/no.voc
+-rw-r--r-- -          -                   2 ./usr/lib/mycroft/mycroft/res/text/en-us/or.word
+-rw-r--r-- -          -                  89 ./usr/lib/mycroft/mycroft/res/text/en-us/phonetic_spellings.txt
+-rw-r--r-- -          -                  39 ./usr/lib/mycroft/mycroft/res/text/en-us/reset to factory defaults.dialog
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/en-us/seconds.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/en-us/second.word
+-rw-r--r-- -          -                  57 ./usr/lib/mycroft/mycroft/res/text/en-us/skill.error.dialog
+-rw-r--r-- -          -                  59 ./usr/lib/mycroft/mycroft/res/text/en-us/skills updated.dialog
+-rw-r--r-- -          -                  40 ./usr/lib/mycroft/mycroft/res/text/en-us/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  27 ./usr/lib/mycroft/mycroft/res/text/en-us/ssh disabled.dialog
+-rw-r--r-- -          -                  27 ./usr/lib/mycroft/mycroft/res/text/en-us/ssh enabled.dialog
+-rw-r--r-- -          -                  80 ./usr/lib/mycroft/mycroft/res/text/en-us/time.changed.reboot.dialog
+-rw-r--r-- -          -                  24 ./usr/lib/mycroft/mycroft/res/text/en-us/yes.voc
+drwxr-xr-x -          -                 640 ./usr/lib/mycroft/mycroft/res/text/es-es
+-rw-r--r-- -          -                 486 ./usr/lib/mycroft/mycroft/res/text/es-es/backend.down.dialog
+-rw-r--r-- -          -                  38 ./usr/lib/mycroft/mycroft/res/text/es-es/cancel.voc
+-rw-r--r-- -          -                  58 ./usr/lib/mycroft/mycroft/res/text/es-es/checking for updates.dialog
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/es-es/days.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/es-es/day.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/es-es/hours.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/es-es/hour.word
+-rw-r--r-- -          -                 119 ./usr/lib/mycroft/mycroft/res/text/es-es/i didn't catch that.dialog
+-rw-r--r-- -          -                  58 ./usr/lib/mycroft/mycroft/res/text/es-es/learning disabled.dialog
+-rw-r--r-- -          -                 175 ./usr/lib/mycroft/mycroft/res/text/es-es/learning enabled.dialog
+-rw-r--r-- -          -                  15 ./usr/lib/mycroft/mycroft/res/text/es-es/message_rebooting.dialog
+-rw-r--r-- -          -                  26 ./usr/lib/mycroft/mycroft/res/text/es-es/message_synching.clock.dialog
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/mycroft/res/text/es-es/message_updating.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/es-es/minutes.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/es-es/minute.word
+-rw-r--r-- -          -                 180 ./usr/lib/mycroft/mycroft/res/text/es-es/mycroft.intro.dialog
+-rw-r--r-- -          -                 386 ./usr/lib/mycroft/mycroft/res/text/es-es/not connected to the internet.dialog
+-rw-r--r-- -          -                  56 ./usr/lib/mycroft/mycroft/res/text/es-es/not.loaded.dialog
+-rw-r--r-- -          -                  20 ./usr/lib/mycroft/mycroft/res/text/es-es/no.voc
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/mycroft/res/text/es-es/phonetic_spellings.txt
+-rw-r--r-- -          -                  52 ./usr/lib/mycroft/mycroft/res/text/es-es/reset to factory defaults.dialog
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/es-es/seconds.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/es-es/second.word
+-rw-r--r-- -          -                  57 ./usr/lib/mycroft/mycroft/res/text/es-es/skill.error.dialog
+-rw-r--r-- -          -                  80 ./usr/lib/mycroft/mycroft/res/text/es-es/skills updated.dialog
+-rw-r--r-- -          -                  55 ./usr/lib/mycroft/mycroft/res/text/es-es/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  49 ./usr/lib/mycroft/mycroft/res/text/es-es/ssh disabled.dialog
+-rw-r--r-- -          -                  55 ./usr/lib/mycroft/mycroft/res/text/es-es/ssh enabled.dialog
+-rw-r--r-- -          -                  78 ./usr/lib/mycroft/mycroft/res/text/es-es/time.changed.reboot.dialog
+-rw-r--r-- -          -                  35 ./usr/lib/mycroft/mycroft/res/text/es-es/yes.voc
+drwxr-xr-x -          -                 580 ./usr/lib/mycroft/mycroft/res/text/fr-fr
+-rw-r--r-- -          -                  37 ./usr/lib/mycroft/mycroft/res/text/fr-fr/cancel.voc
+-rw-r--r-- -          -                  58 ./usr/lib/mycroft/mycroft/res/text/fr-fr/checking for updates.dialog
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/fr-fr/days.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/fr-fr/day.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/fr-fr/hours.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/fr-fr/hour.word
+-rw-r--r-- -          -                 163 ./usr/lib/mycroft/mycroft/res/text/fr-fr/i didn't catch that.dialog
+-rw-r--r-- -          -                  68 ./usr/lib/mycroft/mycroft/res/text/fr-fr/learning disabled.dialog
+-rw-r--r-- -          -                 183 ./usr/lib/mycroft/mycroft/res/text/fr-fr/learning enabled.dialog
+-rw-r--r-- -          -                  16 ./usr/lib/mycroft/mycroft/res/text/fr-fr/message_rebooting.dialog
+-rw-r--r-- -          -                  17 ./usr/lib/mycroft/mycroft/res/text/fr-fr/message_synching.clock.dialog
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/mycroft/res/text/fr-fr/message_updating.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/fr-fr/minutes.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/fr-fr/minute.word
+-rw-r--r-- -          -                 230 ./usr/lib/mycroft/mycroft/res/text/fr-fr/mycroft.intro.dialog
+-rw-r--r-- -          -                 171 ./usr/lib/mycroft/mycroft/res/text/fr-fr/not connected to the internet.dialog
+-rw-r--r-- -          -                  21 ./usr/lib/mycroft/mycroft/res/text/fr-fr/no.voc
+-rw-r--r-- -          -                  18 ./usr/lib/mycroft/mycroft/res/text/fr-fr/phonetic_spellings.txt
+-rw-r--r-- -          -                  27 ./usr/lib/mycroft/mycroft/res/text/fr-fr/reset to factory defaults.dialog
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/fr-fr/seconds.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/fr-fr/second.word
+-rw-r--r-- -          -                  83 ./usr/lib/mycroft/mycroft/res/text/fr-fr/skills updated.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/fr-fr/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  38 ./usr/lib/mycroft/mycroft/res/text/fr-fr/ssh disabled.dialog
+-rw-r--r-- -          -                  34 ./usr/lib/mycroft/mycroft/res/text/fr-fr/ssh enabled.dialog
+-rw-r--r-- -          -                  91 ./usr/lib/mycroft/mycroft/res/text/fr-fr/time.changed.reboot.dialog
+-rw-r--r-- -          -                  40 ./usr/lib/mycroft/mycroft/res/text/fr-fr/yes.voc
+drwxr-xr-x -          -                 520 ./usr/lib/mycroft/mycroft/res/text/hu-hu
+-rw-r--r-- -          -                 241 ./usr/lib/mycroft/mycroft/res/text/hu-hu/backend.down.dialog
+-rw-r--r-- -          -                  40 ./usr/lib/mycroft/mycroft/res/text/hu-hu/cancel.voc
+-rw-r--r-- -          -                  89 ./usr/lib/mycroft/mycroft/res/text/hu-hu/checking for updates.dialog
+-rw-r--r-- -          -                3892 ./usr/lib/mycroft/mycroft/res/text/hu-hu/date_time.json
+-rw-r--r-- -          -                4194 ./usr/lib/mycroft/mycroft/res/text/hu-hu/date_time_test.json
+-rw-r--r-- -          -                 123 ./usr/lib/mycroft/mycroft/res/text/hu-hu/i didn't catch that.dialog
+-rw-r--r-- -          -                  74 ./usr/lib/mycroft/mycroft/res/text/hu-hu/learning disabled.dialog
+-rw-r--r-- -          -                 171 ./usr/lib/mycroft/mycroft/res/text/hu-hu/learning enabled.dialog
+-rw-r--r-- -          -                  18 ./usr/lib/mycroft/mycroft/res/text/hu-hu/message_rebooting.dialog
+-rw-r--r-- -          -                  29 ./usr/lib/mycroft/mycroft/res/text/hu-hu/message_synching.clock.dialog
+-rw-r--r-- -          -                  24 ./usr/lib/mycroft/mycroft/res/text/hu-hu/message_updating.dialog
+-rw-r--r-- -          -                 247 ./usr/lib/mycroft/mycroft/res/text/hu-hu/mycroft.intro.dialog
+-rw-r--r-- -          -                 268 ./usr/lib/mycroft/mycroft/res/text/hu-hu/not connected to the internet.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/hu-hu/not.loaded.dialog
+-rw-r--r-- -          -                  34 ./usr/lib/mycroft/mycroft/res/text/hu-hu/no.voc
+-rw-r--r-- -          -                  55 ./usr/lib/mycroft/mycroft/res/text/hu-hu/phonetic_spellings.txt
+-rw-r--r-- -          -                  47 ./usr/lib/mycroft/mycroft/res/text/hu-hu/reset to factory defaults.dialog
+-rw-r--r-- -          -                  72 ./usr/lib/mycroft/mycroft/res/text/hu-hu/skill.error.dialog
+-rw-r--r-- -          -                  83 ./usr/lib/mycroft/mycroft/res/text/hu-hu/skills updated.dialog
+-rw-r--r-- -          -                  53 ./usr/lib/mycroft/mycroft/res/text/hu-hu/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  49 ./usr/lib/mycroft/mycroft/res/text/hu-hu/ssh disabled.dialog
+-rw-r--r-- -          -                  48 ./usr/lib/mycroft/mycroft/res/text/hu-hu/ssh enabled.dialog
+-rw-r--r-- -          -                 100 ./usr/lib/mycroft/mycroft/res/text/hu-hu/time.changed.reboot.dialog
+-rw-r--r-- -          -                  49 ./usr/lib/mycroft/mycroft/res/text/hu-hu/yes.voc
+drwxr-xr-x -          -                 680 ./usr/lib/mycroft/mycroft/res/text/it-it
+-rw-r--r-- -          -                 452 ./usr/lib/mycroft/mycroft/res/text/it-it/backend.down.dialog
+-rw-r--r-- -          -                  41 ./usr/lib/mycroft/mycroft/res/text/it-it/cancel.voc
+-rw-r--r-- -          -                  53 ./usr/lib/mycroft/mycroft/res/text/it-it/checking for updates.dialog
+-rw-r--r-- -          -                4392 ./usr/lib/mycroft/mycroft/res/text/it-it/date_time.json
+-rw-r--r-- -          -                4145 ./usr/lib/mycroft/mycroft/res/text/it-it/date_time_test.json
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/it-it/days.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/it-it/day.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/it-it/hours.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/it-it/hour.word
+-rw-r--r-- -          -                  81 ./usr/lib/mycroft/mycroft/res/text/it-it/i didn't catch that.dialog
+-rw-r--r-- -          -                  61 ./usr/lib/mycroft/mycroft/res/text/it-it/learning disabled.dialog
+-rw-r--r-- -          -                 173 ./usr/lib/mycroft/mycroft/res/text/it-it/learning enabled.dialog
+-rw-r--r-- -          -                  13 ./usr/lib/mycroft/mycroft/res/text/it-it/message_rebooting.dialog
+-rw-r--r-- -          -                  17 ./usr/lib/mycroft/mycroft/res/text/it-it/message_synching.clock.dialog
+-rw-r--r-- -          -                  21 ./usr/lib/mycroft/mycroft/res/text/it-it/message_updating.dialog
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/it-it/minutes.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/it-it/minute.word
+-rw-r--r-- -          -                 197 ./usr/lib/mycroft/mycroft/res/text/it-it/mycroft.intro.dialog
+-rw-r--r-- -          -                 411 ./usr/lib/mycroft/mycroft/res/text/it-it/not connected to the internet.dialog
+-rw-r--r-- -          -                  73 ./usr/lib/mycroft/mycroft/res/text/it-it/not.loaded.dialog
+-rw-r--r-- -          -                  23 ./usr/lib/mycroft/mycroft/res/text/it-it/no.voc
+-rw-r--r-- -          -                  89 ./usr/lib/mycroft/mycroft/res/text/it-it/phonetic_spellings.txt
+-rw-r--r-- -          -                  55 ./usr/lib/mycroft/mycroft/res/text/it-it/reset to factory defaults.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/it-it/seconds.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/it-it/second.word
+-rw-r--r-- -          -                  80 ./usr/lib/mycroft/mycroft/res/text/it-it/skill.error.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/it-it/skills updated.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/it-it/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  36 ./usr/lib/mycroft/mycroft/res/text/it-it/ssh disabled.dialog
+-rw-r--r-- -          -                  36 ./usr/lib/mycroft/mycroft/res/text/it-it/ssh enabled.dialog
+-rw-r--r-- -          -                  93 ./usr/lib/mycroft/mycroft/res/text/it-it/time.changed.reboot.dialog
+-rw-r--r-- -          -                  28 ./usr/lib/mycroft/mycroft/res/text/it-it/yes.voc
+drwxr-xr-x -          -                 700 ./usr/lib/mycroft/mycroft/res/text/nl-nl
+-rw-r--r-- -          -                 269 ./usr/lib/mycroft/mycroft/res/text/nl-nl/backend.down.dialog
+-rw-r--r-- -          -                  17 ./usr/lib/mycroft/mycroft/res/text/nl-nl/cancel.voc
+-rw-r--r-- -          -                  64 ./usr/lib/mycroft/mycroft/res/text/nl-nl/checking for updates.dialog
+-rw-r--r-- -          -                3825 ./usr/lib/mycroft/mycroft/res/text/nl-nl/date_time.json
+-rw-r--r-- -          -                4231 ./usr/lib/mycroft/mycroft/res/text/nl-nl/date_time_test.json
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/nl-nl/days.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/nl-nl/day.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/nl-nl/hours.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/nl-nl/hour.word
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/nl-nl/i am awake.dialog
+-rw-r--r-- -          -                 141 ./usr/lib/mycroft/mycroft/res/text/nl-nl/i didn't catch that.dialog
+-rw-r--r-- -          -                  71 ./usr/lib/mycroft/mycroft/res/text/nl-nl/learning disabled.dialog
+-rw-r--r-- -          -                 150 ./usr/lib/mycroft/mycroft/res/text/nl-nl/learning enabled.dialog
+-rw-r--r-- -          -                  14 ./usr/lib/mycroft/mycroft/res/text/nl-nl/message_rebooting.dialog
+-rw-r--r-- -          -                  16 ./usr/lib/mycroft/mycroft/res/text/nl-nl/message_synching.clock.dialog
+-rw-r--r-- -          -                  20 ./usr/lib/mycroft/mycroft/res/text/nl-nl/message_updating.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/nl-nl/minutes.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/nl-nl/minute.word
+-rw-r--r-- -          -                 208 ./usr/lib/mycroft/mycroft/res/text/nl-nl/mycroft.intro.dialog
+-rw-r--r-- -          -                 180 ./usr/lib/mycroft/mycroft/res/text/nl-nl/not connected to the internet.dialog
+-rw-r--r-- -          -                  40 ./usr/lib/mycroft/mycroft/res/text/nl-nl/not.loaded.dialog
+-rw-r--r-- -          -                  12 ./usr/lib/mycroft/mycroft/res/text/nl-nl/no.voc
+-rw-r--r-- -          -                  88 ./usr/lib/mycroft/mycroft/res/text/nl-nl/phonetic_spellings.txt
+-rw-r--r-- -          -                  35 ./usr/lib/mycroft/mycroft/res/text/nl-nl/reset to factory defaults.dialog
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/nl-nl/seconds.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/nl-nl/second.word
+-rw-r--r-- -          -                  79 ./usr/lib/mycroft/mycroft/res/text/nl-nl/skill.error.dialog
+-rw-r--r-- -          -                  68 ./usr/lib/mycroft/mycroft/res/text/nl-nl/skills updated.dialog
+-rw-r--r-- -          -                 134 ./usr/lib/mycroft/mycroft/res/text/nl-nl/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  27 ./usr/lib/mycroft/mycroft/res/text/nl-nl/ssh disabled.dialog
+-rw-r--r-- -          -                  30 ./usr/lib/mycroft/mycroft/res/text/nl-nl/ssh enabled.dialog
+-rw-r--r-- -          -                  90 ./usr/lib/mycroft/mycroft/res/text/nl-nl/time.changed.reboot.dialog
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/nl-nl/yes.voc
+drwxr-xr-x -          -                 440 ./usr/lib/mycroft/mycroft/res/text/pt-pt
+-rw-r--r-- -          -                 492 ./usr/lib/mycroft/mycroft/res/text/pt-pt/cancel.voc
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/pt-pt/checking for updates.dialog
+-rw-r--r-- -          -                  43 ./usr/lib/mycroft/mycroft/res/text/pt-pt/i am awake.dialog
+-rw-r--r-- -          -                 106 ./usr/lib/mycroft/mycroft/res/text/pt-pt/i didn't catch that.dialog
+-rw-r--r-- -          -                  70 ./usr/lib/mycroft/mycroft/res/text/pt-pt/learning disabled.dialog
+-rw-r--r-- -          -                 156 ./usr/lib/mycroft/mycroft/res/text/pt-pt/learning enabled.dialog
+-rw-r--r-- -          -                  14 ./usr/lib/mycroft/mycroft/res/text/pt-pt/message_rebooting.dialog
+-rw-r--r-- -          -                  16 ./usr/lib/mycroft/mycroft/res/text/pt-pt/message_synching.clock.dialog
+-rw-r--r-- -          -                  24 ./usr/lib/mycroft/mycroft/res/text/pt-pt/message_updating.dialog
+-rw-r--r-- -          -                 187 ./usr/lib/mycroft/mycroft/res/text/pt-pt/mycroft.intro.dialog
+-rw-r--r-- -          -                 171 ./usr/lib/mycroft/mycroft/res/text/pt-pt/not connected to the internet.dialog
+-rw-r--r-- -          -                  61 ./usr/lib/mycroft/mycroft/res/text/pt-pt/not.loaded.dialog
+-rw-r--r-- -          -                  30 ./usr/lib/mycroft/mycroft/res/text/pt-pt/phonetic_spellings.txt
+-rw-r--r-- -          -                  48 ./usr/lib/mycroft/mycroft/res/text/pt-pt/reset to factory defaults.dialog
+-rw-r--r-- -          -                  50 ./usr/lib/mycroft/mycroft/res/text/pt-pt/skill.error.dialog
+-rw-r--r-- -          -                  79 ./usr/lib/mycroft/mycroft/res/text/pt-pt/skills updated.dialog
+-rw-r--r-- -          -                 120 ./usr/lib/mycroft/mycroft/res/text/pt-pt/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  32 ./usr/lib/mycroft/mycroft/res/text/pt-pt/ssh disabled.dialog
+-rw-r--r-- -          -                  39 ./usr/lib/mycroft/mycroft/res/text/pt-pt/ssh enabled.dialog
+-rw-r--r-- -          -                  86 ./usr/lib/mycroft/mycroft/res/text/pt-pt/time.changed.reboot.dialog
+drwxr-xr-x -          -                 240 ./usr/lib/mycroft/mycroft/res/text/ru-ru
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/ru-ru/days.word
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/ru-ru/day.word
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/ru-ru/hours.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/ru-ru/hour.word
+-rw-r--r-- -          -                  13 ./usr/lib/mycroft/mycroft/res/text/ru-ru/minutes.word
+-rw-r--r-- -          -                  13 ./usr/lib/mycroft/mycroft/res/text/ru-ru/minute.word
+-rw-r--r-- -          -                  46 ./usr/lib/mycroft/mycroft/res/text/ru-ru/no.voc
+-rw-r--r-- -          -                  15 ./usr/lib/mycroft/mycroft/res/text/ru-ru/seconds.word
+-rw-r--r-- -          -                  15 ./usr/lib/mycroft/mycroft/res/text/ru-ru/second.word
+-rw-r--r-- -          -                  53 ./usr/lib/mycroft/mycroft/res/text/ru-ru/yes.voc
+drwxr-xr-x -          -                 380 ./usr/lib/mycroft/mycroft/res/text/sv-fi
+-rw-r--r-- -          -                  30 ./usr/lib/mycroft/mycroft/res/text/sv-fi/cancel.voc
+-rw-r--r-- -          -                  79 ./usr/lib/mycroft/mycroft/res/text/sv-fi/checking for updates.dialog
+-rw-r--r-- -          -                 122 ./usr/lib/mycroft/mycroft/res/text/sv-fi/i didn't catch that.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/sv-fi/learning disabled.dialog
+-rw-r--r-- -          -                 157 ./usr/lib/mycroft/mycroft/res/text/sv-fi/learning enabled.dialog
+-rw-r--r-- -          -                  14 ./usr/lib/mycroft/mycroft/res/text/sv-fi/message_rebooting.dialog
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/mycroft/res/text/sv-fi/message_synching.clock.dialog
+-rw-r--r-- -          -                  23 ./usr/lib/mycroft/mycroft/res/text/sv-fi/message_updating.dialog
+-rw-r--r-- -          -                 227 ./usr/lib/mycroft/mycroft/res/text/sv-fi/mycroft.intro.dialog
+-rw-r--r-- -          -                 158 ./usr/lib/mycroft/mycroft/res/text/sv-fi/not connected to the internet.dialog
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/sv-fi/phonetic_spellings.txt
+-rw-r--r-- -          -                  50 ./usr/lib/mycroft/mycroft/res/text/sv-fi/reset to factory defaults.dialog
+-rw-r--r-- -          -                  78 ./usr/lib/mycroft/mycroft/res/text/sv-fi/skills updated.dialog
+-rw-r--r-- -          -                  48 ./usr/lib/mycroft/mycroft/res/text/sv-fi/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  32 ./usr/lib/mycroft/mycroft/res/text/sv-fi/ssh disabled.dialog
+-rw-r--r-- -          -                  34 ./usr/lib/mycroft/mycroft/res/text/sv-fi/ssh enabled.dialog
+-rw-r--r-- -          -                  93 ./usr/lib/mycroft/mycroft/res/text/sv-fi/time.changed.reboot.dialog
+drwxr-xr-x -          -                 580 ./usr/lib/mycroft/mycroft/res/text/sv-se
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/sv-se/cancel.voc
+-rw-r--r-- -          -                  79 ./usr/lib/mycroft/mycroft/res/text/sv-se/checking for updates.dialog
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/sv-se/days.word
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/mycroft/res/text/sv-se/day.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/sv-se/hours.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/sv-se/hour.word
+-rw-r--r-- -          -                 122 ./usr/lib/mycroft/mycroft/res/text/sv-se/i didn't catch that.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/mycroft/res/text/sv-se/learning disabled.dialog
+-rw-r--r-- -          -                 152 ./usr/lib/mycroft/mycroft/res/text/sv-se/learning enabled.dialog
+-rw-r--r-- -          -                  14 ./usr/lib/mycroft/mycroft/res/text/sv-se/message_rebooting.dialog
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/mycroft/res/text/sv-se/message_synching.clock.dialog
+-rw-r--r-- -          -                  23 ./usr/lib/mycroft/mycroft/res/text/sv-se/message_updating.dialog
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/sv-se/minutes.word
+-rw-r--r-- -          -                   6 ./usr/lib/mycroft/mycroft/res/text/sv-se/minute.word
+-rw-r--r-- -          -                 227 ./usr/lib/mycroft/mycroft/res/text/sv-se/mycroft.intro.dialog
+-rw-r--r-- -          -                 158 ./usr/lib/mycroft/mycroft/res/text/sv-se/not connected to the internet.dialog
+-rw-r--r-- -          -                  22 ./usr/lib/mycroft/mycroft/res/text/sv-se/no.voc
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/mycroft/res/text/sv-se/phonetic_spellings.txt
+-rw-r--r-- -          -                  50 ./usr/lib/mycroft/mycroft/res/text/sv-se/reset to factory defaults.dialog
+-rw-r--r-- -          -                   9 ./usr/lib/mycroft/mycroft/res/text/sv-se/seconds.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/sv-se/second.word
+-rw-r--r-- -          -                  78 ./usr/lib/mycroft/mycroft/res/text/sv-se/skills updated.dialog
+-rw-r--r-- -          -                  48 ./usr/lib/mycroft/mycroft/res/text/sv-se/sorry I couldn't install default skills.dialog
+-rw-r--r-- -          -                  32 ./usr/lib/mycroft/mycroft/res/text/sv-se/ssh disabled.dialog
+-rw-r--r-- -          -                  34 ./usr/lib/mycroft/mycroft/res/text/sv-se/ssh enabled.dialog
+-rw-r--r-- -          -                  93 ./usr/lib/mycroft/mycroft/res/text/sv-se/time.changed.reboot.dialog
+-rw-r--r-- -          -                  33 ./usr/lib/mycroft/mycroft/res/text/sv-se/yes.voc
+drwxr-xr-x -          -                 240 ./usr/lib/mycroft/mycroft/res/text/tr-tr
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/tr-tr/days.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/tr-tr/day.word
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/mycroft/res/text/tr-tr/hours.word
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/mycroft/res/text/tr-tr/hour.word
+-rw-r--r-- -          -                  10 ./usr/lib/mycroft/mycroft/res/text/tr-tr/minutes.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/tr-tr/minute.word
+-rw-r--r-- -          -                  26 ./usr/lib/mycroft/mycroft/res/text/tr-tr/no.voc
+-rw-r--r-- -          -                  10 ./usr/lib/mycroft/mycroft/res/text/tr-tr/seconds.word
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/mycroft/res/text/tr-tr/second.word
+-rw-r--r-- -          -                  30 ./usr/lib/mycroft/mycroft/res/text/tr-tr/yes.voc
+-rw-r--r-- -          -                3243 ./usr/lib/mycroft/mycroft/res/wakeword_rsa
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/session
+-rw-r--r-- -          -                2407 ./usr/lib/mycroft/mycroft/session/__init__.py
+drwxr-xr-x -          -                 320 ./usr/lib/mycroft/mycroft/skills
+-rw-r--r-- -          -                5206 ./usr/lib/mycroft/mycroft/skills/audioservice.py
+-rw-r--r-- -          -               12682 ./usr/lib/mycroft/mycroft/skills/common_iot_skill.py
+-rw-r--r-- -          -                7622 ./usr/lib/mycroft/mycroft/skills/common_play_skill.py
+-rw-r--r-- -          -                5852 ./usr/lib/mycroft/mycroft/skills/common_query_skill.py
+-rw-r--r-- -          -                1410 ./usr/lib/mycroft/mycroft/skills/context.py
+-rw-r--r-- -          -               66472 ./usr/lib/mycroft/mycroft/skills/core.py
+-rw-r--r-- -          -                9144 ./usr/lib/mycroft/mycroft/skills/event_scheduler.py
+-rw-r--r-- -          -                 578 ./usr/lib/mycroft/mycroft/skills/__init__.py
+-rw-r--r-- -          -               21004 ./usr/lib/mycroft/mycroft/skills/intent_service.py
+-rw-r--r-- -          -                7195 ./usr/lib/mycroft/mycroft/skills/__main__.py
+-rw-r--r-- -          -                6517 ./usr/lib/mycroft/mycroft/skills/padatious_service.py
+-rw-r--r-- -          -               22727 ./usr/lib/mycroft/mycroft/skills/settings.py
+-rw-r--r-- -          -                6185 ./usr/lib/mycroft/mycroft/skills/skill_data.py
+-rw-r--r-- -          -               21441 ./usr/lib/mycroft/mycroft/skills/skill_manager.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/stt
+-rw-r--r-- -          -                7731 ./usr/lib/mycroft/mycroft/stt/__init__.py
+drwxr-xr-x -          -                 280 ./usr/lib/mycroft/mycroft/tts
+-rw-r--r-- -          -                2026 ./usr/lib/mycroft/mycroft/tts/bing_tts.py
+-rw-r--r-- -          -                1420 ./usr/lib/mycroft/mycroft/tts/espeak_tts.py
+-rw-r--r-- -          -                2029 ./usr/lib/mycroft/mycroft/tts/fa_tts.py
+-rw-r--r-- -          -                1466 ./usr/lib/mycroft/mycroft/tts/google_tts.py
+-rw-r--r-- -          -                2282 ./usr/lib/mycroft/mycroft/tts/ibm_tts.py
+-rw-r--r-- -          -               15719 ./usr/lib/mycroft/mycroft/tts/__init__.py
+-rw-r--r-- -          -                1960 ./usr/lib/mycroft/mycroft/tts/mary_tts.py
+-rw-r--r-- -          -                9307 ./usr/lib/mycroft/mycroft/tts/mimic2_tts.py
+-rw-r--r-- -          -                7142 ./usr/lib/mycroft/mycroft/tts/mimic_tts.py
+-rw-r--r-- -          -                2808 ./usr/lib/mycroft/mycroft/tts/remote_tts.py
+-rw-r--r-- -          -                2141 ./usr/lib/mycroft/mycroft/tts/responsive_voice_tts.py
+-rw-r--r-- -          -                1451 ./usr/lib/mycroft/mycroft/tts/spdsay_tts.py
+drwxr-xr-x -          -                 260 ./usr/lib/mycroft/mycroft/util
+-rw-r--r-- -          -                4734 ./usr/lib/mycroft/mycroft/util/audio_test.py
+-rw-r--r-- -          -                2394 ./usr/lib/mycroft/mycroft/util/combo_lock.py
+-rw-r--r-- -          -                3840 ./usr/lib/mycroft/mycroft/util/download.py
+-rwxr-xr-x -          -               21875 ./usr/lib/mycroft/mycroft/util/format.py
+-rw-r--r-- -          -               15457 ./usr/lib/mycroft/mycroft/util/__init__.py
+-rw-r--r-- -          -                2479 ./usr/lib/mycroft/mycroft/util/json_helper.py
+drwxr-xr-x -          -                 520 ./usr/lib/mycroft/mycroft/util/lang
+-rw-r--r-- -          -                5901 ./usr/lib/mycroft/mycroft/util/lang/common_data_en.py
+-rw-r--r-- -          -                6214 ./usr/lib/mycroft/mycroft/util/lang/common_data_es.py
+-rw-r--r-- -          -                2237 ./usr/lib/mycroft/mycroft/util/lang/common_data_pt.py
+-rw-r--r-- -          -                1640 ./usr/lib/mycroft/mycroft/util/lang/format_common.py
+-rw-r--r-- -          -               12335 ./usr/lib/mycroft/mycroft/util/lang/format_da.py
+-rw-r--r-- -          -               12534 ./usr/lib/mycroft/mycroft/util/lang/format_de.py
+-rw-r--r-- -          -               10440 ./usr/lib/mycroft/mycroft/util/lang/format_en.py
+-rw-r--r-- -          -                9953 ./usr/lib/mycroft/mycroft/util/lang/format_es.py
+-rw-r--r-- -          -                8853 ./usr/lib/mycroft/mycroft/util/lang/format_fr.py
+-rw-r--r-- -          -               11907 ./usr/lib/mycroft/mycroft/util/lang/format_hu.py
+-rw-r--r-- -          -               14738 ./usr/lib/mycroft/mycroft/util/lang/format_it.py
+-rw-r--r-- -          -               12272 ./usr/lib/mycroft/mycroft/util/lang/format_nl.py
+-rw-r--r-- -          -                6879 ./usr/lib/mycroft/mycroft/util/lang/format_pt.py
+-rw-r--r-- -          -                2496 ./usr/lib/mycroft/mycroft/util/lang/format_sv.py
+-rw-r--r-- -          -                2177 ./usr/lib/mycroft/mycroft/util/lang/__init__.py
+-rw-r--r-- -          -                3521 ./usr/lib/mycroft/mycroft/util/lang/parse_common.py
+-rw-r--r-- -          -               33467 ./usr/lib/mycroft/mycroft/util/lang/parse_da.py
+-rw-r--r-- -          -               34440 ./usr/lib/mycroft/mycroft/util/lang/parse_de.py
+-rw-r--r-- -          -               57902 ./usr/lib/mycroft/mycroft/util/lang/parse_en.py
+-rw-r--r-- -          -               39103 ./usr/lib/mycroft/mycroft/util/lang/parse_es.py
+-rw-r--r-- -          -               38239 ./usr/lib/mycroft/mycroft/util/lang/parse_fr.py
+-rw-r--r-- -          -               46119 ./usr/lib/mycroft/mycroft/util/lang/parse_it.py
+-rw-r--r-- -          -               40091 ./usr/lib/mycroft/mycroft/util/lang/parse_pt.py
+-rw-r--r-- -          -               28756 ./usr/lib/mycroft/mycroft/util/lang/parse_sv.py
+-rw-r--r-- -          -                3754 ./usr/lib/mycroft/mycroft/util/log.py
+-rw-r--r-- -          -               12551 ./usr/lib/mycroft/mycroft/util/parse.py
+-rw-r--r-- -          -                3858 ./usr/lib/mycroft/mycroft/util/signal.py
+-rw-r--r-- -          -                2664 ./usr/lib/mycroft/mycroft/util/time.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/mycroft/version
+-rw-r--r-- -          -                1979 ./usr/lib/mycroft/mycroft/version/__init__.py
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/patches
+lrwxrwxrwx -          -                 131 ./usr/lib/mycroft/patches/0001-Remove-python-venv.patch -> /home/jenkins/oe/world/yoe/sources/meta-openembedded/meta-multimedia/recipes-multimedia/mycroft/files/0001-Remove-python-venv.patch
+lrwxrwxrwx -          -                 157 ./usr/lib/mycroft/patches/0002-pip-requirements-Remove-ones-installed-by-OE.patch -> /home/jenkins/oe/world/yoe/sources/meta-openembedded/meta-multimedia/recipes-multimedia/mycroft/files/0002-pip-requirements-Remove-ones-installed-by-OE.patch
+lrwxrwxrwx -          -                 159 ./usr/lib/mycroft/patches/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch -> /home/jenkins/oe/world/yoe/sources/meta-openembedded/meta-multimedia/recipes-multimedia/mycroft/files/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch
+lrwxrwxrwx -          -                 151 ./usr/lib/mycroft/patches/0004-dev_setup.sh-Remove-the-git-dependency.patch -> /home/jenkins/oe/world/yoe/sources/meta-openembedded/meta-multimedia/recipes-multimedia/mycroft/files/0004-dev_setup.sh-Remove-the-git-dependency.patch
+lrwxrwxrwx -          -                 158 ./usr/lib/mycroft/patches/0005-dev_setup.sh-Remove-the-test-setup-dependency.patch -> /home/jenkins/oe/world/yoe/sources/meta-openembedded/meta-multimedia/recipes-multimedia/mycroft/files/0005-dev_setup.sh-Remove-the-test-setup-dependency.patch
+-rw-r--r-- -          -                 271 ./usr/lib/mycroft/patches/series
+drwxr-xr-x -          -                 220 ./usr/lib/mycroft/.pc
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/.pc/0001-Remove-python-venv.patch
+-rwxr-xr-x -          -               15705 ./usr/lib/mycroft/.pc/0001-Remove-python-venv.patch/dev_setup.sh
+-rwxr-xr-x -          -                7311 ./usr/lib/mycroft/.pc/0001-Remove-python-venv.patch/start-mycroft.sh
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/.pc/0001-Remove-python-venv.patch/.timestamp
+-rw-r--r-- -          -                2393 ./usr/lib/mycroft/.pc/0001-Remove-python-venv.patch/venv-activate.sh
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/.pc/0002-pip-requirements-Remove-ones-installed-by-OE.patch
+-rw-r--r-- -          -                 575 ./usr/lib/mycroft/.pc/0002-pip-requirements-Remove-ones-installed-by-OE.patch/requirements.txt
+-rw-r--r-- -          -                 128 ./usr/lib/mycroft/.pc/0002-pip-requirements-Remove-ones-installed-by-OE.patch/test-requirements.txt
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/.pc/0002-pip-requirements-Remove-ones-installed-by-OE.patch/.timestamp
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch
+drwxr-xr-x -          -                 140 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/bin
+-rwxr-xr-x -          -                 789 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/bin/mycroft-cli-client
+-rwxr-xr-x -          -                 773 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/bin/mycroft-pip
+-rwxr-xr-x -          -                 890 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/bin/mycroft-say-to
+-rwxr-xr-x -          -                 894 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/bin/mycroft-skill-testrunner
+-rwxr-xr-x -          -                 845 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/bin/mycroft-speak
+-rwxr-xr-x -          -               14255 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/dev_setup.sh
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/scripts
+-rwxr-xr-x -          -                2534 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/scripts/install-pocketsphinx.sh
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/.pc/0003-Use-python3-and-pip3-instead-of-python-and-pip.patch/.timestamp
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/.pc/0004-dev_setup.sh-Remove-the-git-dependency.patch
+-rwxr-xr-x -          -               14260 ./usr/lib/mycroft/.pc/0004-dev_setup.sh-Remove-the-git-dependency.patch/dev_setup.sh
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/.pc/0004-dev_setup.sh-Remove-the-git-dependency.patch/.timestamp
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/.pc/0005-dev_setup.sh-Remove-the-test-setup-dependency.patch
+-rwxr-xr-x -          -               13708 ./usr/lib/mycroft/.pc/0005-dev_setup.sh-Remove-the-test-setup-dependency.patch/dev_setup.sh
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/.pc/0005-dev_setup.sh-Remove-the-test-setup-dependency.patch/.timestamp
+-rw-r--r-- -          -                 251 ./usr/lib/mycroft/.pc/applied-patches
+-rw-r--r-- -          -                   8 ./usr/lib/mycroft/.pc/.quilt_patches
+-rw-r--r-- -          -                   7 ./usr/lib/mycroft/.pc/.quilt_series
+-rw-r--r-- -          -                   2 ./usr/lib/mycroft/.pc/.version
+-rwxr-xr-x -          -                  67 ./usr/lib/mycroft/.pep8speaks.yml
+-rw-r--r-- -          -                8294 ./usr/lib/mycroft/README.md
+-rw-r--r-- -          -                 372 ./usr/lib/mycroft/requirements.txt
+drwxr-xr-x -          -                 180 ./usr/lib/mycroft/scripts
+-rwxr-xr-x -          -                1607 ./usr/lib/mycroft/scripts/install-mimic.sh
+-rwxr-xr-x -          -                2535 ./usr/lib/mycroft/scripts/install-pocketsphinx.sh
+-rwxr-xr-x -          -                2714 ./usr/lib/mycroft/scripts/install-pygtk.sh
+-rwxr-xr-x -          -               15548 ./usr/lib/mycroft/scripts/mycroft-use.sh
+-rw-r--r-- -          -                7809 ./usr/lib/mycroft/scripts/my-info.sh
+-rwxr-xr-x -          -                1825 ./usr/lib/mycroft/scripts/pre-commit
+-rwxr-xr-x -          -                1981 ./usr/lib/mycroft/scripts/prepare-msm.sh
+-rw-r--r-- -          -                2738 ./usr/lib/mycroft/setup.py
+-rwxr-xr-x -          -                6981 ./usr/lib/mycroft/start-mycroft.sh
+-rwxr-xr-x -          -                3206 ./usr/lib/mycroft/stop-mycroft.sh
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/test
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/__init__.py
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/test/integrationtests
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/integrationtests/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/integrationtests/messagebus
+-rw-r--r-- -          -                6211 ./usr/lib/mycroft/test/integrationtests/messagebus/messagebus_test.py
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/test/integrationtests/skills
+-rw-r--r-- -          -                3788 ./usr/lib/mycroft/test/integrationtests/skills/discover_tests.py
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/integrationtests/skills/__init__.py
+-rwxr-xr-x -          -                2887 ./usr/lib/mycroft/test/integrationtests/skills/message_tester.py
+-rw-r--r-- -          -                5170 ./usr/lib/mycroft/test/integrationtests/skills/runner.py
+-rw-r--r-- -          -               22976 ./usr/lib/mycroft/test/integrationtests/skills/skill_tester.py
+-rw-r--r-- -          -                4268 ./usr/lib/mycroft/test/integrationtests/skills/test_all_skills.py
+-rw-r--r-- -          -                 114 ./usr/lib/mycroft/test-requirements.txt
+drwxr-xr-x -          -                 360 ./usr/lib/mycroft/test/unittests
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/api
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/api/__init__.py
+-rw-r--r-- -          -               13967 ./usr/lib/mycroft/test/unittests/api/test_api.py
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/test/unittests/audio
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/audio/__init__.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/audio/services
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/audio/services/failing
+-rw-r--r-- -          -                 928 ./usr/lib/mycroft/test/unittests/audio/services/failing/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/audio/services/working
+-rw-r--r-- -          -                1129 ./usr/lib/mycroft/test/unittests/audio/services/working/__init__.py
+-rw-r--r-- -          -                1776 ./usr/lib/mycroft/test/unittests/audio/test_interface.py
+-rw-r--r-- -          -                1527 ./usr/lib/mycroft/test/unittests/audio/test_service.py
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/test/unittests/client
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/test/unittests/client/data
+-rw-r--r-- -          -               96044 ./usr/lib/mycroft/test/unittests/client/data/hey_mycroft.wav
+-rw-r--r-- -          -              158444 ./usr/lib/mycroft/test/unittests/client/data/mycroft_wakeup.wav
+-rw-r--r-- -          -               88044 ./usr/lib/mycroft/test/unittests/client/data/mycroft.wav
+-rw-r--r-- -          -               32044 ./usr/lib/mycroft/test/unittests/client/data/record.wav
+-rw-r--r-- -          -               22480 ./usr/lib/mycroft/test/unittests/client/data/stop.wav
+-rw-r--r-- -          -              160044 ./usr/lib/mycroft/test/unittests/client/data/weather_mycroft.wav
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/client/__init__.py
+-rw-r--r-- -          -                7208 ./usr/lib/mycroft/test/unittests/client/test_audio_consumer.py
+-rw-r--r-- -          -                2681 ./usr/lib/mycroft/test/unittests/client/test_dynamic_energy_test.py
+-rw-r--r-- -          -                2015 ./usr/lib/mycroft/test/unittests/client/test_hotword_factory.py
+-rw-r--r-- -          -                2712 ./usr/lib/mycroft/test/unittests/client/test_local_recognizer.py
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/test/unittests/configuration
+-rw-r--r-- -          -                 580 ./usr/lib/mycroft/test/unittests/configuration/__init__.py
+-rw-r--r-- -          -                 104 ./usr/lib/mycroft/test/unittests/configuration/mycroft.conf
+-rw-r--r-- -          -                3049 ./usr/lib/mycroft/test/unittests/configuration/test_configuration.py
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/test/unittests/dialog
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/dialog/__init__.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/dialog/multiple_dialogs
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/test/unittests/dialog/multiple_dialogs/one.dialog
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/test/unittests/dialog/multiple_dialogs/two.dialog
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_comments
+-rw-r--r-- -          -                  58 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_comments/example-comments.dialog
+-rw-r--r-- -          -                  31 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_comments/example-comments.result
+-rw-r--r-- -          -                  63 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates/example-context.context.json
+-rw-r--r-- -          -                  96 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates/example-context.dialog
+-rw-r--r-- -          -                  78 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates/example-context.result
+-rw-r--r-- -          -                   2 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates/example-simple.context.json
+-rw-r--r-- -          -                  12 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates/example-simple.dialog
+-rw-r--r-- -          -                  12 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates/example-simple.result
+drwxr-xr-x -          -                 160 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple
+-rw-r--r-- -          -                  24 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple/example-multiple-context.context.json
+-rw-r--r-- -          -                  94 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple/example-multiple-context.dialog
+-rw-r--r-- -          -                   2 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple/example-multiple.context.json
+-rw-r--r-- -          -                  95 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple/example-multiple-context.result
+-rw-r--r-- -          -                  65 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple/example-multiple.dialog
+-rw-r--r-- -          -                  66 ./usr/lib/mycroft/test/unittests/dialog/mustache_templates_multiple/example-multiple.result
+-rw-r--r-- -          -                5113 ./usr/lib/mycroft/test/unittests/dialog/test_dialog.py
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/__init__.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/lock
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/lock/__init__.py
+-rw-r--r-- -          -                1865 ./usr/lib/mycroft/test/unittests/lock/test_lock.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/messagebus
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/messagebus/client
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/messagebus/client/__init__.py
+-rw-r--r-- -          -                1991 ./usr/lib/mycroft/test/unittests/messagebus/client/test_threaded_event_emitter.py
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/messagebus/__init__.py
+-rw-r--r-- -          -                  43 ./usr/lib/mycroft/test/unittests/mycroft.conf
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/regex_test
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/regex_test/invalid
+-rw-r--r-- -          -                   1 ./usr/lib/mycroft/test/unittests/regex_test/invalid/invalid.rx
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/regex_test/invalid/none.rx
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/regex_test/valid
+-rw-r--r-- -          -                  43 ./usr/lib/mycroft/test/unittests/regex_test/valid/multiple.rx
+-rw-r--r-- -          -                  18 ./usr/lib/mycroft/test/unittests/regex_test/valid/single.rx
+drwxr-xr-x -          -                 280 ./usr/lib/mycroft/test/unittests/skills
+-rw-r--r-- -          -                1052 ./usr/lib/mycroft/test/unittests/skills/decorator_test_skill.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/skills/empty_dir
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/skills/empty_dir/.git_keep
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/skills/__init__.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/skills/intent_file
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/skills/intent_file/vocab
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/skills/intent_file/vocab/en-us
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/skills/intent_file/vocab/en-us/test_ent.entity
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/skills/intent_file/vocab/en-us/test.intent
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/skills/locale
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/skills/locale/en-us
+-rw-r--r-- -          -                  22 ./usr/lib/mycroft/test/unittests/skills/locale/en-us/turn_off2_test.voc
+-rw-r--r-- -          -                  21 ./usr/lib/mycroft/test/unittests/skills/locale/en-us/turn_off_test.voc
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/skills/settings
+-rw-r--r-- -          -                  27 ./usr/lib/mycroft/test/unittests/skills/settings/settings.json
+-rw-r--r-- -          -               21782 ./usr/lib/mycroft/test/unittests/skills/test_core.py
+-rw-r--r-- -          -                3401 ./usr/lib/mycroft/test/unittests/skills/test_event_scheduler.py
+-rw-r--r-- -          -                2113 ./usr/lib/mycroft/test/unittests/skills/test_intent_service.py
+-rw-r--r-- -          -                4451 ./usr/lib/mycroft/test/unittests/skills/test_settings.py
+drwxr-xr-x -          -                  60 ./usr/lib/mycroft/test/unittests/skills/test_skill
+-rw-r--r-- -          -                 720 ./usr/lib/mycroft/test/unittests/skills/test_skill/__init__.py
+-rw-r--r-- -          -                1712 ./usr/lib/mycroft/test/unittests/skills/test_skill_manager.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/stt
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/stt/__init__.py
+-rw-r--r-- -          -                8864 ./usr/lib/mycroft/test/unittests/stt/test_stt.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/tts
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/tts/__init__.py
+-rw-r--r-- -          -                3421 ./usr/lib/mycroft/test/unittests/tts/test_tts.py
+drwxr-xr-x -          -                 500 ./usr/lib/mycroft/test/unittests/util
+-rw-r--r-- -          -                3131 ./usr/lib/mycroft/test/unittests/util/commented.json
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/util/__init__.py
+-rw-r--r-- -          -                2697 ./usr/lib/mycroft/test/unittests/util/plain.json
+-rw-r--r-- -          -               16946 ./usr/lib/mycroft/test/unittests/util/test_format_da.py
+-rw-r--r-- -          -               17243 ./usr/lib/mycroft/test/unittests/util/test_format_de.py
+-rw-r--r-- -          -               16298 ./usr/lib/mycroft/test/unittests/util/test_format_es.py
+-rw-r--r-- -          -               16739 ./usr/lib/mycroft/test/unittests/util/test_format_fr.py
+-rw-r--r-- -          -               18062 ./usr/lib/mycroft/test/unittests/util/test_format_hu.py
+-rw-r--r-- -          -               18300 ./usr/lib/mycroft/test/unittests/util/test_format_it.py
+-rw-r--r-- -          -               17505 ./usr/lib/mycroft/test/unittests/util/test_format_nl.py
+-rw-r--r-- -          -               14058 ./usr/lib/mycroft/test/unittests/util/test_format_pt.py
+-rwxr-xr-x -          -               21876 ./usr/lib/mycroft/test/unittests/util/test_format.py
+-rw-r--r-- -          -                1272 ./usr/lib/mycroft/test/unittests/util/test_json_helper.py
+-rw-r--r-- -          -                2081 ./usr/lib/mycroft/test/unittests/util/test_log.py
+-rw-r--r-- -          -                9650 ./usr/lib/mycroft/test/unittests/util/test_parse_da.py
+-rw-r--r-- -          -               10582 ./usr/lib/mycroft/test/unittests/util/test_parse_de.py
+-rw-r--r-- -          -                3410 ./usr/lib/mycroft/test/unittests/util/test_parse_es.py
+-rw-r--r-- -          -               22695 ./usr/lib/mycroft/test/unittests/util/test_parse_fr.py
+-rw-r--r-- -          -               47772 ./usr/lib/mycroft/test/unittests/util/test_parse_it.py
+-rw-r--r-- -          -               13305 ./usr/lib/mycroft/test/unittests/util/test_parse_pt.py
+-rw-r--r-- -          -               42105 ./usr/lib/mycroft/test/unittests/util/test_parse.py
+-rw-r--r-- -          -                5775 ./usr/lib/mycroft/test/unittests/util/test_parse_sv.py
+-rw-r--r-- -          -                1539 ./usr/lib/mycroft/test/unittests/util/test_signal.py
+drwxr-xr-x -          -                  80 ./usr/lib/mycroft/test/unittests/version
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/version/__init__.py
+-rw-r--r-- -          -                2298 ./usr/lib/mycroft/test/unittests/version/test_version.py
+drwxr-xr-x -          -                 100 ./usr/lib/mycroft/test/unittests/vocab_test
+-rw-r--r-- -          -                   0 ./usr/lib/mycroft/test/unittests/vocab_test/none.voc
+-rw-r--r-- -          -                   5 ./usr/lib/mycroft/test/unittests/vocab_test/test.voc
+drwxr-xr-x -          -                 120 ./usr/lib/mycroft/test/unittests/vocab_test/valid
+-rw-r--r-- -          -                  25 ./usr/lib/mycroft/test/unittests/vocab_test/valid/multiplealias.voc
+-rw-r--r-- -          -                  14 ./usr/lib/mycroft/test/unittests/vocab_test/valid/multiple.voc
+-rw-r--r-- -          -                  14 ./usr/lib/mycroft/test/unittests/vocab_test/valid/singlealias.voc
+-rw-r--r-- -          -                   4 ./usr/lib/mycroft/test/unittests/vocab_test/valid/single.voc
+-rw-r--r-- -          -                 216 ./usr/lib/mycroft/test/util.py
+-rw-r--r-- -          -                 702 ./usr/lib/mycroft/.travis.yml
+-rw-r--r-- -          -                 925 ./usr/lib/mycroft/venv-activate.sh

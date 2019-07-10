@@ -1,0 +1,28 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 137 ./lib/systemd/system/usbgx.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/libusbgx
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                  60 ./usr/include/usbgx
+drwxr-xr-x -          -                 100 ./usr/include/usbgx/usbg
+drwxr-xr-x -          -                 220 ./usr/include/usbgx/usbg/function
+-rw-r--r-- -          -                2275 ./usr/include/usbgx/usbg/function/ffs.h
+-rw-r--r-- -          -                8563 ./usr/include/usbgx/usbg/function/hid.h
+-rw-r--r-- -          -                4814 ./usr/include/usbgx/usbg/function/loopback.h
+-rw-r--r-- -          -                9315 ./usr/include/usbgx/usbg/function/midi.h
+-rw-r--r-- -          -               11915 ./usr/include/usbgx/usbg/function/ms.h
+-rw-r--r-- -          -                7048 ./usr/include/usbgx/usbg/function/net.h
+-rw-r--r-- -          -                2317 ./usr/include/usbgx/usbg/function/phonet.h
+-rw-r--r-- -          -                1622 ./usr/include/usbgx/usbg/function/serial.h
+-rw-r--r-- -          -                8162 ./usr/include/usbgx/usbg/function/uac2.h
+-rw-r--r-- -          -               39043 ./usr/include/usbgx/usbg/usbg.h
+-rw-r--r-- -          -                 827 ./usr/include/usbgx/usbg/usbg_version.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rwxr-xr-x -          -               59908 ./usr/lib/libusbgx.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libusbgx.so.2 -> libusbgx.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libusbgx.so -> libusbgx.so.2.0.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 217 ./usr/lib/pkgconfig/libusbgx.pc

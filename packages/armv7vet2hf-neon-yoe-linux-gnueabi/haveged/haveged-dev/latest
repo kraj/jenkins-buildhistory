@@ -1,9 +1,9 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.36
+PKGR = r0.37
 RPROVIDES = 
-RDEPENDS = haveged (= 1.9.4-r0.36)
-RRECOMMENDS = glibc-dev systemd-dev
+RDEPENDS = haveged (= 1.9.4-r0.37)
+RRECOMMENDS = glibc-dev initscripts-dev systemd-dev update-rc.d-dev
 PKGSIZE = 16735
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/haveged/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/haveged/havege.h /usr/include/haveged/havegecmd.h /usr/lib/libhavege.so

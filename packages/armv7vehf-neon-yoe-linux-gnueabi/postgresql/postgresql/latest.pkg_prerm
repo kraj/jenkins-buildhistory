@@ -7,3 +7,6 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable postgresql.service
 	fi
 fi
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/postgresql-server" ]; then
+	/etc/init.d/postgresql-server stop || :
+fi

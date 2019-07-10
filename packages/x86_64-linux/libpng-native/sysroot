@@ -1,0 +1,28 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  13 ./sysroot-providers/libpng-native
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                 140 ./usr/bin
+drwxr-xr-x -          -                  80 ./usr/bin/crossscripts
+-rwxr-xr-x -          -                 211 ./usr/bin/crossscripts/libpng16-config
+-rwxr-xr-x -          -                 211 ./usr/bin/crossscripts/libpng-config
+-rwxr-xr-x -          -                 211 ./usr/bin/libpng16-config
+lrwxrwxrwx -          -                  15 ./usr/bin/libpng-config -> libpng16-config
+-rwxr-xr-x -          -               49248 ./usr/bin/pngfix
+-rwxr-xr-x -          -               12384 ./usr/bin/png-fix-itxt
+drwxr-xr-x -          -                 120 ./usr/include
+drwxr-xr-x -          -                 100 ./usr/include/libpng16
+-rw-r--r-- -          -               22846 ./usr/include/libpng16/pngconf.h
+-rw-r--r-- -          -              142860 ./usr/include/libpng16/png.h
+-rw-r--r-- -          -                7602 ./usr/include/libpng16/pnglibconf.h
+lrwxrwxrwx -          -                  18 ./usr/include/pngconf.h -> libpng16/pngconf.h
+lrwxrwxrwx -          -                  14 ./usr/include/png.h -> libpng16/png.h
+lrwxrwxrwx -          -                  21 ./usr/include/pnglibconf.h -> libpng16/pnglibconf.h
+drwxr-xr-x -          -                 140 ./usr/lib
+-rwxr-xr-x -          -              211960 ./usr/lib/libpng16.so.16.37.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpng16.so.16 -> libpng16.so.16.37.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpng16.so -> libpng16.so.16.37.0
+lrwxrwxrwx -          -                  11 ./usr/lib/libpng.so -> libpng16.so
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 323 ./usr/lib/pkgconfig/libpng16.pc
+-rw-r--r-- -          -                 323 ./usr/lib/pkgconfig/libpng.pc
+drwxr-xr-x -          -                  40 ./usr/share

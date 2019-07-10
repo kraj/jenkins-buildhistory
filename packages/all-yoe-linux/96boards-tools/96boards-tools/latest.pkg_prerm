@@ -1,5 +1,8 @@
 #!/bin/sh
 set -e
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/resize-disk" ]; then
+	/etc/init.d/resize-disk stop || :
+fi
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl stop resize-helper.service

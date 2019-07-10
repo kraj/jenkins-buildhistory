@@ -1,9 +1,9 @@
-PV = 2017.004
+PV = 2019.001
 PR = r0
-PKGR = r0.34
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libmime-charset-perl libsombok3 perl
+PKGR = r0.0
+RPROVIDES = libtext-linefold-perl libunicode-gcstring-perl
+RDEPENDS = glibc (>= 2.29) libmime-charset-perl libsombok3 perl perl-module-carp perl-module-constant perl-module-encode perl-module-exporter perl-module-overload perl-module-strict perl-module-vars perl-module-warnings perl-module-xsloader
 RRECOMMENDS = 
-PKGSIZE = 213705
+PKGSIZE = 217090
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libunicode-linebreak-perl /usr/lib/libunicode-linebreak-perl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/perl5 /usr/share/perl5
 FILELIST = /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/POD2/JA/Text/LineFold.pod /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/POD2/JA/Unicode/GCString.pod /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/POD2/JA/Unicode/LineBreak.pod /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Text/LineFold.pm /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Unicode/GCString.pm /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Unicode/GCString.pod /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Unicode/LineBreak.pm /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Unicode/LineBreak.pod /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Unicode/LineBreak/Constants.pm /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/Unicode/LineBreak/Defaults.pm.sample /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/auto/Unicode/LineBreak/LineBreak.so /usr/lib/perl5/vendor_perl/5.30.0/arm-linux/auto/sombok/extralibs.ld

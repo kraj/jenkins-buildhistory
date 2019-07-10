@@ -1,5 +1,5 @@
 PV = 2.4.47
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native gnutls groff-native libgcrypt libtool libtool-cross libtool-native systemd-systemctl-native util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native gnutls groff-native initscripts libgcrypt libtool libtool-cross libtool-native systemd-systemctl-native update-rc.d util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = openldap-src openldap-dbg openldap-backend-shell openldap-backend-passwd openldap-backend-null openldap-backend-monitor openldap-backend-meta openldap-backend-ldap openldap-backend-dnssrv openldap-staticdev openldap-dev openldap-doc openldap-locale openldap openldap-overlay-proxycache openldap-slapd openldap-slurpd openldap-bin openldap-backends
 LAYER = openembedded-layer

@@ -34,7 +34,7 @@ drwxr-xr-x root       root              720 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root             7248 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gc.c
 -rw-r--r-- root       root             3930 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gml2gv.c
 -rw-r--r-- root       root              886 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gml2gv.h
--rw-r--r-- root       root             3586 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gmlparse.h
+-rw-r--r-- root       root             3547 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gmlparse.h
 -rw-r--r-- root       root            19646 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gmlparse.y
 -rw-r--r-- root       root             3724 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/gmlscan.l
 -rw-r--r-- root       root            14688 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/graph_generator.c
@@ -55,8 +55,8 @@ drwxr-xr-x root       root              720 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root             8891 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/sccmap.c
 -rw-r--r-- root       root             3064 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/tred.c
 -rw-r--r-- root       root             5033 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/unflatten.c
--rw-r--r-- root       root            75822 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/y.tab.c
--rw-r--r-- root       root             3582 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/y.tab.h
+-rw-r--r-- root       root            73970 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/y.tab.c
+-rw-r--r-- root       root             3543 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/cmd/tools/y.tab.h
 drwxr-xr-x root       root               60 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/contrib
 drwxr-xr-x root       root              100 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/contrib/prune
 -rw-r--r-- root       root             1907 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/contrib/prune/generic_list.c
@@ -112,7 +112,7 @@ drwxr-xr-x root       root              580 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root            16668 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/cgraph.h
 -rw-r--r-- root       root            11882 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/edge.c
 -rw-r--r-- root       root             1651 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/flatten.c
--rw-r--r-- root       root             2803 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/grammar.h
+-rw-r--r-- root       root             2764 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/grammar.h
 -rw-r--r-- root       root            13560 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/grammar.y
 -rw-r--r-- root       root             7034 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/graph.c
 -rw-r--r-- root       root             3932 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/id.c
@@ -128,8 +128,8 @@ drwxr-xr-x root       root              580 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root             2332 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/subg.c
 -rw-r--r-- root       root             2223 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/utils.c
 -rw-r--r-- root       root            16379 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/write.c
--rw-r--r-- root       root            64450 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/y.tab.c
--rw-r--r-- root       root             2799 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/y.tab.h
+-rw-r--r-- root       root            63092 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/y.tab.c
+-rw-r--r-- root       root             2760 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/cgraph/y.tab.h
 drwxr-xr-x root       root              420 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/circogen
 -rw-r--r-- root       root             2270 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/circogen/block.c
 -rw-r--r-- root       root             1952 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/circogen/block.h
@@ -167,7 +167,7 @@ drwxr-xr-x root       root              960 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root             4700 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/globals.h
 -rw-r--r-- root       root            23762 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmllex.c
 -rw-r--r-- root       root              904 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmllex.h
--rw-r--r-- root       root             3951 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmlparse.h
+-rw-r--r-- root       root             3912 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmlparse.h
 -rw-r--r-- root       root            13443 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmlparse.y
 -rw-r--r-- root       root            53421 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmltable.c
 -rw-r--r-- root       root             4445 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/htmltable.h
@@ -195,8 +195,8 @@ drwxr-xr-x root       root              960 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root             1675 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/usershape.h
 -rw-r--r-- root       root            48080 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/utils.c
 -rw-r--r-- root       root             4567 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/utils.h
--rw-r--r-- root       root            71629 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/y.tab.c
--rw-r--r-- root       root             3943 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/y.tab.h
+-rw-r--r-- root       root            69701 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/y.tab.c
+-rw-r--r-- root       root             3904 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/common/y.tab.h
 drwxr-xr-x root       root              400 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/dotgen
 -rw-r--r-- root       root             1482 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/dotgen/acyclic.c
 -rw-r--r-- root       root            51639 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/dotgen/aspect.c
@@ -242,7 +242,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root              802 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exnospace.c
 -rw-r--r-- root       root             1943 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exopen.c
 -rw-r--r-- root       root              793 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exop.h
--rw-r--r-- root       root             5280 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exparse.h
+-rw-r--r-- root       root             5241 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exparse.h
 -rw-r--r-- root       root            30163 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exparse.y
 -rw-r--r-- root       root             9722 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/expr.h
 -rw-r--r-- root       root             1345 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exrewind.c
@@ -250,8 +250,8 @@ drwxr-xr-x root       root              480 ./usr/src/debug/graphviz/2.40.1-r0/g
 -rw-r--r-- root       root            15416 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/extoken.c
 -rw-r--r-- root       root              945 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/extype.c
 -rw-r--r-- root       root              940 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/exzero.c
--rw-r--r-- root       root           121197 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/y.tab.c
--rw-r--r-- root       root             5218 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/y.tab.h
+-rw-r--r-- root       root           116650 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/y.tab.c
+-rw-r--r-- root       root             5179 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/expr/y.tab.h
 drwxr-xr-x root       root              280 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/fdpgen
 -rw-r--r-- root       root             7643 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/fdpgen/clusteredges.c
 -rw-r--r-- root       root             3798 ./usr/src/debug/graphviz/2.40.1-r0/graphviz-stable_release_2.40.1/lib/fdpgen/comp.c

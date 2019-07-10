@@ -1,0 +1,36 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  12 ./sysroot-providers/alsa-plugins
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                  60 ./usr/lib
+drwxr-xr-x -          -                 400 ./usr/lib/alsa-lib
+-rwxr-xr-x -          -                5540 ./usr/lib/alsa-lib/libasound_module_conf_pulse.so
+-rwxr-xr-x -          -               17988 ./usr/lib/alsa-lib/libasound_module_ctl_arcam_av.so
+-rwxr-xr-x -          -                9796 ./usr/lib/alsa-lib/libasound_module_ctl_oss.so
+-rwxr-xr-x -          -               13792 ./usr/lib/alsa-lib/libasound_module_ctl_pulse.so
+-rwxr-xr-x -          -                9696 ./usr/lib/alsa-lib/libasound_module_pcm_oss.so
+-rwxr-xr-x -          -               17888 ./usr/lib/alsa-lib/libasound_module_pcm_pulse.so
+-rwxr-xr-x -          -                9696 ./usr/lib/alsa-lib/libasound_module_pcm_speex.so
+-rwxr-xr-x -          -                9952 ./usr/lib/alsa-lib/libasound_module_pcm_upmix.so
+-rwxr-xr-x -          -                9796 ./usr/lib/alsa-lib/libasound_module_pcm_usb_stream.so
+-rwxr-xr-x -          -                9720 ./usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so
+lrwxrwxrwx -          -                  35 ./usr/lib/alsa-lib/libasound_module_rate_samplerate_best.so -> libasound_module_rate_samplerate.so
+lrwxrwxrwx -          -                  35 ./usr/lib/alsa-lib/libasound_module_rate_samplerate_linear.so -> libasound_module_rate_samplerate.so
+lrwxrwxrwx -          -                  35 ./usr/lib/alsa-lib/libasound_module_rate_samplerate_medium.so -> libasound_module_rate_samplerate.so
+lrwxrwxrwx -          -                  35 ./usr/lib/alsa-lib/libasound_module_rate_samplerate_order.so -> libasound_module_rate_samplerate.so
+-rwxr-xr-x -          -                5588 ./usr/lib/alsa-lib/libasound_module_rate_samplerate.so
+lrwxrwxrwx -          -                  34 ./usr/lib/alsa-lib/libasound_module_rate_speexrate_best.so -> libasound_module_rate_speexrate.so
+lrwxrwxrwx -          -                  34 ./usr/lib/alsa-lib/libasound_module_rate_speexrate_medium.so -> libasound_module_rate_speexrate.so
+-rwxr-xr-x -          -                5588 ./usr/lib/alsa-lib/libasound_module_rate_speexrate.so
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/alsa
+drwxr-xr-x -          -                 240 ./usr/share/alsa/alsa.conf.d
+-rw-r--r-- -          -                 429 ./usr/share/alsa/alsa.conf.d/10-samplerate.conf
+-rw-r--r-- -          -                 424 ./usr/share/alsa/alsa.conf.d/10-speexrate.conf
+-rw-r--r-- -          -                 222 ./usr/share/alsa/alsa.conf.d/50-arcam-av-ctl.conf
+-rw-r--r-- -          -                 326 ./usr/share/alsa/alsa.conf.d/50-oss.conf
+-rw-r--r-- -          -                 242 ./usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
+-rw-r--r-- -          -                1030 ./usr/share/alsa/alsa.conf.d/60-speex.conf
+-rw-r--r-- -          -                 389 ./usr/share/alsa/alsa.conf.d/60-upmix.conf
+-rw-r--r-- -          -                 393 ./usr/share/alsa/alsa.conf.d/60-vdownmix.conf
+-rw-r--r-- -          -                 395 ./usr/share/alsa/alsa.conf.d/98-usb-stream.conf
+-rw-r--r-- -          -                 201 ./usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf

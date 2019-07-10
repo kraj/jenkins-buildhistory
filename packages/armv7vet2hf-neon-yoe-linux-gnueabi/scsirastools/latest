@@ -1,5 +1,5 @@
 PV = 1.6.6
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native groff-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native groff-native initscripts libtool-cross libtool-native update-rc.d virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
 PACKAGES = scsirastools-src scsirastools-dbg scsirastools-raidmon scsirastools-diskmon scsirastools-staticdev scsirastools-dev scsirastools-doc scsirastools-locale scsirastools
 LAYER = openembedded-layer

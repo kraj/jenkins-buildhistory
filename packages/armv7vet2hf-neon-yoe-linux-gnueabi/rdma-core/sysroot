@@ -1,0 +1,66 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/rdma-core
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  80 ./usr/include
+drwxr-xr-x -          -                 400 ./usr/include/infiniband
+-rw-r--r-- -          -                4519 ./usr/include/infiniband/acm.h
+-rw-r--r-- -          -                4174 ./usr/include/infiniband/acm_prov.h
+-rw-r--r-- -          -                1939 ./usr/include/infiniband/arch.h
+-rw-r--r-- -          -                2897 ./usr/include/infiniband/ib.h
+-rw-r--r-- -          -                3331 ./usr/include/infiniband/ib_user_ioctl_verbs.h
+-rw-r--r-- -          -                5694 ./usr/include/infiniband/opcode.h
+-rw-r--r-- -          -                4074 ./usr/include/infiniband/sa.h
+-rw-r--r-- -          -                1622 ./usr/include/infiniband/sa-kern-abi.h
+-rw-r--r-- -          -                1983 ./usr/include/infiniband/tm_types.h
+-rw-r--r-- -          -                2113 ./usr/include/infiniband/umad_cm.h
+-rw-r--r-- -          -                7464 ./usr/include/infiniband/umad.h
+-rw-r--r-- -          -                5764 ./usr/include/infiniband/umad_sa.h
+-rw-r--r-- -          -                4874 ./usr/include/infiniband/umad_sa_mcm.h
+-rw-r--r-- -          -                3926 ./usr/include/infiniband/umad_sm.h
+-rw-r--r-- -          -                1984 ./usr/include/infiniband/umad_str.h
+-rw-r--r-- -          -                5660 ./usr/include/infiniband/umad_types.h
+-rw-r--r-- -          -                4723 ./usr/include/infiniband/verbs_api.h
+-rw-r--r-- -          -               73730 ./usr/include/infiniband/verbs.h
+drwxr-xr-x -          -                 120 ./usr/include/rdma
+-rw-r--r-- -          -                6469 ./usr/include/rdma/rdma_cma_abi.h
+-rw-r--r-- -          -               26261 ./usr/include/rdma/rdma_cma.h
+-rw-r--r-- -          -                7787 ./usr/include/rdma/rdma_verbs.h
+-rw-r--r-- -          -                3705 ./usr/include/rdma/rsocket.h
+drwxr-xr-x -          -                 320 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/lib/ibacm
+-rwxr-xr-x -          -               38828 ./usr/lib/ibacm/libibacmp.so
+-rwxr-xr-x -          -               26020 ./usr/lib/libibumad.so.3.0.18.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libibumad.so.3 -> libibumad.so.3.0.18.0
+lrwxrwxrwx -          -                  14 ./usr/lib/libibumad.so -> libibumad.so.3
+drwxr-xr-x -          -                 100 ./usr/lib/libibverbs
+-rwxr-xr-x -          -               13844 ./usr/lib/libibverbs/libhfi1verbs-rdmav18.so
+-rwxr-xr-x -          -               13844 ./usr/lib/libibverbs/libipathverbs-rdmav18.so
+-rwxr-xr-x -          -               13844 ./usr/lib/libibverbs/librxe-rdmav18.so
+-rwxr-xr-x -          -               54876 ./usr/lib/libibverbs.so.1.1.18.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libibverbs.so.1 -> libibverbs.so.1.1.18.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libibverbs.so -> libibverbs.so.1
+-rwxr-xr-x -          -               54836 ./usr/lib/librdmacm.so.1.1.18.0
+lrwxrwxrwx -          -                  21 ./usr/lib/librdmacm.so.1 -> librdmacm.so.1.1.18.0
+lrwxrwxrwx -          -                  14 ./usr/lib/librdmacm.so -> librdmacm.so.1
+drwxr-xr-x -          -                 100 ./usr/lib/rsocket
+-rwxr-xr-x -          -               17872 ./usr/lib/rsocket/librspreload.so
+lrwxrwxrwx -          -                  15 ./usr/lib/rsocket/librspreload.so.1.0.0 -> librspreload.so
+lrwxrwxrwx -          -                  15 ./usr/lib/rsocket/librspreload.so.1 -> librspreload.so
+drwxr-xr-x -          -                  60 ./usr/lib/systemd
+drwxr-xr-x -          -                 180 ./usr/lib/systemd/system
+-rw-r--r-- -          -                 815 ./usr/lib/systemd/system/ibacm.service
+-rw-r--r-- -          -                 493 ./usr/lib/systemd/system/ibacm.socket
+-rw-r--r-- -          -                1050 ./usr/lib/systemd/system/iwpmd.service
+-rw-r--r-- -          -                 580 ./usr/lib/systemd/system/rdma-hw.target
+-rw-r--r-- -          -                 881 ./usr/lib/systemd/system/rdma-load-modules@.service
+-rw-r--r-- -          -                1660 ./usr/lib/systemd/system/srp_daemon_port@.service
+-rw-r--r-- -          -                 471 ./usr/lib/systemd/system/srp_daemon.service
+drwxr-xr-x -          -                  60 ./usr/lib/udev
+drwxr-xr-x -          -                 160 ./usr/lib/udev/rules.d
+-rw-r--r-- -          -                 206 ./usr/lib/udev/rules.d/60-srp_daemon.rules
+-rw-r--r-- -          -                1881 ./usr/lib/udev/rules.d/75-rdma-description.rules
+-rw-r--r-- -          -                  77 ./usr/lib/udev/rules.d/90-iwpmd.rules
+-rw-r--r-- -          -                1457 ./usr/lib/udev/rules.d/90-rdma-hw-modules.rules
+-rw-r--r-- -          -                 645 ./usr/lib/udev/rules.d/90-rdma-ulp-modules.rules
+-rw-r--r-- -          -                 142 ./usr/lib/udev/rules.d/90-rdma-umad.rules
+drwxr-xr-x -          -                  40 ./usr/share

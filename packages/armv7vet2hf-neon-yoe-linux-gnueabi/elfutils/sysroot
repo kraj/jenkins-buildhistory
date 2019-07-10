@@ -1,0 +1,70 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/elfutils
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                 140 ./usr/include
+-rw-r--r-- -          -               30795 ./usr/include/dwarf.h
+drwxr-xr-x -          -                 200 ./usr/include/elfutils
+-rw-r--r-- -          -                3947 ./usr/include/elfutils/elf-knowledge.h
+-rw-r--r-- -          -               41677 ./usr/include/elfutils/known-dwarf.h
+-rw-r--r-- -          -                7094 ./usr/include/elfutils/libasm.h
+-rw-r--r-- -          -                6105 ./usr/include/elfutils/libdwelf.h
+-rw-r--r-- -          -               38301 ./usr/include/elfutils/libdwfl.h
+-rw-r--r-- -          -               44920 ./usr/include/elfutils/libdw.h
+-rw-r--r-- -          -               16807 ./usr/include/elfutils/libebl.h
+-rw-r--r-- -          -                1274 ./usr/include/elfutils/version.h
+-rw-r--r-- -          -               11312 ./usr/include/gelf.h
+-rw-r--r-- -          -               19573 ./usr/include/libelf.h
+-rw-r--r-- -          -                1601 ./usr/include/nlist.h
+drwxr-xr-x -          -                 340 ./usr/lib
+drwxr-xr-x -          -                 720 ./usr/lib/elfutils
+-rwxr-xr-x -          -               26180 ./usr/lib/elfutils/libebl_aarch64-0.176.so
+lrwxrwxrwx -          -                  23 ./usr/lib/elfutils/libebl_aarch64.so -> libebl_aarch64-0.176.so
+-rwxr-xr-x -          -               13892 ./usr/lib/elfutils/libebl_alpha-0.176.so
+lrwxrwxrwx -          -                  21 ./usr/lib/elfutils/libebl_alpha.so -> libebl_alpha-0.176.so
+-rwxr-xr-x -          -               17888 ./usr/lib/elfutils/libebl_arm-0.176.so
+lrwxrwxrwx -          -                  19 ./usr/lib/elfutils/libebl_arm.so -> libebl_arm-0.176.so
+-rwxr-xr-x -          -                9636 ./usr/lib/elfutils/libebl_bpf-0.176.so
+lrwxrwxrwx -          -                  19 ./usr/lib/elfutils/libebl_bpf.so -> libebl_bpf-0.176.so
+-rwxr-xr-x -          -               42464 ./usr/lib/elfutils/libebl_i386-0.176.so
+lrwxrwxrwx -          -                  20 ./usr/lib/elfutils/libebl_i386.so -> libebl_i386-0.176.so
+-rwxr-xr-x -          -               17928 ./usr/lib/elfutils/libebl_ia64-0.176.so
+lrwxrwxrwx -          -                  20 ./usr/lib/elfutils/libebl_ia64.so -> libebl_ia64-0.176.so
+-rwxr-xr-x -          -                9696 ./usr/lib/elfutils/libebl_m68k-0.176.so
+lrwxrwxrwx -          -                  20 ./usr/lib/elfutils/libebl_m68k.so -> libebl_m68k-0.176.so
+-rwxr-xr-x -          -                9636 ./usr/lib/elfutils/libebl_mips-0.176.so
+lrwxrwxrwx -          -                  20 ./usr/lib/elfutils/libebl_mips.so -> libebl_mips-0.176.so
+-rwxr-xr-x -          -                9636 ./usr/lib/elfutils/libebl_parisc-0.176.so
+lrwxrwxrwx -          -                  22 ./usr/lib/elfutils/libebl_parisc.so -> libebl_parisc-0.176.so
+-rwxr-xr-x -          -               17988 ./usr/lib/elfutils/libebl_ppc-0.176.so
+-rwxr-xr-x -          -               17888 ./usr/lib/elfutils/libebl_ppc64-0.176.so
+lrwxrwxrwx -          -                  21 ./usr/lib/elfutils/libebl_ppc64.so -> libebl_ppc64-0.176.so
+lrwxrwxrwx -          -                  19 ./usr/lib/elfutils/libebl_ppc.so -> libebl_ppc-0.176.so
+-rwxr-xr-x -          -               13792 ./usr/lib/elfutils/libebl_riscv-0.176.so
+lrwxrwxrwx -          -                  21 ./usr/lib/elfutils/libebl_riscv.so -> libebl_riscv-0.176.so
+-rwxr-xr-x -          -               13792 ./usr/lib/elfutils/libebl_s390-0.176.so
+lrwxrwxrwx -          -                  20 ./usr/lib/elfutils/libebl_s390.so -> libebl_s390-0.176.so
+-rwxr-xr-x -          -                9696 ./usr/lib/elfutils/libebl_sh-0.176.so
+lrwxrwxrwx -          -                  18 ./usr/lib/elfutils/libebl_sh.so -> libebl_sh-0.176.so
+-rwxr-xr-x -          -               18244 ./usr/lib/elfutils/libebl_sparc-0.176.so
+lrwxrwxrwx -          -                  21 ./usr/lib/elfutils/libebl_sparc.so -> libebl_sparc-0.176.so
+-rwxr-xr-x -          -               13792 ./usr/lib/elfutils/libebl_tilegx-0.176.so
+lrwxrwxrwx -          -                  22 ./usr/lib/elfutils/libebl_tilegx.so -> libebl_tilegx-0.176.so
+-rwxr-xr-x -          -               46560 ./usr/lib/elfutils/libebl_x86_64-0.176.so
+lrwxrwxrwx -          -                  22 ./usr/lib/elfutils/libebl_x86_64.so -> libebl_x86_64-0.176.so
+-rwxr-xr-x -          -               22136 ./usr/lib/libasm-0.176.so
+-rw-r--r-- -          -              363954 ./usr/lib/libasm.a
+lrwxrwxrwx -          -                  15 ./usr/lib/libasm.so.1 -> libasm-0.176.so
+lrwxrwxrwx -          -                  11 ./usr/lib/libasm.so -> libasm.so.1
+-rwxr-xr-x -          -              219064 ./usr/lib/libdw-0.176.so
+-rw-r--r-- -          -             4643882 ./usr/lib/libdw.a
+lrwxrwxrwx -          -                  14 ./usr/lib/libdw.so.1 -> libdw-0.176.so
+lrwxrwxrwx -          -                  10 ./usr/lib/libdw.so -> libdw.so.1
+-rw-r--r-- -          -              713096 ./usr/lib/libebl.a
+-rwxr-xr-x -          -               67192 ./usr/lib/libelf-0.176.so
+-rw-r--r-- -          -             2185366 ./usr/lib/libelf.a
+lrwxrwxrwx -          -                  15 ./usr/lib/libelf.so.1 -> libelf-0.176.so
+lrwxrwxrwx -          -                  11 ./usr/lib/libelf.so -> libelf.so.1
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 639 ./usr/lib/pkgconfig/libdw.pc
+-rw-r--r-- -          -                 262 ./usr/lib/pkgconfig/libelf.pc
+drwxr-xr-x -          -                  40 ./usr/share

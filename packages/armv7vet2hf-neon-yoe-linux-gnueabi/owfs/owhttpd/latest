@@ -1,9 +1,9 @@
 PV = 3.2p2
 PR = r0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libow (>= 3.2p2)
-RRECOMMENDS = 
-PKGSIZE = 26503
+RRECOMMENDS = update-rc.d
+PKGSIZE = 27330
 FILES = /usr/bin/owhttpd /etc/init.d/owhttpd /lib/systemd/system/owhttpd.service
-FILELIST = /lib/systemd/system/owhttpd.service /usr/bin/owhttpd
+FILELIST = /etc/init.d/owhttpd /lib/systemd/system/owhttpd.service /usr/bin/owhttpd
