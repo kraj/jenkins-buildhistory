@@ -169,6 +169,7 @@ set -e
 	update-alternatives --remove  time /bin/busybox.nosuid
 	update-alternatives --remove  top /bin/busybox.nosuid
 	update-alternatives --remove  tr /bin/busybox.nosuid
+	update-alternatives --remove  ts /bin/busybox.nosuid
 	update-alternatives --remove  tty /bin/busybox.nosuid
 	update-alternatives --remove  uniq /bin/busybox.nosuid
 	update-alternatives --remove  unlink /bin/busybox.nosuid
@@ -188,6 +189,7 @@ set -e
 	update-alternatives --remove  delgroup /bin/busybox.nosuid
 	update-alternatives --remove  deluser /bin/busybox.nosuid
 	update-alternatives --remove  fbset /bin/busybox.nosuid
+	update-alternatives --remove  i2ctransfer /bin/busybox.nosuid
 	update-alternatives --remove  loadfont /bin/busybox.nosuid
 	update-alternatives --remove  rdate /bin/busybox.nosuid
 	update-alternatives --remove  rfkill /bin/busybox.nosuid

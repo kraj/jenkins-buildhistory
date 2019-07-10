@@ -1,9 +1,9 @@
 PV = 10.3.16
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = coreutils
-RRECOMMENDS = 
-PKGSIZE = 344
+RRECOMMENDS = update-rc.d
+PKGSIZE = 555
 FILES = /etc/init.d/install_db /lib/systemd/system-preset/98-mariadb-setupdb.preset /lib/systemd/system/install_db.service
-FILELIST = /lib/systemd/system-preset/98-mariadb-setupdb.preset /lib/systemd/system/install_db.service
+FILELIST = /etc/init.d/install_db /lib/systemd/system-preset/98-mariadb-setupdb.preset /lib/systemd/system/install_db.service

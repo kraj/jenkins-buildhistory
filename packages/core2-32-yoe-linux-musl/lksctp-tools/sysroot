@@ -1,0 +1,28 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  12 ./sysroot-providers/lksctp-tools
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                  60 ./usr/include/netinet
+-rw-r--r-- -          -                5834 ./usr/include/netinet/sctp.h
+drwxr-xr-x -          -                 140 ./usr/lib
+-rwxr-xr-x -          -               13612 ./usr/lib/libsctp.so.1.0.18
+lrwxrwxrwx -          -                  17 ./usr/lib/libsctp.so.1 -> libsctp.so.1.0.18
+lrwxrwxrwx -          -                  17 ./usr/lib/libsctp.so -> libsctp.so.1.0.18
+drwxr-xr-x -          -                 100 ./usr/lib/lksctp-tools
+-rwxr-xr-x -          -                5312 ./usr/lib/lksctp-tools/libwithsctp.so.1.0.18
+lrwxrwxrwx -          -                  21 ./usr/lib/lksctp-tools/libwithsctp.so.1 -> libwithsctp.so.1.0.18
+lrwxrwxrwx -          -                  21 ./usr/lib/lksctp-tools/libwithsctp.so -> libwithsctp.so.1.0.18
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 187 ./usr/lib/pkgconfig/libsctp.pc
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                 240 ./usr/share/lksctp-tools
+-rw-r--r-- -          -                2031 ./usr/share/lksctp-tools/checksctp.c
+-rw-r--r-- -          -                2374 ./usr/share/lksctp-tools/sctp_bind.c
+-rw-r--r-- -          -               59496 ./usr/share/lksctp-tools/sctp_darn.c
+-rw-r--r-- -          -                 659 ./usr/share/lksctp-tools/sctp_darn.h
+-rw-r--r-- -          -                2544 ./usr/share/lksctp-tools/sctp_load_libs.c
+-rw-r--r-- -          -                2328 ./usr/share/lksctp-tools/sctp_socket.c
+-rw-r--r-- -          -                3477 ./usr/share/lksctp-tools/sctp_socket.h
+-rw-r--r-- -          -                2280 ./usr/share/lksctp-tools/sctp_sockopt.c
+-rw-r--r-- -          -               21971 ./usr/share/lksctp-tools/sctp_status.c
+-rw-r--r-- -          -               44937 ./usr/share/lksctp-tools/sctp_test.c

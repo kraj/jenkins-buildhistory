@@ -1,0 +1,49 @@
+drwxr-xr-x -          -                  80 ./lib
+drwxr-xr-x -          -                  60 ./lib/security
+-rwxr-xr-x -          -                9568 ./lib/security/pam_ck_connector.so
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 220 ./lib/systemd/system
+drwxr-xr-x -          -                  60 ./lib/systemd/system/basic.target.wants
+lrwxrwxrwx -          -                  39 ./lib/systemd/system/basic.target.wants/console-kit-log-system-start.service -> ../console-kit-log-system-start.service
+-rw-r--r-- -          -                 432 ./lib/systemd/system/console-kit-daemon.service
+-rw-r--r-- -          -                 219 ./lib/systemd/system/console-kit-log-system-restart.service
+-rw-r--r-- -          -                 201 ./lib/systemd/system/console-kit-log-system-start.service
+-rw-r--r-- -          -                 218 ./lib/systemd/system/console-kit-log-system-stop.service
+drwxr-xr-x -          -                  60 ./lib/systemd/system/halt.target.wants
+lrwxrwxrwx -          -                  38 ./lib/systemd/system/halt.target.wants/console-kit-log-system-stop.service -> ../console-kit-log-system-stop.service
+drwxr-xr-x -          -                  60 ./lib/systemd/system/kexec.target.wants
+lrwxrwxrwx -          -                  41 ./lib/systemd/system/kexec.target.wants/console-kit-log-system-restart.service -> ../console-kit-log-system-restart.service
+drwxr-xr-x -          -                  60 ./lib/systemd/system/poweroff.target.wants
+lrwxrwxrwx -          -                  38 ./lib/systemd/system/poweroff.target.wants/console-kit-log-system-stop.service -> ../console-kit-log-system-stop.service
+drwxr-xr-x -          -                  60 ./lib/systemd/system/reboot.target.wants
+lrwxrwxrwx -          -                  41 ./lib/systemd/system/reboot.target.wants/console-kit-log-system-restart.service -> ../console-kit-log-system-restart.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  10 ./sysroot-providers/consolekit
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                  60 ./usr/include/ConsoleKit
+drwxr-xr-x -          -                  60 ./usr/include/ConsoleKit/ck-connector
+-rw-r--r-- -          -                2872 ./usr/include/ConsoleKit/ck-connector/ck-connector.h
+drwxr-xr-x -          -                 140 ./usr/lib
+drwxr-xr-x -          -                 100 ./usr/lib/ConsoleKit
+drwxr-xr-x -          -                  40 ./usr/lib/ConsoleKit/run-seat.d
+drwxr-xr-x -          -                  40 ./usr/lib/ConsoleKit/run-session.d
+drwxr-xr-x -          -                  80 ./usr/lib/ConsoleKit/scripts
+-rwxr-xr-x -          -                 191 ./usr/lib/ConsoleKit/scripts/ck-system-restart
+-rwxr-xr-x -          -                 191 ./usr/lib/ConsoleKit/scripts/ck-system-stop
+-rwxr-xr-x -          -               13724 ./usr/lib/libck-connector.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libck-connector.so.0 -> libck-connector.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libck-connector.so -> libck-connector.so.0.0.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 289 ./usr/lib/pkgconfig/ck-connector.pc
+drwxr-xr-x -          -                  80 ./usr/share
+drwxr-xr-x -          -                  80 ./usr/share/dbus-1
+drwxr-xr-x -          -                 100 ./usr/share/dbus-1/interfaces
+-rw-r--r-- -          -               14059 ./usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Manager.xml
+-rw-r--r-- -          -                5304 ./usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Seat.xml
+-rw-r--r-- -          -               16704 ./usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Session.xml
+drwxr-xr-x -          -                  60 ./usr/share/dbus-1/system-services
+-rw-r--r-- -          -                 146 ./usr/share/dbus-1/system-services/org.freedesktop.ConsoleKit.service
+drwxr-xr-x -          -                  60 ./usr/share/polkit-1
+drwxr-xr-x -          -                  60 ./usr/share/polkit-1/actions
+-rw-r--r-- -          -                1652 ./usr/share/polkit-1/actions/org.freedesktop.consolekit.policy

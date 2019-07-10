@@ -1,0 +1,40 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/libunwind
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                 180 ./usr/include
+-rw-r--r-- -          -               11545 ./usr/include/libunwind-common.h
+-rw-r--r-- -          -                3155 ./usr/include/libunwind-coredump.h
+-rw-r--r-- -          -                8954 ./usr/include/libunwind-dynamic.h
+-rw-r--r-- -          -                 920 ./usr/include/libunwind.h
+-rw-r--r-- -          -                2707 ./usr/include/libunwind-ptrace.h
+-rw-r--r-- -          -                6357 ./usr/include/libunwind-x86.h
+-rw-r--r-- -          -                6201 ./usr/include/unwind.h
+drwxr-xr-x -          -                 500 ./usr/lib
+-rw-r--r-- -          -              530092 ./usr/lib/libunwind.a
+-rw-r--r-- -          -              134078 ./usr/lib/libunwind-coredump.a
+-rwxr-xr-x -          -               13280 ./usr/lib/libunwind-coredump.so.0.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libunwind-coredump.so -> libunwind-coredump.so.0.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libunwind-generic.a -> libunwind-x86.a
+lrwxrwxrwx -          -                  16 ./usr/lib/libunwind-generic.so -> libunwind-x86.so
+-rw-r--r-- -          -              113846 ./usr/lib/libunwind-ptrace.a
+-rwxr-xr-x -          -               13564 ./usr/lib/libunwind-ptrace.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/libunwind-ptrace.so -> libunwind-ptrace.so.0.0.0
+-rw-r--r-- -          -               38440 ./usr/lib/libunwind-setjmp.a
+-rwxr-xr-x -          -                9152 ./usr/lib/libunwind-setjmp.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/libunwind-setjmp.so.0 -> libunwind-setjmp.so.0.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/libunwind-setjmp.so -> libunwind-setjmp.so.0.0.0
+-rwxr-xr-x -          -               50172 ./usr/lib/libunwind.so.8.0.1
+lrwxrwxrwx -          -                  18 ./usr/lib/libunwind.so.8 -> libunwind.so.8.0.1
+lrwxrwxrwx -          -                  18 ./usr/lib/libunwind.so -> libunwind.so.8.0.1
+-rw-r--r-- -          -              636684 ./usr/lib/libunwind-x86.a
+-rwxr-xr-x -          -               70652 ./usr/lib/libunwind-x86.so.8.0.1
+lrwxrwxrwx -          -                  22 ./usr/lib/libunwind-x86.so.8 -> libunwind-x86.so.8.0.1
+lrwxrwxrwx -          -                  22 ./usr/lib/libunwind-x86.so -> libunwind-x86.so.8.0.1
+drwxr-xr-x -          -                 140 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 248 ./usr/lib/pkgconfig/libunwind-coredump.pc
+-rw-r--r-- -          -                 227 ./usr/lib/pkgconfig/libunwind-generic.pc
+-rw-r--r-- -          -                 203 ./usr/lib/pkgconfig/libunwind.pc
+-rw-r--r-- -          -                 242 ./usr/lib/pkgconfig/libunwind-ptrace.pc
+-rw-r--r-- -          -                 224 ./usr/lib/pkgconfig/libunwind-setjmp.pc

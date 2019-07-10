@@ -17,7 +17,7 @@ drwxr-xr-x root       root              120 ./lib/firmware/advansys
 -rw-r--r-- root       root            50698 ./lib/firmware/agere_ap_fw.bin
 -rw-r--r-- root       root            65046 ./lib/firmware/agere_sta_fw.bin
 drwxr-xr-x root       root               60 ./lib/firmware/amd
--rw-r--r-- root       root            32000 ./lib/firmware/amd/amd_sev_fam17h_model0xh.sbin
+-rw-r--r-- root       root            32576 ./lib/firmware/amd/amd_sev_fam17h_model0xh.sbin
 drwxr-xr-x root       root             5820 ./lib/firmware/amdgpu
 -rw-r--r-- root       root            61932 ./lib/firmware/amdgpu/banks_k_2_smc.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/amdgpu/bonaire_ce.bin
@@ -428,7 +428,8 @@ lrwxrwxrwx root       root               43 ./lib/firmware/brcm/brcmfmac43362-sd
 -rw-r--r-- root       root          1120971 ./lib/firmware/brcm/brcmfmac4366c-pcie.bin
 drwxr-xr-x root       root               60 ./lib/firmware/cadence
 -rwxr-xr-x root       root           131072 ./lib/firmware/cadence/mhdp8546.bin
-drwxr-xr-x root       root               60 ./lib/firmware/cavium
+drwxr-xr-x root       root               80 ./lib/firmware/cavium
+-rw-r--r-- root       root            15794 ./lib/firmware/cavium/cnn55xx_ae.fw
 -rw-r--r-- root       root            35010 ./lib/firmware/cavium/cnn55xx_se.fw
 -rw-r--r-- root       root           412528 ./lib/firmware/cbfw-3.2.1.1.bin
 -rw-r--r-- root       root           414016 ./lib/firmware/cbfw-3.2.3.0.bin
@@ -573,7 +574,7 @@ drwxr-xr-x root       root              200 ./lib/firmware/go7007
 -rw-r--r-- root       root          1251036 ./lib/firmware/i2400m-fw-usb-1.4.sbcf
 -rw-r--r-- root       root          1334532 ./lib/firmware/i2400m-fw-usb-1.5.sbcf
 -rw-r--r-- root       root          1531932 ./lib/firmware/i6050-fw-usb-1.5.sbcf
-drwxr-xr-x root       root              420 ./lib/firmware/intel
+drwxr-xr-x root       root              460 ./lib/firmware/intel
 -rw-r--r-- root       root           701622 ./lib/firmware/intel/fw_sst_0f28.bin
 -rw-r--r-- root       root           265684 ./lib/firmware/intel/fw_sst_0f28.bin-48kHz_i2s_master
 -rw-r--r-- root       root           701622 ./lib/firmware/intel/fw_sst_0f28_ssp0.bin
@@ -581,15 +582,17 @@ drwxr-xr-x root       root              420 ./lib/firmware/intel
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-0-1.ddc
 -rw-r--r-- root       root           625216 ./lib/firmware/intel/ibt-18-0-1.sfi
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-16-1.ddc
--rw-r--r-- root       root           653852 ./lib/firmware/intel/ibt-18-16-1.sfi
+-rw-r--r-- root       root           653088 ./lib/firmware/intel/ibt-18-16-1.sfi
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-1.ddc
 -rw-r--r-- root       root           625216 ./lib/firmware/intel/ibt-18-1.sfi
 -rw-r--r-- root       root               14 ./lib/firmware/intel/ibt-18-2.ddc
--rw-r--r-- root       root           653852 ./lib/firmware/intel/ibt-18-2.sfi
+-rw-r--r-- root       root           653088 ./lib/firmware/intel/ibt-18-2.sfi
 -rw-r--r-- root       root               70 ./lib/firmware/intel/ibt-20-0-3.ddc
--rw-r--r-- root       root           716180 ./lib/firmware/intel/ibt-20-0-3.sfi
+-rw-r--r-- root       root           715376 ./lib/firmware/intel/ibt-20-0-3.sfi
 -rw-r--r-- root       root               70 ./lib/firmware/intel/ibt-20-1-3.ddc
--rw-r--r-- root       root           716180 ./lib/firmware/intel/ibt-20-1-3.sfi
+-rw-r--r-- root       root           715376 ./lib/firmware/intel/ibt-20-1-3.sfi
+-rw-r--r-- root       root               70 ./lib/firmware/intel/ibt-20-1-4.ddc
+-rw-r--r-- root       root           715376 ./lib/firmware/intel/ibt-20-1-4.sfi
 -rw-r--r-- root       root           260320 ./lib/firmware/intel/IntcSST2.bin
 lrwxrwxrwx root       root               52 ./lib/firmware/intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 -rw-r--r-- root       root          1212984 ./lib/firmware/intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
@@ -940,9 +943,12 @@ lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp102/gr/gpccs
 -rw-r--r-- root       root             2496 ./lib/firmware/nvidia/gp102/gr/sw_nonctx.bin
 drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp102/nvdec
 -rw-r--r-- root       root             3840 ./lib/firmware/nvidia/gp102/nvdec/scrubber.bin
-drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp102/sec2
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp102/sec2
+-rw-r--r-- root       root              656 ./lib/firmware/nvidia/gp102/sec2/desc-1.bin
 -rw-r--r-- root       root              656 ./lib/firmware/nvidia/gp102/sec2/desc.bin
+-rw-r--r-- root       root           109568 ./lib/firmware/nvidia/gp102/sec2/image-1.bin
 -rw-r--r-- root       root            99072 ./lib/firmware/nvidia/gp102/sec2/image.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp102/sec2/sig-1.bin
 -rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp102/sec2/sig.bin
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp104
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp104/acr
@@ -965,9 +971,12 @@ lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp104/gr/sw_me
 lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp104/gr/sw_nonctx.bin -> ../../gp102/gr/sw_nonctx.bin
 drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp104/nvdec
 lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp104/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
-drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp104/sec2
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp104/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp104/sec2/desc-1.bin -> ../../gp102/sec2/desc-1.bin
 lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp104/sec2/desc.bin -> ../../gp102/sec2/desc.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp104/sec2/image-1.bin -> ../../gp102/sec2/image-1.bin
 lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp104/sec2/image.bin -> ../../gp102/sec2/image.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp104/sec2/sig-1.bin -> ../../gp102/sec2/sig-1.bin
 lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/gp104/sec2/sig.bin -> ../../gp102/sec2/sig.bin
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp106
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp106/acr
@@ -990,9 +999,12 @@ lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp106/gr/sw_me
 lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp106/gr/sw_nonctx.bin -> ../../gp102/gr/sw_nonctx.bin
 drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp106/nvdec
 lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp106/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
-drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp106/sec2
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp106/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp106/sec2/desc-1.bin -> ../../gp102/sec2/desc-1.bin
 lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp106/sec2/desc.bin -> ../../gp102/sec2/desc.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp106/sec2/image-1.bin -> ../../gp102/sec2/image-1.bin
 lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp106/sec2/image.bin -> ../../gp102/sec2/image.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp106/sec2/sig-1.bin -> ../../gp102/sec2/sig-1.bin
 lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/gp106/sec2/sig.bin -> ../../gp102/sec2/sig.bin
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp107
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp107/acr
@@ -1015,9 +1027,12 @@ lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp107/gr/sw_me
 -rw-r--r-- root       root             2496 ./lib/firmware/nvidia/gp107/gr/sw_nonctx.bin
 drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp107/nvdec
 lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp107/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
-drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp107/sec2
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp107/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp107/sec2/desc-1.bin -> ../../gp102/sec2/desc-1.bin
 lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp107/sec2/desc.bin -> ../../gp102/sec2/desc.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp107/sec2/image-1.bin -> ../../gp102/sec2/image-1.bin
 lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp107/sec2/image.bin -> ../../gp102/sec2/image.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp107/sec2/sig-1.bin -> ../../gp102/sec2/sig-1.bin
 lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/gp107/sec2/sig.bin -> ../../gp102/sec2/sig.bin
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp108
 drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp108/acr
@@ -1041,9 +1056,9 @@ drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp108/gr
 drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp108/nvdec
 lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp108/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
 drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp108/sec2
--rw-r--r-- root       root              656 ./lib/firmware/nvidia/gp108/sec2/desc.bin
--rw-r--r-- root       root           109568 ./lib/firmware/nvidia/gp108/sec2/image.bin
--rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp108/sec2/sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp108/sec2/desc.bin -> ../../gp102/sec2/desc-1.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp108/sec2/image.bin -> ../../gp102/sec2/image-1.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp108/sec2/sig.bin -> ../../gp102/sec2/sig-1.bin
 drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp10b
 drwxr-xr-x root       root               80 ./lib/firmware/nvidia/gp10b/acr
 -rw-r--r-- root       root             1280 ./lib/firmware/nvidia/gp10b/acr/bl.bin
@@ -1156,9 +1171,9 @@ drwxr-xr-x root       root               60 ./lib/firmware/rockchip
 -rw-r--r-- root       root               63 ./lib/firmware/rp2.fw
 drwxr-xr-x root       root              100 ./lib/firmware/rsi
 -rw-r--r-- root       root            94100 ./lib/firmware/rsi_91x.fw
--rw-r--r-- root       root           341860 ./lib/firmware/rsi/rs9113_ap_bt_dual_mode.rps
--rw-r--r-- root       root           331592 ./lib/firmware/rsi/rs9113_wlan_bt_dual_mode.rps
--rw-r--r-- root       root           201052 ./lib/firmware/rsi/rs9113_wlan_qspi.rps
+-rw-r--r-- root       root           342312 ./lib/firmware/rsi/rs9113_ap_bt_dual_mode.rps
+-rw-r--r-- root       root           332008 ./lib/firmware/rsi/rs9113_wlan_bt_dual_mode.rps
+-rw-r--r-- root       root           201188 ./lib/firmware/rsi/rs9113_wlan_qspi.rps
 drwxr-xr-x root       root              100 ./lib/firmware/RTL8192E
 -rw-r--r-- root       root              344 ./lib/firmware/RTL8192E/boot.img
 -rw-r--r-- root       root              848 ./lib/firmware/RTL8192E/data.img

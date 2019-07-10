@@ -1,6 +1,10 @@
-drwxr-xr-x root       root               80 ./etc
-drwxr-xr-x root       root               60 ./etc/default
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               80 ./etc/default
 -rw-r--r-- root       root              278 ./etc/default/krb5-kdc
+drwxr-xr-x root       root               60 ./etc/default/volatiles
+-rw-r--r-- root       root               39 ./etc/default/volatiles/87_krb5
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             2965 ./etc/init.d/krb5-kdc
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               23 ./etc/tmpfiles.d/krb5.conf
 drwxr-xr-x root       root               60 ./lib

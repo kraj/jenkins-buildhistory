@@ -1,9 +1,9 @@
 PV = 1.44.5
 PR = r0
 PKG = libext2fs2
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = libext2fs (=1.44.5)
-RDEPENDS = libcomerr (>= 1.44.5) musl (>= 1.1.22+git1+ac304227bb) util-linux-libblkid (>= 2.33.2)
+RDEPENDS = libcomerr (>= 1.44.5) musl (>= 1.1.22+git1+ac304227bb) util-linux-libblkid (>= 2.34)
 RRECOMMENDS = 
 PKGSIZE = 417872
 FILES = /usr/lib/e2initrd_helper /lib/libext2fs.so.*

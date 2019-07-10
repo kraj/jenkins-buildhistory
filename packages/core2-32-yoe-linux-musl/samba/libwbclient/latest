@@ -1,10 +1,10 @@
-PV = 4.8.12
+PV = 4.10.5
 PR = r0
 PKG = libwbclient0
-PKGR = r0.2
-RPROVIDES = libwbclient (=4.8.12)
-RDEPENDS = libwinbind-client-samba4 (>= 4.8.12) musl (>= 1.1.22+git1+ac304227bb) samba-common
+PKGR = r0.0
+RPROVIDES = libwbclient (=4.10.5)
+RDEPENDS = libbsd (>= 0.9.1) libnsl2 (>= 1.2.0+git0+37c5ffe303) libreplace-samba4 (>= 4.10.5) libwinbind-client-samba4 (>= 4.10.5) musl (>= 1.1.22+git1+ac304227bb) samba-common
 RRECOMMENDS = 
 PKGSIZE = 70955
-FILES = /usr/lib/libwbclient.so.0 /usr/lib/libwbclient.so.0.14
-FILELIST = /usr/lib/libwbclient.so.0 /usr/lib/libwbclient.so.0.14
+FILES = /usr/lib/libwbclient.so.0 /usr/lib/libwbclient.so.0.15
+FILELIST = /usr/lib/libwbclient.so.0 /usr/lib/libwbclient.so.0.15

@@ -1,9 +1,9 @@
 PV = 8.2.2
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
-PKGSIZE = 148920
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nuttcp /usr/lib/nuttcp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/nuttcp
+PKGSIZE = 149216
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nuttcp /usr/lib/nuttcp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin /lib/systemd/system
+FILELIST = /lib/systemd/system/nuttcp.socket /lib/systemd/system/nuttcp@.service /usr/bin/nuttcp

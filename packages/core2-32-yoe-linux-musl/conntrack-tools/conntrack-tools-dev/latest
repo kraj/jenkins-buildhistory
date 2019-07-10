@@ -1,9 +1,9 @@
 PV = 1.4.5
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = conntrack-tools (= 1.4.5-r0.6)
-RRECOMMENDS = libmnl-dev libnetfilter-conntrack-dev libnetfilter-cthelper-dev libnetfilter-cttimeout-dev libnetfilter-queue-dev libnfnetlink-dev libtirpc-dev musl-dev
+RDEPENDS = conntrack-tools (= 1.4.5-r0.7)
+RRECOMMENDS = initscripts-dev libmnl-dev libnetfilter-conntrack-dev libnetfilter-cthelper-dev libnetfilter-cttimeout-dev libnetfilter-queue-dev libnfnetlink-dev libtirpc-dev musl-dev update-rc.d-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/conntrack-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

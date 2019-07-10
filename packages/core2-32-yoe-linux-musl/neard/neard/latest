@@ -1,9 +1,9 @@
 PV = 0.16
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = dbus dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.3) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.22+git1+ac304227bb)
-RRECOMMENDS = bluez5 wpa-supplicant
-PKGSIZE = 405071
+RDEPENDS = dbus dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.4) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) musl (>= 1.1.22+git1+ac304227bb)
+RRECOMMENDS = bluez5 update-rc.d wpa-supplicant
+PKGSIZE = 405903
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/neard /usr/lib/neard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-neard.preset /lib/systemd/system/neard.service
-FILELIST = /etc/dbus-1/system.d/org.neard.conf /lib/systemd/system-preset/98-neard.preset /lib/systemd/system/neard.service /usr/bin/nciattach /usr/bin/nfctool /usr/libexec/nfc/neard
+FILELIST = /etc/dbus-1/system.d/org.neard.conf /etc/init.d/neard /lib/systemd/system-preset/98-neard.preset /lib/systemd/system/neard.service /usr/bin/nciattach /usr/bin/nfctool /usr/libexec/nfc/neard

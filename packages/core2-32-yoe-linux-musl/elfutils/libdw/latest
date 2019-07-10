@@ -1,9 +1,9 @@
 PV = 0.176
 PR = r0
 PKG = libdw1
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = libdw (=0.176)
-RDEPENDS = fts (>= 1.2.7) libbz2 (>= 1.0.6) libelf (>= 0.176) musl (>= 1.1.22+git1+ac304227bb) zlib (>= 1.2.11)
+RDEPENDS = fts (>= 1.2.7) libbz2 (>= 1.0.7) libelf (>= 0.176) musl (>= 1.1.22+git1+ac304227bb) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 798034
 FILES = /usr/lib/libdw-0.176.so /usr/lib/libdw.so.* /usr/lib/elfutils/lib*

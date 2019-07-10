@@ -1,0 +1,75 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 252 ./lib/systemd/system/openhpid.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   7 ./sysroot-providers/openhpi
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 460 ./usr/include/openhpi
+-rw-r--r-- -          -                2164 ./usr/include/openhpi/announcement_utils.h
+-rw-r--r-- -          -                2754 ./usr/include/openhpi/el_utils.h
+-rw-r--r-- -          -                2922 ./usr/include/openhpi/epath_utils.h
+-rw-r--r-- -          -                4457 ./usr/include/openhpi/event_utils.h
+-rw-r--r-- -          -                2608 ./usr/include/openhpi/oh_clients.h
+-rw-r--r-- -          -               24011 ./usr/include/openhpi/oHpi.h
+-rw-r--r-- -          -                1046 ./usr/include/openhpi/oh_utils.h
+-rw-r--r-- -          -                3507 ./usr/include/openhpi/rpt_utils.h
+-rw-r--r-- -          -                2404 ./usr/include/openhpi/sahpiatca_enum_utils.h
+-rw-r--r-- -          -               21151 ./usr/include/openhpi/SaHpiAtca.h
+-rw-r--r-- -          -                1493 ./usr/include/openhpi/SaHpiBladeCenter.h
+-rw-r--r-- -          -               16652 ./usr/include/openhpi/sahpi_enum_utils.h
+-rw-r--r-- -          -                1462 ./usr/include/openhpi/sahpi_event_encode.h
+-rw-r--r-- -          -                1188 ./usr/include/openhpi/sahpi_event_utils.h
+-rw-r--r-- -          -                2411 ./usr/include/openhpi/sahpi_gcrypt_utils.h
+-rw-r--r-- -          -              506254 ./usr/include/openhpi/SaHpi.h
+-rw-r--r-- -          -                7996 ./usr/include/openhpi/sahpi_struct_utils.h
+-rw-r--r-- -          -                 918 ./usr/include/openhpi/sahpi_time_utils.h
+-rw-r--r-- -          -                2196 ./usr/include/openhpi/sahpixtca_enum_utils.h
+-rw-r--r-- -          -               22368 ./usr/include/openhpi/SaHpiXtca.h
+-rw-r--r-- -          -                1187 ./usr/include/openhpi/uid_utils.h
+drwxr-xr-x -          -                 440 ./usr/lib
+-rwxr-xr-x -          -               65296 ./usr/lib/libopenhpimarshal.so.3.8.0
+lrwxrwxrwx -          -                  26 ./usr/lib/libopenhpimarshal.so.3 -> libopenhpimarshal.so.3.8.0
+lrwxrwxrwx -          -                  26 ./usr/lib/libopenhpimarshal.so -> libopenhpimarshal.so.3.8.0
+-rwxr-xr-x -          -                9408 ./usr/lib/libopenhpi_snmp.so.3.8.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libopenhpi_snmp.so.3 -> libopenhpi_snmp.so.3.8.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libopenhpi_snmp.so -> libopenhpi_snmp.so.3.8.0
+-rwxr-xr-x -          -               71160 ./usr/lib/libopenhpi.so.3.8.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libopenhpi.so.3 -> libopenhpi.so.3.8.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libopenhpi.so -> libopenhpi.so.3.8.0
+-rwxr-xr-x -          -               17760 ./usr/lib/libopenhpi_ssl.so.3.8.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libopenhpi_ssl.so.3 -> libopenhpi_ssl.so.3.8.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libopenhpi_ssl.so -> libopenhpi_ssl.so.3.8.0
+-rwxr-xr-x -          -               17876 ./usr/lib/libopenhpitransport.so.3.8.0
+lrwxrwxrwx -          -                  28 ./usr/lib/libopenhpitransport.so.3 -> libopenhpitransport.so.3.8.0
+lrwxrwxrwx -          -                  28 ./usr/lib/libopenhpitransport.so -> libopenhpitransport.so.3.8.0
+-rwxr-xr-x -          -              192620 ./usr/lib/libopenhpiutils.so.3.8.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libopenhpiutils.so.3 -> libopenhpiutils.so.3.8.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libopenhpiutils.so -> libopenhpiutils.so.3.8.0
+drwxr-xr-x -          -                 460 ./usr/lib/openhpi
+-rwxr-xr-x -          -              349948 ./usr/lib/openhpi/libdyn_simulator.so.3.8.0
+lrwxrwxrwx -          -                  25 ./usr/lib/openhpi/libdyn_simulator.so.3 -> libdyn_simulator.so.3.8.0
+lrwxrwxrwx -          -                  25 ./usr/lib/openhpi/libdyn_simulator.so -> libdyn_simulator.so.3.8.0
+-rwxr-xr-x -          -              383124 ./usr/lib/openhpi/libipmidirect.so.3.8.0
+lrwxrwxrwx -          -                  22 ./usr/lib/openhpi/libipmidirect.so.3 -> libipmidirect.so.3.8.0
+lrwxrwxrwx -          -                  22 ./usr/lib/openhpi/libipmidirect.so -> libipmidirect.so.3.8.0
+-rwxr-xr-x -          -              244776 ./usr/lib/openhpi/libsimulator.so.3.8.0
+lrwxrwxrwx -          -                  21 ./usr/lib/openhpi/libsimulator.so.3 -> libsimulator.so.3.8.0
+lrwxrwxrwx -          -                  21 ./usr/lib/openhpi/libsimulator.so -> libsimulator.so.3.8.0
+-rwxr-xr-x -          -               62880 ./usr/lib/openhpi/libslave.so.3.8.0
+lrwxrwxrwx -          -                  17 ./usr/lib/openhpi/libslave.so.3 -> libslave.so.3.8.0
+lrwxrwxrwx -          -                  17 ./usr/lib/openhpi/libslave.so -> libslave.so.3.8.0
+-rwxr-xr-x -          -             1264880 ./usr/lib/openhpi/libsnmp_bc.so.3.8.0
+lrwxrwxrwx -          -                  19 ./usr/lib/openhpi/libsnmp_bc.so.3 -> libsnmp_bc.so.3.8.0
+lrwxrwxrwx -          -                  19 ./usr/lib/openhpi/libsnmp_bc.so -> libsnmp_bc.so.3.8.0
+-rwxr-xr-x -          -              352156 ./usr/lib/openhpi/libtest_agent.so.3.8.0
+lrwxrwxrwx -          -                  22 ./usr/lib/openhpi/libtest_agent.so.3 -> libtest_agent.so.3.8.0
+lrwxrwxrwx -          -                  22 ./usr/lib/openhpi/libtest_agent.so -> libtest_agent.so.3.8.0
+-rwxr-xr-x -          -               13504 ./usr/lib/openhpi/libwatchdog.so.3.8.0
+lrwxrwxrwx -          -                  20 ./usr/lib/openhpi/libwatchdog.so.3 -> libwatchdog.so.3.8.0
+lrwxrwxrwx -          -                  20 ./usr/lib/openhpi/libwatchdog.so -> libwatchdog.so.3.8.0
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 249 ./usr/lib/pkgconfig/openhpi.pc
+-rw-r--r-- -          -                 282 ./usr/lib/pkgconfig/openhpiutils.pc
+drwxr-xr-x -          -                  40 ./usr/share

@@ -1,11 +1,10 @@
-PV = 3.6.1+gitAUTOINC+48cb18e5c4
+PV = 3.8.0
 PR = r0
 PKG = libprotobuf-compiler
-PKGV = 3.6.1+git0+48cb18e5c4
-PKGR = r0.3
-RPROVIDES = protobuf-compiler (=3.6.1+git0+48cb18e5c4)
-RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) protobuf (>= 3.6.1+git0+48cb18e5c4) zlib (>= 1.2.11)
+PKGR = r0.0
+RPROVIDES = protobuf-compiler (=3.8.0)
+RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) protobuf (>= 3.8.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 2629191
+PKGSIZE = 3575895
 FILES = /usr/bin /usr/lib/libprotoc.so.*
-FILELIST = /usr/bin/protoc /usr/lib/libprotoc.so.17 /usr/lib/libprotoc.so.17.0.0
+FILELIST = /usr/bin/protoc /usr/lib/libprotoc.so.19 /usr/lib/libprotoc.so.19.0.0

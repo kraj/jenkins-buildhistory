@@ -1,4 +1,6 @@
-drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             1773 ./etc/init.d/mdmonitor
 -rw-r--r-- root       root             2687 ./etc/mdadm.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root              100 ./lib/systemd
@@ -6,7 +8,7 @@ drwxr-xr-x root       root              140 ./lib/systemd/system
 -rw-r--r-- root       root              481 ./lib/systemd/system/mdadm-grow-continue@.service
 -rw-r--r-- root       root              210 ./lib/systemd/system/mdadm-last-resort@.service
 -rw-r--r-- root       root              179 ./lib/systemd/system/mdadm-last-resort@.timer
--rw-r--r-- root       root              521 ./lib/systemd/system/mdmonitor.service
+-rw-r--r-- root       root              524 ./lib/systemd/system/mdmonitor.service
 -rw-r--r-- root       root             1034 ./lib/systemd/system/mdmon@.service
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               49 ./lib/systemd/system-preset/98-mdadm.preset

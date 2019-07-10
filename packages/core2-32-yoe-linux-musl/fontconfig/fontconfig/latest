@@ -1,9 +1,9 @@
 PV = 2.13.1
 PR = r0
 PKG = libfontconfig1
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = fontconfig (=2.13.1)
-RDEPENDS = expat (>= 2.2.6) freetype (>= 2.10.0) musl (>= 1.1.22+git1+ac304227bb) util-linux-libuuid (>= 2.33.2)
+RDEPENDS = expat (>= 2.2.7) freetype (>= 2.10.0) musl (>= 1.1.22+git1+ac304227bb) util-linux-libuuid (>= 2.34)
 RRECOMMENDS = 
 PKGSIZE = 388132
 FILES = /usr/share/xml/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fontconfig /usr/lib/fontconfig/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

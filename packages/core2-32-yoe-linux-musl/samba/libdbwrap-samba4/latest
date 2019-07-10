@@ -1,9 +1,9 @@
-PV = 4.8.12
+PV = 4.10.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libsamba-debug-samba4 (>= 4.8.12) libsamba-errors (>= 4.8.12) libsamba-hostconfig (>= 4.8.12) libsamba-util (>= 4.8.12) libtalloc (>= 2.1.14) libtdb (>= 1.3.17) libtdb-wrap-samba4 (>= 4.8.12) libtevent (>= 0.9.37) libtevent-util (>= 4.8.12) libutil-tdb-samba4 (>= 4.8.12) musl (>= 1.1.22+git1+ac304227bb) samba-common
+RDEPENDS = libbsd (>= 0.9.1) libgenrand-samba4 (>= 4.10.5) libiov-buf-samba4 (>= 4.10.5) libnsl2 (>= 1.2.0+git0+37c5ffe303) libreplace-samba4 (>= 4.10.5) libsamba-debug-samba4 (>= 4.10.5) libsamba-errors (>= 4.10.5) libsamba-util (>= 4.10.5) libsocket-blocking-samba4 (>= 4.10.5) libsys-rw-samba4 (>= 4.10.5) libsystemd (>= 242+0+db2e367bfc) libtalloc (>= 2.2.0) libtdb (>= 1.4.0) libtdb-wrap-samba4 (>= 4.10.5) libtevent (>= 0.10.0) libtevent-util (>= 4.10.5) libtime-basic-samba4 (>= 4.10.5) libutil-setid-samba4 (>= 4.10.5) libutil-tdb-samba4 (>= 4.10.5) musl (>= 1.1.22+git1+ac304227bb) samba-common
 RRECOMMENDS = 
-PKGSIZE = 50456
+PKGSIZE = 54552
 FILES = /usr/lib/samba/libdbwrap-samba4.so
 FILELIST = /usr/lib/samba/libdbwrap-samba4.so

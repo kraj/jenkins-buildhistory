@@ -2,10 +2,10 @@ PV = 0.14.2+gitAUTOINC+7cbd70b931_4fc4c2db36
 PR = r0
 PKG = libspice-server1
 PKGV = 0.14.2+git0+7cbd70b931_4fc4c2db36
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = spice (=0.14.2+git0+7cbd70b931_4fc4c2db36)
-RDEPENDS = cyrus-sasl (>= 2.1.27) glib-2.0 (>= 2.60.3) libcrypto (>= 1.1.1c) libjpeg-turbo (>= 2.0.2) libssl (>= 1.1.1c) musl (>= 1.1.22+git1+ac304227bb) pixman (>= 0.38.4) zlib (>= 1.2.11)
+RDEPENDS = cyrus-sasl (>= 2.1.27) glib-2.0 (>= 2.60.4) libcrypto (>= 1.1.1c) libjpeg-turbo (>= 2.0.2) libssl (>= 1.1.1c) musl (>= 1.1.22+git1+ac304227bb) pixman (>= 0.38.4) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1300065
+PKGSIZE = 1304161
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/spice /usr/lib/spice/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libspice-server.so.1 /usr/lib/libspice-server.so.1.13.0

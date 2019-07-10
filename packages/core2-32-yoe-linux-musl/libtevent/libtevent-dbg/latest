@@ -1,9 +1,9 @@
-PV = 0.9.37
+PV = 0.10.0
 PR = r0
-PKGR = r0.7
-RPROVIDES = python-tevent-dbg
+PKGR = r0.0
+RPROVIDES = python3-tevent-dbg
 RDEPENDS = 
-RRECOMMENDS = libpython2-dbg libtalloc-dbg musl-dbg
-PKGSIZE = 234800
+RRECOMMENDS = libpython3-dbg libtalloc-dbg musl-dbg
+PKGSIZE = 239448
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libtevent.so.0.9.37 /usr/lib/python2.7/site-packages/.debug/_tevent.so
+FILELIST = /usr/lib/.debug/libtevent.so.0.10.0 /usr/lib/python3.7/site-packages/.debug/_tevent.cpython-37m-i686-linux-musl.so

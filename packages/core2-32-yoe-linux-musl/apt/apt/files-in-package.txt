@@ -9,8 +9,8 @@ drwxr-xr-x root       root               60 ./etc/cron.daily
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
--rw-r--r-- root       root              169 ./lib/systemd/system/apt-daily.service
--rw-r--r-- root       root              212 ./lib/systemd/system/apt-daily.timer
+-rw-r--r-- root       root              225 ./lib/systemd/system/apt-daily.service
+-rw-r--r-- root       root              156 ./lib/systemd/system/apt-daily.timer
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-apt.preset
 drwxr-xr-x root       root               80 ./usr
@@ -31,7 +31,7 @@ drwxr-xr-x root       root              360 ./usr/lib/apt/methods
 -rwxr-xr-x root       root            63020 ./usr/lib/apt/methods/ftp
 -rwxr-xr-x root       root            50704 ./usr/lib/apt/methods/gpgv
 -rwxr-xr-x root       root            17936 ./usr/lib/apt/methods/gzip
--rwxr-xr-x root       root            83536 ./usr/lib/apt/methods/http
+-rwxr-xr-x root       root            87632 ./usr/lib/apt/methods/http
 -rwxr-xr-x root       root            75344 ./usr/lib/apt/methods/https
 -rwxr-xr-x root       root            17936 ./usr/lib/apt/methods/lzma
 -rwxr-xr-x root       root           112208 ./usr/lib/apt/methods/mirror
@@ -50,7 +50,7 @@ drwxr-xr-x root       root              140 ./usr/lib/dpkg/methods/apt
 -rwxr-xr-x root       root             1242 ./usr/lib/dpkg/methods/apt/update
 -rwxr-xr-x root       root            54824 ./usr/lib/libapt-inst.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libapt-inst.so.2.0 -> libapt-inst.so.2.0.0
--rwxr-xr-x root       root          1693800 ./usr/lib/libapt-pkg.so.5.0.0
+-rwxr-xr-x root       root          1701992 ./usr/lib/libapt-pkg.so.5.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libapt-pkg.so.5.0 -> libapt-pkg.so.5.0.0
 -rwxr-xr-x root       root           370280 ./usr/lib/libapt-private.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libapt-private.so.0.0 -> libapt-private.so.0.0.0

@@ -1,9 +1,9 @@
-PV = 4.8.12
+PV = 4.10.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libsamba-debug-samba4 (>= 4.8.12) libsamba-errors (>= 4.8.12) libsamba-modules-samba4 (>= 4.8.12) libsamba-util (>= 4.8.12) libsmbconf (>= 4.8.12) libtalloc (>= 2.1.14) musl (>= 1.1.22+git1+ac304227bb) samba-common
+RDEPENDS = libsamba-debug-samba4 (>= 4.10.5) libsamba-errors (>= 4.10.5) libsamba-modules-samba4 (>= 4.10.5) libsamba-util (>= 4.10.5) libsmbconf (>= 4.10.5) libtalloc (>= 2.2.0) musl (>= 1.1.22+git1+ac304227bb) samba-common
 RRECOMMENDS = 
-PKGSIZE = 13612
+PKGSIZE = 21804
 FILES = /usr/lib/samba/libnss-info-samba4.so
 FILELIST = /usr/lib/samba/libnss-info-samba4.so

@@ -1,0 +1,5 @@
+PV = 1.8.1
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = googletest-src googletest-dbg googletest-staticdev googletest-dev googletest-doc googletest-locale googletest
+LAYER = openembedded-layer

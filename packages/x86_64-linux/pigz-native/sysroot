@@ -1,0 +1,12 @@
+drwxr-xr-x -          -                 100 ./bin
+-rwxr-xr-x -          -              118880 ./bin/pigz
+lrwxrwxrwx -          -                   4 ./bin/pigzcat -> pigz
+lrwxrwxrwx -          -                   4 ./bin/unpigz -> pigz
+drwxr-xr-x -          -                  80 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/gzip-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/pigz-native
+drwxr-xr-x -          -                  60 ./usr
+drwxr-xr-x -          -                 100 ./usr/bin
+lrwxrwxrwx -          -                   4 ./usr/bin/gunzip -> gzip
+-rwxr-xr-x -          -              118880 ./usr/bin/gzip
+lrwxrwxrwx -          -                   4 ./usr/bin/zcat -> gzip

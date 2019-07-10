@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r10
-PKGR = r10.92
+PKGR = r10.93
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2371
+RRECOMMENDS = update-rc.d
+PKGSIZE = 2396
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/run-postinsts /usr/lib/run-postinsts/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-run-postinsts.preset /lib/systemd/system/run-postinsts.service
-FILELIST = /lib/systemd/system-preset/98-run-postinsts.preset /lib/systemd/system/run-postinsts.service /usr/sbin/run-postinsts
+FILELIST = /etc/init.d/run-postinsts /lib/systemd/system-preset/98-run-postinsts.preset /lib/systemd/system/run-postinsts.service /usr/sbin/run-postinsts

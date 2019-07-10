@@ -1,0 +1,33 @@
+drwxr-xr-x -          -                 100 ./lib
+drwxr-xr-x -          -                 140 ./lib/drbd
+-rwxr-xr-x -          -                8399 ./lib/drbd/drbd
+-rwxr-xr-x -          -              174404 ./lib/drbd/drbdadm-83
+-rwxr-xr-x -          -              242564 ./lib/drbd/drbdadm-84
+-rwxr-xr-x -          -               80524 ./lib/drbd/drbdsetup-83
+-rwxr-xr-x -          -              140800 ./lib/drbd/drbdsetup-84
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 545 ./lib/systemd/system/drbd.service
+drwxr-xr-x -          -                  60 ./lib/udev
+drwxr-xr-x -          -                  60 ./lib/udev/rules.d
+-rw-r--r-- -          -                 967 ./lib/udev/rules.d/65-drbd.rules
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  10 ./sysroot-providers/drbd-utils
+drwxr-xr-x -          -                  60 ./usr
+drwxr-xr-x -          -                  80 ./usr/lib
+drwxr-xr-x -          -                 300 ./usr/lib/drbd
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-emergency-reboot.sh -> notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-emergency-shutdown.sh -> notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-io-error.sh -> notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-out-of-sync.sh -> notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-pri-lost-after-sb.sh -> notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-pri-lost.sh -> notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-pri-on-incon-degr.sh -> notify.sh
+-rwxr-xr-x -          -                4715 ./usr/lib/drbd/notify.sh
+lrwxrwxrwx -          -                   9 ./usr/lib/drbd/notify-split-brain.sh -> notify.sh
+-rwxr-xr-x -          -                3015 ./usr/lib/drbd/outdate-peer.sh
+-rwxr-xr-x -          -                3377 ./usr/lib/drbd/snapshot-resync-target-lvm.sh
+-rwxr-xr-x -          -                1840 ./usr/lib/drbd/stonith_admin-fence-peer.sh
+lrwxrwxrwx -          -                  29 ./usr/lib/drbd/unsnapshot-resync-target-lvm.sh -> snapshot-resync-target-lvm.sh
+drwxr-xr-x -          -                  60 ./usr/lib/tmpfiles.d
+-rw-r--r-- -          -                  29 ./usr/lib/tmpfiles.d/drbd.conf

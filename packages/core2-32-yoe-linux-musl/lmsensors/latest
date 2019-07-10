@@ -1,5 +1,5 @@
 PV = 3.5.0
 PR = r0
-DEPENDS = bison-native flex-native rrdtool systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc virtual/libiconv
+DEPENDS = bison-native flex-native initscripts rrdtool systemd-systemctl-native update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc virtual/libiconv
 PACKAGES = lmsensors-src lmsensors-dbg lmsensors-isatools lmsensors-isatools-doc lmsensors-pwmconfig lmsensors-pwmconfig-doc lmsensors-sensorsconfconvert lmsensors-sensorsconfconvert-doc lmsensors-sensorsdetect lmsensors-sensorsdetect-doc lmsensors-fancontrol lmsensors-fancontrol-doc lmsensors-sensord lmsensors-sensord-doc lmsensors-sensors lmsensors-sensors-doc lmsensors-libsensors lmsensors-libsensors-dev lmsensors-libsensors-staticdev lmsensors-libsensors-doc lmsensors-staticdev lmsensors-dev lmsensors-doc lmsensors-locale lmsensors
 LAYER = openembedded-layer

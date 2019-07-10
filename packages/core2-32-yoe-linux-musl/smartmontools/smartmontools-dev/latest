@@ -1,9 +1,9 @@
 PV = 7.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = smartmontools (= 7.0-r0.8)
-RRECOMMENDS = libgcc-dev libstdc++-dev mailx-dev musl-dev
+RDEPENDS = smartmontools (= 7.0-r0.9)
+RRECOMMENDS = initscripts-dev libgcc-dev libstdc++-dev mailx-dev musl-dev update-rc.d-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/smartmontools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

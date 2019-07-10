@@ -1,9 +1,9 @@
 PV = 3.2p2
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = libow (>= 3.2p2) musl (>= 1.1.22+git1+ac304227bb)
-RRECOMMENDS = 
-PKGSIZE = 34535
+RRECOMMENDS = update-rc.d
+PKGSIZE = 35358
 FILES = /usr/bin/owserver /etc/init.d/owserver /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket
-FILELIST = /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket /usr/bin/owserver
+FILELIST = /etc/init.d/owserver /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket /usr/bin/owserver

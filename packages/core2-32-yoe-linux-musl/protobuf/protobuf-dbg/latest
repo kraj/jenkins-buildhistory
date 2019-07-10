@@ -1,11 +1,10 @@
-PV = 3.6.1+gitAUTOINC+48cb18e5c4
+PV = 3.8.0
 PR = r0
 PKG = libprotobuf-dbg
-PKGV = 3.6.1+git0+48cb18e5c4
-PKGR = r0.3
-RPROVIDES = protobuf-dbg (=3.6.1+git0+48cb18e5c4)
+PKGR = r0.0
+RPROVIDES = protobuf-dbg (=3.8.0)
 RDEPENDS = 
 RRECOMMENDS = libgcc-dbg libstdc++-dbg musl-dbg zlib-dbg
-PKGSIZE = 84055992
+PKGSIZE = 101095984
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/protoc /usr/lib/.debug/libprotobuf-lite.so.17.0.0 /usr/lib/.debug/libprotobuf.so.17.0.0 /usr/lib/.debug/libprotoc.so.17.0.0 /usr/lib/protobuf/ptest/.debug/add_person_cpp /usr/lib/protobuf/ptest/.debug/list_people_cpp
+FILELIST = /usr/bin/.debug/protoc /usr/lib/.debug/libprotobuf-lite.so.19.0.0 /usr/lib/.debug/libprotobuf.so.19.0.0 /usr/lib/.debug/libprotoc.so.19.0.0 /usr/lib/protobuf/ptest/.debug/add_person_cpp /usr/lib/protobuf/ptest/.debug/list_people_cpp

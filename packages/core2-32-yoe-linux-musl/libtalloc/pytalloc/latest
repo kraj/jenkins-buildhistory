@@ -1,9 +1,9 @@
-PV = 2.1.14
+PV = 2.2.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.16) libtalloc (>= 2.1.14) musl (>= 1.1.22+git1+ac304227bb) python
+RDEPENDS = libpython3 (>= 3.7.3) libtalloc (>= 2.2.0) musl (>= 1.1.22+git1+ac304227bb) python3
 RRECOMMENDS = 
-PKGSIZE = 10376
-FILES = /usr/lib/python2.7/site-packages/* /usr/lib/libpytalloc-util.so.2 /usr/lib/libpytalloc-util.so.2.1.1
-FILELIST = /usr/lib/python2.7/site-packages/talloc.so
+PKGSIZE = 10472
+FILES = /usr/lib/python3.7/site-packages/* /usr/lib/libpytalloc-util.so.2 /usr/lib/libpytalloc-util.so.2.1.1
+FILELIST = /usr/lib/python3.7/site-packages/talloc.cpython-37m-i686-linux-musl.so
