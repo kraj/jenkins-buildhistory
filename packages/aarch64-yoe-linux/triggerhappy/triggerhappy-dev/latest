@@ -1,10 +1,10 @@
 PV = 0.5.0+gitAUTOINC+44a1731959
 PR = r0
 PKGV = 0.5.0+git0+44a1731959
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = triggerhappy (= 0.5.0+git0+44a1731959-r0.7)
-RRECOMMENDS = glibc-dev libsystemd-dev systemd-dev
+RDEPENDS = triggerhappy (= 0.5.0+git0+44a1731959-r0.8)
+RRECOMMENDS = glibc-dev initscripts-dev libsystemd-dev systemd-dev update-rc.d-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/triggerhappy/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

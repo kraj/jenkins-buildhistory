@@ -1,10 +1,12 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root             8000 ./usr/include/upm
+drwxr-xr-x root       root             7720 ./usr/include/upm
+-rw-r--r-- root       root             6234 ./usr/include/upm/2jciebu01.hpp
+-rw-r--r-- root       root             7753 ./usr/include/upm/2jciebu01_usb.hpp
 -rw-r--r-- root       root             2892 ./usr/include/upm/a110x.h
--rw-r--r-- root       root             3186 ./usr/include/upm/a110x.hpp
+-rw-r--r-- root       root             3522 ./usr/include/upm/a110x.hpp
 -rw-r--r-- root       root             4257 ./usr/include/upm/abp.h
--rw-r--r-- root       root             4491 ./usr/include/upm/abp.hpp
+-rw-r--r-- root       root             4877 ./usr/include/upm/abp.hpp
 -rw-r--r-- root       root            11925 ./usr/include/upm/aci_cmds.h
 -rw-r--r-- root       root            11885 ./usr/include/upm/aci_evts.h
 -rw-r--r-- root       root            19983 ./usr/include/upm/aci.h
@@ -15,92 +17,98 @@ drwxr-xr-x root       root             8000 ./usr/include/upm
 -rw-r--r-- root       root            10436 ./usr/include/upm/aci_protocol_defines.h
 -rw-r--r-- root       root             2857 ./usr/include/upm/aci_queue.h
 -rw-r--r-- root       root             2149 ./usr/include/upm/aci_setup.h
--rw-r--r-- root       root             2602 ./usr/include/upm/ad8232.h
--rw-r--r-- root       root             3206 ./usr/include/upm/ad8232.hpp
--rw-r--r-- root       root             6969 ./usr/include/upm/adafruitms1438.hpp
--rw-r--r-- root       root             3482 ./usr/include/upm/adafruitss.hpp
--rw-r--r-- root       root             9888 ./usr/include/upm/adc121c021.hpp
--rw-r--r-- root       root             6166 ./usr/include/upm/adis16448.hpp
--rw-r--r-- root       root             7337 ./usr/include/upm/ads1015.hpp
--rw-r--r-- root       root             6128 ./usr/include/upm/ads1115.hpp
--rw-r--r-- root       root            17124 ./usr/include/upm/ads1x15.hpp
--rw-r--r-- root       root             4447 ./usr/include/upm/adxl335.hpp
--rw-r--r-- root       root             3260 ./usr/include/upm/adxl345.hpp
--rw-r--r-- root       root             5171 ./usr/include/upm/adxrs610.hpp
--rw-r--r-- root       root             6890 ./usr/include/upm/ak8975.hpp
--rw-r--r-- root       root             5694 ./usr/include/upm/am2315.hpp
+-rw-r--r-- root       root             2472 ./usr/include/upm/ad8232.h
+-rw-r--r-- root       root             3461 ./usr/include/upm/ad8232.hpp
+-rw-r--r-- root       root             7304 ./usr/include/upm/adafruitms1438.hpp
+-rw-r--r-- root       root             3764 ./usr/include/upm/adafruitss.hpp
+-rw-r--r-- root       root            10154 ./usr/include/upm/adc121c021.hpp
+-rw-r--r-- root       root             6473 ./usr/include/upm/adis16448.hpp
+-rw-r--r-- root       root             7656 ./usr/include/upm/ads1015.hpp
+-rw-r--r-- root       root             6396 ./usr/include/upm/ads1115.hpp
+-rw-r--r-- root       root            17606 ./usr/include/upm/ads1x15.hpp
+-rw-r--r-- root       root             4950 ./usr/include/upm/adxl335.hpp
+-rw-r--r-- root       root             3804 ./usr/include/upm/adxl345.hpp
+-rw-r--r-- root       root             5905 ./usr/include/upm/adxrs610.hpp
+-rw-r--r-- root       root             7280 ./usr/include/upm/ak8975.hpp
+-rw-r--r-- root       root             6216 ./usr/include/upm/am2315.hpp
 -rw-r--r-- root       root             4358 ./usr/include/upm/apa102.h
--rw-r--r-- root       root             5766 ./usr/include/upm/apa102.hpp
--rw-r--r-- root       root             2267 ./usr/include/upm/apds9002.hpp
--rw-r--r-- root       root             2699 ./usr/include/upm/apds9930.hpp
--rw-r--r-- root       root             7753 ./usr/include/upm/at42qt1070.hpp
+-rw-r--r-- root       root             6043 ./usr/include/upm/apa102.hpp
+-rw-r--r-- root       root             2760 ./usr/include/upm/apds9002.hpp
+-rw-r--r-- root       root             2996 ./usr/include/upm/apds9930.hpp
+-rw-r--r-- root       root             8028 ./usr/include/upm/at42qt1070.hpp
+-rw-r--r-- root       root            11477 ./usr/include/upm/bh1749.h
+-rw-r--r-- root       root            11002 ./usr/include/upm/bh1749.hpp
+-rw-r--r-- root       root             7087 ./usr/include/upm/bh1749_registers.h
 -rw-r--r-- root       root             2627 ./usr/include/upm/bh1750_defs.h
 -rw-r--r-- root       root             4085 ./usr/include/upm/bh1750.h
--rw-r--r-- root       root             3842 ./usr/include/upm/bh1750.hpp
+-rw-r--r-- root       root             4340 ./usr/include/upm/bh1750.hpp
+-rw-r--r-- root       root             5493 ./usr/include/upm/bh1792glc_registers.h
+-rw-r--r-- root       root            12242 ./usr/include/upm/bh1792.h
+-rw-r--r-- root       root            11652 ./usr/include/upm/bh1792.hpp
 -rw-r--r-- root       root             2248 ./usr/include/upm/biss0001.h
--rw-r--r-- root       root             3206 ./usr/include/upm/biss0001.hpp
--rw-r--r-- root       root            23691 ./usr/include/upm/bma220.hpp
+-rw-r--r-- root       root             3573 ./usr/include/upm/biss0001.hpp
+-rw-r--r-- root       root            24199 ./usr/include/upm/bma220.hpp
 -rw-r--r-- root       root            32931 ./usr/include/upm/bma250e_defs.h
 -rw-r--r-- root       root            22663 ./usr/include/upm/bma250e.h
--rw-r--r-- root       root            21654 ./usr/include/upm/bma250e.hpp
--rw-r--r-- root       root             8007 ./usr/include/upm/bmc150.hpp
--rw-r--r-- root       root             4529 ./usr/include/upm/bme280.hpp
+-rw-r--r-- root       root            22215 ./usr/include/upm/bma250e.hpp
+-rw-r--r-- root       root             8575 ./usr/include/upm/bmc150.hpp
+-rw-r--r-- root       root             4777 ./usr/include/upm/bme280.hpp
 -rw-r--r-- root       root            27985 ./usr/include/upm/bmg160_defs.h
 -rw-r--r-- root       root            18148 ./usr/include/upm/bmg160.h
--rw-r--r-- root       root            17607 ./usr/include/upm/bmg160.hpp
--rw-r--r-- root       root             7927 ./usr/include/upm/bmi055.hpp
+-rw-r--r-- root       root            17966 ./usr/include/upm/bmg160.hpp
+-rw-r--r-- root       root             8481 ./usr/include/upm/bmi055.hpp
 -rw-r--r-- root       root             1752 ./usr/include/upm/bmi160_defs.h
 -rw-r--r-- root       root             8573 ./usr/include/upm/bmi160.h
--rw-r--r-- root       root             9672 ./usr/include/upm/bmi160.hpp
+-rw-r--r-- root       root            10099 ./usr/include/upm/bmi160.hpp
 -rw-r--r-- root       root             9823 ./usr/include/upm/bmm150_defs.h
 -rw-r--r-- root       root            12890 ./usr/include/upm/bmm150.h
--rw-r--r-- root       root            12745 ./usr/include/upm/bmm150.hpp
--rw-r--r-- root       root            11377 ./usr/include/upm/bmp280.h
--rw-r--r-- root       root             9741 ./usr/include/upm/bmp280.hpp
+-rw-r--r-- root       root            13113 ./usr/include/upm/bmm150.hpp
+-rw-r--r-- root       root            11632 ./usr/include/upm/bmp280.h
+-rw-r--r-- root       root            10438 ./usr/include/upm/bmp280.hpp
 -rw-r--r-- root       root            10661 ./usr/include/upm/bmp280_regs.h
 -rw-r--r-- root       root             3575 ./usr/include/upm/bmpx8x_defs.h
 -rw-r--r-- root       root             6964 ./usr/include/upm/bmpx8x.h
--rw-r--r-- root       root             8191 ./usr/include/upm/bmpx8x.hpp
--rw-r--r-- root       root            10232 ./usr/include/upm/bmx055.hpp
--rw-r--r-- root       root            26171 ./usr/include/upm/bno055.h
--rw-r--r-- root       root            27864 ./usr/include/upm/bno055.hpp
+-rw-r--r-- root       root             8513 ./usr/include/upm/bmpx8x.hpp
+-rw-r--r-- root       root            10807 ./usr/include/upm/bmx055.hpp
+-rw-r--r-- root       root            26223 ./usr/include/upm/bno055.h
+-rw-r--r-- root       root            28496 ./usr/include/upm/bno055.hpp
 -rw-r--r-- root       root            30869 ./usr/include/upm/bno055_regs.h
 -rw-r--r-- root       root             1737 ./usr/include/upm/boards.h
--rw-r--r-- root       root           414247 ./usr/include/upm/bosch_bmi160.h
--rw-r--r-- root       root             2833 ./usr/include/upm/button.h
--rw-r--r-- root       root             2917 ./usr/include/upm/button.hpp
--rw-r--r-- root       root             3438 ./usr/include/upm/buzzer.h
--rw-r--r-- root       root             3891 ./usr/include/upm/buzzer.hpp
+-rw-r--r-- root       root           414246 ./usr/include/upm/bosch_bmi160.h
+-rw-r--r-- root       root             2798 ./usr/include/upm/button.h
+-rw-r--r-- root       root             3420 ./usr/include/upm/button.hpp
+-rw-r--r-- root       root             3458 ./usr/include/upm/buzzer.h
+-rw-r--r-- root       root             4219 ./usr/include/upm/buzzer.hpp
 -rw-r--r-- root       root             1656 ./usr/include/upm/buzzer_tones.h
 -rw-r--r-- root       root             3786 ./usr/include/upm/cjq4435.h
--rw-r--r-- root       root             3795 ./usr/include/upm/cjq4435.hpp
--rw-r--r-- root       root             2304 ./usr/include/upm/collision.h
--rw-r--r-- root       root             2189 ./usr/include/upm/collision.hpp
+-rw-r--r-- root       root             4074 ./usr/include/upm/cjq4435.hpp
+-rw-r--r-- root       root             2265 ./usr/include/upm/collision.h
+-rw-r--r-- root       root             2532 ./usr/include/upm/collision.hpp
 -rw-r--r-- root       root             7869 ./usr/include/upm/curieimu.hpp
--rw-r--r-- root       root             6896 ./usr/include/upm/cwlsxxa.hpp
+-rw-r--r-- root       root             7615 ./usr/include/upm/cwlsxxa.hpp
 -rw-r--r-- root       root             6987 ./usr/include/upm/dfrec.h
--rw-r--r-- root       root             5970 ./usr/include/upm/dfrec.hpp
+-rw-r--r-- root       root             6202 ./usr/include/upm/dfrec.hpp
 -rw-r--r-- root       root             4975 ./usr/include/upm/dfrorp.h
--rw-r--r-- root       root             5090 ./usr/include/upm/dfrorp.hpp
+-rw-r--r-- root       root             5584 ./usr/include/upm/dfrorp.hpp
 -rw-r--r-- root       root             3303 ./usr/include/upm/dfrph.h
--rw-r--r-- root       root             4652 ./usr/include/upm/dfrph.hpp
--rw-r--r-- root       root             5360 ./usr/include/upm/ds1307.hpp
--rw-r--r-- root       root             2497 ./usr/include/upm/ds1808lc.hpp
+-rw-r--r-- root       root             5109 ./usr/include/upm/dfrph.hpp
+-rw-r--r-- root       root             5616 ./usr/include/upm/ds1307.hpp
+-rw-r--r-- root       root             2629 ./usr/include/upm/ds1808lc.hpp
 -rw-r--r-- root       root             2579 ./usr/include/upm/ds18b20_defs.h
 -rw-r--r-- root       root             5111 ./usr/include/upm/ds18b20.h
 -rw-r--r-- root       root             7311 ./usr/include/upm/ds18b20.hpp
--rw-r--r-- root       root             5604 ./usr/include/upm/ds2413.hpp
+-rw-r--r-- root       root             5901 ./usr/include/upm/ds2413.hpp
 -rw-r--r-- root       root             2804 ./usr/include/upm/dtm.h
--rw-r--r-- root       root            12665 ./usr/include/upm/eboled.hpp
+-rw-r--r-- root       root            12653 ./usr/include/upm/eboled.hpp
 -rw-r--r-- root       root             1744 ./usr/include/upm/ecezo_defs.h
 -rw-r--r-- root       root             9406 ./usr/include/upm/ecezo.h
--rw-r--r-- root       root             8450 ./usr/include/upm/ecezo.hpp
--rw-r--r-- root       root             4021 ./usr/include/upm/ecs1030.hpp
--rw-r--r-- root       root             2980 ./usr/include/upm/ehr.hpp
+-rw-r--r-- root       root             8759 ./usr/include/upm/ecezo.hpp
+-rw-r--r-- root       root             4336 ./usr/include/upm/ecs1030.hpp
+-rw-r--r-- root       root             3426 ./usr/include/upm/ehr.hpp
 -rw-r--r-- root       root             2135 ./usr/include/upm/eldriver.hpp
--rw-r--r-- root       root             2138 ./usr/include/upm/electromagnet.hpp
+-rw-r--r-- root       root             2226 ./usr/include/upm/electromagnet.hpp
 -rw-r--r-- root       root             3746 ./usr/include/upm/emg.h
--rw-r--r-- root       root             2221 ./usr/include/upm/emg.hpp
+-rw-r--r-- root       root             2477 ./usr/include/upm/emg.hpp
 -rw-r--r-- root       root             4602 ./usr/include/upm/enc03r.h
 -rw-r--r-- root       root             4601 ./usr/include/upm/enc03r.hpp
 -rw-r--r-- root       root             3518 ./usr/include/upm/es08a.h
@@ -111,7 +119,7 @@ drwxr-xr-x root       root               60 ./usr/include/upm/external
 drwxr-xr-x root       root               60 ./usr/include/upm/external/json
 -rw-r--r-- root       root           513969 ./usr/include/upm/external/json/json.hpp
 -rw-r--r-- root       root             3789 ./usr/include/upm/flex.h
--rw-r--r-- root       root             2338 ./usr/include/upm/flex.hpp
+-rw-r--r-- root       root             2326 ./usr/include/upm/flex.hpp
 drwxr-xr-x root       root              620 ./usr/include/upm/fti
 -rw-r--r-- root       root             1761 ./usr/include/upm/fti/upm_acceleration.h
 -rw-r--r-- root       root             1470 ./usr/include/upm/fti/upm_angle.h
@@ -142,77 +150,71 @@ drwxr-xr-x root       root              620 ./usr/include/upm/fti
 -rw-r--r-- root       root             1277 ./usr/include/upm/fti/upm_touch.h
 -rw-r--r-- root       root             1417 ./usr/include/upm/fti/upm_vibration.h
 -rw-r--r-- root       root             1730 ./usr/include/upm/fti/upm_voltage.h
--rw-r--r-- root       root             3338 ./usr/include/upm/gas.hpp
+-rw-r--r-- root       root             3504 ./usr/include/upm/gas.hpp
 -rw-r--r-- root       root             2359 ./usr/include/upm/gp2y0a.h
--rw-r--r-- root       root             2611 ./usr/include/upm/gp2y0a.hpp
+-rw-r--r-- root       root             2905 ./usr/include/upm/gp2y0a.hpp
 -rw-r--r-- root       root             4640 ./usr/include/upm/gprs.hpp
--rw-r--r-- root       root             1799 ./usr/include/upm/grovebase.hpp
--rw-r--r-- root       root             3001 ./usr/include/upm/grovebutton.hpp
 -rw-r--r-- root       root             2948 ./usr/include/upm/grovecircularled.hpp
--rw-r--r-- root       root             2353 ./usr/include/upm/grovecollision.hpp
--rw-r--r-- root       root             3166 ./usr/include/upm/groveehr.hpp
--rw-r--r-- root       root             2331 ./usr/include/upm/groveeldriver.hpp
--rw-r--r-- root       root             2344 ./usr/include/upm/groveelectromagnet.hpp
--rw-r--r-- root       root             2355 ./usr/include/upm/groveemg.hpp
--rw-r--r-- root       root             4764 ./usr/include/upm/grovegprs.hpp
--rw-r--r-- root       root             2488 ./usr/include/upm/grovegsr.hpp
--rw-r--r-- root       root             1494 ./usr/include/upm/grove.hpp
 -rw-r--r-- root       root             3150 ./usr/include/upm/groveledbar.hpp
--rw-r--r-- root       root             3222 ./usr/include/upm/groveled.hpp
--rw-r--r-- root       root             2727 ./usr/include/upm/grovelight.hpp
--rw-r--r-- root       root             2586 ./usr/include/upm/grovelinefinder.hpp
--rw-r--r-- root       root             8046 ./usr/include/upm/grovemd.hpp
--rw-r--r-- root       root             2541 ./usr/include/upm/grovemoisture.hpp
--rw-r--r-- root       root             2233 ./usr/include/upm/groveo2.hpp
--rw-r--r-- root       root             3161 ./usr/include/upm/groverelay.hpp
--rw-r--r-- root       root             3404 ./usr/include/upm/groverotary.hpp
--rw-r--r-- root       root             5371 ./usr/include/upm/grovescam.hpp
--rw-r--r-- root       root             2936 ./usr/include/upm/groveslide.hpp
--rw-r--r-- root       root             3291 ./usr/include/upm/grovespeaker.hpp
--rw-r--r-- root       root             3309 ./usr/include/upm/grovetemp.hpp
--rw-r--r-- root       root             3806 ./usr/include/upm/groveultrasonic.hpp
--rw-r--r-- root       root             2942 ./usr/include/upm/grovevdiv.hpp
--rw-r--r-- root       root             2235 ./usr/include/upm/grovewater.hpp
--rw-r--r-- root       root             3953 ./usr/include/upm/grovewfs.hpp
 -rw-r--r-- root       root             3746 ./usr/include/upm/gsr.h
--rw-r--r-- root       root             2328 ./usr/include/upm/gsr.hpp
+-rw-r--r-- root       root             2549 ./usr/include/upm/gsr.hpp
 -rw-r--r-- root       root             3214 ./usr/include/upm/guvas12d.h
 -rw-r--r-- root       root             3705 ./usr/include/upm/guvas12d.hpp
--rw-r--r-- root       root            17410 ./usr/include/upm/h3lis331dl.hpp
+-rw-r--r-- root       root            17481 ./usr/include/upm/h3lis331dl.hpp
 -rw-r--r-- root       root             6880 ./usr/include/upm/hal_aci_tl.h
 -rw-r--r-- root       root             2876 ./usr/include/upm/hal_platform.h
 -rw-r--r-- root       root             2476 ./usr/include/upm/hcsr04.h
--rw-r--r-- root       root             2490 ./usr/include/upm/hcsr04.hpp
--rw-r--r-- root       root             4805 ./usr/include/upm/hdc1000.hpp
+-rw-r--r-- root       root             2706 ./usr/include/upm/hcsr04.hpp
+-rw-r--r-- root       root             5275 ./usr/include/upm/hdc1000.hpp
 -rw-r--r-- root       root             5578 ./usr/include/upm/hdxxvxta.hpp
 -rw-r--r-- root       root             4203 ./usr/include/upm/hka5.h
 -rw-r--r-- root       root             4152 ./usr/include/upm/hka5.hpp
--rw-r--r-- root       root             2516 ./usr/include/upm/hlg150h.hpp
+-rw-r--r-- root       root             2528 ./usr/include/upm/hlg150h.hpp
 -rw-r--r-- root       root             4120 ./usr/include/upm/hm11.hpp
 -rw-r--r-- root       root             3817 ./usr/include/upm/hmc5883l.h
 -rw-r--r-- root       root             3442 ./usr/include/upm/hmc5883l.hpp
 -rw-r--r-- root       root             8034 ./usr/include/upm/hmtrp.hpp
--rw-r--r-- root       root            10903 ./usr/include/upm/hp20x.hpp
+-rw-r--r-- root       root            11047 ./usr/include/upm/hp20x.hpp
 -rw-r--r-- root       root             2778 ./usr/include/upm/ht9170.hpp
--rw-r--r-- root       root             7214 ./usr/include/upm/htu21d.hpp
+-rw-r--r-- root       root             7666 ./usr/include/upm/htu21d.hpp
 -rw-r--r-- root       root             5000 ./usr/include/upm/hx711.hpp
 -rw-r--r-- root       root            15619 ./usr/include/upm/ili9341_gfx.hpp
 -rw-r--r-- root       root            10845 ./usr/include/upm/ili9341.hpp
 -rw-r--r-- root       root             2466 ./usr/include/upm/ims_defs.h
 -rw-r--r-- root       root             4550 ./usr/include/upm/ims.h
--rw-r--r-- root       root             4766 ./usr/include/upm/ims.hpp
+-rw-r--r-- root       root             5366 ./usr/include/upm/ims.hpp
 -rw-r--r-- root       root             2359 ./usr/include/upm/ina132.hpp
-drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
--rw-r--r-- root       root             1617 ./usr/include/upm/interfaces/iADC.hpp
--rw-r--r-- root       root             1424 ./usr/include/upm/interfaces/iCO2Sensor.hpp
--rw-r--r-- root       root             1449 ./usr/include/upm/interfaces/iHumiditySensor.hpp
--rw-r--r-- root       root             2422 ./usr/include/upm/interfaces/iLightController.hpp
--rw-r--r-- root       root             1715 ./usr/include/upm/interfaces/iLightSensor.hpp
--rw-r--r-- root       root             1664 ./usr/include/upm/interfaces/iModuleStatus.hpp
--rw-r--r-- root       root             1461 ./usr/include/upm/interfaces/iPressureSensor.hpp
--rw-r--r-- root       root             1460 ./usr/include/upm/interfaces/iTemperatureSensor.hpp
+drwxr-xr-x root       root              600 ./usr/include/upm/interfaces
+-rw-r--r-- root       root             1698 ./usr/include/upm/interfaces/iAcceleration.hpp
+-rw-r--r-- root       root             1474 ./usr/include/upm/interfaces/iAngle.hpp
+-rw-r--r-- root       root             1457 ./usr/include/upm/interfaces/iButton.hpp
+-rw-r--r-- root       root             1494 ./usr/include/upm/interfaces/iClock.hpp
+-rw-r--r-- root       root             1500 ./usr/include/upm/interfaces/iCollision.hpp
+-rw-r--r-- root       root             2209 ./usr/include/upm/interfaces/iDistance.hpp
+-rw-r--r-- root       root             1529 ./usr/include/upm/interfaces/iDistanceInterrupter.hpp
+-rw-r--r-- root       root             1489 ./usr/include/upm/interfaces/iEC.hpp
+-rw-r--r-- root       root             1493 ./usr/include/upm/interfaces/iElectromagnet.hpp
+-rw-r--r-- root       root             1475 ./usr/include/upm/interfaces/iEmg.hpp
+-rw-r--r-- root       root             1576 ./usr/include/upm/interfaces/iGas.hpp
+-rw-r--r-- root       root             1482 ./usr/include/upm/interfaces/iGps.hpp
+-rw-r--r-- root       root             1732 ./usr/include/upm/interfaces/iGyroscope.hpp
+-rw-r--r-- root       root             1473 ./usr/include/upm/interfaces/iHallEffect.hpp
+-rw-r--r-- root       root             1497 ./usr/include/upm/interfaces/iHeartRate.hpp
+-rw-r--r-- root       root             1497 ./usr/include/upm/interfaces/iHumidity.hpp
+-rw-r--r-- root       root             1493 ./usr/include/upm/interfaces/iLight.hpp
+-rw-r--r-- root       root             1645 ./usr/include/upm/interfaces/iLineFinder.hpp
+-rw-r--r-- root       root             1753 ./usr/include/upm/interfaces/iMagnetometer.hpp
+-rw-r--r-- root       root             1456 ./usr/include/upm/interfaces/iMoisture.hpp
+-rw-r--r-- root       root             1450 ./usr/include/upm/interfaces/iMotion.hpp
+-rw-r--r-- root       root             1520 ./usr/include/upm/interfaces/iOrp.hpp
+-rw-r--r-- root       root             1445 ./usr/include/upm/interfaces/iPH.hpp
+-rw-r--r-- root       root             2571 ./usr/include/upm/interfaces/iPressure.hpp
+-rw-r--r-- root       root             1479 ./usr/include/upm/interfaces/iProximity.hpp
+-rw-r--r-- root       root             2435 ./usr/include/upm/interfaces/iTemperature.hpp
+-rw-r--r-- root       root             1492 ./usr/include/upm/interfaces/iVDiv.hpp
+-rw-r--r-- root       root             1491 ./usr/include/upm/interfaces/iWater.hpp
 -rw-r--r-- root       root             2636 ./usr/include/upm/isd1820.hpp
--rw-r--r-- root       root             3533 ./usr/include/upm/itg3200.hpp
+-rw-r--r-- root       root             3912 ./usr/include/upm/itg3200.hpp
 -rw-r--r-- root       root             7870 ./usr/include/upm/jhd1313m1.h
 -rw-r--r-- root       root             7383 ./usr/include/upm/jhd1313m1.hpp
 -rw-r--r-- root       root             4908 ./usr/include/upm/joystick12.h
@@ -221,95 +223,98 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root            16664 ./usr/include/upm/kx122.hpp
 -rw-r--r-- root       root            20396 ./usr/include/upm/kx122_registers.h
 -rw-r--r-- root       root             3974 ./usr/include/upm/kxcjk1013.hpp
--rw-r--r-- root       root             5286 ./usr/include/upm/l298.hpp
--rw-r--r-- root       root            22551 ./usr/include/upm/l3gd20.hpp
+-rw-r--r-- root       root            23275 ./usr/include/upm/kxtj3.h
+-rw-r--r-- root       root            18231 ./usr/include/upm/kxtj3.hpp
+-rw-r--r-- root       root             7336 ./usr/include/upm/kxtj3_registers.h
+-rw-r--r-- root       root             5274 ./usr/include/upm/l298.hpp
+-rw-r--r-- root       root            22930 ./usr/include/upm/l3gd20.hpp
 -rw-r--r-- root       root             1790 ./usr/include/upm/lcd.hpp
 -rw-r--r-- root       root             7169 ./usr/include/upm/lcdks.h
 -rw-r--r-- root       root             8074 ./usr/include/upm/lcdks.hpp
 -rw-r--r-- root       root             8900 ./usr/include/upm/lcm1602.h
 -rw-r--r-- root       root             7971 ./usr/include/upm/lcm1602.hpp
 -rw-r--r-- root       root             3875 ./usr/include/upm/ldt0028.h
--rw-r--r-- root       root             2523 ./usr/include/upm/ldt0028.hpp
+-rw-r--r-- root       root             2833 ./usr/include/upm/ldt0028.hpp
 -rw-r--r-- root       root             2695 ./usr/include/upm/led.h
 -rw-r--r-- root       root             3331 ./usr/include/upm/led.hpp
 -rw-r--r-- root       root            24679 ./usr/include/upm/lib_aci.h
--rw-r--r-- root       root             5909 ./usr/include/upm/lidarlitev3.hpp
+-rw-r--r-- root       root             5982 ./usr/include/upm/lidarlitev3.hpp
 -rw-r--r-- root       root             3816 ./usr/include/upm/light.h
--rw-r--r-- root       root             5157 ./usr/include/upm/light.hpp
+-rw-r--r-- root       root             5453 ./usr/include/upm/light.hpp
 -rw-r--r-- root       root             2196 ./usr/include/upm/linefinder.h
--rw-r--r-- root       root             2797 ./usr/include/upm/linefinder.hpp
+-rw-r--r-- root       root             2878 ./usr/include/upm/linefinder.hpp
 -rw-r--r-- root       root            20680 ./usr/include/upm/lis2ds12_defs.h
 -rw-r--r-- root       root            10888 ./usr/include/upm/lis2ds12.h
--rw-r--r-- root       root            11047 ./usr/include/upm/lis2ds12.hpp
+-rw-r--r-- root       root            11308 ./usr/include/upm/lis2ds12.hpp
 -rw-r--r-- root       root            12794 ./usr/include/upm/lis3dh_defs.h
 -rw-r--r-- root       root            11896 ./usr/include/upm/lis3dh.h
--rw-r--r-- root       root            12060 ./usr/include/upm/lis3dh.hpp
+-rw-r--r-- root       root            12301 ./usr/include/upm/lis3dh.hpp
 -rw-r--r-- root       root             2969 ./usr/include/upm/lm35.h
--rw-r--r-- root       root             3227 ./usr/include/upm/lm35.hpp
+-rw-r--r-- root       root             3304 ./usr/include/upm/lm35.hpp
 -rw-r--r-- root       root             2835 ./usr/include/upm/lol.hpp
 -rw-r--r-- root       root             2219 ./usr/include/upm/loudness.h
 -rw-r--r-- root       root             2751 ./usr/include/upm/loudness.hpp
--rw-r--r-- root       root             2588 ./usr/include/upm/lp8860.hpp
+-rw-r--r-- root       root             2601 ./usr/include/upm/lp8860.hpp
 -rw-r--r-- root       root             3595 ./usr/include/upm/lpd8806.hpp
 -rw-r--r-- root       root            24768 ./usr/include/upm/lsm303agr_defs.h
 -rw-r--r-- root       root            13689 ./usr/include/upm/lsm303agr.h
--rw-r--r-- root       root            13735 ./usr/include/upm/lsm303agr.hpp
+-rw-r--r-- root       root            14066 ./usr/include/upm/lsm303agr.hpp
 -rw-r--r-- root       root            10951 ./usr/include/upm/lsm303d_defs.h
 -rw-r--r-- root       root             7577 ./usr/include/upm/lsm303d.h
--rw-r--r-- root       root             8589 ./usr/include/upm/lsm303d.hpp
+-rw-r--r-- root       root             8858 ./usr/include/upm/lsm303d.hpp
 -rw-r--r-- root       root             5388 ./usr/include/upm/lsm303dlh.hpp
 -rw-r--r-- root       root            23570 ./usr/include/upm/lsm6ds3h_defs.h
 -rw-r--r-- root       root            11727 ./usr/include/upm/lsm6ds3h.h
--rw-r--r-- root       root            11867 ./usr/include/upm/lsm6ds3h.hpp
+-rw-r--r-- root       root            12192 ./usr/include/upm/lsm6ds3h.hpp
 -rw-r--r-- root       root            24281 ./usr/include/upm/lsm6dsl_defs.h
 -rw-r--r-- root       root            12557 ./usr/include/upm/lsm6dsl.h
--rw-r--r-- root       root            12690 ./usr/include/upm/lsm6dsl.hpp
--rw-r--r-- root       root            43972 ./usr/include/upm/lsm9ds0.hpp
--rw-r--r-- root       root             8727 ./usr/include/upm/m24lr64e.h
+-rw-r--r-- root       root            13015 ./usr/include/upm/lsm6dsl.hpp
+-rw-r--r-- root       root            44339 ./usr/include/upm/lsm9ds0.hpp
+-rw-r--r-- root       root             8731 ./usr/include/upm/m24lr64e.h
 -rw-r--r-- root       root             8847 ./usr/include/upm/m24lr64e.hpp
--rw-r--r-- root       root            11164 ./usr/include/upm/mag3110.hpp
+-rw-r--r-- root       root            11590 ./usr/include/upm/mag3110.hpp
 -rw-r--r-- root       root            10247 ./usr/include/upm/max30100.h
 -rw-r--r-- root       root             9894 ./usr/include/upm/max30100.hpp
--rw-r--r-- root       root             3623 ./usr/include/upm/max31723.hpp
+-rw-r--r-- root       root             3777 ./usr/include/upm/max31723.hpp
 -rw-r--r-- root       root             2672 ./usr/include/upm/max31855.hpp
--rw-r--r-- root       root             4867 ./usr/include/upm/max44000.hpp
--rw-r--r-- root       root             5194 ./usr/include/upm/max44009.hpp
+-rw-r--r-- root       root             5046 ./usr/include/upm/max44000.hpp
+-rw-r--r-- root       root             5377 ./usr/include/upm/max44009.hpp
 -rw-r--r-- root       root             3385 ./usr/include/upm/max5487.hpp
 -rw-r--r-- root       root             3781 ./usr/include/upm/maxds3231m.hpp
--rw-r--r-- root       root             3118 ./usr/include/upm/maxsonarez.hpp
+-rw-r--r-- root       root             3315 ./usr/include/upm/maxsonarez.hpp
 -rw-r--r-- root       root             2337 ./usr/include/upm/mb704x.h
--rw-r--r-- root       root             3028 ./usr/include/upm/mb704x.hpp
+-rw-r--r-- root       root             3259 ./usr/include/upm/mb704x.hpp
 -rw-r--r-- root       root            20211 ./usr/include/upm/mcp2515.h
 -rw-r--r-- root       root            19401 ./usr/include/upm/mcp2515.hpp
 -rw-r--r-- root       root            25279 ./usr/include/upm/mcp2515_regs.h
--rw-r--r-- root       root            11527 ./usr/include/upm/mcp9808.hpp
+-rw-r--r-- root       root            11804 ./usr/include/upm/mcp9808.hpp
 -rw-r--r-- root       root             2238 ./usr/include/upm/md_defs.h
 -rw-r--r-- root       root             6061 ./usr/include/upm/md.h
 -rw-r--r-- root       root             6822 ./usr/include/upm/md.hpp
--rw-r--r-- root       root             4552 ./usr/include/upm/mg811.hpp
--rw-r--r-- root       root             4666 ./usr/include/upm/mhz16.hpp
+-rw-r--r-- root       root             4643 ./usr/include/upm/mg811.hpp
+-rw-r--r-- root       root             4819 ./usr/include/upm/mhz16.hpp
 -rw-r--r-- root       root             2103 ./usr/include/upm/mic.h
 -rw-r--r-- root       root             3267 ./usr/include/upm/mic.hpp
--rw-r--r-- root       root             3969 ./usr/include/upm/micsv89.hpp
--rw-r--r-- root       root             3989 ./usr/include/upm/mlx90614.hpp
+-rw-r--r-- root       root             4143 ./usr/include/upm/micsv89.hpp
+-rw-r--r-- root       root             4242 ./usr/include/upm/mlx90614.hpp
 -rw-r--r-- root       root             8244 ./usr/include/upm/mma7361.h
--rw-r--r-- root       root             6808 ./usr/include/upm/mma7361.hpp
--rw-r--r-- root       root             8172 ./usr/include/upm/mma7455.hpp
+-rw-r--r-- root       root             7072 ./usr/include/upm/mma7361.hpp
+-rw-r--r-- root       root             8433 ./usr/include/upm/mma7455.hpp
 -rw-r--r-- root       root             7976 ./usr/include/upm/mma7660.h
--rw-r--r-- root       root             7952 ./usr/include/upm/mma7660.hpp
+-rw-r--r-- root       root             7771 ./usr/include/upm/mma7660.hpp
 -rw-r--r-- root       root             4110 ./usr/include/upm/mma7660_regs.h
--rw-r--r-- root       root            18833 ./usr/include/upm/mma8x5x.hpp
+-rw-r--r-- root       root            19094 ./usr/include/upm/mma8x5x.hpp
 -rw-r--r-- root       root             6759 ./usr/include/upm/mmc35240.hpp
 -rw-r--r-- root       root             2227 ./usr/include/upm/moisture.h
--rw-r--r-- root       root             2404 ./usr/include/upm/moisture.hpp
--rw-r--r-- root       root             8051 ./usr/include/upm/mpl3115a2.hpp
+-rw-r--r-- root       root             2601 ./usr/include/upm/moisture.hpp
+-rw-r--r-- root       root             8284 ./usr/include/upm/mpl3115a2.hpp
 -rw-r--r-- root       root             3722 ./usr/include/upm/mpr121.h
 -rw-r--r-- root       root             3437 ./usr/include/upm/mpr121.hpp
--rw-r--r-- root       root            29341 ./usr/include/upm/mpu60x0.hpp
--rw-r--r-- root       root             4162 ./usr/include/upm/mpu9150.hpp
+-rw-r--r-- root       root            29879 ./usr/include/upm/mpu60x0.hpp
+-rw-r--r-- root       root             4192 ./usr/include/upm/mpu9150.hpp
 -rw-r--r-- root       root             2529 ./usr/include/upm/mpu9250.hpp
 -rw-r--r-- root       root             2446 ./usr/include/upm/mq2.hpp
--rw-r--r-- root       root             2613 ./usr/include/upm/mq303a.h
+-rw-r--r-- root       root             2538 ./usr/include/upm/mq303a.h
 -rw-r--r-- root       root             2738 ./usr/include/upm/mq303a.hpp
 -rw-r--r-- root       root             2386 ./usr/include/upm/mq3.hpp
 -rw-r--r-- root       root             2458 ./usr/include/upm/mq4.hpp
@@ -319,25 +324,25 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             2444 ./usr/include/upm/mq8.hpp
 -rw-r--r-- root       root             2366 ./usr/include/upm/mq9.hpp
 -rw-r--r-- root       root             4420 ./usr/include/upm/mqx.h
--rw-r--r-- root       root             2909 ./usr/include/upm/ms5611.hpp
+-rw-r--r-- root       root             3212 ./usr/include/upm/ms5611.hpp
 -rw-r--r-- root       root             2883 ./usr/include/upm/ms5803_defs.h
 -rw-r--r-- root       root             7052 ./usr/include/upm/ms5803.h
--rw-r--r-- root       root             6879 ./usr/include/upm/ms5803.hpp
+-rw-r--r-- root       root             7021 ./usr/include/upm/ms5803.hpp
 -rw-r--r-- root       root             5813 ./usr/include/upm/my9221.h
 -rw-r--r-- root       root             4399 ./usr/include/upm/my9221.hpp
 -rw-r--r-- root       root             8124 ./usr/include/upm/nlgpio16.hpp
 -rw-r--r-- root       root             5279 ./usr/include/upm/nmea_gps.h
--rw-r--r-- root       root            16333 ./usr/include/upm/nmea_gps.hpp
+-rw-r--r-- root       root            16402 ./usr/include/upm/nmea_gps.hpp
 -rw-r--r-- root       root            11349 ./usr/include/upm/nrf24l01.hpp
 -rw-r--r-- root       root             3643 ./usr/include/upm/nunchuck.h
 -rw-r--r-- root       root             3405 ./usr/include/upm/nunchuck.hpp
 -rw-r--r-- root       root             3756 ./usr/include/upm/o2.h
--rw-r--r-- root       root             2143 ./usr/include/upm/o2.hpp
+-rw-r--r-- root       root             2328 ./usr/include/upm/o2.hpp
 -rw-r--r-- root       root             4976 ./usr/include/upm/otp538u.h
--rw-r--r-- root       root             5988 ./usr/include/upm/otp538u.hpp
+-rw-r--r-- root       root             6223 ./usr/include/upm/otp538u.hpp
 -rw-r--r-- root       root             3244 ./usr/include/upm/p9813.h
 -rw-r--r-- root       root             4374 ./usr/include/upm/p9813.hpp
--rw-r--r-- root       root            11331 ./usr/include/upm/pca9685.hpp
+-rw-r--r-- root       root            11587 ./usr/include/upm/pca9685.hpp
 -rw-r--r-- root       root            17331 ./usr/include/upm/pn532.hpp
 -rw-r--r-- root       root             1740 ./usr/include/upm/ppd42ns_data.h
 -rw-r--r-- root       root             2280 ./usr/include/upm/ppd42ns.h
@@ -345,34 +350,34 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             3412 ./usr/include/upm/pulsensor.hpp
 -rw-r--r-- root       root             2423 ./usr/include/upm/relay.h
 -rw-r--r-- root       root             3191 ./usr/include/upm/relay.hpp
--rw-r--r-- root       root            43066 ./usr/include/upm/rf22.hpp
--rw-r--r-- root       root             2445 ./usr/include/upm/rfr359f.hpp
+-rw-r--r-- root       root            43054 ./usr/include/upm/rf22.hpp
+-rw-r--r-- root       root             2538 ./usr/include/upm/rfr359f.hpp
 -rw-r--r-- root       root             4277 ./usr/include/upm/rgbringcoder.hpp
--rw-r--r-- root       root             3443 ./usr/include/upm/rhusb.hpp
+-rw-r--r-- root       root             3796 ./usr/include/upm/rhusb.hpp
 -rw-r--r-- root       root             5726 ./usr/include/upm/rn2903_defs.h
 -rw-r--r-- root       root            28129 ./usr/include/upm/rn2903.h
 -rw-r--r-- root       root            25461 ./usr/include/upm/rn2903.hpp
 -rw-r--r-- root       root             2417 ./usr/include/upm/rotaryencoder.h
--rw-r--r-- root       root             3244 ./usr/include/upm/rotaryencoder.hpp
+-rw-r--r-- root       root             3452 ./usr/include/upm/rotaryencoder.hpp
 -rw-r--r-- root       root             2463 ./usr/include/upm/rotary.h
--rw-r--r-- root       root             3483 ./usr/include/upm/rotary.hpp
+-rw-r--r-- root       root             3711 ./usr/include/upm/rotary.hpp
 -rw-r--r-- root       root             2717 ./usr/include/upm/rpr220.h
 -rw-r--r-- root       root             3560 ./usr/include/upm/rpr220.hpp
 -rw-r--r-- root       root             6547 ./usr/include/upm/rsc.h
--rw-r--r-- root       root             8645 ./usr/include/upm/rsc.hpp
+-rw-r--r-- root       root             8792 ./usr/include/upm/rsc.hpp
 -rw-r--r-- root       root             7339 ./usr/include/upm/rsc_regs.h
 -rw-r--r-- root       root             5199 ./usr/include/upm/scam.hpp
 -rw-r--r-- root       root             3918 ./usr/include/upm/sensortemplate.hpp
 -rw-r--r-- root       root             4920 ./usr/include/upm/servo.hpp
 -rw-r--r-- root       root             2480 ./usr/include/upm/sht1x_defs.h
 -rw-r--r-- root       root             6206 ./usr/include/upm/sht1x.h
--rw-r--r-- root       root             5496 ./usr/include/upm/sht1x.hpp
--rw-r--r-- root       root             3135 ./usr/include/upm/si1132.hpp
+-rw-r--r-- root       root             5643 ./usr/include/upm/sht1x.hpp
+-rw-r--r-- root       root             3318 ./usr/include/upm/si1132.hpp
 -rw-r--r-- root       root            10321 ./usr/include/upm/si114x.hpp
--rw-r--r-- root       root             4024 ./usr/include/upm/si7005.hpp
+-rw-r--r-- root       root             4355 ./usr/include/upm/si7005.hpp
 -rw-r--r-- root       root             3809 ./usr/include/upm/slide.h
 -rw-r--r-- root       root             3102 ./usr/include/upm/slide.hpp
--rw-r--r-- root       root            15280 ./usr/include/upm/sm130.hpp
+-rw-r--r-- root       root            15268 ./usr/include/upm/sm130.hpp
 -rw-r--r-- root       root            11660 ./usr/include/upm/smartdrive.hpp
 -rw-r--r-- root       root             5740 ./usr/include/upm/speaker.h
 -rw-r--r-- root       root             5086 ./usr/include/upm/speaker.hpp
@@ -384,26 +389,26 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             9711 ./usr/include/upm/ssd.hpp
 -rw-r--r-- root       root             6984 ./usr/include/upm/st7735_gfx.hpp
 -rw-r--r-- root       root            22538 ./usr/include/upm/st7735.hpp
--rw-r--r-- root       root             5848 ./usr/include/upm/stepmotor.hpp
+-rw-r--r-- root       root             5836 ./usr/include/upm/stepmotor.hpp
 -rw-r--r-- root       root            64755 ./usr/include/upm/sx1276.hpp
 -rw-r--r-- root       root             2485 ./usr/include/upm/sx6119.hpp
--rw-r--r-- root       root             3801 ./usr/include/upm/t6713.hpp
+-rw-r--r-- root       root             3993 ./usr/include/upm/t6713.hpp
 -rw-r--r-- root       root             2970 ./usr/include/upm/ta12200.hpp
 -rw-r--r-- root       root             6456 ./usr/include/upm/tca9548a.hpp
 -rw-r--r-- root       root             5282 ./usr/include/upm/tcs3414cs.hpp
 -rw-r--r-- root       root            10775 ./usr/include/upm/tcs37727.hpp
--rw-r--r-- root       root             5571 ./usr/include/upm/teams.hpp
+-rw-r--r-- root       root             5868 ./usr/include/upm/teams.hpp
 -rw-r--r-- root       root             2222 ./usr/include/upm/temperature.h
--rw-r--r-- root       root             3671 ./usr/include/upm/temperature.hpp
--rw-r--r-- root       root             6937 ./usr/include/upm/tex00.hpp
--rw-r--r-- root       root             3230 ./usr/include/upm/th02.hpp
--rw-r--r-- root       root             4694 ./usr/include/upm/tm1637.hpp
+-rw-r--r-- root       root             3928 ./usr/include/upm/temperature.hpp
+-rw-r--r-- root       root             7234 ./usr/include/upm/tex00.hpp
+-rw-r--r-- root       root             3482 ./usr/include/upm/th02.hpp
+-rw-r--r-- root       root             4466 ./usr/include/upm/tm1637.hpp
 -rw-r--r-- root       root             7507 ./usr/include/upm/tmp006.hpp
 -rw-r--r-- root       root             3098 ./usr/include/upm/tp401.hpp
 -rw-r--r-- root       root             5912 ./usr/include/upm/tsl2561.h
--rw-r--r-- root       root             6083 ./usr/include/upm/tsl2561.hpp
--rw-r--r-- root       root             3085 ./usr/include/upm/ttp223.h
--rw-r--r-- root       root             3382 ./usr/include/upm/ttp223.hpp
+-rw-r--r-- root       root             6326 ./usr/include/upm/tsl2561.hpp
+-rw-r--r-- root       root             3047 ./usr/include/upm/ttp223.h
+-rw-r--r-- root       root             3449 ./usr/include/upm/ttp223.hpp
 -rw-r--r-- root       root             2042 ./usr/include/upm/uartat_defs.h
 -rw-r--r-- root       root            10454 ./usr/include/upm/uartat.h
 -rw-r--r-- root       root            10082 ./usr/include/upm/uartat.hpp
@@ -411,34 +416,36 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             1426 ./usr/include/upm/uln200xa_defs.h
 -rw-r--r-- root       root             3502 ./usr/include/upm/uln200xa.h
 -rw-r--r-- root       root             3572 ./usr/include/upm/uln200xa.hpp
--rw-r--r-- root       root             3674 ./usr/include/upm/ultrasonic.hpp
+-rw-r--r-- root       root             3677 ./usr/include/upm/ultrasonic.hpp
 -rw-r--r-- root       root             3619 ./usr/include/upm/upm_fti.h
 -rw-r--r-- root       root             1407 ./usr/include/upm/upm.h
 -rw-r--r-- root       root             1216 ./usr/include/upm/upm_internal.h
 -rw-r--r-- root       root             1502 ./usr/include/upm/upm_math.h
 -rw-r--r-- root       root             1586 ./usr/include/upm/upm_platform.h
+-rw-r--r-- root       root              893 ./usr/include/upm/upm_string_parser.hpp
 -rw-r--r-- root       root             2442 ./usr/include/upm/upm_types.h
--rw-r--r-- root       root             3525 ./usr/include/upm/upm_utilities.h
+-rw-r--r-- root       root             4512 ./usr/include/upm/upm_utilities.h
 -rw-r--r-- root       root                0 ./usr/include/upm/upm_utilities.hpp
 -rw-r--r-- root       root             4948 ./usr/include/upm/urm37.h
--rw-r--r-- root       root             5220 ./usr/include/upm/urm37.hpp
+-rw-r--r-- root       root             5575 ./usr/include/upm/urm37.hpp
 -rw-r--r-- root       root             6134 ./usr/include/upm/vcap.hpp
 -rw-r--r-- root       root             3971 ./usr/include/upm/vdiv.h
--rw-r--r-- root       root             2790 ./usr/include/upm/vdiv.hpp
+-rw-r--r-- root       root             2991 ./usr/include/upm/vdiv.hpp
 -rw-r--r-- root       root             2795 ./usr/include/upm/veml6070.h
 -rw-r--r-- root       root             4004 ./usr/include/upm/veml6070.hpp
 -rw-r--r-- root       root             1983 ./usr/include/upm/water.h
--rw-r--r-- root       root             2201 ./usr/include/upm/water.hpp
+-rw-r--r-- root       root             2266 ./usr/include/upm/water.hpp
 -rw-r--r-- root       root             2151 ./usr/include/upm/waterlevel.hpp
 -rw-r--r-- root       root             3552 ./usr/include/upm/wfs.h
 -rw-r--r-- root       root             4035 ./usr/include/upm/wfs.hpp
 -rw-r--r-- root       root             3513 ./usr/include/upm/wheelencoder.hpp
 -rw-r--r-- root       root            10239 ./usr/include/upm/wt5001.hpp
--rw-r--r-- root       root             6304 ./usr/include/upm/xbee.hpp
+-rw-r--r-- root       root             6292 ./usr/include/upm/xbee.hpp
 -rw-r--r-- root       root             2133 ./usr/include/upm/yg1006.h
 -rw-r--r-- root       root             2490 ./usr/include/upm/yg1006.hpp
 -rw-r--r-- root       root            11248 ./usr/include/upm/zfm20.hpp
-drwxr-xr-x root       root             6200 ./usr/lib
+drwxr-xr-x root       root             5980 ./usr/lib
+lrwxrwxrwx root       root               25 ./usr/lib/libupm-2jciebu01_usb.so -> libupm-2jciebu01_usb.so.1
 lrwxrwxrwx root       root               17 ./usr/lib/libupm-a110x.so -> libupm-a110x.so.1
 lrwxrwxrwx root       root               15 ./usr/lib/libupm-abp.so -> libupm-abp.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupm-ad8232.so -> libupm-ad8232.so.1
@@ -455,7 +462,9 @@ lrwxrwxrwx root       root               18 ./usr/lib/libupm-apa102.so -> libupm
 lrwxrwxrwx root       root               20 ./usr/lib/libupm-apds9002.so -> libupm-apds9002.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libupm-apds9930.so -> libupm-apds9930.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-at42qt1070.so -> libupm-at42qt1070.so.1
+lrwxrwxrwx root       root               18 ./usr/lib/libupm-bh1749.so -> libupm-bh1749.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupm-bh1750.so -> libupm-bh1750.so.1
+lrwxrwxrwx root       root               18 ./usr/lib/libupm-bh1792.so -> libupm-bh1792.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libupm-biss0001.so -> libupm-biss0001.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupm-bma220.so -> libupm-bma220.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libupm-bma250e.so -> libupm-bma250e.so.1
@@ -472,7 +481,9 @@ lrwxrwxrwx root       root               18 ./usr/lib/libupmc-a110x.so -> libupm
 lrwxrwxrwx root       root               16 ./usr/lib/libupmc-abp.so -> libupmc-abp.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libupmc-ad8232.so -> libupmc-ad8232.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libupmc-apa102.so -> libupmc-apa102.so.1
+lrwxrwxrwx root       root               19 ./usr/lib/libupmc-bh1749.so -> libupmc-bh1749.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libupmc-bh1750.so -> libupmc-bh1750.so.1
+lrwxrwxrwx root       root               19 ./usr/lib/libupmc-bh1792.so -> libupmc-bh1792.so.1
 lrwxrwxrwx root       root               21 ./usr/lib/libupmc-biss0001.so -> libupmc-biss0001.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libupmc-bma250e.so -> libupmc-bma250e.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libupmc-bmg160.so -> libupmc-bmg160.so.1
@@ -505,6 +516,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libupmc-jhd1313m1.so -> li
 lrwxrwxrwx root       root               23 ./usr/lib/libupmc-joystick12.so -> libupmc-joystick12.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libupm-cjq4435.so -> libupm-cjq4435.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupmc-kx122.so -> libupmc-kx122.so.1
+lrwxrwxrwx root       root               18 ./usr/lib/libupmc-kxtj3.so -> libupmc-kxtj3.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupmc-lcdks.so -> libupmc-lcdks.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libupmc-lcm1602.so -> libupmc-lcm1602.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libupmc-ldt0028.so -> libupmc-ldt0028.so.1
@@ -581,24 +593,6 @@ lrwxrwxrwx root       root               16 ./usr/lib/libupm-flex.so -> libupm-f
 lrwxrwxrwx root       root               15 ./usr/lib/libupm-gas.so -> libupm-gas.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupm-gp2y0a.so -> libupm-gp2y0a.so.1
 lrwxrwxrwx root       root               16 ./usr/lib/libupm-gprs.so -> libupm-gprs.so.1
-lrwxrwxrwx root       root               26 ./usr/lib/libupm-grovecollision.so -> libupm-grovecollision.so.1
-lrwxrwxrwx root       root               20 ./usr/lib/libupm-groveehr.so -> libupm-groveehr.so.1
-lrwxrwxrwx root       root               25 ./usr/lib/libupm-groveeldriver.so -> libupm-groveeldriver.so.1
-lrwxrwxrwx root       root               30 ./usr/lib/libupm-groveelectromagnet.so -> libupm-groveelectromagnet.so.1
-lrwxrwxrwx root       root               20 ./usr/lib/libupm-groveemg.so -> libupm-groveemg.so.1
-lrwxrwxrwx root       root               21 ./usr/lib/libupm-grovegprs.so -> libupm-grovegprs.so.1
-lrwxrwxrwx root       root               20 ./usr/lib/libupm-grovegsr.so -> libupm-grovegsr.so.1
-lrwxrwxrwx root       root               27 ./usr/lib/libupm-grovelinefinder.so -> libupm-grovelinefinder.so.1
-lrwxrwxrwx root       root               19 ./usr/lib/libupm-grovemd.so -> libupm-grovemd.so.1
-lrwxrwxrwx root       root               25 ./usr/lib/libupm-grovemoisture.so -> libupm-grovemoisture.so.1
-lrwxrwxrwx root       root               19 ./usr/lib/libupm-groveo2.so -> libupm-groveo2.so.1
-lrwxrwxrwx root       root               21 ./usr/lib/libupm-grovescam.so -> libupm-grovescam.so.1
-lrwxrwxrwx root       root               17 ./usr/lib/libupm-grove.so -> libupm-grove.so.1
-lrwxrwxrwx root       root               24 ./usr/lib/libupm-grovespeaker.so -> libupm-grovespeaker.so.1
-lrwxrwxrwx root       root               27 ./usr/lib/libupm-groveultrasonic.so -> libupm-groveultrasonic.so.1
-lrwxrwxrwx root       root               21 ./usr/lib/libupm-grovevdiv.so -> libupm-grovevdiv.so.1
-lrwxrwxrwx root       root               22 ./usr/lib/libupm-grovewater.so -> libupm-grovewater.so.1
-lrwxrwxrwx root       root               20 ./usr/lib/libupm-grovewfs.so -> libupm-grovewfs.so.1
 lrwxrwxrwx root       root               15 ./usr/lib/libupm-gsr.so -> libupm-gsr.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libupm-guvas12d.so -> libupm-guvas12d.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-h3lis331dl.so -> libupm-h3lis331dl.so.1
@@ -624,6 +618,7 @@ lrwxrwxrwx root       root               21 ./usr/lib/libupm-jhd1313m1.so -> lib
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-joystick12.so -> libupm-joystick12.so.1
 lrwxrwxrwx root       root               17 ./usr/lib/libupm-kx122.so -> libupm-kx122.so.1
 lrwxrwxrwx root       root               21 ./usr/lib/libupm-kxcjk1013.so -> libupm-kxcjk1013.so.1
+lrwxrwxrwx root       root               17 ./usr/lib/libupm-kxtj3.so -> libupm-kxtj3.so.1
 lrwxrwxrwx root       root               16 ./usr/lib/libupm-l298.so -> libupm-l298.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupm-l3gd20.so -> libupm-l3gd20.so.1
 lrwxrwxrwx root       root               17 ./usr/lib/libupm-lcdks.so -> libupm-lcdks.so.1
@@ -746,7 +741,8 @@ lrwxrwxrwx root       root               18 ./usr/lib/libupm-wt5001.so -> libupm
 lrwxrwxrwx root       root               16 ./usr/lib/libupm-xbee.so -> libupm-xbee.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/libupm-yg1006.so -> libupm-yg1006.so.1
 lrwxrwxrwx root       root               17 ./usr/lib/libupm-zfm20.so -> libupm-zfm20.so.1
-drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
+drwxr-xr-x root       root             5960 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              273 ./usr/lib/pkgconfig/upm-2jciebu01_usb.pc
 -rw-r--r-- root       root              258 ./usr/lib/pkgconfig/upm-a110x.pc
 -rw-r--r-- root       root              263 ./usr/lib/pkgconfig/upm-abp.pc
 -rw-r--r-- root       root              273 ./usr/lib/pkgconfig/upm-ad8232.pc
@@ -754,7 +750,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-adafruitss.pc
 -rw-r--r-- root       root              292 ./usr/lib/pkgconfig/upm-adc121c021.pc
 -rw-r--r-- root       root              292 ./usr/lib/pkgconfig/upm-adis16448.pc
--rw-r--r-- root       root              281 ./usr/lib/pkgconfig/upm-ads1x15.pc
+-rw-r--r-- root       root              266 ./usr/lib/pkgconfig/upm-ads1x15.pc
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/upm-adxl335.pc
 -rw-r--r-- root       root              277 ./usr/lib/pkgconfig/upm-adxl345.pc
 -rw-r--r-- root       root              275 ./usr/lib/pkgconfig/upm-adxrs610.pc
@@ -763,15 +759,17 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              261 ./usr/lib/pkgconfig/upm-apds9002.pc
 -rw-r--r-- root       root              277 ./usr/lib/pkgconfig/upm-apds9930.pc
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/upm-at42qt1070.pc
+-rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-bh1749.pc
 -rw-r--r-- root       root              277 ./usr/lib/pkgconfig/upm-bh1750.pc
+-rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-bh1792.pc
 -rw-r--r-- root       root              285 ./usr/lib/pkgconfig/upm-biss0001.pc
 -rw-r--r-- root       root              267 ./usr/lib/pkgconfig/upm-bma220.pc
 -rw-r--r-- root       root              288 ./usr/lib/pkgconfig/upm-bma250e.pc
 -rw-r--r-- root       root              281 ./usr/lib/pkgconfig/upm-bmg160.pc
 -rw-r--r-- root       root              348 ./usr/lib/pkgconfig/upm-bmi160.pc
 -rw-r--r-- root       root              284 ./usr/lib/pkgconfig/upm-bmm150.pc
--rw-r--r-- root       root              324 ./usr/lib/pkgconfig/upm-bmp280.pc
--rw-r--r-- root       root              303 ./usr/lib/pkgconfig/upm-bmpx8x.pc
+-rw-r--r-- root       root              309 ./usr/lib/pkgconfig/upm-bmp280.pc
+-rw-r--r-- root       root              288 ./usr/lib/pkgconfig/upm-bmpx8x.pc
 -rw-r--r-- root       root              289 ./usr/lib/pkgconfig/upm-bmx055.pc
 -rw-r--r-- root       root              303 ./usr/lib/pkgconfig/upm-bno055.pc
 -rw-r--r-- root       root              237 ./usr/lib/pkgconfig/upm-button.pc
@@ -780,14 +778,16 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              256 ./usr/lib/pkgconfig/upmc-abp.pc
 -rw-r--r-- root       root              263 ./usr/lib/pkgconfig/upmc-ad8232.pc
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/upmc-apa102.pc
+-rw-r--r-- root       root              250 ./usr/lib/pkgconfig/upmc-bh1749.pc
 -rw-r--r-- root       root              268 ./usr/lib/pkgconfig/upmc-bh1750.pc
+-rw-r--r-- root       root              250 ./usr/lib/pkgconfig/upmc-bh1792.pc
 -rw-r--r-- root       root              273 ./usr/lib/pkgconfig/upmc-biss0001.pc
 -rw-r--r-- root       root              278 ./usr/lib/pkgconfig/upmc-bma250e.pc
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/upmc-bmg160.pc
 -rw-r--r-- root       root              339 ./usr/lib/pkgconfig/upmc-bmi160.pc
 -rw-r--r-- root       root              275 ./usr/lib/pkgconfig/upmc-bmm150.pc
--rw-r--r-- root       root              315 ./usr/lib/pkgconfig/upmc-bmp280.pc
--rw-r--r-- root       root              294 ./usr/lib/pkgconfig/upmc-bmpx8x.pc
+-rw-r--r-- root       root              300 ./usr/lib/pkgconfig/upmc-bmp280.pc
+-rw-r--r-- root       root              279 ./usr/lib/pkgconfig/upmc-bmpx8x.pc
 -rw-r--r-- root       root              294 ./usr/lib/pkgconfig/upmc-bno055.pc
 -rw-r--r-- root       root              239 ./usr/lib/pkgconfig/upmc-button.pc
 -rw-r--r-- root       root              254 ./usr/lib/pkgconfig/upmc-buzzer.pc
@@ -813,6 +813,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              263 ./usr/lib/pkgconfig/upmc-joystick12.pc
 -rw-r--r-- root       root              266 ./usr/lib/pkgconfig/upm-cjq4435.pc
 -rw-r--r-- root       root              259 ./usr/lib/pkgconfig/upmc-kx122.pc
+-rw-r--r-- root       root              268 ./usr/lib/pkgconfig/upmc-kxtj3.pc
 -rw-r--r-- root       root              312 ./usr/lib/pkgconfig/upmc-lcdks.pc
 -rw-r--r-- root       root              322 ./usr/lib/pkgconfig/upmc-lcm1602.pc
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/upmc-ldt0028.pc
@@ -875,7 +876,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              306 ./usr/lib/pkgconfig/upm-dfrorp.pc
 -rw-r--r-- root       root              256 ./usr/lib/pkgconfig/upm-dfrph.pc
 -rw-r--r-- root       root              259 ./usr/lib/pkgconfig/upm-ds1307.pc
--rw-r--r-- root       root              269 ./usr/lib/pkgconfig/upm-ds1808lc.pc
+-rw-r--r-- root       root              254 ./usr/lib/pkgconfig/upm-ds1808lc.pc
 -rw-r--r-- root       root              310 ./usr/lib/pkgconfig/upm-ds18b20.pc
 -rw-r--r-- root       root              269 ./usr/lib/pkgconfig/upm-ds2413.pc
 -rw-r--r-- root       root              290 ./usr/lib/pkgconfig/upm-ecezo.pc
@@ -889,24 +890,6 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              261 ./usr/lib/pkgconfig/upm-gas.pc
 -rw-r--r-- root       root              285 ./usr/lib/pkgconfig/upm-gp2y0a.pc
 -rw-r--r-- root       root              269 ./usr/lib/pkgconfig/upm-gprs.pc
--rw-r--r-- root       root              263 ./usr/lib/pkgconfig/upm-grovecollision.pc
--rw-r--r-- root       root              261 ./usr/lib/pkgconfig/upm-groveehr.pc
--rw-r--r-- root       root              275 ./usr/lib/pkgconfig/upm-groveeldriver.pc
--rw-r--r-- root       root              268 ./usr/lib/pkgconfig/upm-groveelectromagnet.pc
--rw-r--r-- root       root              264 ./usr/lib/pkgconfig/upm-groveemg.pc
--rw-r--r-- root       root              248 ./usr/lib/pkgconfig/upm-grovegprs.pc
--rw-r--r-- root       root              270 ./usr/lib/pkgconfig/upm-grovegsr.pc
--rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-grovelinefinder.pc
--rw-r--r-- root       root              249 ./usr/lib/pkgconfig/upm-grovemd.pc
--rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-grovemoisture.pc
--rw-r--r-- root       root              265 ./usr/lib/pkgconfig/upm-groveo2.pc
--rw-r--r-- root       root              261 ./usr/lib/pkgconfig/upm-grove.pc
--rw-r--r-- root       root              257 ./usr/lib/pkgconfig/upm-grovescam.pc
--rw-r--r-- root       root              257 ./usr/lib/pkgconfig/upm-grovespeaker.pc
--rw-r--r-- root       root              276 ./usr/lib/pkgconfig/upm-groveultrasonic.pc
--rw-r--r-- root       root              252 ./usr/lib/pkgconfig/upm-grovevdiv.pc
--rw-r--r-- root       root              251 ./usr/lib/pkgconfig/upm-grovewater.pc
--rw-r--r-- root       root              252 ./usr/lib/pkgconfig/upm-grovewfs.pc
 -rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-gsr.pc
 -rw-r--r-- root       root              279 ./usr/lib/pkgconfig/upm-guvas12d.pc
 -rw-r--r-- root       root              278 ./usr/lib/pkgconfig/upm-h3lis331dl.pc
@@ -914,7 +897,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              260 ./usr/lib/pkgconfig/upm-hdc1000.pc
 -rw-r--r-- root       root              282 ./usr/lib/pkgconfig/upm-hdxxvxta.pc
 -rw-r--r-- root       root              287 ./usr/lib/pkgconfig/upm-hka5.pc
--rw-r--r-- root       root              288 ./usr/lib/pkgconfig/upm-hlg150h.pc
+-rw-r--r-- root       root              273 ./usr/lib/pkgconfig/upm-hlg150h.pc
 -rw-r--r-- root       root              254 ./usr/lib/pkgconfig/upm-hm11.pc
 -rw-r--r-- root       root              271 ./usr/lib/pkgconfig/upm-hmc5883l.pc
 -rw-r--r-- root       root              249 ./usr/lib/pkgconfig/upm-hmtrp.pc
@@ -932,6 +915,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              261 ./usr/lib/pkgconfig/upm-joystick12.pc
 -rw-r--r-- root       root              268 ./usr/lib/pkgconfig/upm-kx122.pc
 -rw-r--r-- root       root              267 ./usr/lib/pkgconfig/upm-kxcjk1013.pc
+-rw-r--r-- root       root              276 ./usr/lib/pkgconfig/upm-kxtj3.pc
 -rw-r--r-- root       root              253 ./usr/lib/pkgconfig/upm-l298.pc
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/upm-l3gd20.pc
 -rw-r--r-- root       root              321 ./usr/lib/pkgconfig/upm-lcdks.pc
@@ -947,7 +931,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              262 ./usr/lib/pkgconfig/upm-lm35.pc
 -rw-r--r-- root       root              255 ./usr/lib/pkgconfig/upm-lol.pc
 -rw-r--r-- root       root              264 ./usr/lib/pkgconfig/upm-loudness.pc
--rw-r--r-- root       root              269 ./usr/lib/pkgconfig/upm-lp8860.pc
+-rw-r--r-- root       root              254 ./usr/lib/pkgconfig/upm-lp8860.pc
 -rw-r--r-- root       root              265 ./usr/lib/pkgconfig/upm-lpd8806.pc
 -rw-r--r-- root       root              288 ./usr/lib/pkgconfig/upm-lsm303agr.pc
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/upm-lsm303dlh.pc
@@ -961,7 +945,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              265 ./usr/lib/pkgconfig/upm-max31723.pc
 -rw-r--r-- root       root              268 ./usr/lib/pkgconfig/upm-max31855.pc
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/upm-max44000.pc
--rw-r--r-- root       root              292 ./usr/lib/pkgconfig/upm-max44009.pc
+-rw-r--r-- root       root              277 ./usr/lib/pkgconfig/upm-max44009.pc
 -rw-r--r-- root       root              254 ./usr/lib/pkgconfig/upm-max5487.pc
 -rw-r--r-- root       root              274 ./usr/lib/pkgconfig/upm-maxds3231m.pc
 -rw-r--r-- root       root              279 ./usr/lib/pkgconfig/upm-maxsonarez.pc
@@ -984,7 +968,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              285 ./usr/lib/pkgconfig/upm-mpr121.pc
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/upm-mpu9150.pc
 -rw-r--r-- root       root              267 ./usr/lib/pkgconfig/upm-mq303a.pc
--rw-r--r-- root       root              288 ./usr/lib/pkgconfig/upm-ms5611.pc
+-rw-r--r-- root       root              273 ./usr/lib/pkgconfig/upm-ms5611.pc
 -rw-r--r-- root       root              303 ./usr/lib/pkgconfig/upm-ms5803.pc
 -rw-r--r-- root       root              310 ./usr/lib/pkgconfig/upm-my9221.pc
 -rw-r--r-- root       root              261 ./usr/lib/pkgconfig/upm-nlgpio16.pc
@@ -1013,9 +997,9 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              310 ./usr/lib/pkgconfig/upm-sensortemplate.pc
 -rw-r--r-- root       root              270 ./usr/lib/pkgconfig/upm-servo.pc
 -rw-r--r-- root       root              285 ./usr/lib/pkgconfig/upm-sht1x.pc
--rw-r--r-- root       root              273 ./usr/lib/pkgconfig/upm-si1132.pc
+-rw-r--r-- root       root              258 ./usr/lib/pkgconfig/upm-si1132.pc
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/upm-si114x.pc
--rw-r--r-- root       root              289 ./usr/lib/pkgconfig/upm-si7005.pc
+-rw-r--r-- root       root              274 ./usr/lib/pkgconfig/upm-si7005.pc
 -rw-r--r-- root       root              248 ./usr/lib/pkgconfig/upm-slide.pc
 -rw-r--r-- root       root              240 ./usr/lib/pkgconfig/upm-sm130.pc
 -rw-r--r-- root       root              275 ./usr/lib/pkgconfig/upm-smartdrive.pc
@@ -1025,7 +1009,7 @@ drwxr-xr-x root       root             6180 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              250 ./usr/lib/pkgconfig/upm-stepmotor.pc
 -rw-r--r-- root       root              256 ./usr/lib/pkgconfig/upm-sx1276.pc
 -rw-r--r-- root       root              242 ./usr/lib/pkgconfig/upm-sx6119.pc
--rw-r--r-- root       root              277 ./usr/lib/pkgconfig/upm-t6713.pc
+-rw-r--r-- root       root              262 ./usr/lib/pkgconfig/upm-t6713.pc
 -rw-r--r-- root       root              250 ./usr/lib/pkgconfig/upm-ta12200.pc
 -rw-r--r-- root       root              270 ./usr/lib/pkgconfig/upm-tca9548a.pc
 -rw-r--r-- root       root              253 ./usr/lib/pkgconfig/upm-tcs3414cs.pc

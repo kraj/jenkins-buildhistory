@@ -1,9 +1,9 @@
 PV = 1.0.3
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.29) libbsd (>= 0.9.1) libevent (>= 2.1.10) os-release shadow
-RRECOMMENDS = 
-PKGSIZE = 479675
+RDEPENDS = base-files base-passwd glibc (>= 2.29) initd-functions libbsd (>= 0.9.1) libevent (>= 2.1.10) os-release shadow
+RRECOMMENDS = update-rc.d
+PKGSIZE = 482323
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lldpd /usr/lib/lldpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sysusers.d /lib/systemd/system-preset/98-lldpd.preset /lib/systemd/system/lldpd.service
-FILELIST = /etc/default/lldpd /etc/lldpd.conf /etc/lldpd.d/README.conf /lib/systemd/system-preset/98-lldpd.preset /lib/systemd/system/lldpd.service /usr/lib/liblldpctl.so.4 /usr/lib/liblldpctl.so.4.8.0 /usr/sbin/lldpcli /usr/sbin/lldpctl /usr/sbin/lldpd
+FILELIST = /etc/default/lldpd /etc/init.d/lldpd /etc/lldpd.conf /etc/lldpd.d/README.conf /lib/systemd/system-preset/98-lldpd.preset /lib/systemd/system/lldpd.service /usr/lib/liblldpctl.so.4 /usr/lib/liblldpctl.so.4.8.0 /usr/sbin/lldpcli /usr/sbin/lldpctl /usr/sbin/lldpd

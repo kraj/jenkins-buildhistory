@@ -1,11 +1,11 @@
 PV = 0.7.2
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = atftpd-systemd
 RDEPENDS = glibc (>= 2.29) libwrap (>= 7.6)
-RRECOMMENDS = 
+RRECOMMENDS = update-rc.d
 RREPLACES = atftpd-systemd
 RCONFLICTS = atftpd-systemd
-PKGSIZE = 72541
+PKGSIZE = 73315
 FILES = /usr/sbin/* /etc /srv/tftp /lib/systemd/system/atftpd.service /lib/systemd/system-preset/98-atftpd.preset /lib/systemd/system/atftpd.service
-FILELIST = /lib/systemd/system-preset/98-atftpd.preset /lib/systemd/system/atftpd.service /usr/sbin/atftpd
+FILELIST = /etc/init.d/atftpd /lib/systemd/system-preset/98-atftpd.preset /lib/systemd/system/atftpd.service /usr/sbin/atftpd

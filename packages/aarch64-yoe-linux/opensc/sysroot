@@ -1,0 +1,75 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   6 ./sysroot-providers/opensc
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                 260 ./usr/lib
+-rwxr-xr-x -          -             1799760 ./usr/lib/libopensc.so.6.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libopensc.so.6 -> libopensc.so.6.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libopensc.so -> libopensc.so.6.0.0
+-rwxr-xr-x -          -               67656 ./usr/lib/libsmm-local.so.6.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libsmm-local.so.6 -> libsmm-local.so.6.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libsmm-local.so -> libsmm-local.so.6.0.0
+-rwxr-xr-x -          -              214608 ./usr/lib/onepin-opensc-pkcs11.so
+-rwxr-xr-x -          -              214608 ./usr/lib/opensc-pkcs11.so
+drwxr-xr-x -          -                 100 ./usr/lib/pkcs11
+lrwxrwxrwx -          -                  26 ./usr/lib/pkcs11/onepin-opensc-pkcs11.so -> ../onepin-opensc-pkcs11.so
+lrwxrwxrwx -          -                  19 ./usr/lib/pkcs11/opensc-pkcs11.so -> ../opensc-pkcs11.so
+lrwxrwxrwx -          -                  16 ./usr/lib/pkcs11/pkcs11-spy.so -> ../pkcs11-spy.so
+-rwxr-xr-x -          -              143320 ./usr/lib/pkcs11-spy.so
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 188 ./usr/lib/pkgconfig/opensc-pkcs11.pc
+drwxr-xr-x -          -                  80 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/bash-completion
+drwxr-xr-x -          -                 460 ./usr/share/bash-completion/completions
+-rw-r--r-- -          -                1138 ./usr/share/bash-completion/completions/cardos-tool
+-rw-r--r-- -          -                1349 ./usr/share/bash-completion/completions/cryptoflex-tool
+-rw-r--r-- -          -                1093 ./usr/share/bash-completion/completions/dnie-tool
+-rw-r--r-- -          -                1035 ./usr/share/bash-completion/completions/egk-tool
+-rw-r--r-- -          -                1039 ./usr/share/bash-completion/completions/eidenv
+-rw-r--r-- -          -                1147 ./usr/share/bash-completion/completions/gids-tool
+-rw-r--r-- -          -                1052 ./usr/share/bash-completion/completions/iasecc-tool
+-rw-r--r-- -          -                1068 ./usr/share/bash-completion/completions/netkey-tool
+-rw-r--r-- -          -                1919 ./usr/share/bash-completion/completions/npa-tool
+-rw-r--r-- -          -                1213 ./usr/share/bash-completion/completions/openpgp-tool
+-rw-r--r-- -          -                 981 ./usr/share/bash-completion/completions/opensc-asn1
+-rw-r--r-- -          -                1047 ./usr/share/bash-completion/completions/opensc-explorer
+-rw-r--r-- -          -                1124 ./usr/share/bash-completion/completions/opensc-notify
+-rw-r--r-- -          -                1280 ./usr/share/bash-completion/completions/opensc-tool
+-rw-r--r-- -          -                1280 ./usr/share/bash-completion/completions/piv-tool
+-rw-r--r-- -          -                2172 ./usr/share/bash-completion/completions/pkcs11-tool
+-rw-r--r-- -          -                1227 ./usr/share/bash-completion/completions/pkcs15-crypt
+-rw-r--r-- -          -                2366 ./usr/share/bash-completion/completions/pkcs15-init
+-rw-r--r-- -          -                1584 ./usr/share/bash-completion/completions/pkcs15-tool
+-rw-r--r-- -          -                1483 ./usr/share/bash-completion/completions/sc-hsm-tool
+-rw-r--r-- -          -                1332 ./usr/share/bash-completion/completions/westcos-tool
+drwxr-xr-x -          -                 660 ./usr/share/opensc
+-rw-r--r-- -          -                2596 ./usr/share/opensc/asepcos.profile
+-rw-r--r-- -          -                2925 ./usr/share/opensc/authentic.profile
+-rw-r--r-- -          -                2833 ./usr/share/opensc/cardos.profile
+-rw-r--r-- -          -                2919 ./usr/share/opensc/cyberflex.profile
+-rw-r--r-- -          -                3888 ./usr/share/opensc/entersafe.profile
+-rw-r--r-- -          -                4276 ./usr/share/opensc/epass2003.profile
+-rw-r--r-- -          -                3163 ./usr/share/opensc/flex.profile
+-rw-r--r-- -          -                 230 ./usr/share/opensc/gids.profile
+-rw-r--r-- -          -                2919 ./usr/share/opensc/gpk.profile
+-rw-r--r-- -          -                5041 ./usr/share/opensc/ias_adele_admin1.profile
+-rw-r--r-- -          -                5014 ./usr/share/opensc/ias_adele_admin2.profile
+-rw-r--r-- -          -                4959 ./usr/share/opensc/ias_adele_common.profile
+-rw-r--r-- -          -                5030 ./usr/share/opensc/iasecc_admin_eid.profile
+-rw-r--r-- -          -                4666 ./usr/share/opensc/iasecc_generic_oberthur.profile
+-rw-r--r-- -          -                5015 ./usr/share/opensc/iasecc_generic_pki.profile
+-rw-r--r-- -          -                2906 ./usr/share/opensc/iasecc.profile
+-rw-r--r-- -          -                2709 ./usr/share/opensc/incrypto34.profile
+-rw-r--r-- -          -                3022 ./usr/share/opensc/isoApplet.profile
+-rw-r--r-- -          -                2210 ./usr/share/opensc/jcop.profile
+-rw-r--r-- -          -                1184 ./usr/share/opensc/miocos.profile
+-rw-r--r-- -          -                3461 ./usr/share/opensc/muscle.profile
+-rw-r--r-- -          -                6744 ./usr/share/opensc/myeid.profile
+-rw-r--r-- -          -                4462 ./usr/share/opensc/oberthur.profile
+-rw-r--r-- -          -                1890 ./usr/share/opensc/openpgp.profile
+-rw-r--r-- -          -                3976 ./usr/share/opensc/pkcs15.profile
+-rw-r--r-- -          -                6039 ./usr/share/opensc/rutoken_ecp.profile
+-rw-r--r-- -          -                5506 ./usr/share/opensc/rutoken.profile
+-rw-r--r-- -          -                 400 ./usr/share/opensc/sc-hsm.profile
+-rw-r--r-- -          -                3791 ./usr/share/opensc/setcos.profile
+-rw-r--r-- -          -                2724 ./usr/share/opensc/starcos.profile
+-rw-r--r-- -          -                3644 ./usr/share/opensc/westcos.profile

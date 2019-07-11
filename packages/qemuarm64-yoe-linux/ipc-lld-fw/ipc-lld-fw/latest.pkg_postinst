@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /lib/firmware/j7-mcu-r5f0_0-fw j7-mcu-r5f0_0-fw /lib/firmware/pdk-ipc/ipc_echo_testb_mcu1_0_release.strip.xer5f 10
+	update-alternatives --install /lib/firmware/j7-mcu-r5f0_1-fw j7-mcu-r5f0_1-fw /lib/firmware/pdk-ipc/ipc_echo_test_mcu1_1_release.strip.xer5f 10
+	update-alternatives --install /lib/firmware/j7-main-r5f0_0-fw j7-main-r5f0_0-fw /lib/firmware/pdk-ipc/ipc_echo_test_mcu2_0_release.strip.xer5f 10
+	update-alternatives --install /lib/firmware/j7-main-r5f0_1-fw j7-main-r5f0_1-fw /lib/firmware/pdk-ipc/ipc_echo_test_mcu2_1_release.strip.xer5f 10
+	update-alternatives --install /lib/firmware/j7-main-r5f1_0-fw j7-main-r5f1_0-fw /lib/firmware/pdk-ipc/ipc_echo_test_mcu3_0_release.strip.xer5f 10
+	update-alternatives --install /lib/firmware/j7-main-r5f1_1-fw j7-main-r5f1_1-fw /lib/firmware/pdk-ipc/ipc_echo_test_mcu3_1_release.strip.xer5f 10
+	update-alternatives --install /lib/firmware/j7-c66_0-fw j7-c66_0-fw /lib/firmware/pdk-ipc/ipc_echo_test_c66xdsp_1_release.strip.xe66 10
+	update-alternatives --install /lib/firmware/j7-c66_1-fw j7-c66_1-fw /lib/firmware/pdk-ipc/ipc_echo_test_c66xdsp_2_release.strip.xe66 10
+	update-alternatives --install /lib/firmware/j7-c71_0-fw j7-c71_0-fw /lib/firmware/pdk-ipc/ipc_echo_test_c7x_1_release.strip.xe71 10

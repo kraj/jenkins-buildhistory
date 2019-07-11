@@ -1,9 +1,9 @@
 PV = 1.4.5
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libmnl (>= 1.0.4) libnetfilter-conntrack (>= 1.0.7) libnetfilter-cthelper (>= 1.0.0) libnetfilter-cttimeout (>= 1.0.0) libnetfilter-queue (>= 1.0.3) libnfnetlink (>= 1.0.1)
-RRECOMMENDS = 
+RRECOMMENDS = update-rc.d
 PKGSIZE = 1105062
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/conntrack-tools /usr/lib/conntrack-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/conntrackd/conntrackd.conf.sample /etc/init.d/conntrack-failover /etc/init.d/conntrackd /usr/lib/conntrack-tools/ct_helper_amanda.so /usr/lib/conntrack-tools/ct_helper_dhcpv6.so /usr/lib/conntrack-tools/ct_helper_ftp.so /usr/lib/conntrack-tools/ct_helper_mdns.so /usr/lib/conntrack-tools/ct_helper_rpc.so /usr/lib/conntrack-tools/ct_helper_sane.so /usr/lib/conntrack-tools/ct_helper_ssdp.so /usr/lib/conntrack-tools/ct_helper_tftp.so /usr/lib/conntrack-tools/ct_helper_tns.so /usr/sbin/conntrack /usr/sbin/conntrackd /usr/sbin/nfct

@@ -9,3 +9,6 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable dropbear.socket
 	fi
 fi
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/dropbear" ]; then
+	/etc/init.d/dropbear stop || :
+fi

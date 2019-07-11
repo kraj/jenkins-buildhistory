@@ -1,9 +1,9 @@
 PV = 1.99.7+git1fd19417b8a4dd9945347e98dfa97e4cfd798d77
 PR = r2
-PKGR = r2.96
+PKGR = r2.97
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) ncurses-libncurses (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013)
-RRECOMMENDS = 
-PKGSIZE = 820545
+RDEPENDS = glibc (>= 2.29) initd-functions ncurses-libncurses (>= 6.1+20181013) ncurses-libtinfo (>= 6.1+20181013)
+RRECOMMENDS = update-rc.d
+PKGSIZE = 821076
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gpm /usr/lib/gpm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-gpm.preset /lib/systemd/system/gpm.service
-FILELIST = /lib/systemd/system-preset/98-gpm.preset /lib/systemd/system/gpm.service /usr/bin/disable-paste /usr/bin/display-buttons /usr/bin/display-coords /usr/bin/get-versions /usr/bin/gpm-root /usr/bin/hltest /usr/bin/mev /usr/bin/mouse-test /usr/lib/libgpm.so.2 /usr/lib/libgpm.so.2.1.0 /usr/sbin/gpm
+FILELIST = /etc/init.d/gpm /lib/systemd/system-preset/98-gpm.preset /lib/systemd/system/gpm.service /usr/bin/disable-paste /usr/bin/display-buttons /usr/bin/display-coords /usr/bin/get-versions /usr/bin/gpm-root /usr/bin/hltest /usr/bin/mev /usr/bin/mouse-test /usr/lib/libgpm.so.2 /usr/lib/libgpm.so.2.1.0 /usr/sbin/gpm

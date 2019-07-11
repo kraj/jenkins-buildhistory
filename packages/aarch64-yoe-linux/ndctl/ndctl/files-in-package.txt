@@ -1,18 +1,25 @@
-drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root               60 ./etc/ndctl
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/modprobe.d
+-rw-r--r-- root       root              101 ./etc/modprobe.d/nvdimm-security.conf
+drwxr-xr-x root       root               80 ./etc/ndctl
+drwxr-xr-x root       root               60 ./etc/ndctl/keys
+-rw-r--r-- root       root               36 ./etc/ndctl/keys/keys.readme
 -rw-r--r-- root       root             2022 ./etc/ndctl/monitor.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              174 ./lib/systemd/system/ndctl-monitor.service
+-rw-r--r-- root       root              134 ./lib/systemd/system/ndctl-monitor.service
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               30 ./lib/systemd/system-preset/98-ndctl.preset
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root            67800 ./usr/bin/daxctl
--rwxr-xr-x root       root           267416 ./usr/bin/ndctl
+-rwxr-xr-x root       root            67816 ./usr/bin/daxctl
+-rwxr-xr-x root       root           267568 ./usr/bin/ndctl
 drwxr-xr-x root       root              120 ./usr/lib
--rwxr-xr-x root       root            67672 ./usr/lib/libdaxctl.so.1.2.0
-lrwxrwxrwx root       root               18 ./usr/lib/libdaxctl.so.1 -> libdaxctl.so.1.2.0
--rwxr-xr-x root       root           134464 ./usr/lib/libndctl.so.6.12.0
-lrwxrwxrwx root       root               18 ./usr/lib/libndctl.so.6 -> libndctl.so.6.12.0
+-rwxr-xr-x root       root            67752 ./usr/lib/libdaxctl.so.1.2.1
+lrwxrwxrwx root       root               18 ./usr/lib/libdaxctl.so.1 -> libdaxctl.so.1.2.1
+-rwxr-xr-x root       root           200448 ./usr/lib/libndctl.so.6.14.0
+lrwxrwxrwx root       root               18 ./usr/lib/libndctl.so.6 -> libndctl.so.6.14.0
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/daxctl
+-rw-r--r-- root       root               48 ./usr/share/daxctl/daxctl.conf

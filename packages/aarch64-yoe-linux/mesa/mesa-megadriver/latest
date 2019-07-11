@@ -1,9 +1,9 @@
 PE = 2
-PV = 19.1.0
+PV = 19.1.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = mesa mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
-RDEPENDS = expat (>= 2.2.6) glibc (>= 2.29) libdrm (>= 2.4.98) libgcc (>= 9.1.0) libglapi (>= 19.1.0) libstdc++ (>= 9.1.0) zlib (>= 1.2.11)
+RDEPENDS = expat (>= 2.2.7) glibc (>= 2.29) libdrm (>= 2.4.99) libgcc (>= 9.1.0) libglapi (>= 19.1.1) libstdc++ (>= 9.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = mesa mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu
 RCONFLICTS = mesa mesa-driver-kms-swrast mesa-driver-swrast mesa-driver-virtio-gpu

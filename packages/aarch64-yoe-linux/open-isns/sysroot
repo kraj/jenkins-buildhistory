@@ -1,0 +1,23 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 260 ./lib/systemd/system/isnsd.service
+-rw-r--r-- -          -                 123 ./lib/systemd/system/isnsd.socket
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/open-isns
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 220 ./usr/include/libisns
+-rw-r--r-- -          -                7786 ./usr/include/libisns/attrs.h
+-rw-r--r-- -          -                2873 ./usr/include/libisns/buffer.h
+-rw-r--r-- -          -               25486 ./usr/include/libisns/isns.h
+-rw-r--r-- -          -                7849 ./usr/include/libisns/isns-proto.h
+-rw-r--r-- -          -                5918 ./usr/include/libisns/message.h
+-rw-r--r-- -          -                 780 ./usr/include/libisns/paths.h
+-rw-r--r-- -          -                 828 ./usr/include/libisns/source.h
+-rw-r--r-- -          -                1584 ./usr/include/libisns/types.h
+-rw-r--r-- -          -                7896 ./usr/include/libisns/util.h
+drwxr-xr-x -          -                  80 ./usr/lib
+-rw-r--r-- -          -             1575264 ./usr/lib/libisns.so.0
+lrwxrwxrwx -          -                  12 ./usr/lib/libisns.so -> libisns.so.0
+drwxr-xr-x -          -                  40 ./usr/share

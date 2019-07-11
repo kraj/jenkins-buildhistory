@@ -1,0 +1,41 @@
+drwxr-xr-x -          -                  80 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 140 ./lib/systemd/system
+-rw-r--r-- -          -                 381 ./lib/systemd/system/blk-availability.service
+-rw-r--r-- -          -                 345 ./lib/systemd/system/dm-event.service
+-rw-r--r-- -          -                 248 ./lib/systemd/system/dm-event.socket
+-rw-r--r-- -          -                 569 ./lib/systemd/system/lvm2-monitor.service
+-rw-r--r-- -          -                 343 ./lib/systemd/system/lvm2-pvscan@.service
+drwxr-xr-x -          -                  60 ./lib/udev
+drwxr-xr-x -          -                 140 ./lib/udev/rules.d
+-rw-r--r-- -          -                7266 ./lib/udev/rules.d/10-dm.rules
+-rw-r--r-- -          -                2454 ./lib/udev/rules.d/11-dm-lvm.rules
+-rw-r--r-- -          -                1794 ./lib/udev/rules.d/13-dm-disk.rules
+-rw-r--r-- -          -                6433 ./lib/udev/rules.d/69-dm-lvm-metad.rules
+-rw-r--r-- -          -                 483 ./lib/udev/rules.d/95-dm-notify.rules
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/lvm2
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                  80 ./usr/include
+-rw-r--r-- -          -                5069 ./usr/include/libdevmapper-event.h
+-rw-r--r-- -          -                2381 ./usr/include/lvm2cmd.h
+drwxr-xr-x -          -                 300 ./usr/lib
+drwxr-xr-x -          -                 140 ./usr/lib/device-mapper
+-rwxr-xr-x -          -               67568 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
+-rwxr-xr-x -          -               67568 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
+-rwxr-xr-x -          -               67568 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
+-rwxr-xr-x -          -               67568 ./usr/lib/device-mapper/libdevmapper-event-lvm2thin.so
+-rwxr-xr-x -          -               67568 ./usr/lib/device-mapper/libdevmapper-event-lvm2vdo.so
+lrwxrwxrwx -          -                  46 ./usr/lib/libdevmapper-event-lvm2mirror.so -> device-mapper/libdevmapper-event-lvm2mirror.so
+lrwxrwxrwx -          -                  44 ./usr/lib/libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+lrwxrwxrwx -          -                  48 ./usr/lib/libdevmapper-event-lvm2snapshot.so -> device-mapper/libdevmapper-event-lvm2snapshot.so
+-rwxr-xr-x -          -               67600 ./usr/lib/libdevmapper-event-lvm2.so.2.03
+lrwxrwxrwx -          -                  31 ./usr/lib/libdevmapper-event-lvm2.so -> libdevmapper-event-lvm2.so.2.03
+lrwxrwxrwx -          -                  44 ./usr/lib/libdevmapper-event-lvm2thin.so -> device-mapper/libdevmapper-event-lvm2thin.so
+lrwxrwxrwx -          -                  43 ./usr/lib/libdevmapper-event-lvm2vdo.so -> device-mapper/libdevmapper-event-lvm2vdo.so
+-rwxr-xr-x -          -               67600 ./usr/lib/libdevmapper-event.so.1.02
+lrwxrwxrwx -          -                  26 ./usr/lib/libdevmapper-event.so -> libdevmapper-event.so.1.02
+-rwxr-xr-x -          -             2202744 ./usr/lib/liblvm2cmd.so.2.03
+lrwxrwxrwx -          -                  18 ./usr/lib/liblvm2cmd.so -> liblvm2cmd.so.2.03
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 211 ./usr/lib/pkgconfig/devmapper-event.pc

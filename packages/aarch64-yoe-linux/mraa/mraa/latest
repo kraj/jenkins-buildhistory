@@ -1,11 +1,11 @@
-PV = 1.9.0-gitAUTOINC+fbb7d92320
+PV = 2.0.0+gitAUTOINC+967585c9ea
 PR = r0
-PKG = libmraa1
-PKGV = 1.9.0-git0+fbb7d92320
-PKGR = r0.105
-RPROVIDES = mraa (=1.9.0-git0+fbb7d92320)
+PKG = libmraa2
+PKGV = 2.0.0+git0+967585c9ea
+PKGR = r0.0
+RPROVIDES = mraa (=2.0.0+git0+967585c9ea)
 RDEPENDS = glibc (>= 2.29) json-c (>= 0.13.1) python3-core
 RRECOMMENDS = 
-PKGSIZE = 199512
+PKGSIZE = 265736
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mraa /usr/lib/mraa/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.7/*
-FILELIST = /usr/lib/libmraa.so.1 /usr/lib/libmraa.so.1.9.0
+FILELIST = /usr/lib/libmraa.so.2 /usr/lib/libmraa.so.2.0.0

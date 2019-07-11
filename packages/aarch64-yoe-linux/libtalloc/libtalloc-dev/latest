@@ -1,9 +1,9 @@
-PV = 2.1.14
+PV = 2.2.0
 PR = r0
-PKGR = r0.105
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libtalloc (= 2.1.14-r0.105)
-RRECOMMENDS = acl-dev attr-dev glibc-dev libpython2-dev python-dev
-PKGSIZE = 67660
+RDEPENDS = libtalloc (= 2.2.0-r0.0)
+RRECOMMENDS = acl-dev attr-dev glibc-dev libpython3-dev libxcrypt-dev python3-dev
+PKGSIZE = 67685
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libtalloc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/pytalloc.h /usr/include/talloc.h /usr/lib/libpytalloc-util.so /usr/lib/libtalloc.so /usr/lib/pkgconfig/pytalloc-util.pc /usr/lib/pkgconfig/talloc.pc
+FILELIST = /usr/include/pytalloc.h /usr/include/talloc.h /usr/lib/libpytalloc-util.cpython-37m-aarch64-linux-gnu.so /usr/lib/libtalloc.so /usr/lib/pkgconfig/pytalloc-util.cpython-37m-aarch64-linux-gnu.pc /usr/lib/pkgconfig/talloc.pc

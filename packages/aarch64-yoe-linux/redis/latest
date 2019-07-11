@@ -1,5 +1,5 @@
 PV = 4.0.14
 PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native lua ncurses readline shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native initscripts libtool-cross libtool-native lua ncurses readline shadow shadow-native shadow-sysroot systemd-systemctl-native update-rc.d virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = redis-src redis-dbg redis-staticdev redis-dev redis-doc redis-locale redis
 LAYER = openembedded-layer

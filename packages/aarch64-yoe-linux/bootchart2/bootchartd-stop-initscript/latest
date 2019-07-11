@@ -1,10 +1,10 @@
 PV = 0.14.8+gitAUTOINC+331ada031f
 PR = r0
 PKGV = 0.14.8+git0+331ada031f
-PKGR = r0.92
+PKGR = r0.93
 RPROVIDES = 
 RDEPENDS = bootchart2
-RRECOMMENDS = 
-PKGSIZE = 0
+RRECOMMENDS = update-rc.d
+PKGSIZE = 610
 FILES = /etc/init.d /etc/rc*.d
-FILELIST = 
+FILELIST = /etc/init.d/bootchartd_stop.sh

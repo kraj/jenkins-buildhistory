@@ -1,10 +1,10 @@
 PV = 0.2.0+gitAUTOINC+45c14ef4d5
 PR = r0
 PKGV = 0.2.0+git0+45c14ef4d5
-PKGR = r0.74
+PKGR = r0.75
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libconfig (>= 1.7.2) libusbgx-config
-RRECOMMENDS = 
-PKGSIZE = 949018
+RDEPENDS = glibc (>= 2.29) initd-functions libconfig (>= 1.7.2) libusbgx-config
+RRECOMMENDS = update-rc.d
+PKGSIZE = 952204
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libusbgx /usr/lib/libusbgx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-libusbgx.preset /lib/systemd/system/usbgx.service
-FILELIST = /lib/systemd/system-preset/98-libusbgx.preset /lib/systemd/system/usbgx.service /usr/bin/gadget-acm-ecm /usr/bin/gadget-export /usr/bin/gadget-ffs /usr/bin/gadget-hid /usr/bin/gadget-import /usr/bin/gadget-midi /usr/bin/gadget-ms /usr/bin/gadget-rndis-os-desc /usr/bin/gadget-start /usr/bin/gadget-uac2 /usr/bin/gadget-vid-pid-remove /usr/bin/show-gadgets /usr/bin/show-udcs /usr/lib/libusbgx.so.2 /usr/lib/libusbgx.so.2.0.0
+FILELIST = /etc/init.d/usbgx /lib/systemd/system-preset/98-libusbgx.preset /lib/systemd/system/usbgx.service /usr/bin/gadget-acm-ecm /usr/bin/gadget-export /usr/bin/gadget-ffs /usr/bin/gadget-hid /usr/bin/gadget-import /usr/bin/gadget-midi /usr/bin/gadget-ms /usr/bin/gadget-rndis-os-desc /usr/bin/gadget-start /usr/bin/gadget-uac2 /usr/bin/gadget-vid-pid-remove /usr/bin/show-gadgets /usr/bin/show-udcs /usr/lib/libusbgx.so.2 /usr/lib/libusbgx.so.2.0.0

@@ -1,0 +1,36 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 120 ./lib/systemd/system
+-rw-r--r-- -          -                 285 ./lib/systemd/system/dhclient.service
+-rw-r--r-- -          -                 446 ./lib/systemd/system/dhcpd6.service
+-rw-r--r-- -          -                 444 ./lib/systemd/system/dhcpd.service
+-rw-r--r-- -          -                 206 ./lib/systemd/system/dhcrelay.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/dhcp
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               14140 ./usr/bin/postinst-useradd-dhcp
+drwxr-xr-x -          -                  80 ./usr/include
+drwxr-xr-x -          -                  60 ./usr/include/dhcpctl
+-rw-r--r-- -          -                4709 ./usr/include/dhcpctl/dhcpctl.h
+drwxr-xr-x -          -                 220 ./usr/include/omapip
+-rw-r--r-- -          -                3248 ./usr/include/omapip/alloc.h
+-rw-r--r-- -          -                3244 ./usr/include/omapip/buffer.h
+-rw-r--r-- -          -                1757 ./usr/include/omapip/convert.h
+-rw-r--r-- -          -                5873 ./usr/include/omapip/hash.h
+-rw-r--r-- -          -                3657 ./usr/include/omapip/isclib.h
+-rw-r--r-- -          -               24356 ./usr/include/omapip/omapip.h
+-rw-r--r-- -          -                9096 ./usr/include/omapip/omapip_p.h
+-rw-r--r-- -          -                4697 ./usr/include/omapip/result.h
+-rw-r--r-- -          -                3953 ./usr/include/omapip/trace.h
+drwxr-xr-x -          -                 220 ./usr/lib
+-rwxr-xr-x -          -               67592 ./usr/lib/libdhcpctl.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libdhcpctl.so.0 -> libdhcpctl.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libdhcpctl.so -> libdhcpctl.so.0.0.0
+-rwxr-xr-x -          -              405544 ./usr/lib/libdhcp.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libdhcp.so.0 -> libdhcp.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libdhcp.so -> libdhcp.so.0.0.0
+-rwxr-xr-x -          -              133400 ./usr/lib/libomapi.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libomapi.so.0 -> libomapi.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libomapi.so -> libomapi.so.0.0.0
+drwxr-xr-x -          -                  40 ./usr/share

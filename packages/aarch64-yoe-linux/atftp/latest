@@ -1,5 +1,5 @@
 PV = 0.7.2
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd-systemctl-native tcp-wrappers virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native initscripts libtool-cross libtool-native systemd-systemctl-native tcp-wrappers update-rc.d virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
 PACKAGES = atftp-src atftp-dbg atftpd atftp-staticdev atftp-dev atftp-doc atftp-locale atftp
 LAYER = networking-layer

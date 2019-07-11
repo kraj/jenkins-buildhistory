@@ -7,3 +7,6 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable radiusd.service
 	fi
 fi
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/radiusd" ]; then
+	/etc/init.d/radiusd stop || :
+fi

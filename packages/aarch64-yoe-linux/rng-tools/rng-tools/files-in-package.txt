@@ -1,12 +1,14 @@
-drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rw-r--r-- root       root               27 ./etc/default/rng-tools
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             1021 ./etc/init.d/rng-tools
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               20 ./lib/systemd/system-preset/98-rng-tools.preset
--rw-r--r-- root       root              264 ./lib/systemd/system/rngd.service
+-rw-r--r-- root       root              185 ./lib/systemd/system/rngd.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            68432 ./usr/bin/rngtest

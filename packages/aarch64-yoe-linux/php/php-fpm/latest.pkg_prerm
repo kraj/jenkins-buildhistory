@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/php-fpm" ]; then
+	/etc/init.d/php-fpm stop || :
+fi

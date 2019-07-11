@@ -1,31 +1,30 @@
 set -e
-	# This part of code is dedicated to the on target upgrade problem.
-	# It's known that if we don't make appropriate symlinks before update-alternatives calls,
-	# there will be errors indicating missing commands such as 'sed'.
-	# These symlinks will later be updated by update-alternatives calls.
-	test -n 2 > /dev/null || alias test='busybox test'
-	if test "x$D" = "x"; then
-		# Remove busybox.nosuid if it's a symlink, because this situation indicates
-		# that we're installing or upgrading to a one-binary busybox.
-		if test -h /bin/busybox.nosuid; then
-			rm -f /bin/busybox.nosuid
-		fi
-		for suffix in "" ".nosuid" ".suid"; do
-			if test -e /etc/busybox.links$suffix; then
-				while read link; do
-					if test ! -e "$link"; then
-						# we can use busybox here because even if we are using splitted busybox
-						# we've made a symlink from /bin/busybox to /bin/busybox.nosuid.
-						busybox rm -f $link
-						busybox ln -s "/bin/busybox$suffix" $link
-					fi
-				done < /etc/busybox.links$suffix
-			fi
-		done
-	fi
-	if grep -q "^/bin/bash$" $D/etc/busybox.links*; then
-		grep -q "^/bin/bash$" $D/etc/shells || echo /bin/bash >> $D/etc/shells
-	fi
+
+test -n 2 > /dev/null || alias test='busybox test'
+if test "x$D" = "x"; then
+    # Remove busybox.nosuid if it's a symlink, because this situation indicates
+    # that we're installing or upgrading to a one-binary busybox.
+    if test -h /bin/busybox.nosuid; then
+        rm -f /bin/busybox.nosuid
+    fi
+    for suffix in "" ".nosuid" ".suid"; do
+        if test -e /etc/busybox.links$suffix; then
+            while read link; do
+                if test ! -e "$link"; then
+                    # we can use busybox here because even if we are using splitted busybox
+                    # we've made a symlink from /bin/busybox to /bin/busybox.nosuid.
+                    busybox rm -f $link
+                    busybox ln -s "/bin/busybox$suffix" $link
+                fi
+            done < /etc/busybox.links$suffix
+        fi
+    done
+fi
+if grep -q "^/bin/bash$" $D/etc/busybox.links*; then
+    grep -q "^/bin/bash$" $D/etc/shells || echo /bin/bash >> $D/etc/shells
+fi
+
+#!/bin/sh
 	update-alternatives --install /bin/ash ash /bin/busybox.nosuid 50
 	update-alternatives --install /bin/cat cat /bin/busybox.nosuid 50
 	update-alternatives --install /bin/chattr chattr /bin/busybox.nosuid 50
@@ -177,6 +176,7 @@ set -e
 	update-alternatives --install /usr/bin/time time /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/top top /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/tr tr /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/ts ts /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/tty tty /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/uniq uniq /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/unlink unlink /bin/busybox.nosuid 50
@@ -198,6 +198,7 @@ set -e
 	update-alternatives --install /usr/sbin/delgroup delgroup /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/deluser deluser /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/fbset fbset /bin/busybox.nosuid 50
+	update-alternatives --install /usr/sbin/i2ctransfer i2ctransfer /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/loadfont loadfont /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/rdate rdate /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/rfkill rfkill /bin/busybox.nosuid 50

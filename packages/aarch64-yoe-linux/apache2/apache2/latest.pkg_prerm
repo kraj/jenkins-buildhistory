@@ -7,3 +7,6 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable apache2.service
 	fi
 fi
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/apache2" ]; then
+	/etc/init.d/apache2 stop || :
+fi
