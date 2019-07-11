@@ -1,11 +1,11 @@
 PV = 2.6
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = ypbind-mt-systemd
-RDEPENDS = glibc (>= 2.29) libnsl2 (>= 1.2.0+git0+37c5ffe303) libsystemd (>= 242+1+db2e367bfc) libtirpc (>= 1.1.4) yp-tools
-RRECOMMENDS = 
+RDEPENDS = glibc (>= 2.29) initd-functions libnsl2 (>= 1.2.0+git0+37c5ffe303) libsystemd (>= 242+1+db2e367bfc) libtirpc (>= 1.1.4) yp-tools
+RRECOMMENDS = update-rc.d
 RREPLACES = ypbind-mt-systemd
 RCONFLICTS = ypbind-mt-systemd
-PKGSIZE = 47624
+PKGSIZE = 50840
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ypbind-mt /usr/lib/ypbind-mt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-ypbind-mt.preset /lib/systemd/system/ypbind.service
-FILELIST = /lib/systemd/system-preset/98-ypbind-mt.preset /lib/systemd/system/ypbind.service /usr/sbin/ypbind
+FILELIST = /etc/init.d/ypbind /lib/systemd/system-preset/98-ypbind-mt.preset /lib/systemd/system/ypbind.service /usr/sbin/ypbind

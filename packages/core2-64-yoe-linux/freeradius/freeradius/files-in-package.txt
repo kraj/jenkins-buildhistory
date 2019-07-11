@@ -1,7 +1,9 @@
-drwxr-xr-x root       root              140 ./etc
+drwxr-xr-x root       root              160 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 drwxr-xr-x root       root               60 ./etc/default/volatiles
 -rw-r--r-- root       root              141 ./etc/default/volatiles/58_radiusd
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             2888 ./etc/init.d/radiusd
 drwxr-xr-x root       root               40 ./etc/logrotate.d
 drwxr-xr-x root       root               40 ./etc/pam.d
 drwxr-x--- radiusd    radiusd           400 ./etc/raddb
@@ -33,9 +35,9 @@ drwxr-x--- radiusd    radiusd           680 ./etc/raddb/certs
 -rw-r----- radiusd    radiusd          1125 ./etc/raddb/certs/server.cnf
 -rw-r--r-- radiusd    radiusd          4431 ./etc/raddb/certs/server.crt
 -rw-r--r-- radiusd    radiusd          1062 ./etc/raddb/certs/server.csr
--rw-r----- radiusd    radiusd          1854 ./etc/raddb/certs/server.key
--rw-r----- radiusd    radiusd          2589 ./etc/raddb/certs/server.p12
--rw-r----- radiusd    radiusd          3710 ./etc/raddb/certs/server.pem
+-rw-r----- radiusd    radiusd          1842 ./etc/raddb/certs/server.key
+-rw-r----- radiusd    radiusd          2581 ./etc/raddb/certs/server.p12
+-rw-r----- radiusd    radiusd          3698 ./etc/raddb/certs/server.pem
 -rw-r----- radiusd    radiusd          3687 ./etc/raddb/certs/user@example.org.pem
 -rw-r----- radiusd    radiusd           708 ./etc/raddb/certs/xpextensions
 -rw-r----- radiusd    radiusd          7476 ./etc/raddb/clients.conf

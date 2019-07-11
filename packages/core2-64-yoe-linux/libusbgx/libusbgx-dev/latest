@@ -1,10 +1,10 @@
 PV = 0.2.0+gitAUTOINC+45c14ef4d5
 PR = r0
 PKGV = 0.2.0+git0+45c14ef4d5
-PKGR = r0.74
+PKGR = r0.75
 RPROVIDES = 
-RDEPENDS = libusbgx (= 0.2.0+git0+45c14ef4d5-r0.74)
-RRECOMMENDS = glibc-dev libconfig-dev libusbgx-config-dev
+RDEPENDS = libusbgx (= 0.2.0+git0+45c14ef4d5-r0.75)
+RRECOMMENDS = glibc-dev initd-functions-dev initscripts-dev libconfig-dev libusbgx-config-dev update-rc.d-dev
 PKGSIZE = 96135
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libusbgx/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/usbgx/usbg/function/ffs.h /usr/include/usbgx/usbg/function/hid.h /usr/include/usbgx/usbg/function/loopback.h /usr/include/usbgx/usbg/function/midi.h /usr/include/usbgx/usbg/function/ms.h /usr/include/usbgx/usbg/function/net.h /usr/include/usbgx/usbg/function/phonet.h /usr/include/usbgx/usbg/function/serial.h /usr/include/usbgx/usbg/function/uac2.h /usr/include/usbgx/usbg/usbg.h /usr/include/usbgx/usbg/usbg_version.h /usr/lib/libusbgx.so /usr/lib/pkgconfig/libusbgx.pc

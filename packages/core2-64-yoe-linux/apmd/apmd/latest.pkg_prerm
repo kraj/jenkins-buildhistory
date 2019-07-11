@@ -7,3 +7,6 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable apmd.service
 	fi
 fi
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/apmd" ]; then
+	/etc/init.d/apmd stop || :
+fi

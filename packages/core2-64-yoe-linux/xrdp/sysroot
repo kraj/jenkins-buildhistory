@@ -1,0 +1,56 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 387 ./lib/systemd/system/xrdp.service
+-rw-r--r-- -          -                 424 ./lib/systemd/system/xrdp-sesman.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/xrdp
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               14395 ./usr/bin/postinst-useradd-xrdp
+drwxr-xr-x -          -                 200 ./usr/include
+-rw-r--r-- -          -                4020 ./usr/include/painter.h
+-rw-r--r-- -          -                1218 ./usr/include/rfxcodec_common.h
+-rw-r--r-- -          -                1028 ./usr/include/rfxcodec_decode.h
+-rw-r--r-- -          -                2151 ./usr/include/rfxcodec_encode.h
+-rw-r--r-- -          -                4049 ./usr/include/xrdp_client_info.h
+-rw-r--r-- -          -               25337 ./usr/include/xrdp_constants.h
+-rw-r--r-- -          -                4684 ./usr/include/xrdp_rail.h
+-rw-r--r-- -          -                1638 ./usr/include/xrdp_sockets.h
+drwxr-xr-x -          -                 200 ./usr/lib
+-rwxr-xr-x -          -               14248 ./usr/lib/libpainter.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpainter.so.0 -> libpainter.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpainter.so -> libpainter.so.0.0.0
+-rwxr-xr-x -          -               42992 ./usr/lib/librfxencode.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/librfxencode.so.0 -> librfxencode.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/librfxencode.so -> librfxencode.so.0.0.0
+drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 208 ./usr/lib/pkgconfig/libpainter.pc
+-rw-r--r-- -          -                 227 ./usr/lib/pkgconfig/rfxcodec.pc
+-rw-r--r-- -          -                 185 ./usr/lib/pkgconfig/xrdp.pc
+drwxr-xr-x -          -                 340 ./usr/lib/xrdp
+-rwxr-xr-x -          -              100336 ./usr/lib/xrdp/libcommon.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/xrdp/libcommon.so.0 -> libcommon.so.0.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/xrdp/libcommon.so -> libcommon.so.0.0.0
+-rwxr-xr-x -          -                5824 ./usr/lib/xrdp/libmc.so
+-rwxr-xr-x -          -               47088 ./usr/lib/xrdp/libscp.so.0.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/xrdp/libscp.so.0 -> libscp.so.0.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/xrdp/libscp.so -> libscp.so.0.0.0
+-rwxr-xr-x -          -               26608 ./usr/lib/xrdp/libvnc.so
+-rwxr-xr-x -          -               10224 ./usr/lib/xrdp/libxrdpapi.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/xrdp/libxrdpapi.so.0 -> libxrdpapi.so.0.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/xrdp/libxrdpapi.so -> libxrdpapi.so.0.0.0
+-rwxr-xr-x -          -              150032 ./usr/lib/xrdp/libxrdp.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/xrdp/libxrdp.so.0 -> libxrdp.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/xrdp/libxrdp.so -> libxrdp.so.0.0.0
+-rwxr-xr-x -          -               18416 ./usr/lib/xrdp/libxup.so
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                 200 ./usr/share/xrdp
+-rw-r--r-- -          -               58854 ./usr/share/xrdp/ad24b.bmp
+-rw-r--r-- -          -               19766 ./usr/share/xrdp/ad256.bmp
+-rw-r--r-- -          -                 326 ./usr/share/xrdp/cursor0.cur
+-rw-r--r-- -          -                 326 ./usr/share/xrdp/cursor1.cur
+-rw-r--r-- -          -              658956 ./usr/share/xrdp/sans-10.fv1
+-rw-r--r-- -          -              147510 ./usr/share/xrdp/xrdp24b.bmp
+-rw-r--r-- -          -               49278 ./usr/share/xrdp/xrdp256.bmp
+-rw-r--r-- -          -              100854 ./usr/share/xrdp/xrdp_logo.bmp

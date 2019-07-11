@@ -1,0 +1,15 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 140 ./lib/systemd/system
+-rw-r--r-- -          -                 342 ./lib/systemd/system/nfs-mountd.service
+-rw-r--r-- -          -                 650 ./lib/systemd/system/nfs-server.service
+-rw-r--r-- -          -                 335 ./lib/systemd/system/nfs-statd.service
+-rw-r--r-- -          -                 133 ./lib/systemd/system/proc-fs-nfsd.mount
+drwxr-xr-x -          -                  60 ./lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx -          -                  21 ./lib/systemd/system/sysinit.target.wants/proc-fs-nfsd.mount -> ../proc-fs-nfsd.mount
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/nfs-utils
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               14303 ./usr/bin/postinst-useradd-nfs-utils
+drwxr-xr-x -          -                  40 ./usr/share

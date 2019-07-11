@@ -1,9 +1,9 @@
 PV = 1.3.14
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libpcap (>= 1.9.0)
-RRECOMMENDS = 
+RRECOMMENDS = update-rc.d
 PKGSIZE = 135043
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xl2tpd /usr/lib/xl2tpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/default/xl2tpd /etc/init.d/xl2tpd /etc/xl2tpd.conf /usr/bin/pfc /usr/sbin/xl2tpd /usr/sbin/xl2tpd-control

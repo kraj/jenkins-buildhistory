@@ -1,9 +1,9 @@
 PV = 5.2
 PR = r0
-PKGR = r0.97
+PKGR = r0.98
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libwrap (>= 7.6)
-RRECOMMENDS = 
-PKGSIZE = 40412
+RRECOMMENDS = update-rc.d
+PKGSIZE = 42622
 FILES = /usr/sbin /etc /var /lib/systemd/system-preset/98-tftp-hpa-server.preset /lib/systemd/system/tftpd-hpa.socket /lib/systemd/system/tftpd-hpa.service
-FILELIST = /etc/default/tftpd-hpa /lib/systemd/system-preset/98-tftp-hpa-server.preset /lib/systemd/system/tftpd-hpa.service /lib/systemd/system/tftpd-hpa.socket /usr/sbin/in.tftpd-hpa
+FILELIST = /etc/default/tftpd-hpa /etc/init.d/tftpd-hpa /lib/systemd/system-preset/98-tftp-hpa-server.preset /lib/systemd/system/tftpd-hpa.service /lib/systemd/system/tftpd-hpa.socket /usr/sbin/in.tftpd-hpa

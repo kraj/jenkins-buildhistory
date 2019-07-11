@@ -1,5 +1,5 @@
 PV = 2.3.3
 PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libcap libevent libtirpc libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native tcp-wrappers util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native initscripts libcap libevent libtirpc libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native tcp-wrappers update-rc.d util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = nfs-utils-src nfs-utils-dbg nfs-utils-client nfs-utils-mount nfs-utils-stats nfs-utils-staticdev nfs-utils-dev nfs-utils-doc nfs-utils-locale nfs-utils
 LAYER = core

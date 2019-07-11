@@ -1,0 +1,61 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   7 ./sysroot-providers/jsonrpc
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 160 ./usr/include/jsonrpccpp
+drwxr-xr-x -          -                 140 ./usr/include/jsonrpccpp/client
+-rw-r--r-- -          -                1117 ./usr/include/jsonrpccpp/client/batchcall.h
+-rw-r--r-- -          -                2214 ./usr/include/jsonrpccpp/client/batchresponse.h
+-rw-r--r-- -          -                1589 ./usr/include/jsonrpccpp/client/client.h
+drwxr-xr-x -          -                  80 ./usr/include/jsonrpccpp/client/connectors
+-rw-r--r-- -          -                1207 ./usr/include/jsonrpccpp/client/connectors/httpclient.h
+-rw-r--r-- -          -                3188 ./usr/include/jsonrpccpp/client/connectors/redisclient.h
+-rw-r--r-- -          -                 352 ./usr/include/jsonrpccpp/client.h
+-rw-r--r-- -          -                 818 ./usr/include/jsonrpccpp/client/iclientconnector.h
+drwxr-xr-x -          -                 240 ./usr/include/jsonrpccpp/common
+-rw-r--r-- -          -                2035 ./usr/include/jsonrpccpp/common/errors.h
+-rw-r--r-- -          -                1365 ./usr/include/jsonrpccpp/common/exception.h
+-rw-r--r-- -          -                 510 ./usr/include/jsonrpccpp/common/jsonparser.h
+-rw-r--r-- -          -                4967 ./usr/include/jsonrpccpp/common/procedure.h
+-rw-r--r-- -          -                 270 ./usr/include/jsonrpccpp/common/sharedconstants.h
+-rw-r--r-- -          -                1379 ./usr/include/jsonrpccpp/common/specification.h
+-rw-r--r-- -          -                1567 ./usr/include/jsonrpccpp/common/specificationparser.h
+-rw-r--r-- -          -                1146 ./usr/include/jsonrpccpp/common/specificationwriter.h
+-rw-r--r-- -          -                 341 ./usr/include/jsonrpccpp/common/streamreader.h
+-rw-r--r-- -          -                 217 ./usr/include/jsonrpccpp/common/streamwriter.h
+drwxr-xr-x -          -                 200 ./usr/include/jsonrpccpp/server
+-rw-r--r-- -          -                1496 ./usr/include/jsonrpccpp/server/abstractserverconnector.h
+-rw-r--r-- -          -                3804 ./usr/include/jsonrpccpp/server/abstractserver.h
+-rw-r--r-- -          -                1183 ./usr/include/jsonrpccpp/server/abstractthreadedserver.h
+drwxr-xr-x -          -                  80 ./usr/include/jsonrpccpp/server/connectors
+-rw-r--r-- -          -                2923 ./usr/include/jsonrpccpp/server/connectors/httpserver.h
+-rw-r--r-- -          -                3303 ./usr/include/jsonrpccpp/server/connectors/redisserver.h
+-rw-r--r-- -          -                 360 ./usr/include/jsonrpccpp/server.h
+-rw-r--r-- -          -                1015 ./usr/include/jsonrpccpp/server/iclientconnectionhandler.h
+-rw-r--r-- -          -                 958 ./usr/include/jsonrpccpp/server/iprocedureinvokationhandler.h
+-rw-r--r-- -          -                 918 ./usr/include/jsonrpccpp/server/requesthandlerfactory.h
+-rw-r--r-- -          -                3505 ./usr/include/jsonrpccpp/server/threadpool.h
+-rw-r--r-- -          -                 590 ./usr/include/jsonrpccpp/version.h
+drwxr-xr-x -          -                 320 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/lib/libjson-rpc-cpp
+-rw-r--r-- -          -             1883340 ./usr/lib/libjsonrpccpp-client.a
+-rwxr-xr-x -          -              110168 ./usr/lib/libjsonrpccpp-client.so.1.1.1
+lrwxrwxrwx -          -                  29 ./usr/lib/libjsonrpccpp-client.so.1 -> libjsonrpccpp-client.so.1.1.1
+lrwxrwxrwx -          -                  25 ./usr/lib/libjsonrpccpp-client.so -> libjsonrpccpp-client.so.1
+drwxr-xr-x -          -                 120 ./usr/lib/libjson-rpc-cpp/cmake
+-rw-r--r-- -          -                1597 ./usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppConfig.cmake
+-rw-r--r-- -          -                1837 ./usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppConfigVersion.cmake
+-rw-r--r-- -          -                6238 ./usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppTargets.cmake
+-rw-r--r-- -          -                3605 ./usr/lib/libjson-rpc-cpp/cmake/libjson-rpc-cppTargets-noconfig.cmake
+-rw-r--r-- -          -             2299250 ./usr/lib/libjsonrpccpp-common.a
+-rwxr-xr-x -          -              128216 ./usr/lib/libjsonrpccpp-common.so.1.1.1
+lrwxrwxrwx -          -                  29 ./usr/lib/libjsonrpccpp-common.so.1 -> libjsonrpccpp-common.so.1.1.1
+lrwxrwxrwx -          -                  25 ./usr/lib/libjsonrpccpp-common.so -> libjsonrpccpp-common.so.1
+-rw-r--r-- -          -             3105620 ./usr/lib/libjsonrpccpp-server.a
+-rwxr-xr-x -          -              176024 ./usr/lib/libjsonrpccpp-server.so.1.1.1
+lrwxrwxrwx -          -                  29 ./usr/lib/libjsonrpccpp-server.so.1 -> libjsonrpccpp-server.so.1.1.1
+lrwxrwxrwx -          -                  25 ./usr/lib/libjsonrpccpp-server.so -> libjsonrpccpp-server.so.1
+drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 208 ./usr/lib/pkgconfig/libjsonrpccpp-client.pc
+-rw-r--r-- -          -                 147 ./usr/lib/pkgconfig/libjsonrpccpp-common.pc
+-rw-r--r-- -          -                 214 ./usr/lib/pkgconfig/libjsonrpccpp-server.pc

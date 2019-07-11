@@ -1,8 +1,8 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/mraa
-drwxr-xr-x root       root              200 ./usr/share/mraa/examples
-drwxr-xr-x root       root              320 ./usr/share/mraa/examples/c
+drwxr-xr-x root       root              220 ./usr/share/mraa/examples
+drwxr-xr-x root       root              340 ./usr/share/mraa/examples/c
 drwxr-xr-x root       root              260 ./usr/share/mraa/examples/c++
 -rw-r--r-- root       root             2830 ./usr/share/mraa/examples/c/aio.c
 -rw-r--r-- root       root             2211 ./usr/share/mraa/examples/c++/aio.cpp
@@ -18,7 +18,8 @@ drwxr-xr-x root       root              260 ./usr/share/mraa/examples/c++
 -rw-r--r-- root       root             4895 ./usr/share/mraa/examples/c/i2c_mpu6050.c
 -rw-r--r-- root       root             5149 ./usr/share/mraa/examples/c/iio.c
 -rw-r--r-- root       root             6418 ./usr/share/mraa/examples/c++/iio.cpp
--rw-r--r-- root       root             3175 ./usr/share/mraa/examples/c/led.c
+-rw-r--r-- root       root             1730 ./usr/share/mraa/examples/c/initio.c
+-rw-r--r-- root       root             3169 ./usr/share/mraa/examples/c/led.c
 -rw-r--r-- root       root             2566 ./usr/share/mraa/examples/c++/led.cpp
 -rw-r--r-- root       root              215 ./usr/share/mraa/examples/CMakeLists.txt
 -rw-r--r-- root       root             3250 ./usr/share/mraa/examples/c/pwm.c
@@ -30,6 +31,7 @@ drwxr-xr-x root       root              260 ./usr/share/mraa/examples/c++
 -rw-r--r-- root       root             3006 ./usr/share/mraa/examples/c++/uart.cpp
 -rw-r--r-- root       root             3343 ./usr/share/mraa/examples/c/uart_ow.c
 -rw-r--r-- root       root             2882 ./usr/share/mraa/examples/c++/uart_ow.cpp
+-rw-r--r-- root       root             2439 ./usr/share/mraa/examples/gpio_multiple_rw.c
 drwxr-xr-x root       root              340 ./usr/share/mraa/examples/java
 -rw-r--r-- root       root             2114 ./usr/share/mraa/examples/java/AioA0.java
 -rw-r--r-- root       root             2595 ./usr/share/mraa/examples/java/BlinkIO.java
@@ -59,8 +61,8 @@ drwxr-xr-x root       root              280 ./usr/share/mraa/examples/javascript
 -rw-r--r-- root       root             3541 ./usr/share/mraa/examples/java/SpiMAX7219.java
 -rw-r--r-- root       root             2677 ./usr/share/mraa/examples/java/SpiMCP4261.java
 -rw-r--r-- root       root             2062 ./usr/share/mraa/examples/java/UartExample.java
-drwxr-xr-x root       root              220 ./usr/share/mraa/examples/platform
--rw-r--r-- root       root              400 ./usr/share/mraa/examples/platform/CMakeLists.txt
+drwxr-xr-x root       root              260 ./usr/share/mraa/examples/platform
+-rw-r--r-- root       root              478 ./usr/share/mraa/examples/platform/CMakeLists.txt
 -rw-r--r-- root       root             2701 ./usr/share/mraa/examples/platform/firmata_curie_imu.c
 -rw-r--r-- root       root             2718 ./usr/share/mraa/examples/platform/gpio_edison.c
 -rw-r--r-- root       root             2112 ./usr/share/mraa/examples/platform/i2c_firmata.c
@@ -69,6 +71,8 @@ drwxr-xr-x root       root              220 ./usr/share/mraa/examples/platform
 -rw-r--r-- root       root             1805 ./usr/share/mraa/examples/platform/initio.py
 -rw-r--r-- root       root              388 ./usr/share/mraa/examples/platform/intel-aero.json
 -rw-r--r-- root       root             1873 ./usr/share/mraa/examples/platform/turbotjson.json
+-rw-r--r-- root       root             2962 ./usr/share/mraa/examples/platform/up2-leds.cpp
+-rw-r--r-- root       root             3262 ./usr/share/mraa/examples/platform/Up2Leds.java
 drwxr-xr-x root       root              300 ./usr/share/mraa/examples/python
 -rw-r--r-- root       root             1475 ./usr/share/mraa/examples/python/aio.py
 -rw-r--r-- root       root             1257 ./usr/share/mraa/examples/python/firmata.py

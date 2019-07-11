@@ -1,9 +1,9 @@
 PV = 17
 PR = r0
-PKGR = r0.91
+PKGR = r0.92
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = efivar-dbg glibc-dbg
-PKGSIZE = 135088
+RRECOMMENDS = efivar-dbg glibc-dbg popt-dbg
+PKGSIZE = 183968
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/sbin/.debug/efibootmgr
+FILELIST = /usr/sbin/.debug/efibootdump /usr/sbin/.debug/efibootmgr

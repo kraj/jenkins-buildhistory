@@ -1,9 +1,9 @@
-PV = 2.10.6
+PV = 2.10.7
 PR = r0
-PKGR = r0.43
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = lttng-tools (= 2.10.6-r0.43)
-RRECOMMENDS = babeltrace-dev base-files-dev base-passwd-dev bash-dev coreutils-dev gawk-dev glibc-dev glibc-utils-dev kmod-dev libgcc-dev liburcu-dev libxml2-dev lttng-modules-dev lttng-ust-dev make-dev perl-dev perl-module-getopt-long-dev perl-module-overloading-dev popt-dev procps-dev shadow-dev shadow-sysroot-dev util-linux-dev util-linux-libuuid-dev
-PKGSIZE = 95561
+RDEPENDS = lttng-tools (= 2.10.7-r0.0)
+RRECOMMENDS = babeltrace-dev base-files-dev base-passwd-dev bash-dev coreutils-dev gawk-dev glibc-dev glibc-utils-dev kmod-dev libgcc-dev liburcu-dev libxml2-dev lttng-modules-dev lttng-ust-dev make-dev perl-dev perl-module-getopt-long-dev perl-module-overloading-dev popt-dev procps-dev sed-dev shadow-dev shadow-sysroot-dev util-linux-dev util-linux-libuuid-dev
+PKGSIZE = 95839
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lttng-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/python3.7/site-packages/*.la
 FILELIST = /usr/include/lttng/action/action.h /usr/include/lttng/action/notify.h /usr/include/lttng/channel.h /usr/include/lttng/condition/buffer-usage.h /usr/include/lttng/condition/condition.h /usr/include/lttng/condition/evaluation.h /usr/include/lttng/constant.h /usr/include/lttng/domain.h /usr/include/lttng/endpoint.h /usr/include/lttng/event.h /usr/include/lttng/handle.h /usr/include/lttng/health.h /usr/include/lttng/load.h /usr/include/lttng/lttng-error.h /usr/include/lttng/lttng.h /usr/include/lttng/notification/channel.h /usr/include/lttng/notification/notification.h /usr/include/lttng/save.h /usr/include/lttng/session.h /usr/include/lttng/snapshot.h /usr/include/lttng/trigger/trigger.h /usr/include/lttng/version.h.tmpl /usr/lib/liblttng-ctl.so /usr/lib/pkgconfig/lttng-ctl.pc

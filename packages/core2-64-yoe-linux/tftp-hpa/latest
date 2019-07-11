@@ -1,5 +1,5 @@
 PV = 5.2
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native readline systemd-systemctl-native tcp-wrappers virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native initscripts libtool-cross libtool-native readline systemd-systemctl-native tcp-wrappers update-rc.d virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = tftp-hpa-src tftp-hpa-dbg tftp-hpa-staticdev tftp-hpa-dev tftp-hpa-doc tftp-hpa-locale tftp-hpa tftp-hpa-server
 LAYER = networking-layer

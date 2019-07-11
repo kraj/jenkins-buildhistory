@@ -12,7 +12,7 @@ drwxr-xr-x root       root               40 ./etc/ipsec.d/reqs
 -rw------- root       root               48 ./etc/ipsec.secrets
 -rw-r--r-- root       root              281 ./etc/strongswan.conf
 drwxr-xr-x root       root              120 ./etc/strongswan.d
--rw-r--r-- root       root            10815 ./etc/strongswan.d/charon.conf
+-rw-r--r-- root       root            11071 ./etc/strongswan.d/charon.conf
 -rw-r--r-- root       root             2105 ./etc/strongswan.d/charon-logging.conf
 -rw-r--r-- root       root               65 ./etc/strongswan.d/pki.conf
 -rw-r--r-- root       root              173 ./etc/strongswan.d/starter.conf
@@ -20,23 +20,24 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
--rw-r--r-- root       root               26 ./lib/systemd/system-preset/98-strongswan.preset
--rw-r--r-- root       root              246 ./lib/systemd/system/strongswan.service
+-rw-r--r-- root       root               34 ./lib/systemd/system-preset/98-strongswan.preset
+-rw-r--r-- root       root              246 ./lib/systemd/system/strongswan-starter.service
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root            75928 ./usr/bin/pki
+-rwxr-xr-x root       root            80024 ./usr/bin/pki
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
-drwxr-xr-x root       root              140 ./usr/libexec/ipsec
+drwxr-xr-x root       root              160 ./usr/libexec/ipsec
 -rwxr-xr-x root       root            18584 ./usr/libexec/ipsec/charon
 -rwxr-xr-x root       root            10832 ./usr/libexec/ipsec/_copyright
 -rwxr-xr-x root       root            80616 ./usr/libexec/ipsec/starter
 -rwxr-xr-x root       root            22784 ./usr/libexec/ipsec/stroke
--rwxr-xr-x root       root            20125 ./usr/libexec/ipsec/_updown
+-rwxr-xr-x root       root            20329 ./usr/libexec/ipsec/_updown
+-rwxr-xr-x root       root            10632 ./usr/libexec/ipsec/xfrmi
 drwxr-xr-x root       root              160 ./usr/lib/ipsec
--rwxr-xr-x root       root           605016 ./usr/lib/ipsec/libcharon.so.0.0.0
+-rwxr-xr-x root       root           609112 ./usr/lib/ipsec/libcharon.so.0.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/ipsec/libcharon.so.0 -> libcharon.so.0.0.0
--rwxr-xr-x root       root           450472 ./usr/lib/ipsec/libstrongswan.so.0.0.0
+-rwxr-xr-x root       root           454568 ./usr/lib/ipsec/libstrongswan.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/ipsec/libstrongswan.so.0 -> libstrongswan.so.0.0.0
 -rwxr-xr-x root       root            30992 ./usr/lib/ipsec/libvici.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/ipsec/libvici.so.0 -> libvici.so.0.0.0
@@ -88,7 +89,7 @@ drwxr-xr-x root       root              820 ./usr/share/strongswan/templates/con
 -rw-r--r-- root       root              131 ./usr/share/strongswan/templates/config/plugins/xcbc.conf
 -rw-r--r-- root       root              281 ./usr/share/strongswan/templates/config/strongswan.conf
 drwxr-xr-x root       root              120 ./usr/share/strongswan/templates/config/strongswan.d
--rw-r--r-- root       root            10815 ./usr/share/strongswan/templates/config/strongswan.d/charon.conf
+-rw-r--r-- root       root            11071 ./usr/share/strongswan/templates/config/strongswan.d/charon.conf
 -rw-r--r-- root       root             2105 ./usr/share/strongswan/templates/config/strongswan.d/charon-logging.conf
 -rw-r--r-- root       root               65 ./usr/share/strongswan/templates/config/strongswan.d/pki.conf
 -rw-r--r-- root       root              173 ./usr/share/strongswan/templates/config/strongswan.d/starter.conf

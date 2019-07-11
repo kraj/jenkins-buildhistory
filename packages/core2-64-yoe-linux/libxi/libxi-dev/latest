@@ -1,10 +1,10 @@
 PE = 1
-PV = 1.7.9
+PV = 1.7.10
 PR = r0
-PKGR = r0.101
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libxi (= 1:1.7.9-r0.101)
+RDEPENDS = libxi (= 1:1.7.10-r0.0)
 RRECOMMENDS = glibc-dev libx11-dev libxext-dev libxfixes-dev util-macros-dev xorgproto-dev
-PKGSIZE = 55051
+PKGSIZE = 55052
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxi/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/X11/extensions/XInput.h /usr/include/X11/extensions/XInput2.h /usr/lib/libXi.so /usr/lib/pkgconfig/xi.pc

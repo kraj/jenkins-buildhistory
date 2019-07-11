@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/lib/gawk
 drwxr-xr-x root       root              100 ./usr/lib/gawk/ptest
 lrwxrwxrwx root       root               13 ./usr/lib/gawk/ptest/gawk -> /usr/bin/gawk
 -rwxr-xr-x root       root              494 ./usr/lib/gawk/ptest/run-ptest
-drwxr-xr-x root       root            20760 ./usr/lib/gawk/ptest/test
+drwxr-xr-x root       root            20940 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root              264 ./usr/lib/gawk/ptest/test/aadelete1.awk
 -rw-r--r-- root       root              103 ./usr/lib/gawk/ptest/test/aadelete1.ok
 -rw-r--r-- root       root              110 ./usr/lib/gawk/ptest/test/aadelete2.awk
@@ -89,6 +89,8 @@ drwxr-xr-x root       root            20760 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root              355 ./usr/lib/gawk/ptest/test/asorti.awk
 -rw-r--r-- root       root              282 ./usr/lib/gawk/ptest/test/asorti.ok
 -rw-r--r-- root       root              282 ./usr/lib/gawk/ptest/test/asort.ok
+-rw-r--r-- root       root               28 ./usr/lib/gawk/ptest/test/assignnumfield2.awk
+-rw-r--r-- root       root                2 ./usr/lib/gawk/ptest/test/assignnumfield2.ok
 -rw-r--r-- root       root               13 ./usr/lib/gawk/ptest/test/assignnumfield.awk
 -rw-r--r-- root       root               30 ./usr/lib/gawk/ptest/test/assignnumfield.in
 -rw-r--r-- root       root               10 ./usr/lib/gawk/ptest/test/assignnumfield.ok
@@ -290,6 +292,9 @@ drwxr-xr-x root       root            20760 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root               36 ./usr/lib/gawk/ptest/test/fsbs.awk
 -rw-r--r-- root       root                4 ./usr/lib/gawk/ptest/test/fsbs.in
 -rw-r--r-- root       root                4 ./usr/lib/gawk/ptest/test/fsbs.ok
+-rw-r--r-- root       root               43 ./usr/lib/gawk/ptest/test/fscaret.awk
+-rw-r--r-- root       root                4 ./usr/lib/gawk/ptest/test/fscaret.in
+-rw-r--r-- root       root                4 ./usr/lib/gawk/ptest/test/fscaret.ok
 -rw-r--r-- root       root               62 ./usr/lib/gawk/ptest/test/fsfwfs.awk
 -rw-r--r-- root       root              384 ./usr/lib/gawk/ptest/test/fsfwfs.in
 -rw-r--r-- root       root              416 ./usr/lib/gawk/ptest/test/fsfwfs.ok
@@ -491,7 +496,7 @@ drwxr-xr-x root       root            20760 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root               29 ./usr/lib/gawk/ptest/test/longsub.awk
 -rw-r--r-- root       root           200001 ./usr/lib/gawk/ptest/test/longsub.in
 -rw-r--r-- root       root           199965 ./usr/lib/gawk/ptest/test/longsub.ok
--rw-r--r-- root       root            68881 ./usr/lib/gawk/ptest/test/Maketests
+-rw-r--r-- root       root            69496 ./usr/lib/gawk/ptest/test/Maketests
 -rw-r--r-- root       root             1097 ./usr/lib/gawk/ptest/test/manglprm.awk
 -rw-r--r-- root       root                8 ./usr/lib/gawk/ptest/test/manglprm.in
 -rw-r--r-- root       root               12 ./usr/lib/gawk/ptest/test/manglprm.ok
@@ -860,6 +865,8 @@ drwxr-xr-x root       root            20760 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root             1338 ./usr/lib/gawk/ptest/test/rwarray.awk
 -rw-r--r-- root       root             6403 ./usr/lib/gawk/ptest/test/rwarray.in
 -rw-r--r-- root       root               94 ./usr/lib/gawk/ptest/test/rwarray.ok
+-rw-r--r-- root       root              257 ./usr/lib/gawk/ptest/test/sandbox1.awk
+-rw-r--r-- root       root              100 ./usr/lib/gawk/ptest/test/sandbox1.ok
 -rw-r--r-- root       root               30 ./usr/lib/gawk/ptest/test/scalar.awk
 -rw-r--r-- root       root               78 ./usr/lib/gawk/ptest/test/scalar.ok
 -rw-r--r-- root       root               41 ./usr/lib/gawk/ptest/test/sclforin.awk
@@ -972,6 +979,8 @@ drwxr-xr-x root       root            20760 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root               81 ./usr/lib/gawk/ptest/test/synerr1.ok
 -rw-r--r-- root       root             2166 ./usr/lib/gawk/ptest/test/synerr2.awk
 -rw-r--r-- root       root              122 ./usr/lib/gawk/ptest/test/synerr2.ok
+-rw-r--r-- root       root               26 ./usr/lib/gawk/ptest/test/synerr3.awk
+-rw-r--r-- root       root              188 ./usr/lib/gawk/ptest/test/synerr3.ok
 -rw-r--r-- root       root              150 ./usr/lib/gawk/ptest/test/tailrecurse.awk
 -rw-r--r-- root       root               34 ./usr/lib/gawk/ptest/test/tailrecurse.ok
 -rw-r--r-- root       root              621 ./usr/lib/gawk/ptest/test/time.awk

@@ -1,0 +1,29 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/gcc-sanitizers
+drwxr-xr-x -          -                  60 ./usr
+drwxr-xr-x -          -                 380 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/lib/gcc
+drwxr-xr-x -          -                  60 ./usr/lib/gcc/x86_64-yoe-linux
+drwxr-xr-x -          -                  60 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0
+drwxr-xr-x -          -                  60 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0/include
+drwxr-xr-x -          -                 120 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0/include/sanitizer
+-rw-r--r-- -          -                7254 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0/include/sanitizer/asan_interface.h
+-rw-r--r-- -          -               10978 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0/include/sanitizer/common_interface_defs.h
+-rw-r--r-- -          -                3848 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0/include/sanitizer/lsan_interface.h
+-rw-r--r-- -          -                6102 ./usr/lib/gcc/x86_64-yoe-linux/9.1.0/include/sanitizer/tsan_interface.h
+-rw-r--r-- -          -               11880 ./usr/lib/libasan_preinit.o
+-rwxr-xr-x -          -             1626488 ./usr/lib/libasan.so.5.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libasan.so.5 -> libasan.so.5.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libasan.so -> libasan.so.5.0.0
+-rw-r--r-- -          -                8064 ./usr/lib/liblsan_preinit.o
+-rwxr-xr-x -          -              369048 ./usr/lib/liblsan.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/liblsan.so.0 -> liblsan.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/liblsan.so -> liblsan.so.0.0.0
+-rw-r--r-- -          -                 320 ./usr/lib/libsanitizer.spec
+-rw-r--r-- -          -                3424 ./usr/lib/libtsan_preinit.o
+-rwxr-xr-x -          -             1024400 ./usr/lib/libtsan.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libtsan.so.0 -> libtsan.so.0.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libtsan.so -> libtsan.so.0.0.0
+-rwxr-xr-x -          -              348816 ./usr/lib/libubsan.so.1.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libubsan.so.1 -> libubsan.so.1.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libubsan.so -> libubsan.so.1.0.0

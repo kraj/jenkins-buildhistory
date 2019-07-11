@@ -1,9 +1,9 @@
-PV = 1.4
+PV = 2.0
 PR = r0
-PKGR = r0.83
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libbytesize (= 1.4-r0.83)
-RRECOMMENDS = glibc-dev gmp-dev libpcre-dev mpfr-dev python3-dev
+RDEPENDS = libbytesize (= 2.0-r0.0)
+RRECOMMENDS = glibc-dev gmp-dev libpcre2-dev mpfr-dev python3-core-dev
 PKGSIZE = 4408
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libbytesize/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/bytesize/bs_size.h /usr/lib/libbytesize.so /usr/lib/pkgconfig/bytesize.pc

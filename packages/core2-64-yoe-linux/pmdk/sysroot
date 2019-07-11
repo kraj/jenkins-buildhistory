@@ -1,0 +1,91 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/pmdk
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                 240 ./usr/include
+-rw-r--r-- -          -                5467 ./usr/include/libpmemblk.h
+-rw-r--r-- -          -                6315 ./usr/include/libpmemcto.h
+-rw-r--r-- -          -                4705 ./usr/include/libpmem.h
+-rw-r--r-- -          -                5127 ./usr/include/libpmemlog.h
+drwxr-xr-x -          -                 360 ./usr/include/libpmemobj
+drwxr-xr-x -          -                 360 ./usr/include/libpmemobj++
+-rw-r--r-- -          -                3174 ./usr/include/libpmemobj/action_base.h
+-rw-r--r-- -          -                2092 ./usr/include/libpmemobj/action.h
+-rw-r--r-- -          -               12753 ./usr/include/libpmemobj++/allocator.hpp
+-rw-r--r-- -          -                3592 ./usr/include/libpmemobj/atomic_base.h
+-rw-r--r-- -          -                2630 ./usr/include/libpmemobj/atomic.h
+-rw-r--r-- -          -                6985 ./usr/include/libpmemobj/base.h
+-rw-r--r-- -          -               17688 ./usr/include/libpmemobj++/condition_variable.hpp
+-rw-r--r-- -          -                7568 ./usr/include/libpmemobj/ctl.h
+drwxr-xr-x -          -                 240 ./usr/include/libpmemobj++/detail
+-rw-r--r-- -          -                2475 ./usr/include/libpmemobj++/detail/array_traits.hpp
+-rw-r--r-- -          -                2871 ./usr/include/libpmemobj++/detail/check_persistent_ptr_array.hpp
+-rw-r--r-- -          -                3386 ./usr/include/libpmemobj++/detail/common.hpp
+-rw-r--r-- -          -                2523 ./usr/include/libpmemobj++/detail/conversions.hpp
+-rw-r--r-- -          -                3020 ./usr/include/libpmemobj++/detail/integer_sequence.hpp
+-rw-r--r-- -          -                3880 ./usr/include/libpmemobj++/detail/life.hpp
+-rw-r--r-- -          -                3326 ./usr/include/libpmemobj++/detail/make_atomic_impl.hpp
+-rw-r--r-- -          -                9685 ./usr/include/libpmemobj++/detail/persistent_ptr_base.hpp
+-rw-r--r-- -          -                3343 ./usr/include/libpmemobj++/detail/pexceptions.hpp
+-rw-r--r-- -          -                3666 ./usr/include/libpmemobj++/detail/specialization.hpp
+-rw-r--r-- -          -                2177 ./usr/include/libpmemobj.h
+-rw-r--r-- -          -                2371 ./usr/include/libpmemobj/iterator_base.h
+-rw-r--r-- -          -                3557 ./usr/include/libpmemobj/iterator.h
+-rw-r--r-- -          -                2537 ./usr/include/libpmemobj/lists_atomic_base.h
+-rw-r--r-- -          -                6636 ./usr/include/libpmemobj/lists_atomic.h
+-rw-r--r-- -          -                5373 ./usr/include/libpmemobj++/make_persistent_array_atomic.hpp
+-rw-r--r-- -          -                6718 ./usr/include/libpmemobj++/make_persistent_array.hpp
+-rw-r--r-- -          -                3880 ./usr/include/libpmemobj++/make_persistent_atomic.hpp
+-rw-r--r-- -          -                4321 ./usr/include/libpmemobj++/make_persistent.hpp
+-rw-r--r-- -          -                5031 ./usr/include/libpmemobj++/mutex.hpp
+-rw-r--r-- -          -               14102 ./usr/include/libpmemobj++/persistent_ptr.hpp
+-rw-r--r-- -          -                6551 ./usr/include/libpmemobj++/pext.hpp
+-rw-r--r-- -          -                4910 ./usr/include/libpmemobj++/p.hpp
+-rw-r--r-- -          -                4067 ./usr/include/libpmemobj/pool_base.h
+-rw-r--r-- -          -                1894 ./usr/include/libpmemobj/pool.h
+-rw-r--r-- -          -               15474 ./usr/include/libpmemobj++/pool.hpp
+-rw-r--r-- -          -                7061 ./usr/include/libpmemobj++/shared_mutex.hpp
+-rw-r--r-- -          -                3665 ./usr/include/libpmemobj/thread.h
+-rw-r--r-- -          -                7194 ./usr/include/libpmemobj++/timed_mutex.hpp
+-rw-r--r-- -          -               13132 ./usr/include/libpmemobj++/transaction.hpp
+-rw-r--r-- -          -                9598 ./usr/include/libpmemobj/tx_base.h
+-rw-r--r-- -          -                5581 ./usr/include/libpmemobj/tx.h
+-rw-r--r-- -          -                5982 ./usr/include/libpmemobj/types.h
+-rw-r--r-- -          -                2886 ./usr/include/libpmemobj++/utils.hpp
+-rw-r--r-- -          -                7547 ./usr/include/libpmempool.h
+-rw-r--r-- -          -                5075 ./usr/include/libvmem.h
+-rw-r--r-- -          -                4280 ./usr/include/libvmmalloc.h
+drwxr-xr-x -          -                 540 ./usr/lib
+-rwxr-xr-x -          -              104944 ./usr/lib/libpmemblk.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemblk.so.1 -> libpmemblk.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemblk.so -> libpmemblk.so.1
+-rwxr-xr-x -          -              346808 ./usr/lib/libpmemcto.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemcto.so.1 -> libpmemcto.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemcto.so -> libpmemcto.so.1
+-rwxr-xr-x -          -               92608 ./usr/lib/libpmemlog.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemlog.so.1 -> libpmemlog.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemlog.so -> libpmemlog.so.1
+-rwxr-xr-x -          -              228744 ./usr/lib/libpmemobj.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemobj.so.1 -> libpmemobj.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemobj.so -> libpmemobj.so.1
+-rwxr-xr-x -          -              256992 ./usr/lib/libpmempool.so.1.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libpmempool.so.1 -> libpmempool.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libpmempool.so -> libpmempool.so.1
+-rwxr-xr-x -          -              186736 ./usr/lib/libpmem.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libpmem.so.1 -> libpmem.so.1.0.0
+lrwxrwxrwx -          -                  12 ./usr/lib/libpmem.so -> libpmem.so.1
+-rwxr-xr-x -          -              297656 ./usr/lib/libvmem.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libvmem.so.1 -> libvmem.so.1.0.0
+lrwxrwxrwx -          -                  12 ./usr/lib/libvmem.so -> libvmem.so.1
+-rwxr-xr-x -          -              293592 ./usr/lib/libvmmalloc.so.1.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libvmmalloc.so.1 -> libvmmalloc.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libvmmalloc.so -> libvmmalloc.so.1
+drwxr-xr-x -          -                 220 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 274 ./usr/lib/pkgconfig/libpmemblk.pc
+-rw-r--r-- -          -                 274 ./usr/lib/pkgconfig/libpmemcto.pc
+-rw-r--r-- -          -                 274 ./usr/lib/pkgconfig/libpmemlog.pc
+-rw-r--r-- -          -                 293 ./usr/lib/pkgconfig/libpmemobj.pc
+-rw-r--r-- -          -                 289 ./usr/lib/pkgconfig/libpmemobj++.pc
+-rw-r--r-- -          -                 249 ./usr/lib/pkgconfig/libpmem.pc
+-rw-r--r-- -          -                 296 ./usr/lib/pkgconfig/libpmempool.pc
+-rw-r--r-- -          -                 249 ./usr/lib/pkgconfig/libvmem.pc
+-rw-r--r-- -          -                 261 ./usr/lib/pkgconfig/libvmmalloc.pc

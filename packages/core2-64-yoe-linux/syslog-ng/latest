@@ -1,5 +1,5 @@
 PV = 3.19.1
 PR = r0
-DEPENDS = autoconf-native automake-native flex gettext-native glib-2.0 gnu-config-native libpcre libtool-cross libtool-native openssl pkgconfig-native systemd systemd-systemctl-native util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native flex gettext-native glib-2.0 gnu-config-native initscripts libpcre libtool-cross libtool-native openssl pkgconfig-native systemd systemd-systemctl-native update-rc.d util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = syslog-ng-src syslog-ng-dbg syslog-ng-jconf syslog-ng-libs syslog-ng-libs-dev syslog-ng-staticdev syslog-ng-dev syslog-ng-doc syslog-ng-locale syslog-ng
 LAYER = openembedded-layer

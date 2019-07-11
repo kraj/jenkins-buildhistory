@@ -1,10 +1,10 @@
-PV = 3.4.5
+PV = 4.1.0
 PR = r0
-PKG = libopencv-face3.4
-PKGR = r0.47
-RPROVIDES = libopencv-face (=3.4.5)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libopencv-core (>= 3.4.5) libopencv-imgproc (>= 3.4.5) libopencv-objdetect (>= 3.4.5) libopencv-video (>= 3.4.5) libstdc++ (>= 9.1.0)
+PKG = libopencv-face4.1
+PKGR = r0.0
+RPROVIDES = libopencv-face (=4.1.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libopencv-calib3d (>= 4.1.0) libopencv-core (>= 4.1.0) libopencv-imgproc (>= 4.1.0) libopencv-objdetect (>= 4.1.0) libstdc++ (>= 9.1.0)
 RRECOMMENDS = 
-PKGSIZE = 653679
-FILES = /usr/lib/libopencv_face.so /usr/lib/libopencv_face.so.3.4 /usr/lib/libopencv_face.so.3.4.5
-FILELIST = /usr/lib/libopencv_face.so.3.4 /usr/lib/libopencv_face.so.3.4.5
+PKGSIZE = 670063
+FILES = /usr/lib/libopencv_face.so /usr/lib/libopencv_face.so.4.1 /usr/lib/libopencv_face.so.4.1.0
+FILELIST = /usr/lib/libopencv_face.so.4.1 /usr/lib/libopencv_face.so.4.1.0

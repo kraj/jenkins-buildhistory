@@ -1,5 +1,5 @@
 PV = 17
 PR = r0
-DEPENDS = efivar pciutils pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+DEPENDS = efivar pkgconfig-native popt virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = efibootmgr-src efibootmgr-dbg efibootmgr-staticdev efibootmgr-dev efibootmgr-doc efibootmgr-locale efibootmgr
-LAYER = openembedded-layer
+LAYER = core

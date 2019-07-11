@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
 PKG = libatspi0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = at-spi2-core (=2.32.1)
-RDEPENDS = dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.3) glibc (>= 2.29) libx11 (>= 1.6.7) libxtst (>= 1.2.3)
+RDEPENDS = dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.4) glibc (>= 2.29) libx11 (>= 1.6.7) libxtst (>= 1.2.3)
 RRECOMMENDS = 
 PKGSIZE = 373786
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/at-spi2-core /usr/lib/at-spi2-core/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/services/*.service /usr/share/dbus-1/accessibility-services/*.service /usr/share/defaults/at-spi2 /usr/lib/systemd/user/at-spi-dbus-bus.service /usr/lib/girepository-*/*.typelib

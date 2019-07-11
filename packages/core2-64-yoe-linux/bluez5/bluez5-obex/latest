@@ -1,9 +1,9 @@
 PV = 5.50
 PR = r0
-PKGR = r0.115
+PKGR = r0.116
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.3) glibc (>= 2.29) libical (>= 2.0.0)
+RDEPENDS = dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.4) glibc (>= 2.29) libical (>= 2.0.0)
 RRECOMMENDS = 
-PKGSIZE = 496129
+PKGSIZE = 492033
 FILES = /usr/libexec/bluetooth/obexd /usr/lib/systemd/user/obex.service /lib/systemd/system/obex.service /etc/systemd/system/multi-user.target.wants/obex.service /usr/share/dbus-1/services/org.bluez.obex.service /etc/dbus-1/system.d/obexd.conf
 FILELIST = /usr/lib/systemd/user/obex.service /usr/libexec/bluetooth/obexd /usr/share/dbus-1/services/org.bluez.obex.service

@@ -1,0 +1,40 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   5 ./sysroot-providers/mpich
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                 200 ./usr/include
+-rw-r--r-- -          -              129139 ./usr/include/mpi.h
+-rw-r--r-- -          -                1117 ./usr/include/mpiof.h
+-rw-r--r-- -          -               23248 ./usr/include/mpio.h
+-rw-r--r-- -          -                6688 ./usr/include/opa_config.h
+-rw-r--r-- -          -                6423 ./usr/include/opa_primitives.h
+-rw-r--r-- -          -               14699 ./usr/include/opa_queue.h
+-rw-r--r-- -          -                 882 ./usr/include/opa_util.h
+drwxr-xr-x -          -                 320 ./usr/include/primitives
+-rw-r--r-- -          -                5963 ./usr/include/primitives/opa_by_lock.h
+-rw-r--r-- -          -                4090 ./usr/include/primitives/opa_emulated.h
+-rw-r--r-- -          -                7129 ./usr/include/primitives/opa_gcc_ia64.h
+-rw-r--r-- -          -                1077 ./usr/include/primitives/opa_gcc_intel_32_64_barrier.h
+-rw-r--r-- -          -                 393 ./usr/include/primitives/opa_gcc_intel_32_64.h
+-rw-r--r-- -          -                4809 ./usr/include/primitives/opa_gcc_intel_32_64_ops.h
+-rw-r--r-- -          -                1472 ./usr/include/primitives/opa_gcc_intel_32_64_p3barrier.h
+-rw-r--r-- -          -                 404 ./usr/include/primitives/opa_gcc_intel_32_64_p3.h
+-rw-r--r-- -          -                3668 ./usr/include/primitives/opa_gcc_intrinsics.h
+-rw-r--r-- -          -                5698 ./usr/include/primitives/opa_gcc_ppc.h
+-rw-r--r-- -          -               18617 ./usr/include/primitives/opa_gcc_sicortex.h
+-rw-r--r-- -          -                4389 ./usr/include/primitives/opa_nt_intrinsics.h
+-rw-r--r-- -          -                2943 ./usr/include/primitives/opa_sun_atomic_ops.h
+-rw-r--r-- -          -                3684 ./usr/include/primitives/opa_unsafe.h
+drwxr-xr-x -          -                 240 ./usr/lib
+lrwxrwxrwx -          -                   9 ./usr/lib/libmpich.so -> libmpi.so
+-rwxr-xr-x -          -             2302528 ./usr/lib/libmpi.so.12.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libmpi.so.12 -> libmpi.so.12.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libmpi.so -> libmpi.so.12.1.0
+lrwxrwxrwx -          -                   9 ./usr/lib/libmpl.so -> libmpi.so
+lrwxrwxrwx -          -                   9 ./usr/lib/libopa.so -> libmpi.so
+-rwxr-xr-x -          -               14328 ./usr/lib/libtvmpich.so.12.1.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libtvmpich.so.12 -> libtvmpich.so.12.1.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libtvmpich.so -> libtvmpich.so.12.1.0
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 738 ./usr/lib/pkgconfig/mpich.pc
+-rw-r--r-- -          -                 375 ./usr/lib/pkgconfig/openpa.pc
+drwxr-xr-x -          -                  40 ./usr/share

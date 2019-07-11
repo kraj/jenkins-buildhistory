@@ -1,9 +1,9 @@
-PV = 4.8.12
+PV = 4.10.5
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libauthkrb5-samba4 (>= 4.8.12) libdnsserver-common-samba4 (>= 4.8.12) libevents-samba4 (>= 4.8.12) libgensec-samba4 (>= 4.8.12) libsamba-credentials (>= 4.8.12) libsamba-debug-samba4 (>= 4.8.12) libsamba-errors (>= 4.8.12) libsamba-hostconfig (>= 4.8.12) libsamba-util (>= 4.8.12) libsamdb (>= 4.8.12) libsamdb-common-samba4 (>= 4.8.12) libtalloc (>= 2.1.14) popt (>= 1.16) samba-bundled-ldb (>= 4.8.12) samba-common
+RDEPENDS = glibc (>= 2.29) libauthkrb5-samba4 (>= 4.10.5) libdnsserver-common-samba4 (>= 4.10.5) libevents-samba4 (>= 4.10.5) libgensec-samba4 (>= 4.10.5) libldb (>= 1.5.4) libsamba-credentials (>= 4.10.5) libsamba-debug-samba4 (>= 4.10.5) libsamba-errors (>= 4.10.5) libsamba-hostconfig (>= 4.10.5) libsamba-util (>= 4.10.5) libsamdb (>= 4.10.5) libsamdb-common-samba4 (>= 4.10.5) libtalloc (>= 2.2.0) popt (>= 1.16) samba-common
 RRECOMMENDS = 
-PKGSIZE = 42992
+PKGSIZE = 47088
 FILES = /usr/lib/samba/libdlz-bind9-for-torture-samba4.so
 FILELIST = /usr/lib/samba/libdlz-bind9-for-torture-samba4.so

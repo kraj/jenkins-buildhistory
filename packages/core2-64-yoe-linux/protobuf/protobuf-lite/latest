@@ -1,11 +1,10 @@
-PV = 3.6.1+gitAUTOINC+48cb18e5c4
+PV = 3.8.0
 PR = r0
-PKG = libprotobuf-lite17
-PKGV = 3.6.1+git0+48cb18e5c4
-PKGR = r0.95
-RPROVIDES = protobuf-lite (=3.6.1+git0+48cb18e5c4)
+PKG = libprotobuf-lite19
+PKGR = r0.0
+RPROVIDES = protobuf-lite (=3.8.0)
 RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 465354
+PKGSIZE = 686538
 FILES = /usr/lib/libprotobuf-lite.so.*
-FILELIST = /usr/lib/libprotobuf-lite.so.17 /usr/lib/libprotobuf-lite.so.17.0.0
+FILELIST = /usr/lib/libprotobuf-lite.so.19 /usr/lib/libprotobuf-lite.so.19.0.0

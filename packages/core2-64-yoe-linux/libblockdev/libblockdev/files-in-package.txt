@@ -2,10 +2,12 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/libblockdev
 drwxr-xr-x root       root               60 ./etc/libblockdev/conf.d
 -rw-r--r-- root       root              885 ./etc/libblockdev/conf.d/00-default.cfg
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            10400 ./usr/bin/lvm-cache-stats
 drwxr-xr-x root       root              680 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
--rw-r--r-- root       root            72452 ./usr/lib/girepository-1.0/BlockDev-2.0.typelib
+-rw-r--r-- root       root            72904 ./usr/lib/girepository-1.0/BlockDev-2.0.typelib
 -rwxr-xr-x root       root            22704 ./usr/lib/libbd_btrfs.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libbd_btrfs.so.2 -> libbd_btrfs.so.2.0.0
 -rwxr-xr-x root       root            43104 ./usr/lib/libbd_crypto.so.2.0.0
@@ -24,20 +26,20 @@ lrwxrwxrwx root       root               18 ./usr/lib/libbd_lvm.so.2 -> libbd_lv
 lrwxrwxrwx root       root               21 ./usr/lib/libbd_mdraid.so.2 -> libbd_mdraid.so.2.0.0
 -rwxr-xr-x root       root            18608 ./usr/lib/libbd_mpath.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libbd_mpath.so.2 -> libbd_mpath.so.2.0.0
--rwxr-xr-x root       root            22704 ./usr/lib/libbd_nvdimm.so.2.0.0
+-rwxr-xr-x root       root            22824 ./usr/lib/libbd_nvdimm.so.2.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libbd_nvdimm.so.2 -> libbd_nvdimm.so.2.0.0
 -rwxr-xr-x root       root             6304 ./usr/lib/libbd_part_err.so.2.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libbd_part_err.so.2 -> libbd_part_err.so.2.0.0
 -rwxr-xr-x root       root            39080 ./usr/lib/libbd_part.so.2.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_part.so.2 -> libbd_part.so.2.0.0
--rwxr-xr-x root       root            14504 ./usr/lib/libbd_swap.so.2.0.0
+-rwxr-xr-x root       root            18600 ./usr/lib/libbd_swap.so.2.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_swap.so.2 -> libbd_swap.so.2.0.0
 -rwxr-xr-x root       root            30880 ./usr/lib/libbd_utils.so.2.1.0
 lrwxrwxrwx root       root               20 ./usr/lib/libbd_utils.so.2 -> libbd_utils.so.2.1.0
--rwxr-xr-x root       root           189160 ./usr/lib/libblockdev.so.2.0.0
+-rwxr-xr-x root       root           189168 ./usr/lib/libblockdev.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libblockdev.so.2 -> libblockdev.so.2.0.0
 drwxr-xr-x root       root               60 ./usr/lib/python3.7
 drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages
 drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/gi
 drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/gi/overrides
--rw-r--r-- root       root            43074 ./usr/lib/python3.7/site-packages/gi/overrides/BlockDev.py
+-rw-r--r-- root       root            43838 ./usr/lib/python3.7/site-packages/gi/overrides/BlockDev.py

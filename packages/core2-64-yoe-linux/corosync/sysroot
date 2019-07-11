@@ -1,0 +1,71 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 120 ./lib/systemd/system
+-rw-r--r-- -          -                 310 ./lib/systemd/system/corosync-notifyd.service
+-rw-r--r-- -          -                 388 ./lib/systemd/system/corosync-qdevice.service
+-rw-r--r-- -          -                 508 ./lib/systemd/system/corosync-qnetd.service
+-rw-r--r-- -          -                 842 ./lib/systemd/system/corosync.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/corosync
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               14278 ./usr/bin/postinst-useradd-corosync
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 240 ./usr/include/corosync
+-rw-r--r-- -          -                6137 ./usr/include/corosync/cfg.h
+-rw-r--r-- -          -               11797 ./usr/include/corosync/cmap.h
+-rw-r--r-- -          -                2256 ./usr/include/corosync/corodefs.h
+-rw-r--r-- -          -                4741 ./usr/include/corosync/corotypes.h
+-rw-r--r-- -          -                9498 ./usr/include/corosync/cpg.h
+-rw-r--r-- -          -                5935 ./usr/include/corosync/hdb.h
+-rw-r--r-- -          -                3976 ./usr/include/corosync/quorum.h
+-rw-r--r-- -          -                9309 ./usr/include/corosync/sam.h
+drwxr-xr-x -          -                 100 ./usr/include/corosync/totem
+-rw-r--r-- -          -                7191 ./usr/include/corosync/totem/totem.h
+-rw-r--r-- -          -                4253 ./usr/include/corosync/totem/totemip.h
+-rw-r--r-- -          -                5367 ./usr/include/corosync/totem/totempg.h
+-rw-r--r-- -          -                7841 ./usr/include/corosync/votequorum.h
+drwxr-xr-x -          -                 540 ./usr/lib
+-rwxr-xr-x -          -               14384 ./usr/lib/libcfg.so.6.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcfg.so.6 -> libcfg.so.6.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcfg.so -> libcfg.so.6.0.0
+-rwxr-xr-x -          -               18544 ./usr/lib/libcmap.so.4.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libcmap.so.4 -> libcmap.so.4.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libcmap.so -> libcmap.so.4.1.0
+-rwxr-xr-x -          -                5896 ./usr/lib/libcorosync_common.so.4.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libcorosync_common.so.4 -> libcorosync_common.so.4.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libcorosync_common.so -> libcorosync_common.so.4.0.0
+-rwxr-xr-x -          -               22640 ./usr/lib/libcpg.so.4.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcpg.so.4 -> libcpg.so.4.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcpg.so -> libcpg.so.4.1.0
+-rwxr-xr-x -          -               10288 ./usr/lib/libquorum.so.5.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libquorum.so.5 -> libquorum.so.5.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libquorum.so -> libquorum.so.5.0.0
+-rwxr-xr-x -          -               22512 ./usr/lib/libsam.so.4.4.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libsam.so.4 -> libsam.so.4.4.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libsam.so -> libsam.so.4.4.0
+-rwxr-xr-x -          -              151024 ./usr/lib/libtotem_pg.so.5.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libtotem_pg.so.5 -> libtotem_pg.so.5.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libtotem_pg.so -> libtotem_pg.so.5.0.0
+-rwxr-xr-x -          -               14384 ./usr/lib/libvotequorum.so.8.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libvotequorum.so.8 -> libvotequorum.so.8.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libvotequorum.so -> libvotequorum.so.8.0.0
+drwxr-xr-x -          -                 220 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 172 ./usr/lib/pkgconfig/corosync.pc
+-rw-r--r-- -          -                 180 ./usr/lib/pkgconfig/libcfg.pc
+-rw-r--r-- -          -                 183 ./usr/lib/pkgconfig/libcmap.pc
+-rw-r--r-- -          -                 216 ./usr/lib/pkgconfig/libcorosync_common.pc
+-rw-r--r-- -          -                 180 ./usr/lib/pkgconfig/libcpg.pc
+-rw-r--r-- -          -                 189 ./usr/lib/pkgconfig/libquorum.pc
+-rw-r--r-- -          -                 180 ./usr/lib/pkgconfig/libsam.pc
+-rw-r--r-- -          -                 195 ./usr/lib/pkgconfig/libtotem_pg.pc
+-rw-r--r-- -          -                 201 ./usr/lib/pkgconfig/libvotequorum.pc
+drwxr-xr-x -          -                  80 ./usr/share
+drwxr-xr-x -          -                 120 ./usr/share/corosync
+-rwxr-xr-x -          -                3272 ./usr/share/corosync/corosync
+-rwxr-xr-x -          -                2718 ./usr/share/corosync/corosync-notifyd
+-rwxr-xr-x -          -                3080 ./usr/share/corosync/corosync-qdevice
+-rwxr-xr-x -          -                3393 ./usr/share/corosync/corosync-qnetd
+drwxr-xr-x -          -                  60 ./usr/share/snmp
+drwxr-xr-x -          -                  60 ./usr/share/snmp/mibs
+-rw-r--r-- -          -                6331 ./usr/share/snmp/mibs/COROSYNC-MIB.txt

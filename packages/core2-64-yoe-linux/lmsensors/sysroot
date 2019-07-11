@@ -1,0 +1,19 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 100 ./lib/systemd/system
+-rw-r--r-- -          -                 239 ./lib/systemd/system/fancontrol.service
+-rw-r--r-- -          -                 330 ./lib/systemd/system/lm_sensors.service
+-rw-r--r-- -          -                 271 ./lib/systemd/system/sensord.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/lmsensors
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                  80 ./usr/include/sensors
+-rw-r--r-- -          -                3334 ./usr/include/sensors/error.h
+-rw-r--r-- -          -               11697 ./usr/include/sensors/sensors.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rw-r--r-- -          -              309706 ./usr/lib/libsensors.a
+-rwxr-xr-x -          -               63600 ./usr/lib/libsensors.so.5.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libsensors.so.5 -> libsensors.so.5.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libsensors.so -> libsensors.so.5
+drwxr-xr-x -          -                  40 ./usr/share

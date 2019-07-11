@@ -1,0 +1,32 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 350 ./lib/systemd/system/netcf-transaction.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   5 ./sysroot-providers/netcf
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+-rw-r--r-- -          -                8406 ./usr/include/netcf.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rwxr-xr-x -          -               79944 ./usr/lib/libnetcf.so.1.4.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libnetcf.so.1 -> libnetcf.so.1.4.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libnetcf.so -> libnetcf.so.1.4.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 200 ./usr/lib/pkgconfig/netcf.pc
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                  80 ./usr/share/netcf
+drwxr-xr-x -          -                 100 ./usr/share/netcf/lenses
+-rw-r--r-- -          -                 170 ./usr/share/netcf/lenses/netcf.aug
+-rw-r--r-- -          -                1348 ./usr/share/netcf/lenses/persist_net_rules.aug
+-rw-r--r-- -          -                 906 ./usr/share/netcf/lenses/routes.aug
+drwxr-xr-x -          -                 240 ./usr/share/netcf/xml
+-rw-r--r-- -          -                1213 ./usr/share/netcf/xml/augeas.rng
+-rw-r--r-- -          -                7455 ./usr/share/netcf/xml/debian-get.xsl
+-rw-r--r-- -          -               10997 ./usr/share/netcf/xml/debian-put.xsl
+-rw-r--r-- -          -               15715 ./usr/share/netcf/xml/interface.rng
+-rw-r--r-- -          -                9085 ./usr/share/netcf/xml/redhat-get.xsl
+-rw-r--r-- -          -               13108 ./usr/share/netcf/xml/redhat-put.xsl
+-rw-r--r-- -          -                8735 ./usr/share/netcf/xml/suse-get.xsl
+-rw-r--r-- -          -               11363 ./usr/share/netcf/xml/suse-put.xsl
+-rw-r--r-- -          -                1359 ./usr/share/netcf/xml/util-get.xsl
+-rw-r--r-- -          -                2537 ./usr/share/netcf/xml/util-put.xsl

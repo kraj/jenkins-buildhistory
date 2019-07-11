@@ -1,9 +1,9 @@
 PV = 1.6.6
 PR = r0
-PKGR = r0.98
+PKGR = r0.99
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) scsirastools
-RRECOMMENDS = 
+RRECOMMENDS = update-rc.d
 PKGSIZE = 48971
 FILES = /usr/sbin/sgdiskmon /etc/init.d/sgdisk
 FILELIST = /etc/init.d/sgdisk /usr/sbin/sgdiskmon

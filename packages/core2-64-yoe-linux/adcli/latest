@@ -1,0 +1,5 @@
+PV = 0.8.2
+PR = r0
+DEPENDS = autoconf-native automake-native coreutils-native cyrus-sasl gettext gnu-config-native krb5 libtool-cross libtool-native libxml2-native libxslt libxslt-native openldap virtual/crypt virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xmlto xmlto-native
+PACKAGES = adcli-src adcli-dbg adcli-staticdev adcli-dev adcli-doc adcli-locale adcli
+LAYER = networking-layer

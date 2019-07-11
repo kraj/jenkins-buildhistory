@@ -1,10 +1,10 @@
 PV = 3.19.1
 PR = r0
 PKG = libsyslog-ng-3.19-dev
-PKGR = r0.40
+PKGR = r0.41
 RPROVIDES = syslog-ng-libs-dev (=3.19.1)
 RDEPENDS = 
-RRECOMMENDS = flex-dev glib-2.0-dev glibc-dev libcrypto-dev libpcre-dev libssl-dev libsystemd-dev openssl-dev syslog-ng-dev systemd-dev util-linux-dev util-linux-libuuid-dev
+RRECOMMENDS = flex-dev glib-2.0-dev glibc-dev initscripts-dev libcrypto-dev libpcre-dev libssl-dev libsystemd-dev openssl-dev syslog-ng-dev systemd-dev update-rc.d-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 0
 FILES = /usr/lib/syslog-ng/lib*.la
 FILELIST = 
