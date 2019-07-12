@@ -2,7 +2,7 @@
 set -e
 	update-alternatives --install /usr/bin/x-window-manager x-window-manager /usr/bin/xfwm4 30
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_icon_cache ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_gtk_icon_cache ${PKG} \
 		mlprefix= \
 		libdir_native=/usr/lib
 else

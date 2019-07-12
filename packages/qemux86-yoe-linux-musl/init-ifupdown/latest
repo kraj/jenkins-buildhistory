@@ -1,5 +1,5 @@
 PV = 1.0
 PR = r7
-DEPENDS = virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+DEPENDS = initscripts update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
 PACKAGES = init-ifupdown-src init-ifupdown-dbg init-ifupdown-staticdev init-ifupdown-dev init-ifupdown-doc init-ifupdown-locale init-ifupdown
 LAYER = core
