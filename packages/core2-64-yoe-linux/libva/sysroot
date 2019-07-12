@@ -4,7 +4,7 @@ drwxr-xr-x -          -                  80 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                 660 ./usr/include/va
 -rw-r--r-- -          -                2040 ./usr/include/va/va_backend_glx.h
--rw-r--r-- -          -               18900 ./usr/include/va/va_backend.h
+-rw-r--r-- -          -               18871 ./usr/include/va/va_backend.h
 -rw-r--r-- -          -                2300 ./usr/include/va/va_backend_vpp.h
 -rw-r--r-- -          -                2774 ./usr/include/va/va_backend_wayland.h
 -rw-r--r-- -          -                4067 ./usr/include/va/va_compat.h
@@ -27,29 +27,29 @@ drwxr-xr-x -          -                 660 ./usr/include/va
 -rw-r--r-- -          -               22801 ./usr/include/va/va_fei_h264.h
 -rw-r--r-- -          -               11432 ./usr/include/va/va_fei_hevc.h
 -rw-r--r-- -          -                3359 ./usr/include/va/va_glx.h
--rw-r--r-- -          -              179065 ./usr/include/va/va.h
--rw-r--r-- -          -                1560 ./usr/include/va/va_str.h
+-rw-r--r-- -          -              181547 ./usr/include/va/va.h
+-rw-r--r-- -          -                1603 ./usr/include/va/va_str.h
 -rw-r--r-- -          -                1304 ./usr/include/va/va_tpi.h
 -rw-r--r-- -          -                2655 ./usr/include/va/va_version.h
--rw-r--r-- -          -               54177 ./usr/include/va/va_vpp.h
+-rw-r--r-- -          -               56026 ./usr/include/va/va_vpp.h
 -rw-r--r-- -          -                4258 ./usr/include/va/va_wayland.h
 -rw-r--r-- -          -                2194 ./usr/include/va/va_x11.h
 drwxr-xr-x -          -                 360 ./usr/lib
--rwxr-xr-x -          -               10312 ./usr/lib/libva-drm.so.2.401.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libva-drm.so.2 -> libva-drm.so.2.401.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libva-drm.so -> libva-drm.so.2.401.0
--rwxr-xr-x -          -               22680 ./usr/lib/libva-glx.so.2.401.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libva-glx.so.2 -> libva-glx.so.2.401.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libva-glx.so -> libva-glx.so.2.401.0
--rwxr-xr-x -          -              141304 ./usr/lib/libva.so.2.401.0
-lrwxrwxrwx -          -                  16 ./usr/lib/libva.so.2 -> libva.so.2.401.0
-lrwxrwxrwx -          -                  16 ./usr/lib/libva.so -> libva.so.2.401.0
--rwxr-xr-x -          -               18760 ./usr/lib/libva-wayland.so.2.401.0
-lrwxrwxrwx -          -                  24 ./usr/lib/libva-wayland.so.2 -> libva-wayland.so.2.401.0
-lrwxrwxrwx -          -                  24 ./usr/lib/libva-wayland.so -> libva-wayland.so.2.401.0
--rwxr-xr-x -          -               22728 ./usr/lib/libva-x11.so.2.401.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libva-x11.so.2 -> libva-x11.so.2.401.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libva-x11.so -> libva-x11.so.2.401.0
+-rwxr-xr-x -          -               10312 ./usr/lib/libva-drm.so.2.500.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libva-drm.so.2 -> libva-drm.so.2.500.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libva-drm.so -> libva-drm.so.2.500.0
+-rwxr-xr-x -          -               22680 ./usr/lib/libva-glx.so.2.500.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libva-glx.so.2 -> libva-glx.so.2.500.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libva-glx.so -> libva-glx.so.2.500.0
+-rwxr-xr-x -          -              149496 ./usr/lib/libva.so.2.500.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libva.so.2 -> libva.so.2.500.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libva.so -> libva.so.2.500.0
+-rwxr-xr-x -          -               18760 ./usr/lib/libva-wayland.so.2.500.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libva-wayland.so.2 -> libva-wayland.so.2.500.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libva-wayland.so -> libva-wayland.so.2.500.0
+-rwxr-xr-x -          -               22728 ./usr/lib/libva-x11.so.2.500.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libva-x11.so.2 -> libva-x11.so.2.500.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libva-x11.so -> libva-x11.so.2.500.0
 drwxr-xr-x -          -                 140 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 262 ./usr/lib/pkgconfig/libva-drm.pc
 -rw-r--r-- -          -                 262 ./usr/lib/pkgconfig/libva-glx.pc
