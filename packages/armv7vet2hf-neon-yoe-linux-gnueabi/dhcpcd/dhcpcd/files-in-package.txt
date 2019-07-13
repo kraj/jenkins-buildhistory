@@ -1,6 +1,10 @@
 drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root             1259 ./etc/dhcpcd.conf
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/dhcpcd
+drwxr-xr-x root       root               60 ./usr/lib/dhcpcd/dev
+-r-xr-xr-x root       root             5608 ./usr/lib/dhcpcd/dev/udev.so
 drwxr-xr-x root       root               80 ./usr/libexec
 drwxr-xr-x root       root              120 ./usr/libexec/dhcpcd-hooks
 -r--r--r-- root       root              300 ./usr/libexec/dhcpcd-hooks/01-test
@@ -9,7 +13,7 @@ drwxr-xr-x root       root              120 ./usr/libexec/dhcpcd-hooks
 -r--r--r-- root       root             3735 ./usr/libexec/dhcpcd-hooks/30-hostname
 -r-xr-xr-x root       root             8126 ./usr/libexec/dhcpcd-run-hooks
 drwxr-xr-x root       root               60 ./usr/sbin
--r-xr-xr-x root       root           186508 ./usr/sbin/dhcpcd
+-r-xr-xr-x root       root           198796 ./usr/sbin/dhcpcd
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dhcpcd
 drwxr-xr-x root       root              100 ./usr/share/dhcpcd/hooks

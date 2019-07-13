@@ -1,9 +1,9 @@
 PV = 3.8.0
 PR = r0
 PKG = libprotobuf-dev
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = protobuf-dev (=3.8.0)
-RDEPENDS = protobuf (= 3.8.0-r0.1) protobuf-compiler protobuf-lite
+RDEPENDS = protobuf (= 3.8.0-r0.2) protobuf-compiler protobuf-lite
 RRECOMMENDS = bash-dev glibc-dev libatomic-dev libgcc-dev libstdc++-dev protobuf-compiler-dev protobuf-lite-dev zlib-dev
 PKGSIZE = 2485010
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/protobuf/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
