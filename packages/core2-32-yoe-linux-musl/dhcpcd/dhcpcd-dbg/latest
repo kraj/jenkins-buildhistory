@@ -1,9 +1,9 @@
 PV = 7.2.2
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = musl-dbg
-PKGSIZE = 730976
+RRECOMMENDS = libudev-dbg musl-dbg
+PKGSIZE = 751540
 FILES = /usr/lib/debug /usr/src/debug /usr/lib/dhcpcd/dev/.debug
-FILELIST = /usr/sbin/.debug/dhcpcd
+FILELIST = /usr/lib/dhcpcd/dev/.debug/udev.so /usr/sbin/.debug/dhcpcd
