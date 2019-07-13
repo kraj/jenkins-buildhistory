@@ -1,9 +1,9 @@
 PV = 9.1.0
 PR = r0
 PKG = libgcc-s-dev
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = libgcc-dev (=9.1.0)
-RDEPENDS = libgcc (= 9.1.0-r0.9)
+RDEPENDS = libgcc (= 9.1.0-r0.10)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 2285005
 FILES = /lib/libgcc*.so /usr/lib/aarch64-yoe-linux/9.1.0* /usr/lib/aarch64-yoe*

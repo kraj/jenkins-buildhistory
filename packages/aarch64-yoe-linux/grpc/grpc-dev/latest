@@ -1,8 +1,8 @@
 PV = 1.14.1
 PR = r0
-PKGR = r0.95
+PKGR = r0.96
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) grpc (= 1.14.1-r0.95) grpc (>= 1.14.1) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) protobuf (>= 3.8.0) protobuf-compiler (>= 3.8.0)
+RDEPENDS = glibc (>= 2.29) grpc (= 1.14.1-r0.96) grpc (>= 1.14.1) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) protobuf (>= 3.8.0) protobuf-compiler (>= 3.8.0)
 RRECOMMENDS = c-ares-dev gflags-dev glibc-dev googletest-dev libcrypto-dev libgcc-dev libssl-dev libstdc++-dev openssl-dev protobuf-c-dev protobuf-compiler-dev protobuf-dev zlib-dev
 PKGSIZE = 1209704
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/grpc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin

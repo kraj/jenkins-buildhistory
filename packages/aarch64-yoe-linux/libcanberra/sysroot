@@ -1,0 +1,55 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 100 ./lib/systemd/system
+-rw-r--r-- -          -                 491 ./lib/systemd/system/canberra-system-bootup.service
+-rw-r--r-- -          -                 509 ./lib/systemd/system/canberra-system-shutdown-reboot.service
+-rw-r--r-- -          -                 466 ./lib/systemd/system/canberra-system-shutdown.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/libcanberra
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  80 ./usr/include
+-rw-r--r-- -          -                1433 ./usr/include/canberra-gtk.h
+-rw-r--r-- -          -               17908 ./usr/include/canberra.h
+drwxr-xr-x -          -                 320 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/lib/gnome-settings-daemon-3.0
+drwxr-xr-x -          -                  60 ./usr/lib/gnome-settings-daemon-3.0/gtk-modules
+-rw-r--r-- -          -                 197 ./usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop
+drwxr-xr-x -          -                  60 ./usr/lib/gtk-2.0
+drwxr-xr-x -          -                  60 ./usr/lib/gtk-2.0/modules
+-rwxr-xr-x -          -               67656 ./usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so
+drwxr-xr-x -          -                  60 ./usr/lib/gtk-3.0
+drwxr-xr-x -          -                  80 ./usr/lib/gtk-3.0/modules
+-rwxr-xr-x -          -               67656 ./usr/lib/gtk-3.0/modules/libcanberra-gtk3-module.so
+lrwxrwxrwx -          -                  26 ./usr/lib/gtk-3.0/modules/libcanberra-gtk-module.so -> libcanberra-gtk3-module.so
+drwxr-xr-x -          -                 120 ./usr/lib/libcanberra-0.30
+-rwxr-xr-x -          -               67568 ./usr/lib/libcanberra-0.30/libcanberra-alsa.so
+-rwxr-xr-x -          -               67568 ./usr/lib/libcanberra-0.30/libcanberra-multi.so
+-rwxr-xr-x -          -               67568 ./usr/lib/libcanberra-0.30/libcanberra-null.so
+-rwxr-xr-x -          -               67568 ./usr/lib/libcanberra-0.30/libcanberra-pulse.so
+-rwxr-xr-x -          -               67568 ./usr/lib/libcanberra-gtk3.so.0.1.9
+lrwxrwxrwx -          -                  25 ./usr/lib/libcanberra-gtk3.so.0 -> libcanberra-gtk3.so.0.1.9
+lrwxrwxrwx -          -                  25 ./usr/lib/libcanberra-gtk3.so -> libcanberra-gtk3.so.0.1.9
+-rwxr-xr-x -          -               67568 ./usr/lib/libcanberra-gtk.so.0.1.9
+lrwxrwxrwx -          -                  24 ./usr/lib/libcanberra-gtk.so.0 -> libcanberra-gtk.so.0.1.9
+lrwxrwxrwx -          -                  24 ./usr/lib/libcanberra-gtk.so -> libcanberra-gtk.so.0.1.9
+-rwxr-xr-x -          -               67816 ./usr/lib/libcanberra.so.0.2.5
+lrwxrwxrwx -          -                  20 ./usr/lib/libcanberra.so.0 -> libcanberra.so.0.2.5
+lrwxrwxrwx -          -                  20 ./usr/lib/libcanberra.so -> libcanberra.so.0.2.5
+drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 263 ./usr/lib/pkgconfig/libcanberra-gtk3.pc
+-rw-r--r-- -          -                 260 ./usr/lib/pkgconfig/libcanberra-gtk.pc
+-rw-r--r-- -          -                 213 ./usr/lib/pkgconfig/libcanberra.pc
+drwxr-xr-x -          -                 100 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/gdm
+drwxr-xr-x -          -                  60 ./usr/share/gdm/autostart
+drwxr-xr-x -          -                  60 ./usr/share/gdm/autostart/LoginWindow
+-rw-r--r-- -          -                 361 ./usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop
+drwxr-xr-x -          -                  80 ./usr/share/gnome
+drwxr-xr-x -          -                  60 ./usr/share/gnome/autostart
+-rw-r--r-- -          -                 328 ./usr/share/gnome/autostart/libcanberra-login-sound.desktop
+drwxr-xr-x -          -                  60 ./usr/share/gnome/shutdown
+-rwxr-xr-x -          -                  89 ./usr/share/gnome/shutdown/libcanberra-logout-sound.sh
+drwxr-xr-x -          -                  60 ./usr/share/vala
+drwxr-xr-x -          -                  80 ./usr/share/vala/vapi
+-rw-r--r-- -          -                1373 ./usr/share/vala/vapi/libcanberra-gtk.vapi
+-rw-r--r-- -          -                5433 ./usr/share/vala/vapi/libcanberra.vapi
