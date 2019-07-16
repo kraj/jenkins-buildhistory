@@ -10,11 +10,6 @@ set -e
         touch /etc/postfix/virtual_alias
         postmap /etc/postfix/virtual_alias
     else
-        if false; then
-            # /usr/lib/sendmail is required by LSB core test
-            [ ! -L $D/usr/lib/sendmail ] && ln -sf /usr/sbin/sendmail $D/usr/lib/
-        fi
-
         touch $D/etc/aliases
         # This can fail depending on host setup
         if ! newaliases -C $D/etc/postfix/main.cf -oA$D/etc/aliases; then

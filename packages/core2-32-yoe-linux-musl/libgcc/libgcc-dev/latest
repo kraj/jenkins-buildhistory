@@ -1,9 +1,9 @@
 PV = 9.1.0
 PR = r0
 PKG = libgcc-s-dev
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = libgcc-dev (=9.1.0)
-RDEPENDS = libgcc (= 9.1.0-r0.11)
+RDEPENDS = libgcc (= 9.1.0-r0.12)
 RRECOMMENDS = musl-dev
 PKGSIZE = 6167004
 FILES = /lib/libgcc*.so /usr/lib/i686-yoe-linux /usr/lib/i686-yoe-linux-musl/9.1.0* /usr/lib/i686-yoe*
