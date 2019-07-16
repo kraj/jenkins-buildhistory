@@ -1,10 +1,10 @@
-PV = 3.8.0
+PV = 3.9.0
 PR = r0
 PKG = libprotobuf-compiler
-PKGR = r0.2
-RPROVIDES = protobuf-compiler (=3.8.0)
-RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) protobuf (>= 3.8.0) zlib (>= 1.2.11)
+PKGR = r0.0
+RPROVIDES = protobuf-compiler (=3.9.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) protobuf (>= 3.9.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 3463763
+PKGSIZE = 3447379
 FILES = /usr/bin /usr/lib/libprotoc.so.*
-FILELIST = /usr/bin/protoc /usr/lib/libprotoc.so.19 /usr/lib/libprotoc.so.19.0.0
+FILELIST = /usr/bin/protoc /usr/lib/libprotoc.so.20 /usr/lib/libprotoc.so.20.0.0

@@ -1,8 +1,8 @@
 PV = 4.10
 PR = r0
-PKGR = r0.100
+PKGR = r0.101
 RPROVIDES = 
-RDEPENDS = kselftests (= 4.10-r0.100)
+RDEPENDS = kselftests (= 4.10-r0.101)
 RRECOMMENDS = bash-dev bc-dev glibc-dev kselftests-bpf-dev kselftests-breakpoints-dev kselftests-capabilities-dev kselftests-cpu-hotplug-dev kselftests-efivarfs-dev kselftests-exec-dev kselftests-firmware-dev kselftests-ftrace-dev kselftests-futex-dev kselftests-gpio-dev kselftests-ipc-dev kselftests-kcmp-dev kselftests-lib-dev kselftests-membarrier-dev kselftests-memfd-dev kselftests-memory-hotplug-dev kselftests-mount-dev kselftests-mqueue-dev kselftests-net-dev kselftests-nsfs-dev kselftests-pstore-dev kselftests-ptrace-dev kselftests-seccomp-dev kselftests-sigaltstack-dev kselftests-size-dev kselftests-static-keys-dev kselftests-sync-dev kselftests-sysctl-dev kselftests-timers-dev kselftests-user-dev kselftests-vm-dev kselftests-x86-dev kselftests-zram-dev libcap-dev libcap-ng-dev ncurses-dev popt-dev sudo-dev util-linux-dev util-linux-libmount-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kselftests/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
