@@ -1,5 +1,5 @@
 PV = 2.80
 PR = r0
-DEPENDS = initscripts pkgconfig-native systemd-systemctl-native update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+DEPENDS = pkgconfig-native systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
 PACKAGES = dnsmasq-src dnsmasq-dbg dnsmasq-staticdev dnsmasq-dev dnsmasq-doc dnsmasq-locale dnsmasq
 LAYER = networking-layer

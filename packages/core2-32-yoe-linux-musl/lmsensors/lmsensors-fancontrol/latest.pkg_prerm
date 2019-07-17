@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/fancontrol" ]; then
-	/etc/init.d/fancontrol stop || :
-fi

@@ -1,11 +1,11 @@
 PV = 2.80
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = dnsmasq-systemd
 RDEPENDS = musl (>= 1.1.22+git1+ac304227bb)
-RRECOMMENDS = update-rc.d
+RRECOMMENDS = 
 RREPLACES = dnsmasq-systemd
 RCONFLICTS = dnsmasq-systemd
-PKGSIZE = 397458
+PKGSIZE = 394829
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dnsmasq /usr/lib/dnsmasq/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-dnsmasq.preset /lib/systemd/system/dnsmasq.service
-FILELIST = /etc/dnsmasq.conf /etc/init.d/dnsmasq /etc/systemd/resolved.conf.d/dnsmasq-resolved.conf /lib/systemd/system-preset/98-dnsmasq.preset /lib/systemd/system/dnsmasq.service /usr/bin/dhcp_release /usr/bin/dnsmasq
+FILELIST = /etc/dnsmasq.conf /etc/systemd/resolved.conf.d/dnsmasq-resolved.conf /lib/systemd/system-preset/98-dnsmasq.preset /lib/systemd/system/dnsmasq.service /usr/bin/dhcp_release /usr/bin/dnsmasq

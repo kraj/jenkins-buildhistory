@@ -1,10 +1,10 @@
-PV = 5.12.3+gitAUTOINC+5e433bcefa
+PV = 5.13.0+gitAUTOINC+a743e1427b
 PR = r0
-PKGV = 5.12.3+git0+5e433bcefa
-PKGR = r0.11
+PKGV = 5.13.0+git0+a743e1427b
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) qtbase (>= 5.12.3+git0+b527725766) tiff (>= 4.0.10)
+RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) qtbase (>= 5.13.0+git0+fc9ae22c88) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 704540
+PKGSIZE = 1151352
 FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
 FILELIST = /usr/lib/plugins/imageformats/libqicns.so /usr/lib/plugins/imageformats/libqtga.so /usr/lib/plugins/imageformats/libqtiff.so /usr/lib/plugins/imageformats/libqwbmp.so /usr/lib/plugins/imageformats/libqwebp.so

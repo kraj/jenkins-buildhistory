@@ -7,6 +7,3 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable sensord.service lm_sensors.service fancontrol.service
 	fi
 fi
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/sensord" ]; then
-	/etc/init.d/sensord stop || :
-fi

@@ -1,10 +1,10 @@
 PV = 0.5.9+gitAUTOINC+e08546c13a
 PR = r0
 PKGV = 0.5.9+git0+e08546c13a
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.22+git1+ac304227bb)
-RRECOMMENDS = lcdd update-rc.d
+RRECOMMENDS = lcdd
 PKGSIZE = 87814
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lcdproc /usr/lib/lcdproc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/lcdproc /etc/lcdproc.conf /usr/bin/lcdproc

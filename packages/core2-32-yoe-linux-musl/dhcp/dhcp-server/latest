@@ -1,9 +1,9 @@
 PV = 4.4.1
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
 RDEPENDS = base-files base-passwd bind-libs (>= 9.11.5-P4) dhcp-libs (>= 4.4.1) musl (>= 1.1.22+git1+ac304227bb) shadow
-RRECOMMENDS = dhcp-server-config update-rc.d
-PKGSIZE = 502584
+RRECOMMENDS = dhcp-server-config
+PKGSIZE = 501575
 FILES = /usr/sbin/dhcpd /etc/init.d/dhcp-server /lib/systemd/system-preset/98-dhcp-server.preset /lib/systemd/system/dhcpd.service /lib/systemd/system/dhcpd6.service
-FILELIST = /etc/init.d/dhcp-server /lib/systemd/system-preset/98-dhcp-server.preset /lib/systemd/system/dhcpd.service /lib/systemd/system/dhcpd6.service /usr/sbin/dhcpd
+FILELIST = /lib/systemd/system-preset/98-dhcp-server.preset /lib/systemd/system/dhcpd.service /lib/systemd/system/dhcpd6.service /usr/sbin/dhcpd

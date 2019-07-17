@@ -1,9 +1,9 @@
 PV = 3.4
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = chrony (= 3.4-r0.10)
-RRECOMMENDS = initd-functions-dev initscripts-dev libedit-dev musl-dev pps-tools-dev update-rc.d-dev
+RDEPENDS = chrony (= 3.4-r0.11)
+RRECOMMENDS = libedit-dev musl-dev pps-tools-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/chrony/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

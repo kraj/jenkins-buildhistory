@@ -1,9 +1,9 @@
 PV = 2.0.31
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.22+git1+ac304227bb)
-RRECOMMENDS = update-rc.d
-PKGSIZE = 83354
+RRECOMMENDS = 
+PKGSIZE = 82626
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/acpid /usr/lib/acpid/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-acpid.preset /lib/systemd/system/acpid.service
-FILELIST = /etc/init.d/acpid /lib/systemd/system-preset/98-acpid.preset /lib/systemd/system/acpid.service /usr/bin/acpi_listen /usr/sbin/acpid /usr/sbin/kacpimon
+FILELIST = /lib/systemd/system-preset/98-acpid.preset /lib/systemd/system/acpid.service /usr/bin/acpi_listen /usr/sbin/acpid /usr/sbin/kacpimon

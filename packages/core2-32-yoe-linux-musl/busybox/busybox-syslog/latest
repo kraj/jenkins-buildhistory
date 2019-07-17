@@ -1,10 +1,10 @@
 PV = 1.31.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = busybox update-alternatives-opkg
-RRECOMMENDS = update-rc.d
+RRECOMMENDS = 
 RCONFLICTS = rsyslog sysklogd syslog-ng
-PKGSIZE = 4258
+PKGSIZE = 1541
 FILES = /etc/init.d/syslog* /etc/syslog-startup.conf* /etc/syslog.conf* /lib/systemd/system/syslog.service /etc/default/busybox-syslog /lib/systemd/system-preset/98-busybox-syslog.preset /lib/systemd/system/busybox-syslog.service /lib/systemd/system/busybox-klogd.service
-FILELIST = /etc/default/busybox-syslog /etc/init.d/syslog /etc/syslog-startup.conf /etc/syslog.conf /lib/systemd/system-preset/98-busybox-syslog.preset /lib/systemd/system/busybox-klogd.service /lib/systemd/system/busybox-syslog.service
+FILELIST = /etc/default/busybox-syslog /etc/syslog.conf /lib/systemd/system-preset/98-busybox-syslog.preset /lib/systemd/system/busybox-klogd.service /lib/systemd/system/busybox-syslog.service

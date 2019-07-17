@@ -1,9 +1,9 @@
 PV = 1.5.8
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = libmosquitto1 libmosquittopp1 mosquitto (= 1.5.8-r0.11)
-RRECOMMENDS = base-files-dev base-passwd-dev initd-functions-dev initscripts-dev libcrypto-dev libmosquitto1-dev libmosquittopp1-dev libssl-dev libstdc++-dev libsystemd-dev musl-dev openssl-dev shadow-dev shadow-sysroot-dev systemd-dev update-rc.d-dev uthash-dev util-linux-dev util-linux-libuuid-dev
+RDEPENDS = libmosquitto1 libmosquittopp1 mosquitto (= 1.5.8-r0.12)
+RRECOMMENDS = base-files-dev base-passwd-dev libcrypto-dev libmosquitto1-dev libmosquittopp1-dev libssl-dev libstdc++-dev libsystemd-dev musl-dev openssl-dev shadow-dev shadow-sysroot-dev systemd-dev uthash-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 84900
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mosquitto/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/mosquitto.h /usr/include/mosquitto_broker.h /usr/include/mosquitto_plugin.h /usr/include/mosquittopp.h /usr/lib/libmosquitto.so /usr/lib/libmosquittopp.so /usr/lib/pkgconfig/libmosquitto.pc /usr/lib/pkgconfig/libmosquittopp.pc

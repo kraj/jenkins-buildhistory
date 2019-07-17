@@ -3,13 +3,13 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 drwxr-xr-x -          -                  80 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                 300 ./usr/include/QtGamepad
-drwxr-xr-x -          -                  60 ./usr/include/QtGamepad/5.12.3
-drwxr-xr-x -          -                  60 ./usr/include/QtGamepad/5.12.3/QtGamepad
-drwxr-xr-x -          -                 120 ./usr/include/QtGamepad/5.12.3/QtGamepad/private
--rw-r--r-- -          -                2444 ./usr/include/QtGamepad/5.12.3/QtGamepad/private/qgamepadbackendfactory_p.h
--rw-r--r-- -          -                4412 ./usr/include/QtGamepad/5.12.3/QtGamepad/private/qgamepadbackend_p.h
--rw-r--r-- -          -                2639 ./usr/include/QtGamepad/5.12.3/QtGamepad/private/qgamepadbackendplugin_p.h
--rw-r--r-- -          -                  26 ./usr/include/QtGamepad/5.12.3/QtGamepad/private/qtgamepad-config_p.h
+drwxr-xr-x -          -                  60 ./usr/include/QtGamepad/5.13.0
+drwxr-xr-x -          -                  60 ./usr/include/QtGamepad/5.13.0/QtGamepad
+drwxr-xr-x -          -                 120 ./usr/include/QtGamepad/5.13.0/QtGamepad/private
+-rw-r--r-- -          -                2444 ./usr/include/QtGamepad/5.13.0/QtGamepad/private/qgamepadbackendfactory_p.h
+-rw-r--r-- -          -                4412 ./usr/include/QtGamepad/5.13.0/QtGamepad/private/qgamepadbackend_p.h
+-rw-r--r-- -          -                2639 ./usr/include/QtGamepad/5.13.0/QtGamepad/private/qgamepadbackendplugin_p.h
+-rw-r--r-- -          -                  26 ./usr/include/QtGamepad/5.13.0/QtGamepad/private/qtgamepad-config_p.h
 -rw-r--r-- -          -                  22 ./usr/include/QtGamepad/QGamepad
 -rw-r--r-- -          -                6274 ./usr/include/QtGamepad/qgamepad.h
 -rw-r--r-- -          -                  35 ./usr/include/QtGamepad/QGamepadKeyNavigation
@@ -25,15 +25,15 @@ drwxr-xr-x -          -                 120 ./usr/include/QtGamepad/5.12.3/QtGam
 drwxr-xr-x -          -                 240 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/cmake
 drwxr-xr-x -          -                 120 ./usr/lib/cmake/Qt5Gamepad
--rw-r--r-- -          -                7456 ./usr/lib/cmake/Qt5Gamepad/Qt5GamepadConfig.cmake
+-rw-r--r-- -          -                7471 ./usr/lib/cmake/Qt5Gamepad/Qt5GamepadConfig.cmake
 -rw-r--r-- -          -                 288 ./usr/lib/cmake/Qt5Gamepad/Qt5GamepadConfigVersion.cmake
 -rw-r--r-- -          -                 230 ./usr/lib/cmake/Qt5Gamepad/Qt5Gamepad_QEvdevGamepadBackendPlugin.cmake
 -rw-r--r-- -          -                 226 ./usr/lib/cmake/Qt5Gamepad/Qt5Gamepad_QSdl2GamepadBackendPlugin.cmake
--rw-r--r-- -          -                1272 ./usr/lib/libQt5Gamepad.prl
--rwxr-xr-x -          -              148996 ./usr/lib/libQt5Gamepad.so.5.12.3
-lrwxrwxrwx -          -                  23 ./usr/lib/libQt5Gamepad.so.5.12 -> libQt5Gamepad.so.5.12.3
-lrwxrwxrwx -          -                  23 ./usr/lib/libQt5Gamepad.so.5 -> libQt5Gamepad.so.5.12.3
-lrwxrwxrwx -          -                  23 ./usr/lib/libQt5Gamepad.so -> libQt5Gamepad.so.5.12.3
+-rw-r--r-- -          -                1320 ./usr/lib/libQt5Gamepad.prl
+-rwxr-xr-x -          -              148996 ./usr/lib/libQt5Gamepad.so.5.13.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libQt5Gamepad.so.5.13 -> libQt5Gamepad.so.5.13.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libQt5Gamepad.so.5 -> libQt5Gamepad.so.5.13.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libQt5Gamepad.so -> libQt5Gamepad.so.5.13.0
 drwxr-xr-x -          -                  60 ./usr/lib/mkspecs
 drwxr-xr-x -          -                  80 ./usr/lib/mkspecs/modules
 -rw-r--r-- -          -                 516 ./usr/lib/mkspecs/modules/qt_lib_gamepad.pri
@@ -47,5 +47,5 @@ drwxr-xr-x -          -                  80 ./usr/lib/plugins/gamepads
 drwxr-xr-x -          -                  60 ./usr/lib/qml
 drwxr-xr-x -          -                 100 ./usr/lib/qml/QtGamepad
 -rwxr-xr-x -          -               38396 ./usr/lib/qml/QtGamepad/libdeclarative_gamepad.so
--rw-r--r-- -          -               18115 ./usr/lib/qml/QtGamepad/plugins.qmltypes
+-rw-r--r-- -          -               18114 ./usr/lib/qml/QtGamepad/plugins.qmltypes
 -rw-r--r-- -          -                  95 ./usr/lib/qml/QtGamepad/qmldir

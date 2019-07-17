@@ -1,9 +1,9 @@
-PV = 4.13.7
+PV = 4.13.8
 PR = r0
-PKGR = r0.7
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = xfconf (= 4.13.7-r0.7)
-RRECOMMENDS = dbus-glib-dev glib-2.0-dev hicolor-icon-theme-dev libxfce4util-dev musl-dev perl-dev
-PKGSIZE = 18201
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xfconf/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/gio/modules/libxfconfgsettingsbackend.la
-FILELIST = /usr/include/xfce4/xfconf-0/xfconf/xfconf-binding.h /usr/include/xfce4/xfconf-0/xfconf/xfconf-channel.h /usr/include/xfce4/xfconf-0/xfconf/xfconf-errors.h /usr/include/xfce4/xfconf-0/xfconf/xfconf-types.h /usr/include/xfce4/xfconf-0/xfconf/xfconf.h /usr/lib/libxfconf-0.so /usr/lib/pkgconfig/libxfconf-0.pc
+RDEPENDS = xfconf (= 4.13.8-r0.0)
+RRECOMMENDS = glib-2.0-dev gobject-introspection-dev hicolor-icon-theme-dev libxfce4util-dev musl-dev perl-dev
+PKGSIZE = 112885
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xfconf/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/gio/modules/libxfconfgsettingsbackend.la /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
+FILELIST = /usr/include/xfce4/xfconf-0/xfconf/xfconf-binding.h /usr/include/xfce4/xfconf-0/xfconf/xfconf-channel.h /usr/include/xfce4/xfconf-0/xfconf/xfconf-errors.h /usr/include/xfce4/xfconf-0/xfconf/xfconf-types.h /usr/include/xfce4/xfconf-0/xfconf/xfconf.h /usr/lib/libxfconf-0.so /usr/lib/pkgconfig/libxfconf-0.pc /usr/share/gir-1.0/Xfconf-0.gir

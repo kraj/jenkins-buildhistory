@@ -1,10 +1,10 @@
 PV = 6.1.4
 PR = r0
 PKG = libqwt6
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = qwt-qt5 (=6.1.4)
-RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) qtbase (>= 5.12.3+git0+b527725766) qtsvg (>= 5.12.3+git0+a4c2e4de3c)
+RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) qtbase (>= 5.13.0+git0+fc9ae22c88) qtsvg (>= 5.13.0+git0+3a4c634241)
 RRECOMMENDS = 
-PKGSIZE = 1476682
+PKGSIZE = 1480778
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qwt-qt5 /usr/lib/qwt-qt5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libqwt.so.6 /usr/lib/libqwt.so.6.1 /usr/lib/libqwt.so.6.1.4

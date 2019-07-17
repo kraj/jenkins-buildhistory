@@ -1,5 +1,5 @@
 PV = 6.7
 PR = r0
-DEPENDS = argp-standalone autoconf-native automake-native gnu-config-native initscripts libjitterentropy libtool-cross libtool-native pkgconfig-native sysfsutils systemd-systemctl-native update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+DEPENDS = argp-standalone autoconf-native automake-native gnu-config-native libjitterentropy libtool-cross libtool-native pkgconfig-native sysfsutils systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
 PACKAGES = rng-tools-src rng-tools-dbg rng-tools-staticdev rng-tools-dev rng-tools-doc rng-tools-locale rng-tools
 LAYER = core

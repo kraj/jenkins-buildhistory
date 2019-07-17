@@ -1,5 +1,5 @@
 PV = 2.6
 PR = r0
-DEPENDS = autoconf-native automake-native bsd-headers gettext-native gnu-config-native initscripts libtool-cross libtool-native nss pkgconfig-native systemd systemd-systemctl-native update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc yp-tools
+DEPENDS = autoconf-native automake-native bsd-headers gettext-native gnu-config-native libtool-cross libtool-native nss pkgconfig-native systemd systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc yp-tools
 PACKAGES = ypbind-mt-src ypbind-mt-dbg ypbind-mt-staticdev ypbind-mt-dev ypbind-mt-doc ypbind-mt ypbind-mt-locale-de ypbind-mt-locale-sv
 LAYER = networking-layer

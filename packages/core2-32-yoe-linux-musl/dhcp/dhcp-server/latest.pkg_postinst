@@ -2,14 +2,6 @@ set -e
     mkdir -p $D//var/lib/dhcp
     touch $D//var/lib/dhcp/dhcpd.leases
     touch $D//var/lib/dhcp/dhcpd6.leases
-if [ -n "$D" -o ! -d /run/systemd/system ] && type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
-	fi
-	update-rc.d $OPT dhcp-server defaults
-fi
 if type systemctl >/dev/null 2>/dev/null; then
 	OPTS=""
 

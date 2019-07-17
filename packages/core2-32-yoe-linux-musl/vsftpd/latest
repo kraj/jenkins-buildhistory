@@ -1,5 +1,5 @@
 PV = 3.0.3
 PR = r0
-DEPENDS = base-files base-passwd initscripts libcap libpam openssl shadow shadow-native shadow-sysroot systemd-systemctl-native tcp-wrappers update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+DEPENDS = base-files base-passwd libcap libpam openssl shadow shadow-native shadow-sysroot systemd-systemctl-native tcp-wrappers virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
 PACKAGES = vsftpd-src vsftpd-dbg vsftpd-staticdev vsftpd-dev vsftpd-doc vsftpd-locale vsftpd
 LAYER = networking-layer

@@ -1,10 +1,10 @@
 PV = 5.15
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) watchdog-config
-RRECOMMENDS = kernel-module-softdog update-rc.d
+RRECOMMENDS = kernel-module-softdog
 RCONFLICTS = watchdog
-PKGSIZE = 28938
+PKGSIZE = 26621
 FILES = /etc/init.d/wd_keepalive /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive /lib/systemd/system-preset/98-watchdog-keepalive.preset /lib/systemd/system/wd_keepalive.service
-FILELIST = /etc/init.d/wd_keepalive /lib/systemd/system-preset/98-watchdog-keepalive.preset /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive
+FILELIST = /lib/systemd/system-preset/98-watchdog-keepalive.preset /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive

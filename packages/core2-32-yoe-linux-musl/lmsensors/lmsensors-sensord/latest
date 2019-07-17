@@ -1,9 +1,9 @@
 PV = 3.5.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = lmsensors-libsensors (>= 3.5.0) lmsensors-sensors musl (>= 1.1.22+git1+ac304227bb) rrdtool (>= 1.7.2)
-RRECOMMENDS = lmsensors-config-sensord update-rc.d
-PKGSIZE = 32832
+RRECOMMENDS = lmsensors-config-sensord
+PKGSIZE = 31774
 FILES = /usr/sbin/sensord /etc/init.d/sensord /lib/systemd/system/sensord.service /lib/systemd/system-preset/98-lmsensors-sensord.preset /lib/systemd/system/sensord.service /lib/systemd/system/lm_sensors.service /lib/systemd/system/fancontrol.service
-FILELIST = /etc/init.d/sensord /lib/systemd/system-preset/98-lmsensors-sensord.preset /lib/systemd/system/fancontrol.service /lib/systemd/system/lm_sensors.service /lib/systemd/system/sensord.service /usr/sbin/sensord
+FILELIST = /lib/systemd/system-preset/98-lmsensors-sensord.preset /lib/systemd/system/fancontrol.service /lib/systemd/system/lm_sensors.service /lib/systemd/system/sensord.service /usr/sbin/sensord

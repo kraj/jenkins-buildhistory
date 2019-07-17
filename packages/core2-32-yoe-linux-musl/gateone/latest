@@ -1,5 +1,5 @@
 PV = 1.2+gitAUTOINC+f7a9be46cb
 PR = r0
-DEPENDS = initscripts python python-native python-native python-setuptools-native systemd-systemctl-native update-rc.d virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+DEPENDS = python python-native python-native python-setuptools-native systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
 PACKAGES = gateone-src gateone-dbg gateone-staticdev gateone-dev gateone-doc gateone-locale gateone
 LAYER = meta-python
