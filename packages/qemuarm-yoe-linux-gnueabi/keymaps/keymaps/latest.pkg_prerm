@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/keymap.sh" ]; then
-	/etc/init.d/keymap.sh stop || :
-fi

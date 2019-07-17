@@ -11,6 +11,3 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable syslogd.service klogd.service
 	fi
 fi
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/syslog" ]; then
-	/etc/init.d/syslog stop || :
-fi

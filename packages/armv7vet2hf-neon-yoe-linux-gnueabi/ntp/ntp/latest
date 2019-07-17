@@ -1,12 +1,12 @@
 PV = 4.2.8p13
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = ntp-systemd
-RDEPENDS = base-files base-passwd glibc (>= 2.29) initd-functions libcap (>= 2.27) libcrypto (>= 1.1.1c) libgcc ntp-tickadj shadow update-alternatives-opkg
-RRECOMMENDS = update-rc.d
+RDEPENDS = base-files base-passwd glibc (>= 2.29) libcap (>= 2.27) libcrypto (>= 1.1.1c) libgcc ntp-tickadj shadow update-alternatives-opkg
+RRECOMMENDS = 
 RSUGGESTS = iana-etc
 RREPLACES = ntp-systemd
 RCONFLICTS = ntp-systemd
-PKGSIZE = 630849
+PKGSIZE = 629030
 FILES = /usr/sbin/ntpd.ntp /etc/ntp.conf /etc/init.d/ntpd /usr/lib /var/lib/ntp /lib/systemd/ntp-units.d/60-ntpd.list /usr/libexec /lib/systemd/system-preset/98-ntp.preset /lib/systemd/system/ntpd.service
-FILELIST = /etc/init.d/ntpd /etc/ntp.conf /lib/systemd/ntp-units.d/60-ntpd.list /lib/systemd/system-preset/98-ntp.preset /lib/systemd/system/ntpd.service /usr/sbin/ntpd.ntp
+FILELIST = /etc/ntp.conf /lib/systemd/ntp-units.d/60-ntpd.list /lib/systemd/system-preset/98-ntp.preset /lib/systemd/system/ntpd.service /usr/sbin/ntpd.ntp

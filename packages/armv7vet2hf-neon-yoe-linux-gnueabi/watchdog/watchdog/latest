@@ -1,9 +1,9 @@
 PV = 5.15
 PR = r0
-PKGR = r0.37
+PKGR = r0.38
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) watchdog-config
-RRECOMMENDS = kernel-module-softdog update-rc.d
-PKGSIZE = 80742
+RRECOMMENDS = kernel-module-softdog
+PKGSIZE = 78509
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/watchdog /usr/lib/watchdog/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-watchdog.preset /lib/systemd/system/watchdog.service
-FILELIST = /etc/init.d/watchdog /lib/systemd/system-preset/98-watchdog.preset /lib/systemd/system/watchdog.service /usr/sbin/watchdog /usr/sbin/wd_identify
+FILELIST = /lib/systemd/system-preset/98-watchdog.preset /lib/systemd/system/watchdog.service /usr/sbin/watchdog /usr/sbin/wd_identify

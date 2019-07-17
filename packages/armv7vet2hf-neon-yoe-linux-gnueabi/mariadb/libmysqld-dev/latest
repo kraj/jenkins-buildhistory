@@ -1,10 +1,10 @@
 PV = 10.3.16
 PR = r0
 PKG = libmariadbd-dev
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = libmysqld-dev (=10.3.16)
 RDEPENDS = libmysqld
-RRECOMMENDS = base-files-dev base-passwd-dev glibc-dev initscripts-dev libaio-dev libbz2-dev libcrypto-dev libevent-dev libgcc-dev liblzma-dev libpam-dev libssl-dev libstdc++-dev libxcrypt-dev libxml2-dev ncurses-dev openssl-dev readline-dev shadow-dev shadow-sysroot-dev update-rc.d-dev zlib-dev
+RRECOMMENDS = base-files-dev base-passwd-dev glibc-dev libaio-dev libbz2-dev libcrypto-dev libevent-dev libgcc-dev liblzma-dev libpam-dev libssl-dev libstdc++-dev libxcrypt-dev libxml2-dev ncurses-dev openssl-dev readline-dev shadow-dev shadow-sysroot-dev zlib-dev
 PKGSIZE = 34
 FILES = /usr/lib/libmysqld.so /usr/lib/libmariadbd.so
 FILELIST = /usr/lib/libmariadbd.so /usr/lib/libmysqld.so

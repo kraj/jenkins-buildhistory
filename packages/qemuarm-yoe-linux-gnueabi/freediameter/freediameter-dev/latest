@@ -1,9 +1,9 @@
 PV = 1.3.2
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = freediameter (= 1.3.2-r0.3)
-RRECOMMENDS = bison-dev cmake-dev flex-dev glib-2.0-dev glibc-dev gnutls-dev initscripts-dev libgcrypt-dev libidn-dev lksctp-tools-dev openssl-conf-dev openssl-dev openssl-engines-dev update-rc.d-dev
+RDEPENDS = freediameter (= 1.3.2-r0.4)
+RRECOMMENDS = bison-dev cmake-dev flex-dev glib-2.0-dev glibc-dev gnutls-dev libgcrypt-dev libidn-dev lksctp-tools-dev openssl-conf-dev openssl-dev openssl-engines-dev
 PKGSIZE = 195971
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/freediameter/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/freeDiameter/extension.h /usr/include/freeDiameter/freeDiameter-host.h /usr/include/freeDiameter/libfdcore.h /usr/include/freeDiameter/libfdproto.h /usr/lib/libfdcore.so /usr/lib/libfdproto.so
