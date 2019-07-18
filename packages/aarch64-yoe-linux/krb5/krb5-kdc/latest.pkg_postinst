@@ -6,14 +6,6 @@ set -e
             /etc/init.d/populate-volatile.sh update
         fi
     fi
-if [ -n "$D" -o ! -d /run/systemd/system ] && type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
-	fi
-	update-rc.d $OPT krb5-kdc defaults
-fi
 if type systemctl >/dev/null 2>/dev/null; then
 	OPTS=""
 

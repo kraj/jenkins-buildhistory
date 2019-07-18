@@ -1,5 +1,5 @@
 PV = 10.7
 PR = r0
-DEPENDS = cmake-native initscripts libxml2 libxslt ninja-native systemd-systemctl-native update-rc.d virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/crypt virtual/libc
+DEPENDS = cmake-native libxml2 libxslt ninja-native systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/crypt virtual/libc
 PACKAGES = hiawatha-src hiawatha-dbg hiawatha-staticdev hiawatha-dev hiawatha-doc hiawatha-locale hiawatha
 LAYER = webserver

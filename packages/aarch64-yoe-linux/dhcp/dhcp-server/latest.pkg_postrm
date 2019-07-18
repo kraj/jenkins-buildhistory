@@ -5,11 +5,3 @@ set -e
     if ! rmdir $D//var/lib/dhcp 2>/dev/null; then
         echo "Not removing /var/lib/dhcp as it is non-empty."
     fi
-if [ -n "$D" -o ! -d /run/systemd/system ] && type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-f -r $D"
-	else
-		OPT="-f"
-	fi
-	update-rc.d $OPT dhcp-server remove
-fi

@@ -1,9 +1,9 @@
 PV = 0.9.18
 PR = r0
-PKGR = r0.97
+PKGR = r0.98
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) initd-functions
-RRECOMMENDS = kernel-module-ircomm kernel-module-ircomm-tty kernel-module-irda kernel-module-irlan kernel-module-irport kernel-module-irtty kernel-module-irtty-sir kernel-module-pxaficp-ir kernel-module-sir-dev update-rc.d
+RDEPENDS = glibc (>= 2.29)
+RRECOMMENDS = kernel-module-ircomm kernel-module-ircomm-tty kernel-module-irda kernel-module-irlan kernel-module-irport kernel-module-irtty kernel-module-irtty-sir kernel-module-pxaficp-ir kernel-module-sir-dev
 PKGSIZE = 205090
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/irda-utils /usr/lib/irda-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/irattach /usr/sbin/dongle_attach /usr/sbin/irattach /usr/sbin/irdaping

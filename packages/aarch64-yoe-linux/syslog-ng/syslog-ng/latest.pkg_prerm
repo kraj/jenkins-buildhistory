@@ -1,8 +1,5 @@
 #!/bin/sh
 set -e
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/syslog" ]; then
-	/etc/init.d/syslog stop || :
-fi
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl stop syslog-ng@.service

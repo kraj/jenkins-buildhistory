@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/hwclock.sh" ]; then
-	/etc/init.d/hwclock.sh stop || :
-fi

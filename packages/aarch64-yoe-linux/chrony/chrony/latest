@@ -1,10 +1,10 @@
 PV = 3.4
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) initd-functions
-RRECOMMENDS = update-rc.d
+RDEPENDS = glibc (>= 2.29)
+RRECOMMENDS = 
 RCONFLICTS = ntimed ntp
-PKGSIZE = 267644
+PKGSIZE = 266510
 FILES = /usr/sbin/chronyd /etc /var /lib/systemd/system-preset/98-chrony.preset /lib/systemd/system/chronyd.service
-FILELIST = /etc/chrony.conf /etc/init.d/chronyd /lib/systemd/system-preset/98-chrony.preset /lib/systemd/system/chronyd.service /usr/sbin/chronyd
+FILELIST = /etc/chrony.conf /lib/systemd/system-preset/98-chrony.preset /lib/systemd/system/chronyd.service /usr/sbin/chronyd

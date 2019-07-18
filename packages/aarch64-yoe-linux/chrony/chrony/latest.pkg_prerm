@@ -7,6 +7,3 @@ if type systemctl >/dev/null 2>/dev/null; then
 		systemctl disable chronyd.service
 	fi
 fi
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/chronyd" ]; then
-	/etc/init.d/chronyd stop || :
-fi
