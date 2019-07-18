@@ -1,10 +1,10 @@
-PV = 5.12.3+gitAUTOINC+5e433bcefa
+PV = 5.13.0+gitAUTOINC+a743e1427b
 PR = r0
-PKGV = 5.12.3+git0+5e433bcefa
-PKGR = r0.21
+PKGV = 5.13.0+git0+a743e1427b
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = qtimageformats (= 5.12.3+git0+5e433bcefa-r0.21)
-RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtimageformats qtimageformats-mkspecs qtimageformats-qmldesigner tiff-dev
+RDEPENDS = qtimageformats (= 5.13.0+git0+a743e1427b-r0.0)
+RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtimageformats qtimageformats-mkspecs qtimageformats-qmldesigner tiff-dev zlib-dev
 PKGSIZE = 866
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtimageformats/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/*
 FILELIST = /usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake

@@ -1,9 +1,9 @@
 PV = 10.3.5
 PR = r0
-PKGR = r0.65
+PKGR = r0.66
 RPROVIDES = 
-RDEPENDS = open-vm-tools (= 10.3.5-r0.65)
-RRECOMMENDS = fuse-dev glib-2.0-dev glibc-dev initscripts-dev libdnet-dev libgcc-dev libtirpc-dev libxcrypt-dev procps-dev update-rc.d-dev util-linux-dev
+RDEPENDS = open-vm-tools (= 10.3.5-r0.66)
+RRECOMMENDS = fuse-dev glib-2.0-dev glibc-dev libdnet-dev libgcc-dev libtirpc-dev libxcrypt-dev procps-dev util-linux-dev
 PKGSIZE = 55526
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/open-vm-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/open-vm-tools/plugins/common/lib*.la
 FILELIST = /usr/include/vmGuestLib/includeCheck.h /usr/include/vmGuestLib/vmGuestLib.h /usr/include/vmGuestLib/vmSessionId.h /usr/include/vmGuestLib/vm_basic_types.h /usr/lib/libguestlib.so /usr/lib/libhgfs.so /usr/lib/libvmtools.so /usr/lib/pkgconfig/vmguestlib.pc

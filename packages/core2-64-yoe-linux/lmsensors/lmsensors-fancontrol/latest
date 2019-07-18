@@ -1,9 +1,9 @@
 PV = 3.5.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = bash
-RRECOMMENDS = lmsensors-config-fancontrol update-rc.d
-PKGSIZE = 17524
+RRECOMMENDS = lmsensors-config-fancontrol
+PKGSIZE = 16478
 FILES = /usr/sbin/fancontrol /etc/init.d/fancontrol
-FILELIST = /etc/init.d/fancontrol /usr/sbin/fancontrol
+FILELIST = /usr/sbin/fancontrol

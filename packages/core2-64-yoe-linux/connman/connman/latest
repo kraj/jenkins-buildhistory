@@ -1,10 +1,10 @@
 PV = 1.37
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = connman-plugin-ethernet connman-plugin-loopback connman-plugin-ofono connman-plugin-wifi
 RDEPENDS = bluez5 dbus dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.4) glibc (>= 2.29) gnutls (>= 3.6.8) iptables (>= 1.8.2) ofono update-alternatives-opkg wpa-supplicant
-RRECOMMENDS = connman-conf update-rc.d
+RRECOMMENDS = connman-conf
 RCONFLICTS = networkmanager
-PKGSIZE = 1009793
+PKGSIZE = 1008331
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /usr/lib/connman/plugins /etc /com /var /usr/share /bin/* /sbin/* /lib/*.so* /usr/share/connman /usr/share/dbus-1/system-services/* /etc/tmpfiles.d/connman_resolvconf.conf /lib/systemd/system-preset/98-connman.preset /lib/systemd/system/connman.service
-FILELIST = /etc/init.d/connman /etc/resolv-conf.connman /etc/tmpfiles.d/connman_resolvconf.conf /lib/systemd/system-preset/98-connman.preset /lib/systemd/system/connman.service /usr/sbin/connmand /usr/share/dbus-1/system.d/connman.conf
+FILELIST = /etc/resolv-conf.connman /etc/tmpfiles.d/connman_resolvconf.conf /lib/systemd/system-preset/98-connman.preset /lib/systemd/system/connman.service /usr/sbin/connmand /usr/share/dbus-1/system.d/connman.conf

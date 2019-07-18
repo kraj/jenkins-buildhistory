@@ -1,10 +1,10 @@
 PV = 0.5.0+gitAUTOINC+44a1731959
 PR = r0
 PKGV = 0.5.0+git0+44a1731959
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc)
-RRECOMMENDS = update-rc.d
-PKGSIZE = 77784
+RRECOMMENDS = 
+PKGSIZE = 74567
 FILES = /usr/sbin/thd /usr/sbin/th-cmd /etc/triggerhappy/triggers.d /lib/udev/rules.d/80-triggerhappy.rules /etc/init.d/triggerhappy /lib/systemd/system /lib/systemd/system-preset/98-triggerhappy.preset /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket
-FILELIST = /etc/init.d/triggerhappy /lib/systemd/system-preset/98-triggerhappy.preset /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket /lib/udev/rules.d/80-triggerhappy.rules /usr/sbin/th-cmd /usr/sbin/thd
+FILELIST = /lib/systemd/system-preset/98-triggerhappy.preset /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket /lib/udev/rules.d/80-triggerhappy.rules /usr/sbin/th-cmd /usr/sbin/thd

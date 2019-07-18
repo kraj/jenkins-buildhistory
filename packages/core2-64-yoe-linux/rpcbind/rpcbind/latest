@@ -1,9 +1,9 @@
 PV = 1.2.5
 PR = r0
-PKGR = r0.103
+PKGR = r0.104
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.29) initd-functions libsystemd (>= 242+1+db2e367bfc) libtirpc (>= 1.1.4) shadow
-RRECOMMENDS = update-rc.d
-PKGSIZE = 80820
+RDEPENDS = base-files base-passwd glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc) libtirpc (>= 1.1.4) shadow
+RRECOMMENDS = 
+PKGSIZE = 78993
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rpcbind /usr/lib/rpcbind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-rpcbind.preset /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket
-FILELIST = /etc/init.d/rpcbind /etc/rpcbind.conf /lib/systemd/system-preset/98-rpcbind.preset /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket /usr/bin/rpcinfo /usr/sbin/rpcbind
+FILELIST = /etc/rpcbind.conf /lib/systemd/system-preset/98-rpcbind.preset /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket /usr/bin/rpcinfo /usr/sbin/rpcbind

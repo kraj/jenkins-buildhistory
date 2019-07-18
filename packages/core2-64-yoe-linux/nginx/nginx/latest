@@ -1,9 +1,9 @@
 PV = 1.17.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
 RDEPENDS = base-files base-passwd glibc (>= 2.29) libcrypto (>= 1.1.1c) libpcre (>= 8.43) libssl (>= 1.1.1c) libxcrypt (>= 4.4.6) shadow zlib (>= 1.2.11)
-RRECOMMENDS = update-rc.d
-PKGSIZE = 941785
+RRECOMMENDS = 
+PKGSIZE = 940530
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nginx /usr/lib/nginx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /var/ /lib/systemd/system/nginx.service /lib/systemd/system-preset/98-nginx.preset /lib/systemd/system/nginx.service
-FILELIST = /etc/default/volatiles/99_nginx /etc/init.d/nginx /etc/nginx/fastcgi.conf /etc/nginx/fastcgi_params /etc/nginx/koi-utf /etc/nginx/koi-win /etc/nginx/mime.types /etc/nginx/nginx.conf /etc/nginx/proxy_params /etc/nginx/run /etc/nginx/scgi_params /etc/nginx/sites-available/default_server /etc/nginx/sites-enabled/default_server /etc/nginx/uwsgi_params /etc/nginx/win-utf /etc/tmpfiles.d/nginx.conf /lib/systemd/system-preset/98-nginx.preset /lib/systemd/system/nginx.service /usr/sbin/nginx /var/www/localhost/html/50x.html /var/www/localhost/html/index.html
+FILELIST = /etc/default/volatiles/99_nginx /etc/nginx/fastcgi.conf /etc/nginx/fastcgi_params /etc/nginx/koi-utf /etc/nginx/koi-win /etc/nginx/mime.types /etc/nginx/nginx.conf /etc/nginx/proxy_params /etc/nginx/run /etc/nginx/scgi_params /etc/nginx/sites-available/default_server /etc/nginx/sites-enabled/default_server /etc/nginx/uwsgi_params /etc/nginx/win-utf /etc/tmpfiles.d/nginx.conf /lib/systemd/system-preset/98-nginx.preset /lib/systemd/system/nginx.service /usr/sbin/nginx /var/www/localhost/html/50x.html /var/www/localhost/html/index.html

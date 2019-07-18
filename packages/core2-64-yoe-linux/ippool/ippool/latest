@@ -1,9 +1,9 @@
 PV = 1.3
 PR = r0
-PKGR = r0.110
+PKGR = r0.111
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.29) libtirpc (>= 1.1.4) readline (>= 8.0) rpcbind
 RRECOMMENDS = 
-PKGSIZE = 132811
+PKGSIZE = 131345
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ippool /usr/lib/ippool/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/pppd/2.4.7/ippool.so /lib/systemd/system-preset/98-ippool.preset /lib/systemd/system/ippool.service
-FILELIST = /etc/init.d/ippoold /lib/systemd/system-preset/98-ippool.preset /lib/systemd/system/ippool.service /usr/bin/ippoolconfig /usr/lib/ippool/ippool_rpc.x /usr/lib/pppd/2.4.7/ippool.so /usr/sbin/ippoold
+FILELIST = /lib/systemd/system-preset/98-ippool.preset /lib/systemd/system/ippool.service /usr/bin/ippoolconfig /usr/lib/ippool/ippool_rpc.x /usr/lib/pppd/2.4.7/ippool.so /usr/sbin/ippoold

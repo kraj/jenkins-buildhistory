@@ -1,13 +1,5 @@
 #!/bin/sh
 set -e
-if [ -n "$D" -o ! -d /run/systemd/system ] && type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
-	fi
-	update-rc.d $OPT openisns defaults
-fi
 if [ x"$D" = "x" ]; then
 	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
 fi

@@ -1,11 +1,11 @@
-PV = 5.12.3+gitAUTOINC+48eeb8adf8
+PV = 5.13.0+gitAUTOINC+7d610c6b1a
 PR = r0
 PKG = libqt5gamepad-dbg
-PKGV = 5.12.3+git0+48eeb8adf8
-PKGR = r0.21
-RPROVIDES = qtgamepad-dbg (=5.12.3+git0+48eeb8adf8)
+PKGV = 5.13.0+git0+7d610c6b1a
+PKGR = r0.0
+RPROVIDES = qtgamepad-dbg (=5.13.0+git0+7d610c6b1a)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libsdl2-dbg libstdc++-dbg libudev-dbg qtbase-dbg qtdeclarative-dbg
-PKGSIZE = 8072168
+PKGSIZE = 8107920
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libQt5Gamepad.so.5.12.3 /usr/lib/plugins/gamepads/.debug/libevdevgamepad.so /usr/lib/plugins/gamepads/.debug/libsdl2gamepad.so /usr/lib/qml/QtGamepad/.debug/libdeclarative_gamepad.so
+FILELIST = /usr/lib/.debug/libQt5Gamepad.so.5.13.0 /usr/lib/plugins/gamepads/.debug/libevdevgamepad.so /usr/lib/plugins/gamepads/.debug/libsdl2gamepad.so /usr/lib/qml/QtGamepad/.debug/libdeclarative_gamepad.so

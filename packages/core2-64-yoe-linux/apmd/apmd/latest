@@ -1,9 +1,9 @@
 PV = 3.2.2-15
 PR = r0
-PKGR = r0.98
+PKGR = r0.99
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) initd-functions libapm (>= 3.2.2-15)
-RRECOMMENDS = update-rc.d
-PKGSIZE = 29398
+RDEPENDS = glibc (>= 2.29) libapm (>= 3.2.2-15)
+RRECOMMENDS = 
+PKGSIZE = 28399
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/apmd /usr/lib/apmd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service
-FILELIST = /etc/apm/apmd_proxy /etc/default/apmd /etc/init.d/apmd /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service /usr/sbin/apmd /usr/share/apmd/apmd_proxy.conf
+FILELIST = /etc/apm/apmd_proxy /etc/default/apmd /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service /usr/sbin/apmd /usr/share/apmd/apmd_proxy.conf

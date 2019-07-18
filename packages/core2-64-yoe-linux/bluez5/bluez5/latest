@@ -1,10 +1,10 @@
 PV = 5.50
 PR = r0
-PKGR = r0.120
+PKGR = r0.121
 RPROVIDES = bluez-hcidump
 RDEPENDS = dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.4) glibc (>= 2.29) libudev (>= 242+1+db2e367bfc) readline (>= 8.0)
-RRECOMMENDS = update-rc.d
+RRECOMMENDS = 
 RCONFLICTS = bluez4
-PKGSIZE = 4341521
+PKGSIZE = 4340268
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bluez5 /usr/lib/bluez5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/bluetooth/plugins/*.so /lib/systemd/ /usr/share/dbus-1 /usr/lib/cups /lib/systemd/system-preset/98-bluez5.preset /lib/systemd/system/bluetooth.service
-FILELIST = /etc/bluetooth/input.conf /etc/bluetooth/network.conf /etc/dbus-1/system.d/bluetooth.conf /etc/init.d/bluetooth /lib/systemd/system-preset/98-bluez5.preset /lib/systemd/system/bluetooth.service /lib/udev/hid2hci /lib/udev/rules.d/97-hid2hci.rules /usr/bin/bccmd /usr/bin/bluemoon /usr/bin/bluetoothctl /usr/bin/btattach /usr/bin/btmon /usr/bin/ciptool /usr/bin/hciattach /usr/bin/hciconfig /usr/bin/hcidump /usr/bin/hcitool /usr/bin/hex2hcd /usr/bin/l2ping /usr/bin/l2test /usr/bin/mpris-proxy /usr/bin/rctest /usr/bin/rfcomm /usr/bin/sdptool /usr/lib/libbluetooth.so.3 /usr/lib/libbluetooth.so.3.18.16 /usr/libexec/bluetooth/bluetoothd /usr/share/dbus-1/system-services/org.bluez.service
+FILELIST = /etc/bluetooth/input.conf /etc/bluetooth/network.conf /etc/dbus-1/system.d/bluetooth.conf /lib/systemd/system-preset/98-bluez5.preset /lib/systemd/system/bluetooth.service /lib/udev/hid2hci /lib/udev/rules.d/97-hid2hci.rules /usr/bin/bccmd /usr/bin/bluemoon /usr/bin/bluetoothctl /usr/bin/btattach /usr/bin/btmon /usr/bin/ciptool /usr/bin/hciattach /usr/bin/hciconfig /usr/bin/hcidump /usr/bin/hcitool /usr/bin/hex2hcd /usr/bin/l2ping /usr/bin/l2test /usr/bin/mpris-proxy /usr/bin/rctest /usr/bin/rfcomm /usr/bin/sdptool /usr/lib/libbluetooth.so.3 /usr/lib/libbluetooth.so.3.18.16 /usr/libexec/bluetooth/bluetoothd /usr/share/dbus-1/system-services/org.bluez.service

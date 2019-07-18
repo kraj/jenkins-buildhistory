@@ -1,9 +1,9 @@
 PV = 4.0.9
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = corosync (>= 2.4.4) glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc) util-linux-libuuid (>= 2.34)
 RRECOMMENDS = 
-PKGSIZE = 230809
+PKGSIZE = 229033
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dlm /usr/lib/dlm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service
-FILELIST = /etc/init.d/dlm /etc/sysconfig/dlm /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service /usr/lib/libdlm.so.3 /usr/lib/libdlm.so.3.0 /usr/lib/libdlm_lt.so.3 /usr/lib/libdlm_lt.so.3.0 /usr/lib/libdlmcontrol.so.3 /usr/lib/libdlmcontrol.so.3.2 /usr/lib/udev/rules.d/51-dlm.rules /usr/sbin/dlm_controld /usr/sbin/dlm_tool
+FILELIST = /etc/sysconfig/dlm /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service /usr/lib/libdlm.so.3 /usr/lib/libdlm.so.3.0 /usr/lib/libdlm_lt.so.3 /usr/lib/libdlm_lt.so.3.0 /usr/lib/libdlmcontrol.so.3 /usr/lib/libdlmcontrol.so.3.2 /usr/lib/udev/rules.d/51-dlm.rules /usr/sbin/dlm_controld /usr/sbin/dlm_tool

@@ -3,26 +3,26 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 drwxr-xr-x -          -                  80 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                 480 ./usr/include/QtNetworkAuth
-drwxr-xr-x -          -                  60 ./usr/include/QtNetworkAuth/5.12.3
-drwxr-xr-x -          -                  60 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth
-drwxr-xr-x -          -                 180 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private
--rw-r--r-- -          -                3529 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qabstractoauth2_p.h
--rw-r--r-- -          -                3635 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qabstractoauth_p.h
--rw-r--r-- -          -                1812 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
--rw-r--r-- -          -                4123 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qoauth1_p.h
--rw-r--r-- -          -                2743 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qoauth1signature_p.h
--rw-r--r-- -          -                2737 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h
--rw-r--r-- -          -                3336 ./usr/include/QtNetworkAuth/5.12.3/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h
+drwxr-xr-x -          -                  60 ./usr/include/QtNetworkAuth/5.13.0
+drwxr-xr-x -          -                  60 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth
+drwxr-xr-x -          -                 180 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private
+-rw-r--r-- -          -                3698 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qabstractoauth2_p.h
+-rw-r--r-- -          -                3823 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qabstractoauth_p.h
+-rw-r--r-- -          -                1812 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
+-rw-r--r-- -          -                4616 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qoauth1_p.h
+-rw-r--r-- -          -                2770 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qoauth1signature_p.h
+-rw-r--r-- -          -                2737 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h
+-rw-r--r-- -          -                3336 ./usr/include/QtNetworkAuth/5.13.0/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h
 -rw-r--r-- -          -                  28 ./usr/include/QtNetworkAuth/QAbstractOAuth
 -rw-r--r-- -          -                  29 ./usr/include/QtNetworkAuth/QAbstractOAuth2
 -rw-r--r-- -          -                5160 ./usr/include/QtNetworkAuth/qabstractoauth2.h
--rw-r--r-- -          -                5955 ./usr/include/QtNetworkAuth/qabstractoauth.h
+-rw-r--r-- -          -                6203 ./usr/include/QtNetworkAuth/qabstractoauth.h
 -rw-r--r-- -          -                  40 ./usr/include/QtNetworkAuth/QAbstractOAuthReplyHandler
 -rw-r--r-- -          -                2361 ./usr/include/QtNetworkAuth/qabstractoauthreplyhandler.h
 -rw-r--r-- -          -                  21 ./usr/include/QtNetworkAuth/QOAuth1
--rw-r--r-- -          -                5281 ./usr/include/QtNetworkAuth/qoauth1.h
+-rw-r--r-- -          -                5424 ./usr/include/QtNetworkAuth/qoauth1.h
 -rw-r--r-- -          -                  30 ./usr/include/QtNetworkAuth/QOAuth1Signature
--rw-r--r-- -          -                3602 ./usr/include/QtNetworkAuth/qoauth1signature.h
+-rw-r--r-- -          -                3702 ./usr/include/QtNetworkAuth/qoauth1signature.h
 -rw-r--r-- -          -                  42 ./usr/include/QtNetworkAuth/QOAuth2AuthorizationCodeFlow
 -rw-r--r-- -          -                3641 ./usr/include/QtNetworkAuth/qoauth2authorizationcodeflow.h
 -rw-r--r-- -          -                1716 ./usr/include/QtNetworkAuth/qoauthglobal.h
@@ -37,13 +37,13 @@ drwxr-xr-x -          -                 180 ./usr/include/QtNetworkAuth/5.12.3/Q
 drwxr-xr-x -          -                 200 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/cmake
 drwxr-xr-x -          -                  80 ./usr/lib/cmake/Qt5NetworkAuth
--rw-r--r-- -          -                7860 ./usr/lib/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfig.cmake
+-rw-r--r-- -          -                7871 ./usr/lib/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfig.cmake
 -rw-r--r-- -          -                 288 ./usr/lib/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfigVersion.cmake
--rw-r--r-- -          -                1249 ./usr/lib/libQt5NetworkAuth.prl
--rwxr-xr-x -          -              260320 ./usr/lib/libQt5NetworkAuth.so.5.12.3
-lrwxrwxrwx -          -                  27 ./usr/lib/libQt5NetworkAuth.so.5.12 -> libQt5NetworkAuth.so.5.12.3
-lrwxrwxrwx -          -                  27 ./usr/lib/libQt5NetworkAuth.so.5 -> libQt5NetworkAuth.so.5.12.3
-lrwxrwxrwx -          -                  27 ./usr/lib/libQt5NetworkAuth.so -> libQt5NetworkAuth.so.5.12.3
+-rw-r--r-- -          -                1297 ./usr/lib/libQt5NetworkAuth.prl
+-rwxr-xr-x -          -              268512 ./usr/lib/libQt5NetworkAuth.so.5.13.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libQt5NetworkAuth.so.5.13 -> libQt5NetworkAuth.so.5.13.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libQt5NetworkAuth.so.5 -> libQt5NetworkAuth.so.5.13.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libQt5NetworkAuth.so -> libQt5NetworkAuth.so.5.13.0
 drwxr-xr-x -          -                  60 ./usr/lib/mkspecs
 drwxr-xr-x -          -                  80 ./usr/lib/mkspecs/modules
 -rw-r--r-- -          -                 557 ./usr/lib/mkspecs/modules/qt_lib_networkauth.pri

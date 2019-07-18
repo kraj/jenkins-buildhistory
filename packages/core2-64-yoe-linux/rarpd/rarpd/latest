@@ -1,9 +1,9 @@
 PV = ss981107
 PR = r0
-PKGR = r0.99
+PKGR = r0.100
 RPROVIDES = 
 RDEPENDS = bash glibc (>= 2.29)
 RRECOMMENDS = 
-PKGSIZE = 20820
+PKGSIZE = 19052
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rarpd /usr/lib/rarpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-rarpd.preset /lib/systemd/system/rarpd.service
-FILELIST = /etc/ethers /etc/init.d/rarpd /lib/systemd/system-preset/98-rarpd.preset /lib/systemd/system/rarpd.service /usr/sbin/rarpd
+FILELIST = /etc/ethers /lib/systemd/system-preset/98-rarpd.preset /lib/systemd/system/rarpd.service /usr/sbin/rarpd

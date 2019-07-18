@@ -1,5 +1,5 @@
 PV = 0.14.8+gitAUTOINC+331ada031f
 PR = r0
-DEPENDS = initscripts python3-native systemd-systemctl-native update-rc.d virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+DEPENDS = python3-native systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
 PACKAGES = bootchart2-src bootchart2-dbg bootchartd-stop-initscript pybootchartgui bootchart2-staticdev bootchart2-dev bootchart2-doc bootchart2-locale bootchart2
 LAYER = core

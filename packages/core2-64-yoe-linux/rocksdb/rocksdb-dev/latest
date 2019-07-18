@@ -1,9 +1,9 @@
 PV = 6.0.2
 PR = r0
 PKG = librocksdb-dev
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = rocksdb-dev (=6.0.2)
-RDEPENDS = rocksdb (= 6.0.2-r0.6)
+RDEPENDS = rocksdb (= 6.0.2-r0.7)
 RRECOMMENDS = bzip2-dev gflags-dev glibc-dev libbz2-dev libgcc-dev libstdc++-dev lz4-dev zlib-dev
 PKGSIZE = 697181
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rocksdb/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake

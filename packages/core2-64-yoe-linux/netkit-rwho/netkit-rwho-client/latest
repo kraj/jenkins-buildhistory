@@ -1,9 +1,9 @@
 PV = 0.17
 PR = r0
-PKGR = r0.99
+PKGR = r0.100
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) initd-functions
-RRECOMMENDS = update-rc.d
+RDEPENDS = glibc (>= 2.29)
+RRECOMMENDS = 
 PKGSIZE = 21232
 FILES = /usr/bin/*
 FILELIST = /usr/bin/ruptime /usr/bin/rwho

@@ -10,6 +10,3 @@ fi
 	update-alternatives --remove  sendmail /usr/sbin/sendmail.postfix
 	update-alternatives --remove  mailq /usr/bin/mailq.postfix
 	update-alternatives --remove  newaliases /usr/bin/newaliases.postfix
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/postfix" ]; then
-	/etc/init.d/postfix stop || :
-fi

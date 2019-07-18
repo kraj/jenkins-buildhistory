@@ -1,9 +1,9 @@
 PV = 1.5.10
 PR = r0
-PKGR = r0.99
+PKGR = r0.100
 RPROVIDES = 
 RDEPENDS = bash glibc (>= 2.29) libevent (>= 2.1.10) perl perl-module-autoloader perl-module-posix perl-module-tie-hash
-RRECOMMENDS = update-rc.d
+RRECOMMENDS = 
 PKGSIZE = 180007
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/memcached /usr/lib/memcached/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/memcached /usr/bin/memcached /usr/share/memcached/scripts/memcached-tool /usr/share/memcached/scripts/start-memcached

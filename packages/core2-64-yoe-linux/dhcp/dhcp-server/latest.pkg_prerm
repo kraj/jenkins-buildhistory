@@ -1,8 +1,5 @@
 #!/bin/sh
 set -e
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/dhcp-server" ]; then
-	/etc/init.d/dhcp-server stop || :
-fi
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl stop dhcpd.service dhcpd6.service

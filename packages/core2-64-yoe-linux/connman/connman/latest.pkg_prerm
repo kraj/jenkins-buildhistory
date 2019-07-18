@@ -1,9 +1,6 @@
 #!/bin/sh
 set -e
 	update-alternatives --remove  resolv-conf /etc/resolv-conf.connman
-if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/connman" ]; then
-	/etc/init.d/connman stop || :
-fi
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl stop connman.service
