@@ -1,9 +1,9 @@
-PV = 4.10.5
+PV = 4.10.6
 PR = r0
 PKG = libsamba-errors1
-PKGR = r0.5
-RPROVIDES = libsamba-errors (=4.10.5)
-RDEPENDS = glibc (>= 2.29) libbsd (>= 0.9.1) libnsl2 (>= 1.2.0+git0+37c5ffe303) libreplace-samba4 (>= 4.10.5) libsamba-debug-samba4 (>= 4.10.5) libsocket-blocking-samba4 (>= 4.10.5) libsystemd (>= 242+1+db2e367bfc) libtalloc (>= 2.2.0) libtime-basic-samba4 (>= 4.10.5) libxcrypt (>= 4.4.6) samba-common
+PKGR = r0.0
+RPROVIDES = libsamba-errors (=4.10.6)
+RDEPENDS = glibc (>= 2.29) libbsd (>= 0.9.1) libnsl2 (>= 1.2.0+git0+37c5ffe303) libreplace-samba4 (>= 4.10.6) libsamba-debug-samba4 (>= 4.10.6) libsocket-blocking-samba4 (>= 4.10.6) libsystemd (>= 242+1+db2e367bfc) libtalloc (>= 2.2.0) libtime-basic-samba4 (>= 4.10.6) libxcrypt (>= 4.4.6) samba-common
 RRECOMMENDS = 
 PKGSIZE = 1353696
 FILES = /usr/lib/libsamba-errors.so.1
