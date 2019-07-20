@@ -1,9 +1,9 @@
-PV = 1.11.12
+PV = 1.11.13
 PR = r0
-PKGR = r0.9
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = hwloc (= 1.11.12-r0.9) libhwloc
+RDEPENDS = hwloc (= 1.11.13-r0.0) libhwloc
 RRECOMMENDS = cairo-dev libhwloc-dev libpciaccess-dev libudev-dev libx11-dev libxml2-dev musl-dev ncurses-dev ncurses-libtinfo-dev udev-dev zlib-dev
-PKGSIZE = 309807
+PKGSIZE = 309952
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/hwloc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/hwloc.h /usr/include/hwloc/autogen/config.h /usr/include/hwloc/bitmap.h /usr/include/hwloc/cuda.h /usr/include/hwloc/cudart.h /usr/include/hwloc/deprecated.h /usr/include/hwloc/diff.h /usr/include/hwloc/gl.h /usr/include/hwloc/glibc-sched.h /usr/include/hwloc/helper.h /usr/include/hwloc/inlines.h /usr/include/hwloc/intel-mic.h /usr/include/hwloc/linux-libnuma.h /usr/include/hwloc/linux.h /usr/include/hwloc/myriexpress.h /usr/include/hwloc/nvml.h /usr/include/hwloc/opencl.h /usr/include/hwloc/openfabrics-verbs.h /usr/include/hwloc/plugins.h /usr/include/hwloc/rename.h /usr/lib/libhwloc.so /usr/lib/pkgconfig/hwloc.pc

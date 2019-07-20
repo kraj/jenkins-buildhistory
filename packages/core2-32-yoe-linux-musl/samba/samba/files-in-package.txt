@@ -16,7 +16,7 @@ drwxr-xr-x root       root              180 ./etc/ctdb/nfs-checks.d
 -rw-r--r-- root       root              209 ./etc/ctdb/nfs-checks.d/40.mountd.check
 -rw-r--r-- root       root              213 ./etc/ctdb/nfs-checks.d/50.rquotad.check
 -rw-r--r-- root       root             1499 ./etc/ctdb/nfs-checks.d/README
--rwxr-xr-x root       root             8268 ./etc/ctdb/nfs-linux-kernel-callout
+-rwxr-xr-x root       root             8275 ./etc/ctdb/nfs-linux-kernel-callout
 -rwxr-xr-x root       root              345 ./etc/ctdb/notify.sh
 -rwxr-xr-x root       root             8068 ./etc/ctdb/statd-callout
 drwxr-x--- root       root               60 ./etc/sudoers.d
@@ -110,7 +110,7 @@ drwxr-xr-x root       root             1020 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root           470352 ./usr/libexec/ctdb/tests/update_record
 -rwxr-xr-x root       root           466268 ./usr/libexec/ctdb/tests/update_record_persistent
 drwxr-xr-x root       root               60 ./usr/libexec/samba
--rwxr-xr-x root       root            29968 ./usr/libexec/samba/smbspool_krb5_wrapper
+-rwxr-xr-x root       root            13588 ./usr/libexec/samba/smbspool_krb5_wrapper
 drwxr-xr-x root       root              160 ./usr/lib/samba
 drwxr-xr-x root       root              140 ./usr/lib/samba/bind9
 -rwxr-xr-x root       root            50504 ./usr/lib/samba/bind9/dlz_bind9_10.so
@@ -213,7 +213,7 @@ drwxr-xr-x root       root              380 ./usr/share/ctdb/events/legacy
 -rwxr-xr-x root       root             1959 ./usr/share/ctdb/events/legacy/70.iscsi.script
 -rwxr-xr-x root       root             3241 ./usr/share/ctdb/events/legacy/91.lvs.script
 drwxr-xr-x root       root               60 ./usr/share/samba
-drwxr-xr-x root       root             1680 ./usr/share/samba/setup
+drwxr-xr-x root       root             1700 ./usr/share/samba/setup
 drwxr-xr-x root       root               80 ./usr/share/samba/setup/adprep
 -rw-r--r-- root       root              124 ./usr/share/samba/setup/adprep/fix-forest-rev.ldf
 drwxr-xr-x root       root              180 ./usr/share/samba/setup/adprep/WindowsServerDocs
@@ -303,8 +303,9 @@ drwxr-xr-x root       root              140 ./usr/share/samba/setup/display-spec
 -rw-r--r-- root       root              228 ./usr/share/samba/setup/provision_schema_basedn_modify.ldif
 -rw-r--r-- root       root             1044 ./usr/share/samba/setup/provision_self_join_config.ldif
 -rw-r--r-- root       root             1031 ./usr/share/samba/setup/provision_self_join.ldif
--rw-r--r-- root       root              397 ./usr/share/samba/setup/provision_self_join_modify_config.ldif
+-rw-r--r-- root       root              294 ./usr/share/samba/setup/provision_self_join_modify_config.ldif
 -rw-r--r-- root       root              745 ./usr/share/samba/setup/provision_self_join_modify.ldif
+-rw-r--r-- root       root              102 ./usr/share/samba/setup/provision_self_join_modify_schema.ldif
 -rw-r--r-- root       root              108 ./usr/share/samba/setup/provision_users_add.ldif
 -rw-r--r-- root       root            13800 ./usr/share/samba/setup/provision_users.ldif
 -rw-r--r-- root       root              298 ./usr/share/samba/setup/provision_users_modify.ldif

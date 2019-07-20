@@ -30,7 +30,7 @@ drwxr-xr-x -          -                 540 ./usr/include/samba-4.0/gen_ndr
 -rw-r--r-- -          -                2725 ./usr/include/samba-4.0/gen_ndr/auth.h
 -rw-r--r-- -          -               24850 ./usr/include/samba-4.0/gen_ndr/dcerpc.h
 -rw-r--r-- -          -               19796 ./usr/include/samba-4.0/gen_ndr/drsblobs.h
--rw-r--r-- -          -               73670 ./usr/include/samba-4.0/gen_ndr/drsuapi.h
+-rw-r--r-- -          -               73763 ./usr/include/samba-4.0/gen_ndr/drsuapi.h
 -rw-r--r-- -          -                6197 ./usr/include/samba-4.0/gen_ndr/krb5pac.h
 -rw-r--r-- -          -               44908 ./usr/include/samba-4.0/gen_ndr/lsa.h
 -rw-r--r-- -          -                4430 ./usr/include/samba-4.0/gen_ndr/misc.h
@@ -158,7 +158,7 @@ lrwxrwxrwx -          -                  17 ./usr/lib/libsamdb.so -> libsamdb.so
 -rwxr-xr-x -          -              181448 ./usr/lib/libsmbclient.so.0.5.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libsmbclient.so.0 -> libsmbclient.so.0.5.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libsmbclient.so -> libsmbclient.so.0.5.0
--rwxr-xr-x -          -              620596 ./usr/lib/libsmbconf.so.0
+-rwxr-xr-x -          -              612404 ./usr/lib/libsmbconf.so.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libsmbconf.so -> libsmbconf.so.0
 -rwxr-xr-x -          -               50376 ./usr/lib/libsmbldap.so.2
 lrwxrwxrwx -          -                  15 ./usr/lib/libsmbldap.so -> libsmbldap.so.2
@@ -288,9 +288,9 @@ drwxr-xr-x -          -                 600 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- -          -               21018 ./usr/lib/python3.7/site-packages/samba/netcmd/computer.py
 -rw-r--r-- -          -                7097 ./usr/lib/python3.7/site-packages/samba/netcmd/dbcheck.py
 -rw-r--r-- -          -               11245 ./usr/lib/python3.7/site-packages/samba/netcmd/delegation.py
--rw-r--r-- -          -               46405 ./usr/lib/python3.7/site-packages/samba/netcmd/dns.py
+-rw-r--r-- -          -               46406 ./usr/lib/python3.7/site-packages/samba/netcmd/dns.py
 -rw-r--r-- -          -               49715 ./usr/lib/python3.7/site-packages/samba/netcmd/domain_backup.py
--rw-r--r-- -          -              201051 ./usr/lib/python3.7/site-packages/samba/netcmd/domain.py
+-rw-r--r-- -          -              201086 ./usr/lib/python3.7/site-packages/samba/netcmd/domain.py
 -rw-r--r-- -          -               35468 ./usr/lib/python3.7/site-packages/samba/netcmd/drs.py
 -rw-r--r-- -          -                7579 ./usr/lib/python3.7/site-packages/samba/netcmd/dsacl.py
 -rw-r--r-- -          -                5428 ./usr/lib/python3.7/site-packages/samba/netcmd/forest.py
@@ -298,7 +298,7 @@ drwxr-xr-x -          -                 600 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- -          -               55407 ./usr/lib/python3.7/site-packages/samba/netcmd/gpo.py
 -rw-r--r-- -          -               29256 ./usr/lib/python3.7/site-packages/samba/netcmd/group.py
 -rw-r--r-- -          -                9673 ./usr/lib/python3.7/site-packages/samba/netcmd/__init__.py
--rw-r--r-- -          -               40284 ./usr/lib/python3.7/site-packages/samba/netcmd/ldapcmp.py
+-rw-r--r-- -          -               40298 ./usr/lib/python3.7/site-packages/samba/netcmd/ldapcmp.py
 -rw-r--r-- -          -                2604 ./usr/lib/python3.7/site-packages/samba/netcmd/main.py
 -rw-r--r-- -          -                2009 ./usr/lib/python3.7/site-packages/samba/netcmd/nettime.py
 -rw-r--r-- -          -               12007 ./usr/lib/python3.7/site-packages/samba/netcmd/ntacl.py
@@ -313,7 +313,7 @@ drwxr-xr-x -          -                 600 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- -          -              113208 ./usr/lib/python3.7/site-packages/samba/netcmd/user.py
 -rw-r--r-- -          -               27956 ./usr/lib/python3.7/site-packages/samba/netcmd/visualize.py
 -rwxr-xr-x -          -               30336 ./usr/lib/python3.7/site-packages/samba/net.cpython-37m-i686-linux-musl.so
--rw-r--r-- -          -               22234 ./usr/lib/python3.7/site-packages/samba/ntacls.py
+-rw-r--r-- -          -               22300 ./usr/lib/python3.7/site-packages/samba/ntacls.py
 -rwxr-xr-x -          -              169080 ./usr/lib/python3.7/site-packages/samba/ntstatus.cpython-37m-i686-linux-musl.so
 -rwxr-xr-x -          -               26736 ./usr/lib/python3.7/site-packages/samba/param.cpython-37m-i686-linux-musl.so
 -rwxr-xr-x -          -               13616 ./usr/lib/python3.7/site-packages/samba/policy.cpython-37m-i686-linux-musl.so
@@ -321,7 +321,7 @@ drwxr-xr-x -          -                 600 ./usr/lib/python3.7/site-packages/sa
 drwxr-xr-x -          -                 160 ./usr/lib/python3.7/site-packages/samba/provision
 -rw-r--r-- -          -               33449 ./usr/lib/python3.7/site-packages/samba/provision/backend.py
 -rw-r--r-- -          -                2832 ./usr/lib/python3.7/site-packages/samba/provision/common.py
--rw-r--r-- -          -              101623 ./usr/lib/python3.7/site-packages/samba/provision/__init__.py
+-rw-r--r-- -          -              101913 ./usr/lib/python3.7/site-packages/samba/provision/__init__.py
 -rw-r--r-- -          -                 746 ./usr/lib/python3.7/site-packages/samba/provision/kerberos_implementation.py
 -rw-r--r-- -          -                2601 ./usr/lib/python3.7/site-packages/samba/provision/kerberos.py
 -rw-r--r-- -          -               48255 ./usr/lib/python3.7/site-packages/samba/provision/sambadns.py
@@ -344,7 +344,7 @@ drwxr-xr-x -          -                  80 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- -          -                2705 ./usr/lib/python3.7/site-packages/samba/subunit/__init__.py
 -rw-r--r-- -          -               25182 ./usr/lib/python3.7/site-packages/samba/subunit/run.py
 -rw-r--r-- -          -                1481 ./usr/lib/python3.7/site-packages/samba/tdb_util.py
-drwxr-xr-x -          -                2020 ./usr/lib/python3.7/site-packages/samba/tests
+drwxr-xr-x -          -                2040 ./usr/lib/python3.7/site-packages/samba/tests
 -rw-r--r-- -          -                6263 ./usr/lib/python3.7/site-packages/samba/tests/audit_log_base.py
 -rw-r--r-- -          -               25246 ./usr/lib/python3.7/site-packages/samba/tests/audit_log_dsdb.py
 -rw-r--r-- -          -               13302 ./usr/lib/python3.7/site-packages/samba/tests/audit_log_pass_change.py
@@ -427,6 +427,7 @@ drwxr-xr-x -          -                 140 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- -          -               14018 ./usr/lib/python3.7/site-packages/samba/tests/kcc/kcc_utils.py
 -rw-r--r-- -          -                9915 ./usr/lib/python3.7/site-packages/samba/tests/kcc/ldif_import_export.py
 -rw-r--r-- -          -                3890 ./usr/lib/python3.7/site-packages/samba/tests/krb5_credentials.py
+-rw-r--r-- -          -                3242 ./usr/lib/python3.7/site-packages/samba/tests/ldap_referrals.py
 -rw-r--r-- -          -                2508 ./usr/lib/python3.7/site-packages/samba/tests/libsmb.py
 -rw-r--r-- -          -                3324 ./usr/lib/python3.7/site-packages/samba/tests/loadparm.py
 -rw-r--r-- -          -                2277 ./usr/lib/python3.7/site-packages/samba/tests/lsa_string.py
@@ -471,7 +472,7 @@ drwxr-xr-x -          -                 560 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- -          -                5738 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/base.py
 -rw-r--r-- -          -               14422 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/computer.py
 -rw-r--r-- -          -                4001 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/demote.py
--rw-r--r-- -          -               43582 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/dnscmd.py
+-rw-r--r-- -          -               44776 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/dnscmd.py
 -rw-r--r-- -          -                3072 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/forest.py
 -rw-r--r-- -          -                2165 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/fsmo.py
 -rw-r--r-- -          -               21485 ./usr/lib/python3.7/site-packages/samba/tests/samba_tool/gpo.py
@@ -650,7 +651,7 @@ drwxr-xr-x -          -                1020 ./usr/lib/samba/ldb
 -rwxr-xr-x -          -               13464 ./usr/lib/samba/libmsghdr-samba4.so
 -rwxr-xr-x -          -              161024 ./usr/lib/samba/libmsrpc3-samba4.so
 -rwxr-xr-x -          -             1766660 ./usr/lib/samba/libndr-samba4.so
--rwxr-xr-x -          -             1524992 ./usr/lib/samba/libndr-samba-samba4.so
+-rwxr-xr-x -          -             1529088 ./usr/lib/samba/libndr-samba-samba4.so
 -rwxr-xr-x -          -               21704 ./usr/lib/samba/libnetif-samba4.so
 -rwxr-xr-x -          -               21704 ./usr/lib/samba/libnet-keytab-samba4.so
 -rwxr-xr-x -          -               13512 ./usr/lib/samba/libnon-posix-acls-samba4.so
@@ -680,7 +681,7 @@ drwxr-xr-x -          -                1020 ./usr/lib/samba/ldb
 -rwxr-xr-x -          -               34048 ./usr/lib/samba/libservice-samba4.so
 -rwxr-xr-x -          -               38144 ./usr/lib/samba/libshares-samba4.so
 -rwxr-xr-x -          -              259284 ./usr/lib/samba/libsmbclient-raw-samba4.so
--rwxr-xr-x -          -             4339080 ./usr/lib/samba/libsmbd-base-samba4.so
+-rwxr-xr-x -          -             4343176 ./usr/lib/samba/libsmbd-base-samba4.so
 -rwxr-xr-x -          -               13512 ./usr/lib/samba/libsmbd-conn-samba4.so
 -rwxr-xr-x -          -               13412 ./usr/lib/samba/libsmbd-shim-samba4.so
 -rwxr-xr-x -          -               22508 ./usr/lib/samba/libsmbldaphelper-samba4.so
@@ -2069,7 +2070,7 @@ drwxr-xr-x -          -                  80 ./usr/share/perl5/Parse/Pidl/Wiresha
 drwxr-xr-x -          -                  60 ./usr/share/perl5/Parse/Yapp
 -rw-r--r-- -          -                9751 ./usr/share/perl5/Parse/Yapp/Driver.pm
 drwxr-xr-x -          -                  60 ./usr/share/samba
-drwxr-xr-x -          -                1680 ./usr/share/samba/setup
+drwxr-xr-x -          -                1700 ./usr/share/samba/setup
 drwxr-xr-x -          -                  80 ./usr/share/samba/setup/adprep
 -rw-r--r-- -          -                 124 ./usr/share/samba/setup/adprep/fix-forest-rev.ldf
 drwxr-xr-x -          -                 180 ./usr/share/samba/setup/adprep/WindowsServerDocs
@@ -2159,8 +2160,9 @@ drwxr-xr-x -          -                 140 ./usr/share/samba/setup/display-spec
 -rw-r--r-- -          -                 228 ./usr/share/samba/setup/provision_schema_basedn_modify.ldif
 -rw-r--r-- -          -                1044 ./usr/share/samba/setup/provision_self_join_config.ldif
 -rw-r--r-- -          -                1031 ./usr/share/samba/setup/provision_self_join.ldif
--rw-r--r-- -          -                 397 ./usr/share/samba/setup/provision_self_join_modify_config.ldif
+-rw-r--r-- -          -                 294 ./usr/share/samba/setup/provision_self_join_modify_config.ldif
 -rw-r--r-- -          -                 745 ./usr/share/samba/setup/provision_self_join_modify.ldif
+-rw-r--r-- -          -                 102 ./usr/share/samba/setup/provision_self_join_modify_schema.ldif
 -rw-r--r-- -          -                 108 ./usr/share/samba/setup/provision_users_add.ldif
 -rw-r--r-- -          -               13800 ./usr/share/samba/setup/provision_users.ldif
 -rw-r--r-- -          -                 298 ./usr/share/samba/setup/provision_users_modify.ldif

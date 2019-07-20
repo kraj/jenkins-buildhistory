@@ -1,9 +1,9 @@
 PV = 0.2.1
 PR = r0
 PKG = libgstshark0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = gst-shark (=0.2.1)
-RDEPENDS = glib-2.0 (>= 2.60.4) gstreamer1.0 (>= 1.16.0) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = glib-2.0 (>= 2.60.5) gstreamer1.0 (>= 1.16.0) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = 
 PKGSIZE = 72364
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gst-shark /usr/lib/gst-shark/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/gstreamer-1.0/libgstsharktracers.so /usr/lib/gstreamer-1.0/libgstsharktracers.la

@@ -1,9 +1,9 @@
 PV = 1.4.4
 PR = r0
 PKG = libjson-glib-1.0-ptest
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = json-glib-ptest (=1.4.4)
-RDEPENDS = glib-2.0 (>= 2.60.4) gnome-desktop-testing json-glib (>= 1.4.4) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = glib-2.0 (>= 2.60.5) gnome-desktop-testing json-glib (>= 1.4.4) musl (>= 1.1.22+git1+ac304227bb)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 233264
 FILES = /usr/lib/json-glib/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/
