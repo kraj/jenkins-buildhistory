@@ -1,9 +1,9 @@
-PV = 1.5.1
+PV = 1.5.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libzip (= 1.5.1-r0.12)
+RDEPENDS = libzip (= 1.5.2-r0.0)
 RRECOMMENDS = bzip2-dev libbz2-dev libcrypto-dev musl-dev openssl-dev zlib-dev
-PKGSIZE = 24071
+PKGSIZE = 26032
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libzip/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/zip.h /usr/include/zipconf.h /usr/lib/libzip.so /usr/lib/pkgconfig/libzip.pc
