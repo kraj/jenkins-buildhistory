@@ -1,4 +1,4 @@
-drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root              100 ./etc
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root               80 ./etc/dbus-1/system.d
 -rw-r--r-- root       root              465 ./etc/dbus-1/system.d/nm-dispatcher.conf
@@ -12,6 +12,7 @@ drwxr-xr-x root       root               40 ./etc/NetworkManager/dispatcher.d/pr
 drwxr-xr-x root       root               40 ./etc/NetworkManager/dnsmasq.d
 drwxr-xr-x root       root               40 ./etc/NetworkManager/dnsmasq-shared.d
 drwxr-xr-x root       root               40 ./etc/NetworkManager/system-connections
+lrwxrwxrwx root       root               33 ./etc/resolv-conf.NetworkManager -> ../run/NetworkManager/resolv.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
