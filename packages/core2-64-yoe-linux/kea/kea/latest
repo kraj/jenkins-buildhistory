@@ -1,8 +1,8 @@
 PV = 1.5.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = boost boost-system (>= 1.69.0) glibc (>= 2.29) libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) log4cplus (>= 2.0.3) openssl
+RDEPENDS = boost boost-system (>= 1.69.0) glibc (>= 2.29) libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) log4cplus (>= 2.0.4) openssl
 RRECOMMENDS = 
 PKGSIZE = 14000228
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/kea /usr/lib/kea/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/hooks/*.so /lib/systemd/system-preset/98-kea.preset /lib/systemd/system/kea-dhcp4.service /lib/systemd/system/kea-dhcp6.service /lib/systemd/system/kea-dhcp-ddns.service
