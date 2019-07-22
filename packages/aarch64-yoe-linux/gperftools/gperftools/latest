@@ -1,9 +1,9 @@
 PV = 2.7
 PR = r0
-PKGR = r0.101
+PKGR = r0.102
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) libtcmalloc-minimal (= 2.7-r0.102)
 RRECOMMENDS = 
-PKGSIZE = 1768539
+PKGSIZE = 1303901
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gperftools /usr/lib/gperftools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/pprof /usr/lib/libprofiler.so.0 /usr/lib/libprofiler.so.0.4.18 /usr/lib/libtcmalloc.so.4 /usr/lib/libtcmalloc.so.4.5.3 /usr/lib/libtcmalloc_and_profiler.so.4 /usr/lib/libtcmalloc_and_profiler.so.4.5.3 /usr/lib/libtcmalloc_debug.so.4 /usr/lib/libtcmalloc_debug.so.4.5.3 /usr/lib/libtcmalloc_minimal.so.4 /usr/lib/libtcmalloc_minimal.so.4.5.3 /usr/lib/libtcmalloc_minimal_debug.so.4 /usr/lib/libtcmalloc_minimal_debug.so.4.5.3
+FILELIST = /usr/bin/pprof /usr/lib/libprofiler.so.0 /usr/lib/libprofiler.so.0.4.18 /usr/lib/libtcmalloc.so.4 /usr/lib/libtcmalloc.so.4.5.3 /usr/lib/libtcmalloc_and_profiler.so.4 /usr/lib/libtcmalloc_and_profiler.so.4.5.3 /usr/lib/libtcmalloc_debug.so.4 /usr/lib/libtcmalloc_debug.so.4.5.3
