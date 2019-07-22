@@ -1,8 +1,8 @@
 PV = 2.0.16
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1c) libssl (>= 1.1.1c) musl (>= 1.1.22+git1+ac304227bb) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8)
+RDEPENDS = libcrypto (>= 1.1.1c) libssl (>= 1.1.1c) musl (>= 1.1.23+git0+0ce49d0a30) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8)
 RRECOMMENDS = 
 PKGSIZE = 927891
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/keepalived /usr/lib/keepalived/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/snmp/mibs/KEEPALIVED-MIB.txt /lib/systemd/system-preset/98-keepalived.preset /lib/systemd/system/keepalived.service

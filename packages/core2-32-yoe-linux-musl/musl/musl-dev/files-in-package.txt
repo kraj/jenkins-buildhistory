@@ -15,7 +15,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits
 -rw-r--r-- root       root            11593 ./usr/include/bits/alltypes.h
 -rw-r--r-- root       root               37 ./usr/include/bits/endian.h
 -rw-r--r-- root       root             3669 ./usr/include/bits/errno.h
--rw-r--r-- root       root              904 ./usr/include/bits/fcntl.h
+-rw-r--r-- root       root              842 ./usr/include/bits/fcntl.h
 -rw-r--r-- root       root              754 ./usr/include/bits/fenv.h
 -rw-r--r-- root       root              499 ./usr/include/bits/float.h
 -rw-r--r-- root       root                0 ./usr/include/bits/hwcap.h
@@ -42,7 +42,7 @@ drwxr-xr-x root       root              720 ./usr/include/bits
 -rw-r--r-- root       root              195 ./usr/include/bits/statfs.h
 -rw-r--r-- root       root              461 ./usr/include/bits/stat.h
 -rw-r--r-- root       root              540 ./usr/include/bits/stdint.h
--rw-r--r-- root       root            21301 ./usr/include/bits/syscall.h
+-rw-r--r-- root       root            23447 ./usr/include/bits/syscall.h
 -rw-r--r-- root       root             3509 ./usr/include/bits/termios.h
 -rw-r--r-- root       root             1152 ./usr/include/bits/user.h
 -rw-r--r-- root       root               22 ./usr/include/bits/vt.h
@@ -53,11 +53,11 @@ drwxr-xr-x root       root              720 ./usr/include/bits
 -rw-r--r-- root       root             1760 ./usr/include/ctype.h
 -rw-r--r-- root       root             1911 ./usr/include/dirent.h
 -rw-r--r-- root       root              745 ./usr/include/dlfcn.h
--rw-r--r-- root       root            80393 ./usr/include/elf.h
+-rw-r--r-- root       root            80455 ./usr/include/elf.h
 -rw-r--r-- root       root             2009 ./usr/include/endian.h
 -rw-r--r-- root       root              472 ./usr/include/err.h
 -rw-r--r-- root       root              369 ./usr/include/errno.h
--rw-r--r-- root       root             4475 ./usr/include/fcntl.h
+-rw-r--r-- root       root             4485 ./usr/include/fcntl.h
 -rw-r--r-- root       root              815 ./usr/include/features.h
 -rw-r--r-- root       root              449 ./usr/include/fenv.h
 -rw-r--r-- root       root             1060 ./usr/include/float.h
@@ -94,7 +94,7 @@ drwxr-xr-x root       root              260 ./usr/include/netinet
 -rw-r--r-- root       root             8652 ./usr/include/netinet/icmp6.h
 -rw-r--r-- root       root             3568 ./usr/include/netinet/if_ether.h
 -rw-r--r-- root       root             1030 ./usr/include/netinet/igmp.h
--rw-r--r-- root       root            11994 ./usr/include/netinet/in.h
+-rw-r--r-- root       root            12089 ./usr/include/netinet/in.h
 -rw-r--r-- root       root              145 ./usr/include/netinet/in_systm.h
 -rw-r--r-- root       root             2694 ./usr/include/netinet/ip6.h
 -rw-r--r-- root       root             4353 ./usr/include/netinet/ip.h
@@ -146,7 +146,7 @@ drwxr-xr-x root       root             1380 ./usr/include/sys
 -rw-r--r-- root       root               86 ./usr/include/sys/errno.h
 -rw-r--r-- root       root              404 ./usr/include/sys/eventfd.h
 -rw-r--r-- root       root              430 ./usr/include/sysexits.h
--rw-r--r-- root       root             2444 ./usr/include/sys/fanotify.h
+-rw-r--r-- root       root             3281 ./usr/include/sys/fanotify.h
 -rw-r--r-- root       root               86 ./usr/include/sys/fcntl.h
 -rw-r--r-- root       root              261 ./usr/include/sys/file.h
 -rw-r--r-- root       root              233 ./usr/include/sys/fsuid.h
@@ -165,7 +165,7 @@ drwxr-xr-x root       root             1380 ./usr/include/sys
 -rw-r--r-- root       root              755 ./usr/include/sys/param.h
 -rw-r--r-- root       root             1381 ./usr/include/sys/personality.h
 -rw-r--r-- root       root               83 ./usr/include/sys/poll.h
--rw-r--r-- root       root             4182 ./usr/include/sys/prctl.h
+-rw-r--r-- root       root             4224 ./usr/include/sys/prctl.h
 -rw-r--r-- root       root             1175 ./usr/include/sys/procfs.h
 -rw-r--r-- root       root             2890 ./usr/include/sys/ptrace.h
 -rw-r--r-- root       root             2276 ./usr/include/sys/quota.h
@@ -179,7 +179,7 @@ drwxr-xr-x root       root             1380 ./usr/include/sys
 -rw-r--r-- root       root             1398 ./usr/include/sys/shm.h
 -rw-r--r-- root       root              845 ./usr/include/sys/signalfd.h
 -rw-r--r-- root       root               89 ./usr/include/sys/signal.h
--rw-r--r-- root       root            10089 ./usr/include/sys/socket.h
+-rw-r--r-- root       root            10124 ./usr/include/sys/socket.h
 -rw-r--r-- root       root               28 ./usr/include/sys/soundcard.h
 -rw-r--r-- root       root              508 ./usr/include/sys/statfs.h
 -rw-r--r-- root       root             2864 ./usr/include/sys/stat.h
@@ -197,7 +197,7 @@ drwxr-xr-x root       root             1380 ./usr/include/sys
 -rw-r--r-- root       root              301 ./usr/include/sys/times.h
 -rw-r--r-- root       root             2053 ./usr/include/sys/timex.h
 -rw-r--r-- root       root              926 ./usr/include/sys/ttydefaults.h
--rw-r--r-- root       root             1937 ./usr/include/sys/types.h
+-rw-r--r-- root       root             1910 ./usr/include/sys/types.h
 -rw-r--r-- root       root               22 ./usr/include/sys/ucontext.h
 -rw-r--r-- root       root             1067 ./usr/include/sys/uio.h
 -rw-r--r-- root       root              472 ./usr/include/sys/un.h
@@ -225,8 +225,8 @@ drwxr-xr-x root       root             1380 ./usr/include/sys
 -rw-r--r-- root       root             1915 ./usr/include/wctype.h
 -rw-r--r-- root       root              650 ./usr/include/wordexp.h
 drwxr-xr-x root       root              140 ./usr/lib
--rw-r--r-- root       root             4256 ./usr/lib/crt1.o
+-rw-r--r-- root       root             4260 ./usr/lib/crt1.o
 -rw-r--r-- root       root             1688 ./usr/lib/crti.o
 -rw-r--r-- root       root             1644 ./usr/lib/crtn.o
--rw-r--r-- root       root             7228 ./usr/lib/rcrt1.o
--rw-r--r-- root       root             4264 ./usr/lib/Scrt1.o
+-rw-r--r-- root       root             7236 ./usr/lib/rcrt1.o
+-rw-r--r-- root       root             4272 ./usr/lib/Scrt1.o

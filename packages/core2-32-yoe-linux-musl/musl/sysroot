@@ -23,7 +23,7 @@ drwxr-xr-x -          -                 720 ./usr/include/bits
 -rw-r--r-- -          -               11593 ./usr/include/bits/alltypes.h
 -rw-r--r-- -          -                  37 ./usr/include/bits/endian.h
 -rw-r--r-- -          -                3669 ./usr/include/bits/errno.h
--rw-r--r-- -          -                 904 ./usr/include/bits/fcntl.h
+-rw-r--r-- -          -                 842 ./usr/include/bits/fcntl.h
 -rw-r--r-- -          -                 754 ./usr/include/bits/fenv.h
 -rw-r--r-- -          -                 499 ./usr/include/bits/float.h
 -rw-r--r-- -          -                   0 ./usr/include/bits/hwcap.h
@@ -50,7 +50,7 @@ drwxr-xr-x -          -                 720 ./usr/include/bits
 -rw-r--r-- -          -                 195 ./usr/include/bits/statfs.h
 -rw-r--r-- -          -                 461 ./usr/include/bits/stat.h
 -rw-r--r-- -          -                 540 ./usr/include/bits/stdint.h
--rw-r--r-- -          -               21301 ./usr/include/bits/syscall.h
+-rw-r--r-- -          -               23447 ./usr/include/bits/syscall.h
 -rw-r--r-- -          -                3509 ./usr/include/bits/termios.h
 -rw-r--r-- -          -                1152 ./usr/include/bits/user.h
 -rw-r--r-- -          -                  22 ./usr/include/bits/vt.h
@@ -61,11 +61,11 @@ drwxr-xr-x -          -                 720 ./usr/include/bits
 -rw-r--r-- -          -                1760 ./usr/include/ctype.h
 -rw-r--r-- -          -                1911 ./usr/include/dirent.h
 -rw-r--r-- -          -                 745 ./usr/include/dlfcn.h
--rw-r--r-- -          -               80393 ./usr/include/elf.h
+-rw-r--r-- -          -               80455 ./usr/include/elf.h
 -rw-r--r-- -          -                2009 ./usr/include/endian.h
 -rw-r--r-- -          -                 472 ./usr/include/err.h
 -rw-r--r-- -          -                 369 ./usr/include/errno.h
--rw-r--r-- -          -                4475 ./usr/include/fcntl.h
+-rw-r--r-- -          -                4485 ./usr/include/fcntl.h
 -rw-r--r-- -          -                 815 ./usr/include/features.h
 -rw-r--r-- -          -                 449 ./usr/include/fenv.h
 -rw-r--r-- -          -                1060 ./usr/include/float.h
@@ -102,7 +102,7 @@ drwxr-xr-x -          -                 260 ./usr/include/netinet
 -rw-r--r-- -          -                8652 ./usr/include/netinet/icmp6.h
 -rw-r--r-- -          -                3568 ./usr/include/netinet/if_ether.h
 -rw-r--r-- -          -                1030 ./usr/include/netinet/igmp.h
--rw-r--r-- -          -               11994 ./usr/include/netinet/in.h
+-rw-r--r-- -          -               12089 ./usr/include/netinet/in.h
 -rw-r--r-- -          -                 145 ./usr/include/netinet/in_systm.h
 -rw-r--r-- -          -                2694 ./usr/include/netinet/ip6.h
 -rw-r--r-- -          -                4353 ./usr/include/netinet/ip.h
@@ -154,7 +154,7 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                  86 ./usr/include/sys/errno.h
 -rw-r--r-- -          -                 404 ./usr/include/sys/eventfd.h
 -rw-r--r-- -          -                 430 ./usr/include/sysexits.h
--rw-r--r-- -          -                2444 ./usr/include/sys/fanotify.h
+-rw-r--r-- -          -                3281 ./usr/include/sys/fanotify.h
 -rw-r--r-- -          -                  86 ./usr/include/sys/fcntl.h
 -rw-r--r-- -          -                 261 ./usr/include/sys/file.h
 -rw-r--r-- -          -                 233 ./usr/include/sys/fsuid.h
@@ -173,7 +173,7 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                 755 ./usr/include/sys/param.h
 -rw-r--r-- -          -                1381 ./usr/include/sys/personality.h
 -rw-r--r-- -          -                  83 ./usr/include/sys/poll.h
--rw-r--r-- -          -                4182 ./usr/include/sys/prctl.h
+-rw-r--r-- -          -                4224 ./usr/include/sys/prctl.h
 -rw-r--r-- -          -                1175 ./usr/include/sys/procfs.h
 -rw-r--r-- -          -                2890 ./usr/include/sys/ptrace.h
 -rw-r--r-- -          -                2276 ./usr/include/sys/quota.h
@@ -187,7 +187,7 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                1398 ./usr/include/sys/shm.h
 -rw-r--r-- -          -                 845 ./usr/include/sys/signalfd.h
 -rw-r--r-- -          -                  89 ./usr/include/sys/signal.h
--rw-r--r-- -          -               10089 ./usr/include/sys/socket.h
+-rw-r--r-- -          -               10124 ./usr/include/sys/socket.h
 -rw-r--r-- -          -                  28 ./usr/include/sys/soundcard.h
 -rw-r--r-- -          -                 508 ./usr/include/sys/statfs.h
 -rw-r--r-- -          -                2864 ./usr/include/sys/stat.h
@@ -205,7 +205,7 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                 301 ./usr/include/sys/times.h
 -rw-r--r-- -          -                2053 ./usr/include/sys/timex.h
 -rw-r--r-- -          -                 926 ./usr/include/sys/ttydefaults.h
--rw-r--r-- -          -                1937 ./usr/include/sys/types.h
+-rw-r--r-- -          -                1910 ./usr/include/sys/types.h
 -rw-r--r-- -          -                  22 ./usr/include/sys/ucontext.h
 -rw-r--r-- -          -                1067 ./usr/include/sys/uio.h
 -rw-r--r-- -          -                 472 ./usr/include/sys/un.h
@@ -233,10 +233,10 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                1915 ./usr/include/wctype.h
 -rw-r--r-- -          -                 650 ./usr/include/wordexp.h
 drwxr-xr-x -          -                 660 ./usr/lib
--rw-r--r-- -          -                4256 ./usr/lib/crt1.o
+-rw-r--r-- -          -                4260 ./usr/lib/crt1.o
 -rw-r--r-- -          -                1688 ./usr/lib/crti.o
 -rw-r--r-- -          -                1644 ./usr/lib/crtn.o
--rw-r--r-- -          -             6628502 ./usr/lib/libc.a
+-rw-r--r-- -          -             6625688 ./usr/lib/libc.a
 -rw-r--r-- -          -                   8 ./usr/lib/libcrypt.a
 lrwxrwxrwx -          -                   7 ./usr/lib/libcrypt.so.1 -> libc.so
 lrwxrwxrwx -          -                   7 ./usr/lib/libcrypt.so -> libc.so
@@ -262,5 +262,5 @@ lrwxrwxrwx -          -                   7 ./usr/lib/libutil.so.1 -> libc.so
 lrwxrwxrwx -          -                   7 ./usr/lib/libutil.so -> libc.so
 -rw-r--r-- -          -                   8 ./usr/lib/libxnet.a
 lrwxrwxrwx -          -                   7 ./usr/lib/libxnet.so -> libc.so
--rw-r--r-- -          -                7228 ./usr/lib/rcrt1.o
--rw-r--r-- -          -                4264 ./usr/lib/Scrt1.o
+-rw-r--r-- -          -                7236 ./usr/lib/rcrt1.o
+-rw-r--r-- -          -                4272 ./usr/lib/Scrt1.o

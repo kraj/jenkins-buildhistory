@@ -1,9 +1,9 @@
 PV = 0.15+gitAUTOINC+6ecff5d46e
 PR = r0
 PKGV = 0.15+git0+6ecff5d46e
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = libaio (>= 0.3.111) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libiio (>= 0.15+git0+6ecff5d46e) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = libaio (>= 0.3.111) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libiio (>= 0.15+git0+6ecff5d46e) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 63286
 FILES = /usr/sbin/iiod /lib/systemd/system/iiod.service /lib/systemd/system-preset/98-libiio-iiod.preset /lib/systemd/system/iiod.service

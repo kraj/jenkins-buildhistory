@@ -1,9 +1,9 @@
 PV = 1.18.1
 PR = r0
 PKG = libgdbm-ptest
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = gdbm-ptest (=1.18.1)
-RDEPENDS = diffutils gdbm (>= 1.18.1) gdbm-bin gdbm-compat (>= 1.18.1) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = diffutils gdbm (>= 1.18.1) gdbm-bin gdbm-compat (>= 1.18.1) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 216421
 FILES = /usr/lib/gdbm/ptest

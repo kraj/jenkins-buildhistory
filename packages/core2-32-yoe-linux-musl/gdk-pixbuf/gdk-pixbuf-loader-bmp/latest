@@ -1,9 +1,9 @@
 PV = 2.38.1
 PR = r0
 PKG = libgdk-pixbuf-2.0-loader-bmp
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = gdk-pixbuf-loader-bmp (=2.38.1)
-RDEPENDS = gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 17764
 FILES = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.so

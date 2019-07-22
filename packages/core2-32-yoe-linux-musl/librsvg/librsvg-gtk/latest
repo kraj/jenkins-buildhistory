@@ -1,9 +1,9 @@
 PV = 2.40.20
 PR = r0
 PKG = librsvg-2-gtk
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = librsvg-gtk (=2.40.20)
-RDEPENDS = cairo (>= 1.16.0) fontconfig (>= 2.13.1) freetype (>= 2.10.1) gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) libcroco (>= 0.6.13) libpng (>= 1.6.37) librsvg (>= 2.40.20) libxml2 (>= 2.9.9) musl (>= 1.1.22+git1+ac304227bb) pango (>= 1.42.4) zlib (>= 1.2.11)
+RDEPENDS = cairo (>= 1.16.0) fontconfig (>= 2.13.1) freetype (>= 2.10.1) gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) libcroco (>= 0.6.13) libpng (>= 1.6.37) librsvg (>= 2.40.20) libxml2 (>= 2.9.9) musl (>= 1.1.23+git0+0ce49d0a30) pango (>= 1.42.4) zlib (>= 1.2.11)
 RRECOMMENDS = gdk-pixbuf-bin
 PKGSIZE = 9750
 FILES = /usr/lib/gdk-pixbuf-2.0/*/*/*.so /usr/share/thumbnailers/librsvg.thumbnailer

@@ -1,8 +1,8 @@
 PV = 2.03.02
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = libudev (>= 242+0+db2e367bfc) musl (>= 1.1.22+git1+ac304227bb) thin-provisioning-tools
+RDEPENDS = libudev (>= 242+0+db2e367bfc) musl (>= 1.1.23+git0+0ce49d0a30) thin-provisioning-tools
 RRECOMMENDS = lvm2-udevrules
 PKGSIZE = 567755
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdevmapper /usr/lib/libdevmapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

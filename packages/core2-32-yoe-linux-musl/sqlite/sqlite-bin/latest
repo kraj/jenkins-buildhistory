@@ -1,9 +1,9 @@
 PV = 2.8.17
 PR = r7
 PKG = libsqlite-bin
-PKGR = r7.13
+PKGR = r7.14
 RPROVIDES = sqlite-bin (=2.8.17)
-RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) readline (>= 8.0) sqlite (>= 2.8.17)
+RDEPENDS = musl (>= 1.1.23+git0+0ce49d0a30) readline (>= 8.0) sqlite (>= 2.8.17)
 RRECOMMENDS = 
 PKGSIZE = 31356
 FILES = /usr/bin/*

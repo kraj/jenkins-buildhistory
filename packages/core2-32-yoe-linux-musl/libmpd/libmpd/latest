@@ -1,9 +1,9 @@
 PV = 11.8.17
 PR = r0
 PKG = libmpd1
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = libmpd (=11.8.17)
-RDEPENDS = glib-2.0 (>= 2.60.5) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = glib-2.0 (>= 2.60.5) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 120171
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmpd /usr/lib/libmpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

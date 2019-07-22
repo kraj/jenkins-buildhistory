@@ -2,9 +2,9 @@ PV = 3.0+gitAUTOINC+736ccef40d
 PR = r0
 PKG = libkeybinder-3.0-0
 PKGV = 3.0+git0+736ccef40d
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = keybinder (=3.0+git0+736ccef40d)
-RDEPENDS = atk (>= 2.32.0) cairo (>= 1.16.0) cairo-gobject (>= 1.16.0) gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) gtk+ gtk+3 (>= 3.24.8) libx11 (>= 1.6.7) libxext (>= 1.3.4) libxrender (>= 0.9.10) musl (>= 1.1.22+git1+ac304227bb) pango (>= 1.42.4)
+RDEPENDS = atk (>= 2.32.0) cairo (>= 1.16.0) cairo-gobject (>= 1.16.0) gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) gtk+ gtk+3 (>= 3.24.8) libx11 (>= 1.6.7) libxext (>= 1.3.4) libxrender (>= 0.9.10) musl (>= 1.1.23+git0+0ce49d0a30) pango (>= 1.42.4)
 RRECOMMENDS = 
 PKGSIZE = 14565
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/keybinder /usr/lib/keybinder/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/girepository-*/*.typelib

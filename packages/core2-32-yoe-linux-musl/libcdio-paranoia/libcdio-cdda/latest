@@ -1,9 +1,9 @@
 PV = 10.2+0.93+1
 PR = r0
 PKG = libcdio-cdda2
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libcdio-cdda (=10.2+0.93+1)
-RDEPENDS = libcdio (>= 2.1.0) musl (>= 1.1.22+git1+ac304227bb)
+RDEPENDS = libcdio (>= 2.1.0) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 34305
 FILES = /usr/lib/libcdio_cdda.so.2 /usr/lib/libcdio_cdda.so.2.0.0

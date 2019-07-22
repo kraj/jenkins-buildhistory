@@ -1,9 +1,9 @@
 PV = 1.1
 PR = r0
 PKG = libobstack-dev
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = musl-obstack-dev (=1.1)
-RDEPENDS = musl-obstack (= 1.1-r0.13)
+RDEPENDS = musl-obstack (= 1.1-r0.14)
 RRECOMMENDS = musl-dev
 PKGSIZE = 21204
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/musl-obstack/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake

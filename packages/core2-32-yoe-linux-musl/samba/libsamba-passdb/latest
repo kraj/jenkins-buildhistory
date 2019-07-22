@@ -1,9 +1,9 @@
 PV = 4.10.6
 PR = r0
 PKG = libsamba-passdb0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libsamba-passdb (=4.10.6)
-RDEPENDS = libcli-ldap-common-samba4 (>= 4.10.6) libcliauth-samba4 (>= 4.10.6) libdbwrap-samba4 (>= 4.10.6) libevents-samba4 (>= 4.10.6) libldb (>= 1.5.5) libldbsamba-samba4 (>= 4.10.6) libndr (>= 4.10.6) libndr-samba-samba4 (>= 4.10.6) libreplace-samba4 (>= 4.10.6) libsamba-credentials (>= 4.10.6) libsamba-debug-samba4 (>= 4.10.6) libsamba-errors (>= 4.10.6) libsamba-hostconfig (>= 4.10.6) libsamba-modules-samba4 (>= 4.10.6) libsamba-security-samba4 (>= 4.10.6) libsamba-util (>= 4.10.6) libsamba3-util-samba4 (>= 4.10.6) libsamdb (>= 4.10.6) libsamdb-common-samba4 (>= 4.10.6) libsecrets3-samba4 (>= 4.10.6) libsmbconf (>= 4.10.6) libsmbd-shim-samba4 (>= 4.10.6) libtalloc (>= 2.2.0) libtdb (>= 1.4.0) libtdb-wrap-samba4 (>= 4.10.6) libutil-tdb-samba4 (>= 4.10.6) libwbclient (>= 4.10.6) musl (>= 1.1.22+git1+ac304227bb) samba-common
+RDEPENDS = libcli-ldap-common-samba4 (>= 4.10.6) libcliauth-samba4 (>= 4.10.6) libdbwrap-samba4 (>= 4.10.6) libevents-samba4 (>= 4.10.6) libldb (>= 1.5.5) libldbsamba-samba4 (>= 4.10.6) libndr (>= 4.10.6) libndr-samba-samba4 (>= 4.10.6) libreplace-samba4 (>= 4.10.6) libsamba-credentials (>= 4.10.6) libsamba-debug-samba4 (>= 4.10.6) libsamba-errors (>= 4.10.6) libsamba-hostconfig (>= 4.10.6) libsamba-modules-samba4 (>= 4.10.6) libsamba-security-samba4 (>= 4.10.6) libsamba-util (>= 4.10.6) libsamba3-util-samba4 (>= 4.10.6) libsamdb (>= 4.10.6) libsamdb-common-samba4 (>= 4.10.6) libsecrets3-samba4 (>= 4.10.6) libsmbconf (>= 4.10.6) libsmbd-shim-samba4 (>= 4.10.6) libtalloc (>= 2.2.0) libtdb (>= 1.4.0) libtdb-wrap-samba4 (>= 4.10.6) libutil-tdb-samba4 (>= 4.10.6) libwbclient (>= 4.10.6) musl (>= 1.1.23+git0+0ce49d0a30) samba-common
 RRECOMMENDS = 
 PKGSIZE = 357873
 FILES = /usr/lib/libsamba-passdb.so.0 /usr/lib/libsamba-passdb.so.0.27.2

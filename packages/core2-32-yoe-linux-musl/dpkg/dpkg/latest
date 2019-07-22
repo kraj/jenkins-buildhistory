@@ -1,8 +1,8 @@
 PV = 1.19.7
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = dpkg-start-stop libbz2 (>= 1.0.8) liblzma (>= 5.2.4) musl (>= 1.1.22+git1+ac304227bb) perl update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = dpkg-start-stop libbz2 (>= 1.0.8) liblzma (>= 5.2.4) musl (>= 1.1.23+git0+0ce49d0a30) perl update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1360891
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dpkg /usr/lib/dpkg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,8 +1,8 @@
 PV = 1.44.5
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = bash bzip2 coreutils diffutils e2fsprogs e2fsprogs-badblocks e2fsprogs-e2fsck e2fsprogs-mke2fs e2fsprogs-resize2fs e2fsprogs-tune2fs libcomerr (>= 1.44.5) libext2fs (>= 1.44.5) libss (>= 1.44.5) musl (>= 1.1.22+git1+ac304227bb) perl procps sed
+RDEPENDS = bash bzip2 coreutils diffutils e2fsprogs e2fsprogs-badblocks e2fsprogs-e2fsck e2fsprogs-mke2fs e2fsprogs-resize2fs e2fsprogs-tune2fs libcomerr (>= 1.44.5) libext2fs (>= 1.44.5) libss (>= 1.44.5) musl (>= 1.1.23+git0+0ce49d0a30) perl procps sed
 RRECOMMENDS = ptest-runner
 PKGSIZE = 22581838
 FILES = /usr/lib/e2fsprogs/ptest

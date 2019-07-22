@@ -1,8 +1,8 @@
 PV = 5.8.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.22+git1+ac304227bb) strongswan
+RDEPENDS = musl (>= 1.1.23+git0+0ce49d0a30) strongswan
 RRECOMMENDS = 
 PKGSIZE = 112559
 FILES = /usr/lib/ipsec/plugins/libstrongswan-x509.so /etc/strongswan.d/charon/x509.conf

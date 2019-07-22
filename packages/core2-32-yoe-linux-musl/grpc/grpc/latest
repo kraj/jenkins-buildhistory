@@ -1,8 +1,8 @@
 PV = 1.14.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = c-ares (>= 1.15.0+gitr0+e982924ace) libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) libssl (>= 1.1.1c) libstdc++ (>= 9.1.0) musl (>= 1.1.22+git1+ac304227bb) protobuf (>= 3.9.0) protobuf-compiler (>= 3.9.0) zlib (>= 1.2.11)
+RDEPENDS = c-ares (>= 1.15.0+gitr0+e982924ace) libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) libssl (>= 1.1.1c) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git0+0ce49d0a30) protobuf (>= 3.9.0) protobuf-compiler (>= 3.9.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 7290691
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/grpc /usr/lib/grpc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
