@@ -1,0 +1,5 @@
+PV = 0.7.2
+PR = r0
+DEPENDS = cmake-native expat pkgconfig-native python3-native systemd systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = sdbus-c++-src sdbus-c++-dbg sdbus-c++-ptest sdbus-c++-staticdev sdbus-c++-dev sdbus-c++-doc sdbus-c++-locale sdbus-c++ sdbus-c++-test
+LAYER = openembedded-layer

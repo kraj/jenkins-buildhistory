@@ -1,0 +1,10 @@
+PV = 0.7.2
+PR = r0
+PKG = libsdbus-c++-test
+PKGR = r0.0
+RPROVIDES = sdbus-c++-test (=0.7.2)
+RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) libsystemd (>= 242+1+db2e367bfc) sdbus-c++ (>= 0.7.2)
+RRECOMMENDS = 
+PKGSIZE = 1319113
+FILES = /etc/dbus-1/system.d/ /opt/test/bin/
+FILELIST = /etc/dbus-1/system.d/org.sdbuscpp.integrationtests.conf /opt/test/bin/sdbus-c++-integration-tests /opt/test/bin/sdbus-c++-unit-tests
