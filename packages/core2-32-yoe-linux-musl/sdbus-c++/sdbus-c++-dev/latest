@@ -1,0 +1,10 @@
+PV = 0.7.2
+PR = r0
+PKG = libsdbus-c++-dev
+PKGR = r0.0
+RPROVIDES = sdbus-c++-dev (=0.7.2)
+RDEPENDS = expat (>= 2.2.7) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git0+0ce49d0a30) sdbus-c++ (= 0.7.2-r0.0)
+RRECOMMENDS = expat-dev libgcc-dev libstdc++-dev libsystemd-dev musl-dev sdbus-c++-test-dev systemd-dev
+PKGSIZE = 284253
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sdbus-c++/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/sdbus-c++-xml2cpp /usr/lib/cmake/sdbus-c++/sdbus-c++-config.cmake /usr/lib/cmake/sdbus-c++/sdbus-c++-config-version.cmake
+FILELIST = /usr/bin/sdbus-c++-xml2cpp /usr/include/sdbus-c++/AdaptorInterfaces.h /usr/include/sdbus-c++/ConvenienceApiClasses.h /usr/include/sdbus-c++/ConvenienceApiClasses.inl /usr/include/sdbus-c++/Error.h /usr/include/sdbus-c++/Flags.h /usr/include/sdbus-c++/IConnection.h /usr/include/sdbus-c++/IObject.h /usr/include/sdbus-c++/IProxy.h /usr/include/sdbus-c++/Message.h /usr/include/sdbus-c++/MethodResult.h /usr/include/sdbus-c++/ProxyInterfaces.h /usr/include/sdbus-c++/StandardInterfaces.h /usr/include/sdbus-c++/TypeTraits.h /usr/include/sdbus-c++/Types.h /usr/include/sdbus-c++/sdbus-c++.h /usr/lib/cmake/sdbus-c++/sdbus-c++-config-version.cmake /usr/lib/cmake/sdbus-c++/sdbus-c++-config.cmake /usr/lib/cmake/sdbus-c++/sdbus-c++-targets-noconfig.cmake /usr/lib/cmake/sdbus-c++/sdbus-c++-targets.cmake /usr/lib/libsdbus-c++.so /usr/lib/pkgconfig/sdbus-c++.pc

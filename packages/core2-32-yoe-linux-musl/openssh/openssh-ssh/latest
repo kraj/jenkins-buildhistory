@@ -1,9 +1,9 @@
 PV = 8.0p1
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = ssh
 RDEPENDS = libcrypto (>= 1.1.1c) musl (>= 1.1.23+git0+0ce49d0a30) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 834880
+PKGSIZE = 810304
 FILES = /usr/bin/ssh.openssh /etc/ssh/ssh_config
 FILELIST = /etc/ssh/ssh_config /usr/bin/ssh.openssh

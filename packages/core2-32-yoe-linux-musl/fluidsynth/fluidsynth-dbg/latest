@@ -1,10 +1,10 @@
 PV = 2.0.5
 PR = r0
 PKG = libfluidsynth-dbg
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = fluidsynth-dbg (=2.0.5)
 RDEPENDS = 
-RRECOMMENDS = alsa-lib-dbg dbus-lib-dbg glib-2.0-dbg libpulse-simple-dbg libsystemd-dbg musl-dbg readline-dbg
-PKGSIZE = 1072000
+RRECOMMENDS = alsa-lib-dbg dbus-lib-dbg glib-2.0-dbg libpulse-simple-dbg libsystemd-dbg musl-dbg
+PKGSIZE = 1066536
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/bin/.debug/fluidsynth /usr/lib/.debug/libfluidsynth.so.2.1.2

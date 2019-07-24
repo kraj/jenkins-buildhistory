@@ -1,0 +1,10 @@
+PV = 0.7.2
+PR = r0
+PKG = libsdbus-c++-ptest
+PKGR = r0.0
+RPROVIDES = sdbus-c++-ptest (=0.7.2)
+RDEPENDS = sdbus-c++-test
+RRECOMMENDS = ptest-runner
+PKGSIZE = 715
+FILES = /usr/lib/sdbus-c++/ptest
+FILELIST = /usr/lib/sdbus-c++/ptest/run-ptest

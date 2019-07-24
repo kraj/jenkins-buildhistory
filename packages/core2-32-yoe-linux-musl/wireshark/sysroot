@@ -62,7 +62,7 @@ drwxr-xr-x -          -                7540 ./usr/include/wireshark/epan/dissect
 -rw-r--r-- -          -                2642 ./usr/include/wireshark/epan/dissectors/packet-atn-ulcs.h
 -rw-r--r-- -          -                1488 ./usr/include/wireshark/epan/dissectors/packet-bacapp.h
 -rw-r--r-- -          -                 674 ./usr/include/wireshark/epan/dissectors/packet-bacnet.h
--rw-r--r-- -          -               11426 ./usr/include/wireshark/epan/dissectors/packet-ber.h
+-rw-r--r-- -          -               11618 ./usr/include/wireshark/epan/dissectors/packet-ber.h
 -rw-r--r-- -          -                 311 ./usr/include/wireshark/epan/dissectors/packet-bfd.h
 -rw-r--r-- -          -                 638 ./usr/include/wireshark/epan/dissectors/packet-bgp.h
 -rw-r--r-- -          -               10210 ./usr/include/wireshark/epan/dissectors/packet-bluetooth.h
@@ -243,7 +243,7 @@ drwxr-xr-x -          -                7540 ./usr/include/wireshark/epan/dissect
 -rw-r--r-- -          -                 394 ./usr/include/wireshark/epan/dissectors/packet-mp4ves.h
 -rw-r--r-- -          -                 764 ./usr/include/wireshark/epan/dissectors/packet-mpeg-descriptor.h
 -rw-r--r-- -          -                3158 ./usr/include/wireshark/epan/dissectors/packet-mpeg-sect.h
--rw-r--r-- -          -                3098 ./usr/include/wireshark/epan/dissectors/packet-mpls.h
+-rw-r--r-- -          -                3165 ./usr/include/wireshark/epan/dissectors/packet-mpls.h
 -rw-r--r-- -          -              231358 ./usr/include/wireshark/epan/dissectors/packet-mq.h
 -rw-r--r-- -          -                 658 ./usr/include/wireshark/epan/dissectors/packet-msrp.h
 -rw-r--r-- -          -                1092 ./usr/include/wireshark/epan/dissectors/packet-mstp.h
@@ -522,7 +522,7 @@ drwxr-xr-x -          -                 320 ./usr/include/wireshark/epan/wmem
 -rw-r--r-- -          -                9054 ./usr/include/wireshark/epan/wmem/wmem_tree.h
 -rw-r--r-- -          -                2675 ./usr/include/wireshark/epan/wmem/wmem_user_cb.h
 -rw-r--r-- -          -                 629 ./usr/include/wireshark/epan/x264_prt_id.h
--rw-r--r-- -          -                4584 ./usr/include/wireshark/epan/xdlc.h
+-rw-r--r-- -          -                4585 ./usr/include/wireshark/epan/xdlc.h
 -rw-r--r-- -          -               23196 ./usr/include/wireshark/file.h
 -rw-r--r-- -          -                 717 ./usr/include/wireshark/globals.h
 -rw-r--r-- -          -                 938 ./usr/include/wireshark/log.h
@@ -558,7 +558,7 @@ drwxr-xr-x -          -                1180 ./usr/include/wireshark/wsutil
 -rw-r--r-- -          -                 372 ./usr/include/wireshark/wsutil/crc6.h
 -rw-r--r-- -          -                1905 ./usr/include/wireshark/wsutil/crc7.h
 -rw-r--r-- -          -                1568 ./usr/include/wireshark/wsutil/crc8.h
--rw-r--r-- -          -                1125 ./usr/include/wireshark/wsutil/curve25519.h
+-rw-r--r-- -          -                1090 ./usr/include/wireshark/wsutil/curve25519.h
 -rw-r--r-- -          -                1348 ./usr/include/wireshark/wsutil/eax.h
 -rw-r--r-- -          -                9615 ./usr/include/wireshark/wsutil/filesystem.h
 -rw-r--r-- -          -                1645 ./usr/include/wireshark/wsutil/frequency-utils.h
@@ -599,11 +599,11 @@ drwxr-xr-x -          -                1180 ./usr/include/wireshark/wsutil
 -rw-r--r-- -          -                1040 ./usr/include/wireshark/wsutil/xtea.h
 -rw-r--r-- -          -                 207 ./usr/include/wireshark/ws_version.h
 drwxr-xr-x -          -                 320 ./usr/lib
--rwxr-xr-x -          -            67633500 ./usr/lib/libwireshark.so.12.0.2
-lrwxrwxrwx -          -                  22 ./usr/lib/libwireshark.so.12 -> libwireshark.so.12.0.2
+-rwxr-xr-x -          -            67637436 ./usr/lib/libwireshark.so.12.0.3
+lrwxrwxrwx -          -                  22 ./usr/lib/libwireshark.so.12 -> libwireshark.so.12.0.3
 lrwxrwxrwx -          -                  18 ./usr/lib/libwireshark.so -> libwireshark.so.12
--rwxr-xr-x -          -              499336 ./usr/lib/libwiretap.so.9.0.2
-lrwxrwxrwx -          -                  19 ./usr/lib/libwiretap.so.9 -> libwiretap.so.9.0.2
+-rwxr-xr-x -          -              499336 ./usr/lib/libwiretap.so.9.0.3
+lrwxrwxrwx -          -                  19 ./usr/lib/libwiretap.so.9 -> libwiretap.so.9.0.3
 lrwxrwxrwx -          -                  15 ./usr/lib/libwiretap.so -> libwiretap.so.9
 -rwxr-xr-x -          -               27064 ./usr/lib/libwscodecs.so.2.0.0
 lrwxrwxrwx -          -                  20 ./usr/lib/libwscodecs.so.2 -> libwscodecs.so.2.0.0
@@ -631,7 +631,7 @@ drwxr-xr-x -          -                 100 ./usr/lib/wireshark/extcap
 drwxr-xr-x -          -                  60 ./usr/share
 drwxr-xr-x -          -                 820 ./usr/share/wireshark
 -rw-r--r-- -          -               10625 ./usr/share/wireshark/androiddump.html
--rw-r--r-- -          -               70588 ./usr/share/wireshark/AUTHORS-SHORT
+-rw-r--r-- -          -               70698 ./usr/share/wireshark/AUTHORS-SHORT
 -rw-r--r-- -          -               14448 ./usr/share/wireshark/capinfos.html
 -rw-r--r-- -          -                2201 ./usr/share/wireshark/captype.html
 -rw-r--r-- -          -                 582 ./usr/share/wireshark/cfilters
@@ -683,18 +683,18 @@ drwxr-xr-x -          -                 280 ./usr/share/wireshark/dtds
 -rw-r--r-- -          -                1573 ./usr/share/wireshark/dtds/xcap-error.dtd
 -rw-r--r-- -          -               19239 ./usr/share/wireshark/dumpcap.html
 -rw-r--r-- -          -               22296 ./usr/share/wireshark/editcap.html
--rw-r--r-- -          -             1466520 ./usr/share/wireshark/enterprises.tsv
+-rw-r--r-- -          -             1475698 ./usr/share/wireshark/enterprises.tsv
 -rw-r--r-- -          -                6338 ./usr/share/wireshark/extcap.html
 drwxr-xr-x -          -                 180 ./usr/share/wireshark/help
 -rw-r--r-- -          -                4405 ./usr/share/wireshark/help/capture_filters.txt
 -rw-r--r-- -          -                4835 ./usr/share/wireshark/help/capturing.txt
 -rw-r--r-- -          -                2315 ./usr/share/wireshark/help/display_filters.txt
--rw-r--r-- -          -               65128 ./usr/share/wireshark/help/faq.py
+-rw-r--r-- -          -               66977 ./usr/share/wireshark/help/faq.txt
 -rw-r--r-- -          -                4836 ./usr/share/wireshark/help/getting_started.txt
 -rw-r--r-- -          -                1908 ./usr/share/wireshark/help/overview.txt
 -rw-r--r-- -          -                 166 ./usr/share/wireshark/help/toc
 -rw-r--r-- -          -               13921 ./usr/share/wireshark/ipmap.html
--rw-r--r-- -          -             1578163 ./usr/share/wireshark/manuf
+-rw-r--r-- -          -             1602051 ./usr/share/wireshark/manuf
 -rw-r--r-- -          -                7892 ./usr/share/wireshark/mergecap.html
 -rw-r--r-- -          -                6358 ./usr/share/wireshark/pdml2html.xsl
 drwxr-xr-x -          -                 100 ./usr/share/wireshark/profiles
@@ -915,9 +915,9 @@ drwxr-xr-x -          -                4140 ./usr/share/wireshark/radius
 -rw-r--r-- -          -                4075 ./usr/share/wireshark/randpkt.html
 -rw-r--r-- -          -               25110 ./usr/share/wireshark/rawshark.html
 -rw-r--r-- -          -                3038 ./usr/share/wireshark/reordercap.html
--rw-r--r-- -          -              265832 ./usr/share/wireshark/services
+-rw-r--r-- -          -              265858 ./usr/share/wireshark/services
 -rw-r--r-- -          -                 315 ./usr/share/wireshark/smi_modules
--rw-r--r-- -          -               10991 ./usr/share/wireshark/sshdump.html
+-rw-r--r-- -          -               11058 ./usr/share/wireshark/sshdump.html
 -rw-r--r-- -          -               13318 ./usr/share/wireshark/text2pcap.html
 drwxr-xr-x -          -                  60 ./usr/share/wireshark/tpncp
 -rw-r--r-- -          -              561564 ./usr/share/wireshark/tpncp/tpncp.dat
@@ -927,6 +927,6 @@ drwxr-xr-x -          -                  80 ./usr/share/wireshark/wimaxasncp
 -rw-r--r-- -          -                 307 ./usr/share/wireshark/wimaxasncp/dictionary.dtd
 -rw-r--r-- -          -               91491 ./usr/share/wireshark/wimaxasncp/dictionary.xml
 -rw-r--r-- -          -               19790 ./usr/share/wireshark/wireshark-filter.html
--rw-r--r-- -          -              222468 ./usr/share/wireshark/wireshark.html
+-rw-r--r-- -          -              222644 ./usr/share/wireshark/wireshark.html
 -rw-r--r-- -          -               10570 ./usr/share/wireshark/wka
 -rw-r--r-- -          -               39629 ./usr/share/wireshark/ws.css
