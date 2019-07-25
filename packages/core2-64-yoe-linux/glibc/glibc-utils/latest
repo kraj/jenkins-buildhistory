@@ -1,10 +1,10 @@
-PV = 2.29
+PV = 2.30
 PR = r0
 PKG = libc6-utils
-PKGR = r0.64
-RPROVIDES = eglibc-utils glibc-utils (=2.29)
-RDEPENDS = glibc (>= 2.29)
+PKGR = r0.0
+RPROVIDES = eglibc-utils glibc-utils (=2.30)
+RDEPENDS = glibc (>= 2.30)
 RRECOMMENDS = 
-PKGSIZE = 333728
+PKGSIZE = 333032
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/gencat /usr/bin/getconf /usr/bin/getent /usr/bin/iconv /usr/bin/locale /usr/bin/makedb /usr/bin/pcprofiledump /usr/bin/pldd /usr/bin/sprof /usr/sbin/iconvconfig

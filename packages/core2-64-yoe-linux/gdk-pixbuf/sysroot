@@ -2,7 +2,7 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  10 ./sysroot-providers/gdk-pixbuf
 drwxr-xr-x -          -                 100 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
-drwxr-xr-x -          -                  60 ./usr/include/gdk-pixbuf-2.0
+drwxr-xr-x -          -                  80 ./usr/include/gdk-pixbuf-2.0
 drwxr-xr-x -          -                 300 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf
 -rw-r--r-- -          -                9645 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h
 -rw-r--r-- -          -                1521 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-autocleanups.h
@@ -17,7 +17,10 @@ drwxr-xr-x -          -                 300 ./usr/include/gdk-pixbuf-2.0/gdk-pix
 -rw-r--r-- -          -                3186 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
 -rw-r--r-- -          -                6248 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h
 -rw-r--r-- -          -                6765 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixdata.h
-drwxr-xr-x -          -                 180 ./usr/lib
+drwxr-xr-x -          -                  80 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib
+-rw-r--r-- -          -                2538 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h
+-rw-r--r-- -          -                5996 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h
+drwxr-xr-x -          -                 240 ./usr/lib
 drwxr-xr-x -          -                  40 ./usr/lib/gdk-pixbuf
 drwxr-xr-x -          -                  80 ./usr/lib/gdk-pixbuf-2.0
 drwxr-xr-x -          -                  60 ./usr/lib/gdk-pixbuf-2.0/2.10.0
@@ -41,8 +44,12 @@ drwxr-xr-x -          -                  80 ./usr/lib/girepository-1.0
 -rwxr-xr-x -          -              149584 ./usr/lib/libgdk_pixbuf-2.0.so.0.3800.1
 lrwxrwxrwx -          -                  29 ./usr/lib/libgdk_pixbuf-2.0.so.0 -> libgdk_pixbuf-2.0.so.0.3800.1
 lrwxrwxrwx -          -                  22 ./usr/lib/libgdk_pixbuf-2.0.so -> libgdk_pixbuf-2.0.so.0
-drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rwxr-xr-x -          -               67688 ./usr/lib/libgdk_pixbuf_xlib-2.0.so.0.3800.1
+lrwxrwxrwx -          -                  34 ./usr/lib/libgdk_pixbuf_xlib-2.0.so.0 -> libgdk_pixbuf_xlib-2.0.so.0.3800.1
+lrwxrwxrwx -          -                  27 ./usr/lib/libgdk_pixbuf_xlib-2.0.so -> libgdk_pixbuf_xlib-2.0.so.0
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 714 ./usr/lib/pkgconfig/gdk-pixbuf-2.0.pc
+-rw-r--r-- -          -                 371 ./usr/lib/pkgconfig/gdk-pixbuf-xlib-2.0.pc
 drwxr-xr-x -          -                 100 ./usr/share
 drwxr-xr-x -          -                  80 ./usr/share/gir-1.0
 -rw-r--r-- -          -              241944 ./usr/share/gir-1.0/GdkPixbuf-2.0.gir

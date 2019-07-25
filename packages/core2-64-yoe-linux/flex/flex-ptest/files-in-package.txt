@@ -81,7 +81,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rwxr-xr-x root       root            22936 ./usr/lib/flex/ptest/cxx_basic
 -rw-r--r-- root       root            41900 ./usr/lib/flex/ptest/cxx_basic.cc
 -rw-r--r-- root       root             1286 ./usr/lib/flex/ptest/cxx_basic.ll
--rw-r--r-- root       root           115184 ./usr/lib/flex/ptest/cxx_basic.o
+-rw-r--r-- root       root           115136 ./usr/lib/flex/ptest/cxx_basic.o
 -rw-r--r-- root       root               54 ./usr/lib/flex/ptest/cxx_basic.txt
 -rwxr-xr-x root       root            31144 ./usr/lib/flex/ptest/cxx_multiple_scanners
 -rw-r--r-- root       root            42815 ./usr/lib/flex/ptest/cxx_multiple_scanners_1.cc
@@ -89,14 +89,14 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rw-r--r-- root       root           113880 ./usr/lib/flex/ptest/cxx_multiple_scanners_1.o
 -rw-r--r-- root       root            42838 ./usr/lib/flex/ptest/cxx_multiple_scanners_2.cc
 -rw-r--r-- root       root             1391 ./usr/lib/flex/ptest/cxx_multiple_scanners_2.ll
--rw-r--r-- root       root           117800 ./usr/lib/flex/ptest/cxx_multiple_scanners_2.o
+-rw-r--r-- root       root           117848 ./usr/lib/flex/ptest/cxx_multiple_scanners_2.o
 -rw-r--r-- root       root             1586 ./usr/lib/flex/ptest/cxx_multiple_scanners_main.cc
 -rw-r--r-- root       root            31456 ./usr/lib/flex/ptest/cxx_multiple_scanners_main.o
 -rw-r--r-- root       root               15 ./usr/lib/flex/ptest/cxx_multiple_scanners.txt
 -rw-r--r-- root       root            42302 ./usr/lib/flex/ptest/cxx_yywrap.cc
 -rwxr-xr-x root       root            22944 ./usr/lib/flex/ptest/cxx_yywrap.i3
 -rw-r--r-- root       root             1746 ./usr/lib/flex/ptest/cxx_yywrap.ll
--rw-r--r-- root       root           131256 ./usr/lib/flex/ptest/cxx_yywrap.o
+-rw-r--r-- root       root           131200 ./usr/lib/flex/ptest/cxx_yywrap.o
 -rw-r--r-- root       root               54 ./usr/lib/flex/ptest/cxx_yywrap.txt
 -rwxr-xr-x root       root            14504 ./usr/lib/flex/ptest/debug_nr
 -rw-r--r-- root       root            51824 ./usr/lib/flex/ptest/debug_nr.c
@@ -176,7 +176,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rwxr-xr-x root       root            18584 ./usr/lib/flex/ptest/mem_r
 -rw-r--r-- root       root            58794 ./usr/lib/flex/ptest/mem_r.c
 -rw-r--r-- root       root             4792 ./usr/lib/flex/ptest/mem_r.l
--rw-r--r-- root       root            89832 ./usr/lib/flex/ptest/mem_r.o
+-rw-r--r-- root       root            89816 ./usr/lib/flex/ptest/mem_r.o
 -rw-r--r-- root       root             2728 ./usr/lib/flex/ptest/mem_r.txt
 -rwxr-xr-x root       root            22704 ./usr/lib/flex/ptest/multiple_scanners_nr
 -rw-r--r-- root       root            47682 ./usr/lib/flex/ptest/multiple_scanners_nr_1.c
@@ -268,7 +268,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rwxr-xr-x root       root            18592 ./usr/lib/flex/ptest/rescan_r.direct
 -rw-r--r-- root       root            56655 ./usr/lib/flex/ptest/rescan_r.direct.c
 -rw-r--r-- root       root             2376 ./usr/lib/flex/ptest/rescan_r.direct.l
--rw-r--r-- root       root            92104 ./usr/lib/flex/ptest/rescan_r.direct.o
+-rw-r--r-- root       root            92112 ./usr/lib/flex/ptest/rescan_r.direct.o
 -rw-r--r-- root       root               54 ./usr/lib/flex/ptest/rescan_r.direct.txt
 -rwxr-xr-x root       root              164 ./usr/lib/flex/ptest/run-ptest
 -rwxr-xr-x root       root            14504 ./usr/lib/flex/ptest/string_nr
@@ -278,7 +278,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rwxr-xr-x root       root            18592 ./usr/lib/flex/ptest/string_r
 -rw-r--r-- root       root            56011 ./usr/lib/flex/ptest/string_r.c
 -rw-r--r-- root       root             2928 ./usr/lib/flex/ptest/string_r.l
--rw-r--r-- root       root            85472 ./usr/lib/flex/ptest/string_r.o
+-rw-r--r-- root       root            85464 ./usr/lib/flex/ptest/string_r.o
 -rw-r--r-- root       root            11731 ./usr/lib/flex/ptest/tableopts.am
 -rw-r--r-- root       root             2177 ./usr/lib/flex/ptest/tableopts.l4
 -rw-r--r-- root       root            57864 ./usr/lib/flex/ptest/tableopts_opt_nr-Caef.o
@@ -307,7 +307,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rw-r--r-- root       root            77736 ./usr/lib/flex/ptest/tableopts_opt_r-CaeF.o
 -rwxr-xr-x root       root            14512 ./usr/lib/flex/ptest/tableopts_opt_r-Caef.opt
 -rwxr-xr-x root       root            14592 ./usr/lib/flex/ptest/tableopts_opt_r-CaeF.opt
--rw-r--r-- root       root            77280 ./usr/lib/flex/ptest/tableopts_opt_r-Caem.o
+-rw-r--r-- root       root            77288 ./usr/lib/flex/ptest/tableopts_opt_r-Caem.o
 -rwxr-xr-x root       root            14512 ./usr/lib/flex/ptest/tableopts_opt_r-Caem.opt
 -rw-r--r-- root       root            76728 ./usr/lib/flex/ptest/tableopts_opt_r-Cae.o
 -rwxr-xr-x root       root            14504 ./usr/lib/flex/ptest/tableopts_opt_r-Cae.opt
@@ -427,7 +427,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rwxr-xr-x root       root            22928 ./usr/lib/flex/ptest/tableopts_ver_nr-Cm.ver
 -rw-r--r-- root       root             1240 ./usr/lib/flex/ptest/tableopts_ver_nr-Cm.ver.tables
 -rw-r--r-- root       root           109760 ./usr/lib/flex/ptest/tableopts_ver_r-Caef.o
--rw-r--r-- root       root           105296 ./usr/lib/flex/ptest/tableopts_ver_r-CaeF.o
+-rw-r--r-- root       root           105304 ./usr/lib/flex/ptest/tableopts_ver_r-CaeF.o
 -rwxr-xr-x root       root            18744 ./usr/lib/flex/ptest/tableopts_ver_r-Caef.ver
 -rwxr-xr-x root       root            18776 ./usr/lib/flex/ptest/tableopts_ver_r-CaeF.ver
 -rw-r--r-- root       root              512 ./usr/lib/flex/ptest/tableopts_ver_r-Caef.ver.tables
@@ -456,7 +456,7 @@ drwxr-xr-x root       root               60 ./usr/lib/flex/ptest/build-aux
 -rwxr-xr-x root       root            22832 ./usr/lib/flex/ptest/tableopts_ver_r-CF.ver
 -rw-r--r-- root       root             3720 ./usr/lib/flex/ptest/tableopts_ver_r-Cf.ver.tables
 -rw-r--r-- root       root             4304 ./usr/lib/flex/ptest/tableopts_ver_r-CF.ver.tables
--rw-r--r-- root       root           107352 ./usr/lib/flex/ptest/tableopts_ver_r-Cm.o
+-rw-r--r-- root       root           107360 ./usr/lib/flex/ptest/tableopts_ver_r-Cm.o
 -rwxr-xr-x root       root            22928 ./usr/lib/flex/ptest/tableopts_ver_r-Cm.ver
 -rw-r--r-- root       root             1240 ./usr/lib/flex/ptest/tableopts_ver_r-Cm.ver.tables
 -rwxr-xr-x root       root             1409 ./usr/lib/flex/ptest/testwrapper.sh
