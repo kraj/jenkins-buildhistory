@@ -1,0 +1,5 @@
+PV = 8.0.1
+PR = r0
+DEPENDS = clang-cross-aarch64 cmake-native ninja-native ninja-native pkgconfig-native python-native virtual/aarch64-yoe-linux-compilerlibs virtual/libc
+PACKAGES = compiler-rt-src compiler-rt-dbg compiler-rt-staticdev compiler-rt-dev compiler-rt-doc compiler-rt-locale compiler-rt
+LAYER = clang-layer

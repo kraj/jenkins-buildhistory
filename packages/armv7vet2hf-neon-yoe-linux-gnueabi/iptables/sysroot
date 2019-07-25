@@ -7,16 +7,16 @@ drwxr-xr-x -          -                 140 ./usr/include/libiptc
 -rw-r--r-- -          -                5375 ./usr/include/libiptc/libip6tc.h
 -rw-r--r-- -          -                5447 ./usr/include/libiptc/libiptc.h
 -rw-r--r-- -          -                 724 ./usr/include/libiptc/libxtc.h
--rw-r--r-- -          -                 634 ./usr/include/libiptc/xtcshared.h
+-rw-r--r-- -          -                 867 ./usr/include/libiptc/xtcshared.h
 -rw-r--r-- -          -               19283 ./usr/include/xtables.h
 -rw-r--r-- -          -                  75 ./usr/include/xtables-version.h
 drwxr-xr-x -          -                 320 ./usr/lib
--rwxr-xr-x -          -               18204 ./usr/lib/libip4tc.so.0.1.0
-lrwxrwxrwx -          -                  17 ./usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
-lrwxrwxrwx -          -                  17 ./usr/lib/libip4tc.so -> libip4tc.so.0.1.0
--rwxr-xr-x -          -               18204 ./usr/lib/libip6tc.so.0.1.0
-lrwxrwxrwx -          -                  17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
-lrwxrwxrwx -          -                  17 ./usr/lib/libip6tc.so -> libip6tc.so.0.1.0
+-rwxr-xr-x -          -               18204 ./usr/lib/libip4tc.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libip4tc.so.2 -> libip4tc.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libip4tc.so -> libip4tc.so.2.0.0
+-rwxr-xr-x -          -               18204 ./usr/lib/libip6tc.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libip6tc.so.2 -> libip6tc.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libip6tc.so -> libip6tc.so.2.0.0
 -rwxr-xr-x -          -                5328 ./usr/lib/libiptc.so.0.0.0
 lrwxrwxrwx -          -                  16 ./usr/lib/libiptc.so.0 -> libiptc.so.0.0.0
 lrwxrwxrwx -          -                  16 ./usr/lib/libiptc.so -> libiptc.so.0.0.0
@@ -70,7 +70,7 @@ drwxr-xr-x -          -                2200 ./usr/lib/xtables
 -rwxr-xr-x -          -                9896 ./usr/lib/xtables/libxt_bpf.so
 -rwxr-xr-x -          -                5900 ./usr/lib/xtables/libxt_cgroup.so
 -rwxr-xr-x -          -                5704 ./usr/lib/xtables/libxt_CHECKSUM.so
--rwxr-xr-x -          -                5704 ./usr/lib/xtables/libxt_CLASSIFY.so
+-rwxr-xr-x -          -                5808 ./usr/lib/xtables/libxt_CLASSIFY.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_cluster.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_comment.so
 -rwxr-xr-x -          -                9796 ./usr/lib/xtables/libxt_connbytes.so
@@ -99,12 +99,12 @@ drwxr-xr-x -          -                2200 ./usr/lib/xtables
 -rwxr-xr-x -          -                9896 ./usr/lib/xtables/libxt_limit.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_mac.so
 -rwxr-xr-x -          -                5800 ./usr/lib/xtables/libxt_mark.so
--rwxr-xr-x -          -               10008 ./usr/lib/xtables/libxt_MARK.so
+-rwxr-xr-x -          -               10176 ./usr/lib/xtables/libxt_MARK.so
 -rwxr-xr-x -          -               10096 ./usr/lib/xtables/libxt_multiport.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_nfacct.so
 -rwxr-xr-x -          -                5704 ./usr/lib/xtables/libxt_NFLOG.so
 -rwxr-xr-x -          -               10112 ./usr/lib/xtables/libxt_NFQUEUE.so
--rwxr-xr-x -          -               10424 ./usr/lib/xtables/libxt_NOTRACK.so
+lrwxrwxrwx -          -                  11 ./usr/lib/xtables/libxt_NOTRACK.so -> libxt_CT.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_osf.so
 -rwxr-xr-x -          -                9996 ./usr/lib/xtables/libxt_owner.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_physdev.so
@@ -121,7 +121,7 @@ drwxr-xr-x -          -                2200 ./usr/lib/xtables
 -rwxr-xr-x -          -               14208 ./usr/lib/xtables/libxt_SET.so
 -rwxr-xr-x -          -                6000 ./usr/lib/xtables/libxt_socket.so
 -rwxr-xr-x -          -                5644 ./usr/lib/xtables/libxt_standard.so
--rwxr-xr-x -          -               23084 ./usr/lib/xtables/libxt_state.so
+lrwxrwxrwx -          -                  18 ./usr/lib/xtables/libxt_state.so -> libxt_conntrack.so
 -rwxr-xr-x -          -                5700 ./usr/lib/xtables/libxt_statistic.so
 -rwxr-xr-x -          -                9896 ./usr/lib/xtables/libxt_string.so
 -rwxr-xr-x -          -                5704 ./usr/lib/xtables/libxt_SYNPROXY.so

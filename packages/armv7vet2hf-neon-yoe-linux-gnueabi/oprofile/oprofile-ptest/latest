@@ -1,9 +1,9 @@
 PV = 1.3.0
 PR = r0
-PKGR = r0.38
+PKGR = r0.39
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) oprofile
+RDEPENDS = glibc (>= 2.30) libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) oprofile
 RRECOMMENDS = ptest-runner
-PKGSIZE = 714467
+PKGSIZE = 714439
 FILES = /usr/lib/oprofile/ptest
 FILELIST = /usr/lib/oprofile/ptest/events/Makefile /usr/lib/oprofile/ptest/libdb/tests/db_test /usr/lib/oprofile/ptest/libop/tests/alloc_counter_tests /usr/lib/oprofile/ptest/libop/tests/cpu_type_tests /usr/lib/oprofile/ptest/libop/tests/load_events_files_tests /usr/lib/oprofile/ptest/libop/tests/mangle_tests /usr/lib/oprofile/ptest/libop/tests/parse_event_tests /usr/lib/oprofile/ptest/libregex/stl.pat /usr/lib/oprofile/ptest/libregex/tests/java_test /usr/lib/oprofile/ptest/libregex/tests/mangled-name /usr/lib/oprofile/ptest/libregex/tests/regex_test /usr/lib/oprofile/ptest/libutil++/tests/cached_value_tests /usr/lib/oprofile/ptest/libutil++/tests/comma_list_tests /usr/lib/oprofile/ptest/libutil++/tests/file_manip_tests /usr/lib/oprofile/ptest/libutil++/tests/file_manip_tests.cpp /usr/lib/oprofile/ptest/libutil++/tests/file_manip_tests.o /usr/lib/oprofile/ptest/libutil++/tests/glob_filter_tests /usr/lib/oprofile/ptest/libutil++/tests/path_filter_tests /usr/lib/oprofile/ptest/libutil++/tests/string_filter_tests /usr/lib/oprofile/ptest/libutil++/tests/string_manip_tests /usr/lib/oprofile/ptest/libutil++/tests/utility_tests /usr/lib/oprofile/ptest/libutil/tests/file_tests /usr/lib/oprofile/ptest/libutil/tests/string_tests /usr/lib/oprofile/ptest/run-ptest

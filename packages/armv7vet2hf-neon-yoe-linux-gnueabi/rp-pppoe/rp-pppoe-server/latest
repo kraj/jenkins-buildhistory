@@ -1,8 +1,8 @@
 PV = 3.13
 PR = r10
-PKGR = r10.14
+PKGR = r10.15
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) rp-pppoe
+RDEPENDS = glibc (>= 2.30) rp-pppoe
 RRECOMMENDS = 
 PKGSIZE = 39355
 FILES = /etc/default/pppoe-server /etc/init.d/pppoe-server /usr/sbin/pppoe-server /etc/ppp/pppoe-server-options /lib/systemd/system-preset/98-rp-pppoe-server.preset /lib/systemd/system/pppoe-server.service

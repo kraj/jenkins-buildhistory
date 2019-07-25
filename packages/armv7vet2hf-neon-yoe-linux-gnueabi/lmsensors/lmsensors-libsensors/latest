@@ -1,9 +1,9 @@
 PV = 3.5.0
 PR = r0
 PKG = libsensors5
-PKGR = r0.12
+PKGR = r0.14
 RPROVIDES = lmsensors-libsensors (=3.5.0)
-RDEPENDS = glibc (>= 2.29)
+RDEPENDS = glibc (>= 2.30)
 RRECOMMENDS = lmsensors-config-libsensors
 PKGSIZE = 53176
 FILES = /usr/lib/libsensors.so.* /etc/sensors3.conf /etc/sensors.d

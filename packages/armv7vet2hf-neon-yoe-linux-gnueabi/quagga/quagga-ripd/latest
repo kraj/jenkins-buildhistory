@@ -1,8 +1,8 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) quagga (>= 1.2.4)
+RDEPENDS = glibc (>= 2.30) quagga (>= 1.2.4)
 RRECOMMENDS = 
 PKGSIZE = 91471
 FILES = /usr/sbin/ripd /lib/systemd/system-preset/98-quagga-ripd.preset /lib/systemd/system/ripd.service

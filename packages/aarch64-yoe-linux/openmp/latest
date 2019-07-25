@@ -1,0 +1,5 @@
+PV = 8.0.1
+PR = r0
+DEPENDS = clang-cross-aarch64 cmake-native compiler-rt libcxx ninja-native ninja-native perl-native pkgconfig-native virtual/libc
+PACKAGES = openmp-src openmp-dbg openmp-staticdev openmp-dev openmp-doc openmp-locale openmp
+LAYER = clang-layer

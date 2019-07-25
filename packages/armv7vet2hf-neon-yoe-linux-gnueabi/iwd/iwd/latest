@@ -1,8 +1,8 @@
 PV = 0.18
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = ell (>= 0.20) glibc (>= 2.29) readline (>= 8.0)
+RDEPENDS = ell (>= 0.20) glibc (>= 2.30) readline (>= 8.0)
 RRECOMMENDS = kernel-module-pkcs7-message kernel-module-pkcs8-key-parser kernel-module-x509-key-parser
 PKGSIZE = 477977
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iwd /usr/lib/iwd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1 /usr/lib/modules-load.d /lib/systemd/system-preset/98-iwd.preset /lib/systemd/system/iwd.service

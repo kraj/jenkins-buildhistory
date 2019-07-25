@@ -1,5 +1,5 @@
-PV = 60.4.0esr
+PV = 68.0esr
 PR = r0
-DEPENDS = alsa-lib cairo cargo-native curl gnu-config-native gtk+ icu libevent libnotify libstd-rs libxi libxt pkgconfig-native pulseaudio startup-notification unzip-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/aarch64-yoe-linux-rust virtual/libc virtual/libgl virtual/libintl yasm-native zip-native
+DEPENDS = alsa-lib cairo cargo-native cbindgen-native clang-cross-aarch64 compiler-rt curl dbus-glib gnu-config-native gtk+ icu libcxx libevent libnotify libstd-rs libxi libxt nasm-native nodejs-native pkgconfig-native pulseaudio startup-notification unzip-native virtual/aarch64-yoe-linux-rust virtual/egl virtual/libc virtual/libgl virtual/libintl yasm-native zip-native
 PACKAGES = firefox-src firefox-dbg firefox-staticdev firefox-dev firefox-doc firefox-locale firefox
 LAYER = browser-layer
