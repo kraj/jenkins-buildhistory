@@ -1,9 +1,9 @@
-PV = 0.9.0
+PV = 0.9.1
 PR = r0
-PKGR = r0.88
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = nftables (= 0.9.0-r0.88)
-RRECOMMENDS = glibc-dev gmp-dev libmnl-dev libnftnl-dev readline-dev
-PKGSIZE = 2909
+RDEPENDS = nftables (= 0.9.1-r0.0)
+RRECOMMENDS = glibc-dev gmp-dev libmnl-dev libnftnl-dev python3-core-dev python3-dev python3-json-dev readline-dev
+PKGSIZE = 2813
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/nftables/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/nftables/libnftables.h /usr/lib/libnftables.so /usr/lib/pkgconfig/libnftables.pc

@@ -2,9 +2,9 @@ PE = 1
 PV = 242+AUTOINC+db2e367bfc
 PR = r0
 PKGV = 242+1+db2e367bfc
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) systemd (>= 242+1+db2e367bfc)
+RDEPENDS = glibc (>= 2.30) systemd (>= 242+1+db2e367bfc)
 RRECOMMENDS = kernel-module-binfmt-misc
 PKGSIZE = 70529
 FILES = /etc/binfmt.d/ /usr/lib/binfmt.d /lib/systemd/systemd-binfmt /lib/systemd/system/proc-sys-fs-binfmt_misc.* /lib/systemd/system/systemd-binfmt.service /lib/systemd/system-preset/98-systemd-binfmt.preset /lib/systemd/system/systemd-binfmt.service

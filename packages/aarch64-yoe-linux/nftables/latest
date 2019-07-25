@@ -1,5 +1,5 @@
-PV = 0.9.0
+PV = 0.9.1
 PR = r0
-DEPENDS = autoconf-native automake-native bison-native gmp gnu-config-native libmnl libnftnl libtool-cross libtool-native pkgconfig-native readline virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
-PACKAGES = nftables-src nftables-dbg nftables-staticdev nftables-dev nftables-doc nftables-locale nftables
+DEPENDS = autoconf-native automake-native bison-native gmp gnu-config-native libmnl libnftnl libtool-cross libtool-native pkgconfig-native python3 python3-native readline virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+PACKAGES = nftables-src nftables-dbg nftables-python nftables-staticdev nftables-dev nftables-doc nftables-locale nftables
 LAYER = networking-layer

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native sqlite3 util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = pyzy-src pyzy-dbg pyzy-staticdev pyzy-dev pyzy-doc pyzy-locale pyzy
+LAYER = openembedded-layer

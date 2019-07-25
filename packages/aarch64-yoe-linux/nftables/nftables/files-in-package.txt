@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root              280 ./etc/nftables
+drwxr-xr-x root       root              300 ./etc/nftables
 -rw-r--r-- root       root             1010 ./etc/nftables/all-in-one.nft
 -rw-r--r-- root       root              149 ./etc/nftables/arp-filter.nft
 -rw-r--r-- root       root              217 ./etc/nftables/bridge-filter.nft
@@ -12,9 +12,11 @@ drwxr-xr-x root       root              280 ./etc/nftables
 -rw-r--r-- root       root               98 ./etc/nftables/ipv6-mangle.nft
 -rw-r--r-- root       root              273 ./etc/nftables/ipv6-nat.nft
 -rw-r--r-- root       root              161 ./etc/nftables/ipv6-raw.nft
+drwxr-xr-x root       root               60 ./etc/nftables/osf
+-rw-r--r-- root       root            28884 ./etc/nftables/osf/pf.os
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root           592440 ./usr/lib/libnftables.so.0.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libnftables.so.0 -> libnftables.so.0.0.0
+-rwxr-xr-x root       root           598640 ./usr/lib/libnftables.so.1.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libnftables.so.1 -> libnftables.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root            67816 ./usr/sbin/nft
