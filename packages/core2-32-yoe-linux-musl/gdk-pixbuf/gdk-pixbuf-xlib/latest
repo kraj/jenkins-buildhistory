@@ -1,10 +1,10 @@
 PV = 2.38.1
 PR = r0
-PKG = libgdk-pixbuf-2.0-xlib
-PKGR = r0.14
+PKG = libgdk-pixbuf-xlib-2.0-0
+PKGR = r0.15
 RPROVIDES = gdk-pixbuf-xlib (=2.38.1)
-RDEPENDS = 
+RDEPENDS = gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) libx11 (>= 1.6.7) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 71062
 FILES = /usr/lib/*pixbuf_xlib*.so.*
-FILELIST = 
+FILELIST = /usr/lib/libgdk_pixbuf_xlib-2.0.so.0 /usr/lib/libgdk_pixbuf_xlib-2.0.so.0.3800.1
