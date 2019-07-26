@@ -4,7 +4,7 @@ drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root            67752 ./usr/bin/gdk-pixbuf-pixdata
 -rwxr-xr-x root       root            67760 ./usr/bin/gdk-pixbuf-print-mime-types
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root               60 ./usr/include/gdk-pixbuf-2.0
+drwxr-xr-x root       root               80 ./usr/include/gdk-pixbuf-2.0
 drwxr-xr-x root       root              300 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf
 -rw-r--r-- root       root             9645 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h
 -rw-r--r-- root       root             1521 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-autocleanups.h
@@ -19,10 +19,15 @@ drwxr-xr-x root       root              300 ./usr/include/gdk-pixbuf-2.0/gdk-pix
 -rw-r--r-- root       root             3186 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
 -rw-r--r-- root       root             6248 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h
 -rw-r--r-- root       root             6765 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixdata.h
-drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib
+-rw-r--r-- root       root             2538 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h
+-rw-r--r-- root       root             5996 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h
+drwxr-xr-x root       root              100 ./usr/lib
 lrwxrwxrwx root       root               22 ./usr/lib/libgdk_pixbuf-2.0.so -> libgdk_pixbuf-2.0.so.0
-drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
+lrwxrwxrwx root       root               27 ./usr/lib/libgdk_pixbuf_xlib-2.0.so -> libgdk_pixbuf_xlib-2.0.so.0
+drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              714 ./usr/lib/pkgconfig/gdk-pixbuf-2.0.pc
+-rw-r--r-- root       root              371 ./usr/lib/pkgconfig/gdk-pixbuf-xlib-2.0.pc
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/gir-1.0
 -rw-r--r-- root       root           241944 ./usr/share/gir-1.0/GdkPixbuf-2.0.gir

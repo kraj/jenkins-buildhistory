@@ -1,0 +1,5 @@
+PV = 2.4.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+PACKAGES = libseccomp-src libseccomp-dbg libseccomp-ptest libseccomp-staticdev libseccomp-dev libseccomp-doc libseccomp-locale libseccomp
+LAYER = openembedded-layer
