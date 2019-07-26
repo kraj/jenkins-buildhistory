@@ -2,9 +2,9 @@ PE = 1
 PV = 242+AUTOINC+db2e367bfc
 PR = r0
 PKGV = 242+1+db2e367bfc
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = base-files base-passwd dbus glibc (>= 2.29) kmod libacl (>= 2.2.52) libcap (>= 2.27) libkmod (>= 26) liblzma (>= 5.2.4) libnss-myhostname libpam (>= 1.3.1) pam-plugin-keyinit pam-plugin-loginuid pam-plugin-unix shadow systemd-serialgetty systemd-vconsole-setup udev (= 1:242+1+db2e367bfc-r0.18) update-alternatives-opkg update-rc.d util-linux-agetty util-linux-fsck util-linux-libblkid (>= 2.34) util-linux-libmount (>= 2.34) util-linux-mount util-linux-umount volatile-binds
+RDEPENDS = base-files base-passwd dbus glibc (>= 2.30) kmod libacl (>= 2.2.52) libcap (>= 2.27) libkmod (>= 26) liblzma (>= 5.2.4) libnss-myhostname libpam (>= 1.3.1) pam-plugin-keyinit pam-plugin-loginuid pam-plugin-unix shadow systemd-serialgetty systemd-vconsole-setup udev (= 1:242+1+db2e367bfc-r0.19) update-alternatives-opkg update-rc.d util-linux-agetty util-linux-fsck util-linux-libblkid (>= 2.34) util-linux-libmount (>= 2.34) util-linux-mount util-linux-umount volatile-binds
 RRECOMMENDS = e2fsprogs-e2fsck kernel-module-autofs4 kernel-module-ipv6 kernel-module-unix os-release systemd-compat-units systemd-conf systemd-extra-utils udev-hwdb
 RCONFLICTS = resolvconf tiny-init
 PKGSIZE = 7963028

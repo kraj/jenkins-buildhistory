@@ -2,9 +2,9 @@ PE = 1
 PV = 242+AUTOINC+db2e367bfc
 PR = r0
 PKGV = 242+1+db2e367bfc
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.29) libacl (>= 2.2.52) systemd (>= 242+1+db2e367bfc)
+RDEPENDS = glibc (>= 2.30) libacl (>= 2.2.52) systemd (>= 242+1+db2e367bfc)
 RRECOMMENDS = systemd-journal-gatewayd systemd-journal-remote systemd-journal-upload
 PKGSIZE = 518191
 FILES = /etc/dbus-1/system.d/org.freedesktop.import1.conf /etc/dbus-1/system.d/org.freedesktop.machine1.conf /etc/systemd/system/multi-user.target.wants/machines.target /bin/machinectl /usr/bin/systemd-nspawn /usr/lib/systemd/import-pubring.gpg /lib/systemd/system/busnames.target.wants/org.freedesktop.import1.busname /lib/systemd/system/busnames.target.wants/org.freedesktop.machine1.busname /lib/systemd/system/local-fs.target.wants/var-lib-machines.mount /lib/systemd/system/machines.target.wants/var-lib-machines.mount /lib/systemd/system/remote-fs.target.wants/var-lib-machines.mount /lib/systemd/system/machine.slice /lib/systemd/system/machines.target /lib/systemd/system/org.freedesktop.import1.busname /lib/systemd/system/org.freedesktop.machine1.busname /lib/systemd/system/systemd-importd.service /lib/systemd/system/systemd-machined.service /lib/systemd/system/dbus-org.freedesktop.machine1.service /lib/systemd/system/var-lib-machines.mount /lib/systemd/systemd-import /lib/systemd/systemd-importd /lib/systemd/systemd-machined /lib/systemd/systemd-pull /usr/lib/tmpfiles.d/systemd-nspawn.conf /lib/systemd/system/systemd-nspawn@.service /usr/lib/libnss_mymachines.so.2 /usr/share/dbus-1/system-services/org.freedesktop.import1.service /usr/share/dbus-1/system-services/org.freedesktop.machine1.service /usr/share/dbus-1/system.d/org.freedesktop.import1.conf /usr/share/dbus-1/system.d/org.freedesktop.machine1.conf /usr/share/polkit-1/actions/org.freedesktop.import1.policy /usr/share/polkit-1/actions/org.freedesktop.machine1.policy

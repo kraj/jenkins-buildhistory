@@ -1,9 +1,9 @@
 PV = 1.12.16
 PR = r0
 PKG = dbus-1
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = dbus (=1.12.16) dbus-x11
-RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.16) expat (>= 2.2.7) glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc) libx11 (>= 1.6.7) shadow
+RDEPENDS = base-files base-passwd dbus-lib (>= 1.12.16) expat (>= 2.2.7) glibc (>= 2.30) libsystemd (>= 242+1+db2e367bfc) libx11 (>= 1.6.7) shadow
 RRECOMMENDS = 
 RREPLACES = dbus-x11
 PKGSIZE = 417290

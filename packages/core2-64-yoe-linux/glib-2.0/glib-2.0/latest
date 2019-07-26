@@ -2,9 +2,9 @@ PE = 1
 PV = 2.60.5
 PR = r0
 PKG = libglib-2.0-0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = glib-2.0 (=2.60.5)
-RDEPENDS = glibc (>= 2.29) libffi (>= 3.2.1) libpcre (>= 8.43) util-linux-libmount (>= 2.34) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.30) libffi (>= 3.2.1) libpcre (>= 8.43) util-linux-libmount (>= 2.34) zlib (>= 1.2.11)
 RRECOMMENDS = shared-mime-info
 PKGSIZE = 3456771
 FILES = /usr/lib/lib*.so.* /usr/lib/gio /usr/libexec/*gio-querymodules /usr/share/glib-2.0/schemas

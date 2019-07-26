@@ -1,9 +1,9 @@
 PV = 2.0.5
 PR = r0
 PKG = libfluidsynth-bin
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = fluidsynth-bin (=2.0.5)
-RDEPENDS = fluidsynth (>= 2.0.5) glibc (>= 2.29) libsystemd (>= 242+1+db2e367bfc)
+RDEPENDS = fluidsynth (>= 2.0.5) glibc (>= 2.30) libsystemd (>= 242+1+db2e367bfc)
 RRECOMMENDS = 
 PKGSIZE = 27696
 FILES = /usr/bin/* /usr/sbin/*

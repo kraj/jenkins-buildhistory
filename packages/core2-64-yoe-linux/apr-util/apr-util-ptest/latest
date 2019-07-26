@@ -1,9 +1,9 @@
 PV = 1.6.1
 PR = r0
 PKG = libaprutil-1-ptest
-PKGR = r0.113
+PKGR = r0.114
 RPROVIDES = apr-util-ptest (=1.6.1)
-RDEPENDS = apr (>= 1.7.0) apr-util (>= 1.6.1) glibc (>= 2.29) glibc-gconv-iso8859-1 glibc-gconv-iso8859-2 glibc-gconv-utf-7 libgcc
+RDEPENDS = apr (>= 1.7.0) apr-util (>= 1.6.1) glibc (>= 2.30) glibc-gconv-iso8859-1 glibc-gconv-iso8859-2 glibc-gconv-utf-7 libgcc
 RRECOMMENDS = ptest-runner
 PKGSIZE = 114151
 FILES = /usr/lib/apr-util/ptest

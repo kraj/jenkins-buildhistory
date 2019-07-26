@@ -1,9 +1,9 @@
 PV = 5.8
 PR = r0
 PKG = libnetsnmptrapd35
-PKGR = r0.124
+PKGR = r0.125
 RPROVIDES = net-snmp-lib-trapd (=5.8)
-RDEPENDS = glibc (>= 2.29) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8)
+RDEPENDS = glibc (>= 2.30) net-snmp-lib-agent (>= 5.8) net-snmp-lib-mibs (>= 5.8) net-snmp-lib-netsnmp (>= 5.8)
 RRECOMMENDS = 
 PKGSIZE = 43225
 FILES = /usr/lib/libnetsnmptrapd.so.*

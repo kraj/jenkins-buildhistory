@@ -1,0 +1,9 @@
+PV = 8.0.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = libgomp-dev
+RDEPENDS = openmp (= 8.0.1-r0.0)
+RRECOMMENDS = compiler-rt-dev glibc-dev libcxx-dev
+PKGSIZE = 87136
+FILES = /usr/include /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/openmp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/omp-tools.h /usr/include/omp.h /usr/include/ompt.h

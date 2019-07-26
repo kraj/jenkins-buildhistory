@@ -2,9 +2,9 @@ PV = 1.0.0+gitAUTOINC+655e2d5441
 PR = r0
 PKG = libcyusbserial1
 PKGV = 1.0.0+git0+655e2d5441
-PKGR = r0.123
+PKGR = r0.124
 RPROVIDES = libcyusbserial (=1.0.0+git0+655e2d5441)
-RDEPENDS = glibc (>= 2.29) libusb1 (>= 1.0.22)
+RDEPENDS = glibc (>= 2.30) libusb1 (>= 1.0.22)
 RRECOMMENDS = 
 PKGSIZE = 34904
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcyusbserial /usr/lib/libcyusbserial/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

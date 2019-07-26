@@ -2,9 +2,9 @@ PV = 0.9.12+gitAUTOINC+1354f7f1bb
 PR = r0
 PKG = libvncserver1
 PKGV = 0.9.12+git1+1354f7f1bb
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libvncserver (=0.9.12+git1+1354f7f1bb)
-RDEPENDS = glibc (>= 2.29) gnutls (>= 3.6.8) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.37) libsystemd (>= 242+1+db2e367bfc) lzo (>= 2.10) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.30) gnutls (>= 3.6.8) libgcrypt (>= 1.8.4) libjpeg-turbo (>= 2.0.2) libpng (>= 1.6.37) libsystemd (>= 242+1+db2e367bfc) lzo (>= 2.10) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 310622
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libvncserver /usr/lib/libvncserver/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
