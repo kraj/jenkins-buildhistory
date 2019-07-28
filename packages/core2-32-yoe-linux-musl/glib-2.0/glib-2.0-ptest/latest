@@ -2,7 +2,7 @@ PE = 1
 PV = 2.60.5
 PR = r0
 PKG = libglib-2.0-ptest
-PKGR = r0.4
+PKGR = r0.6
 RPROVIDES = glib-2.0-ptest (=2.60.5)
 RDEPENDS = coreutils dbus dbus-lib (>= 1.12.16) glib-2.0 (>= 2.60.5) glib-2.0-locale-el glib-2.0-locale-fr glib-2.0-locale-hr glib-2.0-locale-ja glib-2.0-locale-lt glib-2.0-locale-pl glib-2.0-locale-ru glib-2.0-locale-th gnome-desktop-testing libgcc libpcre (>= 8.43) musl (>= 1.1.23+git0+0ce49d0a30) shared-mime-info tzdata tzdata-americas tzdata-asia tzdata-europe tzdata-posix
 RRECOMMENDS = ptest-runner

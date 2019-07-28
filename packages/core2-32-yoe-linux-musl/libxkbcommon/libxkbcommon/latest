@@ -1,8 +1,8 @@
 PV = 0.8.4
 PR = r0
-PKGR = r0.17
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = libxcb (>= 1.13.1) libxcb-xkb (>= 1.13.1) musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = libx11-locale libxcb (>= 1.13.1) libxcb-xkb (>= 1.13.1) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 306190
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxkbcommon /usr/lib/libxkbcommon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

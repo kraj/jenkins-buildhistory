@@ -1,10 +1,10 @@
-PV = 0.75.0
+PV = 0.79.0
 PR = r0
 PKG = libpoppler-glib8
-PKGR = r0.17
-RPROVIDES = libpoppler-glib (=0.75.0)
-RDEPENDS = cairo (>= 1.16.0) freetype (>= 2.10.1) glib-2.0 (>= 2.60.5) libgcc (>= 9.1.0) libpoppler (>= 0.75.0) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git0+0ce49d0a30)
+PKGR = r0.0
+RPROVIDES = libpoppler-glib (=0.79.0)
+RDEPENDS = cairo (>= 1.16.0) freetype (>= 2.10.1) glib-2.0 (>= 2.60.5) libgcc (>= 9.1.0) libpoppler (>= 0.79.0) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 386625
 FILES = /usr/lib/libpoppler-glib.so.*
-FILELIST = /usr/lib/libpoppler-glib.so.8 /usr/lib/libpoppler-glib.so.8.12.0
+FILELIST = /usr/lib/libpoppler-glib.so.8 /usr/lib/libpoppler-glib.so.8.13.0
