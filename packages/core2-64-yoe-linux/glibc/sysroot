@@ -5,11 +5,11 @@ lrwxrwxrwx -          -                  15 ./lib/ld-linux-x86-64.so.2 -> ld-2.2
 lrwxrwxrwx -          -                  19 ./lib/libanl.so.1 -> libanl-2.29.9000.so
 -rwxr-xr-x -          -               33792 ./lib/libBrokenLocale-2.29.9000.so
 lrwxrwxrwx -          -                  28 ./lib/libBrokenLocale.so.1 -> libBrokenLocale-2.29.9000.so
--rwxr-xr-x -          -            18475064 ./lib/libc-2.29.9000.so
+-rwxr-xr-x -          -            18475008 ./lib/libc-2.29.9000.so
 lrwxrwxrwx -          -                  17 ./lib/libc.so.6 -> libc-2.29.9000.so
 -rwxr-xr-x -          -              251528 ./lib/libdl-2.29.9000.so
 lrwxrwxrwx -          -                  18 ./lib/libdl.so.2 -> libdl-2.29.9000.so
--rwxr-xr-x -          -             6012744 ./lib/libm-2.29.9000.so
+-rwxr-xr-x -          -             6013000 ./lib/libm-2.29.9000.so
 -rwxr-xr-x -          -               67792 ./lib/libmemusage.so
 lrwxrwxrwx -          -                  17 ./lib/libm.so.6 -> libm-2.29.9000.so
 -rwxr-xr-x -          -              875936 ./lib/libmvec-2.29.9000.so
@@ -62,7 +62,7 @@ drwxr-xr-x -          -                 160 ./usr/include/arpa
 -rw-r--r-- -          -               10263 ./usr/include/arpa/telnet.h
 -rw-r--r-- -          -                3051 ./usr/include/arpa/tftp.h
 -rw-r--r-- -          -                4561 ./usr/include/assert.h
-drwxr-xr-x -          -                3420 ./usr/include/bits
+drwxr-xr-x -          -                3440 ./usr/include/bits
 -rw-r--r-- -          -                 268 ./usr/include/bits/a.out.h
 -rw-r--r-- -          -                1004 ./usr/include/bits/argp-ldbl.h
 -rw-r--r-- -          -                2449 ./usr/include/bits/byteswap.h
@@ -168,7 +168,8 @@ drwxr-xr-x -          -                3420 ./usr/include/bits
 -rw-r--r-- -          -                1691 ./usr/include/bits/sigthread.h
 -rw-r--r-- -          -                1513 ./usr/include/bits/sockaddr.h
 -rw-r--r-- -          -                3025 ./usr/include/bits/socket2.h
--rw-r--r-- -          -               14405 ./usr/include/bits/socket.h
+-rw-r--r-- -          -                1312 ./usr/include/bits/socket-constants.h
+-rw-r--r-- -          -               12259 ./usr/include/bits/socket.h
 -rw-r--r-- -          -                2215 ./usr/include/bits/socket_type.h
 -rw-r--r-- -          -                1187 ./usr/include/bits/ss_flags.h
 -rw-r--r-- -          -                9039 ./usr/include/bits/stab.def
@@ -526,13 +527,13 @@ drwxr-xr-x -          -                  60 ./usr/lib/audit
 lrwxrwxrwx -          -                  21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 -rw-r--r-- -          -               22894 ./usr/lib/libBrokenLocale.a
 lrwxrwxrwx -          -                  30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
--rw-r--r-- -          -            31803306 ./usr/lib/libc.a
+-rw-r--r-- -          -            31803194 ./usr/lib/libc.a
 -rw-r--r-- -          -              119354 ./usr/lib/libc_nonshared.a
 -rw-r--r-- -          -                 247 ./usr/lib/libc.so
 -rw-r--r-- -          -              313586 ./usr/lib/libdl.a
 lrwxrwxrwx -          -                  20 ./usr/lib/libdl.so -> ../../lib/libdl.so.2
 -rw-r--r-- -          -                2858 ./usr/lib/libg.a
--rw-r--r-- -          -             9473966 ./usr/lib/libm-2.29.9000.a
+-rw-r--r-- -          -             9473982 ./usr/lib/libm-2.29.9000.a
 -rw-r--r-- -          -                 103 ./usr/lib/libm.a
 -rw-r--r-- -          -                8584 ./usr/lib/libmcheck.a
 -rw-r--r-- -          -                 135 ./usr/lib/libm.so
