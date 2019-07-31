@@ -1,9 +1,9 @@
-PV = 9.11.5-P4
+PV = 9.14.3
 PR = r0
-PKGR = r0.30
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = bash bind-libs (>= 9.11.5-P4) glibc (>= 2.30) readline (>= 8.0) update-alternatives-opkg
+RDEPENDS = bash bind-libs (>= 9.14.3) glibc (>= 2.30) libcrypto (>= 1.1.1c) readline (>= 8.0) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 536800
+PKGSIZE = 537056
 FILES = /usr/bin/host /usr/bin/dig /usr/bin/mdig /usr/bin/nslookup.bind /usr/bin/nsupdate
 FILELIST = /usr/bin/dig /usr/bin/host /usr/bin/mdig /usr/bin/nslookup.bind /usr/bin/nsupdate
