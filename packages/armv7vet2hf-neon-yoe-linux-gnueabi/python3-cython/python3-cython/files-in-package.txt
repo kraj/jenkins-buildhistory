@@ -7,13 +7,13 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/python3.7
 drwxr-xr-x root       root              140 ./usr/lib/python3.7/site-packages
 drwxr-xr-x root       root              420 ./usr/lib/python3.7/site-packages/Cython
-drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info
--rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info/dependency_links.txt
--rw-r--r-- root       root              140 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info/entry_points.txt
--rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info/not-zip-safe
--rw-r--r-- root       root             2707 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info/PKG-INFO
--rw-r--r-- root       root            66431 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info/SOURCES.txt
--rw-r--r-- root       root               24 ./usr/lib/python3.7/site-packages/Cython-0.29.12-py3.7.egg-info/top_level.txt
+drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info
+-rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info/dependency_links.txt
+-rw-r--r-- root       root              140 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info/entry_points.txt
+-rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info/not-zip-safe
+-rw-r--r-- root       root             2707 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info/PKG-INFO
+-rw-r--r-- root       root            66431 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info/SOURCES.txt
+-rw-r--r-- root       root               24 ./usr/lib/python3.7/site-packages/Cython-0.29.13-py3.7.egg-info/top_level.txt
 drwxr-xr-x root       root              220 ./usr/lib/python3.7/site-packages/Cython/Build
 -rw-r--r-- root       root             4318 ./usr/lib/python3.7/site-packages/Cython/Build/BuildExecutable.py
 -rw-r--r-- root       root             8216 ./usr/lib/python3.7/site-packages/Cython/Build/Cythonize.py
@@ -72,7 +72,7 @@ drwxr-xr-x root       root             1100 ./usr/lib/python3.7/site-packages/Cy
 -rw-r--r-- root       root             6333 ./usr/lib/python3.7/site-packages/Cython/Compiler/Naming.py
 -rw-r--r-- root       root           389758 ./usr/lib/python3.7/site-packages/Cython/Compiler/Nodes.py
 -rw-r--r-- root       root           209179 ./usr/lib/python3.7/site-packages/Cython/Compiler/Optimize.py
--rw-r--r-- root       root            19333 ./usr/lib/python3.7/site-packages/Cython/Compiler/Options.py
+-rw-r--r-- root       root            19674 ./usr/lib/python3.7/site-packages/Cython/Compiler/Options.py
 -rw-r--r-- root       root             2468 ./usr/lib/python3.7/site-packages/Cython/Compiler/ParseTreeTransforms.pxd
 -rw-r--r-- root       root           138232 ./usr/lib/python3.7/site-packages/Cython/Compiler/ParseTreeTransforms.py
 -rw-r--r-- root       root             8903 ./usr/lib/python3.7/site-packages/Cython/Compiler/Parsing.pxd
@@ -233,7 +233,7 @@ drwxr-xr-x root       root              880 ./usr/lib/python3.7/site-packages/Cy
 -rw-r--r-- root       root             2916 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/oldbuffer.pxd
 -rw-r--r-- root       root             5721 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/pycapsule.pxd
 -rw-r--r-- root       root             1985 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/pylifecycle.pxd
--rw-r--r-- root       root             3669 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/pystate.pxd
+-rw-r--r-- root       root             3683 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/pystate.pxd
 -rw-r--r-- root       root             1946 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/pythread.pxd
 -rw-r--r-- root       root             2557 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/ref.pxd
 -rw-r--r-- root       root             6008 ./usr/lib/python3.7/site-packages/Cython/Includes/cpython/sequence.pxd
@@ -330,7 +330,7 @@ drwxr-xr-x root       root              360 ./usr/lib/python3.7/site-packages/Cy
 -rw-r--r-- root       root             1175 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/fcntl.pxd
 -rw-r--r-- root       root               13 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/__init__.pxd
 -rw-r--r-- root       root               99 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/ioctl.pxd
--rw-r--r-- root       root             2764 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/mman.pxd
+-rw-r--r-- root       root             3362 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/mman.pxd
 -rw-r--r-- root       root             1254 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/resource.pxd
 -rw-r--r-- root       root              546 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/select.pxd
 -rw-r--r-- root       root             1876 ./usr/lib/python3.7/site-packages/Cython/Includes/posix/signal.pxd
@@ -437,7 +437,7 @@ drwxr-xr-x root       root              720 ./usr/lib/python3.7/site-packages/Cy
 -rw-r--r-- root       root            22105 ./usr/lib/python3.7/site-packages/Cython/Utility/ImportExport.c
 -rw-r--r-- root       root             1159 ./usr/lib/python3.7/site-packages/Cython/Utility/__init__.py
 -rw-r--r-- root       root            28907 ./usr/lib/python3.7/site-packages/Cython/Utility/MemoryView_C.c
--rw-r--r-- root       root            49425 ./usr/lib/python3.7/site-packages/Cython/Utility/MemoryView.pyx
+-rw-r--r-- root       root            49620 ./usr/lib/python3.7/site-packages/Cython/Utility/MemoryView.pyx
 -rw-r--r-- root       root            50383 ./usr/lib/python3.7/site-packages/Cython/Utility/ModuleSetupCode.c
 -rw-r--r-- root       root            87240 ./usr/lib/python3.7/site-packages/Cython/Utility/ObjectHandling.c
 -rw-r--r-- root       root            45132 ./usr/lib/python3.7/site-packages/Cython/Utility/Optimize.c

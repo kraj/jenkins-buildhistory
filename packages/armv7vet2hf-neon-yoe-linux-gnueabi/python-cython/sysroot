@@ -5,13 +5,13 @@ drwxr-xr-x -          -                  60 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/python2.7
 drwxr-xr-x -          -                 140 ./usr/lib/python2.7/site-packages
 drwxr-xr-x -          -                 580 ./usr/lib/python2.7/site-packages/Cython
-drwxr-xr-x -          -                 160 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info
--rw-r--r-- -          -                   1 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info/dependency_links.txt
--rw-r--r-- -          -                 140 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info/entry_points.txt
--rw-r--r-- -          -                   1 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info/not-zip-safe
--rw-r--r-- -          -                2707 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info/PKG-INFO
--rw-r--r-- -          -               66577 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info/SOURCES.txt
--rw-r--r-- -          -                  24 ./usr/lib/python2.7/site-packages/Cython-0.29.12-py2.7.egg-info/top_level.txt
+drwxr-xr-x -          -                 160 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info
+-rw-r--r-- -          -                   1 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info/dependency_links.txt
+-rw-r--r-- -          -                 140 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info/entry_points.txt
+-rw-r--r-- -          -                   1 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info/not-zip-safe
+-rw-r--r-- -          -                2707 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info/PKG-INFO
+-rw-r--r-- -          -               66577 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info/SOURCES.txt
+-rw-r--r-- -          -                  24 ./usr/lib/python2.7/site-packages/Cython-0.29.13-py2.7.egg-info/top_level.txt
 drwxr-xr-x -          -                 340 ./usr/lib/python2.7/site-packages/Cython/Build
 -rw-r--r-- -          -                4318 ./usr/lib/python2.7/site-packages/Cython/Build/BuildExecutable.py
 -rw-r--r-- -          -                5817 ./usr/lib/python2.7/site-packages/Cython/Build/BuildExecutable.pyc
@@ -93,7 +93,7 @@ drwxr-xr-x -          -                1900 ./usr/lib/python2.7/site-packages/Cy
 -rw-r--r-- -          -              279681 ./usr/lib/python2.7/site-packages/Cython/Compiler/Nodes.pyc
 -rw-r--r-- -          -              209179 ./usr/lib/python2.7/site-packages/Cython/Compiler/Optimize.py
 -rw-r--r-- -          -              138634 ./usr/lib/python2.7/site-packages/Cython/Compiler/Optimize.pyc
--rw-r--r-- -          -               19333 ./usr/lib/python2.7/site-packages/Cython/Compiler/Options.py
+-rw-r--r-- -          -               19674 ./usr/lib/python2.7/site-packages/Cython/Compiler/Options.py
 -rw-r--r-- -          -               12848 ./usr/lib/python2.7/site-packages/Cython/Compiler/Options.pyc
 -rw-r--r-- -          -                2468 ./usr/lib/python2.7/site-packages/Cython/Compiler/ParseTreeTransforms.pxd
 -rw-r--r-- -          -              138232 ./usr/lib/python2.7/site-packages/Cython/Compiler/ParseTreeTransforms.py
@@ -227,7 +227,7 @@ drwxr-xr-x -          -                 880 ./usr/lib/python2.7/site-packages/Cy
 -rw-r--r-- -          -                2916 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/oldbuffer.pxd
 -rw-r--r-- -          -                5721 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/pycapsule.pxd
 -rw-r--r-- -          -                1985 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/pylifecycle.pxd
--rw-r--r-- -          -                3669 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/pystate.pxd
+-rw-r--r-- -          -                3683 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/pystate.pxd
 -rw-r--r-- -          -                1946 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/pythread.pxd
 -rw-r--r-- -          -                2557 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/ref.pxd
 -rw-r--r-- -          -                6008 ./usr/lib/python2.7/site-packages/Cython/Includes/cpython/sequence.pxd
@@ -324,7 +324,7 @@ drwxr-xr-x -          -                 360 ./usr/lib/python2.7/site-packages/Cy
 -rw-r--r-- -          -                1175 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/fcntl.pxd
 -rw-r--r-- -          -                  13 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/__init__.pxd
 -rw-r--r-- -          -                  99 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/ioctl.pxd
--rw-r--r-- -          -                2764 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/mman.pxd
+-rw-r--r-- -          -                3362 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/mman.pxd
 -rw-r--r-- -          -                1254 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/resource.pxd
 -rw-r--r-- -          -                 546 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/select.pxd
 -rw-r--r-- -          -                1876 ./usr/lib/python2.7/site-packages/Cython/Includes/posix/signal.pxd
@@ -426,7 +426,7 @@ drwxr-xr-x -          -                 720 ./usr/lib/python2.7/site-packages/Cy
 -rw-r--r-- -          -                1159 ./usr/lib/python2.7/site-packages/Cython/Utility/__init__.py
 -rw-r--r-- -          -                1859 ./usr/lib/python2.7/site-packages/Cython/Utility/__init__.pyc
 -rw-r--r-- -          -               28907 ./usr/lib/python2.7/site-packages/Cython/Utility/MemoryView_C.c
--rw-r--r-- -          -               49425 ./usr/lib/python2.7/site-packages/Cython/Utility/MemoryView.pyx
+-rw-r--r-- -          -               49620 ./usr/lib/python2.7/site-packages/Cython/Utility/MemoryView.pyx
 -rw-r--r-- -          -               50383 ./usr/lib/python2.7/site-packages/Cython/Utility/ModuleSetupCode.c
 -rw-r--r-- -          -               87240 ./usr/lib/python2.7/site-packages/Cython/Utility/ObjectHandling.c
 -rw-r--r-- -          -               45132 ./usr/lib/python2.7/site-packages/Cython/Utility/Optimize.c

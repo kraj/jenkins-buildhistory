@@ -1,5 +1,5 @@
-PV = 8.0.0
+PV = 8.0.1
 PR = r0
-DEPENDS = cmake-native libffi libxml2 llvm-native ninja-native ninja-native pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
+DEPENDS = cmake-native libedit libffi libxml2 llvm-native ninja-native ninja-native pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
 PACKAGES = llvm-src llvm-dbg llvm-bugpointpasses llvm-llvmhello llvm-libllvm llvm-liboptremarks llvm-liblto llvm-staticdev llvm-dev llvm-doc llvm-locale llvm
 LAYER = core

@@ -1,8 +1,8 @@
 PV = 1.16.0
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = gst-player gst-player-bin
-RDEPENDS = gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) glibc (>= 2.30) gstreamer1.0 (>= 1.16.0) gstreamer1.0-plugins-base-playback gtk+3 (>= 3.24.8) libgstplayer-1.0 (>= 1.16.0) libgsttag-1.0 (>= 1.16.0) libx11 (>= 1.6.7)
+RDEPENDS = gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.6) glibc (>= 2.30) gstreamer1.0 (>= 1.16.0) gstreamer1.0-plugins-base-playback gtk+3 (>= 3.24.8) libgstplayer-1.0 (>= 1.16.0) libgsttag-1.0 (>= 1.16.0) libx11 (>= 1.6.7)
 RRECOMMENDS = gstreamer1.0-plugins-bad-meta gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta
 PKGSIZE = 85529
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gst-examples /usr/lib/gst-examples/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

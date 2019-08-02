@@ -1,9 +1,9 @@
-PV = 9.14.3
+PV = 9.11.5-P4
 PR = r0
-PKGR = r0.0
+PKGR = r0.31
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.30) libcrypto (>= 1.1.1c)
+RDEPENDS = glibc (>= 2.30) libcap (>= 2.27) libcrypto (>= 1.1.1c)
 RRECOMMENDS = 
-PKGSIZE = 3275028
-FILES = /usr/lib/*.so* /usr/lib/named/*.so
-FILELIST = /usr/lib/libbind9.so.1302 /usr/lib/libbind9.so.1302.0.3 /usr/lib/libdns.so.1309 /usr/lib/libdns.so.1309.0.0 /usr/lib/libirs.so.1301 /usr/lib/libirs.so.1301.0.3 /usr/lib/libisc.so.1308 /usr/lib/libisc.so.1308.0.1 /usr/lib/libisccc.so.1302 /usr/lib/libisccc.so.1302.0.0 /usr/lib/libisccfg.so.1302 /usr/lib/libisccfg.so.1302.0.0 /usr/lib/libns.so.1306 /usr/lib/libns.so.1306.0.1 /usr/lib/named/filter-aaaa.so
+PKGSIZE = 3271730
+FILES = /usr/lib/*.so*
+FILELIST = /usr/lib/libbind9.so.161 /usr/lib/libbind9.so.161.0.0 /usr/lib/libdns.so.1104 /usr/lib/libdns.so.1104.0.2 /usr/lib/libirs.so.161 /usr/lib/libirs.so.161.0.0 /usr/lib/libisc.so.1100 /usr/lib/libisc.so.1100.0.0 /usr/lib/libisccc.so.161 /usr/lib/libisccc.so.161.0.0 /usr/lib/libisccfg.so.163 /usr/lib/libisccfg.so.163.0.0 /usr/lib/liblwres.so.161 /usr/lib/liblwres.so.161.0.0
