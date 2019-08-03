@@ -1,9 +1,9 @@
 PV = 2.38.1
 PR = r0
 PKG = libgdk-pixbuf-2.0-dev
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = gdk-pixbuf-dev (=2.38.1)
-RDEPENDS = gdk-pixbuf (= 2.38.1-r0.18) gdk-pixbuf (>= 2.38.1) gdk-pixbuf-xlib glib-2.0 (>= 2.60.6) glibc (>= 2.30)
+RDEPENDS = gdk-pixbuf (= 2.38.1-r0.19) gdk-pixbuf (>= 2.38.1) gdk-pixbuf-xlib glib-2.0 (>= 2.60.6) glibc (>= 2.30)
 RRECOMMENDS = gdk-pixbuf-loader-ani-dev gdk-pixbuf-loader-bmp-dev gdk-pixbuf-loader-gif-dev gdk-pixbuf-loader-icns-dev gdk-pixbuf-loader-ico-dev gdk-pixbuf-loader-jpeg-dev gdk-pixbuf-loader-png-dev gdk-pixbuf-loader-pnm-dev gdk-pixbuf-loader-qtif-dev gdk-pixbuf-loader-tga-dev gdk-pixbuf-loader-xbm-dev gdk-pixbuf-loader-xpm-dev gdk-pixbuf-xlib-dev glib-2.0-dev glibc-dev gnome-desktop-testing-dev gobject-introspection-dev jpeg-dev libjpeg-turbo-dev libpng-dev libx11-dev shared-mime-info-dev
 PKGSIZE = 573234
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gdk-pixbuf/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/gdk-pixbuf-csource /usr/bin/gdk-pixbuf-pixdata /usr/bin/gdk-pixbuf-print-mime-types /usr/include/* /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/*.la /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
