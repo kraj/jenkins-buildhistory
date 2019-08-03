@@ -1,9 +1,9 @@
 PV = 0.5.2
 PR = r0
 PKG = libsigrokdecode4
-PKGR = r0.20
+PKGR = r0.22
 RPROVIDES = libsigrokdecode (=0.5.2)
-RDEPENDS = glib-2.0 (>= 2.60.5) libpython3 (>= 3.7.4) musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = glib-2.0 (>= 2.60.6) libpython3 (>= 3.7.4) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 1284293
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libsigrokdecode /usr/lib/libsigrokdecode/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

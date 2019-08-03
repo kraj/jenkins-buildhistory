@@ -1,9 +1,9 @@
 PV = 1.8.4
 PR = r0
 PKG = libclutter-gtk-1.0-0
-PKGR = r0.20
+PKGR = r0.22
 RPROVIDES = clutter-gtk-1.0 (=1.8.4)
-RDEPENDS = cairo (>= 1.16.0) clutter-1.0 (>= 1.26.2) gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.5) gtk+3 (>= 3.24.8) libcogl (>= 1.22.4) musl (>= 1.1.23+git0+0ce49d0a30) wayland (>= 1.17.0)
+RDEPENDS = cairo (>= 1.16.0) clutter-1.0 (>= 1.26.2) gdk-pixbuf (>= 2.38.1) glib-2.0 (>= 2.60.6) gtk+3 (>= 3.24.8) libcogl (>= 1.22.4) musl (>= 1.1.23+git0+0ce49d0a30) wayland (>= 1.17.0)
 RRECOMMENDS = 
 PKGSIZE = 67045
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/clutter-gtk-1.0 /usr/lib/clutter-gtk-1.0/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/girepository-*/*.typelib

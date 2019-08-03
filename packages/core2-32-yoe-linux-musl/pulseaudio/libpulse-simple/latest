@@ -1,9 +1,9 @@
 PV = 12.2
 PR = r0
 PKG = libpulse-simple0
-PKGR = r0.21
+PKGR = r0.23
 RPROVIDES = libpulse-simple (=12.2)
-RDEPENDS = dbus-lib (>= 1.12.16) libcap (>= 2.27) libice (>= 1.0.10) libpulse (>= 12.2) libpulsecommon (>= 12.2) libsm (>= 1.2.3) libsndfile1 (>= 1.0.28) libsystemd (>= 242+0+db2e367bfc) libx11 (>= 1.6.7) libx11-xcb (>= 1.6.7) libxcb (>= 1.13.1) libxtst (>= 1.2.3) musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = dbus-lib (>= 1.12.16) libcap (>= 2.27) libice (>= 1.0.10) libpulse (>= 12.2) libpulsecommon (>= 12.2) libsm (>= 1.2.3) libsndfile1 (>= 1.0.28) libsystemd (>= 242+0+db2e367bfc) libx11 (>= 1.6.8) libx11-xcb (>= 1.6.8) libxcb (>= 1.13.1) libxtst (>= 1.2.3) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 17872
 FILES = /usr/lib/libpulse-simple.so.*

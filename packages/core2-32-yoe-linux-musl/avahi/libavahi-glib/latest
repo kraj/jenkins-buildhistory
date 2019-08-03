@@ -1,9 +1,9 @@
 PV = 0.7
 PR = r0
 PKG = libavahi-glib1
-PKGR = r0.21
+PKGR = r0.23
 RPROVIDES = libavahi-glib (=0.7)
-RDEPENDS = glib-2.0 (>= 2.60.5) libavahi-common (>= 0.7) musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = glib-2.0 (>= 2.60.6) libavahi-common (>= 0.7) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = 
 PKGSIZE = 13630
 FILES = /usr/lib/libavahi-glib.so.*
