@@ -1,9 +1,9 @@
 PV = 2.1.0
 PR = r5
 PKG = libsysfs2
-PKGR = r5.18
+PKGR = r5.19
 RPROVIDES = libsysfs (=2.1.0)
-RDEPENDS = musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = musl (>= 1.1.23+git1+6fcb440d91)
 RRECOMMENDS = 
 PKGSIZE = 46365
 FILES = /lib/lib*.so.*

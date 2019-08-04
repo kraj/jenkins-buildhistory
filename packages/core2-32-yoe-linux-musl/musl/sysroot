@@ -19,7 +19,7 @@ drwxr-xr-x -          -                 160 ./usr/include/arpa
 -rw-r--r-- -          -                5752 ./usr/include/arpa/telnet.h
 -rw-r--r-- -          -                 544 ./usr/include/arpa/tftp.h
 -rw-r--r-- -          -                 428 ./usr/include/assert.h
-drwxr-xr-x -          -                 720 ./usr/include/bits
+drwxr-xr-x -          -                 740 ./usr/include/bits
 -rw-r--r-- -          -               11593 ./usr/include/bits/alltypes.h
 -rw-r--r-- -          -                  37 ./usr/include/bits/endian.h
 -rw-r--r-- -          -                3669 ./usr/include/bits/errno.h
@@ -30,7 +30,8 @@ drwxr-xr-x -          -                 720 ./usr/include/bits
 -rw-r--r-- -          -                   0 ./usr/include/bits/ioctl_fix.h
 -rw-r--r-- -          -                2916 ./usr/include/bits/ioctl.h
 -rw-r--r-- -          -                2023 ./usr/include/bits/io.h
--rw-r--r-- -          -                 179 ./usr/include/bits/ipc.h
+-rw-r--r-- -          -                 157 ./usr/include/bits/ipc.h
+-rw-r--r-- -          -                  19 ./usr/include/bits/ipcstat.h
 -rw-r--r-- -          -                  22 ./usr/include/bits/kd.h
 -rw-r--r-- -          -                 252 ./usr/include/bits/limits.h
 -rw-r--r-- -          -                  29 ./usr/include/bits/link.h
@@ -41,9 +42,9 @@ drwxr-xr-x -          -                 720 ./usr/include/bits
 -rw-r--r-- -          -                 391 ./usr/include/bits/ptrace.h
 -rw-r--r-- -          -                 285 ./usr/include/bits/reg.h
 -rw-r--r-- -          -                   0 ./usr/include/bits/resource.h
--rw-r--r-- -          -                 371 ./usr/include/bits/sem.h
+-rw-r--r-- -          -                 232 ./usr/include/bits/sem.h
 -rw-r--r-- -          -                  36 ./usr/include/bits/setjmp.h
--rw-r--r-- -          -                 521 ./usr/include/bits/shm.h
+-rw-r--r-- -          -                 520 ./usr/include/bits/shm.h
 -rw-r--r-- -          -                3170 ./usr/include/bits/signal.h
 -rw-r--r-- -          -                 239 ./usr/include/bits/socket.h
 -rw-r--r-- -          -                  29 ./usr/include/bits/soundcard.h
@@ -161,14 +162,14 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                1384 ./usr/include/sys/inotify.h
 -rw-r--r-- -          -                3148 ./usr/include/sys/ioctl.h
 -rw-r--r-- -          -                 219 ./usr/include/sys/io.h
--rw-r--r-- -          -                 644 ./usr/include/sys/ipc.h
+-rw-r--r-- -          -                 651 ./usr/include/sys/ipc.h
 -rw-r--r-- -          -                  21 ./usr/include/sys/kd.h
 -rw-r--r-- -          -                 150 ./usr/include/sys/klog.h
 -rw-r--r-- -          -                2744 ./usr/include/syslog.h
 -rw-r--r-- -          -                 510 ./usr/include/sys/membarrier.h
 -rw-r--r-- -          -                3491 ./usr/include/sys/mman.h
 -rw-r--r-- -          -                1900 ./usr/include/sys/mount.h
--rw-r--r-- -          -                 891 ./usr/include/sys/msg.h
+-rw-r--r-- -          -                 937 ./usr/include/sys/msg.h
 -rw-r--r-- -          -                5191 ./usr/include/sys/mtio.h
 -rw-r--r-- -          -                 755 ./usr/include/sys/param.h
 -rw-r--r-- -          -                1381 ./usr/include/sys/personality.h
@@ -182,9 +183,9 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                 110 ./usr/include/sys/reg.h
 -rw-r--r-- -          -                2149 ./usr/include/sys/resource.h
 -rw-r--r-- -          -                1236 ./usr/include/sys/select.h
--rw-r--r-- -          -                1038 ./usr/include/sys/sem.h
+-rw-r--r-- -          -                1084 ./usr/include/sys/sem.h
 -rw-r--r-- -          -                 329 ./usr/include/sys/sendfile.h
--rw-r--r-- -          -                1398 ./usr/include/sys/shm.h
+-rw-r--r-- -          -                1444 ./usr/include/sys/shm.h
 -rw-r--r-- -          -                 845 ./usr/include/sys/signalfd.h
 -rw-r--r-- -          -                  89 ./usr/include/sys/signal.h
 -rw-r--r-- -          -               10124 ./usr/include/sys/socket.h
@@ -233,10 +234,10 @@ drwxr-xr-x -          -                1380 ./usr/include/sys
 -rw-r--r-- -          -                1915 ./usr/include/wctype.h
 -rw-r--r-- -          -                 650 ./usr/include/wordexp.h
 drwxr-xr-x -          -                 660 ./usr/lib
--rw-r--r-- -          -                4260 ./usr/lib/crt1.o
+-rw-r--r-- -          -                4264 ./usr/lib/crt1.o
 -rw-r--r-- -          -                1688 ./usr/lib/crti.o
 -rw-r--r-- -          -                1644 ./usr/lib/crtn.o
--rw-r--r-- -          -             6625688 ./usr/lib/libc.a
+-rw-r--r-- -          -             6641436 ./usr/lib/libc.a
 -rw-r--r-- -          -                   8 ./usr/lib/libcrypt.a
 lrwxrwxrwx -          -                   7 ./usr/lib/libcrypt.so.1 -> libc.so
 lrwxrwxrwx -          -                   7 ./usr/lib/libcrypt.so -> libc.so

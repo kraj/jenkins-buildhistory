@@ -254,7 +254,7 @@ drwxr-xr-x -          -                 780 ./usr/lib/klibc/include/asm-generic
 -rw-r--r-- -          -                6749 ./usr/lib/klibc/include/asm/vmx.h
 -rw-r--r-- -          -                 263 ./usr/lib/klibc/include/asm/vsyscall.h
 -rw-r--r-- -          -                 589 ./usr/lib/klibc/include/assert.h
-drwxr-xr-x -          -                 720 ./usr/lib/klibc/include/bits
+drwxr-xr-x -          -                 740 ./usr/lib/klibc/include/bits
 drwxr-xr-x -          -                  80 ./usr/lib/klibc/include/bits32
 drwxr-xr-x -          -                 120 ./usr/lib/klibc/include/bits32/bitsize
 -rw-r--r-- -          -                  44 ./usr/lib/klibc/include/bits32/bitsize.h
@@ -279,7 +279,8 @@ drwxr-xr-x -          -                 120 ./usr/lib/klibc/include/bits64/bitsi
 -rw-r--r-- -          -                   0 ./usr/lib/klibc/include/bits/ioctl_fix.h
 -rw-r--r-- -          -                2916 ./usr/lib/klibc/include/bits/ioctl.h
 -rw-r--r-- -          -                2023 ./usr/lib/klibc/include/bits/io.h
--rw-r--r-- -          -                 179 ./usr/lib/klibc/include/bits/ipc.h
+-rw-r--r-- -          -                 157 ./usr/lib/klibc/include/bits/ipc.h
+-rw-r--r-- -          -                  19 ./usr/lib/klibc/include/bits/ipcstat.h
 -rw-r--r-- -          -                  22 ./usr/lib/klibc/include/bits/kd.h
 -rw-r--r-- -          -                 252 ./usr/lib/klibc/include/bits/limits.h
 -rw-r--r-- -          -                  29 ./usr/lib/klibc/include/bits/link.h
@@ -290,9 +291,9 @@ drwxr-xr-x -          -                 120 ./usr/lib/klibc/include/bits64/bitsi
 -rw-r--r-- -          -                 391 ./usr/lib/klibc/include/bits/ptrace.h
 -rw-r--r-- -          -                 285 ./usr/lib/klibc/include/bits/reg.h
 -rw-r--r-- -          -                   0 ./usr/lib/klibc/include/bits/resource.h
--rw-r--r-- -          -                 371 ./usr/lib/klibc/include/bits/sem.h
+-rw-r--r-- -          -                 232 ./usr/lib/klibc/include/bits/sem.h
 -rw-r--r-- -          -                  36 ./usr/lib/klibc/include/bits/setjmp.h
--rw-r--r-- -          -                 521 ./usr/lib/klibc/include/bits/shm.h
+-rw-r--r-- -          -                 520 ./usr/lib/klibc/include/bits/shm.h
 -rw-r--r-- -          -                3170 ./usr/lib/klibc/include/bits/signal.h
 -rw-r--r-- -          -                 239 ./usr/lib/klibc/include/bits/socket.h
 -rw-r--r-- -          -                  29 ./usr/lib/klibc/include/bits/soundcard.h
@@ -2149,7 +2150,7 @@ drwxr-xr-x -          -                1600 ./usr/lib/klibc/include/sys
 -rw-r--r-- -          -                 315 ./usr/lib/klibc/include/sys/inotify.h
 -rw-r--r-- -          -                 271 ./usr/lib/klibc/include/sys/ioctl.h
 -rw-r--r-- -          -                 219 ./usr/lib/klibc/include/sys/io.h
--rw-r--r-- -          -                 644 ./usr/lib/klibc/include/sys/ipc.h
+-rw-r--r-- -          -                 651 ./usr/lib/klibc/include/sys/ipc.h
 -rw-r--r-- -          -                  21 ./usr/lib/klibc/include/sys/kd.h
 -rw-r--r-- -          -                 409 ./usr/lib/klibc/include/sys/klog.h
 -rw-r--r-- -          -                1631 ./usr/lib/klibc/include/syslog.h
@@ -2157,7 +2158,7 @@ drwxr-xr-x -          -                1600 ./usr/lib/klibc/include/sys
 -rw-r--r-- -          -                 510 ./usr/lib/klibc/include/sys/membarrier.h
 -rw-r--r-- -          -                 686 ./usr/lib/klibc/include/sys/mman.h
 -rw-r--r-- -          -                2402 ./usr/lib/klibc/include/sys/mount.h
--rw-r--r-- -          -                 891 ./usr/lib/klibc/include/sys/msg.h
+-rw-r--r-- -          -                 937 ./usr/lib/klibc/include/sys/msg.h
 -rw-r--r-- -          -                5191 ./usr/lib/klibc/include/sys/mtio.h
 -rw-r--r-- -          -                 141 ./usr/lib/klibc/include/sys/param.h
 -rw-r--r-- -          -                1381 ./usr/lib/klibc/include/sys/personality.h
@@ -2172,9 +2173,9 @@ drwxr-xr-x -          -                1600 ./usr/lib/klibc/include/sys
 -rw-r--r-- -          -                 110 ./usr/lib/klibc/include/sys/reg.h
 -rw-r--r-- -          -                 358 ./usr/lib/klibc/include/sys/resource.h
 -rw-r--r-- -          -                 373 ./usr/lib/klibc/include/sys/select.h
--rw-r--r-- -          -                1038 ./usr/lib/klibc/include/sys/sem.h
+-rw-r--r-- -          -                1084 ./usr/lib/klibc/include/sys/sem.h
 -rw-r--r-- -          -                 236 ./usr/lib/klibc/include/sys/sendfile.h
--rw-r--r-- -          -                1398 ./usr/lib/klibc/include/sys/shm.h
+-rw-r--r-- -          -                1444 ./usr/lib/klibc/include/sys/shm.h
 -rw-r--r-- -          -                 845 ./usr/lib/klibc/include/sys/signalfd.h
 -rw-r--r-- -          -                  89 ./usr/lib/klibc/include/sys/signal.h
 -rw-r--r-- -          -                8905 ./usr/lib/klibc/include/sys/socket.h

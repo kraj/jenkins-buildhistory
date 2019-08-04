@@ -1,8 +1,8 @@
 PV = 3.2
 PR = r1
-PKGR = r1.19
+PKGR = r1.20
 RPROVIDES = 
-RDEPENDS = bash coreutils make musl (>= 1.1.23+git0+0ce49d0a30) parted (>= 3.2) perl python3 util-linux-losetup
+RDEPENDS = bash coreutils make musl (>= 1.1.23+git1+6fcb440d91) parted (>= 3.2) perl python3 util-linux-losetup
 RRECOMMENDS = ptest-runner
 PKGSIZE = 342645
 FILES = /usr/lib/parted/ptest

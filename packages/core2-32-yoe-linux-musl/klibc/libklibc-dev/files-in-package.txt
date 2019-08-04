@@ -252,7 +252,7 @@ drwxr-xr-x root       root              780 ./usr/lib/klibc/include/asm-generic
 -rw-r--r-- root       root             6749 ./usr/lib/klibc/include/asm/vmx.h
 -rw-r--r-- root       root              263 ./usr/lib/klibc/include/asm/vsyscall.h
 -rw-r--r-- root       root              589 ./usr/lib/klibc/include/assert.h
-drwxr-xr-x root       root              720 ./usr/lib/klibc/include/bits
+drwxr-xr-x root       root              740 ./usr/lib/klibc/include/bits
 drwxr-xr-x root       root               80 ./usr/lib/klibc/include/bits32
 drwxr-xr-x root       root              120 ./usr/lib/klibc/include/bits32/bitsize
 -rw-r--r-- root       root               44 ./usr/lib/klibc/include/bits32/bitsize.h
@@ -277,7 +277,8 @@ drwxr-xr-x root       root              120 ./usr/lib/klibc/include/bits64/bitsi
 -rw-r--r-- root       root                0 ./usr/lib/klibc/include/bits/ioctl_fix.h
 -rw-r--r-- root       root             2916 ./usr/lib/klibc/include/bits/ioctl.h
 -rw-r--r-- root       root             2023 ./usr/lib/klibc/include/bits/io.h
--rw-r--r-- root       root              179 ./usr/lib/klibc/include/bits/ipc.h
+-rw-r--r-- root       root              157 ./usr/lib/klibc/include/bits/ipc.h
+-rw-r--r-- root       root               19 ./usr/lib/klibc/include/bits/ipcstat.h
 -rw-r--r-- root       root               22 ./usr/lib/klibc/include/bits/kd.h
 -rw-r--r-- root       root              252 ./usr/lib/klibc/include/bits/limits.h
 -rw-r--r-- root       root               29 ./usr/lib/klibc/include/bits/link.h
@@ -288,9 +289,9 @@ drwxr-xr-x root       root              120 ./usr/lib/klibc/include/bits64/bitsi
 -rw-r--r-- root       root              391 ./usr/lib/klibc/include/bits/ptrace.h
 -rw-r--r-- root       root              285 ./usr/lib/klibc/include/bits/reg.h
 -rw-r--r-- root       root                0 ./usr/lib/klibc/include/bits/resource.h
--rw-r--r-- root       root              371 ./usr/lib/klibc/include/bits/sem.h
+-rw-r--r-- root       root              232 ./usr/lib/klibc/include/bits/sem.h
 -rw-r--r-- root       root               36 ./usr/lib/klibc/include/bits/setjmp.h
--rw-r--r-- root       root              521 ./usr/lib/klibc/include/bits/shm.h
+-rw-r--r-- root       root              520 ./usr/lib/klibc/include/bits/shm.h
 -rw-r--r-- root       root             3170 ./usr/lib/klibc/include/bits/signal.h
 -rw-r--r-- root       root              239 ./usr/lib/klibc/include/bits/socket.h
 -rw-r--r-- root       root               29 ./usr/lib/klibc/include/bits/soundcard.h
@@ -2147,7 +2148,7 @@ drwxr-xr-x root       root             1600 ./usr/lib/klibc/include/sys
 -rw-r--r-- root       root              315 ./usr/lib/klibc/include/sys/inotify.h
 -rw-r--r-- root       root              271 ./usr/lib/klibc/include/sys/ioctl.h
 -rw-r--r-- root       root              219 ./usr/lib/klibc/include/sys/io.h
--rw-r--r-- root       root              644 ./usr/lib/klibc/include/sys/ipc.h
+-rw-r--r-- root       root              651 ./usr/lib/klibc/include/sys/ipc.h
 -rw-r--r-- root       root               21 ./usr/lib/klibc/include/sys/kd.h
 -rw-r--r-- root       root              409 ./usr/lib/klibc/include/sys/klog.h
 -rw-r--r-- root       root             1631 ./usr/lib/klibc/include/syslog.h
@@ -2155,7 +2156,7 @@ drwxr-xr-x root       root             1600 ./usr/lib/klibc/include/sys
 -rw-r--r-- root       root              510 ./usr/lib/klibc/include/sys/membarrier.h
 -rw-r--r-- root       root              686 ./usr/lib/klibc/include/sys/mman.h
 -rw-r--r-- root       root             2402 ./usr/lib/klibc/include/sys/mount.h
--rw-r--r-- root       root              891 ./usr/lib/klibc/include/sys/msg.h
+-rw-r--r-- root       root              937 ./usr/lib/klibc/include/sys/msg.h
 -rw-r--r-- root       root             5191 ./usr/lib/klibc/include/sys/mtio.h
 -rw-r--r-- root       root              141 ./usr/lib/klibc/include/sys/param.h
 -rw-r--r-- root       root             1381 ./usr/lib/klibc/include/sys/personality.h
@@ -2170,9 +2171,9 @@ drwxr-xr-x root       root             1600 ./usr/lib/klibc/include/sys
 -rw-r--r-- root       root              110 ./usr/lib/klibc/include/sys/reg.h
 -rw-r--r-- root       root              358 ./usr/lib/klibc/include/sys/resource.h
 -rw-r--r-- root       root              373 ./usr/lib/klibc/include/sys/select.h
--rw-r--r-- root       root             1038 ./usr/lib/klibc/include/sys/sem.h
+-rw-r--r-- root       root             1084 ./usr/lib/klibc/include/sys/sem.h
 -rw-r--r-- root       root              236 ./usr/lib/klibc/include/sys/sendfile.h
--rw-r--r-- root       root             1398 ./usr/lib/klibc/include/sys/shm.h
+-rw-r--r-- root       root             1444 ./usr/lib/klibc/include/sys/shm.h
 -rw-r--r-- root       root              845 ./usr/lib/klibc/include/sys/signalfd.h
 -rw-r--r-- root       root               89 ./usr/lib/klibc/include/sys/signal.h
 -rw-r--r-- root       root             8905 ./usr/lib/klibc/include/sys/socket.h

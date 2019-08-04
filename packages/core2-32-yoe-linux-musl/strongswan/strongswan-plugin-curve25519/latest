@@ -1,8 +1,8 @@
 PV = 5.8.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.23+git0+0ce49d0a30) strongswan
+RDEPENDS = musl (>= 1.1.23+git1+6fcb440d91) strongswan
 RRECOMMENDS = 
 PKGSIZE = 132917
 FILES = /usr/lib/ipsec/plugins/libstrongswan-curve25519.so /etc/strongswan.d/charon/curve25519.conf

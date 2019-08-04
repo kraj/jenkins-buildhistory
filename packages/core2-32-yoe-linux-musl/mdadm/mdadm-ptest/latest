@@ -1,8 +1,8 @@
 PV = 4.1
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = bash e2fsprogs-mke2fs mdadm musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = bash e2fsprogs-mke2fs mdadm musl (>= 1.1.23+git1+6fcb440d91)
 RRECOMMENDS = coreutils kernel-module-linear kernel-module-loop kernel-module-raid0 kernel-module-raid1 kernel-module-raid10 kernel-module-raid456 ptest-runner util-linux
 PKGSIZE = 240807
 FILES = /usr/lib/mdadm/ptest
