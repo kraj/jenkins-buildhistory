@@ -2,9 +2,9 @@ PE = 1
 PV = 2.60.6
 PR = r0
 PKG = libglib-2.0-dev
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = glib-2.0-dev (=2.60.6)
-RDEPENDS = glib-2.0 (= 1:2.60.6-r0.1) glib-2.0 (>= 2.60.6) musl (>= 1.1.23+git0+0ce49d0a30)
+RDEPENDS = glib-2.0 (= 1:2.60.6-r0.2) glib-2.0 (>= 2.60.6) musl (>= 1.1.23+git0+0ce49d0a30)
 RRECOMMENDS = bash-completion-dev coreutils-dev dbus-dev dbus-lib-dev glib-2.0-locale-el-dev glib-2.0-locale-fr-dev glib-2.0-locale-hr-dev glib-2.0-locale-ja-dev glib-2.0-locale-lt-dev glib-2.0-locale-pl-dev glib-2.0-locale-ru-dev glib-2.0-locale-th-dev gnome-desktop-testing-dev libffi-dev libgcc-dev libpcre-dev musl-dev python3-dev python3-distutils-dev python3-xml-dev shared-mime-info-dev tzdata-americas-dev tzdata-asia-dev tzdata-dev tzdata-europe-dev tzdata-posix-dev util-linux-dev zlib-dev
 PKGSIZE = 2230995
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/glib-2.0/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/glib-2.0/include /usr/lib/gio/modules/lib*.so /usr/lib/gio/modules/*.la /usr/bin/glib-genmarshal /usr/bin/glib-gettextize /usr/bin/glib-mkenums /usr/bin/glib-compile-resources /usr/share/glib-2.0/gettext/po/Makefile.in.in /usr/share/glib-2.0/schemas/gschema.dtd /usr/share/glib-2.0/valgrind/glib.supp /usr/share/gettext/its
