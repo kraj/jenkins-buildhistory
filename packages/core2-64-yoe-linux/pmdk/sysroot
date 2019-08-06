@@ -26,7 +26,7 @@ drwxr-xr-x -          -                 360 ./usr/include/libpmemobj
 -rw-r--r-- -          -                9527 ./usr/include/libpmempool.h
 -rw-r--r-- -          -                5075 ./usr/include/libvmem.h
 -rw-r--r-- -          -                4280 ./usr/include/libvmmalloc.h
-drwxr-xr-x -          -                 640 ./usr/lib
+drwxr-xr-x -          -                 620 ./usr/lib
 -rwxr-xr-x -          -             4400476 ./usr/lib/libpmem.a
 -rwxr-xr-x -          -             1544984 ./usr/lib/libpmemblk.a
 -rwxr-xr-x -          -              137944 ./usr/lib/libpmemblk.so.1.0.0
@@ -63,35 +63,6 @@ drwxr-xr-x -          -                 180 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 282 ./usr/lib/pkgconfig/libpmempool.pc
 -rw-r--r-- -          -                 235 ./usr/lib/pkgconfig/libvmem.pc
 -rw-r--r-- -          -                 247 ./usr/lib/pkgconfig/libvmmalloc.pc
-drwxr-xr-x -          -                 600 ./usr/lib/pmdk_debug
--rwxr-xr-x -          -             2409908 ./usr/lib/pmdk_debug/libpmem.a
--rwxr-xr-x -          -              862952 ./usr/lib/pmdk_debug/libpmemblk.a
--rwxr-xr-x -          -              240568 ./usr/lib/pmdk_debug/libpmemblk.so.1.0.0
-lrwxrwxrwx -          -                  19 ./usr/lib/pmdk_debug/libpmemblk.so.1 -> libpmemblk.so.1.0.0
-lrwxrwxrwx -          -                  15 ./usr/lib/pmdk_debug/libpmemblk.so -> libpmemblk.so.1
--rwxr-xr-x -          -              782874 ./usr/lib/pmdk_debug/libpmemlog.a
--rwxr-xr-x -          -              215944 ./usr/lib/pmdk_debug/libpmemlog.so.1.0.0
-lrwxrwxrwx -          -                  19 ./usr/lib/pmdk_debug/libpmemlog.so.1 -> libpmemlog.so.1.0.0
-lrwxrwxrwx -          -                  15 ./usr/lib/pmdk_debug/libpmemlog.so -> libpmemlog.so.1
--rwxr-xr-x -          -             1779068 ./usr/lib/pmdk_debug/libpmemobj.a
--rwxr-xr-x -          -              453640 ./usr/lib/pmdk_debug/libpmemobj.so.1.0.0
-lrwxrwxrwx -          -                  19 ./usr/lib/pmdk_debug/libpmemobj.so.1 -> libpmemobj.so.1.0.0
-lrwxrwxrwx -          -                  15 ./usr/lib/pmdk_debug/libpmemobj.so -> libpmemobj.so.1
--rwxr-xr-x -          -             3134060 ./usr/lib/pmdk_debug/libpmempool.a
--rwxr-xr-x -          -              519832 ./usr/lib/pmdk_debug/libpmempool.so.1.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/pmdk_debug/libpmempool.so.1 -> libpmempool.so.1.0.0
-lrwxrwxrwx -          -                  16 ./usr/lib/pmdk_debug/libpmempool.so -> libpmempool.so.1
--rwxr-xr-x -          -              715240 ./usr/lib/pmdk_debug/libpmem.so.1.0.0
-lrwxrwxrwx -          -                  16 ./usr/lib/pmdk_debug/libpmem.so.1 -> libpmem.so.1.0.0
-lrwxrwxrwx -          -                  12 ./usr/lib/pmdk_debug/libpmem.so -> libpmem.so.1
--rwxr-xr-x -          -             2915448 ./usr/lib/pmdk_debug/libvmem.a
--rwxr-xr-x -          -              273144 ./usr/lib/pmdk_debug/libvmem.so.1.0.0
-lrwxrwxrwx -          -                  16 ./usr/lib/pmdk_debug/libvmem.so.1 -> libvmem.so.1.0.0
-lrwxrwxrwx -          -                  12 ./usr/lib/pmdk_debug/libvmem.so -> libvmem.so.1
--rwxr-xr-x -          -             2911674 ./usr/lib/pmdk_debug/libvmmalloc.a
--rwxr-xr-x -          -              269080 ./usr/lib/pmdk_debug/libvmmalloc.so.1.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/pmdk_debug/libvmmalloc.so.1 -> libvmmalloc.so.1.0.0
-lrwxrwxrwx -          -                  16 ./usr/lib/pmdk_debug/libvmmalloc.so -> libvmmalloc.so.1
 drwxr-xr-x -          -                  60 ./usr/share
 drwxr-xr-x -          -                 280 ./usr/share/pmreorder
 -rw-r--r-- -          -                8156 ./usr/share/pmreorder/binaryoutputhandler.py
