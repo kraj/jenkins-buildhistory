@@ -31,13 +31,13 @@ drwxr-xr-x -          -                  60 ./usr/include/opensaf
 -rw-r--r-- -          -                2982 ./usr/include/saImmOm_A_2_17.h
 -rw-r--r-- -          -                8313 ./usr/include/saImmOm.h
 -rw-r--r-- -          -                5249 ./usr/include/saLck.h
--rw-r--r-- -          -                8074 ./usr/include/saLog.h
+-rw-r--r-- -          -                8106 ./usr/include/saLog.h
 -rw-r--r-- -          -                8863 ./usr/include/saMsg.h
 -rw-r--r-- -          -               33936 ./usr/include/saNtf.h
 -rw-r--r-- -          -                9698 ./usr/include/saPlm.h
 -rw-r--r-- -          -                5497 ./usr/include/saSmf.h
 drwxr-xr-x -          -                1520 ./usr/lib
--rwxr-xr-x -          -               32100 ./usr/lib/libamf_common.so.0.0.0
+-rwxr-xr-x -          -               36228 ./usr/lib/libamf_common.so.0.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/libamf_common.so.0 -> libamf_common.so.0.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/libamf_common.so -> libamf_common.so.0.0.0
 -rwxr-xr-x -          -               62812 ./usr/lib/libckpt_common.so.0.0.0
@@ -136,7 +136,7 @@ drwxr-xr-x -          -                 480 ./usr/lib/opensaf/clc-cli
 drwxr-xr-x -          -                  60 ./usr/lib/opensaf/clm-scripts
 -rwxr-xr-x -          -                  74 ./usr/lib/opensaf/clm-scripts/osafclm_test
 -rwxr-xr-x -          -               11162 ./usr/lib/opensaf/configure_tipc
--rwxr-xr-x -          -               32100 ./usr/lib/opensaf/libamf_common.so.0.0.0
+-rwxr-xr-x -          -               36228 ./usr/lib/opensaf/libamf_common.so.0.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/opensaf/libamf_common.so.0 -> libamf_common.so.0.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/opensaf/libamf_common.so -> libamf_common.so.0.0.0
 -rwxr-xr-x -          -               62812 ./usr/lib/opensaf/libckpt_common.so.0.0.0
@@ -176,8 +176,8 @@ lrwxrwxrwx -          -                  24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x -          -                6676 ./usr/lib/opensaf/opensaf_reboot
 -rwxr-xr-x -          -                1081 ./usr/lib/opensaf/opensaf_sc_active
 -rwxr-xr-x -          -                2265 ./usr/lib/opensaf/opensaf_scale_out
--rwxr-xr-x -          -              789124 ./usr/lib/opensaf/osafamfd
--rwxr-xr-x -          -              296696 ./usr/lib/opensaf/osafamfnd
+-rwxr-xr-x -          -              809640 ./usr/lib/opensaf/osafamfd
+-rwxr-xr-x -          -              300792 ./usr/lib/opensaf/osafamfnd
 -rwxr-xr-x -          -                9788 ./usr/lib/opensaf/osafamfwd
 -rwxr-xr-x -          -               91816 ./usr/lib/opensaf/osafckptd
 -rwxr-xr-x -          -              112212 ./usr/lib/opensaf/osafckptnd
@@ -185,18 +185,18 @@ lrwxrwxrwx -          -                  24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x -          -               26236 ./usr/lib/opensaf/osafclmna
 -rwxr-xr-x -          -              108108 ./usr/lib/opensaf/osafdtmd
 -rwxr-xr-x -          -               98124 ./usr/lib/opensaf/osafevtd
--rwxr-xr-x -          -               34448 ./usr/lib/opensaf/osaffmd
+-rwxr-xr-x -          -               38596 ./usr/lib/opensaf/osaffmd
 -rwxr-xr-x -          -               83524 ./usr/lib/opensaf/osafimmd
 -rwxr-xr-x -          -               54984 ./usr/lib/opensaf/osafimmloadd
--rwxr-xr-x -          -              489176 ./usr/lib/opensaf/osafimmnd
+-rwxr-xr-x -          -              493276 ./usr/lib/opensaf/osafimmnd
 -rwxr-xr-x -          -               59080 ./usr/lib/opensaf/osafimmpbed
 -rwxr-xr-x -          -               50844 ./usr/lib/opensaf/osaflckd
 -rwxr-xr-x -          -               79480 ./usr/lib/opensaf/osaflcknd
--rwxr-xr-x -          -              290960 ./usr/lib/opensaf/osaflogd
+-rwxr-xr-x -          -              295056 ./usr/lib/opensaf/osaflogd
 -rwxr-xr-x -          -               73600 ./usr/lib/opensaf/osafmsgd
 -rwxr-xr-x -          -               79484 ./usr/lib/opensaf/osafmsgnd
 -rwxr-xr-x -          -              141148 ./usr/lib/opensaf/osafntfd
--rwxr-xr-x -          -               38616 ./usr/lib/opensaf/osafrded
+-rwxr-xr-x -          -               42712 ./usr/lib/opensaf/osafrded
 -rwxr-xr-x -          -              841484 ./usr/lib/opensaf/osafsmfd
 -rwxr-xr-x -          -               18044 ./usr/lib/opensaf/osafsmfnd
 -rwxr-xr-x -          -               26284 ./usr/lib/opensaf/osaftransportd
@@ -256,7 +256,7 @@ drwxr-xr-x -          -                 960 ./usr/share/opensaf/immxml/services
 -rw-r--r-- -          -                1164 ./usr/share/opensaf/immxml/services/glsv_pl_template.xml
 -rw-r--r-- -          -                1515 ./usr/share/opensaf/immxml/services/glsv_sc_template.xml
 -rw-r--r-- -          -                 973 ./usr/share/opensaf/immxml/services/imm_copyright.xml
--rw-r--r-- -          -                1343 ./usr/share/opensaf/immxml/services/immsv_classes.xml
+-rw-r--r-- -          -                1489 ./usr/share/opensaf/immxml/services/immsv_classes.xml
 -rw-r--r-- -          -                5133 ./usr/share/opensaf/immxml/services/immsv_objects.xml
 -rw-r--r-- -          -                 830 ./usr/share/opensaf/immxml/services/immsv_pl_template.xml
 -rw-r--r-- -          -                1212 ./usr/share/opensaf/immxml/services/immsv_sc_template.xml
@@ -279,7 +279,7 @@ drwxr-xr-x -          -                 960 ./usr/share/opensaf/immxml/services
 -rw-r--r-- -          -                1208 ./usr/share/opensaf/immxml/services/smfsv_sc_template.xml
 -rwxr-xr-x -          -                1158 ./usr/share/opensaf/immxml/verify.sh
 drwxr-xr-x -          -                 420 ./usr/share/opensaf/samples
-drwxr-xr-x -          -                 220 ./usr/share/opensaf/samples/amf
+drwxr-xr-x -          -                 240 ./usr/share/opensaf/samples/amf
 drwxr-xr-x -          -                 120 ./usr/share/opensaf/samples/amf/api_demo
 -rw-r--r-- -          -                3228 ./usr/share/opensaf/samples/amf/api_demo/amf_sc_status_demo.c
 -rw-r--r-- -          -                2487 ./usr/share/opensaf/samples/amf/api_demo/amf_sc_status_dispatch_demo.c
@@ -288,7 +288,15 @@ drwxr-xr-x -          -                 120 ./usr/share/opensaf/samples/amf/api_
 drwxr-xr-x -          -                  80 ./usr/share/opensaf/samples/amf/campaigns
 -rw-r--r-- -          -               23667 ./usr/share/opensaf/samples/amf/campaigns/NwayInstallationCampaign.xml
 -rw-r--r-- -          -                 478 ./usr/share/opensaf/samples/amf/campaigns/README
--rw-r--r-- -          -                 817 ./usr/share/opensaf/samples/amf/Makefile.am
+drwxr-xr-x -          -                 180 ./usr/share/opensaf/samples/amf/container
+-rw-r--r-- -          -               13164 ./usr/share/opensaf/samples/amf/container/amf_contained.c
+-rw-r--r-- -          -               16562 ./usr/share/opensaf/samples/amf/container/amf_container.c
+-rwxr-xr-x -          -                1935 ./usr/share/opensaf/samples/amf/container/amf_container_script
+-rw-r--r-- -          -                9438 ./usr/share/opensaf/samples/amf/container/AppConfig-contained-2N.xml
+-rw-r--r-- -          -                9582 ./usr/share/opensaf/samples/amf/container/AppConfig-container.xml
+-rw-r--r-- -          -                1210 ./usr/share/opensaf/samples/amf/container/Makefile.am
+-rw-r--r-- -          -                2522 ./usr/share/opensaf/samples/amf/container/README
+-rw-r--r-- -          -                 827 ./usr/share/opensaf/samples/amf/Makefile.am
 drwxr-xr-x -          -                 100 ./usr/share/opensaf/samples/amf/non_sa_aware
 -rw-r--r-- -          -                 717 ./usr/share/opensaf/samples/amf/non_sa_aware/Makefile.am
 -rwxr-xr-x -          -               14476 ./usr/share/opensaf/samples/amf/non_sa_aware/net-snmp-longDN.xml
@@ -306,7 +314,7 @@ drwxr-xr-x -          -                 220 ./usr/share/opensaf/samples/amf/prox
 -rw-r--r-- -          -                 470 ./usr/share/opensaf/samples/amf/proxy/test.sh
 -rw-r--r-- -          -                 278 ./usr/share/opensaf/samples/amf/README
 drwxr-xr-x -          -                 200 ./usr/share/opensaf/samples/amf/sa_aware
--rw-r--r-- -          -               14048 ./usr/share/opensaf/samples/amf/sa_aware/amf_demo.c
+-rw-r--r-- -          -               14477 ./usr/share/opensaf/samples/amf/sa_aware/amf_demo.c
 -rwxr-xr-x -          -                1739 ./usr/share/opensaf/samples/amf/sa_aware/amf_demo_script
 -rwxr-xr-x -          -               19908 ./usr/share/opensaf/samples/amf/sa_aware/AppConfig-2N-longDN.xml
 -rw-r--r-- -          -                9049 ./usr/share/opensaf/samples/amf/sa_aware/AppConfig-2N.xml
@@ -324,7 +332,7 @@ drwxr-xr-x -          -                 160 ./usr/share/opensaf/samples/amf/wrap
 -rw-r--r-- -          -                   0 ./usr/share/opensaf/samples/AUTHORS
 -rwxr-xr-x -          -                  30 ./usr/share/opensaf/samples/bootstrap.sh
 -rw-r--r-- -          -                   0 ./usr/share/opensaf/samples/ChangeLog
--rw-r--r-- -          -                2002 ./usr/share/opensaf/samples/configure.ac
+-rw-r--r-- -          -                2028 ./usr/share/opensaf/samples/configure.ac
 -rw-r--r-- -          -               26440 ./usr/share/opensaf/samples/COPYING.LIB
 drwxr-xr-x -          -                 120 ./usr/share/opensaf/samples/cpsv
 drwxr-xr-x -          -                 100 ./usr/share/opensaf/samples/cpsv/ckpt_demo
