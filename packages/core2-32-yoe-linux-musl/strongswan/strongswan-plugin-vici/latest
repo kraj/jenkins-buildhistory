@@ -1,8 +1,8 @@
 PV = 5.8.0
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.23+git1+6fcb440d91) strongswan
+RDEPENDS = musl (>= 1.1.23+git2+f522de81ac) strongswan
 RRECOMMENDS = 
 PKGSIZE = 149365
 FILES = /usr/lib/ipsec/plugins/libstrongswan-vici.so /etc/strongswan.d/charon/vici.conf

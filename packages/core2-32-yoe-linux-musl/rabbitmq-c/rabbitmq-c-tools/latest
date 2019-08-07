@@ -1,9 +1,9 @@
 PV = 0.9.0
 PR = r0
 PKG = librabbitmq-tools
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = rabbitmq-c-tools (=0.9.0)
-RDEPENDS = musl (>= 1.1.23+git1+6fcb440d91) popt (>= 1.16) rabbitmq-c (>= 0.9.0)
+RDEPENDS = musl (>= 1.1.23+git2+f522de81ac) popt (>= 1.16) rabbitmq-c (>= 0.9.0)
 RRECOMMENDS = 
 PKGSIZE = 95100
 FILES = /usr/bin

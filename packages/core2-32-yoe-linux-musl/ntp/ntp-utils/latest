@@ -1,8 +1,8 @@
 PV = 4.2.8p13
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = ntp-bin
-RDEPENDS = libcrypto (>= 1.1.1c) musl (>= 1.1.23+git1+6fcb440d91) ntpq perl
+RDEPENDS = libcrypto (>= 1.1.1c) musl (>= 1.1.23+git2+f522de81ac) ntpq perl
 RRECOMMENDS = 
 RREPLACES = ntp-bin
 RCONFLICTS = ntp-bin

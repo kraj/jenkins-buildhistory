@@ -1,9 +1,9 @@
 PV = 1.9.0
 PR = r0
 PKG = libpococrypto60
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = poco-crypto (=1.9.0)
-RDEPENDS = libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) libssl (>= 1.1.1c) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git1+6fcb440d91) poco-foundation (>= 1.9.0)
+RDEPENDS = libcrypto (>= 1.1.1c) libgcc (>= 9.1.0) libssl (>= 1.1.1c) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git2+f522de81ac) poco-foundation (>= 1.9.0)
 RRECOMMENDS = 
 PKGSIZE = 226912
 FILES = /usr/lib/libPocoCrypto.so.60

@@ -1,8 +1,8 @@
 PV = 1.8.22
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = pcsc-lite-systemd
-RDEPENDS = libudev (>= 242+0+db2e367bfc) musl (>= 1.1.23+git1+6fcb440d91)
+RDEPENDS = libudev (>= 242+0+db2e367bfc) musl (>= 1.1.23+git2+f522de81ac)
 RRECOMMENDS = ccid
 RREPLACES = pcsc-lite-systemd
 RCONFLICTS = pcsc-lite-systemd

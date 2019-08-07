@@ -1,9 +1,9 @@
 PV = 11.4
 PR = r0
 PKG = libecpg-compat3
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libecpg-compat (=11.4)
-RDEPENDS = libecpg (>= 11.4) libpgtypes (>= 11.4) libpq (>= 11.4) musl (>= 1.1.23+git1+6fcb440d91)
+RDEPENDS = libecpg (>= 11.4) libpgtypes (>= 11.4) libpq (>= 11.4) musl (>= 1.1.23+git2+f522de81ac)
 RRECOMMENDS = 
 PKGSIZE = 26142
 FILES = /usr/lib/libecpg_compat*.so.*

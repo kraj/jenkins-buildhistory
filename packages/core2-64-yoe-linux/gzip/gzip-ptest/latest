@@ -1,8 +1,8 @@
 PV = 1.10
 PR = r0
-PKGR = r0.49
+PKGR = r0.50
 RPROVIDES = 
-RDEPENDS = gzip make
+RDEPENDS = diffutils grep gzip make perl perl-ptest
 RRECOMMENDS = ptest-runner
 PKGSIZE = 189446
 FILES = /usr/lib/gzip/ptest
