@@ -5,13 +5,13 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/python3.7
 drwxr-xr-x root       root               80 ./usr/lib/python3.7/site-packages
 drwxr-xr-x root       root              380 ./usr/lib/python3.7/site-packages/pbr
-drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info
--rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info/dependency_links.txt
--rw-r--r-- root       root              149 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info/entry_points.txt
--rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info/not-zip-safe
--rw-r--r-- root       root             3495 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info/PKG-INFO
--rw-r--r-- root       root             3500 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info/SOURCES.txt
--rw-r--r-- root       root                4 ./usr/lib/python3.7/site-packages/pbr-5.4.1-py3.7.egg-info/top_level.txt
+drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info
+-rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info/dependency_links.txt
+-rw-r--r-- root       root              149 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info/entry_points.txt
+-rw-r--r-- root       root                1 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info/not-zip-safe
+-rw-r--r-- root       root             3495 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info/PKG-INFO
+-rw-r--r-- root       root             3500 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info/SOURCES.txt
+-rw-r--r-- root       root                4 ./usr/lib/python3.7/site-packages/pbr-5.4.2-py3.7.egg-info/top_level.txt
 -rw-r--r-- root       root            11935 ./usr/lib/python3.7/site-packages/pbr/builddoc.py
 drwxr-xr-x root       root              100 ./usr/lib/python3.7/site-packages/pbr/cmd
 -rw-r--r-- root       root                0 ./usr/lib/python3.7/site-packages/pbr/cmd/__init__.py
@@ -39,7 +39,7 @@ drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/pb
 -rw-r--r-- root       root              818 ./usr/lib/python3.7/site-packages/pbr/hooks/__pycache__/metadata.cpython-37.pyc
 -rw-r--r-- root       root                0 ./usr/lib/python3.7/site-packages/pbr/__init__.py
 -rw-r--r-- root       root             2371 ./usr/lib/python3.7/site-packages/pbr/options.py
--rw-r--r-- root       root            30145 ./usr/lib/python3.7/site-packages/pbr/packaging.py
+-rw-r--r-- root       root            31266 ./usr/lib/python3.7/site-packages/pbr/packaging.py
 -rw-r--r-- root       root             1250 ./usr/lib/python3.7/site-packages/pbr/pbr_json.py
 drwxr-xr-x root       root              300 ./usr/lib/python3.7/site-packages/pbr/__pycache__
 -rw-r--r-- root       root             7418 ./usr/lib/python3.7/site-packages/pbr/__pycache__/builddoc.cpython-37.pyc
@@ -49,7 +49,7 @@ drwxr-xr-x root       root              300 ./usr/lib/python3.7/site-packages/pb
 -rw-r--r-- root       root             8833 ./usr/lib/python3.7/site-packages/pbr/__pycache__/git.cpython-37.pyc
 -rw-r--r-- root       root              135 ./usr/lib/python3.7/site-packages/pbr/__pycache__/__init__.cpython-37.pyc
 -rw-r--r-- root       root              407 ./usr/lib/python3.7/site-packages/pbr/__pycache__/options.cpython-37.pyc
--rw-r--r-- root       root            24707 ./usr/lib/python3.7/site-packages/pbr/__pycache__/packaging.cpython-37.pyc
+-rw-r--r-- root       root            25277 ./usr/lib/python3.7/site-packages/pbr/__pycache__/packaging.cpython-37.pyc
 -rw-r--r-- root       root              631 ./usr/lib/python3.7/site-packages/pbr/__pycache__/pbr_json.cpython-37.pyc
 -rw-r--r-- root       root             2005 ./usr/lib/python3.7/site-packages/pbr/__pycache__/sphinxext.cpython-37.pyc
 -rw-r--r-- root       root             4698 ./usr/lib/python3.7/site-packages/pbr/__pycache__/testr_command.cpython-37.pyc
@@ -68,7 +68,7 @@ drwxr-xr-x root       root              320 ./usr/lib/python3.7/site-packages/pb
 -rw-r--r-- root       root             4306 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_files.cpython-37.pyc
 -rw-r--r-- root       root             1665 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_hooks.cpython-37.pyc
 -rw-r--r-- root       root             7003 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_integration.cpython-37.pyc
--rw-r--r-- root       root            33055 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_packaging.cpython-37.pyc
+-rw-r--r-- root       root            41248 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_packaging.cpython-37.pyc
 -rw-r--r-- root       root              931 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_pbr_json.cpython-37.pyc
 -rw-r--r-- root       root            13718 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_setup.cpython-37.pyc
 -rw-r--r-- root       root             6706 ./usr/lib/python3.7/site-packages/pbr/tests/__pycache__/test_util.cpython-37.pyc
@@ -121,7 +121,7 @@ drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/pb
 drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/pbr/tests/testpackage/src
 -rw-r--r-- root       root              673 ./usr/lib/python3.7/site-packages/pbr/tests/testpackage/src/testext.c
 -rw-r--r-- root       root               48 ./usr/lib/python3.7/site-packages/pbr/tests/testpackage/test-requirements.txt
--rw-r--r-- root       root            36602 ./usr/lib/python3.7/site-packages/pbr/tests/test_packaging.py
+-rw-r--r-- root       root            46893 ./usr/lib/python3.7/site-packages/pbr/tests/test_packaging.py
 -rw-r--r-- root       root             1162 ./usr/lib/python3.7/site-packages/pbr/tests/test_pbr_json.py
 -rw-r--r-- root       root            18458 ./usr/lib/python3.7/site-packages/pbr/tests/test_setup.py
 -rw-r--r-- root       root             7311 ./usr/lib/python3.7/site-packages/pbr/tests/test_util.py
