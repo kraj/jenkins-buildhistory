@@ -1,9 +1,9 @@
 PV = 1.19.7
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.30)
+RDEPENDS = glibc (>= 2.30) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 30984
-FILES = /usr/sbin/start-stop-daemon
-FILELIST = /usr/sbin/start-stop-daemon
+PKGSIZE = 30988
+FILES = /usr/sbin/start-stop-daemon.dpkg
+FILELIST = /usr/sbin/start-stop-daemon.dpkg
