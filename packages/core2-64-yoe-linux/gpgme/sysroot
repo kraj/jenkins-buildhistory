@@ -17,7 +17,7 @@ drwxr-xr-x -          -                 740 ./usr/include/gpgme++
 -rw-r--r-- -          -                2266 ./usr/include/gpgme++/error.h
 -rw-r--r-- -          -                5517 ./usr/include/gpgme++/eventloopinteractor.h
 -rw-r--r-- -          -                2025 ./usr/include/gpgme++/exception.h
--rw-r--r-- -          -                9193 ./usr/include/gpgme++/global.h
+-rw-r--r-- -          -                9305 ./usr/include/gpgme++/global.h
 -rw-r--r-- -          -                2020 ./usr/include/gpgme++/gpgadduserideditinteractor.h
 -rw-r--r-- -          -                2369 ./usr/include/gpgme++/gpgagentgetinfoassuantransaction.h
 -rw-r--r-- -          -                2378 ./usr/include/gpgme++/gpggencardkeyinteractor.h
@@ -51,12 +51,12 @@ drwxr-xr-x -          -                  60 ./usr/lib/cmake
 drwxr-xr-x -          -                  80 ./usr/lib/cmake/Gpgmepp
 -rw-r--r-- -          -                3610 ./usr/lib/cmake/Gpgmepp/GpgmeppConfig.cmake
 -rw-r--r-- -          -                1148 ./usr/lib/cmake/Gpgmepp/GpgmeppConfigVersion.cmake
--rwxr-xr-x -          -              395496 ./usr/lib/libgpgmepp.so.6.9.0
-lrwxrwxrwx -          -                  19 ./usr/lib/libgpgmepp.so.6 -> libgpgmepp.so.6.9.0
-lrwxrwxrwx -          -                  19 ./usr/lib/libgpgmepp.so -> libgpgmepp.so.6.9.0
--rwxr-xr-x -          -              314752 ./usr/lib/libgpgme.so.11.22.0
-lrwxrwxrwx -          -                  19 ./usr/lib/libgpgme.so.11 -> libgpgme.so.11.22.0
-lrwxrwxrwx -          -                  19 ./usr/lib/libgpgme.so -> libgpgme.so.11.22.0
+-rwxr-xr-x -          -              395496 ./usr/lib/libgpgmepp.so.6.10.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libgpgmepp.so.6 -> libgpgmepp.so.6.10.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libgpgmepp.so -> libgpgmepp.so.6.10.0
+-rwxr-xr-x -          -              326976 ./usr/lib/libgpgme.so.11.22.1
+lrwxrwxrwx -          -                  19 ./usr/lib/libgpgme.so.11 -> libgpgme.so.11.22.1
+lrwxrwxrwx -          -                  19 ./usr/lib/libgpgme.so -> libgpgme.so.11.22.1
 drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 323 ./usr/lib/pkgconfig/gpgme-glib.pc
 -rw-r--r-- -          -                 325 ./usr/lib/pkgconfig/gpgme.pc
@@ -64,7 +64,7 @@ drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
 drwxr-xr-x -          -                  60 ./usr/lib/python3.7
 drwxr-xr-x -          -                  80 ./usr/lib/python3.7/site-packages
 drwxr-xr-x -          -                 260 ./usr/lib/python3.7/site-packages/gpg
--rw-r--r-- -          -                2267 ./usr/lib/python3.7/site-packages/gpg-1.13.0_unknown-py3.7.egg-info
+-rw-r--r-- -          -                2267 ./usr/lib/python3.7/site-packages/gpg-1.13.1_unknown-py3.7.egg-info
 -rw-r--r-- -          -                1957 ./usr/lib/python3.7/site-packages/gpg/callbacks.py
 drwxr-xr-x -          -                 360 ./usr/lib/python3.7/site-packages/gpg/constants
 -rw-r--r-- -          -                 946 ./usr/lib/python3.7/site-packages/gpg/constants/create.py
@@ -116,15 +116,15 @@ drwxr-xr-x -          -                  80 ./usr/lib/python3.7/site-packages/gp
 -rw-r--r-- -          -                 318 ./usr/lib/python3.7/site-packages/gpg/constants/tofu/__pycache__/__init__.cpython-37.pyc
 -rw-r--r-- -          -                 356 ./usr/lib/python3.7/site-packages/gpg/constants/tofu/__pycache__/policy.cpython-37.pyc
 -rw-r--r-- -          -                1086 ./usr/lib/python3.7/site-packages/gpg/constants/validity.py
--rw-r--r-- -          -               62178 ./usr/lib/python3.7/site-packages/gpg/core.py
--rw-r--r-- -          -                6240 ./usr/lib/python3.7/site-packages/gpg/errors.py
+-rw-r--r-- -          -               62058 ./usr/lib/python3.7/site-packages/gpg/core.py
+-rw-r--r-- -          -                6243 ./usr/lib/python3.7/site-packages/gpg/errors.py
 -rwxr-xr-x -          -             1058216 ./usr/lib/python3.7/site-packages/gpg/_gpgme.cpython-37m-x86_64-linux-gnu.so
 -rw-r--r-- -          -              245003 ./usr/lib/python3.7/site-packages/gpg/gpgme.py
 -rw-r--r-- -          -                5011 ./usr/lib/python3.7/site-packages/gpg/__init__.py
 drwxr-xr-x -          -                 200 ./usr/lib/python3.7/site-packages/gpg/__pycache__
 -rw-r--r-- -          -                1186 ./usr/lib/python3.7/site-packages/gpg/__pycache__/callbacks.cpython-37.pyc
--rw-r--r-- -          -               53079 ./usr/lib/python3.7/site-packages/gpg/__pycache__/core.cpython-37.pyc
--rw-r--r-- -          -                8131 ./usr/lib/python3.7/site-packages/gpg/__pycache__/errors.cpython-37.pyc
+-rw-r--r-- -          -               53196 ./usr/lib/python3.7/site-packages/gpg/__pycache__/core.cpython-37.pyc
+-rw-r--r-- -          -                8132 ./usr/lib/python3.7/site-packages/gpg/__pycache__/errors.cpython-37.pyc
 -rw-r--r-- -          -              196444 ./usr/lib/python3.7/site-packages/gpg/__pycache__/gpgme.cpython-37.pyc
 -rw-r--r-- -          -                4088 ./usr/lib/python3.7/site-packages/gpg/__pycache__/__init__.cpython-37.pyc
 -rw-r--r-- -          -                3879 ./usr/lib/python3.7/site-packages/gpg/__pycache__/results.cpython-37.pyc

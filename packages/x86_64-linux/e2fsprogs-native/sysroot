@@ -1,23 +1,26 @@
 drwxr-xr-x -          -                  60 ./bin
 -rwxr-xr-x -          -               16480 ./bin/chattr.e2fsprogs
-drwxr-xr-x -          -                  60 ./etc
--rw-r--r-- -          -                 812 ./etc/mke2fs.conf
-drwxr-xr-x -          -                 600 ./sbin
+drwxr-xr-x -          -                  80 ./etc
+-rw-r--r-- -          -                 685 ./etc/e2scrub.conf
+-rw-r--r-- -          -                 846 ./etc/mke2fs.conf
+drwxr-xr-x -          -                 640 ./sbin
 -rwxr-xr-x -          -               28768 ./sbin/badblocks
 -rwxr-xr-x -          -              225376 ./sbin/debugfs
 -rwxr-xr-x -          -               32896 ./sbin/dumpe2fs
 -rwxr-xr-x -          -               16480 ./sbin/e2freefrag
--rwxr-xr-x -          -              327776 ./sbin/e2fsck
+-rwxr-xr-x -          -              331872 ./sbin/e2fsck
 -rwxr-xr-x -          -               36960 ./sbin/e2image
 -rwxr-xr-x -          -              106624 ./sbin/e2label
 -rwxr-xr-x -          -               32896 ./sbin/e2mmpstatus
+-rwxr-xr-x -          -                7320 ./sbin/e2scrub
+-rwxr-xr-x -          -                5155 ./sbin/e2scrub_all
 -rwxr-xr-x -          -               20576 ./sbin/e2undo
 -rwxr-xr-x -          -               24672 ./sbin/e4crypt
 -rwxr-xr-x -          -               28768 ./sbin/e4defrag
 -rwxr-xr-x -          -               16480 ./sbin/filefrag
--rwxr-xr-x -          -              327776 ./sbin/fsck.ext2
--rwxr-xr-x -          -              327776 ./sbin/fsck.ext3
--rwxr-xr-x -          -              327776 ./sbin/fsck.ext4
+-rwxr-xr-x -          -              331872 ./sbin/fsck.ext2
+-rwxr-xr-x -          -              331872 ./sbin/fsck.ext3
+-rwxr-xr-x -          -              331872 ./sbin/fsck.ext4
 -rwxr-xr-x -          -               12384 ./sbin/logsave
 -rwxr-xr-x -          -                 155 ./sbin/mke2fs
 -rwxr-xr-x -          -              139360 ./sbin/mke2fs.real
@@ -41,19 +44,19 @@ drwxr-xr-x -          -                 100 ./usr/bin
 drwxr-xr-x -          -                 140 ./usr/include
 -rw-r--r-- -          -                2118 ./usr/include/com_err.h
 drwxr-xr-x -          -                  60 ./usr/include/e2p
--rw-r--r-- -          -                2941 ./usr/include/e2p/e2p.h
+-rw-r--r-- -          -                3139 ./usr/include/e2p/e2p.h
 drwxr-xr-x -          -                  60 ./usr/include/et
 -rw-r--r-- -          -                2118 ./usr/include/et/com_err.h
 drwxr-xr-x -          -                 260 ./usr/include/ext2fs
 -rw-r--r-- -          -               22148 ./usr/include/ext2fs/bitops.h
 -rw-r--r-- -          -               11784 ./usr/include/ext2fs/ext2_err.h
 -rw-r--r-- -          -                2644 ./usr/include/ext2fs/ext2_ext_attr.h
--rw-r--r-- -          -               41307 ./usr/include/ext2fs/ext2_fs.h
--rw-r--r-- -          -               70291 ./usr/include/ext2fs/ext2fs.h
+-rw-r--r-- -          -               41855 ./usr/include/ext2fs/ext2_fs.h
+-rw-r--r-- -          -               71441 ./usr/include/ext2fs/ext2fs.h
 -rw-r--r-- -          -                5391 ./usr/include/ext2fs/ext2_io.h
 -rw-r--r-- -          -                4212 ./usr/include/ext2fs/ext2_types.h
 -rw-r--r-- -          -                4558 ./usr/include/ext2fs/ext3_extents.h
--rw-r--r-- -          -                1522 ./usr/include/ext2fs/hashmap.h
+-rw-r--r-- -          -                1179 ./usr/include/ext2fs/hashmap.h
 -rw-r--r-- -          -                2586 ./usr/include/ext2fs/qcow2.h
 -rw-r--r-- -          -                8871 ./usr/include/ext2fs/tdb.h
 drwxr-xr-x -          -                  80 ./usr/include/ss
@@ -65,12 +68,12 @@ drwxr-xr-x -          -                 400 ./usr/lib
 -rwxr-xr-x -          -               14528 ./usr/lib/libcom_err.so.2.1
 lrwxrwxrwx -          -                  17 ./usr/lib/libcom_err.so.2 -> libcom_err.so.2.1
 lrwxrwxrwx -          -                  15 ./usr/lib/libcom_err.so -> libcom_err.so.2
--r--r--r-- -          -               83810 ./usr/lib/libe2p.a
--rwxr-xr-x -          -               36744 ./usr/lib/libe2p.so.2.3
+-r--r--r-- -          -               87230 ./usr/lib/libe2p.a
+-rwxr-xr-x -          -               36840 ./usr/lib/libe2p.so.2.3
 lrwxrwxrwx -          -                  13 ./usr/lib/libe2p.so.2 -> libe2p.so.2.3
 lrwxrwxrwx -          -                  11 ./usr/lib/libe2p.so -> libe2p.so.2
--r--r--r-- -          -              582386 ./usr/lib/libext2fs.a
--rwxr-xr-x -          -              343704 ./usr/lib/libext2fs.so.2.4
+-r--r--r-- -          -              653292 ./usr/lib/libext2fs.a
+-rwxr-xr-x -          -              413368 ./usr/lib/libext2fs.so.2.4
 lrwxrwxrwx -          -                  16 ./usr/lib/libext2fs.so.2 -> libext2fs.so.2.4
 lrwxrwxrwx -          -                  14 ./usr/lib/libext2fs.so -> libext2fs.so.2
 -r--r--r-- -          -               49880 ./usr/lib/libss.a
