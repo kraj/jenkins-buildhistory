@@ -1,9 +1,9 @@
 PV = 2.16
 PR = r0
 PKG = libmpdclient2
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = libmpdclient (=2.16)
-RDEPENDS = musl (>= 1.1.23+git2+f522de81ac)
+RDEPENDS = musl (>= 1.1.23+git3+d0b547dfb5)
 RRECOMMENDS = 
 PKGSIZE = 128352
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmpdclient /usr/lib/libmpdclient/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

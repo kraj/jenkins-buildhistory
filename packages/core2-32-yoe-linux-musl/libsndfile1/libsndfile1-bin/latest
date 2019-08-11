@@ -1,9 +1,9 @@
 PV = 1.0.28
 PR = r0
 PKG = libsndfile-bin
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = libsndfile1-bin (=1.0.28)
-RDEPENDS = alsa-lib (>= 1.1.9) libsndfile1 (>= 1.0.28) musl (>= 1.1.23+git2+f522de81ac)
+RDEPENDS = alsa-lib (>= 1.1.9) libsndfile1 (>= 1.0.28) musl (>= 1.1.23+git3+d0b547dfb5)
 RRECOMMENDS = 
 PKGSIZE = 199384
 FILES = /usr/bin/* /usr/sbin/*

@@ -1,9 +1,9 @@
 PV = 1.19.7
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.23+git2+f522de81ac)
+RDEPENDS = musl (>= 1.1.23+git3+d0b547dfb5) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 34764
-FILES = /usr/sbin/start-stop-daemon
-FILELIST = /usr/sbin/start-stop-daemon
+PKGSIZE = 34768
+FILES = /usr/sbin/start-stop-daemon.dpkg
+FILELIST = /usr/sbin/start-stop-daemon.dpkg
