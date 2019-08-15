@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/modules
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard
-drwxr-xr-x root       root              560 ./lib/modules/5.0.19-yocto-standard/build
+drwxr-xr-x root       root              580 ./lib/modules/5.0.19-yocto-standard/build
 drwxr-xr-x root       root              560 ./lib/modules/5.0.19-yocto-standard/build/arch
 drwxr-xr-x root       root              220 ./lib/modules/5.0.19-yocto-standard/build/arch/alpha
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/arch/alpha/boot
@@ -1519,7 +1519,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root              620 ./lib/modules/5.0.19-yocto-standard/build/arch/x86
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/boot
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/boot/compressed
--rw-r--r-- root       root             5546 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/boot/compressed/Makefile
+-rw-r--r-- root       root             5613 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/boot/compressed/Makefile
 -rw-r--r-- root       root             5368 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/boot/Makefile
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/crypto
 -rw-r--r-- root       root             5790 ./lib/modules/5.0.19-yocto-standard/build/arch/x86/crypto/Makefile
@@ -1683,7 +1683,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/certs
 -rw-r--r-- root       root             3494 ./lib/modules/5.0.19-yocto-standard/build/certs/Kconfig
 -rw-r--r-- root       root             4167 ./lib/modules/5.0.19-yocto-standard/build/certs/Makefile
--rw-r--r-- root       root            93240 ./lib/modules/5.0.19-yocto-standard/build/.config
+-rw-r--r-- root       root            93229 ./lib/modules/5.0.19-yocto-standard/build/.config
 drwxr-xr-x root       root              120 ./lib/modules/5.0.19-yocto-standard/build/crypto
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/crypto/asymmetric_keys
 -rw-r--r-- root       root             3190 ./lib/modules/5.0.19-yocto-standard/build/crypto/asymmetric_keys/Kconfig
@@ -1693,6 +1693,24 @@ drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root              296 ./lib/modules/5.0.19-yocto-standard/build/crypto/async_tx/Makefile
 -rw-r--r-- root       root            55695 ./lib/modules/5.0.19-yocto-standard/build/crypto/Kconfig
 -rw-r--r-- root       root             6260 ./lib/modules/5.0.19-yocto-standard/build/crypto/Makefile
+drwxr-xr-x root       root              180 ./lib/modules/5.0.19-yocto-standard/build/Documentation
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/cdrom
+-rw-r--r-- root       root              441 ./lib/modules/5.0.19-yocto-standard/build/Documentation/cdrom/Makefile
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/devicetree
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/devicetree/bindings
+-rw-r--r-- root       root              996 ./lib/modules/5.0.19-yocto-standard/build/Documentation/devicetree/bindings/Makefile
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/EDID
+-rw-r--r-- root       root              707 ./lib/modules/5.0.19-yocto-standard/build/Documentation/EDID/Makefile
+drwxr-xr-x root       root              100 ./lib/modules/5.0.19-yocto-standard/build/Documentation/kbuild
+-rw-r--r-- root       root             2256 ./lib/modules/5.0.19-yocto-standard/build/Documentation/kbuild/Kconfig.recursion-issue-01
+-rw-r--r-- root       root             2859 ./lib/modules/5.0.19-yocto-standard/build/Documentation/kbuild/Kconfig.recursion-issue-02
+-rw-r--r-- root       root             1071 ./lib/modules/5.0.19-yocto-standard/build/Documentation/kbuild/Kconfig.select-break
+-rw-r--r-- root       root             4591 ./lib/modules/5.0.19-yocto-standard/build/Documentation/Makefile
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/media
+-rw-r--r-- root       root             2041 ./lib/modules/5.0.19-yocto-standard/build/Documentation/media/Makefile
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/scsi
+drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/Documentation/scsi/scsi_transport_srp
+-rw-r--r-- root       root              193 ./lib/modules/5.0.19-yocto-standard/build/Documentation/scsi/scsi_transport_srp/Makefile
 drwxr-xr-x root       root             2780 ./lib/modules/5.0.19-yocto-standard/build/drivers
 drwxr-xr-x root       root              100 ./lib/modules/5.0.19-yocto-standard/build/drivers/accessibility
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/drivers/accessibility/braille
@@ -5914,7 +5932,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/audit/arch
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/audit/arch/compat
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/audit/arch/compat/generic.h
--rw-r--r-- root       root            93240 ./lib/modules/5.0.19-yocto-standard/build/include/config/auto.conf
+-rw-r--r-- root       root            93229 ./lib/modules/5.0.19-yocto-standard/build/include/config/auto.conf
 -rw-r--r-- root       root            42196 ./lib/modules/5.0.19-yocto-standard/build/include/config/auto.conf.cmd
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/autofs
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/autofs4
@@ -6341,7 +6359,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/fair
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/include/config/fair/group
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fair/group/sched.h
-drwxr-xr-x root       root              140 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb
+drwxr-xr-x root       root              160 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb
 drwxr-xr-x root       root              100 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/cfb
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/cfb/copyarea.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/cfb/fillrect.h
@@ -6351,6 +6369,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/deferred/io.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/notify.h
+-rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/simple.h
 drwxr-xr-x root       root              120 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/sys
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/sys/copyarea.h
 -rw-r--r-- root       root                0 ./lib/modules/5.0.19-yocto-standard/build/include/config/fb/sys/fillrect.h
@@ -8437,7 +8456,7 @@ drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/
 -rw-r--r-- root       root             3458 ./lib/modules/5.0.19-yocto-standard/build/include/dt-bindings/usb/pd.h
 drwxr-xr-x root       root              220 ./lib/modules/5.0.19-yocto-standard/build/include/generated
 -rw-r--r-- root       root             6157 ./lib/modules/5.0.19-yocto-standard/build/include/generated/asm-offsets.h
--rw-r--r-- root       root            44504 ./lib/modules/5.0.19-yocto-standard/build/include/generated/autoconf.h
+-rw-r--r-- root       root            44531 ./lib/modules/5.0.19-yocto-standard/build/include/generated/autoconf.h
 -rw-r--r-- root       root              317 ./lib/modules/5.0.19-yocto-standard/build/include/generated/bounds.h
 -rw-r--r-- root       root              279 ./lib/modules/5.0.19-yocto-standard/build/include/generated/compile.h
 -rw-r--r-- root       root             1106 ./lib/modules/5.0.19-yocto-standard/build/include/generated/timeconst.h
@@ -14051,7 +14070,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/
 drwxr-xr-x root       root               80 ./lib/modules/5.0.19-yocto-standard/build/sound/xen
 -rw-r--r-- root       root              303 ./lib/modules/5.0.19-yocto-standard/build/sound/xen/Kconfig
 -rw-r--r-- root       root              227 ./lib/modules/5.0.19-yocto-standard/build/sound/xen/Makefile
--rw-r--r-- root       root          3067140 ./lib/modules/5.0.19-yocto-standard/build/System.map-5.0.19-yocto-standard
+-rw-r--r-- root       root          3067528 ./lib/modules/5.0.19-yocto-standard/build/System.map-5.0.19-yocto-standard
 drwxr-xr-x root       root              600 ./lib/modules/5.0.19-yocto-standard/build/tools
 drwxr-xr-x root       root               60 ./lib/modules/5.0.19-yocto-standard/build/tools/accounting
 -rw-r--r-- root       root              151 ./lib/modules/5.0.19-yocto-standard/build/tools/accounting/Makefile

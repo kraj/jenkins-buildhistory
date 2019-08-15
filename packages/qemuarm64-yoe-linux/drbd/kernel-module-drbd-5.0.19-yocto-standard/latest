@@ -1,9 +1,9 @@
 PV = 9.0.18-1
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = kernel-module-drbd
 RDEPENDS = kernel-5.0.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 1092128
+PKGSIZE = 1092104
 FILES = /lib/modules/5.0.19-yocto-standard/updates/drbd.ko /etc/modules-load.d/drbd.conf /etc/modprobe.d/drbd.conf
 FILELIST = /lib/modules/5.0.19-yocto-standard/updates/drbd.ko

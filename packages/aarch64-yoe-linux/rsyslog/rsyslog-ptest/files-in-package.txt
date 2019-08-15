@@ -72,7 +72,7 @@ drwxr-xr-x root       root               60 ./usr/lib/rsyslog/ptest/tests/bad_qi
 -rwxr-xr-x root       root             3887 ./usr/lib/rsyslog/ptest/tests/cfg.sh
 -rwxr-xr-x root       root            67736 ./usr/lib/rsyslog/ptest/tests/chkseq
 -rw-r--r-- root       root             6516 ./usr/lib/rsyslog/ptest/tests/chkseq.c
--rw-r--r-- root       root            38472 ./usr/lib/rsyslog/ptest/tests/chkseq.o
+-rw-r--r-- root       root            38520 ./usr/lib/rsyslog/ptest/tests/chkseq.o
 drwxr-xr-x root       root              100 ./usr/lib/rsyslog/ptest/tests/CI
 -rw-r--r-- root       root              361 ./usr/lib/rsyslog/ptest/tests/CI/centos6-9.supp
 -rw-r--r-- root       root              141 ./usr/lib/rsyslog/ptest/tests/CI/centos7.supp
@@ -110,7 +110,7 @@ drwxr-xr-x root       root              100 ./usr/lib/rsyslog/ptest/tests/CI
 -rwxr-xr-x root       root            76744 ./usr/lib/rsyslog/ptest/tests/diag.sh
 -rwxr-xr-x root       root            67760 ./usr/lib/rsyslog/ptest/tests/diagtalker
 -rw-r--r-- root       root             3470 ./usr/lib/rsyslog/ptest/tests/diagtalker.c
--rw-r--r-- root       root            31144 ./usr/lib/rsyslog/ptest/tests/diagtalker.o
+-rw-r--r-- root       root            31160 ./usr/lib/rsyslog/ptest/tests/diagtalker.o
 -rwxr-xr-x root       root              889 ./usr/lib/rsyslog/ptest/tests/dircreate_dflt.sh
 -rwxr-xr-x root       root              902 ./usr/lib/rsyslog/ptest/tests/dircreate_off.sh
 -rwxr-xr-x root       root              769 ./usr/lib/rsyslog/ptest/tests/discard-allmark.sh
@@ -439,7 +439,7 @@ drwxr-xr-x root       root              100 ./usr/lib/rsyslog/ptest/tests/CI
 -rwxr-xr-x root       root              550 ./usr/lib/rsyslog/ptest/tests/include-obj-text-vg.sh
 -rwxr-xr-x root       root            67744 ./usr/lib/rsyslog/ptest/tests/inputfilegen
 -rw-r--r-- root       root             2877 ./usr/lib/rsyslog/ptest/tests/inputfilegen.c
--rw-r--r-- root       root            25272 ./usr/lib/rsyslog/ptest/tests/inputfilegen.o
+-rw-r--r-- root       root            25296 ./usr/lib/rsyslog/ptest/tests/inputfilegen.o
 -rwxr-xr-x root       root             1009 ./usr/lib/rsyslog/ptest/tests/inputname-imtcp.sh
 -rwxr-xr-x root       root             1317 ./usr/lib/rsyslog/ptest/tests/internal-errmsg-memleak-vg.sh
 -rwxr-xr-x root       root             1061 ./usr/lib/rsyslog/ptest/tests/invalid_nested_include.sh
@@ -504,7 +504,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rw-r--r-- root       root           187924 ./usr/lib/rsyslog/ptest/tests/Makefile.in
 -rwxr-xr-x root       root            67744 ./usr/lib/rsyslog/ptest/tests/mangle_qi
 -rw-r--r-- root       root             2348 ./usr/lib/rsyslog/ptest/tests/mangle_qi.c
--rw-r--r-- root       root            26264 ./usr/lib/rsyslog/ptest/tests/mangle_qi.o
+-rw-r--r-- root       root            26368 ./usr/lib/rsyslog/ptest/tests/mangle_qi.o
 -rwxr-xr-x root       root              296 ./usr/lib/rsyslog/ptest/tests/mangle_qi_usage_output.sh
 -rwxr-xr-x root       root              904 ./usr/lib/rsyslog/ptest/tests/manyptcp.sh
 -rwxr-xr-x root       root             1020 ./usr/lib/rsyslog/ptest/tests/manytcp.sh
@@ -512,7 +512,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rw-r--r-- root       root            19329 ./usr/lib/rsyslog/ptest/tests/miniamqpsrvr.c
 -rwxr-xr-x root       root            67744 ./usr/lib/rsyslog/ptest/tests/minitcpsrv
 -rw-r--r-- root       root             3149 ./usr/lib/rsyslog/ptest/tests/minitcpsrvr.c
--rw-r--r-- root       root            29928 ./usr/lib/rsyslog/ptest/tests/minitcpsrvr.o
+-rw-r--r-- root       root            29936 ./usr/lib/rsyslog/ptest/tests/minitcpsrvr.o
 -rwxr-xr-x root       root              289 ./usr/lib/rsyslog/ptest/tests/minitcpsrv_usage_output.sh
 -rwxr-xr-x root       root             1121 ./usr/lib/rsyslog/ptest/tests/mmanon_both_modes_compatible.sh
 -rwxr-xr-x root       root             2435 ./usr/lib/rsyslog/ptest/tests/mmanon_random_128_ipv6.sh
@@ -708,7 +708,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rwxr-xr-x root       root              907 ./usr/lib/rsyslog/ptest/tests/operatingstate-unclean.sh
 -rwxr-xr-x root       root            67736 ./usr/lib/rsyslog/ptest/tests/ourtail
 -rw-r--r-- root       root             1549 ./usr/lib/rsyslog/ptest/tests/ourtail.c
--rw-r--r-- root       root             9184 ./usr/lib/rsyslog/ptest/tests/ourtail.o
+-rw-r--r-- root       root             9208 ./usr/lib/rsyslog/ptest/tests/ourtail.o
 -rw-r--r-- root       root              757 ./usr/lib/rsyslog/ptest/tests/override_getaddrinfo.c
 -rw-r--r-- root       root              516 ./usr/lib/rsyslog/ptest/tests/override_gethostname.c
 -rw-r--r-- root       root              236 ./usr/lib/rsyslog/ptest/tests/override_gethostname_nonfqdn.c
@@ -802,7 +802,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/rsyslog/ptest/tests/.libs/
 -rwxr-xr-x root       root              345 ./usr/lib/rsyslog/ptest/tests/queue_warnmsg-oversize.sh
 -rwxr-xr-x root       root            67752 ./usr/lib/rsyslog/ptest/tests/randomgen
 -rw-r--r-- root       root             3400 ./usr/lib/rsyslog/ptest/tests/randomgen.c
--rw-r--r-- root       root            20008 ./usr/lib/rsyslog/ptest/tests/randomgen.o
+-rw-r--r-- root       root            20040 ./usr/lib/rsyslog/ptest/tests/randomgen.o
 -rwxr-xr-x root       root             1126 ./usr/lib/rsyslog/ptest/tests/random.sh
 -rwxr-xr-x root       root              947 ./usr/lib/rsyslog/ptest/tests/rawmsg-after-pri.sh
 -rwxr-xr-x root       root             4824 ./usr/lib/rsyslog/ptest/tests/rcvr_fail_restore.sh
@@ -940,7 +940,7 @@ drwxr-xr-x root       root              120 ./usr/lib/rsyslog/ptest/tests/result
 -rwxr-xr-x root       root             1974 ./usr/lib/rsyslog/ptest/tests/suspend-via-file.sh
 -rwxr-xr-x root       root            67744 ./usr/lib/rsyslog/ptest/tests/syslog_caller
 -rw-r--r-- root       root             3522 ./usr/lib/rsyslog/ptest/tests/syslog_caller.c
--rw-r--r-- root       root            24208 ./usr/lib/rsyslog/ptest/tests/syslog_caller-syslog_caller.o
+-rw-r--r-- root       root            24232 ./usr/lib/rsyslog/ptest/tests/syslog_caller-syslog_caller.o
 -rwxr-xr-x root       root              749 ./usr/lib/rsyslog/ptest/tests/tabescape_dflt.sh
 -rwxr-xr-x root       root              758 ./usr/lib/rsyslog/ptest/tests/tabescape_dflt-udp.sh
 -rwxr-xr-x root       root              692 ./usr/lib/rsyslog/ptest/tests/tabescape_off.sh
@@ -948,7 +948,7 @@ drwxr-xr-x root       root              120 ./usr/lib/rsyslog/ptest/tests/result
 -rwxr-xr-x root       root              694 ./usr/lib/rsyslog/ptest/tests/tabescape_on.sh
 -rwxr-xr-x root       root            67840 ./usr/lib/rsyslog/ptest/tests/tcpflood
 -rw-r--r-- root       root            53136 ./usr/lib/rsyslog/ptest/tests/tcpflood.c
--rw-r--r-- root       root           189352 ./usr/lib/rsyslog/ptest/tests/tcpflood-tcpflood.o
+-rw-r--r-- root       root           189512 ./usr/lib/rsyslog/ptest/tests/tcpflood-tcpflood.o
 -rwxr-xr-x root       root              450 ./usr/lib/rsyslog/ptest/tests/tcpflood_wrong_option_output.sh
 -rwxr-xr-x root       root             1231 ./usr/lib/rsyslog/ptest/tests/tcp_forwarding_dflt_tpl.sh
 -rwxr-xr-x root       root             1831 ./usr/lib/rsyslog/ptest/tests/tcp_forwarding_ns_tpl.sh
@@ -965,7 +965,7 @@ drwxr-xr-x root       root              120 ./usr/lib/rsyslog/ptest/tests/result
 -rwxr-xr-x root       root              538 ./usr/lib/rsyslog/ptest/tests/template-pure-json.sh
 -rwxr-xr-x root       root            67736 ./usr/lib/rsyslog/ptest/tests/test_id
 -rw-r--r-- root       root              851 ./usr/lib/rsyslog/ptest/tests/test_id.c
--rw-r--r-- root       root            12104 ./usr/lib/rsyslog/ptest/tests/test_id.o
+-rw-r--r-- root       root            12112 ./usr/lib/rsyslog/ptest/tests/test_id.o
 -rwxr-xr-x root       root              275 ./usr/lib/rsyslog/ptest/tests/test_id_usage_output.sh
 -rw-r--r-- root       root              432 ./usr/lib/rsyslog/ptest/tests/test.mmdb
 drwxr-xr-x root       root             1840 ./usr/lib/rsyslog/ptest/tests/testsuites
@@ -1106,7 +1106,7 @@ drwxr-xr-x root       root               60 ./usr/lib/rsyslog/ptest/tests/travis
 -rwxr-xr-x root       root              325 ./usr/lib/rsyslog/ptest/tests/urlencode.py
 -rwxr-xr-x root       root            67744 ./usr/lib/rsyslog/ptest/tests/uxsockrcvr
 -rw-r--r-- root       root             4117 ./usr/lib/rsyslog/ptest/tests/uxsockrcvr.c
--rw-r--r-- root       root            30768 ./usr/lib/rsyslog/ptest/tests/uxsockrcvr.o
+-rw-r--r-- root       root            30776 ./usr/lib/rsyslog/ptest/tests/uxsockrcvr.o
 -rwxr-xr-x root       root             1458 ./usr/lib/rsyslog/ptest/tests/uxsock_simple.sh
 -rwxr-xr-x root       root              931 ./usr/lib/rsyslog/ptest/tests/validation-run.sh
 -rwxr-xr-x root       root              430 ./usr/lib/rsyslog/ptest/tests/variable_leading_underscore.sh

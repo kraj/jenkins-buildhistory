@@ -18,6 +18,10 @@ drwxr-xr-x -          -                 360 ./etc/postfix
 -rw-r--r-- -          -                1629 ./etc/postfix/TLS_LICENSE
 -rw-r--r-- -          -               12666 ./etc/postfix/transport
 -rw-r--r-- -          -               13963 ./etc/postfix/virtual
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 530 ./lib/systemd/system/postfix.service
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  14 ./sysroot-providers/postfix-native
 drwxr-xr-x -          -                 120 ./usr
@@ -91,7 +95,7 @@ drwx------ -          -                  40 ./var/spool/postfix/deferred
 drwx------ -          -                  40 ./var/spool/postfix/flush
 drwx------ -          -                  40 ./var/spool/postfix/hold
 drwx------ -          -                  40 ./var/spool/postfix/incoming
-drwx--x--- -          -                  40 ./var/spool/postfix/maildrop
+drwx-wx--- -          -                  40 ./var/spool/postfix/maildrop
 drwxr-xr-x -          -                  40 ./var/spool/postfix/pid
 drwx------ -          -                  40 ./var/spool/postfix/private
 drwx--x--- -          -                  40 ./var/spool/postfix/public
