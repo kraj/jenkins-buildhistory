@@ -1,8 +1,8 @@
 PV = 5.8.0
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = libcurl (>= 7.65.3) musl (>= 1.1.23+git3+d0b547dfb5) strongswan
+RDEPENDS = libcurl (>= 7.65.3) musl (>= 1.1.23+git4+29e8737f81) strongswan
 RRECOMMENDS = 
 PKGSIZE = 9766
 FILES = /usr/lib/ipsec/plugins/libstrongswan-curl.so /etc/strongswan.d/charon/curl.conf

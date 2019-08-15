@@ -1,10 +1,10 @@
 PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
 PR = r0
 PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = kernel-module-iwl4965
 RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-cfg80211-5.0.19-yocto-standard kernel-module-iwlegacy-5.0.19-yocto-standard kernel-module-mac80211-5.0.19-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 105636
+PKGSIZE = 105584
 FILES = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/wireless/intel/iwlegacy/iwl4965.ko /etc/modules-load.d/iwl4965.conf /etc/modprobe.d/iwl4965.conf
 FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/wireless/intel/iwlegacy/iwl4965.ko

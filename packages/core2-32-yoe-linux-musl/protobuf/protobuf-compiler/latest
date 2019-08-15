@@ -1,9 +1,9 @@
 PV = 3.9.1
 PR = r0
 PKG = libprotobuf-compiler
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = protobuf-compiler (=3.9.1)
-RDEPENDS = libgcc (>= 9.1.0) libstdc++ (>= 9.1.0) musl (>= 1.1.23+git3+d0b547dfb5) protobuf (>= 3.9.1) zlib (>= 1.2.11)
+RDEPENDS = libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.23+git4+29e8737f81) protobuf (>= 3.9.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 3559511
 FILES = /usr/bin /usr/lib/libprotoc.so.*
