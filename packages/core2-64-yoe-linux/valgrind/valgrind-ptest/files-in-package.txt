@@ -79,7 +79,7 @@ drwxr-xr-x root       root              880 ./usr/lib/valgrind/ptest/callgrind/t
 -rw-r--r-- root       root              128 ./usr/lib/valgrind/ptest/callgrind/tests/threads-use.vgtest
 -rw-r--r-- root       root               91 ./usr/lib/valgrind/ptest/callgrind/tests/threads.vgtest
 drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/drd
-drwxr-xr-x root       root             8640 ./usr/lib/valgrind/ptest/drd/tests
+drwxr-xr-x root       root             8700 ./usr/lib/valgrind/ptest/drd/tests
 -rwxr-xr-x root       root            10488 ./usr/lib/valgrind/ptest/drd/tests/annotate_barrier
 -rw-r--r-- root       root             2163 ./usr/lib/valgrind/ptest/drd/tests/annotate_barrier.stderr.exp
 -rw-r--r-- root       root              203 ./usr/lib/valgrind/ptest/drd/tests/annotate_barrier.vgtest
@@ -264,14 +264,17 @@ drwxr-xr-x root       root             8640 ./usr/lib/valgrind/ptest/drd/tests
 -rw-r--r-- root       root              300 ./usr/lib/valgrind/ptest/drd/tests/new_delete.cpp
 -rw-r--r-- root       root               74 ./usr/lib/valgrind/ptest/drd/tests/new_delete.stderr.exp
 -rw-r--r-- root       root               48 ./usr/lib/valgrind/ptest/drd/tests/new_delete.vgtest
+-rwxr-xr-x root       root            14616 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv
 -rw-r--r-- root       root               41 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv_racy.stderr.exp
 -rw-r--r-- root       root               21 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv_racy.stdout.exp
 -rw-r--r-- root       root              161 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv_racy.vgtest
 -rw-r--r-- root       root               65 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv.stderr.exp
 -rw-r--r-- root       root               21 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv.stdout.exp
 -rw-r--r-- root       root              124 ./usr/lib/valgrind/ptest/drd/tests/omp_matinv.vgtest
+-rwxr-xr-x root       root            10520 ./usr/lib/valgrind/ptest/drd/tests/omp_prime
 -rw-r--r-- root       root               40 ./usr/lib/valgrind/ptest/drd/tests/omp_prime_racy.stderr.exp
 -rw-r--r-- root       root              151 ./usr/lib/valgrind/ptest/drd/tests/omp_prime_racy.vgtest
+-rwxr-xr-x root       root            10480 ./usr/lib/valgrind/ptest/drd/tests/omp_printf
 -rw-r--r-- root       root               75 ./usr/lib/valgrind/ptest/drd/tests/omp_printf.stderr.exp
 -rw-r--r-- root       root              128 ./usr/lib/valgrind/ptest/drd/tests/omp_printf.vgtest
 -rwxr-xr-x root       root            10536 ./usr/lib/valgrind/ptest/drd/tests/pth_barrier
