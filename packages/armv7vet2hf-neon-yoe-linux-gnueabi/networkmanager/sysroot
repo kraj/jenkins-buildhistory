@@ -72,7 +72,7 @@ drwxr-xr-x -          -                2180 ./usr/include/libnm
 -rw-r--r-- -          -               10384 ./usr/include/libnm/nm-setting-connection.h
 -rw-r--r-- -          -                7244 ./usr/include/libnm/nm-setting-dcb.h
 -rw-r--r-- -          -                2185 ./usr/include/libnm/nm-setting-dummy.h
--rw-r--r-- -          -                7661 ./usr/include/libnm/nm-setting-ethtool.h
+-rw-r--r-- -          -                7663 ./usr/include/libnm/nm-setting-ethtool.h
 -rw-r--r-- -          -                2198 ./usr/include/libnm/nm-setting-generic.h
 -rw-r--r-- -          -                3885 ./usr/include/libnm/nm-setting-gsm.h
 -rw-r--r-- -          -               15067 ./usr/include/libnm/nm-setting.h
@@ -112,8 +112,8 @@ drwxr-xr-x -          -                2180 ./usr/include/libnm
 -rw-r--r-- -          -                2391 ./usr/include/libnm/nm-simple-connection.h
 -rw-r--r-- -          -                3084 ./usr/include/libnm/nm-types.h
 -rw-r--r-- -          -               11265 ./usr/include/libnm/nm-utils.h
--rw-r--r-- -          -                6033 ./usr/include/libnm/nm-version.h
--rw-r--r-- -          -                3709 ./usr/include/libnm/nm-version-macros.h
+-rw-r--r-- -          -                6189 ./usr/include/libnm/nm-version.h
+-rw-r--r-- -          -                3766 ./usr/include/libnm/nm-version-macros.h
 -rw-r--r-- -          -                2961 ./usr/include/libnm/nm-vpn-connection.h
 -rw-r--r-- -          -               13254 ./usr/include/libnm/nm-vpn-dbus-interface.h
 -rw-r--r-- -          -                3349 ./usr/include/libnm/nm-vpn-editor.h
@@ -126,15 +126,15 @@ drwxr-xr-x -          -                2180 ./usr/include/libnm
 drwxr-xr-x -          -                 160 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/girepository-1.0
 -rw-r--r-- -          -              298820 ./usr/lib/girepository-1.0/NM-1.0.typelib
--rwxr-xr-x -          -              772956 ./usr/lib/libnm.so.0.1.0
+-rwxr-xr-x -          -              772584 ./usr/lib/libnm.so.0.1.0
 lrwxrwxrwx -          -                  14 ./usr/lib/libnm.so.0 -> libnm.so.0.1.0
 lrwxrwxrwx -          -                  14 ./usr/lib/libnm.so -> libnm.so.0.1.0
 drwxr-xr-x -          -                 100 ./usr/lib/NetworkManager
-drwxr-xr-x -          -                 120 ./usr/lib/NetworkManager/1.18.0
--rwxr-xr-x -          -               22000 ./usr/lib/NetworkManager/1.18.0/libnm-device-plugin-adsl.so
--rwxr-xr-x -          -               34312 ./usr/lib/NetworkManager/1.18.0/libnm-device-plugin-ovs.so
--rwxr-xr-x -          -              100204 ./usr/lib/NetworkManager/1.18.0/libnm-device-plugin-wifi.so
--rwxr-xr-x -          -               26364 ./usr/lib/NetworkManager/1.18.0/libnm-settings-plugin-ifupdown.so
+drwxr-xr-x -          -                 120 ./usr/lib/NetworkManager/1.18.2
+-rwxr-xr-x -          -               22000 ./usr/lib/NetworkManager/1.18.2/libnm-device-plugin-adsl.so
+-rwxr-xr-x -          -               34312 ./usr/lib/NetworkManager/1.18.2/libnm-device-plugin-ovs.so
+-rwxr-xr-x -          -              100204 ./usr/lib/NetworkManager/1.18.2/libnm-device-plugin-wifi.so
+-rwxr-xr-x -          -               26364 ./usr/lib/NetworkManager/1.18.2/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x -          -                  40 ./usr/lib/NetworkManager/conf.d
 drwxr-xr-x -          -                  40 ./usr/lib/NetworkManager/VPN
 drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
@@ -196,11 +196,11 @@ drwxr-xr-x -          -                1000 ./usr/share/dbus-1/interfaces
 drwxr-xr-x -          -                  60 ./usr/share/dbus-1/system-services
 -rw-r--r-- -          -                 152 ./usr/share/dbus-1/system-services/org.freedesktop.nm_dispatcher.service
 drwxr-xr-x -          -                  60 ./usr/share/gir-1.0
--rw-r--r-- -          -             2898009 ./usr/share/gir-1.0/NM-1.0.gir
+-rw-r--r-- -          -             2898415 ./usr/share/gir-1.0/NM-1.0.gir
 drwxr-xr-x -          -                  60 ./usr/share/polkit-1
 drwxr-xr-x -          -                  60 ./usr/share/polkit-1/actions
--rw-r--r-- -          -              150684 ./usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy
+-rw-r--r-- -          -              151205 ./usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy
 drwxr-xr-x -          -                  60 ./usr/share/vala
 drwxr-xr-x -          -                  80 ./usr/share/vala/vapi
 -rw-r--r-- -          -                   8 ./usr/share/vala/vapi/libnm.deps
--rw-r--r-- -          -              321493 ./usr/share/vala/vapi/libnm.vapi
+-rw-r--r-- -          -              321496 ./usr/share/vala/vapi/libnm.vapi
