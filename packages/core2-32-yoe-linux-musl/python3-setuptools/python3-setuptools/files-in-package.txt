@@ -9,14 +9,14 @@ drwxr-xr-x root       root              120 ./usr/lib/python3.7/site-packages
 drwxr-xr-x root       root               60 ./usr/lib/python3.7/site-packages/__pycache__
 -rw-r--r-- root       root              277 ./usr/lib/python3.7/site-packages/__pycache__/easy_install.cpython-37.pyc
 drwxr-xr-x root       root              840 ./usr/lib/python3.7/site-packages/setuptools
-drwxr-xr-x root       root              180 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info
--rw-rw-r-- root       root              239 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/dependency_links.txt
--rw-rw-r-- root       root             2990 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/entry_points.txt
--rw-rw-r-- root       root             3513 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/PKG-INFO
--rw-rw-r-- root       root               84 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/requires.txt
--rw-rw-r-- root       root             5700 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/SOURCES.txt
--rw-rw-r-- root       root               38 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/top_level.txt
--rw-rw-r-- root       root                1 ./usr/lib/python3.7/site-packages/setuptools-41.1.0-py3.7.egg-info/zip-safe
+drwxr-xr-x root       root              180 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info
+-rw-rw-r-- root       root              239 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/dependency_links.txt
+-rw-rw-r-- root       root             2990 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/entry_points.txt
+-rw-rw-r-- root       root             3513 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/PKG-INFO
+-rw-rw-r-- root       root               84 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/requires.txt
+-rw-rw-r-- root       root             5700 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/SOURCES.txt
+-rw-rw-r-- root       root               38 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/top_level.txt
+-rw-rw-r-- root       root                1 ./usr/lib/python3.7/site-packages/setuptools-41.2.0-py3.7.egg-info/zip-safe
 -rw-r--r-- root       root             6592 ./usr/lib/python3.7/site-packages/setuptools/archive_util.py
 -rw-r--r-- root       root             9597 ./usr/lib/python3.7/site-packages/setuptools/build_meta.py
 -rw-rw-r-- root       root            65536 ./usr/lib/python3.7/site-packages/setuptools/cli-32.exe
@@ -28,7 +28,7 @@ drwxr-xr-x root       root              580 ./usr/lib/python3.7/site-packages/se
 -rw-r--r-- root       root             1508 ./usr/lib/python3.7/site-packages/setuptools/command/bdist_rpm.py
 -rw-r--r-- root       root              637 ./usr/lib/python3.7/site-packages/setuptools/command/bdist_wininst.py
 -rw-r--r-- root       root             4484 ./usr/lib/python3.7/site-packages/setuptools/command/build_clib.py
--rw-r--r-- root       root            12897 ./usr/lib/python3.7/site-packages/setuptools/command/build_ext.py
+-rw-r--r-- root       root            13019 ./usr/lib/python3.7/site-packages/setuptools/command/build_ext.py
 -rw-r--r-- root       root             9596 ./usr/lib/python3.7/site-packages/setuptools/command/build_py.py
 -rw-r--r-- root       root             8184 ./usr/lib/python3.7/site-packages/setuptools/command/develop.py
 -rw-r--r-- root       root              960 ./usr/lib/python3.7/site-packages/setuptools/command/dist_info.py
@@ -36,7 +36,7 @@ drwxr-xr-x root       root              580 ./usr/lib/python3.7/site-packages/se
 -rw-r--r-- root       root            25570 ./usr/lib/python3.7/site-packages/setuptools/command/egg_info.py
 -rw-r--r-- root       root              594 ./usr/lib/python3.7/site-packages/setuptools/command/__init__.py
 -rw-r--r-- root       root             2203 ./usr/lib/python3.7/site-packages/setuptools/command/install_egg_info.py
--rw-r--r-- root       root             3840 ./usr/lib/python3.7/site-packages/setuptools/command/install_lib.py
+-rw-r--r-- root       root             3862 ./usr/lib/python3.7/site-packages/setuptools/command/install_lib.py
 -rw-r--r-- root       root             4683 ./usr/lib/python3.7/site-packages/setuptools/command/install.py
 -rw-r--r-- root       root             2439 ./usr/lib/python3.7/site-packages/setuptools/command/install_scripts.py
 -rw-rw-r-- root       root              628 ./usr/lib/python3.7/site-packages/setuptools/command/launcher manifest.xml
@@ -47,7 +47,7 @@ drwxr-xr-x root       root              540 ./usr/lib/python3.7/site-packages/se
 -rw-r--r-- root       root             1743 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_rpm.cpython-37.pyc
 -rw-r--r-- root       root              934 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-37.pyc
 -rw-r--r-- root       root             2413 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/build_clib.cpython-37.pyc
--rw-r--r-- root       root             9667 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/build_ext.cpython-37.pyc
+-rw-r--r-- root       root             9716 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/build_ext.cpython-37.pyc
 -rw-r--r-- root       root             8543 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/build_py.cpython-37.pyc
 -rw-r--r-- root       root             6424 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/develop.cpython-37.pyc
 -rw-r--r-- root       root             1339 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/dist_info.cpython-37.pyc
@@ -56,7 +56,7 @@ drwxr-xr-x root       root              540 ./usr/lib/python3.7/site-packages/se
 -rw-r--r-- root       root              696 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/__init__.cpython-37.pyc
 -rw-r--r-- root       root             3971 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/install.cpython-37.pyc
 -rw-r--r-- root       root             2372 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-37.pyc
--rw-r--r-- root       root             4048 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/install_lib.cpython-37.pyc
+-rw-r--r-- root       root             4066 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/install_lib.cpython-37.pyc
 -rw-r--r-- root       root             2251 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/install_scripts.cpython-37.pyc
 -rw-r--r-- root       root             4584 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/py36compat.cpython-37.pyc
 -rw-r--r-- root       root              741 ./usr/lib/python3.7/site-packages/setuptools/command/__pycache__/register.cpython-37.pyc

@@ -17,7 +17,7 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              140 ./lib/systemd/system
 -r--r--r-- root       root              152 ./lib/systemd/system/org.cups.cupsd.path
--r--r--r-- root       root              214 ./lib/systemd/system/org.cups.cupsd.service
+-r--r--r-- root       root              233 ./lib/systemd/system/org.cups.cupsd.service
 -r--r--r-- root       root              146 ./lib/systemd/system/org.cups.cupsd.socket
 -r--r--r-- root       root              147 ./lib/systemd/system/org.cups.cups-lpd@.service
 -r--r--r-- root       root              148 ./lib/systemd/system/org.cups.cups-lpd.socket
@@ -84,8 +84,8 @@ drwxr-xr-x root       root              320 ./usr/sbin
 lrwxrwxrwx root       root               10 ./usr/sbin/accept -> cupsaccept
 -rwxr-xr-x root       root             9524 ./usr/sbin/cupsaccept
 -rwxr-xr-x root       root             9524 ./usr/sbin/cupsaddsmb
--rwxr-xr-x root       root             9520 ./usr/sbin/cupsctl
--rwx------ root       root           538592 ./usr/sbin/cupsd
+-rwxr-xr-x root       root             9580 ./usr/sbin/cupsctl
+-rwx------ root       root           542688 ./usr/sbin/cupsd
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsdisable -> cupsaccept
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsenable -> cupsaccept
 -rwxr-xr-x root       root            42592 ./usr/sbin/cupsfilter
@@ -656,7 +656,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/ru
 -r--r--r-- root       root              218 ./usr/share/cups/templates/trailer.tmpl
 -r--r--r-- root       root              893 ./usr/share/cups/templates/users.tmpl
 drwxr-xr-x root       root               60 ./usr/share/cups/usb
--r--r--r-- root       root             7016 ./usr/share/cups/usb/org.cups.usb-quirks
+-r--r--r-- root       root             7076 ./usr/share/cups/usb/org.cups.usb-quirks
 drwxr-xr-x root       root               60 ./usr/share/icons
 drwxr-xr-x root       root              120 ./usr/share/icons/hicolor
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/128x128
