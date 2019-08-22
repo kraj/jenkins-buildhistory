@@ -2,7 +2,7 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/installed-tests
-drwxr-xr-x root       root              600 ./usr/libexec/installed-tests/pango
+drwxr-xr-x root       root              640 ./usr/libexec/installed-tests/pango
 -rw-r--r-- root       root           447027 ./usr/libexec/installed-tests/pango/all-unicode.txt
 -rw-r--r-- root       root            22444 ./usr/libexec/installed-tests/pango/boundaries.utf8
 drwxr-xr-x root       root              160 ./usr/libexec/installed-tests/pango/breaks
@@ -20,10 +20,11 @@ drwxr-xr-x root       root               80 ./usr/libexec/installed-tests/pango/
 -rw-r--r-- root       root              395 ./usr/libexec/installed-tests/pango/itemize/one.expected
 -rw-r--r-- root       root               58 ./usr/libexec/installed-tests/pango/itemize/one.items
 drwxr-xr-x root       root              120 ./usr/libexec/installed-tests/pango/layouts
--rw-r--r-- root       root              960 ./usr/libexec/installed-tests/pango/layouts/valid-1.expected
+-rw-r--r-- root       root              947 ./usr/libexec/installed-tests/pango/layouts/valid-1.expected
 -rw-r--r-- root       root              126 ./usr/libexec/installed-tests/pango/layouts/valid-1.markup
 -rw-r--r-- root       root              977 ./usr/libexec/installed-tests/pango/layouts/valid-2.expected
 -rw-r--r-- root       root               48 ./usr/libexec/installed-tests/pango/layouts/valid-2.markup
+-rw-r--r-- root       root          1031867 ./usr/libexec/installed-tests/pango/LineBreakTest.txt
 -rwxr-xr-x root       root             9864 ./usr/libexec/installed-tests/pango/markup-parse
 drwxr-xr-x root       root              600 ./usr/libexec/installed-tests/pango/markups
 -rw-r--r-- root       root               73 ./usr/libexec/installed-tests/pango/markups/fail-1.expected
@@ -61,7 +62,8 @@ drwxr-xr-x root       root              600 ./usr/libexec/installed-tests/pango/
 -rwxr-xr-x root       root            13956 ./usr/libexec/installed-tests/pango/test-break
 -rwxr-xr-x root       root             6196 ./usr/libexec/installed-tests/pango/testcolor
 -rwxr-xr-x root       root             9864 ./usr/libexec/installed-tests/pango/test-coverage
--rwxr-xr-x root       root            13956 ./usr/libexec/installed-tests/pango/test-font
+-rwxr-xr-x root       root             9864 ./usr/libexec/installed-tests/pango/test-ellipsize
+-rwxr-xr-x root       root            18052 ./usr/libexec/installed-tests/pango/test-font
 -rwxr-xr-x root       root             5768 ./usr/libexec/installed-tests/pango/test-harfbuzz
 -rwxr-xr-x root       root            13960 ./usr/libexec/installed-tests/pango/test-itemize
 -rwxr-xr-x root       root             9900 ./usr/libexec/installed-tests/pango/testiter
@@ -76,7 +78,7 @@ drwxr-xr-x root       root               60 ./usr/lib/pango/ptest
 -rwxr-xr-x root       root               47 ./usr/lib/pango/ptest/run-ptest
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/installed-tests
-drwxr-xr-x root       root              380 ./usr/share/installed-tests/pango
+drwxr-xr-x root       root              400 ./usr/share/installed-tests/pango
 -rw-r--r-- root       root               69 ./usr/share/installed-tests/pango/cxx-test.test
 -rw-r--r-- root       root               73 ./usr/share/installed-tests/pango/markup-parse.test
 -rw-r--r-- root       root               75 ./usr/share/installed-tests/pango/testattributes.test
@@ -85,6 +87,7 @@ drwxr-xr-x root       root              380 ./usr/share/installed-tests/pango
 -rw-r--r-- root       root               71 ./usr/share/installed-tests/pango/test-break.test
 -rw-r--r-- root       root               70 ./usr/share/installed-tests/pango/testcolor.test
 -rw-r--r-- root       root               74 ./usr/share/installed-tests/pango/test-coverage.test
+-rw-r--r-- root       root               75 ./usr/share/installed-tests/pango/test-ellipsize.test
 -rw-r--r-- root       root               70 ./usr/share/installed-tests/pango/test-font.test
 -rw-r--r-- root       root               74 ./usr/share/installed-tests/pango/test-harfbuzz.test
 -rw-r--r-- root       root               73 ./usr/share/installed-tests/pango/test-itemize.test

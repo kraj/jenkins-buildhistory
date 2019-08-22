@@ -4,7 +4,7 @@ drwxr-xr-x -          -                 100 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                  60 ./usr/include/pango-1.0
 drwxr-xr-x -          -                 740 ./usr/include/pango-1.0/pango
--rw-r--r-- -          -               23293 ./usr/include/pango-1.0/pango/pango-attributes.h
+-rw-r--r-- -          -               23586 ./usr/include/pango-1.0/pango/pango-attributes.h
 -rw-r--r-- -          -                3246 ./usr/include/pango-1.0/pango/pango-bidi-type.h
 -rw-r--r-- -          -                5579 ./usr/include/pango-1.0/pango/pango-break.h
 -rw-r--r-- -          -                7061 ./usr/include/pango-1.0/pango/pangocairo.h
@@ -14,10 +14,10 @@ drwxr-xr-x -          -                 740 ./usr/include/pango-1.0/pango
 -rw-r--r-- -          -               15801 ./usr/include/pango-1.0/pango/pango-engine.h
 -rw-r--r-- -          -                3596 ./usr/include/pango-1.0/pango/pango-enum-types.h
 -rw-r--r-- -          -                3891 ./usr/include/pango-1.0/pango/pangofc-decoder.h
--rw-r--r-- -          -                2693 ./usr/include/pango-1.0/pango/pangofc-font.h
+-rw-r--r-- -          -                3588 ./usr/include/pango-1.0/pango/pangofc-font.h
 -rw-r--r-- -          -                5642 ./usr/include/pango-1.0/pango/pangofc-fontmap.h
 -rw-r--r-- -          -                 212 ./usr/include/pango-1.0/pango/pango-features.h
--rw-r--r-- -          -               20338 ./usr/include/pango-1.0/pango/pango-font.h
+-rw-r--r-- -          -               21020 ./usr/include/pango-1.0/pango/pango-font.h
 -rw-r--r-- -          -                5724 ./usr/include/pango-1.0/pango/pango-fontmap.h
 -rw-r--r-- -          -                2427 ./usr/include/pango-1.0/pango/pango-fontset.h
 -rw-r--r-- -          -                5130 ./usr/include/pango-1.0/pango/pangoft2.h
@@ -40,22 +40,24 @@ drwxr-xr-x -          -                 740 ./usr/include/pango-1.0/pango
 -rw-r--r-- -          -                4548 ./usr/include/pango-1.0/pango/pangoxft.h
 -rw-r--r-- -          -                4983 ./usr/include/pango-1.0/pango/pangoxft-render.h
 drwxr-xr-x -          -                 340 ./usr/lib
-drwxr-xr-x -          -                 120 ./usr/lib/girepository-1.0
--rw-r--r-- -          -               65856 ./usr/lib/girepository-1.0/Pango-1.0.typelib
+drwxr-xr-x -          -                 160 ./usr/lib/girepository-1.0
+-rw-r--r-- -          -               66056 ./usr/lib/girepository-1.0/Pango-1.0.typelib
 -rw-r--r-- -          -                4412 ./usr/lib/girepository-1.0/PangoCairo-1.0.typelib
+-rw-r--r-- -          -                3232 ./usr/lib/girepository-1.0/PangoFc-1.0.typelib
 -rw-r--r-- -          -                2824 ./usr/lib/girepository-1.0/PangoFT2-1.0.typelib
+-rw-r--r-- -          -                5296 ./usr/lib/girepository-1.0/PangoOT-1.0.typelib
 -rw-r--r-- -          -                4380 ./usr/lib/girepository-1.0/PangoXft-1.0.typelib
--rwxr-xr-x -          -              210504 ./usr/lib/libpango-1.0.so.0.4400.3
-lrwxrwxrwx -          -                  24 ./usr/lib/libpango-1.0.so.0 -> libpango-1.0.so.0.4400.3
+-rwxr-xr-x -          -              210504 ./usr/lib/libpango-1.0.so.0.4400.5
+lrwxrwxrwx -          -                  24 ./usr/lib/libpango-1.0.so.0 -> libpango-1.0.so.0.4400.5
 lrwxrwxrwx -          -                  17 ./usr/lib/libpango-1.0.so -> libpango-1.0.so.0
--rwxr-xr-x -          -               38384 ./usr/lib/libpangocairo-1.0.so.0.4400.3
-lrwxrwxrwx -          -                  29 ./usr/lib/libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.4400.3
+-rwxr-xr-x -          -               38384 ./usr/lib/libpangocairo-1.0.so.0.4400.5
+lrwxrwxrwx -          -                  29 ./usr/lib/libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.4400.5
 lrwxrwxrwx -          -                  22 ./usr/lib/libpangocairo-1.0.so -> libpangocairo-1.0.so.0
--rwxr-xr-x -          -               54692 ./usr/lib/libpangoft2-1.0.so.0.4400.3
-lrwxrwxrwx -          -                  27 ./usr/lib/libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.4400.3
+-rwxr-xr-x -          -               54692 ./usr/lib/libpangoft2-1.0.so.0.4400.5
+lrwxrwxrwx -          -                  27 ./usr/lib/libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.4400.5
 lrwxrwxrwx -          -                  20 ./usr/lib/libpangoft2-1.0.so -> libpangoft2-1.0.so.0
--rwxr-xr-x -          -               21924 ./usr/lib/libpangoxft-1.0.so.0.4400.3
-lrwxrwxrwx -          -                  27 ./usr/lib/libpangoxft-1.0.so.0 -> libpangoxft-1.0.so.0.4400.3
+-rwxr-xr-x -          -               21924 ./usr/lib/libpangoxft-1.0.so.0.4400.5
+lrwxrwxrwx -          -                  27 ./usr/lib/libpangoxft-1.0.so.0 -> libpangoxft-1.0.so.0.4400.5
 lrwxrwxrwx -          -                  20 ./usr/lib/libpangoxft-1.0.so -> libpangoxft-1.0.so.0
 drwxr-xr-x -          -                  40 ./usr/lib/pango
 drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
@@ -64,13 +66,15 @@ drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 407 ./usr/lib/pkgconfig/pango.pc
 -rw-r--r-- -          -                 426 ./usr/lib/pkgconfig/pangoxft.pc
 drwxr-xr-x -          -                  80 ./usr/share
-drwxr-xr-x -          -                 120 ./usr/share/gir-1.0
--rw-r--r-- -          -              820022 ./usr/share/gir-1.0/Pango-1.0.gir
+drwxr-xr-x -          -                 160 ./usr/share/gir-1.0
+-rw-r--r-- -          -              824324 ./usr/share/gir-1.0/Pango-1.0.gir
 -rw-r--r-- -          -               49173 ./usr/share/gir-1.0/PangoCairo-1.0.gir
+-rw-r--r-- -          -               40585 ./usr/share/gir-1.0/PangoFc-1.0.gir
 -rw-r--r-- -          -               29350 ./usr/share/gir-1.0/PangoFT2-1.0.gir
+-rw-r--r-- -          -               66931 ./usr/share/gir-1.0/PangoOT-1.0.gir
 -rw-r--r-- -          -               40961 ./usr/share/gir-1.0/PangoXft-1.0.gir
 drwxr-xr-x -          -                  60 ./usr/share/installed-tests
-drwxr-xr-x -          -                 380 ./usr/share/installed-tests/pango
+drwxr-xr-x -          -                 400 ./usr/share/installed-tests/pango
 -rw-r--r-- -          -                  69 ./usr/share/installed-tests/pango/cxx-test.test
 -rw-r--r-- -          -                  73 ./usr/share/installed-tests/pango/markup-parse.test
 -rw-r--r-- -          -                  75 ./usr/share/installed-tests/pango/testattributes.test
@@ -79,6 +83,7 @@ drwxr-xr-x -          -                 380 ./usr/share/installed-tests/pango
 -rw-r--r-- -          -                  71 ./usr/share/installed-tests/pango/test-break.test
 -rw-r--r-- -          -                  70 ./usr/share/installed-tests/pango/testcolor.test
 -rw-r--r-- -          -                  74 ./usr/share/installed-tests/pango/test-coverage.test
+-rw-r--r-- -          -                  75 ./usr/share/installed-tests/pango/test-ellipsize.test
 -rw-r--r-- -          -                  70 ./usr/share/installed-tests/pango/test-font.test
 -rw-r--r-- -          -                  74 ./usr/share/installed-tests/pango/test-harfbuzz.test
 -rw-r--r-- -          -                  73 ./usr/share/installed-tests/pango/test-itemize.test
