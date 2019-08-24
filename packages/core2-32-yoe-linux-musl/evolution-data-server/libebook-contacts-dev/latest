@@ -1,0 +1,10 @@
+PV = 3.32.4
+PR = r0
+PKG = libebook-contacts-1.2-dev
+PKGR = r0.0
+RPROVIDES = libebook-contacts-dev (=3.32.4)
+RDEPENDS = libebook-contacts
+RRECOMMENDS = db-dev dbus-dev gconf-dev glib-2.0-dev gobject-introspection-dev gtk+3-dev icu-dev libcanberra-dev libedataserver-dev libgdata-dev libgnome-keyring-dev libical-dev libsecret-dev libsoup-2.4-dev musl-dev nss-dev vala-dev zlib-dev
+PKGSIZE = 424563
+FILES = /usr/lib/libebook-contacts-*.so /usr/lib/pkgconfig/libebook-contacts-*.pc /usr/share/gir-*/EBookContacts-*.gir /usr/share/vala/vapi/libebook-contacts-* /usr/include/evolution-data-server*/libebook-contacts/*.h
+FILELIST = /usr/include/evolution-data-server/libebook-contacts/e-address-western.h /usr/include/evolution-data-server/libebook-contacts/e-book-contacts-enumtypes.h /usr/include/evolution-data-server/libebook-contacts/e-book-contacts-types.h /usr/include/evolution-data-server/libebook-contacts/e-book-query.h /usr/include/evolution-data-server/libebook-contacts/e-contact.h /usr/include/evolution-data-server/libebook-contacts/e-name-western.h /usr/include/evolution-data-server/libebook-contacts/e-phone-number.h /usr/include/evolution-data-server/libebook-contacts/e-source-backend-summary-setup.h /usr/include/evolution-data-server/libebook-contacts/e-vcard.h /usr/include/evolution-data-server/libebook-contacts/libebook-contacts.h /usr/lib/libebook-contacts-1.2.so /usr/lib/pkgconfig/libebook-contacts-1.2.pc /usr/share/gir-1.0/EBookContacts-1.2.gir

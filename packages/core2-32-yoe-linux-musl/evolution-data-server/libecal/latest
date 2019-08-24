@@ -1,10 +1,10 @@
-PV = 3.26.6
+PV = 3.32.4
 PR = r0
 PKG = libecal-1.2-19
-PKGR = r0.36
-RPROVIDES = libecal (=3.26.6)
-RDEPENDS = evolution-data-server (>= 3.26.6) glib-2.0 (>= 2.60.6) libedataserver (>= 3.26.6) libgcc (>= 9.2.0) libical (>= 3.0.5) musl (>= 1.1.23+git4+29e8737f81)
+PKGR = r0.0
+RPROVIDES = libecal (=3.32.4)
+RDEPENDS = evolution-data-server (>= 3.32.4) glib-2.0 (>= 2.60.6) libedataserver (>= 3.32.4) libgcc (>= 9.2.0) libical (>= 3.0.5) musl (>= 1.1.23+git4+29e8737f81)
 RRECOMMENDS = libedata-cal tzdata
-PKGSIZE = 391009
-FILES = /usr/lib/libecal-*.so.* /usr/share/evolution-data-server-1.4/zoneinfo
+PKGSIZE = 460645
+FILES = /usr/lib/libecal-*.so.*
 FILELIST = /usr/lib/libecal-1.2.so.19 /usr/lib/libecal-1.2.so.19.0.0
