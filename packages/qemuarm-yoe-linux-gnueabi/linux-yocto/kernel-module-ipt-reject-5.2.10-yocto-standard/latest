@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_97808f75eb
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_97808f75eb
+PKGR = r0.4
+RPROVIDES = kernel-module-ipt-reject
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-nf-reject-ipv4-5.2.10-yocto-standard kernel-module-x-tables-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5376
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/ipv4/netfilter/ipt_REJECT.ko /etc/modules-load.d/ipt_REJECT.conf /etc/modprobe.d/ipt_REJECT.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/ipv4/netfilter/ipt_REJECT.ko
