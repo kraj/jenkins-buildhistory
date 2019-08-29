@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_77c28ea0e5
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_77c28ea0e5
+PKGR = r0.1
+RPROVIDES = kernel-module-cdc-eem
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-usbnet-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8792
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/drivers/net/usb/cdc_eem.ko /etc/modules-load.d/cdc_eem.conf /etc/modprobe.d/cdc_eem.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/drivers/net/usb/cdc_eem.ko

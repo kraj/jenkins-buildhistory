@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_77c28ea0e5
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_77c28ea0e5
+PKGR = r0.1
+RPROVIDES = kernel-module-configfs-sample
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-configfs-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12000
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/samples/configfs/configfs_sample.ko /etc/modules-load.d/configfs_sample.conf /etc/modprobe.d/configfs_sample.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/samples/configfs/configfs_sample.ko

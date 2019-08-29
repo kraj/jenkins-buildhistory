@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_77c28ea0e5
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_77c28ea0e5
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-intel8x0
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-snd-5.2.10-yocto-standard kernel-module-snd-ac97-codec-5.2.10-yocto-standard kernel-module-snd-pcm-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 60808
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/sound/pci/snd-intel8x0.ko /etc/modules-load.d/snd-intel8x0.conf /etc/modprobe.d/snd-intel8x0.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/sound/pci/snd-intel8x0.ko
