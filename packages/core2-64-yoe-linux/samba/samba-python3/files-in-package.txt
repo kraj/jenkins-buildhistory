@@ -9,7 +9,7 @@ drwxr-xr-x root       root             1460 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- root       root             6797 ./usr/lib/python3.7/site-packages/samba/compat.py
 -rwxr-xr-x root       root            41232 ./usr/lib/python3.7/site-packages/samba/credentials.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root            55344 ./usr/lib/python3.7/site-packages/samba/crypto.cpython-37m-x86_64-linux-gnu.so
--rw-r--r-- root       root           129703 ./usr/lib/python3.7/site-packages/samba/dbchecker.py
+-rw-r--r-- root       root           129804 ./usr/lib/python3.7/site-packages/samba/dbchecker.py
 drwxr-xr-x root       root              840 ./usr/lib/python3.7/site-packages/samba/dcerpc
 -rwxr-xr-x root       root            74120 ./usr/lib/python3.7/site-packages/samba/dcerpc/atsvc.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root            60544 ./usr/lib/python3.7/site-packages/samba/dcerpc/auth.cpython-37m-x86_64-linux-gnu.so
@@ -17,7 +17,7 @@ drwxr-xr-x root       root              840 ./usr/lib/python3.7/site-packages/sa
 -rwxr-xr-x root       root           254688 ./usr/lib/python3.7/site-packages/samba/dcerpc/dcerpc.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root           281992 ./usr/lib/python3.7/site-packages/samba/dcerpc/dfs.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root           107800 ./usr/lib/python3.7/site-packages/samba/dcerpc/dns.cpython-37m-x86_64-linux-gnu.so
--rwxr-xr-x root       root            97600 ./usr/lib/python3.7/site-packages/samba/dcerpc/dnsp.cpython-37m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root            97632 ./usr/lib/python3.7/site-packages/samba/dcerpc/dnsp.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root           545936 ./usr/lib/python3.7/site-packages/samba/dcerpc/dnsserver.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root           480336 ./usr/lib/python3.7/site-packages/samba/dcerpc/drsblobs.cpython-37m-x86_64-linux-gnu.so
 -rwxr-xr-x root       root           889640 ./usr/lib/python3.7/site-packages/samba/dcerpc/drsuapi.cpython-37m-x86_64-linux-gnu.so
@@ -81,7 +81,7 @@ drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- root       root             2387 ./usr/lib/python3.7/site-packages/samba/hostconfig.py
 -rw-r--r-- root       root             3323 ./usr/lib/python3.7/site-packages/samba/idmap.py
 -rw-r--r-- root       root            13601 ./usr/lib/python3.7/site-packages/samba/__init__.py
--rw-r--r-- root       root            79802 ./usr/lib/python3.7/site-packages/samba/join.py
+-rw-r--r-- root       root            80154 ./usr/lib/python3.7/site-packages/samba/join.py
 drwxr-xr-x root       root              160 ./usr/lib/python3.7/site-packages/samba/kcc
 -rw-r--r-- root       root             2092 ./usr/lib/python3.7/site-packages/samba/kcc/debug.py
 -rw-r--r-- root       root            28340 ./usr/lib/python3.7/site-packages/samba/kcc/graph.py
@@ -107,10 +107,10 @@ drwxr-xr-x root       root              600 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- root       root            46406 ./usr/lib/python3.7/site-packages/samba/netcmd/dns.py
 -rw-r--r-- root       root            49715 ./usr/lib/python3.7/site-packages/samba/netcmd/domain_backup.py
 -rw-r--r-- root       root           201086 ./usr/lib/python3.7/site-packages/samba/netcmd/domain.py
--rw-r--r-- root       root            35468 ./usr/lib/python3.7/site-packages/samba/netcmd/drs.py
+-rw-r--r-- root       root            35569 ./usr/lib/python3.7/site-packages/samba/netcmd/drs.py
 -rw-r--r-- root       root             7579 ./usr/lib/python3.7/site-packages/samba/netcmd/dsacl.py
 -rw-r--r-- root       root             5428 ./usr/lib/python3.7/site-packages/samba/netcmd/forest.py
--rw-r--r-- root       root            21103 ./usr/lib/python3.7/site-packages/samba/netcmd/fsmo.py
+-rw-r--r-- root       root            20908 ./usr/lib/python3.7/site-packages/samba/netcmd/fsmo.py
 -rw-r--r-- root       root            55407 ./usr/lib/python3.7/site-packages/samba/netcmd/gpo.py
 -rw-r--r-- root       root            29256 ./usr/lib/python3.7/site-packages/samba/netcmd/group.py
 -rw-r--r-- root       root             9673 ./usr/lib/python3.7/site-packages/samba/netcmd/__init__.py
@@ -234,7 +234,7 @@ drwxr-xr-x root       root              100 ./usr/lib/python3.7/site-packages/sa
 -rw-r--r-- root       root            27128 ./usr/lib/python3.7/site-packages/samba/tests/graph.py
 -rw-r--r-- root       root            17046 ./usr/lib/python3.7/site-packages/samba/tests/group_audit.py
 -rw-r--r-- root       root             2200 ./usr/lib/python3.7/site-packages/samba/tests/hostconfig.py
--rw-r--r-- root       root            19547 ./usr/lib/python3.7/site-packages/samba/tests/__init__.py
+-rw-r--r-- root       root            19579 ./usr/lib/python3.7/site-packages/samba/tests/__init__.py
 -rw-r--r-- root       root             6795 ./usr/lib/python3.7/site-packages/samba/tests/join.py
 drwxr-xr-x root       root              140 ./usr/lib/python3.7/site-packages/samba/tests/kcc
 -rw-r--r-- root       root             2414 ./usr/lib/python3.7/site-packages/samba/tests/kcc/graph.py

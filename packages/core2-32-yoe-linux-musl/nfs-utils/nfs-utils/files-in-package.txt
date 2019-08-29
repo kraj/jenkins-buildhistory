@@ -8,12 +8,10 @@ drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root              133 ./lib/systemd/system/proc-fs-nfsd.mount
 drwxr-xr-x root       root               60 ./lib/systemd/system/sysinit.target.wants
 lrwxrwxrwx root       root               21 ./lib/systemd/system/sysinit.target.wants/proc-fs-nfsd.mount -> ../proc-fs-nfsd.mount
-drwxr-xr-x root       root               60 ./sbin
--rwxr-xr-x root       root             2613 ./sbin/osd_login
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              140 ./usr/sbin
--rwxr-xr-x root       root            83452 ./usr/sbin/exportfs
--rwxr-xr-x root       root            34332 ./usr/sbin/nfsconf
+-rwxr-xr-x root       root            91644 ./usr/sbin/exportfs
+-rwxr-xr-x root       root            38460 ./usr/sbin/nfsconf
 -rwxr-xr-x root       root            13680 ./usr/sbin/rpcdebug
--rwxr-xr-x root       root           134824 ./usr/sbin/rpc.mountd
--rwxr-xr-x root       root            46752 ./usr/sbin/rpc.nfsd
+-rwxr-xr-x root       root           147112 ./usr/sbin/rpc.mountd
+-rwxr-xr-x root       root            50848 ./usr/sbin/rpc.nfsd

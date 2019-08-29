@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_77c28ea0e5
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_77c28ea0e5
+PKGR = r0.1
+RPROVIDES = kernel-module-bluetooth-6lowpan
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-6lowpan-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16144
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/bluetooth/bluetooth_6lowpan.ko /etc/modules-load.d/bluetooth_6lowpan.conf /etc/modprobe.d/bluetooth_6lowpan.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/bluetooth/bluetooth_6lowpan.ko

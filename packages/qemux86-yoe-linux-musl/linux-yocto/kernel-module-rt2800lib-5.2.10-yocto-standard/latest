@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_77c28ea0e5
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_77c28ea0e5
+PKGR = r0.1
+RPROVIDES = kernel-module-rt2800lib
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-crc-ccitt-5.2.10-yocto-standard kernel-module-mac80211-5.2.10-yocto-standard kernel-module-rt2x00lib-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 117692
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2800lib.ko /etc/modules-load.d/rt2800lib.conf /etc/modprobe.d/rt2800lib.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2800lib.ko
