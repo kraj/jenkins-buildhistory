@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
+PKGR = r0.27
+RPROVIDES = kernel-module-typhoon
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 44384
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/ethernet/3com/typhoon.ko /etc/modules-load.d/typhoon.conf /etc/modprobe.d/typhoon.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/ethernet/3com/typhoon.ko

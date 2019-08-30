@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
+PKGR = r0.27
+RPROVIDES = kernel-module-nhc-routing
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-6lowpan-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4496
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/net/6lowpan/nhc_routing.ko /etc/modules-load.d/nhc_routing.conf /etc/modprobe.d/nhc_routing.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/net/6lowpan/nhc_routing.ko

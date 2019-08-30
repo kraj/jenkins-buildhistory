@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
+PKGR = r0.27
+RPROVIDES = kernel-module-cast-common
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7704
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/crypto/cast_common.ko /etc/modules-load.d/cast_common.conf /etc/modprobe.d/cast_common.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/crypto/cast_common.ko
