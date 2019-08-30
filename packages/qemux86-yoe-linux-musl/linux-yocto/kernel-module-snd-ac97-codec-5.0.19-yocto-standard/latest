@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
+PKGR = r0.32
+RPROVIDES = kernel-module-snd-ac97-codec
+RDEPENDS = kernel-5.0.19-yocto-standard kernel-module-ac97-bus-5.0.19-yocto-standard kernel-module-snd-5.0.19-yocto-standard kernel-module-snd-pcm-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 131380
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/sound/pci/ac97/snd-ac97-codec.ko /etc/modules-load.d/snd-ac97-codec.conf /etc/modprobe.d/snd-ac97-codec.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/sound/pci/ac97/snd-ac97-codec.ko

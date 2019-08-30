@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
+PKGR = r0.32
+RPROVIDES = kernel-module-cordic
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 2768
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/lib/cordic.ko /etc/modules-load.d/cordic.conf /etc/modprobe.d/cordic.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/lib/cordic.ko

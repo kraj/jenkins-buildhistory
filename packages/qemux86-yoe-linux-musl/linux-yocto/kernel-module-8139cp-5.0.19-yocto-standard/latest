@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_55dd15336b
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_55dd15336b
+PKGR = r0.32
+RPROVIDES = kernel-module-8139cp
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 27656
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/ethernet/realtek/8139cp.ko /etc/modules-load.d/8139cp.conf /etc/modprobe.d/8139cp.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/drivers/net/ethernet/realtek/8139cp.ko
