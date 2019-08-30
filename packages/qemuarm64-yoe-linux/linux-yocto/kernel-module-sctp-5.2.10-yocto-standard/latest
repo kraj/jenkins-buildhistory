@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+b53e992571_77c28ea0e5
+PR = r0
+PKGV = 5.2.10+git0+b53e992571_77c28ea0e5
+PKGR = r0.1
+RPROVIDES = kernel-module-sctp
+RDEPENDS = kernel-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 580464
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/sctp/sctp.ko /etc/modules-load.d/sctp.conf /etc/modprobe.d/sctp.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/sctp/sctp.ko
