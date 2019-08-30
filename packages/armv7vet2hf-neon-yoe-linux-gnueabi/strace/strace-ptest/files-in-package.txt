@@ -2,9 +2,9 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/strace
 drwxr-xr-x root       root              160 ./usr/lib/strace/ptest
--rw-r--r-- root       root            67963 ./usr/lib/strace/ptest/config.h
+-rw-r--r-- root       root            67990 ./usr/lib/strace/ptest/config.h
 -rwxr-xr-x root       root               45 ./usr/lib/strace/ptest/run-ptest
--rwxr-xr-x root       root           710512 ./usr/lib/strace/ptest/strace
+-rwxr-xr-x root       root           706416 ./usr/lib/strace/ptest/strace
 -rwxr-xr-x root       root             1821 ./usr/lib/strace/ptest/strace-log-merge
 -rwxr-xr-x root       root             4642 ./usr/lib/strace/ptest/test-driver
 drwxr-xr-x root       root            28420 ./usr/lib/strace/ptest/tests
@@ -411,7 +411,7 @@ drwxr-xr-x root       root            28420 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              293 ./usr/lib/strace/ptest/tests/io_uring_enter.gen.test
 -rwxr-xr-x root       root             9884 ./usr/lib/strace/ptest/tests/io_uring_register
 -rwxr-xr-x root       root              296 ./usr/lib/strace/ptest/tests/io_uring_register.gen.test
--rwxr-xr-x root       root             9864 ./usr/lib/strace/ptest/tests/io_uring_setup
+-rwxr-xr-x root       root             5768 ./usr/lib/strace/ptest/tests/io_uring_setup
 -rwxr-xr-x root       root              301 ./usr/lib/strace/ptest/tests/io_uring_setup.gen.test
 -rwxr-xr-x root       root             5756 ./usr/lib/strace/ptest/tests/ipc
 -rwxr-xr-x root       root              286 ./usr/lib/strace/ptest/tests/ipc.gen.test
@@ -533,7 +533,7 @@ drwxr-xr-x root       root            28420 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              354 ./usr/lib/strace/ptest/tests/memfd_create-Xraw.gen.test
 -rwxr-xr-x root       root             9872 ./usr/lib/strace/ptest/tests/memfd_create-Xverbose
 -rwxr-xr-x root       root              356 ./usr/lib/strace/ptest/tests/memfd_create-Xverbose.gen.test
--rwxr-xr-x root       root             9864 ./usr/lib/strace/ptest/tests/migrate_pages
+-rwxr-xr-x root       root             5768 ./usr/lib/strace/ptest/tests/migrate_pages
 -rwxr-xr-x root       root              296 ./usr/lib/strace/ptest/tests/migrate_pages.gen.test
 -rwxr-xr-x root       root             9856 ./usr/lib/strace/ptest/tests/mincore
 -rwxr-xr-x root       root              290 ./usr/lib/strace/ptest/tests/mincore.gen.test
@@ -605,9 +605,9 @@ drwxr-xr-x root       root            28420 ./usr/lib/strace/ptest/tests
 -rwxr-xr-x root       root              447 ./usr/lib/strace/ptest/tests/mq_sendrecv-read.gen.test
 -rwxr-xr-x root       root            13964 ./usr/lib/strace/ptest/tests/mq_sendrecv-write
 -rwxr-xr-x root       root              450 ./usr/lib/strace/ptest/tests/mq_sendrecv-write.gen.test
--rwxr-xr-x root       root            22148 ./usr/lib/strace/ptest/tests/msg_control
+-rwxr-xr-x root       root            18052 ./usr/lib/strace/ptest/tests/msg_control
 -rwxr-xr-x root       root              326 ./usr/lib/strace/ptest/tests/msg_control.gen.test
--rwxr-xr-x root       root            22152 ./usr/lib/strace/ptest/tests/msg_control-v
+-rwxr-xr-x root       root            18056 ./usr/lib/strace/ptest/tests/msg_control-v
 -rwxr-xr-x root       root              334 ./usr/lib/strace/ptest/tests/msg_control-v.gen.test
 -rwxr-xr-x root       root            13956 ./usr/lib/strace/ptest/tests/msg_name
 -rwxr-xr-x root       root              323 ./usr/lib/strace/ptest/tests/msg_name.gen.test

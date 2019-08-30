@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_d1ed980ad9
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_d1ed980ad9
+PKGR = r0.29
+RPROVIDES = kernel-module-nfsd
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 344408
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/fs/nfsd/nfsd.ko /etc/modules-load.d/nfsd.conf /etc/modprobe.d/nfsd.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/fs/nfsd/nfsd.ko

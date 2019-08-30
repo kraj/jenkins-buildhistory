@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_d1ed980ad9
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_d1ed980ad9
+PKGR = r0.29
+RPROVIDES = kernel-module-cifs
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 660100
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/fs/cifs/cifs.ko /etc/modules-load.d/cifs.conf /etc/modprobe.d/cifs.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/fs/cifs/cifs.ko

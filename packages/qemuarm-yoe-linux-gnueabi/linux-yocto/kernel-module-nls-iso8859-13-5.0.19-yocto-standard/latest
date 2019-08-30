@@ -1,0 +1,10 @@
+PV = 5.0.19+gitAUTOINC+7f6e97c357_d1ed980ad9
+PR = r0
+PKGV = 5.0.19+git3+7f6e97c357_d1ed980ad9
+PKGR = r0.29
+RPROVIDES = kernel-module-nls-iso8859-13
+RDEPENDS = kernel-5.0.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7436
+FILES = /lib/modules/5.0.19-yocto-standard/kernel/fs/nls/nls_iso8859-13.ko /etc/modules-load.d/nls_iso8859-13.conf /etc/modprobe.d/nls_iso8859-13.conf
+FILELIST = /lib/modules/5.0.19-yocto-standard/kernel/fs/nls/nls_iso8859-13.ko
