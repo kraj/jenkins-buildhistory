@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+552f94eb15_35276d20c0
+PR = r0
+PKGV = 5.2.10+git1+552f94eb15_35276d20c0
+PKGR = r0.1
+RPROVIDES = kernel-module-at24
+RDEPENDS = kernel-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 27600
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/drivers/misc/eeprom/at24.ko /etc/modules-load.d/at24.conf /etc/modprobe.d/at24.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/drivers/misc/eeprom/at24.ko

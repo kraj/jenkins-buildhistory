@@ -31,7 +31,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/ssiapi/1.3.0-r0/ssia
 -rw-r--r-- root       root             2898 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/boost/throw_exception.hpp
 drwxr-xr-x root       root               80 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/efi
 -rw-r--r-- root       root             7201 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/efi/efi.cpp
--rw-r--r-- root       root             2973 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/efi/efi.h
+-rw-r--r-- root       root             3015 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/efi/efi.h
 drwxr-xr-x root       root             2200 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine
 -rw-r--r-- root       root             1843 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/ahci_cdrom.cpp
 -rw-r--r-- root       root             1931 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/ahci_cdrom.h
@@ -62,7 +62,7 @@ drwxr-xr-x root       root             2200 ./usr/src/debug/ssiapi/1.3.0-r0/ssia
 -rw-r--r-- root       root             5542 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/controller.h
 -rw-r--r-- root       root             7037 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/enclosure.cpp
 -rw-r--r-- root       root             3404 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/enclosure.h
--rw-r--r-- root       root            16449 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/end_device.cpp
+-rw-r--r-- root       root            16455 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/end_device.cpp
 -rw-r--r-- root       root             6916 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/end_device.h
 -rw-r--r-- root       root             2915 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/event.cpp
 -rw-r--r-- root       root             2139 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/event.h
@@ -70,7 +70,7 @@ drwxr-xr-x root       root             2200 ./usr/src/debug/ssiapi/1.3.0-r0/ssia
 -rw-r--r-- root       root             2275 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/event_manager.h
 -rw-r--r-- root       root             2266 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/exception.cpp
 -rw-r--r-- root       root             2555 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/exception.h
--rw-r--r-- root       root             7602 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/filesystem.cpp
+-rw-r--r-- root       root             7599 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/filesystem.cpp
 -rw-r--r-- root       root            10373 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/filesystem.h
 -rw-r--r-- root       root             4985 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/handle_manager.h
 -rw-r--r-- root       root             1843 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/isci_cdrom.cpp
@@ -143,12 +143,12 @@ drwxr-xr-x root       root             2200 ./usr/src/debug/ssiapi/1.3.0-r0/ssia
 -rw-r--r-- root       root             5528 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/engine/volume.h
 drwxr-xr-x root       root               80 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/log
 -rw-r--r-- root       root             3291 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/log/log.c
--rw-r--r-- root       root             2672 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/log/log.h
+-rw-r--r-- root       root             2714 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/log/log.h
 drwxr-xr-x root       root               60 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/mpb
 -rw-r--r-- root       root             9266 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/mpb/mpb.c
 drwxr-xr-x root       root               80 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/orom
 -rw-r--r-- root       root             7480 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/orom/orom.c
--rw-r--r-- root       root             4664 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/orom/orom.h
+-rw-r--r-- root       root             4706 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/orom/orom.h
 drwxr-xr-x root       root              600 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/safeclib
 -rw-r--r-- root       root             2500 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/safeclib/abort_handler_s.c
 -rw-r--r-- root       root             2319 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/lib/safeclib/ignore_handler_s.c
@@ -195,5 +195,5 @@ drwxr-xr-x root       root              340 ./usr/src/debug/ssiapi/1.3.0-r0/ssia
 -rw-r--r-- root       root             4640 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/src/templates.h
 -rw-r--r-- root       root            13573 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/src/volume.cpp
 drwxr-xr-x root       root               80 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/tools
--rw-r--r-- root       root            16194 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/tools/ssieventmonitor.cpp
+-rw-r--r-- root       root            16255 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/tools/ssieventmonitor.cpp
 -rw-r--r-- root       root             2186 ./usr/src/debug/ssiapi/1.3.0-r0/ssiapi.1.3.0/tools/ssimsg.cpp
