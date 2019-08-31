@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+552f94eb15_c9b6ba7aba
+PR = r0
+PKGV = 5.2.10+git1+552f94eb15_c9b6ba7aba
+PKGR = r0.1
+RPROVIDES = kernel-module-cryptoloop
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-loop-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6764
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/drivers/block/cryptoloop.ko /etc/modules-load.d/cryptoloop.conf /etc/modprobe.d/cryptoloop.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/drivers/block/cryptoloop.ko

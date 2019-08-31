@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+552f94eb15_c9b6ba7aba
+PR = r0
+PKGV = 5.2.10+git1+552f94eb15_c9b6ba7aba
+PKGR = r0.1
+RPROVIDES = kernel-module-generic-bl
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-backlight-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6028
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/drivers/video/backlight/generic_bl.ko /etc/modules-load.d/generic_bl.conf /etc/modprobe.d/generic_bl.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/drivers/video/backlight/generic_bl.ko

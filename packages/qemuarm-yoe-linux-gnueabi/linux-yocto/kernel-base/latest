@@ -1,11 +1,11 @@
-PV = 5.0.19+gitAUTOINC+7f6e97c357_d1ed980ad9
+PV = 5.2.10+gitAUTOINC+552f94eb15_c9b6ba7aba
 PR = r0
-PKG = kernel-5.0.19-yocto-standard
-PKGV = 5.0.19+git3+7f6e97c357_d1ed980ad9
-PKGR = r0.29
-RPROVIDES = kernel-5.0.19-yocto-standard kernel-base (=5.0.19+git3+7f6e97c357_d1ed980ad9)
+PKG = kernel-5.2.10-yocto-standard
+PKGV = 5.2.10+git1+552f94eb15_c9b6ba7aba
+PKGR = r0.1
+RPROVIDES = kernel-5.2.10-yocto-standard kernel-base (=5.2.10+git1+552f94eb15_c9b6ba7aba)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 15164
-FILES = /lib/modules/5.0.19-yocto-standard/modules.order /lib/modules/5.0.19-yocto-standard/modules.builtin /lib/modules/5.0.19-yocto-standard/modules.builtin.modinfo
-FILELIST = /lib/modules/5.0.19-yocto-standard/modules.builtin /lib/modules/5.0.19-yocto-standard/modules.order
+PKGSIZE = 55341
+FILES = /lib/modules/5.2.10-yocto-standard/modules.order /lib/modules/5.2.10-yocto-standard/modules.builtin /lib/modules/5.2.10-yocto-standard/modules.builtin.modinfo
+FILELIST = /lib/modules/5.2.10-yocto-standard/modules.builtin /lib/modules/5.2.10-yocto-standard/modules.builtin.modinfo /lib/modules/5.2.10-yocto-standard/modules.order
