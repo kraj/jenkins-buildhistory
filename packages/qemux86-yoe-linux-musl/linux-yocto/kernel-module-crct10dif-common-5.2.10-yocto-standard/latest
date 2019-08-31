@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+552f94eb15_35276d20c0
+PR = r0
+PKGV = 5.2.10+git1+552f94eb15_35276d20c0
+PKGR = r0.1
+RPROVIDES = kernel-module-crct10dif-common
+RDEPENDS = kernel-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 3156
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/crypto/crct10dif_common.ko /etc/modules-load.d/crct10dif_common.conf /etc/modprobe.d/crct10dif_common.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/crypto/crct10dif_common.ko

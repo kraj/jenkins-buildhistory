@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+552f94eb15_35276d20c0
+PR = r0
+PKGV = 5.2.10+git1+552f94eb15_35276d20c0
+PKGR = r0.1
+RPROVIDES = kernel-module-nfnetlink-queue
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-nfnetlink-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 18316
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/netfilter/nfnetlink_queue.ko /etc/modules-load.d/nfnetlink_queue.conf /etc/modprobe.d/nfnetlink_queue.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/netfilter/nfnetlink_queue.ko
