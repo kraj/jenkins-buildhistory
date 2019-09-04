@@ -1,9 +1,9 @@
 PV = 6.1+20190803
 PR = r0
 PKG = libtic5
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = ncurses-libtic (=6.1+20190803)
-RDEPENDS = musl (>= 1.1.23+git4+29e8737f81) ncurses-libtinfo (>= 6.1+20190803)
+RDEPENDS = musl (>= 1.1.23+git5+6ad514e4e2) ncurses-libtinfo (>= 6.1+20190803)
 RRECOMMENDS = 
 PKGSIZE = 66917
 FILES = /usr/lib/libtic.so.5 /usr/lib/libtic.so.5.9

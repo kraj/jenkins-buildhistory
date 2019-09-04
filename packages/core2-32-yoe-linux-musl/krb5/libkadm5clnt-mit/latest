@@ -1,9 +1,9 @@
 PV = 1.17
 PR = r0
 PKG = libkadm5clnt-mit11
-PKGR = r0.37
+PKGR = r0.38
 RPROVIDES = libkadm5clnt-mit (=1.17)
-RDEPENDS = libcomerr (>= 1.45.3) libgssapi-krb5 (>= 1.17) libgssrpc (>= 1.17) libk5crypto (>= 1.17) libkrb5 (>= 1.17) libkrb5support (>= 1.17) musl (>= 1.1.23+git4+29e8737f81)
+RDEPENDS = libcomerr (>= 1.45.3) libgssapi-krb5 (>= 1.17) libgssrpc (>= 1.17) libk5crypto (>= 1.17) libkrb5 (>= 1.17) libkrb5support (>= 1.17) musl (>= 1.1.23+git5+6ad514e4e2)
 RRECOMMENDS = 
 PKGSIZE = 87564
 FILES = /usr/lib/libkadm5clnt_mit.so.*

@@ -1,8 +1,8 @@
-PV = 5.8.0
+PV = 5.8.1
 PR = r0
-PKGR = r0.28
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.23+git4+29e8737f81) strongswan
+RDEPENDS = musl (>= 1.1.23+git5+6ad514e4e2) strongswan
 RRECOMMENDS = 
 PKGSIZE = 5600
 FILES = /usr/lib/ipsec/plugins/libstrongswan-nonce.so /etc/strongswan.d/charon/nonce.conf

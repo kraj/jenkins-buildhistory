@@ -1,9 +1,9 @@
 PV = 6.1+20190803
 PR = r0
 PKG = libpanelw5
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = ncurses-libpanelw (=6.1+20190803)
-RDEPENDS = musl (>= 1.1.23+git4+29e8737f81) ncurses-libncursesw (>= 6.1+20190803) ncurses-libtinfo (>= 6.1+20190803)
+RDEPENDS = musl (>= 1.1.23+git5+6ad514e4e2) ncurses-libncursesw (>= 6.1+20190803) ncurses-libtinfo (>= 6.1+20190803)
 RRECOMMENDS = 
 PKGSIZE = 13548
 FILES = /usr/lib/libpanelw.so.5 /usr/lib/libpanelw.so.5.9

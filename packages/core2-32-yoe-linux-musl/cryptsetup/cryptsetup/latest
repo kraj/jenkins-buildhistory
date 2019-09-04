@@ -1,8 +1,8 @@
 PV = 2.2.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = json-c (>= 0.13.1) libcrypto (>= 1.1.1c) libdevmapper libssl (>= 1.1.1c) musl (>= 1.1.23+git4+29e8737f81) popt (>= 1.16) udev util-linux-libblkid (>= 2.34) util-linux-libuuid (>= 2.34)
+RDEPENDS = json-c (>= 0.13.1) libcrypto (>= 1.1.1c) libdevmapper libssl (>= 1.1.1c) musl (>= 1.1.23+git5+6ad514e4e2) popt (>= 1.16) udev util-linux-libblkid (>= 2.34) util-linux-libuuid (>= 2.34)
 RRECOMMENDS = kernel-module-aes-generic kernel-module-cbc kernel-module-dm-crypt kernel-module-md5 kernel-module-sha256-generic kernel-module-xts
 PKGSIZE = 919603
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cryptsetup /usr/lib/cryptsetup/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tmpfiles.d/cryptsetup.conf
