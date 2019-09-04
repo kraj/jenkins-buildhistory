@@ -1,8 +1,9 @@
-PV = 4.1
+PV = 4.1+gitAUTOINC+c50798b224
 PR = r0
-PKGR = r0.40
+PKGV = 4.1+git0+c50798b224
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = systemtap-uprobes (= 4.1-r0.40)
+RDEPENDS = systemtap-uprobes (= 4.1+git0+c50798b224-r0.0)
 RRECOMMENDS = systemtap-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/systemtap-uprobes/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
