@@ -3,7 +3,7 @@ drwxr-xr-x root       root               40 ./etc/systemtap
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
 -rwxr-xr-x root       root            17061 ./usr/bin/dtrace
--rwxr-xr-x root       root          2216404 ./usr/bin/stap
+-rwxr-xr-x root       root          2220500 ./usr/bin/stap
 -rwxr-xr-x root       root           129136 ./usr/bin/stapbpf
 -rwxr-xr-x root       root             5764 ./usr/bin/stap-merge
 -rwxr-xr-x root       root             4855 ./usr/bin/stap-report
@@ -123,8 +123,8 @@ drwxr-xr-x root       root              100 ./usr/share/systemtap/examples/html
 -rw-r--r-- root       root              970 ./usr/share/systemtap/examples/html/systemtapcorner.gif
 -rw-r--r-- root       root             2987 ./usr/share/systemtap/examples/html/systemtap.css
 -rw-r--r-- root       root             1860 ./usr/share/systemtap/examples/html/systemtaplogo.png
--rw-r--r-- root       root           125152 ./usr/share/systemtap/examples/index.html
--rw-r--r-- root       root            73809 ./usr/share/systemtap/examples/index.txt
+-rw-r--r-- root       root           125576 ./usr/share/systemtap/examples/index.html
+-rw-r--r-- root       root            73874 ./usr/share/systemtap/examples/index.txt
 drwxr-xr-x root       root              160 ./usr/share/systemtap/examples/interrupt
 -rw-r--r-- root       root              507 ./usr/share/systemtap/examples/interrupt/interrupts-by-dev.meta
 -rwxr-xr-x root       root              838 ./usr/share/systemtap/examples/interrupt/interrupts-by-dev.stp
@@ -185,8 +185,8 @@ drwxr-xr-x root       root             1080 ./usr/share/systemtap/examples/io
 -rw-r--r-- root       root              521 ./usr/share/systemtap/examples/io/ttyspy.meta
 -rwxr-xr-x root       root             1686 ./usr/share/systemtap/examples/io/ttyspy.stp
 -rw-r--r-- root       root              455 ./usr/share/systemtap/examples/io/ttyspy.txt
--rw-r--r-- root       root           228029 ./usr/share/systemtap/examples/keyword-index.html
--rw-r--r-- root       root           151329 ./usr/share/systemtap/examples/keyword-index.txt
+-rw-r--r-- root       root           233953 ./usr/share/systemtap/examples/keyword-index.html
+-rw-r--r-- root       root           154758 ./usr/share/systemtap/examples/keyword-index.txt
 drwxr-xr-x root       root              120 ./usr/share/systemtap/examples/locks
 -rw-r--r-- root       root             1105 ./usr/share/systemtap/examples/locks/bkl.meta
 -rw-r--r-- root       root              977 ./usr/share/systemtap/examples/locks/bkl_stats.meta
@@ -435,7 +435,7 @@ drwxr-xr-x root       root             1940 ./usr/share/systemtap/examples/proce
 -rw-r--r-- root       root               79 ./usr/share/systemtap/examples/process/threadstacks.tcl
 -rw-r--r-- root       root              658 ./usr/share/systemtap/examples/process/wait4time.meta
 -rwxr-xr-x root       root             1352 ./usr/share/systemtap/examples/process/wait4time.stp
-drwxr-xr-x root       root             1120 ./usr/share/systemtap/examples/profiling
+drwxr-xr-x root       root             1160 ./usr/share/systemtap/examples/profiling
 -rw-r--r-- root       root             1064 ./usr/share/systemtap/examples/profiling/container_check.meta
 -rwxr-xr-x root       root             5781 ./usr/share/systemtap/examples/profiling/container_check.stp
 -rw-r--r-- root       root              456 ./usr/share/systemtap/examples/profiling/errno.meta
@@ -481,6 +481,8 @@ drwxr-xr-x root       root             1120 ./usr/share/systemtap/examples/profi
 -rwxr-xr-x root       root              994 ./usr/share/systemtap/examples/profiling/syscalllatency.stp
 -rw-r--r-- root       root             1020 ./usr/share/systemtap/examples/profiling/syscallsbypid.meta
 -rwxr-xr-x root       root              790 ./usr/share/systemtap/examples/profiling/syscallsbypid.stp
+-rw-r--r-- root       root              497 ./usr/share/systemtap/examples/profiling/syscallsrw.meta
+-rwxr-xr-x root       root              376 ./usr/share/systemtap/examples/profiling/syscallsrw.stp
 -rw-r--r-- root       root              384 ./usr/share/systemtap/examples/profiling/thread-times.meta
 -rwxr-xr-x root       root             1246 ./usr/share/systemtap/examples/profiling/thread-times.stp
 -rw-r--r-- root       root             1009 ./usr/share/systemtap/examples/profiling/thread-times.txt
@@ -1350,7 +1352,7 @@ drwxr-xr-x root       root               60 ./usr/share/systemtap/tapset/powerpc
 -rw-r--r-- root       root             5888 ./usr/share/systemtap/tapset/powerpc/registers.stp
 -rw-r--r-- root       root             1719 ./usr/share/systemtap/tapset/print_stats.stpm
 -rw-r--r-- root       root               80 ./usr/share/systemtap/tapset/private30.stpm
--rw-r--r-- root       root               68 ./usr/share/systemtap/tapset/prometheus.stp
+-rw-r--r-- root       root              129 ./usr/share/systemtap/tapset/prometheus.stp
 -rw-r--r-- root       root             8380 ./usr/share/systemtap/tapset/prometheus.stpm
 -rw-r--r-- root       root            31021 ./usr/share/systemtap/tapset/python2.stp
 -rw-r--r-- root       root            30405 ./usr/share/systemtap/tapset/python3.stp
@@ -1365,7 +1367,7 @@ drwxr-xr-x root       root               60 ./usr/share/systemtap/tapset/s390
 -rw-r--r-- root       root             1746 ./usr/share/systemtap/tapset/speculative.stp
 -rw-r--r-- root       root             9670 ./usr/share/systemtap/tapset/stap_staticmarkers.stp
 -rw-r--r-- root       root             3063 ./usr/share/systemtap/tapset/stopwatch.stp
--rw-r--r-- root       root             7076 ./usr/share/systemtap/tapset/string.stp
+-rw-r--r-- root       root             7514 ./usr/share/systemtap/tapset/string.stp
 -rw-r--r-- root       root              612 ./usr/share/systemtap/tapset/switchfile.stp
 -rw-r--r-- root       root              593 ./usr/share/systemtap/tapset/system.stp
 -rw-r--r-- root       root              160 ./usr/share/systemtap/tapset/this.stp
