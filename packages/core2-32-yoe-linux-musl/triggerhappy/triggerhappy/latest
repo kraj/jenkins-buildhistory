@@ -1,9 +1,9 @@
 PV = 0.5.0+gitAUTOINC+44a1731959
 PR = r0
 PKGV = 0.5.0+git0+44a1731959
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = 
-RDEPENDS = libsystemd (>= 242+1+07f0549ffe) musl (>= 1.1.23+git5+6ad514e4e2)
+RDEPENDS = libsystemd (>= 242+2+f875dced33) musl (>= 1.1.23+git5+6ad514e4e2)
 RRECOMMENDS = 
 PKGSIZE = 52747
 FILES = /usr/sbin/thd /usr/sbin/th-cmd /etc/triggerhappy/triggers.d /lib/udev/rules.d/80-triggerhappy.rules /etc/init.d/triggerhappy /lib/systemd/system /lib/systemd/system-preset/98-triggerhappy.preset /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket
