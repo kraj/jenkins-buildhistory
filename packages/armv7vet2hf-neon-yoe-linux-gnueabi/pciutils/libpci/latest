@@ -1,9 +1,9 @@
 PV = 3.6.2
 PR = r0
 PKG = libpci3
-PKGR = r0.74
+PKGR = r0.75
 RPROVIDES = libpci (=3.6.2)
-RDEPENDS = glibc (>= 2.30) libudev (>= 242+2+07f0549ffe) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.30) libudev (>= 242+3+f875dced33) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 30415
 FILES = /usr/lib/libpci.so.*
