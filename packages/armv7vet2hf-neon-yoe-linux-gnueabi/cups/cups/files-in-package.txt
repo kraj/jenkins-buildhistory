@@ -19,7 +19,7 @@ drwxr-xr-x root       root              140 ./lib/systemd/system
 -r--r--r-- root       root              152 ./lib/systemd/system/org.cups.cupsd.path
 -r--r--r-- root       root              233 ./lib/systemd/system/org.cups.cupsd.service
 -r--r--r-- root       root              146 ./lib/systemd/system/org.cups.cupsd.socket
--r--r--r-- root       root              147 ./lib/systemd/system/org.cups.cups-lpd@.service
+-r--r--r-- root       root              151 ./lib/systemd/system/org.cups.cups-lpd@.service
 -r--r--r-- root       root              148 ./lib/systemd/system/org.cups.cups-lpd.socket
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root              152 ./lib/systemd/system-preset/98-cups.preset
@@ -41,45 +41,45 @@ drwxr-xr-x root       root              360 ./usr/bin
 -rwxr-xr-x root       root            71376 ./usr/bin/ppdi
 -rwxr-xr-x root       root             9920 ./usr/bin/ppdmerge
 -rwxr-xr-x root       root            67280 ./usr/bin/ppdpo
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              160 ./usr/lib/cups
-drwxr-xr-x root       root              220 ./usr/lib/cups/backend
--rwx------ root       root            13952 ./usr/lib/cups/backend/dnssd
-lrwxrwxrwx root       root                3 ./usr/lib/cups/backend/http -> ipp
-lrwxrwxrwx root       root                3 ./usr/lib/cups/backend/https -> ipp
--rwx------ root       root            54984 ./usr/lib/cups/backend/ipp
-lrwxrwxrwx root       root                3 ./usr/lib/cups/backend/ipps -> ipp
--rwx------ root       root            34500 ./usr/lib/cups/backend/lpd
--rwxr-xr-x root       root            18052 ./usr/lib/cups/backend/snmp
--rwxr-xr-x root       root            26312 ./usr/lib/cups/backend/socket
--rwxr-xr-x root       root            26236 ./usr/lib/cups/backend/usb
-drwxr-xr-x root       root              140 ./usr/lib/cups/cgi-bin
--rwxr-xr-x root       root            71364 ./usr/lib/cups/cgi-bin/admin.cgi
--rwxr-xr-x root       root            38604 ./usr/lib/cups/cgi-bin/classes.cgi
--rwxr-xr-x root       root            43268 ./usr/lib/cups/cgi-bin/help.cgi
--rwxr-xr-x root       root            34500 ./usr/lib/cups/cgi-bin/jobs.cgi
--rwxr-xr-x root       root            38608 ./usr/lib/cups/cgi-bin/printers.cgi
-drwxr-xr-x root       root              120 ./usr/lib/cups/daemon
--rwxr-xr-x root       root            13960 ./usr/lib/cups/daemon/cups-deviced
--rwxr-xr-x root       root            92108 ./usr/lib/cups/daemon/cups-driverd
--rwxr-xr-x root       root             5764 ./usr/lib/cups/daemon/cups-exec
--rwxr-xr-x root       root            18112 ./usr/lib/cups/daemon/cups-lpd
-drwxr-xr-x root       root              200 ./usr/lib/cups/filter
--rwxr-xr-x root       root             9860 ./usr/lib/cups/filter/commandtops
--rwxr-xr-x root       root             5764 ./usr/lib/cups/filter/gziptoany
--rwxr-xr-x root       root            38560 ./usr/lib/cups/filter/pstops
-lrwxrwxrwx root       root               13 ./usr/lib/cups/filter/rastertodymo -> rastertolabel
--rwxr-xr-x root       root            13960 ./usr/lib/cups/filter/rastertoepson
--rwxr-xr-x root       root            13956 ./usr/lib/cups/filter/rastertohp
--rwxr-xr-x root       root            13960 ./usr/lib/cups/filter/rastertolabel
--rwxr-xr-x root       root            13956 ./usr/lib/cups/filter/rastertopwg
-drwxr-xr-x root       root               80 ./usr/lib/cups/monitor
--rwxr-xr-x root       root             9852 ./usr/lib/cups/monitor/bcp
--rwxr-xr-x root       root             5760 ./usr/lib/cups/monitor/tbcp
-drwxr-xr-x root       root              100 ./usr/lib/cups/notifier
--rwxr-xr-x root       root             9856 ./usr/lib/cups/notifier/dbus
--rwxr-xr-x root       root            13952 ./usr/lib/cups/notifier/mailto
--rwxr-xr-x root       root            13948 ./usr/lib/cups/notifier/rss
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              160 ./usr/libexec/cups
+drwxr-xr-x root       root              220 ./usr/libexec/cups/backend
+-rwx------ root       root            13952 ./usr/libexec/cups/backend/dnssd
+lrwxrwxrwx root       root                3 ./usr/libexec/cups/backend/http -> ipp
+lrwxrwxrwx root       root                3 ./usr/libexec/cups/backend/https -> ipp
+-rwx------ root       root            54984 ./usr/libexec/cups/backend/ipp
+lrwxrwxrwx root       root                3 ./usr/libexec/cups/backend/ipps -> ipp
+-rwx------ root       root            34500 ./usr/libexec/cups/backend/lpd
+-rwxr-xr-x root       root            18052 ./usr/libexec/cups/backend/snmp
+-rwxr-xr-x root       root            26312 ./usr/libexec/cups/backend/socket
+-rwxr-xr-x root       root            26236 ./usr/libexec/cups/backend/usb
+drwxr-xr-x root       root              140 ./usr/libexec/cups/cgi-bin
+-rwxr-xr-x root       root            71364 ./usr/libexec/cups/cgi-bin/admin.cgi
+-rwxr-xr-x root       root            38604 ./usr/libexec/cups/cgi-bin/classes.cgi
+-rwxr-xr-x root       root            43268 ./usr/libexec/cups/cgi-bin/help.cgi
+-rwxr-xr-x root       root            34500 ./usr/libexec/cups/cgi-bin/jobs.cgi
+-rwxr-xr-x root       root            38608 ./usr/libexec/cups/cgi-bin/printers.cgi
+drwxr-xr-x root       root              120 ./usr/libexec/cups/daemon
+-rwxr-xr-x root       root            13960 ./usr/libexec/cups/daemon/cups-deviced
+-rwxr-xr-x root       root            92108 ./usr/libexec/cups/daemon/cups-driverd
+-rwxr-xr-x root       root             5764 ./usr/libexec/cups/daemon/cups-exec
+-rwxr-xr-x root       root            18112 ./usr/libexec/cups/daemon/cups-lpd
+drwxr-xr-x root       root              200 ./usr/libexec/cups/filter
+-rwxr-xr-x root       root             9860 ./usr/libexec/cups/filter/commandtops
+-rwxr-xr-x root       root             5764 ./usr/libexec/cups/filter/gziptoany
+-rwxr-xr-x root       root            38560 ./usr/libexec/cups/filter/pstops
+lrwxrwxrwx root       root               13 ./usr/libexec/cups/filter/rastertodymo -> rastertolabel
+-rwxr-xr-x root       root            13960 ./usr/libexec/cups/filter/rastertoepson
+-rwxr-xr-x root       root            13956 ./usr/libexec/cups/filter/rastertohp
+-rwxr-xr-x root       root            13960 ./usr/libexec/cups/filter/rastertolabel
+-rwxr-xr-x root       root            13956 ./usr/libexec/cups/filter/rastertopwg
+drwxr-xr-x root       root               80 ./usr/libexec/cups/monitor
+-rwxr-xr-x root       root             9852 ./usr/libexec/cups/monitor/bcp
+-rwxr-xr-x root       root             5760 ./usr/libexec/cups/monitor/tbcp
+drwxr-xr-x root       root              100 ./usr/libexec/cups/notifier
+-rwxr-xr-x root       root             9856 ./usr/libexec/cups/notifier/dbus
+-rwxr-xr-x root       root            13952 ./usr/libexec/cups/notifier/mailto
+-rwxr-xr-x root       root            13948 ./usr/libexec/cups/notifier/rss
 drwxr-xr-x root       root              320 ./usr/sbin
 lrwxrwxrwx root       root               10 ./usr/sbin/accept -> cupsaccept
 -rwxr-xr-x root       root             9860 ./usr/sbin/cupsaccept
