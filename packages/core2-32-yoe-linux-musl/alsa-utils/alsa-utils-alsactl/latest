@@ -1,8 +1,8 @@
 PV = 1.1.9
 PR = r0
-PKGR = r0.50
+PKGR = r0.51
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.1.9) musl (>= 1.1.23+git5+6ad514e4e2)
+RDEPENDS = alsa-lib (>= 1.1.9) musl (>= 1.1.23+git6+1f0e9f9cc2)
 RRECOMMENDS = alsa-states
 PKGSIZE = 133250
 FILES = /usr/sbin/alsactl */udev/rules.d/90-alsa-restore.rules */*/udev/rules.d/90-alsa-restore.rules /lib/systemd /var/lib/alsa /usr/share/alsa/init/
