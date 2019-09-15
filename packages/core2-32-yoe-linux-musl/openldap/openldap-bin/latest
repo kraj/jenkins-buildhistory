@@ -1,0 +1,10 @@
+PV = 2.4.48
+PR = r0
+PKG = libldap-2.4-bin
+PKGR = r0.28
+RPROVIDES = openldap-bin (=2.4.48)
+RDEPENDS = musl (>= 1.1.23+git6+1f0e9f9cc2) openldap (>= 2.4.48)
+RRECOMMENDS = 
+PKGSIZE = 529030
+FILES = /usr/bin
+FILELIST = /usr/bin/ldapadd /usr/bin/ldapcompare /usr/bin/ldapdelete /usr/bin/ldapexop /usr/bin/ldapmodify /usr/bin/ldapmodrdn /usr/bin/ldappasswd /usr/bin/ldapsearch /usr/bin/ldapurl /usr/bin/ldapwhoami
