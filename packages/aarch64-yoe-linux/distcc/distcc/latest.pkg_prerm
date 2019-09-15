@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop distcc.service
-
-		systemctl disable distcc.service
-	fi
-fi
