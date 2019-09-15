@@ -1,0 +1,10 @@
+PV = 2.1.0
+PR = r0
+PKG = libyajl-bin
+PKGR = r0.47
+RPROVIDES = yajl-bin (=2.1.0)
+RDEPENDS = musl (>= 1.1.23+git6+1f0e9f9cc2)
+RRECOMMENDS = 
+PKGSIZE = 64180
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/json_reformat /usr/bin/json_verify

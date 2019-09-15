@@ -1,0 +1,10 @@
+PV = 1.0.8
+PR = r0
+PKG = libbz2-1
+PKGR = r0.34
+RPROVIDES = libbz2 (=1.0.8)
+RDEPENDS = musl (>= 1.1.23+git6+1f0e9f9cc2)
+RRECOMMENDS = 
+PKGSIZE = 69999
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libbz2.so.1 /usr/lib/libbz2.so.1.0.6
