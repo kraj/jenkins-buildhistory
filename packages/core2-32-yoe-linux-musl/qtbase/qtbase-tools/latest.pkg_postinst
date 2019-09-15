@@ -1,5 +1,0 @@
-set -e
-sed -i \
-    -e 's:HostSpec =.*:HostSpec = linux-g++:g' \
-    -e 's:TargetSpec =.*:TargetSpec = linux-g++:g' \
-    $D/usr/bin/qt.conf
