@@ -1,0 +1,10 @@
+PV = 4.08
+PR = r0
+PKG = libjson-spirit-dev
+PKGR = r0.0
+RPROVIDES = json-spirit-dev (=4.08)
+RDEPENDS = json-spirit (= 4.08-r0.0)
+RRECOMMENDS = boost-dev glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 61636
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/json-spirit/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/json_spirit.h /usr/include/json_spirit_error_position.h /usr/include/json_spirit_reader.h /usr/include/json_spirit_reader_template.h /usr/include/json_spirit_stream_reader.h /usr/include/json_spirit_utils.h /usr/include/json_spirit_value.h /usr/include/json_spirit_writer.h /usr/include/json_spirit_writer_options.h /usr/include/json_spirit_writer_template.h /usr/lib/libjson_spirit.so /usr/share/cmake/Modules/FindLibJsonSpirit.cmake
