@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+a36c82128d_d329dc7256
+PR = r0
+PKGV = 5.2.10+git0+a36c82128d_d329dc7256
+PKGR = r0.2
+RPROVIDES = kernel-module-nf-log-common
+RDEPENDS = kernel-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7928
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/netfilter/nf_log_common.ko /etc/modules-load.d/nf_log_common.conf /etc/modprobe.d/nf_log_common.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/netfilter/nf_log_common.ko
