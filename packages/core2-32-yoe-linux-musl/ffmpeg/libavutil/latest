@@ -1,0 +1,10 @@
+PV = 4.2
+PR = r0
+PKG = libavutil56
+PKGR = r0.2
+RPROVIDES = libavutil (=4.2)
+RDEPENDS = musl (>= 1.1.23+git0+1f0e9f9cc2)
+RRECOMMENDS = 
+PKGSIZE = 583134
+FILES = /usr/lib/libavutil.so.*
+FILELIST = /usr/lib/libavutil.so.56 /usr/lib/libavutil.so.56.31.100
