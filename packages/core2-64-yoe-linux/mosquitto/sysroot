@@ -1,0 +1,22 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 323 ./lib/systemd/system/mosquitto.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/mosquitto
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               12763 ./usr/bin/postinst-useradd-mosquitto
+drwxr-xr-x -          -                 120 ./usr/include
+-rwxr-xr-x -          -                3711 ./usr/include/mosquitto_broker.h
+-rwxr-xr-x -          -               65939 ./usr/include/mosquitto.h
+-rwxr-xr-x -          -                9460 ./usr/include/mosquitto_plugin.h
+-rwxr-xr-x -          -                5300 ./usr/include/mosquittopp.h
+drwxr-xr-x -          -                 140 ./usr/lib
+-rwxr-xr-x -          -               22680 ./usr/lib/libmosquittopp.so.1
+lrwxrwxrwx -          -                  19 ./usr/lib/libmosquittopp.so -> libmosquittopp.so.1
+-rwxr-xr-x -          -               67576 ./usr/lib/libmosquitto.so.1
+lrwxrwxrwx -          -                  17 ./usr/lib/libmosquitto.so -> libmosquitto.so.1
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 224 ./usr/lib/pkgconfig/libmosquitto.pc
+-rw-r--r-- -          -                 230 ./usr/lib/pkgconfig/libmosquittopp.pc
