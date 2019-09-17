@@ -1,0 +1,12 @@
+PE = 1
+PV = 243+AUTOINC+efb536d0cb
+PR = r0
+PKG = libnss-systemd2
+PKGV = 243+0+efb536d0cb
+PKGR = r0.1
+RPROVIDES = libnss-systemd (=243+0+efb536d0cb)
+RDEPENDS = glibc (>= 2.30) libcap (>= 2.27)
+RRECOMMENDS = 
+PKGSIZE = 398280
+FILES = /lib/libnss_systemd.so.2
+FILELIST = /lib/libnss_systemd.so.2
