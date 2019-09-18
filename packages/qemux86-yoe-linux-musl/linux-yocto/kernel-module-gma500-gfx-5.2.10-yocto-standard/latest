@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+a36c82128d_8d8bf56b23
+PR = r0
+PKGV = 5.2.10+git0+a36c82128d_8d8bf56b23
+PKGR = r0.7
+RPROVIDES = kernel-module-gma500-gfx
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-video-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 191424
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/drivers/gpu/drm/gma500/gma500_gfx.ko /etc/modules-load.d/gma500_gfx.conf /etc/modprobe.d/gma500_gfx.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/drivers/gpu/drm/gma500/gma500_gfx.ko
