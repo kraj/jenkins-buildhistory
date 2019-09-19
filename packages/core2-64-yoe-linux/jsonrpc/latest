@@ -1,0 +1,5 @@
+PV = 1.2.0
+PR = r0
+DEPENDS = cmake-native curl hiredis jsoncpp libmicrohttpd ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = jsonrpc-src jsonrpc-dbg jsonrpc-staticdev jsonrpc-dev jsonrpc-doc jsonrpc-locale jsonrpc
+LAYER = openembedded-layer
