@@ -1,0 +1,10 @@
+PV = 2.9.9
+PR = r0
+PKG = libulockmgr1
+PKGR = r0.3
+RPROVIDES = libulockmgr (=2.9.9)
+RDEPENDS = musl (>= 1.1.23+git0+1f0e9f9cc2)
+RRECOMMENDS = 
+PKGSIZE = 9536
+FILES = /usr/lib/libulockmgr.so.*
+FILELIST = /usr/lib/libulockmgr.so.1 /usr/lib/libulockmgr.so.1.0.1

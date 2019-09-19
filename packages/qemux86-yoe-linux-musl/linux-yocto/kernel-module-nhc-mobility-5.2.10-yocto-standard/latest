@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+a36c82128d_8d8bf56b23
+PR = r0
+PKGV = 5.2.10+git0+a36c82128d_8d8bf56b23
+PKGR = r0.10
+RPROVIDES = kernel-module-nhc-mobility
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-6lowpan-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 3092
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/6lowpan/nhc_mobility.ko /etc/modules-load.d/nhc_mobility.conf /etc/modprobe.d/nhc_mobility.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/6lowpan/nhc_mobility.ko

@@ -1,0 +1,9 @@
+PV = 1.3.1
+PR = r0
+PKGR = r0.3
+RPROVIDES = pam-plugin-mail-suffix
+RDEPENDS = libpam (>= 1.3.1) libpam-suffix musl (>= 1.1.23+git0+1f0e9f9cc2)
+RRECOMMENDS = 
+PKGSIZE = 9640
+FILES = /lib/security/pam_mail.so
+FILELIST = /lib/security/pam_mail.so
