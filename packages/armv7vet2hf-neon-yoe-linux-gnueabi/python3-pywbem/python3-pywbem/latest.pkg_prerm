@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  mof_compiler /usr/bin/mof_compiler.python3-pywbem
+	update-alternatives --remove  pywbemcli /usr/bin/pywbemcli.python3-pywbem
+	update-alternatives --remove  wbemcli /usr/bin/wbemcli.python3-pywbem
