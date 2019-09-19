@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+a36c82128d_d329dc7256
+PR = r0
+PKGV = 5.2.10+git0+a36c82128d_d329dc7256
+PKGR = r0.11
+RPROVIDES = kernel-module-ipcomp6
+RDEPENDS = kernel-5.2.10-yocto-standard kernel-module-xfrm-ipcomp-5.2.10-yocto-standard kernel-module-xfrm6-tunnel-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6932
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/net/ipv6/ipcomp6.ko /etc/modules-load.d/ipcomp6.conf /etc/modprobe.d/ipcomp6.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/net/ipv6/ipcomp6.ko
