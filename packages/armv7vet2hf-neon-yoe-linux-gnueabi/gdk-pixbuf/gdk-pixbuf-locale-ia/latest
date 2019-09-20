@@ -1,0 +1,10 @@
+PV = 2.38.2
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-ia
+PKGR = r0.3
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-ia (=2.38.2) ia-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ia
+PKGSIZE = 1077
+FILES = /usr/share/locale/ia
+FILELIST = /usr/share/locale/ia/LC_MESSAGES/gdk-pixbuf.mo
