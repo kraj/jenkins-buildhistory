@@ -1,0 +1,10 @@
+PV = 2.38.2
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-ko
+PKGR = r0.2
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-ko (=2.38.2) ko-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 25048
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/gdk-pixbuf.mo
