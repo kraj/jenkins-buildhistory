@@ -1,0 +1,10 @@
+PV = 2.38.2
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-ca+valencia
+PKGR = r0.2
+RPROVIDES = ca+valencia-translation gdk-pixbuf-locale gdk-pixbuf-locale-ca+valencia (=2.38.2)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ca+valencia
+PKGSIZE = 24016
+FILES = /usr/share/locale/ca@valencia
+FILELIST = /usr/share/locale/ca@valencia/LC_MESSAGES/gdk-pixbuf.mo

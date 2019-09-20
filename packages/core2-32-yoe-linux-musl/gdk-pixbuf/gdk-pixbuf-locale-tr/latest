@@ -1,0 +1,10 @@
+PV = 2.38.2
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-tr
+PKGR = r0.2
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-tr (=2.38.2) tr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-tr
+PKGSIZE = 22898
+FILES = /usr/share/locale/tr
+FILELIST = /usr/share/locale/tr/LC_MESSAGES/gdk-pixbuf.mo

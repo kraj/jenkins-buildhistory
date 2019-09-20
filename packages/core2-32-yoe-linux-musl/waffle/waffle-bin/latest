@@ -1,0 +1,10 @@
+PV = 1.6.0
+PR = r0
+PKG = libwaffle-1-bin
+PKGR = r0.4
+RPROVIDES = waffle-bin (=1.6.0)
+RDEPENDS = musl (>= 1.1.23+git0+1f0e9f9cc2) waffle (>= 1.6.0)
+RRECOMMENDS = 
+PKGSIZE = 17772
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/wflinfo
