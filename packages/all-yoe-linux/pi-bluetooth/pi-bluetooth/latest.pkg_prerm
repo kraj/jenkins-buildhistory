@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop hciuart.service bthelper@.service
-
-		systemctl disable hciuart.service bthelper@.service
-	fi
-fi
