@@ -1,0 +1,10 @@
+PV = 3.9.1
+PR = r0
+PKG = libprotobuf20
+PKGR = r0.4
+RPROVIDES = protobuf (=3.9.1)
+RDEPENDS = libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.23+git0+1f0e9f9cc2) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 3271341
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/protobuf /usr/lib/protobuf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libprotobuf.so.20 /usr/lib/libprotobuf.so.20.0.1
