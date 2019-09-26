@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot postinst-delayed-a mlprefix=
+    exit 0
+fi
+    set -e
+
+    if [ ! -e /etc/postinst-test/rootfs ]; then
+        echo "postinst-delayed-a: /etc/postinst-test/rootfs not found"
+        exit 1
+    fi
+
+    touch /etc/postinst-test/delayed-a
