@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot opkg-keyrings mlprefix=
+    exit 0
+fi
+opkg-key populate
