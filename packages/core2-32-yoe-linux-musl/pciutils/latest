@@ -1,0 +1,5 @@
+PV = 3.6.2
+PR = r0
+DEPENDS = kmod pkgconfig-native udev virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc zlib
+PACKAGES = pciutils-src pciutils-dbg pciutils-ids libpci pciutils-staticdev pciutils-dev pciutils-doc pciutils-locale pciutils
+LAYER = core
