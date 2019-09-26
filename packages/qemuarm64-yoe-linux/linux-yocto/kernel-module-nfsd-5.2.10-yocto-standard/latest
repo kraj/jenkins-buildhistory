@@ -1,0 +1,10 @@
+PV = 5.2.10+gitAUTOINC+a36c82128d_8d8bf56b23
+PR = r0
+PKGV = 5.2.10+git0+a36c82128d_8d8bf56b23
+PKGR = r0.16
+RPROVIDES = kernel-module-nfsd
+RDEPENDS = kernel-5.2.10-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 554384
+FILES = /lib/modules/5.2.10-yocto-standard/kernel/fs/nfsd/nfsd.ko /etc/modules-load.d/nfsd.conf /etc/modprobe.d/nfsd.conf
+FILELIST = /lib/modules/5.2.10-yocto-standard/kernel/fs/nfsd/nfsd.ko
