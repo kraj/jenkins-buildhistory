@@ -1,0 +1,5 @@
+PV = 7.0.0
+PR = r0
+DEPENDS = base-files base-passwd cairo cairo drm drm gdk-pixbuf glib-2.0 jpeg libinput libpam libxcb libxcb libxcursor libxkbcommon meson-native mtdev mtdev ninja-native pango pixman pkgconfig-native python3-native shadow shadow-native shadow-sysroot udev udev virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/egl virtual/egl virtual/egl virtual/egl virtual/libc virtual/libgbm virtual/libgles2 virtual/libgles2 virtual/libx11 wayland wayland-native wayland-protocols
+PACKAGES = weston-src weston-dbg weston-staticdev weston-dev weston-doc weston-locale weston weston-xwayland libweston-7 weston-examples
+LAYER = core
