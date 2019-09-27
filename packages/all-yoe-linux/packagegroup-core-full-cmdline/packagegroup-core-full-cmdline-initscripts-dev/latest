@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r6
-PKGR = r6.2
+PKGR = r6.3
 RPROVIDES = packagegroup-core-initscripts-dev task-core-initscripts-dev
 RDEPENDS = 
-RRECOMMENDS = busybox-dev ethtool-dev sysklogd-dev systemd-dev
+RRECOMMENDS = busybox-dev ethtool-dev initscripts-dev sysklogd-dev sysvinit-dev
 RREPLACES = packagegroup-core-initscripts-dev task-core-initscripts-dev
 RCONFLICTS = packagegroup-core-initscripts-dev task-core-initscripts-dev
 PKGSIZE = 0
