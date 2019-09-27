@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/unbound" ]; then
-	/etc/init.d/unbound stop || :
-fi
