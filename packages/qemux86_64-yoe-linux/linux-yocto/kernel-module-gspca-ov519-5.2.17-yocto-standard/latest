@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_25b14cdf96
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_25b14cdf96
+PKGR = r0.1
+RPROVIDES = kernel-module-gspca-ov519
+RDEPENDS = kernel-5.2.17-yocto-standard kernel-module-gspca-main-5.2.17-yocto-standard kernel-module-videodev-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 64224
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_ov519.ko /etc/modules-load.d/gspca_ov519.conf /etc/modprobe.d/gspca_ov519.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_ov519.ko

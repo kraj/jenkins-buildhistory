@@ -1,0 +1,42 @@
+drwxr-xr-x root       root               60 ./bin
+-rwxr-xr-x root       root            10408 ./bin/mountpoint.sysvinit
+drwxr-xr-x root       root              240 ./etc
+drwxr-xr-x root       root               80 ./etc/default
+-rw-r--r-- root       root             1040 ./etc/default/rcS
+drwxr-xr-x root       root               60 ./etc/default/volatiles
+-rw-r--r-- root       root               36 ./etc/default/volatiles/01_bootlogd
+drwxr-xr-x root       root              120 ./etc/init.d
+-rwxr-xr-x root       root             1997 ./etc/init.d/bootlogd
+-rwxr-xr-x root       root             4457 ./etc/init.d/rc
+-rwxr-xr-x root       root              525 ./etc/init.d/rcS
+lrwxrwxrwx root       root                8 ./etc/init.d/stop-bootlogd -> bootlogd
+drwxr-xr-x root       root               40 ./etc/rc0.d
+drwxr-xr-x root       root               40 ./etc/rc1.d
+drwxr-xr-x root       root               60 ./etc/rc2.d
+lrwxrwxrwx root       root               23 ./etc/rc2.d/S99stop-bootlogd -> ../init.d/stop-bootlogd
+drwxr-xr-x root       root               60 ./etc/rc3.d
+lrwxrwxrwx root       root               23 ./etc/rc3.d/S99stop-bootlogd -> ../init.d/stop-bootlogd
+drwxr-xr-x root       root               60 ./etc/rc4.d
+lrwxrwxrwx root       root               23 ./etc/rc4.d/S99stop-bootlogd -> ../init.d/stop-bootlogd
+drwxr-xr-x root       root               60 ./etc/rc5.d
+lrwxrwxrwx root       root               23 ./etc/rc5.d/S99stop-bootlogd -> ../init.d/stop-bootlogd
+drwxr-xr-x root       root               40 ./etc/rc6.d
+drwxr-xr-x root       root               60 ./etc/rcS.d
+lrwxrwxrwx root       root               18 ./etc/rcS.d/S07bootlogd -> ../init.d/bootlogd
+drwxr-xr-x root       root              220 ./sbin
+-rwxr-xr-x root       root            18848 ./sbin/bootlogd
+-rwxr-xr-x root       root             6304 ./sbin/fstab-decode
+-rwsr-xr-- root       shutdown        18616 ./sbin/halt.sysvinit
+-rwxr-xr-x root       root            39952 ./sbin/init.sysvinit
+lrwxrwxrwx root       root               13 ./sbin/poweroff.sysvinit -> halt.sysvinit
+lrwxrwxrwx root       root               13 ./sbin/reboot.sysvinit -> halt.sysvinit
+-rwxr-xr-x root       root             6312 ./sbin/runlevel.sysvinit
+-rwsr-xr-- root       shutdown        26856 ./sbin/shutdown.sysvinit
+lrwxrwxrwx root       root                4 ./sbin/telinit -> init
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              140 ./usr/bin
+lrwxrwxrwx root       root               13 ./usr/bin/lastb.sysvinit -> last.sysvinit
+-rwxr-xr-x root       root            18616 ./usr/bin/last.sysvinit
+-rwxr-xr-x root       root            10408 ./usr/bin/mesg.sysvinit
+-rwxr-xr-x root       root            14504 ./usr/bin/utmpdump.sysvinit
+-rwxr-xr-x root       root            14504 ./usr/bin/wall.sysvinit
