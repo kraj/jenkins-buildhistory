@@ -1,0 +1,26 @@
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+drwxr-xr-x root       root               60 ./etc/default/volatiles
+-rw-r--r-- root       root               90 ./etc/default/volatiles/99_iscsi-initiator-utils
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             2619 ./etc/init.d/iscsid
+drwxr-xr-x root       root               60 ./etc/iscsi
+-rw-r--r-- root       root            13041 ./etc/iscsi/iscsid.conf
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root           133296 ./usr/lib/libopeniscsiusr.so.0.2.0
+lrwxrwxrwx root       root               24 ./usr/lib/libopeniscsiusr.so.0 -> libopeniscsiusr.so.0.2.0
+drwxr-xr-x root       root              120 ./usr/sbin
+-rwxr-xr-x root       root           420000 ./usr/sbin/iscsiadm
+-rwxr-xr-x root       root           420152 ./usr/sbin/iscsid
+-rwxr-xr-x root       root            67744 ./usr/sbin/iscsi-iname
+-rwxr-xr-x root       root           420136 ./usr/sbin/iscsistart
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x root       root              160 ./var/lib/iscsi
+drwxr-xr-x root       root               40 ./var/lib/iscsi/ifaces
+drwxr-xr-x root       root               40 ./var/lib/iscsi/isns
+drwxr-xr-x root       root               40 ./var/lib/iscsi/nodes
+drwxr-xr-x root       root               40 ./var/lib/iscsi/send_targets
+drwxr-xr-x root       root               40 ./var/lib/iscsi/slp
+drwxr-xr-x root       root               40 ./var/lib/iscsi/static

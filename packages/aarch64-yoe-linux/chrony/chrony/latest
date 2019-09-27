@@ -1,0 +1,10 @@
+PV = 3.5
+PR = r0
+PKGR = r0.6
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) initd-functions
+RRECOMMENDS = update-rc.d
+RCONFLICTS = ntimed ntp
+PKGSIZE = 267231
+FILES = /usr/sbin/chronyd /etc /var
+FILELIST = /etc/chrony.conf /etc/init.d/chronyd /usr/sbin/chronyd
