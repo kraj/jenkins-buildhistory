@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  scp /usr/sbin/dropbearmulti
+	update-alternatives --remove  ssh /usr/sbin/dropbearmulti
+if true && [ -z "$D" -a -x "/etc/init.d/dropbear" ]; then
+	/etc/init.d/dropbear stop || :
+fi
