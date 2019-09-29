@@ -1,0 +1,9 @@
+PV = 0.8.1
+PR = r0
+PKGR = r0.9
+RPROVIDES = device-mapper-multipath
+RDEPENDS = bash glibc (>= 2.30) kpartx libdevmapper (>= 2.03.02) libudev (>= 3.2.8) liburcu (>= 0.11.1) multipath-tools-libs (>= 0.8.1) readline (>= 8.0)
+RRECOMMENDS = 
+PKGSIZE = 148729
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/multipath-tools /usr/lib/multipath-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/init.d/multipathd /etc/multipath.conf.example /sbin/mpathconf /sbin/mpathpersist /sbin/multipath /sbin/multipathd /usr/lib/udev/rules.d/11-dm-mpath.rules /usr/lib/udev/rules.d/11-dm-parts.rules /usr/lib/udev/rules.d/62-multipath.rules /usr/lib/udev/rules.d/66-kpartx.rules /usr/lib/udev/rules.d/68-del-part-nodes.rules
