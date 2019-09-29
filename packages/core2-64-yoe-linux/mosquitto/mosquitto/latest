@@ -1,9 +1,0 @@
-PV = 1.6.6
-PR = r0
-PKGR = r0.1
-RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.30) initd-functions libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) shadow
-RRECOMMENDS = update-rc.d
-PKGSIZE = 305533
-FILES = /usr/sbin/mosquitto /usr/bin/mosquitto_passwd /etc/mosquitto /etc/init.d /lib/systemd/system/mosquitto.service
-FILELIST = /etc/init.d/mosquitto /etc/mosquitto/mosquitto.conf /usr/bin/mosquitto_passwd /usr/sbin/mosquitto
