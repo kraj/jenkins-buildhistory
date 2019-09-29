@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_25b14cdf96
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_25b14cdf96
+PKGR = r0.1
+RPROVIDES = kernel-module-ts-bm
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5312
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/lib/ts_bm.ko /etc/modules-load.d/ts_bm.conf /etc/modprobe.d/ts_bm.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/lib/ts_bm.ko
