@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_d956bb3187
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_d956bb3187
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-nat-h323
+RDEPENDS = kernel-5.2.17-yocto-standard kernel-module-nf-conntrack-5.2.17-yocto-standard kernel-module-nf-conntrack-h323-5.2.17-yocto-standard kernel-module-nf-nat-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12836
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_h323.ko /etc/modules-load.d/nf_nat_h323.conf /etc/modprobe.d/nf_nat_h323.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_h323.ko

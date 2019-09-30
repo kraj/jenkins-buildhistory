@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/dhcp-server" ]; then
+	/etc/init.d/dhcp-server stop || :
+fi
