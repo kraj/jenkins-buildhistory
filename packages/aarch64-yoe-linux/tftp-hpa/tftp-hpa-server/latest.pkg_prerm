@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/tftpd-hpa" ]; then
-	/etc/init.d/tftpd-hpa stop || :
-fi

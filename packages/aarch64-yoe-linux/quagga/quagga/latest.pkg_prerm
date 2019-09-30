@@ -1,5 +1,0 @@
-set -e
-    /etc/init.d/quagga stop
-if true && [ -z "$D" -a -x "/etc/init.d/quagga" ]; then
-	/etc/init.d/quagga stop || :
-fi
