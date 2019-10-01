@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/avahi-daemon" ]; then
+	/etc/init.d/avahi-daemon stop || :
+fi
