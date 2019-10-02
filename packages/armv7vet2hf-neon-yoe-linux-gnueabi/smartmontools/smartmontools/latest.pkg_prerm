@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/smartd" ]; then
+	/etc/init.d/smartd stop || :
+fi
