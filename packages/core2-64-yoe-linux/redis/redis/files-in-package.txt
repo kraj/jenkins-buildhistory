@@ -1,0 +1,16 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             1028 ./etc/init.d/redis-server
+drwxr-xr-x root       root               60 ./etc/redis
+-rw-r--r-- root       root            58511 ./etc/redis/redis.conf
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              160 ./usr/bin
+-rwxr-xr-x root       root            88280 ./usr/bin/redis-benchmark
+-rwxr-xr-x root       root          1110024 ./usr/bin/redis-check-aof
+-rwxr-xr-x root       root          1110024 ./usr/bin/redis-check-rdb
+-rwxr-xr-x root       root           178352 ./usr/bin/redis-cli
+lrwxrwxrwx root       root               12 ./usr/bin/redis-sentinel -> redis-server
+-rwxr-xr-x root       root          1110024 ./usr/bin/redis-server
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x redis      redis              40 ./var/lib/redis
