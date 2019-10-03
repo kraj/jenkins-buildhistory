@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/ebtables" ]; then
+	/etc/init.d/ebtables stop || :
+fi

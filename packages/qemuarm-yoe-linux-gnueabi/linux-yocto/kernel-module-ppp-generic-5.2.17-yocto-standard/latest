@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_d956bb3187
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_d956bb3187
+PKGR = r0.7
+RPROVIDES = kernel-module-ppp-generic
+RDEPENDS = kernel-5.2.17-yocto-standard kernel-module-slhc-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 40492
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko /etc/modules-load.d/ppp_generic.conf /etc/modprobe.d/ppp_generic.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko
