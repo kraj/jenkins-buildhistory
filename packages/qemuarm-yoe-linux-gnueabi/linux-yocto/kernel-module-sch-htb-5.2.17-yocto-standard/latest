@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_d956bb3187
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_d956bb3187
+PKGR = r0.7
+RPROVIDES = kernel-module-sch-htb
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 24056
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/sched/sch_htb.ko /etc/modules-load.d/sch_htb.conf /etc/modprobe.d/sch_htb.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/sched/sch_htb.ko

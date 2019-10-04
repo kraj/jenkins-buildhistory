@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/fancontrol" ]; then
+	/etc/init.d/fancontrol stop || :
+fi
