@@ -1,0 +1,24 @@
+set -e
+    if [ -z "$D" ]; then
+        if command -v systemd-tmpfiles >/dev/null; then
+            # create /var/log/radius, /var/run/radiusd
+            systemd-tmpfiles --create /etc/tmpfiles.d/radiusd-volatiles.conf
+        elif [ -e /etc/init.d/populate-volatile.sh ]; then
+            /etc/init.d/populate-volatile.sh update
+        fi
+
+        # Fix ownership for /etc/raddb/*, /var/lib/radiusd
+        chown -R radiusd:radiusd /etc/raddb
+        chown -R radiusd:radiusd /var/lib/radiusd
+    fi
+if true && type update-rc.d >/dev/null 2>/dev/null; then
+	if [ -n "$D" ]; then
+		OPT="-r $D"
+	else
+		OPT="-s"
+	fi
+	update-rc.d $OPT radiusd defaults
+fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi
