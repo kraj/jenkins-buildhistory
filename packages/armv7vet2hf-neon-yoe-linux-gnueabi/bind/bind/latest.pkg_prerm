@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/bind" ]; then
+	/etc/init.d/bind stop || :
+fi

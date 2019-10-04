@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_d956bb3187
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_d956bb3187
+PKGR = r0.7
+RPROVIDES = kernel-module-nls-utf8
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4648
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/fs/nls/nls_utf8.ko /etc/modules-load.d/nls_utf8.conf /etc/modprobe.d/nls_utf8.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/fs/nls/nls_utf8.ko
