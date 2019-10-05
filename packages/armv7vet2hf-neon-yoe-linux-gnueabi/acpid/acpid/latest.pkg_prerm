@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/acpid" ]; then
+	/etc/init.d/acpid stop || :
+fi
