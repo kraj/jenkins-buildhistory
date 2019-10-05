@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/chronyd" ]; then
+	/etc/init.d/chronyd stop || :
+fi
