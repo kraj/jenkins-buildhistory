@@ -1,7 +1,0 @@
-set -e
-    if [ x"$D" != "x" ]; then
-        $INTERCEPT_DIR/postinst_intercept delay_to_first_boot ${PKG} mlprefix=
-    fi
-
-    /usr/share/sfcb/genSslCert.sh /etc/sfcb
-    /usr/bin/sfcbrepos -f
