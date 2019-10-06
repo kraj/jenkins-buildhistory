@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  gunzip /bin/pigz
+	update-alternatives --remove  gzip /bin/pigz
+	update-alternatives --remove  zcat /bin/pigz
