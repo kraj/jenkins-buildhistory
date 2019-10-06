@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/ypbind" ]; then
-	/etc/init.d/ypbind stop || :
-fi
