@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot gradm mlprefix=
+    exit 0
+fi
+    /bin/mknod -m 0622 /dev/grsec c 1 13

@@ -1,0 +1,11 @@
+PV = 1.8.25
+PR = r0
+PKGR = r0.6
+RPROVIDES = pcsc-lite-systemd
+RDEPENDS = glibc (>= 2.30) libudev (>= 3.2.8)
+RRECOMMENDS = ccid
+RREPLACES = pcsc-lite-systemd
+RCONFLICTS = pcsc-lite-systemd
+PKGSIZE = 84036
+FILES = /usr/sbin/pcscd
+FILELIST = /usr/sbin/pcscd
