@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/distcc" ]; then
-	/etc/init.d/distcc stop || :
-fi
