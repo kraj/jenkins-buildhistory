@@ -1,0 +1,11 @@
+PV = 0.2
+PR = r3
+PKGR = r3.0
+RPROVIDES = zram-systemd
+RDEPENDS = kmod util-linux-swaponoff
+RRECOMMENDS = kernel-module-zram update-rc.d
+RREPLACES = zram-systemd
+RCONFLICTS = zram-systemd
+PKGSIZE = 2387
+FILES = /etc /lib/systemd /usr/libexec
+FILELIST = /etc/init.d/zram
