@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  ntpd /usr/sbin/ntpd.ntp
+if true && [ -z "$D" -a -x "/etc/init.d/ntpd" ]; then
+	/etc/init.d/ntpd stop || :
+fi
