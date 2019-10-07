@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/krb5-admin-server" ]; then
+	/etc/init.d/krb5-admin-server stop || :
+fi
