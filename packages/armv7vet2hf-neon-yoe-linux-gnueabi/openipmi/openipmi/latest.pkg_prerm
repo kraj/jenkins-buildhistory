@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/ipmi" ]; then
+	/etc/init.d/ipmi stop || :
+fi

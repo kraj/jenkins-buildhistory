@@ -1,0 +1,9 @@
+PV = 0.7
+PR = r0
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) libavahi-common (>= 0.7) libdaemon (>= 0.14)
+RRECOMMENDS = update-rc.d
+PKGSIZE = 21253
+FILES = /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd
+FILELIST = /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /usr/sbin/avahi-dnsconfd
