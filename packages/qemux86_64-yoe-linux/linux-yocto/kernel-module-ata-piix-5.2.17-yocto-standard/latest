@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+56f5bc749e_25b14cdf96
+PR = r0
+PKGV = 5.2.17+git0+56f5bc749e_25b14cdf96
+PKGR = r0.5
+RPROVIDES = kernel-module-ata-piix
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 47696
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/drivers/ata/ata_piix.ko /etc/modules-load.d/ata_piix.conf /etc/modprobe.d/ata_piix.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/drivers/ata/ata_piix.ko
