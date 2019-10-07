@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/openhpid" ]; then
-	/etc/init.d/openhpid stop || :
-fi
