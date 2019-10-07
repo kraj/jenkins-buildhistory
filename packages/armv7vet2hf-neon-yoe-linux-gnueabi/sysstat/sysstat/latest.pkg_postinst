@@ -1,6 +1,0 @@
-set -e
-	if [  ! -n "$D" ]; then
-		if [ -e /etc/init.d/populate-volatile.sh ]; then
-			/etc/init.d/populate-volatile.sh update
-		fi
-	fi
