@@ -1,9 +1,0 @@
-PV = 3.3.3
-PR = r0
-PKGR = r0.12
-RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.30) initd-functions libavahi-client (>= 0.7) libavahi-common (>= 0.7) popt (>= 1.16) shadow
-RRECOMMENDS = avahi-daemon update-rc.d
-PKGSIZE = 143084
-FILES = /etc /usr/bin/distccd /usr/sbin
-FILELIST = /etc/default/distcc /etc/distcc/clients.allow /etc/distcc/commands.allow.sh /etc/distcc/hosts /etc/init.d/distcc /usr/bin/distccd /usr/sbin/update-distcc-symlinks
