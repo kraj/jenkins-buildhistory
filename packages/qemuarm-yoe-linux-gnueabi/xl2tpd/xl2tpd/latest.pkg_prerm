@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/xl2tpd" ]; then
+	/etc/init.d/xl2tpd stop || :
+fi
