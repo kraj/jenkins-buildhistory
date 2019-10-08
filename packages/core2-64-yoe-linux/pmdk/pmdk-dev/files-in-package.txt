@@ -1,0 +1,42 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              200 ./usr/include
+-rw-r--r-- root       root             6395 ./usr/include/libpmemblk.h
+-rw-r--r-- root       root             5344 ./usr/include/libpmem.h
+-rw-r--r-- root       root             6055 ./usr/include/libpmemlog.h
+drwxr-xr-x root       root              360 ./usr/include/libpmemobj
+-rw-r--r-- root       root             3292 ./usr/include/libpmemobj/action_base.h
+-rw-r--r-- root       root             2344 ./usr/include/libpmemobj/action.h
+-rw-r--r-- root       root             3592 ./usr/include/libpmemobj/atomic_base.h
+-rw-r--r-- root       root             2630 ./usr/include/libpmemobj/atomic.h
+-rw-r--r-- root       root             8828 ./usr/include/libpmemobj/base.h
+-rw-r--r-- root       root             7572 ./usr/include/libpmemobj/ctl.h
+-rw-r--r-- root       root             2177 ./usr/include/libpmemobj.h
+-rw-r--r-- root       root             2371 ./usr/include/libpmemobj/iterator_base.h
+-rw-r--r-- root       root             3557 ./usr/include/libpmemobj/iterator.h
+-rw-r--r-- root       root             2537 ./usr/include/libpmemobj/lists_atomic_base.h
+-rw-r--r-- root       root             6636 ./usr/include/libpmemobj/lists_atomic.h
+-rw-r--r-- root       root             4067 ./usr/include/libpmemobj/pool_base.h
+-rw-r--r-- root       root             1894 ./usr/include/libpmemobj/pool.h
+-rw-r--r-- root       root             3665 ./usr/include/libpmemobj/thread.h
+-rw-r--r-- root       root            11062 ./usr/include/libpmemobj/tx_base.h
+-rw-r--r-- root       root             5589 ./usr/include/libpmemobj/tx.h
+-rw-r--r-- root       root             6096 ./usr/include/libpmemobj/types.h
+-rw-r--r-- root       root             9527 ./usr/include/libpmempool.h
+-rw-r--r-- root       root             5075 ./usr/include/libvmem.h
+-rw-r--r-- root       root             4280 ./usr/include/libvmmalloc.h
+drwxr-xr-x root       root              200 ./usr/lib
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemblk.so -> libpmemblk.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemlog.so -> libpmemlog.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libpmemobj.so -> libpmemobj.so.1
+lrwxrwxrwx root       root               16 ./usr/lib/libpmempool.so -> libpmempool.so.1
+lrwxrwxrwx root       root               12 ./usr/lib/libpmem.so -> libpmem.so.1
+lrwxrwxrwx root       root               12 ./usr/lib/libvmem.so -> libvmem.so.1
+lrwxrwxrwx root       root               16 ./usr/lib/libvmmalloc.so -> libvmmalloc.so.1
+drwxr-xr-x root       root              180 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              298 ./usr/lib/pkgconfig/libpmemblk.pc
+-rw-r--r-- root       root              298 ./usr/lib/pkgconfig/libpmemlog.pc
+-rw-r--r-- root       root              317 ./usr/lib/pkgconfig/libpmemobj.pc
+-rw-r--r-- root       root              263 ./usr/lib/pkgconfig/libpmem.pc
+-rw-r--r-- root       root              320 ./usr/lib/pkgconfig/libpmempool.pc
+-rw-r--r-- root       root              263 ./usr/lib/pkgconfig/libvmem.pc
+-rw-r--r-- root       root              275 ./usr/lib/pkgconfig/libvmmalloc.pc
