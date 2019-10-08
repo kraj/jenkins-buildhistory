@@ -1,0 +1,5 @@
+PV = 1.5.4
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native initscripts libpam libtool-cross libtool-native shadow shadow-native shadow-sysroot update-rc.d virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = cronie-src cronie-dbg cronie-staticdev cronie-dev cronie-doc cronie-locale cronie
+LAYER = core
