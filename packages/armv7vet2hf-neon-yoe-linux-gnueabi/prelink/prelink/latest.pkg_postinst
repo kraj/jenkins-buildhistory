@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-
-if [ "x$D" != "x" ]; then
-  exit 0
-fi
-
-prelink -a

@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/bootchartd bootchartd /sbin/bootchartd.bootchart2 100
