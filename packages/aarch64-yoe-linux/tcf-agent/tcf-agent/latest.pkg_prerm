@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-if true && [ -z "$D" -a -x "/etc/init.d/tcf-agent" ]; then
-	/etc/init.d/tcf-agent stop || :
-fi
