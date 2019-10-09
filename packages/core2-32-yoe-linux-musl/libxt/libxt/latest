@@ -1,0 +1,11 @@
+PE = 1
+PV = 1.2.0
+PR = r0
+PKG = libxt6
+PKGR = r0.8
+RPROVIDES = libxt (=1.2.0)
+RDEPENDS = libice (>= 1.0.10) libsm (>= 1.2.3) libx11 (>= 1.6.8) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 419478
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxt /usr/lib/libxt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libXt.so.6 /usr/lib/libXt.so.6.0.0
