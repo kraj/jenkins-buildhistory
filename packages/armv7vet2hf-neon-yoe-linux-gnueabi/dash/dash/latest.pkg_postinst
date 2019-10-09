@@ -1,3 +1,0 @@
-set -e
-	update-alternatives --install /bin/sh sh /bin/dash 10
-    grep -q "^/bin/dash$" $D/etc/shells || echo /bin/dash >> $D/etc/shells
