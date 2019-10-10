@@ -1,0 +1,10 @@
+PV = 3.9.2
+PR = r0
+PKG = libprotobuf-ptest
+PKGR = r0.4
+RPROVIDES = protobuf-ptest (=3.9.2)
+RDEPENDS = bash libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.23+git1+2c2477da9a) protobuf (>= 3.9.2)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 125859
+FILES = /usr/lib/protobuf/ptest
+FILELIST = /usr/lib/protobuf/ptest/add_person.py /usr/lib/protobuf/ptest/add_person_cpp /usr/lib/protobuf/ptest/addressbook_pb2.py /usr/lib/protobuf/ptest/list_people.py /usr/lib/protobuf/ptest/list_people_cpp /usr/lib/protobuf/ptest/run-ptest

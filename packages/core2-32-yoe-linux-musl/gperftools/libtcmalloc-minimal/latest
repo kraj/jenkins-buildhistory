@@ -1,0 +1,10 @@
+PV = 2.7
+PR = r0
+PKG = libtcmalloc-minimal4
+PKGR = r0.9
+RPROVIDES = libtcmalloc-minimal (=2.7)
+RDEPENDS = libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 153544
+FILES = /usr/lib/libtcmalloc_minimal*.so.* /usr/lib/libtcmalloc_minimal_debug*.so.*
+FILELIST = /usr/lib/libtcmalloc_minimal.so.4 /usr/lib/libtcmalloc_minimal.so.4.5.3

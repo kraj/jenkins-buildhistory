@@ -1,0 +1,11 @@
+PE = 1
+PV = 1.1.5
+PR = r0
+PKG = libxdamage1
+PKGR = r0.9
+RPROVIDES = libxdamage (=1.1.5)
+RDEPENDS = libx11 (>= 1.6.8) libxfixes (>= 5.0.3) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 9503
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxdamage /usr/lib/libxdamage/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libXdamage.so.1 /usr/lib/libXdamage.so.1.1.0
