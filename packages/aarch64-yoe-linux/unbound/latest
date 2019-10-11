@@ -1,0 +1,5 @@
+PV = 1.9.2
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native expat gnu-config-native libevent libtool-cross libtool-native libtool-native openssl pkgconfig-native systemd systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+PACKAGES = unbound-src unbound-dbg unbound-staticdev unbound-dev unbound-doc unbound-locale unbound
+LAYER = networking-layer
