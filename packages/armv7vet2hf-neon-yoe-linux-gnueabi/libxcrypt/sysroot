@@ -1,0 +1,16 @@
+drwxr-xr-x -          -                  80 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/libxcrypt
+-rw-r--r-- -          -                   9 ./sysroot-providers/virtual_crypt
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  80 ./usr/include
+-rw-r--r-- -          -               11159 ./usr/include/crypt.h
+-rw-r--r-- -          -                2479 ./usr/include/xcrypt.h
+drwxr-xr-x -          -                 140 ./usr/lib
+-rwxr-xr-x -          -              198264 ./usr/lib/libcrypt.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libcrypt.so.2 -> libcrypt.so.2.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libcrypt.so -> libcrypt.so.2.0.0
+lrwxrwxrwx -          -                  11 ./usr/lib/libxcrypt.so -> libcrypt.so
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+lrwxrwxrwx -          -                  12 ./usr/lib/pkgconfig/libcrypt.pc -> libxcrypt.pc
+-rw-r--r-- -          -                 366 ./usr/lib/pkgconfig/libxcrypt.pc
+drwxr-xr-x -          -                  40 ./usr/share
