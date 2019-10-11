@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop openvpn@loopback-server.service openvpn@loopback-client.service
-
-		systemctl disable openvpn@loopback-server.service openvpn@loopback-client.service
-	fi
-fi
