@@ -1,0 +1,11 @@
+PE = 2
+PV = 9.0.1
+PR = 0
+PKG = libglu1
+PKGR = 0.15
+RPROVIDES = libglu (=9.0.1)
+RDEPENDS = libgcc (>= 9.2.0) libgl-mesa (>= 19.1.6) libstdc++ (>= 9.2.0) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 501355
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libglu /usr/lib/libglu/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libGLU.so.1 /usr/lib/libGLU.so.1.3.1
