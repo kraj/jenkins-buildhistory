@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_47b80ef7bd
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_47b80ef7bd
+PKGR = r0.10
+RPROVIDES = kernel-module-nf-synproxy-core
+RDEPENDS = kernel-5.2.17-yocto-standard kernel-module-nf-conntrack-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10744
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/netfilter/nf_synproxy_core.ko /etc/modules-load.d/nf_synproxy_core.conf /etc/modprobe.d/nf_synproxy_core.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/netfilter/nf_synproxy_core.ko

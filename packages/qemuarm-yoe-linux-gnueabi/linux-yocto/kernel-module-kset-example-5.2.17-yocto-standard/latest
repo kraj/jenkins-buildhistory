@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_47b80ef7bd
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_47b80ef7bd
+PKGR = r0.10
+RPROVIDES = kernel-module-kset-example
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7204
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/samples/kobject/kset-example.ko /etc/modules-load.d/kset-example.conf /etc/modprobe.d/kset-example.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/samples/kobject/kset-example.ko
