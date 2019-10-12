@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_255a750d28
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_255a750d28
+PKGR = r0.7
+RPROVIDES = kernel-module-sch-codel
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 15032
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/sched/sch_codel.ko /etc/modules-load.d/sch_codel.conf /etc/modprobe.d/sch_codel.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/sched/sch_codel.ko
