@@ -1,0 +1,5 @@
+PV = 2.6.9
+PR = r0
+DEPENDS = cmake-native curl libpam libxml2 ninja-native openssl perl-native pkgconfig-native python3-native systemd-systemctl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = openwsman-src openwsman-dbg openwsman-staticdev openwsman-dev openwsman-doc openwsman-locale openwsman
+LAYER = openembedded-layer
