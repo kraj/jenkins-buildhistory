@@ -1,0 +1,9 @@
+PV = 4.10
+PR = r0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.30)
+RRECOMMENDS = 
+PKGSIZE = 139075
+FILES = /usr/bin/kselftests/efivarfs
+FILELIST = /usr/bin/kselftests/efivarfs/create-read /usr/bin/kselftests/efivarfs/efivarfs.sh /usr/bin/kselftests/efivarfs/open-unlink
