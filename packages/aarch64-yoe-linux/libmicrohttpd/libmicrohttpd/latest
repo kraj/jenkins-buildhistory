@@ -1,0 +1,10 @@
+PV = 0.9.66
+PR = r0
+PKG = libmicrohttpd12
+PKGR = r0.11
+RPROVIDES = libmicrohttpd (=0.9.66)
+RDEPENDS = glibc (>= 2.30) gnutls (>= 3.6.8)
+RRECOMMENDS = 
+PKGSIZE = 198864
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmicrohttpd /usr/lib/libmicrohttpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libmicrohttpd.so.12 /usr/lib/libmicrohttpd.so.12.53.0
