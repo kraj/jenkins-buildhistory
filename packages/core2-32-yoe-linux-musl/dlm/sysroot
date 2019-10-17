@@ -1,0 +1,28 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 526 ./lib/systemd/system/dlm.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   3 ./sysroot-providers/dlm
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  80 ./usr/include
+-rw-r--r-- -          -                5513 ./usr/include/libdlmcontrol.h
+-rw-r--r-- -          -                7624 ./usr/include/libdlm.h
+drwxr-xr-x -          -                 260 ./usr/lib
+-rwxr-xr-x -          -               17600 ./usr/lib/libdlmcontrol.so.3.2
+lrwxrwxrwx -          -                  20 ./usr/lib/libdlmcontrol.so.3 -> libdlmcontrol.so.3.2
+lrwxrwxrwx -          -                  20 ./usr/lib/libdlmcontrol.so -> libdlmcontrol.so.3.2
+-rwxr-xr-x -          -               17604 ./usr/lib/libdlm_lt.so.3.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libdlm_lt.so.3 -> libdlm_lt.so.3.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libdlm_lt.so -> libdlm_lt.so.3.0
+-rwxr-xr-x -          -               21700 ./usr/lib/libdlm.so.3.0
+lrwxrwxrwx -          -                  13 ./usr/lib/libdlm.so.3 -> libdlm.so.3.0
+lrwxrwxrwx -          -                  13 ./usr/lib/libdlm.so -> libdlm.so.3.0
+drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 209 ./usr/lib/pkgconfig/libdlmcontrol.pc
+-rw-r--r-- -          -                 198 ./usr/lib/pkgconfig/libdlm_lt.pc
+-rw-r--r-- -          -                 198 ./usr/lib/pkgconfig/libdlm.pc
+drwxr-xr-x -          -                  60 ./usr/lib/udev
+drwxr-xr-x -          -                  60 ./usr/lib/udev/rules.d
+-rw-r--r-- -          -                 237 ./usr/lib/udev/rules.d/51-dlm.rules
+drwxr-xr-x -          -                  40 ./usr/share
