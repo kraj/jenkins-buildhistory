@@ -9,11 +9,7 @@ if type systemctl >/dev/null 2>/dev/null; then
 
 	if [ "disable" = "enable" ]; then
 		for service in lvm2-monitor.service dm-event.socket dm-event.service blk-availability.service lvm2-pvscan@.service; do
-			case "${service}" in
-			*@*)
-				systemctl ${OPTS} enable "${service}"
-				;;
-			esac
+			systemctl ${OPTS} enable "$service"
 		done
 	fi
 

@@ -10,11 +10,7 @@ if type systemctl >/dev/null 2>/dev/null; then
 
 	if [ "enable" = "enable" ]; then
 		for service in connman.service; do
-			case "${service}" in
-			*@*)
-				systemctl ${OPTS} enable "${service}"
-				;;
-			esac
+			systemctl ${OPTS} enable "$service"
 		done
 	fi
 

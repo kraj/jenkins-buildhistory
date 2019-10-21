@@ -9,11 +9,7 @@ if type systemctl >/dev/null 2>/dev/null; then
 
 	if [ "disable" = "enable" ]; then
 		for service in dnf-makecache.service dnf-makecache.timer dnf-automatic.service dnf-automatic.timer dnf-automatic-download.service dnf-automatic-download.timer dnf-automatic-install.service dnf-automatic-install.timer dnf-automatic-notifyonly.service dnf-automatic-notifyonly.timer; do
-			case "${service}" in
-			*@*)
-				systemctl ${OPTS} enable "${service}"
-				;;
-			esac
+			systemctl ${OPTS} enable "$service"
 		done
 	fi
 

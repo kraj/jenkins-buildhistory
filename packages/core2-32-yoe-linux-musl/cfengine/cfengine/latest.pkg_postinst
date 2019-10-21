@@ -9,11 +9,7 @@ if type systemctl >/dev/null 2>/dev/null; then
 
 	if [ "disable" = "enable" ]; then
 		for service in cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-execd.service cf-monitord.service cf-serverd.service; do
-			case "${service}" in
-			*@*)
-				systemctl ${OPTS} enable "${service}"
-				;;
-			esac
+			systemctl ${OPTS} enable "$service"
 		done
 	fi
 

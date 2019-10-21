@@ -13,11 +13,7 @@ if type systemctl >/dev/null 2>/dev/null; then
 
 	if [ "disable" = "enable" ]; then
 		for service in wpa_supplicant.service wpa_supplicant-nl80211@.service wpa_supplicant-wired@.service; do
-			case "${service}" in
-			*@*)
-				systemctl ${OPTS} enable "${service}"
-				;;
-			esac
+			systemctl ${OPTS} enable "$service"
 		done
 	fi
 
