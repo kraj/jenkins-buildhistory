@@ -1,0 +1,10 @@
+PV = 1.29
+PR = r0
+PKG = libteamdctl0
+PKGR = r0.6
+RPROVIDES = libteam-dctl (=1.29)
+RDEPENDS = musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 17760
+FILES = /usr/lib/libteamdctl.so.*
+FILELIST = /usr/lib/libteamdctl.so.0 /usr/lib/libteamdctl.so.0.1.5
