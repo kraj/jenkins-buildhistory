@@ -1,0 +1,26 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 140 ./lib/systemd/system
+-rw-r--r-- -          -                 272 ./lib/systemd/system/owfs.service
+-rw-r--r-- -          -                 239 ./lib/systemd/system/owftpd.service
+-rw-r--r-- -          -                 263 ./lib/systemd/system/owhttpd.service
+-rw-r--r-- -          -                 253 ./lib/systemd/system/owserver.service
+-rw-r--r-- -          -                 142 ./lib/systemd/system/owserver.socket
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/owfs
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                 100 ./usr/include
+-rw-r--r-- -          -                4438 ./usr/include/owcapi.h
+-rw-r--r-- -          -                3163 ./usr/include/owfs_config.h
+-rw-r--r-- -          -                5304 ./usr/include/ownetapi.h
+drwxr-xr-x -          -                 220 ./usr/lib
+-rwxr-xr-x -          -             1179640 ./usr/lib/libow-3.2.so.2.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libow-3.2.so.2 -> libow-3.2.so.2.0.0
+-rwxr-xr-x -          -               10152 ./usr/lib/libowcapi-3.2.so.2.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libowcapi-3.2.so.2 -> libowcapi-3.2.so.2.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libowcapi.so -> libowcapi-3.2.so.2.0.0
+-rwxr-xr-x -          -               47120 ./usr/lib/libownet-3.2.so.2.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libownet-3.2.so.2 -> libownet-3.2.so.2.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libownet.so -> libownet-3.2.so.2.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libow.so -> libow-3.2.so.2.0.0
+drwxr-xr-x -          -                  40 ./usr/share
