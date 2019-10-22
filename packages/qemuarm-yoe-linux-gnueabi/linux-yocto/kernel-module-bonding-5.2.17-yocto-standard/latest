@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_47b80ef7bd
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_47b80ef7bd
+PKGR = r0.13
+RPROVIDES = kernel-module-bonding
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 157184
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/drivers/net/bonding/bonding.ko /etc/modules-load.d/bonding.conf /etc/modprobe.d/bonding.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/drivers/net/bonding/bonding.ko
