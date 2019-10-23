@@ -1,0 +1,10 @@
+PV = 9.2.0
+PR = r0
+PKG = libstdc++6
+PKGR = r0.14
+RPROVIDES = libstdc++ (=9.2.0)
+RDEPENDS = libgcc (>= 9.2.0) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 1906543
+FILES = /usr/lib/libstdc++.so.*
+FILELIST = /usr/lib/libstdc++.so.6 /usr/lib/libstdc++.so.6.0.27

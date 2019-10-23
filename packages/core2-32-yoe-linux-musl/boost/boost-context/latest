@@ -1,0 +1,10 @@
+PV = 1.71.0
+PR = r0
+PKG = libboost-context1.71.0
+PKGR = r0.14
+RPROVIDES = boost-context (=1.71.0)
+RDEPENDS = libstdc++ (>= 9.2.0) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 9868
+FILES = /usr/lib/libboost_context*.so.*
+FILELIST = /usr/lib/libboost_context.so.1 /usr/lib/libboost_context.so.1.71 /usr/lib/libboost_context.so.1.71.0
