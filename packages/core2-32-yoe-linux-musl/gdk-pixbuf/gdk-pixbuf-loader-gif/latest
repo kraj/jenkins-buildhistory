@@ -1,0 +1,10 @@
+PV = 2.38.2
+PR = r0
+PKG = libgdk-pixbuf-2.0-loader-gif
+PKGR = r0.20
+RPROVIDES = gdk-pixbuf-loader-gif (=2.38.2)
+RDEPENDS = gdk-pixbuf (>= 2.38.2) glib-2.0 (>= 2.62.1) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 25948
+FILES = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so
+FILELIST = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so

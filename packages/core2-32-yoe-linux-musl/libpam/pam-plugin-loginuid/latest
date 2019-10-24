@@ -1,0 +1,9 @@
+PV = 1.3.1
+PR = r0
+PKGR = r0.14
+RPROVIDES = pam-plugin-loginuid-suffix
+RDEPENDS = libpam (>= 1.3.1) libpam-suffix musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 9644
+FILES = /lib/security/pam_loginuid.so
+FILELIST = /lib/security/pam_loginuid.so
