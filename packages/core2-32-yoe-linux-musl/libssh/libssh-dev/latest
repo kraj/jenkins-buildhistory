@@ -1,0 +1,9 @@
+PV = 0.8.4
+PR = r0
+PKGR = r0.15
+RPROVIDES = 
+RDEPENDS = libssh (= 0.8.4-r0.15)
+RRECOMMENDS = libgcrypt-dev musl-dev openssl-dev zlib-dev
+PKGSIZE = 144367
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libssh/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libssh/callbacks.h /usr/include/libssh/legacy.h /usr/include/libssh/libssh.h /usr/include/libssh/libsshpp.hpp /usr/include/libssh/server.h /usr/include/libssh/sftp.h /usr/include/libssh/ssh2.h /usr/lib/cmake/libssh/libssh-config-version.cmake /usr/lib/cmake/libssh/libssh-config.cmake /usr/lib/libssh.so /usr/lib/pkgconfig/libssh.pc
