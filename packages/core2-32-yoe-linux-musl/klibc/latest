@@ -1,0 +1,5 @@
+PV = 2.0.6
+PR = r0
+DEPENDS = linux-libc-headers perl-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = klibc-src libklibc libklibc-staticdev libklibc-dev
+LAYER = meta-initramfs

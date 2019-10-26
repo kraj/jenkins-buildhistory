@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_255a750d28
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_255a750d28
+PKGR = r0.22
+RPROVIDES = kernel-module-gspca-spca561
+RDEPENDS = kernel-5.2.17-yocto-standard kernel-module-gspca-main-5.2.17-yocto-standard kernel-module-videodev-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13780
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_spca561.ko /etc/modules-load.d/gspca_spca561.conf /etc/modprobe.d/gspca_spca561.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_spca561.ko
