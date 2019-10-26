@@ -1,7 +1,0 @@
-set -e
-	if true; then
-		if [ -n "$D" ]; then
-			OPTS="--root=$D"
-		fi
-		systemctl $OPTS mask psplash.service
-	fi
