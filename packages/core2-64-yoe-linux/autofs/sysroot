@@ -1,0 +1,29 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 482 ./lib/systemd/system/autofs.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   6 ./sysroot-providers/autofs
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                  60 ./usr/lib
+drwxr-xr-x -          -                 420 ./usr/lib/autofs
+-rwxr-xr-x -          -              184072 ./usr/lib/autofs/lookup_dir.so
+-rwxr-xr-x -          -              200440 ./usr/lib/autofs/lookup_file.so
+lrwxrwxrwx -          -                  14 ./usr/lib/autofs/lookup_files.so -> lookup_file.so
+-rwxr-xr-x -          -              204552 ./usr/lib/autofs/lookup_hosts.so
+-rwxr-xr-x -          -              208648 ./usr/lib/autofs/lookup_multi.so
+-rwxr-xr-x -          -              192248 ./usr/lib/autofs/lookup_nisplus.so
+lrwxrwxrwx -          -                  12 ./usr/lib/autofs/lookup_nis.so -> lookup_yp.so
+-rwxr-xr-x -          -              192264 ./usr/lib/autofs/lookup_program.so
+-rwxr-xr-x -          -              184072 ./usr/lib/autofs/lookup_userhome.so
+-rwxr-xr-x -          -              192248 ./usr/lib/autofs/lookup_yp.so
+-rwxr-xr-x -          -               14328 ./usr/lib/autofs/mount_afs.so
+-rwxr-xr-x -          -              188168 ./usr/lib/autofs/mount_autofs.so
+-rwxr-xr-x -          -               18424 ./usr/lib/autofs/mount_bind.so
+-rwxr-xr-x -          -               14328 ./usr/lib/autofs/mount_changer.so
+-rwxr-xr-x -          -               14328 ./usr/lib/autofs/mount_generic.so
+lrwxrwxrwx -          -                  12 ./usr/lib/autofs/mount_nfs4.so -> mount_nfs.so
+-rwxr-xr-x -          -              216840 ./usr/lib/autofs/mount_nfs.so
+-rwxr-xr-x -          -              245512 ./usr/lib/autofs/parse_amd.so
+-rwxr-xr-x -          -              204552 ./usr/lib/autofs/parse_sun.so
+drwxr-xr-x -          -                  40 ./usr/share
