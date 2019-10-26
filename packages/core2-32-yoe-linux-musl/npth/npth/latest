@@ -1,0 +1,10 @@
+PV = 1.6
+PR = r0
+PKG = libnpth0
+PKGR = r0.15
+RPROVIDES = npth (=1.6)
+RDEPENDS = musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 13704
+FILES = /usr/lib/libnpth.so.*
+FILELIST = /usr/lib/libnpth.so.0 /usr/lib/libnpth.so.0.1.2

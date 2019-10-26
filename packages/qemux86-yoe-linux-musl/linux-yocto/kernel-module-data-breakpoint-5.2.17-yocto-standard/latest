@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_255a750d28
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_255a750d28
+PKGR = r0.22
+RPROVIDES = kernel-module-data-breakpoint
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4452
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/samples/hw_breakpoint/data_breakpoint.ko /etc/modules-load.d/data_breakpoint.conf /etc/modprobe.d/data_breakpoint.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/samples/hw_breakpoint/data_breakpoint.ko
