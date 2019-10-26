@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_47b80ef7bd
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_47b80ef7bd
+PKGR = r0.19
+RPROVIDES = kernel-module-nf-nat-irc
+RDEPENDS = kernel-5.2.17-yocto-standard kernel-module-nf-conntrack-5.2.17-yocto-standard kernel-module-nf-conntrack-irc-5.2.17-yocto-standard kernel-module-nf-nat-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6668
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/netfilter/nf_nat_irc.ko /etc/modules-load.d/nf_nat_irc.conf /etc/modprobe.d/nf_nat_irc.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/netfilter/nf_nat_irc.ko
