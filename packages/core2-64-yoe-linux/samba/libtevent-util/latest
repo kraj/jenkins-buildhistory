@@ -1,0 +1,10 @@
+PV = 4.10.8
+PR = r0
+PKG = libtevent-util0
+PKGR = r0.22
+RPROVIDES = libtevent-util (=4.10.8)
+RDEPENDS = glibc (>= 2.30) libbsd (>= 0.10.0) libnsl2 (>= 1.2.0+git0+37c5ffe303) libreplace-samba4 (>= 4.10.8) libsamba-debug-samba4 (>= 4.10.8) libsamba-errors (>= 4.10.8) libsocket-blocking-samba4 (>= 4.10.8) libsystemd (>= 243+0+efb536d0cb) libtalloc (>= 2.3.0) libtevent (>= 0.10.1) libtime-basic-samba4 (>= 4.10.8) libxcrypt (>= 4.4.8) samba-common
+RRECOMMENDS = 
+PKGSIZE = 22447
+FILES = /usr/lib/libtevent-util.so.0 /usr/lib/libtevent-util.so.0.0.1
+FILELIST = /usr/lib/libtevent-util.so.0 /usr/lib/libtevent-util.so.0.0.1
