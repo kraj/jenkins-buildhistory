@@ -1,0 +1,6 @@
+PE = 1
+PV = 049
+PR = r0
+DEPENDS = bash-completion fts kmod pkgconfig-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = dracut-src dracut-dbg dracut-staticdev dracut-dev dracut-doc dracut-locale dracut dracut-bash-completion
+LAYER = meta-initramfs
