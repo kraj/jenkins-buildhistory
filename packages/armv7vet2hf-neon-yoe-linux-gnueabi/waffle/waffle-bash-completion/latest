@@ -1,0 +1,10 @@
+PV = 1.6.0
+PR = r0
+PKG = libwaffle-1-bash-completion
+PKGR = r0.22
+RPROVIDES = waffle-bash-completion (=1.6.0)
+RDEPENDS = bash-completion
+RRECOMMENDS = 
+PKGSIZE = 1708
+FILES = /usr/share/bash-completion /etc/bash_completion.d
+FILELIST = /usr/share/bash-completion/completions/wflinfo
