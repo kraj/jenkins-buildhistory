@@ -11,10 +11,10 @@ drwxr-xr-x -          -                 360 ./etc/postfix
 -rw-r--r-- -          -                  33 ./etc/postfix/internal_recipient
 -rw-r--r-- -          -               26493 ./etc/postfix/LICENSE
 -rw-r--r-- -          -                3564 ./etc/postfix/main.cf
--rw-r--r-- -          -               37519 ./etc/postfix/main.cf.default
+-rw-r--r-- -          -               37550 ./etc/postfix/main.cf.default
 -rw-r--r-- -          -                6340 ./etc/postfix/master.cf
 -rw-r--r-- -          -                6929 ./etc/postfix/relocated
--rw-r--r-- -          -               27209 ./etc/postfix/sample-main.cf
+-rw-r--r-- -          -               27204 ./etc/postfix/sample-main.cf
 -rw-r--r-- -          -                1629 ./etc/postfix/TLS_LICENSE
 -rw-r--r-- -          -               12666 ./etc/postfix/transport
 -rw-r--r-- -          -               13963 ./etc/postfix/virtual
@@ -71,7 +71,7 @@ drwxr-xr-x -          -                 340 ./usr/sbin
 -rwxr-xr-x -          -              217184 ./usr/sbin/postcat
 -rwxr-xr-x -          -              405600 ./usr/sbin/postconf
 -rwxr-xr-x -          -              266336 ./usr/sbin/postdrop
--rwxr-xr-x -          -              204896 ./usr/sbin/postfix
+-rwxr-xr-x -          -              208992 ./usr/sbin/postfix
 -rwxr-xr-x -          -              200800 ./usr/sbin/postkick
 -rwxr-xr-x -          -              204896 ./usr/sbin/postlock
 -rwxr-xr-x -          -              204896 ./usr/sbin/postlog
@@ -95,7 +95,7 @@ drwx------ -          -                  40 ./var/spool/postfix/deferred
 drwx------ -          -                  40 ./var/spool/postfix/flush
 drwx------ -          -                  40 ./var/spool/postfix/hold
 drwx------ -          -                  40 ./var/spool/postfix/incoming
-drwx--x--- -          -                  40 ./var/spool/postfix/maildrop
+drwx-wx--- -          -                  40 ./var/spool/postfix/maildrop
 drwxr-xr-x -          -                  40 ./var/spool/postfix/pid
 drwx------ -          -                  40 ./var/spool/postfix/private
 drwx--x--- -          -                  40 ./var/spool/postfix/public
