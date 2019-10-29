@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_47b80ef7bd
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_47b80ef7bd
+PKGR = r0.22
+RPROVIDES = kernel-module-inttype-example
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6756
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/samples/kfifo/inttype-example.ko /etc/modules-load.d/inttype-example.conf /etc/modprobe.d/inttype-example.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/samples/kfifo/inttype-example.ko
