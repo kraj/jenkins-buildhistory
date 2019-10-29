@@ -5,16 +5,16 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                 280 ./usr/bin
 drwxr-xr-x -          -                  80 ./usr/bin/crossscripts
--rwxr-xr-x -          -                4168 ./usr/bin/crossscripts/php-config
+-rwxr-xr-x -          -                4015 ./usr/bin/crossscripts/php-config
 -rwxr-xr-x -          -                4631 ./usr/bin/crossscripts/phpize
 -rwxr-xr-x -          -                 897 ./usr/bin/pear
 -rwxr-xr-x -          -                 918 ./usr/bin/peardev
 -rwxr-xr-x -          -                 831 ./usr/bin/pecl
--rwxr-xr-x -          -               14991 ./usr/bin/phar.phar
+-rwxr-xr-x -          -               14993 ./usr/bin/phar.phar
 lrwxrwxrwx -          -                   9 ./usr/bin/phar -> phar.phar
 -rwxr-xr-x -          -                 151 ./usr/bin/php
 -rwxr-xr-x -          -            11759712 ./usr/bin/php-cgi
--rwxr-xr-x -          -                4170 ./usr/bin/php-config
+-rwxr-xr-x -          -                4017 ./usr/bin/php-config
 -rwxr-xr-x -          -            11997280 ./usr/bin/phpdbg
 -rwxr-xr-x -          -                4631 ./usr/bin/phpize
 -rwxr-xr-x -          -            11866208 ./usr/bin/php.real
@@ -159,7 +159,7 @@ drwxr-xr-x -          -                  80 ./usr/include/php/ext/xml
 -rw-r--r-- -          -                4616 ./usr/include/php/ext/xml/php_xml.h
 drwxr-xr-x -          -                  40 ./usr/include/php/include
 drwxr-xr-x -          -                 620 ./usr/include/php/main
--rw-r--r-- -          -                5698 ./usr/include/php/main/build-defs.h
+-rw-r--r-- -          -                5545 ./usr/include/php/main/build-defs.h
 -rw-r--r-- -          -                5149 ./usr/include/php/main/fastcgi.h
 -rw-r--r-- -          -                2534 ./usr/include/php/main/fopen_wrappers.h
 -rw-r--r-- -          -                3176 ./usr/include/php/main/http_status_codes.h
@@ -182,7 +182,7 @@ drwxr-xr-x -          -                 620 ./usr/include/php/main
 -rw-r--r-- -          -                1751 ./usr/include/php/main/php_syslog.h
 -rw-r--r-- -          -                1630 ./usr/include/php/main/php_ticks.h
 -rw-r--r-- -          -                2181 ./usr/include/php/main/php_variables.h
--rw-r--r-- -          -                 264 ./usr/include/php/main/php_version.h
+-rw-r--r-- -          -                 266 ./usr/include/php/main/php_version.h
 -rw-r--r-- -          -                3489 ./usr/include/php/main/rfc1867.h
 -rw-r--r-- -          -               10401 ./usr/include/php/main/SAPI.h
 -rw-r--r-- -          -                7206 ./usr/include/php/main/snprintf.h
@@ -233,7 +233,7 @@ drwxr-xr-x -          -                1540 ./usr/include/php/Zend
 -rw-r--r-- -          -                7499 ./usr/include/php/Zend/zend_generators.h
 -rw-r--r-- -          -                7592 ./usr/include/php/Zend/zend_globals.h
 -rw-r--r-- -          -                2817 ./usr/include/php/Zend/zend_globals_macros.h
--rw-r--r-- -          -               13343 ./usr/include/php/Zend/zend.h
+-rw-r--r-- -          -               13344 ./usr/include/php/Zend/zend.h
 -rw-r--r-- -          -               35458 ./usr/include/php/Zend/zend_hash.h
 -rw-r--r-- -          -                2418 ./usr/include/php/Zend/zend_highlight.h
 -rw-r--r-- -          -                2008 ./usr/include/php/Zend/zend_inheritance.h
@@ -256,7 +256,7 @@ drwxr-xr-x -          -                1540 ./usr/include/php/Zend
 -rw-r--r-- -          -               11426 ./usr/include/php/Zend/zend_object_handlers.h
 -rw-r--r-- -          -                4284 ./usr/include/php/Zend/zend_objects_API.h
 -rw-r--r-- -          -                1957 ./usr/include/php/Zend/zend_objects.h
--rw-r--r-- -          -               31400 ./usr/include/php/Zend/zend_operators.h
+-rw-r--r-- -          -               31432 ./usr/include/php/Zend/zend_operators.h
 -rw-r--r-- -          -               19237 ./usr/include/php/Zend/zend_portability.h
 -rw-r--r-- -          -                4456 ./usr/include/php/Zend/zend_ptr_stack.h
 -rw-r--r-- -          -                3150 ./usr/include/php/Zend/zend_range_check.h
@@ -276,8 +276,8 @@ drwxr-xr-x -          -                1540 ./usr/include/php/Zend
 -rw-r--r-- -          -               38388 ./usr/include/php/Zend/zend_types.h
 -rw-r--r-- -          -                3441 ./usr/include/php/Zend/zend_variables.h
 -rw-r--r-- -          -               12432 ./usr/include/php/Zend/zend_virtual_cwd.h
--rw-r--r-- -          -              257625 ./usr/include/php/Zend/zend_vm_def.h
--rw-r--r-- -          -             2195187 ./usr/include/php/Zend/zend_vm_execute.h
+-rw-r--r-- -          -              257717 ./usr/include/php/Zend/zend_vm_def.h
+-rw-r--r-- -          -             2195371 ./usr/include/php/Zend/zend_vm_execute.h
 -rw-r--r-- -          -                2102 ./usr/include/php/Zend/zend_vm.h
 -rw-r--r-- -          -               99975 ./usr/include/php/Zend/zend_vm_handlers.h
 -rw-r--r-- -          -               13167 ./usr/include/php/Zend/zend_vm_opcodes.h
@@ -286,7 +286,7 @@ drwxr-xr-x -          -                1540 ./usr/include/php/Zend
 drwxr-xr-x -          -                  60 ./usr/lib
 drwxr-xr-x -          -                  80 ./usr/lib/php7
 drwxr-xr-x -          -                 300 ./usr/lib/php7/build
--rw-r--r-- -          -               85807 ./usr/lib/php7/build/acinclude.m4
+-rw-r--r-- -          -               88376 ./usr/lib/php7/build/acinclude.m4
 -rw-r--r-- -          -                2104 ./usr/lib/php7/build/ax_check_compile_flag.m4
 -rw-r--r-- -          -                8415 ./usr/lib/php7/build/ax_gcc_func_attribute.m4
 -rwxr-xr-x -          -               48295 ./usr/lib/php7/build/config.guess
