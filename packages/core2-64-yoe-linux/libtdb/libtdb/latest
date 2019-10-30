@@ -1,0 +1,10 @@
+PV = 1.4.2
+PR = r0
+PKG = libtdb1
+PKGR = r0.22
+RPROVIDES = libtdb (=1.4.2)
+RDEPENDS = glibc (>= 2.30) libxcrypt (>= 4.4.8)
+RRECOMMENDS = 
+PKGSIZE = 96455
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libtdb.so.1 /usr/lib/libtdb.so.1.4.2
