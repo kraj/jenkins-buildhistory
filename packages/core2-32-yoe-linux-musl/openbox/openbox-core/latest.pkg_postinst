@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/x-window-manager x-window-manager /usr/bin/openbox 10
+	update-alternatives --install /usr/bin/x-session-manager x-session-manager /usr/bin/openbox-session 100

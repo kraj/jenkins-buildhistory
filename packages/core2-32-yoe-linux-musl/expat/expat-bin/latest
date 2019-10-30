@@ -1,0 +1,10 @@
+PV = 2.2.9
+PR = r0
+PKG = libexpat-bin
+PKGR = r0.5
+RPROVIDES = expat-bin (=2.2.9)
+RDEPENDS = expat (>= 2.2.9) musl (>= 1.1.23+git1+2c2477da9a)
+RRECOMMENDS = 
+PKGSIZE = 30000
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/xmlwf
