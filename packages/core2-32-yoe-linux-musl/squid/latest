@@ -1,0 +1,5 @@
+PV = 4.6
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd cyrus-sasl db gnu-config-native krb5 libpam libtool libtool-cross libtool-native openldap perl-native pkgconfig-native shadow shadow-native shadow-sysroot virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = squid-src squid-dbg squid-ptest squid-staticdev squid-dev squid-doc squid-locale squid
+LAYER = networking-layer
