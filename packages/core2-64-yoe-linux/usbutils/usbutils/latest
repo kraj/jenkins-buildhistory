@@ -1,0 +1,9 @@
+PV = 012
+PR = r0
+PKGR = r0.22
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) libudev (>= 243+0+efb536d0cb) libusb1 (>= 1.0.22) update-alternatives-opkg
+RRECOMMENDS = udev-hwdb
+PKGSIZE = 275068
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/usbutils /usr/lib/usbutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/lsusb.usbutils /usr/bin/usb-devices /usr/bin/usbhid-dump
