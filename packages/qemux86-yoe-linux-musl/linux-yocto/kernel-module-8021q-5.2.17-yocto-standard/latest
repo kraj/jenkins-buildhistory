@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_255a750d28
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_255a750d28
+PKGR = r0.31
+RPROVIDES = kernel-module-8021q
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 27324
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/8021q/8021q.ko /etc/modules-load.d/8021q.conf /etc/modprobe.d/8021q.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/8021q/8021q.ko

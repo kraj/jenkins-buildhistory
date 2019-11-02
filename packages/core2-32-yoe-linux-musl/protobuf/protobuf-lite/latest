@@ -1,0 +1,10 @@
+PV = 3.10.0
+PR = r0
+PKG = libprotobuf-lite21
+PKGR = r0.4
+RPROVIDES = protobuf-lite (=3.10.0)
+RDEPENDS = libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.23+git1+2c2477da9a) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 775862
+FILES = /usr/lib/libprotobuf-lite.so.*
+FILELIST = /usr/lib/libprotobuf-lite.so.21 /usr/lib/libprotobuf-lite.so.21.0.0
