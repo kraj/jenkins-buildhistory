@@ -1,0 +1,5 @@
+PV = 4.2.7
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libevent libpcre libtool-cross libtool-native openldap pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/libiconv virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = zabbix-src zabbix-dbg zabbix-staticdev zabbix-dev zabbix-doc zabbix-locale zabbix
+LAYER = openembedded-layer
