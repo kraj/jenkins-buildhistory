@@ -1,9 +1,8 @@
-PV = 0.13.8+gitAUTOINC+756f700107
+PV = 0.13.8
 PR = r0
-PKGV = 0.13.8+git0+756f700107
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = libtorrent (= 0.13.8+git0+756f700107-r0.0)
+RDEPENDS = libtorrent (= 0.13.8-r0.1)
 RRECOMMENDS = cppunit-dev libcrypto-dev libgcc-dev libsigc++-2.0-dev libstdc++-dev musl-dev openssl-dev zlib-dev
 PKGSIZE = 331834
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libtorrent/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
