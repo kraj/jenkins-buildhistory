@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/gtk-update-icon-cache gtk-update-icon-cache /usr/bin/gtk-update-icon-cache-3.0 30
+	glib-compile-schemas $D/usr/share/glib-2.0/schemas
