@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_255a750d28
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_255a750d28
+PKGR = r0.31
+RPROVIDES = kernel-module-act-mirred
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16264
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/sched/act_mirred.ko /etc/modules-load.d/act_mirred.conf /etc/modprobe.d/act_mirred.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/sched/act_mirred.ko
