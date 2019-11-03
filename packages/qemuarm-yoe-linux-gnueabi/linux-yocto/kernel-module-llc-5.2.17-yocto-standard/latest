@@ -1,0 +1,10 @@
+PV = 5.2.17+gitAUTOINC+b867b78b50_47b80ef7bd
+PR = r0
+PKGV = 5.2.17+git1+b867b78b50_47b80ef7bd
+PKGR = r0.25
+RPROVIDES = kernel-module-llc
+RDEPENDS = kernel-5.2.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9340
+FILES = /lib/modules/5.2.17-yocto-standard/kernel/net/llc/llc.ko /etc/modules-load.d/llc.conf /etc/modprobe.d/llc.conf
+FILELIST = /lib/modules/5.2.17-yocto-standard/kernel/net/llc/llc.ko
