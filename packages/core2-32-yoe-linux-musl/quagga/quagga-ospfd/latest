@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.18
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.23+git1+2c2477da9a) quagga (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 660371
+FILES = /usr/sbin/ospfd /usr/lib/libospf.so.* /lib/systemd/system-preset/98-quagga-ospfd.preset /lib/systemd/system/ospfd.service
+FILELIST = /lib/systemd/system-preset/98-quagga-ospfd.preset /lib/systemd/system/ospfd.service /usr/lib/libospf.so.0 /usr/lib/libospf.so.0.0.0 /usr/sbin/ospfd
