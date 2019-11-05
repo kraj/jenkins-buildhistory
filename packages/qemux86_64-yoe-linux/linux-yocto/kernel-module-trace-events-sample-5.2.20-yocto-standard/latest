@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-trace-events-sample
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 31528
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/samples/trace_events/trace-events-sample.ko /etc/modules-load.d/trace-events-sample.conf /etc/modprobe.d/trace-events-sample.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/samples/trace_events/trace-events-sample.ko

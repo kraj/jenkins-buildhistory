@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-smsc75xx
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-usbnet-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 52016
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/usb/smsc75xx.ko /etc/modules-load.d/smsc75xx.conf /etc/modprobe.d/smsc75xx.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/usb/smsc75xx.ko

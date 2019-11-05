@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-rt2800mmio
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-rt2800lib-5.2.20-yocto-standard kernel-module-rt2x00lib-5.2.20-yocto-standard kernel-module-rt2x00mmio-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 17320
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko /etc/modules-load.d/rt2800mmio.conf /etc/modprobe.d/rt2800mmio.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko

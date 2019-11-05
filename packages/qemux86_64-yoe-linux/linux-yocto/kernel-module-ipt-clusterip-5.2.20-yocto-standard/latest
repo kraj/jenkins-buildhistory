@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-ipt-clusterip
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-nf-conntrack-5.2.20-yocto-standard kernel-module-x-tables-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 22472
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko /etc/modules-load.d/ipt_CLUSTERIP.conf /etc/modprobe.d/ipt_CLUSTERIP.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko

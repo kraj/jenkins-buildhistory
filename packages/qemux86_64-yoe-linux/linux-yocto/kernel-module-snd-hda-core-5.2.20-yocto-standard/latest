@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-hda-core
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-snd-pcm-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 114232
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/sound/hda/snd-hda-core.ko /etc/modules-load.d/snd-hda-core.conf /etc/modprobe.d/snd-hda-core.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/sound/hda/snd-hda-core.ko

@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-seq-device
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-snd-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12448
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/sound/core/snd-seq-device.ko /etc/modules-load.d/snd-seq-device.conf /etc/modprobe.d/snd-seq-device.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/sound/core/snd-seq-device.ko

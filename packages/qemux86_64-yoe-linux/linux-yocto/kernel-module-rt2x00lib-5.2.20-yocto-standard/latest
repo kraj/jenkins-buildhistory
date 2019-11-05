@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-rt2x00lib
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-cfg80211-5.2.20-yocto-standard kernel-module-mac80211-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 76144
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko /etc/modules-load.d/rt2x00lib.conf /etc/modprobe.d/rt2x00lib.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko
