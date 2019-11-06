@@ -1,0 +1,10 @@
+PV = 0.13.1
+PR = r0
+PKG = libhiredis-dev
+PKGR = r0.20
+RPROVIDES = hiredis-dev (=0.13.1)
+RDEPENDS = hiredis (= 0.13.1-r0.20)
+RRECOMMENDS = musl-dev redis-dev
+PKGSIZE = 42399
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/hiredis/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/hiredis/adapters/ae.h /usr/include/hiredis/adapters/glib.h /usr/include/hiredis/adapters/libev.h /usr/include/hiredis/adapters/libevent.h /usr/include/hiredis/adapters/libuv.h /usr/include/hiredis/async.h /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h /usr/include/hiredis/sds.h /usr/lib/libhiredis.so /usr/lib/pkgconfig/hiredis.pc
