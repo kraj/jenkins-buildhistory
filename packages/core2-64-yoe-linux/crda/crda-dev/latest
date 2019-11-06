@@ -1,0 +1,9 @@
+PV = 3.18
+PR = r0
+PKGR = r0.20
+RPROVIDES = 
+RDEPENDS = crda (= 3.18-r0.20)
+RRECOMMENDS = glibc-dev libgcrypt-dev libnl-dev libnl-genl-dev udev-dev wireless-regdb-dev
+PKGSIZE = 180538
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/crda/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/reglib/nl80211.h /usr/include/reglib/regdb.h /usr/include/reglib/reglib.h
