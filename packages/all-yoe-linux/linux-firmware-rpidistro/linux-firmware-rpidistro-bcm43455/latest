@@ -1,0 +1,12 @@
+PV = 0.0+gitAUTOINC+f0ad1a42b0
+PR = r0
+PKGV = 0.0+git1+f0ad1a42b0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = linux-firmware-rpidistro-broadcom-license
+RRECOMMENDS = 
+RREPLACES = linux-firmware-bcm43455 linux-firmware-raspbian-bcm43455
+RCONFLICTS = linux-firmware-bcm43455 linux-firmware-raspbian-bcm43455
+PKGSIZE = 634005
+FILES = /lib/firmware/brcm/brcmfmac43455*
+FILELIST = /lib/firmware/brcm/brcmfmac43455-sdio.bin /lib/firmware/brcm/brcmfmac43455-sdio.clm_blob /lib/firmware/brcm/brcmfmac43455-sdio.txt

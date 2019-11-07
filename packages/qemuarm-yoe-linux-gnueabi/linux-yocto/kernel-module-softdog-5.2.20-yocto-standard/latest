@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_fcbe51dfa0
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_fcbe51dfa0
+PKGR = r0.7
+RPROVIDES = kernel-module-softdog
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7580
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/watchdog/softdog.ko /etc/modules-load.d/softdog.conf /etc/modprobe.d/softdog.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/watchdog/softdog.ko
