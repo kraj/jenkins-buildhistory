@@ -1,0 +1,10 @@
+PV = 1.4.2
+PR = r0
+PKG = libtdb1
+PKGR = r0.26
+RPROVIDES = libtdb (=1.4.2)
+RDEPENDS = musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 103879
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libtdb.so.1 /usr/lib/libtdb.so.1.4.2

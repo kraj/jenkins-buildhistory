@@ -1,0 +1,11 @@
+PV = 0.5.1+gitAUTOINC+f97d3da5c3
+PR = r0
+PKG = libck-dev
+PKGV = 0.5.1+git0+f97d3da5c3
+PKGR = r0.20
+RPROVIDES = concurrencykit-dev (=0.5.1+git0+f97d3da5c3)
+RDEPENDS = concurrencykit (= 0.5.1+git0+f97d3da5c3-r0.20)
+RRECOMMENDS = musl-dev
+PKGSIZE = 359159
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/concurrencykit/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/ck_array.h /usr/include/ck_backoff.h /usr/include/ck_barrier.h /usr/include/ck_bitmap.h /usr/include/ck_brlock.h /usr/include/ck_bytelock.h /usr/include/ck_cc.h /usr/include/ck_cohort.h /usr/include/ck_elide.h /usr/include/ck_epoch.h /usr/include/ck_fifo.h /usr/include/ck_hp.h /usr/include/ck_hp_fifo.h /usr/include/ck_hp_stack.h /usr/include/ck_hs.h /usr/include/ck_ht.h /usr/include/ck_limits.h /usr/include/ck_malloc.h /usr/include/ck_md.h /usr/include/ck_pflock.h /usr/include/ck_pr.h /usr/include/ck_queue.h /usr/include/ck_rhs.h /usr/include/ck_ring.h /usr/include/ck_rwcohort.h /usr/include/ck_rwlock.h /usr/include/ck_sequence.h /usr/include/ck_spinlock.h /usr/include/ck_stack.h /usr/include/ck_stdbool.h /usr/include/ck_stddef.h /usr/include/ck_stdint.h /usr/include/ck_stdlib.h /usr/include/ck_string.h /usr/include/ck_swlock.h /usr/include/ck_tflock.h /usr/include/gcc/arm/ck_f_pr.h /usr/include/gcc/arm/ck_pr.h /usr/include/gcc/ck_cc.h /usr/include/gcc/ck_f_pr.h /usr/include/gcc/ck_pr.h /usr/include/gcc/ppc/ck_f_pr.h /usr/include/gcc/ppc/ck_pr.h /usr/include/gcc/ppc64/ck_f_pr.h /usr/include/gcc/ppc64/ck_pr.h /usr/include/gcc/sparcv9/ck_f_pr.h /usr/include/gcc/sparcv9/ck_pr.h /usr/include/gcc/x86/ck_f_pr.h /usr/include/gcc/x86/ck_pr.h /usr/include/gcc/x86_64/ck_f_pr.h /usr/include/gcc/x86_64/ck_pr.h /usr/include/gcc/x86_64/ck_pr_rtm.h /usr/include/spinlock/anderson.h /usr/include/spinlock/cas.h /usr/include/spinlock/clh.h /usr/include/spinlock/dec.h /usr/include/spinlock/fas.h /usr/include/spinlock/hclh.h /usr/include/spinlock/mcs.h /usr/include/spinlock/ticket.h /usr/lib/libck.so /usr/lib/pkgconfig/ck.pc
