@@ -1,0 +1,9 @@
+PV = 3.5.2
+PR = r0
+PKGR = r0.23
+RPROVIDES = 
+RDEPENDS = fuse3 (>= 3.7.0) glib-2.0 (>= 2.62.1) musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 92960
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sshfs-fuse /usr/lib/sshfs-fuse/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/sshfs /usr/sbin/mount.fuse.sshfs /usr/sbin/mount.sshfs

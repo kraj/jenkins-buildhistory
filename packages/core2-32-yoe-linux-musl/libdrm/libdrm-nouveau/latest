@@ -1,0 +1,10 @@
+PV = 2.4.100
+PR = r0
+PKG = libdrm-nouveau2
+PKGR = r0.1
+RPROVIDES = libdrm-nouveau (=2.4.100)
+RDEPENDS = libdrm (>= 2.4.100) musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 34087
+FILES = /usr/lib/libdrm_nouveau.so.*
+FILELIST = /usr/lib/libdrm_nouveau.so.2 /usr/lib/libdrm_nouveau.so.2.0.0
