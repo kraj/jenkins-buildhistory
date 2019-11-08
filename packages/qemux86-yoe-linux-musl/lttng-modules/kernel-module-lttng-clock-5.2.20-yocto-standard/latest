@@ -1,0 +1,9 @@
+PV = 2.10.11
+PR = r0
+PKGR = r0.20
+RPROVIDES = kernel-module-lttng-clock
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4772
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/lttng-modules/lttng-clock.ko /etc/modules-load.d/lttng-clock.conf /etc/modprobe.d/lttng-clock.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/lttng-modules/lttng-clock.ko

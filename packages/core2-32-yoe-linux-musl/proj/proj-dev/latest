@@ -1,0 +1,10 @@
+PV = 4.9.3
+PR = r0
+PKG = libproj-dev
+PKGR = r0.22
+RPROVIDES = proj-dev (=4.9.3)
+RDEPENDS = proj (= 4.9.3-r0.22)
+RRECOMMENDS = musl-dev
+PKGSIZE = 74889
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/proj/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/geodesic.h /usr/include/org_proj4_PJ.h /usr/include/org_proj4_Projections.h /usr/include/proj_api.h /usr/include/projects.h /usr/lib/libproj.so /usr/lib/pkgconfig/proj.pc

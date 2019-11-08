@@ -1,0 +1,12 @@
+PE = 1
+PV = 243+AUTOINC+efb536d0cb
+PR = r0
+PKG = libudev1
+PKGV = 243+0+efb536d0cb
+PKGR = r0.21
+RPROVIDES = libudev (=243+0+efb536d0cb)
+RDEPENDS = musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 222845
+FILES = /lib/libudev.so /lib/libudev.so.1 /lib/libudev.so.1.6.15
+FILELIST = /lib/libudev.so.1 /lib/libudev.so.1.6.15

@@ -1,0 +1,5 @@
+PV = 1.17.0
+PR = r0
+DEPENDS = autoconf-native automake-native expat gnu-config-native libffi libtool-cross libtool-native libxml2 pkgconfig-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc wayland-native
+PACKAGES = wayland-src wayland-dbg wayland-staticdev wayland-dev wayland-doc wayland-locale wayland
+LAYER = core
