@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_fcbe51dfa0
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_fcbe51dfa0
+PKGR = r0.10
+RPROVIDES = kernel-module-nfnetlink-log
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-nfnetlink-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16324
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/nfnetlink_log.ko /etc/modules-load.d/nfnetlink_log.conf /etc/modprobe.d/nfnetlink_log.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/nfnetlink_log.ko
