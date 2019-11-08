@@ -5,7 +5,40 @@ drwxr-xr-x -          -                  80 ./sysroot-providers
 -rw-r--r-- -          -                  15 ./sysroot-providers/libtirpc-native
 -rw-r--r-- -          -                  15 ./sysroot-providers/virtual_librpc-native
 drwxr-xr-x -          -                 100 ./usr
-drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 120 ./usr/include
+lrwxrwxrwx -          -                  17 ./usr/include/netconfig.h -> tirpc/netconfig.h
+drwxr-xr-x -          -                 600 ./usr/include/rpc
+lrwxrwxrwx -          -                  23 ./usr/include/rpc/auth_des.h -> ../tirpc/rpc/auth_des.h
+lrwxrwxrwx -          -                  19 ./usr/include/rpc/auth.h -> ../tirpc/rpc/auth.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/auth_unix.h -> ../tirpc/rpc/auth_unix.h
+lrwxrwxrwx -          -                  19 ./usr/include/rpc/clnt.h -> ../tirpc/rpc/clnt.h
+lrwxrwxrwx -          -                  23 ./usr/include/rpc/clnt_soc.h -> ../tirpc/rpc/clnt_soc.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/clnt_stat.h -> ../tirpc/rpc/clnt_stat.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/des_crypt.h -> ../tirpc/rpc/des_crypt.h
+lrwxrwxrwx -          -                  18 ./usr/include/rpc/des.h -> ../tirpc/rpc/des.h
+lrwxrwxrwx -          -                  23 ./usr/include/rpc/key_prot.h -> ../tirpc/rpc/key_prot.h
+lrwxrwxrwx -          -                  22 ./usr/include/rpc/nettype.h -> ../tirpc/rpc/nettype.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/pmap_clnt.h -> ../tirpc/rpc/pmap_clnt.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/pmap_prot.h -> ../tirpc/rpc/pmap_prot.h
+lrwxrwxrwx -          -                  23 ./usr/include/rpc/pmap_rmt.h -> ../tirpc/rpc/pmap_rmt.h
+lrwxrwxrwx -          -                  18 ./usr/include/rpc/raw.h -> ../tirpc/rpc/raw.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/rpcb_clnt.h -> ../tirpc/rpc/rpcb_clnt.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/rpcb_prot.h -> ../tirpc/rpc/rpcb_prot.h
+lrwxrwxrwx -          -                  24 ./usr/include/rpc/rpcb_prot.x -> ../tirpc/rpc/rpcb_prot.x
+lrwxrwxrwx -          -                  22 ./usr/include/rpc/rpc_com.h -> ../tirpc/rpc/rpc_com.h
+lrwxrwxrwx -          -                  21 ./usr/include/rpc/rpcent.h -> ../tirpc/rpc/rpcent.h
+lrwxrwxrwx -          -                  18 ./usr/include/rpc/rpc.h -> ../tirpc/rpc/rpc.h
+lrwxrwxrwx -          -                  22 ./usr/include/rpc/rpc_msg.h -> ../tirpc/rpc/rpc_msg.h
+drwxr-xr-x -          -                  80 ./usr/include/rpcsvc
+lrwxrwxrwx -          -                  23 ./usr/include/rpc/svc_auth.h -> ../tirpc/rpc/svc_auth.h
+lrwxrwxrwx -          -                  20 ./usr/include/rpcsvc/crypt.h -> ../tirpc/rpc/crypt.h
+lrwxrwxrwx -          -                  20 ./usr/include/rpcsvc/crypt.x -> ../tirpc/rpc/crypt.x
+lrwxrwxrwx -          -                  21 ./usr/include/rpc/svc_dg.h -> ../tirpc/rpc/svc_dg.h
+lrwxrwxrwx -          -                  18 ./usr/include/rpc/svc.h -> ../tirpc/rpc/svc.h
+lrwxrwxrwx -          -                  21 ./usr/include/rpc/svc_mt.h -> ../tirpc/rpc/svc_mt.h
+lrwxrwxrwx -          -                  22 ./usr/include/rpc/svc_soc.h -> ../tirpc/rpc/svc_soc.h
+lrwxrwxrwx -          -                  20 ./usr/include/rpc/types.h -> ../tirpc/rpc/types.h
+lrwxrwxrwx -          -                  18 ./usr/include/rpc/xdr.h -> ../tirpc/rpc/xdr.h
 drwxr-xr-x -          -                 100 ./usr/include/tirpc
 -rw-r--r-- -          -                2195 ./usr/include/tirpc/netconfig.h
 drwxr-xr-x -          -                 600 ./usr/include/tirpc/rpc

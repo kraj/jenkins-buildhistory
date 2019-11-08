@@ -1,0 +1,9 @@
+PV = 7.0.0
+PR = r0
+PKGR = r0.30
+RPROVIDES = 
+RDEPENDS = cairo (>= 1.16.0) dbus-lib (>= 1.12.16) glibc (>= 2.30) libdrm (>= 2.4.100) libegl-mesa (>= 19.1.6) libgbm (>= 19.1.6) libgles2-mesa (>= 19.1.6) libinput (>= 1.14.1) libjpeg-turbo (>= 2.0.3) libpng (>= 1.6.37) libsystemd (>= 243+0+efb536d0cb) libudev (>= 243+0+efb536d0cb) libx11 (>= 1.6.9) libx11-xcb (>= 1.6.9) libxcb (>= 1.13.1) libxcb-shm (>= 1.13.1) libxcb-xkb (>= 1.13.1) libxkbcommon (>= 0.8.4) pango (>= 1.44.6) pixman (>= 0.38.4) wayland (>= 1.17.0)
+RRECOMMENDS = 
+PKGSIZE = 739688
+FILES = /usr/lib/lib*.so.* /usr/lib/libweston-7/*.so
+FILELIST = /usr/lib/libweston-7.so.0 /usr/lib/libweston-7.so.0.0.0 /usr/lib/libweston-7/drm-backend.so /usr/lib/libweston-7/fbdev-backend.so /usr/lib/libweston-7/gl-renderer.so /usr/lib/libweston-7/wayland-backend.so /usr/lib/libweston-7/x11-backend.so /usr/lib/libweston-desktop-7.so.0 /usr/lib/libweston-desktop-7.so.0.0.0
