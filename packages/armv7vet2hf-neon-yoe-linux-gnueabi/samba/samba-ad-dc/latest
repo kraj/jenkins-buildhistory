@@ -1,0 +1,9 @@
+PV = 4.10.10
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) krb5-kdc libauthkrb5-samba4 (>= 4.10.10) libbsd (>= 0.10.0) libcliauth-samba4 (>= 4.10.10) libcluster-samba4 (>= 4.10.10) libcomerr (>= 1.45.4) libdb-glue-samba4 (>= 4.10.10) libevents-samba4 (>= 4.10.10) libgenrand-samba4 (>= 4.10.10) libgensec-samba4 (>= 4.10.10) libk5crypto (>= 1.17) libkdb5 (>= 1.17) libkrb5 (>= 1.17) libkrb5samba-samba4 (>= 4.10.10) libldb (>= 1.5.6) libmessaging-samba4 (>= 4.10.10) libndr-samba4 (>= 4.10.10) libpac-samba4 (>= 4.10.10) libprocess-model-samba4 (>= 4.10.10) libreplace-samba4 (>= 4.10.10) libsamba-debug-samba4 (>= 4.10.10) libsamba-errors (>= 4.10.10) libsamba-hostconfig (>= 4.10.10) libsamba-modules-samba4 (>= 4.10.10) libsamba-security-samba4 (>= 4.10.10) libsamba-util (>= 4.10.10) libsamdb (>= 4.10.10) libsamdb-common-samba4 (>= 4.10.10) libservice-samba4 (>= 4.10.10) libsocket-blocking-samba4 (>= 4.10.10) libtalloc (>= 2.3.0) libtevent (>= 0.10.1) popt (>= 1.16)
+RRECOMMENDS = 
+PKGSIZE = 53123
+FILES = /usr/sbin/samba /lib/systemd/system/samba.service /usr/lib/krb5/plugins/kdb/samba.so /lib/systemd/system-preset/98-samba-ad-dc.preset /lib/systemd/system/samba.service
+FILELIST = /lib/systemd/system-preset/98-samba-ad-dc.preset /lib/systemd/system/samba.service /usr/lib/krb5/plugins/kdb/samba.so /usr/sbin/samba
