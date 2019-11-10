@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot postfix-cfg mlprefix=
+    exit 0
+fi
+    touch /etc/aliases
+    newaliases
+
+    # generate virtual_alias, default is hash
+    touch /etc/postfix/virtual_alias
+    postmap /etc/postfix/virtual_alias
