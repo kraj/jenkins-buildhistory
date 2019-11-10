@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop postfix.service
+
+		systemctl disable postfix.service
+	fi
+fi
+	update-alternatives --remove  sendmail /usr/sbin/sendmail.postfix
+	update-alternatives --remove  mailq /usr/bin/mailq.postfix
+	update-alternatives --remove  newaliases /usr/bin/newaliases.postfix
