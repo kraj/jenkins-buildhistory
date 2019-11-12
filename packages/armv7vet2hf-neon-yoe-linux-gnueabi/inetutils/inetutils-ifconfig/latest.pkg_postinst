@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/ifconfig ifconfig /sbin/ifconfig.inetutils 79
