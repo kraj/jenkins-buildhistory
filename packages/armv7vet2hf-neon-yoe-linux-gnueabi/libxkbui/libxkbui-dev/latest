@@ -1,0 +1,10 @@
+PE = 1
+PV = 1.0.2
+PR = r10
+PKGR = r10.22
+RPROVIDES = 
+RDEPENDS = libxkbui (= 1:1.0.2-r10.22)
+RRECOMMENDS = glibc-dev libx11-dev libxkbfile-dev libxt-dev util-macros-dev
+PKGSIZE = 5313
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxkbui/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/X11/extensions/XKBui.h /usr/lib/libxkbui.so /usr/lib/pkgconfig/xkbui.pc
