@@ -1,0 +1,10 @@
+PV = 20180319
+PR = r0
+PKG = libvorbisidec-dev
+PKGR = r0.23
+RPROVIDES = tremor-dev (=20180319)
+RDEPENDS = tremor (= 20180319-r0.23)
+RRECOMMENDS = glibc-dev libogg-dev
+PKGSIZE = 13133
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tremor/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/tremor/config_types.h /usr/include/tremor/ivorbiscodec.h /usr/include/tremor/ivorbisfile.h /usr/lib/libvorbisidec.so /usr/lib/pkgconfig/vorbisidec.pc
