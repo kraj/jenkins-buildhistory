@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_fcbe51dfa0
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_fcbe51dfa0
+PKGR = r0.16
+RPROVIDES = kernel-module-ah4
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11700
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/ipv4/ah4.ko /etc/modules-load.d/ah4.conf /etc/modprobe.d/ah4.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/ipv4/ah4.ko
