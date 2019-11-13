@@ -1,0 +1,6 @@
+set -e
+    if test -n "$D"; then
+        PSEUDO_UNLOAD=1 qemu-i386 -r 3.2.0  -cpu n270 -L $D -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib $D/usr/bin/uim-module-manager --register anthy --path $D/usr/share/uim
+    else
+		uim-module-manager --register anthy --path /usr/share/uim
+    fi
