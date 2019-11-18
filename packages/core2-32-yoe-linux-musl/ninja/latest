@@ -1,0 +1,5 @@
+PV = 1.9.0
+PR = r0
+DEPENDS = ninja-native re2c-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = ninja-src ninja-dbg ninja-staticdev ninja-dev ninja-doc ninja-locale ninja
+LAYER = core
