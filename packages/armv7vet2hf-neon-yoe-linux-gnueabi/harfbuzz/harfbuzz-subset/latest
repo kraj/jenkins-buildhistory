@@ -1,0 +1,10 @@
+PV = 2.6.1
+PR = r0
+PKG = libharfbuzz-subset0
+PKGR = r0.34
+RPROVIDES = harfbuzz-subset (=2.6.1)
+RDEPENDS = freetype (>= 2.10.1) glib-2.0 (>= 2.62.1) glibc (>= 2.30) harfbuzz (>= 2.6.1) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0)
+RRECOMMENDS = 
+PKGSIZE = 296479
+FILES = /usr/lib/libharfbuzz-subset.so.*
+FILELIST = /usr/lib/libharfbuzz-subset.so.0 /usr/lib/libharfbuzz-subset.so.0.20600.1
