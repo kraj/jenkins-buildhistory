@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/animate animate /usr/bin/animate.im7 100
+	update-alternatives --install /usr/bin/compare compare /usr/bin/compare.im7 100
+	update-alternatives --install /usr/bin/composite composite /usr/bin/composite.im7 100
+	update-alternatives --install /usr/bin/conjure conjure /usr/bin/conjure.im7 100
+	update-alternatives --install /usr/bin/convert convert /usr/bin/convert.im7 100
+	update-alternatives --install /usr/bin/display display /usr/bin/display.im7 100
+	update-alternatives --install /usr/bin/identify identify /usr/bin/identify.im7 100
+	update-alternatives --install /usr/bin/import import /usr/bin/import.im7 100
+	update-alternatives --install /usr/bin/mogrify mogrify /usr/bin/mogrify.im7 100
+	update-alternatives --install /usr/bin/montage montage /usr/bin/montage.im7 100
+	update-alternatives --install /usr/bin/stream stream /usr/bin/stream.im7 100
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

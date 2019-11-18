@@ -1,0 +1,12 @@
+PE = 1
+PV = 243+AUTOINC+efb536d0cb
+PR = r0
+PKG = libsystemd0
+PKGV = 243+0+efb536d0cb
+PKGR = r0.24
+RPROVIDES = libsystemd (=243+0+efb536d0cb)
+RDEPENDS = libcap (>= 2.27) liblzma (>= 5.2.4) musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 871220
+FILES = /lib/libsystemd.so /lib/libsystemd.so.0 /lib/libsystemd.so.0.27.0
+FILELIST = /lib/libsystemd.so.0 /lib/libsystemd.so.0.27.0

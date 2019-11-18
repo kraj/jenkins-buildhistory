@@ -1,0 +1,9 @@
+PV = 0.2.7
+PR = r0
+PKGR = r0.14
+RPROVIDES = 
+RDEPENDS = libpipewire (>= 0.2.7) musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 83840
+FILES = /etc/pipewire/pipewire.conf /usr/bin/pipewire* /usr/lib/systemd/user/*
+FILELIST = /etc/pipewire/pipewire.conf /usr/bin/pipewire /usr/bin/pipewire-cli /usr/bin/pipewire-monitor /usr/lib/systemd/user/pipewire.service /usr/lib/systemd/user/pipewire.socket
