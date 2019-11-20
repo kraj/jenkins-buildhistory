@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system/basic.target.wants
+lrwxrwxrwx root       root               15 ./lib/systemd/system/basic.target.wants/cape.service -> ../cape.service
+-rw-r--r-- root       root              178 ./lib/systemd/system/cape.service
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
+-rwxr-xr-x root       root              774 ./usr/bin/cape.sh
+-rwxr-xr-x root       root              403 ./usr/bin/cape-stop.sh
