@@ -1,0 +1,10 @@
+PV = 1.9.4
+PR = r0
+PKGR = r0.26
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git0+90251cf73d) update-alternatives-opkg
+RRECOMMENDS = 
+RCONFLICTS = busybox-syslog rsyslog sysklogd syslog-ng
+PKGSIZE = 96720
+FILES = /sbin/syslogd.inetutils
+FILELIST = /sbin/syslogd.inetutils
