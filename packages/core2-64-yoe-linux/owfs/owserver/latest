@@ -1,0 +1,9 @@
+PV = 3.2p3
+PR = r0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) libow (>= 3.2p3)
+RRECOMMENDS = 
+PKGSIZE = 39603
+FILES = /usr/bin/owserver /etc/init.d/owserver /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket
+FILELIST = /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket /usr/bin/owserver
