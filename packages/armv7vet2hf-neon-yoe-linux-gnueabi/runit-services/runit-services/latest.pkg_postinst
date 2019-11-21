@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot runit-services mlprefix=
+    exit 0
+fi
+        # Enable default services:
+        #       - agetty-tty[1-4] (default)
+        #       - udevd (default)
+        #       - sulogin (single)
+        mkdir -p $D/etc/runit/runsvdir/single
+        ln -sf /etc/sv/sulogin $D/etc/runit/runsvdir/single
+
+        mkdir -p $D/etc/runit/runsvdir/default
+        if [ ! -e $D/etc/runit/runsvdir/current ]; then
+		ln -sf default $D/etc/runit/runsvdir/current
+	fi
+        if [ -e $D/etc/sv/udevd/run ]; then
+        	ln -sf /etc/sv/udevd $D/etc/runit/runsvdir/default
+	fi
