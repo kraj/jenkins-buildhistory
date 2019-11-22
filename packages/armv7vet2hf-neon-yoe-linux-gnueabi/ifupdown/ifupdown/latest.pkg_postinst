@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/ifup ifup /sbin/ifup.ifupdown 100
+	update-alternatives --install /sbin/ifdown ifdown /sbin/ifdown.ifupdown 100
