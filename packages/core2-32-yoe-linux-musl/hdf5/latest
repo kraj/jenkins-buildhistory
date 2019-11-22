@@ -1,0 +1,5 @@
+PV = 1.8.19
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = hdf5-src hdf5-dbg hdf5-staticdev hdf5-dev hdf5-doc hdf5-locale hdf5
+LAYER = openembedded-layer
