@@ -1,0 +1,9 @@
+PV = 5.8.1
+PR = r0
+PKGR = r0.29
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git0+90251cf73d) strongswan
+RRECOMMENDS = 
+PKGSIZE = 98543
+FILES = /usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so /etc/strongswan.d/charon/kernel-netlink.conf
+FILELIST = /etc/strongswan.d/charon/kernel-netlink.conf /usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so
