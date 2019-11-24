@@ -1,0 +1,5 @@
+PV = 2.0.878+gitAUTOINC+288add22d6
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-native kmod libtool-cross libtool-native open-isns openssl pkgconfig-native systemd systemd-systemctl-native util-linux virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = iscsi-initiator-utils-src iscsi-initiator-utils-dbg iscsi-initiator-utils-staticdev iscsi-initiator-utils-dev iscsi-initiator-utils-doc iscsi-initiator-utils-locale iscsi-initiator-utils
+LAYER = networking-layer
