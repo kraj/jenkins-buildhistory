@@ -1,0 +1,10 @@
+PV = 4.10.10
+PR = r0
+PKG = libnss-wins2
+PKGR = r0.8
+RPROVIDES = libnss-wins (=4.10.10)
+RDEPENDS = glibc (>= 2.30) libbsd (>= 0.10.0) libnsl2 (>= 1.2.0+git1+4a062cf418) libreplace-samba4 (>= 4.10.10) libwbclient (>= 4.10.10) libwinbind-client-samba4 (>= 4.10.10) libxcrypt (>= 4.4.8) samba-common
+RRECOMMENDS = 
+PKGSIZE = 14224
+FILES = /usr/lib/libnss_wins.so.2
+FILELIST = /usr/lib/libnss_wins.so.2

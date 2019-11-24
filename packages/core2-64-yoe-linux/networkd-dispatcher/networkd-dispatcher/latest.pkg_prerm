@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop networkd-dispatcher.service
+
+		systemctl disable networkd-dispatcher.service
+	fi
+fi
