@@ -1,9 +1,0 @@
-PV = 4.2.8p13
-PR = r0
-PKGR = r0.28
-RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.1.1d) libevent-core (>= 2.1.11) libevent-pthreads (>= 2.1.11) musl (>= 1.1.24+git0+90251cf73d)
-RRECOMMENDS = 
-PKGSIZE = 288030
-FILES = /usr/sbin/sntp /etc/default/sntp /lib/systemd/system/sntp.service /lib/systemd/system-preset/98-sntp.preset /lib/systemd/system/sntp.service
-FILELIST = /etc/default/sntp /lib/systemd/system-preset/98-sntp.preset /lib/systemd/system/sntp.service /usr/sbin/sntp
