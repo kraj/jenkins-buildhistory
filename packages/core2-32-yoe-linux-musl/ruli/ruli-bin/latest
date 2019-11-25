@@ -1,0 +1,10 @@
+PV = 0.36
+PR = r0
+PKG = libruli-bin
+PKGR = r0.29
+RPROVIDES = ruli-bin (=0.36)
+RDEPENDS = liboop (>= 1.0.1) musl (>= 1.1.24+git0+90251cf73d) ruli (>= 0.36)
+RRECOMMENDS = 
+PKGSIZE = 86088
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/getaddrinfo /usr/bin/httpsearch /usr/bin/ruli-getaddrinfo /usr/bin/smtpsearch /usr/bin/srvsearch /usr/bin/sync_httpsearch /usr/bin/sync_smtpsearch /usr/bin/sync_srvsearch
