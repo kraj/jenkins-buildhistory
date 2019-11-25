@@ -1,6 +1,0 @@
-set -e
-    if test -n "$D"; then
-        PSEUDO_UNLOAD=1 qemu-aarch64 -r 3.14  -L $D -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib $D/usr/bin/uim-module-manager --path $D/usr/share/uim --unregister skk
-    else
-		uim-module-manager --path /usr/share/uim --unregister skk
-    fi
