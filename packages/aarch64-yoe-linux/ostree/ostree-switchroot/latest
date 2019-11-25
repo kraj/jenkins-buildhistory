@@ -1,0 +1,9 @@
+PV = 2019.5
+PR = r0
+PKGR = r0.12
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) libsystemd (>= 243+0+efb536d0cb)
+RRECOMMENDS = 
+PKGSIZE = 68943
+FILES = /usr/lib/ostree/ostree-prepare-root /lib/systemd/system/ostree-prepare-root.service
+FILELIST = /lib/systemd/system/ostree-prepare-root.service /usr/lib/ostree/ostree-prepare-root
