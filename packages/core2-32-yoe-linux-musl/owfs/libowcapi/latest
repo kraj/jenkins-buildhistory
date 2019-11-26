@@ -1,0 +1,10 @@
+PV = 3.2p3
+PR = r0
+PKG = libowcapi-3.2-3
+PKGR = r0.15
+RPROVIDES = libowcapi (=3.2p3)
+RDEPENDS = libow (>= 3.2p3) libusb1 (>= 1.0.22) musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 9462
+FILES = /usr/lib/libowcapi-*
+FILELIST = /usr/lib/libowcapi-3.2.so.3 /usr/lib/libowcapi-3.2.so.3.0.0

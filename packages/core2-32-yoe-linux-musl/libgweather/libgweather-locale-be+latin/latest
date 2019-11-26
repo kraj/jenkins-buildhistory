@@ -1,0 +1,10 @@
+PV = 3.34.0
+PR = r0
+PKG = libgweather-3-locale-be+latin
+PKGR = r0.7
+RPROVIDES = be+latin-translation libgweather-locale libgweather-locale-be+latin (=3.34.0)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-be+latin
+PKGSIZE = 209439
+FILES = /usr/share/locale/be@latin
+FILELIST = /usr/share/locale/be@latin/LC_MESSAGES/libgweather-3.0.mo /usr/share/locale/be@latin/LC_MESSAGES/libgweather-locations.mo

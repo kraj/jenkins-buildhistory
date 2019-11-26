@@ -1,0 +1,6 @@
+PE = 2
+PV = 1.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = breakpad-src breakpad-dbg breakpad-minidump-upload breakpad-sym-upload breakpad-staticdev breakpad-dev breakpad-doc breakpad-locale breakpad
+LAYER = openembedded-layer
