@@ -1,0 +1,10 @@
+PV = 3.10.1
+PR = r0
+PKG = libprotobuf21
+PKGR = r0.9
+RPROVIDES = protobuf (=3.10.1)
+RDEPENDS = glibc (>= 2.30) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 3018933
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/protobuf /usr/lib/protobuf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libprotobuf.so.21 /usr/lib/libprotobuf.so.21.0.1

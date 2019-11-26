@@ -1,0 +1,10 @@
+PV = 3.32.0
+PR = r0
+PKG = libgnome-menu-3-locale-kab
+PKGR = r0.17
+RPROVIDES = gnome-menus3-locale gnome-menus3-locale-kab (=3.32.0) kab-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-kab
+PKGSIZE = 1812
+FILES = /usr/share/locale/kab
+FILELIST = /usr/share/locale/kab/LC_MESSAGES/gnome-menus.mo
