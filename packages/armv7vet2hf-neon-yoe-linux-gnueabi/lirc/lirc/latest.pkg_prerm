@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop lircd.service lircmd.service lircd-setup.service lircd-uinput.service
+
+		systemctl disable lircd.service lircmd.service lircd-setup.service lircd-uinput.service
+	fi
+fi
