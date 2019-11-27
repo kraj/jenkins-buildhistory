@@ -1,0 +1,10 @@
+PV = 3.26.1
+PR = r0
+PKG = libgeocode-glib-dev
+PKGR = r0.10
+RPROVIDES = geocode-glib-dev (=3.26.1)
+RDEPENDS = geocode-glib (= 3.26.1-r0.10)
+RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev json-glib-dev libsoup-2.4-dev
+PKGSIZE = 45760
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/geocode-glib/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
+FILELIST = /usr/include/geocode-glib-1.0/geocode-glib/geocode-backend.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-bounding-box.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-enum-types.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-error.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-forward.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-glib.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-location.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-mock-backend.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-nominatim.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-place.h /usr/include/geocode-glib-1.0/geocode-glib/geocode-reverse.h /usr/lib/libgeocode-glib.so /usr/lib/pkgconfig/geocode-glib-1.0.pc
