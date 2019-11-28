@@ -1,9 +1,0 @@
-PV = 4.10.10
-PR = r0
-PKGR = r0.11
-RPROVIDES = 
-RDEPENDS = libauth-samba4 (>= 4.10.10) libcharset3-samba4 (>= 4.10.10) libcli-cldap-samba4 (>= 4.10.10) libcli-nbt-samba4 (>= 4.10.10) libcli-smb-common-samba4 (>= 4.10.10) libcliauth-samba4 (>= 4.10.10) libgenrand-samba4 (>= 4.10.10) libgse-samba4 (>= 4.10.10) liblibsmb-samba4 (>= 4.10.10) libndr (>= 4.10.10) libndr-nbt (>= 4.10.10) libndr-samba-samba4 (>= 4.10.10) libndr-standard (>= 4.10.10) libpopt-samba3-samba4 (>= 4.10.10) libreplace-samba4 (>= 4.10.10) libsamba-cluster-support-samba4 (>= 4.10.10) libsamba-debug-samba4 (>= 4.10.10) libsamba-errors (>= 4.10.10) libsamba-hostconfig (>= 4.10.10) libsamba-passdb (>= 4.10.10) libsamba-security-samba4 (>= 4.10.10) libsamba-sockets-samba4 (>= 4.10.10) libsamba-util (>= 4.10.10) libsamba3-util-samba4 (>= 4.10.10) libsecrets3-samba4 (>= 4.10.10) libsmbconf (>= 4.10.10) libsmbd-base-samba4 (>= 4.10.10) libsmbd-shim-samba4 (>= 4.10.10) libsocket-blocking-samba4 (>= 4.10.10) libsys-rw-samba4 (>= 4.10.10) libtalloc (>= 2.3.0) libtdb (>= 1.4.2) libtevent (>= 0.10.1) libtevent-util (>= 4.10.10) libutil-tdb-samba4 (>= 4.10.10) musl (>= 1.1.24+git0+90251cf73d) popt (>= 1.16)
-RRECOMMENDS = samba-auth-samba4 samba-auth-script samba-auth-unix samba-pdb-ldapsam samba-pdb-smbpasswd samba-pdb-tdbsam
-PKGSIZE = 392734
-FILES = /usr/sbin/nmbd /usr/sbin/smbd /etc/init.d /lib/systemd/system/nmb.service /lib/systemd/system/smb.service /lib/systemd/system-preset/98-samba-base.preset /lib/systemd/system/nmb.service /lib/systemd/system/smb.service
-FILELIST = /lib/systemd/system-preset/98-samba-base.preset /lib/systemd/system/nmb.service /lib/systemd/system/smb.service /usr/sbin/nmbd /usr/sbin/smbd

@@ -1,0 +1,10 @@
+PV = 12.0
+PR = r0
+PKG = libecpg6
+PKGR = r0.11
+RPROVIDES = libecpg (=12.0)
+RDEPENDS = glibc (>= 2.30) libpgtypes (>= 12.0) libpq (>= 12.0)
+RRECOMMENDS = 
+PKGSIZE = 92543
+FILES = /usr/lib/libecpg*.so.*
+FILELIST = /usr/lib/libecpg.so.6 /usr/lib/libecpg.so.6.12
