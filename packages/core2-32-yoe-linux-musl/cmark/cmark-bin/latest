@@ -1,0 +1,10 @@
+PV = 0.29.0
+PR = r0
+PKG = libcmark-bin
+PKGR = r0.33
+RPROVIDES = cmark-bin (=0.29.0)
+RDEPENDS = musl (>= 1.1.24+git0+90251cf73d)
+RRECOMMENDS = 
+PKGSIZE = 304504
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/cmark
