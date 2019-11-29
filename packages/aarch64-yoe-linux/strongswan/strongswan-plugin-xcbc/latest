@@ -1,0 +1,9 @@
+PV = 5.8.1
+PR = r0
+PKGR = r0.35
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) strongswan
+RRECOMMENDS = 
+PKGSIZE = 68051
+FILES = /usr/lib/ipsec/plugins/libstrongswan-xcbc.so /etc/strongswan.d/charon/xcbc.conf
+FILELIST = /etc/strongswan.d/charon/xcbc.conf /usr/lib/ipsec/plugins/libstrongswan-xcbc.so
