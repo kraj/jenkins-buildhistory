@@ -1,0 +1,10 @@
+PV = 3.32.0
+PR = r0
+PKG = libgnome-menu-3-locale-ha
+PKGR = r0.20
+RPROVIDES = gnome-menus3-locale gnome-menus3-locale-ha (=3.32.0) ha-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ha
+PKGSIZE = 3241
+FILES = /usr/share/locale/ha
+FILELIST = /usr/share/locale/ha/LC_MESSAGES/gnome-menus.mo

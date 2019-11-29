@@ -1,0 +1,10 @@
+PV = 1.71.0
+PR = r0
+PKG = libboost-coroutine1.71.0
+PKGR = r0.34
+RPROVIDES = boost-coroutine (=1.71.0)
+RDEPENDS = boost-context (>= 1.71.0) boost-thread (>= 1.71.0) glibc (>= 2.30) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0)
+RRECOMMENDS = 
+PKGSIZE = 59824
+FILES = /usr/lib/libboost_coroutine*.so.*
+FILELIST = /usr/lib/libboost_coroutine.so.1 /usr/lib/libboost_coroutine.so.1.71 /usr/lib/libboost_coroutine.so.1.71.0

@@ -1,0 +1,10 @@
+PV = 0.2.7
+PR = r0
+PKG = libpipewire-0.2-modules
+PKGR = r0.24
+RPROVIDES = libpipewire-modules (=0.2.7)
+RDEPENDS = dbus-lib (>= 1.12.16) glibc (>= 2.30) libpipewire (>= 0.2.7) libsystemd (>= 243+0+efb536d0cb)
+RRECOMMENDS = 
+PKGSIZE = 387320
+FILES = /usr/lib/pipewire-*/*
+FILELIST = /usr/lib/pipewire-0.2/libpipewire-module-audio-dsp.so /usr/lib/pipewire-0.2/libpipewire-module-autolink.so /usr/lib/pipewire-0.2/libpipewire-module-client-node.so /usr/lib/pipewire-0.2/libpipewire-module-link-factory.so /usr/lib/pipewire-0.2/libpipewire-module-mixer.so /usr/lib/pipewire-0.2/libpipewire-module-portal.so /usr/lib/pipewire-0.2/libpipewire-module-protocol-native.so /usr/lib/pipewire-0.2/libpipewire-module-rtkit.so /usr/lib/pipewire-0.2/libpipewire-module-spa-monitor.so /usr/lib/pipewire-0.2/libpipewire-module-spa-node-factory.so /usr/lib/pipewire-0.2/libpipewire-module-spa-node.so /usr/lib/pipewire-0.2/libpipewire-module-suspend-on-idle.so
