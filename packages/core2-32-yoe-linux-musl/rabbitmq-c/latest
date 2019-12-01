@@ -1,0 +1,5 @@
+PV = 0.9.0
+PR = r0
+DEPENDS = cmake-native ninja-native openssl pkgconfig-native popt virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = rabbitmq-c-src rabbitmq-c-dbg rabbitmq-c-staticdev rabbitmq-c-dev rabbitmq-c-doc rabbitmq-c-locale rabbitmq-c-tools rabbitmq-c
+LAYER = openembedded-layer
