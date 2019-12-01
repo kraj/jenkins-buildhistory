@@ -1,0 +1,15 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 304 ./lib/systemd/system/iscsi-initiator.service
+-rw-r--r-- -          -                 401 ./lib/systemd/system/iscsi-initiator-targets.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  21 ./sysroot-providers/iscsi-initiator-utils
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                 120 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/lib/iscsi
+-rwxr-xr-x -          -                 470 ./usr/lib/iscsi/set_initiatorname
+-rwxr-xr-x -          -              108616 ./usr/lib/libopeniscsiusr.so.0.2.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libopeniscsiusr.so.0 -> libopeniscsiusr.so.0.2.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libopeniscsiusr.so -> libopeniscsiusr.so.0.2.0
+drwxr-xr-x -          -                  40 ./usr/share
