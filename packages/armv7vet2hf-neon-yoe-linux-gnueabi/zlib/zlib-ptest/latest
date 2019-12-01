@@ -1,0 +1,10 @@
+PV = 1.2.11
+PR = r0
+PKG = libz-ptest
+PKGR = r0.32
+RPROVIDES = zlib-ptest (=1.2.11)
+RDEPENDS = glibc (>= 2.30) make zlib (>= 1.2.11)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 14057
+FILES = /usr/lib/zlib/ptest
+FILELIST = /usr/lib/zlib/ptest/examplesh /usr/lib/zlib/ptest/run-ptest
