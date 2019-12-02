@@ -1,0 +1,21 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                 200 ./lib/systemd/system
+-rw-r--r-- -          -                 433 ./lib/systemd/system/cf-apache.service
+-rw-r--r-- -          -                 851 ./lib/systemd/system/cfengine3.service
+-rw-r--r-- -          -                 385 ./lib/systemd/system/cf-execd.service
+-rw-r--r-- -          -                 387 ./lib/systemd/system/cf-hub.service
+-rw-r--r-- -          -                 358 ./lib/systemd/system/cf-monitord.service
+-rw-r--r-- -          -                1150 ./lib/systemd/system/cf-postgres.service
+-rw-r--r-- -          -                 638 ./lib/systemd/system/cf-runalerts.service
+-rw-r--r-- -          -                 437 ./lib/systemd/system/cf-serverd.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/cfengine
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                 100 ./usr/lib
+-rwxr-xr-x -          -             1183152 ./usr/lib/libpromises.so.3.0.6
+lrwxrwxrwx -          -                  20 ./usr/lib/libpromises.so.3 -> libpromises.so.3.0.6
+lrwxrwxrwx -          -                  20 ./usr/lib/libpromises.so -> libpromises.so.3.0.6
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/cfengine
+-rwxr-xr-x -          -               17993 ./usr/share/cfengine/cfengine3
