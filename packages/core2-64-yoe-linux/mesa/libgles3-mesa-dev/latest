@@ -1,0 +1,12 @@
+PE = 2
+PV = 19.2.4
+PR = r0
+PKGR = r0.11
+RPROVIDES = libgles3-dev
+RDEPENDS = 
+RRECOMMENDS = expat-dev libdrm-dev libxdamage-dev libxext-dev libxfixes-dev libxshmfence-dev libxxf86vm-dev llvm9.0.0-dev wayland-dev wayland-protocols-dev xorgproto-dev xrandr-dev zlib-dev
+RREPLACES = libgles3-dev
+RCONFLICTS = libgles3-dev
+PKGSIZE = 320395
+FILES = /usr/include/GLES3
+FILELIST = /usr/include/GLES3/gl3.h /usr/include/GLES3/gl31.h /usr/include/GLES3/gl32.h /usr/include/GLES3/gl3ext.h /usr/include/GLES3/gl3platform.h
