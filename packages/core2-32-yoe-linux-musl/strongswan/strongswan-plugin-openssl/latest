@@ -1,0 +1,9 @@
+PV = 5.8.1
+PR = r0
+PKGR = r0.36
+RPROVIDES = 
+RDEPENDS = libcrypto (>= 1.1.1d) musl (>= 1.1.24+git0+90251cf73d) strongswan
+RRECOMMENDS = 
+PKGSIZE = 111001
+FILES = /usr/lib/ipsec/plugins/libstrongswan-openssl.so /etc/strongswan.d/charon/openssl.conf
+FILELIST = /etc/strongswan.d/charon/openssl.conf /usr/lib/ipsec/plugins/libstrongswan-openssl.so
