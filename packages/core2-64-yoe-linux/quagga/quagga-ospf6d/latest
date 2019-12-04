@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.37
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) quagga (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 320759
+FILES = /usr/sbin/ospf6d /lib/systemd/system-preset/98-quagga-ospf6d.preset /lib/systemd/system/ospf6d.service
+FILELIST = /lib/systemd/system-preset/98-quagga-ospf6d.preset /lib/systemd/system/ospf6d.service /usr/sbin/ospf6d
