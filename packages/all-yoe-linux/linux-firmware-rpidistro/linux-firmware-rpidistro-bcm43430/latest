@@ -1,0 +1,12 @@
+PV = 0.0+gitAUTOINC+00daf85ffa
+PR = r0
+PKGV = 0.0+git2+00daf85ffa
+PKGR = r0.15
+RPROVIDES = 
+RDEPENDS = linux-firmware-rpidistro-broadcom-license
+RRECOMMENDS = 
+RREPLACES = linux-firmware-bcm43430 linux-firmware-raspbian-bcm43430
+RCONFLICTS = linux-firmware-bcm43430 linux-firmware-raspbian-bcm43430
+PKGSIZE = 393368
+FILES = /lib/firmware/brcm/brcmfmac43430*
+FILELIST = /lib/firmware/brcm/brcmfmac43430-sdio.AP6212.txt /lib/firmware/brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt /lib/firmware/brcm/brcmfmac43430-sdio.MUR1DX.txt /lib/firmware/brcm/brcmfmac43430-sdio.bin /lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi-rpi.txt /lib/firmware/brcm/brcmfmac43430-sdio.txt
