@@ -1,0 +1,68 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/lttng-ust
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 620 ./usr/include/lttng
+-rw-r--r-- -          -                2908 ./usr/include/lttng/align.h
+-rw-r--r-- -          -                2226 ./usr/include/lttng/bug.h
+-rw-r--r-- -          -                1445 ./usr/include/lttng/lttng-ust-tracef.h
+-rw-r--r-- -          -                2396 ./usr/include/lttng/lttng-ust-tracelog.h
+-rw-r--r-- -          -                3713 ./usr/include/lttng/ringbuffer-abi.h
+-rw-r--r-- -          -               13989 ./usr/include/lttng/ringbuffer-config.h
+-rw-r--r-- -          -                1661 ./usr/include/lttng/tracef.h
+-rw-r--r-- -          -                2480 ./usr/include/lttng/tracelog.h
+-rw-r--r-- -          -                3217 ./usr/include/lttng/tracepoint-event.h
+-rw-r--r-- -          -               25774 ./usr/include/lttng/tracepoint.h
+-rw-r--r-- -          -                1941 ./usr/include/lttng/tracepoint-rcu.h
+-rw-r--r-- -          -                1590 ./usr/include/lttng/tracepoint-types.h
+-rw-r--r-- -          -                9620 ./usr/include/lttng/ust-abi.h
+-rw-r--r-- -          -                2038 ./usr/include/lttng/ust-clock.h
+-rw-r--r-- -          -                1437 ./usr/include/lttng/ust-compiler.h
+-rw-r--r-- -          -                 431 ./usr/include/lttng/ust-config.h
+-rw-r--r-- -          -               15947 ./usr/include/lttng/ust-ctl.h
+-rw-r--r-- -          -                6316 ./usr/include/lttng/ust-elf.h
+-rw-r--r-- -          -                2028 ./usr/include/lttng/ust-endian.h
+-rw-r--r-- -          -                2157 ./usr/include/lttng/ust-error.h
+-rw-r--r-- -          -               22593 ./usr/include/lttng/ust-events.h
+-rw-r--r-- -          -                1060 ./usr/include/lttng/ust-getcpu.h
+-rw-r--r-- -          -                1497 ./usr/include/lttng/ust.h
+-rw-r--r-- -          -               35227 ./usr/include/lttng/ust-tracepoint-event.h
+-rw-r--r-- -          -                3596 ./usr/include/lttng/ust-tracepoint-event-nowrite.h
+-rw-r--r-- -          -                5169 ./usr/include/lttng/ust-tracepoint-event-reset.h
+-rw-r--r-- -          -                3804 ./usr/include/lttng/ust-tracepoint-event-write.h
+-rw-r--r-- -          -                1816 ./usr/include/lttng/ust-tracer.h
+-rw-r--r-- -          -                1458 ./usr/include/lttng/ust-version.h
+drwxr-xr-x -          -                 660 ./usr/lib
+-rwxr-xr-x -          -              265264 ./usr/lib/liblttng-ust-ctl.so.4.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/liblttng-ust-ctl.so.4 -> liblttng-ust-ctl.so.4.0.0
+lrwxrwxrwx -          -                  25 ./usr/lib/liblttng-ust-ctl.so -> liblttng-ust-ctl.so.4.0.0
+-rwxr-xr-x -          -               68224 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0
+lrwxrwxrwx -          -                  38 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0 -> liblttng-ust-cyg-profile-fast.so.0.0.0
+lrwxrwxrwx -          -                  38 ./usr/lib/liblttng-ust-cyg-profile-fast.so -> liblttng-ust-cyg-profile-fast.so.0.0.0
+-rwxr-xr-x -          -               68224 ./usr/lib/liblttng-ust-cyg-profile.so.0.0.0
+lrwxrwxrwx -          -                  33 ./usr/lib/liblttng-ust-cyg-profile.so.0 -> liblttng-ust-cyg-profile.so.0.0.0
+lrwxrwxrwx -          -                  33 ./usr/lib/liblttng-ust-cyg-profile.so -> liblttng-ust-cyg-profile.so.0.0.0
+-rwxr-xr-x -          -               68424 ./usr/lib/liblttng-ust-dl.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/liblttng-ust-dl.so.0 -> liblttng-ust-dl.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/liblttng-ust-dl.so -> liblttng-ust-dl.so.0.0.0
+-rwxr-xr-x -          -               67568 ./usr/lib/liblttng-ust-fd.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/liblttng-ust-fd.so.0 -> liblttng-ust-fd.so.0.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/liblttng-ust-fd.so -> liblttng-ust-fd.so.0.0.0
+-rwxr-xr-x -          -               67568 ./usr/lib/liblttng-ust-fork.so.0.0.0
+lrwxrwxrwx -          -                  26 ./usr/lib/liblttng-ust-fork.so.0 -> liblttng-ust-fork.so.0.0.0
+lrwxrwxrwx -          -                  26 ./usr/lib/liblttng-ust-fork.so -> liblttng-ust-fork.so.0.0.0
+-rwxr-xr-x -          -               68568 ./usr/lib/liblttng-ust-libc-wrapper.so.0.0.0
+lrwxrwxrwx -          -                  34 ./usr/lib/liblttng-ust-libc-wrapper.so.0 -> liblttng-ust-libc-wrapper.so.0.0.0
+lrwxrwxrwx -          -                  34 ./usr/lib/liblttng-ust-libc-wrapper.so -> liblttng-ust-libc-wrapper.so.0.0.0
+-rwxr-xr-x -          -               68424 ./usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0
+lrwxrwxrwx -          -                  37 ./usr/lib/liblttng-ust-pthread-wrapper.so.0 -> liblttng-ust-pthread-wrapper.so.0.0.0
+lrwxrwxrwx -          -                  37 ./usr/lib/liblttng-ust-pthread-wrapper.so -> liblttng-ust-pthread-wrapper.so.0.0.0
+-rwxr-xr-x -          -              481072 ./usr/lib/liblttng-ust.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/liblttng-ust.so.0 -> liblttng-ust.so.0.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/liblttng-ust.so -> liblttng-ust.so.0.0.0
+-rwxr-xr-x -          -               67648 ./usr/lib/liblttng-ust-tracepoint.so.0.0.0
+lrwxrwxrwx -          -                  32 ./usr/lib/liblttng-ust-tracepoint.so.0 -> liblttng-ust-tracepoint.so.0.0.0
+lrwxrwxrwx -          -                  32 ./usr/lib/liblttng-ust-tracepoint.so -> liblttng-ust-tracepoint.so.0.0.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 330 ./usr/lib/pkgconfig/lttng-ust.pc
+drwxr-xr-x -          -                  40 ./usr/share
