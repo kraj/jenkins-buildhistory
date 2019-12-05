@@ -1,0 +1,9 @@
+PV = 1.7
+PR = r0
+PKGR = r0.34
+RPROVIDES = 
+RDEPENDS = pmdk (= 1.7-r0.34)
+RRECOMMENDS = glibc-dev ndctl-dev
+PKGSIZE = 116720
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pmdk/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libpmem.h /usr/include/libpmemblk.h /usr/include/libpmemlog.h /usr/include/libpmemobj.h /usr/include/libpmemobj/action.h /usr/include/libpmemobj/action_base.h /usr/include/libpmemobj/atomic.h /usr/include/libpmemobj/atomic_base.h /usr/include/libpmemobj/base.h /usr/include/libpmemobj/ctl.h /usr/include/libpmemobj/iterator.h /usr/include/libpmemobj/iterator_base.h /usr/include/libpmemobj/lists_atomic.h /usr/include/libpmemobj/lists_atomic_base.h /usr/include/libpmemobj/pool.h /usr/include/libpmemobj/pool_base.h /usr/include/libpmemobj/thread.h /usr/include/libpmemobj/tx.h /usr/include/libpmemobj/tx_base.h /usr/include/libpmemobj/types.h /usr/include/libpmempool.h /usr/include/libvmem.h /usr/include/libvmmalloc.h /usr/lib/libpmem.so /usr/lib/libpmemblk.so /usr/lib/libpmemlog.so /usr/lib/libpmemobj.so /usr/lib/libpmempool.so /usr/lib/libvmem.so /usr/lib/libvmmalloc.so /usr/lib/pkgconfig/libpmem.pc /usr/lib/pkgconfig/libpmemblk.pc /usr/lib/pkgconfig/libpmemlog.pc /usr/lib/pkgconfig/libpmemobj.pc /usr/lib/pkgconfig/libpmempool.pc /usr/lib/pkgconfig/libvmem.pc /usr/lib/pkgconfig/libvmmalloc.pc
