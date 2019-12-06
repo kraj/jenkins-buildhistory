@@ -1,0 +1,10 @@
+PV = 64.2
+PR = r0
+PKG = libicuuc64
+PKGR = r0.39
+RPROVIDES = libicuuc (=64.2)
+RDEPENDS = glibc (>= 2.30) libgcc (>= 9.2.0) libicudata (>= 64.2) libstdc++ (>= 9.2.0)
+RRECOMMENDS = 
+PKGSIZE = 1911152
+FILES = /usr/lib/libicuuc.so.*
+FILELIST = /usr/lib/libicuuc.so.64 /usr/lib/libicuuc.so.64.2
