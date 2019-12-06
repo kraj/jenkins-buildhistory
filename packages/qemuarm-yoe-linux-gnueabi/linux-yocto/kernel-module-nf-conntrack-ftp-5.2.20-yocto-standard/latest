@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_fcbe51dfa0
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_fcbe51dfa0
+PKGR = r0.63
+RPROVIDES = kernel-module-nf-conntrack-ftp
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-nf-conntrack-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12736
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/nf_conntrack_ftp.ko /etc/modules-load.d/nf_conntrack_ftp.conf /etc/modprobe.d/nf_conntrack_ftp.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/nf_conntrack_ftp.ko
