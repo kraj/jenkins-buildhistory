@@ -1,0 +1,10 @@
+PV = 3.6.0
+PR = r0
+PKG = libsensors-dev
+PKGR = r0.22
+RPROVIDES = lmsensors-libsensors-dev (=3.6.0)
+RDEPENDS = lmsensors-libsensors
+RRECOMMENDS = musl-dev rrdtool-dev
+PKGSIZE = 15046
+FILES = /usr/lib/libsensors.so /usr/include
+FILELIST = /usr/include/sensors/error.h /usr/include/sensors/sensors.h /usr/lib/libsensors.so
