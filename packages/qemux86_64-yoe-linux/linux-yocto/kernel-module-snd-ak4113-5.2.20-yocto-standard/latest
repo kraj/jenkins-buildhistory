@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-ak4113
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-snd-5.2.20-yocto-standard kernel-module-snd-pcm-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 17840
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/sound/i2c/other/snd-ak4113.ko /etc/modules-load.d/snd-ak4113.conf /etc/modprobe.d/snd-ak4113.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/sound/i2c/other/snd-ak4113.ko

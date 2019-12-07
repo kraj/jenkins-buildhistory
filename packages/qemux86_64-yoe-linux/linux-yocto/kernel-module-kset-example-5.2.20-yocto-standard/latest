@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-kset-example
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8440
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/samples/kobject/kset-example.ko /etc/modules-load.d/kset-example.conf /etc/modprobe.d/kset-example.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/samples/kobject/kset-example.ko

@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-gspca-m5602
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-gspca-main-5.2.20-yocto-standard kernel-module-videodev-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 82448
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko /etc/modules-load.d/gspca_m5602.conf /etc/modprobe.d/gspca_m5602.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko

@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-6lowpan
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 25488
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/6lowpan/6lowpan.ko /etc/modules-load.d/6lowpan.conf /etc/modprobe.d/6lowpan.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/6lowpan/6lowpan.ko

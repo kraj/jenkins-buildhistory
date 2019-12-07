@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-x-tables
+RDEPENDS = kernel-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 48808
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/x_tables.ko /etc/modules-load.d/x_tables.conf /etc/modprobe.d/x_tables.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/x_tables.ko

@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-bridge
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-llc-5.2.20-yocto-standard kernel-module-stp-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 220528
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/bridge/bridge.ko /etc/modules-load.d/bridge.conf /etc/modprobe.d/bridge.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/bridge/bridge.ko

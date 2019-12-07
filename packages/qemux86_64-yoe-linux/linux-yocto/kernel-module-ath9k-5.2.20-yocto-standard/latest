@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-ath9k
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-ath-5.2.20-yocto-standard kernel-module-ath9k-common-5.2.20-yocto-standard kernel-module-ath9k-hw-5.2.20-yocto-standard kernel-module-cfg80211-5.2.20-yocto-standard kernel-module-mac80211-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 168432
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k.ko /etc/modules-load.d/ath9k.conf /etc/modprobe.d/ath9k.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k.ko

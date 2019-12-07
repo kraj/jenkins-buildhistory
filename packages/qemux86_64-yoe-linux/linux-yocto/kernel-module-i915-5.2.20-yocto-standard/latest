@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-i915
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-backlight-5.2.20-yocto-standard kernel-module-video-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 2598920
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko /etc/modules-load.d/i915.conf /etc/modprobe.d/i915.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko

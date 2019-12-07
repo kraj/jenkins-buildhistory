@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-v4l2-common
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-videodev-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13600
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-common.ko /etc/modules-load.d/v4l2-common.conf /etc/modprobe.d/v4l2-common.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-common.ko

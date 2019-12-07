@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-netmap
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-nf-conntrack-5.2.20-yocto-standard kernel-module-nf-nat-5.2.20-yocto-standard kernel-module-x-tables-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7088
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/xt_NETMAP.ko /etc/modules-load.d/xt_NETMAP.conf /etc/modprobe.d/xt_NETMAP.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/netfilter/xt_NETMAP.ko

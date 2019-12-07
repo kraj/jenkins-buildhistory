@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-gspca-main
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-videobuf2-common-5.2.20-yocto-standard kernel-module-videobuf2-v4l2-5.2.20-yocto-standard kernel-module-videobuf2-vmalloc-5.2.20-yocto-standard kernel-module-videodev-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 39840
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/drivers/media/usb/gspca/gspca_main.ko /etc/modules-load.d/gspca_main.conf /etc/modprobe.d/gspca_main.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/drivers/media/usb/gspca/gspca_main.ko

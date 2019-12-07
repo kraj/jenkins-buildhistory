@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-opl3-lib
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-snd-5.2.20-yocto-standard kernel-module-snd-hwdep-5.2.20-yocto-standard kernel-module-snd-seq-device-5.2.20-yocto-standard kernel-module-snd-timer-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 18512
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/sound/drivers/opl3/snd-opl3-lib.ko /etc/modules-load.d/snd-opl3-lib.conf /etc/modprobe.d/snd-opl3-lib.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/sound/drivers/opl3/snd-opl3-lib.ko

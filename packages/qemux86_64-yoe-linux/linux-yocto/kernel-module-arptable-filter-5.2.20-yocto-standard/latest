@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-arptable-filter
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-arp-tables-5.2.20-yocto-standard kernel-module-x-tables-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6192
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/net/ipv4/netfilter/arptable_filter.ko /etc/modules-load.d/arptable_filter.conf /etc/modprobe.d/arptable_filter.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/net/ipv4/netfilter/arptable_filter.ko

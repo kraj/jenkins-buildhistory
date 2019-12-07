@@ -1,0 +1,10 @@
+PV = 5.2.20+gitAUTOINC+bd0762cd13_dd25a04fc5
+PR = r0
+PKGV = 5.2.20+git0+bd0762cd13_dd25a04fc5
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-oxygen
+RDEPENDS = kernel-5.2.20-yocto-standard kernel-module-snd-5.2.20-yocto-standard kernel-module-snd-oxygen-lib-5.2.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 36656
+FILES = /lib/modules/5.2.20-yocto-standard/kernel/sound/pci/oxygen/snd-oxygen.ko /etc/modules-load.d/snd-oxygen.conf /etc/modprobe.d/snd-oxygen.conf
+FILELIST = /lib/modules/5.2.20-yocto-standard/kernel/sound/pci/oxygen/snd-oxygen.ko
