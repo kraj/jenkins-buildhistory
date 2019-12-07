@@ -1,0 +1,9 @@
+PV = git
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libnfc (= git-r0.0)
+RRECOMMENDS = glibc-dev libusb-compat-dev libusb-dev
+PKGSIZE = 21170
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnfc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/nfc/nfc-emulation.h /usr/include/nfc/nfc-types.h /usr/include/nfc/nfc.h /usr/lib/libnfc.so /usr/lib/pkgconfig/libnfc.pc
