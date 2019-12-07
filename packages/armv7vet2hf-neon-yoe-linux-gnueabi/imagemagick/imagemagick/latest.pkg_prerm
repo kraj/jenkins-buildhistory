@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  animate /usr/bin/animate.im7
+	update-alternatives --remove  compare /usr/bin/compare.im7
+	update-alternatives --remove  composite /usr/bin/composite.im7
+	update-alternatives --remove  conjure /usr/bin/conjure.im7
+	update-alternatives --remove  convert /usr/bin/convert.im7
+	update-alternatives --remove  display /usr/bin/display.im7
+	update-alternatives --remove  identify /usr/bin/identify.im7
+	update-alternatives --remove  import /usr/bin/import.im7
+	update-alternatives --remove  mogrify /usr/bin/mogrify.im7
+	update-alternatives --remove  montage /usr/bin/montage.im7
+	update-alternatives --remove  stream /usr/bin/stream.im7
