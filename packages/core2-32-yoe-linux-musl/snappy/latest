@@ -1,0 +1,5 @@
+PV = 1.1.7
+PR = r0
+DEPENDS = cmake-native ninja-native pkgconfig-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = snappy-src snappy-dbg snappy-staticdev snappy-dev snappy-doc snappy-locale snappy
+LAYER = openembedded-layer

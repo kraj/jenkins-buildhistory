@@ -1,0 +1,14 @@
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root              694 ./etc/fuse.conf
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root             1951 ./etc/init.d/fuse3
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/udev
+drwxr-xr-x root       root               60 ./lib/udev/rules.d
+-rw-r--r-- root       root               28 ./lib/udev/rules.d/99-fuse3.rules
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root           235000 ./usr/lib/libfuse3.so.3.8.0
+lrwxrwxrwx root       root               17 ./usr/lib/libfuse3.so.3 -> libfuse3.so.3.8.0
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            13728 ./usr/sbin/mount.fuse3
