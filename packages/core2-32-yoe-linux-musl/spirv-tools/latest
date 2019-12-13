@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native python3-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = spirv-tools-src spirv-tools-dbg spirv-tools-staticdev spirv-tools-dev spirv-tools-doc spirv-tools-locale spirv-tools
+LAYER = openembedded-layer
