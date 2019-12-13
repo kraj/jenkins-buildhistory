@@ -1,0 +1,5 @@
+PV = 1.22
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = leveldb-src leveldb-dbg leveldb-ptest leveldb-staticdev leveldb-dev leveldb-doc leveldb-locale leveldb
+LAYER = openembedded-layer
