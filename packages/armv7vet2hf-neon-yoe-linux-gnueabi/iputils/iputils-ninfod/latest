@@ -1,0 +1,9 @@
+PV = s20190709
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30) libcap (>= 2.27) libgcrypt (>= 1.8.5)
+RRECOMMENDS = 
+PKGSIZE = 22885
+FILES = /sbin/ninfod /etc/init.d/ninfod.sh
+FILELIST = /etc/init.d/ninfod.sh /sbin/ninfod

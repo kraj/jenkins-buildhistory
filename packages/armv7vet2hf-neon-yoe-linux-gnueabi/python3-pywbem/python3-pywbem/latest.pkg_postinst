@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/mof_compiler mof_compiler /usr/bin/mof_compiler.python3-pywbem 60
+	update-alternatives --install /usr/bin/pywbemcli pywbemcli /usr/bin/pywbemcli.python3-pywbem 60
+	update-alternatives --install /usr/bin/wbemcli wbemcli /usr/bin/wbemcli.python3-pywbem 60
