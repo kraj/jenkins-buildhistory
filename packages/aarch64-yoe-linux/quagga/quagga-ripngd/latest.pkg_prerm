@@ -1,0 +1,9 @@
+set -e
+    /etc/init.d/quagga stop ripngd
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop ripngd.service
+
+		systemctl disable ripngd.service
+	fi
+fi
