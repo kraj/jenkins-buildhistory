@@ -1,0 +1,10 @@
+PV = 3.10.1
+PR = r0
+PKG = libprotobuf-dbg
+PKGR = r0.5
+RPROVIDES = protobuf-dbg (=3.10.1)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg zlib-dbg
+PKGSIZE = 132817920
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/protoc /usr/lib/.debug/libprotobuf-lite.so.21.0.1 /usr/lib/.debug/libprotobuf.so.21.0.1 /usr/lib/.debug/libprotoc.so.21.0.1 /usr/lib/protobuf/ptest/.debug/add_person_cpp /usr/lib/protobuf/ptest/.debug/list_people_cpp
