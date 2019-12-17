@@ -1,0 +1,10 @@
+PV = 1.5.6
+PR = r0
+PKG = libpyldb-util.cpython-37m-i686-linux-musl1
+PKGR = r0.9
+RPROVIDES = pyldb (=1.5.6)
+RDEPENDS = libldb (>= 1.5.6) libpython3 (>= 3.7.5) libtalloc (>= 2.3.0) libtdb (>= 1.4.2) libtevent (>= 0.10.1) musl (>= 1.1.24+git1+9432bbd4e8) python3
+RRECOMMENDS = 
+PKGSIZE = 109322
+FILES = /usr/lib/python3.7/site-packages/* /usr/lib/libpyldb-util.*.so.*
+FILELIST = /usr/lib/libpyldb-util.cpython-37m-i686-linux-musl.so.1 /usr/lib/libpyldb-util.cpython-37m-i686-linux-musl.so.1.5.6 /usr/lib/python3.7/site-packages/_ldb_text.py /usr/lib/python3.7/site-packages/ldb.cpython-37m-i686-linux-musl.so
