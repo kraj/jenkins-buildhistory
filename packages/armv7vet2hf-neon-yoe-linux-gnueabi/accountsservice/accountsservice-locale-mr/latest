@@ -1,0 +1,10 @@
+PV = 0.6.55
+PR = r0
+PKG = libaccountsservice-locale-mr
+PKGR = r0.4
+RPROVIDES = accountsservice-locale accountsservice-locale-mr (=0.6.55) mr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-mr
+PKGSIZE = 479
+FILES = /usr/share/locale/mr
+FILELIST = /usr/share/locale/mr/LC_MESSAGES/accounts-service.mo
