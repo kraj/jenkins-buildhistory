@@ -1,10 +1,10 @@
 drwxr-xr-x -          -                  60 ./etc
 drwxr-xr-x -          -                 140 ./etc/kea
--rw-r--r-- -          -                3922 ./etc/kea/kea-ctrl-agent.conf
+-rw-r--r-- -          -                3913 ./etc/kea/kea-ctrl-agent.conf
 -rw-r--r-- -          -                1246 ./etc/kea/keactrl.conf
--rw-r--r-- -          -               22179 ./etc/kea/kea-dhcp4.conf
--rw-r--r-- -          -               17682 ./etc/kea/kea-dhcp6.conf
--rw-r--r-- -          -                3099 ./etc/kea/kea-dhcp-ddns.conf
+-rw-r--r-- -          -               22176 ./etc/kea/kea-dhcp4.conf
+-rw-r--r-- -          -               17679 ./etc/kea/kea-dhcp6.conf
+-rw-r--r-- -          -                3092 ./etc/kea/kea-dhcp-ddns.conf
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  10 ./sysroot-providers/kea-native
 drwxr-xr-x -          -                 120 ./usr
@@ -62,7 +62,7 @@ drwxr-xr-x -          -                 120 ./usr/include/kea/config_backend
 -rw-r--r-- -          -                3006 ./usr/include/kea/config/command_mgr.h
 -rw-r--r-- -          -                 839 ./usr/include/kea/config/config_log.h
 -rw-r--r-- -          -                1718 ./usr/include/kea/config/config_messages.h
--rw-r--r-- -          -                6049 ./usr/include/kea/config.h
+-rw-r--r-- -          -                6181 ./usr/include/kea/config.h
 -rw-r--r-- -          -                3798 ./usr/include/kea/config/hooked_command_mgr.h
 -rw-r--r-- -          -                1504 ./usr/include/kea/config/timeouts.h
 drwxr-xr-x -          -                 160 ./usr/include/kea/cryptolink
@@ -73,7 +73,7 @@ drwxr-xr-x -          -                 160 ./usr/include/kea/cryptolink
 -rw-r--r-- -          -                2999 ./usr/include/kea/cryptolink/openssl_common.h
 -rw-r--r-- -          -                1251 ./usr/include/kea/cryptolink/openssl_compat.h
 drwxr-xr-x -          -                 240 ./usr/include/kea/database
--rw-r--r-- -          -                9500 ./usr/include/kea/database/audit_entry.h
+-rw-r--r-- -          -                9633 ./usr/include/kea/database/audit_entry.h
 -rw-r--r-- -          -                7291 ./usr/include/kea/database/backend_selector.h
 -rw-r--r-- -          -                8712 ./usr/include/kea/database/database_connection.h
 -rw-r--r-- -          -                2817 ./usr/include/kea/database/dbaccess_parser.h
@@ -98,7 +98,7 @@ drwxr-xr-x -          -                 140 ./usr/include/kea/dhcp_ddns
 -rw-r--r-- -          -                6196 ./usr/include/kea/dhcp/duid.h
 -rw-r--r-- -          -                6093 ./usr/include/kea/dhcp/hwaddr.h
 -rw-r--r-- -          -                2092 ./usr/include/kea/dhcp/iface_mgr_error_handler.h
--rw-r--r-- -          -               59173 ./usr/include/kea/dhcp/iface_mgr.h
+-rw-r--r-- -          -               59235 ./usr/include/kea/dhcp/iface_mgr.h
 -rw-r--r-- -          -               18288 ./usr/include/kea/dhcp/libdhcp++.h
 -rw-r--r-- -          -               12770 ./usr/include/kea/dhcp/opaque_data_tuple.h
 -rw-r--r-- -          -                6107 ./usr/include/kea/dhcp/option4_addrlst.h
@@ -114,9 +114,9 @@ drwxr-xr-x -          -                 140 ./usr/include/kea/dhcp_ddns
 -rw-r--r-- -          -               19615 ./usr/include/kea/dhcp/option_custom.h
 -rw-r--r-- -          -               23979 ./usr/include/kea/dhcp/option_data_types.h
 -rw-r--r-- -          -               40100 ./usr/include/kea/dhcp/option_definition.h
--rw-r--r-- -          -               21448 ./usr/include/kea/dhcp/option.h
--rw-r--r-- -          -               11057 ./usr/include/kea/dhcp/option_int_array.h
--rw-r--r-- -          -                8957 ./usr/include/kea/dhcp/option_int.h
+-rw-r--r-- -          -               22210 ./usr/include/kea/dhcp/option.h
+-rw-r--r-- -          -               11065 ./usr/include/kea/dhcp/option_int_array.h
+-rw-r--r-- -          -                8960 ./usr/include/kea/dhcp/option_int.h
 -rw-r--r-- -          -                6587 ./usr/include/kea/dhcp/option_opaque_data_tuples.h
 -rw-r--r-- -          -                6805 ./usr/include/kea/dhcp/option_space_container.h
 -rw-r--r-- -          -                7533 ./usr/include/kea/dhcp/option_space.h
@@ -140,10 +140,10 @@ drwxr-xr-x -          -                 140 ./usr/include/kea/dhcp_ddns
 -rw-r--r-- -          -                5935 ./usr/include/kea/dhcp/protocol_util.h
 -rw-r--r-- -          -                2744 ./usr/include/kea/dhcp/socket_info.h
 drwxr-xr-x -          -                1460 ./usr/include/kea/dhcpsrv
--rw-r--r-- -          -               81466 ./usr/include/kea/dhcpsrv/alloc_engine.h
+-rw-r--r-- -          -               82782 ./usr/include/kea/dhcpsrv/alloc_engine.h
 -rw-r--r-- -          -                1413 ./usr/include/kea/dhcpsrv/alloc_engine_log.h
--rw-r--r-- -          -                4813 ./usr/include/kea/dhcpsrv/alloc_engine_messages.h
--rw-r--r-- -          -               14010 ./usr/include/kea/dhcpsrv/base_host_data_source.h
+-rw-r--r-- -          -                4882 ./usr/include/kea/dhcpsrv/alloc_engine_messages.h
+-rw-r--r-- -          -               15608 ./usr/include/kea/dhcpsrv/base_host_data_source.h
 -rw-r--r-- -          -                2282 ./usr/include/kea/dhcpsrv/cache_host_data_source.h
 -rw-r--r-- -          -                2198 ./usr/include/kea/dhcpsrv/callout_handle_store.h
 -rw-r--r-- -          -                2012 ./usr/include/kea/dhcpsrv/cb_ctl_dhcp4.h
@@ -155,7 +155,7 @@ drwxr-xr-x -          -                1460 ./usr/include/kea/dhcpsrv
 -rw-r--r-- -          -                4718 ./usr/include/kea/dhcpsrv/cfg_duid.h
 -rw-r--r-- -          -               13133 ./usr/include/kea/dhcpsrv/cfg_expiration.h
 -rw-r--r-- -          -                3066 ./usr/include/kea/dhcpsrv/cfg_host_operations.h
--rw-r--r-- -          -               27485 ./usr/include/kea/dhcpsrv/cfg_hosts.h
+-rw-r--r-- -          -               32359 ./usr/include/kea/dhcpsrv/cfg_hosts.h
 -rw-r--r-- -          -                1505 ./usr/include/kea/dhcpsrv/cfg_hosts_util.h
 -rw-r--r-- -          -               16232 ./usr/include/kea/dhcpsrv/cfg_iface.h
 -rw-r--r-- -          -                2704 ./usr/include/kea/dhcpsrv/cfg_mac_source.h
@@ -175,34 +175,34 @@ drwxr-xr-x -          -                1460 ./usr/include/kea/dhcpsrv
 -rw-r--r-- -          -               25443 ./usr/include/kea/dhcpsrv/config_backend_pool_dhcp6.h
 -rw-r--r-- -          -                5974 ./usr/include/kea/dhcpsrv/csv_lease_file4.h
 -rw-r--r-- -          -                6655 ./usr/include/kea/dhcpsrv/csv_lease_file6.h
--rw-r--r-- -          -               14197 ./usr/include/kea/dhcpsrv/d2_client_cfg.h
--rw-r--r-- -          -               22312 ./usr/include/kea/dhcpsrv/d2_client_mgr.h
+-rw-r--r-- -          -               10717 ./usr/include/kea/dhcpsrv/d2_client_cfg.h
+-rw-r--r-- -          -               23022 ./usr/include/kea/dhcpsrv/d2_client_mgr.h
 -rw-r--r-- -          -                 489 ./usr/include/kea/dhcpsrv/db_type.h
 -rw-r--r-- -          -                4669 ./usr/include/kea/dhcpsrv/dhcp4o6_ipc.h
 -rw-r--r-- -          -                 706 ./usr/include/kea/dhcpsrv/dhcpsrv_exceptions.h
 -rw-r--r-- -          -                1677 ./usr/include/kea/dhcpsrv/dhcpsrv_log.h
--rw-r--r-- -          -               14467 ./usr/include/kea/dhcpsrv/dhcpsrv_messages.h
--rw-r--r-- -          -               10657 ./usr/include/kea/dhcpsrv/host_container.h
+-rw-r--r-- -          -               15105 ./usr/include/kea/dhcpsrv/dhcpsrv_messages.h
+-rw-r--r-- -          -               11258 ./usr/include/kea/dhcpsrv/host_container.h
 -rw-r--r-- -          -                5275 ./usr/include/kea/dhcpsrv/host_data_source_factory.h
--rw-r--r-- -          -               30352 ./usr/include/kea/dhcpsrv/host.h
--rw-r--r-- -          -               20635 ./usr/include/kea/dhcpsrv/host_mgr.h
+-rw-r--r-- -          -               30557 ./usr/include/kea/dhcpsrv/host.h
+-rw-r--r-- -          -               21995 ./usr/include/kea/dhcpsrv/host_mgr.h
 -rw-r--r-- -          -                1694 ./usr/include/kea/dhcpsrv/hosts_log.h
--rw-r--r-- -          -                3555 ./usr/include/kea/dhcpsrv/hosts_messages.h
+-rw-r--r-- -          -                4203 ./usr/include/kea/dhcpsrv/hosts_messages.h
 -rw-r--r-- -          -                2952 ./usr/include/kea/dhcpsrv/key_from_key.h
 -rw-r--r-- -          -               10684 ./usr/include/kea/dhcpsrv/lease_file_loader.h
 -rw-r--r-- -          -                2323 ./usr/include/kea/dhcpsrv/lease_file_stats.h
--rw-r--r-- -          -               23030 ./usr/include/kea/dhcpsrv/lease.h
+-rw-r--r-- -          -               23052 ./usr/include/kea/dhcpsrv/lease.h
 -rw-r--r-- -          -                4025 ./usr/include/kea/dhcpsrv/lease_mgr_factory.h
--rw-r--r-- -          -               31011 ./usr/include/kea/dhcpsrv/lease_mgr.h
--rw-r--r-- -          -               36802 ./usr/include/kea/dhcpsrv/memfile_lease_mgr.h
--rw-r--r-- -          -               13079 ./usr/include/kea/dhcpsrv/memfile_lease_storage.h
+-rw-r--r-- -          -               31579 ./usr/include/kea/dhcpsrv/lease_mgr.h
+-rw-r--r-- -          -               37359 ./usr/include/kea/dhcpsrv/memfile_lease_mgr.h
+-rw-r--r-- -          -               14060 ./usr/include/kea/dhcpsrv/memfile_lease_storage.h
 -rw-r--r-- -          -                1633 ./usr/include/kea/dhcpsrv/ncr_generator.h
--rw-r--r-- -          -               42098 ./usr/include/kea/dhcpsrv/network.h
+-rw-r--r-- -          -               50602 ./usr/include/kea/dhcpsrv/network.h
 -rw-r--r-- -          -                6133 ./usr/include/kea/dhcpsrv/network_state.h
 drwxr-xr-x -          -                 340 ./usr/include/kea/dhcpsrv/parsers
--rw-r--r-- -          -                2612 ./usr/include/kea/dhcpsrv/parsers/base_network_parser.h
+-rw-r--r-- -          -                3238 ./usr/include/kea/dhcpsrv/parsers/base_network_parser.h
 -rw-r--r-- -          -                6309 ./usr/include/kea/dhcpsrv/parsers/client_class_def_parser.h
--rw-r--r-- -          -               32900 ./usr/include/kea/dhcpsrv/parsers/dhcp_parsers.h
+-rw-r--r-- -          -               33841 ./usr/include/kea/dhcpsrv/parsers/dhcp_parsers.h
 -rw-r--r-- -          -                2006 ./usr/include/kea/dhcpsrv/parsers/dhcp_queue_control_parser.h
 -rw-r--r-- -          -                1176 ./usr/include/kea/dhcpsrv/parsers/duid_config_parser.h
 -rw-r--r-- -          -                1919 ./usr/include/kea/dhcpsrv/parsers/expiration_config_parser.h
@@ -211,21 +211,21 @@ drwxr-xr-x -          -                 340 ./usr/include/kea/dhcpsrv/parsers
 -rw-r--r-- -          -                2135 ./usr/include/kea/dhcpsrv/parsers/ifaces_config_parser.h
 -rw-r--r-- -          -                8717 ./usr/include/kea/dhcpsrv/parsers/option_data_parser.h
 -rw-r--r-- -          -                 959 ./usr/include/kea/dhcpsrv/parsers/sanity_checks_parser.h
--rw-r--r-- -          -                1774 ./usr/include/kea/dhcpsrv/parsers/shared_network_parser.h
--rw-r--r-- -          -                3216 ./usr/include/kea/dhcpsrv/parsers/shared_networks_list_parser.h
+-rw-r--r-- -          -                2415 ./usr/include/kea/dhcpsrv/parsers/shared_network_parser.h
+-rw-r--r-- -          -                3591 ./usr/include/kea/dhcpsrv/parsers/shared_networks_list_parser.h
 -rw-r--r-- -          -                2624 ./usr/include/kea/dhcpsrv/parsers/simple_parser4.h
 -rw-r--r-- -          -                2690 ./usr/include/kea/dhcpsrv/parsers/simple_parser6.h
 -rw-r--r-- -          -               18375 ./usr/include/kea/dhcpsrv/pool.h
 -rw-r--r-- -          -                3435 ./usr/include/kea/dhcpsrv/sanity_checker.h
 -rw-r--r-- -          -               20351 ./usr/include/kea/dhcpsrv/shared_network.h
--rw-r--r-- -          -               29168 ./usr/include/kea/dhcpsrv/srv_config.h
+-rw-r--r-- -          -               31424 ./usr/include/kea/dhcpsrv/srv_config.h
 -rw-r--r-- -          -               36436 ./usr/include/kea/dhcpsrv/subnet.h
 -rw-r--r-- -          -                1498 ./usr/include/kea/dhcpsrv/subnet_id.h
 -rw-r--r-- -          -                2352 ./usr/include/kea/dhcpsrv/subnet_selector.h
 -rw-r--r-- -          -                5795 ./usr/include/kea/dhcpsrv/timer_mgr.h
 -rw-r--r-- -          -                4119 ./usr/include/kea/dhcpsrv/triplet.h
 -rw-r--r-- -          -                 980 ./usr/include/kea/dhcpsrv/utils.h
--rw-r--r-- -          -                6791 ./usr/include/kea/dhcpsrv/writable_host_data_source.h
+-rw-r--r-- -          -                8112 ./usr/include/kea/dhcpsrv/writable_host_data_source.h
 -rw-r--r-- -          -               28758 ./usr/include/kea/dhcp/std_option_defs.h
 drwxr-xr-x -          -                 740 ./usr/include/kea/dns
 -rw-r--r-- -          -                1223 ./usr/include/kea/dns/dns_fwd.h
@@ -278,9 +278,9 @@ drwxr-xr-x -          -                  80 ./usr/include/kea/exceptions
 drwxr-xr-x -          -                 360 ./usr/include/kea/hooks
 -rw-r--r-- -          -                2083 ./usr/include/kea/hooks/callout_handle_associate.h
 -rw-r--r-- -          -               19619 ./usr/include/kea/hooks/callout_handle.h
--rw-r--r-- -          -               21011 ./usr/include/kea/hooks/callout_manager.h
+-rw-r--r-- -          -               20277 ./usr/include/kea/hooks/callout_manager.h
 -rw-r--r-- -          -                3700 ./usr/include/kea/hooks/hooks_config.h
--rw-r--r-- -          -                2668 ./usr/include/kea/hooks/hooks.h
+-rw-r--r-- -          -                2662 ./usr/include/kea/hooks/hooks.h
 -rw-r--r-- -          -                1546 ./usr/include/kea/hooks/hooks_log.h
 -rw-r--r-- -          -               22056 ./usr/include/kea/hooks/hooks_manager.h
 -rw-r--r-- -          -                2026 ./usr/include/kea/hooks/hooks_messages.h
@@ -293,7 +293,7 @@ drwxr-xr-x -          -                 360 ./usr/include/kea/hooks
 -rw-r--r-- -          -                3569 ./usr/include/kea/hooks/pointer_converter.h
 -rw-r--r-- -          -                8559 ./usr/include/kea/hooks/server_hooks.h
 drwxr-xr-x -          -                 560 ./usr/include/kea/http
--rw-r--r-- -          -                9974 ./usr/include/kea/http/client.h
+-rw-r--r-- -          -               10668 ./usr/include/kea/http/client.h
 -rw-r--r-- -          -               15227 ./usr/include/kea/http/connection.h
 -rw-r--r-- -          -                1832 ./usr/include/kea/http/connection_pool.h
 -rw-r--r-- -          -                6275 ./usr/include/kea/http/date_time.h
@@ -352,7 +352,7 @@ drwxr-xr-x -          -                 300 ./usr/include/kea/process
 -rw-r--r-- -          -                5919 ./usr/include/kea/process/config_base.h
 -rw-r--r-- -          -                8191 ./usr/include/kea/process/config_ctl_info.h
 -rw-r--r-- -          -                1111 ./usr/include/kea/process/config_ctl_parser.h
--rw-r--r-- -          -               11350 ./usr/include/kea/process/daemon.h
+-rw-r--r-- -          -               11365 ./usr/include/kea/process/daemon.h
 -rw-r--r-- -          -                9201 ./usr/include/kea/process/d_cfg_mgr.h
 -rw-r--r-- -          -               28050 ./usr/include/kea/process/d_controller.h
 -rw-r--r-- -          -                 598 ./usr/include/kea/process/d_log.h
@@ -365,7 +365,7 @@ drwxr-xr-x -          -                 100 ./usr/include/kea/stats
 -rw-r--r-- -          -                2209 ./usr/include/kea/stats/context.h
 -rw-r--r-- -          -               15306 ./usr/include/kea/stats/observation.h
 -rw-r--r-- -          -               23740 ./usr/include/kea/stats/stats_mgr.h
-drwxr-xr-x -          -                 620 ./usr/include/kea/util
+drwxr-xr-x -          -                 600 ./usr/include/kea/util
 -rw-r--r-- -          -                2477 ./usr/include/kea/util/boost_time_utils.h
 -rw-r--r-- -          -               23906 ./usr/include/kea/util/buffer.h
 -rw-r--r-- -          -               19541 ./usr/include/kea/util/csv_file.h
@@ -396,53 +396,51 @@ drwxr-xr-x -          -                 120 ./usr/include/kea/util/io
 drwxr-xr-x -          -                  80 ./usr/include/kea/util/random
 -rw-r--r-- -          -                2423 ./usr/include/kea/util/random/qid_gen.h
 -rw-r--r-- -          -                7712 ./usr/include/kea/util/random/random_number_generator.h
--rw-r--r-- -          -                1941 ./usr/include/kea/util/range_utilities.h
+-rw-r--r-- -          -                1906 ./usr/include/kea/util/range_utilities.h
 -rw-r--r-- -          -               10055 ./usr/include/kea/util/signal_set.h
 -rw-r--r-- -          -                3450 ./usr/include/kea/util/staged_value.h
 -rw-r--r-- -          -               30448 ./usr/include/kea/util/state_model.h
 -rw-r--r-- -          -                4947 ./usr/include/kea/util/stopwatch.h
 -rw-r--r-- -          -                4508 ./usr/include/kea/util/stopwatch_impl.h
 -rw-r--r-- -          -               12227 ./usr/include/kea/util/strutil.h
-drwxr-xr-x -          -                  80 ./usr/include/kea/util/threads
--rw-r--r-- -          -                9377 ./usr/include/kea/util/threads/sync.h
--rw-r--r-- -          -                3914 ./usr/include/kea/util/threads/thread.h
 -rw-r--r-- -          -                6828 ./usr/include/kea/util/time_utilities.h
 -rw-r--r-- -          -               14255 ./usr/include/kea/util/versioned_csv_file.h
 -rw-r--r-- -          -                4408 ./usr/include/kea/util/watched_thread.h
 -rw-r--r-- -          -                5661 ./usr/include/kea/util/watch_socket.h
-drwxr-xr-x -          -                1260 ./usr/lib
+drwxr-xr-x -          -                1200 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/kea
-drwxr-xr-x -          -                 100 ./usr/lib/kea/hooks
--rwxr-xr-x -          -              489536 ./usr/lib/kea/hooks/libdhcp_ha.so
--rwxr-xr-x -          -              204352 ./usr/lib/kea/hooks/libdhcp_lease_cmds.so
+drwxr-xr-x -          -                 120 ./usr/lib/kea/hooks
+-rwxr-xr-x -          -              134144 ./usr/lib/kea/hooks/libdhcp_flex_option.so
+-rwxr-xr-x -          -              489568 ./usr/lib/kea/hooks/libdhcp_ha.so
+-rwxr-xr-x -          -              220800 ./usr/lib/kea/hooks/libdhcp_lease_cmds.so
 -rwxr-xr-x -          -              167264 ./usr/lib/kea/hooks/libdhcp_stat_cmds.so
 -rwxr-xr-x -          -              307704 ./usr/lib/libkea-asiodns.so.1.0.0
 lrwxrwxrwx -          -                  23 ./usr/lib/libkea-asiodns.so.1 -> libkea-asiodns.so.1.0.0
 lrwxrwxrwx -          -                  23 ./usr/lib/libkea-asiodns.so -> libkea-asiodns.so.1.0.0
--rwxr-xr-x -          -              360416 ./usr/lib/libkea-asiolink.so.7.0.2
-lrwxrwxrwx -          -                  24 ./usr/lib/libkea-asiolink.so.7 -> libkea-asiolink.so.7.0.2
-lrwxrwxrwx -          -                  24 ./usr/lib/libkea-asiolink.so -> libkea-asiolink.so.7.0.2
+-rwxr-xr-x -          -              360416 ./usr/lib/libkea-asiolink.so.6.1.2
+lrwxrwxrwx -          -                  24 ./usr/lib/libkea-asiolink.so.6 -> libkea-asiolink.so.6.1.2
+lrwxrwxrwx -          -                  24 ./usr/lib/libkea-asiolink.so -> libkea-asiolink.so.6.1.2
 -rwxr-xr-x -          -              352072 ./usr/lib/libkea-cc.so.8.1.1
 lrwxrwxrwx -          -                  18 ./usr/lib/libkea-cc.so.8 -> libkea-cc.so.8.1.1
 lrwxrwxrwx -          -                  18 ./usr/lib/libkea-cc.so -> libkea-cc.so.8.1.1
 -rwxr-xr-x -          -              303544 ./usr/lib/libkea-cfgclient.so.8.0.0
 lrwxrwxrwx -          -                  25 ./usr/lib/libkea-cfgclient.so.8 -> libkea-cfgclient.so.8.0.0
 lrwxrwxrwx -          -                  25 ./usr/lib/libkea-cfgclient.so -> libkea-cfgclient.so.8.0.0
--rwxr-xr-x -          -               47760 ./usr/lib/libkea-cryptolink.so.5.0.0
+-rwxr-xr-x -          -               43664 ./usr/lib/libkea-cryptolink.so.5.0.0
 lrwxrwxrwx -          -                  26 ./usr/lib/libkea-cryptolink.so.5 -> libkea-cryptolink.so.5.0.0
 lrwxrwxrwx -          -                  26 ./usr/lib/libkea-cryptolink.so -> libkea-cryptolink.so.5.0.0
--rwxr-xr-x -          -              237136 ./usr/lib/libkea-database.so.5.0.0
-lrwxrwxrwx -          -                  24 ./usr/lib/libkea-database.so.5 -> libkea-database.so.5.0.0
-lrwxrwxrwx -          -                  24 ./usr/lib/libkea-database.so -> libkea-database.so.5.0.0
+-rwxr-xr-x -          -              237136 ./usr/lib/libkea-database.so.4.1.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libkea-database.so.4 -> libkea-database.so.4.1.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libkea-database.so -> libkea-database.so.4.1.0
 -rwxr-xr-x -          -              315936 ./usr/lib/libkea-dhcp_ddns.so.2.0.0
 lrwxrwxrwx -          -                  25 ./usr/lib/libkea-dhcp_ddns.so.2 -> libkea-dhcp_ddns.so.2.0.0
 lrwxrwxrwx -          -                  25 ./usr/lib/libkea-dhcp_ddns.so -> libkea-dhcp_ddns.so.2.0.0
--rwxr-xr-x -          -             1278224 ./usr/lib/libkea-dhcp++.so.14.0.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libkea-dhcp++.so.14 -> libkea-dhcp++.so.14.0.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libkea-dhcp++.so -> libkea-dhcp++.so.14.0.0
--rwxr-xr-x -          -             2902832 ./usr/lib/libkea-dhcpsrv.so.17.0.0
-lrwxrwxrwx -          -                  24 ./usr/lib/libkea-dhcpsrv.so.17 -> libkea-dhcpsrv.so.17.0.0
-lrwxrwxrwx -          -                  24 ./usr/lib/libkea-dhcpsrv.so -> libkea-dhcpsrv.so.17.0.0
+-rwxr-xr-x -          -             1278224 ./usr/lib/libkea-dhcp++.so.13.1.1
+lrwxrwxrwx -          -                  23 ./usr/lib/libkea-dhcp++.so.13 -> libkea-dhcp++.so.13.1.1
+lrwxrwxrwx -          -                  23 ./usr/lib/libkea-dhcp++.so -> libkea-dhcp++.so.13.1.1
+-rwxr-xr-x -          -             2981184 ./usr/lib/libkea-dhcpsrv.so.18.0.1
+lrwxrwxrwx -          -                  24 ./usr/lib/libkea-dhcpsrv.so.18 -> libkea-dhcpsrv.so.18.0.1
+lrwxrwxrwx -          -                  24 ./usr/lib/libkea-dhcpsrv.so -> libkea-dhcpsrv.so.18.0.1
 -rwxr-xr-x -          -             1245232 ./usr/lib/libkea-dns++.so.3.0.1
 lrwxrwxrwx -          -                  21 ./usr/lib/libkea-dns++.so.3 -> libkea-dns++.so.3.0.1
 lrwxrwxrwx -          -                  21 ./usr/lib/libkea-dns++.so -> libkea-dns++.so.3.0.1
@@ -452,51 +450,49 @@ lrwxrwxrwx -          -                  21 ./usr/lib/libkea-eval.so -> libkea-e
 -rwxr-xr-x -          -               14464 ./usr/lib/libkea-exceptions.so.0.2.0
 lrwxrwxrwx -          -                  26 ./usr/lib/libkea-exceptions.so.0 -> libkea-exceptions.so.0.2.0
 lrwxrwxrwx -          -                  26 ./usr/lib/libkea-exceptions.so -> libkea-exceptions.so.0.2.0
--rwxr-xr-x -          -              229616 ./usr/lib/libkea-hooks.so.8.0.0
-lrwxrwxrwx -          -                  21 ./usr/lib/libkea-hooks.so.8 -> libkea-hooks.so.8.0.0
-lrwxrwxrwx -          -                  21 ./usr/lib/libkea-hooks.so -> libkea-hooks.so.8.0.0
--rwxr-xr-x -          -              982832 ./usr/lib/libkea-http.so.7.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libkea-http.so.7 -> libkea-http.so.7.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libkea-http.so -> libkea-http.so.7.0.0
+-rwxr-xr-x -          -              225520 ./usr/lib/libkea-hooks.so.9.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libkea-hooks.so.9 -> libkea-hooks.so.9.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libkea-hooks.so -> libkea-hooks.so.9.0.0
+-rwxr-xr-x -          -              982864 ./usr/lib/libkea-http.so.6.1.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libkea-http.so.6 -> libkea-http.so.6.1.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libkea-http.so -> libkea-http.so.6.1.0
 -rwxr-xr-x -          -              192736 ./usr/lib/libkea-log.so.5.0.0
 lrwxrwxrwx -          -                  19 ./usr/lib/libkea-log.so.5 -> libkea-log.so.5.0.0
 lrwxrwxrwx -          -                  19 ./usr/lib/libkea-log.so -> libkea-log.so.5.0.0
--rwxr-xr-x -          -              319984 ./usr/lib/libkea-process.so.4.2.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libkea-process.so.4 -> libkea-process.so.4.2.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libkea-process.so -> libkea-process.so.4.2.0
+-rwxr-xr-x -          -              324080 ./usr/lib/libkea-process.so.3.3.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libkea-process.so.3 -> libkea-process.so.3.3.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libkea-process.so -> libkea-process.so.3.3.0
 -rwxr-xr-x -          -              163096 ./usr/lib/libkea-stats.so.3.1.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libkea-stats.so.3 -> libkea-stats.so.3.1.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libkea-stats.so -> libkea-stats.so.3.1.0
--rwxr-xr-x -          -               43432 ./usr/lib/libkea-threads.so.3.0.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libkea-threads.so.3 -> libkea-threads.so.3.0.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libkea-threads.so -> libkea-threads.so.3.0.0
 -rwxr-xr-x -          -               43496 ./usr/lib/libkea-util-io.so.0.0.1
 lrwxrwxrwx -          -                  23 ./usr/lib/libkea-util-io.so.0 -> libkea-util-io.so.0.0.1
 lrwxrwxrwx -          -                  23 ./usr/lib/libkea-util-io.so -> libkea-util-io.so.0.0.1
--rwxr-xr-x -          -              502424 ./usr/lib/libkea-util.so.8.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libkea-util.so.8 -> libkea-util.so.8.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libkea-util.so -> libkea-util.so.8.0.0
+-rwxr-xr-x -          -              506552 ./usr/lib/libkea-util.so.8.1.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libkea-util.so.8 -> libkea-util.so.8.1.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libkea-util.so -> libkea-util.so.8.1.0
 drwxr-xr-x -          -                 180 ./usr/sbin
 -rwxr-xr-x -          -               24680 ./usr/sbin/kea-admin
 -rwxr-xr-x -          -               19982 ./usr/sbin/keactrl
 -rwxr-xr-x -          -              335968 ./usr/sbin/kea-ctrl-agent
--rwxr-xr-x -          -              974944 ./usr/sbin/kea-dhcp4
--rwxr-xr-x -          -              987232 ./usr/sbin/kea-dhcp6
+-rwxr-xr-x -          -              995424 ./usr/sbin/kea-dhcp4
+-rwxr-xr-x -          -             1007712 ./usr/sbin/kea-dhcp6
 -rwxr-xr-x -          -              622688 ./usr/sbin/kea-dhcp-ddns
--rwxr-xr-x -          -              200800 ./usr/sbin/kea-lfc
+-rwxr-xr-x -          -              213088 ./usr/sbin/kea-lfc
 drwxr-xr-x -          -                  60 ./usr/share
 drwxr-xr-x -          -                  60 ./usr/share/kea
 drwxr-xr-x -          -                 120 ./usr/share/kea/scripts
 -rw-r--r-- -          -                4619 ./usr/share/kea/scripts/admin-utils.sh
-drwxr-xr-x -          -                 160 ./usr/share/kea/scripts/cql
--rw-r--r-- -          -               14336 ./usr/share/kea/scripts/cql/dhcpdb_create.cql
--rw-r--r-- -          -                1812 ./usr/share/kea/scripts/cql/dhcpdb_drop.cql
+drwxr-xr-x -          -                 180 ./usr/share/kea/scripts/cql
+-rw-r--r-- -          -               14979 ./usr/share/kea/scripts/cql/dhcpdb_create.cql
+-rw-r--r-- -          -                1916 ./usr/share/kea/scripts/cql/dhcpdb_drop.cql
 -rw-r--r-- -          -                3753 ./usr/share/kea/scripts/cql/upgrade_1.0_to_2.0.sh
 -rw-r--r-- -          -                7802 ./usr/share/kea/scripts/cql/upgrade_2.0_to_3.0.sh
 -rw-r--r-- -          -               11085 ./usr/share/kea/scripts/cql/upgrade_3.0_to_4.0.sh
+-rw-r--r-- -          -               12130 ./usr/share/kea/scripts/cql/upgrade_4.0_to_5.0.sh
 -rw-r--r-- -          -                1712 ./usr/share/kea/scripts/cql/wipe_data.sh
-drwxr-xr-x -          -                 340 ./usr/share/kea/scripts/mysql
--rw-r--r-- -          -              111116 ./usr/share/kea/scripts/mysql/dhcpdb_create.mysql
+drwxr-xr-x -          -                 360 ./usr/share/kea/scripts/mysql
+-rw-r--r-- -          -              111541 ./usr/share/kea/scripts/mysql/dhcpdb_create.mysql
 -rw-r--r-- -          -                4250 ./usr/share/kea/scripts/mysql/dhcpdb_drop.mysql
 -rw-r--r-- -          -                1464 ./usr/share/kea/scripts/mysql/upgrade_1.0_to_2.0.sh
 -rw-r--r-- -          -                3198 ./usr/share/kea/scripts/mysql/upgrade_2.0_to_3.0.sh
@@ -510,9 +506,10 @@ drwxr-xr-x -          -                 340 ./usr/share/kea/scripts/mysql
 -rw-r--r-- -          -               37747 ./usr/share/kea/scripts/mysql/upgrade_7.0_to_8.0.sh
 -rw-r--r-- -          -                3100 ./usr/share/kea/scripts/mysql/upgrade_8.0_to_8.1.sh
 -rw-r--r-- -          -               20175 ./usr/share/kea/scripts/mysql/upgrade_8.1_to_8.2.sh
+-rw-r--r-- -          -                1283 ./usr/share/kea/scripts/mysql/upgrade_8.2_to_9.0.sh
 -rw-r--r-- -          -                3165 ./usr/share/kea/scripts/mysql/wipe_data.sh
-drwxr-xr-x -          -                 260 ./usr/share/kea/scripts/pgsql
--rw-r--r-- -          -               31662 ./usr/share/kea/scripts/pgsql/dhcpdb_create.pgsql
+drwxr-xr-x -          -                 280 ./usr/share/kea/scripts/pgsql
+-rw-r--r-- -          -               32239 ./usr/share/kea/scripts/pgsql/dhcpdb_create.pgsql
 -rw-r--r-- -          -                1388 ./usr/share/kea/scripts/pgsql/dhcpdb_drop.pgsql
 -rw-r--r-- -          -                5131 ./usr/share/kea/scripts/pgsql/upgrade_1.0_to_2.0.sh
 -rw-r--r-- -          -                9168 ./usr/share/kea/scripts/pgsql/upgrade_2.0_to_3.0.sh
@@ -522,4 +519,5 @@ drwxr-xr-x -          -                 260 ./usr/share/kea/scripts/pgsql
 -rw-r--r-- -          -                7696 ./usr/share/kea/scripts/pgsql/upgrade_3.3_to_4.0.sh
 -rw-r--r-- -          -                4928 ./usr/share/kea/scripts/pgsql/upgrade_4.0_to_5.0.sh
 -rw-r--r-- -          -                 916 ./usr/share/kea/scripts/pgsql/upgrade_5.0_to_5.1.sh
+-rw-r--r-- -          -                1504 ./usr/share/kea/scripts/pgsql/upgrade_5.1_to_6.0.sh
 -rw-r--r-- -          -                1908 ./usr/share/kea/scripts/pgsql/wipe_data.sh
