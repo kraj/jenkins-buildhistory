@@ -1,0 +1,9 @@
+PV = 1.1.1d
+PR = r0
+PKGR = r0.10
+RPROVIDES = 
+RDEPENDS = libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) musl (>= 1.1.24+git1+9432bbd4e8)
+RRECOMMENDS = 
+PKGSIZE = 725878
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/c_rehash /usr/bin/openssl
