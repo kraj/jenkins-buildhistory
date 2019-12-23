@@ -1,0 +1,5 @@
+PV = 0.4.0
+PR = r0
+DEPENDS = cmake-native ninja-native protobuf-native python-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = nanopb-src nanopb-dbg nanopb-staticdev nanopb-dev nanopb-doc nanopb-locale nanopb
+LAYER = openembedded-layer
