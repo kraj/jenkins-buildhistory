@@ -1,9 +1,9 @@
 PV = 5.0.3
 PR = r0
 PKG = libdvdnav4
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = libdvdnav (=5.0.3)
-RDEPENDS = libdvdread (>= 6.0.1) musl (>= 1.1.24+git1+9432bbd4e8)
+RDEPENDS = libdvdread (>= 6.0.1) musl (>= 1.1.24+git2+d6a62addce)
 RRECOMMENDS = 
 PKGSIZE = 95578
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdvdnav /usr/lib/libdvdnav/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

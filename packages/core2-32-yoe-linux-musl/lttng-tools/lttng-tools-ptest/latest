@@ -1,8 +1,8 @@
 PV = 2.10.7
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = babeltrace bash coreutils gawk kmod liburcu (>= 0.11.1) libxml2 (>= 2.9.10) lttng-modules lttng-tools (>= 2.10.7) lttng-ust (>= 2.10.5) make musl (>= 1.1.24+git1+9432bbd4e8) musl-utils perl perl-module-getopt-long perl-module-overloading popt (>= 1.16) procps sed util-linux util-linux-libuuid (>= 2.34)
+RDEPENDS = babeltrace bash coreutils gawk kmod liburcu (>= 0.11.1) libxml2 (>= 2.9.10) lttng-modules lttng-tools (>= 2.10.7) lttng-ust (>= 2.10.5) make musl (>= 1.1.24+git2+d6a62addce) musl-utils perl perl-module-getopt-long perl-module-overloading popt (>= 1.16) procps sed util-linux util-linux-libuuid (>= 2.34)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 4203834
 FILES = /usr/lib/lttng-tools/ptest

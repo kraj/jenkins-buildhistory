@@ -1,8 +1,8 @@
 PV = 1.17.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash musl (>= 1.1.24+git1+9432bbd4e8) shadow util-linux-libuuid (>= 2.34) zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd bash musl (>= 1.1.24+git2+d6a62addce) shadow util-linux-libuuid (>= 2.34) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 8507245
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/netdata /usr/lib/netdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-netdata.preset /lib/systemd/system/netdata.service

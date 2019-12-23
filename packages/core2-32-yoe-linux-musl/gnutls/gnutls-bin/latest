@@ -1,9 +1,9 @@
 PV = 3.6.8
 PR = r0
 PKG = libgnutls-bin
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = gnutls-bin (=3.6.8)
-RDEPENDS = gnutls (>= 3.6.8) musl (>= 1.1.24+git1+9432bbd4e8)
+RDEPENDS = gnutls (>= 3.6.8) musl (>= 1.1.24+git2+d6a62addce)
 RRECOMMENDS = 
 PKGSIZE = 1234204
 FILES = /usr/bin/* /usr/sbin/*

@@ -1,8 +1,8 @@
 PV = 4.0.9
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = corosync (>= 2.4.5) libsystemd (>= 243.2) musl (>= 1.1.24+git1+9432bbd4e8) util-linux-libuuid (>= 2.34)
+RDEPENDS = corosync (>= 2.4.5) libsystemd (>= 243.2) musl (>= 1.1.24+git2+d6a62addce) util-linux-libuuid (>= 2.34)
 RRECOMMENDS = 
 PKGSIZE = 237041
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dlm /usr/lib/dlm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service
