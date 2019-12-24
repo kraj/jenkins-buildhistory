@@ -1,8 +1,8 @@
 PV = 3.15.0
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = bash coreutils file gdb glibc (>= 2.30) glibc-utils libgcc (>= 9.2.0) libgomp (>= 9.2.0) libstdc++ (>= 9.2.0) perl perl-module-file-basename perl-module-file-glob perl-module-getopt-long procps sed valgrind valgrind-dbg
+RDEPENDS = bash coreutils file gdb glibc (>= 2.30.9000) glibc-utils libgcc (>= 9.2.0) libgomp (>= 9.2.0) libstdc++ (>= 9.2.0) perl perl-module-file-basename perl-module-file-glob perl-module-getopt-long procps sed valgrind valgrind-dbg
 RRECOMMENDS = ptest-runner
 PKGSIZE = 102368259
 FILES = /usr/lib/valgrind/ptest

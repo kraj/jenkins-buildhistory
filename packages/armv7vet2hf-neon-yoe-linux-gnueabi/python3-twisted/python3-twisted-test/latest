@@ -1,8 +1,8 @@
 PV = 19.10.0
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.30) libpython3 (>= 3.7.5) python3-twisted
+RDEPENDS = glibc (>= 2.30.9000) libpython3 (>= 3.7.5) python3-twisted
 RRECOMMENDS = 
 PKGSIZE = 13658014
 FILES = /usr/lib/python3.7/site-packages/twisted/test /usr/lib/python3.7/site-packages/twisted/*/test /usr/lib/python3.7/site-packages/twisted/protocols/haproxy/test/
