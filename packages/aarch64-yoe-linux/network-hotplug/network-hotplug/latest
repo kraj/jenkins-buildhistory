@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r2
+PKGR = r2.0
+RPROVIDES = 
+RDEPENDS = udev
+RRECOMMENDS = 
+PKGSIZE = 270
+FILES = /etc/udev/rules.d/* /lib/systemd/system/*
+FILELIST = /etc/udev/rules.d/network.rules /lib/systemd/system/network@.service
