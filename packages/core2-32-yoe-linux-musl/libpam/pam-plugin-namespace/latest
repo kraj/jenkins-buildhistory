@@ -1,0 +1,9 @@
+PV = 1.3.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = pam-plugin-namespace-suffix
+RDEPENDS = libpam (>= 1.3.1) libpam-suffix musl (>= 1.1.24+git2+d6a62addce)
+RRECOMMENDS = 
+PKGSIZE = 34296
+FILES = /lib/security/pam_namespace.so
+FILELIST = /lib/security/pam_namespace.so

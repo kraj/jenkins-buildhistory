@@ -1,0 +1,10 @@
+PV = 0.36
+PR = r0
+PKG = libruli-dev
+PKGR = r0.11
+RPROVIDES = ruli-dev (=0.36)
+RDEPENDS = ruli (= 0.36-r0.11)
+RRECOMMENDS = liboop-dev musl-dev
+PKGSIZE = 58805
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ruli/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/ruli.h /usr/include/ruli_addr.h /usr/include/ruli_conf.h /usr/include/ruli_fsm.h /usr/include/ruli_getaddrinfo.h /usr/include/ruli_host.h /usr/include/ruli_http.h /usr/include/ruli_isaac.h /usr/include/ruli_limits.h /usr/include/ruli_list.h /usr/include/ruli_mem.h /usr/include/ruli_msg.h /usr/include/ruli_oop.h /usr/include/ruli_parse.h /usr/include/ruli_rand.h /usr/include/ruli_res.h /usr/include/ruli_search.h /usr/include/ruli_smtp.h /usr/include/ruli_sock.h /usr/include/ruli_srv.h /usr/include/ruli_sync.h /usr/include/ruli_txt.h /usr/include/ruli_util.h /usr/lib/libruli.so
