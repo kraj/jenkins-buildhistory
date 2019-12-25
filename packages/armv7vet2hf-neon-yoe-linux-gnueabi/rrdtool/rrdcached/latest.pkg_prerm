@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop rrdcached.socket rrdcached.service
+
+		systemctl disable rrdcached.socket rrdcached.service
+	fi
+fi
