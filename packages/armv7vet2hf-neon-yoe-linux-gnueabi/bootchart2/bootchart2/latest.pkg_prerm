@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  bootchartd /sbin/bootchartd.bootchart2
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop bootchart2.service bootchart2-done.service bootchart2-done.timer
+
+		systemctl disable bootchart2.service bootchart2-done.service bootchart2-done.timer
+	fi
+fi
