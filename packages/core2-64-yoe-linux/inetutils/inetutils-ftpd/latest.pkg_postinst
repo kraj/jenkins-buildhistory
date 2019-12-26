@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/ftpd ftpd /usr/bin/ftpd.inetutils 79
