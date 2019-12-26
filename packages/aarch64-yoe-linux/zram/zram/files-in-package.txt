@@ -1,0 +1,11 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              170 ./lib/systemd/system/dev-zram0.swap
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               22 ./lib/systemd/system-preset/98-zram.preset
+-rw-r--r-- root       root              251 ./lib/systemd/system/zram-swap.service
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/libexec
+-rwxr-xr-x root       root              417 ./usr/libexec/zram-swap-deinit
+-rwxr-xr-x root       root              678 ./usr/libexec/zram-swap-init
