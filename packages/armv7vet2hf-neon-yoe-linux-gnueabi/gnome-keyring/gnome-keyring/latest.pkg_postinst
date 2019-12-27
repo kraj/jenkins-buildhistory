@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	glib-compile-schemas $D/usr/share/glib-2.0/schemas
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot gnome-keyring mlprefix=
+    exit 0
+fi
+    setcap cap_ipc_lock+ep `which gnome-keyring-daemon`
