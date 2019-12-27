@@ -1,0 +1,9 @@
+PV = 1.2.4
+PR = r0
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git3+d01fdc777d) quagga (>= 1.2.4)
+RRECOMMENDS = 
+PKGSIZE = 355807
+FILES = /usr/sbin/ospf6d /lib/systemd/system-preset/98-quagga-ospf6d.preset /lib/systemd/system/ospf6d.service
+FILELIST = /lib/systemd/system-preset/98-quagga-ospf6d.preset /lib/systemd/system/ospf6d.service /usr/sbin/ospf6d
