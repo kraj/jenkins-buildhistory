@@ -1,0 +1,11 @@
+PV = 0.9.12+gitAUTOINC+1354f7f1bb
+PR = r0
+PKG = libvncclient1
+PKGV = 0.9.12+git0+1354f7f1bb
+PKGR = r0.4
+RPROVIDES = libvncclient (=0.9.12+git0+1354f7f1bb)
+RDEPENDS = cyrus-sasl (>= 2.1.27) glibc (>= 2.30.9000) gnutls (>= 3.6.8) libgcrypt (>= 1.8.5) libjpeg-turbo (>= 2.0.3) lzo (>= 2.10) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 199070
+FILES = /usr/lib/libvncclient.*
+FILELIST = /usr/lib/libvncclient.so.0.9.12 /usr/lib/libvncclient.so.1
