@@ -1,0 +1,5 @@
+PV = 2.0.2
+PR = r0
+DEPENDS = cmake-native ninja-native pkgconfig-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = liblightmodbus-src liblightmodbus-dbg liblightmodbus-staticdev liblightmodbus-dev liblightmodbus-doc liblightmodbus-locale liblightmodbus
+LAYER = openembedded-layer
