@@ -1,0 +1,5 @@
+PV = 2.2.1
+PR = r0
+DEPENDS = cmake-native ninja-native popt virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = librsync-src librsync-dbg rdiff librsync-staticdev librsync-dev librsync-doc librsync-locale librsync
+LAYER = openembedded-layer
