@@ -1,0 +1,10 @@
+PV = 2.6.4
+PR = r0
+PKG = libfl2
+PKGR = r0.10
+RPROVIDES = flex-libfl (=2.6.4)
+RDEPENDS = glibc (>= 2.30.9000)
+RRECOMMENDS = 
+PKGSIZE = 6174
+FILES = /usr/lib/libfl.so.* /usr/lib/libfl_pic.so.*
+FILELIST = /usr/lib/libfl.so.2 /usr/lib/libfl.so.2.0.0
