@@ -1,0 +1,10 @@
+PV = 0.6.55
+PR = r0
+PKG = libaccountsservice-locale-vi
+PKGR = r0.12
+RPROVIDES = accountsservice-locale accountsservice-locale-vi (=0.6.55) vi-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 475
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/accounts-service.mo

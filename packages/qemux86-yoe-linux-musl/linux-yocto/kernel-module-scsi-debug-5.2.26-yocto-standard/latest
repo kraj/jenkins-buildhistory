@@ -1,0 +1,10 @@
+PV = 5.2.26+gitAUTOINC+b569dda397_ef54f0ac8d
+PR = r0
+PKGV = 5.2.26+git0+b569dda397_ef54f0ac8d
+PKGR = r0.1
+RPROVIDES = kernel-module-scsi-debug
+RDEPENDS = kernel-5.2.26-yocto-standard kernel-module-crc-t10dif-5.2.26-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 97508
+FILES = /lib/modules/5.2.26-yocto-standard/kernel/drivers/scsi/scsi_debug.ko /etc/modules-load.d/scsi_debug.conf /etc/modprobe.d/scsi_debug.conf
+FILELIST = /lib/modules/5.2.26-yocto-standard/kernel/drivers/scsi/scsi_debug.ko

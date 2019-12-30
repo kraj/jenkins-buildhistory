@@ -1,0 +1,10 @@
+PV = 5.2.26+gitAUTOINC+b569dda397_ef54f0ac8d
+PR = r0
+PKGV = 5.2.26+git0+b569dda397_ef54f0ac8d
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-limit
+RDEPENDS = kernel-5.2.26-yocto-standard kernel-module-x-tables-5.2.26-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4632
+FILES = /lib/modules/5.2.26-yocto-standard/kernel/net/netfilter/xt_limit.ko /etc/modules-load.d/xt_limit.conf /etc/modprobe.d/xt_limit.conf
+FILELIST = /lib/modules/5.2.26-yocto-standard/kernel/net/netfilter/xt_limit.ko

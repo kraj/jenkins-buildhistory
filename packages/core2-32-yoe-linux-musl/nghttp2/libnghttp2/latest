@@ -1,0 +1,10 @@
+PV = 1.39.2
+PR = r0
+PKG = libnghttp2-14
+PKGR = r0.15
+RPROVIDES = libnghttp2 (=1.39.2)
+RDEPENDS = musl (>= 1.1.24+git3+d01fdc777d)
+RRECOMMENDS = 
+PKGSIZE = 169353
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libnghttp2.so.14 /usr/lib/libnghttp2.so.14.18.0
