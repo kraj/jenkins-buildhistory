@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-ice17xx-ak4xxx
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-snd-ak4xxx-adda-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4712
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/sound/pci/ice1712/snd-ice17xx-ak4xxx.ko /etc/modules-load.d/snd-ice17xx-ak4xxx.conf /etc/modprobe.d/snd-ice17xx-ak4xxx.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/sound/pci/ice1712/snd-ice17xx-ak4xxx.ko

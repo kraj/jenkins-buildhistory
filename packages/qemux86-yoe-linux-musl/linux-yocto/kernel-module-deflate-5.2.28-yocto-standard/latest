@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-deflate
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6944
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/crypto/deflate.ko /etc/modules-load.d/deflate.conf /etc/modprobe.d/deflate.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/crypto/deflate.ko

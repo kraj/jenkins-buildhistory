@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-br-netfilter
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-bridge-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 20584
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/net/bridge/br_netfilter.ko /etc/modules-load.d/br_netfilter.conf /etc/modprobe.d/br_netfilter.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/net/bridge/br_netfilter.ko

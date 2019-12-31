@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-udp-tunnel
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6420
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/net/ipv4/udp_tunnel.ko /etc/modules-load.d/udp_tunnel.conf /etc/modprobe.d/udp_tunnel.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/net/ipv4/udp_tunnel.ko

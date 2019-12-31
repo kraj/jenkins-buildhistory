@@ -1,0 +1,11 @@
+PE = 2
+PV = 19.2.4
+PR = r0
+PKG = libglapi0
+PKGR = r0.16
+RPROVIDES = libglapi (=19.2.4)
+RDEPENDS = musl (>= 1.1.24+git3+d01fdc777d)
+RRECOMMENDS = 
+PKGSIZE = 361833
+FILES = /usr/lib/libglapi.so.*
+FILELIST = /usr/lib/libglapi.so.0 /usr/lib/libglapi.so.0.0.0

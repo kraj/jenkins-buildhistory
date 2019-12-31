@@ -1,0 +1,9 @@
+PV = 5.8.1
+PR = r0
+PKGR = r0.14
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git3+d01fdc777d) strongswan
+RRECOMMENDS = 
+PKGSIZE = 9742
+FILES = /usr/lib/ipsec/plugins/libstrongswan-md5.so /etc/strongswan.d/charon/md5.conf
+FILELIST = /etc/strongswan.d/charon/md5.conf /usr/lib/ipsec/plugins/libstrongswan-md5.so
