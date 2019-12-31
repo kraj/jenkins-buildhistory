@@ -1,0 +1,10 @@
+PV = 5.2.26+gitAUTOINC+b569dda397_ef54f0ac8d
+PR = r0
+PKGV = 5.2.26+git0+b569dda397_ef54f0ac8d
+PKGR = r0.1
+RPROVIDES = kernel-module-sch-ingress
+RDEPENDS = kernel-5.2.26-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9832
+FILES = /lib/modules/5.2.26-yocto-standard/kernel/net/sched/sch_ingress.ko /etc/modules-load.d/sch_ingress.conf /etc/modprobe.d/sch_ingress.conf
+FILELIST = /lib/modules/5.2.26-yocto-standard/kernel/net/sched/sch_ingress.ko
