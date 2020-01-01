@@ -37,9 +37,9 @@ drwxr-xr-x -          -                 120 ./usr/bin/crossscripts
 -rwxr-xr-x -          -               61536 ./usr/bin/infocmp
 lrwxrwxrwx -          -                   3 ./usr/bin/infotocap -> tic
 -rwxr-xr-x -          -                 211 ./usr/bin/ncurses5-config
--rwxr-xr-x -          -                 211 ./usr/bin/ncurses6-config
+-rwxrwxr-x -          -                 211 ./usr/bin/ncurses6-config
 -rwxr-xr-x -          -                 213 ./usr/bin/ncursesw5-config
--rwxr-xr-x -          -                 213 ./usr/bin/ncursesw6-config
+-rwxrwxr-x -          -                 213 ./usr/bin/ncursesw6-config
 lrwxrwxrwx -          -                   4 ./usr/bin/reset -> tset
 -rwxr-xr-x -          -               16480 ./usr/bin/tabs
 -rwxr-xr-x -          -               86112 ./usr/bin/tic
@@ -59,7 +59,7 @@ lrwxrwxrwx -          -                  14 ./usr/include/etip.h -> ncurses/etip
 lrwxrwxrwx -          -                  14 ./usr/include/form.h -> ncurses/form.h
 lrwxrwxrwx -          -                  14 ./usr/include/menu.h -> ncurses/menu.h
 lrwxrwxrwx -          -                  18 ./usr/include/nc_tparm.h -> ncurses/nc_tparm.h
-drwxr-xr-x -          -                 440 ./usr/include/ncurses
+drwxrwxr-x -          -                 440 ./usr/include/ncurses
 -rw-r--r-- -          -                6808 ./usr/include/ncurses/cursesapp.h
 -rw-r--r-- -          -               27958 ./usr/include/ncurses/cursesf.h
 -rw-r--r-- -          -               82039 ./usr/include/ncurses/curses.h
@@ -82,7 +82,7 @@ lrwxrwxrwx -          -                   8 ./usr/include/ncurses/ncurses.h -> c
 -rw-r--r-- -          -               40217 ./usr/include/ncurses/term.h
 -rw-r--r-- -          -               14747 ./usr/include/ncurses/tic.h
 -rw-r--r-- -          -                3107 ./usr/include/ncurses/unctrl.h
-drwxr-xr-x -          -                 440 ./usr/include/ncursesw
+drwxrwxr-x -          -                 440 ./usr/include/ncursesw
 -rw-r--r-- -          -                6809 ./usr/include/ncursesw/cursesapp.h
 -rw-r--r-- -          -               27960 ./usr/include/ncursesw/cursesf.h
 -rw-r--r-- -          -               99917 ./usr/include/ncursesw/curses.h
@@ -111,43 +111,43 @@ lrwxrwxrwx -          -                  13 ./usr/include/tic.h -> ncurses/tic.h
 lrwxrwxrwx -          -                  16 ./usr/include/unctrl.h -> ncurses/unctrl.h
 drwxr-xr-x -          -                 800 ./usr/lib
 lrwxrwxrwx -          -                  13 ./usr/lib/libcurses.so -> libncurses.so
--rwxr-xr-x -          -               61024 ./usr/lib/libform.so.5.9
+-rwxrwxr-x -          -               61024 ./usr/lib/libform.so.5.9
 lrwxrwxrwx -          -                  14 ./usr/lib/libform.so.5 -> libform.so.5.9
 lrwxrwxrwx -          -                  12 ./usr/lib/libform.so -> libform.so.5
--rwxr-xr-x -          -               69376 ./usr/lib/libformw.so.5.9
+-rwxrwxr-x -          -               69376 ./usr/lib/libformw.so.5.9
 lrwxrwxrwx -          -                  15 ./usr/lib/libformw.so.5 -> libformw.so.5.9
 lrwxrwxrwx -          -                  13 ./usr/lib/libformw.so -> libformw.so.5
--rwxr-xr-x -          -               31264 ./usr/lib/libmenu.so.5.9
+-rwxrwxr-x -          -               31264 ./usr/lib/libmenu.so.5.9
 lrwxrwxrwx -          -                  14 ./usr/lib/libmenu.so.5 -> libmenu.so.5.9
 lrwxrwxrwx -          -                  12 ./usr/lib/libmenu.so -> libmenu.so.5
--rwxr-xr-x -          -               35360 ./usr/lib/libmenuw.so.5.9
+-rwxrwxr-x -          -               35360 ./usr/lib/libmenuw.so.5.9
 lrwxrwxrwx -          -                  15 ./usr/lib/libmenuw.so.5 -> libmenuw.so.5.9
 lrwxrwxrwx -          -                  13 ./usr/lib/libmenuw.so -> libmenuw.so.5
 -rw-r--r-- -          -              128088 ./usr/lib/libncurses++.a
--rw-r--r-- -          -                  62 ./usr/lib/libncurses.so
--rwxr-xr-x -          -              151008 ./usr/lib/libncurses.so.5.9
+-rw-rw-r-- -          -                  62 ./usr/lib/libncurses.so
+-rwxrwxr-x -          -              151008 ./usr/lib/libncurses.so.5.9
 lrwxrwxrwx -          -                  17 ./usr/lib/libncurses.so.5 -> libncurses.so.5.9
 -rw-r--r-- -          -              128088 ./usr/lib/libncurses++w.a
--rw-r--r-- -          -                  63 ./usr/lib/libncursesw.so
--rwxr-xr-x -          -              204624 ./usr/lib/libncursesw.so.5.9
+-rw-rw-r-- -          -                  63 ./usr/lib/libncursesw.so
+-rwxrwxr-x -          -              204624 ./usr/lib/libncursesw.so.5.9
 lrwxrwxrwx -          -                  18 ./usr/lib/libncursesw.so.5 -> libncursesw.so.5.9
--rwxr-xr-x -          -               14128 ./usr/lib/libpanel.so.5.9
+-rwxrwxr-x -          -               14128 ./usr/lib/libpanel.so.5.9
 lrwxrwxrwx -          -                  15 ./usr/lib/libpanel.so.5 -> libpanel.so.5.9
 lrwxrwxrwx -          -                  13 ./usr/lib/libpanel.so -> libpanel.so.5
--rwxr-xr-x -          -               14128 ./usr/lib/libpanelw.so.5.9
+-rwxrwxr-x -          -               14128 ./usr/lib/libpanelw.so.5.9
 lrwxrwxrwx -          -                  16 ./usr/lib/libpanelw.so.5 -> libpanelw.so.5.9
 lrwxrwxrwx -          -                  14 ./usr/lib/libpanelw.so -> libpanelw.so.5
--rw-r--r-- -          -                  46 ./usr/lib/libtermcap.so
--rwxr-xr-x -          -               64056 ./usr/lib/libtic.so.5.9
+-rw-rw-r-- -          -                  46 ./usr/lib/libtermcap.so
+-rwxrwxr-x -          -               64056 ./usr/lib/libtic.so.5.9
 lrwxrwxrwx -          -                  13 ./usr/lib/libtic.so.5 -> libtic.so.5.9
 lrwxrwxrwx -          -                  11 ./usr/lib/libtic.so -> libtic.so.5
--rwxr-xr-x -          -               64056 ./usr/lib/libticw.so.5.9
+-rwxrwxr-x -          -               64056 ./usr/lib/libticw.so.5.9
 lrwxrwxrwx -          -                  14 ./usr/lib/libticw.so.5 -> libticw.so.5.9
 lrwxrwxrwx -          -                  12 ./usr/lib/libticw.so -> libticw.so.5
--rwxr-xr-x -          -              180272 ./usr/lib/libtinfo.so.5.9
+-rwxrwxr-x -          -              180272 ./usr/lib/libtinfo.so.5.9
 lrwxrwxrwx -          -                  15 ./usr/lib/libtinfo.so.5 -> libtinfo.so.5.9
 lrwxrwxrwx -          -                  13 ./usr/lib/libtinfo.so -> libtinfo.so.5
-drwxr-xr-x -          -                 300 ./usr/lib/pkgconfig
+drwxrwxr-x -          -                 300 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 555 ./usr/lib/pkgconfig/form.pc
 -rw-r--r-- -          -                 521 ./usr/lib/pkgconfig/formw.pc
 -rw-r--r-- -          -                 555 ./usr/lib/pkgconfig/menu.pc
@@ -162,7 +162,7 @@ drwxr-xr-x -          -                 300 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 519 ./usr/lib/pkgconfig/ticw.pc
 -rw-r--r-- -          -                 525 ./usr/lib/pkgconfig/tinfo.pc
 drwxr-xr-x -          -                 100 ./usr/share
-drwxr-xr-x -          -                 120 ./usr/share/tabset
+drwxrwxr-x -          -                 120 ./usr/share/tabset
 -rw-r--r-- -          -                 135 ./usr/share/tabset/std
 -rw-r--r-- -          -                  95 ./usr/share/tabset/stdcrt
 -rw-r--r-- -          -                 160 ./usr/share/tabset/vt100

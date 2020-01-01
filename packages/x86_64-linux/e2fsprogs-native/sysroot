@@ -22,13 +22,13 @@ drwxr-xr-x -          -                 640 ./sbin
 -rwxr-xr-x -          -              331872 ./sbin/fsck.ext3
 -rwxr-xr-x -          -              331872 ./sbin/fsck.ext4
 -rwxr-xr-x -          -               12384 ./sbin/logsave
--rwxr-xr-x -          -                 155 ./sbin/mke2fs
+-rwxrwxr-x -          -                 155 ./sbin/mke2fs
 -rwxr-xr-x -          -              139360 ./sbin/mke2fs.real
--rwxr-xr-x -          -                 158 ./sbin/mkfs.ext2
+-rwxrwxr-x -          -                 158 ./sbin/mkfs.ext2
 -rwxr-xr-x -          -              139360 ./sbin/mkfs.ext2.real
--rwxr-xr-x -          -                 158 ./sbin/mkfs.ext3
+-rwxrwxr-x -          -                 158 ./sbin/mkfs.ext3
 -rwxr-xr-x -          -              139360 ./sbin/mkfs.ext3.real
--rwxr-xr-x -          -                 158 ./sbin/mkfs.ext4
+-rwxrwxr-x -          -                 158 ./sbin/mkfs.ext4
 -rwxr-xr-x -          -              139360 ./sbin/mkfs.ext4.real
 -rwxr-xr-x -          -               12384 ./sbin/mklost+found
 -rwxr-xr-x -          -                2460 ./sbin/populate-extfs.sh
@@ -43,11 +43,11 @@ drwxr-xr-x -          -                 100 ./usr/bin
 -rwxr-xr-x -          -                1121 ./usr/bin/mk_cmds
 drwxr-xr-x -          -                 140 ./usr/include
 -rw-r--r-- -          -                2118 ./usr/include/com_err.h
-drwxr-xr-x -          -                  60 ./usr/include/e2p
+drwxrwxr-x -          -                  60 ./usr/include/e2p
 -rw-r--r-- -          -                3139 ./usr/include/e2p/e2p.h
-drwxr-xr-x -          -                  60 ./usr/include/et
+drwxrwxr-x -          -                  60 ./usr/include/et
 -rw-r--r-- -          -                2118 ./usr/include/et/com_err.h
-drwxr-xr-x -          -                 260 ./usr/include/ext2fs
+drwxrwxr-x -          -                 260 ./usr/include/ext2fs
 -rw-r--r-- -          -               22148 ./usr/include/ext2fs/bitops.h
 -rw-r--r-- -          -               11784 ./usr/include/ext2fs/ext2_err.h
 -rw-r--r-- -          -                2644 ./usr/include/ext2fs/ext2_ext_attr.h
@@ -59,7 +59,7 @@ drwxr-xr-x -          -                 260 ./usr/include/ext2fs
 -rw-r--r-- -          -                1179 ./usr/include/ext2fs/hashmap.h
 -rw-r--r-- -          -                2586 ./usr/include/ext2fs/qcow2.h
 -rw-r--r-- -          -                8871 ./usr/include/ext2fs/tdb.h
-drwxr-xr-x -          -                  80 ./usr/include/ss
+drwxrwxr-x -          -                  80 ./usr/include/ss
 -rw-r--r-- -          -                1193 ./usr/include/ss/ss_err.h
 -rw-r--r-- -          -                3166 ./usr/include/ss/ss.h
 drwxr-xr-x -          -                 400 ./usr/lib
@@ -80,15 +80,15 @@ lrwxrwxrwx -          -                  14 ./usr/lib/libext2fs.so -> libext2fs.
 -rwxr-xr-x -          -               27072 ./usr/lib/libss.so.2.0
 lrwxrwxrwx -          -                  12 ./usr/lib/libss.so.2 -> libss.so.2.0
 lrwxrwxrwx -          -                  10 ./usr/lib/libss.so -> libss.so.2
-drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
+drwxrwxr-x -          -                 120 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 335 ./usr/lib/pkgconfig/com_err.pc
 -rw-r--r-- -          -                 314 ./usr/lib/pkgconfig/e2p.pc
 -rw-r--r-- -          -                 311 ./usr/lib/pkgconfig/ext2fs.pc
 -rw-r--r-- -          -                 337 ./usr/lib/pkgconfig/ss.pc
 drwxr-xr-x -          -                  80 ./usr/share
-drwxr-xr-x -          -                  80 ./usr/share/et
+drwxrwxr-x -          -                  80 ./usr/share/et
 -rw-r--r-- -          -                6485 ./usr/share/et/et_c.awk
 -rw-r--r-- -          -                4539 ./usr/share/et/et_h.awk
-drwxr-xr-x -          -                  80 ./usr/share/ss
+drwxrwxr-x -          -                  80 ./usr/share/ss
 -rw-r--r-- -          -                1551 ./usr/share/ss/ct_c.awk
 -rw-r--r-- -          -                2290 ./usr/share/ss/ct_c.sed

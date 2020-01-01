@@ -9,7 +9,7 @@ drwxr-xr-x -          -                 140 ./usr/bin
 -rwxr-xr-x -          -               12384 ./usr/bin/uim-sh
 drwxr-xr-x -          -                  80 ./usr/include
 -rw-r--r-- -          -                2123 ./usr/include/gcroots.h
-drwxr-xr-x -          -                 260 ./usr/include/uim
+drwxrwxr-x -          -                 260 ./usr/include/uim
 -rw-r--r-- -          -                2011 ./usr/include/uim/dynlib.h
 -rw-r--r-- -          -                5617 ./usr/include/uim/uim-custom.h
 -rw-r--r-- -          -               31523 ./usr/include/uim/uim.h
@@ -36,11 +36,11 @@ lrwxrwxrwx -          -                  19 ./usr/lib/libuim-scm.so -> libuim-sc
 -rwxr-xr-x -          -               97424 ./usr/lib/libuim.so.8.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libuim.so.8 -> libuim.so.8.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libuim.so -> libuim.so.8.0.0
-drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+drwxrwxr-x -          -                  80 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 327 ./usr/lib/pkgconfig/gcroots.pc
 -rw-r--r-- -          -                 453 ./usr/lib/pkgconfig/uim.pc
-drwxr-xr-x -          -                  60 ./usr/lib/uim
-drwxr-xr-x -          -                 240 ./usr/lib/uim/plugin
+drwxrwxr-x -          -                  60 ./usr/lib/uim
+drwxrwxr-x -          -                 240 ./usr/lib/uim/plugin
 -rwxr-xr-x -          -               14456 ./usr/lib/uim/plugin/libuim-anthy.so
 -rwxr-xr-x -          -                5736 ./usr/lib/uim/plugin/libuim-custom-enabler.so
 -rwxr-xr-x -          -               10144 ./usr/lib/uim/plugin/libuim-editline.so
@@ -52,7 +52,7 @@ drwxr-xr-x -          -                 240 ./usr/lib/uim/plugin
 -rwxr-xr-x -          -               14544 ./usr/lib/uim/plugin/libuim-socket.so
 -rwxr-xr-x -          -               14384 ./usr/lib/uim/plugin/libuim-xkb.so
 drwxr-xr-x -          -                  60 ./usr/share
-drwxr-xr-x -          -                3120 ./usr/share/uim
+drwxrwxr-x -          -                3120 ./usr/share/uim
 -rw-r--r-- -          -               18851 ./usr/share/uim/action.scm
 -rw-r--r-- -          -               12365 ./usr/share/uim/ajax-ime-custom.scm
 -rw-r--r-- -          -               10161 ./usr/share/uim/ajax-ime-key-custom.scm
@@ -72,7 +72,7 @@ drwxr-xr-x -          -                3120 ./usr/share/uim
 -rw-r--r-- -          -               11069 ./usr/share/uim/baidu-olime-jp-key-custom.scm
 -rw-r--r-- -          -               73796 ./usr/share/uim/baidu-olime-jp.scm
 -rw-r--r-- -          -                7680 ./usr/share/uim/byeoru-custom.scm
-drwxr-xr-x -          -                  60 ./usr/share/uim/byeoru-data
+drwxrwxr-x -          -                  60 ./usr/share/uim/byeoru-data
 -rw-r--r-- -          -              841695 ./usr/share/uim/byeoru-data/byeoru-dict
 -rw-r--r-- -          -                4445 ./usr/share/uim/byeoru-key-custom.scm
 -rw-r--r-- -          -               75401 ./usr/share/uim/byeoru.scm
@@ -129,7 +129,7 @@ drwxr-xr-x -          -                  60 ./usr/share/uim/byeoru-data
 -rw-r--r-- -          -               10879 ./usr/share/uim/key.scm
 -rw-r--r-- -          -               62436 ./usr/share/uim/latin.scm
 -rw-r--r-- -          -                5341 ./usr/share/uim/lazy-load.scm
-drwxr-xr-x -          -                 220 ./usr/share/uim/lib
+drwxrwxr-x -          -                 220 ./usr/share/uim/lib
 -rw-r--r-- -          -                4185 ./usr/share/uim/lib/sigscheme-init.scm
 -rw-r--r-- -          -                3464 ./usr/share/uim/lib/srfi-0.scm
 -rw-r--r-- -          -               56767 ./usr/share/uim/lib/srfi-1.scm
@@ -156,7 +156,7 @@ drwxr-xr-x -          -                 220 ./usr/share/uim/lib
 -rw-r--r-- -          -                3682 ./usr/share/uim/openssl.scm
 -rw-r--r-- -          -               10245 ./usr/share/uim/packrat.scm
 -rw-r--r-- -          -              109866 ./usr/share/uim/pinyin-big5.scm
-drwxr-xr-x -          -                3260 ./usr/share/uim/pixmaps
+drwxrwxr-x -          -                3260 ./usr/share/uim/pixmaps
 -rw-r--r-- -          -                1724 ./usr/share/uim/pixmaps/ajax-ime.png
 -rw-r--r-- -          -                3160 ./usr/share/uim/pixmaps/ajax-ime.svg
 -rw-r--r-- -          -                1722 ./usr/share/uim/pixmaps/anthy.png
@@ -347,7 +347,7 @@ drwxr-xr-x -          -                3260 ./usr/share/uim/pixmaps
 -rw-r--r-- -          -                3142 ./usr/share/uim/sqlite3.scm
 -rw-r--r-- -          -               26872 ./usr/share/uim/sxml-tools.scm
 -rw-r--r-- -          -               21036 ./usr/share/uim/sxpathlib.scm
-drwxr-xr-x -          -                  80 ./usr/share/uim/tables
+drwxrwxr-x -          -                  80 ./usr/share/uim/tables
 -rw-r--r-- -          -             1798718 ./usr/share/uim/tables/wb86.table
 -rw-r--r-- -          -             1586292 ./usr/share/uim/tables/zm.table
 -rw-r--r-- -          -               40535 ./usr/share/uim/tcode.scm

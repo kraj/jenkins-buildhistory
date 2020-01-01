@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/lib/quilt
 drwxr-xr-x root       root              180 ./usr/lib/quilt/ptest
 drwxr-xr-x root       root              100 ./usr/lib/quilt/ptest/bin
 -rwxr-xr-x root       root             7282 ./usr/lib/quilt/ptest/bin/guards
--rwxr-xr-x root       root             5700 ./usr/lib/quilt/ptest/bin/patch-wrapper
+-rwxrwxr-x root       root             5700 ./usr/lib/quilt/ptest/bin/patch-wrapper
 -rwxr-xr-x root       root             2938 ./usr/lib/quilt/ptest/bin/quilt
 drwxr-xr-x root       root               80 ./usr/lib/quilt/ptest/compat
 -rwxr-xr-x root       root               18 ./usr/lib/quilt/ptest/compat/column
@@ -61,7 +61,7 @@ drwxrwxrwx root       root             1300 ./usr/lib/quilt/ptest/test
 -rw-r--r-- root       root             1210 ./usr/lib/quilt/ptest/test/comments.test
 -rw-r--r-- root       root             2582 ./usr/lib/quilt/ptest/test/conflicts.test
 -rw-r--r-- root       root             1390 ./usr/lib/quilt/ptest/test/create-delete.test
--rw-r--r-- root       root            18935 ./usr/lib/quilt/ptest/test/.depend
+-rw-rw-r-- root       root            18935 ./usr/lib/quilt/ptest/test/.depend
 -rw-r--r-- root       root              959 ./usr/lib/quilt/ptest/test/dir-a-b.test
 -rw-r--r-- root       root              385 ./usr/lib/quilt/ptest/test/dotglob.test
 -rw-r--r-- root       root              734 ./usr/lib/quilt/ptest/test/duplicate-patch-in-series.test
