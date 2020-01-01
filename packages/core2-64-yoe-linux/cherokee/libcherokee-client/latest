@@ -1,0 +1,11 @@
+PV = 1.2.104+gitAUTOINC+9a75e65b87
+PR = r0
+PKG = libcherokee-client0
+PKGV = 1.2.104+git0+9a75e65b87
+PKGR = r0.17
+RPROVIDES = libcherokee-client (=1.2.104+git0+9a75e65b87)
+RDEPENDS = glibc (>= 2.30.9000) libcherokee-base (>= 1.2.104+git0+9a75e65b87) libpcre (>= 8.43)
+RRECOMMENDS = 
+PKGSIZE = 22651
+FILES = /usr/lib/libcherokee-client.so.*
+FILELIST = /usr/lib/libcherokee-client.so.0 /usr/lib/libcherokee-client.so.0.0.1
