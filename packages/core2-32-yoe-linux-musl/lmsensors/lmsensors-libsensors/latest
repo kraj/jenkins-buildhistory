@@ -1,0 +1,10 @@
+PV = 3.6.0
+PR = r0
+PKG = libsensors5
+PKGR = r0.17
+RPROVIDES = lmsensors-libsensors (=3.6.0)
+RDEPENDS = musl (>= 1.1.24+git3+d01fdc777d)
+RRECOMMENDS = lmsensors-config-libsensors
+PKGSIZE = 69328
+FILES = /usr/lib/libsensors.so.* /etc/sensors3.conf /etc/sensors.d
+FILELIST = /etc/sensors3.conf /usr/lib/libsensors.so.5 /usr/lib/libsensors.so.5.0.0

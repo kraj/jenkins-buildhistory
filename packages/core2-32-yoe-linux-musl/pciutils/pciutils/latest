@@ -1,0 +1,9 @@
+PV = 3.6.2
+PR = r0
+PKGR = r0.17
+RPROVIDES = 
+RDEPENDS = libkmod (>= 26) libpci (>= 3.6.2) libudev (>= 243.2) musl (>= 1.1.24+git3+d01fdc777d) pciutils-ids zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 121174
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pciutils /usr/lib/pciutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/lspci /usr/sbin/lspci /usr/sbin/setpci /usr/sbin/update-pciids
