@@ -1,0 +1,9 @@
+PV = 5.8.1
+PR = r0
+PKGR = r0.16
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git4+70d8060955) strongswan
+RRECOMMENDS = 
+PKGSIZE = 9703
+FILES = /usr/lib/ipsec/plugins/libstrongswan-fips-prf.so /etc/strongswan.d/charon/fips-prf.conf
+FILELIST = /etc/strongswan.d/charon/fips-prf.conf /usr/lib/ipsec/plugins/libstrongswan-fips-prf.so
