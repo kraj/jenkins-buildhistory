@@ -1,0 +1,10 @@
+PV = 2.3.1
+PR = r0
+PKG = libcupsimage2
+PKGR = r0.6
+RPROVIDES = cups-libimage (=2.3.1)
+RDEPENDS = cups-lib (>= 2.3.1) glibc (>= 2.30.9000)
+RRECOMMENDS = 
+PKGSIZE = 10256
+FILES = /usr/lib/libcupsimage.so.*
+FILELIST = /usr/lib/libcupsimage.so.2
