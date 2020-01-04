@@ -1,0 +1,10 @@
+PV = 4.10.10
+PR = r0
+PKG = libsmbldap2
+PKGR = r0.23
+RPROVIDES = libsmbldap (=4.10.10)
+RDEPENDS = libreplace-samba4 (>= 4.10.10) libsamba-debug-samba4 (>= 4.10.10) libsamba-security-samba4 (>= 4.10.10) libsamba-util (>= 4.10.10) libsmbconf (>= 4.10.10) libsmbd-shim-samba4 (>= 4.10.10) libtalloc (>= 2.3.0) libtevent (>= 0.10.1) musl (>= 1.1.24+git4+70d8060955) openldap (>= 2.4.48) samba-common
+RRECOMMENDS = 
+PKGSIZE = 54548
+FILES = /usr/lib/libsmbldap.so.2
+FILELIST = /usr/lib/libsmbldap.so.2

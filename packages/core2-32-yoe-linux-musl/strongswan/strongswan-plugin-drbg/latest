@@ -1,0 +1,9 @@
+PV = 5.8.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git4+70d8060955) strongswan
+RRECOMMENDS = 
+PKGSIZE = 14138
+FILES = /usr/lib/ipsec/plugins/libstrongswan-drbg.so /etc/strongswan.d/charon/drbg.conf
+FILELIST = /etc/strongswan.d/charon/drbg.conf /usr/lib/ipsec/plugins/libstrongswan-drbg.so
