@@ -1,0 +1,5 @@
+PV = 2.2.18.04.06
+PR = r0
+DEPENDS = opencl-headers opencl-icd-loader virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = clinfo-src clinfo-dbg clinfo-staticdev clinfo-dev clinfo-doc clinfo-locale clinfo
+LAYER = openembedded-layer
