@@ -1,0 +1,10 @@
+PV = 2.34
+PR = r0
+PKG = libblkid1
+PKGR = r0.19
+RPROVIDES = util-linux-libblkid (=2.34)
+RDEPENDS = musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 382977
+FILES = /lib/libblkid.so.1 /lib/libblkid.so.1.1.0
+FILELIST = /lib/libblkid.so.1 /lib/libblkid.so.1.1.0

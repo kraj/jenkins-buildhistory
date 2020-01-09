@@ -1,0 +1,9 @@
+PV = 2019.6
+PR = r0
+PKGR = r0.17
+RPROVIDES = 
+RDEPENDS = libsystemd (>= 243.2) musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 10831
+FILES = /usr/lib/ostree/ostree-prepare-root /lib/systemd/system/ostree-prepare-root.service
+FILELIST = /lib/systemd/system/ostree-prepare-root.service /usr/lib/ostree/ostree-prepare-root
