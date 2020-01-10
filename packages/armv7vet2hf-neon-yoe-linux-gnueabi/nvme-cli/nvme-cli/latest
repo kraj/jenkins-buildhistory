@@ -1,0 +1,10 @@
+PV = 1.9+gitAUTOINC+977e7d4cf5
+PR = r0
+PKGV = 1.9+git0+977e7d4cf5
+PKGR = r0.10
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30.9000) util-linux-uuidgen
+RRECOMMENDS = 
+PKGSIZE = 332021
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nvme-cli /usr/lib/nvme-cli/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system
+FILELIST = /etc/nvme/discovery.conf /etc/nvme/hostid /etc/nvme/hostnqn /lib/systemd/system/nvmefc-boot-connections.service /lib/systemd/system/nvmf-connect.target /lib/systemd/system/nvmf-connect@.service /lib/udev/rules.d/70-nvmf-autoconnect.rules /usr/sbin/nvme
