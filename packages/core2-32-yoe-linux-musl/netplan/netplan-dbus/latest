@@ -1,0 +1,10 @@
+PV = 0.98+gitAUTOINC+5d22e9d22c
+PR = r0
+PKGV = 0.98+git0+5d22e9d22c
+PKGR = r0.22
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.62.4) libsystemd (>= 243.2) musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 10277
+FILES = /lib/netplan/netplan-dbus /usr/share/dbus-1
+FILELIST = /lib/netplan/netplan-dbus /usr/share/dbus-1/system-services/io.netplan.Netplan.service /usr/share/dbus-1/system.d/io.netplan.Netplan.conf

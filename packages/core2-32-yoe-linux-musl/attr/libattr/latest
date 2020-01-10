@@ -1,0 +1,10 @@
+PV = 2.4.48
+PR = r0
+PKG = libattr1
+PKGR = r0.1
+RPROVIDES = libattr (=2.4.48)
+RDEPENDS = musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 17803
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libattr.so.1 /usr/lib/libattr.so.1.1.2448

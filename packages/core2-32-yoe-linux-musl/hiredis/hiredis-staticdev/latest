@@ -1,0 +1,10 @@
+PV = 0.14.0
+PR = r0
+PKG = libhiredis-staticdev
+PKGR = r0.9
+RPROVIDES = hiredis-staticdev (=0.14.0)
+RDEPENDS = hiredis-dev (= 0.14.0-r0.9)
+RRECOMMENDS = 
+PKGSIZE = 247570
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/hiredis/*.a
+FILELIST = /usr/lib/libhiredis.a
