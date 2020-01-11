@@ -1,0 +1,17 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc/tmpfiles.d
+lrwxrwxrwx root       root                9 ./etc/tmpfiles.d/etc.conf -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/tmpfiles.d/home.conf -> /dev/null
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root              120 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root              132 ./lib/systemd/system-preset/98-volatile-binds.preset
+-rw-r--r-- root       root              452 ./lib/systemd/system/var-volatile-cache.service
+-rw-r--r-- root       root              496 ./lib/systemd/system/var-volatile-lib.service
+-rw-r--r-- root       root              452 ./lib/systemd/system/var-volatile-spool.service
+-rw-r--r-- root       root              416 ./lib/systemd/system/var-volatile-srv.service
+drwxr-xr-x root       root               60 ./sbin
+-rwxr-xr-x root       root             1309 ./sbin/mount-copybind
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               40 ./var/cache

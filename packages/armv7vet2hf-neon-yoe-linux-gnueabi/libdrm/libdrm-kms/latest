@@ -1,0 +1,10 @@
+PV = 2.4.100
+PR = r0
+PKG = libkms1
+PKGR = r0.11
+RPROVIDES = libdrm-kms (=2.4.100)
+RDEPENDS = glibc (>= 2.30.9000) libdrm (>= 2.4.100)
+RRECOMMENDS = 
+PKGSIZE = 9727
+FILES = /usr/lib/libkms*.so.*
+FILELIST = /usr/lib/libkms.so.1 /usr/lib/libkms.so.1.0.0
