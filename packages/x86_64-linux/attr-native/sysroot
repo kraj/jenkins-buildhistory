@@ -1,5 +1,3 @@
-drwxr-xr-x -          -                  60 ./etc
--rw-r--r-- -          -                 642 ./etc/xattr.conf
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  11 ./sysroot-providers/attr-native
 drwxr-xr-x -          -                 120 ./usr
@@ -8,14 +6,13 @@ drwxr-xr-x -          -                 100 ./usr/bin
 -rwxr-xr-x -          -               20576 ./usr/bin/getfattr
 -rwxr-xr-x -          -               16480 ./usr/bin/setfattr
 drwxr-xr-x -          -                  60 ./usr/include
-drwxrwxr-x -          -                 100 ./usr/include/attr
--rw-r--r-- -          -                8010 ./usr/include/attr/attributes.h
--rw-r--r-- -          -                1569 ./usr/include/attr/error_context.h
--rw-r--r-- -          -                1411 ./usr/include/attr/libattr.h
-drwxr-xr-x -          -                 120 ./usr/lib
--rwxr-xr-x -          -               18592 ./usr/lib/libattr.so.1.1.2448
-lrwxrwxrwx -          -                  19 ./usr/lib/libattr.so.1 -> libattr.so.1.1.2448
-lrwxrwxrwx -          -                  19 ./usr/lib/libattr.so -> libattr.so.1.1.2448
-drwxrwxr-x -          -                  60 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 301 ./usr/lib/pkgconfig/libattr.pc
+drwxr-xr-x -          -                 120 ./usr/include/attr
+-rw-r--r-- -          -                7260 ./usr/include/attr/attributes.h
+-rw-r--r-- -          -                1555 ./usr/include/attr/error_context.h
+-rw-r--r-- -          -                1388 ./usr/include/attr/libattr.h
+-rw-r--r-- -          -                2560 ./usr/include/attr/xattr.h
+drwxr-xr-x -          -                 100 ./usr/lib
+-rw-r--r-- -          -               18616 ./usr/lib/libattr.so.1.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libattr.so.1 -> libattr.so.1.1.0
+lrwxrwxrwx -          -                  12 ./usr/lib/libattr.so -> libattr.so.1
 drwxr-xr-x -          -                  40 ./usr/share

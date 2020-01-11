@@ -1,0 +1,9 @@
+PV = 9100h
+PR = r0
+PKGR = r0.20
+RPROVIDES = 
+RDEPENDS = anthy (= 9100h-r0.20) libanthy0
+RRECOMMENDS = libanthy0-dev musl-dev
+PKGSIZE = 8981
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/anthy/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/anthy/anthy.h /usr/include/anthy/dicutil.h /usr/include/anthy/input.h /usr/lib/libanthy.so /usr/lib/libanthydic.so /usr/lib/libanthyinput.so /usr/lib/pkgconfig/anthy.pc
