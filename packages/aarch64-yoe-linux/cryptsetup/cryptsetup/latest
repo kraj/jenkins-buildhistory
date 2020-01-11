@@ -1,0 +1,9 @@
+PV = 2.2.2
+PR = r0
+PKGR = r0.9
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30.9000) json-c (>= 0.13.1) libcrypto (>= 1.1.1d) libdevmapper libssl (>= 1.1.1d) popt (>= 1.16) udev util-linux-libblkid (>= 2.34) util-linux-libuuid (>= 2.34)
+RRECOMMENDS = kernel-module-aes-generic kernel-module-cbc kernel-module-dm-crypt kernel-module-md5 kernel-module-sha256-generic kernel-module-xts
+PKGSIZE = 905111
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cryptsetup /usr/lib/cryptsetup/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tmpfiles.d/cryptsetup.conf
+FILELIST = /usr/lib/libcryptsetup.so.12 /usr/lib/libcryptsetup.so.12.5.0 /usr/sbin/cryptsetup /usr/sbin/cryptsetup-reencrypt /usr/sbin/integritysetup /usr/sbin/veritysetup
