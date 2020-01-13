@@ -1,0 +1,10 @@
+PV = 1.9.4
+PR = r0
+PKG = libcppunit1
+PKGR = r0.13
+RPROVIDES = poco-cppunit (=1.9.4)
+RDEPENDS = glibc (>= 2.30.9000) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0)
+RRECOMMENDS = 
+PKGSIZE = 85272
+FILES = /usr/lib/libCppUnit.so*
+FILELIST = /usr/lib/libCppUnit.so /usr/lib/libCppUnit.so.1

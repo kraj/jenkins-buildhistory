@@ -1,0 +1,9 @@
+PV = git
+PR = r0
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = opencl-icd-loader (= git-r0.13)
+RRECOMMENDS = glibc-dev libicdlog-dev opencl-headers-dev
+PKGSIZE = 30
+FILES = /usr/lib/libOpenCL.so /usr/lib/libOpenCL.so.1
+FILELIST = /usr/lib/libOpenCL.so /usr/lib/libOpenCL.so.1
