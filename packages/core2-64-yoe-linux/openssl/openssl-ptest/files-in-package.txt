@@ -414,7 +414,7 @@ drwxr-xr-x root       root             4320 ./usr/lib/openssl/ptest/test/certs
 -rw-r--r-- root       root             1708 ./usr/lib/openssl/ptest/test/certs/wrongkey.pem
 -rw-r--r-- root       root              899 ./usr/lib/openssl/ptest/test/certs/x509-check.csr
 -rw-r--r-- root       root             1704 ./usr/lib/openssl/ptest/test/certs/x509-check-key.pem
--rwxr-xr-x root       root          2326880 ./usr/lib/openssl/ptest/test/chacha_internal_test
+-rwxr-xr-x root       root          2322784 ./usr/lib/openssl/ptest/test/chacha_internal_test
 -rw-r--r-- root       root             8197 ./usr/lib/openssl/ptest/test/chacha_internal_test.c
 -rwxr-xr-x root       root            51376 ./usr/lib/openssl/ptest/test/cipherbytes_test
 -rw-r--r-- root       root             4456 ./usr/lib/openssl/ptest/test/cipherbytes_test.c
@@ -468,7 +468,7 @@ drwxr-xr-x root       root              240 ./usr/lib/openssl/ptest/test/d2i-tes
 -rw-r--r-- root       root             1806 ./usr/lib/openssl/ptest/test/drbg_cavs_data.h
 -rwxr-xr-x root       root          2756624 ./usr/lib/openssl/ptest/test/drbg_cavs_test
 -rw-r--r-- root       root             7677 ./usr/lib/openssl/ptest/test/drbg_cavs_test.c
--rwxr-xr-x root       root          2349208 ./usr/lib/openssl/ptest/test/drbgtest
+-rwxr-xr-x root       root          2345112 ./usr/lib/openssl/ptest/test/drbgtest
 -rw-r--r-- root       root            30925 ./usr/lib/openssl/ptest/test/drbgtest.c
 -rw-r--r-- root       root            26558 ./usr/lib/openssl/ptest/test/drbgtest.h
 -rwxr-xr-x root       root            51936 ./usr/lib/openssl/ptest/test/dsa_no_digest_size_test
@@ -638,7 +638,7 @@ drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/test/ossl_sh
 -rw-r--r-- root       root             4044 ./usr/lib/openssl/ptest/test/rc4test.c
 -rwxr-xr-x root       root            47264 ./usr/lib/openssl/ptest/test/rc5test
 -rw-r--r-- root       root             9044 ./usr/lib/openssl/ptest/test/rc5test.c
--rwxr-xr-x root       root          2326880 ./usr/lib/openssl/ptest/test/rdrand_sanitytest
+-rwxr-xr-x root       root          2322784 ./usr/lib/openssl/ptest/test/rdrand_sanitytest
 -rw-r--r-- root       root             3460 ./usr/lib/openssl/ptest/test/rdrand_sanitytest.c
 -rw-r--r-- root       root             4511 ./usr/lib/openssl/ptest/test/README
 -rw-r--r-- root       root             4730 ./usr/lib/openssl/ptest/test/README.external
@@ -1070,7 +1070,7 @@ drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/test/recipes
 -rw-r--r-- root       root            17438 ./usr/lib/openssl/ptest/test/siphash_internal_test.c
 -rwxr-xr-x root       root          2330976 ./usr/lib/openssl/ptest/test/sm2_internal_test
 -rw-r--r-- root       root            11685 ./usr/lib/openssl/ptest/test/sm2_internal_test.c
--rwxr-xr-x root       root          2326880 ./usr/lib/openssl/ptest/test/sm4_internal_test
+-rwxr-xr-x root       root          2322784 ./usr/lib/openssl/ptest/test/sm4_internal_test
 -rw-r--r-- root       root             2316 ./usr/lib/openssl/ptest/test/sm4_internal_test.c
 -rw-r--r-- root       root               83 ./usr/lib/openssl/ptest/test/smcont.txt
 drwxr-xr-x root       root              320 ./usr/lib/openssl/ptest/test/smime-certs
@@ -1201,7 +1201,7 @@ drwxr-xr-x root       root              800 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root             6016 ./usr/lib/openssl/ptest/test/testutil/cb.o
 -rw-r--r-- root       root             8191 ./usr/lib/openssl/ptest/test/testutil/driver.c
 -rw-r--r-- root       root              922 ./usr/lib/openssl/ptest/test/testutil/driver.d
--rw-r--r-- root       root            25016 ./usr/lib/openssl/ptest/test/testutil/driver.o
+-rw-r--r-- root       root            25024 ./usr/lib/openssl/ptest/test/testutil/driver.o
 -rw-r--r-- root       root            17098 ./usr/lib/openssl/ptest/test/testutil/format_output.c
 -rw-r--r-- root       root              939 ./usr/lib/openssl/ptest/test/testutil/format_output.d
 -rw-r--r-- root       root            44512 ./usr/lib/openssl/ptest/test/testutil/format_output.o
@@ -1221,7 +1221,7 @@ drwxr-xr-x root       root              800 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root             6720 ./usr/lib/openssl/ptest/test/testutil/random.o
 -rw-r--r-- root       root             3944 ./usr/lib/openssl/ptest/test/testutil/stanza.c
 -rw-r--r-- root       root              878 ./usr/lib/openssl/ptest/test/testutil/stanza.d
--rw-r--r-- root       root            19208 ./usr/lib/openssl/ptest/test/testutil/stanza.o
+-rw-r--r-- root       root            19320 ./usr/lib/openssl/ptest/test/testutil/stanza.o
 -rw-r--r-- root       root             4116 ./usr/lib/openssl/ptest/test/testutil/tap_bio.c
 -rw-r--r-- root       root              834 ./usr/lib/openssl/ptest/test/testutil/tap_bio.d
 -rw-r--r-- root       root            17248 ./usr/lib/openssl/ptest/test/testutil/tap_bio.o
