@@ -1,0 +1,9 @@
+PV = 5.8.2
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.24+git4+70d8060955) strongswan
+RRECOMMENDS = 
+PKGSIZE = 18974
+FILES = /usr/lib/ipsec/plugins/libstrongswan-pem.so /etc/strongswan.d/charon/pem.conf
+FILELIST = /etc/strongswan.d/charon/pem.conf /usr/lib/ipsec/plugins/libstrongswan-pem.so

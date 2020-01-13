@@ -1,0 +1,10 @@
+PV = 2.1.0
+PR = r0
+PKG = libglew-bin
+PKGR = r0.23
+RPROVIDES = glew-bin (=2.1.0)
+RDEPENDS = glew (>= 2.1.0) libgl-mesa (>= 19.3.1) libx11 (>= 1.6.9) musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 481900
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/glewinfo /usr/bin/visualinfo
