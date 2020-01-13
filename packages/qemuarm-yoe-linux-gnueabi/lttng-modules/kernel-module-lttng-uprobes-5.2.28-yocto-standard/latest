@@ -1,9 +1,0 @@
-PV = 2.11.0
-PR = r0
-PKGR = r0.8
-RPROVIDES = kernel-module-lttng-uprobes
-RDEPENDS = kernel-5.2.28-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 6380
-FILES = /lib/modules/5.2.28-yocto-standard/kernel/lttng-modules/probes/lttng-uprobes.ko /etc/modules-load.d/lttng-uprobes.conf /etc/modprobe.d/lttng-uprobes.conf
-FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/lttng-modules/probes/lttng-uprobes.ko
