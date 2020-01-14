@@ -1,0 +1,10 @@
+PV = 9.2.0
+PR = r0
+PKG = libgomp1
+PKGR = r0.21
+RPROVIDES = libgomp (=9.2.0)
+RDEPENDS = musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 202688
+FILES = /usr/lib/libgomp*.so.*
+FILELIST = /usr/lib/libgomp.so.1 /usr/lib/libgomp.so.1.0.0

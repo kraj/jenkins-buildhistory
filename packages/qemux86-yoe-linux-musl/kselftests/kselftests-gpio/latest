@@ -1,0 +1,9 @@
+PV = 4.10
+PR = r0
+PKGR = r0.23
+RPROVIDES = 
+RDEPENDS = bash musl (>= 1.1.24+git4+70d8060955) util-linux-libmount (>= 2.34)
+RRECOMMENDS = 
+PKGSIZE = 20400
+FILES = /usr/bin/kselftests/gpio
+FILELIST = /usr/bin/kselftests/gpio/gpio-mockup-chardev /usr/bin/kselftests/gpio/gpio-mockup-sysfs.sh /usr/bin/kselftests/gpio/gpio-mockup.sh

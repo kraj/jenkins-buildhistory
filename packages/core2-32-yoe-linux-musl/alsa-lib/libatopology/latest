@@ -1,0 +1,10 @@
+PV = 1.2.1.2
+PR = r0
+PKG = libatopology2
+PKGR = r0.3
+RPROVIDES = libatopology (=1.2.1.2)
+RDEPENDS = alsa-lib (>= 1.2.1.2) alsa-topology-conf musl (>= 1.1.24+git4+70d8060955)
+RRECOMMENDS = 
+PKGSIZE = 79365
+FILES = /usr/lib/libatopology.so.*
+FILELIST = /usr/lib/libatopology.so.2 /usr/lib/libatopology.so.2.0.0

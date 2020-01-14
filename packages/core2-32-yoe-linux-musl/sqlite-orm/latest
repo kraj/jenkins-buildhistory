@@ -1,0 +1,5 @@
+PV = 1.5
+PR = r0
+DEPENDS = cmake-native ninja-native sqlite3 virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = sqlite-orm-src sqlite-orm-dbg sqlite-orm-staticdev sqlite-orm-dev sqlite-orm-doc sqlite-orm-locale sqlite-orm
+LAYER = openembedded-layer
