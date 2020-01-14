@@ -1,0 +1,10 @@
+PV = 0.6.55
+PR = r0
+PKG = libaccountsservice-dev
+PKGR = r0.21
+RPROVIDES = accountsservice-dev (=0.6.55)
+RDEPENDS = accountsservice (= 0.6.55-r0.21)
+RRECOMMENDS = dbus-dev glib-2.0-dev glibc-dev gobject-introspection-dev libsystemd-dev libxcrypt-dev polkit-dev systemd-dev
+PKGSIZE = 129055
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/accountsservice/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
+FILELIST = /usr/include/accountsservice-1.0/act/act-user-enum-types.h /usr/include/accountsservice-1.0/act/act-user-manager.h /usr/include/accountsservice-1.0/act/act-user.h /usr/include/accountsservice-1.0/act/act.h /usr/lib/libaccountsservice.so /usr/lib/pkgconfig/accountsservice.pc /usr/share/gir-1.0/AccountsService-1.0.gir
