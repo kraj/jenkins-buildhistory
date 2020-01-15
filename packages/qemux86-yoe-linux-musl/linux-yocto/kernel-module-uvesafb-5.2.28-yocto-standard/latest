@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.0
+RPROVIDES = kernel-module-uvesafb
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 34111
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/video/fbdev/uvesafb.ko /etc/modules-load.d/uvesafb.conf /etc/modprobe.d/uvesafb.conf
+FILELIST = /etc/modprobe.d/uvesafb.conf /etc/modules-load.d/uvesafb.conf /lib/modules/5.2.28-yocto-standard/kernel/drivers/video/fbdev/uvesafb.ko
