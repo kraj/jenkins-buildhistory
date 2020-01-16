@@ -1,0 +1,19 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/tmpfiles.d
+-rw-r--r-- root       root               54 ./etc/tmpfiles.d/gstd.conf
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root            27952 ./usr/bin/gst-client-1.0
+lrwxrwxrwx root       root               14 ./usr/bin/gst-client -> gst-client-1.0
+-rwxr-xr-x root       root            18584 ./usr/bin/gstd
+lrwxrwxrwx root       root               14 ./usr/bin/gstd-client -> gst-client-1.0
+drwxr-xr-x root       root              120 ./usr/lib
+-rwxr-xr-x root       root            30816 ./usr/lib/libgstc-1.0.so.0.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libgstc-1.0.so.0 -> libgstc-1.0.so.0.0.0
+-rwxr-xr-x root       root           174760 ./usr/lib/libgstd-core.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libgstd-core.so.0 -> libgstd-core.so.0.0.0
+drwxr-xr-x root       root               80 ./var
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxrwxrwx root       root               40 ./var/volatile/log/gstd

@@ -1,9 +1,0 @@
-PV = 2.11.0
-PR = r0
-PKGR = r0.0
-RPROVIDES = kernel-module-lttng-kprobes
-RDEPENDS = kernel-5.2.28-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 5208
-FILES = /lib/modules/5.2.28-yocto-standard/kernel/lttng-modules/probes/lttng-kprobes.ko /etc/modules-load.d/lttng-kprobes.conf /etc/modprobe.d/lttng-kprobes.conf
-FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/lttng-modules/probes/lttng-kprobes.ko

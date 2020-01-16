@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-tun
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 69696
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/tun.ko /etc/modules-load.d/tun.conf /etc/modprobe.d/tun.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/tun.ko
