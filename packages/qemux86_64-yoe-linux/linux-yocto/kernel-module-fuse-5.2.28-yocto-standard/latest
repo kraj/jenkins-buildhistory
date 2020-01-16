@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-fuse
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 178184
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/fs/fuse/fuse.ko /etc/modules-load.d/fuse.conf /etc/modprobe.d/fuse.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/fs/fuse/fuse.ko
