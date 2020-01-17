@@ -1,0 +1,11 @@
+PV = 1.6.5
+PR = r0
+PKGR = r0.1
+RPROVIDES = xfce4-brightness-plugin
+RDEPENDS = atk (>= 2.32.0) cairo (>= 1.16.0) cairo-gobject (>= 1.16.0) gdk-pixbuf (>= 2.40.0) glib-2.0 (>= 2.62.4) glibc (>= 2.30.9000) gtk+3 (>= 3.24.13) harfbuzz (>= 2.6.4) libice (>= 1.0.10) libsm (>= 1.2.3) libx11 (>= 1.6.9) libxfce4ui-gtk3 (>= 4.14.1) libxfce4util (>= 4.14.0) libxrandr (>= 1.5.2) pango (>= 1.44.7) upower (>= 0.99.11) xfce4-panel-gtk3 (>= 4.14.1) xfce4-power-manager xfconf (>= 4.14.1)
+RRECOMMENDS = 
+RREPLACES = xfce4-brightness-plugin
+RCONFLICTS = xfce4-brightness-plugin
+PKGSIZE = 140476
+FILES = /usr/lib/xfce4 /usr/share/xfce4
+FILELIST = /usr/lib/xfce4/panel/plugins/libxfce4powermanager.so /usr/share/xfce4/panel/plugins/power-manager-plugin.desktop
