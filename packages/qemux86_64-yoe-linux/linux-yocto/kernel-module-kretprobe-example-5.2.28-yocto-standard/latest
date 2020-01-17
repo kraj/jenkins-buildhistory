@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.1
+RPROVIDES = kernel-module-kretprobe-example
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6560
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/samples/kprobes/kretprobe_example.ko /etc/modules-load.d/kretprobe_example.conf /etc/modprobe.d/kretprobe_example.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/samples/kprobes/kretprobe_example.ko

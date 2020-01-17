@@ -1,0 +1,9 @@
+PV = 3.6.0
+PR = r0
+PKGR = r0.2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.30.9000) lmsensors-libsensors (>= 3.6.0) lmsensors-sensors rrdtool (>= 1.7.2)
+RRECOMMENDS = lmsensors-config-sensord
+PKGSIZE = 36615
+FILES = /usr/sbin/sensord /etc/init.d/sensord /lib/systemd/system/sensord.service /lib/systemd/system-preset/98-lmsensors-sensord.preset /lib/systemd/system/sensord.service
+FILELIST = /lib/systemd/system-preset/98-lmsensors-sensord.preset /lib/systemd/system/sensord.service /usr/sbin/sensord
