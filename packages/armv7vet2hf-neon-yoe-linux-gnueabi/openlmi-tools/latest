@@ -1,0 +1,5 @@
+PV = 0.10.5
+PR = r0
+DEPENDS = python-pywbem python3-m2crypto python3-native python3-native python3-pywbem-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = openlmi-tools-src openlmi-tools-dbg openlmi-tools-staticdev openlmi-tools-dev openlmi-tools-doc openlmi-tools-locale openlmi-tools
+LAYER = openembedded-layer
