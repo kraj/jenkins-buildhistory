@@ -1,0 +1,5 @@
+PV = 1.1.24+gitAUTOINC+91e662d1d9
+PR = r0
+DEPENDS = bsd-headers libgcc-initial libssp-nonshared linux-libc-headers virtual/i686-yoe-linux-musl-binutils virtual/i686-yoe-linux-musl-gcc
+PACKAGES = musl-src musl-dbg musl-glibc-compat musl-staticdev musl-dev musl-doc musl-locale musl
+LAYER = core
