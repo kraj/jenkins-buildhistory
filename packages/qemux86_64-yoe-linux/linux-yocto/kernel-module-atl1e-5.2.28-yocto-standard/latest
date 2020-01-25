@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-atl1e
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 55744
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/ethernet/atheros/atl1e/atl1e.ko /etc/modules-load.d/atl1e.conf /etc/modprobe.d/atl1e.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/ethernet/atheros/atl1e/atl1e.ko

@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-nf-nat-ftp
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-nf-conntrack-5.2.28-yocto-standard kernel-module-nf-conntrack-ftp-5.2.28-yocto-standard kernel-module-nf-nat-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7560
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/net/netfilter/nf_nat_ftp.ko /etc/modules-load.d/nf_nat_ftp.conf /etc/modprobe.d/nf_nat_ftp.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/net/netfilter/nf_nat_ftp.ko

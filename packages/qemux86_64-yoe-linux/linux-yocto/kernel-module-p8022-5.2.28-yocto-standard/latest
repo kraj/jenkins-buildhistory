@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-p8022
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-llc-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5000
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/net/802/p8022.ko /etc/modules-load.d/p8022.conf /etc/modprobe.d/p8022.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/net/802/p8022.ko

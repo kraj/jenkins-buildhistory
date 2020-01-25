@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-gspca-pac207
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-gspca-main-5.2.28-yocto-standard kernel-module-videodev-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 15848
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/media/usb/gspca/gspca_pac207.ko /etc/modules-load.d/gspca_pac207.conf /etc/modprobe.d/gspca_pac207.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/drivers/media/usb/gspca/gspca_pac207.ko

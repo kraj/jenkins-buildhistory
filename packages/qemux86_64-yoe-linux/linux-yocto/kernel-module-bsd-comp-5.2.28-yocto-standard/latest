@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-bsd-comp
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-ppp-generic-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11000
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko /etc/modules-load.d/bsd_comp.conf /etc/modprobe.d/bsd_comp.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko

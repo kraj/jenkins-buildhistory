@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-igbvf
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 59864
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/ethernet/intel/igbvf/igbvf.ko /etc/modules-load.d/igbvf.conf /etc/modprobe.d/igbvf.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/ethernet/intel/igbvf/igbvf.ko
