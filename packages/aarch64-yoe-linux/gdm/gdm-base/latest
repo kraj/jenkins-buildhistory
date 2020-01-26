@@ -1,0 +1,10 @@
+PV = 3.34.1
+PR = r0
+PKG = libgdm1
+PKGR = r0.5
+RPROVIDES = gdm-base (=3.34.1)
+RDEPENDS = glib-2.0 (>= 2.62.4) glibc (>= 2.30.9000) libsystemd (>= 243.2)
+RRECOMMENDS = 
+PKGSIZE = 312523
+FILES = /usr/share/glib-2.0 /usr/share/gnome-session /usr/lib/lib*.so.* /usr/lib/girepository-1.0
+FILELIST = /usr/lib/girepository-1.0/Gdm-1.0.typelib /usr/lib/libgdm.so.1 /usr/lib/libgdm.so.1.0.0 /usr/share/glib-2.0/schemas/org.gnome.login-screen.gschema.xml /usr/share/gnome-session/sessions/gnome-login.session

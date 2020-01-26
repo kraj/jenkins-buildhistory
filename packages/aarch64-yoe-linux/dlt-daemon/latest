@@ -1,0 +1,5 @@
+PV = 2.18.4
+PR = r0
+DEPENDS = autoconf-native automake-native cmake-native gettext-native gnu-config-native gzip-native libtool-cross libtool-native ninja-native systemd systemd-systemctl-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
+PACKAGES = dlt-daemon-src dlt-daemon-dbg dlt-daemon-staticdev dlt-daemon-dev dlt-daemon-doc dlt-daemon-locale dlt-daemon dlt-daemon-systemd
+LAYER = openembedded-layer
