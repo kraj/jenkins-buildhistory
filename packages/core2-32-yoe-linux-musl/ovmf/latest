@@ -1,0 +1,5 @@
+PV = edk2-stable201911
+PR = r0
+DEPENDS = acpica-native nasm-native ovmf-native util-linux-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = ovmf-src ovmf-dbg ovmf-shell-efi ovmf-staticdev ovmf-dev ovmf-doc ovmf-locale ovmf
+LAYER = core
