@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-net1080
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-usbnet-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8976
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/usb/net1080.ko /etc/modules-load.d/net1080.conf /etc/modprobe.d/net1080.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/drivers/net/usb/net1080.ko

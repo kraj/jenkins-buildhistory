@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-data-breakpoint
+RDEPENDS = kernel-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6400
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/samples/hw_breakpoint/data_breakpoint.ko /etc/modules-load.d/data_breakpoint.conf /etc/modprobe.d/data_breakpoint.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/samples/hw_breakpoint/data_breakpoint.ko

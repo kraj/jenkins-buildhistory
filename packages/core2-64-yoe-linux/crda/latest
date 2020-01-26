@@ -1,0 +1,5 @@
+PV = 3.18
+PR = r0
+DEPENDS = libgcrypt libnl python3-m2crypto-native python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = crda-src crda-dbg crda-staticdev crda-dev crda-doc crda-locale crda
+LAYER = networking-layer

@@ -1,0 +1,10 @@
+PV = 5.2.28+gitAUTOINC+dd6019025c_992280855e
+PR = r0
+PKGV = 5.2.28+git0+dd6019025c_992280855e
+PKGR = r0.5
+RPROVIDES = kernel-module-ip6-tunnel
+RDEPENDS = kernel-5.2.28-yocto-standard kernel-module-tunnel6-5.2.28-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 44272
+FILES = /lib/modules/5.2.28-yocto-standard/kernel/net/ipv6/ip6_tunnel.ko /etc/modules-load.d/ip6_tunnel.conf /etc/modprobe.d/ip6_tunnel.conf
+FILELIST = /lib/modules/5.2.28-yocto-standard/kernel/net/ipv6/ip6_tunnel.ko

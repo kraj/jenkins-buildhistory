@@ -1,0 +1,9 @@
+PV = 0.8.0
+PR = r0
+PKGR = r0.4
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.30.9000) glibc-utils libelf (>= 0.178)
+RRECOMMENDS = 
+PKGSIZE = 213790
+FILES = /usr/bin/kpatch-build /usr/libexec/* /usr/share/kpatch /usr/share/man/man1/kpatch-build.1.gz
+FILELIST = /usr/bin/kpatch-build /usr/libexec/kpatch/create-diff-object /usr/libexec/kpatch/create-klp-module /usr/libexec/kpatch/create-kpatch-module /usr/libexec/kpatch/kpatch-gcc /usr/share/kpatch/patch/Makefile /usr/share/kpatch/patch/kpatch-macros.h /usr/share/kpatch/patch/kpatch-patch-hook.c /usr/share/kpatch/patch/kpatch-patch.h /usr/share/kpatch/patch/kpatch.h /usr/share/kpatch/patch/kpatch.lds.S /usr/share/kpatch/patch/livepatch-patch-hook.c /usr/share/kpatch/patch/patch-hook.c /usr/share/man/man1/kpatch-build.1.gz
