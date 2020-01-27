@@ -1,0 +1,9 @@
+PV = 1.6.8
+PR = r0
+PKGR = r0.4
+RPROVIDES = 
+RDEPENDS = base-files base-passwd dlt-daemon (>= 2.18.4) libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) libsystemd (>= 243.2) libwebsockets (>= 3.2.0) musl (>= 1.1.24+git1+91e662d1d9) shadow
+RRECOMMENDS = 
+PKGSIZE = 355146
+FILES = /usr/sbin/mosquitto /usr/bin/mosquitto_passwd /etc/mosquitto /etc/init.d /lib/systemd/system/mosquitto.service /lib/systemd/system-preset/98-mosquitto.preset /lib/systemd/system/mosquitto.service
+FILELIST = /etc/mosquitto/mosquitto.conf /lib/systemd/system-preset/98-mosquitto.preset /lib/systemd/system/mosquitto.service /usr/bin/mosquitto_passwd /usr/sbin/mosquitto

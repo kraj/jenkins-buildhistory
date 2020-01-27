@@ -1,0 +1,10 @@
+PV = 12.1
+PR = r0
+PKG = libpgtypes3
+PKGR = r0.4
+RPROVIDES = libpgtypes (=12.1)
+RDEPENDS = musl (>= 1.1.24+git1+91e662d1d9)
+RRECOMMENDS = 
+PKGSIZE = 87594
+FILES = /usr/lib/libpgtypes*.so.*
+FILELIST = /usr/lib/libpgtypes.so.3 /usr/lib/libpgtypes.so.3.12

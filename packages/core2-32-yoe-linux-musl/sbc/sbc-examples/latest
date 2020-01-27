@@ -1,0 +1,10 @@
+PV = 1.4
+PR = r0
+PKG = libsbc-examples
+PKGR = r0.4
+RPROVIDES = sbc-examples (=1.4)
+RDEPENDS = musl (>= 1.1.24+git1+91e662d1d9)
+RRECOMMENDS = 
+PKGSIZE = 155848
+FILES = /usr/bin/*
+FILELIST = /usr/bin/sbcdec /usr/bin/sbcenc /usr/bin/sbcinfo

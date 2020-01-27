@@ -1,0 +1,9 @@
+PV = 1.6.6
+PR = r0
+PKGR = r0.3
+RPROVIDES = 
+RDEPENDS = bash musl (>= 1.1.24+git1+91e662d1d9) scsirastools
+RRECOMMENDS = 
+PKGSIZE = 60852
+FILES = /usr/sbin/sgraidmon /etc/init.d/sgraid
+FILELIST = /etc/init.d/sgraid /usr/sbin/sgraidmon
