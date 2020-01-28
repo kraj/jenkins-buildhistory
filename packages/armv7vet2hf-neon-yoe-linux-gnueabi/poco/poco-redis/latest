@@ -1,0 +1,10 @@
+PV = 1.9.4
+PR = r0
+PKG = libpocoredis64
+PKGR = r0.7
+RPROVIDES = poco-redis (=1.9.4)
+RDEPENDS = glibc (>= 2.30.9000) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) poco-foundation (>= 1.9.4) poco-net (>= 1.9.4)
+RRECOMMENDS = 
+PKGSIZE = 112328
+FILES = /usr/lib/libPocoRedis.so.64
+FILELIST = /usr/lib/libPocoRedis.so.64
