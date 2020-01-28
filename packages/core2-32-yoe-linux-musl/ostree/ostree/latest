@@ -1,0 +1,9 @@
+PV = 2019.6
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.62.4) gnupg gpgme (>= 1.13.1) libassuan (>= 2.5.3) libgpg-error (>= 1.36) liblzma (>= 5.2.4) libsoup-2.4 (>= 2.68.3) libsystemd (>= 243.2) musl (>= 1.1.24+git2+83350eb17b) ostree-switchroot util-linux-libmount (>= 2.34) zlib (>= 1.2.11)
+RRECOMMENDS = kernel-module-overlay
+PKGSIZE = 1182192
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ostree /usr/lib/ostree/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/ostree /usr/lib/tmpfiles.d /lib/systemd/system /lib/systemd/system-generators /usr/lib/girepository-*/*.typelib /lib/systemd/system-preset/98-ostree.preset /lib/systemd/system/ostree-remount.service /lib/systemd/system/ostree-finalize-staged.path
+FILELIST = /lib/systemd/system-generators/ostree-system-generator /lib/systemd/system-preset/98-ostree.preset /lib/systemd/system/ostree-finalize-staged.path /lib/systemd/system/ostree-finalize-staged.service /lib/systemd/system/ostree-remount.service /usr/bin/ostree /usr/lib/girepository-1.0/OSTree-1.0.typelib /usr/lib/libostree-1.so.1 /usr/lib/libostree-1.so.1.0.0 /usr/lib/ostree/ostree-remount /usr/lib/tmpfiles.d/ostree-tmpfiles.conf /usr/share/ostree/trusted.gpg.d/README-gpg

@@ -1,0 +1,9 @@
+PV = 0.2.7
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.2.1.2) dbus-lib (>= 1.12.16) libudev (>= 243.2) musl (>= 1.1.24+git2+83350eb17b)
+RRECOMMENDS = 
+PKGSIZE = 732516
+FILES = /usr/bin/spa-* /usr/lib/spa/*
+FILELIST = /usr/bin/spa-inspect /usr/bin/spa-monitor /usr/lib/spa/alsa/libspa-alsa.so /usr/lib/spa/audiomixer/libspa-audiomixer.so /usr/lib/spa/audiotestsrc/libspa-audiotestsrc.so /usr/lib/spa/support/libspa-dbus.so /usr/lib/spa/support/libspa-support.so /usr/lib/spa/test/libspa-test.so /usr/lib/spa/v4l2/libspa-v4l2.so /usr/lib/spa/videotestsrc/libspa-videotestsrc.so /usr/lib/spa/volume/libspa-volume.so

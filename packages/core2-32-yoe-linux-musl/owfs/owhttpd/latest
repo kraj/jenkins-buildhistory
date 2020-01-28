@@ -1,0 +1,9 @@
+PV = 3.2p3
+PR = r0
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = libow (>= 3.2p3) musl (>= 1.1.24+git2+83350eb17b)
+RRECOMMENDS = 
+PKGSIZE = 38455
+FILES = /usr/bin/owhttpd /etc/init.d/owhttpd /lib/systemd/system/owhttpd.service
+FILELIST = /lib/systemd/system/owhttpd.service /usr/bin/owhttpd

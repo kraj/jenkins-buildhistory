@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop srp_daemon.service iwpmd.service ibacm.socket rdma-load-modules@.service srp_daemon_port@.service rdma-hw.target ibacm.service
+
+		systemctl disable srp_daemon.service iwpmd.service ibacm.socket rdma-load-modules@.service srp_daemon_port@.service rdma-hw.target ibacm.service
+	fi
+fi
