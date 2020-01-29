@@ -1,0 +1,10 @@
+PV = 3.8.1
+PR = r0
+PKG = libpython3.8-1.0
+PKGR = r0.3
+RPROVIDES = libpython3 (=3.8.1)
+RDEPENDS = glibc (>= 2.30.9000) libgcc
+RRECOMMENDS = 
+PKGSIZE = 3251688
+FILES = /usr/lib/libpython*.so.*
+FILELIST = /usr/lib/libpython3.8.so.1.0
