@@ -1,0 +1,10 @@
+PV = 0.6.55
+PR = r0
+PKG = libaccountsservice-dbg
+PKGR = r0.8
+RPROVIDES = accountsservice-dbg (=0.6.55)
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libsystemd-dbg libxcrypt-dbg polkit-dbg
+PKGSIZE = 1262956
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libaccountsservice.so.0.0.0 /usr/libexec/.debug/accounts-daemon
