@@ -1,0 +1,5 @@
+PV = 1.1.5
+PR = r0
+DEPENDS = curl meson-native ninja-native python3-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zstd
+PACKAGES = zchunk-src zchunk-dbg zchunk-staticdev zchunk-dev zchunk-doc zchunk-locale zchunk
+LAYER = openembedded-layer

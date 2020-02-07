@@ -1,0 +1,10 @@
+PV = 1.5.6
+PR = r0
+PKG = libpyldb-util.cpython-38-aarch64-linux-gnu1
+PKGR = r0.0
+RPROVIDES = pyldb (=1.5.6)
+RDEPENDS = glibc (>= 2.31) libldb (>= 1.5.6) libpython3 (>= 3.8.1) libtalloc (>= 2.3.0) libtdb (>= 1.4.2) libtevent (>= 0.10.1) libxcrypt (>= 4.4.10) python3
+RRECOMMENDS = 
+PKGSIZE = 212955
+FILES = /usr/lib/python3.8/site-packages/* /usr/lib/libpyldb-util.*.so.*
+FILELIST = /usr/lib/libpyldb-util.cpython-38-aarch64-linux-gnu.so.1 /usr/lib/libpyldb-util.cpython-38-aarch64-linux-gnu.so.1.5.6 /usr/lib/python3.8/site-packages/_ldb_text.py /usr/lib/python3.8/site-packages/ldb.cpython-38-aarch64-linux-gnu.so
