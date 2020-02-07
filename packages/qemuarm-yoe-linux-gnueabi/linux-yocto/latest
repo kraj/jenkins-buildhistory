@@ -1,0 +1,5 @@
+PV = 5.4.15
+PR = r0
+DEPENDS = bc-native bc-native bison-native kmod-native lzop-native openssl-native util-linux-native virtual/arm-yoe-linux-gnueabi-binutils virtual/arm-yoe-linux-gnueabi-gcc xz-native
+PACKAGES = linux-yocto-src kernel kernel-base kernel-vmlinux kernel-image kernel-dev kernel-modules kernel-devicetree kernel-image-zimage
+LAYER = core

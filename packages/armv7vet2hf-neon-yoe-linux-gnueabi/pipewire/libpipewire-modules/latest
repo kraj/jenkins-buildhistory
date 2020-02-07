@@ -1,9 +1,9 @@
 PV = 0.2.7
 PR = r0
 PKG = libpipewire-0.2-modules
-PKGR = r0.8
+PKGR = r0.0
 RPROVIDES = libpipewire-modules (=0.2.7)
-RDEPENDS = dbus-lib (>= 1.12.16) glibc (>= 2.30.9000) libpipewire (>= 0.2.7) libsystemd (>= 243.4+git0+70e8c1978a)
+RDEPENDS = dbus-lib (>= 1.12.16) glibc (>= 2.31) libpipewire (>= 0.2.7) libsystemd (>= 243.4+git0+70e8c1978a)
 RRECOMMENDS = 
 PKGSIZE = 252680
 FILES = /usr/lib/pipewire-*/*
