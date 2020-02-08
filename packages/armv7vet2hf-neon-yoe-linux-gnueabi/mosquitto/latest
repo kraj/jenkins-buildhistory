@@ -1,0 +1,5 @@
+PV = 1.6.8
+PR = r0
+DEPENDS = base-files base-passwd c-ares cmake-native dlt-daemon libwebsockets ninja-native openssl shadow shadow-native shadow-sysroot systemd systemd-systemctl-native uthash virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = mosquitto-src mosquitto-dbg mosquitto-staticdev mosquitto-dev mosquitto-doc mosquitto-locale mosquitto-examples mosquitto libmosquitto1 libmosquittopp1 mosquitto-clients
+LAYER = networking-layer
