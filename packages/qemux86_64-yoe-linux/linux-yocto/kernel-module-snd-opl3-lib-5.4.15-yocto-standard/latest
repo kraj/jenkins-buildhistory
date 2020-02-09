@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-opl3-lib
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-snd-5.4.15-yocto-standard kernel-module-snd-hwdep-5.4.15-yocto-standard kernel-module-snd-seq-device-5.4.15-yocto-standard kernel-module-snd-timer-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 18520
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/sound/drivers/opl3/snd-opl3-lib.ko /etc/modules-load.d/snd-opl3-lib.conf /etc/modprobe.d/snd-opl3-lib.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/sound/drivers/opl3/snd-opl3-lib.ko

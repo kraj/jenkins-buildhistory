@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-ipip
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 15536
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/ipv4/ipip.ko /etc/modules-load.d/ipip.conf /etc/modprobe.d/ipip.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/ipv4/ipip.ko

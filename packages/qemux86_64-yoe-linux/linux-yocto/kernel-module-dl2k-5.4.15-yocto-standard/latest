@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-dl2k
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 44720
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/dlink/dl2k.ko /etc/modules-load.d/dl2k.conf /etc/modprobe.d/dl2k.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/dlink/dl2k.ko
