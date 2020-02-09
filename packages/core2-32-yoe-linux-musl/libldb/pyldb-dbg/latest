@@ -1,0 +1,10 @@
+PV = 1.5.6
+PR = r0
+PKG = libpyldb-util.cpython-38-i686-linux-musl-dbg
+PKGR = r0.1
+RPROVIDES = pyldb-dbg (=1.5.6)
+RDEPENDS = 
+RRECOMMENDS = libldb-dbg libpython3-dbg libtalloc-dbg libtdb-dbg libtevent-dbg musl-dbg popt-dbg
+PKGSIZE = 190480
+FILES = /usr/lib/python3.8/site-packages/.debug /usr/lib/.debug/libpyldb-util.*.so.*
+FILELIST = /usr/lib/.debug/libpyldb-util.cpython-38-i686-linux-musl.so.1.5.6 /usr/lib/python3.8/site-packages/.debug/ldb.cpython-38-i686-linux-musl.so

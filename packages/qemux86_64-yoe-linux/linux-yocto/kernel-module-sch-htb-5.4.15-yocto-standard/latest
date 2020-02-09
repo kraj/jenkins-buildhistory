@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-sch-htb
-RDEPENDS = kernel-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 31960
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/sched/sch_htb.ko /etc/modules-load.d/sch_htb.conf /etc/modprobe.d/sch_htb.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/sched/sch_htb.ko

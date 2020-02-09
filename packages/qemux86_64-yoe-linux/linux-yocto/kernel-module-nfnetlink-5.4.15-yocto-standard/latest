@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-nfnetlink
-RDEPENDS = kernel-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 15736
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/nfnetlink.ko /etc/modules-load.d/nfnetlink.conf /etc/modprobe.d/nfnetlink.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/nfnetlink.ko
