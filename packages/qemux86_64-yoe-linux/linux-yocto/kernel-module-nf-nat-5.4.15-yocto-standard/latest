@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-nat
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-nf-conntrack-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 45280
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/nf_nat.ko /etc/modules-load.d/nf_nat.conf /etc/modprobe.d/nf_nat.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/nf_nat.ko
