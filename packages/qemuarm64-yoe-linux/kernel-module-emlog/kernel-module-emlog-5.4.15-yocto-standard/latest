@@ -1,0 +1,9 @@
+PV = git
+PR = r0
+PKGR = r0.0
+RPROVIDES = kernel-module-emlog
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 20888
+FILES = /lib/modules/5.4.15-yocto-standard/emlog/emlog.ko /etc/modules-load.d/emlog.conf /etc/modprobe.d/emlog.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/emlog/emlog.ko
