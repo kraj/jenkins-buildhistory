@@ -1,9 +1,9 @@
 PV = 1.29
 PR = r0
 PKG = libteam5
-PKGR = r0.5
+PKGR = r0.1
 RPROVIDES = libteam (=1.29)
-RDEPENDS = libnl (>= 3.5.0) libnl-cli (>= 3.5.0) libnl-genl (>= 3.5.0) libnl-nf (>= 3.5.0) libnl-route (>= 3.5.0) musl (>= 1.1.24+git2+83350eb17b)
+RDEPENDS = libnl (>= 3.5.0) libnl-cli (>= 3.5.0) libnl-genl (>= 3.5.0) libnl-nf (>= 3.5.0) libnl-route (>= 3.5.0) musl (>= 1.1.24+git0+e6093b5a87)
 RRECOMMENDS = 
 PKGSIZE = 54780
 FILES = /usr/lib/libteam.so.*

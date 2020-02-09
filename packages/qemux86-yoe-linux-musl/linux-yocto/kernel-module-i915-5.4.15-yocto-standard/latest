@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.4
+RPROVIDES = kernel-module-i915
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-backlight-5.4.15-yocto-standard kernel-module-video-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 1938156
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko /etc/modules-load.d/i915.conf /etc/modprobe.d/i915.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko

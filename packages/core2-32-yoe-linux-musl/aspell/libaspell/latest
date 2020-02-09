@@ -1,9 +1,9 @@
 PV = 0.60.8
 PR = r0
 PKG = libaspell15
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = libaspell (=0.60.8)
-RDEPENDS = libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.24+git2+83350eb17b)
+RDEPENDS = libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) musl (>= 1.1.24+git0+e6093b5a87)
 RRECOMMENDS = 
 PKGSIZE = 2100694
 FILES = /usr/lib/libaspell.so.* /usr/lib/aspell*

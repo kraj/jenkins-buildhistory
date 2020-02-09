@@ -1,8 +1,8 @@
 PV = 3.02
 PR = r0
-PKGR = r0.5
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = libencode-perl musl (>= 1.1.24+git2+83350eb17b) perl perl-module-blib perl-module-charnames perl-module-file-compare perl-module-file-copy perl-module-filehandle perl-module-findbin perl-module-integer perl-module-io-select perl-module-ipc-open3 perl-module-mime-base64 perl-module-perlio perl-module-perlio-encoding perl-module-perlio-scalar perl-module-test-more perl-module-tie-scalar perl-module-unicore perl-module-utf8
+RDEPENDS = libencode-perl musl (>= 1.1.24+git0+e6093b5a87) perl perl-module-blib perl-module-charnames perl-module-file-compare perl-module-file-copy perl-module-filehandle perl-module-findbin perl-module-integer perl-module-io-select perl-module-ipc-open3 perl-module-mime-base64 perl-module-perlio perl-module-perlio-encoding perl-module-perlio-scalar perl-module-test-more perl-module-tie-scalar perl-module-unicore perl-module-utf8
 RRECOMMENDS = ptest-runner
 PKGSIZE = 5714175
 FILES = /usr/lib/libencode-perl/ptest/t/* /usr/lib/libencode-perl/ptest/run-ptest /usr/lib/libencode-perl/ptest

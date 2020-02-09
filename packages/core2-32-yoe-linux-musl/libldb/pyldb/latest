@@ -1,9 +1,9 @@
 PV = 1.5.6
 PR = r0
 PKG = libpyldb-util.cpython-38-i686-linux-musl1
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = pyldb (=1.5.6)
-RDEPENDS = libldb (>= 1.5.6) libpython3 (>= 3.8.1) libtalloc (>= 2.3.0) libtdb (>= 1.4.2) libtevent (>= 0.10.1) musl (>= 1.1.24+git2+83350eb17b) python3
+RDEPENDS = libldb (>= 1.5.6) libpython3 (>= 3.8.1) libtalloc (>= 2.3.0) libtdb (>= 1.4.2) libtevent (>= 0.10.1) musl (>= 1.1.24+git0+e6093b5a87) python3
 RRECOMMENDS = 
 PKGSIZE = 109329
 FILES = /usr/lib/python3.8/site-packages/* /usr/lib/libpyldb-util.*.so.*

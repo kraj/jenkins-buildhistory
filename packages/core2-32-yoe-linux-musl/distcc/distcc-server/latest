@@ -1,8 +1,8 @@
 PV = 3.3.3
 PR = r0
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = base-files base-passwd libavahi-client (>= 0.7) libavahi-common (>= 0.7) musl (>= 1.1.24+git2+83350eb17b) popt (>= 1.16) shadow
+RDEPENDS = base-files base-passwd libavahi-client (>= 0.7) libavahi-common (>= 0.7) musl (>= 1.1.24+git0+e6093b5a87) popt (>= 1.16) shadow
 RRECOMMENDS = avahi-daemon
 PKGSIZE = 151781
 FILES = /etc /usr/bin/distccd /usr/sbin /lib/systemd/system-preset/98-distcc-server.preset /lib/systemd/system/distcc.service

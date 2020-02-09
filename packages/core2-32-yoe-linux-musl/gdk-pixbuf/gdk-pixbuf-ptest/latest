@@ -1,9 +1,9 @@
 PV = 2.40.0
 PR = r0
 PKG = libgdk-pixbuf-2.0-ptest
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = gdk-pixbuf-ptest (=2.40.0)
-RDEPENDS = gdk-pixbuf (>= 2.40.0) gdk-pixbuf-loader-ani gdk-pixbuf-loader-bmp gdk-pixbuf-loader-gif gdk-pixbuf-loader-icns gdk-pixbuf-loader-ico gdk-pixbuf-loader-jpeg gdk-pixbuf-loader-png gdk-pixbuf-loader-pnm gdk-pixbuf-loader-qtif gdk-pixbuf-loader-tga gdk-pixbuf-loader-xbm gdk-pixbuf-loader-xpm glib-2.0 (>= 2.62.4) gnome-desktop-testing musl (>= 1.1.24+git2+83350eb17b)
+RDEPENDS = gdk-pixbuf (>= 2.40.0) gdk-pixbuf-loader-ani gdk-pixbuf-loader-bmp gdk-pixbuf-loader-gif gdk-pixbuf-loader-icns gdk-pixbuf-loader-ico gdk-pixbuf-loader-jpeg gdk-pixbuf-loader-png gdk-pixbuf-loader-pnm gdk-pixbuf-loader-qtif gdk-pixbuf-loader-tga gdk-pixbuf-loader-xbm gdk-pixbuf-loader-xpm glib-2.0 (>= 2.62.4) gnome-desktop-testing musl (>= 1.1.24+git0+e6093b5a87)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 18815372
 FILES = /usr/lib/gdk-pixbuf/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/

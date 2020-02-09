@@ -1,9 +1,9 @@
 PV = 0.13.0
 PR = r0
 PKG = libthrift-c-glib0.13.0
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = libthrift-c-glib (=0.13.0)
-RDEPENDS = glib-2.0 (>= 2.62.4) libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) musl (>= 1.1.24+git2+83350eb17b)
+RDEPENDS = glib-2.0 (>= 2.62.4) libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) musl (>= 1.1.24+git0+e6093b5a87)
 RRECOMMENDS = 
 PKGSIZE = 148920
 FILES = /usr/lib/libthrift_c_glib.so.*

@@ -1,9 +1,9 @@
 PV = 2.1.11
 PR = r0
 PKG = libevent-2.1-ptest
-PKGR = r0.5
+PKGR = r0.1
 RPROVIDES = libevent-ptest (=2.1.11)
-RDEPENDS = libevent libevent-core (>= 2.1.11) libevent-extra (>= 2.1.11) libevent-pthreads (>= 2.1.11) musl (>= 1.1.24+git2+83350eb17b) zlib (>= 1.2.11)
+RDEPENDS = libevent libevent-core (>= 2.1.11) libevent-extra (>= 2.1.11) libevent-pthreads (>= 2.1.11) musl (>= 1.1.24+git0+e6093b5a87) zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 842153
 FILES = /usr/lib/libevent/ptest

@@ -1,9 +1,9 @@
 PV = 2.1.20191006
 PR = r0
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = iptables-dbg libmnl-dbg libnetfilter-conntrack-dbg musl-dbg
-PKGSIZE = 337340
-FILES = /usr/lib/debug /usr/src/debug
+RRECOMMENDS = iptables-dbg libmnl-dbg libnetfilter-conntrack-dbg musl-dbg util-linux-libuuid-dbg
+PKGSIZE = 337584
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/sbin/.debug/miniupnpd

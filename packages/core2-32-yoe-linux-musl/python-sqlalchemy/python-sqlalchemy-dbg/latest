@@ -1,9 +1,9 @@
 PV = 1.3.12
 PR = r0
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = libpython2-dbg musl-dbg
 PKGSIZE = 85300
-FILES = /usr/lib/debug /usr/src/debug
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/lib/python2.7/site-packages/sqlalchemy/.debug/cprocessors.so /usr/lib/python2.7/site-packages/sqlalchemy/.debug/cresultproxy.so /usr/lib/python2.7/site-packages/sqlalchemy/.debug/cutils.so

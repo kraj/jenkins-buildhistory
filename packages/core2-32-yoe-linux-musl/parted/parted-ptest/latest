@@ -1,8 +1,8 @@
 PV = 3.3
 PR = r0
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = bash coreutils e2fsprogs-mke2fs gawk make musl (>= 1.1.24+git2+83350eb17b) parted (>= 3.3) perl python3 util-linux-losetup
+RDEPENDS = bash coreutils e2fsprogs-mke2fs gawk make musl (>= 1.1.24+git0+e6093b5a87) parted (>= 3.3) perl python3 util-linux-losetup
 RRECOMMENDS = ptest-runner
 PKGSIZE = 433433
 FILES = /usr/lib/parted/ptest

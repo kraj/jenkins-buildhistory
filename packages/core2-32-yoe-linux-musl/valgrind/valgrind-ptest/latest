@@ -1,8 +1,8 @@
 PV = 3.15.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = bash boost-thread (>= 1.72.0) coreutils file gdb libgcc (>= 9.2.0) libgomp libstdc++ (>= 9.2.0) musl (>= 1.1.24+git2+83350eb17b) perl perl-module-file-basename perl-module-file-glob perl-module-getopt-long procps sed valgrind valgrind-dbg valgrind-src
+RDEPENDS = bash boost-thread (>= 1.72.0) coreutils file gdb libgcc (>= 9.2.0) libgomp libstdc++ (>= 9.2.0) musl (>= 1.1.24+git0+e6093b5a87) perl perl-module-file-basename perl-module-file-glob perl-module-getopt-long procps sed valgrind valgrind-dbg valgrind-src
 RRECOMMENDS = ptest-runner
 PKGSIZE = 98865933
 FILES = /usr/lib/valgrind/ptest

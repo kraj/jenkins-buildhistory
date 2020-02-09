@@ -14,7 +14,7 @@ drwxr-xr-x root       root              280 ./etc/apache2/extra
 -rw-r--r-- root       root              694 ./etc/apache2/extra/httpd-userdir.conf
 -rw-r--r-- root       root             1479 ./etc/apache2/extra/httpd-vhosts.conf
 -rw-r--r-- root       root             3161 ./etc/apache2/extra/proxy-html.conf
--rw-r--r-- root       root            20734 ./etc/apache2/httpd.conf
+-rw-r--r-- root       root            20805 ./etc/apache2/httpd.conf
 -rw-r--r-- root       root            13064 ./etc/apache2/magic
 -rw-r--r-- root       root            60847 ./etc/apache2/mime.types
 drwxr-xr-x root       root               40 ./etc/apache2/modules.d
@@ -36,7 +36,7 @@ drwxr-xr-x root       root              160 ./usr/bin
 -rwxr-xr-x root       root             9528 ./usr/bin/logresolve
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/apache2
-drwxr-xr-x root       root             1860 ./usr/libexec/apache2/modules
+drwxr-xr-x root       root             1880 ./usr/libexec/apache2/modules
 drwxr-xr-x root       root              120 ./usr/libexec/apache2/modules/cgi-bin
 -rw-r--r-- root       root              820 ./usr/libexec/apache2/modules/cgi-bin/printenv
 -rw-r--r-- root       root             1074 ./usr/libexec/apache2/modules/cgi-bin/printenv.vbs
@@ -72,6 +72,7 @@ drwxr-xr-x root       root              120 ./usr/libexec/apache2/modules/cgi-bi
 -rwxr-xr-x root       root            54736 ./usr/libexec/apache2/modules/mod_dav_fs.so
 -rwxr-xr-x root       root           112024 ./usr/libexec/apache2/modules/mod_dav.so
 -rwxr-xr-x root       root            17816 ./usr/libexec/apache2/modules/mod_dbd.so
+-rwxr-xr-x root       root            34204 ./usr/libexec/apache2/modules/mod_deflate.so
 -rwxr-xr-x root       root             9620 ./usr/libexec/apache2/modules/mod_dir.so
 -rwxr-xr-x root       root             9628 ./usr/libexec/apache2/modules/mod_dumpio.so
 -rwxr-xr-x root       root             9624 ./usr/libexec/apache2/modules/mod_env.so
@@ -142,7 +143,8 @@ drwxr-xr-x root       root              160 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/apache2
 drwxr-xr-x root       root               60 ./usr/share/apache2/default-site
-drwxr-xr-x root       root               60 ./usr/share/apache2/default-site/htdocs
+drwxr-xr-x root       root               80 ./usr/share/apache2/default-site/htdocs
+-rw-r--r-- root       root               45 ./usr/share/apache2/default-site/htdocs/index.html
 drwxr-xr-x root       root             4100 ./usr/share/apache2/default-site/htdocs/manual
 -rw-r--r-- root       root              543 ./usr/share/apache2/default-site/htdocs/manual/bind.html
 -rw-r--r-- root       root            15348 ./usr/share/apache2/default-site/htdocs/manual/bind.html.de

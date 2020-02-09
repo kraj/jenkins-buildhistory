@@ -2,7 +2,7 @@ set -e
     if [ -z "$D" ]; then
         if command -v systemd-tmpfiles >/dev/null; then
             # create /var/log/radius, /var/run/radiusd
-            systemd-tmpfiles --create /etc/tmpfiles.d/radiusd-volatiles.conf
+            systemd-tmpfiles --create /etc/tmpfiles.d/radiusd.conf
         elif [ -e /etc/init.d/populate-volatile.sh ]; then
             /etc/init.d/populate-volatile.sh update
         fi

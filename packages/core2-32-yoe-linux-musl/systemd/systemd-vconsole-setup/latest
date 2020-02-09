@@ -1,10 +1,9 @@
 PE = 1
-PV = 243.4+gitAUTOINC+70e8c1978a
+PV = 244.1
 PR = r0
-PKGV = 243.4+git0+70e8c1978a
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.24+git2+83350eb17b) systemd (>= 243.4+git0+70e8c1978a)
+RDEPENDS = musl (>= 1.1.24+git0+e6093b5a87) systemd (>= 244.1)
 RRECOMMENDS = kbd kbd-consolefonts kbd-keymaps
 PKGSIZE = 14358
 FILES = /lib/systemd/systemd-vconsole-setup /lib/systemd/system/systemd-vconsole-setup.service /lib/systemd/system/sysinit.target.wants/systemd-vconsole-setup.service

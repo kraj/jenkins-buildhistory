@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./bin
--rwxr-xr-x root       root            87672 ./bin/machinectl
+-rwxr-xr-x root       root            91768 ./bin/machinectl
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              200 ./lib/systemd/system
@@ -11,7 +11,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system/machines.target
 lrwxrwxrwx root       root               25 ./lib/systemd/system/machines.target.wants/var-lib-machines.mount -> ../var-lib-machines.mount
 drwxr-xr-x root       root               60 ./lib/systemd/system/remote-fs.target.wants
 lrwxrwxrwx root       root               25 ./lib/systemd/system/remote-fs.target.wants/var-lib-machines.mount -> ../var-lib-machines.mount
--rw-r--r-- root       root             1320 ./lib/systemd/system/systemd-machined.service
+-rw-r--r-- root       root             1342 ./lib/systemd/system/systemd-machined.service
 -rw-r--r-- root       root             1678 ./lib/systemd/system/systemd-nspawn@.service
 -rw-r--r-- root       root              799 ./lib/systemd/system/var-lib-machines.mount
 drwxr-xr-x root       root              100 ./usr
@@ -23,7 +23,7 @@ drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system.d
--rw-r--r-- root       root            11055 ./usr/share/dbus-1/system.d/org.freedesktop.machine1.conf
+-rw-r--r-- root       root            11253 ./usr/share/dbus-1/system.d/org.freedesktop.machine1.conf
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services
 -rw-r--r-- root       root              457 ./usr/share/dbus-1/system-services/org.freedesktop.machine1.service
 drwxr-xr-x root       root               60 ./usr/share/polkit-1

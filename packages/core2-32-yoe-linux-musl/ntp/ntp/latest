@@ -1,8 +1,8 @@
 PV = 4.2.8p13
 PR = r0
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = ntp-systemd
-RDEPENDS = base-files base-passwd libcap (>= 2.31) libcrypto (>= 1.1.1d) libgcc musl (>= 1.1.24+git2+83350eb17b) ntp-tickadj shadow update-alternatives-opkg
+RDEPENDS = base-files base-passwd libcap (>= 2.31) libcrypto (>= 1.1.1d) libgcc musl (>= 1.1.24+git0+e6093b5a87) ntp-tickadj shadow update-alternatives-opkg
 RRECOMMENDS = 
 RSUGGESTS = iana-etc
 RREPLACES = ntp-systemd

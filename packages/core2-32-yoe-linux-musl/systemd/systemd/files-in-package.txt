@@ -1,8 +1,8 @@
 drwxr-xr-x root       root              200 ./bin
 -rwxr-xr-x root       root            54760 ./bin/journalctl
 -rwxr-xr-x root       root            50740 ./bin/loginctl
--rwxr-xr-x root       root            58848 ./bin/networkctl
--rwxr-xr-x root       root           226932 ./bin/systemctl
+-rwxr-xr-x root       root            62944 ./bin/networkctl
+-rwxr-xr-x root       root           235124 ./bin/systemctl
 -rwxr-xr-x root       root           140992 ./bin/systemd-hwdb
 -rwxr-xr-x root       root            17972 ./bin/systemd-machine-id-setup
 -rwxr-xr-x root       root             9704 ./bin/systemd-notify
@@ -38,13 +38,16 @@ drwxr-xr-x root       root              100 ./lib
 drwxr-xr-x root       root               60 ./lib/modprobe.d
 -rw-r--r-- root       root              765 ./lib/modprobe.d/systemd.conf
 drwxr-xr-x root       root               60 ./lib/security
--rwxr-xr-x root       root           408356 ./lib/security/pam_systemd.so
+-rwxr-xr-x root       root           408364 ./lib/security/pam_systemd.so
 drwxr-xr-x root       root              820 ./lib/systemd
--rwxr-xr-x root       root          2710840 ./lib/systemd/libsystemd-shared-243.so
-drwxr-xr-x root       root              100 ./lib/systemd/network
+-rwxr-xr-x root       root          2481472 ./lib/systemd/libsystemd-shared-244.so
+drwxr-xr-x root       root              160 ./lib/systemd/network
 -rw-r--r-- root       root              645 ./lib/systemd/network/80-container-host0.network
 -rw-r--r-- root       root              718 ./lib/systemd/network/80-container-ve.network
 -rw-r--r-- root       root              704 ./lib/systemd/network/80-container-vz.network
+-rw-r--r-- root       root               78 ./lib/systemd/network/80-wifi-adhoc.network
+-rw-r--r-- root       root              101 ./lib/systemd/network/80-wifi-ap.network.example
+-rw-r--r-- root       root               64 ./lib/systemd/network/80-wifi-station.network.example
 drwxr-xr-x root       root               60 ./lib/systemd/ntp-units.d
 -rw-r--r-- root       root               26 ./lib/systemd/ntp-units.d/80-systemd-timesync.list
 drwxr-xr-x root       root             2900 ./lib/systemd/system
@@ -55,7 +58,7 @@ lrwxrwxrwx root       root               14 ./lib/systemd/system/autovt@.service
 -rw-r--r-- root       root             1082 ./lib/systemd/system/console-getty.service
 -rw-r--r-- root       root             1263 ./lib/systemd/system/container-getty@.service
 lrwxrwxrwx root       root               13 ./lib/systemd/system/ctrl-alt-del.target -> reboot.target
--rwxr-xr-x root       root          1521192 ./lib/systemd/systemd
+-rwxr-xr-x root       root          1537576 ./lib/systemd/systemd
 -rwxr-xr-x root       root            17832 ./lib/systemd/systemd-backlight
 -rwxr-xr-x root       root             9712 ./lib/systemd/systemd-boot-check-no-failures
 lrwxrwxrwx root       root               25 ./lib/systemd/system/dbus-org.freedesktop.hostname1.service -> systemd-hostnamed.service
@@ -74,10 +77,10 @@ lrwxrwxrwx root       root               16 ./lib/systemd/system/default.target 
 -rwxr-xr-x root       root           271940 ./lib/systemd/systemd-logind
 -rwxr-xr-x root       root             9636 ./lib/systemd/systemd-makefs
 -rwxr-xr-x root       root            13872 ./lib/systemd/systemd-modules-load
--rwxr-xr-x root       root           931484 ./lib/systemd/systemd-networkd
+-rwxr-xr-x root       root           997052 ./lib/systemd/systemd-networkd
 -rwxr-xr-x root       root            26188 ./lib/systemd/systemd-networkd-wait-online
 -rwxr-xr-x root       root            26092 ./lib/systemd/systemd-network-generator
--rwxr-xr-x root       root            13852 ./lib/systemd/systemd-pstore
+-rwxr-xr-x root       root            13860 ./lib/systemd/systemd-pstore
 -rwxr-xr-x root       root             9700 ./lib/systemd/systemd-quotacheck
 -rwxr-xr-x root       root            13736 ./lib/systemd/systemd-random-seed
 -rwxr-xr-x root       root            13792 ./lib/systemd/systemd-remount-fs
@@ -211,7 +214,7 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              693 ./lib/systemd/system/systemd-fsck@.service
 -rw-r--r-- root       root              584 ./lib/systemd/system/systemd-halt.service
 -rw-r--r-- root       root              671 ./lib/systemd/system/systemd-hibernate-resume@.service
--rw-r--r-- root       root             1136 ./lib/systemd/system/systemd-hostnamed.service
+-rw-r--r-- root       root             1158 ./lib/systemd/system/systemd-hostnamed.service
 -rw-r--r-- root       root              738 ./lib/systemd/system/systemd-journal-catalog-update.service
 -rw-r--r-- root       root              647 ./lib/systemd/system/systemd-journald-audit.socket
 -rw-r--r-- root       root             1130 ./lib/systemd/system/systemd-journald-dev-log.socket
@@ -219,10 +222,10 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              882 ./lib/systemd/system/systemd-journald.socket
 -rw-r--r-- root       root              783 ./lib/systemd/system/systemd-journal-flush.service
 -rw-r--r-- root       root              597 ./lib/systemd/system/systemd-kexec.service
--rw-r--r-- root       root             2008 ./lib/systemd/system/systemd-logind.service
+-rw-r--r-- root       root             2030 ./lib/systemd/system/systemd-logind.service
 -rw-r--r-- root       root              733 ./lib/systemd/system/systemd-machine-id-commit.service
 -rw-r--r-- root       root             1007 ./lib/systemd/system/systemd-modules-load.service
--rw-r--r-- root       root             1943 ./lib/systemd/system/systemd-networkd.service
+-rw-r--r-- root       root             1991 ./lib/systemd/system/systemd-networkd.service
 -rw-r--r-- root       root              631 ./lib/systemd/system/systemd-networkd.socket
 -rw-r--r-- root       root              740 ./lib/systemd/system/systemd-networkd-wait-online.service
 -rw-r--r-- root       root              560 ./lib/systemd/system/systemd-network-generator.service
@@ -236,8 +239,8 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              726 ./lib/systemd/system/systemd-rfkill.socket
 -rw-r--r-- root       root              596 ./lib/systemd/system/systemd-suspend-then-hibernate.service
 -rw-r--r-- root       root              693 ./lib/systemd/system/systemd-sysctl.service
--rw-r--r-- root       root             1119 ./lib/systemd/system/systemd-timedated.service
--rw-r--r-- root       root             1489 ./lib/systemd/system/systemd-timesyncd.service
+-rw-r--r-- root       root             1141 ./lib/systemd/system/systemd-timedated.service
+-rw-r--r-- root       root             1511 ./lib/systemd/system/systemd-timesyncd.service
 -rw-r--r-- root       root             1196 ./lib/systemd/system/systemd-time-wait-sync.service
 -rw-r--r-- root       root              663 ./lib/systemd/system/systemd-tmpfiles-clean.service
 -rw-r--r-- root       root              490 ./lib/systemd/system/systemd-tmpfiles-clean.timer
@@ -273,7 +276,7 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
 -rwxr-xr-x root       root            87596 ./usr/bin/busctl
 -rwxr-xr-x root       root            17888 ./usr/bin/hostnamectl
--rwxr-xr-x root       root             9696 ./usr/bin/systemd-id128
+-rwxr-xr-x root       root            13792 ./usr/bin/systemd-id128
 -rwxr-xr-x root       root            46712 ./usr/bin/systemd-mount
 -rwxr-xr-x root       root            17900 ./usr/bin/systemd-socket-activate
 lrwxrwxrwx root       root               13 ./usr/bin/systemd-umount -> systemd-mount
@@ -359,7 +362,7 @@ drwxr-xr-x root       root               80 ./usr/share/polkit-1
 drwxr-xr-x root       root              140 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             3078 ./usr/share/polkit-1/actions/org.freedesktop.hostname1.policy
 -rw-r--r-- root       root            23897 ./usr/share/polkit-1/actions/org.freedesktop.login1.policy
--rw-r--r-- root       root             7700 ./usr/share/polkit-1/actions/org.freedesktop.network1.policy
+-rw-r--r-- root       root             9609 ./usr/share/polkit-1/actions/org.freedesktop.network1.policy
 -rw-r--r-- root       root             3819 ./usr/share/polkit-1/actions/org.freedesktop.systemd1.policy
 -rw-r--r-- root       root             3125 ./usr/share/polkit-1/actions/org.freedesktop.timedate1.policy
 drwx------ polkitd    root               60 ./usr/share/polkit-1/rules.d

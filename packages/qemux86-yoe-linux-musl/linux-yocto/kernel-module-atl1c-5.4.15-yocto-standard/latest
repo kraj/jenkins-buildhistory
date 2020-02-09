@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.4
+RPROVIDES = kernel-module-atl1c
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 46036
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/atheros/atl1c/atl1c.ko /etc/modules-load.d/atl1c.conf /etc/modprobe.d/atl1c.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/atheros/atl1c/atl1c.ko

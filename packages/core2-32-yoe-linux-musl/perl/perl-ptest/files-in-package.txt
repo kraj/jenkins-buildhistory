@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/perl
-drwxr-xr-x root       root             4980 ./usr/lib/perl/ptest
+drwxr-xr-x root       root             4920 ./usr/lib/perl/ptest
 -r--r--r-- root       root             6321 ./usr/lib/perl/ptest/Artistic
 -r--r--r-- root       root              983 ./usr/lib/perl/ptest/asan_ignore
 -r--r--r-- root       root            48864 ./usr/lib/perl/ptest/AUTHORS
@@ -16,9 +16,9 @@ drwxr-xr-x root       root             4980 ./usr/lib/perl/ptest
 drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf
 -rwxr-xr-x root       root            48282 ./usr/lib/perl/ptest/cnf/config.guess
 -rwxr-xr-x root       root            31597 ./usr/lib/perl/ptest/cnf/config.sub
--rwxr-xr-x root       root             5828 ./usr/lib/perl/ptest/cnf/configure
+-rwxr-xr-x root       root             5830 ./usr/lib/perl/ptest/cnf/configure
 -rw-r--r-- root       root             6391 ./usr/lib/perl/ptest/cnf/configure_args.sh
--rw-r--r-- root       root             3382 ./usr/lib/perl/ptest/cnf/configure_attr.sh
+-rw-r--r-- root       root             3380 ./usr/lib/perl/ptest/cnf/configure_attr.sh
 -rw-r--r-- root       root             6051 ./usr/lib/perl/ptest/cnf/configure__f.sh
 -rw-r--r-- root       root             3340 ./usr/lib/perl/ptest/cnf/configure_func_dbl.sh
 -rw-r--r-- root       root             1305 ./usr/lib/perl/ptest/cnf/configure_func_def.sh
@@ -30,7 +30,7 @@ drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf
 -rw-r--r-- root       root             2201 ./usr/lib/perl/ptest/cnf/configure_hint.sh
 -rw-r--r-- root       root             2350 ./usr/lib/perl/ptest/cnf/configure_libs.sh
 -rw-r--r-- root       root             9075 ./usr/lib/perl/ptest/cnf/configure_misc.sh
--rw-r--r-- root       root             4487 ./usr/lib/perl/ptest/cnf/configure_mods.sh
+-rw-r--r-- root       root             4521 ./usr/lib/perl/ptest/cnf/configure_mods.sh
 -rw-r--r-- root       root             5392 ./usr/lib/perl/ptest/cnf/configure_path.sh
 -rw-r--r-- root       root             1321 ./usr/lib/perl/ptest/cnf/configure_pfmt.sh
 -rw-r--r-- root       root             1595 ./usr/lib/perl/ptest/cnf/configure_sigs.sh
@@ -1226,7 +1226,7 @@ drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cpan/Encode/Byt
 -rw-r--r-- root       root             1194 ./usr/lib/perl/ptest/cpan/Encode/Byte/byte_t.fnm
 -rw-r--r-- root       root             2237 ./usr/lib/perl/ptest/cpan/Encode/Byte/byte_t.h
 -rw-r--r-- root       root              890 ./usr/lib/perl/ptest/cpan/Encode/Byte/Byte.xs
--r--r--r-- root       root             5292 ./usr/lib/perl/ptest/cpan/Encode/Byte/Makefile.PL
+-r--r--r-- root       root             5306 ./usr/lib/perl/ptest/cpan/Encode/Byte/Makefile.PL
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/Encode/Byte/pm_to_blib
 drwxr-xr-x root       root              640 ./usr/lib/perl/ptest/cpan/Encode/CN
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/Encode/CN/CN.bs
@@ -9780,7 +9780,6 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r-xr-xr-x root       root             9258 ./usr/lib/perl/ptest/makedepend.SH
 -rw-r--r-- root       root             3548 ./usr/lib/perl/ptest/make_ext_Makefile.pl
 -r--r--r-- root       root            26137 ./usr/lib/perl/ptest/make_ext.pl
--rw-r--r-- root       root             4123 ./usr/lib/perl/ptest/Makefile.config
 -rwxr-xr-x root       root             3821 ./usr/lib/perl/ptest/Makefile.config.SH
 -r--r--r-- root       root             5466 ./usr/lib/perl/ptest/Makefile.micro
 -r-xr-xr-x root       root            53448 ./usr/lib/perl/ptest/Makefile.SH
@@ -10865,7 +10864,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/t/run/flib
 -r--r--r-- root       root               50 ./usr/lib/perl/ptest/t/run/switchx3.aux
 -r--r--r-- root       root              449 ./usr/lib/perl/ptest/t/run/switchx.aux
 -r--r--r-- root       root             1069 ./usr/lib/perl/ptest/t/run/switchx.t
--rw-r--r-- root       root              114 ./usr/lib/perl/ptest/try.c
+-rw-r--r-- root       root              112 ./usr/lib/perl/ptest/try.c
 -rw-r--r-- root       root               44 ./usr/lib/perl/ptest/try.h
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/try.out
 -r-xr-xr-x root       root            28840 ./usr/lib/perl/ptest/t/TEST
@@ -11044,7 +11043,5 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/win32/include/s
 -r--r--r-- root       root             3747 ./usr/lib/perl/ptest/win32/wince.h
 -r--r--r-- root       root             9267 ./usr/lib/perl/ptest/win32/wincesck.c
 -r--r--r-- root       root             3393 ./usr/lib/perl/ptest/write_buildcustomize.pl
--rw-r--r-- root       root           162319 ./usr/lib/perl/ptest/xconfig.h
--rw-r--r-- root       root            26080 ./usr/lib/perl/ptest/xconfig.sh
 -r--r--r-- root       root            24399 ./usr/lib/perl/ptest/XSUB.h
 -r--r--r-- root       root            10541 ./usr/lib/perl/ptest/zaphod32_hash.h
