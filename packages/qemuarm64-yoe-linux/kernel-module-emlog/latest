@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = pkgconfig-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc
+PACKAGES = kernel-module-emlog-src kernel-module-emlog-dbg kernel-module-emlog-staticdev kernel-module-emlog-dev kernel-module-emlog-doc kernel-module-emlog-locale kernel-module-emlog kernel-module-emlog-5.4.15-yocto-standard
+LAYER = openembedded-layer
