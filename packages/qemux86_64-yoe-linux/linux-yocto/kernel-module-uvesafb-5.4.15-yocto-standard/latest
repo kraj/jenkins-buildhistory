@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-uvesafb
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 46255
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/video/fbdev/uvesafb.ko /etc/modules-load.d/uvesafb.conf /etc/modprobe.d/uvesafb.conf
+FILELIST = /etc/modprobe.d/uvesafb.conf /etc/modules-load.d/uvesafb.conf /lib/modules/5.4.15-yocto-standard/kernel/drivers/video/fbdev/uvesafb.ko

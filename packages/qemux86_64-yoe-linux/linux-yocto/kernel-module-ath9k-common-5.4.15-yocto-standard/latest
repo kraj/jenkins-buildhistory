@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-ath9k-common
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-ath-5.4.15-yocto-standard kernel-module-ath9k-hw-5.4.15-yocto-standard kernel-module-cfg80211-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 15328
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko /etc/modules-load.d/ath9k_common.conf /etc/modprobe.d/ath9k_common.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko

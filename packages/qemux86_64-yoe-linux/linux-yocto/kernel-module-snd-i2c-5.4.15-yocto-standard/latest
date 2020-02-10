@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-i2c
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-snd-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10152
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/sound/i2c/snd-i2c.ko /etc/modules-load.d/snd-i2c.conf /etc/modprobe.d/snd-i2c.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/sound/i2c/snd-i2c.ko

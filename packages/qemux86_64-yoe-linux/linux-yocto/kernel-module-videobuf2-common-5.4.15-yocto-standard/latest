@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-videobuf2-common
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-mc-5.4.15-yocto-standard kernel-module-videodev-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 75728
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/media/common/videobuf2/videobuf2-common.ko /etc/modules-load.d/videobuf2-common.conf /etc/modprobe.d/videobuf2-common.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/media/common/videobuf2/videobuf2-common.ko
