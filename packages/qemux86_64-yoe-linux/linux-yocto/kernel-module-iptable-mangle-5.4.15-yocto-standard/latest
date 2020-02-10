@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-iptable-mangle
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-ip-tables-5.4.15-yocto-standard kernel-module-x-tables-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 6536
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/ipv4/netfilter/iptable_mangle.ko /etc/modules-load.d/iptable_mangle.conf /etc/modprobe.d/iptable_mangle.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/ipv4/netfilter/iptable_mangle.ko

@@ -1,0 +1,9 @@
+PV = 6.1.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = kernel-module-vboxguest-5.4.15-yocto-standard kernel-module-vboxsf-5.4.15-yocto-standard kernel-module-vboxvideo-5.4.15-yocto-standard musl (>= 1.1.24+git0+e6093b5a87)
+RRECOMMENDS = kernel-module-vboxguest kernel-module-vboxsf kernel-module-vboxvideo
+PKGSIZE = 18196
+FILES = /sbin
+FILELIST = /sbin/mount.vboxsf
