@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.4
+RPROVIDES = kernel-module-ip-tables
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-x-tables-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 19736
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/ipv4/netfilter/ip_tables.ko /etc/modules-load.d/ip_tables.conf /etc/modprobe.d/ip_tables.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/ipv4/netfilter/ip_tables.ko
