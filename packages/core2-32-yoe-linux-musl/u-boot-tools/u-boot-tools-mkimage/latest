@@ -1,0 +1,12 @@
+PE = 1
+PV = 2020.01
+PR = r0
+PKGR = r0.1
+RPROVIDES = u-boot-mkimage
+RDEPENDS = dtc libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) musl (>= 1.1.24+git0+e6093b5a87)
+RRECOMMENDS = 
+RREPLACES = u-boot-mkimage
+RCONFLICTS = u-boot-mkimage
+PKGSIZE = 819136
+FILES = /usr/bin/uboot-mkimage /usr/bin/mkimage /usr/bin/uboot-dumpimage /usr/bin/dumpimage /usr/bin/uboot-fit_check_sign /usr/bin/fit_check_sign
+FILELIST = /usr/bin/dumpimage /usr/bin/fit_check_sign /usr/bin/mkimage /usr/bin/uboot-dumpimage /usr/bin/uboot-fit_check_sign /usr/bin/uboot-mkimage
