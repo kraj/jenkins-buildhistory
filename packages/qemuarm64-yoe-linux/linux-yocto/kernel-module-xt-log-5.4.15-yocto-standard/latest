@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-xt-log
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-x-tables-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 6824
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/xt_LOG.ko /etc/modules-load.d/xt_LOG.conf /etc/modprobe.d/xt_LOG.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/xt_LOG.ko
