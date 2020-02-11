@@ -1,0 +1,11 @@
+PV = 1.8.26
+PR = r0
+PKGR = r0.1
+RPROVIDES = pcsc-lite-systemd
+RDEPENDS = libsystemd (>= 244.1) libudev (>= 244.1) musl (>= 1.1.24+git0+e6093b5a87)
+RRECOMMENDS = ccid
+RREPLACES = pcsc-lite-systemd
+RCONFLICTS = pcsc-lite-systemd
+PKGSIZE = 133353
+FILES = /usr/sbin/pcscd /lib/systemd/system-preset/98-pcsc-lite.preset /lib/systemd/system/pcscd.socket /lib/systemd/system/pcscd.service
+FILELIST = /lib/systemd/system-preset/98-pcsc-lite.preset /lib/systemd/system/pcscd.service /lib/systemd/system/pcscd.socket /usr/sbin/pcscd

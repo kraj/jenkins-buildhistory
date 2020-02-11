@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-smsc75xx
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-usbnet-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 51936
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/usb/smsc75xx.ko /etc/modules-load.d/smsc75xx.conf /etc/modprobe.d/smsc75xx.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/usb/smsc75xx.ko

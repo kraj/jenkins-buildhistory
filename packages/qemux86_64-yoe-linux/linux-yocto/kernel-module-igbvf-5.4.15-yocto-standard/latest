@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-igbvf
-RDEPENDS = kernel-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 60536
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/intel/igbvf/igbvf.ko /etc/modules-load.d/igbvf.conf /etc/modprobe.d/igbvf.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/intel/igbvf/igbvf.ko

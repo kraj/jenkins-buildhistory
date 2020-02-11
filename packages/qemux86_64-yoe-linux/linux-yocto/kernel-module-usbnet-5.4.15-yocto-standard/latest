@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-usbnet
-RDEPENDS = kernel-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 47976
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/usb/usbnet.ko /etc/modules-load.d/usbnet.conf /etc/modprobe.d/usbnet.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/usb/usbnet.ko
