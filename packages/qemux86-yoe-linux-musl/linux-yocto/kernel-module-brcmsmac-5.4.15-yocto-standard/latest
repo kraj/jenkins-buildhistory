@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.4
-RPROVIDES = kernel-module-brcmsmac
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-bcma-5.4.15-yocto-standard kernel-module-brcmutil-5.4.15-yocto-standard kernel-module-cfg80211-5.4.15-yocto-standard kernel-module-cordic-5.4.15-yocto-standard kernel-module-mac80211-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 564024
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcmsmac.ko /etc/modules-load.d/brcmsmac.conf /etc/modprobe.d/brcmsmac.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcmsmac.ko

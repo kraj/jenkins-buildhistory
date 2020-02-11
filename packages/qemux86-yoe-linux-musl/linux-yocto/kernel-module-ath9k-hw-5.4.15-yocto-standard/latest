@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.4
-RPROVIDES = kernel-module-ath9k-hw
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-ath-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 466564
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko /etc/modules-load.d/ath9k_hw.conf /etc/modprobe.d/ath9k_hw.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko

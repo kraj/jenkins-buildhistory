@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-realtek
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-libphy-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 19632
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/phy/realtek.ko /etc/modules-load.d/realtek.conf /etc/modprobe.d/realtek.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/phy/realtek.ko

@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-bnep
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 27008
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/bluetooth/bnep/bnep.ko /etc/modules-load.d/bnep.conf /etc/modprobe.d/bnep.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/bluetooth/bnep/bnep.ko
