@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.4
-RPROVIDES = kernel-module-snd-seq-virmidi
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-snd-5.4.15-yocto-standard kernel-module-snd-rawmidi-5.4.15-yocto-standard kernel-module-snd-seq-5.4.15-yocto-standard kernel-module-snd-seq-midi-event-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 8220
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/sound/core/seq/snd-seq-virmidi.ko /etc/modules-load.d/snd-seq-virmidi.conf /etc/modprobe.d/snd-seq-virmidi.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/sound/core/seq/snd-seq-virmidi.ko

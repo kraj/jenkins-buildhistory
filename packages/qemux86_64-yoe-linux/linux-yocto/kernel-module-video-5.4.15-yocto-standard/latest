@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.1
+RPROVIDES = kernel-module-video
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-backlight-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 58048
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/acpi/video.ko /etc/modules-load.d/video.conf /etc/modprobe.d/video.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/acpi/video.ko
