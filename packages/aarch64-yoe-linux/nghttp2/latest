@@ -1,0 +1,5 @@
+PV = 1.40.0
+PR = r0
+DEPENDS = c-ares cmake-native cunit jansson libev libevent libxml2 ninja-native openssl python3-native virtual/aarch64-yoe-linux-compilerlibs virtual/aarch64-yoe-linux-gcc virtual/libc zlib
+PACKAGES = nghttp2-src nghttp2-dbg libnghttp2 nghttp2-client nghttp2-proxy nghttp2-server nghttp2-staticdev nghttp2-dev nghttp2-doc nghttp2-locale nghttp2
+LAYER = networking-layer

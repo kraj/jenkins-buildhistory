@@ -1,0 +1,9 @@
+PV = 2.5.0
+PR = r0
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31) libcrypto (>= 1.1.1d) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0)
+RRECOMMENDS = 
+PKGSIZE = 1518246
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/softhsm /usr/lib/softhsm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/softhsm2.conf /etc/softhsm2.conf.sample /usr/bin/softhsm2-dump-file /usr/bin/softhsm2-keyconv /usr/bin/softhsm2-util /usr/lib/softhsm/libsofthsm2.so
