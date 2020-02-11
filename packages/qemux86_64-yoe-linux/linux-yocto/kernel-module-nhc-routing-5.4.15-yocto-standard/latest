@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-nhc-routing
-RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-6lowpan-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 4440
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/6lowpan/nhc_routing.ko /etc/modules-load.d/nhc_routing.conf /etc/modprobe.d/nhc_routing.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/6lowpan/nhc_routing.ko

@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.4
+RPROVIDES = kernel-module-pcnet32
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 47028
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/amd/pcnet32.ko /etc/modules-load.d/pcnet32.conf /etc/modprobe.d/pcnet32.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/ethernet/amd/pcnet32.ko

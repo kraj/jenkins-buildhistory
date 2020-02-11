@@ -1,0 +1,10 @@
+PV = 5.4.0
+PR = r0
+PKG = libhandle1
+PKGR = r0.0
+RPROVIDES = libhandle (=5.4.0)
+RDEPENDS = musl (>= 1.1.24+git0+e6093b5a87)
+RRECOMMENDS = 
+PKGSIZE = 13658
+FILES = /lib/libhandle.so.*
+FILELIST = /lib/libhandle.so.1 /lib/libhandle.so.1.0.3

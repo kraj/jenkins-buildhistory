@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/i686-yoe-linux-musl-compilerlibs virtual/i686-yoe-linux-musl-gcc virtual/libc
+PACKAGES = abseil-cpp-src abseil-cpp-dbg abseil-cpp-staticdev abseil-cpp-dev abseil-cpp-doc abseil-cpp-locale abseil-cpp
+LAYER = openembedded-layer
