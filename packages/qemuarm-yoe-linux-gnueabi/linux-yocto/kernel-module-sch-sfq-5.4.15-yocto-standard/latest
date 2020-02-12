@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.4
+RPROVIDES = kernel-module-sch-sfq
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13964
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/sched/sch_sfq.ko /etc/modules-load.d/sch_sfq.conf /etc/modprobe.d/sch_sfq.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/sched/sch_sfq.ko
