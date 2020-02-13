@@ -140,7 +140,7 @@ lrwxrwxrwx -          -                  29 ./usr/lib/libsamba-credentials.so.0 
 lrwxrwxrwx -          -                  29 ./usr/lib/libsamba-credentials.so -> libsamba-credentials.so.0.0.1
 -rwxr-xr-x -          -              984332 ./usr/lib/libsamba-errors.so.1
 lrwxrwxrwx -          -                  20 ./usr/lib/libsamba-errors.so -> libsamba-errors.so.1
--rwxr-xr-x -          -              114992 ./usr/lib/libsamba-hostconfig.so.0.0.1
+-rwxr-xr-x -          -              115032 ./usr/lib/libsamba-hostconfig.so.0.0.1
 lrwxrwxrwx -          -                  28 ./usr/lib/libsamba-hostconfig.so.0 -> libsamba-hostconfig.so.0.0.1
 lrwxrwxrwx -          -                  28 ./usr/lib/libsamba-hostconfig.so -> libsamba-hostconfig.so.0.0.1
 -rwxr-xr-x -          -              218684 ./usr/lib/libsamba-passdb.so.0.27.2
@@ -324,7 +324,7 @@ drwxr-xr-x -          -                 160 ./usr/lib/python3.8/site-packages/sa
 -rw-r--r-- -          -              101913 ./usr/lib/python3.8/site-packages/samba/provision/__init__.py
 -rw-r--r-- -          -                 746 ./usr/lib/python3.8/site-packages/samba/provision/kerberos_implementation.py
 -rw-r--r-- -          -                2601 ./usr/lib/python3.8/site-packages/samba/provision/kerberos.py
--rw-r--r-- -          -               48255 ./usr/lib/python3.8/site-packages/samba/provision/sambadns.py
+-rw-r--r-- -          -               48834 ./usr/lib/python3.8/site-packages/samba/provision/sambadns.py
 -rwxr-xr-x -          -               14472 ./usr/lib/python3.8/site-packages/samba/registry.cpython-38-arm-linux-gnueabi.so
 -rw-r--r-- -          -               18614 ./usr/lib/python3.8/site-packages/samba/remove_dc.py
 drwxr-xr-x -          -                 140 ./usr/lib/python3.8/site-packages/samba/samba3
@@ -344,7 +344,7 @@ drwxr-xr-x -          -                  80 ./usr/lib/python3.8/site-packages/sa
 -rw-r--r-- -          -                2705 ./usr/lib/python3.8/site-packages/samba/subunit/__init__.py
 -rw-r--r-- -          -               25182 ./usr/lib/python3.8/site-packages/samba/subunit/run.py
 -rw-r--r-- -          -                1481 ./usr/lib/python3.8/site-packages/samba/tdb_util.py
-drwxr-xr-x -          -                2040 ./usr/lib/python3.8/site-packages/samba/tests
+drwxr-xr-x -          -                2080 ./usr/lib/python3.8/site-packages/samba/tests
 -rw-r--r-- -          -                6263 ./usr/lib/python3.8/site-packages/samba/tests/audit_log_base.py
 -rw-r--r-- -          -               25246 ./usr/lib/python3.8/site-packages/samba/tests/audit_log_dsdb.py
 -rw-r--r-- -          -               13302 ./usr/lib/python3.8/site-packages/samba/tests/audit_log_pass_change.py
@@ -419,7 +419,7 @@ drwxr-xr-x -          -                 100 ./usr/lib/python3.8/site-packages/sa
 -rw-r--r-- -          -               27128 ./usr/lib/python3.8/site-packages/samba/tests/graph.py
 -rw-r--r-- -          -               17046 ./usr/lib/python3.8/site-packages/samba/tests/group_audit.py
 -rw-r--r-- -          -                2200 ./usr/lib/python3.8/site-packages/samba/tests/hostconfig.py
--rw-r--r-- -          -               19579 ./usr/lib/python3.8/site-packages/samba/tests/__init__.py
+-rw-r--r-- -          -               20310 ./usr/lib/python3.8/site-packages/samba/tests/__init__.py
 -rw-r--r-- -          -                6795 ./usr/lib/python3.8/site-packages/samba/tests/join.py
 drwxr-xr-x -          -                 140 ./usr/lib/python3.8/site-packages/samba/tests/kcc
 -rw-r--r-- -          -                2414 ./usr/lib/python3.8/site-packages/samba/tests/kcc/graph.py
@@ -496,10 +496,12 @@ drwxr-xr-x -          -                 560 ./usr/lib/python3.8/site-packages/sa
 -rw-r--r-- -          -               16120 ./usr/lib/python3.8/site-packages/samba/tests/samba_tool/user_wdigest.py
 -rw-r--r-- -          -               28130 ./usr/lib/python3.8/site-packages/samba/tests/samba_tool/visualize_drs.py
 -rw-r--r-- -          -               24271 ./usr/lib/python3.8/site-packages/samba/tests/samba_tool/visualize.py
+-rw-r--r-- -          -                2622 ./usr/lib/python3.8/site-packages/samba/tests/samba_upgradedns_lmdb.py
 -rw-r--r-- -          -                5555 ./usr/lib/python3.8/site-packages/samba/tests/samdb_api.py
 -rw-r--r-- -          -                2325 ./usr/lib/python3.8/site-packages/samba/tests/samdb.py
 -rw-r--r-- -          -                6417 ./usr/lib/python3.8/site-packages/samba/tests/security.py
 -rw-r--r-- -          -                1803 ./usr/lib/python3.8/site-packages/samba/tests/smbd_base.py
+-rw-r--r-- -          -                3584 ./usr/lib/python3.8/site-packages/samba/tests/smbd_fuzztest.py
 -rw-r--r-- -          -                9706 ./usr/lib/python3.8/site-packages/samba/tests/smb.py
 -rw-r--r-- -          -                8402 ./usr/lib/python3.8/site-packages/samba/tests/source.py
 -rw-r--r-- -          -                3985 ./usr/lib/python3.8/site-packages/samba/tests/strings.py
@@ -822,10 +824,10 @@ drwxr-xr-x -          -                 400 ./usr/share/ctdb/tests/complex
 -rwxr-xr-x -          -                2240 ./usr/share/ctdb/tests/complex/44_failover_nfs_oneway.sh
 -rwxr-xr-x -          -                2108 ./usr/share/ctdb-tests/complex/45_failover_nfs_kill.sh
 -rwxr-xr-x -          -                2108 ./usr/share/ctdb/tests/complex/45_failover_nfs_kill.sh
--rwxr-xr-x -          -                1111 ./usr/share/ctdb-tests/complex/60_rogueip_releaseip.sh
--rwxr-xr-x -          -                1111 ./usr/share/ctdb/tests/complex/60_rogueip_releaseip.sh
--rwxr-xr-x -          -                1100 ./usr/share/ctdb-tests/complex/61_rogueip_takeip.sh
--rwxr-xr-x -          -                1100 ./usr/share/ctdb/tests/complex/61_rogueip_takeip.sh
+-rwxr-xr-x -          -                1356 ./usr/share/ctdb-tests/complex/60_rogueip_releaseip.sh
+-rwxr-xr-x -          -                1356 ./usr/share/ctdb/tests/complex/60_rogueip_releaseip.sh
+-rwxr-xr-x -          -                1634 ./usr/share/ctdb-tests/complex/61_rogueip_takeip.sh
+-rwxr-xr-x -          -                1634 ./usr/share/ctdb/tests/complex/61_rogueip_takeip.sh
 -rw-r--r-- -          -                 118 ./usr/share/ctdb/tests/complex/README
 drwxr-xr-x -          -                  60 ./usr/share/ctdb-tests/complex/scripts
 drwxr-xr-x -          -                  60 ./usr/share/ctdb/tests/complex/scripts
