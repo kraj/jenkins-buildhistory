@@ -42,7 +42,7 @@ drwxr-xr-x root       root               60 ./lib/modprobe.d
 drwxr-xr-x root       root               60 ./lib/security
 -rwxr-xr-x root       root           240728 ./lib/security/pam_systemd.so
 drwxr-xr-x root       root              880 ./lib/systemd
--rwxr-xr-x root       root          1496172 ./lib/systemd/libsystemd-shared-244.so
+-rwxr-xr-x root       root          1492076 ./lib/systemd/libsystemd-shared-244.so
 drwxr-xr-x root       root              160 ./lib/systemd/network
 -rw-r--r-- root       root              645 ./lib/systemd/network/80-container-host0.network
 -rw-r--r-- root       root              718 ./lib/systemd/network/80-container-ve.network
@@ -156,7 +156,7 @@ lrwxrwxrwx root       root               32 ./lib/systemd/system/multi-user.targ
 drwxr-xr-x root       root               60 ./lib/systemd/system/poweroff.target.wants
 lrwxrwxrwx root       root               39 ./lib/systemd/system/poweroff.target.wants/systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
 drwxr-xr-x root       root               80 ./lib/systemd/system-preset
--rw-r--r-- root       root             1411 ./lib/systemd/system-preset/90-systemd.preset
+-rw-r--r-- root       root              951 ./lib/systemd/system-preset/90-systemd.preset
 -rw-r--r-- root       root               10 ./lib/systemd/system-preset/99-default.preset
 -rw-r--r-- root       root              417 ./lib/systemd/system/printer.target
 -rw-r--r-- root       root              617 ./lib/systemd/system/quotaon.service
@@ -337,7 +337,7 @@ drwxr-xr-x root       root               40 ./usr/lib/systemd/user-generators
 -rw-r--r-- root       root              484 ./usr/lib/systemd/user/graphical-session.target
 -rw-r--r-- root       root              394 ./usr/lib/systemd/user/paths.target
 drwxr-xr-x root       root               60 ./usr/lib/systemd/user-preset
--rw-r--r-- root       root              744 ./usr/lib/systemd/user-preset/90-systemd.preset
+-rw-r--r-- root       root              513 ./usr/lib/systemd/user-preset/90-systemd.preset
 -rw-r--r-- root       root              417 ./usr/lib/systemd/user/printer.target
 -rw-r--r-- root       root              442 ./usr/lib/systemd/user/shutdown.target
 -rw-r--r-- root       root              420 ./usr/lib/systemd/user/smartcard.target
@@ -364,9 +364,7 @@ drwxr-xr-x root       root              260 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              568 ./usr/lib/tmpfiles.d/var.conf
 -rw-r--r-- root       root              655 ./usr/lib/tmpfiles.d/x11.conf
 drwxr-xr-x root       root              120 ./usr/share
-drwxr-xr-x root       root              100 ./usr/share/dbus-1
-drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
-lrwxrwxrwx root       root               51 ./usr/share/dbus-1/services/org.freedesktop.systemd1.service -> ../system-services/org.freedesktop.systemd1.service
+drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              200 ./usr/share/dbus-1/system.d
 -rw-r--r-- root       root              985 ./usr/share/dbus-1/system.d/org.freedesktop.hostname1.conf
 -rw-r--r-- root       root              975 ./usr/share/dbus-1/system.d/org.freedesktop.locale1.conf
@@ -376,13 +374,12 @@ drwxr-xr-x root       root              200 ./usr/share/dbus-1/system.d
 -rw-r--r-- root       root            18807 ./usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 -rw-r--r-- root       root              985 ./usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 -rw-r--r-- root       root             1614 ./usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
-drwxr-xr-x root       root              200 ./usr/share/dbus-1/system-services
+drwxr-xr-x root       root              180 ./usr/share/dbus-1/system-services
 -rw-r--r-- root       root              424 ./usr/share/dbus-1/system-services/org.freedesktop.hostname1.service
 -rw-r--r-- root       root              455 ./usr/share/dbus-1/system-services/org.freedesktop.locale1.service
 -rw-r--r-- root       root              453 ./usr/share/dbus-1/system-services/org.freedesktop.login1.service
 -rw-r--r-- root       root              457 ./usr/share/dbus-1/system-services/org.freedesktop.network1.service
 -rw-r--r-- root       root              457 ./usr/share/dbus-1/system-services/org.freedesktop.resolve1.service
--rw-r--r-- root       root              404 ./usr/share/dbus-1/system-services/org.freedesktop.systemd1.service
 -rw-r--r-- root       root              459 ./usr/share/dbus-1/system-services/org.freedesktop.timedate1.service
 -rw-r--r-- root       root              459 ./usr/share/dbus-1/system-services/org.freedesktop.timesync1.service
 drwxr-xr-x root       root               60 ./usr/share/factory

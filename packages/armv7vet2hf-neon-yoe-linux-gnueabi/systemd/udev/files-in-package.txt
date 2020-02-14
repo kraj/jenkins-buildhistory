@@ -12,7 +12,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/network
 -rw-r--r-- root       root              441 ./lib/systemd/network/99-default.link
 drwxr-xr-x root       root              200 ./lib/systemd/system
 -rwxr-xr-x root       root           514416 ./lib/systemd/systemd-udevd
--rw-r--r-- root       root              818 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
+-rw-r--r-- root       root              704 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
 drwxr-xr-x root       root               80 ./lib/systemd/system/sockets.target.wants
 lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
 lrwxrwxrwx root       root               30 ./lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
@@ -40,7 +40,7 @@ drwxr-xr-x root       root              660 ./lib/udev/rules.d
 -rw-r--r-- root       root              282 ./lib/udev/rules.d/60-input-id.rules
 -rw-r--r-- root       root              616 ./lib/udev/rules.d/60-persistent-alsa.rules
 -rw-r--r-- root       root             2710 ./lib/udev/rules.d/60-persistent-input.rules
--rw-r--r-- root       root             7642 ./lib/udev/rules.d/60-persistent-storage.rules
+-rw-r--r-- root       root             6896 ./lib/udev/rules.d/60-persistent-storage.rules
 -rw-r--r-- root       root             2135 ./lib/udev/rules.d/60-persistent-storage-tape.rules
 -rw-r--r-- root       root              769 ./lib/udev/rules.d/60-persistent-v4l.rules
 -rw-r--r-- root       root              736 ./lib/udev/rules.d/60-sensor.rules
