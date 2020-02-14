@@ -1,9 +1,9 @@
 PV = s20190709
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.31)
 RRECOMMENDS = 
-PKGSIZE = 14036
-FILES = /sbin/rarpd
-FILELIST = /sbin/rarpd
+PKGSIZE = 14646
+FILES = /sbin/rarpd /lib/systemd/system/rarpd@.service
+FILELIST = /lib/systemd/system/rarpd@.service /sbin/rarpd

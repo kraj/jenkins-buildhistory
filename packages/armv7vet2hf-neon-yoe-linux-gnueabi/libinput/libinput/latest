@@ -1,9 +1,9 @@
 PV = 1.14.3
 PR = r0
 PKG = libinput10
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = libinput
-RDEPENDS = glibc (>= 2.31) libevdev (>= 1.8.0) libudev (>= 244.1) mtdev (>= 1.1.5)
+RDEPENDS = glibc (>= 2.31) libevdev (>= 1.8.0) libudev (>= 244.3) mtdev (>= 1.1.6)
 RRECOMMENDS = 
 RREPLACES = libinput
 RCONFLICTS = libinput
