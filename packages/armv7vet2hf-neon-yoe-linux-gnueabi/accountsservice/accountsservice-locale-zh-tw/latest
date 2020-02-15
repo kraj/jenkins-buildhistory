@@ -1,0 +1,10 @@
+PV = 0.6.55
+PR = r0
+PKG = libaccountsservice-locale-zh-tw
+PKGR = r0.2
+RPROVIDES = accountsservice-locale accountsservice-locale-zh-tw (=0.6.55) zh-tw-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-zh-tw
+PKGSIZE = 1455
+FILES = /usr/share/locale/zh_TW
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/accounts-service.mo

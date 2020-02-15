@@ -1,0 +1,9 @@
+PV = 0.2
+PR = r0
+PKGR = r0.1
+RPROVIDES = u-boot-fw-utils
+RDEPENDS = glibc (>= 2.31) libubootenv (>= 0.2)
+RRECOMMENDS = 
+PKGSIZE = 19944
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/fw_printenv /usr/bin/fw_setenv
