@@ -1,3 +1,18 @@
 #!/bin/sh
 set -e
 	glib-compile-schemas $D/usr/share/glib-2.0/schemas
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_mime_database ${PKG} \
+		mlprefix= \
+		mimedir=/usr/share/mime
+else
+	echo "Updating MIME database... this may take a while."
+	update-mime-database $D/usr/share/mime
+fi
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database ${PKG} \
+		mlprefix= \
+		desktop_dir=/usr/share/applications
+else
+	update-desktop-database $D/usr/share/applications
+fi

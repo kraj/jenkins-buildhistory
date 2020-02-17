@@ -1,9 +1,9 @@
 PV = 0.5.2
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = libsigrok (= 0.5.2-r0.3)
-RRECOMMENDS = glib-2.0-dev glibc-dev libftdi-dev libserialport-dev libusb-dev libusb1-dev libzip-dev
+RDEPENDS = libsigrok (= 0.5.2-r0.4)
+RRECOMMENDS = glib-2.0-dev glibc-dev libftdi-dev libserialport-dev libusb-dev libusb1-dev libzip-dev shared-mime-info-data-dev shared-mime-info-dev
 PKGSIZE = 49977
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsigrok/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/libsigrok/libsigrok.h /usr/include/libsigrok/proto.h /usr/include/libsigrok/version.h /usr/lib/libsigrok.so /usr/lib/pkgconfig/libsigrok.pc
