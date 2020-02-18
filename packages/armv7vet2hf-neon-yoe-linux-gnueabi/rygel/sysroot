@@ -7,18 +7,18 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 drwxr-xr-x -          -                 100 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                 160 ./usr/include/rygel-2.6
--rw-r--r-- -          -               67663 ./usr/include/rygel-2.6/rygel-core.h
--rw-r--r-- -          -               15547 ./usr/include/rygel-2.6/rygel-db.h
--rw-r--r-- -          -                3277 ./usr/include/rygel-2.6/rygel-renderer-gst.h
--rw-r--r-- -          -               16796 ./usr/include/rygel-2.6/rygel-renderer.h
--rw-r--r-- -          -               15281 ./usr/include/rygel-2.6/rygel-ruih.h
--rw-r--r-- -          -              139205 ./usr/include/rygel-2.6/rygel-server.h
+-rw-r--r-- -          -               69262 ./usr/include/rygel-2.6/rygel-core.h
+-rw-r--r-- -          -               15930 ./usr/include/rygel-2.6/rygel-db.h
+-rw-r--r-- -          -                3409 ./usr/include/rygel-2.6/rygel-renderer-gst.h
+-rw-r--r-- -          -               16938 ./usr/include/rygel-2.6/rygel-renderer.h
+-rw-r--r-- -          -               15858 ./usr/include/rygel-2.6/rygel-ruih.h
+-rw-r--r-- -          -              142384 ./usr/include/rygel-2.6/rygel-server.h
 drwxr-xr-x -          -                 460 ./usr/lib
 drwxr-xr-x -          -                 120 ./usr/lib/girepository-1.0
--rw-r--r-- -          -               33688 ./usr/lib/girepository-1.0/RygelCore-2.6.typelib
--rw-r--r-- -          -               15096 ./usr/lib/girepository-1.0/RygelRenderer-2.6.typelib
--rw-r--r-- -          -                2024 ./usr/lib/girepository-1.0/RygelRendererGst-2.6.typelib
--rw-r--r-- -          -               71568 ./usr/lib/girepository-1.0/RygelServer-2.6.typelib
+-rw-r--r-- -          -               36036 ./usr/lib/girepository-1.0/RygelCore-2.6.typelib
+-rw-r--r-- -          -               15000 ./usr/lib/girepository-1.0/RygelRenderer-2.6.typelib
+-rw-r--r-- -          -                2036 ./usr/lib/girepository-1.0/RygelRendererGst-2.6.typelib
+-rw-r--r-- -          -               74100 ./usr/lib/girepository-1.0/RygelServer-2.6.typelib
 -rwxr-xr-x -          -              206340 ./usr/lib/librygel-core-2.6.so.2.0.4
 lrwxrwxrwx -          -                  26 ./usr/lib/librygel-core-2.6.so.2 -> librygel-core-2.6.so.2.0.4
 lrwxrwxrwx -          -                  26 ./usr/lib/librygel-core-2.6.so -> librygel-core-2.6.so.2.0.4
@@ -34,7 +34,7 @@ lrwxrwxrwx -          -                  34 ./usr/lib/librygel-renderer-gst-2.6.
 -rwxr-xr-x -          -               38368 ./usr/lib/librygel-ruih-2.0.so.1.0.0
 lrwxrwxrwx -          -                  26 ./usr/lib/librygel-ruih-2.0.so.1 -> librygel-ruih-2.0.so.1.0.0
 lrwxrwxrwx -          -                  26 ./usr/lib/librygel-ruih-2.0.so -> librygel-ruih-2.0.so.1.0.0
--rwxr-xr-x -          -              402944 ./usr/lib/librygel-server-2.6.so.2.0.4
+-rwxr-xr-x -          -              398848 ./usr/lib/librygel-server-2.6.so.2.0.4
 lrwxrwxrwx -          -                  28 ./usr/lib/librygel-server-2.6.so.2 -> librygel-server-2.6.so.2.0.4
 lrwxrwxrwx -          -                  28 ./usr/lib/librygel-server-2.6.so -> librygel-server-2.6.so.2.0.4
 drwxr-xr-x -          -                 140 ./usr/lib/pkgconfig
@@ -54,7 +54,7 @@ drwxr-xr-x -          -                 280 ./usr/lib/rygel-2.6/plugins
 -rw-r--r-- -          -                 183 ./usr/lib/rygel-2.6/plugins/gst-launch.plugin
 -rwxr-xr-x -          -               95812 ./usr/lib/rygel-2.6/plugins/librygel-external.so
 -rwxr-xr-x -          -                9696 ./usr/lib/rygel-2.6/plugins/librygel-gst-launch.so
--rwxr-xr-x -          -              185824 ./usr/lib/rygel-2.6/plugins/librygel-media-export.so
+-rwxr-xr-x -          -              181728 ./usr/lib/rygel-2.6/plugins/librygel-media-export.so
 -rwxr-xr-x -          -               46560 ./usr/lib/rygel-2.6/plugins/librygel-mpris.so
 -rwxr-xr-x -          -                9696 ./usr/lib/rygel-2.6/plugins/librygel-playbin.so
 -rwxr-xr-x -          -                5600 ./usr/lib/rygel-2.6/plugins/librygel-ruih.so
@@ -67,10 +67,10 @@ drwxr-xr-x -          -                  60 ./usr/share/dbus-1
 drwxr-xr-x -          -                  60 ./usr/share/dbus-1/services
 -rw-r--r-- -          -                  87 ./usr/share/dbus-1/services/org.gnome.Rygel1.service
 drwxr-xr-x -          -                 120 ./usr/share/gir-1.0
--rw-r--r-- -          -              125661 ./usr/share/gir-1.0/RygelCore-2.6.gir
--rw-r--r-- -          -               72251 ./usr/share/gir-1.0/RygelRenderer-2.6.gir
--rw-r--r-- -          -                4123 ./usr/share/gir-1.0/RygelRendererGst-2.6.gir
--rw-r--r-- -          -              274387 ./usr/share/gir-1.0/RygelServer-2.6.gir
+-rw-r--r-- -          -              131184 ./usr/share/gir-1.0/RygelCore-2.6.gir
+-rw-r--r-- -          -               72147 ./usr/share/gir-1.0/RygelRenderer-2.6.gir
+-rw-r--r-- -          -                4089 ./usr/share/gir-1.0/RygelRendererGst-2.6.gir
+-rw-r--r-- -          -              281924 ./usr/share/gir-1.0/RygelServer-2.6.gir
 drwxr-xr-x -          -                  40 ./usr/share/gtk-doc
 drwxr-xr-x -          -                  60 ./usr/share/icons
 drwxr-xr-x -          -                 120 ./usr/share/icons/hicolor
@@ -124,14 +124,14 @@ drwxr-xr-x -          -                 300 ./usr/share/rygel/xml
 drwxr-xr-x -          -                  60 ./usr/share/vala
 drwxr-xr-x -          -                 280 ./usr/share/vala/vapi
 -rw-r--r-- -          -                  37 ./usr/share/vala/vapi/rygel-core-2.6.deps
--rw-r--r-- -          -               15425 ./usr/share/vala/vapi/rygel-core-2.6.vapi
+-rw-r--r-- -          -               15324 ./usr/share/vala/vapi/rygel-core-2.6.vapi
 -rw-r--r-- -          -                  21 ./usr/share/vala/vapi/rygel-db-2.6.deps
 -rw-r--r-- -          -                3255 ./usr/share/vala/vapi/rygel-db-2.6.vapi
 -rw-r--r-- -          -                  28 ./usr/share/vala/vapi/rygel-renderer-2.6.deps
--rw-r--r-- -          -                3650 ./usr/share/vala/vapi/rygel-renderer-2.6.vapi
+-rw-r--r-- -          -                3660 ./usr/share/vala/vapi/rygel-renderer-2.6.vapi
 -rw-r--r-- -          -                  33 ./usr/share/vala/vapi/rygel-renderer-gst-2.6.deps
--rw-r--r-- -          -                 711 ./usr/share/vala/vapi/rygel-renderer-gst-2.6.vapi
+-rw-r--r-- -          -                 716 ./usr/share/vala/vapi/rygel-renderer-gst-2.6.vapi
 -rw-r--r-- -          -                  54 ./usr/share/vala/vapi/rygel-ruih-2.0.deps
--rw-r--r-- -          -                3543 ./usr/share/vala/vapi/rygel-ruih-2.0.vapi
+-rw-r--r-- -          -                3546 ./usr/share/vala/vapi/rygel-ruih-2.0.vapi
 -rw-r--r-- -          -                  54 ./usr/share/vala/vapi/rygel-server-2.6.deps
--rw-r--r-- -          -               30867 ./usr/share/vala/vapi/rygel-server-2.6.vapi
+-rw-r--r-- -          -               30977 ./usr/share/vala/vapi/rygel-server-2.6.vapi
