@@ -1,9 +1,9 @@
 PV = 6.2.0
 PR = r0
 PKG = libproj-dev
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = proj-dev (=6.2.0)
-RDEPENDS = proj (= 6.2.0-r0.2)
+RDEPENDS = proj (= 6.2.0-r0.3)
 RRECOMMENDS = glibc-dev libgcc-dev libsqlite3-dev libstdc++-dev sqlite3-dev
 PKGSIZE = 480049
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/proj/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
