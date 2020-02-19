@@ -1,9 +1,0 @@
-PV = 5.4.15
-PR = r0
-PKGR = r0.7
-RPROVIDES = kernel-module-sch-codel
-RDEPENDS = kernel-5.4.15-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 10268
-FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/sched/sch_codel.ko /etc/modules-load.d/sch_codel.conf /etc/modprobe.d/sch_codel.conf
-FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/sched/sch_codel.ko
