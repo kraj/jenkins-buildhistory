@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.11
+RPROVIDES = kernel-module-nf-conntrack
+RDEPENDS = kernel-5.4.15-yocto-standard kernel-module-nf-defrag-ipv4-5.4.15-yocto-standard kernel-module-nf-defrag-ipv6-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 121936
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/nf_conntrack.ko /etc/modules-load.d/nf_conntrack.conf /etc/modprobe.d/nf_conntrack.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/net/netfilter/nf_conntrack.ko

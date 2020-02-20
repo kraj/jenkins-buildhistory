@@ -1,0 +1,9 @@
+PV = 5.4.15
+PR = r0
+PKGR = r0.11
+RPROVIDES = kernel-module-dummy
+RDEPENDS = kernel-5.4.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8360
+FILES = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/dummy.ko /etc/modules-load.d/dummy.conf /etc/modprobe.d/dummy.conf
+FILELIST = /lib/modules/5.4.15-yocto-standard/kernel/drivers/net/dummy.ko

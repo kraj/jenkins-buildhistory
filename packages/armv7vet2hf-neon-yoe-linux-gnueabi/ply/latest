@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = bison-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = ply-src ply-dbg ply-staticdev ply-dev ply-doc ply-locale ply
+LAYER = openembedded-layer
