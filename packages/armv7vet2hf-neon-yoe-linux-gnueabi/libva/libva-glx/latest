@@ -1,9 +1,9 @@
 PV = 2.6.1
 PR = r0
 PKG = libva-glx2
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libva-glx (=2.6.1)
-RDEPENDS = glibc (>= 2.31) libgl-mesa (>= 19.3.3) libva (>= 2.6.1) libva-x11 (>= 2.6.1) libx11 (>= 1.6.9)
+RDEPENDS = glibc (>= 2.31) libgl-mesa (>= 19.3.4) libva (>= 2.6.1) libva-x11 (>= 2.6.1) libx11 (>= 1.6.9)
 RRECOMMENDS = 
 PKGSIZE = 13948
 FILES = /usr/lib/libva-glx*.so.*
