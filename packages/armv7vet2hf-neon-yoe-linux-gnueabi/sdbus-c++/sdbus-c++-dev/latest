@@ -1,9 +1,9 @@
 PV = 0.8.1
 PR = r0
 PKG = libsdbus-c++-dev
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = sdbus-c++-dev (=0.8.1)
-RDEPENDS = expat (>= 2.2.9) glibc (>= 2.31) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) sdbus-c++ (= 0.8.1-r0.8)
+RDEPENDS = expat (>= 2.2.9) glibc (>= 2.31) libgcc (>= 9.2.0) libstdc++ (>= 9.2.0) sdbus-c++ (= 0.8.1-r0.9)
 RRECOMMENDS = expat-dev glibc-dev libgcc-dev libstdc++-dev libsystemd-dev systemd-dev
 PKGSIZE = 241627
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sdbus-c++/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/sdbus-c++-xml2cpp
