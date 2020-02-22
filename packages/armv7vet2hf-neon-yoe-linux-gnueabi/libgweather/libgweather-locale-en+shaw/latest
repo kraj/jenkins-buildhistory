@@ -1,0 +1,10 @@
+PV = 3.34.0
+PR = r0
+PKG = libgweather-3-locale-en+shaw
+PKGR = r0.10
+RPROVIDES = en+shaw-translation libgweather-locale libgweather-locale-en+shaw (=3.34.0)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-en+shaw
+PKGSIZE = 203586
+FILES = /usr/share/locale/en@shaw
+FILELIST = /usr/share/locale/en@shaw/LC_MESSAGES/libgweather-3.0.mo /usr/share/locale/en@shaw/LC_MESSAGES/libgweather-locations.mo

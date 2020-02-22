@@ -1,0 +1,10 @@
+PV = 5.4.20+gitAUTOINC+c11911d4d1_aa91aac123
+PR = r0
+PKGV = 5.4.20+git0+c11911d4d1_aa91aac123
+PKGR = r0.1
+RPROVIDES = kernel-module-ebtable-filter
+RDEPENDS = kernel-5.4.20-yocto-standard kernel-module-ebtables-5.4.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5192
+FILES = /lib/modules/5.4.20-yocto-standard/kernel/net/bridge/netfilter/ebtable_filter.ko /etc/modules-load.d/ebtable_filter.conf /etc/modprobe.d/ebtable_filter.conf
+FILELIST = /lib/modules/5.4.20-yocto-standard/kernel/net/bridge/netfilter/ebtable_filter.ko

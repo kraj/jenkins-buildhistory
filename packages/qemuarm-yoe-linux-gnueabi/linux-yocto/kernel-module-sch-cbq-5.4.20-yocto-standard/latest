@@ -1,0 +1,10 @@
+PV = 5.4.20+gitAUTOINC+c11911d4d1_aa91aac123
+PR = r0
+PKGV = 5.4.20+git0+c11911d4d1_aa91aac123
+PKGR = r0.1
+RPROVIDES = kernel-module-sch-cbq
+RDEPENDS = kernel-5.4.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 21112
+FILES = /lib/modules/5.4.20-yocto-standard/kernel/net/sched/sch_cbq.ko /etc/modules-load.d/sch_cbq.conf /etc/modprobe.d/sch_cbq.conf
+FILELIST = /lib/modules/5.4.20-yocto-standard/kernel/net/sched/sch_cbq.ko

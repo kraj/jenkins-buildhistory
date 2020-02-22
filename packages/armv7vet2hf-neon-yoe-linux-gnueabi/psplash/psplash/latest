@@ -1,0 +1,10 @@
+PV = 0.1+gitAUTOINC+773a3977d2
+PR = r15
+PKGV = 0.1+git1+773a3977d2
+PKGR = r15.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31) libsystemd (>= 244.3)
+RRECOMMENDS = psplash-default
+PKGSIZE = 16076
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/psplash /usr/lib/psplash/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-psplash.preset /lib/systemd/system/psplash-start.service /lib/systemd/system/psplash-systemd.service
+FILELIST = /lib/systemd/system-preset/98-psplash.preset /lib/systemd/system/psplash-start.service /lib/systemd/system/psplash-systemd.service /usr/bin/psplash-systemd /usr/bin/psplash-write
