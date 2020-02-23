@@ -41,8 +41,8 @@ drwxr-x--- radiusd    radiusd           700 ./etc/raddb/certs
 -rw-r----- radiusd    radiusd           764 ./etc/raddb/certs/xpextensions
 -rw-r----- radiusd    radiusd          7476 ./etc/raddb/clients.conf
 -rw-r----- radiusd    radiusd          1440 ./etc/raddb/dictionary
-lrwxrwxrwx root       root               30 ./etc/raddb/hints -> ./mods-config/preprocess/hints
-lrwxrwxrwx root       root               35 ./etc/raddb/huntgroups -> ./mods-config/preprocess/huntgroups
+lrwxrwxrwx radiusd    radiusd            30 ./etc/raddb/hints -> ./mods-config/preprocess/hints
+lrwxrwxrwx radiusd    radiusd            35 ./etc/raddb/huntgroups -> ./mods-config/preprocess/huntgroups
 drwxr-x--- radiusd    radiusd          1260 ./etc/raddb/mods-available
 -rw-r----- radiusd    radiusd           244 ./etc/raddb/mods-available/abfab_psk_sql
 -rw-r----- radiusd    radiusd          1408 ./etc/raddb/mods-available/always
@@ -171,36 +171,36 @@ drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/moonshot
 drwxr-x--- radiusd    radiusd            60 ./etc/raddb/mods-config/unbound
 -rw-r----- radiusd    radiusd            24 ./etc/raddb/mods-config/unbound/default.conf
 drwxr-x--- radiusd    radiusd           640 ./etc/raddb/mods-enabled
-lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/always -> ../mods-available/always
-lrwxrwxrwx root       root               29 ./etc/raddb/mods-enabled/attr_filter -> ../mods-available/attr_filter
-lrwxrwxrwx root       root               27 ./etc/raddb/mods-enabled/cache_eap -> ../mods-available/cache_eap
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/chap -> ../mods-available/chap
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/date -> ../mods-available/date
-lrwxrwxrwx root       root               28 ./etc/raddb/mods-enabled/detail.log -> ../mods-available/detail.log
-lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/detail -> ../mods-available/detail
-lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/digest -> ../mods-available/digest
-lrwxrwxrwx root       root               33 ./etc/raddb/mods-enabled/dynamic_clients -> ../mods-available/dynamic_clients
-lrwxrwxrwx root       root               21 ./etc/raddb/mods-enabled/eap -> ../mods-available/eap
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/echo -> ../mods-available/echo
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/exec -> ../mods-available/exec
-lrwxrwxrwx root       root               28 ./etc/raddb/mods-enabled/expiration -> ../mods-available/expiration
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/expr -> ../mods-available/expr
-lrwxrwxrwx root       root               23 ./etc/raddb/mods-enabled/files -> ../mods-available/files
-lrwxrwxrwx root       root               25 ./etc/raddb/mods-enabled/linelog -> ../mods-available/linelog
-lrwxrwxrwx root       root               27 ./etc/raddb/mods-enabled/logintime -> ../mods-available/logintime
-lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/mschap -> ../mods-available/mschap
-lrwxrwxrwx root       root               27 ./etc/raddb/mods-enabled/ntlm_auth -> ../mods-available/ntlm_auth
-lrwxrwxrwx root       root               21 ./etc/raddb/mods-enabled/pap -> ../mods-available/pap
-lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/passwd -> ../mods-available/passwd
-lrwxrwxrwx root       root               28 ./etc/raddb/mods-enabled/preprocess -> ../mods-available/preprocess
-lrwxrwxrwx root       root               25 ./etc/raddb/mods-enabled/radutmp -> ../mods-available/radutmp
-lrwxrwxrwx root       root               23 ./etc/raddb/mods-enabled/realm -> ../mods-available/realm
-lrwxrwxrwx root       root               27 ./etc/raddb/mods-enabled/replicate -> ../mods-available/replicate
-lrwxrwxrwx root       root               21 ./etc/raddb/mods-enabled/soh -> ../mods-available/soh
-lrwxrwxrwx root       root               26 ./etc/raddb/mods-enabled/sradutmp -> ../mods-available/sradutmp
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/unix -> ../mods-available/unix
-lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/unpack -> ../mods-available/unpack
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/utf8 -> ../mods-available/utf8
+lrwxrwxrwx radiusd    radiusd            24 ./etc/raddb/mods-enabled/always -> ../mods-available/always
+lrwxrwxrwx radiusd    radiusd            29 ./etc/raddb/mods-enabled/attr_filter -> ../mods-available/attr_filter
+lrwxrwxrwx radiusd    radiusd            27 ./etc/raddb/mods-enabled/cache_eap -> ../mods-available/cache_eap
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/chap -> ../mods-available/chap
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/date -> ../mods-available/date
+lrwxrwxrwx radiusd    radiusd            28 ./etc/raddb/mods-enabled/detail.log -> ../mods-available/detail.log
+lrwxrwxrwx radiusd    radiusd            24 ./etc/raddb/mods-enabled/detail -> ../mods-available/detail
+lrwxrwxrwx radiusd    radiusd            24 ./etc/raddb/mods-enabled/digest -> ../mods-available/digest
+lrwxrwxrwx radiusd    radiusd            33 ./etc/raddb/mods-enabled/dynamic_clients -> ../mods-available/dynamic_clients
+lrwxrwxrwx radiusd    radiusd            21 ./etc/raddb/mods-enabled/eap -> ../mods-available/eap
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/echo -> ../mods-available/echo
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/exec -> ../mods-available/exec
+lrwxrwxrwx radiusd    radiusd            28 ./etc/raddb/mods-enabled/expiration -> ../mods-available/expiration
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/expr -> ../mods-available/expr
+lrwxrwxrwx radiusd    radiusd            23 ./etc/raddb/mods-enabled/files -> ../mods-available/files
+lrwxrwxrwx radiusd    radiusd            25 ./etc/raddb/mods-enabled/linelog -> ../mods-available/linelog
+lrwxrwxrwx radiusd    radiusd            27 ./etc/raddb/mods-enabled/logintime -> ../mods-available/logintime
+lrwxrwxrwx radiusd    radiusd            24 ./etc/raddb/mods-enabled/mschap -> ../mods-available/mschap
+lrwxrwxrwx radiusd    radiusd            27 ./etc/raddb/mods-enabled/ntlm_auth -> ../mods-available/ntlm_auth
+lrwxrwxrwx radiusd    radiusd            21 ./etc/raddb/mods-enabled/pap -> ../mods-available/pap
+lrwxrwxrwx radiusd    radiusd            24 ./etc/raddb/mods-enabled/passwd -> ../mods-available/passwd
+lrwxrwxrwx radiusd    radiusd            28 ./etc/raddb/mods-enabled/preprocess -> ../mods-available/preprocess
+lrwxrwxrwx radiusd    radiusd            25 ./etc/raddb/mods-enabled/radutmp -> ../mods-available/radutmp
+lrwxrwxrwx radiusd    radiusd            23 ./etc/raddb/mods-enabled/realm -> ../mods-available/realm
+lrwxrwxrwx radiusd    radiusd            27 ./etc/raddb/mods-enabled/replicate -> ../mods-available/replicate
+lrwxrwxrwx radiusd    radiusd            21 ./etc/raddb/mods-enabled/soh -> ../mods-available/soh
+lrwxrwxrwx radiusd    radiusd            26 ./etc/raddb/mods-enabled/sradutmp -> ../mods-available/sradutmp
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/unix -> ../mods-available/unix
+lrwxrwxrwx radiusd    radiusd            24 ./etc/raddb/mods-enabled/unpack -> ../mods-available/unpack
+lrwxrwxrwx radiusd    radiusd            22 ./etc/raddb/mods-enabled/utf8 -> ../mods-available/utf8
 -rw-r----- radiusd    radiusd            52 ./etc/raddb/panic.gdb
 drwxr-x--- radiusd    radiusd           280 ./etc/raddb/policy.d
 -rw-r----- radiusd    radiusd          2787 ./etc/raddb/policy.d/abfab-tr
@@ -246,11 +246,11 @@ drwxr-x--- radiusd    radiusd           560 ./etc/raddb/sites-available
 -rw-r----- radiusd    radiusd           877 ./etc/raddb/sites-available/virtual.example.com
 -rw-r----- radiusd    radiusd          2571 ./etc/raddb/sites-available/vmps
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/sites-enabled
-lrwxrwxrwx root       root               26 ./etc/raddb/sites-enabled/default -> ../sites-available/default
-lrwxrwxrwx root       root               31 ./etc/raddb/sites-enabled/inner-tunnel -> ../sites-available/inner-tunnel
+lrwxrwxrwx radiusd    radiusd            26 ./etc/raddb/sites-enabled/default -> ../sites-available/default
+lrwxrwxrwx radiusd    radiusd            31 ./etc/raddb/sites-enabled/inner-tunnel -> ../sites-available/inner-tunnel
 -rw-r----- radiusd    radiusd          3470 ./etc/raddb/templates.conf
 -rw-r----- radiusd    radiusd          8536 ./etc/raddb/trigger.conf
-lrwxrwxrwx root       root               29 ./etc/raddb/users -> ./mods-config/files/authorize
+lrwxrwxrwx radiusd    radiusd            29 ./etc/raddb/users -> ./mods-config/files/authorize
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               84 ./etc/tmpfiles.d/radiusd.conf
 drwxr-xr-x root       root               60 ./lib
