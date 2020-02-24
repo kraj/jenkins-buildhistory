@@ -1,0 +1,10 @@
+PV = 5.4.20+gitAUTOINC+c11911d4d1_aa91aac123
+PR = r0
+PKGV = 5.4.20+git0+c11911d4d1_aa91aac123
+PKGR = r0.4
+RPROVIDES = kernel-module-dma-example
+RDEPENDS = kernel-5.4.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5240
+FILES = /lib/modules/5.4.20-yocto-standard/kernel/samples/kfifo/dma-example.ko /etc/modules-load.d/dma-example.conf /etc/modprobe.d/dma-example.conf
+FILELIST = /lib/modules/5.4.20-yocto-standard/kernel/samples/kfifo/dma-example.ko

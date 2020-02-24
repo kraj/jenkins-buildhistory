@@ -1,0 +1,9 @@
+PV = 2.11.1
+PR = r0
+PKGR = r0.8
+RPROVIDES = kernel-module-lttng-test
+RDEPENDS = kernel-5.4.20-yocto-standard kernel-module-lttng-lib-ring-buffer-5.4.20-yocto-standard kernel-module-lttng-tracer-5.4.20-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12428
+FILES = /lib/modules/5.4.20-yocto-standard/kernel/lttng-modules/tests/lttng-test.ko /etc/modules-load.d/lttng-test.conf /etc/modprobe.d/lttng-test.conf
+FILELIST = /lib/modules/5.4.20-yocto-standard/kernel/lttng-modules/tests/lttng-test.ko
