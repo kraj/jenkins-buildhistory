@@ -1,9 +1,9 @@
 PV = 1.4.1
 PR = r0
 PKG = libwpebackend-fdo-1.0-dev
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = wpebackend-fdo-dev (=1.4.1)
-RDEPENDS = wpebackend-fdo (= 1.4.1-r0.4)
+RDEPENDS = wpebackend-fdo (= 1.4.1-r0.5)
 RRECOMMENDS = glib-2.0-dev glibc-dev libegl-mesa-dev libstdc++-dev libwpe-dev libxkbcommon-dev wayland-dev
 PKGSIZE = 15719
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wpebackend-fdo/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
