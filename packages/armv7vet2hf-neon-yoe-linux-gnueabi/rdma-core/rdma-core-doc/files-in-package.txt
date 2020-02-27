@@ -6,15 +6,15 @@ drwxr-xr-x root       root              220 ./usr/share/doc/rdma-core
 -rw-r--r-- root       root             1790 ./usr/share/doc/rdma-core/ibsrpdm.md
 -rw-r--r-- root       root             2173 ./usr/share/doc/rdma-core/libibverbs.md
 -rw-r--r-- root       root             1358 ./usr/share/doc/rdma-core/librdmacm.md
--rw-r--r-- root       root             5487 ./usr/share/doc/rdma-core/MAINTAINERS
+-rw-r--r-- root       root             5488 ./usr/share/doc/rdma-core/MAINTAINERS
 -rw-r--r-- root       root             4451 ./usr/share/doc/rdma-core/README.md
--rw-r--r-- root       root              776 ./usr/share/doc/rdma-core/rxe.md
+-rw-r--r-- root       root              452 ./usr/share/doc/rdma-core/rxe.md
 -rw-r--r-- root       root            14402 ./usr/share/doc/rdma-core/tag_matching.md
--rw-r--r-- root       root             7926 ./usr/share/doc/rdma-core/udev.md
+-rw-r--r-- root       root             7910 ./usr/share/doc/rdma-core/udev.md
 drwxr-xr-x root       root              140 ./usr/share/man
-drwxr-xr-x root       root              540 ./usr/share/man/man1
+drwxr-xr-x root       root              520 ./usr/share/man/man1
 -rw-r--r-- root       root             1570 ./usr/share/man/man1/cmtime.1
--rw-r--r-- root       root             8241 ./usr/share/man/man1/ibacm.1
+-rw-r--r-- root       root             8001 ./usr/share/man/man1/ibacm.1
 -rw-r--r-- root       root             4211 ./usr/share/man/man1/ib_acme.1
 -rw-r--r-- root       root              786 ./usr/share/man/man1/ibsrpdm.1
 -rw-r--r-- root       root              643 ./usr/share/man/man1/ibv_asyncwatch.1
@@ -34,7 +34,6 @@ drwxr-xr-x root       root              540 ./usr/share/man/man1
 -rw-r--r-- root       root             2220 ./usr/share/man/man1/riostream.1
 -rw-r--r-- root       root             1833 ./usr/share/man/man1/rping.1
 -rw-r--r-- root       root             2454 ./usr/share/man/man1/rstream.1
--rw-r--r-- root       root             6216 ./usr/share/man/man1/srp_daemon.1
 -rw-r--r-- root       root             2717 ./usr/share/man/man1/ucmatose.1
 -rw-r--r-- root       root             2158 ./usr/share/man/man1/udaddy.1
 -rw-r--r-- root       root             2022 ./usr/share/man/man1/udpong.1
@@ -90,7 +89,7 @@ lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_memcpy_from
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_memcpy_to_dm.3 -> ibv_alloc_dm.3
 -rw-r--r-- root       root             1103 ./usr/share/man/man3/ibv_modify_cq.3
 -rw-r--r-- root       root             7682 ./usr/share/man/man3/ibv_modify_qp.3
--rw-r--r-- root       root             2001 ./usr/share/man/man3/ibv_modify_qp_rate_limit.3
+-rw-r--r-- root       root             2071 ./usr/share/man/man3/ibv_modify_qp_rate_limit.3
 -rw-r--r-- root       root             2035 ./usr/share/man/man3/ibv_modify_srq.3
 -rw-r--r-- root       root             1338 ./usr/share/man/man3/ibv_modify_wq.3
 -rw-r--r-- root       root             1638 ./usr/share/man/man3/ibv_open_device.3
@@ -108,7 +107,7 @@ lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_memcpy_to_d
 -rw-r--r-- root       root             1498 ./usr/share/man/man3/ibv_query_rt_values_ex.3
 -rw-r--r-- root       root             1414 ./usr/share/man/man3/ibv_query_srq.3
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_reg_dm_mr.3 -> ibv_alloc_dm.3
--rw-r--r-- root       root             3120 ./usr/share/man/man3/ibv_reg_mr.3
+-rw-r--r-- root       root             3528 ./usr/share/man/man3/ibv_reg_mr.3
 -rw-r--r-- root       root             4771 ./usr/share/man/man3/rdma_accept.3
 -rw-r--r-- root       root              821 ./usr/share/man/man3/rdma_ack_cm_event.3
 -rw-r--r-- root       root             1316 ./usr/share/man/man3/rdma_bind_addr.3
@@ -204,7 +203,7 @@ drwxr-xr-x root       root              140 ./usr/share/man/man7
 -rw-r--r-- root       root             3713 ./usr/share/man/man7/ibacm_prov.7
 -rw-r--r-- root       root             7709 ./usr/share/man/man7/rdma_cm.7
 -rw-r--r-- root       root             6425 ./usr/share/man/man7/rsocket.7
--rw-r--r-- root       root             4243 ./usr/share/man/man7/rxe.7
+-rw-r--r-- root       root             3959 ./usr/share/man/man7/rxe.7
 drwxr-xr-x root       root               80 ./usr/share/man/man8
 -rw-r--r-- root       root             2555 ./usr/share/man/man8/iwpmd.8
--rw-r--r-- root       root             4427 ./usr/share/man/man8/rxe_cfg.8
+-rw-r--r-- root       root             6216 ./usr/share/man/man8/srp_daemon.8

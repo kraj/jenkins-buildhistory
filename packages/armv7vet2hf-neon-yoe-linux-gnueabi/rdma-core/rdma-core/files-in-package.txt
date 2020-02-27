@@ -36,7 +36,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root             1660 ./lib/systemd/system/srp_daemon_port@.service
 -rw-r--r-- root       root              471 ./lib/systemd/system/srp_daemon.service
 drwxr-xr-x root       root              120 ./usr
-drwxr-xr-x root       root              500 ./usr/bin
+drwxr-xr-x root       root              480 ./usr/bin
 -rwxr-xr-x root       root            14032 ./usr/bin/cmtime
 -rwxr-xr-x root       root            34524 ./usr/bin/ib_acme
 -rwxr-xr-x root       root             5816 ./usr/bin/ibv_asyncwatch
@@ -56,7 +56,6 @@ drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root            18092 ./usr/bin/riostream
 -rwxr-xr-x root       root            22148 ./usr/bin/rping
 -rwxr-xr-x root       root            18088 ./usr/bin/rstream
--rwxr-xr-x root       root            15176 ./usr/bin/rxe_cfg
 -rwxr-xr-x root       root            18072 ./usr/bin/ucmatose
 -rwxr-xr-x root       root            13968 ./usr/bin/udaddy
 -rwxr-xr-x root       root            13984 ./usr/bin/udpong
@@ -67,25 +66,25 @@ drwxr-xr-x root       root               60 ./usr/libexec/srp_daemon
 -rwxr-xr-x root       root             8706 ./usr/libexec/truescale-serdes.cmds
 drwxr-xr-x root       root               60 ./usr/lib/ibacm
 -rwxr-xr-x root       root            38904 ./usr/lib/ibacm/libibacmp.so
--rwxr-xr-x root       root            80444 ./usr/lib/libibmad.so.5.3.27.0
-lrwxrwxrwx root       root               20 ./usr/lib/libibmad.so.5 -> libibmad.so.5.3.27.0
+-rwxr-xr-x root       root            80444 ./usr/lib/libibmad.so.5.3.28.0
+lrwxrwxrwx root       root               20 ./usr/lib/libibmad.so.5 -> libibmad.so.5.3.28.0
 lrwxrwxrwx root       root               13 ./usr/lib/libibmad.so -> libibmad.so.5
--rwxr-xr-x root       root            34360 ./usr/lib/libibnetdisc.so.5.0.27.0
-lrwxrwxrwx root       root               24 ./usr/lib/libibnetdisc.so.5 -> libibnetdisc.so.5.0.27.0
+-rwxr-xr-x root       root            34360 ./usr/lib/libibnetdisc.so.5.0.28.0
+lrwxrwxrwx root       root               24 ./usr/lib/libibnetdisc.so.5 -> libibnetdisc.so.5.0.28.0
 lrwxrwxrwx root       root               17 ./usr/lib/libibnetdisc.so -> libibnetdisc.so.5
--rwxr-xr-x root       root            26104 ./usr/lib/libibumad.so.3.1.27.0
-lrwxrwxrwx root       root               21 ./usr/lib/libibumad.so.3 -> libibumad.so.3.1.27.0
+-rwxr-xr-x root       root            26104 ./usr/lib/libibumad.so.3.1.28.0
+lrwxrwxrwx root       root               21 ./usr/lib/libibumad.so.3 -> libibumad.so.3.1.28.0
 lrwxrwxrwx root       root               14 ./usr/lib/libibumad.so -> libibumad.so.3
 drwxr-xr-x root       root              120 ./usr/lib/libibverbs
 -rwxr-xr-x root       root            13928 ./usr/lib/libibverbs/libhfi1verbs-rdmav25.so
 -rwxr-xr-x root       root            13932 ./usr/lib/libibverbs/libipathverbs-rdmav25.so
 -rwxr-xr-x root       root            13924 ./usr/lib/libibverbs/librxe-rdmav25.so
 -rwxr-xr-x root       root             9776 ./usr/lib/libibverbs/libsiw-rdmav25.so
--rwxr-xr-x root       root            63664 ./usr/lib/libibverbs.so.1.7.27.0
-lrwxrwxrwx root       root               22 ./usr/lib/libibverbs.so.1 -> libibverbs.so.1.7.27.0
+-rwxr-xr-x root       root            67760 ./usr/lib/libibverbs.so.1.8.28.0
+lrwxrwxrwx root       root               22 ./usr/lib/libibverbs.so.1 -> libibverbs.so.1.8.28.0
 lrwxrwxrwx root       root               15 ./usr/lib/libibverbs.so -> libibverbs.so.1
--rwxr-xr-x root       root            63872 ./usr/lib/librdmacm.so.1.2.27.0
-lrwxrwxrwx root       root               21 ./usr/lib/librdmacm.so.1 -> librdmacm.so.1.2.27.0
+-rwxr-xr-x root       root            63872 ./usr/lib/librdmacm.so.1.2.28.0
+lrwxrwxrwx root       root               21 ./usr/lib/librdmacm.so.1 -> librdmacm.so.1.2.28.0
 lrwxrwxrwx root       root               14 ./usr/lib/librdmacm.so -> librdmacm.so.1
 drwxr-xr-x root       root               60 ./usr/lib/perl5
 drwxr-xr-x root       root               60 ./usr/lib/perl5/5.30.1
