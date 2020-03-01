@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native libtool-cross libtool-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = ply-src ply-dbg ply-staticdev ply-dev ply-doc ply-locale ply
+LAYER = openembedded-layer

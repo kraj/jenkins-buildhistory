@@ -1,0 +1,10 @@
+PV = 3.6.12
+PR = r0
+PKG = libgnutlsxx28
+PKGR = r0.3
+RPROVIDES = gnutls-xx (=3.6.12)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) gmp (>= 6.2.0) gnutls (>= 3.6.12) libgcc (>= 9.2.0) libidn2 (>= 2.3.0) libstdc++ (>= 9.2.0) libunistring (>= 0.9.10) nettle (>= 3.5.1)
+RRECOMMENDS = 
+PKGSIZE = 42665
+FILES = /usr/lib/libgnutlsxx.so.*
+FILELIST = /usr/lib/libgnutlsxx.so.28 /usr/lib/libgnutlsxx.so.28.1.0

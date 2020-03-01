@@ -1,0 +1,9 @@
+PV = 2.4.3
+PR = r0
+PKGR = r0.7
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libtirpc (>= 1.2.5) util-linux-libmount (>= 2.35.1)
+RRECOMMENDS = 
+PKGSIZE = 83959
+FILES = /sbin/*mount.nfs*
+FILELIST = /sbin/mount.nfs /sbin/mount.nfs4 /sbin/umount.nfs /sbin/umount.nfs4

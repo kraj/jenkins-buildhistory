@@ -1,0 +1,10 @@
+PV = 0.2+gitAUTOINC+ba952d05ec
+PR = r0
+PKGV = 0.2+git0+ba952d05ec
+PKGR = r0.8
+RPROVIDES = 
+RDEPENDS = libubootenv (= 0.2+git0+ba952d05ec-r0.8)
+RRECOMMENDS = glibc-dev mtd-utils-dev
+PKGSIZE = 4577
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libubootenv/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libuboot.h /usr/lib/libubootenv.so /usr/lib/pkgconfig/libubootenv.pc
