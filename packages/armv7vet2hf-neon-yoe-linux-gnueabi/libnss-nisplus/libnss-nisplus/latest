@@ -1,0 +1,11 @@
+PV = 1.3+gitAUTOINC+116219e215
+PR = r0
+PKG = libnss-nisplus2
+PKGV = 1.3+git0+116219e215
+PKGR = r0.13
+RPROVIDES = libnss-nisplus (=1.3+git0+116219e215)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libnsl2 (>= 1.2.0+git0+4a062cf418) libtirpc (>= 1.2.5)
+RRECOMMENDS = 
+PKGSIZE = 34319
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libnss-nisplus /usr/lib/libnss-nisplus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libnss_nisplus.so.2 /usr/lib/libnss_nisplus.so.2.0.0

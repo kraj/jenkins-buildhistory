@@ -1,0 +1,10 @@
+PV = 0.0+AUTOINC+dfb8f3ed1c
+PR = r0
+PKGV = 0.0+0+dfb8f3ed1c
+PKGR = r0.18
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libudev (>= 244.3) qrtr (>= 0.0+0+cd6bedd5d0)
+RRECOMMENDS = 
+PKGSIZE = 19484
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rmtfs /usr/lib/rmtfs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-rmtfs.preset /lib/systemd/system/rmtfs.service
+FILELIST = /lib/systemd/system-preset/98-rmtfs.preset /lib/systemd/system/rmtfs.service /usr/bin/rmtfs
