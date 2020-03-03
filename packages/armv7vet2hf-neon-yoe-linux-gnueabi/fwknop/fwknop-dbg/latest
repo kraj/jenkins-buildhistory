@@ -1,0 +1,10 @@
+PV = 2.6.10
+PR = r0
+PKG = libfko-dbg
+PKGR = r0.20
+RPROVIDES = fwknop-dbg (=2.6.10)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libpcap-dbg
+PKGSIZE = 928544
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/fwknop /usr/lib/.debug/libfko.so.3.0.0 /usr/sbin/.debug/fwknopd

@@ -1,0 +1,9 @@
+PV = 5.8.2
+PR = r0
+PKGR = r0.14
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) strongswan
+RRECOMMENDS = 
+PKGSIZE = 15082
+FILES = /usr/lib/ipsec/plugins/libstrongswan-pem.so /etc/strongswan.d/charon/pem.conf
+FILELIST = /etc/strongswan.d/charon/pem.conf /usr/lib/ipsec/plugins/libstrongswan-pem.so

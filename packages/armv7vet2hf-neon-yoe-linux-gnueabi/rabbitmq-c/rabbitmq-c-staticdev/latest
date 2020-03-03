@@ -1,0 +1,10 @@
+PV = 0.10.0
+PR = r0
+PKG = librabbitmq-staticdev
+PKGR = r0.15
+RPROVIDES = rabbitmq-c-staticdev (=0.10.0)
+RDEPENDS = rabbitmq-c-dev (= 0.10.0-r0.15)
+RRECOMMENDS = 
+PKGSIZE = 696424
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/rabbitmq-c/*.a
+FILELIST = /usr/lib/librabbitmq.a
