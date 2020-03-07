@@ -1,10 +1,10 @@
 PV = 4.1.0
 PR = r0
 PKG = libopencv-videoio4.1
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = libopencv-videoio (=4.1.0)
-RDEPENDS = glib-2.0 (>= 2.62.4) glibc (>= 2.31+git0+71f2b249a2) gstreamer1.0 (>= 1.16.2) libgcc (>= 9.2.0) libgphoto2 (>= 2.5.23) libgphotoport (>= 2.5.23) libgstapp-1.0 (>= 1.16.2) libgstpbutils-1.0 (>= 1.16.2) libgstriff-1.0 (>= 1.16.2) libopencv-core (>= 4.1.0) libopencv-imgcodecs (>= 4.1.0) libopencv-imgproc (>= 4.1.0) libstdc++ (>= 9.2.0)
+RDEPENDS = glib-2.0 (>= 2.62.4) glibc (>= 2.31+git0+71f2b249a2) gstreamer1.0 (>= 1.16.2) libavcodec (>= 4.2.2) libavformat (>= 4.2.2) libavutil (>= 4.2.2) libgcc (>= 9.2.0) libgphoto2 (>= 2.5.23) libgphotoport (>= 2.5.23) libgstapp-1.0 (>= 1.16.2) libgstpbutils-1.0 (>= 1.16.2) libgstriff-1.0 (>= 1.16.2) libopencv-core (>= 4.1.0) libopencv-imgcodecs (>= 4.1.0) libopencv-imgproc (>= 4.1.0) libstdc++ (>= 9.2.0) libswscale (>= 4.2.2)
 RRECOMMENDS = 
-PKGSIZE = 251726
+PKGSIZE = 276306
 FILES = /usr/lib/libopencv_videoio.so /usr/lib/libopencv_videoio.so.4.1 /usr/lib/libopencv_videoio.so.4.1.0
 FILELIST = /usr/lib/libopencv_videoio.so.4.1 /usr/lib/libopencv_videoio.so.4.1.0

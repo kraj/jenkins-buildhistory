@@ -1,8 +1,10 @@
 drwxr-xr-x -          -                  60 ./lib
-drwxr-xr-x -          -                8360 ./lib/firmware
+drwxr-xr-x -          -                7740 ./lib/firmware
 drwxr-xr-x -          -                  80 ./lib/firmware/3com
 -rw-r--r-- -          -               24880 ./lib/firmware/3com/3C359.bin
 -rw-r--r-- -          -               44548 ./lib/firmware/3com/typhoon.bin
+lrwxrwxrwx -          -                  16 ./lib/firmware/a300_pfp.fw -> qcom/a300_pfp.fw
+lrwxrwxrwx -          -                  16 ./lib/firmware/a300_pm4.fw -> qcom/a300_pm4.fw
 drwxr-xr-x -          -                  80 ./lib/firmware/acenic
 -rw-r--r-- -          -               73116 ./lib/firmware/acenic/tg1.bin
 -rw-r--r-- -          -               77452 ./lib/firmware/acenic/tg2.bin
@@ -344,15 +346,11 @@ drwxr-xr-x -          -                6540 ./lib/firmware/amdgpu
 -rw-r--r-- -          -                8832 ./lib/firmware/amdgpu/verde_pfp.bin
 -rw-r--r-- -          -                8448 ./lib/firmware/amdgpu/verde_rlc.bin
 -rw-r--r-- -          -               61776 ./lib/firmware/amdgpu/verde_smc.bin
-drwxr-xr-x -          -                 200 ./lib/firmware/amd-ucode
+drwxr-xr-x -          -                 120 ./lib/firmware/amd-ucode
 -rw-r--r-- -          -               12684 ./lib/firmware/amd-ucode/microcode_amd.bin
--rw-r--r-- -          -                 490 ./lib/firmware/amd-ucode/microcode_amd.bin.asc
 -rw-r--r-- -          -                7876 ./lib/firmware/amd-ucode/microcode_amd_fam15h.bin
--rw-r--r-- -          -                 473 ./lib/firmware/amd-ucode/microcode_amd_fam15h.bin.asc
 -rw-r--r-- -          -                3510 ./lib/firmware/amd-ucode/microcode_amd_fam16h.bin
--rw-r--r-- -          -                 473 ./lib/firmware/amd-ucode/microcode_amd_fam16h.bin.asc
 -rw-r--r-- -          -                6476 ./lib/firmware/amd-ucode/microcode_amd_fam17h.bin
--rw-r--r-- -          -                 488 ./lib/firmware/amd-ucode/microcode_amd_fam17h.bin.asc
 drwxr-xr-x -          -                 520 ./lib/firmware/ar3k
 drwxr-xr-x -          -                 100 ./lib/firmware/ar3k/1020200
 -rw-r--r-- -          -                  14 ./lib/firmware/ar3k/1020200/ar3kbdaddr.pst
@@ -405,62 +403,49 @@ drwxr-xr-x -          -                 140 ./lib/firmware/ar3k/30101coex
 -rw-r--r-- -          -               81820 ./lib/firmware/as102_data2_st.hex
 drwxr-xr-x -          -                 220 ./lib/firmware/ath10k
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA4019
-drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA4019/hw1.0
+drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/QCA4019/hw1.0
 -rw-r--r-- -          -              607304 ./lib/firmware/ath10k/QCA4019/hw1.0/board-2.bin
 -rw-r--r-- -          -              583344 ./lib/firmware/ath10k/QCA4019/hw1.0/firmware-5.bin
--rw-r--r-- -          -               30479 ./lib/firmware/ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/QCA6174
-drwxr-xr-x -          -                 120 ./lib/firmware/ath10k/QCA6174/hw2.1
+drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA6174/hw2.1
 -rw-r--r-- -          -              263188 ./lib/firmware/ath10k/QCA6174/hw2.1/board-2.bin
 -rw-r--r-- -          -                8124 ./lib/firmware/ath10k/QCA6174/hw2.1/board.bin
 -rw-r--r-- -          -              498172 ./lib/firmware/ath10k/QCA6174/hw2.1/firmware-5.bin
--rw-r--r-- -          -               46087 ./lib/firmware/ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
-drwxr-xr-x -          -                 160 ./lib/firmware/ath10k/QCA6174/hw3.0
+drwxr-xr-x -          -                 120 ./lib/firmware/ath10k/QCA6174/hw3.0
 -rw-r--r-- -          -              584036 ./lib/firmware/ath10k/QCA6174/hw3.0/board-2.bin
 -rw-r--r-- -          -                8124 ./lib/firmware/ath10k/QCA6174/hw3.0/board.bin
 -rw-r--r-- -          -              733784 ./lib/firmware/ath10k/QCA6174/hw3.0/firmware-4.bin
 -rw-r--r-- -          -              700988 ./lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin
--rw-r--r-- -          -               79689 ./lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
--rw-r--r-- -          -               53425 ./lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA9377
-drwxr-xr-x -          -                 160 ./lib/firmware/ath10k/QCA9377/hw1.0
+drwxr-xr-x -          -                 120 ./lib/firmware/ath10k/QCA9377/hw1.0
 -rw-r--r-- -          -              304308 ./lib/firmware/ath10k/QCA9377/hw1.0/board-2.bin
 -rw-r--r-- -          -                8124 ./lib/firmware/ath10k/QCA9377/hw1.0/board.bin
 -rw-r--r-- -          -              783336 ./lib/firmware/ath10k/QCA9377/hw1.0/firmware-5.bin
 -rw-r--r-- -          -              751436 ./lib/firmware/ath10k/QCA9377/hw1.0/firmware-6.bin
--rw-r--r-- -          -               46143 ./lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
--rw-r--r-- -          -               53425 ./lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA9887
-drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA9887/hw1.0
+drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/QCA9887/hw1.0
 -rw-r--r-- -          -                1024 ./lib/firmware/ath10k/QCA9887/hw1.0/board.bin
 -rw-r--r-- -          -              238548 ./lib/firmware/ath10k/QCA9887/hw1.0/firmware-5.bin
--rw-r--r-- -          -               15441 ./lib/firmware/ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA9888
-drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA9888/hw2.0
+drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/QCA9888/hw2.0
 -rw-r--r-- -          -               84928 ./lib/firmware/ath10k/QCA9888/hw2.0/board-2.bin
 -rw-r--r-- -          -              688140 ./lib/firmware/ath10k/QCA9888/hw2.0/firmware-5.bin
--rw-r--r-- -          -               30479 ./lib/firmware/ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA988X
-drwxr-xr-x -          -                 140 ./lib/firmware/ath10k/QCA988X/hw2.0
+drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA988X/hw2.0
 -rw-r--r-- -          -                2116 ./lib/firmware/ath10k/QCA988X/hw2.0/board.bin
 -rw-r--r-- -          -              241892 ./lib/firmware/ath10k/QCA988X/hw2.0/firmware-4.bin
 -rw-r--r-- -          -              249044 ./lib/firmware/ath10k/QCA988X/hw2.0/firmware-5.bin
--rw-r--r-- -          -               13890 ./lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
--rw-r--r-- -          -               15441 ./lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA9984
-drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA9984/hw1.0
+drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/QCA9984/hw1.0
 -rw-r--r-- -          -              171916 ./lib/firmware/ath10k/QCA9984/hw1.0/board-2.bin
 -rw-r--r-- -          -              675948 ./lib/firmware/ath10k/QCA9984/hw1.0/firmware-5.bin
--rw-r--r-- -          -               30479 ./lib/firmware/ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/QCA99X0
-drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/QCA99X0/hw2.0
+drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/QCA99X0/hw2.0
 -rw-r--r-- -          -               12064 ./lib/firmware/ath10k/QCA99X0/hw2.0/board.bin
 -rw-r--r-- -          -              479332 ./lib/firmware/ath10k/QCA99X0/hw2.0/firmware-5.bin
--rw-r--r-- -          -               29133 ./lib/firmware/ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 drwxr-xr-x -          -                  60 ./lib/firmware/ath10k/WCN3990
-drwxr-xr-x -          -                 100 ./lib/firmware/ath10k/WCN3990/hw1.0
+drwxr-xr-x -          -                  80 ./lib/firmware/ath10k/WCN3990/hw1.0
 -rw-r--r-- -          -                  60 ./lib/firmware/ath10k/WCN3990/hw1.0/firmware-5.bin
--rw-r--r-- -          -               27005 ./lib/firmware/ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 -rw-r--r-- -          -             3725044 ./lib/firmware/ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 -rw-r--r-- -          -              246804 ./lib/firmware/ath3k-1.fw
 drwxr-xr-x -          -                 120 ./lib/firmware/ath6k
@@ -519,15 +504,12 @@ drwxr-xr-x -          -                 120 ./lib/firmware/atmel
 -rw-r--r-- -          -              143116 ./lib/firmware/atmel/wilc1000_p2p_fw.bin
 -rw-r--r-- -          -              136344 ./lib/firmware/atmel/wilc1000_wifi_firmware.bin
 -rw-r--r-- -          -                9726 ./lib/firmware/atmsar11.fw
-drwxr-xr-x -          -                 120 ./lib/firmware/atusb
+drwxr-xr-x -          -                 100 ./lib/firmware/atusb
 -rw-r--r-- -          -                5800 ./lib/firmware/atusb/atusb-0.2.dfu
 -rw-r--r-- -          -                6042 ./lib/firmware/atusb/atusb-0.3.dfu
--rw-r--r-- -          -                1019 ./lib/firmware/atusb/ChangeLog
 -rw-r--r-- -          -                6058 ./lib/firmware/atusb/rzusb-0.3.bin
-drwxr-xr-x -          -                 100 ./lib/firmware/av7110
+drwxr-xr-x -          -                  60 ./lib/firmware/av7110
 -rw-r--r-- -          -                 212 ./lib/firmware/av7110/bootcode.bin
--rw-r--r-- -          -                2820 ./lib/firmware/av7110/Boot.S
--rw-r--r-- -          -                 264 ./lib/firmware/av7110/Makefile
 drwxr-xr-x -          -                 520 ./lib/firmware/bnx2
 -rw-r--r-- -          -               92628 ./lib/firmware/bnx2/bnx2-mips-06-4.6.16.fw
 -rw-r--r-- -          -               93172 ./lib/firmware/bnx2/bnx2-mips-06-5.0.0.j3.fw
@@ -669,41 +651,25 @@ drwxr-xr-x -          -                  80 ./lib/firmware/cavium
 -rw-r--r-- -          -              412528 ./lib/firmware/cbfw-3.2.1.1.bin
 -rw-r--r-- -          -              414016 ./lib/firmware/cbfw-3.2.3.0.bin
 -rw-r--r-- -          -              414480 ./lib/firmware/cbfw-3.2.5.1.bin
-drwxr-xr-x -          -                 400 ./lib/firmware/cis
+drwxr-xr-x -          -                 360 ./lib/firmware/cis
 -rw-r--r-- -          -                 137 ./lib/firmware/cis/3CCFEM556.cis
 -rw-r--r-- -          -                 134 ./lib/firmware/cis/3CXEM556.cis
 -rw-r--r-- -          -                 109 ./lib/firmware/cis/COMpad2.cis
 -rw-r--r-- -          -                  76 ./lib/firmware/cis/COMpad4.cis
 -rw-r--r-- -          -                 136 ./lib/firmware/cis/DP83903.cis
 -rw-r--r-- -          -                 253 ./lib/firmware/cis/LA-PCM.cis
--rw-r--r-- -          -                 264 ./lib/firmware/cis/Makefile
 -rw-r--r-- -          -                 107 ./lib/firmware/cis/MT5634ZLX.cis
 -rw-r--r-- -          -                  54 ./lib/firmware/cis/NE2K.cis
 -rw-r--r-- -          -                 210 ./lib/firmware/cis/PCMLM28.cis
 -rw-r--r-- -          -                  68 ./lib/firmware/cis/PE-200.cis
 -rw-r--r-- -          -                  74 ./lib/firmware/cis/PE520.cis
 -rw-r--r-- -          -                  86 ./lib/firmware/cis/RS-COM-2P.cis
-drwxr-xr-x -          -                 300 ./lib/firmware/cis/src
--rw-r--r-- -          -                 519 ./lib/firmware/cis/src/3CCFEM556.cis
--rw-r--r-- -          -                 515 ./lib/firmware/cis/src/3CXEM556.cis
--rw-r--r-- -          -                 576 ./lib/firmware/cis/src/COMpad2.cis
--rw-r--r-- -          -                 368 ./lib/firmware/cis/src/COMpad4.cis
--rw-r--r-- -          -                 586 ./lib/firmware/cis/src/DP83903.cis
--rw-r--r-- -          -                1167 ./lib/firmware/cis/src/LA-PCM.cis
--rw-r--r-- -          -                 507 ./lib/firmware/cis/src/MT5634ZLX.cis
--rw-r--r-- -          -                 269 ./lib/firmware/cis/src/NE2K.cis
--rw-r--r-- -          -                1041 ./lib/firmware/cis/src/PCMLM28.cis
--rw-r--r-- -          -                 307 ./lib/firmware/cis/src/PE-200.cis
--rw-r--r-- -          -                 300 ./lib/firmware/cis/src/PE520.cis
--rw-r--r-- -          -                 441 ./lib/firmware/cis/src/RS-COM-2P.cis
--rw-r--r-- -          -                 475 ./lib/firmware/cis/src/tamarack.cis
 -rw-r--r-- -          -                 122 ./lib/firmware/cis/SW_555_SER.cis
 -rw-r--r-- -          -                 140 ./lib/firmware/cis/SW_7xx_SER.cis
 -rw-r--r-- -          -                 132 ./lib/firmware/cis/SW_8xx_SER.cis
 -rw-r--r-- -          -                  85 ./lib/firmware/cis/tamarack.cis
 -rw-r--r-- -          -               62780 ./lib/firmware/cmmb_vega_12mhz.inp
 -rw-r--r-- -          -               97016 ./lib/firmware/cmmb_venice_12mhz.inp
--rwxr-xr-x -          -                1802 ./lib/firmware/copy-firmware.sh
 drwxr-xr-x -          -                  60 ./lib/firmware/cpia2
 -rw-r--r-- -          -                 824 ./lib/firmware/cpia2/stv0672_vp4.bin
 -rw-r--r-- -          -              582440 ./lib/firmware/ct2fw-3.2.1.1.bin
@@ -725,7 +691,7 @@ drwxr-xr-x -          -                 240 ./lib/firmware/cxgb3
 -rw-r--r-- -          -               30136 ./lib/firmware/cxgb3/t3fw-7.1.0.bin
 -rw-r--r-- -          -               31812 ./lib/firmware/cxgb3/t3fw-7.12.0.bin
 -rw-r--r-- -          -               30648 ./lib/firmware/cxgb3/t3fw-7.4.0.bin
-drwxr-xr-x -          -                 240 ./lib/firmware/cxgb4
+drwxr-xr-x -          -                 360 ./lib/firmware/cxgb4
 -rw-r--r-- -          -              179202 ./lib/firmware/cxgb4/aq1202_fw.cld
 -rw-r--r-- -          -              208900 ./lib/firmware/cxgb4/bcm8483.bin
 drwxr-xr-x -          -                 140 ./lib/firmware/cxgb4/configs
@@ -734,13 +700,19 @@ drwxr-xr-x -          -                 140 ./lib/firmware/cxgb4/configs
 -rw-r--r-- -          -               16714 ./lib/firmware/cxgb4/configs/t5-config-hashfilter.txt
 -rw-r--r-- -          -               22557 ./lib/firmware/cxgb4/configs/t6-config-default.txt
 -rw-r--r-- -          -               16097 ./lib/firmware/cxgb4/configs/t6-config-hashfilter.txt
+lrwxrwxrwx -          -                  29 ./lib/firmware/cxgb4/t4-config.txt -> configs/t4-config-default.txt
 -rw-r--r-- -          -              539648 ./lib/firmware/cxgb4/t4fw-1.14.4.0.bin
 -rw-r--r-- -          -              541184 ./lib/firmware/cxgb4/t4fw-1.15.37.0.bin
 -rw-r--r-- -          -              568832 ./lib/firmware/cxgb4/t4fw-1.24.11.0.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t4fw.bin -> t4fw-1.24.11.0.bin
+lrwxrwxrwx -          -                  29 ./lib/firmware/cxgb4/t5-config.txt -> configs/t5-config-default.txt
 -rw-r--r-- -          -              593920 ./lib/firmware/cxgb4/t5fw-1.14.4.0.bin
 -rw-r--r-- -          -              596992 ./lib/firmware/cxgb4/t5fw-1.15.37.0.bin
 -rw-r--r-- -          -              673280 ./lib/firmware/cxgb4/t5fw-1.24.11.0.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t5fw.bin -> t5fw-1.24.11.0.bin
+lrwxrwxrwx -          -                  29 ./lib/firmware/cxgb4/t6-config.txt -> configs/t6-config-default.txt
 -rw-r--r-- -          -              727552 ./lib/firmware/cxgb4/t6fw-1.24.11.0.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t6fw.bin -> t6fw-1.24.11.0.bin
 drwxr-xr-x -          -                  80 ./lib/firmware/dabusb
 -rw-r--r-- -          -               12042 ./lib/firmware/dabusb/bitstream.bin
 -rw-r--r-- -          -                9822 ./lib/firmware/dabusb/firmware.fw
@@ -758,11 +730,8 @@ drwxr-xr-x -          -                 280 ./lib/firmware/dpaa2/mc
 -rw-r--r-- -          -              937920 ./lib/firmware/dpaa2/mc/mc_10.18.0_ls1088a.itb
 -rw-r--r-- -          -             1048880 ./lib/firmware/dpaa2/mc/mc_10.18.0_ls2088a.itb
 -rw-r--r-- -          -             1053040 ./lib/firmware/dpaa2/mc/mc_10.18.0_lx2160a.itb
-drwxr-xr-x -          -                 120 ./lib/firmware/dsp56k
--rw-r--r-- -          -                2924 ./lib/firmware/dsp56k/bootstrap.asm
+drwxr-xr-x -          -                  60 ./lib/firmware/dsp56k
 -rw-r--r-- -          -                 375 ./lib/firmware/dsp56k/bootstrap.bin
--rw-r--r-- -          -                 996 ./lib/firmware/dsp56k/concat-bootstrap.pl
--rw-r--r-- -          -                 166 ./lib/firmware/dsp56k/Makefile
 -rw-r--r-- -          -               18643 ./lib/firmware/dvb-fe-xc4000-1.4.1.fw
 -rw-r--r-- -          -               12401 ./lib/firmware/dvb-fe-xc5000-1.6.114.fw
 -rw-r--r-- -          -               16497 ./lib/firmware/dvb-fe-xc5000c-4.1.30.7.fw
@@ -812,7 +781,6 @@ drwxr-xr-x -          -                 200 ./lib/firmware/go7007
 -rw-r--r-- -          -                9508 ./lib/firmware/go7007/s2250-2.fw
 -rw-r--r-- -          -                6381 ./lib/firmware/go7007/wis-startrek.fw
 -rw-r--r-- -          -               18092 ./lib/firmware/GPL-2
--rw-r--r-- -          -               35068 ./lib/firmware/GPL-3
 -rw-r--r-- -          -               32348 ./lib/firmware/hfi1_dc8051.fw
 -rw-r--r-- -          -               16848 ./lib/firmware/hfi1_fabric.fw
 -rw-r--r-- -          -               33296 ./lib/firmware/hfi1_pcie.fw
@@ -882,15 +850,19 @@ drwxr-xr-x -          -                  60 ./lib/firmware/inside-secure
 drwxr-xr-x -          -                  80 ./lib/firmware/inside-secure/eip197_minifw
 -rw-r--r-- -          -                 100 ./lib/firmware/inside-secure/eip197_minifw/ifpp.bin
 -rw-r--r-- -          -                 108 ./lib/firmware/inside-secure/eip197_minifw/ipue.bin
-drwxr-xr-x -          -                1580 ./lib/firmware/intel
+drwxr-xr-x -          -                1700 ./lib/firmware/intel
+lrwxrwxrwx -          -                  21 ./lib/firmware/intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v3366.bin
 -rw-r--r-- -          -              505608 ./lib/firmware/intel/dsp_fw_bxtn_v2219.bin
 -rw-r--r-- -          -              505608 ./lib/firmware/intel/dsp_fw_bxtn_v3366.bin
+lrwxrwxrwx -          -                  20 ./lib/firmware/intel/dsp_fw_cnl.bin -> dsp_fw_cnl_v1858.bin
 -rw-r--r-- -          -              583852 ./lib/firmware/intel/dsp_fw_cnl_v1191.bin
 -rw-r--r-- -          -              583852 ./lib/firmware/intel/dsp_fw_cnl_v1858.bin
+lrwxrwxrwx -          -                  20 ./lib/firmware/intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 -rw-r--r-- -          -              505608 ./lib/firmware/intel/dsp_fw_glk_v1814.bin
 -rw-r--r-- -          -              505608 ./lib/firmware/intel/dsp_fw_glk_v2768.bin
 -rw-r--r-- -          -              505608 ./lib/firmware/intel/dsp_fw_glk_v2880.bin
 -rw-r--r-- -          -              505608 ./lib/firmware/intel/dsp_fw_glk_v3366.bin
+lrwxrwxrwx -          -                  20 ./lib/firmware/intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 -rw-r--r-- -          -              238920 ./lib/firmware/intel/dsp_fw_kbl_v1037.bin
 -rw-r--r-- -          -              238920 ./lib/firmware/intel/dsp_fw_kbl_v2042.bin
 -rw-r--r-- -          -              243016 ./lib/firmware/intel/dsp_fw_kbl_v2630.bin
@@ -898,6 +870,7 @@ drwxr-xr-x -          -                1580 ./lib/firmware/intel
 -rw-r--r-- -          -              247112 ./lib/firmware/intel/dsp_fw_kbl_v3402.bin
 -rw-r--r-- -          -              243016 ./lib/firmware/intel/dsp_fw_kbl_v3420.bin
 -rw-r--r-- -          -              238920 ./lib/firmware/intel/dsp_fw_kbl_v701.bin
+lrwxrwxrwx -          -                  24 ./lib/firmware/intel/dsp_fw_release.bin -> dsp_fw_release_v3402.bin
 -rw-r--r-- -          -              247112 ./lib/firmware/intel/dsp_fw_release_v3402.bin
 -rw-r--r-- -          -              221184 ./lib/firmware/intel/dsp_fw_release_v969.bin
 -rw-r--r-- -          -              701622 ./lib/firmware/intel/fw_sst_0f28.bin
@@ -958,18 +931,15 @@ drwxr-xr-x -          -                1580 ./lib/firmware/intel
 -rw-r--r-- -          -               48587 ./lib/firmware/intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 -rw-r--r-- -          -                  96 ./lib/firmware/intel/ibt-hw-37.8.bseq
 drwxr-xr-x -          -                  60 ./lib/firmware/intel/ice
-drwxr-xr-x -          -                  60 ./lib/firmware/intel/ice/ddp
+drwxr-xr-x -          -                  80 ./lib/firmware/intel/ice/ddp
 -rw-r--r-- -          -              577796 ./lib/firmware/intel/ice/ddp/ice-1.3.4.0.pkg
+lrwxrwxrwx -          -                  15 ./lib/firmware/intel/ice/ddp/ice.pkg -> ice-1.3.4.0.pkg
 -rw-r--r-- -          -              260320 ./lib/firmware/intel/IntcSST2.bin
+lrwxrwxrwx -          -                  52 ./lib/firmware/intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 -rw-r--r-- -          -             1212984 ./lib/firmware/intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 -rw-r--r-- -          -               34304 ./lib/firmware/intelliport2.bin
-drwxr-xr-x -          -                 160 ./lib/firmware/isci
--rw-r--r-- -          -                2366 ./lib/firmware/isci/create_fw.c
--rw-r--r-- -          -                2867 ./lib/firmware/isci/create_fw.h
+drwxr-xr-x -          -                  60 ./lib/firmware/isci
 -rw-r--r-- -          -                 232 ./lib/firmware/isci/isci_firmware.bin
--rw-r--r-- -          -                 369 ./lib/firmware/isci/Makefile
--rw-r--r-- -          -               10893 ./lib/firmware/isci/probe_roms.h
--rw-r--r-- -          -                 780 ./lib/firmware/isci/README
 -rw-r--r-- -          -               98384 ./lib/firmware/isdbt_nova_12mhz_b0.inp
 -rw-r--r-- -          -               75876 ./lib/firmware/isdbt_nova_12mhz.inp
 -rw-r--r-- -          -               85840 ./lib/firmware/isdbt_rio.inp
@@ -1070,12 +1040,9 @@ drwxr-xr-x -          -                 120 ./lib/firmware/kaweth
 -rw-r--r-- -          -                  22 ./lib/firmware/kaweth/trigger_code_fix.bin
 drwxr-xr-x -          -                 280 ./lib/firmware/keyspan
 -rw-r--r-- -          -                4658 ./lib/firmware/keyspan/mpr.fw
-drwxr-xr-x -          -                 140 ./lib/firmware/keyspan_pda
+drwxr-xr-x -          -                  80 ./lib/firmware/keyspan_pda
 -rw-r--r-- -          -                1914 ./lib/firmware/keyspan_pda/keyspan_pda.fw
--rw-r--r-- -          -               28777 ./lib/firmware/keyspan_pda/keyspan_pda.S
--rw-r--r-- -          -                 203 ./lib/firmware/keyspan_pda/Makefile
 -rw-r--r-- -          -                2018 ./lib/firmware/keyspan_pda/xircom_pgs.fw
--rw-r--r-- -          -               29753 ./lib/firmware/keyspan_pda/xircom_pgs.S
 -rw-r--r-- -          -                7650 ./lib/firmware/keyspan/usa18x.fw
 -rw-r--r-- -          -                4690 ./lib/firmware/keyspan/usa19.fw
 -rw-r--r-- -          -                4678 ./lib/firmware/keyspan/usa19qi.fw
@@ -1091,7 +1058,7 @@ drwxr-xr-x -          -                  60 ./lib/firmware/korg
 -rw-r--r-- -          -               15764 ./lib/firmware/korg/k1212.dsp
 -rw-r--r-- -          -              118888 ./lib/firmware/lbtf_usb.bin
 -rw-r--r-- -          -                 262 ./lib/firmware/lgs8g75.fw
-drwxr-xr-x -          -                 500 ./lib/firmware/libertas
+drwxr-xr-x -          -                 540 ./lib/firmware/libertas
 -rw-r--r-- -          -               95132 ./lib/firmware/libertas/cf8381.bin
 -rw-r--r-- -          -                2132 ./lib/firmware/libertas/cf8381_helper.bin
 -rw-r--r-- -          -               97128 ./lib/firmware/libertas/cf8385.bin
@@ -1111,6 +1078,8 @@ drwxr-xr-x -          -                 500 ./lib/firmware/libertas
 -rw-r--r-- -          -                2464 ./lib/firmware/libertas/sd8686_v8_helper.bin
 -rw-r--r-- -          -              124252 ./lib/firmware/libertas/sd8686_v9.bin
 -rw-r--r-- -          -                2516 ./lib/firmware/libertas/sd8686_v9_helper.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/libertas/sd8688.bin -> ../mrvl/sd8688.bin
+lrwxrwxrwx -          -                  25 ./lib/firmware/libertas/sd8688_helper.bin -> ../mrvl/sd8688_helper.bin
 -rw-r--r-- -          -              127824 ./lib/firmware/libertas/usb8388_olpc.bin
 -rw-r--r-- -          -              100292 ./lib/firmware/libertas/usb8388_v5.bin
 -rw-r--r-- -          -              126644 ./lib/firmware/libertas/usb8388_v9.bin
@@ -1296,7 +1265,7 @@ drwxr-xr-x -          -                  80 ./lib/firmware/mwlwifi
 -rw-r--r-- -          -              536176 ./lib/firmware/myri10ge_rss_eth_z8e.dat
 drwxr-xr-x -          -                  60 ./lib/firmware/myricom
 -rw-r--r-- -          -               76258 ./lib/firmware/myricom/lanai.bin
-drwxr-xr-x -          -                 120 ./lib/firmware/netronome
+drwxr-xr-x -          -                 360 ./lib/firmware/netronome
 drwxr-xr-x -          -                 280 ./lib/firmware/netronome/bpf
 -rw-r--r-- -          -             2240160 ./lib/firmware/netronome/bpf/nic_AMDA0058-0011_2x40.nffw
 -rw-r--r-- -          -             2240160 ./lib/firmware/netronome/bpf/nic_AMDA0058-0012_2x40.nffw
@@ -1310,12 +1279,50 @@ drwxr-xr-x -          -                 280 ./lib/firmware/netronome/bpf
 -rw-r--r-- -          -             2240440 ./lib/firmware/netronome/bpf/nic_AMDA0099-0001_1x10_1x25.nffw
 -rw-r--r-- -          -             2239192 ./lib/firmware/netronome/bpf/nic_AMDA0099-0001_2x10.nffw
 -rw-r--r-- -          -             2240088 ./lib/firmware/netronome/bpf/nic_AMDA0099-0001_2x25.nffw
-drwxr-xr-x -          -                 120 ./lib/firmware/netronome/flower
+drwxr-xr-x -          -                 640 ./lib/firmware/netronome/flower
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0011_1x100.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0011_2x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0011_4x10_1x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0011_8x10.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0012_1x100.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0012_2x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0012_4x10_1x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0058-0012_8x10.nffw -> nic_AMDA0058.nffw
 -rw-r--r-- -          -             6882808 ./lib/firmware/netronome/flower/nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0011_1x100.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0011_2x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0011_4x10_1x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0011_8x10.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0012_1x100.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0012_2x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0012_4x10_1x40.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0078-0012_8x10.nffw -> nic_AMDA0058.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0081-0001_1x40.nffw -> nic_AMDA0081.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0081-0001_4x10.nffw -> nic_AMDA0081.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0081.nffw -> nic_AMDA0097.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0096-0001_2x10.nffw -> nic_AMDA0096.nffw
 -rw-r--r-- -          -             4274344 ./lib/firmware/netronome/flower/nic_AMDA0096.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0097-0001_2x40.nffw -> nic_AMDA0097.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw -> nic_AMDA0097.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0097-0001_8x10.nffw -> nic_AMDA0097.nffw
 -rw-r--r-- -          -             4274344 ./lib/firmware/netronome/flower/nic_AMDA0097.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> nic_AMDA0099.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0099-0001_2x10.nffw -> nic_AMDA0099.nffw
+lrwxrwxrwx -          -                  17 ./lib/firmware/netronome/flower/nic_AMDA0099-0001_2x25.nffw -> nic_AMDA0099.nffw
 -rw-r--r-- -          -             4276712 ./lib/firmware/netronome/flower/nic_AMDA0099.nffw
 drwxr-xr-x -          -                 280 ./lib/firmware/netronome/nic
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0058-0011_2x40.nffw -> nic/nic_AMDA0058-0011_2x40.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0058-0012_2x40.nffw -> nic/nic_AMDA0058-0012_2x40.nffw
+lrwxrwxrwx -          -                  32 ./lib/firmware/netronome/nic_AMDA0078-0011_1x100.nffw -> nic/nic_AMDA0078-0011_1x100.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0081-0001_4x10.nffw -> nic/nic_AMDA0081-0001_4x10.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0096-0001_2x10.nffw -> nic/nic_AMDA0096-0001_2x10.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0097-0001_2x40.nffw -> nic/nic_AMDA0097-0001_2x40.nffw
+lrwxrwxrwx -          -                  36 ./lib/firmware/netronome/nic_AMDA0097-0001_4x10_1x40.nffw -> nic/nic_AMDA0097-0001_4x10_1x40.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0097-0001_8x10.nffw -> nic/nic_AMDA0097-0001_8x10.nffw
+lrwxrwxrwx -          -                  36 ./lib/firmware/netronome/nic_AMDA0099-0001_1x10_1x25.nffw -> nic/nic_AMDA0099-0001_1x10_1x25.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0099-0001_2x10.nffw -> nic/nic_AMDA0099-0001_2x10.nffw
+lrwxrwxrwx -          -                  31 ./lib/firmware/netronome/nic_AMDA0099-0001_2x25.nffw -> nic/nic_AMDA0099-0001_2x25.nffw
 -rw-r--r-- -          -             3222512 ./lib/firmware/netronome/nic/nic_AMDA0058-0011_2x40.nffw
 -rw-r--r-- -          -             3222512 ./lib/firmware/netronome/nic/nic_AMDA0058-0012_2x40.nffw
 -rw-r--r-- -          -             3180672 ./lib/firmware/netronome/nic/nic_AMDA0078-0011_1x100.nffw
@@ -1625,16 +1632,19 @@ drwxr-xr-x -          -                 100 ./lib/firmware/nvidia/gv100/sec2
 -rw-r--r-- -          -                 656 ./lib/firmware/nvidia/gv100/sec2/desc.bin
 -rw-r--r-- -          -               91136 ./lib/firmware/nvidia/gv100/sec2/image.bin
 -rw-r--r-- -          -                 192 ./lib/firmware/nvidia/gv100/sec2/sig.bin
-drwxr-xr-x -          -                  80 ./lib/firmware/nvidia/tegra124
+drwxr-xr-x -          -                 100 ./lib/firmware/nvidia/tegra124
 -rw-r--r-- -          -               16128 ./lib/firmware/nvidia/tegra124/vic03_ucode.bin
+lrwxrwxrwx -          -                  15 ./lib/firmware/nvidia/tegra124/vic.bin -> vic03_ucode.bin
 -rw-r--r-- -          -              134656 ./lib/firmware/nvidia/tegra124/xusb.bin
-drwxr-xr-x -          -                  80 ./lib/firmware/nvidia/tegra186
+drwxr-xr-x -          -                 100 ./lib/firmware/nvidia/tegra186
 -rw-r--r-- -          -               19200 ./lib/firmware/nvidia/tegra186/vic04_ucode.bin
+lrwxrwxrwx -          -                  15 ./lib/firmware/nvidia/tegra186/vic.bin -> vic04_ucode.bin
 -rw-r--r-- -          -              124416 ./lib/firmware/nvidia/tegra186/xusb.bin
 drwxr-xr-x -          -                  60 ./lib/firmware/nvidia/tegra194
 -rw-r--r-- -          -              124928 ./lib/firmware/nvidia/tegra194/xusb.bin
-drwxr-xr-x -          -                  80 ./lib/firmware/nvidia/tegra210
+drwxr-xr-x -          -                 100 ./lib/firmware/nvidia/tegra210
 -rw-r--r-- -          -               16640 ./lib/firmware/nvidia/tegra210/vic04_ucode.bin
+lrwxrwxrwx -          -                  15 ./lib/firmware/nvidia/tegra210/vic.bin -> vic04_ucode.bin
 -rw-r--r-- -          -              124416 ./lib/firmware/nvidia/tegra210/xusb.bin
 drwxr-xr-x -          -                 120 ./lib/firmware/nvidia/tu102
 drwxr-xr-x -          -                 140 ./lib/firmware/nvidia/tu102/acr
@@ -1731,10 +1741,10 @@ drwxr-xr-x -          -                  60 ./lib/firmware/ositech
 -rw-r--r-- -          -              114820 ./lib/firmware/qat_c3xxx_mmp.bin
 -rw-r--r-- -          -              398144 ./lib/firmware/qat_c62x.bin
 -rw-r--r-- -          -              114820 ./lib/firmware/qat_c62x_mmp.bin
-drwxr-xr-x -          -                 380 ./lib/firmware/qca
+lrwxrwxrwx -          -                  18 ./lib/firmware/qat_mmp.bin -> qat_895xcc_mmp.bin
+drwxr-xr-x -          -                 360 ./lib/firmware/qca
 -rw-r--r-- -          -              177060 ./lib/firmware/qca/crbtfw21.tlv
 -rw-r--r-- -          -                4587 ./lib/firmware/qca/crnv21.bin
--rw-r--r-- -          -               19013 ./lib/firmware/qca/NOTICE.txt
 -rw-r--r-- -          -                1937 ./lib/firmware/qca/nvm_00130300.bin
 -rw-r--r-- -          -                1968 ./lib/firmware/qca/nvm_00130302.bin
 -rw-r--r-- -          -                2010 ./lib/firmware/qca/nvm_00440302.bin
@@ -1749,7 +1759,7 @@ drwxr-xr-x -          -                 380 ./lib/firmware/qca
 -rw-r--r-- -          -               54432 ./lib/firmware/qca/rampatch_usb_00000201.bin
 -rw-r--r-- -          -               65776 ./lib/firmware/qca/rampatch_usb_00000300.bin
 -rw-r--r-- -          -               64168 ./lib/firmware/qca/rampatch_usb_00000302.bin
-drwxr-xr-x -          -                 380 ./lib/firmware/qcom
+drwxr-xr-x -          -                 360 ./lib/firmware/qcom
 -rw-r--r-- -          -                1156 ./lib/firmware/qcom/a300_pfp.fw
 -rw-r--r-- -          -                9220 ./lib/firmware/qcom/a300_pm4.fw
 -rw-r--r-- -          -               15876 ./lib/firmware/qcom/a530_pfp.fw
@@ -1761,8 +1771,7 @@ drwxr-xr-x -          -                 380 ./lib/firmware/qcom
 -rw-r--r-- -          -                6684 ./lib/firmware/qcom/a530_zap.mdt
 -rw-r--r-- -          -               32768 ./lib/firmware/qcom/a630_gmu.bin
 -rw-r--r-- -          -               31316 ./lib/firmware/qcom/a630_sqe.fw
--rw-r--r-- -          -               23966 ./lib/firmware/qcom/NOTICE.txt
-drwxr-xr-x -          -                 200 ./lib/firmware/qcom/sdm845
+drwxr-xr-x -          -                 220 ./lib/firmware/qcom/sdm845
 -rw-r--r-- -          -            10420560 ./lib/firmware/qcom/sdm845/adsp.mbn
 -rw-r--r-- -          -                 403 ./lib/firmware/qcom/sdm845/adspr.jsn
 -rw-r--r-- -          -                 555 ./lib/firmware/qcom/sdm845/adspua.jsn
@@ -1771,6 +1780,7 @@ drwxr-xr-x -          -                 200 ./lib/firmware/qcom/sdm845
 -rw-r--r-- -          -              242400 ./lib/firmware/qcom/sdm845/mba.mbn
 -rw-r--r-- -          -             5652688 ./lib/firmware/qcom/sdm845/modem.mbn
 -rw-r--r-- -          -                 713 ./lib/firmware/qcom/sdm845/modemuw.jsn
+lrwxrwxrwx -          -                  39 ./lib/firmware/qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 drwxr-xr-x -          -                 160 ./lib/firmware/qcom/venus-1.8
 -rw-r--r-- -          -                 212 ./lib/firmware/qcom/venus-1.8/venus.b00
 -rw-r--r-- -          -                6600 ./lib/firmware/qcom/venus-1.8/venus.b01
@@ -2086,7 +2096,6 @@ drwxr-xr-x -          -                4980 ./lib/firmware/radeon
 -rw-r--r-- -          -                8192 ./lib/firmware/radeon/VERDE_rlc.bin
 -rw-r--r-- -          -               61776 ./lib/firmware/radeon/verde_smc.bin
 -rw-r--r-- -          -               60388 ./lib/firmware/radeon/VERDE_smc.bin
--rw-r--r-- -          -                1684 ./lib/firmware/README
 drwxr-xr-x -          -                  60 ./lib/firmware/rockchip
 -rw-r--r-- -          -               98320 ./lib/firmware/rockchip/dptx.bin
 -rw-r--r-- -          -                  63 ./lib/firmware/rp2.fw
@@ -2102,7 +2111,9 @@ drwxr-xr-x -          -                 140 ./lib/firmware/rsi
 -rw-r--r-- -          -                8192 ./lib/firmware/rt2661.bin
 -rw-r--r-- -          -                8192 ./lib/firmware/rt2860.bin
 -rw-r--r-- -          -                8192 ./lib/firmware/rt2870.bin
+lrwxrwxrwx -          -                  10 ./lib/firmware/rt3070.bin -> rt2870.bin
 -rw-r--r-- -          -                4096 ./lib/firmware/rt3071.bin
+lrwxrwxrwx -          -                  10 ./lib/firmware/rt3090.bin -> rt2860.bin
 -rw-r--r-- -          -                4096 ./lib/firmware/rt3290.bin
 -rw-r--r-- -          -                2048 ./lib/firmware/rt73.bin
 drwxr-xr-x -          -                 100 ./lib/firmware/RTL8192E
@@ -2198,6 +2209,8 @@ drwxr-xr-x -          -                 140 ./lib/firmware/rtw88
 -rw-r--r-- -          -              150984 ./lib/firmware/rtw88/rtw8822b_fw.bin
 -rw-r--r-- -          -              189152 ./lib/firmware/rtw88/rtw8822c_fw.bin
 -rwxr-xr-x -          -              138720 ./lib/firmware/rtw88/rtw8822c_wow_fw.bin
+lrwxrwxrwx -          -                  17 ./lib/firmware/s2250.fw -> go7007/s2250-2.fw
+lrwxrwxrwx -          -                  17 ./lib/firmware/s2250_loader.fw -> go7007/s2250-1.fw
 -rw-r--r-- -          -              352652 ./lib/firmware/s5p-mfc.fw
 -rw-r--r-- -          -              306312 ./lib/firmware/s5p-mfc-v6.fw
 -rw-r--r-- -          -              343756 ./lib/firmware/s5p-mfc-v6-v2.fw
@@ -2209,8 +2222,6 @@ drwxr-xr-x -          -                 140 ./lib/firmware/sb16
 -rw-r--r-- -          -                1032 ./lib/firmware/sb16/ima_adpcm_init.csp
 -rw-r--r-- -          -                1872 ./lib/firmware/sb16/ima_adpcm_playback.csp
 -rw-r--r-- -          -                1256 ./lib/firmware/sb16/mulaw_main.csp
-lrwxrwxrwx -          -                  22 ./lib/firmware/sd8686.bin -> libertas/sd8686_v9.bin
-lrwxrwxrwx -          -                  29 ./lib/firmware/sd8686_helper.bin -> libertas/sd8686_v9_helper.bin
 -rw-r--r-- -          -                 816 ./lib/firmware/sdd_sagrad_1091_1098.bin
 drwxr-xr-x -          -                 140 ./lib/firmware/slicoss
 -rw-r--r-- -          -               98324 ./lib/firmware/slicoss/gbdownload.sys
@@ -2235,7 +2246,7 @@ drwxr-xr-x -          -                  60 ./lib/firmware/tehuti
 -rw-r--r-- -          -               42768 ./lib/firmware/tehuti/bdx.bin
 -rw-r--r-- -          -               13765 ./lib/firmware/ti_3410.fw
 -rw-r--r-- -          -               13764 ./lib/firmware/ti_5052.fw
-drwxr-xr-x -          -                 680 ./lib/firmware/ti-connectivity
+drwxr-xr-x -          -                 720 ./lib/firmware/ti-connectivity
 -rw-r--r-- -          -               50699 ./lib/firmware/ti-connectivity/TIInit_6.2.31.bts
 -rw-r--r-- -          -               15614 ./lib/firmware/ti-connectivity/TIInit_6.6.15.bts
 -rw-r--r-- -          -               48909 ./lib/firmware/ti-connectivity/TIInit_7.2.31.bts
@@ -2244,6 +2255,7 @@ drwxr-xr-x -          -                 680 ./lib/firmware/ti-connectivity
 -rw-r--r-- -          -              273880 ./lib/firmware/ti-connectivity/wl1271-fw-2.bin
 -rw-r--r-- -          -              272836 ./lib/firmware/ti-connectivity/wl1271-fw-ap.bin
 -rw-r--r-- -          -              271832 ./lib/firmware/ti-connectivity/wl1271-fw.bin
+lrwxrwxrwx -          -                  14 ./lib/firmware/ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 -rw-r--r-- -          -              280388 ./lib/firmware/ti-connectivity/wl127x-fw-3.bin
 -rw-r--r-- -          -              260852 ./lib/firmware/ti-connectivity/wl127x-fw-4-mr.bin
 -rw-r--r-- -          -              261892 ./lib/firmware/ti-connectivity/wl127x-fw-4-plt.bin
@@ -2264,6 +2276,7 @@ drwxr-xr-x -          -                 680 ./lib/firmware/ti-connectivity
 -rw-r--r-- -          -              273324 ./lib/firmware/ti-connectivity/wl128x-fw.bin
 -rw-r--r-- -          -              271932 ./lib/firmware/ti-connectivity/wl128x-fw-plt-3.bin
 -rw-r--r-- -          -                1113 ./lib/firmware/ti-connectivity/wl128x-nvs.bin
+lrwxrwxrwx -          -                  14 ./lib/firmware/ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
 -rw-r--r-- -          -              639276 ./lib/firmware/ti-connectivity/wl18xx-fw-2.bin
 -rw-r--r-- -          -              673328 ./lib/firmware/ti-connectivity/wl18xx-fw-3.bin
 -rwxr-xr-x -          -              746028 ./lib/firmware/ti-connectivity/wl18xx-fw-4.bin
@@ -2273,9 +2286,6 @@ drwxr-xr-x -          -                 120 ./lib/firmware/tigon
 -rw-r--r-- -          -                2668 ./lib/firmware/tigon/tg3.bin
 -rw-r--r-- -          -                3884 ./lib/firmware/tigon/tg3_tso5.bin
 -rw-r--r-- -          -                7004 ./lib/firmware/tigon/tg3_tso.bin
-lrwxrwxrwx -          -                  33 ./lib/firmware/TIInit_6.2.31.bts -> ti-connectivity/TIInit_6.2.31.bts
-lrwxrwxrwx -          -                  33 ./lib/firmware/TIInit_6.6.15.bts -> ti-connectivity/TIInit_6.6.15.bts
-lrwxrwxrwx -          -                  33 ./lib/firmware/TIInit_7.2.31.bts -> ti-connectivity/TIInit_7.2.31.bts
 drwxr-xr-x -          -                  60 ./lib/firmware/ti-keystone
 -rw-r--r-- -          -                1764 ./lib/firmware/ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
 -rw-r--r-- -          -               51972 ./lib/firmware/tlg2300_firmware.bin
@@ -2307,15 +2317,9 @@ drwxr-xr-x -          -                 520 ./lib/firmware/ueagle-atm
 -rw-r--r-- -          -               10875 ./lib/firmware/ueagle-atm/eagleII.fw
 -rw-r--r-- -          -               10975 ./lib/firmware/ueagle-atm/eagleIII.fw
 -rw-r--r-- -          -               10492 ./lib/firmware/ueagle-atm/eagleIV.fw
-drwxr-xr-x -          -                 140 ./lib/firmware/usbdux
 -rw-r--r-- -          -                 999 ./lib/firmware/usbduxfast_firmware.bin
 -rw-r--r-- -          -                1770 ./lib/firmware/usbdux_firmware.bin
--rw-r--r-- -          -                3792 ./lib/firmware/usbdux/fx2-include.asm
--rw-r--r-- -          -                 462 ./lib/firmware/usbdux/Makefile_dux
 -rw-r--r-- -          -                8192 ./lib/firmware/usbduxsigma_firmware.bin
--rw-r--r-- -          -                9406 ./lib/firmware/usbdux/usbduxfast_firmware.asm
--rw-r--r-- -          -               24712 ./lib/firmware/usbdux/usbdux_firmware.asm
--rw-r--r-- -          -               28359 ./lib/firmware/usbdux/usbduxsigma_firmware.asm
 -rw-r--r-- -          -               16382 ./lib/firmware/v4l-cx231xx-avcore-01.fw
 -rw-r--r-- -          -              141200 ./lib/firmware/v4l-cx23418-apu.fw
 -rw-r--r-- -          -              158332 ./lib/firmware/v4l-cx23418-cpu.fw
@@ -2335,35 +2339,6 @@ drwxr-xr-x -          -                  80 ./lib/firmware/vxge
 -rw-r--r-- -          -                5626 ./lib/firmware/whiteheat_loader.fw
 -rw-r--r-- -          -                3588 ./lib/firmware/wil6210.brd
 -rw-r--r-- -          -              400364 ./lib/firmware/wil6210.fw
-lrwxrwxrwx -          -                  29 ./lib/firmware/wl1251-fw.bin -> ti-connectivity/wl1251-fw.bin
-lrwxrwxrwx -          -                  30 ./lib/firmware/wl1251-nvs.bin -> ti-connectivity/wl1251-nvs.bin
-lrwxrwxrwx -          -                  31 ./lib/firmware/wl1271-fw-2.bin -> ti-connectivity/wl1271-fw-2.bin
-lrwxrwxrwx -          -                  32 ./lib/firmware/wl1271-fw-ap.bin -> ti-connectivity/wl1271-fw-ap.bin
-lrwxrwxrwx -          -                  29 ./lib/firmware/wl1271-fw.bin -> ti-connectivity/wl1271-fw.bin
-lrwxrwxrwx -          -                  31 ./lib/firmware/wl127x-fw-3.bin -> ti-connectivity/wl127x-fw-3.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl127x-fw-4-mr.bin -> ti-connectivity/wl127x-fw-4-mr.bin
-lrwxrwxrwx -          -                  35 ./lib/firmware/wl127x-fw-4-plt.bin -> ti-connectivity/wl127x-fw-4-plt.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl127x-fw-4-sr.bin -> ti-connectivity/wl127x-fw-4-sr.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl127x-fw-5-mr.bin -> ti-connectivity/wl127x-fw-5-mr.bin
-lrwxrwxrwx -          -                  35 ./lib/firmware/wl127x-fw-5-plt.bin -> ti-connectivity/wl127x-fw-5-plt.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl127x-fw-5-sr.bin -> ti-connectivity/wl127x-fw-5-sr.bin
-lrwxrwxrwx -          -                  35 ./lib/firmware/wl127x-fw-plt-3.bin -> ti-connectivity/wl127x-fw-plt-3.bin
-lrwxrwxrwx -          -                  30 ./lib/firmware/wl127x-nvs.bin -> ti-connectivity/wl127x-nvs.bin
-lrwxrwxrwx -          -                  31 ./lib/firmware/wl128x-fw-3.bin -> ti-connectivity/wl128x-fw-3.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl128x-fw-4-mr.bin -> ti-connectivity/wl128x-fw-4-mr.bin
-lrwxrwxrwx -          -                  35 ./lib/firmware/wl128x-fw-4-plt.bin -> ti-connectivity/wl128x-fw-4-plt.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl128x-fw-4-sr.bin -> ti-connectivity/wl128x-fw-4-sr.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl128x-fw-5-mr.bin -> ti-connectivity/wl128x-fw-5-mr.bin
-lrwxrwxrwx -          -                  35 ./lib/firmware/wl128x-fw-5-plt.bin -> ti-connectivity/wl128x-fw-5-plt.bin
-lrwxrwxrwx -          -                  34 ./lib/firmware/wl128x-fw-5-sr.bin -> ti-connectivity/wl128x-fw-5-sr.bin
-lrwxrwxrwx -          -                  32 ./lib/firmware/wl128x-fw-ap.bin -> ti-connectivity/wl128x-fw-ap.bin
-lrwxrwxrwx -          -                  29 ./lib/firmware/wl128x-fw.bin -> ti-connectivity/wl128x-fw.bin
-lrwxrwxrwx -          -                  35 ./lib/firmware/wl128x-fw-plt-3.bin -> ti-connectivity/wl128x-fw-plt-3.bin
-lrwxrwxrwx -          -                  30 ./lib/firmware/wl128x-nvs.bin -> ti-connectivity/wl128x-nvs.bin
-lrwxrwxrwx -          -                  31 ./lib/firmware/wl18xx-fw-2.bin -> ti-connectivity/wl18xx-fw-2.bin
-lrwxrwxrwx -          -                  31 ./lib/firmware/wl18xx-fw-3.bin -> ti-connectivity/wl18xx-fw-3.bin
-lrwxrwxrwx -          -                  31 ./lib/firmware/wl18xx-fw-4.bin -> ti-connectivity/wl18xx-fw-4.bin
-lrwxrwxrwx -          -                  29 ./lib/firmware/wl18xx-fw.bin -> ti-connectivity/wl18xx-fw.bin
 -rw-r--r-- -          -               97824 ./lib/firmware/wsm_22.bin
 drwxr-xr-x -          -                  80 ./lib/firmware/yam
 -rw-r--r-- -          -                5302 ./lib/firmware/yam/1200.bin

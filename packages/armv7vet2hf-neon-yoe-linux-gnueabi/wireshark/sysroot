@@ -216,7 +216,7 @@ drwxr-xr-x -          -                7600 ./usr/include/wireshark/epan/dissect
 -rw-r--r-- -          -                3156 ./usr/include/wireshark/epan/dissectors/packet-knxip_decrypt.h
 -rw-r--r-- -          -                1243 ./usr/include/wireshark/epan/dissectors/packet-knxip.h
 -rw-r--r-- -          -                 887 ./usr/include/wireshark/epan/dissectors/packet-l2tp.h
--rw-r--r-- -          -                 493 ./usr/include/wireshark/epan/dissectors/packet-lapdm.h
+-rw-r--r-- -          -                 489 ./usr/include/wireshark/epan/dissectors/packet-lapdm.h
 -rw-r--r-- -          -               15630 ./usr/include/wireshark/epan/dissectors/packet-lbm.h
 -rw-r--r-- -          -                1517 ./usr/include/wireshark/epan/dissectors/packet-lbtrm.h
 -rw-r--r-- -          -                1707 ./usr/include/wireshark/epan/dissectors/packet-lbtru.h
@@ -369,7 +369,7 @@ drwxr-xr-x -          -                7600 ./usr/include/wireshark/epan/dissect
 -rw-r--r-- -          -                1347 ./usr/include/wireshark/epan/dissectors/packet-tetra.h
 -rw-r--r-- -          -                3006 ./usr/include/wireshark/epan/dissectors/packet-thrift.h
 -rw-r--r-- -          -                2201 ./usr/include/wireshark/epan/dissectors/packet-tls.h
--rw-r--r-- -          -              119634 ./usr/include/wireshark/epan/dissectors/packet-tls-utils.h
+-rw-r--r-- -          -              121092 ./usr/include/wireshark/epan/dissectors/packet-tls-utils.h
 -rw-r--r-- -          -                 578 ./usr/include/wireshark/epan/dissectors/packet-tn3270.h
 -rw-r--r-- -          -                 612 ./usr/include/wireshark/epan/dissectors/packet-tn5250.h
 -rw-r--r-- -          -                1536 ./usr/include/wireshark/epan/dissectors/packet-tpkt.h
@@ -603,11 +603,11 @@ drwxr-xr-x -          -                1240 ./usr/include/wireshark/wsutil
 -rw-r--r-- -          -                1041 ./usr/include/wireshark/wsutil/xtea.h
 -rw-r--r-- -          -                 207 ./usr/include/wireshark/ws_version.h
 drwxr-xr-x -          -                 260 ./usr/lib
--rwxr-xr-x -          -            56572360 ./usr/lib/libwireshark.so.13.0.1
-lrwxrwxrwx -          -                  22 ./usr/lib/libwireshark.so.13 -> libwireshark.so.13.0.1
+-rwxr-xr-x -          -            56577048 ./usr/lib/libwireshark.so.13.0.2
+lrwxrwxrwx -          -                  22 ./usr/lib/libwireshark.so.13 -> libwireshark.so.13.0.2
 lrwxrwxrwx -          -                  18 ./usr/lib/libwireshark.so -> libwireshark.so.13
--rwxr-xr-x -          -              327616 ./usr/lib/libwiretap.so.10.0.1
-lrwxrwxrwx -          -                  20 ./usr/lib/libwiretap.so.10 -> libwiretap.so.10.0.1
+-rwxr-xr-x -          -              327616 ./usr/lib/libwiretap.so.10.0.2
+lrwxrwxrwx -          -                  20 ./usr/lib/libwiretap.so.10 -> libwiretap.so.10.0.2
 lrwxrwxrwx -          -                  16 ./usr/lib/libwiretap.so -> libwiretap.so.10
 -rwxr-xr-x -          -               87896 ./usr/lib/libwsutil.so.11.0.0
 lrwxrwxrwx -          -                  19 ./usr/lib/libwsutil.so.11 -> libwsutil.so.11.0.0
@@ -688,10 +688,10 @@ drwxr-xr-x -          -                 280 ./usr/share/wireshark/dtds
 -rw-r--r-- -          -                1573 ./usr/share/wireshark/dtds/xcap-error.dtd
 -rw-r--r-- -          -               19919 ./usr/share/wireshark/dumpcap.html
 -rw-r--r-- -          -               22493 ./usr/share/wireshark/editcap.html
--rw-r--r-- -          -             1499311 ./usr/share/wireshark/enterprises.tsv
+-rw-r--r-- -          -             1505224 ./usr/share/wireshark/enterprises.tsv
 -rw-r--r-- -          -                6698 ./usr/share/wireshark/extcap.html
 -rw-r--r-- -          -               13921 ./usr/share/wireshark/ipmap.html
--rw-r--r-- -          -             1667141 ./usr/share/wireshark/manuf
+-rw-r--r-- -          -             1677353 ./usr/share/wireshark/manuf
 -rw-r--r-- -          -                7892 ./usr/share/wireshark/mergecap.html
 -rw-r--r-- -          -                6359 ./usr/share/wireshark/pdml2html.xsl
 drwxr-xr-x -          -                 100 ./usr/share/wireshark/profiles
@@ -914,7 +914,7 @@ drwxr-xr-x -          -                4180 ./usr/share/wireshark/radius
 -rw-r--r-- -          -                4075 ./usr/share/wireshark/randpkt.html
 -rw-r--r-- -          -               25214 ./usr/share/wireshark/rawshark.html
 -rw-r--r-- -          -                3038 ./usr/share/wireshark/reordercap.html
--rw-r--r-- -          -              266282 ./usr/share/wireshark/services
+-rw-r--r-- -          -              266562 ./usr/share/wireshark/services
 -rw-r--r-- -          -                 315 ./usr/share/wireshark/smi_modules
 -rw-r--r-- -          -               11058 ./usr/share/wireshark/sshdump.html
 -rw-r--r-- -          -               13322 ./usr/share/wireshark/text2pcap.html

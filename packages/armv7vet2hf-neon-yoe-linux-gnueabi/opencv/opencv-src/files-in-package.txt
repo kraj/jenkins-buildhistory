@@ -23,7 +23,7 @@ drwxr-xr-x root       root              260 ./usr/src/debug/opencv/4.1.0-r0/buil
 -rw-r--r-- root       root          1012932 ./usr/src/debug/opencv/4.1.0-r0/build/downloads/xfeatures2d/vgg_generated_80.i
 drwxr-xr-x root       root               80 ./usr/src/debug/opencv/4.1.0-r0/build/modules
 drwxr-xr-x root       root               60 ./usr/src/debug/opencv/4.1.0-r0/build/modules/core
--rw-r--r-- root       root            13501 ./usr/src/debug/opencv/4.1.0-r0/build/modules/core/version_string.inc
+-rw-r--r-- root       root            13801 ./usr/src/debug/opencv/4.1.0-r0/build/modules/core/version_string.inc
 drwxr-xr-x root       root              160 ./usr/src/debug/opencv/4.1.0-r0/build/modules/python_bindings_generator
 -rw-r--r-- root       root            17483 ./usr/src/debug/opencv/4.1.0-r0/build/modules/python_bindings_generator/pyopencv_generated_enums.h
 -rw-r--r-- root       root          1133375 ./usr/src/debug/opencv/4.1.0-r0/build/modules/python_bindings_generator/pyopencv_generated_funcs.h
@@ -1673,11 +1673,14 @@ drwxr-xr-x root       root               60 ./usr/src/debug/opencv/4.1.0-r0/git/
 drwxr-xr-x root       root               60 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/misc
 drwxr-xr-x root       root               60 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/misc/python
 -rw-r--r-- root       root              683 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/misc/python/pyopencv_videoio.hpp
-drwxr-xr-x root       root              360 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src
+drwxr-xr-x root       root              440 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src
 -rw-r--r-- root       root             1632 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/backend.hpp
 -rw-r--r-- root       root            15860 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/backend_plugin.cpp
 -rw-r--r-- root       root             2444 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/backend_static.cpp
 -rw-r--r-- root       root            15584 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap.cpp
+-rw-r--r-- root       root             4862 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_ffmpeg_api.hpp
+-rw-r--r-- root       root            17801 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_ffmpeg.cpp
+-rw-r--r-- root       root            84173 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_ffmpeg_impl.hpp
 -rw-r--r-- root       root            35858 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_gphoto2.cpp
 -rw-r--r-- root       root            56601 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_gstreamer.cpp
 -rw-r--r-- root       root            10797 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_images.cpp
@@ -1686,6 +1689,7 @@ drwxr-xr-x root       root              360 ./usr/src/debug/opencv/4.1.0-r0/git/
 -rw-r--r-- root       root            49929 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_mjpeg_encoder.cpp
 -rw-r--r-- root       root            63507 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/cap_v4l.cpp
 -rw-r--r-- root       root            29315 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/container_avi.cpp
+-rw-r--r-- root       root            13216 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/ffmpeg_codecs.hpp
 -rw-r--r-- root       root             5262 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/plugin_api.hpp
 -rw-r--r-- root       root             2192 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/videoio_c.cpp
 -rw-r--r-- root       root            13721 ./usr/src/debug/opencv/4.1.0-r0/git/modules/videoio/src/videoio_registry.cpp

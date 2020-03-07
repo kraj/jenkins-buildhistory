@@ -9,10 +9,10 @@ drwxr-xr-x -          -                 180 ./sysroot-providers
 drwxr-xr-x -          -                 100 ./usr
 drwxr-xr-x -          -                 180 ./usr/include
 drwxr-xr-x -          -                 140 ./usr/include/EGL
--rw-r--r-- -          -                2473 ./usr/include/EGL/eglextchromium.h
--rw-r--r-- -          -               66638 ./usr/include/EGL/eglext.h
+-rw-r--r-- -          -                3192 ./usr/include/EGL/eglextchromium.h
+-rw-r--r-- -          -               65858 ./usr/include/EGL/eglext.h
 -rw-r--r-- -          -               20345 ./usr/include/EGL/egl.h
--rw-r--r-- -          -                3764 ./usr/include/EGL/eglmesaext.h
+-rw-r--r-- -          -                3771 ./usr/include/EGL/eglmesaext.h
 -rw-r--r-- -          -                6166 ./usr/include/EGL/eglplatform.h
 -rw-r--r-- -          -               15574 ./usr/include/gbm.h
 drwxr-xr-x -          -                 160 ./usr/include/GL
@@ -42,16 +42,16 @@ drwxr-xr-x -          -                  60 ./usr/include/KHR
 -rw-r--r-- -          -               10449 ./usr/include/KHR/khrplatform.h
 drwxr-xr-x -          -                 440 ./usr/lib
 drwxr-xr-x -          -                 100 ./usr/lib/dri
--rwxr-xr-x -          -             6121148 ./usr/lib/dri/kms_swrast_dri.so
--rwxr-xr-x -          -             6121148 ./usr/lib/dri/swrast_dri.so
--rwxr-xr-x -          -             6121148 ./usr/lib/dri/virtio_gpu_dri.so
+-rwxr-xr-x -          -             6512488 ./usr/lib/dri/kms_swrast_dri.so
+-rwxr-xr-x -          -             6512488 ./usr/lib/dri/swrast_dri.so
+-rwxr-xr-x -          -             6512488 ./usr/lib/dri/virtio_gpu_dri.so
 -rwxr-xr-x -          -              153828 ./usr/lib/libEGL.so.1.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
 lrwxrwxrwx -          -                  11 ./usr/lib/libEGL.so -> libEGL.so.1
 -rwxr-xr-x -          -               42732 ./usr/lib/libgbm.so.1.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
 lrwxrwxrwx -          -                  11 ./usr/lib/libgbm.so -> libgbm.so.1
--rwxr-xr-x -          -              169540 ./usr/lib/libglapi.so.0.0.0
+-rwxr-xr-x -          -              173636 ./usr/lib/libglapi.so.0.0.0
 lrwxrwxrwx -          -                  17 ./usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
 lrwxrwxrwx -          -                  13 ./usr/lib/libglapi.so -> libglapi.so.0
 -rwxr-xr-x -          -               13520 ./usr/lib/libGLESv1_CM.so.1.1.0
@@ -72,4 +72,4 @@ drwxr-xr-x -          -                 160 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 355 ./usr/lib/pkgconfig/gl.pc
 drwxr-xr-x -          -                  60 ./usr/share
 drwxr-xr-x -          -                  60 ./usr/share/drirc.d
--rw-r--r-- -          -               25638 ./usr/share/drirc.d/00-mesa-defaults.conf
+-rw-r--r-- -          -               27422 ./usr/share/drirc.d/00-mesa-defaults.conf

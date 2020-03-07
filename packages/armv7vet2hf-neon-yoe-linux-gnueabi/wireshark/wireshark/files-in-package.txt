@@ -11,10 +11,10 @@ drwxr-xr-x root       root              240 ./usr/bin
 -rwxr-xr-x root       root           116512 ./usr/bin/sharkd
 -rwxr-xr-x root       root            38656 ./usr/bin/text2pcap
 drwxr-xr-x root       root              180 ./usr/lib
--rwxr-xr-x root       root         56572444 ./usr/lib/libwireshark.so.13.0.1
-lrwxrwxrwx root       root               22 ./usr/lib/libwireshark.so.13 -> libwireshark.so.13.0.1
--rwxr-xr-x root       root           327700 ./usr/lib/libwiretap.so.10.0.1
-lrwxrwxrwx root       root               20 ./usr/lib/libwiretap.so.10 -> libwiretap.so.10.0.1
+-rwxr-xr-x root       root         56577132 ./usr/lib/libwireshark.so.13.0.2
+lrwxrwxrwx root       root               22 ./usr/lib/libwireshark.so.13 -> libwireshark.so.13.0.2
+-rwxr-xr-x root       root           327700 ./usr/lib/libwiretap.so.10.0.2
+lrwxrwxrwx root       root               20 ./usr/lib/libwiretap.so.10 -> libwiretap.so.10.0.2
 -rwxr-xr-x root       root            87976 ./usr/lib/libwsutil.so.11.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libwsutil.so.11 -> libwsutil.so.11.0.0
 drwxr-xr-x root       root               80 ./usr/lib/wireshark
@@ -91,10 +91,10 @@ drwxr-xr-x root       root              280 ./usr/share/wireshark/dtds
 -rw-r--r-- root       root             1573 ./usr/share/wireshark/dtds/xcap-error.dtd
 -rw-r--r-- root       root            19919 ./usr/share/wireshark/dumpcap.html
 -rw-r--r-- root       root            22493 ./usr/share/wireshark/editcap.html
--rw-r--r-- root       root          1499311 ./usr/share/wireshark/enterprises.tsv
+-rw-r--r-- root       root          1505224 ./usr/share/wireshark/enterprises.tsv
 -rw-r--r-- root       root             6698 ./usr/share/wireshark/extcap.html
 -rw-r--r-- root       root            13921 ./usr/share/wireshark/ipmap.html
--rw-r--r-- root       root          1667141 ./usr/share/wireshark/manuf
+-rw-r--r-- root       root          1677353 ./usr/share/wireshark/manuf
 -rw-r--r-- root       root             7892 ./usr/share/wireshark/mergecap.html
 -rw-r--r-- root       root             6359 ./usr/share/wireshark/pdml2html.xsl
 drwxr-xr-x root       root              100 ./usr/share/wireshark/profiles
@@ -317,7 +317,7 @@ drwxr-xr-x root       root             4180 ./usr/share/wireshark/radius
 -rw-r--r-- root       root             4075 ./usr/share/wireshark/randpkt.html
 -rw-r--r-- root       root            25214 ./usr/share/wireshark/rawshark.html
 -rw-r--r-- root       root             3038 ./usr/share/wireshark/reordercap.html
--rw-r--r-- root       root           266282 ./usr/share/wireshark/services
+-rw-r--r-- root       root           266562 ./usr/share/wireshark/services
 -rw-r--r-- root       root              315 ./usr/share/wireshark/smi_modules
 -rw-r--r-- root       root            11058 ./usr/share/wireshark/sshdump.html
 -rw-r--r-- root       root            13322 ./usr/share/wireshark/text2pcap.html
