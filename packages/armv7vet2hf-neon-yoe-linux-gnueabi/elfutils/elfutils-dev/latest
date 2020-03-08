@@ -1,8 +1,8 @@
 PV = 0.178
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = elfutils (= 0.178-r0.16) libasm libdw libelf
+RDEPENDS = elfutils (= 0.178-r0.17) libasm libdw libelf
 RRECOMMENDS = bash-dev coreutils-dev elfutils-binutils-dev glibc-dev glibc-utils-dev libasm-dev libdw-dev libelf-dev libgcc-dev libstdc++-dev make-dev zlib-dev
 PKGSIZE = 208538
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/elfutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
