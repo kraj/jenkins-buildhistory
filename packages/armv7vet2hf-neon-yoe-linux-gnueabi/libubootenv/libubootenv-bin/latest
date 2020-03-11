@@ -1,0 +1,10 @@
+PV = 0.2+gitAUTOINC+ba952d05ec
+PR = r0
+PKGV = 0.2+git0+ba952d05ec
+PKGR = r0.15
+RPROVIDES = u-boot-fw-utils
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libubootenv (>= 0.2+git0+ba952d05ec)
+RRECOMMENDS = 
+PKGSIZE = 19944
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/fw_printenv /usr/bin/fw_setenv

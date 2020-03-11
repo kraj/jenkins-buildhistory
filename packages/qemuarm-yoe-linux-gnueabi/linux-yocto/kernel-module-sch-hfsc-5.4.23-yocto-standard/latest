@@ -1,0 +1,10 @@
+PV = 5.4.23+gitAUTOINC+b8c82ba373_3745c440f4
+PR = r0
+PKGV = 5.4.23+git0+b8c82ba373_3745c440f4
+PKGR = r0.12
+RPROVIDES = kernel-module-sch-hfsc
+RDEPENDS = kernel-5.4.23-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 21464
+FILES = /lib/modules/5.4.23-yocto-standard/kernel/net/sched/sch_hfsc.ko /etc/modules-load.d/sch_hfsc.conf /etc/modprobe.d/sch_hfsc.conf
+FILELIST = /lib/modules/5.4.23-yocto-standard/kernel/net/sched/sch_hfsc.ko
