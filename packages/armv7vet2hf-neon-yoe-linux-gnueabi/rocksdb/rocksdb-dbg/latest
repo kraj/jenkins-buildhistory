@@ -1,0 +1,10 @@
+PV = 6.5.2
+PR = r0
+PKG = librocksdb-dbg
+PKGR = r0.21
+RPROVIDES = rocksdb-dbg (=6.5.2)
+RDEPENDS = 
+RRECOMMENDS = gflags-dbg glibc-dbg libbz2-dbg libgcc-dbg libstdc++-dbg lz4-dbg zlib-dbg
+PKGSIZE = 171684540
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/librocksdb.so.6.5.2

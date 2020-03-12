@@ -1,0 +1,10 @@
+PV = 6.2
+PR = r0
+PKG = libticw5
+PKGR = r0.11
+RPROVIDES = ncurses-libticw (=6.2)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) ncurses-libtinfo (>= 6.2)
+RRECOMMENDS = 
+PKGSIZE = 42546
+FILES = /usr/lib/libticw.so.5 /usr/lib/libticw.so.5.9
+FILELIST = /usr/lib/libticw.so.5 /usr/lib/libticw.so.5.9

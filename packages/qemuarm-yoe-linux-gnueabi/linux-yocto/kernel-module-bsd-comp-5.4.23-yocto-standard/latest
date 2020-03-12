@@ -1,0 +1,10 @@
+PV = 5.4.23+gitAUTOINC+b8c82ba373_3745c440f4
+PR = r0
+PKGV = 5.4.23+git0+b8c82ba373_3745c440f4
+PKGR = r0.12
+RPROVIDES = kernel-module-bsd-comp
+RDEPENDS = kernel-5.4.23-yocto-standard kernel-module-ppp-generic-5.4.23-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8984
+FILES = /lib/modules/5.4.23-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko /etc/modules-load.d/bsd_comp.conf /etc/modprobe.d/bsd_comp.conf
+FILELIST = /lib/modules/5.4.23-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko

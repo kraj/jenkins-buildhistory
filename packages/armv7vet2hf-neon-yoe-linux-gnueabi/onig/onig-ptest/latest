@@ -1,0 +1,10 @@
+PV = 6.9.4
+PR = r0
+PKG = libonig-ptest
+PKGR = r0.21
+RPROVIDES = onig-ptest (=6.9.4)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) onig (>= 6.9.4)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 194049
+FILES = /usr/lib/onig/ptest
+FILELIST = /usr/lib/onig/ptest/run-ptest /usr/lib/onig/ptest/tests/test_regset /usr/lib/onig/ptest/tests/test_utf8 /usr/lib/onig/ptest/tests/testc /usr/lib/onig/ptest/tests/testcu /usr/lib/onig/ptest/tests/testp
