@@ -1,10 +1,10 @@
 PV = 5.4.23+gitAUTOINC+b8c82ba373_3745c440f4
 PR = r0
 PKGV = 5.4.23+git0+b8c82ba373_3745c440f4
-PKGR = r0.15
+PKGR = r0.18
 RPROVIDES = kernel-module-bonding
 RDEPENDS = kernel-5.4.23-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 154028
+PKGSIZE = 153964
 FILES = /lib/modules/5.4.23-yocto-standard/kernel/drivers/net/bonding/bonding.ko /etc/modules-load.d/bonding.conf /etc/modprobe.d/bonding.conf
 FILELIST = /lib/modules/5.4.23-yocto-standard/kernel/drivers/net/bonding/bonding.ko

@@ -1,10 +1,10 @@
 PV = 5.4.23+gitAUTOINC+b8c82ba373_3745c440f4
 PR = r0
 PKGV = 5.4.23+git0+b8c82ba373_3745c440f4
-PKGR = r0.15
+PKGR = r0.18
 RPROVIDES = kernel-module-loop
 RDEPENDS = kernel-5.4.23-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 32848
+PKGSIZE = 32784
 FILES = /lib/modules/5.4.23-yocto-standard/kernel/drivers/block/loop.ko /etc/modules-load.d/loop.conf /etc/modprobe.d/loop.conf
 FILELIST = /lib/modules/5.4.23-yocto-standard/kernel/drivers/block/loop.ko

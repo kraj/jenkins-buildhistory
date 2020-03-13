@@ -1,12 +1,12 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root          2817612 ./usr/bin/.debug/strace
+-rwxr-xr-x root       root          2817504 ./usr/bin/.debug/strace
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/strace
 drwxr-xr-x root       root               80 ./usr/lib/strace/ptest
 drwxr-xr-x root       root               60 ./usr/lib/strace/ptest/.debug
--rwxr-xr-x root       root          2817612 ./usr/lib/strace/ptest/.debug/strace
+-rwxr-xr-x root       root          2817504 ./usr/lib/strace/ptest/.debug/strace
 drwxr-xr-x root       root               60 ./usr/lib/strace/ptest/tests
 drwxr-xr-x root       root            13560 ./usr/lib/strace/ptest/tests/.debug
 -rwxr-xr-x root       root            39124 ./usr/lib/strace/ptest/tests/.debug/accept
@@ -34,7 +34,7 @@ drwxr-xr-x root       root            13560 ./usr/lib/strace/ptest/tests/.debug
 -rwxr-xr-x root       root            69992 ./usr/lib/strace/ptest/tests/.debug/bpf-success-v
 -rwxr-xr-x root       root            69560 ./usr/lib/strace/ptest/tests/.debug/bpf-v
 -rwxr-xr-x root       root            10920 ./usr/lib/strace/ptest/tests/.debug/brk
--rwxr-xr-x root       root           159088 ./usr/lib/strace/ptest/tests/.debug/btrfs
+-rwxr-xr-x root       root           159040 ./usr/lib/strace/ptest/tests/.debug/btrfs
 -rwxr-xr-x root       root            25668 ./usr/lib/strace/ptest/tests/.debug/caps
 -rwxr-xr-x root       root            25672 ./usr/lib/strace/ptest/tests/.debug/caps-abbrev
 -rwxr-xr-x root       root            15680 ./usr/lib/strace/ptest/tests/.debug/check_sigblock
@@ -60,7 +60,7 @@ drwxr-xr-x root       root            13560 ./usr/lib/strace/ptest/tests/.debug
 -rwxr-xr-x root       root            27972 ./usr/lib/strace/ptest/tests/.debug/copy_file_range
 -rwxr-xr-x root       root            17728 ./usr/lib/strace/ptest/tests/.debug/count-f
 -rwxr-xr-x root       root            19416 ./usr/lib/strace/ptest/tests/.debug/creat
--rwxr-xr-x root       root            38480 ./usr/lib/strace/ptest/tests/.debug/delay
+-rwxr-xr-x root       root            38364 ./usr/lib/strace/ptest/tests/.debug/delay
 -rwxr-xr-x root       root            37768 ./usr/lib/strace/ptest/tests/.debug/delete_module
 -rwxr-xr-x root       root            24288 ./usr/lib/strace/ptest/tests/.debug/dev-yy
 -rwxr-xr-x root       root            18332 ./usr/lib/strace/ptest/tests/.debug/dup
@@ -92,8 +92,8 @@ drwxr-xr-x root       root            13560 ./usr/lib/strace/ptest/tests/.debug
 -rwxr-xr-x root       root            31532 ./usr/lib/strace/ptest/tests/.debug/fchown
 -rwxr-xr-x root       root            26732 ./usr/lib/strace/ptest/tests/.debug/fchown32
 -rwxr-xr-x root       root            24068 ./usr/lib/strace/ptest/tests/.debug/fchownat
--rwxr-xr-x root       root            49088 ./usr/lib/strace/ptest/tests/.debug/fcntl
--rwxr-xr-x root       root            49412 ./usr/lib/strace/ptest/tests/.debug/fcntl64
+-rwxr-xr-x root       root            49048 ./usr/lib/strace/ptest/tests/.debug/fcntl
+-rwxr-xr-x root       root            49368 ./usr/lib/strace/ptest/tests/.debug/fcntl64
 -rwxr-xr-x root       root            18364 ./usr/lib/strace/ptest/tests/.debug/fdatasync
 -rwxr-xr-x root       root            10876 ./usr/lib/strace/ptest/tests/.debug/fflush
 -rwxr-xr-x root       root            45720 ./usr/lib/strace/ptest/tests/.debug/file_handle
@@ -218,7 +218,7 @@ drwxr-xr-x root       root            13560 ./usr/lib/strace/ptest/tests/.debug
 -rwxr-xr-x root       root            30332 ./usr/lib/strace/ptest/tests/.debug/ioprio-Xverbose
 -rwxr-xr-x root       root            39140 ./usr/lib/strace/ptest/tests/.debug/io_uring_enter
 -rwxr-xr-x root       root            39300 ./usr/lib/strace/ptest/tests/.debug/io_uring_register
--rwxr-xr-x root       root            46796 ./usr/lib/strace/ptest/tests/.debug/io_uring_setup
+-rwxr-xr-x root       root            46812 ./usr/lib/strace/ptest/tests/.debug/io_uring_setup
 -rwxr-xr-x root       root            31132 ./usr/lib/strace/ptest/tests/.debug/ipc
 -rwxr-xr-x root       root            41416 ./usr/lib/strace/ptest/tests/.debug/ipc_msg
 -rwxr-xr-x root       root            32684 ./usr/lib/strace/ptest/tests/.debug/ipc_msgbuf
@@ -465,8 +465,8 @@ drwxr-xr-x root       root            13560 ./usr/lib/strace/ptest/tests/.debug
 -rwxr-xr-x root       root            30548 ./usr/lib/strace/ptest/tests/.debug/prlimit64
 -rwxr-xr-x root       root            45304 ./usr/lib/strace/ptest/tests/.debug/process_vm_readv
 -rwxr-xr-x root       root            45256 ./usr/lib/strace/ptest/tests/.debug/process_vm_writev
--rwxr-xr-x root       root            30120 ./usr/lib/strace/ptest/tests/.debug/pselect6
--rwxr-xr-x root       root            49648 ./usr/lib/strace/ptest/tests/.debug/ptrace
+-rwxr-xr-x root       root            30128 ./usr/lib/strace/ptest/tests/.debug/pselect6
+-rwxr-xr-x root       root            49628 ./usr/lib/strace/ptest/tests/.debug/ptrace
 -rwxr-xr-x root       root            53948 ./usr/lib/strace/ptest/tests/.debug/ptrace_syscall_info
 -rwxr-xr-x root       root            33396 ./usr/lib/strace/ptest/tests/.debug/pwritev
 -rwxr-xr-x root       root            31116 ./usr/lib/strace/ptest/tests/.debug/qual_fault
