@@ -5,11 +5,11 @@ drwxr-xr-x -          -                 100 ./sysroot-providers
 drwxr-xr-x -          -                 140 ./usr
 drwxr-xr-x -          -                  60 ./usr/bin
 drwxr-xr-x -          -                 260 ./usr/bin/arm-yoe-linux-gnueabi
--rwxr-xr-x -          -             1174312 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-c++
--rwxr-xr-x -          -             1174312 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-cpp
--rwxr-xr-x -          -             1174312 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-g++
--rwxr-xr-x -          -             1170216 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc
--rwxr-xr-x -          -             1170216 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc-9.3.0
+-rwxr-xr-x -          -             1178408 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-c++
+-rwxr-xr-x -          -             1178408 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-cpp
+-rwxr-xr-x -          -             1178408 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-g++
+-rwxr-xr-x -          -             1174312 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc
+-rwxr-xr-x -          -             1174312 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc-9.3.0
 -rwxr-xr-x -          -               31088 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc-ar
 -rwxr-xr-x -          -               31088 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc-nm
 -rwxr-xr-x -          -               31088 ./usr/bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc-ranlib
@@ -130,7 +130,7 @@ drwxr-xr-x -          -                 160 ./usr/lib/arm-yoe-linux-gnueabi/gcc/
 -rw-r--r-- -          -                4491 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cp/cxx-pretty-print.h
 -rw-r--r-- -          -               13045 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cp/name-lookup.h
 -rw-r--r-- -          -                6637 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cp/operators.def
--rw-r--r-- -          -                2783 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cppdefault.h
+-rw-r--r-- -          -                2713 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cppdefault.h
 -rw-r--r-- -          -               46716 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cpplib.h
 -rw-r--r-- -          -                1890 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cp/type-utils.h
 -rw-r--r-- -          -                  10 ./usr/lib/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/plugin/include/cs-bconfig.h
@@ -459,8 +459,8 @@ lrwxrwxrwx -          -                  70 ./usr/libexec/arm-yoe-linux-gnueabi/
 lrwxrwxrwx -          -                  69 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/arm-yoe-linux-gnueabi-ranlib -> ../../../../../bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-ranlib
 lrwxrwxrwx -          -                  68 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/arm-yoe-linux-gnueabi-strip -> ../../../../../bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-strip
 lrwxrwxrwx -          -                  65 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/as -> ../../../../../bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-as
--rwxr-xr-x -          -            19942344 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/cc1
--rwxr-xr-x -          -            21375464 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/cc1plus
+-rwxr-xr-x -          -            19954632 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/cc1
+-rwxr-xr-x -          -            21387752 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/cc1plus
 -rwxr-xr-x -          -              602128 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/collect2
 lrwxrwxrwx -          -                  66 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/cpp -> ../../../../../bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-cpp
 lrwxrwxrwx -          -                  66 ./usr/libexec/arm-yoe-linux-gnueabi/gcc/arm-yoe-linux-gnueabi/9.3.0/gcc -> ../../../../../bin/arm-yoe-linux-gnueabi/arm-yoe-linux-gnueabi-gcc
