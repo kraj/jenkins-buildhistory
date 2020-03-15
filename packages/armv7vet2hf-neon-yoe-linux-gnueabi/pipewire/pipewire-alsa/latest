@@ -1,9 +1,9 @@
-PV = 0.2.7
+PV = 0.3.1
 PR = r0
-PKGR = r0.28
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = alsa-lib (>= 1.2.1.2) glibc (>= 2.31+git0+71f2b249a2) libpipewire (>= 0.3.1)
 RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/alsa-lib/* /usr/share/alsa/alsa.conf.d/50-pipewire.conf
-FILELIST = 
+PKGSIZE = 22160
+FILES = /usr/lib/alsa-lib/*
+FILELIST = /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
