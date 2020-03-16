@@ -1,0 +1,10 @@
+PV = 5.4.23+gitAUTOINC+b8c82ba373_3745c440f4
+PR = r0
+PKGV = 5.4.23+git0+b8c82ba373_3745c440f4
+PKGR = r0.27
+RPROVIDES = kernel-module-sch-sfq
+RDEPENDS = kernel-5.4.23-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13964
+FILES = /lib/modules/5.4.23-yocto-standard/kernel/net/sched/sch_sfq.ko /etc/modules-load.d/sch_sfq.conf /etc/modprobe.d/sch_sfq.conf
+FILELIST = /lib/modules/5.4.23-yocto-standard/kernel/net/sched/sch_sfq.ko

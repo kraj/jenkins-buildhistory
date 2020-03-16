@@ -1,0 +1,5 @@
+PV = 3.0.3
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd dbus gnu-config-native groff-native kronosnet libqb libtool-cross libtool-native net-snmp nss pkgconfig-native shadow shadow-native shadow-sysroot systemd systemd-systemctl-native virtual/arm-yoe-linux-gnueabi-compilerlibs virtual/arm-yoe-linux-gnueabi-gcc virtual/libc
+PACKAGES = corosync-src corosync-dbg corosync-staticdev corosync-dev corosync-doc corosync-locale corosync
+LAYER = networking-layer

@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop lm_sensors.service
+
+		systemctl disable lm_sensors.service
+	fi
+fi

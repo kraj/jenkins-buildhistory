@@ -1,0 +1,10 @@
+PV = 3.11.4
+PR = r0
+PKG = libprotobuf22
+PKGR = r0.9
+RPROVIDES = protobuf (=3.11.4)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libatomic (>= 9.3.0) libgcc (>= 9.3.0) libstdc++ (>= 9.3.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 2050909
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/protobuf /usr/lib/protobuf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libprotobuf.so.22 /usr/lib/libprotobuf.so.22.0.4
