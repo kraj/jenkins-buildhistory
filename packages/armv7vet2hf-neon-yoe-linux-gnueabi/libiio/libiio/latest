@@ -1,0 +1,11 @@
+PV = 0.19+gitAUTOINC+5f5af2e417
+PR = r0
+PKG = libiio0
+PKGV = 0.19+git0+5f5af2e417
+PKGR = r0.28
+RPROVIDES = libiio (=0.19+git0+5f5af2e417)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libusb1 (>= 1.0.22) libxml2 (>= 2.9.10)
+RRECOMMENDS = 
+PKGSIZE = 68325
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libiio /usr/lib/libiio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/avahi/services/iio.service /lib/udev/rules.d/90-libiio.rules /usr/lib/libiio.so.0 /usr/lib/libiio.so.0.19

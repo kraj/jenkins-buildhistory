@@ -1,0 +1,10 @@
+PV = 5.4.23+gitAUTOINC+b8c82ba373_3745c440f4
+PR = r0
+PKGV = 5.4.23+git0+b8c82ba373_3745c440f4
+PKGR = r0.27
+RPROVIDES = kernel-module-xfrm-user
+RDEPENDS = kernel-5.4.23-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 35116
+FILES = /lib/modules/5.4.23-yocto-standard/kernel/net/xfrm/xfrm_user.ko /etc/modules-load.d/xfrm_user.conf /etc/modprobe.d/xfrm_user.conf
+FILELIST = /lib/modules/5.4.23-yocto-standard/kernel/net/xfrm/xfrm_user.ko
