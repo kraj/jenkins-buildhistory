@@ -1,0 +1,10 @@
+PV = 1.26
+PR = r0
+PKG = libpkcs11-helper-staticdev
+PKGR = r0.26
+RPROVIDES = pkcs11-helper-staticdev (=1.26)
+RDEPENDS = pkcs11-helper-dev (= 1.26-r0.26)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/pkcs11-helper/*.a
+FILELIST = 
