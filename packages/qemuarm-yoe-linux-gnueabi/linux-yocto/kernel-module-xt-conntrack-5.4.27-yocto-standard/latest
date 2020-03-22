@@ -1,0 +1,10 @@
+PV = 5.4.27+gitAUTOINC+9fe365b939_e28b25e558
+PR = r0
+PKGV = 5.4.27+git0+9fe365b939_e28b25e558
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-conntrack
+RDEPENDS = kernel-5.4.27-yocto-standard kernel-module-nf-conntrack-5.4.27-yocto-standard kernel-module-x-tables-5.4.27-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7252
+FILES = /lib/modules/5.4.27-yocto-standard/kernel/net/netfilter/xt_conntrack.ko /etc/modules-load.d/xt_conntrack.conf /etc/modprobe.d/xt_conntrack.conf
+FILELIST = /lib/modules/5.4.27-yocto-standard/kernel/net/netfilter/xt_conntrack.ko

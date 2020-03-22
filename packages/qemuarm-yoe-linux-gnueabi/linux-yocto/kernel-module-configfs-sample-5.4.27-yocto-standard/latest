@@ -1,0 +1,10 @@
+PV = 5.4.27+gitAUTOINC+9fe365b939_e28b25e558
+PR = r0
+PKGV = 5.4.27+git0+9fe365b939_e28b25e558
+PKGR = r0.1
+RPROVIDES = kernel-module-configfs-sample
+RDEPENDS = kernel-5.4.27-yocto-standard kernel-module-configfs-5.4.27-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9444
+FILES = /lib/modules/5.4.27-yocto-standard/kernel/samples/configfs/configfs_sample.ko /etc/modules-load.d/configfs_sample.conf /etc/modprobe.d/configfs_sample.conf
+FILELIST = /lib/modules/5.4.27-yocto-standard/kernel/samples/configfs/configfs_sample.ko
