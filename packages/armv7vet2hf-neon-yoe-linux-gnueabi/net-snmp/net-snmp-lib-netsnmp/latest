@@ -1,0 +1,10 @@
+PV = 5.8
+PR = r0
+PKG = libnetsnmp35
+PKGR = r0.32
+RPROVIDES = net-snmp-lib-netsnmp (=5.8)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libcrypto (>= 1.1.1d)
+RRECOMMENDS = 
+PKGSIZE = 518348
+FILES = /usr/lib/libnetsnmp.so.*
+FILELIST = /usr/lib/libnetsnmp.so.35 /usr/lib/libnetsnmp.so.35.0.0
