@@ -1,8 +1,8 @@
 PV = 9.11.13
 PR = r0
-PKGR = r0.27
+PKGR = r0.28
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bind-libs (>= 9.11.13) glibc (>= 2.31+git0+71f2b249a2) libcap (>= 2.32) libcrypto (>= 1.1.1d) shadow zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd bind-libs (>= 9.11.13) glibc (>= 2.31+git0+71f2b249a2) libcap (>= 2.32) libcrypto (>= 1.1.1e) shadow zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1094783
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bind /usr/lib/bind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/sbin/generate-rndc-key.sh /lib/systemd/system-preset/98-bind.preset /lib/systemd/system/named.service
