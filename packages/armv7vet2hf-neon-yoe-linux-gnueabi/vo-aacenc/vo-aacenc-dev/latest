@@ -1,0 +1,10 @@
+PV = 0.1.3
+PR = r0
+PKG = libvo-aacenc-dev
+PKGR = r0.13
+RPROVIDES = vo-aacenc-dev (=0.1.3)
+RDEPENDS = vo-aacenc (= 0.1.3-r0.13)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 29419
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vo-aacenc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/vo-aacenc/cmnMemory.h /usr/include/vo-aacenc/voAAC.h /usr/include/vo-aacenc/voAMRWB.h /usr/include/vo-aacenc/voAudio.h /usr/include/vo-aacenc/voIndex.h /usr/include/vo-aacenc/voMem.h /usr/include/vo-aacenc/voType.h /usr/lib/libvo-aacenc.so /usr/lib/pkgconfig/vo-aacenc.pc

@@ -1,0 +1,10 @@
+PV = 2.0.0
+PR = r0
+PKG = libopenh264-5
+PKGR = r0.13
+RPROVIDES = openh264 (=2.0.0)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libgcc (>= 9.3.0) libstdc++ (>= 9.3.0)
+RRECOMMENDS = 
+PKGSIZE = 767728
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openh264 /usr/lib/openh264/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libopenh264.so.2.0.0 /usr/lib/libopenh264.so.5

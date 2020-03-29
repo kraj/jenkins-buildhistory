@@ -1,0 +1,10 @@
+PV = 1.4.0.1
+PR = r0
+PKG = libwpe-1.0-1
+PKGR = r0.28
+RPROVIDES = libwpe (=1.4.0.1)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libstdc++ (>= 9.3.0) libxkbcommon (>= 0.10.0)
+RRECOMMENDS = 
+PKGSIZE = 26139
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libwpe /usr/lib/libwpe/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libwpe-1.0.so.1 /usr/lib/libwpe-1.0.so.1.2.3

@@ -1,0 +1,10 @@
+PV = 2.13.0
+PR = r0
+PKG = libgnt0
+PKGR = r0.40
+RPROVIDES = libgnt (=2.13.0)
+RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.16) glib-2.0 (>= 2.62.4) glibc (>= 2.31+git0+71f2b249a2) libidn (>= 1.35) libnsl2 (>= 1.2.0+git0+4a062cf418) libpurple (>= 2.13.0) libxml2 (>= 2.9.10) ncurses-libncursesw (>= 6.2) ncurses-libpanelw (>= 6.2) ncurses-libtinfo (>= 6.2)
+RRECOMMENDS = 
+PKGSIZE = 157556
+FILES = /usr/lib/libgnt.so.* /usr/lib/gnt/*.so
+FILELIST = /usr/lib/gnt/irssi.so /usr/lib/gnt/s.so /usr/lib/libgnt.so.0 /usr/lib/libgnt.so.0.8.10

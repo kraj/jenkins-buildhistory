@@ -1,0 +1,11 @@
+PV = 2.31+gitAUTOINC+71f2b249a2
+PR = r0
+PKG = libc6-extra-nss
+PKGV = 2.31+git0+71f2b249a2
+PKGR = r0.16
+RPROVIDES = eglibc-extra-nss glibc-extra-nss (=2.31+git0+71f2b249a2)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2)
+RRECOMMENDS = 
+PKGSIZE = 13729
+FILES = /lib/libnss_*-*.so /lib/libnss_*.so.*
+FILELIST = /lib/libnss_hesiod-2.31.so /lib/libnss_hesiod.so.2
