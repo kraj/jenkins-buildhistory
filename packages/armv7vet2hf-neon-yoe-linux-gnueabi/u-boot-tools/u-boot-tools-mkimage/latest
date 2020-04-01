@@ -1,9 +1,9 @@
 PE = 1
 PV = 2020.01
 PR = r0
-PKGR = r0.30
+PKGR = r0.31
 RPROVIDES = u-boot-mkimage
-RDEPENDS = dtc glibc (>= 2.31+git0+71f2b249a2) libcrypto (>= 1.1.1e) libssl (>= 1.1.1e)
+RDEPENDS = dtc glibc (>= 2.31+git0+71f2b249a2) libcrypto (>= 1.1.1f) libssl (>= 1.1.1f)
 RRECOMMENDS = 
 RREPLACES = u-boot-mkimage
 RCONFLICTS = u-boot-mkimage

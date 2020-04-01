@@ -1,9 +1,9 @@
 PV = 3.2.2
 PR = r0
 PKG = libwebsockets15
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = libwebsockets (=3.2.2)
-RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libcrypto (>= 1.1.1e) libssl (>= 1.1.1e) libuv (>= 1.35.0)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libcrypto (>= 1.1.1f) libssl (>= 1.1.1f) libuv (>= 1.35.0)
 RRECOMMENDS = 
 PKGSIZE = 187032
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libwebsockets /usr/lib/libwebsockets/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
