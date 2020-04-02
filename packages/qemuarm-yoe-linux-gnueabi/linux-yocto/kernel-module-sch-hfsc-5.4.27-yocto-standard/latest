@@ -1,0 +1,10 @@
+PV = 5.4.27+gitAUTOINC+bee554e595_ab849248b4
+PR = r0
+PKGV = 5.4.27+git1+bee554e595_ab849248b4
+PKGR = r0.17
+RPROVIDES = kernel-module-sch-hfsc
+RDEPENDS = kernel-5.4.27-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 21336
+FILES = /lib/modules/5.4.27-yocto-standard/kernel/net/sched/sch_hfsc.ko /etc/modules-load.d/sch_hfsc.conf /etc/modprobe.d/sch_hfsc.conf
+FILELIST = /lib/modules/5.4.27-yocto-standard/kernel/net/sched/sch_hfsc.ko

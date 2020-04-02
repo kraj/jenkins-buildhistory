@@ -1,0 +1,9 @@
+PV = 12.2
+PR = r0
+PKGR = r0.10
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) tcl-lib (>= 8.6.10)
+RRECOMMENDS = 
+PKGSIZE = 50788
+FILES = /usr/lib/postgresql/pltcl.so /usr/bin/pltcl_delmod ${binddir}/pltcl_listmod /usr/bin/pltcl_loadmod /usr/share/postgresql/unknown.pltcl
+FILELIST = /usr/lib/postgresql/pltcl.so

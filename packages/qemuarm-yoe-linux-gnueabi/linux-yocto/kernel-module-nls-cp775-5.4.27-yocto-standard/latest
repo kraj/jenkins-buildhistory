@@ -1,0 +1,10 @@
+PV = 5.4.27+gitAUTOINC+bee554e595_ab849248b4
+PR = r0
+PKGV = 5.4.27+git1+bee554e595_ab849248b4
+PKGR = r0.17
+RPROVIDES = kernel-module-nls-cp775
+RDEPENDS = kernel-5.4.27-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8004
+FILES = /lib/modules/5.4.27-yocto-standard/kernel/fs/nls/nls_cp775.ko /etc/modules-load.d/nls_cp775.conf /etc/modprobe.d/nls_cp775.conf
+FILELIST = /lib/modules/5.4.27-yocto-standard/kernel/fs/nls/nls_cp775.ko

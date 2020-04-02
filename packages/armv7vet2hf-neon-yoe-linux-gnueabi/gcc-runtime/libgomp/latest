@@ -1,0 +1,10 @@
+PV = 9.3.0
+PR = r0
+PKG = libgomp1
+PKGR = r0.10
+RPROVIDES = libgomp (=9.3.0)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2)
+RRECOMMENDS = 
+PKGSIZE = 129140
+FILES = /usr/lib/libgomp*.so.*
+FILELIST = /usr/lib/libgomp.so.1 /usr/lib/libgomp.so.1.0.0

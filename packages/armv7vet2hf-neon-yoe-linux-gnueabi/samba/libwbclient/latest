@@ -1,0 +1,10 @@
+PV = 4.10.13
+PR = r0
+PKG = libwbclient0
+PKGR = r0.44
+RPROVIDES = libwbclient (=4.10.13)
+RDEPENDS = glibc (>= 2.31+git0+71f2b249a2) libbsd (>= 0.10.0) libreplace-samba4 (>= 4.10.13) libwinbind-client-samba4 (>= 4.10.13) libxcrypt (>= 4.4.15) samba-common
+RRECOMMENDS = 
+PKGSIZE = 38207
+FILES = /usr/lib/libwbclient.so.0 /usr/lib/libwbclient.so.0.15
+FILELIST = /usr/lib/libwbclient.so.0 /usr/lib/libwbclient.so.0.15

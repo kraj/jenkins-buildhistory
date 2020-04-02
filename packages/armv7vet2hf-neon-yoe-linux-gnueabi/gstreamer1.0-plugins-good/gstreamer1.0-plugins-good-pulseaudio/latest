@@ -1,0 +1,9 @@
+PV = 1.16.2
+PR = r0
+PKGR = r0.33
+RPROVIDES = gstreamer1.0-plugins-good-pulse
+RDEPENDS = glib-2.0 (>= 2.62.4) glibc (>= 2.31+git0+71f2b249a2) gstreamer1.0 (>= 1.16.2) libgstaudio-1.0 (>= 1.16.2) libpulse (>= 13.0)
+RRECOMMENDS = 
+PKGSIZE = 87700
+FILES = /usr/lib/gstreamer-1.0/libgstpulseaudio.so
+FILELIST = /usr/lib/gstreamer-1.0/libgstpulseaudio.so
