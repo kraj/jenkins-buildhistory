@@ -1,0 +1,5 @@
+PV = 0.8.3
+PR = r0
+DEPENDS = json-c libaio libdevmapper liburcu lvm2 pkgconfig-native readline systemd-systemctl-native udev virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = multipath-tools-src multipath-tools-dbg kpartx multipath-tools-libs multipath-tools-staticdev multipath-tools-dev multipath-tools-doc multipath-tools-locale multipath-tools
+LAYER = openembedded-layer

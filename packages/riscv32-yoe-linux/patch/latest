@@ -1,0 +1,5 @@
+PV = 2.7.6
+PR = r0
+DEPENDS = attr autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
+PACKAGES = patch-src patch-dbg patch-staticdev patch-dev patch-doc patch-locale patch
+LAYER = core

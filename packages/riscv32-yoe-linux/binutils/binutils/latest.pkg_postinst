@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/addr2line addr2line /usr/bin/riscv32-yoe-linux-addr2line 100
+	update-alternatives --install /usr/bin/ar ar /usr/bin/riscv32-yoe-linux-ar 100
+	update-alternatives --install /usr/bin/as as /usr/bin/riscv32-yoe-linux-as 100
+	update-alternatives --install /usr/bin/c++filt c++filt /usr/bin/riscv32-yoe-linux-c++filt 100
+	update-alternatives --install /usr/bin/elfedit elfedit /usr/bin/riscv32-yoe-linux-elfedit 100
+	update-alternatives --install /usr/bin/gprof gprof /usr/bin/riscv32-yoe-linux-gprof 100
+	update-alternatives --install /usr/bin/ld ld /usr/bin/riscv32-yoe-linux-ld 100
+	update-alternatives --install /usr/bin/ld.bfd ld.bfd /usr/bin/riscv32-yoe-linux-ld.bfd 100
+	update-alternatives --install /usr/bin/nm nm /usr/bin/riscv32-yoe-linux-nm 100
+	update-alternatives --install /usr/bin/objcopy objcopy /usr/bin/riscv32-yoe-linux-objcopy 100
+	update-alternatives --install /usr/bin/objdump objdump /usr/bin/riscv32-yoe-linux-objdump 100
+	update-alternatives --install /usr/bin/ranlib ranlib /usr/bin/riscv32-yoe-linux-ranlib 100
+	update-alternatives --install /usr/bin/readelf readelf /usr/bin/riscv32-yoe-linux-readelf 100
+	update-alternatives --install /usr/bin/size size /usr/bin/riscv32-yoe-linux-size 100
+	update-alternatives --install /usr/bin/strings strings /usr/bin/riscv32-yoe-linux-strings 100
+	update-alternatives --install /usr/bin/strip strip /usr/bin/riscv32-yoe-linux-strip 100
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

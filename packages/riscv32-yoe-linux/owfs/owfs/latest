@@ -1,0 +1,9 @@
+PV = 3.2p3
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = fuse (>= 2.9.9) glibc (>= 2.31+git0+7b2b52134a) libow (>= 3.2p3) libusb1 (>= 1.0.22)
+RRECOMMENDS = 
+PKGSIZE = 88800
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/owfs /usr/lib/owfs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/owfs.service /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service
+FILELIST = /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service /usr/bin/owexist /usr/bin/owexternal /usr/bin/owfs /usr/bin/owusbprobe

@@ -1,0 +1,9 @@
+PV = 5.8.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) strongswan
+RRECOMMENDS = 
+PKGSIZE = 9609
+FILES = /usr/lib/ipsec/plugins/libstrongswan-sshkey.so /etc/strongswan.d/charon/sshkey.conf
+FILELIST = /etc/strongswan.d/charon/sshkey.conf /usr/lib/ipsec/plugins/libstrongswan-sshkey.so

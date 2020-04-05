@@ -1,0 +1,5 @@
+PV = 1.5.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libpipeline-src libpipeline-dbg libpipeline-staticdev libpipeline-dev libpipeline-doc libpipeline-locale libpipeline
+LAYER = core

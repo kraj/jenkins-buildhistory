@@ -1,0 +1,5 @@
+PV = 3.20
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = nbd-src nbd-dbg nbd-client nbd-server nbd-trdump nbd-doc
+LAYER = networking-layer

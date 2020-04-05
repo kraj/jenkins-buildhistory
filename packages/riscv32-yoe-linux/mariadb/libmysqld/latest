@@ -1,0 +1,10 @@
+PV = 10.4.11
+PR = r0
+PKG = libmariadbd19
+PKGR = r0.0
+RPROVIDES = libmysqld (=10.4.11)
+RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libaio (>= 0.3.111) libatomic (>= 9.3.0) libbz2 (>= 1.0.8) libcrypto (>= 1.1.1f) libgcc (>= 9.3.0) liblzma (>= 5.2.4) libssl (>= 1.1.1f) libstdc++ (>= 9.3.0) libxcrypt (>= 4.4.15) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 15582540
+FILES = /usr/lib/libmysqld.so.* /usr/lib/libmariadbd.so.*
+FILELIST = /usr/lib/libmariadbd.so.19

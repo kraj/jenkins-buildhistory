@@ -1,0 +1,5 @@
+PV = 0.10.0
+PR = r0
+DEPENDS = bison-native flex-native libxcb meson-native ninja-native pkgconfig-native python3-native util-macros virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland wayland-native wayland-protocols xkeyboard-config
+PACKAGES = libxkbcommon-src libxkbcommon-dbg libxkbcommon-staticdev libxkbcommon-dev libxkbcommon-doc libxkbcommon-locale libxkbcommon
+LAYER = core
