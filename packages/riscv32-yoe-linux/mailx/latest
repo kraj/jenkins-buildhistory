@@ -1,0 +1,5 @@
+PV = 12.5-5
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = mailx-src mailx-dbg mailx-staticdev mailx-dev mailx-doc mailx-locale mailx
+LAYER = openembedded-layer

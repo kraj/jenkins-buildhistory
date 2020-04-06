@@ -1,0 +1,5 @@
+PV = 0.8.2
+PR = r0
+DEPENDS = libdrm libepoxy mesa meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = virglrenderer-src virglrenderer-dbg virglrenderer-staticdev virglrenderer-dev virglrenderer-doc virglrenderer-locale virglrenderer
+LAYER = core

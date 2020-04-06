@@ -1,0 +1,5 @@
+PV = 2.1.1
+PR = r0
+DEPENDS = acl autoconf-native automake-native e2fsprogs gnu-config-native libtool-cross libtool-native lzo pkgconfig-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives zlib zstd
+PACKAGES = mtd-utils-src mtd-utils-dbg mtd-utils-ubifs mtd-utils-jffs2 mtd-utils-misc mtd-utils-tests mtd-utils-staticdev mtd-utils-dev mtd-utils-doc mtd-utils-locale mtd-utils
+LAYER = core

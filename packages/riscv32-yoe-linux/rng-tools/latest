@@ -1,0 +1,5 @@
+PV = 6.9
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libgcrypt libjitterentropy libtool-cross libtool-native pkgconfig-native sysfsutils systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = rng-tools-src rng-tools-dbg rng-tools-staticdev rng-tools-dev rng-tools-doc rng-tools-locale rng-tools
+LAYER = core
