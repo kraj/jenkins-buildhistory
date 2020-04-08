@@ -1,9 +1,9 @@
-PV = 0.0.20191219
+PV = 1.0.20200319
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.31+git0+7b2b52134a) libmnl (>= 1.0.4) wireguard-module
+RDEPENDS = bash glibc (>= 2.31+git0+7b2b52134a) wireguard-module
 RRECOMMENDS = 
-PKGSIZE = 70023
+PKGSIZE = 69865
 FILES = /etc /lib/systemd /usr/bin
 FILELIST = /lib/systemd/wg-quick@.service /usr/bin/wg /usr/bin/wg-quick
