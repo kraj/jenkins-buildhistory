@@ -2,7 +2,7 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                   6 ./sysroot-providers/libegt
 drwxr-xr-x -          -                 100 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
-drwxr-xr-x -          -                1580 ./usr/include/egt
+drwxr-xr-x -          -                1600 ./usr/include/egt
 -rw-r--r-- -          -               17147 ./usr/include/egt/animation.h
 -rw-r--r-- -          -                4423 ./usr/include/egt/app.h
 drwxr-xr-x -          -                2040 ./usr/include/egt/asio
@@ -514,6 +514,7 @@ drwxr-xr-x -          -                 280 ./usr/include/egt/asio/windows
 -rw-r--r-- -          -                3768 ./usr/include/egt/camera.h
 -rw-r--r-- -          -                3736 ./usr/include/egt/canvas.h
 -rw-r--r-- -          -                2380 ./usr/include/egt/capture.h
+-rw-r--r-- -          -               11399 ./usr/include/egt/chart.h
 -rw-r--r-- -          -                4188 ./usr/include/egt/checkbox.h
 -rw-r--r-- -          -               18587 ./usr/include/egt/color.h
 -rw-r--r-- -          -                3948 ./usr/include/egt/combo.h
@@ -598,7 +599,7 @@ drwxr-xr-x -          -                 160 ./usr/include/egt/themes
 -rw-r--r-- -          -                6038 ./usr/include/egt/timer.h
 -rw-r--r-- -          -                2285 ./usr/include/egt/tools.h
 -rw-r--r-- -          -                3458 ./usr/include/egt/types.h
--rw-r--r-- -          -                2308 ./usr/include/egt/ui
+-rw-r--r-- -          -                2331 ./usr/include/egt/ui
 -rw-r--r-- -          -                 784 ./usr/include/egt/uiloader.h
 -rw-r--r-- -          -                2043 ./usr/include/egt/uri.h
 -rw-r--r-- -          -                1052 ./usr/include/egt/utils.h
@@ -612,19 +613,18 @@ drwxr-xr-x -          -                 160 ./usr/include/egt/themes
 -rw-r--r-- -          -               35160 ./usr/include/egt/widget.h
 -rw-r--r-- -          -                7182 ./usr/include/egt/window.h
 drwxr-xr-x -          -                 120 ./usr/lib
--rwxr-xr-x -          -             1849812 ./usr/lib/libegt.so.1.0.0
+-rwxr-xr-x -          -             1899152 ./usr/lib/libegt.so.1.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libegt.so.1 -> libegt.so.1.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libegt.so -> libegt.so.1.0.0
 drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 440 ./usr/lib/pkgconfig/libegt.pc
+-rw-r--r-- -          -                 452 ./usr/lib/pkgconfig/libegt.pc
 drwxr-xr-x -          -                  80 ./usr/share
 drwxr-xr-x -          -                  60 ./usr/share/egt
 drwxr-xr-x -          -                 440 ./usr/share/egt/examples
-drwxr-xr-x -          -                 280 ./usr/share/egt/examples/audioplayer
+drwxr-xr-x -          -                 260 ./usr/share/egt/examples/audioplayer
 -rw-r--r-- -          -               22965 ./usr/share/egt/examples/audioplayer/audioplayer.png
 -rw-r--r-- -          -                 212 ./usr/share/egt/examples/audioplayer/audioplayer.xml
 -rw-r--r-- -          -              253099 ./usr/share/egt/examples/audioplayer/background.png
--rw-r--r-- -          -             2597564 ./usr/share/egt/examples/audioplayer/concerto.mp3
 -rw-r--r-- -          -                5344 ./usr/share/egt/examples/audioplayer/fastforward.png
 -rw-r--r-- -          -                2118 ./usr/share/egt/examples/audioplayer/next.png
 -rw-r--r-- -          -                3652 ./usr/share/egt/examples/audioplayer/note.png
@@ -654,13 +654,7 @@ drwxr-xr-x -          -                 140 ./usr/share/egt/examples/drag
 -rw-r--r-- -          -               17818 ./usr/share/egt/examples/drag/drag.png
 -rw-r--r-- -          -                 202 ./usr/share/egt/examples/drag/drag.xml
 -rw-r--r-- -          -                1025 ./usr/share/egt/examples/drag/grip.png
-drwxr-xr-x -          -                 160 ./usr/share/egt/examples/drummachine
--rw-r--r-- -          -              308322 ./usr/share/egt/examples/drummachine/Alesis-Sanctuary-QCard-Loose-Bell-C5.wav
--rw-r--r-- -          -              221080 ./usr/share/egt/examples/drummachine/Bass-Drum-1.wav
--rw-r--r-- -          -               13032 ./usr/share/egt/examples/drummachine/Closed-Hi-Hat-1.wav
--rw-r--r-- -          -              311168 ./usr/share/egt/examples/drummachine/Crash-Cymbal-1.wav
--rw-r--r-- -          -               82974 ./usr/share/egt/examples/drummachine/Ensoniq-ESQ-1-Hi-Synth-Tom.wav
--rw-r--r-- -          -               29102 ./usr/share/egt/examples/drummachine/Ensoniq-ESQ-1-Snare.wav
+drwxr-xr-x -          -                  40 ./usr/share/egt/examples/drummachine
 drwxr-xr-x -          -                 120 ./usr/share/egt/examples/easing
 -rw-r--r-- -          -              344158 ./usr/share/egt/examples/easing/background.png
 -rw-r--r-- -          -                9234 ./usr/share/egt/examples/easing/ball.png
