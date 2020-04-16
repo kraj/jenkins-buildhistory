@@ -75,7 +75,7 @@ drwxr-xr-x -          -                 340 ./usr/include/php/ext/mbstring/libmb
 -rw-r--r-- -          -                1715 ./usr/include/php/ext/mbstring/libmbfl/mbfl/mbfl_string.h
 -rw-r--r-- -          -                6909 ./usr/include/php/ext/mbstring/mbstring.h
 drwxr-xr-x -          -                  60 ./usr/include/php/ext/mbstring/oniguruma
--rw-r--r-- -          -               45280 ./usr/include/php/ext/mbstring/oniguruma/oniguruma.h
+-rw-r--r-- -          -               46424 ./usr/include/php/ext/mbstring/oniguruma/oniguruma.h
 -rw-r--r-- -          -                4611 ./usr/include/php/ext/mbstring/php_mbregex.h
 -rw-r--r-- -          -                 256 ./usr/include/php/ext/mbstring/php_onig_compat.h
 drwxr-xr-x -          -                  80 ./usr/include/php/ext/mysqli
@@ -116,7 +116,7 @@ drwxr-xr-x -          -                 140 ./usr/include/php/ext/pcre/pcre2lib
 -rw-r--r-- -          -               87258 ./usr/include/php/ext/pcre/pcre2lib/pcre2_internal.h
 -rw-r--r-- -          -               36890 ./usr/include/php/ext/pcre/pcre2lib/pcre2_intmodedep.h
 -rw-r--r-- -          -                7804 ./usr/include/php/ext/pcre/pcre2lib/pcre2_ucp.h
--rw-r--r-- -          -                3664 ./usr/include/php/ext/pcre/php_pcre.h
+-rw-r--r-- -          -                3761 ./usr/include/php/ext/pcre/php_pcre.h
 drwxr-xr-x -          -                 100 ./usr/include/php/ext/pdo
 -rw-r--r-- -          -               24827 ./usr/include/php/ext/pdo/php_pdo_driver.h
 -rw-r--r-- -          -                1961 ./usr/include/php/ext/pdo/php_pdo_error.h
@@ -162,7 +162,7 @@ drwxr-xr-x -          -                1380 ./usr/include/php/ext/standard
 -rw-r--r-- -          -                2108 ./usr/include/php/ext/standard/flock_compat.h
 -rw-r--r-- -          -                1540 ./usr/include/php/ext/standard/fsock.h
 -rw-r--r-- -          -                1898 ./usr/include/php/ext/standard/head.h
--rw-r--r-- -          -                2503 ./usr/include/php/ext/standard/hrtime.h
+-rw-r--r-- -          -                2537 ./usr/include/php/ext/standard/hrtime.h
 -rw-r--r-- -          -                2686 ./usr/include/php/ext/standard/html.h
 -rw-r--r-- -          -              483749 ./usr/include/php/ext/standard/html_tables.h
 -rw-r--r-- -          -               23142 ./usr/include/php/ext/standard/info.h
@@ -194,7 +194,7 @@ drwxr-xr-x -          -                1380 ./usr/include/php/ext/standard
 -rw-r--r-- -          -                1350 ./usr/include/php/ext/standard/php_net.h
 -rw-r--r-- -          -                1925 ./usr/include/php/ext/standard/php_password.h
 -rw-r--r-- -          -                3219 ./usr/include/php/ext/standard/php_rand.h
--rw-r--r-- -          -                2162 ./usr/include/php/ext/standard/php_random.h
+-rw-r--r-- -          -                2196 ./usr/include/php/ext/standard/php_random.h
 -rw-r--r-- -          -                1313 ./usr/include/php/ext/standard/php_smart_string.h
 -rw-r--r-- -          -                1320 ./usr/include/php/ext/standard/php_smart_string_public.h
 -rw-r--r-- -          -                2366 ./usr/include/php/ext/standard/php_standard.h
@@ -224,7 +224,7 @@ drwxr-xr-x -          -                 620 ./usr/include/php/main
 -rw-r--r-- -          -               20406 ./usr/include/php/main/php_compat.h
 -rw-r--r-- -          -               60795 ./usr/include/php/main/php_config.h
 -rw-r--r-- -          -                1614 ./usr/include/php/main/php_content_types.h
--rw-r--r-- -          -                1849 ./usr/include/php/main/php_getopt.h
+-rw-r--r-- -          -                1960 ./usr/include/php/main/php_getopt.h
 -rw-r--r-- -          -                4309 ./usr/include/php/main/php_globals.h
 -rw-r--r-- -          -               13443 ./usr/include/php/main/php.h
 -rw-r--r-- -          -                3885 ./usr/include/php/main/php_ini.h
@@ -334,8 +334,8 @@ drwxr-xr-x -          -                1540 ./usr/include/php/Zend
 -rw-r--r-- -          -               38388 ./usr/include/php/Zend/zend_types.h
 -rw-r--r-- -          -                3441 ./usr/include/php/Zend/zend_variables.h
 -rw-r--r-- -          -               12432 ./usr/include/php/Zend/zend_virtual_cwd.h
--rw-r--r-- -          -              257717 ./usr/include/php/Zend/zend_vm_def.h
--rw-r--r-- -          -             2195371 ./usr/include/php/Zend/zend_vm_execute.h
+-rw-r--r-- -          -              258008 ./usr/include/php/Zend/zend_vm_def.h
+-rw-r--r-- -          -             2196932 ./usr/include/php/Zend/zend_vm_execute.h
 -rw-r--r-- -          -                2102 ./usr/include/php/Zend/zend_vm.h
 -rw-r--r-- -          -               99975 ./usr/include/php/Zend/zend_vm_handlers.h
 -rw-r--r-- -          -               13167 ./usr/include/php/Zend/zend_vm_opcodes.h
@@ -344,7 +344,7 @@ drwxr-xr-x -          -                1540 ./usr/include/php/Zend
 drwxr-xr-x -          -                  60 ./usr/lib
 drwxr-xr-x -          -                 100 ./usr/lib/php7
 drwxr-xr-x -          -                 300 ./usr/lib/php7/build
--rw-r--r-- -          -               88498 ./usr/lib/php7/build/acinclude.m4
+-rw-r--r-- -          -               88693 ./usr/lib/php7/build/acinclude.m4
 -rw-r--r-- -          -                2104 ./usr/lib/php7/build/ax_check_compile_flag.m4
 -rw-r--r-- -          -                8415 ./usr/lib/php7/build/ax_gcc_func_attribute.m4
 -rwxr-xr-x -          -               48441 ./usr/lib/php7/build/config.guess
@@ -359,7 +359,7 @@ drwxr-xr-x -          -                 300 ./usr/lib/php7/build
 -rwxr-xr-x -          -               65761 ./usr/lib/php7/build/shtool
 drwxr-xr-x -          -                  60 ./usr/lib/php7/extensions
 drwxr-xr-x -          -                  80 ./usr/lib/php7/extensions/no-debug-non-zts-20180731
--rwxr-xr-x -          -            11917400 ./usr/lib/php7/extensions/no-debug-non-zts-20180731/opcache.a
+-rwxr-xr-x -          -            11899488 ./usr/lib/php7/extensions/no-debug-non-zts-20180731/opcache.a
 -rwxr-xr-x -          -              366876 ./usr/lib/php7/extensions/no-debug-non-zts-20180731/opcache.so
 drwxr-xr-x -          -                  40 ./usr/lib/php7/php
 drwxr-xr-x -          -                  60 ./usr/share

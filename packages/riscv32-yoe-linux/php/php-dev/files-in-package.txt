@@ -68,7 +68,7 @@ drwxr-xr-x root       root              340 ./usr/include/php/ext/mbstring/libmb
 -rw-r--r-- root       root             1715 ./usr/include/php/ext/mbstring/libmbfl/mbfl/mbfl_string.h
 -rw-r--r-- root       root             6909 ./usr/include/php/ext/mbstring/mbstring.h
 drwxr-xr-x root       root               60 ./usr/include/php/ext/mbstring/oniguruma
--rw-r--r-- root       root            45280 ./usr/include/php/ext/mbstring/oniguruma/oniguruma.h
+-rw-r--r-- root       root            46424 ./usr/include/php/ext/mbstring/oniguruma/oniguruma.h
 -rw-r--r-- root       root             4611 ./usr/include/php/ext/mbstring/php_mbregex.h
 -rw-r--r-- root       root              256 ./usr/include/php/ext/mbstring/php_onig_compat.h
 drwxr-xr-x root       root               80 ./usr/include/php/ext/mysqli
@@ -109,7 +109,7 @@ drwxr-xr-x root       root              140 ./usr/include/php/ext/pcre/pcre2lib
 -rw-r--r-- root       root            87258 ./usr/include/php/ext/pcre/pcre2lib/pcre2_internal.h
 -rw-r--r-- root       root            36890 ./usr/include/php/ext/pcre/pcre2lib/pcre2_intmodedep.h
 -rw-r--r-- root       root             7804 ./usr/include/php/ext/pcre/pcre2lib/pcre2_ucp.h
--rw-r--r-- root       root             3664 ./usr/include/php/ext/pcre/php_pcre.h
+-rw-r--r-- root       root             3761 ./usr/include/php/ext/pcre/php_pcre.h
 drwxr-xr-x root       root              100 ./usr/include/php/ext/pdo
 -rw-r--r-- root       root            24827 ./usr/include/php/ext/pdo/php_pdo_driver.h
 -rw-r--r-- root       root             1961 ./usr/include/php/ext/pdo/php_pdo_error.h
@@ -155,7 +155,7 @@ drwxr-xr-x root       root             1380 ./usr/include/php/ext/standard
 -rw-r--r-- root       root             2108 ./usr/include/php/ext/standard/flock_compat.h
 -rw-r--r-- root       root             1540 ./usr/include/php/ext/standard/fsock.h
 -rw-r--r-- root       root             1898 ./usr/include/php/ext/standard/head.h
--rw-r--r-- root       root             2503 ./usr/include/php/ext/standard/hrtime.h
+-rw-r--r-- root       root             2537 ./usr/include/php/ext/standard/hrtime.h
 -rw-r--r-- root       root             2686 ./usr/include/php/ext/standard/html.h
 -rw-r--r-- root       root           483749 ./usr/include/php/ext/standard/html_tables.h
 -rw-r--r-- root       root            23142 ./usr/include/php/ext/standard/info.h
@@ -187,7 +187,7 @@ drwxr-xr-x root       root             1380 ./usr/include/php/ext/standard
 -rw-r--r-- root       root             1350 ./usr/include/php/ext/standard/php_net.h
 -rw-r--r-- root       root             1925 ./usr/include/php/ext/standard/php_password.h
 -rw-r--r-- root       root             3219 ./usr/include/php/ext/standard/php_rand.h
--rw-r--r-- root       root             2162 ./usr/include/php/ext/standard/php_random.h
+-rw-r--r-- root       root             2196 ./usr/include/php/ext/standard/php_random.h
 -rw-r--r-- root       root             1313 ./usr/include/php/ext/standard/php_smart_string.h
 -rw-r--r-- root       root             1320 ./usr/include/php/ext/standard/php_smart_string_public.h
 -rw-r--r-- root       root             2366 ./usr/include/php/ext/standard/php_standard.h
@@ -217,7 +217,7 @@ drwxr-xr-x root       root              620 ./usr/include/php/main
 -rw-r--r-- root       root            20406 ./usr/include/php/main/php_compat.h
 -rw-r--r-- root       root            60795 ./usr/include/php/main/php_config.h
 -rw-r--r-- root       root             1614 ./usr/include/php/main/php_content_types.h
--rw-r--r-- root       root             1849 ./usr/include/php/main/php_getopt.h
+-rw-r--r-- root       root             1960 ./usr/include/php/main/php_getopt.h
 -rw-r--r-- root       root             4309 ./usr/include/php/main/php_globals.h
 -rw-r--r-- root       root            13443 ./usr/include/php/main/php.h
 -rw-r--r-- root       root             3885 ./usr/include/php/main/php_ini.h
@@ -327,8 +327,8 @@ drwxr-xr-x root       root             1540 ./usr/include/php/Zend
 -rw-r--r-- root       root            38388 ./usr/include/php/Zend/zend_types.h
 -rw-r--r-- root       root             3441 ./usr/include/php/Zend/zend_variables.h
 -rw-r--r-- root       root            12432 ./usr/include/php/Zend/zend_virtual_cwd.h
--rw-r--r-- root       root           257717 ./usr/include/php/Zend/zend_vm_def.h
--rw-r--r-- root       root          2195371 ./usr/include/php/Zend/zend_vm_execute.h
+-rw-r--r-- root       root           258008 ./usr/include/php/Zend/zend_vm_def.h
+-rw-r--r-- root       root          2196932 ./usr/include/php/Zend/zend_vm_execute.h
 -rw-r--r-- root       root             2102 ./usr/include/php/Zend/zend_vm.h
 -rw-r--r-- root       root            99975 ./usr/include/php/Zend/zend_vm_handlers.h
 -rw-r--r-- root       root            13167 ./usr/include/php/Zend/zend_vm_opcodes.h
@@ -337,7 +337,7 @@ drwxr-xr-x root       root             1540 ./usr/include/php/Zend
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/php7
 drwxr-xr-x root       root              300 ./usr/lib/php7/build
--rw-r--r-- root       root            88498 ./usr/lib/php7/build/acinclude.m4
+-rw-r--r-- root       root            88693 ./usr/lib/php7/build/acinclude.m4
 -rw-r--r-- root       root             2104 ./usr/lib/php7/build/ax_check_compile_flag.m4
 -rw-r--r-- root       root             8415 ./usr/lib/php7/build/ax_gcc_func_attribute.m4
 -rwxr-xr-x root       root            48441 ./usr/lib/php7/build/config.guess
