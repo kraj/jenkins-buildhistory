@@ -1,0 +1,5 @@
+PV = 0.1.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gperf-native libtool-cross libtool-native libxcb pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc xcb-util xcb-util-image xcb-util-renderutil
+PACKAGES = xcb-util-cursor-src xcb-util-cursor-dbg xcb-util-cursor-staticdev xcb-util-cursor-dev xcb-util-cursor-doc xcb-util-cursor-locale xcb-util-cursor
+LAYER = openembedded-layer
