@@ -3,6 +3,6 @@ set -e
 	then
 		if test -x /usr/sbin/alsactl
 		then
-			/usr/sbin/alsactl -f /var/lib/alsa/asound.state restore
+			/usr/sbin/alsactl -g -f /var/lib/alsa/asound.state restore
 		fi
 	fi

@@ -18,7 +18,7 @@ drwxr-xr-x -          -                  60 ./usr/include/urcu/arch
 -rw-r--r-- -          -                1941 ./usr/include/urcu/defer.h
 -rw-r--r-- -          -                  25 ./usr/include/urcu-flavor.h
 -rw-r--r-- -          -                2932 ./usr/include/urcu/flavor.h
--rw-r--r-- -          -                4368 ./usr/include/urcu/futex.h
+-rw-r--r-- -          -                5410 ./usr/include/urcu/futex.h
 -rw-r--r-- -          -                  44 ./usr/include/urcu.h
 -rw-r--r-- -          -                3267 ./usr/include/urcu/hlist.h
 -rw-r--r-- -          -                8351 ./usr/include/urcu/lfstack.h
@@ -35,12 +35,12 @@ drwxr-xr-x -          -                 180 ./usr/include/urcu/map
 -rw-r--r-- -          -                4126 ./usr/include/urcu/pointer.h
 -rw-r--r-- -          -                  49 ./usr/include/urcu-qsbr.h
 -rw-r--r-- -          -                2718 ./usr/include/urcu/rcuhlist.h
--rw-r--r-- -          -               21196 ./usr/include/urcu/rculfhash.h
+-rw-r--r-- -          -               21202 ./usr/include/urcu/rculfhash.h
 -rw-r--r-- -          -                2585 ./usr/include/urcu/rculfqueue.h
 -rw-r--r-- -          -                2622 ./usr/include/urcu/rculfstack.h
 -rw-r--r-- -          -                2875 ./usr/include/urcu/rculist.h
 -rw-r--r-- -          -                2254 ./usr/include/urcu/ref.h
-drwxr-xr-x -          -                 320 ./usr/include/urcu/static
+drwxr-xr-x -          -                 340 ./usr/include/urcu/static
 -rw-r--r-- -          -                9509 ./usr/include/urcu/static/lfstack.h
 -rw-r--r-- -          -                5335 ./usr/include/urcu/static/pointer.h
 -rw-r--r-- -          -                6164 ./usr/include/urcu/static/rculfqueue.h
@@ -51,18 +51,19 @@ drwxr-xr-x -          -                 320 ./usr/include/urcu/static
 -rw-r--r-- -          -                5074 ./usr/include/urcu/static/urcu-mb.h
 -rw-r--r-- -          -                5657 ./usr/include/urcu/static/urcu-memb.h
 -rw-r--r-- -          -                7193 ./usr/include/urcu/static/urcu-qsbr.h
--rw-r--r-- -          -                5429 ./usr/include/urcu/static/urcu-signal.h
+-rw-r--r-- -          -                5200 ./usr/include/urcu/static/urcu-signal.h
+-rw-r--r-- -          -                1392 ./usr/include/urcu/static/urcu-signal-nr.h
 -rw-r--r-- -          -               19962 ./usr/include/urcu/static/wfcqueue.h
 -rw-r--r-- -          -                4496 ./usr/include/urcu/static/wfqueue.h
 -rw-r--r-- -          -               12402 ./usr/include/urcu/static/wfstack.h
--rw-r--r-- -          -                1551 ./usr/include/urcu/syscall-compat.h
+-rw-r--r-- -          -                1603 ./usr/include/urcu/syscall-compat.h
 -rw-r--r-- -          -                1680 ./usr/include/urcu/system.h
--rw-r--r-- -          -                4209 ./usr/include/urcu/tls-compat.h
+-rw-r--r-- -          -                4520 ./usr/include/urcu/tls-compat.h
 drwxr-xr-x -          -                  60 ./usr/include/urcu/uatomic
 -rw-r--r-- -          -                 111 ./usr/include/urcu/uatomic_arch.h
 -rw-r--r-- -          -               13266 ./usr/include/urcu/uatomic/generic.h
 -rw-r--r-- -          -                1556 ./usr/include/urcu/uatomic.h
--rw-r--r-- -          -                5331 ./usr/include/urcu/urcu-bp.h
+-rw-r--r-- -          -                5474 ./usr/include/urcu/urcu-bp.h
 -rw-r--r-- -          -                 105 ./usr/include/urcu/urcu-futex.h
 -rw-r--r-- -          -                1464 ./usr/include/urcu/urcu.h
 -rw-r--r-- -          -                3157 ./usr/include/urcu/urcu-mb.h
@@ -74,10 +75,10 @@ drwxr-xr-x -          -                  60 ./usr/include/urcu/uatomic
 -rw-r--r-- -          -                3221 ./usr/include/urcu/wfqueue.h
 -rw-r--r-- -          -               11563 ./usr/include/urcu/wfstack.h
 drwxr-xr-x -          -                 540 ./usr/lib
--rwxr-xr-x -          -               21960 ./usr/lib/liburcu-bp.so.6.1.0
+-rwxr-xr-x -          -               21964 ./usr/lib/liburcu-bp.so.6.1.0
 lrwxrwxrwx -          -                  19 ./usr/lib/liburcu-bp.so.6 -> liburcu-bp.so.6.1.0
 lrwxrwxrwx -          -                  19 ./usr/lib/liburcu-bp.so -> liburcu-bp.so.6.1.0
--rwxr-xr-x -          -               25872 ./usr/lib/liburcu-cds.so.6.1.0
+-rwxr-xr-x -          -               25876 ./usr/lib/liburcu-cds.so.6.1.0
 lrwxrwxrwx -          -                  20 ./usr/lib/liburcu-cds.so.6 -> liburcu-cds.so.6.1.0
 lrwxrwxrwx -          -                  20 ./usr/lib/liburcu-cds.so -> liburcu-cds.so.6.1.0
 -rwxr-xr-x -          -               13340 ./usr/lib/liburcu-common.so.6.1.0
