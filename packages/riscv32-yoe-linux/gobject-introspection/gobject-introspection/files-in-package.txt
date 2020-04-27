@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root             3954 ./usr/bin/g-ir-annotation-tool
+-rwxr-xr-x root       root             4049 ./usr/bin/g-ir-annotation-tool
 -rwxr-xr-x root       root           117144 ./usr/bin/g-ir-compiler
 -rwxr-xr-x root       root            26496 ./usr/bin/g-ir-generate
 -rwxr-xr-x root       root             9568 ./usr/bin/g-ir-inspect
--rwxr-xr-x root       root             3945 ./usr/bin/g-ir-scanner
+-rwxr-xr-x root       root             4040 ./usr/bin/g-ir-scanner
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gobject-introspection
 drwxr-xr-x root       root              660 ./usr/lib/gobject-introspection/giscanner
@@ -12,7 +12,7 @@ drwxr-xr-x root       root              660 ./usr/lib/gobject-introspection/gisc
 -rw-r--r-- root       root           101376 ./usr/lib/gobject-introspection/giscanner/annotationparser.py
 -rw-r--r-- root       root            43411 ./usr/lib/gobject-introspection/giscanner/ast.py
 -rw-r--r-- root       root             5852 ./usr/lib/gobject-introspection/giscanner/cachestore.py
--rw-r--r-- root       root            19165 ./usr/lib/gobject-introspection/giscanner/ccompiler.py
+-rw-r--r-- root       root            19524 ./usr/lib/gobject-introspection/giscanner/ccompiler.py
 -rw-r--r-- root       root             6190 ./usr/lib/gobject-introspection/giscanner/codegen.py
 -rw-r--r-- root       root             3268 ./usr/lib/gobject-introspection/giscanner/docmain.py
 drwxr-xr-x root       root               80 ./usr/lib/gobject-introspection/giscanner/doctemplates
@@ -85,9 +85,9 @@ drwxr-xr-x root       root              320 ./usr/lib/gobject-introspection/gisc
 -rw-r--r-- root       root             1235 ./usr/lib/gobject-introspection/giscanner/doctemplates/mallard/Python/signal.tmpl
 -rw-r--r-- root       root              849 ./usr/lib/gobject-introspection/giscanner/doctemplates/mallard/Python/vfunc.tmpl
 -rw-r--r-- root       root            50143 ./usr/lib/gobject-introspection/giscanner/docwriter.py
--rw-r--r-- root       root            10516 ./usr/lib/gobject-introspection/giscanner/dumper.py
--rw-r--r-- root       root            21323 ./usr/lib/gobject-introspection/giscanner/gdumpparser.py
--rw-r--r-- root       root            28314 ./usr/lib/gobject-introspection/giscanner/girparser.py
+-rw-r--r-- root       root            10639 ./usr/lib/gobject-introspection/giscanner/dumper.py
+-rw-r--r-- root       root            21322 ./usr/lib/gobject-introspection/giscanner/gdumpparser.py
+-rw-r--r-- root       root            28229 ./usr/lib/gobject-introspection/giscanner/girparser.py
 -rw-r--r-- root       root            28222 ./usr/lib/gobject-introspection/giscanner/girwriter.py
 -rwxr-xr-x root       root            76344 ./usr/lib/gobject-introspection/giscanner/_giscanner.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             1105 ./usr/lib/gobject-introspection/giscanner/__init__.py
@@ -97,15 +97,15 @@ drwxr-xr-x root       root              320 ./usr/lib/gobject-introspection/gisc
 -rw-r--r-- root       root              392 ./usr/lib/gobject-introspection/giscanner/mdextensions.py
 -rw-r--r-- root       root             7612 ./usr/lib/gobject-introspection/giscanner/message.py
 -rw-r--r-- root       root             3756 ./usr/lib/gobject-introspection/giscanner/msvccompiler.py
--rw-r--r-- root       root             2043 ./usr/lib/gobject-introspection/giscanner/pkgconfig.py
--rw-r--r-- root       root            27279 ./usr/lib/gobject-introspection/giscanner/scannermain.py
+-rw-r--r-- root       root             2283 ./usr/lib/gobject-introspection/giscanner/pkgconfig.py
+-rw-r--r-- root       root            27285 ./usr/lib/gobject-introspection/giscanner/scannermain.py
 -rw-r--r-- root       root             4790 ./usr/lib/gobject-introspection/giscanner/sectionparser.py
--rw-r--r-- root       root             6247 ./usr/lib/gobject-introspection/giscanner/shlibs.py
--rw-r--r-- root       root             9524 ./usr/lib/gobject-introspection/giscanner/sourcescanner.py
+-rw-r--r-- root       root             6259 ./usr/lib/gobject-introspection/giscanner/shlibs.py
+-rw-r--r-- root       root             9628 ./usr/lib/gobject-introspection/giscanner/sourcescanner.py
 -rw-r--r-- root       root             5699 ./usr/lib/gobject-introspection/giscanner/testcodegen.py
 -rw-r--r-- root       root            44647 ./usr/lib/gobject-introspection/giscanner/transformer.py
--rw-r--r-- root       root             8910 ./usr/lib/gobject-introspection/giscanner/utils.py
+-rw-r--r-- root       root            10521 ./usr/lib/gobject-introspection/giscanner/utils.py
 -rw-r--r-- root       root               23 ./usr/lib/gobject-introspection/giscanner/_version.py
 -rw-r--r-- root       root             5798 ./usr/lib/gobject-introspection/giscanner/xmlwriter.py
--rwxr-xr-x root       root           149796 ./usr/lib/libgirepository-1.0.so.1.0.0
+-rwxr-xr-x root       root           149804 ./usr/lib/libgirepository-1.0.so.1.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/libgirepository-1.0.so.1 -> libgirepository-1.0.so.1.0.0

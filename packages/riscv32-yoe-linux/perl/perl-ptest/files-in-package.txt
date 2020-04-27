@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/lib/perl
 drwxr-xr-x root       root             4920 ./usr/lib/perl/ptest
 -r--r--r-- root       root             6321 ./usr/lib/perl/ptest/Artistic
 -r--r--r-- root       root              983 ./usr/lib/perl/ptest/asan_ignore
--r--r--r-- root       root            48864 ./usr/lib/perl/ptest/AUTHORS
+-r--r--r-- root       root            48927 ./usr/lib/perl/ptest/AUTHORS
 -r--r--r-- root       root            16372 ./usr/lib/perl/ptest/autodoc.pl
 -r--r--r-- root       root            25989 ./usr/lib/perl/ptest/av.c
 -r--r--r-- root       root             3294 ./usr/lib/perl/ptest/av.h
@@ -17,20 +17,20 @@ drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf
 -rwxr-xr-x root       root            48282 ./usr/lib/perl/ptest/cnf/config.guess
 -rwxr-xr-x root       root            31597 ./usr/lib/perl/ptest/cnf/config.sub
 -rwxr-xr-x root       root             5830 ./usr/lib/perl/ptest/cnf/configure
--rw-r--r-- root       root             6391 ./usr/lib/perl/ptest/cnf/configure_args.sh
--rw-r--r-- root       root             3380 ./usr/lib/perl/ptest/cnf/configure_attr.sh
+-rw-r--r-- root       root             6332 ./usr/lib/perl/ptest/cnf/configure_args.sh
+-rw-r--r-- root       root             3410 ./usr/lib/perl/ptest/cnf/configure_attr.sh
 -rw-r--r-- root       root             6051 ./usr/lib/perl/ptest/cnf/configure__f.sh
 -rw-r--r-- root       root             3340 ./usr/lib/perl/ptest/cnf/configure_func_dbl.sh
 -rw-r--r-- root       root             1305 ./usr/lib/perl/ptest/cnf/configure_func_def.sh
 -rw-r--r-- root       root             2280 ./usr/lib/perl/ptest/cnf/configure_func_ext.sh
 -rw-r--r-- root       root             2688 ./usr/lib/perl/ptest/cnf/configure_func_sel.sh
--rw-r--r-- root       root            11036 ./usr/lib/perl/ptest/cnf/configure_func.sh
--rw-r--r-- root       root             4895 ./usr/lib/perl/ptest/cnf/configure_hdrs.sh
--rw-r--r-- root       root             5973 ./usr/lib/perl/ptest/cnf/configure_help.sh
+-rw-r--r-- root       root            11154 ./usr/lib/perl/ptest/cnf/configure_func.sh
+-rw-r--r-- root       root             4945 ./usr/lib/perl/ptest/cnf/configure_hdrs.sh
+-rw-r--r-- root       root             5660 ./usr/lib/perl/ptest/cnf/configure_help.sh
 -rw-r--r-- root       root             2201 ./usr/lib/perl/ptest/cnf/configure_hint.sh
 -rw-r--r-- root       root             2350 ./usr/lib/perl/ptest/cnf/configure_libs.sh
--rw-r--r-- root       root             9075 ./usr/lib/perl/ptest/cnf/configure_misc.sh
--rw-r--r-- root       root             4521 ./usr/lib/perl/ptest/cnf/configure_mods.sh
+-rw-r--r-- root       root             9290 ./usr/lib/perl/ptest/cnf/configure_misc.sh
+-rw-r--r-- root       root             5011 ./usr/lib/perl/ptest/cnf/configure_mods.sh
 -rw-r--r-- root       root             5392 ./usr/lib/perl/ptest/cnf/configure_path.sh
 -rw-r--r-- root       root             1321 ./usr/lib/perl/ptest/cnf/configure_pfmt.sh
 -rw-r--r-- root       root             1595 ./usr/lib/perl/ptest/cnf/configure_sigs.sh
@@ -44,9 +44,8 @@ drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/cpan
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/cpan/Digest
 -rw-r--r-- root       root             5707 ./usr/lib/perl/ptest/cnf/cpan/Digest/MD5.pm
-drwxr-xr-x root       root              540 ./usr/lib/perl/ptest/cnf/diffs
-drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0
--rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/configpm.patch
+drwxr-xr-x root       root              660 ./usr/lib/perl/ptest/cnf/diffs
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0
 -rw-r--r-- root       root             1185 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/customized.patch
 -rw-r--r-- root       root              489 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/dynaloader.patch
 -rw-r--r-- root       root             1794 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/extconfigxs.patch
@@ -57,8 +56,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
 -rw-r--r-- root       root             1520 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.0/xsconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1
--rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/customized.patch -> ../cperl-5.24.0/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
 -rw-r--r-- root       root             1796 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/extconfigxs.patch
@@ -70,8 +68,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.1/xsconfig.patch -> ../cperl-5.24.0/xsconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2
--rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2
 -rw-r--r-- root       root             1185 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
 -rw-r--r-- root       root             1796 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/extconfigxs.patch
@@ -83,8 +80,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.24.2/xsconfig.patch -> ../cperl-5.24.0/xsconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/configpm.patch -> ../cperl-5.24.2/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0
 -rw-r--r-- root       root             1185 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
 lrwxrwxrwx root       root               33 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/extconfigxs.patch -> ../cperl-5.24.1/extconfigxs.patch
@@ -96,8 +92,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 -rw-r--r-- root       root              494 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/xconfig.patch
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.0/xsconfig.patch -> ../cperl-5.24.0/xsconfig.patch
-drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/configpm.patch -> ../cperl-5.24.2/configpm.patch
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1
 -rw-r--r-- root       root             1178 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
 lrwxrwxrwx root       root               33 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/extconfigxs.patch -> ../cperl-5.24.1/extconfigxs.patch
@@ -108,9 +103,35 @@ lrwxrwxrwx root       root               34 ./usr/lib/perl/ptest/cnf/diffs/cperl
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/xconfig.patch -> ../cperl-5.26.0/xconfig.patch
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.26.1/xsconfig.patch -> ../cperl-5.24.0/xsconfig.patch
+drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
+lrwxrwxrwx root       root               33 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/extconfigxs.patch -> ../cperl-5.24.1/extconfigxs.patch
+-rw-r--r-- root       root              553 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/findext.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+-rw-r--r-- root       root              828 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/term-readkey.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/xconfig.patch -> ../cperl-5.26.0/xconfig.patch
+-rw-r--r-- root       root             1520 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.0/xsconfig.patch
+drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
+lrwxrwxrwx root       root               33 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/extconfigxs.patch -> ../cperl-5.24.1/extconfigxs.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/findext.patch -> ../cperl-5.28.0/findext.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+lrwxrwxrwx root       root               34 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/term-readkey.patch -> ../cperl-5.28.0/term-readkey.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/xconfig.patch -> ../cperl-5.26.0/xconfig.patch
+-rw-r--r-- root       root             1520 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.28.2/xsconfig.patch
+drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/dynaloader.patch -> ../cperl-5.24.0/dynaloader.patch
+lrwxrwxrwx root       root               33 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/extconfigxs.patch -> ../cperl-5.24.1/extconfigxs.patch
+-rw-r--r-- root       root              553 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/findext.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+lrwxrwxrwx root       root               34 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/term-readkey.patch -> ../cperl-5.28.0/term-readkey.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/xconfig.patch -> ../cperl-5.26.0/xconfig.patch
+-rw-r--r-- root       root             1520 ./usr/lib/perl/ptest/cnf/diffs/cperl-5.30.0/xsconfig.patch
 -rwxr-xr-x root       root              985 ./usr/lib/perl/ptest/cnf/diffs/dedup.px
-drwxr-xr-x root       root              220 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3
--rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3
 -rw-r--r-- root       root              972 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/constant.patch
 -rw-r--r-- root       root              363 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/dynaloader.patch
 -rw-r--r-- root       root              553 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/findext.patch
@@ -119,8 +140,7 @@ drwxr-xr-x root       root              220 ./usr/lib/perl/ptest/cnf/diffs/perl5
 -rw-r--r-- root       root              372 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/posix-makefile.patch
 -rw-r--r-- root       root              460 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/test-checkcase.patch
 -rw-r--r-- root       root              508 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              220 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -129,8 +149,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.22.4/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/constant.patch -> ../perl5-5.22.3/constant.patch
 -rw-r--r-- root       root             3190 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -142,8 +161,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.0/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/constant.patch -> ../perl5-5.22.3/constant.patch
 -rw-r--r-- root       root             3479 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -155,8 +173,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.1/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/customized.patch -> ../perl5-5.24.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -168,8 +185,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.2/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/customized.patch -> ../perl5-5.24.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -181,8 +197,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.3/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/customized.patch -> ../perl5-5.24.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -194,8 +209,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.24.4/xconfig.patch -> ../perl5-5.22.3/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/constant.patch -> ../perl5-5.22.3/constant.patch
 -rw-r--r-- root       root              908 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -207,8 +221,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 -rw-r--r-- root       root              426 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/test-commonsense.patch
 -rw-r--r-- root       root              466 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.0/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/constant.patch -> ../perl5-5.22.3/constant.patch
 -rw-r--r-- root       root              908 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -220,8 +233,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.1/xconfig.patch -> ../perl5-5.26.0/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/customized.patch -> ../perl5-5.26.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -233,8 +245,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.2/xconfig.patch -> ../perl5-5.26.0/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/configpm.patch -> ../perl5-5.22.3/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/customized.patch -> ../perl5-5.26.1/customized.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
@@ -246,8 +257,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.26.3/xconfig.patch -> ../perl5-5.26.0/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0
--rw-r--r-- root       root             1147 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -259,8 +269,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 -rw-r--r-- root       root              746 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.0/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/configpm.patch -> ../perl5-5.28.0/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -272,8 +281,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.1/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
-drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/configpm.patch -> ../perl5-5.28.0/configpm.patch
+drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -285,8 +293,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.28.2/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
-drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/configpm.patch -> ../perl5-5.28.0/configpm.patch
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -297,31 +304,50 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.0/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
-drwxr-xr-x root       root              480 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/configpm.applied
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/configpm.patch -> ../perl5-5.28.0/configpm.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/constant.applied
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/constant.patch -> ../perl5-5.22.3/constant.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/dynaloader.applied
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/findext.applied
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/findext.patch -> ../perl5-5.22.3/findext.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/installscripts.applied
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/installscripts.patch -> ../perl5-5.30.0/installscripts.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/liblist.applied
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/liblist.patch -> ../perl5-5.28.0/liblist.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/makemaker.applied
 lrwxrwxrwx root       root               31 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/makemaker.patch -> ../perl5-5.26.0/makemaker.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/posix-makefile.applied
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/test-checkcase.applied
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/test-commonsense.applied
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
--rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/xconfig.applied
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.1/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
-drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/configpm.patch -> ../perl5-5.28.0/configpm.patch
+drwxr-xr-x root       root              440 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/constant.applied
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/constant.patch -> ../perl5-5.22.3/constant.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/dynaloader.applied
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/findext.applied
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/findext.patch -> ../perl5-5.22.3/findext.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/installscripts.applied
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/installscripts.patch -> ../perl5-5.30.0/installscripts.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/liblist.applied
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/liblist.patch -> ../perl5-5.28.0/liblist.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/makemaker.applied
+lrwxrwxrwx root       root               31 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/makemaker.patch -> ../perl5-5.26.0/makemaker.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/posix-makefile.applied
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/test-checkcase.applied
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/test-commonsense.applied
+lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
+-rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/xconfig.applied
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.30.2/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/constant.patch -> ../perl5-5.22.3/constant.patch
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/findext.patch -> ../perl5-5.22.3/findext.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/installscripts.patch -> ../perl5-5.30.0/installscripts.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/liblist.patch -> ../perl5-5.31.2/liblist.patch
+lrwxrwxrwx root       root               31 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/makemaker.patch -> ../perl5-5.31.2/makemaker.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.10/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -332,8 +358,7 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.2/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
-drwxr-xr-x root       root              260 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6
-lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/configpm.patch -> ../perl5-5.28.0/configpm.patch
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6
 lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/constant.patch -> ../perl5-5.22.3/constant.patch
 lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/findext.patch -> ../perl5-5.22.3/findext.patch
@@ -344,6 +369,17 @@ lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5
 lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
 lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
 lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.6/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
+drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7
+lrwxrwxrwx root       root               30 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/constant.patch -> ../perl5-5.22.3/constant.patch
+lrwxrwxrwx root       root               32 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/dynaloader.patch -> ../perl5-5.22.3/dynaloader.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/findext.patch -> ../perl5-5.22.3/findext.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/installscripts.patch -> ../perl5-5.30.0/installscripts.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/liblist.patch -> ../perl5-5.31.2/liblist.patch
+lrwxrwxrwx root       root               31 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/makemaker.patch -> ../perl5-5.31.2/makemaker.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/posix-makefile.patch -> ../perl5-5.22.3/posix-makefile.patch
+lrwxrwxrwx root       root               36 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/test-checkcase.patch -> ../perl5-5.22.3/test-checkcase.patch
+lrwxrwxrwx root       root               38 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/test-commonsense.patch -> ../perl5-5.26.0/test-commonsense.patch
+lrwxrwxrwx root       root               29 ./usr/lib/perl/ptest/cnf/diffs/perl5-5.31.7/xconfig.patch -> ../perl5-5.28.0/xconfig.patch
 -rw-r--r-- root       root              348 ./usr/lib/perl/ptest/cnf/diffs/README
 drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/cnf/hints
 -rw-r--r-- root       root              604 ./usr/lib/perl/ptest/cnf/hints/android
@@ -362,8 +398,8 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cnf/stub/IPC
 -rw-r--r-- root       root               49 ./usr/lib/perl/ptest/cnf/stub/IPC/Cmd.pm
 -rw-r--r-- root       root           162748 ./usr/lib/perl/ptest/config.h
 -r-xr-xr-x root       root           167201 ./usr/lib/perl/ptest/config_h.SH
--r-xr-xr-x root       root            33302 ./usr/lib/perl/ptest/configpm
--rw-r--r-- root       root            35418 ./usr/lib/perl/ptest/config.sh
+-r-xr-xr-x root       root            33239 ./usr/lib/perl/ptest/configpm
+-rw-r--r-- root       root            35916 ./usr/lib/perl/ptest/config.sh
 -rwxr-xr-x root       root             2085 ./usr/lib/perl/ptest/configure
 -r--r--r-- root       root           220939 ./usr/lib/perl/ptest/configure.com
 -r-xr-xr-x root       root             2556 ./usr/lib/perl/ptest/configure.gnu
@@ -600,42 +636,42 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/Compress-R
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/blib/man3/.exists
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/blib/script
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/blib/script/.exists
--rw-r--r-- root       root            30703 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/blocksort.c
+-rw-r--r-- root       root            30713 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/blocksort.c
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/Bzip2.bs
 -rw-r--r-- root       root            45945 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/Bzip2.c
 drwxr-xr-x root       root              240 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src
--r--r--r-- root       root            30703 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/blocksort.c
--r--r--r-- root       root            46259 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/bzlib.c
--r--r--r-- root       root             6245 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/bzlib.h
--r--r--r-- root       root            13256 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/bzlib_private.h
--r--r--r-- root       root            20608 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/compress.c
--r--r--r-- root       root             4824 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/crctable.c
--r--r--r-- root       root            20948 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/decompress.c
--r--r--r-- root       root             6991 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/huffman.c
--r--r--r-- root       root             1901 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/LICENSE
--r--r--r-- root       root             3866 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/randtable.c
+-r--r--r-- root       root            30713 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/blocksort.c
+-r--r--r-- root       root            46122 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/bzlib.c
+-r--r--r-- root       root             6240 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/bzlib.h
+-r--r--r-- root       root            13251 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/bzlib_private.h
+-r--r--r-- root       root            20546 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/compress.c
+-r--r--r-- root       root             4819 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/crctable.c
+-r--r--r-- root       root            21287 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/decompress.c
+-r--r--r-- root       root             6986 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/huffman.c
+-r--r--r-- root       root             1896 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/LICENSE
+-r--r--r-- root       root             3861 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzip2-src/randtable.c
 -r--r--r-- root       root            22913 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/Bzip2.xs
--rw-r--r-- root       root            46259 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzlib.c
--rw-r--r-- root       root             6245 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzlib.h
--rw-r--r-- root       root            13256 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzlib_private.h
--rw-r--r-- root       root            20608 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/compress.c
+-rw-r--r-- root       root            46122 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzlib.c
+-rw-r--r-- root       root             6240 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzlib.h
+-rw-r--r-- root       root            13251 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/bzlib_private.h
+-rw-r--r-- root       root            20546 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/compress.c
 -rw-r--r-- root       root             7228 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/constants.h
 -rw-r--r-- root       root             2686 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/constants.xs
--rw-r--r-- root       root             4824 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/crctable.c
--rw-r--r-- root       root            20948 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/decompress.c
+-rw-r--r-- root       root             4819 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/crctable.c
+-rw-r--r-- root       root            21287 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/decompress.c
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/fallback
 -r--r--r-- root       root             7238 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/fallback/constants.h
 -r--r--r-- root       root             2639 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/fallback/constants.xs
--rw-r--r-- root       root             6991 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/huffman.c
+-rw-r--r-- root       root             6986 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/huffman.c
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/lib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/lib/Compress
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/lib/Compress/Raw
--r--r--r-- root       root            10783 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/lib/Compress/Raw/Bzip2.pm
+-r--r--r-- root       root            11009 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/lib/Compress/Raw/Bzip2.pm
 -r--r--r-- root       root             4039 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/Makefile.PL
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/pm_to_blib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/private
 -r--r--r-- root       root             8100 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/private/MakeUtil.pm
--rw-r--r-- root       root             3866 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/randtable.c
+-rw-r--r-- root       root             3861 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/randtable.c
 drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/t
 -r--r--r-- root       root              958 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/t/000prereq.t
 -r--r--r-- root       root            12654 ./usr/lib/perl/ptest/cpan/Compress-Raw-Bzip2/t/01bzip2.t
@@ -5840,15 +5876,15 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/Module-Cor
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/dist/Module-CoreList/blib/script
 -rwxr-xr-x root       root            14995 ./usr/lib/perl/ptest/dist/Module-CoreList/blib/script/corelist
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/dist/Module-CoreList/blib/script/.exists
--r--r--r-- root       root            15148 ./usr/lib/perl/ptest/dist/Module-CoreList/Changes
+-r--r--r-- root       root            15328 ./usr/lib/perl/ptest/dist/Module-CoreList/Changes
 -r--r--r-- root       root            14995 ./usr/lib/perl/ptest/dist/Module-CoreList/corelist
 -r--r--r-- root       root              657 ./usr/lib/perl/ptest/dist/Module-CoreList/identify-dependencies
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/Module-CoreList/lib
 drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module/CoreList
--r--r--r-- root       root           857290 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module/CoreList.pm
+-r--r--r-- root       root           881702 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module/CoreList.pm
 -r--r--r-- root       root             8418 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module/CoreList.pod
--r--r--r-- root       root            31206 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module/CoreList/Utils.pm
+-r--r--r-- root       root            31850 ./usr/lib/perl/ptest/dist/Module-CoreList/lib/Module/CoreList/Utils.pm
 -r--r--r-- root       root             1183 ./usr/lib/perl/ptest/dist/Module-CoreList/Makefile.PL
 -r--r--r-- root       root              326 ./usr/lib/perl/ptest/dist/Module-CoreList/MANIFEST
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/dist/Module-CoreList/pm_to_blib
@@ -6011,7 +6047,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/dist/SelfLoader
 -r--r--r-- root       root             4025 ./usr/lib/perl/ptest/dist/SelfLoader/t/01SelfLoader.t
 -r--r--r-- root       root              808 ./usr/lib/perl/ptest/dist/SelfLoader/t/02SelfLoader-buggy.t
 -r--r--r-- root       root              169 ./usr/lib/perl/ptest/dist/SelfLoader/t/03taint.t
-drwxr-xr-x root       root              360 ./usr/lib/perl/ptest/dist/Storable
+drwxr-xr-x root       root              340 ./usr/lib/perl/ptest/dist/Storable
 drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/dist/Storable/blib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/Storable/blib/bin
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/dist/Storable/blib/bin/.exists
@@ -6036,7 +6072,6 @@ drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/dist/Storable/h
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/dist/Storable/Storable.bs
 -rw-r--r-- root       root           246796 ./usr/lib/perl/ptest/dist/Storable/Storable.c
 -r--r--r-- root       root            49804 ./usr/lib/perl/ptest/dist/Storable/__Storable__.pm
--rw-r--r-- root       root            49780 ./usr/lib/perl/ptest/dist/Storable/Storable.pm
 -r--r--r-- root       root              812 ./usr/lib/perl/ptest/dist/Storable/Storable.pm.PL
 -r--r--r-- root       root           237564 ./usr/lib/perl/ptest/dist/Storable/Storable.xs
 drwxr-xr-x root       root             1060 ./usr/lib/perl/ptest/dist/Storable/t
@@ -6442,7 +6477,7 @@ drwxr-xr-x root       root              280 ./usr/lib/perl/ptest/dist/Unicode-No
 -rw-r--r-- root       root           100961 ./usr/lib/perl/ptest/dist/Unicode-Normalize/unfcmp.h
 -rw-r--r-- root       root           201167 ./usr/lib/perl/ptest/dist/Unicode-Normalize/unfcpt.h
 -rw-r--r-- root       root             2598 ./usr/lib/perl/ptest/dist/Unicode-Normalize/unfexc.h
-drwxr-xr-x root       root              160 ./usr/lib/perl/ptest/dist/XSLoader
+drwxr-xr-x root       root              140 ./usr/lib/perl/ptest/dist/XSLoader
 drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/dist/XSLoader/blib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/XSLoader/blib/bin
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/dist/XSLoader/blib/bin/.exists
@@ -6456,7 +6491,6 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/XSLoader/b
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/dist/XSLoader/pm_to_blib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/XSLoader/t
 -r--r--r-- root       root             4513 ./usr/lib/perl/ptest/dist/XSLoader/t/XSLoader.t
--rw-r--r-- root       root            11985 ./usr/lib/perl/ptest/dist/XSLoader/XSLoader.pm
 -r--r--r-- root       root            15310 ./usr/lib/perl/ptest/dist/XSLoader/XSLoader_pm.PL
 -r--r--r-- root       root            91690 ./usr/lib/perl/ptest/doio.c
 -r--r--r-- root       root            34854 ./usr/lib/perl/ptest/doop.c
@@ -6465,7 +6499,7 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/dist/XSLoader/t
 -r--r--r-- root       root             1861 ./usr/lib/perl/ptest/dquote_inline.h
 -r--r--r-- root       root            96188 ./usr/lib/perl/ptest/dump.c
 -r--r--r-- root       root            49548 ./usr/lib/perl/ptest/ebcdic_tables.h
--r--r--r-- root       root           140634 ./usr/lib/perl/ptest/embed.fnc
+-r--r--r-- root       root           140636 ./usr/lib/perl/ptest/embed.fnc
 -rw-r--r-- root       root           102635 ./usr/lib/perl/ptest/embed.h
 -rw-r--r-- root       root            23467 ./usr/lib/perl/ptest/embedvar.h
 drwxr-xr-x root       root              840 ./usr/lib/perl/ptest/ext
@@ -7179,9 +7213,9 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/ext/re/blib/scr
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/re/pm_to_blib
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/ext/re/re.bs
 -rw-r--r-- root       root             9750 ./usr/lib/perl/ptest/ext/re/re.c
--r--r--r-- root       root           935850 ./usr/lib/perl/ptest/ext/re/re_comp.c
+-r--r--r-- root       root           940615 ./usr/lib/perl/ptest/ext/re/re_comp.c
 -r--r--r-- root       root              220 ./usr/lib/perl/ptest/ext/re/re_comp.h
--r--r--r-- root       root           409646 ./usr/lib/perl/ptest/ext/re/re_exec.c
+-r--r--r-- root       root           409662 ./usr/lib/perl/ptest/ext/re/re_exec.c
 -r--r--r-- root       root            22792 ./usr/lib/perl/ptest/ext/re/re.pm
 -r--r--r-- root       root             1530 ./usr/lib/perl/ptest/ext/re/re_top.h
 -r--r--r-- root       root             3616 ./usr/lib/perl/ptest/ext/re/re.xs
@@ -7525,7 +7559,7 @@ drwxr-xr-x root       root             1740 ./usr/lib/perl/ptest/hints
 -r--r--r-- root       root              705 ./usr/lib/perl/ptest/hints/aux_3.sh
 -r--r--r-- root       root             2948 ./usr/lib/perl/ptest/hints/bitrig.sh
 -r--r--r-- root       root              562 ./usr/lib/perl/ptest/hints/broken-db.msg
--r--r--r-- root       root             3186 ./usr/lib/perl/ptest/hints/bsdos.sh
+-r--r--r-- root       root             3206 ./usr/lib/perl/ptest/hints/bsdos.sh
 -r--r--r-- root       root             9437 ./usr/lib/perl/ptest/hints/catamount.sh
 -r--r--r-- root       root              310 ./usr/lib/perl/ptest/hints/convexos.sh
 -r--r--r-- root       root             3729 ./usr/lib/perl/ptest/hints/cxux.sh
@@ -7540,7 +7574,7 @@ drwxr-xr-x root       root             1740 ./usr/lib/perl/ptest/hints
 -r--r--r-- root       root             2735 ./usr/lib/perl/ptest/hints/epix.sh
 -r--r--r-- root       root              976 ./usr/lib/perl/ptest/hints/esix4.sh
 -r--r--r-- root       root               22 ./usr/lib/perl/ptest/hints/fps.sh
--r--r--r-- root       root            10092 ./usr/lib/perl/ptest/hints/freebsd.sh
+-r--r--r-- root       root            10112 ./usr/lib/perl/ptest/hints/freebsd.sh
 -r--r--r-- root       root              835 ./usr/lib/perl/ptest/hints/freemint.sh
 -r--r--r-- root       root              142 ./usr/lib/perl/ptest/hints/gnukfreebsd.sh
 -r--r--r-- root       root              155 ./usr/lib/perl/ptest/hints/gnuknetbsd.sh
@@ -7576,7 +7610,7 @@ drwxr-xr-x root       root             1740 ./usr/lib/perl/ptest/hints
 -r--r--r-- root       root              520 ./usr/lib/perl/ptest/hints/os400.sh
 -r--r--r-- root       root             4418 ./usr/lib/perl/ptest/hints/posix-bc.sh
 -r--r--r-- root       root            11220 ./usr/lib/perl/ptest/hints/qnx.sh
--r--r--r-- root       root            11939 ./usr/lib/perl/ptest/hints/README.hints
+-r--r--r-- root       root            11962 ./usr/lib/perl/ptest/hints/README.hints
 -r--r--r-- root       root              404 ./usr/lib/perl/ptest/hints/riscos.sh
 -r--r--r-- root       root               45 ./usr/lib/perl/ptest/hints/sco_2_3_0.sh
 -r--r--r-- root       root               45 ./usr/lib/perl/ptest/hints/sco_2_3_1.sh
@@ -7606,7 +7640,7 @@ drwxr-xr-x root       root             1740 ./usr/lib/perl/ptest/hints
 -r--r--r-- root       root            25545 ./usr/lib/perl/ptest/hv.h
 -r--r--r-- root       root             2953 ./usr/lib/perl/ptest/hv_macro.h
 -r--r--r-- root       root            68866 ./usr/lib/perl/ptest/inline.h
--r--r--r-- root       root           108085 ./usr/lib/perl/ptest/INSTALL
+-r--r--r-- root       root           107649 ./usr/lib/perl/ptest/INSTALL
 -r--r--r-- root       root            17805 ./usr/lib/perl/ptest/installhtml
 -r--r--r-- root       root             4959 ./usr/lib/perl/ptest/install_lib.pl
 -r-xr-xr-x root       root             5994 ./usr/lib/perl/ptest/installman
@@ -8091,7 +8125,7 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Class
 -r--r--r-- root       root             6422 ./usr/lib/perl/ptest/lib/Class/Struct.t
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Compress
 drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/Compress/Raw
--r--r--r-- root       root            10783 ./usr/lib/perl/ptest/lib/Compress/Raw/Bzip2.pm
+-r--r--r-- root       root            11009 ./usr/lib/perl/ptest/lib/Compress/Raw/Bzip2.pm
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Compress/Raw/.exists
 -r--r--r-- root       root            47456 ./usr/lib/perl/ptest/lib/Compress/Raw/Zlib.pm
 -r--r--r-- root       root            43996 ./usr/lib/perl/ptest/lib/Compress/Zlib.pm
@@ -8099,7 +8133,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/Config
 -r--r--r-- root       root             1355 ./usr/lib/perl/ptest/lib/Config/Extensions.pm
 -r--r--r-- root       root              749 ./usr/lib/perl/ptest/lib/Config/Extensions.t
 -rw-r--r-- root       root              409 ./usr/lib/perl/ptest/lib/Config_git.pl
--rw-r--r-- root       root            40385 ./usr/lib/perl/ptest/lib/Config_heavy.pl
+-rw-r--r-- root       root            43005 ./usr/lib/perl/ptest/lib/Config_heavy.pl
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Config/Perl
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Config/Perl/.exists
 -r--r--r-- root       root            14913 ./usr/lib/perl/ptest/lib/Config/Perl/V.pm
@@ -8556,9 +8590,9 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/MIME
 -r--r--r-- root       root             3290 ./usr/lib/perl/ptest/lib/MIME/QuotedPrint.pm
 drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/lib/Module
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/Module/CoreList
--r--r--r-- root       root           857290 ./usr/lib/perl/ptest/lib/Module/CoreList.pm
+-r--r--r-- root       root           881702 ./usr/lib/perl/ptest/lib/Module/CoreList.pm
 -r--r--r-- root       root             8418 ./usr/lib/perl/ptest/lib/Module/CoreList.pod
--r--r--r-- root       root            31206 ./usr/lib/perl/ptest/lib/Module/CoreList/Utils.pm
+-r--r--r-- root       root            31850 ./usr/lib/perl/ptest/lib/Module/CoreList/Utils.pm
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/lib/Module/.exists
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/Module/Load
 -r--r--r-- root       root            19161 ./usr/lib/perl/ptest/lib/Module/Load/Conditional.pm
@@ -9780,13 +9814,13 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r-xr-xr-x root       root             9258 ./usr/lib/perl/ptest/makedepend.SH
 -rw-r--r-- root       root             3548 ./usr/lib/perl/ptest/make_ext_Makefile.pl
 -r--r--r-- root       root            26137 ./usr/lib/perl/ptest/make_ext.pl
--rwxr-xr-x root       root             3821 ./usr/lib/perl/ptest/Makefile.config.SH
+-rwxr-xr-x root       root             3841 ./usr/lib/perl/ptest/Makefile.config.SH
 -r--r--r-- root       root             5466 ./usr/lib/perl/ptest/Makefile.micro
 -r-xr-xr-x root       root            53448 ./usr/lib/perl/ptest/Makefile.SH
 -r--r--r-- root       root             6814 ./usr/lib/perl/ptest/make_patchnum.pl
 -r--r--r-- root       root            72352 ./usr/lib/perl/ptest/malloc.c
 -r--r--r-- root       root             1524 ./usr/lib/perl/ptest/malloc_ctl.h
--r--r--r-- root       root           331248 ./usr/lib/perl/ptest/MANIFEST
+-r--r--r-- root       root           331368 ./usr/lib/perl/ptest/MANIFEST
 -r--r--r-- root       root            33956 ./usr/lib/perl/ptest/mathoms.c
 -r--r--r-- root       root              952 ./usr/lib/perl/ptest/metaconfig.h
 -r-xr-xr-x root       root             1200 ./usr/lib/perl/ptest/metaconfig.SH
@@ -9806,7 +9840,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r-xr-xr-x root       root             2686 ./usr/lib/perl/ptest/myconfig.SH
 -r--r--r-- root       root             1693 ./usr/lib/perl/ptest/mydtrace.h
 -r--r--r-- root       root             3392 ./usr/lib/perl/ptest/nostdio.h
--r--r--r-- root       root            57291 ./usr/lib/perl/ptest/numeric.c
+-r--r--r-- root       root            57449 ./usr/lib/perl/ptest/numeric.c
 -r--r--r-- root       root           523373 ./usr/lib/perl/ptest/op.c
 -rw-r--r-- root       root            93275 ./usr/lib/perl/ptest/opcode.h
 -r--r--r-- root       root            36350 ./usr/lib/perl/ptest/op.h
@@ -9824,7 +9858,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -rwxr-xr-x root       root             5468 ./usr/lib/perl/ptest/perl
 -rw-r--r-- root       root             1728 ./usr/lib/perl/ptest/perlapi.c
 -rw-r--r-- root       root            10170 ./usr/lib/perl/ptest/perlapi.h
--r--r--r-- root       root           146146 ./usr/lib/perl/ptest/perl.c
+-r--r--r-- root       root           146152 ./usr/lib/perl/ptest/perl.c
 -r--r--r-- root       root              491 ./usr/lib/perl/ptest/perldtrace.d
 -r--r--r-- root       root           270251 ./usr/lib/perl/ptest/perl.h
 -r--r--r-- root       root             6223 ./usr/lib/perl/ptest/perl_inc_macro.h
@@ -9834,7 +9868,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r--r--r-- root       root              446 ./usr/lib/perl/ptest/perlio.sym
 -r--r--r-- root       root             2973 ./usr/lib/perl/ptest/perl_langinfo.h
 -rw-r--r-- root       root             5763 ./usr/lib/perl/ptest/perlmain.c
--r--r--r-- root       root           146146 ./usr/lib/perl/ptest/perlmini.c
+-r--r--r-- root       root           146152 ./usr/lib/perl/ptest/perlmini.c
 -r--r--r-- root       root              527 ./usr/lib/perl/ptest/perlsdio.h
 -r--r--r-- root       root            13314 ./usr/lib/perl/ptest/perlvars.h
 -r--r--r-- root       root            49314 ./usr/lib/perl/ptest/perly.act
@@ -9842,7 +9876,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/lib/XS
 -r--r--r-- root       root             4434 ./usr/lib/perl/ptest/perly.h
 -r--r--r-- root       root            77386 ./usr/lib/perl/ptest/perly.tab
 -r--r--r-- root       root            38996 ./usr/lib/perl/ptest/perly.y
-drwxr-xr-x root       root             3880 ./usr/lib/perl/ptest/pod
+drwxr-xr-x root       root             3900 ./usr/lib/perl/ptest/pod
 -r--r--r-- root       root             6198 ./usr/lib/perl/ptest/pod/buildtoc
 -r--r--r-- root       root             2714 ./usr/lib/perl/ptest/pod/Makefile.SH
 -r--r--r-- root       root            56240 ./usr/lib/perl/ptest/pod/perl5004delta.pod
@@ -9890,7 +9924,8 @@ drwxr-xr-x root       root             3880 ./usr/lib/perl/ptest/pod
 -r--r--r-- root       root             4639 ./usr/lib/perl/ptest/pod/perl5281delta.pod
 -r--r--r-- root       root             6200 ./usr/lib/perl/ptest/pod/perl5282delta.pod
 -r--r--r-- root       root            41281 ./usr/lib/perl/ptest/pod/perl5300delta.pod
-lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perl5301delta.pod -> perldelta.pod
+-r--r--r-- root       root             5730 ./usr/lib/perl/ptest/pod/perl5301delta.pod
+lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perl5302delta.pod -> perldelta.pod
 -r--r--r-- root       root           124713 ./usr/lib/perl/ptest/pod/perl561delta.pod
 -r--r--r-- root       root           107201 ./usr/lib/perl/ptest/pod/perl56delta.pod
 -r--r--r-- root       root            38060 ./usr/lib/perl/ptest/pod/perl581delta.pod
@@ -9925,13 +9960,13 @@ lrwxrwxrwx root       root               16 ./usr/lib/perl/ptest/pod/perlcygwin.
 -r--r--r-- root       root            40997 ./usr/lib/perl/ptest/pod/perldebguts.pod
 -r--r--r-- root       root            22152 ./usr/lib/perl/ptest/pod/perldebtut.pod
 -r--r--r-- root       root            39383 ./usr/lib/perl/ptest/pod/perldebug.pod
--r--r--r-- root       root             5726 ./usr/lib/perl/ptest/pod/perldelta.pod
+-r--r--r-- root       root             4678 ./usr/lib/perl/ptest/pod/perldelta.pod
 -r--r--r-- root       root            20269 ./usr/lib/perl/ptest/pod/perldeprecation.pod
--r--r--r-- root       root           293861 ./usr/lib/perl/ptest/pod/perldiag.pod
+-r--r--r-- root       root           293887 ./usr/lib/perl/ptest/pod/perldiag.pod
 lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perldos.pod -> ../README.dos
 -r--r--r-- root       root            25614 ./usr/lib/perl/ptest/pod/perldsc.pod
 -r--r--r-- root       root             7958 ./usr/lib/perl/ptest/pod/perldtrace.pod
--r--r--r-- root       root            84334 ./usr/lib/perl/ptest/pod/perlebcdic.pod
+-r--r--r-- root       root            84342 ./usr/lib/perl/ptest/pod/perlebcdic.pod
 -r--r--r-- root       root            37586 ./usr/lib/perl/ptest/pod/perlembed.pod
 -r--r--r-- root       root             7251 ./usr/lib/perl/ptest/pod/perlexperiment.pod
 -r--r--r-- root       root            22277 ./usr/lib/perl/ptest/pod/perlfilter.pod
@@ -9941,12 +9976,12 @@ lrwxrwxrwx root       root               17 ./usr/lib/perl/ptest/pod/perlfreebsd
 -r--r--r-- root       root           399027 ./usr/lib/perl/ptest/pod/perlfunc.pod
 -r--r--r-- root       root            29594 ./usr/lib/perl/ptest/pod/perlgit.pod
 -r--r--r-- root       root            13815 ./usr/lib/perl/ptest/pod/perlgpl.pod
--r--r--r-- root       root           147966 ./usr/lib/perl/ptest/pod/perlguts.pod
--r--r--r-- root       root            42732 ./usr/lib/perl/ptest/pod/perlhack.pod
+-r--r--r-- root       root           148000 ./usr/lib/perl/ptest/pod/perlguts.pod
+-r--r--r-- root       root            42592 ./usr/lib/perl/ptest/pod/perlhack.pod
 -r--r--r-- root       root            55475 ./usr/lib/perl/ptest/pod/perlhacktips.pod
 -r--r--r-- root       root             6153 ./usr/lib/perl/ptest/pod/perlhacktut.pod
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlhaiku.pod -> ../README.haiku
--r--r--r-- root       root            54732 ./usr/lib/perl/ptest/pod/perlhist.pod
+-r--r--r-- root       root            54948 ./usr/lib/perl/ptest/pod/perlhist.pod
 lrwxrwxrwx root       root               14 ./usr/lib/perl/ptest/pod/perlhpux.pod -> ../README.hpux
 lrwxrwxrwx root       root               14 ./usr/lib/perl/ptest/pod/perlhurd.pod -> ../README.hurd
 -rw-r--r-- root       root            71415 ./usr/lib/perl/ptest/pod/perlintern.pod
@@ -9959,12 +9994,12 @@ lrwxrwxrwx root       root               12 ./usr/lib/perl/ptest/pod/perljp.pod 
 lrwxrwxrwx root       root               12 ./usr/lib/perl/ptest/pod/perlko.pod -> ../README.ko
 -r--r--r-- root       root              355 ./usr/lib/perl/ptest/pod/perllexwarn.pod
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perllinux.pod -> ../README.linux
--r--r--r-- root       root            73624 ./usr/lib/perl/ptest/pod/perllocale.pod
+-r--r--r-- root       root            73659 ./usr/lib/perl/ptest/pod/perllocale.pod
 -r--r--r-- root       root             9580 ./usr/lib/perl/ptest/pod/perllol.pod
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlmacos.pod -> ../README.macos
 lrwxrwxrwx root       root               16 ./usr/lib/perl/ptest/pod/perlmacosx.pod -> ../README.macosx
 -r--r--r-- root       root            10214 ./usr/lib/perl/ptest/pod/perlmodinstall.pod
--r--r--r-- root       root            42801 ./usr/lib/perl/ptest/pod/perlmodlib.PL
+-r--r--r-- root       root            42786 ./usr/lib/perl/ptest/pod/perlmodlib.PL
 -rw-r--r-- root       root            76552 ./usr/lib/perl/ptest/pod/perlmodlib.pod
 -r--r--r-- root       root            26197 ./usr/lib/perl/ptest/pod/perlmod.pod
 -r--r--r-- root       root            22575 ./usr/lib/perl/ptest/pod/perlmodstyle.pod
@@ -9973,7 +10008,7 @@ lrwxrwxrwx root       root               17 ./usr/lib/perl/ptest/pod/perlnetware
 -r--r--r-- root       root            11036 ./usr/lib/perl/ptest/pod/perlnewmod.pod
 -r--r--r-- root       root             8353 ./usr/lib/perl/ptest/pod/perlnumber.pod
 -r--r--r-- root       root            35717 ./usr/lib/perl/ptest/pod/perlobj.pod
--r--r--r-- root       root            26783 ./usr/lib/perl/ptest/pod/perlootut.pod
+-r--r--r-- root       root            26759 ./usr/lib/perl/ptest/pod/perlootut.pod
 lrwxrwxrwx root       root               17 ./usr/lib/perl/ptest/pod/perlopenbsd.pod -> ../README.openbsd
 -r--r--r-- root       root             9455 ./usr/lib/perl/ptest/pod/perlopentut.pod
 -r--r--r-- root       root           142389 ./usr/lib/perl/ptest/pod/perlop.pod
@@ -9982,17 +10017,17 @@ lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlos390.p
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlos400.pod -> ../README.os400
 -r--r--r-- root       root            51284 ./usr/lib/perl/ptest/pod/perlpacktut.pod
 -r--r--r-- root       root            49881 ./usr/lib/perl/ptest/pod/perlperf.pod
--r--r--r-- root       root            16466 ./usr/lib/perl/ptest/pod/perl.pod
+-r--r--r-- root       root            16405 ./usr/lib/perl/ptest/pod/perl.pod
 -r--r--r-- root       root            22196 ./usr/lib/perl/ptest/pod/perlpod.pod
 -r--r--r-- root       root            68482 ./usr/lib/perl/ptest/pod/perlpodspec.pod
 -r--r--r-- root       root            12096 ./usr/lib/perl/ptest/pod/perlpodstyle.pod
 -r--r--r-- root       root            26107 ./usr/lib/perl/ptest/pod/perlpolicy.pod
--r--r--r-- root       root            88645 ./usr/lib/perl/ptest/pod/perlport.pod
+-r--r--r-- root       root            88670 ./usr/lib/perl/ptest/pod/perlport.pod
 -r--r--r-- root       root             5176 ./usr/lib/perl/ptest/pod/perlpragma.pod
 lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perlqnx.pod -> ../README.qnx
 -r--r--r-- root       root            30245 ./usr/lib/perl/ptest/pod/perlreapi.pod
 -r--r--r-- root       root            32285 ./usr/lib/perl/ptest/pod/perlrebackslash.pod
--r--r--r-- root       root            49680 ./usr/lib/perl/ptest/pod/perlrecharclass.pod
+-r--r--r-- root       root            49702 ./usr/lib/perl/ptest/pod/perlrecharclass.pod
 -r--r--r-- root       root            35298 ./usr/lib/perl/ptest/pod/perlref.pod
 -r--r--r-- root       root            18826 ./usr/lib/perl/ptest/pod/perlreftut.pod
 -r--r--r-- root       root            38328 ./usr/lib/perl/ptest/pod/perlreguts.pod
@@ -10011,9 +10046,9 @@ lrwxrwxrwx root       root               17 ./usr/lib/perl/ptest/pod/perlsolaris
 lrwxrwxrwx root       root               17 ./usr/lib/perl/ptest/pod/perlsymbian.pod -> ../README.symbian
 lrwxrwxrwx root       root               18 ./usr/lib/perl/ptest/pod/perlsynology.pod -> ../README.synology
 -r--r--r-- root       root            44990 ./usr/lib/perl/ptest/pod/perlsyn.pod
--r--r--r-- root       root            46462 ./usr/lib/perl/ptest/pod/perlthrtut.pod
+-r--r--r-- root       root            46434 ./usr/lib/perl/ptest/pod/perlthrtut.pod
 -r--r--r-- root       root            38744 ./usr/lib/perl/ptest/pod/perltie.pod
--rw-r--r-- root       root           695573 ./usr/lib/perl/ptest/pod/perltoc.pod
+-rw-r--r-- root       root           696103 ./usr/lib/perl/ptest/pod/perltoc.pod
 -r--r--r-- root       root              372 ./usr/lib/perl/ptest/pod/perltodo.pod
 -r--r--r-- root       root              294 ./usr/lib/perl/ptest/pod/perltooc.pod
 -r--r--r-- root       root              294 ./usr/lib/perl/ptest/pod/perltoot.pod
@@ -10026,12 +10061,12 @@ lrwxrwxrwx root       root               12 ./usr/lib/perl/ptest/pod/perltw.pod 
 -r--r--r-- root       root            38501 ./usr/lib/perl/ptest/pod/perluniintro.pod
 -rw-r--r-- root       root           426544 ./usr/lib/perl/ptest/pod/perluniprops.pod
 -r--r--r-- root       root             7951 ./usr/lib/perl/ptest/pod/perlunitut.pod
--r--r--r-- root       root             7640 ./usr/lib/perl/ptest/pod/perlutil.pod
+-r--r--r-- root       root             7636 ./usr/lib/perl/ptest/pod/perlutil.pod
 -r--r--r-- root       root            80620 ./usr/lib/perl/ptest/pod/perlvar.pod
 -r--r--r-- root       root            50823 ./usr/lib/perl/ptest/pod/perlvms.pod
 lrwxrwxrwx root       root               13 ./usr/lib/perl/ptest/pod/perlvos.pod -> ../README.vos
 lrwxrwxrwx root       root               15 ./usr/lib/perl/ptest/pod/perlwin32.pod -> ../README.win32
--rw-r--r-- root       root            28447 ./usr/lib/perl/ptest/pod/roffitall
+-rw-r--r-- root       root            28477 ./usr/lib/perl/ptest/pod/roffitall
 -r--r--r-- root       root             1438 ./usr/lib/perl/ptest/pod/rofftoc
 -r--r--r-- root       root              644 ./usr/lib/perl/ptest/pod/splitman
 -r--r--r-- root       root             1357 ./usr/lib/perl/ptest/pod/splitpod
@@ -10051,7 +10086,7 @@ drwxr-xr-x root       root             1500 ./usr/lib/perl/ptest/Porting
 -r-xr-xr-x root       root             4425 ./usr/lib/perl/ptest/Porting/checkcfgvar.pl
 -r--r--r-- root       root             6389 ./usr/lib/perl/ptest/Porting/check-cpan-pollution
 -r-xr-xr-x root       root             1447 ./usr/lib/perl/ptest/Porting/checkpodencoding.pl
--r-xr-xr-x root       root            15368 ./usr/lib/perl/ptest/Porting/checkURL.pl
+-r-xr-xr-x root       root            15499 ./usr/lib/perl/ptest/Porting/checkURL.pl
 -r-xr-xr-x root       root              979 ./usr/lib/perl/ptest/Porting/checkVERSION.pl
 -r--r--r-- root       root             2515 ./usr/lib/perl/ptest/Porting/cherrymaint
 -r-xr-xr-x root       root             7925 ./usr/lib/perl/ptest/Porting/cmpVERSION.pl
@@ -10064,7 +10099,7 @@ drwxr-xr-x root       root             1500 ./usr/lib/perl/ptest/Porting
 -r-xr-xr-x root       root            31739 ./usr/lib/perl/ptest/Porting/corelist-perldelta.pl
 -r-xr-xr-x root       root            15997 ./usr/lib/perl/ptest/Porting/corelist.pl
 -r--r--r-- root       root             6033 ./usr/lib/perl/ptest/Porting/deparse-skips.txt
--r--r--r-- root       root           226101 ./usr/lib/perl/ptest/Porting/epigraphs.pod
+-r--r--r-- root       root           230772 ./usr/lib/perl/ptest/Porting/epigraphs.pod
 -r--r--r-- root       root             1540 ./usr/lib/perl/ptest/Porting/exec-bit.txt
 -r--r--r-- root       root             2329 ./usr/lib/perl/ptest/Porting/exercise_makedef.pl
 -r-xr-xr-x root       root             3801 ./usr/lib/perl/ptest/Porting/expand-macro.pl
@@ -10092,7 +10127,7 @@ drwxr-xr-x root       root             1500 ./usr/lib/perl/ptest/Porting
 -r-xr-xr-x root       root              890 ./usr/lib/perl/ptest/Porting/mksample
 -r--r--r-- root       root             3234 ./usr/lib/perl/ptest/Porting/new-perldelta.pl
 -r-xr-xr-x root       root             1827 ./usr/lib/perl/ptest/Porting/newtests-perldelta.pl
--r--r--r-- root       root            10481 ./usr/lib/perl/ptest/Porting/perldelta_template.pod
+-r--r--r-- root       root            10356 ./usr/lib/perl/ptest/Porting/perldelta_template.pod
 -r-xr-xr-x root       root             2701 ./usr/lib/perl/ptest/Porting/perlhist_calculate.pl
 -r--r--r-- root       root            17829 ./usr/lib/perl/ptest/Porting/pod_lib.pl
 -r--r--r-- root       root             7565 ./usr/lib/perl/ptest/Porting/pod_rules.pl
@@ -10101,14 +10136,14 @@ drwxr-xr-x root       root             1500 ./usr/lib/perl/ptest/Porting
 -r--r--r-- root       root            11196 ./usr/lib/perl/ptest/Porting/README.pod
 -r--r--r-- root       root             3537 ./usr/lib/perl/ptest/Porting/README.y2038
 -r--r--r-- root       root              942 ./usr/lib/perl/ptest/Porting/release_announcement_template.txt
--r--r--r-- root       root            52363 ./usr/lib/perl/ptest/Porting/release_managers_guide.pod
--r--r--r-- root       root             3494 ./usr/lib/perl/ptest/Porting/release_schedule.pod
+-r--r--r-- root       root            52468 ./usr/lib/perl/ptest/Porting/release_managers_guide.pod
+-r--r--r-- root       root             3562 ./usr/lib/perl/ptest/Porting/release_schedule.pod
 -r--r--r-- root       root              678 ./usr/lib/perl/ptest/Porting/rt_list_patches
 -r-xr-xr-x root       root             1409 ./usr/lib/perl/ptest/Porting/sort_perldiag.pl
 -r-xr-xr-x root       root            17250 ./usr/lib/perl/ptest/Porting/sync-with-cpan
 -r--r--r-- root       root             2750 ./usr/lib/perl/ptest/Porting/timecheck2.c
 -r--r--r-- root       root             3617 ./usr/lib/perl/ptest/Porting/timecheck.c
--r--r--r-- root       root            49975 ./usr/lib/perl/ptest/Porting/todo.pod
+-r--r--r-- root       root            50121 ./usr/lib/perl/ptest/Porting/todo.pod
 -r-xr-xr-x root       root             9668 ./usr/lib/perl/ptest/Porting/valgrindpp.pl
 -r--r--r-- root       root           186647 ./usr/lib/perl/ptest/pp.c
 -r--r--r-- root       root           163266 ./usr/lib/perl/ptest/pp_ctl.c
@@ -10118,46 +10153,46 @@ drwxr-xr-x root       root             1500 ./usr/lib/perl/ptest/Porting
 -rw-r--r-- root       root            12131 ./usr/lib/perl/ptest/pp_proto.h
 -r--r--r-- root       root            39581 ./usr/lib/perl/ptest/pp_sort.c
 -r--r--r-- root       root           142882 ./usr/lib/perl/ptest/pp_sys.c
--rw-r--r-- root       root           258812 ./usr/lib/perl/ptest/proto.h
--r--r--r-- root       root             5683 ./usr/lib/perl/ptest/README
+-rw-r--r-- root       root           258888 ./usr/lib/perl/ptest/proto.h
+-r--r--r-- root       root             5626 ./usr/lib/perl/ptest/README
 -r--r--r-- root       root            20438 ./usr/lib/perl/ptest/README.aix
 -r--r--r-- root       root             5749 ./usr/lib/perl/ptest/README.amiga
 -r--r--r-- root       root             7871 ./usr/lib/perl/ptest/README.android
--r--r--r-- root       root             8058 ./usr/lib/perl/ptest/README.bs2000
+-r--r--r-- root       root             8055 ./usr/lib/perl/ptest/README.bs2000
 -r--r--r-- root       root            14602 ./usr/lib/perl/ptest/README.ce
 -r--r--r-- root       root             4691 ./usr/lib/perl/ptest/README.cn
 -r--r--r-- root       root            27199 ./usr/lib/perl/ptest/README.cygwin
 -r--r--r-- root       root            10522 ./usr/lib/perl/ptest/README.dos
--r--r--r-- root       root             1610 ./usr/lib/perl/ptest/README.freebsd
+-r--r--r-- root       root             1623 ./usr/lib/perl/ptest/README.freebsd
 -r--r--r-- root       root             1508 ./usr/lib/perl/ptest/README.haiku
 -r--r--r-- root       root            30609 ./usr/lib/perl/ptest/README.hpux
 -r--r--r-- root       root             1993 ./usr/lib/perl/ptest/README.hurd
--r--r--r-- root       root             4395 ./usr/lib/perl/ptest/README.irix
+-r--r--r-- root       root             4415 ./usr/lib/perl/ptest/README.irix
 -r--r--r-- root       root             7521 ./usr/lib/perl/ptest/README.jp
 -r--r--r-- root       root            12259 ./usr/lib/perl/ptest/README.ko
--r--r--r-- root       root             1488 ./usr/lib/perl/ptest/README.linux
+-r--r--r-- root       root             1508 ./usr/lib/perl/ptest/README.linux
 -r--r--r-- root       root             1001 ./usr/lib/perl/ptest/README.macos
--r--r--r-- root       root            12060 ./usr/lib/perl/ptest/README.macosx
+-r--r--r-- root       root            12089 ./usr/lib/perl/ptest/README.macosx
 -r--r--r-- root       root             1857 ./usr/lib/perl/ptest/README.micro
 -r--r--r-- root       root             6648 ./usr/lib/perl/ptest/README.netware
--r--r--r-- root       root             1204 ./usr/lib/perl/ptest/README.openbsd
+-r--r--r-- root       root             1224 ./usr/lib/perl/ptest/README.openbsd
 -r--r--r-- root       root            93350 ./usr/lib/perl/ptest/README.os2
--r--r--r-- root       root            15674 ./usr/lib/perl/ptest/README.os390
--r--r--r-- root       root             4768 ./usr/lib/perl/ptest/README.os400
+-r--r--r-- root       root            15671 ./usr/lib/perl/ptest/README.os390
+-r--r--r-- root       root             4765 ./usr/lib/perl/ptest/README.os400
 -r--r--r-- root       root             6673 ./usr/lib/perl/ptest/README.qnx
 -r--r--r-- root       root             1529 ./usr/lib/perl/ptest/README.riscos
--r--r--r-- root       root            29823 ./usr/lib/perl/ptest/README.solaris
+-r--r--r-- root       root            29843 ./usr/lib/perl/ptest/README.solaris
 -r--r--r-- root       root            15344 ./usr/lib/perl/ptest/README.symbian
 -r--r--r-- root       root             7956 ./usr/lib/perl/ptest/README.synology
 -r--r--r-- root       root             8492 ./usr/lib/perl/ptest/README.tru64
 -r--r--r-- root       root             4477 ./usr/lib/perl/ptest/README.tw
--r--r--r-- root       root            24009 ./usr/lib/perl/ptest/README.vms
+-r--r--r-- root       root            23937 ./usr/lib/perl/ptest/README.vms
 -r--r--r-- root       root             3843 ./usr/lib/perl/ptest/README.vos
 -r--r--r-- root       root            40576 ./usr/lib/perl/ptest/README.win32
 -rw-r--r-- root       root            15915 ./usr/lib/perl/ptest/reentr.c
 -rw-r--r-- root       root            78454 ./usr/lib/perl/ptest/reentr.h
 -rw-r--r-- root       root           140155 ./usr/lib/perl/ptest/regcharclass.h
--r--r--r-- root       root           935850 ./usr/lib/perl/ptest/regcomp.c
+-r--r--r-- root       root           940615 ./usr/lib/perl/ptest/regcomp.c
 -r--r--r-- root       root            48923 ./usr/lib/perl/ptest/regcomp.h
 -r--r--r-- root       root            14039 ./usr/lib/perl/ptest/regcomp.sym
 drwxr-xr-x root       root              540 ./usr/lib/perl/ptest/regen
@@ -10188,7 +10223,7 @@ drwxr-xr-x root       root              540 ./usr/lib/perl/ptest/regen
 -r-xr-xr-x root       root              618 ./usr/lib/perl/ptest/regen/uconfig_h.pl
 -r--r--r-- root       root             9113 ./usr/lib/perl/ptest/regen/unicode_constants.pl
 -r--r--r-- root       root            44791 ./usr/lib/perl/ptest/regen/warnings.pl
--r--r--r-- root       root           409646 ./usr/lib/perl/ptest/regexec.c
+-r--r--r-- root       root           409662 ./usr/lib/perl/ptest/regexec.c
 -r--r--r-- root       root            36671 ./usr/lib/perl/ptest/regexp.h
 -rw-r--r-- root       root            38053 ./usr/lib/perl/ptest/regnodes.h
 -r--r--r-- root       root             1444 ./usr/lib/perl/ptest/run.c
@@ -10200,7 +10235,7 @@ drwxr-xr-x root       root              540 ./usr/lib/perl/ptest/regen
 -r--r--r-- root       root            10477 ./usr/lib/perl/ptest/stadtx_hash.h
 -rw-r--r-- root       root              316 ./usr/lib/perl/ptest/statars
 -rw-r--r-- root       root                1 ./usr/lib/perl/ptest/static.list
--r--r--r-- root       root           500591 ./usr/lib/perl/ptest/sv.c
+-r--r--r-- root       root           500963 ./usr/lib/perl/ptest/sv.c
 -r--r--r-- root       root            85432 ./usr/lib/perl/ptest/sv.h
 drwxr-xr-x root       root              580 ./usr/lib/perl/ptest/t
 -r--r--r-- root       root             5275 ./usr/lib/perl/ptest/taint.c
@@ -10561,7 +10596,7 @@ drwxr-xr-x root       root              140 ./usr/lib/perl/ptest/t/opbasic
 -r--r--r-- root       root             3067 ./usr/lib/perl/ptest/t/op/goto_xs.t
 -r--r--r-- root       root             4571 ./usr/lib/perl/ptest/t/op/grent.t
 -r--r--r-- root       root             7113 ./usr/lib/perl/ptest/t/op/grep.t
--r--r--r-- root       root            12028 ./usr/lib/perl/ptest/t/op/groups.t
+-r--r--r-- root       root            12024 ./usr/lib/perl/ptest/t/op/groups.t
 -r--r--r-- root       root            34906 ./usr/lib/perl/ptest/t/op/gv.t
 -r--r--r-- root       root            19294 ./usr/lib/perl/ptest/t/op/hashassign.t
 -r--r--r-- root       root             1623 ./usr/lib/perl/ptest/t/op/hash-rt85026.t
@@ -10650,7 +10685,7 @@ drwxr-xr-x root       root              140 ./usr/lib/perl/ptest/t/opbasic
 -r--r--r-- root       root             3579 ./usr/lib/perl/ptest/t/op/splice.t
 -r--r--r-- root       root            19168 ./usr/lib/perl/ptest/t/op/split.t
 -r--r--r-- root       root             2477 ./usr/lib/perl/ptest/t/op/split_unicode.t
--r--r--r-- root       root            40415 ./usr/lib/perl/ptest/t/op/sprintf2.t
+-r--r--r-- root       root            40668 ./usr/lib/perl/ptest/t/op/sprintf2.t
 -r--r--r-- root       root            32469 ./usr/lib/perl/ptest/t/op/sprintf.t
 -r--r--r-- root       root             1925 ./usr/lib/perl/ptest/t/op/srand.t
 -r--r--r-- root       root             3096 ./usr/lib/perl/ptest/t/op/sselect.t
@@ -10739,12 +10774,12 @@ drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/t/porting/bench
 -r--r--r-- root       root             2611 ./usr/lib/perl/ptest/t/porting/FindExt.t
 -r--r--r-- root       root             2077 ./usr/lib/perl/ptest/t/porting/globvar.t
 -r--r--r-- root       root             8465 ./usr/lib/perl/ptest/t/porting/known_pod_issues.dat
--r--r--r-- root       root            19688 ./usr/lib/perl/ptest/t/porting/libperl.t
+-r--r--r-- root       root            19755 ./usr/lib/perl/ptest/t/porting/libperl.t
 -r--r--r-- root       root             1016 ./usr/lib/perl/ptest/t/porting/maintainers.t
 -r--r--r-- root       root             3468 ./usr/lib/perl/ptest/t/porting/manifest.t
 -r--r--r-- root       root             1776 ./usr/lib/perl/ptest/t/porting/pending-author.t
 -r--r--r-- root       root             1521 ./usr/lib/perl/ptest/t/porting/perlfunc.t
--r--r--r-- root       root            84570 ./usr/lib/perl/ptest/t/porting/podcheck.t
+-r--r--r-- root       root            84567 ./usr/lib/perl/ptest/t/porting/podcheck.t
 -r--r--r-- root       root             1159 ./usr/lib/perl/ptest/t/porting/pod_rules.t
 -r--r--r-- root       root             2487 ./usr/lib/perl/ptest/t/porting/readme.t
 -r--r--r-- root       root             1218 ./usr/lib/perl/ptest/t/porting/re_context.t
@@ -10752,10 +10787,11 @@ drwxr-xr-x root       root              200 ./usr/lib/perl/ptest/t/porting/bench
 -r--r--r-- root       root              856 ./usr/lib/perl/ptest/t/porting/ss_dup.t
 -r--r--r-- root       root             2569 ./usr/lib/perl/ptest/t/porting/test_bootstrap.t
 -r--r--r-- root       root             3075 ./usr/lib/perl/ptest/t/porting/utils.t
-drwxr-xr-x root       root             1580 ./usr/lib/perl/ptest/t/re
--r--r--r-- root       root             1626 ./usr/lib/perl/ptest/t/README
+drwxr-xr-x root       root             1600 ./usr/lib/perl/ptest/t/re
+-r--r--r-- root       root             1648 ./usr/lib/perl/ptest/t/README
 -r--r--r-- root       root              509 ./usr/lib/perl/ptest/t/re/alpha_assertions.t
 -r--r--r-- root       root            46309 ./usr/lib/perl/ptest/t/re/anyof.t
+-r--r--r-- root       root            36399 ./usr/lib/perl/ptest/t/re/bigfuzzy_not_utf8.t
 -r--r--r-- root       root            14577 ./usr/lib/perl/ptest/t/re/charset.t
 -r--r--r-- root       root              765 ./usr/lib/perl/ptest/t/re/fold_grind_8.t
 -r--r--r-- root       root              304 ./usr/lib/perl/ptest/t/re/fold_grind_aa.t
@@ -10778,7 +10814,7 @@ drwxr-xr-x root       root             1580 ./usr/lib/perl/ptest/t/re
 -r--r--r-- root       root               56 ./usr/lib/perl/ptest/t/re/pat_rt_report_thr.t
 -r--r--r-- root       root             1685 ./usr/lib/perl/ptest/t/re/pat_special_cc.t
 -r--r--r-- root       root               56 ./usr/lib/perl/ptest/t/re/pat_special_cc_thr.t
--r--r--r-- root       root            71691 ./usr/lib/perl/ptest/t/re/pat.t
+-r--r--r-- root       root            72757 ./usr/lib/perl/ptest/t/re/pat.t
 -r--r--r-- root       root               56 ./usr/lib/perl/ptest/t/re/pat_thr.t
 -r--r--r-- root       root              962 ./usr/lib/perl/ptest/t/re/pos.t
 -r--r--r-- root       root             1173 ./usr/lib/perl/ptest/t/re/qr-72922.t
@@ -10804,13 +10840,13 @@ drwxr-xr-x root       root             1580 ./usr/lib/perl/ptest/t/re
 -r--r--r-- root       root              492 ./usr/lib/perl/ptest/t/re/regex_sets_compat.t
 -r--r--r-- root       root            10181 ./usr/lib/perl/ptest/t/re/regex_sets.t
 -r--r--r-- root       root             6320 ./usr/lib/perl/ptest/t/re/reg_fold.t
--r--r--r-- root       root            53371 ./usr/lib/perl/ptest/t/re/reg_mesg.t
+-r--r--r-- root       root            53485 ./usr/lib/perl/ptest/t/re/reg_mesg.t
 -r--r--r-- root       root              760 ./usr/lib/perl/ptest/t/re/reg_namedcapture.t
 -r--r--r-- root       root             2282 ./usr/lib/perl/ptest/t/re/reg_nc_tie.t
 -r--r--r-- root       root             1639 ./usr/lib/perl/ptest/t/re/reg_nocapture.t
 -r--r--r-- root       root             2154 ./usr/lib/perl/ptest/t/re/reg_pmod.t
 -r--r--r-- root       root             5046 ./usr/lib/perl/ptest/t/re/reg_posixcc.t
--r--r--r-- root       root            70730 ./usr/lib/perl/ptest/t/re/re_tests
+-r--r--r-- root       root            70868 ./usr/lib/perl/ptest/t/re/re_tests
 -r--r--r-- root       root              711 ./usr/lib/perl/ptest/t/re/rt122747.t
 -r--r--r-- root       root             3227 ./usr/lib/perl/ptest/t/re/rxcode.t
 -r--r--r-- root       root             8268 ./usr/lib/perl/ptest/t/re/script_run.t
@@ -10867,7 +10903,7 @@ drwxr-xr-x root       root              100 ./usr/lib/perl/ptest/t/run/flib
 -rw-r--r-- root       root              112 ./usr/lib/perl/ptest/try.c
 -rw-r--r-- root       root               44 ./usr/lib/perl/ptest/try.h
 -rw-r--r-- root       root                0 ./usr/lib/perl/ptest/try.out
--r-xr-xr-x root       root            28840 ./usr/lib/perl/ptest/t/TEST
+-r-xr-xr-x root       root            28833 ./usr/lib/perl/ptest/t/TEST
 drwxr-xr-x root       root              120 ./usr/lib/perl/ptest/t/test_pl
 -r--r--r-- root       root            51339 ./usr/lib/perl/ptest/t/test.pl
 -r--r--r-- root       root             1447 ./usr/lib/perl/ptest/t/test_pl/can_isa_ok.t
@@ -10926,7 +10962,7 @@ drwxr-xr-x root       root              180 ./usr/lib/perl/ptest/t/win32
 -r--r--r-- root       root           206926 ./usr/lib/perl/ptest/utf8.c
 -r--r--r-- root       root            47587 ./usr/lib/perl/ptest/utf8.h
 -r--r--r-- root       root            67051 ./usr/lib/perl/ptest/utfebcdic.h
--r--r--r-- root       root           183275 ./usr/lib/perl/ptest/util.c
+-r--r--r-- root       root           183278 ./usr/lib/perl/ptest/util.c
 -r--r--r-- root       root            10011 ./usr/lib/perl/ptest/util.h
 drwxr-xr-x root       root              980 ./usr/lib/perl/ptest/utils
 -rwxr-xr-x root       root            15088 ./usr/lib/perl/ptest/utils/corelist
@@ -10939,8 +10975,8 @@ drwxr-xr-x root       root              980 ./usr/lib/perl/ptest/utils
 -r--r--r-- root       root             1455 ./usr/lib/perl/ptest/utils/encguess.PL
 -rwxr-xr-x root       root            29224 ./usr/lib/perl/ptest/utils/h2ph
 -r--r--r-- root       root            30454 ./usr/lib/perl/ptest/utils/h2ph.PL
--rwxr-xr-x root       root            60866 ./usr/lib/perl/ptest/utils/h2xs
--r--r--r-- root       root            62081 ./usr/lib/perl/ptest/utils/h2xs.PL
+-rwxr-xr-x root       root            60930 ./usr/lib/perl/ptest/utils/h2xs
+-r--r--r-- root       root            62145 ./usr/lib/perl/ptest/utils/h2xs.PL
 -rwxr-xr-x root       root             4287 ./usr/lib/perl/ptest/utils/instmodsh
 -r--r--r-- root       root             1501 ./usr/lib/perl/ptest/utils/instmodsh.PL
 -rwxr-xr-x root       root             4667 ./usr/lib/perl/ptest/utils/json_pp
@@ -10949,8 +10985,8 @@ drwxr-xr-x root       root              980 ./usr/lib/perl/ptest/utils
 -r--r--r-- root       root            16990 ./usr/lib/perl/ptest/utils/libnetcfg.PL
 -r--r--r-- root       root              525 ./usr/lib/perl/ptest/utils.lst
 -r--r--r-- root       root             2800 ./usr/lib/perl/ptest/utils/Makefile.PL
--rwxr-xr-x root       root            46350 ./usr/lib/perl/ptest/utils/perlbug
--r--r--r-- root       root            48027 ./usr/lib/perl/ptest/utils/perlbug.PL
+-rwxr-xr-x root       root            45800 ./usr/lib/perl/ptest/utils/perlbug
+-r--r--r-- root       root            47477 ./usr/lib/perl/ptest/utils/perlbug.PL
 -rwxr-xr-x root       root              262 ./usr/lib/perl/ptest/utils/perldoc
 -r--r--r-- root       root             1733 ./usr/lib/perl/ptest/utils/perldoc.PL
 -rwxr-xr-x root       root            10807 ./usr/lib/perl/ptest/utils/perlivp
@@ -11017,7 +11053,7 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/win32/include/s
 -r--r--r-- root       root            10408 ./usr/lib/perl/ptest/win32/include/sys/socket.h
 -r--r--r-- root       root              544 ./usr/lib/perl/ptest/win32/list_static_libs.pl
 -rw-r--r-- root       root            30539 ./usr/lib/perl/ptest/win32/Makefile.ce
--rw-r--r-- root       root            63194 ./usr/lib/perl/ptest/win32/makefile.mk
+-rw-r--r-- root       root            63187 ./usr/lib/perl/ptest/win32/makefile.mk
 -r--r--r-- root       root             2862 ./usr/lib/perl/ptest/win32/perlexe.ico
 -r--r--r-- root       root             1652 ./usr/lib/perl/ptest/win32/perlexe.manifest
 -r--r--r-- root       root              199 ./usr/lib/perl/ptest/win32/perlexe.rc
@@ -11026,11 +11062,11 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/win32/include/s
 -r--r--r-- root       root             9588 ./usr/lib/perl/ptest/win32/perllib.c
 -r--r--r-- root       root              768 ./usr/lib/perl/ptest/win32/perlmaince.c
 -r--r--r-- root       root              841 ./usr/lib/perl/ptest/win32/perl.rc
--r--r--r-- root       root            12588 ./usr/lib/perl/ptest/win32/pod.mak
+-r--r--r-- root       root            12673 ./usr/lib/perl/ptest/win32/pod.mak
 -r--r--r-- root       root             1086 ./usr/lib/perl/ptest/win32/runperl.c
 -r--r--r-- root       root            18282 ./usr/lib/perl/ptest/win32/vdir.h
 -r--r--r-- root       root            30831 ./usr/lib/perl/ptest/win32/vmem.h
--r--r--r-- root       root           120909 ./usr/lib/perl/ptest/win32/win32.c
+-r--r--r-- root       root           120979 ./usr/lib/perl/ptest/win32/win32.c
 -r--r--r-- root       root             7720 ./usr/lib/perl/ptest/win32/win32ceio.c
 -r--r--r-- root       root            22649 ./usr/lib/perl/ptest/win32/win32.h
 -r--r--r-- root       root             7889 ./usr/lib/perl/ptest/win32/win32io.c

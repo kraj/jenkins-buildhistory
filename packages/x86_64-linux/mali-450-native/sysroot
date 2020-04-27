@@ -1,0 +1,41 @@
+drwxr-xr-x -          -                 160 ./sysroot-providers
+-rw-r--r-- -          -                  15 ./sysroot-providers/mali-450-native
+-rw-r--r-- -          -                  15 ./sysroot-providers/virtual_egl-native
+-rw-r--r-- -          -                  15 ./sysroot-providers/virtual_gpu-native
+-rw-r--r-- -          -                  15 ./sysroot-providers/virtual_libgbm-native
+-rw-r--r-- -          -                  15 ./sysroot-providers/virtual_libgles1-native
+-rw-r--r-- -          -                  15 ./sysroot-providers/virtual_libgles2-native
+drwxr-xr-x -          -                  80 ./usr
+drwxr-xr-x -          -                 120 ./usr/include
+drwxr-xr-x -          -                 100 ./usr/include/EGL
+-rw-r--r-- -          -               30753 ./usr/include/EGL/eglext.h
+-rw-r--r-- -          -               12353 ./usr/include/EGL/egl.h
+-rw-r--r-- -          -                1486 ./usr/include/EGL/eglplatform.h
+drwxr-xr-x -          -                 100 ./usr/include/GLES
+drwxr-xr-x -          -                 100 ./usr/include/GLES2
+-rw-r--r-- -          -               98695 ./usr/include/GLES2/gl2ext.h
+-rw-r--r-- -          -               31871 ./usr/include/GLES2/gl2.h
+-rw-r--r-- -          -                 909 ./usr/include/GLES2/gl2platform.h
+-rw-r--r-- -          -               64022 ./usr/include/GLES/glext.h
+-rw-r--r-- -          -               34332 ./usr/include/GLES/gl.h
+-rw-r--r-- -          -                 901 ./usr/include/GLES/glplatform.h
+drwxr-xr-x -          -                  60 ./usr/include/KHR
+-rw-r--r-- -          -               10008 ./usr/include/KHR/khrplatform.h
+drwxr-xr-x -          -                 300 ./usr/lib
+lrwxrwxrwx -          -                  10 ./usr/lib/libEGL.so.1.4 -> libMali.so
+lrwxrwxrwx -          -                  13 ./usr/lib/libEGL.so.1 -> libEGL.so.1.4
+lrwxrwxrwx -          -                  11 ./usr/lib/libEGL.so -> libEGL.so.1
+lrwxrwxrwx -          -                  10 ./usr/lib/libgbm.so -> libMali.so
+lrwxrwxrwx -          -                  10 ./usr/lib/libGLESv1_CM.so.1.1 -> libMali.so
+lrwxrwxrwx -          -                  19 ./usr/lib/libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1
+lrwxrwxrwx -          -                  17 ./usr/lib/libGLESv1_CM.so -> libGLESv1_CM.so.1
+lrwxrwxrwx -          -                  10 ./usr/lib/libGLESv2.so.2.0 -> libMali.so
+lrwxrwxrwx -          -                  16 ./usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0
+lrwxrwxrwx -          -                  14 ./usr/lib/libGLESv2.so -> libGLESv2.so.2
+-rw-r--r-- -          -             1850936 ./usr/lib/libMali.so
+lrwxrwxrwx -          -                  10 ./usr/lib/libOpenCL.so -> libMali.so
+drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 211 ./usr/lib/pkgconfig/egl.pc
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig/gbm
+-rw-r--r-- -          -                 192 ./usr/lib/pkgconfig/gbm/gbm.pc
+-rw-r--r-- -          -                 215 ./usr/lib/pkgconfig/glesv2.pc
