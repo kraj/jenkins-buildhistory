@@ -1,6 +1,8 @@
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  12 ./sysroot-providers/cairo-native
-drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -                3069 ./usr/bin/cairo-trace
 drwxr-xr-x -          -                  60 ./usr/include
 drwxrwxr-x -          -                 340 ./usr/include/cairo
 -rw-r--r-- -          -                8698 ./usr/include/cairo/cairo-deprecated.h
@@ -18,7 +20,9 @@ drwxrwxr-x -          -                 340 ./usr/include/cairo
 -rw-r--r-- -          -                3775 ./usr/include/cairo/cairo-xcb.h
 -rw-r--r-- -          -                3577 ./usr/include/cairo/cairo-xlib.h
 -rw-r--r-- -          -                2436 ./usr/include/cairo/cairo-xlib-xrender.h
-drwxr-xr-x -          -                 240 ./usr/lib
+drwxr-xr-x -          -                 260 ./usr/lib
+drwxrwxr-x -          -                  60 ./usr/lib/cairo
+-rwxr-xr-x -          -              112840 ./usr/lib/cairo/libcairo-trace.so
 -rwxr-xr-x -          -               34592 ./usr/lib/libcairo-gobject.so.2.11600.0
 lrwxrwxrwx -          -                  29 ./usr/lib/libcairo-gobject.so.2 -> libcairo-gobject.so.2.11600.0
 lrwxrwxrwx -          -                  29 ./usr/lib/libcairo-gobject.so -> libcairo-gobject.so.2.11600.0
@@ -32,7 +36,7 @@ drwxrwxr-x -          -                 320 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 326 ./usr/lib/pkgconfig/cairo-fc.pc
 -rw-r--r-- -          -                 323 ./usr/lib/pkgconfig/cairo-ft.pc
 -rw-r--r-- -          -                 360 ./usr/lib/pkgconfig/cairo-gobject.pc
--rw-r--r-- -          -                 518 ./usr/lib/pkgconfig/cairo.pc
+-rw-r--r-- -          -                 520 ./usr/lib/pkgconfig/cairo.pc
 -rw-r--r-- -          -                 306 ./usr/lib/pkgconfig/cairo-pdf.pc
 -rw-r--r-- -          -                 303 ./usr/lib/pkgconfig/cairo-png.pc
 -rw-r--r-- -          -                 312 ./usr/lib/pkgconfig/cairo-ps.pc
