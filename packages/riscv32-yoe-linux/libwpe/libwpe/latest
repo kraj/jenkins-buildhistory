@@ -2,7 +2,7 @@ PV = 1.6.0
 PR = r0
 PKG = libwpe-1.0-1
 PKGR = r0.0
-RPROVIDES = libwpe (=1.6.0)
+RPROVIDES = libwpe libwpe (=1.6.0) virtual
 RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libstdc++ (>= 9.3.0) libxkbcommon (>= 0.10.0)
 RRECOMMENDS = 
 PKGSIZE = 25939

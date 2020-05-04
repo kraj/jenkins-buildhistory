@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/egl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland
+PACKAGES = waylandeglinfo-src waylandeglinfo-dbg waylandeglinfo-staticdev waylandeglinfo-dev waylandeglinfo-doc waylandeglinfo-locale waylandeglinfo
+LAYER = webkit

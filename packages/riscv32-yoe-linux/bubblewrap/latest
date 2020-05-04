@@ -1,0 +1,5 @@
+PV = 0.4.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libcap libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = bubblewrap-src bubblewrap-dbg bubblewrap-staticdev bubblewrap-dev bubblewrap-doc bubblewrap-locale bubblewrap
+LAYER = webkit
