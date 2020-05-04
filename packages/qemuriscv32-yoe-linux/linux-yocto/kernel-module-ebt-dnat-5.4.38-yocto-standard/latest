@@ -1,0 +1,10 @@
+PV = 5.4.38+gitAUTOINC+f405543442_6cb5b11e83
+PR = r0
+PKGV = 5.4.38+git0+f405543442_6cb5b11e83
+PKGR = r0.1
+RPROVIDES = kernel-module-ebt-dnat
+RDEPENDS = kernel-5.4.38-yocto-standard kernel-module-x-tables-5.4.38-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4196
+FILES = /lib/modules/5.4.38-yocto-standard/kernel/net/bridge/netfilter/ebt_dnat.ko /etc/modules-load.d/ebt_dnat.conf /etc/modprobe.d/ebt_dnat.conf
+FILELIST = /lib/modules/5.4.38-yocto-standard/kernel/net/bridge/netfilter/ebt_dnat.ko

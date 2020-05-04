@@ -1,8 +1,8 @@
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root              140 ./usr/include
+drwxr-xr-x root       root              160 ./usr/include
 drwxr-xr-x root       root              100 ./usr/include/avahi-client
 -rw-r--r-- root       root             5119 ./usr/include/avahi-client/client.h
--rw-r--r-- root       root            11112 ./usr/include/avahi-client/lookup.h
+-rw-r--r-- root       root            11963 ./usr/include/avahi-client/lookup.h
 -rw-r--r-- root       root             8889 ./usr/include/avahi-client/publish.h
 drwxr-xr-x root       root              340 ./usr/include/avahi-common
 -rw-r--r-- root       root             4046 ./usr/include/avahi-common/address.h
@@ -21,9 +21,9 @@ drwxr-xr-x root       root              340 ./usr/include/avahi-common
 -rw-r--r-- root       root             1994 ./usr/include/avahi-common/timeval.h
 -rw-r--r-- root       root             3751 ./usr/include/avahi-common/watch.h
 drwxr-xr-x root       root              140 ./usr/include/avahi-core
--rw-r--r-- root       root             8961 ./usr/include/avahi-core/core.h
+-rw-r--r-- root       root             9089 ./usr/include/avahi-core/core.h
 -rw-r--r-- root       root             2569 ./usr/include/avahi-core/log.h
--rw-r--r-- root       root            10452 ./usr/include/avahi-core/lookup.h
+-rw-r--r-- root       root            15066 ./usr/include/avahi-core/lookup.h
 -rw-r--r-- root       root             8076 ./usr/include/avahi-core/publish.h
 -rw-r--r-- root       root             6545 ./usr/include/avahi-core/rr.h
 drwxr-xr-x root       root               80 ./usr/include/avahi-glib
@@ -37,14 +37,18 @@ drwxr-xr-x root       root              180 ./usr/include/avahi-gobject
 -rw-r--r-- root       root             2653 ./usr/include/avahi-gobject/ga-record-browser.h
 -rw-r--r-- root       root             2540 ./usr/include/avahi-gobject/ga-service-browser.h
 -rw-r--r-- root       root             2799 ./usr/include/avahi-gobject/ga-service-resolver.h
-drwxr-xr-x root       root              160 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/include/avahi-ui
+-rw-r--r-- root       root             7128 ./usr/include/avahi-ui/avahi-ui.h
+drwxr-xr-x root       root              180 ./usr/lib
 lrwxrwxrwx root       root               24 ./usr/lib/libavahi-client.so -> libavahi-client.so.3.2.9
-lrwxrwxrwx root       root               24 ./usr/lib/libavahi-common.so -> libavahi-common.so.3.5.3
-lrwxrwxrwx root       root               22 ./usr/lib/libavahi-core.so -> libavahi-core.so.7.0.2
+lrwxrwxrwx root       root               24 ./usr/lib/libavahi-common.so -> libavahi-common.so.3.5.4
+lrwxrwxrwx root       root               22 ./usr/lib/libavahi-core.so -> libavahi-core.so.7.1.0
 lrwxrwxrwx root       root               22 ./usr/lib/libavahi-glib.so -> libavahi-glib.so.1.0.2
 lrwxrwxrwx root       root               25 ./usr/lib/libavahi-gobject.so -> libavahi-gobject.so.0.0.5
-drwxr-xr-x root       root              120 ./usr/lib/pkgconfig
+lrwxrwxrwx root       root               25 ./usr/lib/libavahi-ui-gtk3.so -> libavahi-ui-gtk3.so.0.1.4
+drwxr-xr-x root       root              140 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/avahi-client.pc
 -rw-r--r-- root       root              255 ./usr/lib/pkgconfig/avahi-core.pc
 -rw-r--r-- root       root              255 ./usr/lib/pkgconfig/avahi-glib.pc
 -rw-r--r-- root       root              313 ./usr/lib/pkgconfig/avahi-gobject.pc
+-rw-r--r-- root       root              290 ./usr/lib/pkgconfig/avahi-ui-gtk3.pc

@@ -1,0 +1,10 @@
+PV = 5.4.38+gitAUTOINC+f405543442_6cb5b11e83
+PR = r0
+PKGV = 5.4.38+git0+f405543442_6cb5b11e83
+PKGR = r0.1
+RPROVIDES = kernel-module-ebt-log
+RDEPENDS = kernel-5.4.38-yocto-standard kernel-module-x-tables-5.4.38-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7828
+FILES = /lib/modules/5.4.38-yocto-standard/kernel/net/bridge/netfilter/ebt_log.ko /etc/modules-load.d/ebt_log.conf /etc/modprobe.d/ebt_log.conf
+FILELIST = /lib/modules/5.4.38-yocto-standard/kernel/net/bridge/netfilter/ebt_log.ko

@@ -1,0 +1,9 @@
+PV = 2.11.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = kernel-module-lttng-clock-plugin-test
+RDEPENDS = kernel-5.4.38-yocto-standard kernel-module-lttng-clock-5.4.38-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4124
+FILES = /lib/modules/5.4.38-yocto-standard/kernel/lttng-modules/tests/lttng-clock-plugin-test.ko /etc/modules-load.d/lttng-clock-plugin-test.conf /etc/modprobe.d/lttng-clock-plugin-test.conf
+FILELIST = /lib/modules/5.4.38-yocto-standard/kernel/lttng-modules/tests/lttng-clock-plugin-test.ko

@@ -9,10 +9,10 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                  60 ./usr/bin
 -rwxr-xr-x -          -               14292 ./usr/bin/postinst-useradd-avahi
-drwxr-xr-x -          -                 140 ./usr/include
+drwxr-xr-x -          -                 160 ./usr/include
 drwxr-xr-x -          -                 100 ./usr/include/avahi-client
 -rw-r--r-- -          -                5119 ./usr/include/avahi-client/client.h
--rw-r--r-- -          -               11112 ./usr/include/avahi-client/lookup.h
+-rw-r--r-- -          -               11963 ./usr/include/avahi-client/lookup.h
 -rw-r--r-- -          -                8889 ./usr/include/avahi-client/publish.h
 drwxr-xr-x -          -                 340 ./usr/include/avahi-common
 -rw-r--r-- -          -                4046 ./usr/include/avahi-common/address.h
@@ -31,9 +31,9 @@ drwxr-xr-x -          -                 340 ./usr/include/avahi-common
 -rw-r--r-- -          -                1994 ./usr/include/avahi-common/timeval.h
 -rw-r--r-- -          -                3751 ./usr/include/avahi-common/watch.h
 drwxr-xr-x -          -                 140 ./usr/include/avahi-core
--rw-r--r-- -          -                8961 ./usr/include/avahi-core/core.h
+-rw-r--r-- -          -                9089 ./usr/include/avahi-core/core.h
 -rw-r--r-- -          -                2569 ./usr/include/avahi-core/log.h
--rw-r--r-- -          -               10452 ./usr/include/avahi-core/lookup.h
+-rw-r--r-- -          -               15066 ./usr/include/avahi-core/lookup.h
 -rw-r--r-- -          -                8076 ./usr/include/avahi-core/publish.h
 -rw-r--r-- -          -                6545 ./usr/include/avahi-core/rr.h
 drwxr-xr-x -          -                  80 ./usr/include/avahi-glib
@@ -47,30 +47,38 @@ drwxr-xr-x -          -                 180 ./usr/include/avahi-gobject
 -rw-r--r-- -          -                2653 ./usr/include/avahi-gobject/ga-record-browser.h
 -rw-r--r-- -          -                2540 ./usr/include/avahi-gobject/ga-service-browser.h
 -rw-r--r-- -          -                2799 ./usr/include/avahi-gobject/ga-service-resolver.h
-drwxr-xr-x -          -                 360 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/include/avahi-ui
+-rw-r--r-- -          -                7128 ./usr/include/avahi-ui/avahi-ui.h
+drwxr-xr-x -          -                 420 ./usr/lib
 -rwxr-xr-x -          -               46648 ./usr/lib/libavahi-client.so.3.2.9
 lrwxrwxrwx -          -                  24 ./usr/lib/libavahi-client.so.3 -> libavahi-client.so.3.2.9
 lrwxrwxrwx -          -                  24 ./usr/lib/libavahi-client.so -> libavahi-client.so.3.2.9
--rwxr-xr-x -          -               38520 ./usr/lib/libavahi-common.so.3.5.3
-lrwxrwxrwx -          -                  24 ./usr/lib/libavahi-common.so.3 -> libavahi-common.so.3.5.3
-lrwxrwxrwx -          -                  24 ./usr/lib/libavahi-common.so -> libavahi-common.so.3.5.3
--rwxr-xr-x -          -              154084 ./usr/lib/libavahi-core.so.7.0.2
-lrwxrwxrwx -          -                  22 ./usr/lib/libavahi-core.so.7 -> libavahi-core.so.7.0.2
-lrwxrwxrwx -          -                  22 ./usr/lib/libavahi-core.so -> libavahi-core.so.7.0.2
+-rwxr-xr-x -          -               38520 ./usr/lib/libavahi-common.so.3.5.4
+lrwxrwxrwx -          -                  24 ./usr/lib/libavahi-common.so.3 -> libavahi-common.so.3.5.4
+lrwxrwxrwx -          -                  24 ./usr/lib/libavahi-common.so -> libavahi-common.so.3.5.4
+-rwxr-xr-x -          -              154148 ./usr/lib/libavahi-core.so.7.1.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libavahi-core.so.7 -> libavahi-core.so.7.1.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libavahi-core.so -> libavahi-core.so.7.1.0
 -rwxr-xr-x -          -                9376 ./usr/lib/libavahi-glib.so.1.0.2
 lrwxrwxrwx -          -                  22 ./usr/lib/libavahi-glib.so.1 -> libavahi-glib.so.1.0.2
 lrwxrwxrwx -          -                  22 ./usr/lib/libavahi-glib.so -> libavahi-glib.so.1.0.2
 -rwxr-xr-x -          -               30316 ./usr/lib/libavahi-gobject.so.0.0.5
 lrwxrwxrwx -          -                  25 ./usr/lib/libavahi-gobject.so.0 -> libavahi-gobject.so.0.0.5
 lrwxrwxrwx -          -                  25 ./usr/lib/libavahi-gobject.so -> libavahi-gobject.so.0.0.5
-drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
+-rwxr-xr-x -          -               34532 ./usr/lib/libavahi-ui-gtk3.so.0.1.4
+lrwxrwxrwx -          -                  25 ./usr/lib/libavahi-ui-gtk3.so.0 -> libavahi-ui-gtk3.so.0.1.4
+lrwxrwxrwx -          -                  25 ./usr/lib/libavahi-ui-gtk3.so -> libavahi-ui-gtk3.so.0.1.4
+drwxr-xr-x -          -                 140 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 257 ./usr/lib/pkgconfig/avahi-client.pc
 -rw-r--r-- -          -                 255 ./usr/lib/pkgconfig/avahi-core.pc
 -rw-r--r-- -          -                 255 ./usr/lib/pkgconfig/avahi-glib.pc
 -rw-r--r-- -          -                 313 ./usr/lib/pkgconfig/avahi-gobject.pc
+-rw-r--r-- -          -                 290 ./usr/lib/pkgconfig/avahi-ui-gtk3.pc
 drwxr-xr-x -          -                  80 ./usr/share
-drwxr-xr-x -          -                  60 ./usr/share/avahi
+drwxr-xr-x -          -                  80 ./usr/share/avahi
 -rw-r--r-- -          -                 612 ./usr/share/avahi/avahi-service.dtd
+drwxr-xr-x -          -                  60 ./usr/share/avahi/interfaces
+-rw-r--r-- -          -                4101 ./usr/share/avahi/interfaces/avahi-discover.ui
 drwxr-xr-x -          -                  60 ./usr/share/dbus-1
 drwxr-xr-x -          -                  60 ./usr/share/dbus-1/system-services
 -rw-r--r-- -          -                 971 ./usr/share/dbus-1/system-services/org.freedesktop.Avahi.service

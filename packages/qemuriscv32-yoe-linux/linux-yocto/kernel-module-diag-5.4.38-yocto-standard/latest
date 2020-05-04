@@ -1,0 +1,10 @@
+PV = 5.4.38+gitAUTOINC+f405543442_6cb5b11e83
+PR = r0
+PKGV = 5.4.38+git0+f405543442_6cb5b11e83
+PKGR = r0.1
+RPROVIDES = kernel-module-diag
+RDEPENDS = kernel-5.4.38-yocto-standard kernel-module-tipc-5.4.38-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4144
+FILES = /lib/modules/5.4.38-yocto-standard/kernel/net/tipc/diag.ko /etc/modules-load.d/diag.conf /etc/modprobe.d/diag.conf
+FILELIST = /lib/modules/5.4.38-yocto-standard/kernel/net/tipc/diag.ko

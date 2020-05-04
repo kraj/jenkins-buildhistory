@@ -1,0 +1,10 @@
+PV = 5.4.38+gitAUTOINC+f405543442_6cb5b11e83
+PR = r0
+PKGV = 5.4.38+git0+f405543442_6cb5b11e83
+PKGR = r0.1
+RPROVIDES = kernel-module-ebt-vlan
+RDEPENDS = kernel-5.4.38-yocto-standard kernel-module-x-tables-5.4.38-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4076
+FILES = /lib/modules/5.4.38-yocto-standard/kernel/net/bridge/netfilter/ebt_vlan.ko /etc/modules-load.d/ebt_vlan.conf /etc/modprobe.d/ebt_vlan.conf
+FILELIST = /lib/modules/5.4.38-yocto-standard/kernel/net/bridge/netfilter/ebt_vlan.ko

@@ -1,10 +1,10 @@
-PV = 0.58.3
+PV = 0.60.2
 PR = r0
 PKG = libvte-2.91-0
 PKGR = r0.0
-RPROVIDES = libvte (=0.58.3)
-RDEPENDS = atk (>= 2.36.0) cairo (>= 1.16.0) fribidi (>= 1.0.9) glib-2.0 (>= 2.62.4) glibc (>= 2.31+git0+7b2b52134a) gnutls (>= 3.6.13) gtk+3 (>= 3.24.14) libgcc (>= 9.3.0) libpcre2 (>= 10.34) libstdc++ (>= 9.3.0) pango (>= 1.44.7) zlib (>= 1.2.11)
+RPROVIDES = libvte (=0.60.2)
+RDEPENDS = atk (>= 2.36.0) cairo (>= 1.16.0) fribidi (>= 1.0.9) glib-2.0 (>= 2.64.2) glibc (>= 2.31+git0+7b2b52134a) gnutls (>= 3.6.13) gtk+3 (>= 3.24.14) libgcc (>= 9.3.0) libicuuc (>= 66.1) libpcre2 (>= 10.34) libstdc++ (>= 9.3.0) pango (>= 1.44.7) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 302603
+PKGSIZE = 331407
 FILES = /usr/lib/*.so.* /usr/lib/girepository-1.0/*
-FILELIST = /usr/lib/libvte-2.91.so.0 /usr/lib/libvte-2.91.so.0.5800.3
+FILELIST = /usr/lib/libvte-2.91.so.0 /usr/lib/libvte-2.91.so.0.6000.2

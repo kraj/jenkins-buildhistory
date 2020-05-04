@@ -4,25 +4,25 @@ drwxr-xr-x -          -                 100 ./usr
 drwxr-xr-x -          -                  80 ./usr/include
 drwxr-xr-x -          -                  60 ./usr/include/gck-1
 drwxr-xr-x -          -                 180 ./usr/include/gck-1/gck
--rw-r--r-- -          -                5110 ./usr/include/gck-1/gck/gck-deprecated.h
--rw-r--r-- -          -                1054 ./usr/include/gck-1/gck/gck-enum-types.h
--rw-r--r-- -          -               82507 ./usr/include/gck-1/gck/gck.h
--rw-r--r-- -          -                1444 ./usr/include/gck-1/gck/gck-version.h
+-rw-r--r-- -          -                5959 ./usr/include/gck-1/gck/gck-deprecated.h
+-rw-r--r-- -          -                 829 ./usr/include/gck-1/gck/gck-enum-types.h
+-rw-r--r-- -          -               83548 ./usr/include/gck-1/gck/gck.h
+-rw-r--r-- -          -                1443 ./usr/include/gck-1/gck/gck-version.h
 -rw-r--r-- -          -                  99 ./usr/include/gck-1/gck/pkcs11.h
 -rw-r--r-- -          -                8160 ./usr/include/gck-1/gck/pkcs11n.h
 -rw-r--r-- -          -                1311 ./usr/include/gck-1/gck/pkcs11x.h
 drwxr-xr-x -          -                  80 ./usr/include/gcr-3
 drwxr-xr-x -          -                 680 ./usr/include/gcr-3/gcr
 -rw-r--r-- -          -                1952 ./usr/include/gcr-3/gcr/gcr-base.h
--rw-r--r-- -          -                5015 ./usr/include/gcr-3/gcr/gcr-certificate-chain.h
--rw-r--r-- -          -                6346 ./usr/include/gcr-3/gcr/gcr-certificate.h
--rw-r--r-- -          -                4386 ./usr/include/gcr-3/gcr/gcr-certificate-request.h
+-rw-r--r-- -          -                5084 ./usr/include/gcr-3/gcr/gcr-certificate-chain.h
+-rw-r--r-- -          -                6316 ./usr/include/gcr-3/gcr/gcr-certificate.h
+-rw-r--r-- -          -                4108 ./usr/include/gcr-3/gcr/gcr-certificate-request.h
 -rw-r--r-- -          -                2670 ./usr/include/gcr-3/gcr/gcr-collection.h
 -rw-r--r-- -          -                1525 ./usr/include/gcr-3/gcr/gcr-column.h
 -rw-r--r-- -          -                2059 ./usr/include/gcr-3/gcr/gcr-comparable.h
--rw-r--r-- -          -                2510 ./usr/include/gcr-3/gcr/gcr-deprecated-base.h
--rw-r--r-- -          -                2564 ./usr/include/gcr-3/gcr/gcr-enum-types-base.h
--rw-r--r-- -          -                3274 ./usr/include/gcr-3/gcr/gcr-filter-collection.h
+-rw-r--r-- -          -                2693 ./usr/include/gcr-3/gcr/gcr-deprecated-base.h
+-rw-r--r-- -          -                1884 ./usr/include/gcr-3/gcr/gcr-enum-types-base.h
+-rw-r--r-- -          -                3343 ./usr/include/gcr-3/gcr/gcr-filter-collection.h
 -rw-r--r-- -          -                1715 ./usr/include/gcr-3/gcr/gcr-fingerprint.h
 -rw-r--r-- -          -                1036 ./usr/include/gcr-3/gcr/gcr.h
 -rw-r--r-- -          -                1485 ./usr/include/gcr-3/gcr/gcr-icons.h
@@ -30,61 +30,58 @@ drwxr-xr-x -          -                 680 ./usr/include/gcr-3/gcr
 -rw-r--r-- -          -                4308 ./usr/include/gcr-3/gcr/gcr-import-interaction.h
 -rw-r--r-- -          -                2551 ./usr/include/gcr-3/gcr/gcr-library.h
 -rw-r--r-- -          -                2310 ./usr/include/gcr-3/gcr/gcr-mock-prompter.h
--rw-r--r-- -          -                6273 ./usr/include/gcr-3/gcr/gcr-parser.h
--rw-r--r-- -          -                3333 ./usr/include/gcr-3/gcr/gcr-pkcs11-certificate.h
+-rw-r--r-- -          -                6332 ./usr/include/gcr-3/gcr/gcr-parser.h
+-rw-r--r-- -          -                3403 ./usr/include/gcr-3/gcr/gcr-pkcs11-certificate.h
 -rw-r--r-- -          -                7630 ./usr/include/gcr-3/gcr/gcr-prompt.h
--rw-r--r-- -          -                4764 ./usr/include/gcr-3/gcr/gcr-secret-exchange.h
+-rw-r--r-- -          -                4831 ./usr/include/gcr-3/gcr/gcr-secret-exchange.h
 -rw-r--r-- -          -                2017 ./usr/include/gcr-3/gcr/gcr-secure-memory.h
--rw-r--r-- -          -                2613 ./usr/include/gcr-3/gcr/gcr-simple-certificate.h
--rw-r--r-- -          -                2498 ./usr/include/gcr-3/gcr/gcr-simple-collection.h
--rw-r--r-- -          -                2110 ./usr/include/gcr-3/gcr/gcr-ssh-askpass.h
--rw-r--r-- -          -                3363 ./usr/include/gcr-3/gcr/gcr-system-prompter.h
--rw-r--r-- -          -                5056 ./usr/include/gcr-3/gcr/gcr-system-prompt.h
+-rw-r--r-- -          -                2683 ./usr/include/gcr-3/gcr/gcr-simple-certificate.h
+-rw-r--r-- -          -                2567 ./usr/include/gcr-3/gcr/gcr-simple-collection.h
+-rw-r--r-- -          -                1497 ./usr/include/gcr-3/gcr/gcr-ssh-askpass.h
+-rw-r--r-- -          -                3430 ./usr/include/gcr-3/gcr/gcr-system-prompter.h
+-rw-r--r-- -          -                5121 ./usr/include/gcr-3/gcr/gcr-system-prompt.h
 -rw-r--r-- -          -                5631 ./usr/include/gcr-3/gcr/gcr-trust.h
 -rw-r--r-- -          -                2971 ./usr/include/gcr-3/gcr/gcr-types.h
--rw-r--r-- -          -                3101 ./usr/include/gcr-3/gcr/gcr-union-collection.h
+-rw-r--r-- -          -                3169 ./usr/include/gcr-3/gcr/gcr-union-collection.h
 -rw-r--r-- -          -                1029 ./usr/include/gcr-3/gcr/gcr-unlock-options.h
 -rw-r--r-- -          -                1468 ./usr/include/gcr-3/gcr/gcr-version.h
 drwxr-xr-x -          -                 460 ./usr/include/gcr-3/ui
--rw-r--r-- -          -                2746 ./usr/include/gcr-3/ui/gcr-certificate-basics-widget.h
--rw-r--r-- -          -                2781 ./usr/include/gcr-3/ui/gcr-certificate-details-widget.h
--rw-r--r-- -          -                2992 ./usr/include/gcr-3/ui/gcr-certificate-renderer.h
--rw-r--r-- -          -                2727 ./usr/include/gcr-3/ui/gcr-certificate-widget.h
--rw-r--r-- -          -                4675 ./usr/include/gcr-3/ui/gcr-collection-model.h
--rw-r--r-- -          -                2468 ./usr/include/gcr-3/ui/gcr-combo-selector.h
--rw-r--r-- -          -                2038 ./usr/include/gcr-3/ui/gcr-deprecated.h
--rw-r--r-- -          -                 538 ./usr/include/gcr-3/ui/gcr-enum-types.h
--rw-r--r-- -          -                2524 ./usr/include/gcr-3/ui/gcr-failure-renderer.h
--rw-r--r-- -          -                2580 ./usr/include/gcr-3/ui/gcr-import-button.h
+-rw-r--r-- -          -                2955 ./usr/include/gcr-3/ui/gcr-certificate-basics-widget.h
+-rw-r--r-- -          -                2990 ./usr/include/gcr-3/ui/gcr-certificate-details-widget.h
+-rw-r--r-- -          -                3064 ./usr/include/gcr-3/ui/gcr-certificate-renderer.h
+-rw-r--r-- -          -                3092 ./usr/include/gcr-3/ui/gcr-certificate-widget.h
+-rw-r--r-- -          -                4743 ./usr/include/gcr-3/ui/gcr-collection-model.h
+-rw-r--r-- -          -                2534 ./usr/include/gcr-3/ui/gcr-combo-selector.h
+-rw-r--r-- -          -                1902 ./usr/include/gcr-3/ui/gcr-deprecated.h
+-rw-r--r-- -          -                 492 ./usr/include/gcr-3/ui/gcr-enum-types.h
+-rw-r--r-- -          -                2592 ./usr/include/gcr-3/ui/gcr-failure-renderer.h
+-rw-r--r-- -          -                2645 ./usr/include/gcr-3/ui/gcr-import-button.h
 -rw-r--r-- -          -                2535 ./usr/include/gcr-3/ui/gcr-key-renderer.h
--rw-r--r-- -          -                2370 ./usr/include/gcr-3/ui/gcr-key-widget.h
--rw-r--r-- -          -                2518 ./usr/include/gcr-3/ui/gcr-list-selector.h
--rw-r--r-- -          -                2180 ./usr/include/gcr-3/ui/gcr-prompt-dialog.h
+-rw-r--r-- -          -                2432 ./usr/include/gcr-3/ui/gcr-key-widget.h
+-rw-r--r-- -          -                2583 ./usr/include/gcr-3/ui/gcr-list-selector.h
+-rw-r--r-- -          -                2245 ./usr/include/gcr-3/ui/gcr-prompt-dialog.h
 -rw-r--r-- -          -                3127 ./usr/include/gcr-3/ui/gcr-renderer.h
--rw-r--r-- -          -                2583 ./usr/include/gcr-3/ui/gcr-secure-entry-buffer.h
--rw-r--r-- -          -                2611 ./usr/include/gcr-3/ui/gcr-tree-selector.h
+-rw-r--r-- -          -                2653 ./usr/include/gcr-3/ui/gcr-secure-entry-buffer.h
+-rw-r--r-- -          -                2676 ./usr/include/gcr-3/ui/gcr-tree-selector.h
 -rw-r--r-- -          -                1741 ./usr/include/gcr-3/ui/gcr-ui.h
--rw-r--r-- -          -                4236 ./usr/include/gcr-3/ui/gcr-unlock-options-widget.h
+-rw-r--r-- -          -                4308 ./usr/include/gcr-3/ui/gcr-unlock-options-widget.h
 -rw-r--r-- -          -                3028 ./usr/include/gcr-3/ui/gcr-viewer.h
--rw-r--r-- -          -                2925 ./usr/include/gcr-3/ui/gcr-viewer-widget.h
-drwxr-xr-x -          -                 300 ./usr/lib
--rwxr-xr-x -          -              154096 ./usr/lib/libgck-1.so.0.0.0
+-rw-r--r-- -          -                2698 ./usr/include/gcr-3/ui/gcr-viewer-widget.h
+drwxr-xr-x -          -                 240 ./usr/lib
+-rwxr-xr-x -          -              154104 ./usr/lib/libgck-1.so.0.0.0
 lrwxrwxrwx -          -                  17 ./usr/lib/libgck-1.so.0 -> libgck-1.so.0.0.0
-lrwxrwxrwx -          -                  17 ./usr/lib/libgck-1.so -> libgck-1.so.0.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libgcr-3.so.1.0.0 -> libgcr-ui-3.so.1.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libgcr-3.so.1 -> libgcr-ui-3.so.1.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libgcr-3.so -> libgcr-ui-3.so.1.0.0
--rwxr-xr-x -          -              415576 ./usr/lib/libgcr-base-3.so.1.0.0
+lrwxrwxrwx -          -                  13 ./usr/lib/libgck-1.so -> libgck-1.so.0
+-rwxr-xr-x -          -              424032 ./usr/lib/libgcr-base-3.so.1.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/libgcr-base-3.so.1 -> libgcr-base-3.so.1.0.0
-lrwxrwxrwx -          -                  22 ./usr/lib/libgcr-base-3.so -> libgcr-base-3.so.1.0.0
--rwxr-xr-x -          -              333436 ./usr/lib/libgcr-ui-3.so.1.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libgcr-base-3.so -> libgcr-base-3.so.1
+-rwxr-xr-x -          -              292280 ./usr/lib/libgcr-ui-3.so.1.0.0
 lrwxrwxrwx -          -                  20 ./usr/lib/libgcr-ui-3.so.1 -> libgcr-ui-3.so.1.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libgcr-ui-3.so -> libgcr-ui-3.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libgcr-ui-3.so -> libgcr-ui-3.so.1
 drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 308 ./usr/lib/pkgconfig/gck-1.pc
--rw-r--r-- -          -                 276 ./usr/lib/pkgconfig/gcr-3.pc
--rw-r--r-- -          -                 341 ./usr/lib/pkgconfig/gcr-base-3.pc
--rw-r--r-- -          -                 395 ./usr/lib/pkgconfig/gcr-ui-3.pc
+-rw-r--r-- -          -                 276 ./usr/lib/pkgconfig/gck-1.pc
+-rw-r--r-- -          -                 312 ./usr/lib/pkgconfig/gcr-3.pc
+-rw-r--r-- -          -                 330 ./usr/lib/pkgconfig/gcr-base-3.pc
+-rw-r--r-- -          -                 334 ./usr/lib/pkgconfig/gcr-ui-3.pc
 drwxr-xr-x -          -                 140 ./usr/share
 drwxr-xr-x -          -                  60 ./usr/share/dbus-1
 drwxr-xr-x -          -                  80 ./usr/share/dbus-1/services

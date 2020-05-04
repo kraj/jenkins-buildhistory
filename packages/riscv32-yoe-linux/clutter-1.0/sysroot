@@ -39,7 +39,7 @@ drwxr-xr-x -          -                1840 ./usr/include/clutter-1.0/clutter
 -rw-r--r-- -          -                7447 ./usr/include/clutter-1.0/clutter/clutter-color.h
 -rw-r--r-- -          -                2371 ./usr/include/clutter-1.0/clutter/clutter-colorize-effect.h
 -rw-r--r-- -          -                4483 ./usr/include/clutter-1.0/clutter/clutter-color-static.h
--rw-r--r-- -          -                 610 ./usr/include/clutter-1.0/clutter/clutter-config.h
+-rw-r--r-- -          -                 530 ./usr/include/clutter-1.0/clutter/clutter-config.h
 -rw-r--r-- -          -                5090 ./usr/include/clutter-1.0/clutter/clutter-constraint.h
 -rw-r--r-- -          -                9806 ./usr/include/clutter-1.0/clutter/clutter-container.h
 -rw-r--r-- -          -                3700 ./usr/include/clutter-1.0/clutter/clutter-content.h
@@ -51,7 +51,7 @@ drwxr-xr-x -          -                1840 ./usr/include/clutter-1.0/clutter
 -rw-r--r-- -          -                4005 ./usr/include/clutter-1.0/clutter/clutter-drop-action.h
 -rw-r--r-- -          -                4529 ./usr/include/clutter-1.0/clutter/clutter-effect.h
 -rw-r--r-- -          -               49070 ./usr/include/clutter-1.0/clutter/clutter-enums.h
--rw-r--r-- -          -               10005 ./usr/include/clutter-1.0/clutter/clutter-enum-types.h
+-rw-r--r-- -          -                9792 ./usr/include/clutter-1.0/clutter/clutter-enum-types.h
 -rw-r--r-- -          -               24335 ./usr/include/clutter-1.0/clutter/clutter-event.h
 -rw-r--r-- -          -                1324 ./usr/include/clutter-1.0/clutter/clutter-feature.h
 -rw-r--r-- -          -                2716 ./usr/include/clutter-1.0/clutter/clutter-fixed-layout.h
@@ -69,7 +69,7 @@ drwxr-xr-x -          -                1840 ./usr/include/clutter-1.0/clutter
 -rw-r--r-- -          -                3222 ./usr/include/clutter-1.0/clutter/clutter-layout-meta.h
 -rw-r--r-- -          -               14356 ./usr/include/clutter-1.0/clutter/clutter-macros.h
 -rw-r--r-- -          -                7794 ./usr/include/clutter-1.0/clutter/clutter-main.h
--rw-r--r-- -          -               17081 ./usr/include/clutter-1.0/clutter/clutter-marshal.h
+-rw-r--r-- -          -               31692 ./usr/include/clutter-1.0/clutter/clutter-marshal.h
 -rw-r--r-- -          -                4729 ./usr/include/clutter-1.0/clutter/clutter-offscreen-effect.h
 -rw-r--r-- -          -                3053 ./usr/include/clutter-1.0/clutter/clutter-page-turn-effect.h
 -rw-r--r-- -          -                4922 ./usr/include/clutter-1.0/clutter/clutter-paint-node.h
@@ -173,11 +173,11 @@ drwxr-xr-x -          -                 380 ./usr/lib/clutter/examples
 -rwxr-xr-x -          -                9592 ./usr/lib/clutter/examples/rounded-rectangle
 -rwxr-xr-x -          -                9656 ./usr/lib/clutter/examples/scroll-actor
 -rwxr-xr-x -          -                9632 ./usr/lib/clutter/examples/threads
--rwxr-xr-x -          -              935964 ./usr/lib/libclutter-1.0.so.0.2600.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-1.0.so.0 -> libclutter-1.0.so.0.2600.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-1.0.so -> libclutter-1.0.so.0.2600.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-glx-1.0.so.0 -> libclutter-1.0.so.0.2600.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-glx-1.0.so -> libclutter-1.0.so.0.2600.2
+-rwxr-xr-x -          -              940064 ./usr/lib/libclutter-1.0.so.0.2600.4
+lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-1.0.so.0 -> libclutter-1.0.so.0.2600.4
+lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-1.0.so -> libclutter-1.0.so.0.2600.4
+lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-glx-1.0.so.0 -> libclutter-1.0.so.0.2600.4
+lrwxrwxrwx -          -                  26 ./usr/lib/libclutter-glx-1.0.so -> libclutter-1.0.so.0.2600.4
 drwxr-xr-x -          -                 200 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 286 ./usr/lib/pkgconfig/cally-1.0.pc
 -rw-r--r-- -          -                 751 ./usr/lib/pkgconfig/clutter-1.0.pc
@@ -187,7 +187,10 @@ drwxr-xr-x -          -                 200 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 751 ./usr/lib/pkgconfig/clutter-glx-1.0.pc
 -rw-r--r-- -          -                 751 ./usr/lib/pkgconfig/clutter-wayland-1.0.pc
 -rw-r--r-- -          -                 751 ./usr/lib/pkgconfig/clutter-x11-1.0.pc
-drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                  80 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/clutter-1.0
+drwxr-xr-x -          -                  60 ./usr/share/clutter-1.0/valgrind
+-rw-r--r-- -          -                2058 ./usr/share/clutter-1.0/valgrind/clutter.supp
 drwxr-xr-x -          -                  60 ./usr/share/installed-tests
 drwxr-xr-x -          -                 560 ./usr/share/installed-tests/clutter
 -rw-r--r-- -          -                 147 ./usr/share/installed-tests/clutter/actor-anchors.test

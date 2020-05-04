@@ -15,7 +15,7 @@ drwxr-xr-x -          -                 240 ./usr/include/gio-unix-2.0/gio
 -rw-r--r-- -          -                3050 ./usr/include/gio-unix-2.0/gio/gunixoutputstream.h
 -rw-r--r-- -          -                3424 ./usr/include/gio-unix-2.0/gio/gunixsocketaddress.h
 drwxr-xr-x -          -                 180 ./usr/include/glib-2.0
-drwxr-xr-x -          -                3020 ./usr/include/glib-2.0/gio
+drwxr-xr-x -          -                3040 ./usr/include/glib-2.0/gio
 -rw-r--r-- -          -                1768 ./usr/include/glib-2.0/gio/gactiongroupexporter.h
 -rw-r--r-- -          -                9167 ./usr/include/glib-2.0/gio/gactiongroup.h
 -rw-r--r-- -          -                4610 ./usr/include/glib-2.0/gio/gaction.h
@@ -41,7 +41,7 @@ drwxr-xr-x -          -                3020 ./usr/include/glib-2.0/gio
 -rw-r--r-- -          -                2739 ./usr/include/glib-2.0/gio/gdbusactiongroup.h
 -rw-r--r-- -          -                2670 ./usr/include/glib-2.0/gio/gdbusaddress.h
 -rw-r--r-- -          -                2130 ./usr/include/glib-2.0/gio/gdbusauthobserver.h
--rw-r--r-- -          -               38887 ./usr/include/glib-2.0/gio/gdbusconnection.h
+-rw-r--r-- -          -               38873 ./usr/include/glib-2.0/gio/gdbusconnection.h
 -rw-r--r-- -          -                4306 ./usr/include/glib-2.0/gio/gdbuserror.h
 -rw-r--r-- -          -                3069 ./usr/include/glib-2.0/gio/gdbusinterface.h
 -rw-r--r-- -          -                6055 ./usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h
@@ -68,9 +68,9 @@ drwxr-xr-x -          -                3020 ./usr/include/glib-2.0/gio
 -rw-r--r-- -          -                2155 ./usr/include/glib-2.0/gio/gemblem.h
 -rw-r--r-- -          -                2801 ./usr/include/glib-2.0/gio/gfileattribute.h
 -rw-r--r-- -          -                6393 ./usr/include/glib-2.0/gio/gfileenumerator.h
--rw-r--r-- -          -               79635 ./usr/include/glib-2.0/gio/gfile.h
+-rw-r--r-- -          -               79870 ./usr/include/glib-2.0/gio/gfile.h
 -rw-r--r-- -          -                1959 ./usr/include/glib-2.0/gio/gfileicon.h
--rw-r--r-- -          -               44199 ./usr/include/glib-2.0/gio/gfileinfo.h
+-rw-r--r-- -          -               44335 ./usr/include/glib-2.0/gio/gfileinfo.h
 -rw-r--r-- -          -                4656 ./usr/include/glib-2.0/gio/gfileinputstream.h
 -rw-r--r-- -          -                5041 ./usr/include/glib-2.0/gio/gfileiostream.h
 -rw-r--r-- -          -                3280 ./usr/include/glib-2.0/gio/gfilemonitor.h
@@ -85,18 +85,19 @@ drwxr-xr-x -          -                3020 ./usr/include/glib-2.0/gio
 -rw-r--r-- -          -                2976 ./usr/include/glib-2.0/gio/ginitable.h
 -rw-r--r-- -          -                9188 ./usr/include/glib-2.0/gio/ginputstream.h
 -rw-r--r-- -          -                9066 ./usr/include/glib-2.0/gio/gio-autocleanups.h
--rw-r--r-- -          -               75329 ./usr/include/glib-2.0/gio/gioenums.h
--rw-r--r-- -          -               12339 ./usr/include/glib-2.0/gio/gioenumtypes.h
+-rw-r--r-- -          -               76503 ./usr/include/glib-2.0/gio/gioenums.h
+-rw-r--r-- -          -               12517 ./usr/include/glib-2.0/gio/gioenumtypes.h
 -rw-r--r-- -          -                1558 ./usr/include/glib-2.0/gio/gioerror.h
--rw-r--r-- -          -                5614 ./usr/include/glib-2.0/gio/gio.h
+-rw-r--r-- -          -                5646 ./usr/include/glib-2.0/gio/gio.h
 -rw-r--r-- -          -                8064 ./usr/include/glib-2.0/gio/giomodule.h
 -rw-r--r-- -          -                1999 ./usr/include/glib-2.0/gio/gioscheduler.h
 -rw-r--r-- -          -                4862 ./usr/include/glib-2.0/gio/giostream.h
 -rw-r--r-- -          -               24681 ./usr/include/glib-2.0/gio/giotypes.h
 -rw-r--r-- -          -                2576 ./usr/include/glib-2.0/gio/glistmodel.h
--rw-r--r-- -          -                3475 ./usr/include/glib-2.0/gio/gliststore.h
+-rw-r--r-- -          -                4178 ./usr/include/glib-2.0/gio/gliststore.h
 -rw-r--r-- -          -                3671 ./usr/include/glib-2.0/gio/gloadableicon.h
 -rw-r--r-- -          -                3434 ./usr/include/glib-2.0/gio/gmemoryinputstream.h
+-rw-r--r-- -          -                2140 ./usr/include/glib-2.0/gio/gmemorymonitor.h
 -rw-r--r-- -          -                3933 ./usr/include/glib-2.0/gio/gmemoryoutputstream.h
 -rw-r--r-- -          -                1611 ./usr/include/glib-2.0/gio/gmenuexporter.h
 -rw-r--r-- -          -                8940 ./usr/include/glib-2.0/gio/gmenu.h
@@ -145,7 +146,7 @@ drwxr-xr-x -          -                3020 ./usr/include/glib-2.0/gio
 -rw-r--r-- -          -                1936 ./usr/include/glib-2.0/gio/gsrvtarget.h
 -rw-r--r-- -          -                8606 ./usr/include/glib-2.0/gio/gsubprocess.h
 -rw-r--r-- -          -                6399 ./usr/include/glib-2.0/gio/gsubprocesslauncher.h
--rw-r--r-- -          -                7871 ./usr/include/glib-2.0/gio/gtask.h
+-rw-r--r-- -          -                8278 ./usr/include/glib-2.0/gio/gtask.h
 -rw-r--r-- -          -                2957 ./usr/include/glib-2.0/gio/gtcpconnection.h
 -rw-r--r-- -          -                2973 ./usr/include/glib-2.0/gio/gtcpwrapperconnection.h
 -rw-r--r-- -          -                2303 ./usr/include/glib-2.0/gio/gtestdbus.h
@@ -174,9 +175,9 @@ drwxr-xr-x -          -                 160 ./usr/include/glib-2.0/glib/deprecat
 -rw-r--r-- -          -                3682 ./usr/include/glib-2.0/glib/deprecated/grel.h
 -rw-r--r-- -          -               10938 ./usr/include/glib-2.0/glib/deprecated/gthread.h
 -rw-r--r-- -          -                3912 ./usr/include/glib-2.0/glib/galloca.h
--rw-r--r-- -          -               10923 ./usr/include/glib-2.0/glib/garray.h
+-rw-r--r-- -          -               11385 ./usr/include/glib-2.0/glib/garray.h
 -rw-r--r-- -          -                5726 ./usr/include/glib-2.0/glib/gasyncqueue.h
--rw-r--r-- -          -               15272 ./usr/include/glib-2.0/glib/gatomic.h
+-rw-r--r-- -          -               23740 ./usr/include/glib-2.0/glib/gatomic.h
 -rw-r--r-- -          -                2727 ./usr/include/glib-2.0/glib/gbacktrace.h
 -rw-r--r-- -          -                2323 ./usr/include/glib-2.0/glib/gbase64.h
 -rw-r--r-- -          -                2902 ./usr/include/glib-2.0/glib/gbitlock.h
@@ -201,14 +202,14 @@ drwxr-xr-x -          -                 160 ./usr/include/glib-2.0/glib/deprecat
 -rw-r--r-- -          -                1370 ./usr/include/glib-2.0/glib/gi18n-lib.h
 -rw-r--r-- -          -               13954 ./usr/include/glib-2.0/glib/giochannel.h
 -rw-r--r-- -          -               14913 ./usr/include/glib-2.0/glib/gkeyfile.h
--rw-r--r-- -          -                4437 ./usr/include/glib-2.0/glib/glib-autocleanups.h
--rw-r--r-- -          -                6001 ./usr/include/glib-2.0/glib/glist.h
--rw-r--r-- -          -               41836 ./usr/include/glib-2.0/glib/gmacros.h
--rw-r--r-- -          -               25252 ./usr/include/glib-2.0/glib/gmain.h
+-rw-r--r-- -          -                4789 ./usr/include/glib-2.0/glib/glib-autocleanups.h
+-rw-r--r-- -          -                6930 ./usr/include/glib-2.0/glib/glist.h
+-rw-r--r-- -          -               42372 ./usr/include/glib-2.0/glib/gmacros.h
+-rw-r--r-- -          -               28138 ./usr/include/glib-2.0/glib/gmain.h
 -rw-r--r-- -          -                1986 ./usr/include/glib-2.0/glib/gmappedfile.h
 -rw-r--r-- -          -               10876 ./usr/include/glib-2.0/glib/gmarkup.h
 -rw-r--r-- -          -               14684 ./usr/include/glib-2.0/glib/gmem.h
--rw-r--r-- -          -               25577 ./usr/include/glib-2.0/glib/gmessages.h
+-rw-r--r-- -          -               26913 ./usr/include/glib-2.0/glib/gmessages.h
 -rw-r--r-- -          -                8700 ./usr/include/glib-2.0/glib/gnode.h
 -rw-r--r-- -          -               16099 ./usr/include/glib-2.0/glib/goption.h
 -rw-r--r-- -          -                1782 ./usr/include/glib-2.0/glib/gpattern.h
@@ -227,32 +228,32 @@ drwxr-xr-x -          -                 160 ./usr/include/glib-2.0/glib/deprecat
 -rw-r--r-- -          -                8811 ./usr/include/glib-2.0/glib/gsequence.h
 -rw-r--r-- -          -                1752 ./usr/include/glib-2.0/glib/gshell.h
 -rw-r--r-- -          -                3892 ./usr/include/glib-2.0/glib/gslice.h
--rw-r--r-- -          -                5589 ./usr/include/glib-2.0/glib/gslist.h
+-rw-r--r-- -          -                6551 ./usr/include/glib-2.0/glib/gslist.h
 -rw-r--r-- -          -               11874 ./usr/include/glib-2.0/glib/gspawn.h
--rw-r--r-- -          -                5034 ./usr/include/glib-2.0/glib/gstdio.h
+-rw-r--r-- -          -                5109 ./usr/include/glib-2.0/glib/gstdio.h
 -rw-r--r-- -          -               13232 ./usr/include/glib-2.0/glib/gstrfuncs.h
 -rw-r--r-- -          -                2130 ./usr/include/glib-2.0/glib/gstringchunk.h
 -rw-r--r-- -          -                8045 ./usr/include/glib-2.0/glib/gstring.h
--rw-r--r-- -          -               30789 ./usr/include/glib-2.0/glib/gtestutils.h
--rw-r--r-- -          -               16860 ./usr/include/glib-2.0/glib/gthread.h
+-rw-r--r-- -          -               31435 ./usr/include/glib-2.0/glib/gtestutils.h
+-rw-r--r-- -          -               17496 ./usr/include/glib-2.0/glib/gthread.h
 -rw-r--r-- -          -                3824 ./usr/include/glib-2.0/glib/gthreadpool.h
 -rw-r--r-- -          -                2576 ./usr/include/glib-2.0/glib/gtimer.h
 -rw-r--r-- -          -                3723 ./usr/include/glib-2.0/glib/gtimezone.h
 -rw-r--r-- -          -                1906 ./usr/include/glib-2.0/glib/gtrashstack.h
 -rw-r--r-- -          -                4194 ./usr/include/glib-2.0/glib/gtree.h
--rw-r--r-- -          -               20678 ./usr/include/glib-2.0/glib/gtypes.h
+-rw-r--r-- -          -               20493 ./usr/include/glib-2.0/glib/gtypes.h
 -rw-r--r-- -          -               40690 ./usr/include/glib-2.0/glib/gunicode.h
 -rw-r--r-- -          -                2716 ./usr/include/glib-2.0/glib/gurifuncs.h
--rw-r--r-- -          -               11602 ./usr/include/glib-2.0/glib/gutils.h
+-rw-r--r-- -          -               14564 ./usr/include/glib-2.0/glib/gutils.h
 -rw-r--r-- -          -                1291 ./usr/include/glib-2.0/glib/guuid.h
--rw-r--r-- -          -               29525 ./usr/include/glib-2.0/glib/gvariant.h
+-rw-r--r-- -          -               29560 ./usr/include/glib-2.0/glib/gvariant.h
 -rw-r--r-- -          -               13244 ./usr/include/glib-2.0/glib/gvarianttype.h
 -rw-r--r-- -          -                1981 ./usr/include/glib-2.0/glib/gversion.h
--rw-r--r-- -          -               38981 ./usr/include/glib-2.0/glib/gversionmacros.h
+-rw-r--r-- -          -               40799 ./usr/include/glib-2.0/glib/gversionmacros.h
 -rw-r--r-- -          -                4667 ./usr/include/glib-2.0/glib/gwin32.h
--rw-r--r-- -          -                3380 ./usr/include/glib-2.0/glib.h
--rw-r--r-- -          -                1514 ./usr/include/glib-2.0/glib-object.h
--rw-r--r-- -          -                4310 ./usr/include/glib-2.0/glib-unix.h
+-rw-r--r-- -          -                3381 ./usr/include/glib-2.0/glib.h
+-rw-r--r-- -          -                1462 ./usr/include/glib-2.0/glib-object.h
+-rw-r--r-- -          -                4461 ./usr/include/glib-2.0/glib-unix.h
 -rw-r--r-- -          -                4318 ./usr/include/glib-2.0/gmodule.h
 drwxr-xr-x -          -                 460 ./usr/include/glib-2.0/gobject
 -rw-r--r-- -          -                6342 ./usr/include/glib-2.0/gobject/gbinding.h
@@ -263,13 +264,13 @@ drwxr-xr-x -          -                 460 ./usr/include/glib-2.0/gobject
 -rw-r--r-- -          -                8656 ./usr/include/glib-2.0/gobject/glib-types.h
 -rw-r--r-- -          -               21841 ./usr/include/glib-2.0/gobject/gmarshal.h
 -rw-r--r-- -          -                1382 ./usr/include/glib-2.0/gobject/gobject-autocleanups.h
--rw-r--r-- -          -               33399 ./usr/include/glib-2.0/gobject/gobject.h
+-rw-r--r-- -          -               34088 ./usr/include/glib-2.0/gobject/gobject.h
 -rw-r--r-- -          -                5516 ./usr/include/glib-2.0/gobject/gobjectnotifyqueue.c
 -rw-r--r-- -          -               16431 ./usr/include/glib-2.0/gobject/gparam.h
--rw-r--r-- -          -               34843 ./usr/include/glib-2.0/gobject/gparamspecs.h
--rw-r--r-- -          -               24864 ./usr/include/glib-2.0/gobject/gsignal.h
+-rw-r--r-- -          -               34850 ./usr/include/glib-2.0/gobject/gparamspecs.h
+-rw-r--r-- -          -               24872 ./usr/include/glib-2.0/gobject/gsignal.h
 -rw-r--r-- -          -                1275 ./usr/include/glib-2.0/gobject/gsourceclosure.h
--rw-r--r-- -          -               92236 ./usr/include/glib-2.0/gobject/gtype.h
+-rw-r--r-- -          -               92450 ./usr/include/glib-2.0/gobject/gtype.h
 -rw-r--r-- -          -               10837 ./usr/include/glib-2.0/gobject/gtypemodule.h
 -rw-r--r-- -          -                4965 ./usr/include/glib-2.0/gobject/gtypeplugin.h
 -rw-r--r-- -          -                3218 ./usr/include/glib-2.0/gobject/gvaluearray.h
@@ -282,20 +283,20 @@ drwxr-xr-x -          -                  40 ./usr/lib/gio/modules
 drwxr-xr-x -          -                  60 ./usr/lib/glib-2.0
 drwxr-xr-x -          -                  60 ./usr/lib/glib-2.0/include
 -rw-r--r-- -          -                5719 ./usr/lib/glib-2.0/include/glibconfig.h
--rwxr-xr-x -          -             1214360 ./usr/lib/libgio-2.0.so.0.6200.4
-lrwxrwxrwx -          -                  22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.6200.4
+-rwxr-xr-x -          -             1230776 ./usr/lib/libgio-2.0.so.0.6400.2
+lrwxrwxrwx -          -                  22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.6400.2
 lrwxrwxrwx -          -                  15 ./usr/lib/libgio-2.0.so -> libgio-2.0.so.0
--rwxr-xr-x -          -              912352 ./usr/lib/libglib-2.0.so.0.6200.4
-lrwxrwxrwx -          -                  23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.6200.4
+-rwxr-xr-x -          -              920556 ./usr/lib/libglib-2.0.so.0.6400.2
+lrwxrwxrwx -          -                  23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.6400.2
 lrwxrwxrwx -          -                  16 ./usr/lib/libglib-2.0.so -> libglib-2.0.so.0
--rwxr-xr-x -          -                9364 ./usr/lib/libgmodule-2.0.so.0.6200.4
-lrwxrwxrwx -          -                  26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.6200.4
+-rwxr-xr-x -          -                9364 ./usr/lib/libgmodule-2.0.so.0.6400.2
+lrwxrwxrwx -          -                  26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.6400.2
 lrwxrwxrwx -          -                  19 ./usr/lib/libgmodule-2.0.so -> libgmodule-2.0.so.0
--rwxr-xr-x -          -              260956 ./usr/lib/libgobject-2.0.so.0.6200.4
-lrwxrwxrwx -          -                  26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.6200.4
+-rwxr-xr-x -          -              260956 ./usr/lib/libgobject-2.0.so.0.6400.2
+lrwxrwxrwx -          -                  26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.6400.2
 lrwxrwxrwx -          -                  19 ./usr/lib/libgobject-2.0.so -> libgobject-2.0.so.0
--rwxr-xr-x -          -                5004 ./usr/lib/libgthread-2.0.so.0.6200.4
-lrwxrwxrwx -          -                  26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.6200.4
+-rwxr-xr-x -          -                5004 ./usr/lib/libgthread-2.0.so.0.6400.2
+lrwxrwxrwx -          -                  26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.6400.2
 lrwxrwxrwx -          -                  19 ./usr/lib/libgthread-2.0.so -> libgthread-2.0.so.0
 drwxr-xr-x -          -                 200 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 631 ./usr/lib/pkgconfig/gio-2.0.pc
@@ -315,15 +316,15 @@ drwxr-xr-x -          -                  60 ./usr/share/bash-completion
 drwxr-xr-x -          -                 140 ./usr/share/bash-completion/completions
 -rw-r--r-- -          -                1389 ./usr/share/bash-completion/completions/gapplication
 -rw-r--r-- -          -                 935 ./usr/share/bash-completion/completions/gdbus
--rw-r--r-- -          -                3785 ./usr/share/bash-completion/completions/gio
+-rw-r--r-- -          -                3753 ./usr/share/bash-completion/completions/gio
 -rw-r--r-- -          -                1356 ./usr/share/bash-completion/completions/gresource
 -rw-r--r-- -          -                2829 ./usr/share/bash-completion/completions/gsettings
 drwxr-xr-x -          -                  60 ./usr/share/gdb
 drwxr-xr-x -          -                  60 ./usr/share/gdb/auto-load
 drwxr-xr-x -          -                  60 ./usr/share/gdb/auto-load/usr
 drwxr-xr-x -          -                  80 ./usr/share/gdb/auto-load/usr/lib
--rw-r--r-- -          -                 197 ./usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6200.4-gdb.py
--rw-r--r-- -          -                 200 ./usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6200.4-gdb.py
+-rw-r--r-- -          -                 197 ./usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6400.2-gdb.py
+-rw-r--r-- -          -                 200 ./usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6400.2-gdb.py
 drwxr-xr-x -          -                  60 ./usr/share/gettext
 drwxr-xr-x -          -                  80 ./usr/share/gettext/its
 -rw-r--r-- -          -                1048 ./usr/share/gettext/its/gschema.its
@@ -331,12 +332,12 @@ drwxr-xr-x -          -                  80 ./usr/share/gettext/its
 drwxr-xr-x -          -                 140 ./usr/share/glib-2.0
 drwxr-xr-x -          -                 200 ./usr/share/glib-2.0/codegen
 -rw-r--r-- -          -               16253 ./usr/share/glib-2.0/codegen/codegen_docbook.py
--rw-r--r-- -          -               12454 ./usr/share/glib-2.0/codegen/codegen_main.py
--rw-r--r-- -          -              221901 ./usr/share/glib-2.0/codegen/codegen.py
--rw-r--r-- -          -                 819 ./usr/share/glib-2.0/codegen/config.py
--rw-r--r-- -          -               19568 ./usr/share/glib-2.0/codegen/dbustypes.py
+-rw-r--r-- -          -               15203 ./usr/share/glib-2.0/codegen/codegen_main.py
+-rw-r--r-- -          -              223516 ./usr/share/glib-2.0/codegen/codegen.py
+-rw-r--r-- -          -                 856 ./usr/share/glib-2.0/codegen/config.py
+-rw-r--r-- -          -               20006 ./usr/share/glib-2.0/codegen/dbustypes.py
 -rw-r--r-- -          -                 984 ./usr/share/glib-2.0/codegen/__init__.py
--rw-r--r-- -          -               12715 ./usr/share/glib-2.0/codegen/parser.py
+-rw-r--r-- -          -               12950 ./usr/share/glib-2.0/codegen/parser.py
 -rw-r--r-- -          -                4003 ./usr/share/glib-2.0/codegen/utils.py
 drwxr-xr-x -          -                  80 ./usr/share/glib-2.0/gdb
 -rw-r--r-- -          -                8142 ./usr/share/glib-2.0/gdb/glib_gdb.py
@@ -347,9 +348,9 @@ drwxr-xr-x -          -                  60 ./usr/share/glib-2.0/gettext/po
 drwxr-xr-x -          -                  60 ./usr/share/glib-2.0/schemas
 -rw-r--r-- -          -                2916 ./usr/share/glib-2.0/schemas/gschema.dtd
 drwxr-xr-x -          -                  60 ./usr/share/glib-2.0/valgrind
--rw-r--r-- -          -               15067 ./usr/share/glib-2.0/valgrind/glib.supp
+-rw-r--r-- -          -               15263 ./usr/share/glib-2.0/valgrind/glib.supp
 drwxr-xr-x -          -                  60 ./usr/share/installed-tests
-drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
+drwxr-xr-x -          -                5260 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  81 ./usr/share/installed-tests/glib/1bit-mutex.test
 -rw-r--r-- -          -                  80 ./usr/share/installed-tests/glib/642026-ec.test
 -rw-r--r-- -          -                  77 ./usr/share/installed-tests/glib/642026.test
@@ -362,7 +363,6 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  75 ./usr/share/installed-tests/glib/asyncqueue-test.test
 -rw-r--r-- -          -                  97 ./usr/share/installed-tests/glib/async-splice-output-stream.test
 -rw-r--r-- -          -                  77 ./usr/share/installed-tests/glib/atomic.test
--rw-r--r-- -          -                  71 ./usr/share/installed-tests/glib/atomic-test.test
 -rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/autoptr-gio.test
 -rw-r--r-- -          -                  78 ./usr/share/installed-tests/glib/autoptr.test
 -rw-r--r-- -          -                  77 ./usr/share/installed-tests/glib/base64.test
@@ -381,6 +381,7 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  70 ./usr/share/installed-tests/glib/child-test.test
 -rw-r--r-- -          -                  87 ./usr/share/installed-tests/glib/closure-refcount.test
 -rw-r--r-- -          -                  78 ./usr/share/installed-tests/glib/closure.test
+-rw-r--r-- -          -                  81 ./usr/share/installed-tests/glib/codegen.py.test
 -rw-r--r-- -          -                  78 ./usr/share/installed-tests/glib/collate.test
 -rw-r--r-- -          -                  75 ./usr/share/installed-tests/glib/completion-test.test
 -rw-r--r-- -          -                  75 ./usr/share/installed-tests/glib/cond.test
@@ -438,6 +439,8 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  94 ./usr/share/installed-tests/glib/gdbus-proxy-unique-name.test
 -rw-r--r-- -          -                  98 ./usr/share/installed-tests/glib/gdbus-proxy-well-known-name.test
 -rw-r--r-- -          -                  90 ./usr/share/installed-tests/glib/gdbus-serialization.test
+-rw-r--r-- -          -                  88 ./usr/share/installed-tests/glib/gdbus-server-auth.test
+-rw-r--r-- -          -                 107 ./usr/share/installed-tests/glib/gdbus-test-codegen-min-required-2-64.test
 -rw-r--r-- -          -                  93 ./usr/share/installed-tests/glib/gdbus-test-codegen-old.test
 -rw-r--r-- -          -                  89 ./usr/share/installed-tests/glib/gdbus-test-codegen.test
 -rw-r--r-- -          -                  86 ./usr/share/installed-tests/glib/gdbus-threading.test
@@ -454,6 +457,7 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  86 ./usr/share/installed-tests/glib/gobject-private.test
 -rw-r--r-- -          -                 171 ./usr/share/installed-tests/glib/gsocketclient-slow.test
 -rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/gsubprocess.test
+-rw-r--r-- -          -                  91 ./usr/share/installed-tests/glib/gutils-user-database.test
 -rw-r--r-- -          -                  76 ./usr/share/installed-tests/glib/guuid.test
 -rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/gvalue-test.test
 -rw-r--r-- -          -                  79 ./usr/share/installed-tests/glib/gvariant.test
@@ -464,6 +468,7 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  86 ./usr/share/installed-tests/glib/ifaceproperties.test
 -rw-r--r-- -          -                  78 ./usr/share/installed-tests/glib/include.test
 -rw-r--r-- -          -                  83 ./usr/share/installed-tests/glib/inet-address.test
+-rw-r--r-- -          -                  81 ./usr/share/installed-tests/glib/io-channel.test
 -rw-r--r-- -          -                  74 ./usr/share/installed-tests/glib/iochannel-test.test
 -rw-r--r-- -          -                  80 ./usr/share/installed-tests/glib/io-stream.test
 -rw-r--r-- -          -                  78 ./usr/share/installed-tests/glib/keyfile.test
@@ -481,6 +486,9 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  87 ./usr/share/installed-tests/glib/markup-subparser.test
 -rw-r--r-- -          -                  77 ./usr/share/installed-tests/glib/markup.test
 -rw-r--r-- -          -                  90 ./usr/share/installed-tests/glib/memory-input-stream.test
+-rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/memory-monitor-dbus.test
+-rw-r--r-- -          -                  84 ./usr/share/installed-tests/glib/memory-monitor-portal.test
+-rw-r--r-- -          -                  85 ./usr/share/installed-tests/glib/memory-monitor.test
 -rw-r--r-- -          -                  91 ./usr/share/installed-tests/glib/memory-output-stream.test
 -rw-r--r-- -          -                  83 ./usr/share/installed-tests/glib/mem-overflow.test
 -rw-r--r-- -          -                  79 ./usr/share/installed-tests/glib/mimeapps.test
@@ -570,6 +578,7 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  71 ./usr/share/installed-tests/glib/testgobject.test
 -rw-r--r-- -          -                  78 ./usr/share/installed-tests/glib/testing.test
 -rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/test-printf.test
+-rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/thread-pool.test
 -rw-r--r-- -          -                  75 ./usr/share/installed-tests/glib/threadpool-test.test
 -rw-r--r-- -          -                  77 ./usr/share/installed-tests/glib/thread.test
 -rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/threadtests.test
@@ -602,3 +611,4 @@ drwxr-xr-x -          -                5080 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  76 ./usr/share/installed-tests/glib/value.test
 -rw-r--r-- -          -                  74 ./usr/share/installed-tests/glib/vfs.test
 -rw-r--r-- -          -                  84 ./usr/share/installed-tests/glib/volumemonitor.test
+-rw-r--r-- -          -                  84 ./usr/share/installed-tests/glib/win32-appinfo.test
