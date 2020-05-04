@@ -16,12 +16,12 @@ drwxrwxr-x -          -                 680 ./usr/include/xcb
 -rw-r--r-- -          -               27912 ./usr/include/xcb/record.h
 -rw-r--r-- -          -              103726 ./usr/include/xcb/render.h
 -rw-r--r-- -          -               24483 ./usr/include/xcb/res.h
--rw-r--r-- -          -               16482 ./usr/include/xcb/screensaver.h
+-rw-r--r-- -          -               16460 ./usr/include/xcb/screensaver.h
 -rw-r--r-- -          -               20806 ./usr/include/xcb/shape.h
 -rw-r--r-- -          -               17261 ./usr/include/xcb/shm.h
 -rw-r--r-- -          -               43756 ./usr/include/xcb/sync.h
 -rw-r--r-- -          -               13990 ./usr/include/xcb/xcbext.h
--rw-r--r-- -          -               21461 ./usr/include/xcb/xcb.h
+-rw-r--r-- -          -               22260 ./usr/include/xcb/xcb.h
 -rw-r--r-- -          -                7137 ./usr/include/xcb/xc_misc.h
 -rw-r--r-- -          -               11593 ./usr/include/xcb/xevie.h
 -rw-r--r-- -          -               28034 ./usr/include/xcb/xf86dri.h
@@ -78,7 +78,7 @@ lrwxrwxrwx -          -                  21 ./usr/lib/libxcb-shape.so -> libxcb-
 -rwxr-xr-x -          -               14280 ./usr/lib/libxcb-shm.so.0.0.0
 lrwxrwxrwx -          -                  19 ./usr/lib/libxcb-shm.so.0 -> libxcb-shm.so.0.0.0
 lrwxrwxrwx -          -                  19 ./usr/lib/libxcb-shm.so -> libxcb-shm.so.0.0.0
--rwxr-xr-x -          -              166696 ./usr/lib/libxcb.so.1.1.0
+-rwxr-xr-x -          -              166712 ./usr/lib/libxcb.so.1.1.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libxcb.so.1 -> libxcb.so.1.1.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libxcb.so -> libxcb.so.1.1.0
 -rwxr-xr-x -          -               26648 ./usr/lib/libxcb-sync.so.1.0.0
@@ -109,28 +109,28 @@ lrwxrwxrwx -          -                  20 ./usr/lib/libxcb-xvmc.so -> libxcb-x
 lrwxrwxrwx -          -                  18 ./usr/lib/libxcb-xv.so.0 -> libxcb-xv.so.0.0.0
 lrwxrwxrwx -          -                  18 ./usr/lib/libxcb-xv.so -> libxcb-xv.so.0.0.0
 drwxrwxr-x -          -                 520 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 318 ./usr/lib/pkgconfig/xcb-composite.pc
--rw-r--r-- -          -                 309 ./usr/lib/pkgconfig/xcb-damage.pc
--rw-r--r-- -          -                 292 ./usr/lib/pkgconfig/xcb-dpms.pc
--rw-r--r-- -          -                 292 ./usr/lib/pkgconfig/xcb-dri2.pc
--rw-r--r-- -          -                 292 ./usr/lib/pkgconfig/xcb-dri3.pc
--rw-r--r-- -          -                 289 ./usr/lib/pkgconfig/xcb-glx.pc
--rw-r--r-- -          -                 351 ./usr/lib/pkgconfig/xcb.pc
--rw-r--r-- -          -                 331 ./usr/lib/pkgconfig/xcb-present.pc
--rw-r--r-- -          -                 306 ./usr/lib/pkgconfig/xcb-randr.pc
--rw-r--r-- -          -                 298 ./usr/lib/pkgconfig/xcb-record.pc
--rw-r--r-- -          -                 298 ./usr/lib/pkgconfig/xcb-render.pc
--rw-r--r-- -          -                 296 ./usr/lib/pkgconfig/xcb-res.pc
--rw-r--r-- -          -                 313 ./usr/lib/pkgconfig/xcb-screensaver.pc
--rw-r--r-- -          -                 295 ./usr/lib/pkgconfig/xcb-shape.pc
--rw-r--r-- -          -                 289 ./usr/lib/pkgconfig/xcb-shm.pc
--rw-r--r-- -          -                 292 ./usr/lib/pkgconfig/xcb-sync.pc
--rw-r--r-- -          -                 309 ./usr/lib/pkgconfig/xcb-xf86dri.pc
--rw-r--r-- -          -                 319 ./usr/lib/pkgconfig/xcb-xfixes.pc
--rw-r--r-- -          -                 304 ./usr/lib/pkgconfig/xcb-xinerama.pc
--rw-r--r-- -          -                 324 ./usr/lib/pkgconfig/xcb-xinput.pc
--rw-r--r-- -          -                 309 ./usr/lib/pkgconfig/xcb-xkb.pc
--rw-r--r-- -          -                 295 ./usr/lib/pkgconfig/xcb-xtest.pc
--rw-r--r-- -          -                 299 ./usr/lib/pkgconfig/xcb-xvmc.pc
--rw-r--r-- -          -                 294 ./usr/lib/pkgconfig/xcb-xv.pc
+-rw-r--r-- -          -                 316 ./usr/lib/pkgconfig/xcb-composite.pc
+-rw-r--r-- -          -                 307 ./usr/lib/pkgconfig/xcb-damage.pc
+-rw-r--r-- -          -                 290 ./usr/lib/pkgconfig/xcb-dpms.pc
+-rw-r--r-- -          -                 290 ./usr/lib/pkgconfig/xcb-dri2.pc
+-rw-r--r-- -          -                 290 ./usr/lib/pkgconfig/xcb-dri3.pc
+-rw-r--r-- -          -                 287 ./usr/lib/pkgconfig/xcb-glx.pc
+-rw-r--r-- -          -                 335 ./usr/lib/pkgconfig/xcb.pc
+-rw-r--r-- -          -                 329 ./usr/lib/pkgconfig/xcb-present.pc
+-rw-r--r-- -          -                 304 ./usr/lib/pkgconfig/xcb-randr.pc
+-rw-r--r-- -          -                 296 ./usr/lib/pkgconfig/xcb-record.pc
+-rw-r--r-- -          -                 296 ./usr/lib/pkgconfig/xcb-render.pc
+-rw-r--r-- -          -                 294 ./usr/lib/pkgconfig/xcb-res.pc
+-rw-r--r-- -          -                 311 ./usr/lib/pkgconfig/xcb-screensaver.pc
+-rw-r--r-- -          -                 293 ./usr/lib/pkgconfig/xcb-shape.pc
+-rw-r--r-- -          -                 287 ./usr/lib/pkgconfig/xcb-shm.pc
+-rw-r--r-- -          -                 290 ./usr/lib/pkgconfig/xcb-sync.pc
+-rw-r--r-- -          -                 307 ./usr/lib/pkgconfig/xcb-xf86dri.pc
+-rw-r--r-- -          -                 317 ./usr/lib/pkgconfig/xcb-xfixes.pc
+-rw-r--r-- -          -                 302 ./usr/lib/pkgconfig/xcb-xinerama.pc
+-rw-r--r-- -          -                 322 ./usr/lib/pkgconfig/xcb-xinput.pc
+-rw-r--r-- -          -                 307 ./usr/lib/pkgconfig/xcb-xkb.pc
+-rw-r--r-- -          -                 293 ./usr/lib/pkgconfig/xcb-xtest.pc
+-rw-r--r-- -          -                 297 ./usr/lib/pkgconfig/xcb-xvmc.pc
+-rw-r--r-- -          -                 292 ./usr/lib/pkgconfig/xcb-xv.pc
 drwxr-xr-x -          -                  40 ./usr/share
