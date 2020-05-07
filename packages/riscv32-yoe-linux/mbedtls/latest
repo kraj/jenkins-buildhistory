@@ -1,0 +1,5 @@
+PV = 2.16.6
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = mbedtls-src mbedtls-dbg mbedtls-programs mbedtls-staticdev mbedtls-dev mbedtls-doc mbedtls-locale mbedtls
+LAYER = networking-layer

@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  tftpd.8 /usr/share/man/man8/tftpd.8.tftp-hpa
+	update-alternatives --remove  tftp.1 /usr/share/man/man1/tftp.1.tftp-hpa

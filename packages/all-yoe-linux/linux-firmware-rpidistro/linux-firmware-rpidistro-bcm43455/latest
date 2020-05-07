@@ -1,0 +1,11 @@
+PV = 20190114-1+rpt6
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-rpidistro-broadcom-license
+RRECOMMENDS = 
+RREPLACES = linux-firmware-bcm43455 linux-firmware-raspbian-bcm43455
+RCONFLICTS = linux-firmware-bcm43455 linux-firmware-raspbian-bcm43455
+PKGSIZE = 641053
+FILES = /lib/firmware/brcm/brcmfmac43455*
+FILELIST = /lib/firmware/brcm/brcmfmac43455-sdio.bin /lib/firmware/brcm/brcmfmac43455-sdio.clm_blob /lib/firmware/brcm/brcmfmac43455-sdio.txt

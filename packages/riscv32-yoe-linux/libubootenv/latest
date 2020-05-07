@@ -1,0 +1,5 @@
+PV = 0.2+gitAUTOINC+f4b9cde381
+PR = r0
+DEPENDS = cmake-native mtd-utils ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libubootenv-src libubootenv-dbg libubootenv-staticdev libubootenv-dev libubootenv-doc libubootenv-locale libubootenv-bin libubootenv
+LAYER = core

@@ -1,0 +1,10 @@
+PV = 5.4.34+gitAUTOINC+054d410d1a_e378a56261
+PR = r0
+PKGV = 5.4.34+git0+054d410d1a_e378a56261
+PKGR = r0.1
+RPROVIDES = kernel-module-iptable-nat
+RDEPENDS = kernel-5.4.34-yocto-standard kernel-module-ip-tables-5.4.34-yocto-standard kernel-module-nf-nat-5.4.34-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5240
+FILES = /lib/modules/5.4.34-yocto-standard/kernel/net/ipv4/netfilter/iptable_nat.ko /etc/modules-load.d/iptable_nat.conf /etc/modprobe.d/iptable_nat.conf
+FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/net/ipv4/netfilter/iptable_nat.ko

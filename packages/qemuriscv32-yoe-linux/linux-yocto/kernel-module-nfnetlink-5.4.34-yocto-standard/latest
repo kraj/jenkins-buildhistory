@@ -1,0 +1,10 @@
+PV = 5.4.34+gitAUTOINC+054d410d1a_e378a56261
+PR = r0
+PKGV = 5.4.34+git0+054d410d1a_e378a56261
+PKGR = r0.1
+RPROVIDES = kernel-module-nfnetlink
+RDEPENDS = kernel-5.4.34-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13852
+FILES = /lib/modules/5.4.34-yocto-standard/kernel/net/netfilter/nfnetlink.ko /etc/modules-load.d/nfnetlink.conf /etc/modprobe.d/nfnetlink.conf
+FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/net/netfilter/nfnetlink.ko

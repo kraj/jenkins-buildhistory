@@ -1,0 +1,5 @@
+PV = 218
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native glib-2.0-native gnu-config-native gnutls intltool-native json-glib krb5 libpam libtool-cross libtool-native pkgconfig-native systemd systemd-systemctl-native virtual/gettext virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = cockpit-src cockpit-dbg cockpit-pcp cockpit-realmd cockpit-tuned cockpit-shell cockpit-systemd cockpit-users cockpit-kdump cockpit-sosreport cockpit-storaged cockpit-networkmanager cockpit-machines cockpit-selinux cockpit-playground cockpit-docker cockpit-dashboard cockpit-bridge cockpit-ws cockpit-desktop cockpit-staticdev cockpit-dev cockpit-doc cockpit cockpit-locale-ca cockpit-locale-cs cockpit-locale-de cockpit-locale-es cockpit-locale-fr cockpit-locale-it cockpit-locale-ja cockpit-locale-ko cockpit-locale-nl cockpit-locale-pl cockpit-locale-pt-br cockpit-locale-ru cockpit-locale-sv cockpit-locale-uk cockpit-locale-zh-cn cockpit-locale-zh-tw
+LAYER = webserver
