@@ -11,7 +11,7 @@ drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                  80 ./usr/bin
 drwxr-xr-x -          -                  60 ./usr/bin/crossscripts
 -rwxr--r-- -          -                4678 ./usr/bin/crossscripts/mysql_config
--rwxr-xr-x -          -               12882 ./usr/bin/postinst-useradd-mariadb
+-rwxr-xr-x -          -               12996 ./usr/bin/postinst-useradd-mariadb
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                 440 ./usr/include/mysql
 -rw-r--r-- -          -                3877 ./usr/include/mysql/errmsg.h
@@ -450,7 +450,7 @@ drwxr-xr-x -          -                 940 ./usr/lib/plugin
 -rwxr-xr-x -          -               73984 ./usr/lib/plugin/auth_ed25519.so
 -rwxr-xr-x -          -                5364 ./usr/lib/plugin/auth_pam.so
 drwx------ -          -                  60 ./usr/lib/plugin/auth_pam_tool_dir
--rwxr-xr-x -          -                5388 ./usr/lib/plugin/auth_pam_tool_dir/auth_pam_tool
+-rwsr-xr-x -          -                5388 ./usr/lib/plugin/auth_pam_tool_dir/auth_pam_tool
 -rwxr-xr-x -          -                5360 ./usr/lib/plugin/auth_pam_v1.so
 -rwxr-xr-x -          -                5376 ./usr/lib/plugin/auth_test_plugin.so
 -rwxr-xr-x -          -                9400 ./usr/lib/plugin/caching_sha2_password.so
