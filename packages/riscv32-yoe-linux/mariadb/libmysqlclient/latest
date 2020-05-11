@@ -5,6 +5,6 @@ PKGR = r0.0
 RPROVIDES = libmysqlclient (=10.4.12)
 RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libcrypto (>= 1.1.1g) libssl (>= 1.1.1g) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 206779
+PKGSIZE = 210875
 FILES = /usr/lib/libmysqlclient.so.* /usr/lib/libmariadb.so.* /etc/my.cnf.d/client.cnf
 FILELIST = /etc/my.cnf.d/client.cnf /usr/lib/libmariadb.so.3

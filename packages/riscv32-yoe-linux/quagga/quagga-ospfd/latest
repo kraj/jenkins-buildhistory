@@ -4,6 +4,6 @@ PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libxcrypt (>= 4.4.15) quagga (>= 1.2.4)
 RRECOMMENDS = 
-PKGSIZE = 459427
+PKGSIZE = 467623
 FILES = /usr/sbin/ospfd /usr/lib/libospf.so.* /lib/systemd/system-preset/98-quagga-ospfd.preset /lib/systemd/system/ospfd.service
 FILELIST = /lib/systemd/system-preset/98-quagga-ospfd.preset /lib/systemd/system/ospfd.service /usr/lib/libospf.so.0 /usr/lib/libospf.so.0.0.0 /usr/sbin/ospfd

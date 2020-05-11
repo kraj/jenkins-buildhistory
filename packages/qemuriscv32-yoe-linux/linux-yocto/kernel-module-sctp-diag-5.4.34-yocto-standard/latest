@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-sctp-diag
 RDEPENDS = kernel-5.4.34-yocto-standard kernel-module-sctp-5.4.34-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 10148
+PKGSIZE = 10444
 FILES = /lib/modules/5.4.34-yocto-standard/kernel/net/sctp/sctp_diag.ko /etc/modules-load.d/sctp_diag.conf /etc/modprobe.d/sctp_diag.conf
 FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/net/sctp/sctp_diag.ko

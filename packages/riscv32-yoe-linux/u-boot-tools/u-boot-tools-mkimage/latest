@@ -7,6 +7,6 @@ RDEPENDS = dtc glibc (>= 2.31+git0+7b2b52134a) libcrypto (>= 1.1.1g) libssl (>= 
 RRECOMMENDS = 
 RREPLACES = u-boot-mkimage
 RCONFLICTS = u-boot-mkimage
-PKGSIZE = 593080
+PKGSIZE = 597188
 FILES = /usr/bin/uboot-mkimage /usr/bin/mkimage /usr/bin/uboot-dumpimage /usr/bin/dumpimage /usr/bin/uboot-fit_check_sign /usr/bin/fit_check_sign
 FILELIST = /usr/bin/dumpimage /usr/bin/fit_check_sign /usr/bin/mkimage /usr/bin/uboot-dumpimage /usr/bin/uboot-fit_check_sign /usr/bin/uboot-mkimage

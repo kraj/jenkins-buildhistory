@@ -4,6 +4,6 @@ PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = dbus-lib (>= 1.12.16) glib-2.0 (>= 2.64.2) glibc (>= 2.31+git0+7b2b52134a)
 RRECOMMENDS = 
-PKGSIZE = 18548
+PKGSIZE = 18552
 FILES = /usr/sbin/connmand-wait-online /lib/systemd/system/connman-wait-online.service /lib/systemd/system-preset/98-connman-wait-online.preset /lib/systemd/system/connman-wait-online.service
 FILELIST = /lib/systemd/system-preset/98-connman-wait-online.preset /lib/systemd/system/connman-wait-online.service /usr/sbin/connmand-wait-online

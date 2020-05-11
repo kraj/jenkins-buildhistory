@@ -57,10 +57,10 @@ lrwxrwxrwx root       root                3 ./usr/libexec/cups/backend/ipps -> i
 -rwxr-xr-x root       root            26260 ./usr/libexec/cups/backend/usb
 drwxr-xr-x root       root              140 ./usr/libexec/cups/cgi-bin
 -rwxr-xr-x root       root            71584 ./usr/libexec/cups/cgi-bin/admin.cgi
--rwxr-xr-x root       root            38644 ./usr/libexec/cups/cgi-bin/classes.cgi
--rwxr-xr-x root       root            43360 ./usr/libexec/cups/cgi-bin/help.cgi
--rwxr-xr-x root       root            38632 ./usr/libexec/cups/cgi-bin/jobs.cgi
--rwxr-xr-x root       root            38648 ./usr/libexec/cups/cgi-bin/printers.cgi
+-rwxr-xr-x root       root            38648 ./usr/libexec/cups/cgi-bin/classes.cgi
+-rwxr-xr-x root       root            43364 ./usr/libexec/cups/cgi-bin/help.cgi
+-rwxr-xr-x root       root            38636 ./usr/libexec/cups/cgi-bin/jobs.cgi
+-rwxr-xr-x root       root            38652 ./usr/libexec/cups/cgi-bin/printers.cgi
 drwxr-xr-x root       root               80 ./usr/libexec/cups/command
 -rwxr-xr-x root       root            13684 ./usr/libexec/cups/command/ippevepcl
 -rwxr-xr-x root       root            17944 ./usr/libexec/cups/command/ippeveps
@@ -83,11 +83,11 @@ drwxr-xr-x root       root               80 ./usr/libexec/cups/monitor
 drwxr-xr-x root       root              100 ./usr/libexec/cups/notifier
 -rwxr-xr-x root       root             9632 ./usr/libexec/cups/notifier/dbus
 -rwxr-xr-x root       root            13788 ./usr/libexec/cups/notifier/mailto
--rwxr-xr-x root       root            13800 ./usr/libexec/cups/notifier/rss
+-rwxr-xr-x root       root            13804 ./usr/libexec/cups/notifier/rss
 drwxr-xr-x root       root              260 ./usr/sbin
 -rwxr-xr-x root       root             9580 ./usr/sbin/cupsaccept
 -rwxr-xr-x root       root             9632 ./usr/sbin/cupsctl
--rwx------ root       root           348144 ./usr/sbin/cupsd
+-rwx------ root       root           352240 ./usr/sbin/cupsd
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsdisable -> cupsaccept
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsenable -> cupsaccept
 -rwxr-xr-x root       root            30648 ./usr/sbin/cupsfilter

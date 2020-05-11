@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-ppp-generic
 RDEPENDS = kernel-5.4.34-yocto-standard kernel-module-slhc-5.4.34-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 62732
+PKGSIZE = 62696
 FILES = /lib/modules/5.4.34-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko /etc/modules-load.d/ppp_generic.conf /etc/modprobe.d/ppp_generic.conf
 FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko

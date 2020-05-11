@@ -6,6 +6,6 @@ RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libnsl2 (>= 1.2.0+git0+4a062cf418) li
 RRECOMMENDS = 
 RREPLACES = yp-tools-systemd
 RCONFLICTS = yp-tools-systemd
-PKGSIZE = 94441
+PKGSIZE = 94445
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/yp-tools /usr/lib/yp-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/yp-nis/*.so.*.* /usr/lib/yp-nis/pkgconfig/ /lib/systemd/system-preset/98-yp-tools.preset /lib/systemd/system/domainname.service
 FILELIST = /lib/systemd/system-preset/98-yp-tools.preset /lib/systemd/system/domainname.service /usr/bin/ypcat /usr/bin/ypchfn /usr/bin/ypchsh /usr/bin/ypmatch /usr/bin/yppasswd /usr/bin/ypwhich /usr/sbin/yp_dump_binding /usr/sbin/yppoll /usr/sbin/ypset /usr/sbin/yptest /var/yp/nicknames

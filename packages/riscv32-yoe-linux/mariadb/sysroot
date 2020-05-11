@@ -429,11 +429,11 @@ drwxr-xr-x -          -                  60 ./usr/include/mysql/server/private/o
 -rw-r--r-- -          -                1405 ./usr/include/mysql/server/sslopt-vars.h
 -rw-r--r-- -          -                2350 ./usr/include/mysql/server/typelib.h
 drwxr-xr-x -          -                 360 ./usr/lib
--rw-r--r-- -          -             5161980 ./usr/lib/libmariadbclient.a
--rw-r--r-- -          -           718222336 ./usr/lib/libmariadbd.a
--rwxr-xr-x -          -            15737992 ./usr/lib/libmariadbd.so.19
+-rw-r--r-- -          -             5148932 ./usr/lib/libmariadbclient.a
+-rw-r--r-- -          -           592626800 ./usr/lib/libmariadbd.a
+-rwxr-xr-x -          -            15537308 ./usr/lib/libmariadbd.so.19
 lrwxrwxrwx -          -                  17 ./usr/lib/libmariadbd.so -> libmariadbd.so.19
--rwxr-xr-x -          -              206408 ./usr/lib/libmariadb.so.3
+-rwxr-xr-x -          -              210504 ./usr/lib/libmariadb.so.3
 lrwxrwxrwx -          -                  15 ./usr/lib/libmariadb.so -> libmariadb.so.3
 lrwxrwxrwx -          -                  18 ./usr/lib/libmysqlclient.a -> libmariadbclient.a
 lrwxrwxrwx -          -                  18 ./usr/lib/libmysqlclient_r.a -> libmariadbclient.a
@@ -441,7 +441,7 @@ lrwxrwxrwx -          -                  15 ./usr/lib/libmysqlclient_r.so -> lib
 lrwxrwxrwx -          -                  15 ./usr/lib/libmysqlclient.so -> libmariadb.so.3
 lrwxrwxrwx -          -                  13 ./usr/lib/libmysqld.a -> libmariadbd.a
 lrwxrwxrwx -          -                  17 ./usr/lib/libmysqld.so -> libmariadbd.so.19
--rw-r--r-- -          -               45922 ./usr/lib/libmysqlservices.a
+-rw-r--r-- -          -               46162 ./usr/lib/libmysqlservices.a
 drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 461 ./usr/lib/pkgconfig/libmariadb.pc
 drwxr-xr-x -          -                 940 ./usr/lib/plugin
@@ -462,18 +462,18 @@ drwx------ -          -                  60 ./usr/lib/plugin/auth_pam_tool_dir
 -rwxr-xr-x -          -                5236 ./usr/lib/plugin/dialog.so
 -rwxr-xr-x -          -                5496 ./usr/lib/plugin/disks.so
 -rwxr-xr-x -          -                5348 ./usr/lib/plugin/example_key_management.so
--rwxr-xr-x -          -               13784 ./usr/lib/plugin/file_key_management.so
+-rwxr-xr-x -          -               13772 ./usr/lib/plugin/file_key_management.so
 -rwxr-xr-x -          -               51028 ./usr/lib/plugin/ha_archive.so
 -rwxr-xr-x -          -               22052 ./usr/lib/plugin/ha_blackhole.so
--rwxr-xr-x -          -              968656 ./usr/lib/plugin/ha_connect.so
+-rwxr-xr-x -          -              972752 ./usr/lib/plugin/ha_connect.so
 -rwxr-xr-x -          -               27016 ./usr/lib/plugin/ha_example.so
--rwxr-xr-x -          -               42800 ./usr/lib/plugin/ha_federated.so
--rwxr-xr-x -          -               75756 ./usr/lib/plugin/ha_federatedx.so
--rwxr-xr-x -          -             4378808 ./usr/lib/plugin/ha_mroonga.so
--rwxr-xr-x -          -              105396 ./usr/lib/plugin/handlersocket.so
--rwxr-xr-x -          -             4127116 ./usr/lib/plugin/ha_rocksdb.so
--rwxr-xr-x -          -               71560 ./usr/lib/plugin/ha_sphinx.so
--rwxr-xr-x -          -              849644 ./usr/lib/plugin/ha_spider.so
+-rwxr-xr-x -          -               46896 ./usr/lib/plugin/ha_federated.so
+-rwxr-xr-x -          -               79852 ./usr/lib/plugin/ha_federatedx.so
+-rwxr-xr-x -          -             4280504 ./usr/lib/plugin/ha_mroonga.so
+-rwxr-xr-x -          -              101248 ./usr/lib/plugin/handlersocket.so
+-rwxr-xr-x -          -             3945404 ./usr/lib/plugin/ha_rocksdb.so
+-rwxr-xr-x -          -               71552 ./usr/lib/plugin/ha_sphinx.so
+-rwxr-xr-x -          -              853740 ./usr/lib/plugin/ha_spider.so
 -rwxr-xr-x -          -               21948 ./usr/lib/plugin/ha_test_sql_discovery.so
 -rwxr-xr-x -          -                5364 ./usr/lib/plugin/libdaemon_example.so
 -rwxr-xr-x -          -                5552 ./usr/lib/plugin/locales.so

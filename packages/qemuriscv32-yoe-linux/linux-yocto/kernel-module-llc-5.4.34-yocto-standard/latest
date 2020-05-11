@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-llc
 RDEPENDS = kernel-5.4.34-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 10216
+PKGSIZE = 10224
 FILES = /lib/modules/5.4.34-yocto-standard/kernel/net/llc/llc.ko /etc/modules-load.d/llc.conf /etc/modprobe.d/llc.conf
 FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/net/llc/llc.ko

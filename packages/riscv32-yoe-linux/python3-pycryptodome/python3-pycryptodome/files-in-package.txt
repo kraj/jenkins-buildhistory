@@ -83,7 +83,7 @@ drwxr-xr-x root       root              540 ./usr/lib/python3.8/site-packages/Cr
 -rwxr-xr-x root       root            25696 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_aes.cpython-38-riscv32-linux-gnu.so
 -rwxr-xr-x root       root             5228 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_arc2.cpython-38-riscv32-linux-gnu.so
 -rwxr-xr-x root       root             9328 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_blowfish.cpython-38-riscv32-linux-gnu.so
--rwxr-xr-x root       root            17512 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_cast.cpython-38-riscv32-linux-gnu.so
+-rwxr-xr-x root       root            17520 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_cast.cpython-38-riscv32-linux-gnu.so
 -rwxr-xr-x root       root             5180 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_cbc.cpython-38-riscv32-linux-gnu.so
 -rwxr-xr-x root       root             5224 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_cfb.cpython-38-riscv32-linux-gnu.so
 -rwxr-xr-x root       root             5236 ./usr/lib/python3.8/site-packages/Crypto/Cipher/_raw_ctr.cpython-38-riscv32-linux-gnu.so
@@ -97,10 +97,10 @@ drwxr-xr-x root       root              540 ./usr/lib/python3.8/site-packages/Cr
 -rw-r--r-- root       root             6349 ./usr/lib/python3.8/site-packages/Crypto/Cipher/Salsa20.py
 -rw-r--r-- root       root              744 ./usr/lib/python3.8/site-packages/Crypto/Cipher/Salsa20.pyi
 drwxr-xr-x root       root             1300 ./usr/lib/python3.8/site-packages/Crypto/Hash
--rwxr-xr-x root       root             9324 ./usr/lib/python3.8/site-packages/Crypto/Hash/_BLAKE2b.cpython-38-riscv32-linux-gnu.so
+-rwxr-xr-x root       root             9328 ./usr/lib/python3.8/site-packages/Crypto/Hash/_BLAKE2b.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             9424 ./usr/lib/python3.8/site-packages/Crypto/Hash/BLAKE2b.py
 -rw-r--r-- root       root              877 ./usr/lib/python3.8/site-packages/Crypto/Hash/BLAKE2b.pyi
--rwxr-xr-x root       root             5228 ./usr/lib/python3.8/site-packages/Crypto/Hash/_BLAKE2s.cpython-38-riscv32-linux-gnu.so
+-rwxr-xr-x root       root             5232 ./usr/lib/python3.8/site-packages/Crypto/Hash/_BLAKE2s.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             9430 ./usr/lib/python3.8/site-packages/Crypto/Hash/BLAKE2s.py
 -rw-r--r-- root       root              739 ./usr/lib/python3.8/site-packages/Crypto/Hash/BLAKE2s.pyi
 -rw-r--r-- root       root            10420 ./usr/lib/python3.8/site-packages/Crypto/Hash/CMAC.py
@@ -113,7 +113,7 @@ drwxr-xr-x root       root             1300 ./usr/lib/python3.8/site-packages/Cr
 -rwxr-xr-x root       root             9328 ./usr/lib/python3.8/site-packages/Crypto/Hash/_keccak.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             7106 ./usr/lib/python3.8/site-packages/Crypto/Hash/keccak.py
 -rw-r--r-- root       root              741 ./usr/lib/python3.8/site-packages/Crypto/Hash/keccak.pyi
--rwxr-xr-x root       root             5228 ./usr/lib/python3.8/site-packages/Crypto/Hash/_MD2.cpython-38-riscv32-linux-gnu.so
+-rwxr-xr-x root       root             5232 ./usr/lib/python3.8/site-packages/Crypto/Hash/_MD2.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             6111 ./usr/lib/python3.8/site-packages/Crypto/Hash/MD2.py
 -rw-r--r-- root       root              492 ./usr/lib/python3.8/site-packages/Crypto/Hash/MD2.pyi
 -rwxr-xr-x root       root             5228 ./usr/lib/python3.8/site-packages/Crypto/Hash/_MD4.cpython-38-riscv32-linux-gnu.so
@@ -209,7 +209,7 @@ drwxr-xr-x root       root              340 ./usr/lib/python3.8/site-packages/Cr
 -rw-r--r-- root       root               78 ./usr/lib/python3.8/site-packages/Crypto/Math/_IntegerGMP.pyi
 -rw-r--r-- root       root            11072 ./usr/lib/python3.8/site-packages/Crypto/Math/_IntegerNative.py
 -rw-r--r-- root       root               81 ./usr/lib/python3.8/site-packages/Crypto/Math/_IntegerNative.pyi
--rwxr-xr-x root       root            29880 ./usr/lib/python3.8/site-packages/Crypto/Math/_modexp.cpython-38-riscv32-linux-gnu.so
+-rwxr-xr-x root       root            25784 ./usr/lib/python3.8/site-packages/Crypto/Math/_modexp.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             2022 ./usr/lib/python3.8/site-packages/Crypto/Math/Numbers.py
 -rw-r--r-- root       root               84 ./usr/lib/python3.8/site-packages/Crypto/Math/Numbers.pyi
 -rw-r--r-- root       root            11336 ./usr/lib/python3.8/site-packages/Crypto/Math/Primality.py
@@ -239,7 +239,7 @@ drwxr-xr-x root       root              320 ./usr/lib/python3.8/site-packages/Cr
 -rw-r--r-- root       root             1353 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/DSA.pyi
 -rw-r--r-- root       root            41977 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/ECC.py
 -rw-r--r-- root       root             2354 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/ECC.pyi
--rwxr-xr-x root       root           685280 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/_ec_ws.cpython-38-riscv32-linux-gnu.so
+-rwxr-xr-x root       root           681184 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/_ec_ws.cpython-38-riscv32-linux-gnu.so
 -rw-r--r-- root       root             8615 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/ElGamal.py
 -rw-r--r-- root       root              674 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/ElGamal.pyi
 -rw-r--r-- root       root             3119 ./usr/lib/python3.8/site-packages/Crypto/PublicKey/__init__.py

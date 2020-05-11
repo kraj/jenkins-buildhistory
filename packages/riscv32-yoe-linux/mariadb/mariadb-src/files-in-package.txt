@@ -45,7 +45,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/mariadb/10.4.12-r0/m
 -rw-r--r-- root       root            61073 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/dbug/dbug.c
 drwxr-xr-x root       root              220 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra
 -rw-r--r-- root       root            54325 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/innochecksum.cc
-drwxr-xr-x root       root              880 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup
+drwxr-xr-x root       root              860 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup
 -rw-r--r-- root       root            57075 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/backup_copy.cc
 -rw-r--r-- root       root             1277 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/backup_copy.h
 -rw-r--r-- root       root            45790 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/backup_mysql.cc
@@ -59,7 +59,6 @@ drwxr-xr-x root       root               80 ./usr/src/debug/mariadb/10.4.12-r0/m
 -rw-r--r-- root       root             1024 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/crc/crc_glue.h
 -rw-r--r-- root       root             3388 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/datasink.cc
 -rw-r--r-- root       root             2893 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/datasink.h
--rw-r--r-- root       root              952 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/ds_archive.h
 -rw-r--r-- root       root             4582 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/ds_buffer.cc
 -rw-r--r-- root       root             1112 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/ds_buffer.h
 -rw-r--r-- root       root            11090 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/extra/mariabackup/ds_compress.cc
@@ -2684,9 +2683,8 @@ drwxr-xr-x root       root              240 ./usr/src/debug/mariadb/10.4.12-r0/m
 -rw-r--r-- root       root             5718 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/table/table_reader.h
 -rw-r--r-- root       root             6461 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/table/two_level_iterator.cc
 -rw-r--r-- root       root             1714 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/table/two_level_iterator.h
-drwxr-xr-x root       root               80 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/test_util
+drwxr-xr-x root       root               60 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/test_util
 -rw-r--r-- root       root             1269 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/test_util/mock_time_env.h
--rw-r--r-- root       root             5049 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/test_util/sync_point.h
 drwxr-xr-x root       root              160 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/tools
 -rw-r--r-- root       root           107233 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/tools/ldb_cmd.cc
 -rw-r--r-- root       root            15947 ./usr/src/debug/mariadb/10.4.12-r0/mariadb-10.4.12/storage/rocksdb/rocksdb/tools/ldb_cmd_impl.h

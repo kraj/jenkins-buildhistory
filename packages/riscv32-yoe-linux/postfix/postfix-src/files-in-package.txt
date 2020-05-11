@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/postfix
 drwxr-xr-x root       root               60 ./usr/src/debug/postfix/3.4.8-r0
 drwxr-xr-x root       root               80 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8
-drwxr-xr-x root       root             4040 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include
+drwxr-xr-x root       root             4020 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include
 -rw-r--r-- root       root             1369 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/abounce.h
 -rw-r--r-- root       root             2218 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/anvil_clnt.h
 -rw-r--r-- root       root             1736 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/argv.h
@@ -108,7 +108,6 @@ drwxr-xr-x root       root             4040 ./usr/src/debug/postfix/3.4.8-r0/pos
 -rw-r--r-- root       root              669 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/match_service.h
 -rw-r--r-- root       root              729 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/mbox_conf.h
 -rw-r--r-- root       root              961 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/mbox_open.h
--rw-r--r-- root       root              866 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/midna_domain.h
 -rw-r--r-- root       root             8647 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/milter.h
 -rw-r--r-- root       root             2662 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/mime_state.h
 -rw-r--r-- root       root             1886 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/include/mkmap.h
@@ -652,7 +651,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/postfix/3.4.8-r0/pos
 -rw-r--r-- root       root            49879 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/sendmail/sendmail.c
 drwxr-xr-x root       root               60 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/showq
 -rw-r--r-- root       root            13322 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/showq/showq.c
-drwxr-xr-x root       root              420 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp
+drwxr-xr-x root       root              400 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp
 drwxr-xr-x root       root              460 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtpd
 -rw-r--r-- root       root           237249 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtpd/smtpd.c
 -rw-r--r-- root       root             9516 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtpd/smtpd_chat.c
@@ -689,7 +688,6 @@ drwxr-xr-x root       root              460 ./usr/src/debug/postfix/3.4.8-r0/pos
 -rw-r--r-- root       root             7042 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_rcpt.c
 -rw-r--r-- root       root             8101 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_reuse.c
 -rw-r--r-- root       root              547 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_reuse.h
--rw-r--r-- root       root             1086 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_sasl.h
 -rw-r--r-- root       root            13381 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_session.c
 -rw-r--r-- root       root             2689 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_state.c
 -rw-r--r-- root       root            27394 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/smtp/smtp_tls_policy.c
@@ -743,7 +741,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/postfix/3.4.8-r0/pos
 -rw-r--r-- root       root              968 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/trivial-rewrite/transport.h
 -rw-r--r-- root       root            25196 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/trivial-rewrite/trivial-rewrite.c
 -rw-r--r-- root       root             2462 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/trivial-rewrite/trivial-rewrite.h
-drwxr-xr-x root       root             5040 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util
+drwxr-xr-x root       root             5020 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util
 -rw-r--r-- root       root             1244 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/allascii.c
 -rw-r--r-- root       root              928 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/alldig.c
 -rw-r--r-- root       root              943 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/allprint.c
@@ -869,7 +867,6 @@ drwxr-xr-x root       root             5040 ./usr/src/debug/postfix/3.4.8-r0/pos
 -rw-r--r-- root       root             8648 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/match_list.c
 -rw-r--r-- root       root             1751 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/match_list.h
 -rw-r--r-- root       root             9120 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/match_ops.c
--rw-r--r-- root       root              866 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/midna_domain.h
 -rw-r--r-- root       root             8720 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/msg.c
 -rw-r--r-- root       root             1505 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/msg.h
 -rw-r--r-- root       root             9469 ./usr/src/debug/postfix/3.4.8-r0/postfix-3.4.8/src/util/msg_logger.c

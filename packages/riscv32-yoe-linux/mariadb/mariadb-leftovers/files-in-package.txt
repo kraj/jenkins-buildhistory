@@ -5,13 +5,13 @@ drwxr-xr-x root       root               60 ./etc/my.cnf.d
 -rw-r--r-- root       root              763 ./etc/my.cnf.d/enable_encryption.preset
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root             1060 ./usr/bin
--rwxr-xr-x root       root          3962336 ./usr/bin/aria_chk
--rwxr-xr-x root       root          3810832 ./usr/bin/aria_dump_log
--rwxr-xr-x root       root          3819160 ./usr/bin/aria_ftdump
--rwxr-xr-x root       root          3840016 ./usr/bin/aria_pack
--rwxr-xr-x root       root          3926560 ./usr/bin/aria_read_log
--rwxr-xr-x root       root          3352676 ./usr/bin/innochecksum
--rwxr-xr-x root       root         17174428 ./usr/bin/mariabackup
+-rwxr-xr-x root       root          3950048 ./usr/bin/aria_chk
+-rwxr-xr-x root       root          3794448 ./usr/bin/aria_dump_log
+-rwxr-xr-x root       root          3806872 ./usr/bin/aria_ftdump
+-rwxr-xr-x root       root          3823632 ./usr/bin/aria_pack
+-rwxr-xr-x root       root          3914272 ./usr/bin/aria_read_log
+-rwxr-xr-x root       root          3332184 ./usr/bin/innochecksum
+-rwxr-xr-x root       root         16985876 ./usr/bin/mariabackup
 lrwxrwxrwx root       root               11 ./usr/bin/mariadb-access -> mysqlaccess
 lrwxrwxrwx root       root               10 ./usr/bin/mariadb-admin -> mysqladmin
 lrwxrwxrwx root       root               11 ./usr/bin/mariadb-backup -> mariabackup
@@ -44,13 +44,13 @@ lrwxrwxrwx root       root                9 ./usr/bin/mariadb-test -> mysqltest
 lrwxrwxrwx root       root               19 ./usr/bin/mariadb-tzinfo-to-sql -> mysql_tzinfo_to_sql
 lrwxrwxrwx root       root               13 ./usr/bin/mariadb-upgrade -> mysql_upgrade
 lrwxrwxrwx root       root               13 ./usr/bin/mariadb-waitpid -> mysql_waitpid
--rwxr-xr-x root       root          3335344 ./usr/bin/mbstream
+-rwxr-xr-x root       root          3314864 ./usr/bin/mbstream
 -rwxr-xr-x root       root            25049 ./usr/bin/myrocks_hotbackup
--rwxr-xr-x root       root         15618244 ./usr/bin/mysql_embedded
--rwxr-xr-x root       root          3318636 ./usr/bin/mysql_ldb
+-rwxr-xr-x root       root         15417560 ./usr/bin/mysql_embedded
+-rwxr-xr-x root       root          3178412 ./usr/bin/mysql_ldb
 -rwxr-xr-x root       root            62527 ./usr/bin/mytop
--rwxr-xr-x root       root          3310440 ./usr/bin/sst_dump
--rwxr-xr-x root       root         15520472 ./usr/bin/test-connect-t
+-rwxr-xr-x root       root          3166120 ./usr/bin/sst_dump
+-rwxr-xr-x root       root         15319724 ./usr/bin/test-connect-t
 -rw-r--r-- root       root            10688 ./usr/bin/wsrep_sst_common
 -rwxr-xr-x root       root            37509 ./usr/bin/wsrep_sst_mariabackup
 -rwxr-xr-x root       root             8020 ./usr/bin/wsrep_sst_mysqldump

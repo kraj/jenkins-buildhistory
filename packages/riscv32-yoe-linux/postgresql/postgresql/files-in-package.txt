@@ -12,15 +12,15 @@ drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              440 ./usr/bin
 -rwxr-xr-x root       root           853972 ./usr/bin/ecpg
--rwxr-xr-x root       root           104840 ./usr/bin/initdb
+-rwxr-xr-x root       root           108932 ./usr/bin/initdb
 -rwxr-xr-x root       root            30260 ./usr/bin/pg_archivecleanup
--rwxr-xr-x root       root            88564 ./usr/bin/pg_basebackup
+-rwxr-xr-x root       root            92660 ./usr/bin/pg_basebackup
 -rwxr-xr-x root       root            46868 ./usr/bin/pg_checksums
 -rwxr-xr-x root       root            30224 ./usr/bin/pg_config
 -rwxr-xr-x root       root            42588 ./usr/bin/pg_controldata
--rwxr-xr-x root       root            51036 ./usr/bin/pg_ctl
+-rwxr-xr-x root       root            55132 ./usr/bin/pg_ctl
 -rwxr-xr-x root       root            46932 ./usr/bin/pg_isready
--rwxr-xr-x root       root            59568 ./usr/bin/pg_receivewal
+-rwxr-xr-x root       root            63664 ./usr/bin/pg_receivewal
 -rwxr-xr-x root       root            63724 ./usr/bin/pg_recvlogical
 -rwxr-xr-x root       root            50996 ./usr/bin/pg_resetwal
 -rwxr-xr-x root       root            75768 ./usr/bin/pg_rewind
@@ -28,7 +28,7 @@ drwxr-xr-x root       root              440 ./usr/bin
 -rwxr-xr-x root       root            26148 ./usr/bin/pg_test_timing
 -rwxr-xr-x root       root           108676 ./usr/bin/pg_upgrade
 -rwxr-xr-x root       root            75612 ./usr/bin/pg_waldump
--rwxr-xr-x root       root          5876952 ./usr/bin/postgres
+-rwxr-xr-x root       root          5930188 ./usr/bin/postgres
 -rwxr-xr-x root       root             1458 ./usr/bin/postgresql-setup
 lrwxrwxrwx root       root                8 ./usr/bin/postmaster -> postgres
 drwxr-xr-x root       root               60 ./usr/lib
@@ -52,9 +52,9 @@ drwxr-xr-x root       root              920 ./usr/lib/postgresql
 -rwxr-xr-x root       root            13752 ./usr/lib/postgresql/libpqwalreceiver.so
 -rwxr-xr-x root       root             5108 ./usr/lib/postgresql/ltree_plpython3.so
 -rwxr-xr-x root       root             9440 ./usr/lib/postgresql/pgoutput.so
--rwxr-xr-x root       root            17828 ./usr/lib/postgresql/pg_prewarm.so
+-rwxr-xr-x root       root            17832 ./usr/lib/postgresql/pg_prewarm.so
 -rwxr-xr-x root       root            13544 ./usr/lib/postgresql/pg_visibility.so
--rwxr-xr-x root       root           141708 ./usr/lib/postgresql/plpgsql.so
+-rwxr-xr-x root       root           145804 ./usr/lib/postgresql/plpgsql.so
 -rwxr-xr-x root       root            67692 ./usr/lib/postgresql/postgres_fdw.so
 -rwxr-xr-x root       root             5116 ./usr/lib/postgresql/tcn.so
 -rwxr-xr-x root       root             9404 ./usr/lib/postgresql/test_decoding.so

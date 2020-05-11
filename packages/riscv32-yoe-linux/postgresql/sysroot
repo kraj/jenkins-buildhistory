@@ -18,7 +18,7 @@ drwxr-xr-x -          -                  60 ./usr/include/libpq
 -rw-r--r-- -          -               22839 ./usr/include/libpq-fe.h
 -rw-r--r-- -          -                 637 ./usr/include/libpq/libpq-fs.h
 -rw-r--r-- -          -                 328 ./usr/include/pg_config_ext.h
--rw-r--r-- -          -               32737 ./usr/include/pg_config.h
+-rw-r--r-- -          -               32738 ./usr/include/pg_config.h
 -rw-r--r-- -          -               11672 ./usr/include/pg_config_manual.h
 -rw-r--r-- -          -                1052 ./usr/include/pg_config_os.h
 -rw-r--r-- -          -                 797 ./usr/include/pgtypes_date.h
@@ -528,7 +528,7 @@ drwxr-xr-x -          -                 120 ./usr/include/postgresql/server/part
 -rw-r--r-- -          -                1367 ./usr/include/postgresql/server/partitioning/partdesc.h
 -rw-r--r-- -          -                2949 ./usr/include/postgresql/server/partitioning/partprune.h
 -rw-r--r-- -          -                 328 ./usr/include/postgresql/server/pg_config_ext.h
--rw-r--r-- -          -               32737 ./usr/include/postgresql/server/pg_config.h
+-rw-r--r-- -          -               32738 ./usr/include/postgresql/server/pg_config.h
 -rw-r--r-- -          -               11672 ./usr/include/postgresql/server/pg_config_manual.h
 -rw-r--r-- -          -                1052 ./usr/include/postgresql/server/pg_config_os.h
 -rw-r--r-- -          -                1659 ./usr/include/postgresql/server/pg_getopt.h
@@ -871,25 +871,25 @@ drwxr-xr-x -          -                1800 ./usr/include/postgresql/server/util
 -rw-r--r-- -          -                 321 ./usr/include/sqlda.h
 -rw-r--r-- -          -                 824 ./usr/include/sqlda-native.h
 drwxr-xr-x -          -                 500 ./usr/lib
--rw-r--r-- -          -             1328392 ./usr/lib/libecpg.a
--rw-r--r-- -          -              180116 ./usr/lib/libecpg_compat.a
+-rw-r--r-- -          -             1253932 ./usr/lib/libecpg.a
+-rw-r--r-- -          -              185556 ./usr/lib/libecpg_compat.a
 -rwxr-xr-x -          -               13728 ./usr/lib/libecpg_compat.so.3.12
 lrwxrwxrwx -          -                  22 ./usr/lib/libecpg_compat.so.3 -> libecpg_compat.so.3.12
 lrwxrwxrwx -          -                  22 ./usr/lib/libecpg_compat.so -> libecpg_compat.so.3.12
 -rwxr-xr-x -          -               63184 ./usr/lib/libecpg.so.6.12
 lrwxrwxrwx -          -                  15 ./usr/lib/libecpg.so.6 -> libecpg.so.6.12
 lrwxrwxrwx -          -                  15 ./usr/lib/libecpg.so -> libecpg.so.6.12
--rw-r--r-- -          -             1481732 ./usr/lib/libpgcommon.a
--rw-r--r-- -          -             1476326 ./usr/lib/libpgcommon_shlib.a
--rw-r--r-- -          -             1095842 ./usr/lib/libpgfeutils.a
--rw-r--r-- -          -              879830 ./usr/lib/libpgport.a
--rw-r--r-- -          -              876312 ./usr/lib/libpgport_shlib.a
--rw-r--r-- -          -             1023008 ./usr/lib/libpgtypes.a
--rwxr-xr-x -          -               58836 ./usr/lib/libpgtypes.so.3.12
+-rw-r--r-- -          -             1361668 ./usr/lib/libpgcommon.a
+-rw-r--r-- -          -             1342794 ./usr/lib/libpgcommon_shlib.a
+-rw-r--r-- -          -             1151694 ./usr/lib/libpgfeutils.a
+-rw-r--r-- -          -              843298 ./usr/lib/libpgport.a
+-rw-r--r-- -          -              819612 ./usr/lib/libpgport_shlib.a
+-rw-r--r-- -          -             1069108 ./usr/lib/libpgtypes.a
+-rwxr-xr-x -          -               62932 ./usr/lib/libpgtypes.so.3.12
 lrwxrwxrwx -          -                  18 ./usr/lib/libpgtypes.so.3 -> libpgtypes.so.3.12
 lrwxrwxrwx -          -                  18 ./usr/lib/libpgtypes.so -> libpgtypes.so.3.12
--rw-r--r-- -          -             3056088 ./usr/lib/libpq.a
--rwxr-xr-x -          -              227436 ./usr/lib/libpq.so.5.12
+-rw-r--r-- -          -             3008720 ./usr/lib/libpq.a
+-rwxr-xr-x -          -              231532 ./usr/lib/libpq.so.5.12
 lrwxrwxrwx -          -                  13 ./usr/lib/libpq.so.5 -> libpq.so.5.12
 lrwxrwxrwx -          -                  13 ./usr/lib/libpq.so -> libpq.so.5.12
 drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
@@ -906,7 +906,7 @@ drwxr-xr-x -          -                1760 ./usr/lib/postgresql
 -rwxr-xr-x -          -                5180 ./usr/lib/postgresql/autoinc.so
 -rwxr-xr-x -          -               17768 ./usr/lib/postgresql/bloom.so
 -rwxr-xr-x -          -               17452 ./usr/lib/postgresql/btree_gin.so
--rwxr-xr-x -          -               54812 ./usr/lib/postgresql/btree_gist.so
+-rwxr-xr-x -          -               54816 ./usr/lib/postgresql/btree_gist.so
 -rwxr-xr-x -          -                9236 ./usr/lib/postgresql/citext.so
 -rwxr-xr-x -          -               34092 ./usr/lib/postgresql/cube.so
 -rwxr-xr-x -          -                9116 ./usr/lib/postgresql/cyrillic_and_mic.so
@@ -921,13 +921,13 @@ drwxr-xr-x -          -                1760 ./usr/lib/postgresql
 -rwxr-xr-x -          -                5012 ./usr/lib/postgresql/euc_kr_and_mic.so
 -rwxr-xr-x -          -                9244 ./usr/lib/postgresql/euc_tw_and_big5.so
 -rwxr-xr-x -          -               13604 ./usr/lib/postgresql/file_fdw.so
--rwxr-xr-x -          -               21580 ./usr/lib/postgresql/fuzzystrmatch.so
+-rwxr-xr-x -          -               21584 ./usr/lib/postgresql/fuzzystrmatch.so
 -rwxr-xr-x -          -                9308 ./usr/lib/postgresql/hstore_plperl.so
 -rwxr-xr-x -          -                5192 ./usr/lib/postgresql/hstore_plpython3.so
 -rwxr-xr-x -          -               38248 ./usr/lib/postgresql/hstore.so
 -rwxr-xr-x -          -                5168 ./usr/lib/postgresql/insert_username.so
 -rwxr-xr-x -          -               34036 ./usr/lib/postgresql/_int.so
--rwxr-xr-x -          -               71016 ./usr/lib/postgresql/isn.so
+-rwxr-xr-x -          -               71020 ./usr/lib/postgresql/isn.so
 -rwxr-xr-x -          -                9392 ./usr/lib/postgresql/jsonb_plperl.so
 -rwxr-xr-x -          -                9392 ./usr/lib/postgresql/jsonb_plpython3.so
 -rwxr-xr-x -          -                5020 ./usr/lib/postgresql/latin2_and_win1250.so
@@ -940,10 +940,10 @@ drwxr-xr-x -          -                1760 ./usr/lib/postgresql
 -rwxr-xr-x -          -               30000 ./usr/lib/postgresql/pageinspect.so
 -rwxr-xr-x -          -                5148 ./usr/lib/postgresql/passwordcheck.so
 -rwxr-xr-x -          -                5184 ./usr/lib/postgresql/pg_buffercache.so
--rwxr-xr-x -          -               96508 ./usr/lib/postgresql/pgcrypto.so
+-rwxr-xr-x -          -               92412 ./usr/lib/postgresql/pgcrypto.so
 -rwxr-xr-x -          -                5024 ./usr/lib/postgresql/pg_freespacemap.so
 -rwxr-xr-x -          -                9372 ./usr/lib/postgresql/pgoutput.so
--rwxr-xr-x -          -               17756 ./usr/lib/postgresql/pg_prewarm.so
+-rwxr-xr-x -          -               17760 ./usr/lib/postgresql/pg_prewarm.so
 -rwxr-xr-x -          -                9364 ./usr/lib/postgresql/pgrowlocks.so
 -rwxr-xr-x -          -               26036 ./usr/lib/postgresql/pg_stat_statements.so
 -rwxr-xr-x -          -               21728 ./usr/lib/postgresql/pgstattuple.so
@@ -966,16 +966,16 @@ drwxr-xr-x -          -                  60 ./usr/lib/postgresql/pgxs/src/pl/plp
 -rw-r--r-- -          -                1749 ./usr/lib/postgresql/pgxs/src/pl/plpython/regress-python3-mangle.mk
 drwxr-xr-x -          -                  60 ./usr/lib/postgresql/pgxs/src/test
 drwxr-xr-x -          -                  60 ./usr/lib/postgresql/pgxs/src/test/regress
--rwxr-xr-x -          -               51228 ./usr/lib/postgresql/pgxs/src/test/regress/pg_regress
+-rwxr-xr-x -          -               55324 ./usr/lib/postgresql/pgxs/src/test/regress/pg_regress
 -rwxr-xr-x -          -               67552 ./usr/lib/postgresql/plperl.so
--rwxr-xr-x -          -              141636 ./usr/lib/postgresql/plpgsql.so
+-rwxr-xr-x -          -              145732 ./usr/lib/postgresql/plpgsql.so
 -rwxr-xr-x -          -               89832 ./usr/lib/postgresql/plpython3.so
 -rwxr-xr-x -          -               42620 ./usr/lib/postgresql/pltcl.so
 -rwxr-xr-x -          -               67616 ./usr/lib/postgresql/postgres_fdw.so
 -rwxr-xr-x -          -               13428 ./usr/lib/postgresql/refint.so
--rwxr-xr-x -          -               21796 ./usr/lib/postgresql/seg.so
+-rwxr-xr-x -          -               21800 ./usr/lib/postgresql/seg.so
 -rwxr-xr-x -          -                9428 ./usr/lib/postgresql/sslinfo.so
--rwxr-xr-x -          -               17596 ./usr/lib/postgresql/tablefunc.so
+-rwxr-xr-x -          -               17600 ./usr/lib/postgresql/tablefunc.so
 -rwxr-xr-x -          -                5052 ./usr/lib/postgresql/tcn.so
 -rwxr-xr-x -          -                9328 ./usr/lib/postgresql/test_decoding.so
 -rwxr-xr-x -          -                9320 ./usr/lib/postgresql/tsm_system_rows.so
@@ -1000,7 +1000,7 @@ drwxr-xr-x -          -                  60 ./usr/lib/postgresql/tutorial
 -rwxr-xr-x -          -               86980 ./usr/lib/postgresql/utf8_and_sjis.so
 -rwxr-xr-x -          -              172996 ./usr/lib/postgresql/utf8_and_uhc.so
 -rwxr-xr-x -          -               29652 ./usr/lib/postgresql/utf8_and_win.so
--rwxr-xr-x -          -               13380 ./usr/lib/postgresql/uuid-ossp.so
+-rwxr-xr-x -          -               13384 ./usr/lib/postgresql/uuid-ossp.so
 drwxr-xr-x -          -                  60 ./usr/share
 drwxr-xr-x -          -                 380 ./usr/share/postgresql
 -rw-r--r-- -          -               33114 ./usr/share/postgresql/errcodes.txt

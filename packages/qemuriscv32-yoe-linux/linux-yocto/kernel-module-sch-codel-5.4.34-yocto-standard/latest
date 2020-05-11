@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-sch-codel
 RDEPENDS = kernel-5.4.34-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 12920
+PKGSIZE = 13236
 FILES = /lib/modules/5.4.34-yocto-standard/kernel/net/sched/sch_codel.ko /etc/modules-load.d/sch_codel.conf /etc/modprobe.d/sch_codel.conf
 FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/net/sched/sch_codel.ko

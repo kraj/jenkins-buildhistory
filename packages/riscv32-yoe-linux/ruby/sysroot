@@ -38,7 +38,7 @@ drwxr-xr-x -          -                 160 ./usr/include/ruby-2.7.0/ruby/backwa
 -rw-r--r-- -          -                1853 ./usr/include/ruby-2.7.0/ruby/version.h
 -rw-r--r-- -          -                1559 ./usr/include/ruby-2.7.0/ruby/vm.h
 drwxr-xr-x -          -                 140 ./usr/lib
--rwxr-xr-x -          -             2384224 ./usr/lib/libruby.so.2.7.0
+-rwxr-xr-x -          -             2416992 ./usr/lib/libruby.so.2.7.0
 lrwxrwxrwx -          -                  16 ./usr/lib/libruby.so.2.7 -> libruby.so.2.7.0
 lrwxrwxrwx -          -                  16 ./usr/lib/libruby.so -> libruby.so.2.7.0
 drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
@@ -922,7 +922,7 @@ drwxr-xr-x -          -                 120 ./usr/lib/ruby/2.7.0/ripper
 -rw-r--r-- -          -                2494 ./usr/lib/ruby/2.7.0/ripper.rb
 -rw-r--r-- -          -                3787 ./usr/lib/ruby/2.7.0/ripper/sexp.rb
 drwxr-xr-x -          -                 740 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu
--rwxr-xr-x -          -               58900 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/bigdecimal.so
+-rwxr-xr-x -          -               58896 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/bigdecimal.so
 drwxr-xr-x -          -                  60 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/cgi
 -rwxr-xr-x -          -               13452 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/cgi/escape.so
 -rwxr-xr-x -          -                5004 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/continuation.so
@@ -1010,11 +1010,11 @@ drwxr-xr-x -          -                 100 ./usr/lib/ruby/2.7.0/riscv32-linux-g
 -rwxr-xr-x -          -                5180 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/io/wait.so
 drwxr-xr-x -          -                  60 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/json
 drwxr-xr-x -          -                  80 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/json/ext
--rwxr-xr-x -          -               21832 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/json/ext/generator.so
+-rwxr-xr-x -          -               25928 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/json/ext/generator.so
 -rwxr-xr-x -          -               17700 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/json/ext/parser.so
 -rwxr-xr-x -          -                5256 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/monitor.so
--rwxr-xr-x -          -              260756 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/nkf.so
--rwxr-xr-x -          -               30176 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/objspace.so
+-rwxr-xr-x -          -              260760 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/nkf.so
+-rwxr-xr-x -          -               30180 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/objspace.so
 -rwxr-xr-x -          -              259540 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/openssl.so
 -rwxr-xr-x -          -               21740 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/pathname.so
 -rwxr-xr-x -          -               17848 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/psych.so
@@ -1022,7 +1022,7 @@ drwxr-xr-x -          -                  80 ./usr/lib/ruby/2.7.0/riscv32-linux-g
 drwxr-xr-x -          -                  60 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/racc
 -rwxr-xr-x -          -               13512 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/racc/cparse.so
 drwxr-xr-x -          -                  60 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/rbconfig
--rw-r--r-- -          -               15581 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/rbconfig.rb
+-rw-r--r-- -          -               15582 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/rbconfig.rb
 -rwxr-xr-x -          -                9132 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/rbconfig/sizeof.so
 -rwxr-xr-x -          -               22056 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/readline.so
 -rwxr-xr-x -          -              210532 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/ripper.so
@@ -1073,7 +1073,7 @@ drwxr-xr-x -          -                 100 ./usr/lib/ruby/2.7.0/riscv32-linux-g
 drwxr-xr-x -          -                  60 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/popen_deadlock
 -rwxr-xr-x -          -                5132 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/popen_deadlock/infinite_loop_dlsym.so
 -rwxr-xr-x -          -                5024 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/postponed_job.so
--rwxr-xr-x -          -                9316 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/printf.so
+-rwxr-xr-x -          -                9320 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/printf.so
 -rwxr-xr-x -          -                5148 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/proc.so
 -rwxr-xr-x -          -                5020 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/rational.so
 -rwxr-xr-x -          -                5012 ./usr/lib/ruby/2.7.0/riscv32-linux-gnu/-test-/rb_call_super_kw.so

@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-trace-printk
 RDEPENDS = kernel-5.4.34-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 6296
+PKGSIZE = 6236
 FILES = /lib/modules/5.4.34-yocto-standard/kernel/samples/trace_printk/trace-printk.ko /etc/modules-load.d/trace-printk.conf /etc/modprobe.d/trace-printk.conf
 FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

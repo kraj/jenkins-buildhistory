@@ -1546,7 +1546,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.4.34-yocto-standard/
 drwxr-xr-x root       root               80 ./lib/modules/5.4.34-yocto-standard/build/certs
 -rw-r--r-- root       root             3494 ./lib/modules/5.4.34-yocto-standard/build/certs/Kconfig
 -rw-r--r-- root       root             4167 ./lib/modules/5.4.34-yocto-standard/build/certs/Makefile
--rw-r--r-- root       root            78516 ./lib/modules/5.4.34-yocto-standard/build/.config
+-rw-r--r-- root       root            78488 ./lib/modules/5.4.34-yocto-standard/build/.config
 drwxr-xr-x root       root              120 ./lib/modules/5.4.34-yocto-standard/build/crypto
 drwxr-xr-x root       root               80 ./lib/modules/5.4.34-yocto-standard/build/crypto/asymmetric_keys
 -rw-r--r-- root       root             3250 ./lib/modules/5.4.34-yocto-standard/build/crypto/asymmetric_keys/Kconfig
@@ -5739,8 +5739,8 @@ drwxr-xr-x root       root              140 ./lib/modules/5.4.34-yocto-standard/
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/async/raid6
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/async/raid6/recov.h
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/async/xor.h
--rw-r--r-- root       root            78516 ./lib/modules/5.4.34-yocto-standard/build/include/config/auto.conf
--rw-r--r-- root       root            43001 ./lib/modules/5.4.34-yocto-standard/build/include/config/auto.conf.cmd
+-rw-r--r-- root       root            78488 ./lib/modules/5.4.34-yocto-standard/build/include/config/auto.conf
+-rw-r--r-- root       root            43002 ./lib/modules/5.4.34-yocto-standard/build/include/config/auto.conf.cmd
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/autofs
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/autofs4
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/autofs4/fs.h
@@ -5842,12 +5842,10 @@ drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/build
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/build/salt.h
 drwxr-xr-x root       root              100 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc
-drwxr-xr-x root       root              140 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has
+drwxr-xr-x root       root              120 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has
 drwxr-xr-x root       root               80 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/asm
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/asm/goto.h
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/asm/inline.h
-drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/kasan
--rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/kasan/generic.h
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/sancov
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/sancov/trace
 -rw-r--r-- root       root                0 ./lib/modules/5.4.34-yocto-standard/build/include/config/cc/has/sancov/trace/pc.h
@@ -7998,9 +7996,9 @@ drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/
 -rw-r--r-- root       root             3458 ./lib/modules/5.4.34-yocto-standard/build/include/dt-bindings/usb/pd.h
 drwxrwxr-x root       root              180 ./lib/modules/5.4.34-yocto-standard/build/include/generated
 -rw-r--r-- root       root            12885 ./lib/modules/5.4.34-yocto-standard/build/include/generated/asm-offsets.h
--rw-r--r-- root       root            35706 ./lib/modules/5.4.34-yocto-standard/build/include/generated/autoconf.h
+-rw-r--r-- root       root            35669 ./lib/modules/5.4.34-yocto-standard/build/include/generated/autoconf.h
 -rw-r--r-- root       root              317 ./lib/modules/5.4.34-yocto-standard/build/include/generated/bounds.h
--rw-r--r-- root       root              279 ./lib/modules/5.4.34-yocto-standard/build/include/generated/compile.h
+-rw-r--r-- root       root              280 ./lib/modules/5.4.34-yocto-standard/build/include/generated/compile.h
 -rw-r--r-- root       root             1106 ./lib/modules/5.4.34-yocto-standard/build/include/generated/timeconst.h
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/generated/uapi
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/include/generated/uapi/linux
@@ -13791,7 +13789,7 @@ drwxr-xr-x root       root               80 ./lib/modules/5.4.34-yocto-standard/
 drwxr-xr-x root       root               80 ./lib/modules/5.4.34-yocto-standard/build/sound/xen
 -rw-r--r-- root       root              343 ./lib/modules/5.4.34-yocto-standard/build/sound/xen/Kconfig
 -rw-r--r-- root       root              227 ./lib/modules/5.4.34-yocto-standard/build/sound/xen/Makefile
--rw-r--r-- root       root          2391615 ./lib/modules/5.4.34-yocto-standard/build/System.map-5.4.34-yocto-standard
+-rw-r--r-- root       root          2352890 ./lib/modules/5.4.34-yocto-standard/build/System.map-5.4.34-yocto-standard
 drwxr-xr-x root       root              640 ./lib/modules/5.4.34-yocto-standard/build/tools
 drwxr-xr-x root       root               60 ./lib/modules/5.4.34-yocto-standard/build/tools/accounting
 -rw-r--r-- root       root              151 ./lib/modules/5.4.34-yocto-standard/build/tools/accounting/Makefile

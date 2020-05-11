@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-nf-conntrack-netlink
 RDEPENDS = kernel-5.4.34-yocto-standard kernel-module-nf-conntrack-5.4.34-yocto-standard kernel-module-nfnetlink-5.4.34-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 50848
+PKGSIZE = 51236
 FILES = /lib/modules/5.4.34-yocto-standard/kernel/net/netfilter/nf_conntrack_netlink.ko /etc/modules-load.d/nf_conntrack_netlink.conf /etc/modprobe.d/nf_conntrack_netlink.conf
 FILELIST = /lib/modules/5.4.34-yocto-standard/kernel/net/netfilter/nf_conntrack_netlink.ko
