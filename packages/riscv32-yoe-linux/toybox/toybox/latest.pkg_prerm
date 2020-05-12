@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 	update-alternatives --remove  acpi /bin/toybox
+	update-alternatives --remove  arch /bin/toybox
+	update-alternatives --remove  ascii /bin/toybox
 	update-alternatives --remove  base64 /bin/toybox
 	update-alternatives --remove  basename /bin/toybox
 	update-alternatives --remove  blkid /bin/toybox
@@ -24,11 +26,14 @@ set -e
 	update-alternatives --remove  count /bin/toybox
 	update-alternatives --remove  cp /bin/toybox
 	update-alternatives --remove  cpio /bin/toybox
+	update-alternatives --remove  crc32 /bin/toybox
 	update-alternatives --remove  cut /bin/toybox
 	update-alternatives --remove  date /bin/toybox
+	update-alternatives --remove  devmem /bin/toybox
 	update-alternatives --remove  df /bin/toybox
 	update-alternatives --remove  dirname /bin/toybox
 	update-alternatives --remove  dmesg /bin/toybox
+	update-alternatives --remove  dnsdomainname /bin/toybox
 	update-alternatives --remove  dos2unix /bin/toybox
 	update-alternatives --remove  du /bin/toybox
 	update-alternatives --remove  echo /bin/toybox
@@ -43,6 +48,7 @@ set -e
 	update-alternatives --remove  file /bin/toybox
 	update-alternatives --remove  find /bin/toybox
 	update-alternatives --remove  flock /bin/toybox
+	update-alternatives --remove  fmt /bin/toybox
 	update-alternatives --remove  free /bin/toybox
 	update-alternatives --remove  freeramdisk /bin/toybox
 	update-alternatives --remove  fsfreeze /bin/toybox
@@ -50,14 +56,21 @@ set -e
 	update-alternatives --remove  fsync /bin/toybox
 	update-alternatives --remove  ftpget /bin/toybox
 	update-alternatives --remove  ftpput /bin/toybox
+	update-alternatives --remove  getconf /bin/toybox
 	update-alternatives --remove  grep /bin/toybox
 	update-alternatives --remove  groups /bin/toybox
+	update-alternatives --remove  gunzip /bin/toybox
 	update-alternatives --remove  halt /bin/toybox
 	update-alternatives --remove  head /bin/toybox
 	update-alternatives --remove  help /bin/toybox
 	update-alternatives --remove  hexedit /bin/toybox
 	update-alternatives --remove  hostname /bin/toybox
 	update-alternatives --remove  hwclock /bin/toybox
+	update-alternatives --remove  i2cdetect /bin/toybox
+	update-alternatives --remove  i2cdump /bin/toybox
+	update-alternatives --remove  i2cget /bin/toybox
+	update-alternatives --remove  i2cset /bin/toybox
+	update-alternatives --remove  iconv /bin/toybox
 	update-alternatives --remove  id /bin/toybox
 	update-alternatives --remove  ifconfig /bin/toybox
 	update-alternatives --remove  inotifyd /bin/toybox
@@ -70,6 +83,7 @@ set -e
 	update-alternatives --remove  killall /bin/toybox
 	update-alternatives --remove  link /bin/toybox
 	update-alternatives --remove  ln /bin/toybox
+	update-alternatives --remove  logger /bin/toybox
 	update-alternatives --remove  login /bin/toybox
 	update-alternatives --remove  logname /bin/toybox
 	update-alternatives --remove  losetup /bin/toybox
@@ -79,6 +93,7 @@ set -e
 	update-alternatives --remove  lspci /bin/toybox
 	update-alternatives --remove  lsusb /bin/toybox
 	update-alternatives --remove  makedevs /bin/toybox
+	update-alternatives --remove  mcookie /bin/toybox
 	update-alternatives --remove  md5sum /bin/toybox
 	update-alternatives --remove  microcom /bin/toybox
 	update-alternatives --remove  mix /bin/toybox
@@ -109,12 +124,15 @@ set -e
 	update-alternatives --remove  patch /bin/toybox
 	update-alternatives --remove  pgrep /bin/toybox
 	update-alternatives --remove  pidof /bin/toybox
+	update-alternatives --remove  ping /bin/toybox
+	update-alternatives --remove  ping6 /bin/toybox
 	update-alternatives --remove  pivot_root /bin/toybox
 	update-alternatives --remove  pkill /bin/toybox
 	update-alternatives --remove  pmap /bin/toybox
 	update-alternatives --remove  poweroff /bin/toybox
 	update-alternatives --remove  printenv /bin/toybox
 	update-alternatives --remove  printf /bin/toybox
+	update-alternatives --remove  prlimit /bin/toybox
 	update-alternatives --remove  ps /bin/toybox
 	update-alternatives --remove  pwd /bin/toybox
 	update-alternatives --remove  pwdx /bin/toybox
@@ -131,10 +149,12 @@ set -e
 	update-alternatives --remove  rmmod /bin/toybox
 	update-alternatives --remove  sed /bin/toybox
 	update-alternatives --remove  seq /bin/toybox
+	update-alternatives --remove  setfattr /bin/toybox
 	update-alternatives --remove  setsid /bin/toybox
 	update-alternatives --remove  sha1sum /bin/toybox
 	update-alternatives --remove  shred /bin/toybox
 	update-alternatives --remove  sleep /bin/toybox
+	update-alternatives --remove  sntp /bin/toybox
 	update-alternatives --remove  sort /bin/toybox
 	update-alternatives --remove  split /bin/toybox
 	update-alternatives --remove  stat /bin/toybox
@@ -146,8 +166,10 @@ set -e
 	update-alternatives --remove  sysctl /bin/toybox
 	update-alternatives --remove  tac /bin/toybox
 	update-alternatives --remove  tail /bin/toybox
+	update-alternatives --remove  tar /bin/toybox
 	update-alternatives --remove  taskset /bin/toybox
 	update-alternatives --remove  tee /bin/toybox
+	update-alternatives --remove  test /bin/toybox
 	update-alternatives --remove  time /bin/toybox
 	update-alternatives --remove  timeout /bin/toybox
 	update-alternatives --remove  top /bin/toybox
@@ -167,9 +189,11 @@ set -e
 	update-alternatives --remove  usleep /bin/toybox
 	update-alternatives --remove  uudecode /bin/toybox
 	update-alternatives --remove  uuencode /bin/toybox
+	update-alternatives --remove  uuidgen /bin/toybox
 	update-alternatives --remove  vconfig /bin/toybox
 	update-alternatives --remove  vmstat /bin/toybox
 	update-alternatives --remove  w /bin/toybox
+	update-alternatives --remove  watch /bin/toybox
 	update-alternatives --remove  wc /bin/toybox
 	update-alternatives --remove  which /bin/toybox
 	update-alternatives --remove  who /bin/toybox
@@ -177,3 +201,4 @@ set -e
 	update-alternatives --remove  xargs /bin/toybox
 	update-alternatives --remove  xxd /bin/toybox
 	update-alternatives --remove  yes /bin/toybox
+	update-alternatives --remove  zcat /bin/toybox
