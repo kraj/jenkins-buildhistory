@@ -1,0 +1,138 @@
+drwxr-xr-x root       root              120 ./etc
+drwxr-xr-x root       root               60 ./etc/cockpit
+drwxr-xr-x root       root               40 ./etc/cockpit/ws-certs.d
+drwxr-xr-x root       root               60 ./etc/issue.d
+lrwxrwxrwx root       root               17 ./etc/issue.d/cockpit.issue -> /run/cockpit/motd
+drwxr-xr-x root       root               60 ./etc/motd.d
+lrwxrwxrwx root       root               17 ./etc/motd.d/cockpit -> /run/cockpit/motd
+drwxr-xr-x root       root               60 ./etc/pam.d
+-rw-r--r-- root       root              232 ./etc/pam.d/cockpit
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root              280 ./lib/systemd/system
+-rw-r--r-- root       root              222 ./lib/systemd/system/cockpit-motd.service
+-rw-r--r-- root       root              638 ./lib/systemd/system/cockpit.service
+-rw-r--r-- root       root              373 ./lib/systemd/system/cockpit.socket
+-rw-r--r-- root       root              223 ./lib/systemd/system/cockpit-wsinstance-http-redirect.service
+-rw-r--r-- root       root              227 ./lib/systemd/system/cockpit-wsinstance-http-redirect.socket
+-rw-r--r-- root       root              193 ./lib/systemd/system/cockpit-wsinstance-http.service
+-rw-r--r-- root       root              165 ./lib/systemd/system/cockpit-wsinstance-https-factory@.service
+-rw-r--r-- root       root              238 ./lib/systemd/system/cockpit-wsinstance-https-factory.socket
+-rw-r--r-- root       root              209 ./lib/systemd/system/cockpit-wsinstance-http.socket
+-rw-r--r-- root       root              236 ./lib/systemd/system/cockpit-wsinstance-https@.service
+-rw-r--r-- root       root              472 ./lib/systemd/system/cockpit-wsinstance-https@.socket
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               22 ./lib/systemd/system-preset/98-cockpit-ws.preset
+-rw-r--r-- root       root              268 ./lib/systemd/system/system-cockpithttps.slice
+drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root              120 ./usr/libexec
+-rwsr-x--- root       root            34668 ./usr/libexec/cockpit-session
+-rwxr-xr-x root       root            30592 ./usr/libexec/cockpit-tls
+-rwxr-xr-x root       root           188260 ./usr/libexec/cockpit-ws
+-rwxr-xr-x root       root            13724 ./usr/libexec/cockpit-wsinstance-factory
+drwxr-xr-x root       root               80 ./usr/lib/security
+-rwxr-xr-x root       root             9408 ./usr/lib/security/pam_cockpit_cert.so
+-rwxr-xr-x root       root            13680 ./usr/lib/security/pam_ssh_add.so
+drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root               93 ./usr/lib/tmpfiles.d/cockpit-tempfiles.conf
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            26352 ./usr/sbin/remotectl
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              100 ./usr/share/cockpit
+drwxr-xr-x root       root              240 ./usr/share/cockpit/branding
+drwxr-xr-x root       root              120 ./usr/share/cockpit/branding/centos
+lrwxrwxrwx root       root               41 ./usr/share/cockpit/branding/centos/apple-touch-icon.png -> /usr/share/pixmaps/fedora-logo-sprite.png
+-rw-r--r-- root       root              437 ./usr/share/cockpit/branding/centos/branding.css
+lrwxrwxrwx root       root               16 ./usr/share/cockpit/branding/centos/favicon.ico -> /etc/favicon.png
+lrwxrwxrwx root       root               40 ./usr/share/cockpit/branding/centos/logo.png -> /usr/share/pixmaps/system-logo-white.png
+drwxr-xr-x root       root              100 ./usr/share/cockpit/branding/debian
+-rw-r--r-- root       root              436 ./usr/share/cockpit/branding/debian/branding.css
+lrwxrwxrwx root       root               34 ./usr/share/cockpit/branding/debian/favicon.ico -> /usr/share/pixmaps/debian-logo.png
+lrwxrwxrwx root       root               34 ./usr/share/cockpit/branding/debian/logo.png -> /usr/share/pixmaps/debian-logo.png
+drwxr-xr-x root       root              180 ./usr/share/cockpit/branding/default
+-rw-r--r-- root       root             5543 ./usr/share/cockpit/branding/default/apple-touch-icon.png
+-rw-r--r-- root       root            30479 ./usr/share/cockpit/branding/default/bg-login.jpg
+-rw-r--r-- root       root           101374 ./usr/share/cockpit/branding/default/bg-plain.jpg
+-rw-r--r-- root       root              534 ./usr/share/cockpit/branding/default/branding.css
+-rw-r--r-- root       root             1152 ./usr/share/cockpit/branding/default/brand-large.png
+-rw-r--r-- root       root             1150 ./usr/share/cockpit/branding/default/favicon.ico
+-rw-r--r-- root       root             2970 ./usr/share/cockpit/branding/default/logo.png
+drwxr-xr-x root       root              120 ./usr/share/cockpit/branding/fedora
+lrwxrwxrwx root       root               41 ./usr/share/cockpit/branding/fedora/apple-touch-icon.png -> /usr/share/pixmaps/fedora-logo-sprite.png
+-rw-r--r-- root       root              473 ./usr/share/cockpit/branding/fedora/branding.css
+lrwxrwxrwx root       root               16 ./usr/share/cockpit/branding/fedora/favicon.ico -> /etc/favicon.png
+lrwxrwxrwx root       root               40 ./usr/share/cockpit/branding/fedora/logo.png -> /usr/share/pixmaps/system-logo-white.png
+drwxr-xr-x root       root               60 ./usr/share/cockpit/branding/kubernetes
+-rw-r--r-- root       root              478 ./usr/share/cockpit/branding/kubernetes/branding.css
+drwxr-xr-x root       root              100 ./usr/share/cockpit/branding/opensuse-tumbleweed
+-rw-r--r-- root       root              507 ./usr/share/cockpit/branding/opensuse-tumbleweed/branding.css
+lrwxrwxrwx root       root               43 ./usr/share/cockpit/branding/opensuse-tumbleweed/default-1920x1200.jpg -> /usr/share/wallpapers/default-1920x1200.jpg
+lrwxrwxrwx root       root               56 ./usr/share/cockpit/branding/opensuse-tumbleweed/square-hicolor.svg -> /usr/share/pixmaps/distribution-logos/square-hicolor.svg
+drwxr-xr-x root       root               60 ./usr/share/cockpit/branding/registry
+-rw-r--r-- root       root              478 ./usr/share/cockpit/branding/registry/branding.css
+drwxr-xr-x root       root              140 ./usr/share/cockpit/branding/rhel
+lrwxrwxrwx root       root               41 ./usr/share/cockpit/branding/rhel/apple-touch-icon.png -> /usr/share/pixmaps/fedora-logo-sprite.png
+-rw-r--r-- root       root            18189 ./usr/share/cockpit/branding/rhel/bg-login.jpg
+-rw-r--r-- root       root              556 ./usr/share/cockpit/branding/rhel/branding.css
+lrwxrwxrwx root       root               16 ./usr/share/cockpit/branding/rhel/favicon.ico -> /etc/favicon.png
+lrwxrwxrwx root       root               40 ./usr/share/cockpit/branding/rhel/logo.png -> /usr/share/pixmaps/system-logo-white.png
+drwxr-xr-x root       root              120 ./usr/share/cockpit/branding/scientific
+lrwxrwxrwx root       root               41 ./usr/share/cockpit/branding/scientific/apple-touch-icon.png -> /usr/share/pixmaps/fedora-logo-sprite.png
+-rw-r--r-- root       root              384 ./usr/share/cockpit/branding/scientific/branding.css
+lrwxrwxrwx root       root               16 ./usr/share/cockpit/branding/scientific/favicon.ico -> /etc/favicon.png
+lrwxrwxrwx root       root               40 ./usr/share/cockpit/branding/scientific/logo.png -> /usr/share/pixmaps/system-logo-white.png
+drwxr-xr-x root       root              100 ./usr/share/cockpit/branding/ubuntu
+-rw-r--r-- root       root              486 ./usr/share/cockpit/branding/ubuntu/branding.css
+-rw-r--r-- root       root             9662 ./usr/share/cockpit/branding/ubuntu/favicon.ico
+lrwxrwxrwx root       root               35 ./usr/share/cockpit/branding/ubuntu/logo.png -> /usr/share/plymouth/ubuntu-logo.png
+drwxr-xr-x root       root               80 ./usr/share/cockpit/motd
+-rw-r--r-- root       root               70 ./usr/share/cockpit/motd/inactive.motd
+-rwxr-xr-x root       root              877 ./usr/share/cockpit/motd/update-motd
+drwxr-xr-x root       root              420 ./usr/share/cockpit/static
+drwxr-xr-x root       root              520 ./usr/share/cockpit/static/fonts
+-rw-r--r-- root       root            93708 ./usr/share/cockpit/static/fonts/OpenSans-BoldItalic-webfont.woff
+-rw-r--r-- root       root            98780 ./usr/share/cockpit/static/fonts/OpenSans-Bold-webfont.woff
+-rw-r--r-- root       root            94240 ./usr/share/cockpit/static/fonts/OpenSans-ExtraBoldItalic-webfont.woff
+-rw-r--r-- root       root            98492 ./usr/share/cockpit/static/fonts/OpenSans-ExtraBold-webfont.woff
+-rw-r--r-- root       root            93880 ./usr/share/cockpit/static/fonts/OpenSans-Italic-webfont.woff
+-rw-r--r-- root       root            93872 ./usr/share/cockpit/static/fonts/OpenSans-LightItalic-webfont.woff
+-rw-r--r-- root       root            97924 ./usr/share/cockpit/static/fonts/OpenSans-Light-webfont.woff
+-rw-r--r-- root       root            96116 ./usr/share/cockpit/static/fonts/OpenSans-Regular-webfont.woff
+-rw-r--r-- root       root            94548 ./usr/share/cockpit/static/fonts/OpenSans-SemiboldItalic-webfont.woff
+-rw-r--r-- root       root            98464 ./usr/share/cockpit/static/fonts/OpenSans-Semibold-webfont.woff
+-rw-r--r-- root       root            29696 ./usr/share/cockpit/static/fonts/RedHatDisplay-BlackItalic.woff2
+-rw-r--r-- root       root            28808 ./usr/share/cockpit/static/fonts/RedHatDisplay-Black.woff2
+-rw-r--r-- root       root            30068 ./usr/share/cockpit/static/fonts/RedHatDisplay-BoldItalic.woff2
+-rw-r--r-- root       root            29476 ./usr/share/cockpit/static/fonts/RedHatDisplay-Bold.woff2
+-rw-r--r-- root       root            29476 ./usr/share/cockpit/static/fonts/RedHatDisplay-Italic.woff2
+-rw-r--r-- root       root            29772 ./usr/share/cockpit/static/fonts/RedHatDisplay-MediumItalic.woff2
+-rw-r--r-- root       root            28848 ./usr/share/cockpit/static/fonts/RedHatDisplay-Medium.woff2
+-rw-r--r-- root       root            28860 ./usr/share/cockpit/static/fonts/RedHatDisplay-Regular.woff2
+-rw-r--r-- root       root            29616 ./usr/share/cockpit/static/fonts/RedHatText-BoldItalic.woff2
+-rw-r--r-- root       root            28704 ./usr/share/cockpit/static/fonts/RedHatText-Bold.woff2
+-rw-r--r-- root       root            29612 ./usr/share/cockpit/static/fonts/RedHatText-Italic.woff2
+-rw-r--r-- root       root            29920 ./usr/share/cockpit/static/fonts/RedHatText-MediumItalic.woff2
+-rw-r--r-- root       root            29312 ./usr/share/cockpit/static/fonts/RedHatText-Medium.woff2
+-rw-r--r-- root       root            28396 ./usr/share/cockpit/static/fonts/RedHatText-Regular.woff2
+-rw-r--r-- root       root            42875 ./usr/share/cockpit/static/login.min.html
+-rw-r--r-- root       root             4557 ./usr/share/cockpit/static/login.po.ca.html
+-rw-r--r-- root       root             5030 ./usr/share/cockpit/static/login.po.cs.html
+-rw-r--r-- root       root             5099 ./usr/share/cockpit/static/login.po.de.html
+-rw-r--r-- root       root             4944 ./usr/share/cockpit/static/login.po.es.html
+-rw-r--r-- root       root             5152 ./usr/share/cockpit/static/login.po.fr.html
+-rw-r--r-- root       root              163 ./usr/share/cockpit/static/login.po.html
+-rw-r--r-- root       root             5005 ./usr/share/cockpit/static/login.po.it.html
+-rw-r--r-- root       root             5573 ./usr/share/cockpit/static/login.po.ja.html
+-rw-r--r-- root       root             5176 ./usr/share/cockpit/static/login.po.ko.html
+-rw-r--r-- root       root             4903 ./usr/share/cockpit/static/login.po.nl.html
+-rw-r--r-- root       root             5147 ./usr/share/cockpit/static/login.po.pl.html
+-rw-r--r-- root       root             4985 ./usr/share/cockpit/static/login.po.pt_BR.html
+-rw-r--r-- root       root             6729 ./usr/share/cockpit/static/login.po.ru.html
+-rw-r--r-- root       root             4834 ./usr/share/cockpit/static/login.po.sv.html
+-rw-r--r-- root       root             7151 ./usr/share/cockpit/static/login.po.uk.html
+-rw-r--r-- root       root             4461 ./usr/share/cockpit/static/login.po.zh_CN.html
+-rw-r--r-- root       root             4455 ./usr/share/cockpit/static/login.po.zh_TW.html
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxrwxr-x root       root               40 ./var/lib/cockpit
