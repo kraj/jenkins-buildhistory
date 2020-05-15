@@ -1,4 +1,4 @@
-drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              160 ./etc/apache2
 drwxr-xr-x root       root               40 ./etc/apache2/conf.d
 drwxr-xr-x root       root              280 ./etc/apache2/extra
@@ -18,12 +18,10 @@ drwxr-xr-x root       root              280 ./etc/apache2/extra
 -rw-r--r-- root       root            13064 ./etc/apache2/magic
 -rw-r--r-- root       root            60847 ./etc/apache2/mime.types
 drwxr-xr-x root       root               40 ./etc/apache2/modules.d
-drwxr-xr-x root       root               60 ./etc/tmpfiles.d
--rw-r--r-- root       root               74 ./etc/tmpfiles.d/apache2-volatile.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              313 ./lib/systemd/system/apache2.service
+-rw-r--r-- root       root              479 ./lib/systemd/system/apache2.service
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               23 ./lib/systemd/system-preset/98-apache2.preset
 drwxr-xr-x root       root              120 ./usr
