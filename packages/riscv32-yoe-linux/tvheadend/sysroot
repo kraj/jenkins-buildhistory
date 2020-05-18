@@ -89,7 +89,7 @@ drwxr-xr-x -          -                 440 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                1633 ./usr/share/tvheadend/data/dvb-scan/channels-conf/dvb-t/uk-Sandy-Heath
 -rw-r--r-- -          -               17987 ./usr/share/tvheadend/data/dvb-scan/COPYING
 -rw-r--r-- -          -               26423 ./usr/share/tvheadend/data/dvb-scan/COPYING.LGPL
-drwxr-xr-x -          -                1280 ./usr/share/tvheadend/data/dvb-scan/dvb-c
+drwxr-xr-x -          -                1300 ./usr/share/tvheadend/data/dvb-scan/dvb-c
 -rw-r--r-- -          -                 948 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Innsbruck
 -rw-r--r-- -          -                3542 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Kabel-Braunau
 -rw-r--r-- -          -                5324 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Kabelsignal
@@ -97,6 +97,7 @@ drwxr-xr-x -          -                1280 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                4148 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Liwest
 -rw-r--r-- -          -                 939 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-SalzburgAG
 -rw-r--r-- -          -                 180 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Vienna
+-rw-r--r-- -          -                 210 ./usr/share/tvheadend/data/dvb-scan/dvb-c/at-Vienna-Magenta
 -rw-r--r-- -          -                2115 ./usr/share/tvheadend/data/dvb-scan/dvb-c/be-IN.DI-Integan
 -rw-r--r-- -          -                 256 ./usr/share/tvheadend/data/dvb-scan/dvb-c/br-Net-Digital
 -rw-r--r-- -          -                 200 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ch-Bern-upc-cablecom
@@ -126,7 +127,7 @@ drwxr-xr-x -          -                1280 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                1237 ./usr/share/tvheadend/data/dvb-scan/dvb-c/dk-Odense
 -rw-r--r-- -          -                 205 ./usr/share/tvheadend/data/dvb-scan/dvb-c/dk-Stofa
 -rw-r--r-- -          -                5263 ./usr/share/tvheadend/data/dvb-scan/dvb-c/dk-YouSee
--rw-r--r-- -          -                3214 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ee-Starman
+-rw-r--r-- -          -                3364 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ee-Elisa
 -rw-r--r-- -          -                4036 ./usr/share/tvheadend/data/dvb-scan/dvb-c/ee-STV
 -rw-r--r-- -          -                2219 ./usr/share/tvheadend/data/dvb-scan/dvb-c/es-Euskaltel
 -rw-r--r-- -          -                4446 ./usr/share/tvheadend/data/dvb-scan/dvb-c/fi-dna
@@ -268,7 +269,7 @@ drwxr-xr-x -          -                2340 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -               14405 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Turksat-42.0E
 -rw-r--r-- -          -                 485 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Vinasat1_C-132.0E
 -rw-r--r-- -          -                3586 ./usr/share/tvheadend/data/dvb-scan/dvb-s/Yamal201-90.0E
-drwxr-xr-x -          -               22740 ./usr/share/tvheadend/data/dvb-scan/dvb-t
+drwxr-xr-x -          -               22440 ./usr/share/tvheadend/data/dvb-scan/dvb-t
 -rw-r--r-- -          -                 920 ./usr/share/tvheadend/data/dvb-scan/dvb-t/ad-Andorra
 -rw-r--r-- -          -               11236 ./usr/share/tvheadend/data/dvb-scan/dvb-t/at-All
 -rwxr-xr-x -          -                1438 ./usr/share/tvheadend/data/dvb-scan/dvb-t/au-Adelaide
@@ -316,24 +317,8 @@ drwxr-xr-x -          -               22740 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                6189 ./usr/share/tvheadend/data/dvb-scan/dvb-t/ch-Citycable
 -rw-r--r-- -          -                2870 ./usr/share/tvheadend/data/dvb-scan/dvb-t/ch-Geneva
 -rw-r--r-- -          -                 806 ./usr/share/tvheadend/data/dvb-scan/dvb-t/co-All
--rw-r--r-- -          -               13494 ./usr/share/tvheadend/data/dvb-scan/dvb-t/cz-All
--rw-r--r-- -          -                4286 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Baden-Wuerttemberg
--rw-r--r-- -          -                6443 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Bayern
--rw-r--r-- -          -                2460 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Berlin
--rw-r--r-- -          -                1102 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Brandenburg
--rw-r--r-- -          -                1656 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Bremen
--rw-r--r-- -          -                2712 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Dusseldorf
--rw-r--r-- -          -                2206 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Hamburg
--rw-r--r-- -          -                4228 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Hessen
--rw-r--r-- -          -                2431 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Mecklenburg-Vorpommern
--rw-r--r-- -          -                6261 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Niedersachsen
--rw-r--r-- -          -                5133 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Nordrhein-Westfalen
--rw-r--r-- -          -                2174 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Rheinland-Pfalz
--rw-r--r-- -          -                1132 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Saarland
--rw-r--r-- -          -                3038 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Sachsen
--rw-r--r-- -          -                2681 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Sachsen-Anhalt
--rw-r--r-- -          -                4039 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Schleswig-Holstein
--rw-r--r-- -          -                1918 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-Thueringen
+-rw-r--r-- -          -               19495 ./usr/share/tvheadend/data/dvb-scan/dvb-t/cz-All
+-rw-r--r-- -          -                6864 ./usr/share/tvheadend/data/dvb-scan/dvb-t/de-All
 -rw-r--r-- -          -                4441 ./usr/share/tvheadend/data/dvb-scan/dvb-t/dk-All
 -rw-r--r-- -          -                7545 ./usr/share/tvheadend/data/dvb-scan/dvb-t/ee-All
 -rw-r--r-- -          -                2712 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Alava
@@ -352,6 +337,7 @@ drwxr-xr-x -          -               22740 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                1373 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Granada
 -rw-r--r-- -          -                3441 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Huelva
 -rw-r--r-- -          -                2494 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Huesca
+-rw-r--r-- -          -                2801 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-La_Rioja
 -rw-r--r-- -          -                3940 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Las_Palmas
 -rw-r--r-- -          -                1679 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Lugo
 -rw-r--r-- -          -                3002 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Madrid
@@ -363,7 +349,7 @@ drwxr-xr-x -          -               22740 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                1691 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Santiago_de_Compostela
 -rw-r--r-- -          -                2825 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-SC_Tenerife
 -rw-r--r-- -          -                4419 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Sevilla
--rw-r--r-- -          -               10949 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-TELECABLE-Asturias
+-rw-r--r-- -          -                9867 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-TELECABLE-Asturias
 -rw-r--r-- -          -                3226 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Tenerife
 -rw-r--r-- -          -                2341 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Valencia
 -rw-r--r-- -          -                1381 ./usr/share/tvheadend/data/dvb-scan/dvb-t/es-Valladolid
@@ -1325,7 +1311,7 @@ drwxr-xr-x -          -               22740 ./usr/share/tvheadend/data/dvb-scan/
 -rw-r--r-- -          -                2106 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-Angus
 -rw-r--r-- -          -                2114 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-BeaconHill
 -rw-r--r-- -          -                2109 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-Belmont
--rw-r--r-- -          -                2359 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-Bilsdale
+-rw-r--r-- -          -                2395 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-Bilsdale
 -rw-r--r-- -          -                2338 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-BlackHill
 -rw-r--r-- -          -                1862 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-Blaenplwyf
 -rw-r--r-- -          -                2361 ./usr/share/tvheadend/data/dvb-scan/dvb-t/uk-BluebellHill
