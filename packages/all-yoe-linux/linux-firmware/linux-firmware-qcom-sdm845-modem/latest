@@ -1,10 +1,10 @@
 PE = 1
-PV = 20200122
+PV = 20200421
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = linux-firmware-qcom-license
+RDEPENDS = linux-firmware-ath10k linux-firmware-qcom-license
 RRECOMMENDS = 
-PKGSIZE = 5895801
-FILES = /lib/firmware/qcom/sdm845/mba.mbn /lib/firmware/qcom/sdm845/modem*.*
-FILELIST = /lib/firmware/qcom/sdm845/mba.mbn /lib/firmware/qcom/sdm845/modem.mbn /lib/firmware/qcom/sdm845/modemuw.jsn
+PKGSIZE = 5895840
+FILES = /lib/firmware/qcom/sdm845/mba.mbn /lib/firmware/qcom/sdm845/modem*.* /lib/firmware/qcom/sdm845/wlanmdsp.mbn
+FILELIST = /lib/firmware/qcom/sdm845/mba.mbn /lib/firmware/qcom/sdm845/modem.mbn /lib/firmware/qcom/sdm845/modemuw.jsn /lib/firmware/qcom/sdm845/wlanmdsp.mbn
