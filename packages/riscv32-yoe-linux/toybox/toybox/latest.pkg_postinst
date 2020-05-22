@@ -5,6 +5,7 @@ set -e
 	update-alternatives --install /usr/bin/ascii ascii /bin/toybox 60
 	update-alternatives --install /usr/bin/base64 base64 /bin/toybox 60
 	update-alternatives --install /usr/bin/basename basename /bin/toybox 60
+	update-alternatives --install /bin/blkdiscard blkdiscard /bin/toybox 60
 	update-alternatives --install /bin/blkid blkid /bin/toybox 60
 	update-alternatives --install /sbin/blockdev blockdev /bin/toybox 60
 	update-alternatives --install /usr/bin/bunzip2 bunzip2 /bin/toybox 60
@@ -147,6 +148,7 @@ set -e
 	update-alternatives --install /bin/rm rm /bin/toybox 60
 	update-alternatives --install /bin/rmdir rmdir /bin/toybox 60
 	update-alternatives --install /sbin/rmmod rmmod /bin/toybox 60
+	update-alternatives --install /usr/bin/rtcwake rtcwake /bin/toybox 60
 	update-alternatives --install /bin/sed sed /bin/toybox 60
 	update-alternatives --install /usr/bin/seq seq /bin/toybox 60
 	update-alternatives --install /usr/bin/setfattr setfattr /bin/toybox 60

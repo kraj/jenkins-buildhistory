@@ -5,6 +5,7 @@ set -e
 	update-alternatives --remove  ascii /bin/toybox
 	update-alternatives --remove  base64 /bin/toybox
 	update-alternatives --remove  basename /bin/toybox
+	update-alternatives --remove  blkdiscard /bin/toybox
 	update-alternatives --remove  blkid /bin/toybox
 	update-alternatives --remove  blockdev /bin/toybox
 	update-alternatives --remove  bunzip2 /bin/toybox
@@ -147,6 +148,7 @@ set -e
 	update-alternatives --remove  rm /bin/toybox
 	update-alternatives --remove  rmdir /bin/toybox
 	update-alternatives --remove  rmmod /bin/toybox
+	update-alternatives --remove  rtcwake /bin/toybox
 	update-alternatives --remove  sed /bin/toybox
 	update-alternatives --remove  seq /bin/toybox
 	update-alternatives --remove  setfattr /bin/toybox
