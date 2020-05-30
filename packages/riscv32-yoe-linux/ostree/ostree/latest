@@ -2,7 +2,7 @@ PV = 2020.3
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.64.2) glibc (>= 2.31+git0+7b2b52134a) gnupg gpgme (>= 1.13.1) libassuan (>= 2.5.3) libgpg-error (>= 1.37) liblzma (>= 5.2.5) libsoup-2.4 (>= 2.70.0) libsystemd (>= 245.5) ostree-switchroot util-linux-libmount (>= 2.35.1) zlib (>= 1.2.11)
+RDEPENDS = glib-2.0 (>= 2.64.2) glibc (>= 2.31+git0+7b2b52134a) gnupg gpgme (>= 1.13.1) libassuan (>= 2.5.3) libgpg-error (>= 1.37) liblzma (>= 5.2.5) libsoup-2.4 (>= 2.70.0) libsystemd (>= 245.5) ostree-switchroot util-linux-libmount (>= 2.35.2) zlib (>= 1.2.11)
 RRECOMMENDS = kernel-module-overlay
 PKGSIZE = 663900
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ostree /usr/lib/ostree/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/ostree /usr/lib/tmpfiles.d /lib/systemd/system /lib/systemd/system-generators /usr/lib/girepository-*/*.typelib /lib/systemd/system-preset/98-ostree.preset /lib/systemd/system/ostree-remount.service /lib/systemd/system/ostree-finalize-staged.path

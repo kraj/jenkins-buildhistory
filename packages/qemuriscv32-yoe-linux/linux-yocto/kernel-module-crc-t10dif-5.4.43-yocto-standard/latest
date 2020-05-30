@@ -1,0 +1,10 @@
+PV = 5.4.43+gitAUTOINC+aafb8f095e_9e1b13d7f9
+PR = r0
+PKGV = 5.4.43+git0+aafb8f095e_9e1b13d7f9
+PKGR = r0.1
+RPROVIDES = kernel-module-crc-t10dif
+RDEPENDS = kernel-5.4.43-yocto-standard kernel-module-crct10dif-common-5.4.43-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7100
+FILES = /lib/modules/5.4.43-yocto-standard/kernel/lib/crc-t10dif.ko /etc/modules-load.d/crc-t10dif.conf /etc/modprobe.d/crc-t10dif.conf
+FILELIST = /lib/modules/5.4.43-yocto-standard/kernel/lib/crc-t10dif.ko

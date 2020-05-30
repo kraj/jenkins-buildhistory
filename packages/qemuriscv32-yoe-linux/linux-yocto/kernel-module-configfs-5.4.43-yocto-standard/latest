@@ -1,0 +1,10 @@
+PV = 5.4.43+gitAUTOINC+aafb8f095e_9e1b13d7f9
+PR = r0
+PKGV = 5.4.43+git0+aafb8f095e_9e1b13d7f9
+PKGR = r0.1
+RPROVIDES = kernel-module-configfs
+RDEPENDS = kernel-5.4.43-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 59476
+FILES = /lib/modules/5.4.43-yocto-standard/kernel/fs/configfs/configfs.ko /etc/modules-load.d/configfs.conf /etc/modprobe.d/configfs.conf
+FILELIST = /lib/modules/5.4.43-yocto-standard/kernel/fs/configfs/configfs.ko
