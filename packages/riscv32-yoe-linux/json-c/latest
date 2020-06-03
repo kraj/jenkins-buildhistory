@@ -1,5 +1,5 @@
-PV = 0.13.1
+PV = 0.14
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = json-c-src json-c-dbg json-c-staticdev json-c-dev json-c-doc json-c-locale json-c
 LAYER = core

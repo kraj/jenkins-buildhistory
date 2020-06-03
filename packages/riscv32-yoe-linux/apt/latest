@@ -1,5 +1,5 @@
-PV = 1.2.31
+PV = 1.8.2.1
 PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd curl db gettext-native gnu-config-native libtool-cross libtool-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc xz zlib
-PACKAGES = apt-src apt-dbg apt-staticdev apt-dev apt-doc apt-locale apt apt-utils apt-utils-doc
+DEPENDS = bash-completion bzip2 cmake-native db gnutls lz4 ninja-native perl-native virtual/libc virtual/libiconv virtual/libintl virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc xz zlib
+PACKAGES = apt-src apt-dbg apt-staticdev apt-dev apt-doc apt-locale apt apt-bash-completion
 LAYER = core
