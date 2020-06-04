@@ -6,7 +6,7 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  10 ./sysroot-providers/postgresql
 drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                  60 ./usr/bin
--rwxr-xr-x -          -               14489 ./usr/bin/postinst-useradd-postgresql
+-rwxr-xr-x -          -               14439 ./usr/bin/postinst-useradd-postgresql
 drwxr-xr-x -          -                 540 ./usr/include
 -rw-r--r-- -          -                 572 ./usr/include/ecpg_config.h
 -rw-r--r-- -          -                2544 ./usr/include/ecpgerrno.h
@@ -67,7 +67,7 @@ drwxr-xr-x -          -                1540 ./usr/include/postgresql/server/acce
 -rw-r--r-- -          -               19887 ./usr/include/postgresql/server/access/gist_private.h
 -rw-r--r-- -          -                 736 ./usr/include/postgresql/server/access/gistscan.h
 -rw-r--r-- -          -                3365 ./usr/include/postgresql/server/access/gistxlog.h
--rw-r--r-- -          -               18497 ./usr/include/postgresql/server/access/hash.h
+-rw-r--r-- -          -               18496 ./usr/include/postgresql/server/access/hash.h
 -rw-r--r-- -          -                8192 ./usr/include/postgresql/server/access/hash_xlog.h
 -rw-r--r-- -          -                8748 ./usr/include/postgresql/server/access/heapam.h
 -rw-r--r-- -          -               13627 ./usr/include/postgresql/server/access/heapam_xlog.h
@@ -76,7 +76,7 @@ drwxr-xr-x -          -                1540 ./usr/include/postgresql/server/acce
 -rw-r--r-- -          -                3276 ./usr/include/postgresql/server/access/htup.h
 -rw-r--r-- -          -                5046 ./usr/include/postgresql/server/access/itup.h
 -rw-r--r-- -          -                5339 ./usr/include/postgresql/server/access/multixact.h
--rw-r--r-- -          -               34898 ./usr/include/postgresql/server/access/nbtree.h
+-rw-r--r-- -          -               34943 ./usr/include/postgresql/server/access/nbtree.h
 -rw-r--r-- -          -                9901 ./usr/include/postgresql/server/access/nbtxlog.h
 -rw-r--r-- -          -                2430 ./usr/include/postgresql/server/access/parallel.h
 -rw-r--r-- -          -                 680 ./usr/include/postgresql/server/access/printsimple.h
@@ -113,7 +113,7 @@ drwxr-xr-x -          -                1540 ./usr/include/postgresql/server/acce
 -rw-r--r-- -          -                1822 ./usr/include/postgresql/server/access/visibilitymap.h
 -rw-r--r-- -          -               14958 ./usr/include/postgresql/server/access/xact.h
 -rw-r--r-- -          -                3359 ./usr/include/postgresql/server/access/xlogdefs.h
--rw-r--r-- -          -               13006 ./usr/include/postgresql/server/access/xlog.h
+-rw-r--r-- -          -               13270 ./usr/include/postgresql/server/access/xlog.h
 -rw-r--r-- -          -                2509 ./usr/include/postgresql/server/access/xloginsert.h
 -rw-r--r-- -          -               11735 ./usr/include/postgresql/server/access/xlog_internal.h
 -rw-r--r-- -          -                8298 ./usr/include/postgresql/server/access/xlogreader.h
@@ -125,12 +125,12 @@ drwxr-xr-x -          -                2920 ./usr/include/postgresql/server/cata
 -rw-r--r-- -          -                1047 ./usr/include/postgresql/server/catalog/binary_upgrade.h
 -rw-r--r-- -          -                1239 ./usr/include/postgresql/server/catalog/catalog.h
 -rw-r--r-- -          -                2587 ./usr/include/postgresql/server/catalog/catversion.h
--rw-r--r-- -          -                9063 ./usr/include/postgresql/server/catalog/dependency.h
+-rw-r--r-- -          -                9267 ./usr/include/postgresql/server/catalog/dependency.h
 -rw-r--r-- -          -                2298 ./usr/include/postgresql/server/catalog/genbki.h
 -rw-r--r-- -          -                5303 ./usr/include/postgresql/server/catalog/heap.h
--rw-r--r-- -          -                5975 ./usr/include/postgresql/server/catalog/index.h
+-rw-r--r-- -          -                6022 ./usr/include/postgresql/server/catalog/index.h
 -rw-r--r-- -          -               20117 ./usr/include/postgresql/server/catalog/indexing.h
--rw-r--r-- -          -                6669 ./usr/include/postgresql/server/catalog/namespace.h
+-rw-r--r-- -          -                7037 ./usr/include/postgresql/server/catalog/namespace.h
 -rw-r--r-- -          -                6174 ./usr/include/postgresql/server/catalog/objectaccess.h
 -rw-r--r-- -          -                3019 ./usr/include/postgresql/server/catalog/objectaddress.h
 -rw-r--r-- -          -                 873 ./usr/include/postgresql/server/catalog/opfam_internal.h
@@ -395,7 +395,7 @@ drwxr-xr-x -          -                  60 ./usr/include/postgresql/server/exte
 drwxr-xr-x -          -                  60 ./usr/include/postgresql/server/extension/isn
 -rw-r--r-- -          -                 759 ./usr/include/postgresql/server/extension/isn/isn.h
 drwxr-xr-x -          -                  60 ./usr/include/postgresql/server/extension/ltree
--rw-r--r-- -          -                7902 ./usr/include/postgresql/server/extension/ltree/ltree.h
+-rw-r--r-- -          -                8044 ./usr/include/postgresql/server/extension/ltree/ltree.h
 drwxr-xr-x -          -                  60 ./usr/include/postgresql/server/extension/seg
 -rw-r--r-- -          -                 488 ./usr/include/postgresql/server/extension/seg/segdata.h
 drwxr-xr-x -          -                 200 ./usr/include/postgresql/server/fe_utils
@@ -407,11 +407,11 @@ drwxr-xr-x -          -                 200 ./usr/include/postgresql/server/fe_u
 -rw-r--r-- -          -                6316 ./usr/include/postgresql/server/fe_utils/psqlscan_int.h
 -rw-r--r-- -          -                1886 ./usr/include/postgresql/server/fe_utils/simple_list.h
 -rw-r--r-- -          -                2235 ./usr/include/postgresql/server/fe_utils/string_utils.h
--rw-r--r-- -          -               33882 ./usr/include/postgresql/server/fmgr.h
+-rw-r--r-- -          -               34151 ./usr/include/postgresql/server/fmgr.h
 drwxr-xr-x -          -                  80 ./usr/include/postgresql/server/foreign
 -rw-r--r-- -          -                9494 ./usr/include/postgresql/server/foreign/fdwapi.h
 -rw-r--r-- -          -                3001 ./usr/include/postgresql/server/foreign/foreign.h
--rw-r--r-- -          -               11684 ./usr/include/postgresql/server/funcapi.h
+-rw-r--r-- -          -               12457 ./usr/include/postgresql/server/funcapi.h
 -rw-r--r-- -          -                3972 ./usr/include/postgresql/server/getaddrinfo.h
 -rw-r--r-- -          -                 697 ./usr/include/postgresql/server/getopt_long.h
 drwxr-xr-x -          -                 100 ./usr/include/postgresql/server/jit
@@ -499,7 +499,7 @@ drwxr-xr-x -          -                 580 ./usr/include/postgresql/server/opti
 -rw-r--r-- -          -                1559 ./usr/include/postgresql/server/optimizer/subselect.h
 -rw-r--r-- -          -                2247 ./usr/include/postgresql/server/optimizer/tlist.h
 drwxr-xr-x -          -                 500 ./usr/include/postgresql/server/parser
--rw-r--r-- -          -                1782 ./usr/include/postgresql/server/parser/analyze.h
+-rw-r--r-- -          -                1864 ./usr/include/postgresql/server/parser/analyze.h
 -rw-r--r-- -          -               12277 ./usr/include/postgresql/server/parser/gram.h
 -rw-r--r-- -          -                2284 ./usr/include/postgresql/server/parser/gramparse.h
 -rw-r--r-- -          -               23042 ./usr/include/postgresql/server/parser/kwlist.h
@@ -538,7 +538,7 @@ drwxr-xr-x -          -                 120 ./usr/include/postgresql/server/part
 -rw-r--r-- -          -                 320 ./usr/include/postgresql/server/pg_trace.h
 -rw-r--r-- -          -                5634 ./usr/include/postgresql/server/plperl.h
 -rw-r--r-- -          -                3729 ./usr/include/postgresql/server/plperl_helpers.h
--rw-r--r-- -          -               36183 ./usr/include/postgresql/server/plpgsql.h
+-rw-r--r-- -          -               36255 ./usr/include/postgresql/server/plpgsql.h
 -rw-r--r-- -          -                 484 ./usr/include/postgresql/server/plpy_cursorobject.h
 -rw-r--r-- -          -                1267 ./usr/include/postgresql/server/plpy_elog.h
 -rw-r--r-- -          -                 298 ./usr/include/postgresql/server/plpy_exec.h
@@ -642,10 +642,10 @@ drwxr-xr-x -          -                 440 ./usr/include/postgresql/server/repl
 -rw-r--r-- -          -               13148 ./usr/include/postgresql/server/replication/reorderbuffer.h
 -rw-r--r-- -          -                6812 ./usr/include/postgresql/server/replication/slot.h
 -rw-r--r-- -          -                2899 ./usr/include/postgresql/server/replication/snapbuild.h
--rw-r--r-- -          -                3021 ./usr/include/postgresql/server/replication/syncrep.h
+-rw-r--r-- -          -                3646 ./usr/include/postgresql/server/replication/syncrep.h
 -rw-r--r-- -          -               10789 ./usr/include/postgresql/server/replication/walreceiver.h
 -rw-r--r-- -          -                1864 ./usr/include/postgresql/server/replication/walsender.h
--rw-r--r-- -          -                3594 ./usr/include/postgresql/server/replication/walsender_private.h
+-rw-r--r-- -          -                3525 ./usr/include/postgresql/server/replication/walsender_private.h
 -rw-r--r-- -          -                2703 ./usr/include/postgresql/server/replication/worker_internal.h
 drwxr-xr-x -          -                 180 ./usr/include/postgresql/server/rewrite
 -rw-r--r-- -          -                1055 ./usr/include/postgresql/server/rewrite/prs2lock.h
@@ -792,12 +792,12 @@ drwxr-xr-x -          -                1800 ./usr/include/postgresql/server/util
 -rw-r--r-- -          -                2193 ./usr/include/postgresql/server/utils/datum.h
 -rw-r--r-- -          -                4891 ./usr/include/postgresql/server/utils/dsa.h
 -rw-r--r-- -          -                 502 ./usr/include/postgresql/server/utils/dynahash.h
--rw-r--r-- -          -               16017 ./usr/include/postgresql/server/utils/elog.h
+-rw-r--r-- -          -               16167 ./usr/include/postgresql/server/utils/elog.h
 -rw-r--r-- -          -               22068 ./usr/include/postgresql/server/utils/errcodes.h
 -rw-r--r-- -          -                 932 ./usr/include/postgresql/server/utils/evtcache.h
 -rw-r--r-- -          -                7066 ./usr/include/postgresql/server/utils/expandeddatum.h
 -rw-r--r-- -          -                9635 ./usr/include/postgresql/server/utils/expandedrecord.h
--rw-r--r-- -          -                8785 ./usr/include/postgresql/server/utils/float.h
+-rw-r--r-- -          -                9646 ./usr/include/postgresql/server/utils/float.h
 -rw-r--r-- -          -               79154 ./usr/include/postgresql/server/utils/fmgroids.h
 -rw-r--r-- -          -              122594 ./usr/include/postgresql/server/utils/fmgrprotos.h
 -rw-r--r-- -          -                1437 ./usr/include/postgresql/server/utils/fmgrtab.h
@@ -818,7 +818,7 @@ drwxr-xr-x -          -                1800 ./usr/include/postgresql/server/util
 -rw-r--r-- -          -                 569 ./usr/include/postgresql/server/utils/json.h
 -rw-r--r-- -          -                6459 ./usr/include/postgresql/server/utils/jsonpath.h
 -rw-r--r-- -          -                3028 ./usr/include/postgresql/server/utils/logtape.h
--rw-r--r-- -          -                8169 ./usr/include/postgresql/server/utils/lsyscache.h
+-rw-r--r-- -          -                8315 ./usr/include/postgresql/server/utils/lsyscache.h
 -rw-r--r-- -          -                2196 ./usr/include/postgresql/server/utils/memdebug.h
 -rw-r--r-- -          -                7699 ./usr/include/postgresql/server/utils/memutils.h
 -rw-r--r-- -          -                2509 ./usr/include/postgresql/server/utils/numeric.h
@@ -838,7 +838,7 @@ drwxr-xr-x -          -                1800 ./usr/include/postgresql/server/util
 -rw-r--r-- -          -                 971 ./usr/include/postgresql/server/utils/regproc.h
 -rw-r--r-- -          -                4325 ./usr/include/postgresql/server/utils/relcache.h
 -rw-r--r-- -          -                 565 ./usr/include/postgresql/server/utils/relfilenodemap.h
--rw-r--r-- -          -               21255 ./usr/include/postgresql/server/utils/rel.h
+-rw-r--r-- -          -               21296 ./usr/include/postgresql/server/utils/rel.h
 -rw-r--r-- -          -                2042 ./usr/include/postgresql/server/utils/relmapper.h
 -rw-r--r-- -          -                2649 ./usr/include/postgresql/server/utils/relptr.h
 -rw-r--r-- -          -                2240 ./usr/include/postgresql/server/utils/reltrigger.h
@@ -879,17 +879,17 @@ lrwxrwxrwx -          -                  22 ./usr/lib/libecpg_compat.so -> libec
 -rwxr-xr-x -          -               63184 ./usr/lib/libecpg.so.6.12
 lrwxrwxrwx -          -                  15 ./usr/lib/libecpg.so.6 -> libecpg.so.6.12
 lrwxrwxrwx -          -                  15 ./usr/lib/libecpg.so -> libecpg.so.6.12
--rw-r--r-- -          -             1361668 ./usr/lib/libpgcommon.a
--rw-r--r-- -          -             1342794 ./usr/lib/libpgcommon_shlib.a
+-rw-r--r-- -          -             1361996 ./usr/lib/libpgcommon.a
+-rw-r--r-- -          -             1343122 ./usr/lib/libpgcommon_shlib.a
 -rw-r--r-- -          -             1151694 ./usr/lib/libpgfeutils.a
--rw-r--r-- -          -              843298 ./usr/lib/libpgport.a
--rw-r--r-- -          -              819612 ./usr/lib/libpgport_shlib.a
+-rw-r--r-- -          -              843194 ./usr/lib/libpgport.a
+-rw-r--r-- -          -              819508 ./usr/lib/libpgport_shlib.a
 -rw-r--r-- -          -             1069108 ./usr/lib/libpgtypes.a
 -rwxr-xr-x -          -               62932 ./usr/lib/libpgtypes.so.3.12
 lrwxrwxrwx -          -                  18 ./usr/lib/libpgtypes.so.3 -> libpgtypes.so.3.12
 lrwxrwxrwx -          -                  18 ./usr/lib/libpgtypes.so -> libpgtypes.so.3.12
--rw-r--r-- -          -             3008720 ./usr/lib/libpq.a
--rwxr-xr-x -          -              231532 ./usr/lib/libpq.so.5.12
+-rw-r--r-- -          -             3009132 ./usr/lib/libpq.a
+-rwxr-xr-x -          -              231536 ./usr/lib/libpq.so.5.12
 lrwxrwxrwx -          -                  13 ./usr/lib/libpq.so.5 -> libpq.so.5.12
 lrwxrwxrwx -          -                  13 ./usr/lib/libpq.so -> libpq.so.5.12
 drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
@@ -898,7 +898,7 @@ drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 205 ./usr/lib/pkgconfig/libpgtypes.pc
 -rw-r--r-- -          -                 213 ./usr/lib/pkgconfig/libpq.pc
 drwxr-xr-x -          -                1760 ./usr/lib/postgresql
--rwxr-xr-x -          -               13492 ./usr/lib/postgresql/adminpack.so
+-rwxr-xr-x -          -               13480 ./usr/lib/postgresql/adminpack.so
 -rwxr-xr-x -          -               21752 ./usr/lib/postgresql/amcheck.so
 -rwxr-xr-x -          -                5008 ./usr/lib/postgresql/ascii_and_mic.so
 -rwxr-xr-x -          -                5008 ./usr/lib/postgresql/auth_delay.so
@@ -935,7 +935,7 @@ drwxr-xr-x -          -                1760 ./usr/lib/postgresql
 -rwxr-xr-x -          -               13676 ./usr/lib/postgresql/libpqwalreceiver.so
 -rwxr-xr-x -          -                5140 ./usr/lib/postgresql/lo.so
 -rwxr-xr-x -          -                5032 ./usr/lib/postgresql/ltree_plpython3.so
--rwxr-xr-x -          -               38128 ./usr/lib/postgresql/ltree.so
+-rwxr-xr-x -          -               38136 ./usr/lib/postgresql/ltree.so
 -rwxr-xr-x -          -                5168 ./usr/lib/postgresql/moddatetime.so
 -rwxr-xr-x -          -               30000 ./usr/lib/postgresql/pageinspect.so
 -rwxr-xr-x -          -                5148 ./usr/lib/postgresql/passwordcheck.so
@@ -944,7 +944,7 @@ drwxr-xr-x -          -                1760 ./usr/lib/postgresql
 -rwxr-xr-x -          -                5024 ./usr/lib/postgresql/pg_freespacemap.so
 -rwxr-xr-x -          -                9372 ./usr/lib/postgresql/pgoutput.so
 -rwxr-xr-x -          -               17760 ./usr/lib/postgresql/pg_prewarm.so
--rwxr-xr-x -          -                9364 ./usr/lib/postgresql/pgrowlocks.so
+-rwxr-xr-x -          -                9360 ./usr/lib/postgresql/pgrowlocks.so
 -rwxr-xr-x -          -               26036 ./usr/lib/postgresql/pg_stat_statements.so
 -rwxr-xr-x -          -               21728 ./usr/lib/postgresql/pgstattuple.so
 -rwxr-xr-x -          -               34148 ./usr/lib/postgresql/pg_trgm.so
@@ -955,7 +955,7 @@ drwxr-xr-x -          -                  80 ./usr/lib/postgresql/pgxs/config
 -rwxr-xr-x -          -               13997 ./usr/lib/postgresql/pgxs/config/install-sh
 -rwxr-xr-x -          -                1348 ./usr/lib/postgresql/pgxs/config/missing
 drwxr-xr-x -          -                 180 ./usr/lib/postgresql/pgxs/src
--rw-r--r-- -          -               39635 ./usr/lib/postgresql/pgxs/src/Makefile.global
+-rw-r--r-- -          -               39503 ./usr/lib/postgresql/pgxs/src/Makefile.global
 -rw-r--r-- -          -                 361 ./usr/lib/postgresql/pgxs/src/Makefile.port
 drwxr-xr-x -          -                  60 ./usr/lib/postgresql/pgxs/src/makefiles
 -rw-r--r-- -          -               16539 ./usr/lib/postgresql/pgxs/src/Makefile.shlib
@@ -1252,7 +1252,7 @@ drwxr-xr-x -          -                4980 ./usr/share/postgresql/extension
 -rw-r--r-- -          -                2049 ./usr/share/postgresql/extension/xml2--1.1.sql
 -rw-r--r-- -          -                 208 ./usr/share/postgresql/extension/xml2.control
 -rw-r--r-- -          -                1341 ./usr/share/postgresql/extension/xml2--unpackaged--1.0.sql
--rw-r--r-- -          -              111929 ./usr/share/postgresql/information_schema.sql
+-rw-r--r-- -          -              112339 ./usr/share/postgresql/information_schema.sql
 -rw-r--r-- -          -                4427 ./usr/share/postgresql/pg_hba.conf.sample
 -rw-r--r-- -          -                1636 ./usr/share/postgresql/pg_ident.conf.sample
 -rw-r--r-- -          -                 604 ./usr/share/postgresql/pg_service.conf.sample
@@ -1320,7 +1320,7 @@ drwxr-xr-x -          -                1120 ./usr/share/postgresql/timezone/Afri
 -rw-r--r-- -          -                 625 ./usr/share/postgresql/timezone/Africa/Tripoli
 -rw-r--r-- -          -                 689 ./usr/share/postgresql/timezone/Africa/Tunis
 -rw-r--r-- -          -                 955 ./usr/share/postgresql/timezone/Africa/Windhoek
-drwxr-xr-x -          -                2920 ./usr/share/postgresql/timezone/America
+drwxr-xr-x -          -                2940 ./usr/share/postgresql/timezone/America
 -rw-r--r-- -          -                2356 ./usr/share/postgresql/timezone/America/Adak
 -rw-r--r-- -          -                2371 ./usr/share/postgresql/timezone/America/Anchorage
 -rw-r--r-- -          -                 148 ./usr/share/postgresql/timezone/America/Anguilla
@@ -1370,7 +1370,7 @@ drwxr-xr-x -          -                 300 ./usr/share/postgresql/timezone/Amer
 -rw-r--r-- -          -                1416 ./usr/share/postgresql/timezone/America/Cuiaba
 -rw-r--r-- -          -                 186 ./usr/share/postgresql/timezone/America/Curacao
 -rw-r--r-- -          -                 698 ./usr/share/postgresql/timezone/America/Danmarkshavn
--rw-r--r-- -          -                2084 ./usr/share/postgresql/timezone/America/Dawson
+-rw-r--r-- -          -                1600 ./usr/share/postgresql/timezone/America/Dawson
 -rw-r--r-- -          -                1050 ./usr/share/postgresql/timezone/America/Dawson_Creek
 -rw-r--r-- -          -                2444 ./usr/share/postgresql/timezone/America/Denver
 -rw-r--r-- -          -                2230 ./usr/share/postgresql/timezone/America/Detroit
@@ -1446,6 +1446,7 @@ drwxr-xr-x -          -                 100 ./usr/share/postgresql/timezone/Amer
 -rw-r--r-- -          -                2380 ./usr/share/postgresql/timezone/America/North_Dakota/Beulah
 -rw-r--r-- -          -                2380 ./usr/share/postgresql/timezone/America/North_Dakota/Center
 -rw-r--r-- -          -                2380 ./usr/share/postgresql/timezone/America/North_Dakota/New_Salem
+-rw-r--r-- -          -                1878 ./usr/share/postgresql/timezone/America/Nuuk
 -rw-r--r-- -          -                1484 ./usr/share/postgresql/timezone/America/Ojinaga
 -rw-r--r-- -          -                 182 ./usr/share/postgresql/timezone/America/Panama
 -rw-r--r-- -          -                2094 ./usr/share/postgresql/timezone/America/Pangnirtung
@@ -1487,7 +1488,7 @@ drwxr-xr-x -          -                 100 ./usr/share/postgresql/timezone/Amer
 -rw-r--r-- -          -                 148 ./usr/share/postgresql/timezone/America/Tortola
 -rw-r--r-- -          -                2892 ./usr/share/postgresql/timezone/America/Vancouver
 -rw-r--r-- -          -                 148 ./usr/share/postgresql/timezone/America/Virgin
--rw-r--r-- -          -                2084 ./usr/share/postgresql/timezone/America/Whitehorse
+-rw-r--r-- -          -                1600 ./usr/share/postgresql/timezone/America/Whitehorse
 -rw-r--r-- -          -                2868 ./usr/share/postgresql/timezone/America/Winnipeg
 -rw-r--r-- -          -                2305 ./usr/share/postgresql/timezone/America/Yakutat
 -rw-r--r-- -          -                1966 ./usr/share/postgresql/timezone/America/Yellowknife
@@ -1527,8 +1528,8 @@ drwxr-xr-x -          -                2020 ./usr/share/postgresql/timezone/Asia
 -rw-r--r-- -          -                 285 ./usr/share/postgresql/timezone/Asia/Calcutta
 -rw-r--r-- -          -                1221 ./usr/share/postgresql/timezone/Asia/Chita
 -rw-r--r-- -          -                 949 ./usr/share/postgresql/timezone/Asia/Choibalsan
--rw-r--r-- -          -                 533 ./usr/share/postgresql/timezone/Asia/Chongqing
--rw-r--r-- -          -                 533 ./usr/share/postgresql/timezone/Asia/Chungking
+-rw-r--r-- -          -                 561 ./usr/share/postgresql/timezone/Asia/Chongqing
+-rw-r--r-- -          -                 561 ./usr/share/postgresql/timezone/Asia/Chungking
 -rw-r--r-- -          -                 372 ./usr/share/postgresql/timezone/Asia/Colombo
 -rw-r--r-- -          -                 337 ./usr/share/postgresql/timezone/Asia/Dacca
 -rw-r--r-- -          -                2294 ./usr/share/postgresql/timezone/Asia/Damascus
@@ -1538,7 +1539,7 @@ drwxr-xr-x -          -                2020 ./usr/share/postgresql/timezone/Asia
 -rw-r--r-- -          -                 591 ./usr/share/postgresql/timezone/Asia/Dushanbe
 -rw-r--r-- -          -                2028 ./usr/share/postgresql/timezone/Asia/Famagusta
 -rw-r--r-- -          -                2316 ./usr/share/postgresql/timezone/Asia/Gaza
--rw-r--r-- -          -                 533 ./usr/share/postgresql/timezone/Asia/Harbin
+-rw-r--r-- -          -                 561 ./usr/share/postgresql/timezone/Asia/Harbin
 -rw-r--r-- -          -                2344 ./usr/share/postgresql/timezone/Asia/Hebron
 -rw-r--r-- -          -                 351 ./usr/share/postgresql/timezone/Asia/Ho_Chi_Minh
 -rw-r--r-- -          -                1203 ./usr/share/postgresql/timezone/Asia/Hong_Kong
@@ -1583,7 +1584,7 @@ drwxr-xr-x -          -                2020 ./usr/share/postgresql/timezone/Asia
 -rw-r--r-- -          -                1202 ./usr/share/postgresql/timezone/Asia/Sakhalin
 -rw-r--r-- -          -                 577 ./usr/share/postgresql/timezone/Asia/Samarkand
 -rw-r--r-- -          -                 617 ./usr/share/postgresql/timezone/Asia/Seoul
--rw-r--r-- -          -                 533 ./usr/share/postgresql/timezone/Asia/Shanghai
+-rw-r--r-- -          -                 561 ./usr/share/postgresql/timezone/Asia/Shanghai
 -rw-r--r-- -          -                 383 ./usr/share/postgresql/timezone/Asia/Singapore
 -rw-r--r-- -          -                1208 ./usr/share/postgresql/timezone/Asia/Srednekolymsk
 -rw-r--r-- -          -                 761 ./usr/share/postgresql/timezone/Asia/Taipei
@@ -1656,7 +1657,7 @@ drwxr-xr-x -          -                 200 ./usr/share/postgresql/timezone/Cana
 -rw-r--r-- -          -                3655 ./usr/share/postgresql/timezone/Canada/Newfoundland
 -rw-r--r-- -          -                2892 ./usr/share/postgresql/timezone/Canada/Pacific
 -rw-r--r-- -          -                 980 ./usr/share/postgresql/timezone/Canada/Saskatchewan
--rw-r--r-- -          -                2084 ./usr/share/postgresql/timezone/Canada/Yukon
+-rw-r--r-- -          -                1600 ./usr/share/postgresql/timezone/Canada/Yukon
 -rw-r--r-- -          -                2094 ./usr/share/postgresql/timezone/CET
 drwxr-xr-x -          -                  80 ./usr/share/postgresql/timezone/Chile
 -rw-r--r-- -          -                2529 ./usr/share/postgresql/timezone/Chile/Continental
@@ -1854,7 +1855,7 @@ drwxr-xr-x -          -                 900 ./usr/share/postgresql/timezone/Paci
 -rw-r--r-- -          -                2654 ./usr/share/postgresql/timezone/Poland
 -rw-r--r-- -          -                3469 ./usr/share/postgresql/timezone/Portugal
 -rw-r--r-- -          -                3536 ./usr/share/postgresql/timezone/posixrules
--rw-r--r-- -          -                 533 ./usr/share/postgresql/timezone/PRC
+-rw-r--r-- -          -                 561 ./usr/share/postgresql/timezone/PRC
 -rw-r--r-- -          -                2310 ./usr/share/postgresql/timezone/PST8PDT
 -rw-r--r-- -          -                 761 ./usr/share/postgresql/timezone/ROC
 -rw-r--r-- -          -                 617 ./usr/share/postgresql/timezone/ROK

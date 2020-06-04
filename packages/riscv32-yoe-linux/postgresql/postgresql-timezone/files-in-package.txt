@@ -57,7 +57,7 @@ drwxr-xr-x root       root             1120 ./usr/share/postgresql/timezone/Afri
 -rw-r--r-- root       root              625 ./usr/share/postgresql/timezone/Africa/Tripoli
 -rw-r--r-- root       root              689 ./usr/share/postgresql/timezone/Africa/Tunis
 -rw-r--r-- root       root              955 ./usr/share/postgresql/timezone/Africa/Windhoek
-drwxr-xr-x root       root             2920 ./usr/share/postgresql/timezone/America
+drwxr-xr-x root       root             2940 ./usr/share/postgresql/timezone/America
 -rw-r--r-- root       root             2356 ./usr/share/postgresql/timezone/America/Adak
 -rw-r--r-- root       root             2371 ./usr/share/postgresql/timezone/America/Anchorage
 -rw-r--r-- root       root              148 ./usr/share/postgresql/timezone/America/Anguilla
@@ -107,7 +107,7 @@ drwxr-xr-x root       root              300 ./usr/share/postgresql/timezone/Amer
 -rw-r--r-- root       root             1416 ./usr/share/postgresql/timezone/America/Cuiaba
 -rw-r--r-- root       root              186 ./usr/share/postgresql/timezone/America/Curacao
 -rw-r--r-- root       root              698 ./usr/share/postgresql/timezone/America/Danmarkshavn
--rw-r--r-- root       root             2084 ./usr/share/postgresql/timezone/America/Dawson
+-rw-r--r-- root       root             1600 ./usr/share/postgresql/timezone/America/Dawson
 -rw-r--r-- root       root             1050 ./usr/share/postgresql/timezone/America/Dawson_Creek
 -rw-r--r-- root       root             2444 ./usr/share/postgresql/timezone/America/Denver
 -rw-r--r-- root       root             2230 ./usr/share/postgresql/timezone/America/Detroit
@@ -183,6 +183,7 @@ drwxr-xr-x root       root              100 ./usr/share/postgresql/timezone/Amer
 -rw-r--r-- root       root             2380 ./usr/share/postgresql/timezone/America/North_Dakota/Beulah
 -rw-r--r-- root       root             2380 ./usr/share/postgresql/timezone/America/North_Dakota/Center
 -rw-r--r-- root       root             2380 ./usr/share/postgresql/timezone/America/North_Dakota/New_Salem
+-rw-r--r-- root       root             1878 ./usr/share/postgresql/timezone/America/Nuuk
 -rw-r--r-- root       root             1484 ./usr/share/postgresql/timezone/America/Ojinaga
 -rw-r--r-- root       root              182 ./usr/share/postgresql/timezone/America/Panama
 -rw-r--r-- root       root             2094 ./usr/share/postgresql/timezone/America/Pangnirtung
@@ -224,7 +225,7 @@ drwxr-xr-x root       root              100 ./usr/share/postgresql/timezone/Amer
 -rw-r--r-- root       root              148 ./usr/share/postgresql/timezone/America/Tortola
 -rw-r--r-- root       root             2892 ./usr/share/postgresql/timezone/America/Vancouver
 -rw-r--r-- root       root              148 ./usr/share/postgresql/timezone/America/Virgin
--rw-r--r-- root       root             2084 ./usr/share/postgresql/timezone/America/Whitehorse
+-rw-r--r-- root       root             1600 ./usr/share/postgresql/timezone/America/Whitehorse
 -rw-r--r-- root       root             2868 ./usr/share/postgresql/timezone/America/Winnipeg
 -rw-r--r-- root       root             2305 ./usr/share/postgresql/timezone/America/Yakutat
 -rw-r--r-- root       root             1966 ./usr/share/postgresql/timezone/America/Yellowknife
@@ -264,8 +265,8 @@ drwxr-xr-x root       root             2020 ./usr/share/postgresql/timezone/Asia
 -rw-r--r-- root       root              285 ./usr/share/postgresql/timezone/Asia/Calcutta
 -rw-r--r-- root       root             1221 ./usr/share/postgresql/timezone/Asia/Chita
 -rw-r--r-- root       root              949 ./usr/share/postgresql/timezone/Asia/Choibalsan
--rw-r--r-- root       root              533 ./usr/share/postgresql/timezone/Asia/Chongqing
--rw-r--r-- root       root              533 ./usr/share/postgresql/timezone/Asia/Chungking
+-rw-r--r-- root       root              561 ./usr/share/postgresql/timezone/Asia/Chongqing
+-rw-r--r-- root       root              561 ./usr/share/postgresql/timezone/Asia/Chungking
 -rw-r--r-- root       root              372 ./usr/share/postgresql/timezone/Asia/Colombo
 -rw-r--r-- root       root              337 ./usr/share/postgresql/timezone/Asia/Dacca
 -rw-r--r-- root       root             2294 ./usr/share/postgresql/timezone/Asia/Damascus
@@ -275,7 +276,7 @@ drwxr-xr-x root       root             2020 ./usr/share/postgresql/timezone/Asia
 -rw-r--r-- root       root              591 ./usr/share/postgresql/timezone/Asia/Dushanbe
 -rw-r--r-- root       root             2028 ./usr/share/postgresql/timezone/Asia/Famagusta
 -rw-r--r-- root       root             2316 ./usr/share/postgresql/timezone/Asia/Gaza
--rw-r--r-- root       root              533 ./usr/share/postgresql/timezone/Asia/Harbin
+-rw-r--r-- root       root              561 ./usr/share/postgresql/timezone/Asia/Harbin
 -rw-r--r-- root       root             2344 ./usr/share/postgresql/timezone/Asia/Hebron
 -rw-r--r-- root       root              351 ./usr/share/postgresql/timezone/Asia/Ho_Chi_Minh
 -rw-r--r-- root       root             1203 ./usr/share/postgresql/timezone/Asia/Hong_Kong
@@ -320,7 +321,7 @@ drwxr-xr-x root       root             2020 ./usr/share/postgresql/timezone/Asia
 -rw-r--r-- root       root             1202 ./usr/share/postgresql/timezone/Asia/Sakhalin
 -rw-r--r-- root       root              577 ./usr/share/postgresql/timezone/Asia/Samarkand
 -rw-r--r-- root       root              617 ./usr/share/postgresql/timezone/Asia/Seoul
--rw-r--r-- root       root              533 ./usr/share/postgresql/timezone/Asia/Shanghai
+-rw-r--r-- root       root              561 ./usr/share/postgresql/timezone/Asia/Shanghai
 -rw-r--r-- root       root              383 ./usr/share/postgresql/timezone/Asia/Singapore
 -rw-r--r-- root       root             1208 ./usr/share/postgresql/timezone/Asia/Srednekolymsk
 -rw-r--r-- root       root              761 ./usr/share/postgresql/timezone/Asia/Taipei
@@ -393,7 +394,7 @@ drwxr-xr-x root       root              200 ./usr/share/postgresql/timezone/Cana
 -rw-r--r-- root       root             3655 ./usr/share/postgresql/timezone/Canada/Newfoundland
 -rw-r--r-- root       root             2892 ./usr/share/postgresql/timezone/Canada/Pacific
 -rw-r--r-- root       root              980 ./usr/share/postgresql/timezone/Canada/Saskatchewan
--rw-r--r-- root       root             2084 ./usr/share/postgresql/timezone/Canada/Yukon
+-rw-r--r-- root       root             1600 ./usr/share/postgresql/timezone/Canada/Yukon
 -rw-r--r-- root       root             2094 ./usr/share/postgresql/timezone/CET
 drwxr-xr-x root       root               80 ./usr/share/postgresql/timezone/Chile
 -rw-r--r-- root       root             2529 ./usr/share/postgresql/timezone/Chile/Continental
@@ -591,7 +592,7 @@ drwxr-xr-x root       root              900 ./usr/share/postgresql/timezone/Paci
 -rw-r--r-- root       root             2654 ./usr/share/postgresql/timezone/Poland
 -rw-r--r-- root       root             3469 ./usr/share/postgresql/timezone/Portugal
 -rw-r--r-- root       root             3536 ./usr/share/postgresql/timezone/posixrules
--rw-r--r-- root       root              533 ./usr/share/postgresql/timezone/PRC
+-rw-r--r-- root       root              561 ./usr/share/postgresql/timezone/PRC
 -rw-r--r-- root       root             2310 ./usr/share/postgresql/timezone/PST8PDT
 -rw-r--r-- root       root              761 ./usr/share/postgresql/timezone/ROC
 -rw-r--r-- root       root              617 ./usr/share/postgresql/timezone/ROK

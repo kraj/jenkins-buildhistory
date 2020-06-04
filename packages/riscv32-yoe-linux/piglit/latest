@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = bash-completion cmake-native libglu libpng libxkbcommon libxrender ninja-native pkgconfig-native python3-mako-native python3-native python3-numpy-native python3-six-native virtual/egl virtual/libc virtual/libgl virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc waffle
 PACKAGES = piglit-src piglit-dbg piglit-staticdev piglit-dev piglit-doc piglit-locale piglit piglit-bash-completion
 LAYER = core
+CONFIG = x11

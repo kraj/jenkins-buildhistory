@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = gettext-native gperf-native libcap meson-native ninja-native pkgconfig-native python3-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = sdbus-c++-libsystemd-src sdbus-c++-libsystemd-dbg sdbus-c++-libsystemd-staticdev sdbus-c++-libsystemd-dev sdbus-c++-libsystemd-doc sdbus-c++-libsystemd-locale sdbus-c++-libsystemd
 LAYER = openembedded-layer
+CONFIG = gshadow idn

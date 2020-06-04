@@ -3,7 +3,7 @@ PR = r0
 PKG = libsdbus-c++-ptest
 PKGR = r0.0
 RPROVIDES = sdbus-c++-ptest (=0.8.1)
-RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libgcc (>= 10.1.0) libstdc++ (>= 10.1.0) libsystemd (>= 245.5) sdbus-c++ (>= 0.8.1)
+RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libgcc (>= 10.1.0) libstdc++ (>= 10.1.0) libsystemd (>= 245.6) sdbus-c++ (>= 0.8.1)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1706509
 FILES = /usr/lib/sdbus-c++/ptest /etc/dbus-1/system.d/ /usr/lib/sdbus-c++/tests

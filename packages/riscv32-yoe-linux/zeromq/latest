@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = cmake-native libsodium ninja-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = zeromq-src zeromq-dbg zeromq-ptest zeromq-staticdev zeromq-dev zeromq-doc zeromq-locale zeromq
 LAYER = openembedded-layer
+CONFIG = libsodium

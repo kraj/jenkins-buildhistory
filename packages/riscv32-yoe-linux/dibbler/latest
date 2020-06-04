@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = dibbler-src dibbler-dbg dibbler-requestor dibbler-client dibbler-relay dibbler-server dibbler-staticdev dibbler-dev dibbler-doc dibbler-locale dibbler
 LAYER = networking-layer
+CONFIG = bind-reuse debug dns-update resolvconf

@@ -3,3 +3,4 @@ PR = r2
 DEPENDS = autoconf-native automake-native gnu-config-native libtirpc libtool-cross libtool-native systemd-systemctl-native tcp-wrappers virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = xinetd-src xinetd-dbg xinetd-staticdev xinetd-dev xinetd-doc xinetd-locale xinetd
 LAYER = core
+CONFIG = tcp-wrappers

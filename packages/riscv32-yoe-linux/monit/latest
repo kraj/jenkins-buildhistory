@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-native libnsl2 libpam libtool-cross libtool-native openssl systemd-systemctl-native virtual/crypt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
 PACKAGES = monit-src monit-dbg monit-staticdev monit-dev monit-doc monit-locale monit
 LAYER = openembedded-layer
+CONFIG = pam

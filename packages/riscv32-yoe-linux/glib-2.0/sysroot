@@ -235,7 +235,7 @@ drwxr-xr-x -          -                 160 ./usr/include/glib-2.0/glib/deprecat
 -rw-r--r-- -          -                2130 ./usr/include/glib-2.0/glib/gstringchunk.h
 -rw-r--r-- -          -                8045 ./usr/include/glib-2.0/glib/gstring.h
 -rw-r--r-- -          -               31435 ./usr/include/glib-2.0/glib/gtestutils.h
--rw-r--r-- -          -               17496 ./usr/include/glib-2.0/glib/gthread.h
+-rw-r--r-- -          -               17880 ./usr/include/glib-2.0/glib/gthread.h
 -rw-r--r-- -          -                3824 ./usr/include/glib-2.0/glib/gthreadpool.h
 -rw-r--r-- -          -                2576 ./usr/include/glib-2.0/glib/gtimer.h
 -rw-r--r-- -          -                3723 ./usr/include/glib-2.0/glib/gtimezone.h
@@ -283,20 +283,20 @@ drwxr-xr-x -          -                  40 ./usr/lib/gio/modules
 drwxr-xr-x -          -                  60 ./usr/lib/glib-2.0
 drwxr-xr-x -          -                  60 ./usr/lib/glib-2.0/include
 -rw-r--r-- -          -                5719 ./usr/lib/glib-2.0/include/glibconfig.h
--rwxr-xr-x -          -             1243064 ./usr/lib/libgio-2.0.so.0.6400.2
-lrwxrwxrwx -          -                  22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.6400.2
+-rwxr-xr-x -          -             1243064 ./usr/lib/libgio-2.0.so.0.6400.3
+lrwxrwxrwx -          -                  22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.6400.3
 lrwxrwxrwx -          -                  15 ./usr/lib/libgio-2.0.so -> libgio-2.0.so.0
--rwxr-xr-x -          -              924648 ./usr/lib/libglib-2.0.so.0.6400.2
-lrwxrwxrwx -          -                  23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.6400.2
+-rwxr-xr-x -          -              924648 ./usr/lib/libglib-2.0.so.0.6400.3
+lrwxrwxrwx -          -                  23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.6400.3
 lrwxrwxrwx -          -                  16 ./usr/lib/libglib-2.0.so -> libglib-2.0.so.0
--rwxr-xr-x -          -                9364 ./usr/lib/libgmodule-2.0.so.0.6400.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.6400.2
+-rwxr-xr-x -          -                9364 ./usr/lib/libgmodule-2.0.so.0.6400.3
+lrwxrwxrwx -          -                  26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.6400.3
 lrwxrwxrwx -          -                  19 ./usr/lib/libgmodule-2.0.so -> libgmodule-2.0.so.0
--rwxr-xr-x -          -              240476 ./usr/lib/libgobject-2.0.so.0.6400.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.6400.2
+-rwxr-xr-x -          -              240476 ./usr/lib/libgobject-2.0.so.0.6400.3
+lrwxrwxrwx -          -                  26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.6400.3
 lrwxrwxrwx -          -                  19 ./usr/lib/libgobject-2.0.so -> libgobject-2.0.so.0
--rwxr-xr-x -          -                5004 ./usr/lib/libgthread-2.0.so.0.6400.2
-lrwxrwxrwx -          -                  26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.6400.2
+-rwxr-xr-x -          -                5004 ./usr/lib/libgthread-2.0.so.0.6400.3
+lrwxrwxrwx -          -                  26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.6400.3
 lrwxrwxrwx -          -                  19 ./usr/lib/libgthread-2.0.so -> libgthread-2.0.so.0
 drwxr-xr-x -          -                 200 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 630 ./usr/lib/pkgconfig/gio-2.0.pc
@@ -323,8 +323,8 @@ drwxr-xr-x -          -                  60 ./usr/share/gdb
 drwxr-xr-x -          -                  60 ./usr/share/gdb/auto-load
 drwxr-xr-x -          -                  60 ./usr/share/gdb/auto-load/usr
 drwxr-xr-x -          -                  80 ./usr/share/gdb/auto-load/usr/lib
--rw-r--r-- -          -                 197 ./usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6400.2-gdb.py
--rw-r--r-- -          -                 200 ./usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6400.2-gdb.py
+-rw-r--r-- -          -                 197 ./usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6400.3-gdb.py
+-rw-r--r-- -          -                 200 ./usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6400.3-gdb.py
 drwxr-xr-x -          -                  60 ./usr/share/gettext
 drwxr-xr-x -          -                  80 ./usr/share/gettext/its
 -rw-r--r-- -          -                1048 ./usr/share/gettext/its/gschema.its
@@ -486,8 +486,8 @@ drwxr-xr-x -          -                5260 ./usr/share/installed-tests/glib
 -rw-r--r-- -          -                  87 ./usr/share/installed-tests/glib/markup-subparser.test
 -rw-r--r-- -          -                  77 ./usr/share/installed-tests/glib/markup.test
 -rw-r--r-- -          -                  90 ./usr/share/installed-tests/glib/memory-input-stream.test
--rw-r--r-- -          -                  82 ./usr/share/installed-tests/glib/memory-monitor-dbus.test
--rw-r--r-- -          -                  84 ./usr/share/installed-tests/glib/memory-monitor-portal.test
+-rw-r--r-- -          -                  93 ./usr/share/installed-tests/glib/memory-monitor-dbus.test
+-rw-r--r-- -          -                  95 ./usr/share/installed-tests/glib/memory-monitor-portal.test
 -rw-r--r-- -          -                  85 ./usr/share/installed-tests/glib/memory-monitor.test
 -rw-r--r-- -          -                  91 ./usr/share/installed-tests/glib/memory-output-stream.test
 -rw-r--r-- -          -                  83 ./usr/share/installed-tests/glib/mem-overflow.test

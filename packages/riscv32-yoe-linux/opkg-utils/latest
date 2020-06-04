@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = opkg-utils-src opkg-utils-dbg update-alternatives-opkg opkg-utils-doc opkg-utils-locale opkg-utils
 LAYER = core
+CONFIG = python update-alternatives

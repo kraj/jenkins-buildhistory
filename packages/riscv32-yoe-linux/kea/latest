@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native boost gnu-config-native kea-native libtool-cross libtool-native log4cplus openssl systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = kea-src kea-dbg kea-staticdev kea-dev kea-doc kea-locale kea
 LAYER = networking-layer
+CONFIG = boost log4cplus openssl

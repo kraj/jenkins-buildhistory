@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = libpciaccess libpthread-stubs meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = libdrm-src libdrm-dbg libdrm-tests libdrm-drivers libdrm-radeon libdrm-nouveau libdrm-omap libdrm-intel libdrm-exynos libdrm-kms libdrm-freedreno libdrm-amdgpu libdrm-etnaviv libdrm-staticdev libdrm-dev libdrm-doc libdrm-locale libdrm
 LAYER = core
+CONFIG = amdgpu etnaviv freedreno install-test-programs intel libkms nouveau omap radeon vc4 vmwgfx

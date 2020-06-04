@@ -12,11 +12,11 @@ drwxr-xr-x root       root              220 ./usr/bin/.debug
 -rwxr-xr-x root       root            59300 ./usr/bin/.debug/gtester
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              140 ./usr/lib/.debug
--rwxr-xr-x root       root          7479136 ./usr/lib/.debug/libgio-2.0.so.0.6400.2
--rwxr-xr-x root       root          3377632 ./usr/lib/.debug/libglib-2.0.so.0.6400.2
--rwxr-xr-x root       root            32316 ./usr/lib/.debug/libgmodule-2.0.so.0.6400.2
--rwxr-xr-x root       root          1193544 ./usr/lib/.debug/libgobject-2.0.so.0.6400.2
--rwxr-xr-x root       root             4960 ./usr/lib/.debug/libgthread-2.0.so.0.6400.2
+-rwxr-xr-x root       root          7479580 ./usr/lib/.debug/libgio-2.0.so.0.6400.3
+-rwxr-xr-x root       root          3377652 ./usr/lib/.debug/libglib-2.0.so.0.6400.3
+-rwxr-xr-x root       root            32316 ./usr/lib/.debug/libgmodule-2.0.so.0.6400.3
+-rwxr-xr-x root       root          1193544 ./usr/lib/.debug/libgobject-2.0.so.0.6400.3
+-rwxr-xr-x root       root             4960 ./usr/lib/.debug/libgthread-2.0.so.0.6400.3
 drwxr-xr-x root       root               80 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/.debug
 -rwxr-xr-x root       root            16808 ./usr/libexec/.debug/gio-querymodules
@@ -31,7 +31,7 @@ drwxr-xr-x root       root             5600 ./usr/libexec/installed-tests/glib/.
 -rwxr-xr-x root       root            15980 ./usr/libexec/installed-tests/glib/.debug/appinfo-test
 -rwxr-xr-x root       root            22940 ./usr/libexec/installed-tests/glib/.debug/appmonitor
 -rwxr-xr-x root       root            14764 ./usr/libexec/installed-tests/glib/.debug/apps
--rwxr-xr-x root       root           158696 ./usr/libexec/installed-tests/glib/.debug/array-test
+-rwxr-xr-x root       root           158716 ./usr/libexec/installed-tests/glib/.debug/array-test
 -rwxr-xr-x root       root             7804 ./usr/libexec/installed-tests/glib/.debug/assert-msg-test
 -rwxr-xr-x root       root            29632 ./usr/libexec/installed-tests/glib/.debug/async-close-output-stream
 -rwxr-xr-x root       root            34056 ./usr/libexec/installed-tests/glib/.debug/asyncqueue
@@ -118,7 +118,7 @@ drwxr-xr-x root       root             5600 ./usr/libexec/installed-tests/glib/.
 -rwxr-xr-x root       root            49832 ./usr/libexec/installed-tests/glib/.debug/gdbus-proxy-unique-name
 -rwxr-xr-x root       root            56056 ./usr/libexec/installed-tests/glib/.debug/gdbus-proxy-well-known-name
 -rwxr-xr-x root       root            91296 ./usr/libexec/installed-tests/glib/.debug/gdbus-serialization
--rwxr-xr-x root       root            47360 ./usr/libexec/installed-tests/glib/.debug/gdbus-server-auth
+-rwxr-xr-x root       root            47464 ./usr/libexec/installed-tests/glib/.debug/gdbus-server-auth
 -rwxr-xr-x root       root          1167760 ./usr/libexec/installed-tests/glib/.debug/gdbus-test-codegen
 -rwxr-xr-x root       root          1177872 ./usr/libexec/installed-tests/glib/.debug/gdbus-test-codegen-min-required-2-64
 -rwxr-xr-x root       root          1158208 ./usr/libexec/installed-tests/glib/.debug/gdbus-test-codegen-old
@@ -310,8 +310,8 @@ drwxr-xr-x root       root               60 ./usr/share/gdb
 drwxr-xr-x root       root               60 ./usr/share/gdb/auto-load
 drwxr-xr-x root       root               60 ./usr/share/gdb/auto-load/usr
 drwxr-xr-x root       root               80 ./usr/share/gdb/auto-load/usr/lib
--rw-r--r-- root       root              197 ./usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6400.2-gdb.py
--rw-r--r-- root       root              200 ./usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6400.2-gdb.py
+-rw-r--r-- root       root              197 ./usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6400.3-gdb.py
+-rw-r--r-- root       root              200 ./usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6400.3-gdb.py
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0
 drwxr-xr-x root       root               80 ./usr/share/glib-2.0/gdb
 -rw-r--r-- root       root             8142 ./usr/share/glib-2.0/gdb/glib_gdb.py

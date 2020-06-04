@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = gperf-native hostperl-runtime-native libpam virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = libcap-src libcap-dbg libcap-staticdev libcap-dev libcap-doc libcap-locale libcap-bin libcap
 LAYER = core
+CONFIG = pam

@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-archive-native autoconf-native automake-native gnu-config-native libaio libtool-cross libtool-native pkgconfig-native systemd-systemctl-native udev util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
 PACKAGES = lvm2-src lvm2-dbg libdevmapper lvm2-staticdev lvm2-dev lvm2-doc lvm2-locale lvm2-scripts lvm2-udevrules lvm2
 LAYER = openembedded-layer
+CONFIG = dmeventd odirect thin-provisioning-tools udev

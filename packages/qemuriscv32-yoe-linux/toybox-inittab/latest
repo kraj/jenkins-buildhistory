@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = toybox-inittab-src toybox-inittab-dbg toybox-inittab-staticdev toybox-inittab-dev toybox-inittab-doc toybox-inittab-locale toybox-inittab
 LAYER = openembedded-layer
+CONFIG = getty

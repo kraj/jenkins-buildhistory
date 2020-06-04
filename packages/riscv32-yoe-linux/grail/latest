@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native frame gnu-config-native libtool-cross libtool-native libxi pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = grail-src grail-dbg grail-staticdev grail-dev grail-doc grail-locale grail-test grail
 LAYER = openembedded-layer
+CONFIG = x11

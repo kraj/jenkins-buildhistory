@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               80 ./bin
 -rwxr-xr-x root       root            88248 ./bin/systemd-hwdb
--rwxr-xr-x root       root           679424 ./bin/udevadm
+-rwxr-xr-x root       root           683520 ./bin/udevadm
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              100 ./etc/udev
 drwxr-xr-x root       root               40 ./etc/udev/hwdb.d
@@ -12,7 +12,7 @@ drwxr-xr-x root       root              100 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/network
 -rw-r--r-- root       root              491 ./lib/systemd/network/99-default.link
 drwxr-xr-x root       root              220 ./lib/systemd/system
--rwxr-xr-x root       root           531484 ./lib/systemd/systemd-udevd
+-rwxr-xr-x root       root           535580 ./lib/systemd/systemd-udevd
 -rw-r--r-- root       root              813 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
 drwxr-xr-x root       root               80 ./lib/systemd/system/sockets.target.wants
 lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
@@ -66,7 +66,7 @@ lrwxrwxrwx root       root               12 ./sbin/udevadm -> /bin/udevadm
 lrwxrwxrwx root       root               26 ./sbin/udevd -> /lib/systemd/systemd-udevd
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/libexec
--rwxr-xr-x root       root           679424 ./usr/libexec/udevadm
+-rwxr-xr-x root       root           683520 ./usr/libexec/udevadm
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/bash-completion
 drwxr-xr-x root       root               60 ./usr/share/bash-completion/completions

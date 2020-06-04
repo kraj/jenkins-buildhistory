@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native perl-native pkgconfig-native systemd systemd-systemctl-native udev virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = pcsc-lite-src pcsc-lite-dbg pcsc-lite pcsc-lite-dev pcsc-lite-lib pcsc-lite-doc pcsc-lite-spy pcsc-lite-spy-dev
 LAYER = openembedded-layer
+CONFIG = systemd udev

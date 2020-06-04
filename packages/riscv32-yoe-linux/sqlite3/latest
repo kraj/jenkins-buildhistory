@@ -1,6 +1,7 @@
 PE = 3
-PV = 3.31.1
+PV = 3.32.1
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = sqlite3-src sqlite3-dbg libsqlite3 libsqlite3-dev libsqlite3-doc libsqlite3-staticdev sqlite3
 LAYER = core
+CONFIG = dyn_ext fts4 fts5 json1 rtree

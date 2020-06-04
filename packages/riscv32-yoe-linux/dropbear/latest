@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libpam libtool-cross libtool-native systemd-systemctl-native virtual/crypt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives zlib
 PACKAGES = dropbear-src dropbear-dbg dropbear-staticdev dropbear-dev dropbear-doc dropbear-locale dropbear
 LAYER = core
+CONFIG = disable-weak-ciphers

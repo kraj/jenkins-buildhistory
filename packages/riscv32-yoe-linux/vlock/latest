@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libpam libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
 PACKAGES = vlock-src vlock-dbg vlock-staticdev vlock-dev vlock-doc vlock-locale vlock
 LAYER = openembedded-layer
+CONFIG = pam

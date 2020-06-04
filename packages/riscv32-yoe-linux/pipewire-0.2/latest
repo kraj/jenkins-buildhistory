@@ -3,3 +3,4 @@ PR = r0
 DEPENDS = alsa-lib dbus glib-2.0 gstreamer1.0 gstreamer1.0-plugins-base meson-native ninja-native pkgconfig-native python3-native systemd systemd-systemctl-native udev virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = pipewire-0.2-src pipewire-0.2-dbg pipewire-0.2-spa-plugins pipewire-0.2-alsa pipewire-0.2-config gstreamer1.0-pipewire-0.2 libpipewire-0.2 libpipewire-0.2-modules pipewire-0.2-staticdev pipewire-0.2-dev pipewire-0.2-doc pipewire-0.2-locale pipewire-0.2
 LAYER = openembedded-layer
+CONFIG = gstreamer systemd
