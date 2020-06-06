@@ -1,0 +1,6 @@
+PV = 1.0.4
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd bash-completion gnu-config-native libbsd libevent libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = lldpd-src lldpd-dbg lldpd-zsh-completion lldpd-staticdev lldpd-dev lldpd-doc lldpd-locale lldpd lldpd-bash-completion
+LAYER = networking-layer
+CONFIG = cdp dot1 dot3 edp fdp lldpmed sonmp

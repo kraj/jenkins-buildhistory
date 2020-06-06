@@ -5,7 +5,7 @@ drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                1680 ./usr/include/poppler
 -rw-r--r-- -          -               55434 ./usr/include/poppler/Annot.h
 -rw-r--r-- -          -                2538 ./usr/include/poppler/Array.h
--rw-r--r-- -          -                2563 ./usr/include/poppler/BBoxOutputDev.h
+-rw-r--r-- -          -                2291 ./usr/include/poppler/BBoxOutputDev.h
 -rw-r--r-- -          -                4045 ./usr/include/poppler/CachedFile.h
 -rw-r--r-- -          -                3734 ./usr/include/poppler/CairoFontEngine.h
 -rw-r--r-- -          -               19968 ./usr/include/poppler/CairoOutputDev.h
@@ -15,14 +15,15 @@ drwxr-xr-x -          -                1680 ./usr/include/poppler
 -rw-r--r-- -          -                4971 ./usr/include/poppler/CharCodeToUnicode.h
 -rw-r--r-- -          -                 526 ./usr/include/poppler/CharTypes.h
 -rw-r--r-- -          -                4893 ./usr/include/poppler/CMap.h
-drwxr-xr-x -          -                 280 ./usr/include/poppler/cpp
+drwxr-xr-x -          -                 300 ./usr/include/poppler/cpp
 -rw-r--r-- -          -                1746 ./usr/include/poppler/cpp/poppler-destination.h
 -rw-r--r-- -          -                4605 ./usr/include/poppler/cpp/poppler-document.h
 -rw-r--r-- -          -                1465 ./usr/include/poppler/cpp/poppler-embedded-file.h
--rw-r--r-- -          -                2001 ./usr/include/poppler/cpp/poppler-font.h
+-rw-r--r-- -          -                2145 ./usr/include/poppler/cpp/poppler-font.h
+-rw-r--r-- -          -                2187 ./usr/include/poppler/cpp/poppler-font-private.h
 -rw-r--r-- -          -                3348 ./usr/include/poppler/cpp/poppler-global.h
 -rw-r--r-- -          -                1918 ./usr/include/poppler/cpp/poppler-image.h
--rw-r--r-- -          -                3966 ./usr/include/poppler/cpp/poppler-page.h
+-rw-r--r-- -          -                5987 ./usr/include/poppler/cpp/poppler-page.h
 -rw-r--r-- -          -                2161 ./usr/include/poppler/cpp/poppler-page-renderer.h
 -rw-r--r-- -          -                1817 ./usr/include/poppler/cpp/poppler-page-transition.h
 -rw-r--r-- -          -                1950 ./usr/include/poppler/cpp/poppler-rectangle.h
@@ -43,11 +44,11 @@ drwxr-xr-x -          -                 160 ./usr/include/poppler/fofi
 -rw-r--r-- -          -                1929 ./usr/include/poppler/fofi/FoFiType1.h
 -rw-r--r-- -          -                 564 ./usr/include/poppler/FontEncodingTables.h
 -rw-r--r-- -          -                2767 ./usr/include/poppler/FontInfo.h
--rw-r--r-- -          -               20195 ./usr/include/poppler/Form.h
+-rw-r--r-- -          -               21353 ./usr/include/poppler/Form.h
 -rw-r--r-- -          -                7981 ./usr/include/poppler/Function.h
 -rw-r--r-- -          -               14690 ./usr/include/poppler/GfxFont.h
 -rw-r--r-- -          -               13767 ./usr/include/poppler/Gfx.h
--rw-r--r-- -          -               60590 ./usr/include/poppler/GfxState.h
+-rw-r--r-- -          -               61443 ./usr/include/poppler/GfxState.h
 -rw-r--r-- -          -                2545 ./usr/include/poppler/GfxState_helpers.h
 drwxr-xr-x -          -                 340 ./usr/include/poppler/glib
 -rw-r--r-- -          -                9703 ./usr/include/poppler/glib/poppler-action.h
@@ -62,7 +63,7 @@ drwxr-xr-x -          -                 340 ./usr/include/poppler/glib
 -rw-r--r-- -          -                1874 ./usr/include/poppler/glib/poppler-layer.h
 -rw-r--r-- -          -                1074 ./usr/include/poppler/glib/poppler-macros.h
 -rw-r--r-- -          -                3017 ./usr/include/poppler/glib/poppler-media.h
--rw-r--r-- -          -                3149 ./usr/include/poppler/glib/poppler-movie.h
+-rw-r--r-- -          -                3268 ./usr/include/poppler/glib/poppler-movie.h
 -rw-r--r-- -          -               17071 ./usr/include/poppler/glib/poppler-page.h
 -rw-r--r-- -          -               20849 ./usr/include/poppler/glib/poppler-structure-element.h
 -rw-r--r-- -          -                8026 ./usr/include/poppler/GlobalParams.h
@@ -86,7 +87,7 @@ drwxr-xr-x -          -                 300 ./usr/include/poppler/goo
 -rw-r--r-- -          -                1501 ./usr/include/poppler/JPEG2000Stream.h
 -rw-r--r-- -          -                3454 ./usr/include/poppler/Lexer.h
 -rw-r--r-- -          -                1079 ./usr/include/poppler/Linearization.h
--rw-r--r-- -          -               15351 ./usr/include/poppler/Link.h
+-rw-r--r-- -          -               16064 ./usr/include/poppler/Link.h
 -rw-r--r-- -          -                 991 ./usr/include/poppler/LocalPDFDocBuilder.h
 -rw-r--r-- -          -                3201 ./usr/include/poppler/MarkedContentOutputDev.h
 -rw-r--r-- -          -                3510 ./usr/include/poppler/Movie.h
@@ -107,7 +108,7 @@ drwxr-xr-x -          -                 300 ./usr/include/poppler/goo
 -rw-r--r-- -          -                4358 ./usr/include/poppler/poppler-config.h
 -rw-r--r-- -          -                6440 ./usr/include/poppler/PreScanOutputDev.h
 -rw-r--r-- -          -                 939 ./usr/include/poppler/ProfileData.h
--rw-r--r-- -          -               23473 ./usr/include/poppler/PSOutputDev.h
+-rw-r--r-- -          -               23626 ./usr/include/poppler/PSOutputDev.h
 -rw-r--r-- -          -                1251 ./usr/include/poppler/PSTokenizer.h
 -rw-r--r-- -          -                4633 ./usr/include/poppler/Rendition.h
 -rw-r--r-- -          -                4612 ./usr/include/poppler/SecurityHandler.h
@@ -140,7 +141,7 @@ drwxr-xr-x -          -                 440 ./usr/include/poppler/splash
 -rw-r--r-- -          -               43445 ./usr/include/poppler/Stream.h
 -rw-r--r-- -          -               10426 ./usr/include/poppler/StructElement.h
 -rw-r--r-- -          -                2378 ./usr/include/poppler/StructTreeRoot.h
--rw-r--r-- -          -               31610 ./usr/include/poppler/TextOutputDev.h
+-rw-r--r-- -          -               31714 ./usr/include/poppler/TextOutputDev.h
 -rw-r--r-- -          -               66205 ./usr/include/poppler/UnicodeCClassTables.h
 -rw-r--r-- -          -               58188 ./usr/include/poppler/UnicodeCompTables.h
 -rw-r--r-- -          -              254355 ./usr/include/poppler/UnicodeDecompTables.h
@@ -152,15 +153,15 @@ drwxr-xr-x -          -                 440 ./usr/include/poppler/splash
 -rw-r--r-- -          -                2214 ./usr/include/poppler/ViewerPreferences.h
 -rw-r--r-- -          -               10801 ./usr/include/poppler/XRef.h
 drwxr-xr-x -          -                 240 ./usr/lib
--rwxr-xr-x -          -               67484 ./usr/lib/libpoppler-cpp.so.0.8.0
-lrwxrwxrwx -          -                  23 ./usr/lib/libpoppler-cpp.so.0 -> libpoppler-cpp.so.0.8.0
+-rwxr-xr-x -          -               71616 ./usr/lib/libpoppler-cpp.so.0.9.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libpoppler-cpp.so.0 -> libpoppler-cpp.so.0.9.0
 lrwxrwxrwx -          -                  19 ./usr/lib/libpoppler-cpp.so -> libpoppler-cpp.so.0
--rwxr-xr-x -          -              253596 ./usr/lib/libpoppler-glib.so.8.16.0
-lrwxrwxrwx -          -                  25 ./usr/lib/libpoppler-glib.so.8 -> libpoppler-glib.so.8.16.0
+-rwxr-xr-x -          -              253600 ./usr/lib/libpoppler-glib.so.8.17.0
+lrwxrwxrwx -          -                  25 ./usr/lib/libpoppler-glib.so.8 -> libpoppler-glib.so.8.17.0
 lrwxrwxrwx -          -                  20 ./usr/lib/libpoppler-glib.so -> libpoppler-glib.so.8
--rwxr-xr-x -          -             2212708 ./usr/lib/libpoppler.so.99.0.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libpoppler.so.99 -> libpoppler.so.99.0.0
-lrwxrwxrwx -          -                  16 ./usr/lib/libpoppler.so -> libpoppler.so.99
+-rwxr-xr-x -          -             2233276 ./usr/lib/libpoppler.so.100.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libpoppler.so.100 -> libpoppler.so.100.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libpoppler.so -> libpoppler.so.100
 drwxr-xr-x -          -                 140 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 193 ./usr/lib/pkgconfig/poppler-cairo.pc
 -rw-r--r-- -          -                 261 ./usr/lib/pkgconfig/poppler-cpp.pc

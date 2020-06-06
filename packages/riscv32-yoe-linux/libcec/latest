@@ -1,0 +1,6 @@
+PV = 5.0.0
+PR = r0
+DEPENDS = cmake-native libx11 libxrandr ncurses ninja-native p8platform pkgconfig-native python3 swig-native udev virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libcec-src libcec-dbg libcec-staticdev libcec-dev libcec-doc libcec-locale libcec-tools libcec python3-libcec
+LAYER = openembedded-layer
+CONFIG = 

@@ -1,0 +1,6 @@
+PV = 2.4.3
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libcap libevent libtirpc libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native tcp-wrappers util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = nfs-utils-src nfs-utils-dbg nfs-utils-client nfs-utils-mount nfs-utils-stats nfs-utils-staticdev nfs-utils-dev nfs-utils-doc nfs-utils-locale nfs-utils
+LAYER = core
+CONFIG = ipv6 tcp-wrappers

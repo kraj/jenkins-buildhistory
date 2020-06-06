@@ -1,0 +1,6 @@
+PV = 3.2p3
+PR = r0
+DEPENDS = autoconf-native automake-native fuse gnu-config-native libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/libusb0 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = owfs-src owfs-dbg owftpd owhttpd owserver owshell libowcapi libow libownet owmon owtap owfs-staticdev owfs-dev owfs-doc owfs-locale owfs
+LAYER = filesystems-layer
+CONFIG = 
