@@ -2,25 +2,26 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                   8 ./sysroot-providers/harfbuzz
 drwxr-xr-x -          -                  80 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
-drwxr-xr-x -          -                 640 ./usr/include/harfbuzz
+drwxr-xr-x -          -                 660 ./usr/include/harfbuzz
 -rw-r--r-- -          -                1243 ./usr/include/harfbuzz/hb-aat.h
 -rw-r--r-- -          -               23549 ./usr/include/harfbuzz/hb-aat-layout.h
 -rw-r--r-- -          -                3680 ./usr/include/harfbuzz/hb-blob.h
--rw-r--r-- -          -               19238 ./usr/include/harfbuzz/hb-buffer.h
--rw-r--r-- -          -               18266 ./usr/include/harfbuzz/hb-common.h
+-rw-r--r-- -          -               19231 ./usr/include/harfbuzz/hb-buffer.h
+-rw-r--r-- -          -               18544 ./usr/include/harfbuzz/hb-common.h
 -rw-r--r-- -          -                6089 ./usr/include/harfbuzz/hb-deprecated.h
+-rw-r--r-- -          -                3192 ./usr/include/harfbuzz/hb-draw.h
 -rw-r--r-- -          -                3804 ./usr/include/harfbuzz/hb-face.h
--rw-r--r-- -          -               20076 ./usr/include/harfbuzz/hb-font.h
--rw-r--r-- -          -                4029 ./usr/include/harfbuzz/hb-ft.h
+-rw-r--r-- -          -               20405 ./usr/include/harfbuzz/hb-font.h
+-rw-r--r-- -          -                4146 ./usr/include/harfbuzz/hb-ft.h
 -rw-r--r-- -          -                1625 ./usr/include/harfbuzz/hb-glib.h
--rw-r--r-- -          -                1490 ./usr/include/harfbuzz/hb.h
+-rw-r--r-- -          -                1511 ./usr/include/harfbuzz/hb.h
 -rw-r--r-- -          -                1525 ./usr/include/harfbuzz/hb-icu.h
 -rw-r--r-- -          -                2542 ./usr/include/harfbuzz/hb-map.h
 -rw-r--r-- -          -                3948 ./usr/include/harfbuzz/hb-ot-color.h
 -rw-r--r-- -          -                3266 ./usr/include/harfbuzz/hb-ot-deprecated.h
 -rw-r--r-- -          -                1365 ./usr/include/harfbuzz/hb-ot-font.h
 -rw-r--r-- -          -                1502 ./usr/include/harfbuzz/hb-ot.h
--rw-r--r-- -          -               15862 ./usr/include/harfbuzz/hb-ot-layout.h
+-rw-r--r-- -          -               16348 ./usr/include/harfbuzz/hb-ot-layout.h
 -rw-r--r-- -          -                7877 ./usr/include/harfbuzz/hb-ot-math.h
 -rw-r--r-- -          -                2490 ./usr/include/harfbuzz/hb-ot-meta.h
 -rw-r--r-- -          -                5732 ./usr/include/harfbuzz/hb-ot-metrics.h
@@ -30,23 +31,23 @@ drwxr-xr-x -          -                 640 ./usr/include/harfbuzz
 -rw-r--r-- -          -                4153 ./usr/include/harfbuzz/hb-set.h
 -rw-r--r-- -          -                1836 ./usr/include/harfbuzz/hb-shape.h
 -rw-r--r-- -          -                3653 ./usr/include/harfbuzz/hb-shape-plan.h
--rw-r--r-- -          -                2650 ./usr/include/harfbuzz/hb-subset.h
+-rw-r--r-- -          -                2936 ./usr/include/harfbuzz/hb-subset.h
 -rw-r--r-- -          -               12000 ./usr/include/harfbuzz/hb-unicode.h
 -rw-r--r-- -          -                1829 ./usr/include/harfbuzz/hb-version.h
 drwxr-xr-x -          -                 260 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/cmake
 drwxr-xr-x -          -                  60 ./usr/lib/cmake/harfbuzz
 -rw-r--r-- -          -                3507 ./usr/lib/cmake/harfbuzz/harfbuzz-config.cmake
--rwxr-xr-x -          -                9304 ./usr/lib/libharfbuzz-icu.so.0.20600.4
-lrwxrwxrwx -          -                  28 ./usr/lib/libharfbuzz-icu.so.0 -> libharfbuzz-icu.so.0.20600.4
-lrwxrwxrwx -          -                  28 ./usr/lib/libharfbuzz-icu.so -> libharfbuzz-icu.so.0.20600.4
--rwxr-xr-x -          -              691128 ./usr/lib/libharfbuzz.so.0.20600.4
-lrwxrwxrwx -          -                  24 ./usr/lib/libharfbuzz.so.0 -> libharfbuzz.so.0.20600.4
-lrwxrwxrwx -          -                  24 ./usr/lib/libharfbuzz.so -> libharfbuzz.so.0.20600.4
--rwxr-xr-x -          -              337128 ./usr/lib/libharfbuzz-subset.so.0.20600.4
-lrwxrwxrwx -          -                  31 ./usr/lib/libharfbuzz-subset.so.0 -> libharfbuzz-subset.so.0.20600.4
-lrwxrwxrwx -          -                  31 ./usr/lib/libharfbuzz-subset.so -> libharfbuzz-subset.so.0.20600.4
+-rwxr-xr-x -          -                9304 ./usr/lib/libharfbuzz-icu.so.0.20600.7
+lrwxrwxrwx -          -                  28 ./usr/lib/libharfbuzz-icu.so.0 -> libharfbuzz-icu.so.0.20600.7
+lrwxrwxrwx -          -                  28 ./usr/lib/libharfbuzz-icu.so -> libharfbuzz-icu.so.0.20600.7
+-rwxr-xr-x -          -              707500 ./usr/lib/libharfbuzz.so.0.20600.7
+lrwxrwxrwx -          -                  24 ./usr/lib/libharfbuzz.so.0 -> libharfbuzz.so.0.20600.7
+lrwxrwxrwx -          -                  24 ./usr/lib/libharfbuzz.so -> libharfbuzz.so.0.20600.7
+-rwxr-xr-x -          -              476384 ./usr/lib/libharfbuzz-subset.so.0.20600.7
+lrwxrwxrwx -          -                  31 ./usr/lib/libharfbuzz-subset.so.0 -> libharfbuzz-subset.so.0.20600.7
+lrwxrwxrwx -          -                  31 ./usr/lib/libharfbuzz-subset.so -> libharfbuzz-subset.so.0.20600.7
 drwxr-xr-x -          -                 100 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 270 ./usr/lib/pkgconfig/harfbuzz-icu.pc
--rw-r--r-- -          -                 267 ./usr/lib/pkgconfig/harfbuzz.pc
+-rw-r--r-- -          -                 287 ./usr/lib/pkgconfig/harfbuzz.pc
 -rw-r--r-- -          -                 226 ./usr/lib/pkgconfig/harfbuzz-subset.pc

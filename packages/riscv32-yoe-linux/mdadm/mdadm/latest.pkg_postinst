@@ -8,17 +8,17 @@ if type systemctl >/dev/null 2>/dev/null; then
 	fi
 
 	if [ "disable" = "enable" ]; then
-		for service in mdmonitor.service mdmon@.service; do
+		for service in mdmonitor.service; do
 			systemctl ${OPTS} enable "$service"
 		done
 	fi
 
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset mdmonitor.service mdmon@.service
+		systemctl preset mdmonitor.service
 
 		if [ "disable" = "enable" ]; then
-			systemctl --no-block restart mdmonitor.service mdmon@.service
+			systemctl --no-block restart mdmonitor.service
 		fi
 	fi
 fi

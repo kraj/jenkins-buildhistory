@@ -2,7 +2,7 @@ drwxr-xr-x -          -                  60 ./lib
 drwxr-xr-x -          -                  60 ./lib/modules
 drwxr-xr-x -          -                  60 ./lib/modules/5.4.43-yocto-standard
 drwxr-xr-x -          -                  60 ./lib/modules/5.4.43-yocto-standard/kernel
-drwxr-xr-x -          -                 280 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules
+drwxr-xr-x -          -                 300 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules
 drwxr-xr-x -          -                  60 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lib
 -rw-r--r-- -          -               77228 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko
 -rw-r--r-- -          -                5856 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-clock.ko
@@ -12,8 +12,9 @@ drwxr-xr-x -          -                  60 ./lib/modules/5.4.43-yocto-standard/
 -rw-r--r-- -          -               20580 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-client-overwrite.ko
 -rw-r--r-- -          -               11292 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-client.ko
 -rw-r--r-- -          -               11292 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko
--rw-r--r-- -          -               17888 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-statedump.ko
--rw-r--r-- -          -              255276 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-tracer.ko
+-rw-r--r-- -          -               17860 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-statedump.ko
+-rw-r--r-- -          -              255452 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-tracer.ko
+-rw-r--r-- -          -                4764 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/lttng-wrapper.ko
 drwxr-xr-x -          -                 560 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes
 -rw-r--r-- -          -               46844 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-block.ko
 -rw-r--r-- -          -               71556 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-btrfs.ko
@@ -22,7 +23,7 @@ drwxr-xr-x -          -                 560 ./lib/modules/5.4.43-yocto-standard/
 -rw-r--r-- -          -               14916 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-i2c.ko
 -rw-r--r-- -          -               10732 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-irq.ko
 -rw-r--r-- -          -               23716 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-jbd2.ko
--rw-r--r-- -          -               25332 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-kmem.ko
+-rw-r--r-- -          -               25396 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-kmem.ko
 -rw-r--r-- -          -               13964 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-module.ko
 -rw-r--r-- -          -                6648 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-napi.ko
 -rw-r--r-- -          -               22632 ./lib/modules/5.4.43-yocto-standard/kernel/lttng-modules/probes/lttng-probe-net.ko
@@ -49,4 +50,4 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 drwxr-xr-x -          -                  60 ./usr
 drwxr-xr-x -          -                  60 ./usr/include
 drwxr-xr-x -          -                  60 ./usr/include/lttng-modules
--rw-r--r-- -          -                8441 ./usr/include/lttng-modules/Module.symvers
+-rw-r--r-- -          -                8650 ./usr/include/lttng-modules/Module.symvers

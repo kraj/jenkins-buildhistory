@@ -2,7 +2,7 @@ drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  17 ./sysroot-providers/subversion-native
 drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                 260 ./usr/bin
--rwxr-xr-x -          -              401504 ./usr/bin/svn
+-rwxr-xr-x -          -              430176 ./usr/bin/svn
 -rwxr-xr-x -          -              127072 ./usr/bin/svnadmin
 -rwxr-xr-x -          -               69728 ./usr/bin/svnbench
 -rwxr-xr-x -          -               41056 ./usr/bin/svndumpfilter
@@ -21,17 +21,17 @@ drwxr-xr-x -          -                 980 ./usr/include/subversion-1
 -rw-r--r-- -          -                4165 ./usr/include/subversion-1/svn_base64.h
 -rw-r--r-- -          -                2915 ./usr/include/subversion-1/svn_cache_config.h
 -rw-r--r-- -          -                8475 ./usr/include/subversion-1/svn_checksum.h
--rw-r--r-- -          -              312287 ./usr/include/subversion-1/svn_client.h
+-rw-r--r-- -          -              297910 ./usr/include/subversion-1/svn_client.h
 -rw-r--r-- -          -               14508 ./usr/include/subversion-1/svn_cmdline.h
 -rw-r--r-- -          -                3968 ./usr/include/subversion-1/svn_compat.h
 -rw-r--r-- -          -               35287 ./usr/include/subversion-1/svn_config.h
 -rw-r--r-- -          -                6465 ./usr/include/subversion-1/svn_ctype.h
 -rw-r--r-- -          -               16154 ./usr/include/subversion-1/svn_dav.h
 -rw-r--r-- -          -               64408 ./usr/include/subversion-1/svn_delta.h
--rw-r--r-- -          -               52037 ./usr/include/subversion-1/svn_diff.h
+-rw-r--r-- -          -               52036 ./usr/include/subversion-1/svn_diff.h
 -rw-r--r-- -          -               32852 ./usr/include/subversion-1/svn_dirent_uri.h
 -rw-r--r-- -          -                2975 ./usr/include/subversion-1/svn_dso.h
--rw-r--r-- -          -               63253 ./usr/include/subversion-1/svn_error_codes.h
+-rw-r--r-- -          -               63594 ./usr/include/subversion-1/svn_error_codes.h
 -rw-r--r-- -          -               24912 ./usr/include/subversion-1/svn_error.h
 -rw-r--r-- -          -              129789 ./usr/include/subversion-1/svn_fs.h
 -rw-r--r-- -          -                8199 ./usr/include/subversion-1/svn_hash.h
@@ -46,15 +46,15 @@ drwxr-xr-x -          -                 980 ./usr/include/subversion-1
 -rw-r--r-- -          -                3564 ./usr/include/subversion-1/svn_pools.h
 -rw-r--r-- -          -               25279 ./usr/include/subversion-1/svn_props.h
 -rw-r--r-- -          -                2673 ./usr/include/subversion-1/svn_quoprint.h
--rw-r--r-- -          -               97891 ./usr/include/subversion-1/svn_ra.h
--rw-r--r-- -          -               27413 ./usr/include/subversion-1/svn_ra_svn.h
--rw-r--r-- -          -              170588 ./usr/include/subversion-1/svn_repos.h
+-rw-r--r-- -          -               98967 ./usr/include/subversion-1/svn_ra.h
+-rw-r--r-- -          -               27412 ./usr/include/subversion-1/svn_ra_svn.h
+-rw-r--r-- -          -              170586 ./usr/include/subversion-1/svn_repos.h
 -rw-rw-r-- -          -                  22 ./usr/include/subversion-1/svn-revision.txt
 -rw-r--r-- -          -                5017 ./usr/include/subversion-1/svn_sorts.h
 -rw-r--r-- -          -               22692 ./usr/include/subversion-1/svn_string.h
 -rw-r--r-- -          -               27056 ./usr/include/subversion-1/svn_subst.h
 -rw-r--r-- -          -                3211 ./usr/include/subversion-1/svn_time.h
--rw-r--r-- -          -               39568 ./usr/include/subversion-1/svn_types.h
+-rw-r--r-- -          -               38820 ./usr/include/subversion-1/svn_types.h
 -rw-r--r-- -          -                5110 ./usr/include/subversion-1/svn_types_impl.h
 -rw-r--r-- -          -                1902 ./usr/include/subversion-1/svn_user.h
 -rw-r--r-- -          -                8306 ./usr/include/subversion-1/svn_utf.h
@@ -63,7 +63,7 @@ drwxr-xr-x -          -                 980 ./usr/include/subversion-1
 -rw-r--r-- -          -                6237 ./usr/include/subversion-1/svn_x509.h
 -rw-r--r-- -          -               12621 ./usr/include/subversion-1/svn_xml.h
 drwxr-xr-x -          -                 900 ./usr/lib
--rwxr-xr-x -          -              589592 ./usr/lib/libsvn_client-1.so.0.0.0
+-rwxr-xr-x -          -              610104 ./usr/lib/libsvn_client-1.so.0.0.0
 lrwxrwxrwx -          -                  24 ./usr/lib/libsvn_client-1.so.0 -> libsvn_client-1.so.0.0.0
 lrwxrwxrwx -          -                  24 ./usr/lib/libsvn_client-1.so -> libsvn_client-1.so.0.0.0
 -rwxr-xr-x -          -              126576 ./usr/lib/libsvn_delta-1.so.0.0.0
@@ -75,7 +75,7 @@ lrwxrwxrwx -          -                  22 ./usr/lib/libsvn_diff-1.so -> libsvn
 -rwxr-xr-x -          -               52368 ./usr/lib/libsvn_fs-1.so.0.0.0
 lrwxrwxrwx -          -                  20 ./usr/lib/libsvn_fs-1.so.0 -> libsvn_fs-1.so.0.0.0
 lrwxrwxrwx -          -                  20 ./usr/lib/libsvn_fs-1.so -> libsvn_fs-1.so.0.0.0
--rwxr-xr-x -          -              346808 ./usr/lib/libsvn_fs_fs-1.so.0.0.0
+-rwxr-xr-x -          -              350936 ./usr/lib/libsvn_fs_fs-1.so.0.0.0
 lrwxrwxrwx -          -                  23 ./usr/lib/libsvn_fs_fs-1.so.0 -> libsvn_fs_fs-1.so.0.0.0
 lrwxrwxrwx -          -                  23 ./usr/lib/libsvn_fs_fs-1.so -> libsvn_fs_fs-1.so.0.0.0
 -rwxr-xr-x -          -               10304 ./usr/lib/libsvn_fs_util-1.so.0.0.0
@@ -106,18 +106,18 @@ lrwxrwxrwx -          -                  22 ./usr/lib/libsvn_subr-1.so -> libsvn
 lrwxrwxrwx -          -                  20 ./usr/lib/libsvn_wc-1.so.0 -> libsvn_wc-1.so.0.0.0
 lrwxrwxrwx -          -                  20 ./usr/lib/libsvn_wc-1.so -> libsvn_wc-1.so.0.0.0
 drwxr-xr-x -          -                 320 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 389 ./usr/lib/pkgconfig/libsvn_client.pc
--rw-r--r-- -          -                 412 ./usr/lib/pkgconfig/libsvn_delta.pc
--rw-r--r-- -          -                 397 ./usr/lib/pkgconfig/libsvn_diff.pc
--rw-r--r-- -          -                 400 ./usr/lib/pkgconfig/libsvn_fs_fs.pc
--rw-r--r-- -          -                 389 ./usr/lib/pkgconfig/libsvn_fs.pc
--rw-r--r-- -          -                 366 ./usr/lib/pkgconfig/libsvn_fs_util.pc
--rw-r--r-- -          -                 397 ./usr/lib/pkgconfig/libsvn_fs_x.pc
--rw-r--r-- -          -                 400 ./usr/lib/pkgconfig/libsvn_ra_local.pc
--rw-r--r-- -          -                 365 ./usr/lib/pkgconfig/libsvn_ra.pc
--rw-r--r-- -          -                 471 ./usr/lib/pkgconfig/libsvn_ra_serf.pc
--rw-r--r-- -          -                 391 ./usr/lib/pkgconfig/libsvn_ra_svn.pc
--rw-r--r-- -          -                 367 ./usr/lib/pkgconfig/libsvn_repos.pc
--rw-r--r-- -          -                 502 ./usr/lib/pkgconfig/libsvn_subr.pc
--rw-r--r-- -          -                 377 ./usr/lib/pkgconfig/libsvn_wc.pc
+-rw-r--r-- -          -                 395 ./usr/lib/pkgconfig/libsvn_client.pc
+-rw-r--r-- -          -                 418 ./usr/lib/pkgconfig/libsvn_delta.pc
+-rw-r--r-- -          -                 403 ./usr/lib/pkgconfig/libsvn_diff.pc
+-rw-r--r-- -          -                 406 ./usr/lib/pkgconfig/libsvn_fs_fs.pc
+-rw-r--r-- -          -                 395 ./usr/lib/pkgconfig/libsvn_fs.pc
+-rw-r--r-- -          -                 372 ./usr/lib/pkgconfig/libsvn_fs_util.pc
+-rw-r--r-- -          -                 403 ./usr/lib/pkgconfig/libsvn_fs_x.pc
+-rw-r--r-- -          -                 406 ./usr/lib/pkgconfig/libsvn_ra_local.pc
+-rw-r--r-- -          -                 371 ./usr/lib/pkgconfig/libsvn_ra.pc
+-rw-r--r-- -          -                 477 ./usr/lib/pkgconfig/libsvn_ra_serf.pc
+-rw-r--r-- -          -                 397 ./usr/lib/pkgconfig/libsvn_ra_svn.pc
+-rw-r--r-- -          -                 373 ./usr/lib/pkgconfig/libsvn_repos.pc
+-rw-r--r-- -          -                 508 ./usr/lib/pkgconfig/libsvn_subr.pc
+-rw-r--r-- -          -                 383 ./usr/lib/pkgconfig/libsvn_wc.pc
 drwxr-xr-x -          -                  40 ./usr/share

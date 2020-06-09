@@ -13,7 +13,7 @@ drwxr-xr-x -          -                 140 ./usr/include/libiptc
 -rw-r--r-- -          -                5447 ./usr/include/libiptc/libiptc.h
 -rw-r--r-- -          -                 724 ./usr/include/libiptc/libxtc.h
 -rw-r--r-- -          -                 867 ./usr/include/libiptc/xtcshared.h
--rw-r--r-- -          -               19283 ./usr/include/xtables.h
+-rw-r--r-- -          -               19315 ./usr/include/xtables.h
 -rw-r--r-- -          -                  75 ./usr/include/xtables-version.h
 drwxr-xr-x -          -                 260 ./usr/lib
 -rwxr-xr-x -          -               17920 ./usr/lib/libip4tc.so.2.0.0
@@ -22,9 +22,9 @@ lrwxrwxrwx -          -                  17 ./usr/lib/libip4tc.so -> libip4tc.so
 -rwxr-xr-x -          -               17940 ./usr/lib/libip6tc.so.2.0.0
 lrwxrwxrwx -          -                  17 ./usr/lib/libip6tc.so.2 -> libip6tc.so.2.0.0
 lrwxrwxrwx -          -                  17 ./usr/lib/libip6tc.so -> libip6tc.so.2.0.0
--rwxr-xr-x -          -               42556 ./usr/lib/libxtables.so.12.2.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libxtables.so.12 -> libxtables.so.12.2.0
-lrwxrwxrwx -          -                  20 ./usr/lib/libxtables.so -> libxtables.so.12.2.0
+-rwxr-xr-x -          -               42556 ./usr/lib/libxtables.so.12.3.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libxtables.so.12 -> libxtables.so.12.3.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libxtables.so -> libxtables.so.12.3.0
 drwxr-xr-x -          -                 120 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 213 ./usr/lib/pkgconfig/libip4tc.pc
 -rw-r--r-- -          -                 213 ./usr/lib/pkgconfig/libip6tc.pc
@@ -69,7 +69,7 @@ drwxr-xr-x -          -                2200 ./usr/lib/xtables
 -rwxr-xr-x -          -                5300 ./usr/lib/xtables/libipt_ULOG.so
 -rwxr-xr-x -          -                9496 ./usr/lib/xtables/libxt_addrtype.so
 -rwxr-xr-x -          -                5288 ./usr/lib/xtables/libxt_AUDIT.so
--rwxr-xr-x -          -                9508 ./usr/lib/xtables/libxt_bpf.so
+-rwxr-xr-x -          -                9504 ./usr/lib/xtables/libxt_bpf.so
 -rwxr-xr-x -          -                5480 ./usr/lib/xtables/libxt_cgroup.so
 -rwxr-xr-x -          -                5276 ./usr/lib/xtables/libxt_CHECKSUM.so
 -rwxr-xr-x -          -                5400 ./usr/lib/xtables/libxt_CLASSIFY.so
@@ -82,7 +82,7 @@ drwxr-xr-x -          -                2200 ./usr/lib/xtables
 -rwxr-xr-x -          -                5280 ./usr/lib/xtables/libxt_CONNSECMARK.so
 -rwxr-xr-x -          -               22724 ./usr/lib/xtables/libxt_conntrack.so
 -rwxr-xr-x -          -                5276 ./usr/lib/xtables/libxt_cpu.so
--rwxr-xr-x -          -               10032 ./usr/lib/xtables/libxt_CT.so
+-rwxr-xr-x -          -               10036 ./usr/lib/xtables/libxt_CT.so
 -rwxr-xr-x -          -                9400 ./usr/lib/xtables/libxt_dccp.so
 -rwxr-xr-x -          -                5320 ./usr/lib/xtables/libxt_devgroup.so
 -rwxr-xr-x -          -                5388 ./usr/lib/xtables/libxt_dscp.so
@@ -92,7 +92,7 @@ drwxr-xr-x -          -                2200 ./usr/lib/xtables
 -rwxr-xr-x -          -               26556 ./usr/lib/xtables/libxt_hashlimit.so
 -rwxr-xr-x -          -                5280 ./usr/lib/xtables/libxt_helper.so
 -rwxr-xr-x -          -                9508 ./usr/lib/xtables/libxt_HMARK.so
--rwxr-xr-x -          -                5272 ./usr/lib/xtables/libxt_IDLETIMER.so
+-rwxr-xr-x -          -                5380 ./usr/lib/xtables/libxt_IDLETIMER.so
 -rwxr-xr-x -          -                5276 ./usr/lib/xtables/libxt_ipcomp.so
 -rwxr-xr-x -          -                9632 ./usr/lib/xtables/libxt_iprange.so
 -rwxr-xr-x -          -                9508 ./usr/lib/xtables/libxt_ipvs.so
@@ -132,7 +132,7 @@ lrwxrwxrwx -          -                  18 ./usr/lib/xtables/libxt_state.so -> 
 -rwxr-xr-x -          -                5304 ./usr/lib/xtables/libxt_TCPOPTSTRIP.so
 -rwxr-xr-x -          -                9424 ./usr/lib/xtables/libxt_tcp.so
 -rwxr-xr-x -          -                5396 ./usr/lib/xtables/libxt_TEE.so
--rwxr-xr-x -          -                9432 ./usr/lib/xtables/libxt_time.so
+-rwxr-xr-x -          -                9436 ./usr/lib/xtables/libxt_time.so
 -rwxr-xr-x -          -                5380 ./usr/lib/xtables/libxt_tos.so
 -rwxr-xr-x -          -                9488 ./usr/lib/xtables/libxt_TOS.so
 -rwxr-xr-x -          -                5492 ./usr/lib/xtables/libxt_TPROXY.so

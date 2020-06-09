@@ -1,9 +1,9 @@
-PV = 2.3.15
-PR = r2
-PKGR = r2.0
+PV = 2.3.15.4
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libtirpc (>= 1.2.6) libwrap (>= 7.6)
+RDEPENDS = glibc (>= 2.31+git0+7b2b52134a) libtirpc (>= 1.2.6) libwrap (>= 7.6) perl
 RRECOMMENDS = 
-PKGSIZE = 153661
+PKGSIZE = 151778
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xinetd /usr/lib/xinetd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-xinetd.preset /lib/systemd/system/xinetd.service
-FILELIST = /etc/default/xinetd /etc/xinetd.conf /etc/xinetd.d/chargen-dgram /etc/xinetd.d/chargen-stream /etc/xinetd.d/daytime-dgram /etc/xinetd.d/daytime-stream /etc/xinetd.d/discard-dgram /etc/xinetd.d/discard-stream /etc/xinetd.d/echo-dgram /etc/xinetd.d/echo-stream /etc/xinetd.d/ftp-sensor /etc/xinetd.d/tcpmux-server /etc/xinetd.d/time-dgram /etc/xinetd.d/time-stream /lib/systemd/system-preset/98-xinetd.preset /lib/systemd/system/xinetd.service /usr/sbin/itox /usr/sbin/xinetd
+FILELIST = /etc/default/xinetd /etc/xinetd.conf /etc/xinetd.d/chargen /etc/xinetd.d/chargen-udp /etc/xinetd.d/daytime /etc/xinetd.d/daytime-udp /etc/xinetd.d/discard /etc/xinetd.d/discard-udp /etc/xinetd.d/echo /etc/xinetd.d/echo-udp /etc/xinetd.d/servers /etc/xinetd.d/services /etc/xinetd.d/time /etc/xinetd.d/time-udp /lib/systemd/system-preset/98-xinetd.preset /lib/systemd/system/xinetd.service /usr/bin/itox /usr/bin/xconv.pl /usr/sbin/xinetd
