@@ -20,7 +20,7 @@ drwxr-xr-x -          -                 120 ./lib/firmware/advansys
 -rw-r--r-- -          -               65046 ./lib/firmware/agere_sta_fw.bin
 drwxr-xr-x -          -                  60 ./lib/firmware/amd
 -rw-r--r-- -          -               32576 ./lib/firmware/amd/amd_sev_fam17h_model0xh.sbin
-drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
+drwxr-xr-x -          -                6800 ./lib/firmware/amdgpu
 -rw-r--r-- -          -               61932 ./lib/firmware/amdgpu/banks_k_2_smc.bin
 -rw-r--r-- -          -                8832 ./lib/firmware/amdgpu/bonaire_ce.bin
 -rw-r--r-- -          -              130796 ./lib/firmware/amdgpu/bonaire_k_smc.bin
@@ -103,21 +103,21 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -                4456 ./lib/firmware/amdgpu/mullins_sdma.bin
 -rw-r--r-- -          -              232752 ./lib/firmware/amdgpu/mullins_uvd.bin
 -rw-r--r-- -          -              101072 ./lib/firmware/amdgpu/mullins_vce.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/navi10_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/navi10_asd.bin
 -rw-r--r-- -          -              263296 ./lib/firmware/amdgpu/navi10_ce.bin
 -rw-r--r-- -          -                 772 ./lib/firmware/amdgpu/navi10_gpu_info.bin
 -rw-r--r-- -          -              263424 ./lib/firmware/amdgpu/navi10_me.bin
 -rw-r--r-- -          -              268592 ./lib/firmware/amdgpu/navi10_mec2.bin
 -rw-r--r-- -          -              268592 ./lib/firmware/amdgpu/navi10_mec.bin
 -rw-r--r-- -          -              263424 ./lib/firmware/amdgpu/navi10_pfp.bin
--rw-r--r-- -          -               43968 ./lib/firmware/amdgpu/navi10_rlc.bin
+-rw-r--r-- -          -               43904 ./lib/firmware/amdgpu/navi10_rlc.bin
 -rw-r--r-- -          -               33792 ./lib/firmware/amdgpu/navi10_sdma1.bin
 -rw-r--r-- -          -               33792 ./lib/firmware/amdgpu/navi10_sdma.bin
 -rw-r--r-- -          -              267970 ./lib/firmware/amdgpu/navi10_smc.bin
 -rw-r--r-- -          -              184480 ./lib/firmware/amdgpu/navi10_sos.bin
 -rw-r--r-- -          -               29440 ./lib/firmware/amdgpu/navi10_ta.bin
--rw-r--r-- -          -              457856 ./lib/firmware/amdgpu/navi10_vcn.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/navi14_asd.bin
+-rw-r--r-- -          -              390144 ./lib/firmware/amdgpu/navi10_vcn.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/navi14_asd.bin
 -rw-r--r-- -          -              263296 ./lib/firmware/amdgpu/navi14_ce.bin
 -rw-r--r-- -          -              263296 ./lib/firmware/amdgpu/navi14_ce_wks.bin
 -rw-r--r-- -          -                 772 ./lib/firmware/amdgpu/navi14_gpu_info.bin
@@ -129,13 +129,13 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -              263424 ./lib/firmware/amdgpu/navi14_me_wks.bin
 -rw-r--r-- -          -              263424 ./lib/firmware/amdgpu/navi14_pfp.bin
 -rw-r--r-- -          -              263424 ./lib/firmware/amdgpu/navi14_pfp_wks.bin
--rw-r--r-- -          -               42728 ./lib/firmware/amdgpu/navi14_rlc.bin
+-rw-r--r-- -          -               42664 ./lib/firmware/amdgpu/navi14_rlc.bin
 -rw-r--r-- -          -               33792 ./lib/firmware/amdgpu/navi14_sdma1.bin
 -rw-r--r-- -          -               33792 ./lib/firmware/amdgpu/navi14_sdma.bin
 -rw-r--r-- -          -              264586 ./lib/firmware/amdgpu/navi14_smc.bin
--rw-r--r-- -          -              171856 ./lib/firmware/amdgpu/navi14_sos.bin
+-rw-r--r-- -          -              184144 ./lib/firmware/amdgpu/navi14_sos.bin
 -rw-r--r-- -          -               29440 ./lib/firmware/amdgpu/navi14_ta.bin
--rw-r--r-- -          -              457856 ./lib/firmware/amdgpu/navi14_vcn.bin
+-rw-r--r-- -          -              390144 ./lib/firmware/amdgpu/navi14_vcn.bin
 -rw-r--r-- -          -                8832 ./lib/firmware/amdgpu/oland_ce.bin
 -rw-r--r-- -          -               62692 ./lib/firmware/amdgpu/oland_k_smc.bin
 -rw-r--r-- -          -               31996 ./lib/firmware/amdgpu/oland_mc.bin
@@ -143,7 +143,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -                8832 ./lib/firmware/amdgpu/oland_pfp.bin
 -rw-r--r-- -          -                8448 ./lib/firmware/amdgpu/oland_rlc.bin
 -rw-r--r-- -          -               62260 ./lib/firmware/amdgpu/oland_smc.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/picasso_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/picasso_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/picasso_ce.bin
 -rw-r--r-- -          -                 316 ./lib/firmware/amdgpu/picasso_gpu_info.bin
 -rw-r--r-- -          -               17536 ./lib/firmware/amdgpu/picasso_me.bin
@@ -223,7 +223,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -              130388 ./lib/firmware/amdgpu/polaris12_smc.bin
 -rw-r--r-- -          -              375424 ./lib/firmware/amdgpu/polaris12_uvd.bin
 -rw-r--r-- -          -              166816 ./lib/firmware/amdgpu/polaris12_vce.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/raven2_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/raven2_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/raven2_ce.bin
 -rw-r--r-- -          -                 316 ./lib/firmware/amdgpu/raven2_gpu_info.bin
 -rw-r--r-- -          -               17536 ./lib/firmware/amdgpu/raven2_me.bin
@@ -234,7 +234,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -               17408 ./lib/firmware/amdgpu/raven2_sdma.bin
 -rw-r--r-- -          -               29440 ./lib/firmware/amdgpu/raven2_ta.bin
 -rw-r--r-- -          -              355264 ./lib/firmware/amdgpu/raven2_vcn.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/raven_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/raven_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/raven_ce.bin
 -rw-r--r-- -          -               23264 ./lib/firmware/amdgpu/raven_dmcu.bin
 -rw-r--r-- -          -                 316 ./lib/firmware/amdgpu/raven_gpu_info.bin
@@ -247,7 +247,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -               17408 ./lib/firmware/amdgpu/raven_sdma.bin
 -rw-r--r-- -          -               29440 ./lib/firmware/amdgpu/raven_ta.bin
 -rw-r--r-- -          -              355264 ./lib/firmware/amdgpu/raven_vcn.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/renoir_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/renoir_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/renoir_ce.bin
 -rw-r--r-- -          -               57940 ./lib/firmware/amdgpu/renoir_dmcub.bin
 -rw-r--r-- -          -                 316 ./lib/firmware/amdgpu/renoir_gpu_info.bin
@@ -255,7 +255,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -              268048 ./lib/firmware/amdgpu/renoir_mec2.bin
 -rw-r--r-- -          -              268048 ./lib/firmware/amdgpu/renoir_mec.bin
 -rw-r--r-- -          -               21632 ./lib/firmware/amdgpu/renoir_pfp.bin
--rw-r--r-- -          -               39204 ./lib/firmware/amdgpu/renoir_rlc.bin
+-rw-r--r-- -          -               38904 ./lib/firmware/amdgpu/renoir_rlc.bin
 -rw-r--r-- -          -               17408 ./lib/firmware/amdgpu/renoir_sdma.bin
 -rw-r--r-- -          -              457856 ./lib/firmware/amdgpu/renoir_vcn.bin
 -rw-r--r-- -          -               32488 ./lib/firmware/amdgpu/si58_mc.bin
@@ -299,7 +299,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -                8576 ./lib/firmware/amdgpu/topaz_sdma.bin
 -rw-r--r-- -          -               80544 ./lib/firmware/amdgpu/topaz_smc.bin
 -rw-r--r-- -          -              262912 ./lib/firmware/amdgpu/vega10_acg_smc.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/vega10_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/vega10_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/vega10_ce.bin
 -rw-r--r-- -          -                 316 ./lib/firmware/amdgpu/vega10_gpu_info.bin
 -rw-r--r-- -          -               17536 ./lib/firmware/amdgpu/vega10_me.bin
@@ -313,7 +313,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -              166800 ./lib/firmware/amdgpu/vega10_sos.bin
 -rw-r--r-- -          -              380832 ./lib/firmware/amdgpu/vega10_uvd.bin
 -rw-r--r-- -          -              173856 ./lib/firmware/amdgpu/vega10_vce.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/vega12_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/vega12_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/vega12_ce.bin
 -rw-r--r-- -          -                 316 ./lib/firmware/amdgpu/vega12_gpu_info.bin
 -rw-r--r-- -          -               17536 ./lib/firmware/amdgpu/vega12_me.bin
@@ -327,7 +327,7 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -              166800 ./lib/firmware/amdgpu/vega12_sos.bin
 -rw-r--r-- -          -              380832 ./lib/firmware/amdgpu/vega12_uvd.bin
 -rw-r--r-- -          -              173856 ./lib/firmware/amdgpu/vega12_vce.bin
--rw-r--r-- -          -              147968 ./lib/firmware/amdgpu/vega20_asd.bin
+-rw-r--r-- -          -              160256 ./lib/firmware/amdgpu/vega20_asd.bin
 -rw-r--r-- -          -                9344 ./lib/firmware/amdgpu/vega20_ce.bin
 -rw-r--r-- -          -               17536 ./lib/firmware/amdgpu/vega20_me.bin
 -rw-r--r-- -          -              268048 ./lib/firmware/amdgpu/vega20_mec2.bin
@@ -337,7 +337,8 @@ drwxr-xr-x -          -                6780 ./lib/firmware/amdgpu
 -rw-r--r-- -          -               17408 ./lib/firmware/amdgpu/vega20_sdma1.bin
 -rw-r--r-- -          -               17408 ./lib/firmware/amdgpu/vega20_sdma.bin
 -rw-r--r-- -          -              262912 ./lib/firmware/amdgpu/vega20_smc.bin
--rw-r--r-- -          -              170896 ./lib/firmware/amdgpu/vega20_sos.bin
+-rw-r--r-- -          -              174992 ./lib/firmware/amdgpu/vega20_sos.bin
+-rw-r--r-- -          -               54016 ./lib/firmware/amdgpu/vega20_ta.bin
 -rw-r--r-- -          -              383520 ./lib/firmware/amdgpu/vega20_uvd.bin
 -rw-r--r-- -          -              173856 ./lib/firmware/amdgpu/vega20_vce.bin
 -rw-r--r-- -          -                8852 ./lib/firmware/amdgpu/vegam_ce.bin
@@ -711,21 +712,21 @@ drwxr-xr-x -          -                 140 ./lib/firmware/cxgb4/configs
 -rw-r--r-- -          -               21429 ./lib/firmware/cxgb4/configs/t4-config-default.txt
 -rw-r--r-- -          -               21855 ./lib/firmware/cxgb4/configs/t5-config-default.txt
 -rw-r--r-- -          -               16714 ./lib/firmware/cxgb4/configs/t5-config-hashfilter.txt
--rw-r--r-- -          -               22557 ./lib/firmware/cxgb4/configs/t6-config-default.txt
+-rw-r--r-- -          -               22571 ./lib/firmware/cxgb4/configs/t6-config-default.txt
 -rw-r--r-- -          -               16097 ./lib/firmware/cxgb4/configs/t6-config-hashfilter.txt
 lrwxrwxrwx -          -                  29 ./lib/firmware/cxgb4/t4-config.txt -> configs/t4-config-default.txt
 -rw-r--r-- -          -              539648 ./lib/firmware/cxgb4/t4fw-1.14.4.0.bin
 -rw-r--r-- -          -              541184 ./lib/firmware/cxgb4/t4fw-1.15.37.0.bin
--rw-r--r-- -          -              568832 ./lib/firmware/cxgb4/t4fw-1.24.14.0.bin
-lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t4fw.bin -> t4fw-1.24.14.0.bin
+-rw-r--r-- -          -              568832 ./lib/firmware/cxgb4/t4fw-1.24.17.0.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t4fw.bin -> t4fw-1.24.17.0.bin
 lrwxrwxrwx -          -                  29 ./lib/firmware/cxgb4/t5-config.txt -> configs/t5-config-default.txt
 -rw-r--r-- -          -              593920 ./lib/firmware/cxgb4/t5fw-1.14.4.0.bin
 -rw-r--r-- -          -              596992 ./lib/firmware/cxgb4/t5fw-1.15.37.0.bin
--rw-r--r-- -          -              672256 ./lib/firmware/cxgb4/t5fw-1.24.14.0.bin
-lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t5fw.bin -> t5fw-1.24.14.0.bin
+-rw-r--r-- -          -              672768 ./lib/firmware/cxgb4/t5fw-1.24.17.0.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t5fw.bin -> t5fw-1.24.17.0.bin
 lrwxrwxrwx -          -                  29 ./lib/firmware/cxgb4/t6-config.txt -> configs/t6-config-default.txt
--rw-r--r-- -          -              726016 ./lib/firmware/cxgb4/t6fw-1.24.14.0.bin
-lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t6fw.bin -> t6fw-1.24.14.0.bin
+-rw-r--r-- -          -              727040 ./lib/firmware/cxgb4/t6fw-1.24.17.0.bin
+lrwxrwxrwx -          -                  18 ./lib/firmware/cxgb4/t6fw.bin -> t6fw-1.24.17.0.bin
 drwxr-xr-x -          -                  80 ./lib/firmware/dabusb
 -rw-r--r-- -          -               12042 ./lib/firmware/dabusb/bitstream.bin
 -rw-r--r-- -          -                9822 ./lib/firmware/dabusb/firmware.fw
@@ -899,43 +900,43 @@ lrwxrwxrwx -          -                  24 ./lib/firmware/intel/dsp_fw_release.
 -rw-r--r-- -          -                  14 ./lib/firmware/intel/ibt-17-0-1.ddc
 -rw-r--r-- -          -              625216 ./lib/firmware/intel/ibt-17-0-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-17-16-1.ddc
--rw-r--r-- -          -              670576 ./lib/firmware/intel/ibt-17-16-1.sfi
+-rw-r--r-- -          -              670704 ./lib/firmware/intel/ibt-17-16-1.sfi
 -rw-r--r-- -          -                  14 ./lib/firmware/intel/ibt-17-1.ddc
 -rw-r--r-- -          -              625216 ./lib/firmware/intel/ibt-17-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-17-2.ddc
--rw-r--r-- -          -              670576 ./lib/firmware/intel/ibt-17-2.sfi
+-rw-r--r-- -          -              670704 ./lib/firmware/intel/ibt-17-2.sfi
 -rw-r--r-- -          -                  14 ./lib/firmware/intel/ibt-18-0-1.ddc
 -rw-r--r-- -          -              625216 ./lib/firmware/intel/ibt-18-0-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-18-16-1.ddc
--rw-r--r-- -          -              670576 ./lib/firmware/intel/ibt-18-16-1.sfi
+-rw-r--r-- -          -              670704 ./lib/firmware/intel/ibt-18-16-1.sfi
 -rw-r--r-- -          -                  14 ./lib/firmware/intel/ibt-18-1.ddc
 -rw-r--r-- -          -              625216 ./lib/firmware/intel/ibt-18-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-18-2.ddc
--rw-r--r-- -          -              670576 ./lib/firmware/intel/ibt-18-2.sfi
+-rw-r--r-- -          -              670704 ./lib/firmware/intel/ibt-18-2.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-0-0.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-0-0.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-0-0.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-0-1.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-0-1.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-0-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-0-4.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-0-4.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-0-4.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-16-4.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-16-4.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-16-4.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-240-1.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-240-1.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-240-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-240-4.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-240-4.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-240-4.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-32-0.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-32-0.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-32-0.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-32-1.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-32-1.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-32-1.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-19-32-4.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-19-32-4.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-19-32-4.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-20-0-3.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-20-0-3.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-20-0-3.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-20-1-3.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-20-1-3.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-20-1-3.sfi
 -rw-r--r-- -          -                   9 ./lib/firmware/intel/ibt-20-1-4.ddc
--rw-r--r-- -          -              739648 ./lib/firmware/intel/ibt-20-1-4.sfi
+-rw-r--r-- -          -              739660 ./lib/firmware/intel/ibt-20-1-4.sfi
 -rw-r--r-- -          -               22069 ./lib/firmware/intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
 -rw-r--r-- -          -               25853 ./lib/firmware/intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 -rw-r--r-- -          -               23105 ./lib/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
@@ -1221,7 +1222,7 @@ drwxr-xr-x -          -                  80 ./lib/firmware/mediatek/mt8173
 -rw-r--r-- -          -              131180 ./lib/firmware/mediatek/mt8173/vpu_p.bin
 drwxr-xr-x -          -                  60 ./lib/firmware/mediatek/mt8183
 -rw-r--r-- -          -             1027104 ./lib/firmware/mediatek/mt8183/scp.img
-drwxr-xr-x -          -                 280 ./lib/firmware/mellanox
+drwxr-xr-x -          -                 340 ./lib/firmware/mellanox
 -rw-r--r-- -          -              860424 ./lib/firmware/mellanox/mlxsw_spectrum-13.1420.122.mfa2
 -rw-r--r-- -          -              924020 ./lib/firmware/mellanox/mlxsw_spectrum-13.1530.152.mfa2
 -rw-r--r-- -          -             1091848 ./lib/firmware/mellanox/mlxsw_spectrum-13.1620.192.mfa2
@@ -1232,8 +1233,11 @@ drwxr-xr-x -          -                 280 ./lib/firmware/mellanox
 -rw-r--r-- -          -             1015156 ./lib/firmware/mellanox/mlxsw_spectrum-13.2000.1886.mfa2
 -rw-r--r-- -          -             1044268 ./lib/firmware/mellanox/mlxsw_spectrum-13.2000.2308.mfa2
 -rw-r--r-- -          -             1043016 ./lib/firmware/mellanox/mlxsw_spectrum-13.2000.2714.mfa2
+-rw-r--r-- -          -             1046392 ./lib/firmware/mellanox/mlxsw_spectrum-13.2007.1168.mfa2
 -rw-r--r-- -          -              932040 ./lib/firmware/mellanox/mlxsw_spectrum2-29.2000.2308.mfa2
 -rw-r--r-- -          -              943856 ./lib/firmware/mellanox/mlxsw_spectrum2-29.2000.2714.mfa2
+-rw-r--r-- -          -              984460 ./lib/firmware/mellanox/mlxsw_spectrum2-29.2007.1168.mfa2
+-rw-r--r-- -          -              816704 ./lib/firmware/mellanox/mlxsw_spectrum3-30.2007.1168.mfa2
 drwxr-xr-x -          -                  60 ./lib/firmware/meson
 drwxr-xr-x -          -                 340 ./lib/firmware/meson/vdec
 -rw-r--r-- -          -               36864 ./lib/firmware/meson/vdec/g12a_h264.bin
@@ -1269,11 +1273,13 @@ drwxr-xr-x -          -                 320 ./lib/firmware/moxa
 -rw-r--r-- -          -               33525 ./lib/firmware/moxa/moxa-1618.fw
 -rw-r--r-- -          -               33529 ./lib/firmware/moxa/moxa-1653.fw
 -rw-r--r-- -          -               33525 ./lib/firmware/moxa/moxa-1658.fw
-drwxr-xr-x -          -                 400 ./lib/firmware/mrvl
+drwxr-xr-x -          -                 420 ./lib/firmware/mrvl
 -rw-r--r-- -          -              723540 ./lib/firmware/mrvl/pcie8897_uapsta.bin
 -rw-r--r-- -          -              456488 ./lib/firmware/mrvl/pcie8997_wlan_v4.bin
 -rw-r--r-- -          -              632240 ./lib/firmware/mrvl/pcieuart8997_combo_v4.bin
 -rw-r--r-- -          -              634228 ./lib/firmware/mrvl/pcieusb8997_combo_v4.bin
+drwxr-xr-x -          -                  60 ./lib/firmware/mrvl/prestera
+-rwxr-xr-x -          -            13687252 ./lib/firmware/mrvl/prestera/mvsw_prestera_fw-v2.0.img
 -rw-r--r-- -          -              259172 ./lib/firmware/mrvl/sd8688.bin
 -rw-r--r-- -          -                2616 ./lib/firmware/mrvl/sd8688_helper.bin
 -rw-r--r-- -          -              466592 ./lib/firmware/mrvl/sd8787_uapsta.bin
@@ -2242,13 +2248,15 @@ drwxr-xr-x -          -                 420 ./lib/firmware/rtl_bt
 -rw-r--r-- -          -               56288 ./lib/firmware/rtl_bt/rtl8822cs_fw.bin
 -rw-r--r-- -          -                   6 ./lib/firmware/rtl_bt/rtl8822cu_config.bin
 -rw-r--r-- -          -               55296 ./lib/firmware/rtl_bt/rtl8822cu_fw.bin
-drwxr-xr-x -          -                 560 ./lib/firmware/rtl_nic
+drwxr-xr-x -          -                 600 ./lib/firmware/rtl_nic
 -rw-r--r-- -          -                2076 ./lib/firmware/rtl_nic/rtl8105e-1.fw
 -rw-r--r-- -          -                1856 ./lib/firmware/rtl_nic/rtl8106e-1.fw
 -rw-r--r-- -          -                 832 ./lib/firmware/rtl_nic/rtl8106e-2.fw
 -rw-r--r-- -          -                 992 ./lib/firmware/rtl_nic/rtl8107e-1.fw
 -rw-r--r-- -          -                 976 ./lib/firmware/rtl_nic/rtl8107e-2.fw
 -rw-r--r-- -          -                3456 ./lib/firmware/rtl_nic/rtl8125a-3.fw
+-rw-r--r-- -          -                9952 ./lib/firmware/rtl_nic/rtl8125b-1.fw
+-rw-r--r-- -          -                3264 ./lib/firmware/rtl_nic/rtl8125b-2.fw
 -rw-r--r-- -          -                1768 ./lib/firmware/rtl_nic/rtl8153a-2.fw
 -rw-r--r-- -          -                1440 ./lib/firmware/rtl_nic/rtl8153a-3.fw
 -rw-r--r-- -          -                 712 ./lib/firmware/rtl_nic/rtl8153a-4.fw
@@ -2312,8 +2320,8 @@ drwxr-xr-x -          -                 160 ./lib/firmware/rtw88
 -rw-r--r-- -          -               28884 ./lib/firmware/rtw88/rtw8723d_fw.bin
 -rw-r--r-- -          -              137896 ./lib/firmware/rtw88/rtw8821c_fw.bin
 -rw-r--r-- -          -              150984 ./lib/firmware/rtw88/rtw8822b_fw.bin
--rw-r--r-- -          -              189152 ./lib/firmware/rtw88/rtw8822c_fw.bin
--rwxr-xr-x -          -              138720 ./lib/firmware/rtw88/rtw8822c_wow_fw.bin
+-rw-r--r-- -          -              199680 ./lib/firmware/rtw88/rtw8822c_fw.bin
+-rw-r--r-- -          -              145088 ./lib/firmware/rtw88/rtw8822c_wow_fw.bin
 lrwxrwxrwx -          -                  17 ./lib/firmware/s2250.fw -> go7007/s2250-2.fw
 lrwxrwxrwx -          -                  17 ./lib/firmware/s2250_loader.fw -> go7007/s2250-1.fw
 -rw-r--r-- -          -              352652 ./lib/firmware/s5p-mfc.fw
@@ -2439,7 +2447,7 @@ lrwxrwxrwx -          -                  25 ./lib/firmware/vpu_p.bin -> mediatek
 drwxr-xr-x -          -                  80 ./lib/firmware/vxge
 -rw-r--r-- -          -              359046 ./lib/firmware/vxge/X3fw.ncf
 -rw-r--r-- -          -              481410 ./lib/firmware/vxge/X3fw-pxe.ncf
--rw-r--r-- -          -              155034 ./lib/firmware/WHENCE
+-rw-r--r-- -          -              155520 ./lib/firmware/WHENCE
 -rw-r--r-- -          -               23554 ./lib/firmware/whiteheat.fw
 -rw-r--r-- -          -                5626 ./lib/firmware/whiteheat_loader.fw
 -rw-r--r-- -          -                3588 ./lib/firmware/wil6210.brd

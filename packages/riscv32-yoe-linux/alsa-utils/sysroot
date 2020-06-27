@@ -7,8 +7,7 @@ drwxr-xr-x -          -                  80 ./lib/systemd/system/sound.target.wa
 lrwxrwxrwx -          -                  23 ./lib/systemd/system/sound.target.wants/alsa-restore.service -> ../alsa-restore.service
 lrwxrwxrwx -          -                  21 ./lib/systemd/system/sound.target.wants/alsa-state.service -> ../alsa-state.service
 drwxr-xr-x -          -                  60 ./lib/udev
-drwxr-xr-x -          -                  80 ./lib/udev/rules.d
--rw-r--r-- -          -                 256 ./lib/udev/rules.d/89-alsa-ucm.rules
+drwxr-xr-x -          -                  60 ./lib/udev/rules.d
 -rw-r--r-- -          -                 399 ./lib/udev/rules.d/90-alsa-restore.rules
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                  10 ./sysroot-providers/alsa-utils
