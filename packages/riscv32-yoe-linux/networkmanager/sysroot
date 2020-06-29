@@ -78,7 +78,7 @@ drwxr-xr-x -          -                2200 ./usr/include/libnm
 -rw-r--r-- -          -                2335 ./usr/include/libnm/nm-setting-infiniband.h
 -rw-r--r-- -          -                3304 ./usr/include/libnm/nm-setting-ip4-config.h
 -rw-r--r-- -          -                5808 ./usr/include/libnm/nm-setting-ip6-config.h
--rw-r--r-- -          -               26376 ./usr/include/libnm/nm-setting-ip-config.h
+-rw-r--r-- -          -               26511 ./usr/include/libnm/nm-setting-ip-config.h
 -rw-r--r-- -          -                4591 ./usr/include/libnm/nm-setting-ip-tunnel.h
 -rw-r--r-- -          -                4011 ./usr/include/libnm/nm-setting-macsec.h
 -rw-r--r-- -          -                2856 ./usr/include/libnm/nm-setting-macvlan.h
@@ -123,16 +123,19 @@ drwxr-xr-x -          -                2200 ./usr/include/libnm
 -rw-r--r-- -          -                5660 ./usr/include/libnm/nm-vpn-service-plugin.h
 -rw-r--r-- -          -                3133 ./usr/include/libnm/nm-wifi-p2p-peer.h
 -rw-r--r-- -          -                1972 ./usr/include/libnm/nm-wimax-nsp.h
-drwxr-xr-x -          -                 140 ./usr/lib
--rwxr-xr-x -          -              802788 ./usr/lib/libnm.so.0.1.0
+drwxr-xr-x -          -                 160 ./usr/lib
+drwxr-xr-x -          -                  60 ./usr/lib/firewalld
+drwxr-xr-x -          -                  60 ./usr/lib/firewalld/zones
+-rw-r--r-- -          -                 705 ./usr/lib/firewalld/zones/nm-shared.xml
+-rwxr-xr-x -          -              806884 ./usr/lib/libnm.so.0.1.0
 lrwxrwxrwx -          -                  14 ./usr/lib/libnm.so.0 -> libnm.so.0.1.0
 lrwxrwxrwx -          -                  14 ./usr/lib/libnm.so -> libnm.so.0.1.0
 drwxr-xr-x -          -                 140 ./usr/lib/NetworkManager
-drwxr-xr-x -          -                 120 ./usr/lib/NetworkManager/1.22.10
--rwxr-xr-x -          -               21976 ./usr/lib/NetworkManager/1.22.10/libnm-device-plugin-adsl.so
--rwxr-xr-x -          -               38604 ./usr/lib/NetworkManager/1.22.10/libnm-device-plugin-ovs.so
--rwxr-xr-x -          -              105152 ./usr/lib/NetworkManager/1.22.10/libnm-device-plugin-wifi.so
--rwxr-xr-x -          -               26380 ./usr/lib/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so
+drwxr-xr-x -          -                 120 ./usr/lib/NetworkManager/1.22.14
+-rwxr-xr-x -          -               21976 ./usr/lib/NetworkManager/1.22.14/libnm-device-plugin-adsl.so
+-rwxr-xr-x -          -               42716 ./usr/lib/NetworkManager/1.22.14/libnm-device-plugin-ovs.so
+-rwxr-xr-x -          -              105152 ./usr/lib/NetworkManager/1.22.14/libnm-device-plugin-wifi.so
+-rwxr-xr-x -          -               26380 ./usr/lib/NetworkManager/1.22.14/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x -          -                  40 ./usr/lib/NetworkManager/conf.d
 drwxr-xr-x -          -                 100 ./usr/lib/NetworkManager/dispatcher.d
 drwxr-xr-x -          -                  40 ./usr/lib/NetworkManager/dispatcher.d/no-wait.d
