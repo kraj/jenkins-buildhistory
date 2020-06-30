@@ -1,0 +1,10 @@
+PV = 5.4.49+gitAUTOINC+30814016b3_ec485bd4af
+PR = r0
+PKGV = 5.4.49+git0+30814016b3_ec485bd4af
+PKGR = r0.1
+RPROVIDES = kernel-module-xfrm-ipcomp
+RDEPENDS = kernel-5.4.49-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11284
+FILES = /lib/modules/5.4.49-yocto-standard/kernel/net/xfrm/xfrm_ipcomp.ko /etc/modules-load.d/xfrm_ipcomp.conf /etc/modprobe.d/xfrm_ipcomp.conf
+FILELIST = /lib/modules/5.4.49-yocto-standard/kernel/net/xfrm/xfrm_ipcomp.ko
