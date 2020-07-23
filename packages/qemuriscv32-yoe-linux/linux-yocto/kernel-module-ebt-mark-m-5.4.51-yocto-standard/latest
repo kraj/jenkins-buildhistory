@@ -1,0 +1,10 @@
+PV = 5.4.51+gitAUTOINC+caafbdfe38_fed60f1c8e
+PR = r0
+PKGV = 5.4.51+git0+caafbdfe38_fed60f1c8e
+PKGR = r0.1
+RPROVIDES = kernel-module-ebt-mark-m
+RDEPENDS = kernel-5.4.51-yocto-standard kernel-module-x-tables-5.4.51-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 3276
+FILES = /lib/modules/5.4.51-yocto-standard/kernel/net/bridge/netfilter/ebt_mark_m.ko /etc/modules-load.d/ebt_mark_m.conf /etc/modprobe.d/ebt_mark_m.conf
+FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/net/bridge/netfilter/ebt_mark_m.ko

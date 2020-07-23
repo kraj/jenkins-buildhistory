@@ -1,0 +1,10 @@
+PV = 5.4.51+gitAUTOINC+caafbdfe38_fed60f1c8e
+PR = r0
+PKGV = 5.4.51+git0+caafbdfe38_fed60f1c8e
+PKGR = r0.1
+RPROVIDES = kernel-module-anubis
+RDEPENDS = kernel-5.4.51-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 14196
+FILES = /lib/modules/5.4.51-yocto-standard/kernel/crypto/anubis.ko /etc/modules-load.d/anubis.conf /etc/modprobe.d/anubis.conf
+FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/crypto/anubis.ko
