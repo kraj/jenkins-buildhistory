@@ -1,0 +1,10 @@
+PV = 3.12.3
+PR = r0
+PKG = libprotobuf-lite23
+PKGR = r0.0
+RPROVIDES = protobuf-lite (=3.12.3)
+RDEPENDS = glibc (>= 2.32) libatomic (>= 10.1.0) libgcc (>= 10.1.0) libstdc++ (>= 10.1.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 597666
+FILES = /usr/lib/libprotobuf-lite.so.*
+FILELIST = /usr/lib/libprotobuf-lite.so.23 /usr/lib/libprotobuf-lite.so.23.0.3

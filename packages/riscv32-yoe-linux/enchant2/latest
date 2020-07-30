@@ -1,0 +1,6 @@
+PV = 2.2.8
+PR = r0
+DEPENDS = aspell autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = enchant2-src enchant2-dbg enchant2-staticdev enchant2-dev enchant2-doc enchant2-locale enchant2
+LAYER = core
+CONFIG = aspell

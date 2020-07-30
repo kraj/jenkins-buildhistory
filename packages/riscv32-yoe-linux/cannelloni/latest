@@ -1,0 +1,6 @@
+PV = 20160414+AUTOINC+82aa49b417
+PR = r0
+DEPENDS = cmake-native lksctp-tools ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = cannelloni-src cannelloni-dbg cannelloni-staticdev cannelloni-dev cannelloni-doc cannelloni-locale cannelloni
+LAYER = networking-layer
+CONFIG = lksctp-tools

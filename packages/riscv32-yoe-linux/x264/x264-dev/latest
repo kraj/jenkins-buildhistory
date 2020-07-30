@@ -1,0 +1,11 @@
+PV = r2991+gitAUTOINC+296494a401
+PR = r0
+PKG = libx264-dev
+PKGV = r2991+git0+296494a401
+PKGR = r0.0
+RPROVIDES = x264-dev (=r2991+git0+296494a401)
+RDEPENDS = x264 (= r2991+git0+296494a401-r0.0)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 47977
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/x264/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/x264.h /usr/include/x264_config.h /usr/lib/libx264.so /usr/lib/pkgconfig/x264.pc

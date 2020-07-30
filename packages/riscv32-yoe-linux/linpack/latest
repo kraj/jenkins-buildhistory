@@ -1,0 +1,6 @@
+PV = 1.0
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = linpack-src linpack-dbg linpack-staticdev linpack-dev linpack-doc linpack-locale linpack
+LAYER = openembedded-layer
+CONFIG = 

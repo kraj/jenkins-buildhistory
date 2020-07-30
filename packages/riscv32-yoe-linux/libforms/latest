@@ -1,0 +1,6 @@
+PV = 1.2.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native jpeg libtool-cross libtool-native libx11 libxpm mesa virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libforms-src libforms-dbg libforms-staticdev libforms-dev libforms-doc libforms-locale libforms
+LAYER = openembedded-layer
+CONFIG = 

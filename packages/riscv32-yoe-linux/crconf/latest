@@ -1,0 +1,6 @@
+PV = git
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = crconf-src crconf-dbg crconf-staticdev crconf-dev crconf-doc crconf-locale crconf
+LAYER = freescale-layer
+CONFIG = 

@@ -1,0 +1,6 @@
+PV = 2.2.0
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libjitterentropy-src libjitterentropy-dbg libjitterentropy-staticdev libjitterentropy-dev libjitterentropy-doc libjitterentropy-locale libjitterentropy
+LAYER = core
+CONFIG = 

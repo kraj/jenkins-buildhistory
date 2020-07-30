@@ -1,0 +1,6 @@
+PV = 1.14
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = lcov-src lcov-dbg lcov-staticdev lcov-dev lcov-doc lcov-locale lcov
+LAYER = openembedded-layer
+CONFIG = 

@@ -1,0 +1,6 @@
+PV = 1.4.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native ncurses virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = hexedit-src hexedit-dbg hexedit-staticdev hexedit-dev hexedit-doc hexedit-locale hexedit
+LAYER = openembedded-layer
+CONFIG = 

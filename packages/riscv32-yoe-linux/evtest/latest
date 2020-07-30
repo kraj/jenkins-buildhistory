@@ -1,0 +1,6 @@
+PV = 1.34
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxml2 pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = evtest-src evtest-dbg evtest-staticdev evtest-dev evtest-doc evtest-locale evtest
+LAYER = openembedded-layer
+CONFIG = 

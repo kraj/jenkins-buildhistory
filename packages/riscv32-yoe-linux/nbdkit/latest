@@ -1,0 +1,6 @@
+PV = 1.19.6+gitAUTOINC+257561bc9f
+PR = r0
+DEPENDS = autoconf-native automake-native bash-completion curl e2fsprogs gnu-config-native libtool-cross libtool-native perl-native pkgconfig-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc xz zlib
+PACKAGES = nbdkit-src nbdkit-dbg nbdkit-staticdev nbdkit-dev nbdkit-doc nbdkit-locale nbdkit nbdkit-bash-completion
+LAYER = networking-layer
+CONFIG = 

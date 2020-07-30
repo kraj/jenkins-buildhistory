@@ -1,0 +1,6 @@
+PV = 1.0.10
+PR = r0
+DEPENDS = meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = fribidi-src fribidi-dbg fribidi-staticdev fribidi-dev fribidi-doc fribidi-locale fribidi-bin fribidi
+LAYER = core
+CONFIG = 

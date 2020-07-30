@@ -1,0 +1,6 @@
+PV = 1.2.4
+PR = r0
+DEPENDS = libowfat virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = ncp-src ncp-dbg ncp-staticdev ncp-dev ncp-doc ncp-locale ncp
+LAYER = networking-layer
+CONFIG = 

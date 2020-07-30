@@ -1,0 +1,6 @@
+PV = 3.10.0
+PR = r0
+DEPENDS = boost cmake-native gettext-native ninja-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libyui-src libyui-dbg libyui-staticdev libyui-dev libyui-doc libyui-locale libyui
+LAYER = openembedded-layer
+CONFIG = 

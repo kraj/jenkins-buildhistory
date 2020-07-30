@@ -1,0 +1,6 @@
+PV = 3.1.4
+PR = r0
+DEPENDS = autoconf-native automake-native curl gnu-config-native icu libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = xerces-c-src xerces-c-dbg libxerces-c libxerces-c-dev xerces-c-samples libxerces-c-staticdev
+LAYER = openembedded-layer
+CONFIG = curl icu

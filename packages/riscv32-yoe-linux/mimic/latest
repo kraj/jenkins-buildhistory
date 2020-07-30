@@ -1,0 +1,6 @@
+PV = 1.2.0.2
+PR = r0
+DEPENDS = autoconf-native automake-native curl-native gnu-config-native icu libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = mimic-src mimic-dbg mimic-staticdev mimic-dev mimic-doc mimic-locale mimic
+LAYER = multimedia-layer
+CONFIG = 

@@ -1,0 +1,10 @@
+PV = 1.4.3
+PR = r0
+PKG = libgpiodcxx1
+PKGR = r0.0
+RPROVIDES = libgpiodcxx (=1.4.3)
+RDEPENDS = glibc (>= 2.32) libgcc (>= 10.1.0) libgpiod (>= 1.4.3) libstdc++ (>= 10.1.0)
+RRECOMMENDS = 
+PKGSIZE = 50908
+FILES = /usr/lib/libgpiodcxx.so.*
+FILELIST = /usr/lib/libgpiodcxx.so.1 /usr/lib/libgpiodcxx.so.1.0.4

@@ -1,0 +1,6 @@
+PV = 0.99.8
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libfastjson-src libfastjson-dbg libfastjson-staticdev libfastjson-dev libfastjson-doc libfastjson-locale libfastjson
+LAYER = openembedded-layer
+CONFIG = 

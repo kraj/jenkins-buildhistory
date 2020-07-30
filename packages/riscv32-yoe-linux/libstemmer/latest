@@ -1,0 +1,6 @@
+PV = 2.0.0
+PR = r0
+DEPENDS = libstemmer-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libstemmer-src libstemmer-dbg libstemmer-staticdev libstemmer-dev libstemmer-doc libstemmer-locale libstemmer-bin libstemmer
+LAYER = gnome-layer
+CONFIG = 

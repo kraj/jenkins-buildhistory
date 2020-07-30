@@ -1,0 +1,11 @@
+PE = 1
+PV = 245.6
+PR = r0
+PKG = libnss-resolve2
+PKGR = r0.0
+RPROVIDES = libnss-resolve (=245.6)
+RDEPENDS = glibc (>= 2.32) libcap (>= 2.36)
+RRECOMMENDS = 
+PKGSIZE = 245240
+FILES = /lib/libnss_resolve.so.2
+FILELIST = /lib/libnss_resolve.so.2

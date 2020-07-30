@@ -1,0 +1,6 @@
+PV = 2.17
+PR = r3
+DEPENDS = autoconf-native automake-native gnu-config-native groff-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = setserial-src setserial-dbg setserial-staticdev setserial-dev setserial-doc setserial-locale setserial
+LAYER = core
+CONFIG = 

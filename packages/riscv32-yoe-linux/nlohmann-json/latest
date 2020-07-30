@@ -1,0 +1,6 @@
+PV = 3.7.3
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = nlohmann-json-src nlohmann-json-dbg nlohmann-json-staticdev nlohmann-json-dev nlohmann-json-doc nlohmann-json-locale nlohmann-json
+LAYER = openembedded-layer
+CONFIG = 

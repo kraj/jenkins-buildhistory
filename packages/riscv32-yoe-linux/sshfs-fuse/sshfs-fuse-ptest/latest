@@ -1,0 +1,9 @@
+PV = 3.7.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = bash python3-pytest sshfs-fuse
+RRECOMMENDS = ptest-runner
+PKGSIZE = 23678
+FILES = /usr/lib/sshfs-fuse/ptest
+FILELIST = /usr/lib/sshfs-fuse/ptest/run-ptest /usr/lib/sshfs-fuse/ptest/test/appveyor-build.sh /usr/lib/sshfs-fuse/ptest/test/conftest.py /usr/lib/sshfs-fuse/ptest/test/lsan_suppress.txt /usr/lib/sshfs-fuse/ptest/test/meson.build /usr/lib/sshfs-fuse/ptest/test/pytest.ini /usr/lib/sshfs-fuse/ptest/test/test_sshfs.py /usr/lib/sshfs-fuse/ptest/test/travis-build.sh /usr/lib/sshfs-fuse/ptest/test/travis-install.sh /usr/lib/sshfs-fuse/ptest/test/util.py /usr/lib/sshfs-fuse/ptest/test/wrong_command.c

@@ -1,0 +1,11 @@
+PV = 2.2.12+gitAUTOINC+af79aebe46
+PR = r0
+PKG = libopencl-dev
+PKGV = 2.2.12+git0+af79aebe46
+PKGR = r0.0
+RPROVIDES = ocl-icd-dev (=2.2.12+git0+af79aebe46)
+RDEPENDS = ocl-icd (= 2.2.12+git0+af79aebe46-r0.0)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 56862
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ocl-icd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/ocl_icd.h /usr/lib/libOpenCL.so /usr/lib/pkgconfig/OpenCL.pc /usr/lib/pkgconfig/ocl-icd.pc

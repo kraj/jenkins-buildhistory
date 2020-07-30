@@ -1,0 +1,30 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  60 ./lib/systemd/system
+-rw-r--r-- -          -                 729 ./lib/systemd/system/accounts-daemon.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                  15 ./sysroot-providers/accountsservice
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                  60 ./usr/include/accountsservice-1.0
+drwxr-xr-x -          -                 120 ./usr/include/accountsservice-1.0/act
+-rw-r--r-- -          -                1085 ./usr/include/accountsservice-1.0/act/act.h
+-rw-r--r-- -          -                 893 ./usr/include/accountsservice-1.0/act/act-user-enum-types.h
+-rw-r--r-- -          -                7057 ./usr/include/accountsservice-1.0/act/act-user.h
+-rw-r--r-- -          -                8589 ./usr/include/accountsservice-1.0/act/act-user-manager.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rwxr-xr-x -          -              190932 ./usr/lib/libaccountsservice.so.0.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libaccountsservice.so.0 -> libaccountsservice.so.0.0.0
+lrwxrwxrwx -          -                  23 ./usr/lib/libaccountsservice.so -> libaccountsservice.so.0
+drwxr-xr-x -          -                  60 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 348 ./usr/lib/pkgconfig/accountsservice.pc
+drwxr-xr-x -          -                  80 ./usr/share
+drwxr-xr-x -          -                  80 ./usr/share/dbus-1
+drwxr-xr-x -          -                  80 ./usr/share/dbus-1/interfaces
+-rw-r--r-- -          -               31618 ./usr/share/dbus-1/interfaces/org.freedesktop.Accounts.User.xml
+-rw-r--r-- -          -                9375 ./usr/share/dbus-1/interfaces/org.freedesktop.Accounts.xml
+drwxr-xr-x -          -                  60 ./usr/share/dbus-1/system-services
+-rw-r--r-- -          -                 129 ./usr/share/dbus-1/system-services/org.freedesktop.Accounts.service
+drwxr-xr-x -          -                  60 ./usr/share/polkit-1
+drwxr-xr-x -          -                  60 ./usr/share/polkit-1/actions
+-rw-r--r-- -          -               29005 ./usr/share/polkit-1/actions/org.freedesktop.accounts.policy

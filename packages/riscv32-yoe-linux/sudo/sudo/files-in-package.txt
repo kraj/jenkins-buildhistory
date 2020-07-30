@@ -1,0 +1,35 @@
+drwxr-xr-x root       root              160 ./etc
+drwxr-xr-x root       root               60 ./etc/pam.d
+-rw-r--r-- root       root              209 ./etc/pam.d/sudo
+-rw-r--r-- root       root             3953 ./etc/sudo.conf
+-r--r----- root       root             3174 ./etc/sudoers
+drwxr-x--- root       root               40 ./etc/sudoers.d
+-r--r----- root       root             3174 ./etc/sudoers.dist
+-rw-r--r-- root       root             6169 ./etc/sudo_logsrvd.conf
+drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root           196440 ./usr/bin/cvtsudoers
+---s--x--x root       root           115992 ./usr/bin/sudo
+lrwxrwxrwx root       root                4 ./usr/bin/sudoedit -> sudo
+-rwxr-xr-x root       root            72208 ./usr/bin/sudoreplay
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              200 ./usr/libexec/sudo
+-rw-r--r-- root       root            13732 ./usr/libexec/sudo/audit_json.so
+-rw-r--r-- root       root             5264 ./usr/libexec/sudo/group_file.so
+-rwxr-xr-x root       root           108852 ./usr/libexec/sudo/libsudo_util.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
+-rw-r--r-- root       root             5264 ./usr/libexec/sudo/sample_approval.so
+-rw-r--r-- root       root           348916 ./usr/libexec/sudo/sudoers.so
+-rw-r--r-- root       root             5196 ./usr/libexec/sudo/sudo_noexec.so
+-rw-r--r-- root       root             5228 ./usr/libexec/sudo/system_group.so
+drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root              305 ./usr/lib/tmpfiles.d/sudo.conf
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root           121380 ./usr/sbin/sudo_logsrvd
+-rwxr-xr-x root       root            88388 ./usr/sbin/sudo_sendlog
+-rwxr-xr-x root       root           167508 ./usr/sbin/visudo
+drwxr-xr-x root       root               60 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwx--x--x root       root               60 ./var/lib/sudo
+drwx------ root       root               40 ./var/lib/sudo/lectured
