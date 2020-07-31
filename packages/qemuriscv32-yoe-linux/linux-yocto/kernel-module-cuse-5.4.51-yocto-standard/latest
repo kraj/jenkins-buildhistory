@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-cuse
 RDEPENDS = kernel-5.4.51-yocto-standard kernel-module-fuse-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 13316
+PKGSIZE = 13320
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/fs/fuse/cuse.ko /etc/modules-load.d/cuse.conf /etc/modprobe.d/cuse.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/fs/fuse/cuse.ko

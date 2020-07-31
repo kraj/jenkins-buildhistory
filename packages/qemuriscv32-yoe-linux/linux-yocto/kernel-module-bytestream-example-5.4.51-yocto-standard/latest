@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-bytestream-example
 RDEPENDS = kernel-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 7116
+PKGSIZE = 7120
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/samples/kfifo/bytestream-example.ko /etc/modules-load.d/bytestream-example.conf /etc/modprobe.d/bytestream-example.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/samples/kfifo/bytestream-example.ko

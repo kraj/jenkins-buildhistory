@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-ip6-tables
 RDEPENDS = kernel-5.4.51-yocto-standard kernel-module-x-tables-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 26696
+PKGSIZE = 26700
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/net/ipv6/netfilter/ip6_tables.ko /etc/modules-load.d/ip6_tables.conf /etc/modprobe.d/ip6_tables.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/net/ipv6/netfilter/ip6_tables.ko

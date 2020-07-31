@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-esp4
 RDEPENDS = kernel-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 21156
+PKGSIZE = 21160
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/net/ipv4/esp4.ko /etc/modules-load.d/esp4.conf /etc/modprobe.d/esp4.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/net/ipv4/esp4.ko

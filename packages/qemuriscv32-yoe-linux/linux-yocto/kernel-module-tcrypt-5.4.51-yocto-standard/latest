@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-tcrypt
 RDEPENDS = kernel-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 141800
+PKGSIZE = 141804
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/crypto/tcrypt.ko /etc/modules-load.d/tcrypt.conf /etc/modprobe.d/tcrypt.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/crypto/tcrypt.ko

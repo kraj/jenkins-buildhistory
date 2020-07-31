@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-configfs-sample
 RDEPENDS = kernel-5.4.51-yocto-standard kernel-module-configfs-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 9228
+PKGSIZE = 9232
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/samples/configfs/configfs_sample.ko /etc/modules-load.d/configfs_sample.conf /etc/modprobe.d/configfs_sample.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/samples/configfs/configfs_sample.ko

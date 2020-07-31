@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-ipcomp
 RDEPENDS = kernel-5.4.51-yocto-standard kernel-module-xfrm-ipcomp-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 6428
+PKGSIZE = 6432
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/net/ipv4/ipcomp.ko /etc/modules-load.d/ipcomp.conf /etc/modprobe.d/ipcomp.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/net/ipv4/ipcomp.ko

@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-anubis
 RDEPENDS = kernel-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 14196
+PKGSIZE = 14200
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/crypto/anubis.ko /etc/modules-load.d/anubis.conf /etc/modprobe.d/anubis.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/crypto/anubis.ko

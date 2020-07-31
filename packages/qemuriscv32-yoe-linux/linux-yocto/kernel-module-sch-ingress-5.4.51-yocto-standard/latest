@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-sch-ingress
 RDEPENDS = kernel-5.4.51-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 6292
+PKGSIZE = 6296
 FILES = /lib/modules/5.4.51-yocto-standard/kernel/net/sched/sch_ingress.ko /etc/modules-load.d/sch_ingress.conf /etc/modprobe.d/sch_ingress.conf
 FILELIST = /lib/modules/5.4.51-yocto-standard/kernel/net/sched/sch_ingress.ko
