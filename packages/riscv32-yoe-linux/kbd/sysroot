@@ -1,10 +1,12 @@
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                   3 ./sysroot-providers/kbd
 drwxr-xr-x -          -                  80 ./usr
-drwxr-xr-x -          -                  60 ./usr/lib
-drwxr-xr-x -          -                  40 ./usr/lib/kbd
+drwxr-xr-x -          -                 100 ./usr/lib
+-rwxr-xr-x -          -               13788 ./usr/lib/libtswrap.so.1.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libtswrap.so.1 -> libtswrap.so.1.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libtswrap.so -> libtswrap.so.1.0.0
 drwxr-xr-x -          -                 120 ./usr/share
-drwxr-xr-x -          -                4260 ./usr/share/consolefonts
+drwxr-xr-x -          -                4280 ./usr/share/consolefonts
 -rw-r--r-- -          -                3019 ./usr/share/consolefonts/161.cp.gz
 -rw-r--r-- -          -                3086 ./usr/share/consolefonts/162.cp.gz
 -rw-r--r-- -          -                3069 ./usr/share/consolefonts/163.cp.gz
@@ -48,7 +50,7 @@ drwxr-xr-x -          -                4260 ./usr/share/consolefonts
 -rw-r--r-- -          -                2558 ./usr/share/consolefonts/drdos8x6.psfu.gz
 -rw-r--r-- -          -                3065 ./usr/share/consolefonts/drdos8x8.psfu.gz
 -rw-r--r-- -          -                 191 ./usr/share/consolefonts/ERRORS
--rw-r--r-- -          -                4115 ./usr/share/consolefonts/eurlatgr.psfu.gz
+-rw-r--r-- -          -                4126 ./usr/share/consolefonts/eurlatgr.psfu.gz
 -rw-r--r-- -          -                3702 ./usr/share/consolefonts/Goha-12.psfu.gz
 -rw-r--r-- -          -                3715 ./usr/share/consolefonts/Goha-14.psfu.gz
 -rw-r--r-- -          -                3779 ./usr/share/consolefonts/Goha-16.psfu.gz
@@ -233,8 +235,8 @@ drwxr-xr-x -          -                 820 ./usr/share/consolefonts/partialfont
 -rw-r--r-- -          -                1846 ./usr/share/consolefonts/README.Cyrillic
 -rw-r--r-- -          -                 202 ./usr/share/consolefonts/README.drdos
 -rw-r--r-- -          -                1092 ./usr/share/consolefonts/README.Ethiopic
--rw-r--r-- -          -               53408 ./usr/share/consolefonts/README.eurlatgr
--rw-r--r-- -          -                7790 ./usr/share/consolefonts/README.eurlatgr.mappings
+-rw-r--r-- -          -               53627 ./usr/share/consolefonts/README.eurlatgr
+-rw-r--r-- -          -                7811 ./usr/share/consolefonts/README.eurlatgr.mappings
 -rw-r--r-- -          -                 868 ./usr/share/consolefonts/README.Greek
 -rw-r--r-- -          -                 130 ./usr/share/consolefonts/README.Hebrew
 -rw-r--r-- -          -                 449 ./usr/share/consolefonts/README.lat0
@@ -246,6 +248,7 @@ drwxr-xr-x -          -                 820 ./usr/share/consolefonts/partialfont
 -rw-r--r-- -          -                1159 ./usr/share/consolefonts/README.Sun
 -rw-r--r-- -          -                2084 ./usr/share/consolefonts/ruscii_8x16.psfu.gz
 -rw-r--r-- -          -                2059 ./usr/share/consolefonts/ruscii_8x8.psfu.gz
+-rw-r--r-- -          -                3929 ./usr/share/consolefonts/solar24x32.psfu.gz
 -rw-r--r-- -          -                2708 ./usr/share/consolefonts/sun12x22.psfu.gz
 -rw-r--r-- -          -                1515 ./usr/share/consolefonts/t850b.fnt.gz
 -rw-r--r-- -          -                1363 ./usr/share/consolefonts/tcvn8x16.psf.gz
@@ -374,7 +377,7 @@ drwxr-xr-x -          -                 420 ./usr/share/keymaps/i386/include
 drwxr-xr-x -          -                  80 ./usr/share/keymaps/i386/olpc
 -rw-r--r-- -          -                 876 ./usr/share/keymaps/i386/olpc/es.map.gz
 -rw-r--r-- -          -                 852 ./usr/share/keymaps/i386/olpc/pt.map.gz
-drwxr-xr-x -          -                2440 ./usr/share/keymaps/i386/qwerty
+drwxr-xr-x -          -                2480 ./usr/share/keymaps/i386/qwerty
 -rw-r--r-- -          -                2499 ./usr/share/keymaps/i386/qwerty/bashkir.map.gz
 -rw-r--r-- -          -                4627 ./usr/share/keymaps/i386/qwerty/bg_bds-cp1251.map.gz
 -rw-r--r-- -          -                4622 ./usr/share/keymaps/i386/qwerty/bg_bds-utf8.map.gz
@@ -389,6 +392,7 @@ drwxr-xr-x -          -                2440 ./usr/share/keymaps/i386/qwerty
 -rw-r--r-- -          -                2332 ./usr/share/keymaps/i386/qwerty/by-cp1251.map.gz
 -rw-r--r-- -          -                2854 ./usr/share/keymaps/i386/qwerty/by.map.gz
 -rw-r--r-- -          -                2330 ./usr/share/keymaps/i386/qwerty/bywin-cp1251.map.gz
+-rw-r--r-- -          -                1134 ./usr/share/keymaps/i386/qwerty/ca.map.gz
 -rw-r--r-- -          -                1174 ./usr/share/keymaps/i386/qwerty/cf.map.gz
 -rw-r--r-- -          -                2568 ./usr/share/keymaps/i386/qwerty/cz-cp1250.map.gz
 -rw-r--r-- -          -                2655 ./usr/share/keymaps/i386/qwerty/cz-lat2.map.gz
@@ -405,7 +409,7 @@ drwxr-xr-x -          -                2440 ./usr/share/keymaps/i386/qwerty
 -rw-r--r-- -          -                1141 ./usr/share/keymaps/i386/qwerty/et.map.gz
 -rw-r--r-- -          -                 153 ./usr/share/keymaps/i386/qwerty/et-nodeadkeys.map.gz
 -rw-r--r-- -          -                1821 ./usr/share/keymaps/i386/qwerty/fa.map.gz
--rw-r--r-- -          -                1434 ./usr/share/keymaps/i386/qwerty/fi.map.gz
+-rw-r--r-- -          -                1443 ./usr/share/keymaps/i386/qwerty/fi.map.gz
 -rw-r--r-- -          -                3660 ./usr/share/keymaps/i386/qwerty/gr.map.gz
 -rw-r--r-- -          -                2377 ./usr/share/keymaps/i386/qwerty/gr-pc.map.gz
 -rw-r--r-- -          -                1313 ./usr/share/keymaps/i386/qwerty/hu101.map.gz
@@ -493,6 +497,7 @@ drwxr-xr-x -          -                2440 ./usr/share/keymaps/i386/qwerty
 -rw-r--r-- -          -                6958 ./usr/share/keymaps/i386/qwerty/ua-utf-ws.map.gz
 -rw-r--r-- -          -                6932 ./usr/share/keymaps/i386/qwerty/ua-ws.map.gz
 -rw-r--r-- -          -                 765 ./usr/share/keymaps/i386/qwerty/uk.map.gz
+-rw-r--r-- -          -                 117 ./usr/share/keymaps/i386/qwerty/us1.map.gz
 -rw-r--r-- -          -                2549 ./usr/share/keymaps/i386/qwerty/us-acentos.map.gz
 -rw-r--r-- -          -                 666 ./usr/share/keymaps/i386/qwerty/us.map.gz
 drwxr-xr-x -          -                 420 ./usr/share/keymaps/i386/qwertz
