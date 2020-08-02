@@ -8,17 +8,17 @@ if type systemctl >/dev/null 2>/dev/null; then
 	fi
 
 	if [ "disable" = "enable" ]; then
-		for service in dlt-adaptor-udp.service dlt-example-user.service dlt-receive.service; do
+		for service in ; do
 			systemctl ${OPTS} enable "$service"
 		done
 	fi
 
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset dlt-adaptor-udp.service dlt-example-user.service dlt-receive.service
+		systemctl preset 
 
 		if [ "disable" = "enable" ]; then
-			systemctl --no-block restart dlt-adaptor-udp.service dlt-example-user.service dlt-receive.service
+			systemctl --no-block restart 
 		fi
 	fi
 fi

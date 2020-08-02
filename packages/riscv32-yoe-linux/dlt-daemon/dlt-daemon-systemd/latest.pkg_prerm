@@ -2,8 +2,8 @@
 set -e
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop dlt-adaptor-udp.service dlt-example-user.service dlt-receive.service
+		systemctl stop 
 
-		systemctl disable dlt-adaptor-udp.service dlt-example-user.service dlt-receive.service
+		systemctl disable 
 	fi
 fi

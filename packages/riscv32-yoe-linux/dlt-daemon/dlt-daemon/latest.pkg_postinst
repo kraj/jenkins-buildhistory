@@ -8,17 +8,17 @@ if type systemctl >/dev/null 2>/dev/null; then
 	fi
 
 	if [ "enable" = "enable" ]; then
-		for service in dlt.service dlt-system.service; do
+		for service in dlt.service; do
 			systemctl ${OPTS} enable "$service"
 		done
 	fi
 
 	if [ -z "$D" ]; then
 		systemctl daemon-reload
-		systemctl preset dlt.service dlt-system.service
+		systemctl preset dlt.service
 
 		if [ "enable" = "enable" ]; then
-			systemctl --no-block restart dlt.service dlt-system.service
+			systemctl --no-block restart dlt.service
 		fi
 	fi
 fi
