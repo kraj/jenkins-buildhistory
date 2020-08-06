@@ -1,0 +1,10 @@
+PV = 5.4.54+gitAUTOINC+96883b38c1_9fc2fb2e73
+PR = r0
+PKGV = 5.4.54+git0+96883b38c1_9fc2fb2e73
+PKGR = r0.1
+RPROVIDES = kernel-module-ip6t-ipv6header
+RDEPENDS = kernel-5.4.54-yocto-standard kernel-module-x-tables-5.4.54-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4528
+FILES = /lib/modules/5.4.54-yocto-standard/kernel/net/ipv6/netfilter/ip6t_ipv6header.ko /etc/modules-load.d/ip6t_ipv6header.conf /etc/modprobe.d/ip6t_ipv6header.conf
+FILELIST = /lib/modules/5.4.54-yocto-standard/kernel/net/ipv6/netfilter/ip6t_ipv6header.ko

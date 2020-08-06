@@ -1,0 +1,10 @@
+PV = 5.4.54+gitAUTOINC+96883b38c1_9fc2fb2e73
+PR = r0
+PKGV = 5.4.54+git0+96883b38c1_9fc2fb2e73
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-u32
+RDEPENDS = kernel-5.4.54-yocto-standard kernel-module-x-tables-5.4.54-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4680
+FILES = /lib/modules/5.4.54-yocto-standard/kernel/net/netfilter/xt_u32.ko /etc/modules-load.d/xt_u32.conf /etc/modprobe.d/xt_u32.conf
+FILELIST = /lib/modules/5.4.54-yocto-standard/kernel/net/netfilter/xt_u32.ko

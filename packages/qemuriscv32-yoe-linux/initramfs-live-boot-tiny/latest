@@ -1,0 +1,6 @@
+PV = 1.0
+PR = r12
+DEPENDS = virtual/kernel virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = initramfs-live-boot-tiny-src initramfs-live-boot-tiny-dbg initramfs-live-boot-tiny-staticdev initramfs-live-boot-tiny-dev initramfs-live-boot-tiny-doc initramfs-live-boot-tiny-locale initramfs-live-boot-tiny
+LAYER = core
+CONFIG = 

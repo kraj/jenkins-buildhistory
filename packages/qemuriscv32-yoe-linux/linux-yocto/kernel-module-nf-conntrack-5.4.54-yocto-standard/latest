@@ -1,0 +1,10 @@
+PV = 5.4.54+gitAUTOINC+96883b38c1_9fc2fb2e73
+PR = r0
+PKGV = 5.4.54+git0+96883b38c1_9fc2fb2e73
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-conntrack
+RDEPENDS = kernel-5.4.54-yocto-standard kernel-module-nf-defrag-ipv4-5.4.54-yocto-standard kernel-module-nf-defrag-ipv6-5.4.54-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 173764
+FILES = /lib/modules/5.4.54-yocto-standard/kernel/net/netfilter/nf_conntrack.ko /etc/modules-load.d/nf_conntrack.conf /etc/modprobe.d/nf_conntrack.conf
+FILELIST = /lib/modules/5.4.54-yocto-standard/kernel/net/netfilter/nf_conntrack.ko
