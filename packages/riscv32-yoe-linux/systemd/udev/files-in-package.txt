@@ -1,19 +1,19 @@
 drwxr-xr-x root       root               80 ./bin
--rwxr-xr-x root       root            88248 ./bin/systemd-hwdb
--rwxr-xr-x root       root           683520 ./bin/udevadm
+-rwxr-xr-x root       root            96528 ./bin/systemd-hwdb
+-rwxr-xr-x root       root           745200 ./bin/udevadm
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              100 ./etc/udev
 drwxr-xr-x root       root               40 ./etc/udev/hwdb.d
 drwxr-xr-x root       root               60 ./etc/udev/rules.d
 -rw-r--r-- root       root              855 ./etc/udev/rules.d/touchscreen.rules
--rw-r--r-- root       root              281 ./etc/udev/udev.conf
+-rw-r--r-- root       root              305 ./etc/udev/udev.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root              100 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/network
 -rw-r--r-- root       root              491 ./lib/systemd/network/99-default.link
 drwxr-xr-x root       root              220 ./lib/systemd/system
--rwxr-xr-x root       root           535580 ./lib/systemd/systemd-udevd
--rw-r--r-- root       root              813 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
+lrwxrwxrwx root       root               17 ./lib/systemd/systemd-udevd -> ../../bin/udevadm
+-rw-r--r-- root       root              818 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
 drwxr-xr-x root       root               80 ./lib/systemd/system/sockets.target.wants
 lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
 lrwxrwxrwx root       root               30 ./lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
@@ -23,17 +23,17 @@ lrwxrwxrwx root       root               31 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              813 ./lib/systemd/system/systemd-hwdb-update.service
 -rw-r--r-- root       root              635 ./lib/systemd/system/systemd-udevd-control.socket
 -rw-r--r-- root       root              610 ./lib/systemd/system/systemd-udevd-kernel.socket
--rw-r--r-- root       root             1259 ./lib/systemd/system/systemd-udevd.service
--rw-r--r-- root       root              852 ./lib/systemd/system/systemd-udev-settle.service
+-rw-r--r-- root       root             1343 ./lib/systemd/system/systemd-udevd.service
+-rw-r--r-- root       root              855 ./lib/systemd/system/systemd-udev-settle.service
 -rw-r--r-- root       root              753 ./lib/systemd/system/systemd-udev-trigger.service
 drwxr-xr-x root       root              180 ./lib/udev
--rwxr-xr-x root       root            55032 ./lib/udev/ata_id
--rwxr-xr-x root       root            67340 ./lib/udev/cdrom_id
--rwxr-xr-x root       root            88064 ./lib/udev/fido_id
--rwxr-xr-x root       root            17916 ./lib/udev/mtd_probe
-drwxr-xr-x root       root              580 ./lib/udev/rules.d
--rw-r--r-- root       root             3860 ./lib/udev/rules.d/50-udev-default.rules
--rw-r--r-- root       root             8595 ./lib/udev/rules.d/60-autosuspend-chromiumos.rules
+-rwxr-xr-x root       root            63332 ./lib/udev/ata_id
+-rwxr-xr-x root       root            75644 ./lib/udev/cdrom_id
+-rwxr-xr-x root       root            92240 ./lib/udev/fido_id
+-rwxr-xr-x root       root            22116 ./lib/udev/mtd_probe
+drwxr-xr-x root       root              560 ./lib/udev/rules.d
+-rw-r--r-- root       root             3920 ./lib/udev/rules.d/50-udev-default.rules
+-rw-r--r-- root       root              419 ./lib/udev/rules.d/60-autosuspend.rules
 -rw-r--r-- root       root              703 ./lib/udev/rules.d/60-block.rules
 -rw-r--r-- root       root             1071 ./lib/udev/rules.d/60-cdrom_id.rules
 -rw-r--r-- root       root              413 ./lib/udev/rules.d/60-drm.rules
@@ -42,12 +42,11 @@ drwxr-xr-x root       root              580 ./lib/udev/rules.d
 -rw-r--r-- root       root              282 ./lib/udev/rules.d/60-input-id.rules
 -rw-r--r-- root       root              616 ./lib/udev/rules.d/60-persistent-alsa.rules
 -rw-r--r-- root       root             2710 ./lib/udev/rules.d/60-persistent-input.rules
--rw-r--r-- root       root             7642 ./lib/udev/rules.d/60-persistent-storage.rules
+-rw-r--r-- root       root             8026 ./lib/udev/rules.d/60-persistent-storage.rules
 -rw-r--r-- root       root             2135 ./lib/udev/rules.d/60-persistent-storage-tape.rules
 -rw-r--r-- root       root              769 ./lib/udev/rules.d/60-persistent-v4l.rules
 -rw-r--r-- root       root              736 ./lib/udev/rules.d/60-sensor.rules
--rw-r--r-- root       root             1190 ./lib/udev/rules.d/60-serial.rules
--rw-r--r-- root       root              565 ./lib/udev/rules.d/61-autosuspend-manual.rules
+-rw-r--r-- root       root             1302 ./lib/udev/rules.d/60-serial.rules
 -rw-r--r-- root       root              612 ./lib/udev/rules.d/64-btrfs.rules
 -rw-r--r-- root       root              432 ./lib/udev/rules.d/70-joystick.rules
 -rw-r--r-- root       root              734 ./lib/udev/rules.d/70-mouse.rules
@@ -59,15 +58,15 @@ drwxr-xr-x root       root              580 ./lib/udev/rules.d
 -rw-r--r-- root       root              615 ./lib/udev/rules.d/80-drivers.rules
 -rw-r--r-- root       root              292 ./lib/udev/rules.d/80-net-setup-link.rules
 -rw-r--r-- root       root              477 ./lib/udev/rules.d/90-vconsole.rules
--rwxr-xr-x root       root            63792 ./lib/udev/scsi_id
--rwxr-xr-x root       root            17960 ./lib/udev/v4l_id
+-rwxr-xr-x root       root            72080 ./lib/udev/scsi_id
+-rwxr-xr-x root       root            22112 ./lib/udev/v4l_id
 drwxr-xr-x root       root               80 ./sbin
 lrwxrwxrwx root       root               12 ./sbin/udevadm -> /bin/udevadm
 lrwxrwxrwx root       root               26 ./sbin/udevd -> /lib/systemd/systemd-udevd
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/libexec
--rwxr-xr-x root       root           683520 ./usr/libexec/udevadm
+-rwxr-xr-x root       root           745200 ./usr/libexec/udevadm
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/bash-completion
 drwxr-xr-x root       root               60 ./usr/share/bash-completion/completions
--rw-r--r-- root       root             8146 ./usr/share/bash-completion/completions/udevadm
+-rw-r--r-- root       root             8154 ./usr/share/bash-completion/completions/udevadm

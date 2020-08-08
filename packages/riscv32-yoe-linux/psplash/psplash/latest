@@ -3,7 +3,7 @@ PR = r15
 PKGV = 0.1+git0+0a902f7cd8
 PKGR = r15.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.32) libsystemd (>= 245.6)
+RDEPENDS = glibc (>= 2.32) libsystemd (>= 246)
 RRECOMMENDS = psplash-default
 PKGSIZE = 15592
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/psplash /usr/lib/psplash/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-psplash.preset /lib/systemd/system/psplash-start.service /lib/systemd/system/psplash-systemd.service
