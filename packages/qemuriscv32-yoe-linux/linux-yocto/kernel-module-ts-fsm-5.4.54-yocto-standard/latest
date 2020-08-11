@@ -1,0 +1,10 @@
+PV = 5.4.54+gitAUTOINC+96883b38c1_9fc2fb2e73
+PR = r0
+PKGV = 5.4.54+git0+96883b38c1_9fc2fb2e73
+PKGR = r0.1
+RPROVIDES = kernel-module-ts-fsm
+RDEPENDS = kernel-5.4.54-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7608
+FILES = /lib/modules/5.4.54-yocto-standard/kernel/lib/ts_fsm.ko /etc/modules-load.d/ts_fsm.conf /etc/modprobe.d/ts_fsm.conf
+FILELIST = /lib/modules/5.4.54-yocto-standard/kernel/lib/ts_fsm.ko

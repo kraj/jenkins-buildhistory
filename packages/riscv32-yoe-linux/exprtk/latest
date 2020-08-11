@@ -1,0 +1,6 @@
+PV = git
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = exprtk-src exprtk-dbg exprtk-staticdev exprtk-dev exprtk-doc exprtk-locale exprtk
+LAYER = openembedded-layer
+CONFIG = 
