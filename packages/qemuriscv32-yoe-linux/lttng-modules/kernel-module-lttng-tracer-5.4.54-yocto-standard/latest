@@ -1,9 +1,0 @@
-PV = 2.12.2
-PR = r0
-PKGR = r0.0
-RPROVIDES = kernel-module-lttng-tracer
-RDEPENDS = kernel-5.4.54-yocto-standard kernel-module-lttng-clock-5.4.54-yocto-standard kernel-module-lttng-lib-ring-buffer-5.4.54-yocto-standard kernel-module-lttng-statedump-5.4.54-yocto-standard kernel-module-lttng-wrapper-5.4.54-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 255600
-FILES = /lib/modules/5.4.54-yocto-standard/kernel/lttng-modules/lttng-tracer.ko /etc/modules-load.d/lttng-tracer.conf /etc/modprobe.d/lttng-tracer.conf
-FILELIST = /lib/modules/5.4.54-yocto-standard/kernel/lttng-modules/lttng-tracer.ko
