@@ -1,13 +1,14 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              120 ./usr/share/man
-drwxr-xr-x root       root              100 ./usr/share/man/man1
+drwxr-xr-x root       root              120 ./usr/share/man/man1
 -rw-r--r-- root       root             3204 ./usr/share/man/man1/gensiot.1
--rw-r--r-- root       root             5280 ./usr/share/man/man1/gtlssh.1
+-rw-r--r-- root       root             5566 ./usr/share/man/man1/gtlssh.1
 -rw-r--r-- root       root             2041 ./usr/share/man/man1/gtlssh-keygen.1
-drwxr-xr-x root       root             1460 ./usr/share/man/man3
--rw-r--r-- root       root             1629 ./usr/share/man/man3/gensio_acc_accept_s.3
--rw-r--r-- root       root             1923 ./usr/share/man/man3/gensio_acc_control.3
+-rw-r--r-- root       root              424 ./usr/share/man/man1/gtlssync.1
+drwxr-xr-x root       root             2040 ./usr/share/man/man3
+-rw-r--r-- root       root             2013 ./usr/share/man/man3/gensio_acc_accept_s.3
+-rw-r--r-- root       root             2136 ./usr/share/man/man3/gensio_acc_control.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_acc_disable.3 -> gensio_acc_shutdown.3
 -rw-r--r-- root       root             3678 ./usr/share/man/man3/gensio_accepter_event.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_acc_free.3 -> gensio_acc_shutdown.3
@@ -26,24 +27,23 @@ lrwxrwxrwx root       root               25 ./usr/share/man/man3/gensio_acc_set_
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_acc_shutdown_s.3 -> gensio_acc_shutdown.3
 -rw-r--r-- root       root              555 ./usr/share/man/man3/gensio_acc_startup.3
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/gensio_acc_str_to_gensio.3 -> str_to_gensio.3
--rw-r--r-- root       root             4558 ./usr/share/man/man3/gensio_add_default.3
+-rw-r--r-- root       root             4793 ./usr/share/man/man3/gensio_add_default.3
 -rw-r--r-- root       root              870 ./usr/share/man/man3/gensio_alloc_channel.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/gensio_clear_sync.3 -> gensio_set_sync.3
 -rw-r--r-- root       root             2280 ./usr/share/man/man3/gensio_close.3
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/gensio_close_s.3 -> gensio_close.3
--rw-r--r-- root       root             6930 ./usr/share/man/man3/gensio_control.3
+-rw-r--r-- root       root             9356 ./usr/share/man/man3/gensio_control.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/gensio_default_os_hnd.3 -> gensio_os_funcs.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/gensio_del_default.3 -> gensio_add_default.3
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/gensio_disable.3 -> gensio_close.3
 -rw-r--r-- root       root             2370 ./usr/share/man/man3/gensio_err.3
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/gensio_err_to_str.3 -> gensio_err.3
--rw-r--r-- root       root             6058 ./usr/share/man/man3/gensio_event.3
+-rw-r--r-- root       root             6345 ./usr/share/man/man3/gensio_event.3
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/gensio_free.3 -> gensio_close.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/gensio_get_child.3 -> gensio_get_type.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/gensio_get_default.3 -> gensio_add_default.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/gensio_get_defaultaddr.3 -> gensio_add_default.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_get_log_mask.3 -> gensio_set_log_mask.3
--rw-r--r-- root       root              927 ./usr/share/man/man3/gensio_get_raddr.3
 -rw-r--r-- root       root             2748 ./usr/share/man/man3/gensio_get_type.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_get_user_data.3 -> gensio_set_callback.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/gensio_is_authenticated.3 -> gensio_get_type.3
@@ -59,25 +59,56 @@ lrwxrwxrwx root       root               13 ./usr/share/man/man3/gensio_open_noc
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/gensio_open_nochild_s.3 -> gensio_open.3
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/gensio_open_s.3 -> gensio_open.3
 -rw-r--r-- root       root             2157 ./usr/share/man/man3/gensio_os_funcs.3
--rw-r--r-- root       root             1593 ./usr/share/man/man3/gensio_raddr_to_str.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/gensio_read_s.3 -> gensio_set_sync.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/gensio_reset_defaults.3 -> gensio_add_default.3
 -rw-r--r-- root       root             1271 ./usr/share/man/man3/gensio_set_callback.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/gensio_set_default.3 -> gensio_add_default.3
 -rw-r--r-- root       root             1530 ./usr/share/man/man3/gensio_set_log_mask.3
 -rw-r--r-- root       root             2072 ./usr/share/man/man3/gensio_set_read_callback_enable.3
--rw-r--r-- root       root             3190 ./usr/share/man/man3/gensio_set_sync.3
+-rw-r--r-- root       root             3799 ./usr/share/man/man3/gensio_set_sync.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_set_user_data.3 -> gensio_set_callback.3
 lrwxrwxrwx root       root               33 ./usr/share/man/man3/gensio_set_write_callback_enable.3 -> gensio_set_read_callback_enable.3
+-rw-r--r-- root       root             1653 ./usr/share/man/man3/gensio_to_sergensio.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/gensio_vlog.3 -> gensio_set_log_mask.3
 -rw-r--r-- root       root             2015 ./usr/share/man/man3/gensio_write.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/gensio_write_s.3 -> gensio_set_sync.3
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/gensio_write_sg.3 -> gensio_write.3
--rw-r--r-- root       root             2624 ./usr/share/man/man3/str_to_gensio.3
+-rw-r--r-- root       root             2753 ./usr/share/man/man3/sergensio_b_alloc.3
+-rw-r--r-- root       root             7543 ./usr/share/man/man3/sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_baud_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_b_free.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_datasize.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_datasize_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_dtr.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_dtr_b.3 -> sergensio_b_alloc.3
+-rw-r--r-- root       root             2813 ./usr/share/man/man3/sergensio_event.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_flowcontrol.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_flowcontrol_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_flowcontrol_state.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_flush.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               21 ./usr/share/man/man3/sergensio_get_user_data.3 -> gensio_to_sergensio.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_iflowcontrol.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_iflowcontrol_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               21 ./usr/share/man/man3/sergensio_is_client.3 -> gensio_to_sergensio.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_linestate.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_modemstate.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_parity.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_parity_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_rts.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_rts_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_sbreak.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_sbreak_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_send_break.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_signature.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               16 ./usr/share/man/man3/sergensio_stopbits.3 -> sergensio_baud.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/sergensio_stopbits_b.3 -> sergensio_b_alloc.3
+lrwxrwxrwx root       root               21 ./usr/share/man/man3/sergensio_to_gensio.3 -> gensio_to_sergensio.3
+-rw-r--r-- root       root             2625 ./usr/share/man/man3/str_to_gensio.3
 -rw-r--r-- root       root             1391 ./usr/share/man/man3/str_to_gensio_accepter.3
 lrwxrwxrwx root       root               24 ./usr/share/man/man3/str_to_gensio_accepter_child.3 -> str_to_gensio_accepter.3
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/str_to_gensio_child.3 -> str_to_gensio.3
-drwxr-xr-x root       root               60 ./usr/share/man/man5
--rw-r--r-- root       root            46835 ./usr/share/man/man5/gensio.5
+drwxr-xr-x root       root               80 ./usr/share/man/man5
+-rw-r--r-- root       root            56601 ./usr/share/man/man5/gensio.5
+-rw-r--r-- root       root             1743 ./usr/share/man/man5/sergensio.5
 drwxr-xr-x root       root               60 ./usr/share/man/man8
--rw-r--r-- root       root             2173 ./usr/share/man/man8/gtlsshd.8
+-rw-r--r-- root       root             2409 ./usr/share/man/man8/gtlsshd.8

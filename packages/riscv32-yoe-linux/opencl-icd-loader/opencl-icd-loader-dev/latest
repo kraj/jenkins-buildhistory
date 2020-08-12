@@ -1,9 +1,10 @@
-PV = git
+PV = 2020.06.16+gitAUTOINC+862eebe7ca
 PR = r0
+PKGV = 2020.06.16+git0+862eebe7ca
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = opencl-icd-loader (= git-r0.0)
-RRECOMMENDS = glibc-dev libicdlog-dev opencl-headers-dev
+RDEPENDS = opencl-icd-loader (= 2020.06.16+git0+862eebe7ca-r0.0)
+RRECOMMENDS = glibc-dev libicdlog-dev ocl-icd-dev opencl-headers-dev
 PKGSIZE = 30
 FILES = /usr/lib/libOpenCL.so /usr/lib/libOpenCL.so.1
 FILELIST = /usr/lib/libOpenCL.so /usr/lib/libOpenCL.so.1
