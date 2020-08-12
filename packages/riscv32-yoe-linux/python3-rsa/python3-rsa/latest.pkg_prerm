@@ -1,9 +1,7 @@
 #!/bin/sh
 set -e
 	update-alternatives --remove  pyrsa-decrypt /usr/bin/pyrsa-decrypt.python3-rsa
-	update-alternatives --remove  pyrsa-decrypt-bigfile /usr/bin/pyrsa-decrypt-bigfile.python3-rsa
 	update-alternatives --remove  pyrsa-encrypt /usr/bin/pyrsa-encrypt.python3-rsa
-	update-alternatives --remove  pyrsa-encrypt-bigfile /usr/bin/pyrsa-encrypt-bigfile.python3-rsa
 	update-alternatives --remove  pyrsa-keygen /usr/bin/pyrsa-keygen.python3-rsa
 	update-alternatives --remove  pyrsa-priv2pub /usr/bin/pyrsa-priv2pub.python3-rsa
 	update-alternatives --remove  pyrsa-sign /usr/bin/pyrsa-sign.python3-rsa

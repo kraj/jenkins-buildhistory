@@ -1,9 +1,7 @@
 #!/bin/sh
 set -e
 	update-alternatives --install /usr/bin/pyrsa-decrypt pyrsa-decrypt /usr/bin/pyrsa-decrypt.python3-rsa 30
-	update-alternatives --install /usr/bin/pyrsa-decrypt-bigfile pyrsa-decrypt-bigfile /usr/bin/pyrsa-decrypt-bigfile.python3-rsa 30
 	update-alternatives --install /usr/bin/pyrsa-encrypt pyrsa-encrypt /usr/bin/pyrsa-encrypt.python3-rsa 30
-	update-alternatives --install /usr/bin/pyrsa-encrypt-bigfile pyrsa-encrypt-bigfile /usr/bin/pyrsa-encrypt-bigfile.python3-rsa 30
 	update-alternatives --install /usr/bin/pyrsa-keygen pyrsa-keygen /usr/bin/pyrsa-keygen.python3-rsa 30
 	update-alternatives --install /usr/bin/pyrsa-priv2pub pyrsa-priv2pub /usr/bin/pyrsa-priv2pub.python3-rsa 30
 	update-alternatives --install /usr/bin/pyrsa-sign pyrsa-sign /usr/bin/pyrsa-sign.python3-rsa 30

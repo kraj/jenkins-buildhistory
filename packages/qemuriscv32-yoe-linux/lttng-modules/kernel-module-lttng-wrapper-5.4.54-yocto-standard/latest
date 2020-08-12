@@ -1,9 +1,0 @@
-PV = 2.12.2
-PR = r0
-PKGR = r0.0
-RPROVIDES = kernel-module-lttng-wrapper
-RDEPENDS = kernel-5.4.54-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 4768
-FILES = /lib/modules/5.4.54-yocto-standard/kernel/lttng-modules/lttng-wrapper.ko /etc/modules-load.d/lttng-wrapper.conf /etc/modprobe.d/lttng-wrapper.conf
-FILELIST = /lib/modules/5.4.54-yocto-standard/kernel/lttng-modules/lttng-wrapper.ko

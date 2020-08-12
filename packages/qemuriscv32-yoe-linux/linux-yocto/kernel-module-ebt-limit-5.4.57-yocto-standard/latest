@@ -1,0 +1,10 @@
+PV = 5.4.57+gitAUTOINC+4aeda12f7f_d3100abbe1
+PR = r0
+PKGV = 5.4.57+git0+4aeda12f7f_d3100abbe1
+PKGR = r0.1
+RPROVIDES = kernel-module-ebt-limit
+RDEPENDS = kernel-5.4.57-yocto-standard kernel-module-x-tables-5.4.57-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4660
+FILES = /lib/modules/5.4.57-yocto-standard/kernel/net/bridge/netfilter/ebt_limit.ko /etc/modules-load.d/ebt_limit.conf /etc/modprobe.d/ebt_limit.conf
+FILELIST = /lib/modules/5.4.57-yocto-standard/kernel/net/bridge/netfilter/ebt_limit.ko

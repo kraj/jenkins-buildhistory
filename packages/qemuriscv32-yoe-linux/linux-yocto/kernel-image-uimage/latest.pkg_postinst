@@ -1,12 +1,12 @@
 set -e
 set +e
 if [ -n "$D" ]; then
-    ln -sf uImage-5.4.54-yocto-standard $D/boot/uImage > /dev/null 2>&1
+    ln -sf uImage-5.4.57-yocto-standard $D/boot/uImage > /dev/null 2>&1
 else
-    ln -sf uImage-5.4.54-yocto-standard boot/uImage > /dev/null 2>&1
+    ln -sf uImage-5.4.57-yocto-standard boot/uImage > /dev/null 2>&1
     if [ $? -ne 0 ]; then
         echo "Filesystem on boot/ doesn't support symlinks, falling back to copied image (uImage)."
-        install -m 0644 boot/uImage-5.4.54-yocto-standard boot/uImage
+        install -m 0644 boot/uImage-5.4.57-yocto-standard boot/uImage
     fi
 fi
 set -e
