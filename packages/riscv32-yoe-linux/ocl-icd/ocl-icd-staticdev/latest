@@ -1,8 +1,9 @@
 PV = 2.2.12+gitAUTOINC+a9e57b199f
 PR = r0
+PKG = libopencl-staticdev
 PKGV = 2.2.12+git0+a9e57b199f
 PKGR = r0.0
-RPROVIDES = 
+RPROVIDES = ocl-icd-staticdev (=2.2.12+git0+a9e57b199f)
 RDEPENDS = ocl-icd-dev (= 2.2.12+git0+a9e57b199f-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0

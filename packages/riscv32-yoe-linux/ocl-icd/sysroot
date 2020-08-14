@@ -1,11 +1,12 @@
 drwxr-xr-x -          -                  60 ./sysroot-providers
 -rw-r--r-- -          -                   7 ./sysroot-providers/ocl-icd
 drwxr-xr-x -          -                 100 ./usr
-drwxr-xr-x -          -                  80 ./usr/include
-drwxr-xr-x -          -                  60 ./usr/include/CL
--rw-r--r-- -          -               54214 ./usr/include/CL/cl_icd.h
+drwxr-xr-x -          -                  60 ./usr/include
 -rw-r--r-- -          -               57909 ./usr/include/ocl_icd.h
-drwxr-xr-x -          -                  60 ./usr/lib
+drwxr-xr-x -          -                 120 ./usr/lib
+-rwxr-xr-x -          -               91424 ./usr/lib/libOpenCL.so.1.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libOpenCL.so.1 -> libOpenCL.so.1.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libOpenCL.so -> libOpenCL.so.1.0.0
 drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 221 ./usr/lib/pkgconfig/ocl-icd.pc
 -rw-r--r-- -          -                 225 ./usr/lib/pkgconfig/OpenCL.pc

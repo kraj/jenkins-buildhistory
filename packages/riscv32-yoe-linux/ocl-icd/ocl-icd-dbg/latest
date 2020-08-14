@@ -1,10 +1,11 @@
 PV = 2.2.12+gitAUTOINC+a9e57b199f
 PR = r0
+PKG = libopencl-dbg
 PKGV = 2.2.12+git0+a9e57b199f
 PKGR = r0.0
-RPROVIDES = 
+RPROVIDES = ocl-icd-dbg (=2.2.12+git0+a9e57b199f)
 RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 365512
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = 
+FILELIST = /usr/lib/.debug/libOpenCL.so.1.0.0
