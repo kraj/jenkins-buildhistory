@@ -1,9 +1,9 @@
-PV = 2.10
+PV = 2.14
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = fontconfig-dbg freetype-dbg giflib-dbg glibc-dbg libcurl-dbg libexif-dbg libjpeg-turbo-dbg libpng-dbg
-PKGSIZE = 664520
+RRECOMMENDS = cairo-dbg fontconfig-dbg freetype-dbg giflib-dbg glibc-dbg libdrm-dbg libepoxy-dbg libexif-dbg libgbm-dbg libjpeg-turbo-dbg libpng-dbg libpoppler-glib-dbg pixman-dbg tiff-dbg
+PKGSIZE = 824612
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/exiftran /usr/bin/.debug/fbi
+FILELIST = /usr/bin/.debug/exiftran /usr/bin/.debug/fbi /usr/bin/.debug/fbpdf
