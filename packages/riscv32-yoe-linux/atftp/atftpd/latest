@@ -6,6 +6,6 @@ RDEPENDS = glibc (>= 2.32) libwrap (>= 7.6)
 RRECOMMENDS = 
 RREPLACES = atftpd-systemd
 RCONFLICTS = atftpd-systemd
-PKGSIZE = 51033
+PKGSIZE = 51025
 FILES = /usr/sbin/* /etc /srv/tftp /lib/systemd/system/atftpd.service /lib/systemd/system-preset/98-atftpd.preset /lib/systemd/system/atftpd.service
 FILELIST = /lib/systemd/system-preset/98-atftpd.preset /lib/systemd/system/atftpd.service /usr/sbin/atftpd

@@ -5,6 +5,6 @@ PKGR = r0.0
 RPROVIDES = libevent-ptest (=2.1.12)
 RDEPENDS = glibc (>= 2.32) libevent libevent-core (>= 2.1.12) libevent-extra (>= 2.1.12) libevent-pthreads (>= 2.1.12) zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
-PKGSIZE = 631381
+PKGSIZE = 627257
 FILES = /usr/lib/libevent/ptest
 FILELIST = /usr/lib/libevent/ptest/run-ptest /usr/lib/libevent/ptest/test/regress /usr/lib/libevent/ptest/test/test-changelist /usr/lib/libevent/ptest/test/test-closed /usr/lib/libevent/ptest/test/test-dumpevents /usr/lib/libevent/ptest/test/test-eof /usr/lib/libevent/ptest/test/test-fdleak /usr/lib/libevent/ptest/test/test-init /usr/lib/libevent/ptest/test/test-ratelim /usr/lib/libevent/ptest/test/test-time /usr/lib/libevent/ptest/test/test-weof

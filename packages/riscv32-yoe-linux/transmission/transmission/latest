@@ -4,6 +4,6 @@ PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g) libcurl (>= 7.71.1) libevent (>= 2.1.12) libsystemd (>= 246) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 388368
+PKGSIZE = 388364
 FILES = /usr/bin/transmission-daemon /etc/init.d/transmission-daemon /lib/systemd/system-preset/98-transmission.preset /lib/systemd/system/transmission-daemon.service
 FILELIST = /lib/systemd/system-preset/98-transmission.preset /lib/systemd/system/transmission-daemon.service /usr/bin/transmission-daemon
