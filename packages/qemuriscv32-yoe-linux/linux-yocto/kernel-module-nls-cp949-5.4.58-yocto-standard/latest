@@ -1,0 +1,10 @@
+PV = 5.4.58+gitAUTOINC+83311f062f_706efec4c1
+PR = r0
+PKGV = 5.4.58+git0+83311f062f_706efec4c1
+PKGR = r0.1
+RPROVIDES = kernel-module-nls-cp949
+RDEPENDS = kernel-5.4.58-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 154384
+FILES = /lib/modules/5.4.58-yocto-standard/kernel/fs/nls/nls_cp949.ko /etc/modules-load.d/nls_cp949.conf /etc/modprobe.d/nls_cp949.conf
+FILELIST = /lib/modules/5.4.58-yocto-standard/kernel/fs/nls/nls_cp949.ko
