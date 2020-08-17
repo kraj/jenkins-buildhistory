@@ -22,7 +22,7 @@ drwxr-xr-x -          -                 760 ./usr/include/xmlrpc-c
 -rw-r--r-- -          -               16291 ./usr/include/xmlrpc-c/client.h
 -rw-r--r-- -          -                8931 ./usr/include/xmlrpc-c/client.hpp
 -rw-r--r-- -          -                1260 ./usr/include/xmlrpc-c/client_simple.hpp
--rw-r--r-- -          -               13608 ./usr/include/xmlrpc-c/client_transport.hpp
+-rw-r--r-- -          -               13535 ./usr/include/xmlrpc-c/client_transport.hpp
 -rw-r--r-- -          -                1188 ./usr/include/xmlrpc-c/config.h
 -rw-r--r-- -          -                 983 ./usr/include/xmlrpc-c/c_util.h
 lrwxrwxrwx -          -                  21 ./usr/include/xmlrpc_cgi.h -> xmlrpc-c/server_cgi.h
@@ -50,65 +50,65 @@ lrwxrwxrwx -          -                  20 ./usr/include/xmlrpc.h -> xmlrpc-c/o
 lrwxrwxrwx -          -                  17 ./usr/include/xmlrpc_server.h -> xmlrpc-c/server.h
 lrwxrwxrwx -          -                  28 ./usr/include/xmlrpc_server_w32httpsys.h -> xmlrpc-c/server_w32httpsys.h
 drwxr-xr-x -          -                1260 ./usr/lib
--rw-r--r-- -          -             1770854 ./usr/lib/libxmlrpc.a
--rw-r--r-- -          -             2392334 ./usr/lib/libxmlrpc++.a
+-rw-r--r-- -          -             1781182 ./usr/lib/libxmlrpc.a
+-rw-r--r-- -          -             2392024 ./usr/lib/libxmlrpc++.a
 -rw-r--r-- -          -              758218 ./usr/lib/libxmlrpc_client.a
 -rw-r--r-- -          -             2411632 ./usr/lib/libxmlrpc_client++.a
--rwxr-xr-x -          -               30096 ./usr/lib/libxmlrpc_client.so.3.51
-lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_client.so.3 -> libxmlrpc_client.so.3.51
--rwxr-xr-x -          -               83872 ./usr/lib/libxmlrpc_client++.so.8.51
-lrwxrwxrwx -          -                  26 ./usr/lib/libxmlrpc_client++.so.8 -> libxmlrpc_client++.so.8.51
+-rwxr-xr-x -          -               30096 ./usr/lib/libxmlrpc_client.so.3.54
+lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_client.so.3 -> libxmlrpc_client.so.3.54
+-rwxr-xr-x -          -               83872 ./usr/lib/libxmlrpc_client++.so.8.54
+lrwxrwxrwx -          -                  26 ./usr/lib/libxmlrpc_client++.so.8 -> libxmlrpc_client++.so.8.54
 lrwxrwxrwx -          -                  21 ./usr/lib/libxmlrpc_client.so -> libxmlrpc_client.so.3
 lrwxrwxrwx -          -                  23 ./usr/lib/libxmlrpc_client++.so -> libxmlrpc_client++.so.8
 -rw-r--r-- -          -              396088 ./usr/lib/libxmlrpc_cpp.a
--rwxr-xr-x -          -               21832 ./usr/lib/libxmlrpc_cpp.so.8.51
-lrwxrwxrwx -          -                  21 ./usr/lib/libxmlrpc_cpp.so.8 -> libxmlrpc_cpp.so.8.51
+-rwxr-xr-x -          -               21832 ./usr/lib/libxmlrpc_cpp.so.8.54
+lrwxrwxrwx -          -                  21 ./usr/lib/libxmlrpc_cpp.so.8 -> libxmlrpc_cpp.so.8.54
 lrwxrwxrwx -          -                  18 ./usr/lib/libxmlrpc_cpp.so -> libxmlrpc_cpp.so.8
--rw-r--r-- -          -              418580 ./usr/lib/libxmlrpc_packetsocket.a
--rwxr-xr-x -          -               22020 ./usr/lib/libxmlrpc_packetsocket.so.8.51
-lrwxrwxrwx -          -                  30 ./usr/lib/libxmlrpc_packetsocket.so.8 -> libxmlrpc_packetsocket.so.8.51
+-rw-r--r-- -          -              418856 ./usr/lib/libxmlrpc_packetsocket.a
+-rwxr-xr-x -          -               22020 ./usr/lib/libxmlrpc_packetsocket.so.8.54
+lrwxrwxrwx -          -                  30 ./usr/lib/libxmlrpc_packetsocket.so.8 -> libxmlrpc_packetsocket.so.8.54
 lrwxrwxrwx -          -                  27 ./usr/lib/libxmlrpc_packetsocket.so -> libxmlrpc_packetsocket.so.8
--rw-r--r-- -          -              302700 ./usr/lib/libxmlrpc_server.a
+-rw-r--r-- -          -              302696 ./usr/lib/libxmlrpc_server.a
 -rw-r--r-- -          -              561058 ./usr/lib/libxmlrpc_server++.a
 -rw-r--r-- -          -               66686 ./usr/lib/libxmlrpc_server_cgi.a
 -rw-r--r-- -          -              346890 ./usr/lib/libxmlrpc_server_cgi++.a
--rwxr-xr-x -          -                9324 ./usr/lib/libxmlrpc_server_cgi.so.3.51
-lrwxrwxrwx -          -                  28 ./usr/lib/libxmlrpc_server_cgi.so.3 -> libxmlrpc_server_cgi.so.3.51
--rwxr-xr-x -          -               13644 ./usr/lib/libxmlrpc_server_cgi++.so.8.51
-lrwxrwxrwx -          -                  30 ./usr/lib/libxmlrpc_server_cgi++.so.8 -> libxmlrpc_server_cgi++.so.8.51
+-rwxr-xr-x -          -                9324 ./usr/lib/libxmlrpc_server_cgi.so.3.54
+lrwxrwxrwx -          -                  28 ./usr/lib/libxmlrpc_server_cgi.so.3 -> libxmlrpc_server_cgi.so.3.54
+-rwxr-xr-x -          -               13644 ./usr/lib/libxmlrpc_server_cgi++.so.8.54
+lrwxrwxrwx -          -                  30 ./usr/lib/libxmlrpc_server_cgi++.so.8 -> libxmlrpc_server_cgi++.so.8.54
 lrwxrwxrwx -          -                  25 ./usr/lib/libxmlrpc_server_cgi.so -> libxmlrpc_server_cgi.so.3
 lrwxrwxrwx -          -                  27 ./usr/lib/libxmlrpc_server_cgi++.so -> libxmlrpc_server_cgi++.so.8
 -rw-r--r-- -          -              355966 ./usr/lib/libxmlrpc_server_pstream++.a
--rwxr-xr-x -          -               21916 ./usr/lib/libxmlrpc_server_pstream++.so.8.51
-lrwxrwxrwx -          -                  34 ./usr/lib/libxmlrpc_server_pstream++.so.8 -> libxmlrpc_server_pstream++.so.8.51
+-rwxr-xr-x -          -               21916 ./usr/lib/libxmlrpc_server_pstream++.so.8.54
+lrwxrwxrwx -          -                  34 ./usr/lib/libxmlrpc_server_pstream++.so.8 -> libxmlrpc_server_pstream++.so.8.54
 lrwxrwxrwx -          -                  31 ./usr/lib/libxmlrpc_server_pstream++.so -> libxmlrpc_server_pstream++.so.8
--rwxr-xr-x -          -               17576 ./usr/lib/libxmlrpc_server.so.3.51
-lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_server.so.3 -> libxmlrpc_server.so.3.51
--rwxr-xr-x -          -               26100 ./usr/lib/libxmlrpc_server++.so.8.51
-lrwxrwxrwx -          -                  26 ./usr/lib/libxmlrpc_server++.so.8 -> libxmlrpc_server++.so.8.51
+-rwxr-xr-x -          -               17576 ./usr/lib/libxmlrpc_server.so.3.54
+lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_server.so.3 -> libxmlrpc_server.so.3.54
+-rwxr-xr-x -          -               26100 ./usr/lib/libxmlrpc_server++.so.8.54
+lrwxrwxrwx -          -                  26 ./usr/lib/libxmlrpc_server++.so.8 -> libxmlrpc_server++.so.8.54
 lrwxrwxrwx -          -                  21 ./usr/lib/libxmlrpc_server.so -> libxmlrpc_server.so.3
 lrwxrwxrwx -          -                  23 ./usr/lib/libxmlrpc_server++.so -> libxmlrpc_server++.so.8
--rwxr-xr-x -          -               67284 ./usr/lib/libxmlrpc.so.3.51
-lrwxrwxrwx -          -                  17 ./usr/lib/libxmlrpc.so.3 -> libxmlrpc.so.3.51
--rwxr-xr-x -          -               63228 ./usr/lib/libxmlrpc++.so.8.51
-lrwxrwxrwx -          -                  19 ./usr/lib/libxmlrpc++.so.8 -> libxmlrpc++.so.8.51
+-rwxr-xr-x -          -               67280 ./usr/lib/libxmlrpc.so.3.54
+lrwxrwxrwx -          -                  17 ./usr/lib/libxmlrpc.so.3 -> libxmlrpc.so.3.54
+-rwxr-xr-x -          -               63192 ./usr/lib/libxmlrpc++.so.8.54
+lrwxrwxrwx -          -                  19 ./usr/lib/libxmlrpc++.so.8 -> libxmlrpc++.so.8.54
 lrwxrwxrwx -          -                  14 ./usr/lib/libxmlrpc.so -> libxmlrpc.so.3
 lrwxrwxrwx -          -                  16 ./usr/lib/libxmlrpc++.so -> libxmlrpc++.so.8
 -rw-r--r-- -          -              292390 ./usr/lib/libxmlrpc_util.a
 -rw-r--r-- -          -              725210 ./usr/lib/libxmlrpc_util++.a
--rwxr-xr-x -          -               17580 ./usr/lib/libxmlrpc_util.so.4.51
-lrwxrwxrwx -          -                  22 ./usr/lib/libxmlrpc_util.so.4 -> libxmlrpc_util.so.4.51
--rwxr-xr-x -          -               17744 ./usr/lib/libxmlrpc_util++.so.8.51
-lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_util++.so.8 -> libxmlrpc_util++.so.8.51
+-rwxr-xr-x -          -               17580 ./usr/lib/libxmlrpc_util.so.4.54
+lrwxrwxrwx -          -                  22 ./usr/lib/libxmlrpc_util.so.4 -> libxmlrpc_util.so.4.54
+-rwxr-xr-x -          -               17744 ./usr/lib/libxmlrpc_util++.so.8.54
+lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_util++.so.8 -> libxmlrpc_util++.so.8.54
 lrwxrwxrwx -          -                  19 ./usr/lib/libxmlrpc_util.so -> libxmlrpc_util.so.4
 lrwxrwxrwx -          -                  21 ./usr/lib/libxmlrpc_util++.so -> libxmlrpc_util++.so.8
 -rw-r--r-- -          -              924246 ./usr/lib/libxmlrpc_xmlparse.a
--rwxr-xr-x -          -               34028 ./usr/lib/libxmlrpc_xmlparse.so.3.51
-lrwxrwxrwx -          -                  26 ./usr/lib/libxmlrpc_xmlparse.so.3 -> libxmlrpc_xmlparse.so.3.51
+-rwxr-xr-x -          -               34028 ./usr/lib/libxmlrpc_xmlparse.so.3.54
+lrwxrwxrwx -          -                  26 ./usr/lib/libxmlrpc_xmlparse.so.3 -> libxmlrpc_xmlparse.so.3.54
 lrwxrwxrwx -          -                  23 ./usr/lib/libxmlrpc_xmlparse.so -> libxmlrpc_xmlparse.so.3
--rw-r--r-- -          -             1522498 ./usr/lib/libxmlrpc_xmltok.a
--rwxr-xr-x -          -               78960 ./usr/lib/libxmlrpc_xmltok.so.3.51
-lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_xmltok.so.3 -> libxmlrpc_xmltok.so.3.51
+-rw-r--r-- -          -             1534950 ./usr/lib/libxmlrpc_xmltok.a
+-rwxr-xr-x -          -               78960 ./usr/lib/libxmlrpc_xmltok.so.3.54
+lrwxrwxrwx -          -                  24 ./usr/lib/libxmlrpc_xmltok.so.3 -> libxmlrpc_xmltok.so.3.54
 lrwxrwxrwx -          -                  21 ./usr/lib/libxmlrpc_xmltok.so -> libxmlrpc_xmltok.so.3
 drwxr-xr-x -          -                 280 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 184 ./usr/lib/pkgconfig/xmlrpc_client.pc
