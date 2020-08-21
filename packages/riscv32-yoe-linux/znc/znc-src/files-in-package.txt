@@ -5,7 +5,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/znc
 drwxr-xr-x root       root               60 ./usr/src/debug/znc/1.7.5-r0
 drwxr-xr-x root       root              100 ./usr/src/debug/znc/1.7.5-r0/git
 drwxr-xr-x root       root               60 ./usr/src/debug/znc/1.7.5-r0/git/include
-drwxr-xr-x root       root              660 ./usr/src/debug/znc/1.7.5-r0/git/include/znc
+drwxr-xr-x root       root              640 ./usr/src/debug/znc/1.7.5-r0/git/include/znc
 -rw-r--r-- root       root             4056 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Buffer.h
 -rw-r--r-- root       root             7159 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Chan.h
 -rw-r--r-- root       root            13843 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Client.h
@@ -26,7 +26,6 @@ drwxr-xr-x root       root              660 ./usr/src/debug/znc/1.7.5-r0/git/inc
 -rw-r--r-- root       root             1285 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Server.h
 -rw-r--r-- root       root             2558 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/SHA256.h
 -rw-r--r-- root       root            11232 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Socket.h
--rw-r--r-- root       root              926 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/SSLVerifyHost.h
 -rw-r--r-- root       root             7277 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Template.h
 -rw-r--r-- root       root             4980 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Threads.h
 -rw-r--r-- root       root             3913 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/Translation.h
@@ -37,7 +36,7 @@ drwxr-xr-x root       root              660 ./usr/src/debug/znc/1.7.5-r0/git/inc
 -rw-r--r-- root       root             1807 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/ZNCDebug.h
 -rw-r--r-- root       root            11980 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/znc.h
 -rw-r--r-- root       root            29485 ./usr/src/debug/znc/1.7.5-r0/git/include/znc/ZNCString.h
-drwxr-xr-x root       root             1140 ./usr/src/debug/znc/1.7.5-r0/git/modules
+drwxr-xr-x root       root             1020 ./usr/src/debug/znc/1.7.5-r0/git/modules
 -rw-r--r-- root       root             3328 ./usr/src/debug/znc/1.7.5-r0/git/modules/admindebug.cpp
 -rw-r--r-- root       root             7086 ./usr/src/debug/znc/1.7.5-r0/git/modules/adminlog.cpp
 -rw-r--r-- root       root            14846 ./usr/src/debug/znc/1.7.5-r0/git/modules/alias.cpp
@@ -47,18 +46,14 @@ drwxr-xr-x root       root             1140 ./usr/src/debug/znc/1.7.5-r0/git/mod
 -rw-r--r-- root       root             3085 ./usr/src/debug/znc/1.7.5-r0/git/modules/autoreply.cpp
 -rw-r--r-- root       root            10854 ./usr/src/debug/znc/1.7.5-r0/git/modules/autovoice.cpp
 -rw-r--r-- root       root             1106 ./usr/src/debug/znc/1.7.5-r0/git/modules/awaynick.cpp
--rw-r--r-- root       root            16904 ./usr/src/debug/znc/1.7.5-r0/git/modules/awaystore.cpp
 -rw-r--r-- root       root             3076 ./usr/src/debug/znc/1.7.5-r0/git/modules/block_motd.cpp
 -rw-r--r-- root       root             7624 ./usr/src/debug/znc/1.7.5-r0/git/modules/blockuser.cpp
 -rw-r--r-- root       root            20994 ./usr/src/debug/znc/1.7.5-r0/git/modules/bouncedcc.cpp
 -rw-r--r-- root       root             4434 ./usr/src/debug/znc/1.7.5-r0/git/modules/buffextras.cpp
--rw-r--r-- root       root             8922 ./usr/src/debug/znc/1.7.5-r0/git/modules/certauth.cpp
--rw-r--r-- root       root             3293 ./usr/src/debug/znc/1.7.5-r0/git/modules/cert.cpp
 -rw-r--r-- root       root             2803 ./usr/src/debug/znc/1.7.5-r0/git/modules/chansaver.cpp
 -rw-r--r-- root       root             4684 ./usr/src/debug/znc/1.7.5-r0/git/modules/clearbufferonmsg.cpp
 -rw-r--r-- root       root             5386 ./usr/src/debug/znc/1.7.5-r0/git/modules/clientnotify.cpp
 -rw-r--r-- root       root            62739 ./usr/src/debug/znc/1.7.5-r0/git/modules/controlpanel.cpp
--rw-r--r-- root       root            17701 ./usr/src/debug/znc/1.7.5-r0/git/modules/crypt.cpp
 -rw-r--r-- root       root             4984 ./usr/src/debug/znc/1.7.5-r0/git/modules/ctcpflood.cpp
 -rw-r--r-- root       root            21084 ./usr/src/debug/znc/1.7.5-r0/git/modules/dcc.cpp
 -rw-r--r-- root       root             1570 ./usr/src/debug/znc/1.7.5-r0/git/modules/disconkick.cpp
@@ -84,8 +79,6 @@ drwxr-xr-x root       root             1140 ./usr/src/debug/znc/1.7.5-r0/git/mod
 -rw-r--r-- root       root            11249 ./usr/src/debug/znc/1.7.5-r0/git/modules/sample.cpp
 -rw-r--r-- root       root             1760 ./usr/src/debug/znc/1.7.5-r0/git/modules/samplewebapi.cpp
 -rw-r--r-- root       root            11202 ./usr/src/debug/znc/1.7.5-r0/git/modules/sasl.cpp
--rw-r--r-- root       root            12129 ./usr/src/debug/znc/1.7.5-r0/git/modules/savebuff.cpp
--rw-r--r-- root       root            16363 ./usr/src/debug/znc/1.7.5-r0/git/modules/schat.cpp
 -rw-r--r-- root       root             5762 ./usr/src/debug/znc/1.7.5-r0/git/modules/send_raw.cpp
 -rw-r--r-- root       root             5151 ./usr/src/debug/znc/1.7.5-r0/git/modules/shell.cpp
 -rw-r--r-- root       root             8384 ./usr/src/debug/znc/1.7.5-r0/git/modules/simple_away.cpp
@@ -93,7 +86,7 @@ drwxr-xr-x root       root             1140 ./usr/src/debug/znc/1.7.5-r0/git/mod
 -rw-r--r-- root       root             1953 ./usr/src/debug/znc/1.7.5-r0/git/modules/stripcontrols.cpp
 -rw-r--r-- root       root            26598 ./usr/src/debug/znc/1.7.5-r0/git/modules/watch.cpp
 -rw-r--r-- root       root            80343 ./usr/src/debug/znc/1.7.5-r0/git/modules/webadmin.cpp
-drwxr-xr-x root       root              660 ./usr/src/debug/znc/1.7.5-r0/git/src
+drwxr-xr-x root       root              640 ./usr/src/debug/znc/1.7.5-r0/git/src
 -rw-r--r-- root       root             5220 ./usr/src/debug/znc/1.7.5-r0/git/src/Buffer.cpp
 -rw-r--r-- root       root            22649 ./usr/src/debug/znc/1.7.5-r0/git/src/Chan.cpp
 -rw-r--r-- root       root            70517 ./usr/src/debug/znc/1.7.5-r0/git/src/ClientCommand.cpp
@@ -114,7 +107,6 @@ drwxr-xr-x root       root              660 ./usr/src/debug/znc/1.7.5-r0/git/src
 -rw-r--r-- root       root             1518 ./usr/src/debug/znc/1.7.5-r0/git/src/Server.cpp
 -rw-r--r-- root       root             7577 ./usr/src/debug/znc/1.7.5-r0/git/src/SHA256.cpp
 -rw-r--r-- root       root            22282 ./usr/src/debug/znc/1.7.5-r0/git/src/Socket.cpp
--rw-r--r-- root       root            16010 ./usr/src/debug/znc/1.7.5-r0/git/src/SSLVerifyHost.cpp
 -rw-r--r-- root       root            33508 ./usr/src/debug/znc/1.7.5-r0/git/src/Template.cpp
 -rw-r--r-- root       root             7887 ./usr/src/debug/znc/1.7.5-r0/git/src/Threads.cpp
 -rw-r--r-- root       root             5360 ./usr/src/debug/znc/1.7.5-r0/git/src/Translation.cpp
