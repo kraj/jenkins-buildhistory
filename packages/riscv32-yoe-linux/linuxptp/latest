@@ -1,0 +1,6 @@
+PV = 3.0
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = linuxptp-src linuxptp-dbg linuxptp-staticdev linuxptp-dev linuxptp-doc linuxptp-locale linuxptp
+LAYER = openembedded-layer
+CONFIG = 

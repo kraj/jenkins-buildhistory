@@ -14,7 +14,7 @@ drwxr-xr-x -          -                  60 ./lib/modprobe.d
 drwxr-xr-x -          -                  60 ./lib/security
 -rwxr-xr-x -          -              388828 ./lib/security/pam_systemd.so
 drwxr-xr-x -          -                1140 ./lib/systemd
--rwxr-xr-x -          -             1734452 ./lib/systemd/libsystemd-shared-246.so
+-rwxr-xr-x -          -             1734456 ./lib/systemd/libsystemd-shared-246.so
 drwxr-xr-x -          -                 200 ./lib/systemd/network
 -rw-r--r-- -          -                 645 ./lib/systemd/network/80-container-host0.network
 -rw-r--r-- -          -                 718 ./lib/systemd/network/80-container-ve.network
@@ -385,14 +385,14 @@ drwxr-xr-x -          -                  80 ./sysroot-providers
 -rw-r--r-- -          -                   7 ./sysroot-providers/udev
 drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                  60 ./usr/bin
--rwxr-xr-x -          -               14146 ./usr/bin/postinst-useradd-systemd
+-rwxr-xr-x -          -               14164 ./usr/bin/postinst-useradd-systemd
 drwxr-xr-x -          -                  80 ./usr/include
 -rw-r--r-- -          -                9617 ./usr/include/libudev.h
 drwxr-xr-x -          -                 300 ./usr/include/systemd
 -rw-r--r-- -          -               29542 ./usr/include/systemd/sd-bus.h
 -rw-r--r-- -          -                5073 ./usr/include/systemd/sd-bus-protocol.h
 -rw-r--r-- -          -               19857 ./usr/include/systemd/sd-bus-vtable.h
--rw-r--r-- -          -                3402 ./usr/include/systemd/_sd-common.h
+-rw-r--r-- -          -                3428 ./usr/include/systemd/_sd-common.h
 -rw-r--r-- -          -               13604 ./usr/include/systemd/sd-daemon.h
 -rw-r--r-- -          -                5984 ./usr/include/systemd/sd-device.h
 -rw-r--r-- -          -                7795 ./usr/include/systemd/sd-event.h
@@ -532,7 +532,7 @@ drwxr-xr-x -          -                  80 ./usr/share/factory/etc/pam.d
 -rw-r--r-- -          -                 149 ./usr/share/factory/etc/pam.d/other
 -rw-r--r-- -          -                 767 ./usr/share/factory/etc/pam.d/system-auth
 drwxr-xr-x -          -                  80 ./usr/share/pkgconfig
--rw-r--r-- -          -                3623 ./usr/share/pkgconfig/systemd.pc
+-rw-r--r-- -          -                3607 ./usr/share/pkgconfig/systemd.pc
 -rw-r--r-- -          -                  82 ./usr/share/pkgconfig/udev.pc
 drwxr-xr-x -          -                  80 ./usr/share/polkit-1
 drwxr-xr-x -          -                 200 ./usr/share/polkit-1/actions
