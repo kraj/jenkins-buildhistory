@@ -1,0 +1,6 @@
+PV = 2.1.2
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = speedtest-cli-src speedtest-cli-dbg speedtest-cli-staticdev speedtest-cli-dev speedtest-cli-doc speedtest-cli-locale speedtest-cli
+LAYER = openembedded-layer
+CONFIG = 

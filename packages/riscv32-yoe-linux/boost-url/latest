@@ -1,0 +1,6 @@
+PV = git
+PR = r0
+DEPENDS = boost cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = boost-url-src boost-url-dbg boost-url-staticdev boost-url-dev boost-url-doc boost-url-locale boost-url
+LAYER = openembedded-layer
+CONFIG = 

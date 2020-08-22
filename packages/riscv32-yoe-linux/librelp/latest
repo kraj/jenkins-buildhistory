@@ -1,0 +1,6 @@
+PV = 1.6.0
+PR = r0
+DEPENDS = autoconf-native automake-native gmp gnu-config-native gnutls libidn libtool-cross libtool-native nettle openssl pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
+PACKAGES = librelp-src librelp-dbg librelp-staticdev librelp-dev librelp-doc librelp-locale librelp
+LAYER = openembedded-layer
+CONFIG = 

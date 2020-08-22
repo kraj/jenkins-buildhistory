@@ -1,0 +1,6 @@
+PV = 0.5.2
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libftdi libserialport libtool-cross libtool-native libusb libzip pkgconfig-native shared-mime-info virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libsigrok-src libsigrok-dbg libsigrok-staticdev libsigrok-dev libsigrok-doc libsigrok-locale libsigrok
+LAYER = openembedded-layer
+CONFIG = ftdi serialport usb

@@ -1,0 +1,6 @@
+PV = 4.9.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cross libtool-native openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = tcpdump-src tcpdump-dbg tcpdump-ptest tcpdump-staticdev tcpdump-dev tcpdump-doc tcpdump-locale tcpdump
+LAYER = networking-layer
+CONFIG = openssl
