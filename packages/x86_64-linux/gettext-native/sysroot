@@ -3,11 +3,11 @@ drwxr-xr-x -          -                  80 ./sysroot-providers
 -rw-r--r-- -          -                  14 ./sysroot-providers/virtual_gettext-native
 drwxr-xr-x -          -                 120 ./usr
 drwxr-xr-x -          -                 500 ./usr/bin
--rwxr-xr-x -          -               27063 ./usr/bin/autopoint
+-rwxr-xr-x -          -               27070 ./usr/bin/autopoint
 -rwxr-xr-x -          -               36960 ./usr/bin/envsubst
 -rwxr-xr-x -          -               36960 ./usr/bin/gettext
--rwxr-xr-x -          -               42389 ./usr/bin/gettextize
--rwxr-xr-x -          -                5190 ./usr/bin/gettext.sh
+-rwxr-xr-x -          -               42385 ./usr/bin/gettextize
+-rwxr-xr-x -          -                5188 ./usr/bin/gettext.sh
 -rwxr-xr-x -          -               24672 ./usr/bin/msgattrib
 -rwxr-xr-x -          -               24672 ./usr/bin/msgcat
 -rwxr-xr-x -          -               24672 ./usr/bin/msgcmp
@@ -16,20 +16,20 @@ drwxr-xr-x -          -                 500 ./usr/bin
 -rwxr-xr-x -          -               20576 ./usr/bin/msgen
 -rwxr-xr-x -          -               20576 ./usr/bin/msgexec
 -rwxr-xr-x -          -               28768 ./usr/bin/msgfilter
--rwxrwxr-x -          -                 169 ./usr/bin/msgfmt
+-rwxrwxr-x -          -                 167 ./usr/bin/msgfmt
 -rwxr-xr-x -          -               82016 ./usr/bin/msgfmt.real
 -rwxr-xr-x -          -              106592 ./usr/bin/msggrep
 -rwxr-xr-x -          -               65632 ./usr/bin/msginit
 -rwxr-xr-x -          -               69728 ./usr/bin/msgmerge
--rwxr-xr-x -          -               32864 ./usr/bin/msgunfmt
+-rwxr-xr-x -          -               36960 ./usr/bin/msgunfmt
 -rwxr-xr-x -          -               24672 ./usr/bin/msguniq
 -rwxr-xr-x -          -               36960 ./usr/bin/ngettext
 -rwxr-xr-x -          -               16480 ./usr/bin/recode-sr-latin
--rwxr-xr-x -          -              278624 ./usr/bin/xgettext
+-rwxr-xr-x -          -              286816 ./usr/bin/xgettext
 drwxr-xr-x -          -                 100 ./usr/include
--rw-r--r-- -          -               15546 ./usr/include/gettext-po.h
+-rw-r--r-- -          -               15548 ./usr/include/gettext-po.h
 drwxrwxr-x -          -                 100 ./usr/include/textstyle
--rw-r--r-- -          -               20574 ./usr/include/textstyle.h
+-rw-r--r-- -          -               22817 ./usr/include/textstyle.h
 -rw-r--r-- -          -                4315 ./usr/include/textstyle/stdbool.h
 -rw-r--r-- -          -                1348 ./usr/include/textstyle/version.h
 -rw-r--r-- -          -                1155 ./usr/include/textstyle/woe32dll.h
@@ -40,32 +40,32 @@ drwxrwxr-x -          -                 140 ./usr/lib/gettext
 -rwxr-xr-x -          -                2740 ./usr/lib/gettext/project-id
 -rwxr-xr-x -          -               16480 ./usr/lib/gettext/urlget
 -rwxr-xr-x -          -               14555 ./usr/lib/gettext/user-email
--rwxr-xr-x -          -             1427320 ./usr/lib/libgettextlib-0.20.2.so
-lrwxrwxrwx -          -                  23 ./usr/lib/libgettextlib.so -> libgettextlib-0.20.2.so
--rwxr-xr-x -          -              383968 ./usr/lib/libgettextpo.so.0.5.6
-lrwxrwxrwx -          -                  21 ./usr/lib/libgettextpo.so.0 -> libgettextpo.so.0.5.6
-lrwxrwxrwx -          -                  21 ./usr/lib/libgettextpo.so -> libgettextpo.so.0.5.6
--rwxr-xr-x -          -              314640 ./usr/lib/libgettextsrc-0.20.2.so
-lrwxrwxrwx -          -                  23 ./usr/lib/libgettextsrc.so -> libgettextsrc-0.20.2.so
--rwxr-xr-x -          -              602280 ./usr/lib/libtextstyle.so.0.0.1
-lrwxrwxrwx -          -                  21 ./usr/lib/libtextstyle.so.0 -> libtextstyle.so.0.0.1
-lrwxrwxrwx -          -                  21 ./usr/lib/libtextstyle.so -> libtextstyle.so.0.0.1
+-rwxr-xr-x -          -             1456216 ./usr/lib/libgettextlib-0.21.so
+lrwxrwxrwx -          -                  21 ./usr/lib/libgettextlib.so -> libgettextlib-0.21.so
+-rwxr-xr-x -          -              396352 ./usr/lib/libgettextpo.so.0.5.7
+lrwxrwxrwx -          -                  21 ./usr/lib/libgettextpo.so.0 -> libgettextpo.so.0.5.7
+lrwxrwxrwx -          -                  21 ./usr/lib/libgettextpo.so -> libgettextpo.so.0.5.7
+-rwxr-xr-x -          -              327120 ./usr/lib/libgettextsrc-0.21.so
+lrwxrwxrwx -          -                  21 ./usr/lib/libgettextsrc.so -> libgettextsrc-0.21.so
+-rwxr-xr-x -          -              614728 ./usr/lib/libtextstyle.so.0.1.1
+lrwxrwxrwx -          -                  21 ./usr/lib/libtextstyle.so.0 -> libtextstyle.so.0.1.1
+lrwxrwxrwx -          -                  21 ./usr/lib/libtextstyle.so -> libtextstyle.so.0.1.1
 drwxr-xr-x -          -                 100 ./usr/share
 drwxrwxr-x -          -                  40 ./usr/share/aclocal
 drwxrwxr-x -          -                 200 ./usr/share/gettext
-drwxrwxr-x -          -                  60 ./usr/share/gettext-0.20.2
-drwxrwxr-x -          -                 200 ./usr/share/gettext-0.20.2/its
--rw-r--r-- -          -                1629 ./usr/share/gettext-0.20.2/its/glade1.its
--rw-r--r-- -          -                2028 ./usr/share/gettext-0.20.2/its/glade2.its
--rw-r--r-- -          -                1345 ./usr/share/gettext-0.20.2/its/glade.loc
--rw-r--r-- -          -                1402 ./usr/share/gettext-0.20.2/its/gsettings.its
--rw-r--r-- -          -                 952 ./usr/share/gettext-0.20.2/its/gsettings.loc
--rw-r--r-- -          -                1519 ./usr/share/gettext-0.20.2/its/gtkbuilder.its
--rw-r--r-- -          -                1264 ./usr/share/gettext-0.20.2/its/metainfo.its
--rw-r--r-- -          -                1094 ./usr/share/gettext-0.20.2/its/metainfo.loc
+drwxrwxr-x -          -                  60 ./usr/share/gettext-0.21
+drwxrwxr-x -          -                 200 ./usr/share/gettext-0.21/its
+-rw-r--r-- -          -                1629 ./usr/share/gettext-0.21/its/glade1.its
+-rw-r--r-- -          -                2028 ./usr/share/gettext-0.21/its/glade2.its
+-rw-r--r-- -          -                1345 ./usr/share/gettext-0.21/its/glade.loc
+-rw-r--r-- -          -                1402 ./usr/share/gettext-0.21/its/gsettings.its
+-rw-r--r-- -          -                 952 ./usr/share/gettext-0.21/its/gsettings.loc
+-rw-r--r-- -          -                1519 ./usr/share/gettext-0.21/its/gtkbuilder.its
+-rw-r--r-- -          -                1264 ./usr/share/gettext-0.21/its/metainfo.its
+-rw-r--r-- -          -                1094 ./usr/share/gettext-0.21/its/metainfo.loc
 -rw-r--r-- -          -                  67 ./usr/share/gettext/ABOUT-NLS
--rw-r--r-- -          -              406560 ./usr/share/gettext/archive.dir.tar.xz
--rw-r--r-- -          -               10365 ./usr/share/gettext/gettext.h
+-rw-r--r-- -          -              407064 ./usr/share/gettext/archive.dir.tar.xz
+-rw-r--r-- -          -               10785 ./usr/share/gettext/gettext.h
 -rw-r--r-- -          -                 510 ./usr/share/gettext/javaversion.class
 -rw-r--r-- -          -                2477 ./usr/share/gettext/msgunfmt.tcl
 drwxrwxr-x -          -                 180 ./usr/share/gettext/po

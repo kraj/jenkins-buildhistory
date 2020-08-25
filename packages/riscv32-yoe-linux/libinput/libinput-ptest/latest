@@ -1,9 +1,9 @@
-PV = 1.16.0
+PV = 1.16.1
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.32) libcheck (>= 0.15.0) libevdev (>= 1.9.1) libinput (>= 1.16.0) libsystemd (>= 246.2) libudev (>= 246.2)
+RDEPENDS = glibc (>= 2.32) libcheck (>= 0.15.2) libevdev (>= 1.9.1) libinput (>= 1.16.1) libsystemd (>= 246.2) libudev (>= 246.2)
 RRECOMMENDS = ptest-runner
-PKGSIZE = 738006
+PKGSIZE = 735238
 FILES = /usr/lib/libinput/ptest /usr/libexec/libinput/libinput-test-suite
 FILELIST = /usr/lib/libinput/ptest/run-ptest /usr/libexec/libinput/libinput-test-suite
