@@ -1,0 +1,10 @@
+PV = 5.4.60+gitAUTOINC+96bf76ffc2_60fc5f2c61
+PR = r0
+PKGV = 5.4.60+git0+96bf76ffc2_60fc5f2c61
+PKGR = r0.1
+RPROVIDES = kernel-module-nls-koi8-ru
+RDEPENDS = kernel-5.4.60-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4084
+FILES = /lib/modules/5.4.60-yocto-standard/kernel/fs/nls/nls_koi8-ru.ko /etc/modules-load.d/nls_koi8-ru.conf /etc/modprobe.d/nls_koi8-ru.conf
+FILELIST = /lib/modules/5.4.60-yocto-standard/kernel/fs/nls/nls_koi8-ru.ko

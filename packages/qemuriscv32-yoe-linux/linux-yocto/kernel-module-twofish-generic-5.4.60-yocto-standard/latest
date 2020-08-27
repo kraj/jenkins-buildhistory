@@ -1,0 +1,10 @@
+PV = 5.4.60+gitAUTOINC+96bf76ffc2_60fc5f2c61
+PR = r0
+PKGV = 5.4.60+git0+96bf76ffc2_60fc5f2c61
+PKGR = r0.1
+RPROVIDES = kernel-module-twofish-generic
+RDEPENDS = kernel-5.4.60-yocto-standard kernel-module-twofish-common-5.4.60-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10228
+FILES = /lib/modules/5.4.60-yocto-standard/kernel/crypto/twofish_generic.ko /etc/modules-load.d/twofish_generic.conf /etc/modprobe.d/twofish_generic.conf
+FILELIST = /lib/modules/5.4.60-yocto-standard/kernel/crypto/twofish_generic.ko
