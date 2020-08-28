@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glib-2.0-dbg glibc-dbg gstreamer1.0-dbg jansson-dbg json-glib-dbg libdaemon-dbg readline-dbg
 PKGSIZE = 857196
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/gst-client-1.0 /usr/bin/.debug/gstd /usr/lib/.debug/libgstc-1.0.so.0.0.0 /usr/lib/.debug/libgstd-core.so.0.0.0
+FILELIST = /etc/tmpfiles.d/gstd.conf /usr/bin/gst-client /usr/bin/gst-client-1.0 /usr/bin/gstd /usr/bin/gstd-client /usr/lib/libgstc-1.0.so.0 /usr/lib/libgstc-1.0.so.0.0.0 /usr/lib/libgstd-core.so.0 /usr/lib/libgstd-core.so.0.0.0

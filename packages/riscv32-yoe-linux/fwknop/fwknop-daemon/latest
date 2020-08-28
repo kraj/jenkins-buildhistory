@@ -7,4 +7,4 @@ RDEPENDS = fwknop (>= 2.6.10) glibc (>= 2.32) libpcap (>= 1.9.1)
 RRECOMMENDS = 
 PKGSIZE = 133227
 FILES = /usr/sbin/fwknopd /etc/fwknop/access.conf /etc/fwknop/fwknopd.conf
-FILELIST = /etc/fwknop/access.conf /etc/fwknop/fwknopd.conf /usr/sbin/fwknopd
+FILELIST = /usr/lib/libfko.so.3 /usr/lib/libfko.so.3.0.0

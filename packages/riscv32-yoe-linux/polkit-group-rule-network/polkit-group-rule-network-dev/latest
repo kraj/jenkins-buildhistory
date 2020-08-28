@@ -6,4 +6,4 @@ RDEPENDS = polkit-group-rule-network (= 1.0-r0.0)
 RRECOMMENDS = base-files-dev base-passwd-dev polkit-dev shadow-dev shadow-sysroot-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/polkit-group-rule-network/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules

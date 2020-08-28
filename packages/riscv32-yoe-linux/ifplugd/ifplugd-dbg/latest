@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libdaemon-dbg
 PKGSIZE = 120896
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/ifplugd /usr/sbin/.debug/ifplugstatus
+FILELIST = /etc/ifplugd/ifplugd.action /etc/ifplugd/ifplugd.conf /etc/init.d/ifplugd /usr/sbin/ifplugd /usr/sbin/ifplugstatus

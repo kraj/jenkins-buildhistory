@@ -7,4 +7,4 @@ RDEPENDS = tslib (= 1.22-r0.0)
 RRECOMMENDS = glibc-dev tslib-conf-dev
 PKGSIZE = 5848
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tslib/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/ts/*.la
-FILELIST = /usr/include/tslib.h /usr/lib/libts.so /usr/lib/pkgconfig/tslib.pc
+FILELIST = /usr/lib/libts.so.0 /usr/lib/libts.so.0.10.4 /usr/lib/ts/debounce.so /usr/lib/ts/dejitter.so /usr/lib/ts/evthres.so /usr/lib/ts/iir.so /usr/lib/ts/input.so /usr/lib/ts/invert.so /usr/lib/ts/linear.so /usr/lib/ts/lowpass.so /usr/lib/ts/median.so /usr/lib/ts/pthres.so /usr/lib/ts/skip.so /usr/lib/ts/touchkit.so /usr/lib/ts/variance.so /usr/lib/ts/waveshare.so

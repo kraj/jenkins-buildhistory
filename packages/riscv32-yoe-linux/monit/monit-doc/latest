@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 162045
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/monit.1
+FILELIST = /etc/monitrc /lib/systemd/system-preset/98-monit.preset /lib/systemd/system/monit.service /usr/bin/monit

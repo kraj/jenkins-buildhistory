@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 68640
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/usb-modeswitch/2.6.0-r0/usb-modeswitch-2.6.0/usb_modeswitch.c /usr/src/debug/usb-modeswitch/2.6.0-r0/usb-modeswitch-2.6.0/usb_modeswitch.h
+FILELIST = /etc/usb_modeswitch.conf /lib/systemd/system-preset/98-usb-modeswitch.preset /lib/systemd/system/usb_modeswitch@.service /lib/udev/usb_modeswitch /usr/sbin/usb_modeswitch /usr/sbin/usb_modeswitch_dispatcher

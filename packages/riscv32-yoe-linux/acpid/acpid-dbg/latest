@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 260072
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/acpi_listen /usr/sbin/.debug/acpid /usr/sbin/.debug/kacpimon
+FILELIST = /lib/systemd/system-preset/98-acpid.preset /lib/systemd/system/acpid.service /usr/bin/acpi_listen /usr/sbin/acpid /usr/sbin/kacpimon

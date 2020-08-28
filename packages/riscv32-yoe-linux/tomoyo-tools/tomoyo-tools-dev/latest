@@ -6,4 +6,4 @@ RDEPENDS = tomoyo-tools (= 2.5.0-r0.0)
 RRECOMMENDS = glibc-dev linux-libc-headers-dev ncurses-dev ncurses-libncurses-dev ncurses-libtinfo-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tomoyo-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /sbin/tomoyo-init /usr/lib/libtomoyotools.so.3 /usr/lib/libtomoyotools.so.3.0.3 /usr/lib/tomoyo/COPYING.tomoyo /usr/lib/tomoyo/README.tomoyo /usr/lib/tomoyo/audit-exec-param /usr/lib/tomoyo/convert-audit-log /usr/lib/tomoyo/convert-exec-param /usr/lib/tomoyo/init_policy /usr/lib/tomoyo/tomoyo-editpolicy-agent /usr/sbin/tomoyo-auditd /usr/sbin/tomoyo-checkpolicy /usr/sbin/tomoyo-diffpolicy /usr/sbin/tomoyo-domainmatch /usr/sbin/tomoyo-editpolicy /usr/sbin/tomoyo-findtemp /usr/sbin/tomoyo-loadpolicy /usr/sbin/tomoyo-notifyd /usr/sbin/tomoyo-patternize /usr/sbin/tomoyo-pstree /usr/sbin/tomoyo-queryd /usr/sbin/tomoyo-savepolicy /usr/sbin/tomoyo-selectpolicy /usr/sbin/tomoyo-setlevel /usr/sbin/tomoyo-setprofile /usr/sbin/tomoyo-sortpolicy

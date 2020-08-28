@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcrypto-dbg readline-dbg
 PKGSIZE = 3664696
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/ipmitool /usr/sbin/.debug/ipmievd
+FILELIST = /usr/bin/ipmitool /usr/sbin/ipmievd /usr/share/ipmitool/oem_ibm_sel_map

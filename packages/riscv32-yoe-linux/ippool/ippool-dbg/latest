@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libtirpc-dbg readline-dbg
 PKGSIZE = 357868
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug /usr/lib/pppd/2.4.8/.debug/ippool.so
-FILELIST = /usr/bin/.debug/ippoolconfig /usr/lib/pppd/2.4.8/.debug/ippool.so /usr/sbin/.debug/ippoold
+FILELIST = /lib/systemd/system-preset/98-ippool.preset /lib/systemd/system/ippool.service /usr/bin/ippoolconfig /usr/lib/ippool/ippool_rpc.x /usr/lib/pppd/2.4.8/ippool.so /usr/sbin/ippoold

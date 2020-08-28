@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libssl-dbg libxcrypt-dbg
 PKGSIZE = 25632
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/crypt /usr/sbin/.debug/nhttpd
+FILELIST = /etc/default/volatiles/nostromo /etc/init.d/nostromo /etc/nhttpd.conf /etc/tmpfiles.d/nostromo.conf /usr/sbin/crypt /usr/sbin/nhttpd /var/nostromo/conf/mimes /var/nostromo/htdocs/index.html /var/nostromo/htdocs/nostromo.gif /var/nostromo/icons/dir.gif /var/nostromo/icons/file.gif

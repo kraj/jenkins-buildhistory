@@ -7,4 +7,4 @@ RDEPENDS = rabbitmq-c-dev (= 0.10.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 2182896
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/rabbitmq-c/*.a
-FILELIST = /usr/lib/librabbitmq.a
+FILELIST = /usr/lib/librabbitmq.so.4 /usr/lib/librabbitmq.so.4.4.0

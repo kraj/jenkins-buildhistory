@@ -7,4 +7,4 @@ RDEPENDS = libiio-dev (= 0.21+git0+565bf68ecc-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libiio/*.a
-FILELIST = 
+FILELIST = /lib/udev/rules.d/90-libiio.rules /usr/lib/libiio.so.0 /usr/lib/libiio.so.0.21

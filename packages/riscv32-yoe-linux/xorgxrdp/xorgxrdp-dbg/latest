@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 1397224
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/xorg/modules/.debug/libxorgxrdp.so /usr/lib/xorg/modules/drivers/.debug/xrdpdev_drv.so /usr/lib/xorg/modules/input/.debug/xrdpkeyb_drv.so /usr/lib/xorg/modules/input/.debug/xrdpmouse_drv.so
+FILELIST = /etc/X11/xrdp/xorg.conf /usr/lib/xorg/modules/drivers/xrdpdev_drv.so /usr/lib/xorg/modules/input/xrdpkeyb_drv.so /usr/lib/xorg/modules/input/xrdpmouse_drv.so /usr/lib/xorg/modules/libxorgxrdp.so

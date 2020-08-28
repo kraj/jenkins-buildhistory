@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) wavpack (>= 4.60.1)
 RRECOMMENDS = 
 PKGSIZE = 95600
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/wavpack /usr/bin/wvgain /usr/bin/wvunpack
+FILELIST = /usr/lib/libwavpack.so.1 /usr/lib/libwavpack.so.1.1.4

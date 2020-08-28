@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 258468
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/nuttcp
+FILELIST = /lib/systemd/system/nuttcp.socket /lib/systemd/system/nuttcp@.service /usr/bin/nuttcp

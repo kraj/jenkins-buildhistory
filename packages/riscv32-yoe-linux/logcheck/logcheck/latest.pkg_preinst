@@ -86,8 +86,8 @@ fi
 if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
-	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	GROUPADD_PARAM="-r logcheck"
+	USERADD_PARAM="-m -g logcheck -G adm -r -d /var/lib/logcheck                        -s /bin/false -c 'logcheck account' logcheck"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libinput-dbg
 PKGSIZE = 265036
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/xorg/modules/input/.debug/libinput_drv.so
+FILELIST = /usr/lib/xorg/modules/input/libinput_drv.so /usr/share/X11/xorg.conf.d/40-libinput.conf

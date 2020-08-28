@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 19461
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/uim-sysfs/0.0-r0/git/uim.c /usr/src/debug/uim-sysfs/0.0-r0/git/uim.h
+FILELIST = /etc/modprobe.d/blacklist-btwilink.conf /lib/systemd/system-preset/98-uim-sysfs.preset /lib/systemd/system/ti-uim.service /lib/udev/rules.d/60-ti-uim.rules /usr/sbin/uim

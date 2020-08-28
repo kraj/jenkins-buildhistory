@@ -86,8 +86,8 @@ fi
 if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
-	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	GROUPADD_PARAM="--system sanlock"
+	USERADD_PARAM="--system -g sanlock -G disk                        --home-dir /run/sanlock --no-create-home                        --shell /sbin/nologin sanlock"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

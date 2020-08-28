@@ -6,4 +6,4 @@ RDEPENDS = sysklogd (= 2.1.2-r0.0)
 RRECOMMENDS = glibc-dev update-alternatives-opkg-dev
 PKGSIZE = 9373
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sysklogd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/syslog/syslog.h /usr/lib/libsyslog.so /usr/lib/pkgconfig/libsyslog.pc
+FILELIST = /etc/syslog.conf /lib/systemd/system-preset/98-sysklogd.preset /lib/systemd/system/syslogd.service /usr/lib/libsyslog.so.0 /usr/lib/libsyslog.so.0.0.0 /usr/sbin/syslogd

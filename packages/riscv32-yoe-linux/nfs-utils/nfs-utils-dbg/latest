@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcap-dbg libtirpc-dbg libwrap-dbg util-linux-libblkid-dbg util-linux-libmount-dbg
 PKGSIZE = 2456432
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /sbin/.debug/mount.nfs /usr/sbin/.debug/exportfs /usr/sbin/.debug/nfsconf /usr/sbin/.debug/nfsstat /usr/sbin/.debug/rpc.mountd /usr/sbin/.debug/rpc.nfsd /usr/sbin/.debug/rpc.statd /usr/sbin/.debug/rpcdebug /usr/sbin/.debug/showmount /usr/sbin/.debug/sm-notify
+FILELIST = /lib/systemd/system-preset/98-nfs-utils.preset /lib/systemd/system/nfs-mountd.service /lib/systemd/system/nfs-server.service /lib/systemd/system/proc-fs-nfsd.mount /lib/systemd/system/sysinit.target.wants/proc-fs-nfsd.mount /usr/sbin/exportfs /usr/sbin/nfsconf /usr/sbin/rpc.mountd /usr/sbin/rpc.nfsd /usr/sbin/rpcdebug

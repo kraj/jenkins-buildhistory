@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) onig (>= 6.9.4)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 184349
 FILES = /usr/lib/onig/ptest
-FILELIST = /usr/lib/onig/ptest/run-ptest /usr/lib/onig/ptest/tests/test_regset /usr/lib/onig/ptest/tests/test_utf8 /usr/lib/onig/ptest/tests/testc /usr/lib/onig/ptest/tests/testcu /usr/lib/onig/ptest/tests/testp
+FILELIST = /usr/lib/libonig.so.5 /usr/lib/libonig.so.5.0.0

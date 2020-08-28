@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 52376
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/apmd/3.2.2-15-r0/apmd-3.2.2.orig/apm.c /usr/src/debug/apmd/3.2.2-15-r0/apmd-3.2.2.orig/apm.h /usr/src/debug/apmd/3.2.2-15-r0/apmd-3.2.2.orig/apmd.c /usr/src/debug/apmd/3.2.2-15-r0/apmd-3.2.2.orig/apmlib.c
+FILELIST = /etc/apm/apmd_proxy /etc/default/apmd /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service /usr/sbin/apmd /usr/share/apmd/apmd_proxy.conf

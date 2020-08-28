@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 9507
 FILES = /usr/lib/libapm.so.*
-FILELIST = /usr/lib/libapm.so.1 /usr/lib/libapm.so.1.0.0
+FILELIST = /etc/apm/apmd_proxy /etc/default/apmd /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service /usr/sbin/apmd /usr/share/apmd/apmd_proxy.conf

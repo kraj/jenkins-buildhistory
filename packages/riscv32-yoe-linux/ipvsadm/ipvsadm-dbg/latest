@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libnl-dbg libnl-genl-dbg popt-dbg
 PKGSIZE = 90860
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /sbin/.debug/ipvsadm
+FILELIST = /etc/init.d/ipvsadm /sbin/ipvsadm /sbin/ipvsadm-restore /sbin/ipvsadm-save

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libpam-dbg libxcrypt-dbg
 PKGSIZE = 4263840
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/sockd /usr/lib/.debug/libdsocks.so /usr/lib/.debug/libsocks.so.0.1.1
+FILELIST = /etc/socks.conf /usr/bin/socksify /usr/lib/libsocks.so.0 /usr/lib/libsocks.so.0.1.1

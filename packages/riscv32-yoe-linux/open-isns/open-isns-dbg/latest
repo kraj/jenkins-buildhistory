@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcrypto-dbg
 PKGSIZE = 1061904
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libisns.so.0 /usr/sbin/.debug/isnsadm /usr/sbin/.debug/isnsd /usr/sbin/.debug/isnsdd
+FILELIST = /etc/isns/isnsadm.conf /etc/isns/isnsd.conf /etc/isns/isnsdd.conf /lib/systemd/system/isnsd.service /lib/systemd/system/isnsd.socket /usr/lib/libisns.so.0 /usr/sbin/isnsadm /usr/sbin/isnsd /usr/sbin/isnsdd

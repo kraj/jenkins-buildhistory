@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 330944
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/tinyproxy
+FILELIST = /etc/tinyproxy.conf /etc/tinyproxy/tinyproxy.conf /lib/systemd/system-preset/98-tinyproxy.preset /lib/systemd/system/tinyproxy.service /usr/bin/tinyproxy /usr/share/tinyproxy/debug.html /usr/share/tinyproxy/default.html /usr/share/tinyproxy/stats.html

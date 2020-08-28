@@ -6,4 +6,4 @@ RDEPENDS = i2c-tools-dev (= 4.1-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 80536
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/i2c-tools/*.a
-FILELIST = /usr/lib/libi2c.a
+FILELIST = /usr/lib/libi2c.so.0 /usr/lib/libi2c.so.0.1.1 /usr/sbin/eeprog /usr/sbin/i2cdetect.i2c-tools /usr/sbin/i2cdump.i2c-tools /usr/sbin/i2cget.i2c-tools /usr/sbin/i2cset.i2c-tools /usr/sbin/i2ctransfer.i2c-tools

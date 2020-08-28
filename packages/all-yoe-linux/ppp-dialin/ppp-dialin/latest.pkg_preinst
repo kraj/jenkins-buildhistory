@@ -87,7 +87,7 @@ if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
 	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	USERADD_PARAM="--system --home /dev/null                        --no-create-home --shell /usr/sbin/ppp-dialin                        --no-user-group --gid nogroup ppp"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

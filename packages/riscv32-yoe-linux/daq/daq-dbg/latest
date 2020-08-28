@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libpcap-dbg
 PKGSIZE = 688608
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libdaq.so.2.0.4 /usr/lib/.debug/libsfbpf.so.0.0.1 /usr/lib/daq/.debug/daq_afpacket.so /usr/lib/daq/.debug/daq_dump.so /usr/lib/daq/.debug/daq_ipfw.so /usr/lib/daq/.debug/daq_pcap.so
+FILELIST = /usr/bin/daq-modules-config /usr/lib/daq/daq_afpacket.so /usr/lib/daq/daq_dump.so /usr/lib/daq/daq_ipfw.so /usr/lib/daq/daq_pcap.so /usr/lib/libdaq.so.2 /usr/lib/libdaq.so.2.0.4 /usr/lib/libsfbpf.so.0 /usr/lib/libsfbpf.so.0.0.1

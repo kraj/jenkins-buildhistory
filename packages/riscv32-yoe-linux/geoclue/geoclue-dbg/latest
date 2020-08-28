@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glib-2.0-dbg glibc-dbg json-glib-dbg libavahi-client-dbg libavahi-common-dbg libavahi-glib-dbg libsoup-2.4-dbg modemmanager-dbg
 PKGSIZE = 1552280
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libgeoclue-2.so.0.0.0 /usr/libexec/.debug/geoclue /usr/libexec/geoclue-2.0/demos/.debug/where-am-i
+FILELIST = /etc/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf /etc/dbus-1/system.d/org.freedesktop.GeoClue2.conf /etc/geoclue/geoclue.conf /lib/systemd/system/geoclue.service /usr/lib/libgeoclue-2.so.0 /usr/lib/libgeoclue-2.so.0.0.0 /usr/libexec/geoclue /usr/libexec/geoclue-2.0/demos/where-am-i /usr/share/applications/geoclue-where-am-i.desktop /usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service

@@ -4,7 +4,6 @@ PKGR = r3.0
 RPROVIDES = zram-systemd
 RDEPENDS = kmod util-linux
 RRECOMMENDS = kernel-module-zram
-RREPLACES = zram-systemd
 RCONFLICTS = zram-systemd
 PKGSIZE = 1538
 FILES = /etc /lib/systemd /usr/libexec /lib/systemd/system-preset/98-zram.preset /lib/systemd/system/dev-zram0.swap

@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g) libdrm (>= 2.4.102) libepoxy (>
 RRECOMMENDS = rgb xf86-input-libinput xkbcomp xkeyboard-config xserver-xf86-config
 PKGSIZE = 1458476
 FILES = /usr/bin/Xwayland
-FILELIST = /usr/bin/Xwayland
+FILELIST = /usr/bin/X /usr/bin/Xorg /usr/bin/cvt /usr/lib/xorg/modules/libfb.so /usr/lib/xorg/modules/libfbdevhw.so /usr/lib/xorg/modules/libglamoregl.so /usr/lib/xorg/modules/libshadow.so /usr/lib/xorg/modules/libshadowfb.so /usr/lib/xorg/modules/libvbe.so /usr/lib/xorg/modules/libvgahw.so /usr/lib/xorg/protocol.txt /usr/share/X11/xorg.conf.d/10-quirks.conf

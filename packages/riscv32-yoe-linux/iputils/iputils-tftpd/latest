@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 13920
 FILES = /bin/tftpd
-FILELIST = /bin/tftpd
+FILELIST = /lib/systemd/system-preset/98-iputils-ninfod.preset /lib/systemd/system/ninfod.service /sbin/ninfod

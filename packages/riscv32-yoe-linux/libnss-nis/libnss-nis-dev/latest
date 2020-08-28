@@ -7,4 +7,4 @@ RDEPENDS = libnss-nis (= 3.1+git0+062f31999b-r0.0)
 RRECOMMENDS = glibc-dev libnsl2-dev libtirpc-dev
 PKGSIZE = 19
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnss-nis/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/lib/libnss_nis.so
+FILELIST = /usr/lib/libnss_nis.so.2 /usr/lib/libnss_nis.so.2.0.0

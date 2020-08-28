@@ -7,4 +7,4 @@ RDEPENDS = openlldp-dev (= 1.0.1+git0+b71bfb87fe-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/openlldp/*.a
-FILELIST = 
+FILELIST = /etc/bash_completion.d/lldpad /etc/bash_completion.d/lldptool /lib/systemd/system-preset/98-openlldp.preset /lib/systemd/system/lldpad.service /lib/systemd/system/lldpad.socket /usr/lib/liblldp_clif.so.1 /usr/lib/liblldp_clif.so.1.0.0 /usr/sbin/dcbtool /usr/sbin/lldpad /usr/sbin/lldptool /usr/sbin/vdptool

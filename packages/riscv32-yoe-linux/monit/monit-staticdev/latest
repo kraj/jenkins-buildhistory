@@ -6,4 +6,4 @@ RDEPENDS = monit-dev (= 5.26.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/monit/*.a
-FILELIST = 
+FILELIST = /etc/monitrc /lib/systemd/system-preset/98-monit.preset /lib/systemd/system/monit.service /usr/bin/monit

@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libx11-dbg
 PKGSIZE = 38712
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/xinit
+FILELIST = /etc/X11/xinit/xinitrc /usr/bin/startx /usr/bin/xinit

@@ -8,4 +8,4 @@ RDEPENDS = glibc (>= 2.32) lksctp-tools (>= 1.0.18+git0+1b077af62d)
 RRECOMMENDS = kernel-module-sctp
 PKGSIZE = 84485
 FILES = /usr/bin/*
-FILELIST = /usr/bin/checksctp /usr/bin/sctp_darn /usr/bin/sctp_status /usr/bin/sctp_test /usr/bin/withsctp
+FILELIST = /usr/lib/libsctp.so.1 /usr/lib/libsctp.so.1.0.18

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 216096
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/keyctl /sbin/.debug/key.dns_resolver /sbin/.debug/request-key /usr/lib/.debug/libkeyutils.so.1.9
+FILELIST = /bin/keyctl /etc/request-key.conf /sbin/key.dns_resolver /sbin/request-key /usr/lib/libkeyutils.so.1 /usr/lib/libkeyutils.so.1.9 /usr/share/keyutils/request-key-debug.sh

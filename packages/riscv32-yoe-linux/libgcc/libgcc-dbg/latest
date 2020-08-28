@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 563212
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /lib/.debug/libgcc_s.so.1
+FILELIST = /lib/libgcc_s.so /usr/lib/riscv32-yoe-linux/10.2.0/crtbegin.o /usr/lib/riscv32-yoe-linux/10.2.0/crtbeginS.o /usr/lib/riscv32-yoe-linux/10.2.0/crtbeginT.o /usr/lib/riscv32-yoe-linux/10.2.0/crtend.o /usr/lib/riscv32-yoe-linux/10.2.0/crtendS.o /usr/lib/riscv32-yoe-linux/10.2.0/crti.o /usr/lib/riscv32-yoe-linux/10.2.0/crtn.o /usr/lib/riscv32-yoe-linux/10.2.0/libgcc.a /usr/lib/riscv32-yoe-linux/10.2.0/libgcc_eh.a /usr/lib/riscv32-yoe-linux/10.2.0/libgcov.a

@@ -86,8 +86,8 @@ fi
 if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
-	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	GROUPADD_PARAM="--system postfix;--system postdrop;--system vmail"
+	USERADD_PARAM="-d /var/spool/postfix -r -g postfix --shell /bin/false postfix;  -d /var/spool/vmail -r -g vmail --shell /bin/false vmail "
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = expat-dbg glibc-dbg libsystemd-dbg
 PKGSIZE = 1515656
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/dbus-broker /usr/bin/.debug/dbus-broker-launch
+FILELIST = /lib/systemd/system-preset/98-dbus-broker.preset /lib/systemd/system/dbus-broker.service /usr/bin/dbus-broker /usr/bin/dbus-broker-launch /usr/lib/systemd/catalog/dbus-broker-launch.catalog /usr/lib/systemd/catalog/dbus-broker.catalog /usr/lib/systemd/user/dbus-broker.service

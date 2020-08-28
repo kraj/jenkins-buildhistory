@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 18294
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/edac-util.1 /usr/share/man/man3/edac.3 /usr/share/man/man8/edac-ctl.8
+FILELIST = /etc/edac/labels.db /lib/systemd/system-preset/98-edac-utils.preset /lib/systemd/system/edac.service /usr/bin/edac-util /usr/lib/libedac.so.1 /usr/lib/libedac.so.1.1.1 /usr/sbin/edac-ctl

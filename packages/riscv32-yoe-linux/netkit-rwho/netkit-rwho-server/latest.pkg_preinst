@@ -86,8 +86,8 @@ fi
 if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
-	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	GROUPADD_PARAM="--system rwhod"
+	USERADD_PARAM="--system -g rwhod --home-dir  /var/spool/rwho         --no-create-home  --shell /bin/false rwhod"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

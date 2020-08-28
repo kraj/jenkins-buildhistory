@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libpam (>= 1.3.1) libpam-suffix libxcrypt (>= 4.4.16)
 RRECOMMENDS = 
 PKGSIZE = 78388
 FILES = /lib/security/pam_unix.so /usr/sbin/unix_chkpwd /usr/sbin/unix_update
-FILELIST = /lib/security/pam_unix.so /usr/sbin/unix_chkpwd /usr/sbin/unix_update
+FILELIST = /lib/security/pam_filter/upperLOWER

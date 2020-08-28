@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libmtp (>= 1.1.17) libmtp-common
 RRECOMMENDS = 
 PKGSIZE = 9576
 FILES = /lib/udev/mtp-probe
-FILELIST = /lib/udev/mtp-probe
+FILELIST = /lib/udev/hwdb.d/69-libmtp.hwdb /usr/lib/libmtp.so.9 /usr/lib/libmtp.so.9.4.0

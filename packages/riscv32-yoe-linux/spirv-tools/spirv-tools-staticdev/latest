@@ -6,4 +6,4 @@ RDEPENDS = spirv-tools-dev (= git-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 828556430
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/spirv-tools/*.a
-FILELIST = /usr/lib/libSPIRV-Tools-link.a /usr/lib/libSPIRV-Tools-opt.a /usr/lib/libSPIRV-Tools-reduce.a /usr/lib/libSPIRV-Tools.a /usr/lib/libeffcee.a
+FILELIST = /usr/bin/spirv-as /usr/bin/spirv-cfg /usr/bin/spirv-dis /usr/bin/spirv-lesspipe.sh /usr/bin/spirv-link /usr/bin/spirv-opt /usr/bin/spirv-reduce /usr/bin/spirv-val /usr/lib/libSPIRV-Tools-shared.so

@@ -7,4 +7,4 @@ RRECOMMENDS = kernel-module-softdog
 RCONFLICTS = watchdog
 PKGSIZE = 22745
 FILES = /etc/init.d/wd_keepalive /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive /lib/systemd/system-preset/98-watchdog-keepalive.preset /lib/systemd/system/wd_keepalive.service
-FILELIST = /lib/systemd/system-preset/98-watchdog-keepalive.preset /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive
+FILELIST = /lib/systemd/system-preset/98-watchdog.preset /lib/systemd/system/watchdog.service /usr/sbin/watchdog /usr/sbin/wd_identify

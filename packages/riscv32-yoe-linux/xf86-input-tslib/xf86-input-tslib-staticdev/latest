@@ -7,4 +7,4 @@ RDEPENDS = xf86-input-tslib-dev (= 2:0.0.7-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/xf86-input-tslib/*.a
-FILELIST = 
+FILELIST = /lib/udev/rules.d/99-xf86-input-tslib.rules /usr/lib/xorg/modules/input/tslib_drv.so /usr/share/X11/xorg.conf.d/50-tslib.conf

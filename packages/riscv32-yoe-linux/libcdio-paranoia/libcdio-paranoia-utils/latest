@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libcdio (>= 2.1.0) libcdio-cdda (>= 10.2+0.93+1) libc
 RRECOMMENDS = 
 PKGSIZE = 50868
 FILES = /usr/bin/*
-FILELIST = /usr/bin/cd-paranoia
+FILELIST = /usr/lib/libcdio_cdda.so.2 /usr/lib/libcdio_cdda.so.2.0.0

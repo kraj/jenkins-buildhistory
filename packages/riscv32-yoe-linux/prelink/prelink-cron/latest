@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 2310
 FILES = /etc/cron.daily /etc/default
-FILELIST = /etc/cron.daily/prelink /etc/default/prelink
+FILELIST = /etc/prelink.conf /etc/rpm/macros.prelink /usr/bin/execstack /usr/sbin/prelink /usr/sbin/prelink-rtld

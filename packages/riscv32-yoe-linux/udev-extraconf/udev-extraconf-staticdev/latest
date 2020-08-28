@@ -6,4 +6,4 @@ RDEPENDS = udev-extraconf-dev (= 1.1-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/udev-extraconf/*.a
-FILELIST = 
+FILELIST = /etc/udev/mount.blacklist /etc/udev/rules.d/automount.rules /etc/udev/rules.d/autonet.rules /etc/udev/rules.d/localextra.rules /etc/udev/scripts/mount.sh /etc/udev/scripts/network.sh

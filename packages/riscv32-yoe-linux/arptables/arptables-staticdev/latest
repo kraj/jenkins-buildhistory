@@ -7,4 +7,4 @@ RDEPENDS = arptables-dev (= 0.0.5+git0+efae8949e3-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/arptables/*.a
-FILELIST = 
+FILELIST = /lib/systemd/system-preset/98-arptables.preset /lib/systemd/system/arptables.service /usr/sbin/arptables-legacy /usr/sbin/arptables-restore /usr/sbin/arptables-save

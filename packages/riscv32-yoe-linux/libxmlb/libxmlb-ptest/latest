@@ -6,4 +6,4 @@ RDEPENDS = glib-2.0 (>= 2.64.4) glibc (>= 2.32) gnome-desktop-testing libxmlb
 RRECOMMENDS = ptest-runner
 PKGSIZE = 141789
 FILES = /usr/lib/libxmlb/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/
-FILELIST = /usr/lib/libxmlb/ptest/run-ptest /usr/libexec/installed-tests/libxmlb/xb-self-test /usr/share/installed-tests/libxmlb/libxmlb.test /usr/share/installed-tests/libxmlb/test.xml.gz.gz.gz
+FILELIST = /usr/lib/libxmlb.so.1 /usr/lib/libxmlb.so.1.0.0 /usr/libexec/xb-tool

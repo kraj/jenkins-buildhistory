@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libpipewire-0.2-modules pipewire-0.2-spa-plugins
 RRECOMMENDS = 
 PKGSIZE = 157626
 FILES = /usr/lib/libpipewire-*.so.*
-FILELIST = /usr/lib/libpipewire-0.2.so.1 /usr/lib/libpipewire-0.2.so.1.207.0
+FILELIST = /etc/pipewire/pipewire.conf /usr/bin/pipewire /usr/bin/pipewire-cli /usr/bin/pipewire-monitor /usr/lib/systemd/user/pipewire.service /usr/lib/systemd/user/pipewire.socket

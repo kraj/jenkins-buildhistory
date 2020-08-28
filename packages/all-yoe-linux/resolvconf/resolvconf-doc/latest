@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 43602
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/doc/resolvconf-1.82/README /usr/share/man/man8/resolvconf.8
+FILELIST = /etc/default/volatiles/99_resolvconf /etc/dhcp/dhclient-enter-hooks.d/resolvconf /etc/network/if-down.d/resolvconf /etc/network/if-up.d/000resolvconf /etc/resolvconf/interface-order /etc/resolvconf/resolv.conf.d/base /etc/resolvconf/resolv.conf.d/head /etc/resolvconf/update.d/libc /etc/tmpfiles.d/resolvconf.conf /lib/resolvconf/list-records /sbin/resolvconf

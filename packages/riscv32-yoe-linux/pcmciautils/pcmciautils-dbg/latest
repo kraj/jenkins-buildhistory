@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libsysfs-dbg
 PKGSIZE = 151480
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /lib/udev/.debug/pcmcia-check-broken-cis /lib/udev/.debug/pcmcia-socket-startup /sbin/.debug/pccardctl
+FILELIST = /etc/pcmcia/config.opts /lib/udev/pcmcia-check-broken-cis /lib/udev/pcmcia-socket-startup /lib/udev/rules.d/60-pcmcia.rules /sbin/lspcmcia /sbin/pccardctl

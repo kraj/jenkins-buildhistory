@@ -6,4 +6,4 @@ RDEPENDS = nostromo (= 1.9.9-r0.0)
 RRECOMMENDS = base-passwd-dev glibc-dev libssl-dev libxcrypt-dev openssl-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/nostromo/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/default/volatiles/nostromo /etc/init.d/nostromo /etc/nhttpd.conf /etc/tmpfiles.d/nostromo.conf /usr/sbin/crypt /usr/sbin/nhttpd /var/nostromo/conf/mimes /var/nostromo/htdocs/index.html /var/nostromo/htdocs/nostromo.gif /var/nostromo/icons/dir.gif /var/nostromo/icons/file.gif

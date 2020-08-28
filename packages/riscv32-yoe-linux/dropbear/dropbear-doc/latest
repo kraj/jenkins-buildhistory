@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = 
+FILELIST = /etc/default/dropbear /etc/pam.d/dropbear /lib/systemd/system-preset/98-dropbear.preset /lib/systemd/system/dropbear.socket /lib/systemd/system/dropbear@.service /lib/systemd/system/dropbearkey.service /usr/bin/dbclient /usr/sbin/dropbear /usr/sbin/dropbearconvert /usr/sbin/dropbearkey /usr/sbin/dropbearmulti

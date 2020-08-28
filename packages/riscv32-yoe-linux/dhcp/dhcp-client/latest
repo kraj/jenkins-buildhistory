@@ -6,4 +6,4 @@ RDEPENDS = bind-libs (>= 9.11.22) dhcp-libs (>= 4.4.2) glibc (>= 2.32) iproute2
 RRECOMMENDS = 
 PKGSIZE = 132630
 FILES = /sbin/dhclient /sbin/dhclient-script /etc/dhcp/dhclient.conf /sbin/dhclient-systemd-wrapper /lib/systemd/system-preset/98-dhcp-client.preset /lib/systemd/system/dhclient.service
-FILELIST = /etc/dhcp/dhclient.conf /lib/systemd/system-preset/98-dhcp-client.preset /lib/systemd/system/dhclient.service /sbin/dhclient /sbin/dhclient-script /sbin/dhclient-systemd-wrapper
+FILELIST = /usr/bin/omshell

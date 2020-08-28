@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = dbus-lib-dbg glib-2.0-dbg glibc-dbg libnl-dbg libnl-genl-dbg
 PKGSIZE = 1217260
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/nciattach /usr/bin/.debug/nfctool /usr/libexec/nfc/.debug/neard
+FILELIST = /etc/dbus-1/system.d/org.neard.conf /lib/systemd/system-preset/98-neard.preset /lib/systemd/system/neard.service /usr/bin/nciattach /usr/bin/nfctool /usr/libexec/nfc/neard

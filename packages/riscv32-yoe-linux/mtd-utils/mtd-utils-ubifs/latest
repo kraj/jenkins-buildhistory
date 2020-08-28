@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) lzo (>= 2.10) update-alternatives-opkg util-linux-lib
 RRECOMMENDS = 
 PKGSIZE = 398192
 FILES = /usr/sbin/mkfs.ubifs /usr/sbin/ubi*
-FILELIST = /usr/sbin/mkfs.ubifs /usr/sbin/ubiattach.mtd-utils /usr/sbin/ubiblock /usr/sbin/ubicrc32 /usr/sbin/ubidetach.mtd-utils /usr/sbin/ubiformat /usr/sbin/ubihealthd /usr/sbin/ubimkvol.mtd-utils /usr/sbin/ubinfo /usr/sbin/ubinize /usr/sbin/ubirename.mtd-utils /usr/sbin/ubirmvol.mtd-utils /usr/sbin/ubirsvol.mtd-utils /usr/sbin/ubiupdatevol.mtd-utils
+FILELIST = /usr/sbin/flash_erase /usr/sbin/flash_eraseall.mtd-utils /usr/sbin/flash_lock.mtd-utils /usr/sbin/flash_otp_dump /usr/sbin/flash_otp_info /usr/sbin/flash_otp_lock /usr/sbin/flash_otp_write /usr/sbin/flash_unlock.mtd-utils /usr/sbin/flashcp.mtd-utils /usr/sbin/lsmtd /usr/sbin/mtd_debug /usr/sbin/mtdinfo /usr/sbin/mtdpart /usr/sbin/nanddump.mtd-utils /usr/sbin/nandtest /usr/sbin/nandwrite.mtd-utils

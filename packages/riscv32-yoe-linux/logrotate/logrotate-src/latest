@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 182500
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/logrotate/3.17.0-r0/logrotate-3.17.0/config.c /usr/src/debug/logrotate/3.17.0-r0/logrotate-3.17.0/log.c /usr/src/debug/logrotate/3.17.0-r0/logrotate-3.17.0/log.h /usr/src/debug/logrotate/3.17.0-r0/logrotate-3.17.0/logrotate.c /usr/src/debug/logrotate/3.17.0-r0/logrotate-3.17.0/logrotate.h
+FILELIST = /etc/logrotate.conf /etc/logrotate.d/btmp /etc/logrotate.d/wtmp /lib/systemd/system-preset/98-logrotate.preset /lib/systemd/system/logrotate.service /lib/systemd/system/logrotate.timer /usr/sbin/logrotate /var/lib/logrotate.status

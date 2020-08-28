@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libudev-dbg
 PKGSIZE = 1411156
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug /usr/lib/dhcpcd/dev/.debug
-FILELIST = /usr/lib/dhcpcd/dev/.debug/udev.so /usr/sbin/.debug/dhcpcd
+FILELIST = /etc/dhcpcd.conf /usr/lib/dhcpcd/dev/udev.so /usr/libexec/dhcpcd-hooks/01-test /usr/libexec/dhcpcd-hooks/20-resolv.conf /usr/libexec/dhcpcd-hooks/30-hostname /usr/libexec/dhcpcd-run-hooks /usr/sbin/dhcpcd /usr/share/dhcpcd/hooks/10-wpa_supplicant /usr/share/dhcpcd/hooks/15-timezone /usr/share/dhcpcd/hooks/29-lookup-hostname

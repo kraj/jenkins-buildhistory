@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 37156
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/uim
+FILELIST = /etc/modprobe.d/blacklist-btwilink.conf /lib/systemd/system-preset/98-uim-sysfs.preset /lib/systemd/system/ti-uim.service /lib/udev/rules.d/60-ti-uim.rules /usr/sbin/uim

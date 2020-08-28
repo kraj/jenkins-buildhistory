@@ -6,4 +6,4 @@ RDEPENDS = init-ifupdown-dev (= 1.0-r7.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/init-ifupdown/*.a
-FILELIST = 
+FILELIST = /etc/init.d/networking /etc/network/if-pre-up.d/nfsroot /etc/network/interfaces /etc/network/nm-disabled-eth0

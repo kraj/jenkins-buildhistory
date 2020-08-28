@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 7907
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/ippoolconfig.1.gz /usr/share/man/man4/ippool_rpc.4.gz /usr/share/man/man8/ippoold.8.gz
+FILELIST = /lib/systemd/system-preset/98-ippool.preset /lib/systemd/system/ippool.service /usr/bin/ippoolconfig /usr/lib/ippool/ippool_rpc.x /usr/lib/pppd/2.4.8/ippool.so /usr/sbin/ippoold

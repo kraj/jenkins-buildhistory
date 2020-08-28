@@ -6,4 +6,4 @@ RDEPENDS = vlock (= 2.2.3-r0.0)
 RRECOMMENDS = glibc-dev libpam-dev update-alternatives-opkg-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vlock/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/pam.d/vlock /usr/bin/vlock.vlock /usr/lib/vlock/modules/all.so /usr/lib/vlock/modules/new.so /usr/lib/vlock/modules/nosysrq.so /usr/lib/vlock/modules/ttyblank.so /usr/lib/vlock/modules/vesablank.so /usr/sbin/vlock-main

@@ -1,0 +1,10 @@
+PV = 5.8.4+gitAUTOINC+0a4bef3856_6a095b50f8
+PR = r0
+PKGV = 5.8.4+git0+0a4bef3856_6a095b50f8
+PKGR = r0.0
+RPROVIDES = kernel-module-binfmt-misc
+RDEPENDS = kernel-5.8.4-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 16208
+FILES = /lib/modules/5.8.4-yocto-standard/kernel/fs/binfmt_misc.ko /etc/modules-load.d/binfmt_misc.conf /etc/modprobe.d/binfmt_misc.conf
+FILELIST = /lib/modules/5.8.4-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

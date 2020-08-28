@@ -6,4 +6,4 @@ RDEPENDS = miniupnpd (= 2.1.20191006-r0.0)
 RRECOMMENDS = glibc-dev iptables-dev libmnl-dev libnetfilter-conntrack-dev net-tools-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/miniupnpd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/miniupnpd/ip6tables_init.sh /etc/miniupnpd/ip6tables_removeall.sh /etc/miniupnpd/iptables_init.sh /etc/miniupnpd/iptables_removeall.sh /etc/miniupnpd/miniupnpd.conf /etc/miniupnpd/miniupnpd_functions.sh /lib/systemd/system-preset/98-miniupnpd.preset /lib/systemd/system/miniupnpd.service /usr/sbin/miniupnpd

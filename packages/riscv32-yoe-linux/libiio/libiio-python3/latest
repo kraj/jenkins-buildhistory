@@ -7,4 +7,4 @@ RDEPENDS = libiio python3-ctypes python3-stringold
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/python3.8/site-packages
-FILELIST = 
+FILELIST = /lib/udev/rules.d/90-libiio.rules /usr/lib/libiio.so.0 /usr/lib/libiio.so.0.21

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/share/locale
-FILELIST = 
+FILELIST = /etc/syslog.conf /lib/systemd/system-preset/98-sysklogd.preset /lib/systemd/system/syslogd.service /usr/lib/libsyslog.so.0 /usr/lib/libsyslog.so.0.0.0 /usr/sbin/syslogd

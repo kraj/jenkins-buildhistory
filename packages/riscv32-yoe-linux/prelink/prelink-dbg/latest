@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libelf-dbg
 PKGSIZE = 2471084
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/execstack /usr/sbin/.debug/prelink /usr/sbin/.debug/prelink-rtld
+FILELIST = /etc/prelink.conf /etc/rpm/macros.prelink /usr/bin/execstack /usr/sbin/prelink /usr/sbin/prelink-rtld

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 3286
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/doc/tinyproxy/AUTHORS /usr/share/doc/tinyproxy/NEWS /usr/share/doc/tinyproxy/README /usr/share/doc/tinyproxy/README.md
+FILELIST = /etc/tinyproxy.conf /etc/tinyproxy/tinyproxy.conf /lib/systemd/system-preset/98-tinyproxy.preset /lib/systemd/system/tinyproxy.service /usr/bin/tinyproxy /usr/share/tinyproxy/debug.html /usr/share/tinyproxy/default.html /usr/share/tinyproxy/stats.html

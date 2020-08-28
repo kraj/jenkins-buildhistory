@@ -6,4 +6,4 @@ RDEPENDS = imapfilter (= 2.6.16-r0.0)
 RRECOMMENDS = glibc-dev libcrypto-dev libpcre-dev libssl-dev lua-dev openssl-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/imapfilter/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /usr/bin/imapfilter /usr/share/imapfilter/account.lua /usr/share/imapfilter/auxiliary.lua /usr/share/imapfilter/common.lua /usr/share/imapfilter/mailbox.lua /usr/share/imapfilter/message.lua /usr/share/imapfilter/options.lua /usr/share/imapfilter/regex.lua /usr/share/imapfilter/set.lua

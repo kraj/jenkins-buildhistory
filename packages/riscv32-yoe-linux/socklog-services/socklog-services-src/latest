@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 1439
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/socklog-services/20150726+gitAUTOINC+e6b8b91dcd-r0/git/nanoklogd.c
+FILELIST = /etc/sv/nanoklogd/run /etc/sv/nanoklogd/supervise /etc/sv/socklog-unix/check /etc/sv/socklog-unix/log/run /etc/sv/socklog-unix/log/supervise /etc/sv/socklog-unix/run /etc/sv/socklog-unix/supervise /usr/bin/nanoklogd /usr/bin/svlogtail /usr/bin/syslog-stripdate /var/volatile/log/socklog/cron/config /var/volatile/log/socklog/daemon/config /var/volatile/log/socklog/debug/config /var/volatile/log/socklog/errors/config /var/volatile/log/socklog/everything/config /var/volatile/log/socklog/kernel/config /var/volatile/log/socklog/lpr/config /var/volatile/log/socklog/mail/config /var/volatile/log/socklog/messages/config /var/volatile/log/socklog/remote-udp/config /var/volatile/log/socklog/secure/config /var/volatile/log/socklog/tty12/config /var/volatile/log/socklog/user/config /var/volatile/log/socklog/xbps/config

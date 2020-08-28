@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libarchive-dbg libopkg-dbg libsolv-dbg
 PKGSIZE = 662224
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/opkg /usr/lib/.debug/libopkg.so.1.0.0
+FILELIST = /etc/opkg/opkg.conf /usr/bin/opkg /usr/bin/opkg-check-config /usr/share/opkg/intercept/depmod /usr/share/opkg/intercept/ldconfig /usr/share/opkg/intercept/update-modules

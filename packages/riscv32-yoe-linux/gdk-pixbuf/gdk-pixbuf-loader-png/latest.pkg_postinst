@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_pixbuf_cache ${PKG} mlprefix= binprefix= libdir=/usr/lib \
+	$INTERCEPT_DIR/postinst_intercept update_pixbuf_cache libgdk-pixbuf-2.0-loader-png mlprefix= binprefix= libdir=/usr/lib \
 		bindir=/usr/bin base_libdir=/lib
 else
 

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 42085
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/dietsplash/0.3-r1/git/src/dietsplashctl.c /usr/src/debug/dietsplash/0.3-r1/git/src/events.c /usr/src/debug/dietsplash/0.3-r1/git/src/events.h /usr/src/debug/dietsplash/0.3-r1/git/src/fb.c /usr/src/debug/dietsplash/0.3-r1/git/src/fb.h /usr/src/debug/dietsplash/0.3-r1/git/src/log.c /usr/src/debug/dietsplash/0.3-r1/git/src/log.h /usr/src/debug/dietsplash/0.3-r1/git/src/main.c /usr/src/debug/dietsplash/0.3-r1/git/src/pnmtologo.c /usr/src/debug/dietsplash/0.3-r1/git/src/pnmtologo.h /usr/src/debug/dietsplash/0.3-r1/git/src/util.c /usr/src/debug/dietsplash/0.3-r1/git/src/util.h
+FILELIST = /bin/dietsplash /lib/systemd/system/dietsplash-quit.service /lib/systemd/system/multi-user.target.wants/dietsplash-quit.service /usr/bin/dietsplashctl /usr/share/dietsplash/background.ppm /usr/share/dietsplash/default_background.ppm

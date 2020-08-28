@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libusb1-dbg
 PKGSIZE = 129508
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/usb_modeswitch
+FILELIST = /etc/usb_modeswitch.conf /lib/systemd/system-preset/98-usb-modeswitch.preset /lib/systemd/system/usb_modeswitch@.service /lib/udev/usb_modeswitch /usr/sbin/usb_modeswitch /usr/sbin/usb_modeswitch_dispatcher

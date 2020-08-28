@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libcomerr (>= 1.45.6) libk5crypto (>= 1.17.1) libkrb5
 RRECOMMENDS = 
 PKGSIZE = 184317
 FILES = /usr/lib/libgssapi_krb5.so.*
-FILELIST = /usr/lib/libgssapi_krb5.so.2 /usr/lib/libgssapi_krb5.so.2.2
+FILELIST = /usr/lib/krb5/plugins/preauth/test.so

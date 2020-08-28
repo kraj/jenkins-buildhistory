@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libsystemd (>= 246.2) psplash update-alternatives-opk
 RRECOMMENDS = 
 PKGSIZE = 50812
 FILES = /usr/bin/psplash-default
-FILELIST = /usr/bin/psplash-default
+FILELIST = /lib/systemd/system-preset/98-psplash.preset /lib/systemd/system/psplash-start.service /lib/systemd/system/psplash-systemd.service /usr/bin/psplash-systemd /usr/bin/psplash-write

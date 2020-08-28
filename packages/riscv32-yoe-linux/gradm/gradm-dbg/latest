@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 883100
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /sbin/.debug/gradm /sbin/.debug/grlearn
+FILELIST = /etc/grsec/learn_config /etc/grsec/policy /etc/udev/rules.d/80-grsec.rules /sbin/gradm /sbin/grlearn

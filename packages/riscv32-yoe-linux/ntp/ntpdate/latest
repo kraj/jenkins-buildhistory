@@ -4,8 +4,7 @@ PKGR = r0.0
 RPROVIDES = ntpdate-systemd
 RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g)
 RRECOMMENDS = 
-RREPLACES = ntpdate-systemd
 RCONFLICTS = ntpdate-systemd
 PKGSIZE = 106787
 FILES = /usr/sbin/ntpdate /etc/network/if-up.d/ntpdate-sync /usr/bin/ntpdate-sync /etc/default/ntpdate /lib/systemd/system/ntpdate.service /lib/systemd/system-preset/98-ntpdate.preset /lib/systemd/system/ntpdate.service
-FILELIST = /etc/default/ntpdate /etc/network/if-up.d/ntpdate-sync /lib/systemd/system-preset/98-ntpdate.preset /lib/systemd/system/ntpdate.service /usr/bin/ntpdate-sync /usr/sbin/ntpdate
+FILELIST = /usr/sbin/calc_tickadj /usr/sbin/ntp-keygen /usr/sbin/ntp-wait /usr/sbin/ntptime /usr/sbin/ntptrace /usr/share/ntp/lib/NTP/Util.pm

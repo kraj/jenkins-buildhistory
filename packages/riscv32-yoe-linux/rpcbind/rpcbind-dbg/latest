@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libsystemd-dbg libtirpc-dbg
 PKGSIZE = 281240
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/rpcinfo /usr/sbin/.debug/rpcbind
+FILELIST = /lib/systemd/system-preset/98-rpcbind.preset /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket /usr/bin/rpcinfo /usr/sbin/rpcbind

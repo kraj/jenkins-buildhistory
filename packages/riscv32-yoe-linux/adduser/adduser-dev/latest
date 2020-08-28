@@ -6,4 +6,4 @@ RDEPENDS = adduser (= 3.118-r0.0)
 RRECOMMENDS = perl-dev perl-module-file-find-dev perl-module-file-temp-dev perl-module-getopt-long-dev perl-module-overloading-dev shadow-dev update-alternatives-opkg-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/adduser/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/adduser.conf /etc/deluser.conf /usr/lib/perl5/5.32.0/Debian/AdduserCommon.pm /usr/sbin/adduser.adduser /usr/sbin/deluser.adduser

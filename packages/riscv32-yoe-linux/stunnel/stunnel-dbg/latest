@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcrypto-dbg libnsl2-dbg libssl-dbg libsystemd-dbg libwrap-dbg
 PKGSIZE = 577468
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/stunnel /usr/lib/stunnel/.debug/libstunnel.so
+FILELIST = /etc/stunnel/stunnel.conf-sample /usr/bin/stunnel /usr/lib/stunnel/libstunnel.so

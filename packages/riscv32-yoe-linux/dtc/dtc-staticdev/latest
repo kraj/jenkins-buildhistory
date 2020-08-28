@@ -6,4 +6,4 @@ RDEPENDS = dtc-dev (= 1.6.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 653928
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/dtc/*.a
-FILELIST = /usr/lib/libfdt.a
+FILELIST = /usr/bin/dtc /usr/bin/fdtdump /usr/bin/fdtget /usr/bin/fdtoverlay /usr/bin/fdtput /usr/lib/libfdt.so.1

@@ -6,4 +6,4 @@ RDEPENDS = gptfdisk (= 1.0.5-r0.0)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev ncurses-dev ncurses-libncursesw-dev ncurses-libtinfo-dev popt-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gptfdisk/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /usr/sbin/cgdisk /usr/sbin/fixparts /usr/sbin/gdisk /usr/sbin/sgdisk

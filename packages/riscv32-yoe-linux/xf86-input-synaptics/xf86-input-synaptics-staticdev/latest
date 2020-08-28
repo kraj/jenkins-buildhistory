@@ -7,4 +7,4 @@ RDEPENDS = xf86-input-synaptics-dev (= 2:1.9.1-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/xf86-input-synaptics/*.a
-FILELIST = 
+FILELIST = /usr/bin/synclient /usr/bin/syndaemon /usr/lib/xorg/modules/input/synaptics_drv.so /usr/share/X11/xorg.conf.d/70-synaptics.conf

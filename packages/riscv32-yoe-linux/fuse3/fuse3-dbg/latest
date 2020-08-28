@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 844228
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/fusermount3 /usr/lib/.debug/libfuse3.so.3.9.2 /usr/sbin/.debug/mount.fuse3
+FILELIST = /etc/fuse.conf /etc/init.d/fuse3 /lib/udev/rules.d/99-fuse3.rules /usr/lib/libfuse3.so.3 /usr/lib/libfuse3.so.3.9.2 /usr/sbin/mount.fuse3

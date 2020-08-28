@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 10668
 FILES = /usr/lib/pppd/2.4.8/pass*.so
-FILELIST = /usr/lib/pppd/2.4.8/passprompt.so /usr/lib/pppd/2.4.8/passwordfd.so
+FILELIST = /etc/chatscripts/pap /etc/ppp/chap-secrets /etc/ppp/ip-down /etc/ppp/ip-down.d/92removedns /etc/ppp/ip-up /etc/ppp/ip-up.d/08setupdns /etc/ppp/options /etc/ppp/pap-secrets /etc/ppp/peers/provider /etc/ppp/ppp_on_boot /lib/systemd/system/ppp@.service /usr/bin/poff /usr/bin/pon /usr/sbin/chat /usr/sbin/pppd

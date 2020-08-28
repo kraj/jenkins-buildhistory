@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg gnutls-dbg libgcrypt-dbg
 PKGSIZE = 438756
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/cisco-decrypt /usr/sbin/.debug/vpnc
+FILELIST = /etc/vpnc/default.conf /usr/bin/cisco-decrypt /usr/bin/pcf2vpnc /usr/sbin/vpnc /usr/sbin/vpnc-disconnect

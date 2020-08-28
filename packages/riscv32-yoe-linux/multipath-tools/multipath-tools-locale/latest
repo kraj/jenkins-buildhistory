@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/share/locale
-FILELIST = 
+FILELIST = /etc/multipath.conf.example /lib/systemd/system-preset/98-multipath-tools.preset /lib/systemd/system/multipathd.service /lib/systemd/system/multipathd.socket /lib/udev/rules.d/11-dm-mpath.rules /lib/udev/rules.d/11-dm-parts.rules /lib/udev/rules.d/62-multipath.rules /lib/udev/rules.d/66-kpartx.rules /lib/udev/rules.d/68-del-part-nodes.rules /sbin/mpathconf /sbin/mpathpersist /sbin/multipath /sbin/multipathd

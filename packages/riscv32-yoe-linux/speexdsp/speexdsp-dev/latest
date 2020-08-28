@@ -8,4 +8,4 @@ RRECOMMENDS = glibc-dev
 RCONFLICTS = speex-dev (< 1.2rc2)
 PKGSIZE = 41080
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/speexdsp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/speex/speex_echo.h /usr/include/speex/speex_jitter.h /usr/include/speex/speex_preprocess.h /usr/include/speex/speex_resampler.h /usr/include/speex/speexdsp_config_types.h /usr/include/speex/speexdsp_types.h /usr/lib/libspeexdsp.so /usr/lib/pkgconfig/speexdsp.pc
+FILELIST = /usr/lib/libspeexdsp.so.1 /usr/lib/libspeexdsp.so.1.5.1

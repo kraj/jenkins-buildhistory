@@ -7,4 +7,4 @@ RDEPENDS = netperf-dev (= 2.7.0+git0+f482bab49f-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/netperf/*.a
-FILELIST = 
+FILELIST = /etc/init.d/netperf /usr/bin/netperf /usr/sbin/netserver

@@ -7,4 +7,4 @@ RDEPENDS = xinit (= 1:1.4.1-r0.0)
 RRECOMMENDS = glibc-dev libx11-dev rxvt-unicode-dev util-linux-mcookie-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xinit/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/X11/xinit/xinitrc /usr/bin/startx /usr/bin/xinit

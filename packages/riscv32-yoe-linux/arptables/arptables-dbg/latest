@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 230544
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/arptables-legacy
+FILELIST = /lib/systemd/system-preset/98-arptables.preset /lib/systemd/system/arptables.service /usr/sbin/arptables-legacy /usr/sbin/arptables-restore /usr/sbin/arptables-save

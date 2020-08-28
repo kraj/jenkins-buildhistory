@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libpcap-dbg
 PKGSIZE = 1405956
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/ptpd2
+FILELIST = /etc/default/ptpd /lib/systemd/system-preset/98-ptpd.preset /lib/systemd/system/ptpd.service /usr/bin/ptpd2

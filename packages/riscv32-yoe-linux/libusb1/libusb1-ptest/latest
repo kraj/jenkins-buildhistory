@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libusb1 (>= 1.0.23)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 10080
 FILES = /usr/lib/libusb1/ptest
-FILELIST = /usr/lib/libusb1/ptest/run-ptest /usr/lib/libusb1/ptest/stress
+FILELIST = /lib/libusb-1.0.so.0 /lib/libusb-1.0.so.0.2.0

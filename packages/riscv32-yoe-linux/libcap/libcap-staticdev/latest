@@ -1,9 +1,9 @@
-PV = 2.42
+PV = 2.43
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libcap-dev (= 2.42-r0.0)
+RDEPENDS = libcap-dev (= 2.43-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 547972
+PKGSIZE = 547660
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libcap/*.a
-FILELIST = /lib/libcap.a /usr/lib/libpsx.a
+FILELIST = /lib/libcap.so.2 /lib/libcap.so.2.43 /lib/security/pam_cap.so

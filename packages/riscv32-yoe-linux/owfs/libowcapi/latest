@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libow (>= 3.2p3) libusb1 (>= 1.0.23)
 RRECOMMENDS = 
 PKGSIZE = 9378
 FILES = /usr/lib/libowcapi-*
-FILELIST = /usr/lib/libowcapi-3.2.so.3 /usr/lib/libowcapi-3.2.so.3.0.0
+FILELIST = /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service /usr/bin/owexist /usr/bin/owexternal /usr/bin/owfs /usr/bin/owusbprobe

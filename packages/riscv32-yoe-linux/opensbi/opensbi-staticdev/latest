@@ -6,4 +6,4 @@ RDEPENDS = opensbi-dev (= 0.8-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/opensbi/*.a
-FILELIST = 
+FILELIST = /share/opensbi/ilp32/generic/firmware/fw_dynamic.bin /share/opensbi/ilp32/generic/firmware/fw_dynamic.elf /share/opensbi/ilp32/generic/firmware/fw_jump.bin /share/opensbi/ilp32/generic/firmware/fw_jump.elf /share/opensbi/ilp32/generic/firmware/fw_payload.bin /share/opensbi/ilp32/generic/firmware/fw_payload.elf

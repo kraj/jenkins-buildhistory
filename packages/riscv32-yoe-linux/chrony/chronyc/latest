@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libedit (>= 20191231-3.1)
 RRECOMMENDS = 
 PKGSIZE = 71584
 FILES = /usr/bin/chronyc
-FILELIST = /usr/bin/chronyc
+FILELIST = /etc/chrony.conf /lib/systemd/system-preset/98-chrony.preset /lib/systemd/system/chronyd.service /usr/sbin/chronyd

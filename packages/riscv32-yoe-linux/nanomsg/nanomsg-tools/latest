@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) nanomsg (>= 1.1.5)
 RRECOMMENDS = 
 PKGSIZE = 23752
 FILES = /usr/bin/*
-FILELIST = /usr/bin/nanocat
+FILELIST = /usr/lib/libnanomsg.so.5 /usr/lib/libnanomsg.so.5.1.0

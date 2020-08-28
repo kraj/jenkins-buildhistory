@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libpam-dbg
 PKGSIZE = 483808
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/cronnext /usr/bin/.debug/crontab /usr/sbin/.debug/crond
+FILELIST = /etc/cron.deny /etc/crontab /etc/pam.d/crond /etc/sysconfig/crond /lib/systemd/system-preset/98-cronie.preset /lib/systemd/system/crond.service /usr/bin/cronnext /usr/bin/crontab /usr/sbin/crond

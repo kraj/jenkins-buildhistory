@@ -87,7 +87,7 @@ if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
 	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	USERADD_PARAM="--system --home /run/avahi-daemon                               --no-create-home --shell /bin/false                               --user-group avahi"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

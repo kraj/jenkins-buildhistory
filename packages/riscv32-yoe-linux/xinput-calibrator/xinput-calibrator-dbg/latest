@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg libx11-dbg libxi-dbg libxrandr-dbg
 PKGSIZE = 793644
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/tester /usr/bin/.debug/xinput_calibrator
+FILELIST = /etc/X11/Xsession.d/30xinput_calibrate.sh /etc/xdg/autostart/xinput_calibrator.desktop /usr/bin/tester /usr/bin/xinput_calibrator /usr/bin/xinput_calibrator_once.sh /usr/share/applications/xinput_calibrator.desktop /usr/share/pixmaps/xinput_calibrator.svg /usr/share/pixmaps/xinput_calibrator.xpm

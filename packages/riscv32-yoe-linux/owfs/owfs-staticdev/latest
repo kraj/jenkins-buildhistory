@@ -6,4 +6,4 @@ RDEPENDS = owfs-dev (= 3.2p3-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/owfs/*.a
-FILELIST = 
+FILELIST = /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service /usr/bin/owexist /usr/bin/owexternal /usr/bin/owfs /usr/bin/owusbprobe

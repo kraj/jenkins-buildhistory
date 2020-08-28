@@ -7,4 +7,4 @@ RDEPENDS = bash glibc (>= 2.32) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0) protobu
 RRECOMMENDS = ptest-runner
 PKGSIZE = 106535
 FILES = /usr/lib/protobuf/ptest
-FILELIST = /usr/lib/protobuf/ptest/add_person.py /usr/lib/protobuf/ptest/add_person_cpp /usr/lib/protobuf/ptest/addressbook_pb2.py /usr/lib/protobuf/ptest/list_people.py /usr/lib/protobuf/ptest/list_people_cpp /usr/lib/protobuf/ptest/run-ptest
+FILELIST = /usr/lib/libprotobuf.so.24 /usr/lib/libprotobuf.so.24.0.0

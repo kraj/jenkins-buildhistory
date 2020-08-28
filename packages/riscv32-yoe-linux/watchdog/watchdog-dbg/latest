@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 338216
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/watchdog /usr/sbin/.debug/wd_identify /usr/sbin/.debug/wd_keepalive
+FILELIST = /lib/systemd/system-preset/98-watchdog.preset /lib/systemd/system/watchdog.service /usr/sbin/watchdog /usr/sbin/wd_identify

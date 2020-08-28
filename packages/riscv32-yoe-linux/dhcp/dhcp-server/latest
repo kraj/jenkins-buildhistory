@@ -6,4 +6,4 @@ RDEPENDS = base-files base-passwd bind-libs (>= 9.11.22) dhcp-libs (>= 4.4.2) gl
 RRECOMMENDS = dhcp-server-config
 PKGSIZE = 314987
 FILES = /usr/sbin/dhcpd /etc/init.d/dhcp-server /lib/systemd/system-preset/98-dhcp-server.preset /lib/systemd/system/dhcpd.service /lib/systemd/system/dhcpd6.service
-FILELIST = /lib/systemd/system-preset/98-dhcp-server.preset /lib/systemd/system/dhcpd.service /lib/systemd/system/dhcpd6.service /usr/sbin/dhcpd
+FILELIST = /usr/bin/omshell

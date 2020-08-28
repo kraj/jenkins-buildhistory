@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libkmod-dbg libpci-dbg libudev-dbg zlib-dbg
 PKGSIZE = 516092
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libpci.so.3.7.0 /usr/sbin/.debug/lspci /usr/sbin/.debug/setpci
+FILELIST = /usr/bin/lspci /usr/sbin/lspci /usr/sbin/setpci /usr/sbin/update-pciids

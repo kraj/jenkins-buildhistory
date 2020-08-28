@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg qrtr-dbg
 PKGSIZE = 58640
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/pd-mapper
+FILELIST = /lib/systemd/system-preset/98-pd-mapper.preset /lib/systemd/system/pd-mapper.service /usr/bin/pd-mapper

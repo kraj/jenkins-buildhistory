@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 18596
 FILES = /sbin/rdisc /lib/systemd/system-preset/98-iputils-rdisc.preset /lib/systemd/system/rdisc.service
-FILELIST = /lib/systemd/system-preset/98-iputils-rdisc.preset /lib/systemd/system/rdisc.service /sbin/rdisc
+FILELIST = /lib/systemd/system-preset/98-iputils-ninfod.preset /lib/systemd/system/ninfod.service /sbin/ninfod

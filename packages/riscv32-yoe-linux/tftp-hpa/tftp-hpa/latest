@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) readline (>= 8.0) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 22308
 FILES = /usr/bin
-FILELIST = /usr/bin/tftp-hpa
+FILELIST = /etc/default/tftpd-hpa /lib/systemd/system-preset/98-tftp-hpa-server.preset /lib/systemd/system/tftpd-hpa.service /lib/systemd/system/tftpd-hpa.socket /usr/sbin/in.tftpd-hpa

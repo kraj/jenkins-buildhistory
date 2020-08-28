@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_gtk_icon_cache ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_gtk_icon_cache xarchiver \
 		mlprefix= \
 		libdir_native=/usr/lib
 else
@@ -16,7 +16,7 @@ else
 	done
 fi
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_desktop_database ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database xarchiver \
 		mlprefix= \
 		desktop_dir=/usr/share/applications
 else

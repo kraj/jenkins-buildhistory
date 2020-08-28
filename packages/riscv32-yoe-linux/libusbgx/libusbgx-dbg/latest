@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libconfig-dbg
 PKGSIZE = 547496
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/gadget-acm-ecm /usr/bin/.debug/gadget-export /usr/bin/.debug/gadget-ffs /usr/bin/.debug/gadget-hid /usr/bin/.debug/gadget-import /usr/bin/.debug/gadget-midi /usr/bin/.debug/gadget-ms /usr/bin/.debug/gadget-rndis-os-desc /usr/bin/.debug/gadget-uac2 /usr/bin/.debug/gadget-vid-pid-remove /usr/bin/.debug/show-gadgets /usr/bin/.debug/show-udcs /usr/lib/.debug/libusbgx.so.2.0.0
+FILELIST = /lib/systemd/system-preset/98-libusbgx.preset /lib/systemd/system/usbgx.service /usr/bin/gadget-acm-ecm /usr/bin/gadget-export /usr/bin/gadget-ffs /usr/bin/gadget-hid /usr/bin/gadget-import /usr/bin/gadget-midi /usr/bin/gadget-ms /usr/bin/gadget-rndis-os-desc /usr/bin/gadget-start /usr/bin/gadget-uac2 /usr/bin/gadget-vid-pid-remove /usr/bin/show-gadgets /usr/bin/show-udcs /usr/lib/libusbgx.so.2 /usr/lib/libusbgx.so.2.0.0

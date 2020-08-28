@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libacl-dbg popt-dbg
 PKGSIZE = 220076
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/logrotate
+FILELIST = /etc/logrotate.conf /etc/logrotate.d/btmp /etc/logrotate.d/wtmp /lib/systemd/system-preset/98-logrotate.preset /lib/systemd/system/logrotate.service /lib/systemd/system/logrotate.timer /usr/sbin/logrotate /var/lib/logrotate.status

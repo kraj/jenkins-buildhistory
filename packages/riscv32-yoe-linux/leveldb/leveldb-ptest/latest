@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) leveldb (>= 1.22) libgcc (>= 10.2.0) libstdc++ (>= 10
 RRECOMMENDS = ptest-runner
 PKGSIZE = 184969
 FILES = /usr/lib/leveldb/ptest
-FILELIST = /usr/lib/leveldb/ptest/c_test /usr/lib/leveldb/ptest/env_test /usr/lib/leveldb/ptest/fault_injection_test /usr/lib/leveldb/ptest/issue178_test /usr/lib/leveldb/ptest/issue200_test /usr/lib/leveldb/ptest/issue320_test /usr/lib/leveldb/ptest/no_destructor_test /usr/lib/leveldb/ptest/run-ptest /usr/lib/leveldb/ptest/status_test
+FILELIST = /usr/bin/leveldbutil /usr/lib/libleveldb.so.1 /usr/lib/libleveldb.so.1.22.0

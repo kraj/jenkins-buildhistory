@@ -6,4 +6,4 @@ RDEPENDS = rng-tools (= 6.10-r0.0)
 RRECOMMENDS = glibc-dev libcrypto-dev libjitterentropy-dev libsysfs-dev openssl-dev sysfsutils-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rng-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/default/rng-tools /lib/systemd/system-preset/98-rng-tools.preset /lib/systemd/system/rngd.service /usr/bin/rngtest /usr/sbin/rngd

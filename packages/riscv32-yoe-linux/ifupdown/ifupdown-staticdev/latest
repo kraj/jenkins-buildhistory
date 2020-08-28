@@ -6,4 +6,4 @@ RDEPENDS = ifupdown-dev (= 0.8.35-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/ifupdown/*.a
-FILELIST = 
+FILELIST = /etc/default/volatiles/99_network /sbin/ifdown.ifupdown /sbin/ifup.ifupdown

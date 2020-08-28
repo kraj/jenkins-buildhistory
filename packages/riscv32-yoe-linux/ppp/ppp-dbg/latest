@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcrypto-dbg libpcap-dbg libxcrypt-dbg
 PKGSIZE = 1509932
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/pppd/2.4.8/.debug/minconn.so /usr/lib/pppd/2.4.8/.debug/openl2tp.so /usr/lib/pppd/2.4.8/.debug/passprompt.so /usr/lib/pppd/2.4.8/.debug/passwordfd.so /usr/lib/pppd/2.4.8/.debug/pppoatm.so /usr/lib/pppd/2.4.8/.debug/pppol2tp.so /usr/lib/pppd/2.4.8/.debug/radattr.so /usr/lib/pppd/2.4.8/.debug/radius.so /usr/lib/pppd/2.4.8/.debug/radrealms.so /usr/lib/pppd/2.4.8/.debug/rp-pppoe.so /usr/lib/pppd/2.4.8/.debug/winbind.so /usr/sbin/.debug/chat /usr/sbin/.debug/pppd /usr/sbin/.debug/pppdump /usr/sbin/.debug/pppoe-discovery /usr/sbin/.debug/pppstats
+FILELIST = /etc/chatscripts/pap /etc/ppp/chap-secrets /etc/ppp/ip-down /etc/ppp/ip-down.d/92removedns /etc/ppp/ip-up /etc/ppp/ip-up.d/08setupdns /etc/ppp/options /etc/ppp/pap-secrets /etc/ppp/peers/provider /etc/ppp/ppp_on_boot /lib/systemd/system/ppp@.service /usr/bin/poff /usr/bin/pon /usr/sbin/chat /usr/sbin/pppd

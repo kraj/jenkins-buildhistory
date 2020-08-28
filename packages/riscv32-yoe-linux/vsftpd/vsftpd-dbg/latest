@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcap-dbg libpam-dbg libwrap-dbg
 PKGSIZE = 534448
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/vsftpd
+FILELIST = /etc/default/volatiles/99_vsftpd /etc/pam.d/vsftpd /etc/tmpfiles.d/vsftpd.conf /etc/vsftpd.conf /etc/vsftpd.ftpusers /etc/vsftpd.user_list /lib/systemd/system-preset/98-vsftpd.preset /lib/systemd/system/vsftpd.service /usr/sbin/vsftpd

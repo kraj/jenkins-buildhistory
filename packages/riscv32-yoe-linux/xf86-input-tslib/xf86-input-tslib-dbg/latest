@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg tslib-dbg
 PKGSIZE = 67532
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/xorg/modules/input/.debug/tslib_drv.so
+FILELIST = /lib/udev/rules.d/99-xf86-input-tslib.rules /usr/lib/xorg/modules/input/tslib_drv.so /usr/share/X11/xorg.conf.d/50-tslib.conf

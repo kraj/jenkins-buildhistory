@@ -6,4 +6,4 @@ RDEPENDS = zstd-dev (= 1.4.5-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 38042708
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/zstd/*.a
-FILELIST = /usr/lib/libzstd.a
+FILELIST = /usr/bin/unzstd /usr/bin/zstd /usr/bin/zstdcat /usr/bin/zstdgrep /usr/bin/zstdless /usr/bin/zstdmt /usr/lib/libzstd.so.1 /usr/lib/libzstd.so.1.4.5

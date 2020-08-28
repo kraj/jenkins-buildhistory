@@ -7,4 +7,4 @@ RDEPENDS = apr (>= 1.7.0) glibc (>= 2.32) libgcc libxcrypt (>= 4.4.16) util-linu
 RRECOMMENDS = ptest-runner
 PKGSIZE = 218992
 FILES = /usr/lib/apr/ptest
-FILELIST = /usr/lib/apr/ptest/run-ptest /usr/lib/apr/ptest/test/.libs/libmod_test.so /usr/lib/apr/ptest/test/.libs/mod_test.so /usr/lib/apr/ptest/test/data/file_datafile.txt /usr/lib/apr/ptest/test/data/mmap_datafile.txt /usr/lib/apr/ptest/test/proc_child /usr/lib/apr/ptest/test/readchild /usr/lib/apr/ptest/test/sockchild /usr/lib/apr/ptest/test/sockperf /usr/lib/apr/ptest/test/testall /usr/lib/apr/ptest/test/tryread
+FILELIST = /usr/lib/libapr-1.so.0 /usr/lib/libapr-1.so.0.7.0

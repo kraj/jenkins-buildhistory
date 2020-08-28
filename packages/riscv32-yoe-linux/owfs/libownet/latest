@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 38481
 FILES = /usr/lib/libownet-*
-FILELIST = /usr/lib/libownet-3.2.so.3 /usr/lib/libownet-3.2.so.3.0.0
+FILELIST = /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service /usr/bin/owexist /usr/bin/owexternal /usr/bin/owfs /usr/bin/owusbprobe

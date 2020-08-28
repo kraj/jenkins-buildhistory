@@ -1,0 +1,10 @@
+PV = 5.8.4+gitAUTOINC+0a4bef3856_6a095b50f8
+PR = r0
+PKGV = 5.8.4+git0+0a4bef3856_6a095b50f8
+PKGR = r0.0
+RPROVIDES = kernel-module-ip6table-filter
+RDEPENDS = kernel-5.8.4-yocto-standard kernel-module-ip6-tables-5.8.4-yocto-standard kernel-module-x-tables-5.8.4-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5484
+FILES = /lib/modules/5.8.4-yocto-standard/kernel/net/ipv6/netfilter/ip6table_filter.ko /etc/modules-load.d/ip6table_filter.conf /etc/modprobe.d/ip6table_filter.conf
+FILELIST = /lib/modules/5.8.4-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

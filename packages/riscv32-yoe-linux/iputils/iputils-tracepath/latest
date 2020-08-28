@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 13740
 FILES = /bin/tracepath
-FILELIST = /bin/tracepath
+FILELIST = /lib/systemd/system-preset/98-iputils-ninfod.preset /lib/systemd/system/ninfod.service /sbin/ninfod

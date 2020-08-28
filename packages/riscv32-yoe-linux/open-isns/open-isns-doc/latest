@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 38758
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man5/isns_config.5 /usr/share/man/man8/isnsadm.8 /usr/share/man/man8/isnsd.8 /usr/share/man/man8/isnsdd.8
+FILELIST = /etc/isns/isnsadm.conf /etc/isns/isnsd.conf /etc/isns/isnsdd.conf /lib/systemd/system/isnsd.service /lib/systemd/system/isnsd.socket /usr/lib/libisns.so.0 /usr/sbin/isnsadm /usr/sbin/isnsd /usr/sbin/isnsdd

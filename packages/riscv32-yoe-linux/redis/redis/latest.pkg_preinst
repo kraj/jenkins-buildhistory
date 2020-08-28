@@ -86,8 +86,8 @@ fi
 if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
-	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	GROUPADD_PARAM="--system redis"
+	USERADD_PARAM="--system --home-dir /var/lib/redis -g redis --shell /bin/false redis"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

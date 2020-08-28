@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 1599
 FILES = /etc/cron.*
-FILELIST = /etc/cron.daily/debsums /etc/cron.monthly/debsums /etc/cron.weekly/debsums
+FILELIST = /etc/debsums-ignore /usr/bin/debsums /usr/bin/rdebsums /usr/sbin/debsums_init

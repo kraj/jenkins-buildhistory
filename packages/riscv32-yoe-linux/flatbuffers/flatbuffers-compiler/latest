@@ -7,4 +7,4 @@ RDEPENDS = flatbuffers glibc (>= 2.32) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0)
 RRECOMMENDS = 
 PKGSIZE = 1635316
 FILES = /usr/bin
-FILELIST = /usr/bin/flatc
+FILELIST = /usr/lib/libflatbuffers.so.1 /usr/lib/libflatbuffers.so.1.12.0

@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) popt (>= 1.18) rabbitmq-c (>= 0.10.0)
 RRECOMMENDS = 
 PKGSIZE = 74904
 FILES = /usr/bin
-FILELIST = /usr/bin/amqp-consume /usr/bin/amqp-declare-queue /usr/bin/amqp-delete-queue /usr/bin/amqp-get /usr/bin/amqp-publish
+FILELIST = /usr/lib/librabbitmq.so.4 /usr/lib/librabbitmq.so.4.4.0

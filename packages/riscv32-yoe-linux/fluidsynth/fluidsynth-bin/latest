@@ -7,4 +7,4 @@ RDEPENDS = fluidsynth (>= 2.1.3) glibc (>= 2.32) libsystemd (>= 246.2)
 RRECOMMENDS = 
 PKGSIZE = 22544
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/fluidsynth
+FILELIST = /usr/lib/libfluidsynth.so.2 /usr/lib/libfluidsynth.so.2.3.3

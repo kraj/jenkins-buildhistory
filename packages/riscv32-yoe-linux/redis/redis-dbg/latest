@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libatomic-dbg
 PKGSIZE = 16746792
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/redis-benchmark /usr/bin/.debug/redis-check-aof /usr/bin/.debug/redis-check-rdb /usr/bin/.debug/redis-cli /usr/bin/.debug/redis-server
+FILELIST = /etc/redis/redis.conf /lib/systemd/system-preset/98-redis.preset /lib/systemd/system/redis.service /usr/bin/redis-benchmark /usr/bin/redis-check-aof /usr/bin/redis-check-rdb /usr/bin/redis-cli /usr/bin/redis-sentinel /usr/bin/redis-server

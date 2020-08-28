@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libaio (>= 0.3.111) libavahi-client (>= 0.8) libavahi
 RRECOMMENDS = 
 PKGSIZE = 51306
 FILES = /usr/sbin/iiod /lib/systemd/system/iiod.service /lib/systemd/system-preset/98-libiio-iiod.preset /lib/systemd/system/iiod.service
-FILELIST = /lib/systemd/system-preset/98-libiio-iiod.preset /lib/systemd/system/iiod.service /usr/sbin/iiod
+FILELIST = /lib/udev/rules.d/90-libiio.rules /usr/lib/libiio.so.0 /usr/lib/libiio.so.0.21

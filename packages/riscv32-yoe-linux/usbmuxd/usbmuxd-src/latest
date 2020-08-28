@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 157606
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/usbmuxd/1.1.1-r0/git/src/client.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/client.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/conf.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/conf.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/device.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/device.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/log.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/log.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/main.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/preflight.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/preflight.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/usb.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/usb.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/usbmuxd-proto.h /usr/src/debug/usbmuxd/1.1.1-r0/git/src/utils.c /usr/src/debug/usbmuxd/1.1.1-r0/git/src/utils.h
+FILELIST = /lib/systemd/system-preset/98-usbmuxd.preset /lib/systemd/system/usbmuxd.service /lib/udev/rules.d/39-usbmuxd.rules /usr/sbin/usbmuxd

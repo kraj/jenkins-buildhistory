@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 13100
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/systemd-bootchart.1 /usr/share/man/man5/bootchart.conf.5 /usr/share/man/man5/bootchart.conf.d.5
+FILELIST = /etc/systemd/bootchart.conf /lib/systemd/system-preset/98-systemd-bootchart.preset /lib/systemd/system/systemd-bootchart.service /lib/systemd/systemd-bootchart

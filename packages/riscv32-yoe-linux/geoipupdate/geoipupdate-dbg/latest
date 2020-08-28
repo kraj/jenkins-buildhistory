@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcurl-dbg zlib-dbg
 PKGSIZE = 98916
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/geoipupdate
+FILELIST = /etc/GeoIP.conf /etc/cron.d/geoipupdate.cron /usr/bin/geoipupdate

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 20603
 FILES = /usr/share/man/man1 /usr/share/man/man5
-FILELIST = /usr/share/man/man1/sensors.1 /usr/share/man/man5/sensors.conf.5 /usr/share/man/man5/sensors3.conf.5
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

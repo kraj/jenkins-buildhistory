@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libgpiod (>= 1.4.4)
 RRECOMMENDS = 
 PKGSIZE = 53816
 FILES = /usr/bin/*
-FILELIST = /usr/bin/gpiodetect /usr/bin/gpiofind /usr/bin/gpioget /usr/bin/gpioinfo /usr/bin/gpiomon /usr/bin/gpioset
+FILELIST = /usr/lib/libgpiod.so.2 /usr/lib/libgpiod.so.2.1.4

@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 133792
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/qrtr-cfg /usr/bin/.debug/qrtr-lookup /usr/bin/.debug/qrtr-ns /usr/lib/.debug/libqrtr.so.1.0
+FILELIST = /lib/systemd/system-preset/98-qrtr.preset /lib/systemd/system/qrtr-ns.service /usr/bin/qrtr-cfg /usr/bin/qrtr-lookup /usr/bin/qrtr-ns /usr/lib/libqrtr.so.1 /usr/lib/libqrtr.so.1.0

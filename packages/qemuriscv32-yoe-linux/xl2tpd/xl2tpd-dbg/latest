@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libpcap-dbg
 PKGSIZE = 434056
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/pfc /usr/sbin/.debug/xl2tpd /usr/sbin/.debug/xl2tpd-control
+FILELIST = /etc/default/xl2tpd /etc/init.d/xl2tpd /etc/xl2tpd.conf /usr/bin/pfc /usr/sbin/xl2tpd /usr/sbin/xl2tpd-control

@@ -86,8 +86,8 @@ fi
 if test "x$UA_SYSROOT" = "x"; then
 	# Installing onto a target
 	# Add groups and users defined only for this package
-	GROUPADD_PARAM="${GROUPADD_PARAM}"
-	USERADD_PARAM="${USERADD_PARAM}"
+	GROUPADD_PARAM="--system quagga ; --system quaggavty"
+	USERADD_PARAM="--system --home /var/run/quagga/ -M -g quagga -G quaggavty --shell /bin/false quagga"
 	GROUPMEMS_PARAM="${GROUPMEMS_PARAM}"
 fi
 

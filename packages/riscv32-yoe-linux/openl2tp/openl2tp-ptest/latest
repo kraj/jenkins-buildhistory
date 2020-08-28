@@ -6,4 +6,4 @@ RDEPENDS = openl2tp
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1033423
 FILES = /usr/lib/openl2tp/ptest
-FILELIST = /usr/lib/openl2tp/ptest/all.tcl /usr/lib/openl2tp/ptest/configfile.test /usr/lib/openl2tp/ptest/peer_profile.test /usr/lib/openl2tp/ptest/ppp_profile.test /usr/lib/openl2tp/ptest/run-ptest /usr/lib/openl2tp/ptest/session.test /usr/lib/openl2tp/ptest/session_profile.test /usr/lib/openl2tp/ptest/system.test /usr/lib/openl2tp/ptest/test_procs.tcl /usr/lib/openl2tp/ptest/thirdparty_lns.test /usr/lib/openl2tp/ptest/tunnel.test /usr/lib/openl2tp/ptest/tunnel_profile.test
+FILELIST = /etc/default/openl2tpd /lib/systemd/system-preset/98-openl2tp.preset /lib/systemd/system/openl2tpd.service /usr/bin/l2tpconfig /usr/lib/openl2tp/event_sock.h /usr/lib/openl2tp/event_sock.so /usr/lib/openl2tp/ipsec.so /usr/lib/openl2tp/l2tp_event.h /usr/lib/openl2tp/l2tp_rpc.x /usr/lib/openl2tp/ppp_null.so /usr/lib/openl2tp/ppp_unix.so /usr/sbin/openl2tpd

@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 702072
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/brotli
+FILELIST = /usr/lib/libbrotlicommon.so.1 /usr/lib/libbrotlicommon.so.1.0.7 /usr/lib/libbrotlidec.so.1 /usr/lib/libbrotlidec.so.1.0.7 /usr/lib/libbrotlienc.so.1 /usr/lib/libbrotlienc.so.1.0.7

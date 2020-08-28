@@ -7,4 +7,4 @@ RDEPENDS = libxvmc (= 1:1.0.12-r0.0)
 RRECOMMENDS = glibc-dev libx11-dev libxext-dev libxv-dev util-macros-dev xorgproto-dev
 PKGSIZE = 10280
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxvmc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/X11/extensions/XvMClib.h /usr/include/X11/extensions/vldXvMC.h /usr/lib/libXvMC.so /usr/lib/libXvMCW.so /usr/lib/pkgconfig/xvmc-wrapper.pc /usr/lib/pkgconfig/xvmc.pc
+FILELIST = /usr/lib/libXvMC.so.1 /usr/lib/libXvMC.so.1.0.0 /usr/lib/libXvMCW.so.1 /usr/lib/libXvMCW.so.1.0.0

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 if [ -n "$D" ] ; then
-	$INTERCEPT_DIR/postinst_intercept update_font_cache ${PKG} mlprefix= binprefix= \
+	$INTERCEPT_DIR/postinst_intercept update_font_cache ttf-liberation-serif mlprefix= binprefix= \
 		'bindir="/usr/bin"' \
 		'libdir="/usr/lib"' \
 		'libexecdir="/usr/libexec"' \

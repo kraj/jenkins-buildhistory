@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libusb1-dbg
 PKGSIZE = 432388
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libopenobex.so.1.7.2 /usr/sbin/.debug/obex-check-device
+FILELIST = /lib/udev/rules.d/60-openobex.rules /usr/lib/libopenobex.so.1.7.2 /usr/lib/libopenobex.so.2 /usr/sbin/obex-check-device

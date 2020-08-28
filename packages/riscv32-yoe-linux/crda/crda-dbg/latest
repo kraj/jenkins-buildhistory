@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libgcrypt-dbg libnl-dbg libnl-genl-dbg
 PKGSIZE = 111104
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/crda/.debug/libreg.so /usr/sbin/.debug/crda /usr/sbin/.debug/regdbdump
+FILELIST = /lib/udev/rules.d/85-regulatory.rules /usr/lib/crda/libreg.so /usr/sbin/crda /usr/sbin/regdbdump

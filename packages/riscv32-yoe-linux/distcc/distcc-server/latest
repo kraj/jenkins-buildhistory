@@ -6,4 +6,4 @@ RDEPENDS = base-files base-passwd glibc (>= 2.32) libavahi-client (>= 0.8) libav
 RRECOMMENDS = avahi-daemon
 PKGSIZE = 107285
 FILES = /etc /usr/bin/distccd /usr/sbin /lib/systemd/system-preset/98-distcc-server.preset /lib/systemd/system/distcc.service
-FILELIST = /etc/default/distcc /etc/distcc/clients.allow /etc/distcc/commands.allow.sh /etc/distcc/hosts /lib/systemd/system-preset/98-distcc-server.preset /lib/systemd/system/distcc.service /usr/bin/distccd /usr/sbin/update-distcc-symlinks
+FILELIST = /usr/bin/distcc /usr/bin/distccmon-text /usr/bin/lsdistcc

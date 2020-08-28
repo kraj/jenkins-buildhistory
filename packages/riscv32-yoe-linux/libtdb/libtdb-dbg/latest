@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libxcrypt-dbg
 PKGSIZE = 499136
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/tdbbackup /usr/bin/.debug/tdbdump /usr/bin/.debug/tdbrestore /usr/bin/.debug/tdbtool /usr/lib/.debug/libtdb.so.1.4.3 /usr/lib/python3.8/site-packages/.debug/tdb.cpython-38-riscv32-linux-gnu.so
+FILELIST = /usr/lib/python3.8/site-packages/_tdb_text.py /usr/lib/python3.8/site-packages/tdb.cpython-38-riscv32-linux-gnu.so /usr/lib/python3.8/site-packages/tdb.so

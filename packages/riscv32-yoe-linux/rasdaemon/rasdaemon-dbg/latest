@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libsqlite3-dbg
 PKGSIZE = 796376
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/sbin/.debug/rasdaemon
+FILELIST = /lib/systemd/system-preset/98-rasdaemon.preset /lib/systemd/system/rasdaemon.service /usr/sbin/ras-mc-ctl /usr/sbin/rasdaemon

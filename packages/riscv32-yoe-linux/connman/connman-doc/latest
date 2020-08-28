@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 44295
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/connmanctl.1 /usr/share/man/man5/connman-service.config.5 /usr/share/man/man5/connman-vpn-provider.config.5 /usr/share/man/man5/connman-vpn.conf.5 /usr/share/man/man5/connman.conf.5 /usr/share/man/man8/connman-vpn.8 /usr/share/man/man8/connman.8
+FILELIST = /etc/resolv-conf.connman /etc/tmpfiles.d/connman_resolvconf.conf /lib/systemd/system-preset/98-connman.preset /lib/systemd/system/connman.service /usr/sbin/connmand /usr/share/dbus-1/system.d/connman.conf

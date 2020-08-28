@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 22120
 FILES = /usr/bin /sbin
-FILELIST = /usr/bin/fusermount3
+FILELIST = /etc/fuse.conf /etc/init.d/fuse3 /lib/udev/rules.d/99-fuse3.rules /usr/lib/libfuse3.so.3 /usr/lib/libfuse3.so.3.9.2 /usr/sbin/mount.fuse3

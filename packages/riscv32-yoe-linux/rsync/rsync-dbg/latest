@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libacl-dbg popt-dbg
 PKGSIZE = 1659096
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/rsync
+FILELIST = /etc/rsyncd.conf /usr/bin/rsync /usr/bin/rsync-ssl

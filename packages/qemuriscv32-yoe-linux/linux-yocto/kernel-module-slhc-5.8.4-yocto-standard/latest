@@ -1,0 +1,10 @@
+PV = 5.8.4+gitAUTOINC+0a4bef3856_6a095b50f8
+PR = r0
+PKGV = 5.8.4+git0+0a4bef3856_6a095b50f8
+PKGR = r0.0
+RPROVIDES = kernel-module-slhc
+RDEPENDS = kernel-5.8.4-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 12012
+FILES = /lib/modules/5.8.4-yocto-standard/kernel/drivers/net/slip/slhc.ko /etc/modules-load.d/slhc.conf /etc/modprobe.d/slhc.conf
+FILELIST = /lib/modules/5.8.4-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

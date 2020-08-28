@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32)
 RRECOMMENDS = lmsensors-config-libsensors
 PKGSIZE = 53064
 FILES = /usr/lib/libsensors.so.* /etc/sensors3.conf /etc/sensors.d
-FILELIST = /etc/sensors3.conf /usr/lib/libsensors.so.5 /usr/lib/libsensors.so.5.0.0
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

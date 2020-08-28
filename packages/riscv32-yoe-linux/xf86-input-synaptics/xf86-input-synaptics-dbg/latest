@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libevdev-dbg libx11-dbg libxi-dbg libxtst-dbg
 PKGSIZE = 462932
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/synclient /usr/bin/.debug/syndaemon /usr/lib/xorg/modules/input/.debug/synaptics_drv.so
+FILELIST = /usr/bin/synclient /usr/bin/syndaemon /usr/lib/xorg/modules/input/synaptics_drv.so /usr/share/X11/xorg.conf.d/70-synaptics.conf

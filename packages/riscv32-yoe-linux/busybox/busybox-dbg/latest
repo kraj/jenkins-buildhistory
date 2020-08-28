@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 4215348
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/busybox.nosuid /bin/.debug/busybox.suid
+FILELIST = /bin/busybox /bin/busybox.nosuid /bin/busybox.suid /bin/sh /etc/busybox.links.nosuid /etc/busybox.links.suid

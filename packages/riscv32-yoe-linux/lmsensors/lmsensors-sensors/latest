@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) lmsensors-libsensors (>= 3.6.0)
 RRECOMMENDS = 
 PKGSIZE = 18144
 FILES = /usr/bin/sensors
-FILELIST = /usr/bin/sensors
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

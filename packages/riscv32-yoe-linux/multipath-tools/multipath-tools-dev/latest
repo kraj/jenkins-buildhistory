@@ -6,4 +6,4 @@ RDEPENDS = multipath-tools (= 0.8.4-r0.0) multipath-tools-libs
 RRECOMMENDS = bash-dev glibc-dev json-c-dev kpartx-dev libaio-dev libdevmapper-dev libsystemd-dev libudev-dev liburcu-dev lvm2-dev multipath-tools-libs-dev readline-dev udev-dev
 PKGSIZE = 34250
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/multipath-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /lib/pkgconfig
-FILELIST = /lib/libdmmp.so /lib/libmpathcmd.so /lib/libmpathpersist.so /lib/libmultipath.so /lib/pkgconfig/libdmmp.pc /usr/include/libdmmp/libdmmp.h /usr/include/mpath_cmd.h /usr/include/mpath_persist.h
+FILELIST = /etc/multipath.conf.example /lib/systemd/system-preset/98-multipath-tools.preset /lib/systemd/system/multipathd.service /lib/systemd/system/multipathd.socket /lib/udev/rules.d/11-dm-mpath.rules /lib/udev/rules.d/11-dm-parts.rules /lib/udev/rules.d/62-multipath.rules /lib/udev/rules.d/66-kpartx.rules /lib/udev/rules.d/68-del-part-nodes.rules /sbin/mpathconf /sbin/mpathpersist /sbin/multipath /sbin/multipathd

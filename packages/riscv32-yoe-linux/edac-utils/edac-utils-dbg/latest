@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libsysfs-dbg
 PKGSIZE = 81460
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/edac-util /usr/lib/.debug/libedac.so.1.1.1
+FILELIST = /etc/edac/labels.db /lib/systemd/system-preset/98-edac-utils.preset /lib/systemd/system/edac.service /usr/bin/edac-util /usr/lib/libedac.so.1 /usr/lib/libedac.so.1.1.1 /usr/sbin/edac-ctl

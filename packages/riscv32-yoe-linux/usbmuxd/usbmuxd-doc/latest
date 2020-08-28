@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 2659
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man8/usbmuxd.8
+FILELIST = /lib/systemd/system-preset/98-usbmuxd.preset /lib/systemd/system/usbmuxd.service /lib/udev/rules.d/39-usbmuxd.rules /usr/sbin/usbmuxd

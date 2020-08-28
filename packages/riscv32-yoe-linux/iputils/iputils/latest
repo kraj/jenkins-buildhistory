@@ -6,4 +6,4 @@ RDEPENDS = iputils-arping iputils-clockdiff iputils-ninfod iputils-ping iputils-
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = 
-FILELIST = 
+FILELIST = /lib/systemd/system-preset/98-iputils-ninfod.preset /lib/systemd/system/ninfod.service /sbin/ninfod

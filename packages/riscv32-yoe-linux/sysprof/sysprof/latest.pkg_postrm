@@ -2,7 +2,7 @@
 set -e
 	glib-compile-schemas $D/usr/share/glib-2.0/schemas
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_mime_database ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_mime_database sysprof \
 		mlprefix= \
 		mimedir=/usr/share/mime
 else
@@ -21,7 +21,7 @@ else
 fi
 fi
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_desktop_database ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database sysprof \
 		mlprefix= \
 		desktop_dir=/usr/share/applications
 else

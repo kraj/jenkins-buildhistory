@@ -23,7 +23,7 @@ if type systemctl >/dev/null 2>/dev/null; then
 	fi
 fi
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_mime_database ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_mime_database phoronix-test-suite \
 		mlprefix= \
 		mimedir=/usr/share/mime
 else
@@ -31,7 +31,7 @@ else
 	update-mime-database $D/usr/share/mime
 fi
 if [ "x$D" != "x" ]; then
-	$INTERCEPT_DIR/postinst_intercept update_desktop_database ${PKG} \
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database phoronix-test-suite \
 		mlprefix= \
 		desktop_dir=/usr/share/applications
 else

@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libudev-dbg qrtr-dbg
 PKGSIZE = 90896
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/rmtfs
+FILELIST = /lib/systemd/system-preset/98-rmtfs.preset /lib/systemd/system/rmtfs.service /usr/bin/rmtfs

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/share/locale
-FILELIST = 
+FILELIST = /etc/default/smartmontools /etc/smartd.conf /etc/smartd_warning.sh /lib/systemd/system-preset/98-smartmontools.preset /lib/systemd/system/smartd.service /usr/sbin/smartctl /usr/sbin/smartd /usr/sbin/update-smart-drivedb /usr/share/smartmontools/drivedb.h

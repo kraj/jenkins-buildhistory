@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 22957
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/vblade/24-r0/git/aoe.c /usr/src/debug/vblade/24-r0/git/ata.c /usr/src/debug/vblade/24-r0/git/bpf.c /usr/src/debug/vblade/24-r0/git/dat.c /usr/src/debug/vblade/24-r0/git/dat.h /usr/src/debug/vblade/24-r0/git/fns.h /usr/src/debug/vblade/24-r0/git/linux.c
+FILELIST = /etc/tmpfiles.d/vblade.conf /etc/vblade.conf /lib/systemd/system-preset/98-vblade.preset /lib/systemd/system/vblade.service /usr/bin/vblade.init /usr/sbin/vblade /usr/sbin/vbladed

@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 27734
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/coreinject.1 /usr/share/man/man1/minicoredumper.1 /usr/share/man/man1/minicoredumper_regd.1 /usr/share/man/man1/minicoredumper_trigger.1 /usr/share/man/man3/mcd_dump_data_register_bin.3 /usr/share/man/man3/mcd_dump_data_register_text.3 /usr/share/man/man3/mcd_dump_data_unregister.3 /usr/share/man/man3/mcd_vdump_data_register_text.3 /usr/share/man/man5/minicoredumper.cfg.json.5 /usr/share/man/man5/minicoredumper.recept.json.5 /usr/share/man/man7/libminicoredumper.7
+FILELIST = /etc/default/minicoredumper /etc/default/minicoredumper.in /etc/minicoredumper/generic.recept.json /etc/minicoredumper/minicoredumper.cfg.json /etc/minicoredumper/minicoredumper.cfg.json.in /lib/systemd/system-preset/98-minicoredumper.preset /lib/systemd/system/minicoredumper.service /usr/bin/coreinject /usr/lib/libminicoredumper.so.2 /usr/lib/libminicoredumper.so.2.0.1 /usr/sbin/minicoredumper /usr/sbin/minicoredumper_regd /usr/sbin/minicoredumper_trigger

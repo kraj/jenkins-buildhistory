@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libow (>= 3.2p3)
 RRECOMMENDS = 
 PKGSIZE = 26655
 FILES = /usr/bin/owserver /etc/init.d/owserver /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket
-FILELIST = /lib/systemd/system/owserver.service /lib/systemd/system/owserver.socket /usr/bin/owserver
+FILELIST = /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service /usr/bin/owexist /usr/bin/owexternal /usr/bin/owfs /usr/bin/owusbprobe

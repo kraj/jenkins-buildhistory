@@ -6,4 +6,4 @@ RDEPENDS = keyutils (= 1.6.1-r0.0)
 RRECOMMENDS = glibc-dev glibc-utils-dev lsb-release-dev
 PKGSIZE = 11493
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/keyutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/keyutils.h /usr/lib/libkeyutils.so /usr/lib/pkgconfig/libkeyutils.pc
+FILELIST = /bin/keyctl /etc/request-key.conf /sbin/key.dns_resolver /sbin/request-key /usr/lib/libkeyutils.so.1 /usr/lib/libkeyutils.so.1.9 /usr/share/keyutils/request-key-debug.sh

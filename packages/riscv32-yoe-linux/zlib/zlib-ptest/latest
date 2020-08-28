@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) make zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 13837
 FILES = /usr/lib/zlib/ptest
-FILELIST = /usr/lib/zlib/ptest/examplesh /usr/lib/zlib/ptest/run-ptest
+FILELIST = /lib/libz.so.1 /lib/libz.so.1.2.11

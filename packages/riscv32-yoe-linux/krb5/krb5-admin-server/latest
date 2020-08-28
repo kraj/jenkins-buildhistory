@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libcomerr (>= 1.45.6) libgssapi-krb5 (>= 1.17.1) libg
 RRECOMMENDS = 
 PKGSIZE = 154300
 FILES = /usr/sbin/kadmin.local /usr/sbin/kadmind /usr/sbin/kprop /etc/default/krb5-admin-server /etc/init.d/krb5-admin-server /lib/systemd/system/krb5-admin-server.service /lib/systemd/system-preset/98-krb5-admin-server.preset /lib/systemd/system/krb5-admin-server.service
-FILELIST = /etc/default/krb5-admin-server /lib/systemd/system-preset/98-krb5-admin-server.preset /lib/systemd/system/krb5-admin-server.service /usr/sbin/kadmin.local /usr/sbin/kadmind /usr/sbin/kprop
+FILELIST = /usr/lib/krb5/plugins/preauth/test.so

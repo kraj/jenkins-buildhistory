@@ -6,4 +6,4 @@ RDEPENDS = conntrack-tools-dev (= 1.4.6-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/conntrack-tools/*.a
-FILELIST = 
+FILELIST = /etc/conntrackd/conntrackd.conf.sample /etc/init.d/conntrack-failover /etc/init.d/conntrackd /usr/lib/conntrack-tools/ct_helper_amanda.so /usr/lib/conntrack-tools/ct_helper_dhcpv6.so /usr/lib/conntrack-tools/ct_helper_ftp.so /usr/lib/conntrack-tools/ct_helper_mdns.so /usr/lib/conntrack-tools/ct_helper_rpc.so /usr/lib/conntrack-tools/ct_helper_sane.so /usr/lib/conntrack-tools/ct_helper_slp.so /usr/lib/conntrack-tools/ct_helper_ssdp.so /usr/lib/conntrack-tools/ct_helper_tftp.so /usr/lib/conntrack-tools/ct_helper_tns.so /usr/sbin/conntrack /usr/sbin/conntrackd /usr/sbin/nfct

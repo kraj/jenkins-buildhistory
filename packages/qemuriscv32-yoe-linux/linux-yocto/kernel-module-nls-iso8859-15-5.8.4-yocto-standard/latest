@@ -1,0 +1,10 @@
+PV = 5.8.4+gitAUTOINC+0a4bef3856_6a095b50f8
+PR = r0
+PKGV = 5.8.4+git0+0a4bef3856_6a095b50f8
+PKGR = r0.0
+RPROVIDES = kernel-module-nls-iso8859-15
+RDEPENDS = kernel-5.8.4-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6568
+FILES = /lib/modules/5.8.4-yocto-standard/kernel/fs/nls/nls_iso8859-15.ko /etc/modules-load.d/nls_iso8859-15.conf /etc/modprobe.d/nls_iso8859-15.conf
+FILELIST = /lib/modules/5.8.4-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

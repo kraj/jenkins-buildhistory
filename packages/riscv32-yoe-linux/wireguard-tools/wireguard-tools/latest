@@ -6,4 +6,4 @@ RDEPENDS = bash glibc (>= 2.32)
 RRECOMMENDS = kernel-module-wireguard
 PKGSIZE = 70130
 FILES = /etc /lib/systemd /usr/bin
-FILELIST = /lib/systemd/wg-quick.target /lib/systemd/wg-quick@.service /usr/bin/wg /usr/bin/wg-quick
+FILELIST = /usr/share/bash-completion/completions/wg /usr/share/bash-completion/completions/wg-quick

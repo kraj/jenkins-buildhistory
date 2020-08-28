@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/share/locale
-FILELIST = 
+FILELIST = /etc/default/iscsi-initiator /etc/iscsi/iscsid.conf /etc/tmpfiles.d/iscsi.conf /lib/systemd/system/iscsi-initiator-targets.service /lib/systemd/system/iscsi-initiator.service /usr/lib/iscsi/set_initiatorname /usr/lib/libopeniscsiusr.so.0 /usr/lib/libopeniscsiusr.so.0.2.0 /usr/sbin/iscsi-iname /usr/sbin/iscsiadm /usr/sbin/iscsid /usr/sbin/iscsistart

@@ -6,4 +6,4 @@ RDEPENDS = dbus-lib (>= 1.12.20) glibc (>= 2.32) libpipewire-0.2 (>= 0.2.7) libs
 RRECOMMENDS = 
 PKGSIZE = 237452
 FILES = /usr/lib/pipewire-*/*
-FILELIST = /usr/lib/pipewire-0.2/libpipewire-module-audio-dsp.so /usr/lib/pipewire-0.2/libpipewire-module-autolink.so /usr/lib/pipewire-0.2/libpipewire-module-client-node.so /usr/lib/pipewire-0.2/libpipewire-module-link-factory.so /usr/lib/pipewire-0.2/libpipewire-module-mixer.so /usr/lib/pipewire-0.2/libpipewire-module-portal.so /usr/lib/pipewire-0.2/libpipewire-module-protocol-native.so /usr/lib/pipewire-0.2/libpipewire-module-rtkit.so /usr/lib/pipewire-0.2/libpipewire-module-spa-monitor.so /usr/lib/pipewire-0.2/libpipewire-module-spa-node-factory.so /usr/lib/pipewire-0.2/libpipewire-module-spa-node.so /usr/lib/pipewire-0.2/libpipewire-module-suspend-on-idle.so
+FILELIST = /etc/pipewire/pipewire.conf /usr/bin/pipewire /usr/bin/pipewire-cli /usr/bin/pipewire-monitor /usr/lib/systemd/user/pipewire.service /usr/lib/systemd/user/pipewire.socket

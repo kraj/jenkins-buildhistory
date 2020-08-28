@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libgcc (>= 10.2.0) libow (>= 3.2p3)
 RRECOMMENDS = 
 PKGSIZE = 63819
 FILES = /usr/bin/owftpd /lib/systemd/system/owftpd.service
-FILELIST = /lib/systemd/system/owftpd.service /usr/bin/owftpd
+FILELIST = /lib/systemd/system-preset/98-owfs.preset /lib/systemd/system/owfs.service /usr/bin/owexist /usr/bin/owexternal /usr/bin/owfs /usr/bin/owusbprobe

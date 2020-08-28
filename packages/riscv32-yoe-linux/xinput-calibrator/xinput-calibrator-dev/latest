@@ -7,4 +7,4 @@ RDEPENDS = xinput-calibrator (= 0.7.5+git0+03dadf5510-r6.0)
 RRECOMMENDS = formfactor-dev glibc-dev libgcc-dev libstdc++-dev libx11-dev libxi-dev libxrandr-dev xinput-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xinput-calibrator/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/X11/Xsession.d/30xinput_calibrate.sh /etc/xdg/autostart/xinput_calibrator.desktop /usr/bin/tester /usr/bin/xinput_calibrator /usr/bin/xinput_calibrator_once.sh /usr/share/applications/xinput_calibrator.desktop /usr/share/pixmaps/xinput_calibrator.svg /usr/share/pixmaps/xinput_calibrator.xpm

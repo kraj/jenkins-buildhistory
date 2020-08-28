@@ -1,6 +1,6 @@
 set -e
     if [ x"$D" != "x" ]; then
-        $INTERCEPT_DIR/postinst_intercept delay_to_first_boot ${PKG} mlprefix=
+        $INTERCEPT_DIR/postinst_intercept delay_to_first_boot sblim-sfcb mlprefix=
     fi
 
     /usr/share/sfcb/genSslCert.sh /etc/sfcb

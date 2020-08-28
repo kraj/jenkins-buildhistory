@@ -7,4 +7,4 @@ RDEPENDS = glib-2.0 (>= 2.64.4) glibc (>= 2.32) libsystemd (>= 246.2)
 RRECOMMENDS = 
 PKGSIZE = 10291
 FILES = /lib/netplan/netplan-dbus /usr/share/dbus-1
-FILELIST = /lib/netplan/netplan-dbus /usr/share/dbus-1/system-services/io.netplan.Netplan.service /usr/share/dbus-1/system.d/io.netplan.Netplan.conf
+FILELIST = /usr/lib/libnetplan.so.0.0

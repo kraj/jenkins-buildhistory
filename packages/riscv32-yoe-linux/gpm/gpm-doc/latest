@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 35258
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/info/gpm.info /usr/share/man/man1/gpm-root.1 /usr/share/man/man1/mev.1 /usr/share/man/man1/mouse-test.1 /usr/share/man/man7/gpm-types.7 /usr/share/man/man8/gpm.8
+FILELIST = /lib/systemd/system-preset/98-gpm.preset /lib/systemd/system/gpm.service /usr/bin/disable-paste /usr/bin/display-buttons /usr/bin/display-coords /usr/bin/get-versions /usr/bin/gpm-root /usr/bin/hltest /usr/bin/mev /usr/bin/mouse-test /usr/lib/libgpm.so.2 /usr/lib/libgpm.so.2.1.0 /usr/sbin/gpm

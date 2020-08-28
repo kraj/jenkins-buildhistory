@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 18147
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/th-cmd.1 /usr/share/man/man1/thd.1
+FILELIST = /lib/systemd/system-preset/98-triggerhappy.preset /lib/systemd/system/triggerhappy.service /lib/systemd/system/triggerhappy.socket /lib/udev/rules.d/80-triggerhappy.rules /usr/sbin/th-cmd /usr/sbin/thd

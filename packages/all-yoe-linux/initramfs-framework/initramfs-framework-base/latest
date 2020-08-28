@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = initramfs-module-rootfs
 PKGSIZE = 4073
 FILES = /init /init.d/99-finish /dev
-FILELIST = /dev/console /init /init.d/99-finish
+FILELIST = /init.d/09-lvm

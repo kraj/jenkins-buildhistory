@@ -6,4 +6,4 @@ RDEPENDS = smartmontools (= 7.1-r0.0)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev mailx-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/smartmontools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 
+FILELIST = /etc/default/smartmontools /etc/smartd.conf /etc/smartd_warning.sh /lib/systemd/system-preset/98-smartmontools.preset /lib/systemd/system/smartd.service /usr/sbin/smartctl /usr/sbin/smartd /usr/sbin/update-smart-drivedb /usr/share/smartmontools/drivedb.h

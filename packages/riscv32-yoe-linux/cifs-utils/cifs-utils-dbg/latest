@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg libcap-ng-dbg
 PKGSIZE = 211832
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug /lib/security/.debug
-FILELIST = /sbin/.debug/mount.cifs /usr/bin/.debug/smbinfo
+FILELIST = /sbin/mount.cifs /sbin/mount.smb3 /usr/bin/smb2-quota /usr/bin/smbinfo

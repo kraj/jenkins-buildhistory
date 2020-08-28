@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/share/locale
-FILELIST = 
+FILELIST = /etc/default/boinc-client /lib/systemd/system-preset/98-boinc-client.preset /lib/systemd/system/boinc-client.service /usr/bin/boinc /usr/bin/boinc_client /usr/bin/boinccmd /usr/bin/switcher /usr/lib/libboinc_api.so.7 /usr/lib/libboinc_api.so.7.17.0 /usr/lib/libboinc_opencl.so.7 /usr/lib/libboinc_opencl.so.7.17.0

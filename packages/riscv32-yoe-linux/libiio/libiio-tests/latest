@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libiio (>= 0.21+git0+565bf68ecc)
 RRECOMMENDS = 
 PKGSIZE = 152072
 FILES = /usr/bin
-FILELIST = /usr/bin/iio_adi_xflow_check /usr/bin/iio_attr /usr/bin/iio_genxml /usr/bin/iio_info /usr/bin/iio_readdev /usr/bin/iio_reg /usr/bin/iio_stresstest /usr/bin/iio_writedev
+FILELIST = /lib/udev/rules.d/90-libiio.rules /usr/lib/libiio.so.0 /usr/lib/libiio.so.0.21

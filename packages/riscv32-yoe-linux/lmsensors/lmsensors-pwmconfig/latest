@@ -6,4 +6,4 @@ RDEPENDS = bash lmsensors-fancontrol
 RRECOMMENDS = 
 PKGSIZE = 23456
 FILES = /usr/sbin/pwmconfig
-FILELIST = /usr/sbin/pwmconfig
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

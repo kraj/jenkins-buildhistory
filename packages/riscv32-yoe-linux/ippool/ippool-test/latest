@@ -6,4 +6,4 @@ RDEPENDS = ippool tcl
 RRECOMMENDS = 
 PKGSIZE = 55556
 FILES = /opt/ippool
-FILELIST = /opt/ippool/all.tcl /opt/ippool/ippool.test /opt/ippool/runtest.sh /opt/ippool/test_procs.tcl
+FILELIST = /lib/systemd/system-preset/98-ippool.preset /lib/systemd/system/ippool.service /usr/bin/ippoolconfig /usr/lib/ippool/ippool_rpc.x /usr/lib/pppd/2.4.8/ippool.so /usr/sbin/ippoold

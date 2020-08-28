@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = 
+FILELIST = /etc/default/weston /etc/udev/rules.d/71-weston-drm.rules /etc/xdg/weston/weston.ini /lib/systemd/system-preset/98-weston-init.preset /lib/systemd/system/weston@.service /usr/bin/weston-start

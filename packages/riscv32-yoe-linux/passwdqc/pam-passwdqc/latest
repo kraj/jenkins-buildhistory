@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libpam (>= 1.3.1) libpasswdqc (>= 1.3.1) libxcrypt (>
 RRECOMMENDS = 
 PKGSIZE = 9364
 FILES = /lib/security/pam_passwdqc.so
-FILELIST = /lib/security/pam_passwdqc.so
+FILELIST = /etc/passwdqc.conf /usr/bin/pwqcheck /usr/bin/pwqgen

@@ -7,4 +7,4 @@ RDEPENDS = tbb-dev (= 1:2020.2-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/tbb/*.a
-FILELIST = 
+FILELIST = /usr/lib/libtbb.so.2 /usr/lib/libtbbmalloc.so.2 /usr/lib/libtbbmalloc_proxy.so.2

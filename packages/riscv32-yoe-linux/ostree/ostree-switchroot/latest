@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libsystemd (>= 246.2)
 RRECOMMENDS = 
 PKGSIZE = 10854
 FILES = /usr/lib/ostree/ostree-prepare-root /lib/systemd/system/ostree-prepare-root.service
-FILELIST = /lib/systemd/system/ostree-prepare-root.service /usr/lib/ostree/ostree-prepare-root
+FILELIST = /usr/share/bash-completion/completions/ostree

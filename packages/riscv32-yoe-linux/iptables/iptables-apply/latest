@@ -6,4 +6,4 @@ RDEPENDS = bash iptables
 RRECOMMENDS = 
 PKGSIZE = 7071
 FILES = /usr/sbin/ip*-apply
-FILELIST = /usr/sbin/ip6tables-apply /usr/sbin/iptables-apply
+FILELIST = /usr/lib/xtables/libxt_udp.so

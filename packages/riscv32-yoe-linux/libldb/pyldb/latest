@@ -7,4 +7,4 @@ RDEPENDS = glibc (>= 2.32) libldb (>= 1.5.8) libpython3 (>= 3.8.5) libtalloc (>=
 RRECOMMENDS = 
 PKGSIZE = 76447
 FILES = /usr/lib/python3.8/site-packages/* /usr/lib/libpyldb-util.*.so.*
-FILELIST = /usr/lib/libpyldb-util.cpython-38-riscv32-linux-gnu.so.1 /usr/lib/libpyldb-util.cpython-38-riscv32-linux-gnu.so.1.5.8 /usr/lib/python3.8/site-packages/_ldb_text.py /usr/lib/python3.8/site-packages/ldb.cpython-38-riscv32-linux-gnu.so
+FILELIST = /usr/bin/ldbadd /usr/bin/ldbdel /usr/bin/ldbedit /usr/bin/ldbmodify /usr/bin/ldbrename /usr/bin/ldbsearch /usr/lib/ldb/libcmocka-ldb.so /usr/lib/ldb/libldb-cmdline.so /usr/lib/ldb/libldb-key-value.so /usr/lib/ldb/libldb-tdb-err-map.so /usr/lib/ldb/libldb-tdb-int.so /usr/lib/ldb/modules/ldb/asq.so /usr/lib/ldb/modules/ldb/ldb.so /usr/lib/ldb/modules/ldb/paged_searches.so /usr/lib/ldb/modules/ldb/rdn_name.so /usr/lib/ldb/modules/ldb/sample.so /usr/lib/ldb/modules/ldb/server_sort.so /usr/lib/ldb/modules/ldb/skel.so /usr/lib/ldb/modules/ldb/tdb.so /usr/lib/libldb.so.1 /usr/lib/libldb.so.1.5.8

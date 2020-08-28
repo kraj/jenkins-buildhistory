@@ -6,4 +6,4 @@ RDEPENDS = bootchart2
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /etc/init.d /etc/rc*.d
-FILELIST = 
+FILELIST = /etc/bootchartd.conf /lib/bootchart/bootchart-collector /lib/systemd/system-preset/98-bootchart2.preset /lib/systemd/system/bootchart2-done.service /lib/systemd/system/bootchart2-done.timer /lib/systemd/system/bootchart2.service /sbin/bootchartd.bootchart2

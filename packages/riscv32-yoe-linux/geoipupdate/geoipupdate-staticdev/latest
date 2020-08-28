@@ -6,4 +6,4 @@ RDEPENDS = geoipupdate-dev (= 2.5.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/geoipupdate/*.a
-FILELIST = 
+FILELIST = /etc/GeoIP.conf /etc/cron.d/geoipupdate.cron /usr/bin/geoipupdate

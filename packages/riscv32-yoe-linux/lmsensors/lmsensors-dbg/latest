@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg lmsensors-libsensors-dbg rrdtool-dbg
 PKGSIZE = 331752
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/sensors /usr/lib/.debug/libsensors.so.5.0.0 /usr/sbin/.debug/sensord
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

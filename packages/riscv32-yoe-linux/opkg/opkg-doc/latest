@@ -7,4 +7,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 14660
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/opkg.1 /usr/share/man/man5/opkg.conf.5
+FILELIST = /etc/opkg/opkg.conf /usr/bin/opkg /usr/bin/opkg-check-config /usr/share/opkg/intercept/depmod /usr/share/opkg/intercept/ldconfig /usr/share/opkg/intercept/update-modules

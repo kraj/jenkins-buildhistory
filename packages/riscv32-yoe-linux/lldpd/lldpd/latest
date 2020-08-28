@@ -6,4 +6,4 @@ RDEPENDS = base-files base-passwd glibc (>= 2.32) libbsd (>= 0.10.0) libevent (>
 RRECOMMENDS = 
 PKGSIZE = 258747
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lldpd /usr/lib/lldpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sysusers.d /lib/systemd/system-preset/98-lldpd.preset /lib/systemd/system/lldpd.service
-FILELIST = /etc/default/lldpd /etc/lldpd.conf /etc/lldpd.d/README.conf /lib/systemd/system-preset/98-lldpd.preset /lib/systemd/system/lldpd.service /usr/lib/liblldpctl.so.4 /usr/lib/liblldpctl.so.4.8.0 /usr/sbin/lldpcli /usr/sbin/lldpctl /usr/sbin/lldpd
+FILELIST = /usr/share/bash-completion/completions/lldpcli

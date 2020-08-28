@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = 
 PKGSIZE = 2430
 FILES = /usr/share/man/man8/sensors-detect.8
-FILELIST = /usr/share/man/man8/sensors-detect.8
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

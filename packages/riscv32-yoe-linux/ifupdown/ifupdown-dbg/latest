@@ -6,4 +6,4 @@ RDEPENDS =
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 209204
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /sbin/.debug/ifdown.ifupdown
+FILELIST = /etc/default/volatiles/99_network /sbin/ifdown.ifupdown /sbin/ifup.ifupdown

@@ -6,4 +6,4 @@ RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g) libssl (>= 1.1.1g) openssl-conf
 RRECOMMENDS = 
 PKGSIZE = 517830
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/c_rehash /usr/bin/openssl
+FILELIST = /usr/lib/ssl-1.1/ct_log_list.cnf /usr/lib/ssl-1.1/ct_log_list.cnf.dist
