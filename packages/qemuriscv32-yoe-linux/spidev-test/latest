@@ -1,0 +1,6 @@
+PV = 1.0
+PR = r0
+DEPENDS = bash-completion virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = spidev-test-src spidev-test-dbg spidev-test-staticdev spidev-test-dev spidev-test-doc spidev-test-locale spidev-test spidev-test-bash-completion
+LAYER = openembedded-layer
+CONFIG = 
