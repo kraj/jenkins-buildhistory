@@ -1,10 +1,5 @@
 set -e
-    if [ x"$D" != "x" ]; then
-        $INTERCEPT_DIR/postinst_intercept delay_to_first_boot sblim-sfcb mlprefix=
-    fi
-
-    /usr/share/sfcb/genSslCert.sh /etc/sfcb
-    /usr/bin/sfcbrepos -f
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot sblim-sfcb mlprefix=
 if type systemctl >/dev/null 2>/dev/null; then
 	OPTS=""
 
@@ -27,3 +22,10 @@ if type systemctl >/dev/null 2>/dev/null; then
 		fi
 	fi
 fi
+
+if [ -n "$D" ]; then
+    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot sblim-sfcb mlprefix=
+    exit 0
+fi
+    /usr/share/sfcb/genSslCert.sh /etc/sfcb
+    /usr/bin/sfcbrepos -f

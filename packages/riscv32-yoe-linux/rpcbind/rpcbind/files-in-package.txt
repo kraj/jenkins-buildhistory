@@ -1,0 +1,13 @@
+drwxr-xr-x root       root               40 ./etc
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               45 ./lib/systemd/system-preset/98-rpcbind.preset
+-rw-r--r-- root       root              414 ./lib/systemd/system/rpcbind.service
+-rw-r--r-- root       root              368 ./lib/systemd/system/rpcbind.socket
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            22248 ./usr/bin/rpcinfo
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            38912 ./usr/sbin/rpcbind

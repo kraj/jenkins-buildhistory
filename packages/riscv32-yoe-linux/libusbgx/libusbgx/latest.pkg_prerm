@@ -1,5 +1,7 @@
 #!/bin/sh
 set -e
+	update-alternatives --remove  gadget-acm-ecm /usr/bin/gadget-acm-ecm.libusbgx
+	update-alternatives --remove  show-gadgets /usr/bin/show-gadgets.libusbgx
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl stop usbgx.service
