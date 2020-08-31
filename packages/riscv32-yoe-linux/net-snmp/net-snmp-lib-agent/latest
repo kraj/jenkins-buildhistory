@@ -1,10 +1,10 @@
-PV = 5.8
+PV = 5.9
 PR = r0
-PKG = libnetsnmpagent35
+PKG = libnetsnmpagent40
 PKGR = r0.0
-RPROVIDES = net-snmp-lib-agent (=5.8)
-RDEPENDS = glibc (>= 2.32) net-snmp-lib-netsnmp (>= 5.8)
+RPROVIDES = net-snmp-lib-agent (=5.9)
+RDEPENDS = glibc (>= 2.32) net-snmp-lib-netsnmp (>= 5.9)
 RRECOMMENDS = 
-PKGSIZE = 344573
+PKGSIZE = 344569
 FILES = /usr/lib/libnetsnmpagent.so.*
-FILELIST = /usr/lib/libnetsnmptrapd.so.35 /usr/lib/libnetsnmptrapd.so.35.0.0
+FILELIST = /usr/lib/libnetsnmptrapd.so.40 /usr/lib/libnetsnmptrapd.so.40.0.0

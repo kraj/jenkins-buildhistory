@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/uudecode uudecode /usr/bin/uudecode.sharutils 10
+	update-alternatives --install /usr/bin/uuencode uuencode /usr/bin/uuencode.sharutils 10
