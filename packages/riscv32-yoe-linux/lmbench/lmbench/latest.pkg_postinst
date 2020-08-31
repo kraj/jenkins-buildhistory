@@ -1,4 +1,5 @@
 set -e
+	update-alternatives --install /usr/bin/stream stream /usr/bin/stream.lmbench 10
     if [ -z "$D" ]; then
         if command -v systemd-tmpfiles >/dev/null; then
             systemd-tmpfiles --create /etc/tmpfiles.d/lmbench.conf

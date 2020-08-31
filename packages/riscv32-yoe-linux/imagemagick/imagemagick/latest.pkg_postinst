@@ -8,6 +8,7 @@ set -e
 	update-alternatives --install /usr/bin/display display /usr/bin/display.im7 100
 	update-alternatives --install /usr/bin/identify identify /usr/bin/identify.im7 100
 	update-alternatives --install /usr/bin/import import /usr/bin/import.im7 100
+	update-alternatives --install /usr/bin/magick-script magick-script /usr/bin/magick-script.im7 100
 	update-alternatives --install /usr/bin/mogrify mogrify /usr/bin/mogrify.im7 100
 	update-alternatives --install /usr/bin/montage montage /usr/bin/montage.im7 100
 	update-alternatives --install /usr/bin/stream stream /usr/bin/stream.im7 100

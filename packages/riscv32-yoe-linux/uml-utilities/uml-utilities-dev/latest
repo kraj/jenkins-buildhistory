@@ -3,7 +3,7 @@ PR = r1
 PKGR = r1.0
 RPROVIDES = 
 RDEPENDS = uml-utilities (= 20040406-r1.0)
-RRECOMMENDS = glibc-dev ncurses-dev readline-dev zlib-dev
+RRECOMMENDS = glibc-dev ncurses-dev readline-dev update-alternatives-opkg-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/uml-utilities/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/bin/jailtest /usr/bin/tunctl /usr/bin/uml_mconsole /usr/bin/uml_mkcow /usr/bin/uml_moo /usr/bin/uml_net /usr/bin/uml_switch /usr/bin/uml_watchdog /usr/lib/uml/port-helper
+FILELIST = /usr/bin/jailtest /usr/bin/tunctl.uml-utilities /usr/bin/uml_mconsole /usr/bin/uml_mkcow /usr/bin/uml_moo /usr/bin/uml_net /usr/bin/uml_switch /usr/bin/uml_watchdog /usr/lib/uml/port-helper

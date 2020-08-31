@@ -8,6 +8,7 @@ set -e
 	update-alternatives --remove  display /usr/bin/display.im7
 	update-alternatives --remove  identify /usr/bin/identify.im7
 	update-alternatives --remove  import /usr/bin/import.im7
+	update-alternatives --remove  magick-script /usr/bin/magick-script.im7
 	update-alternatives --remove  mogrify /usr/bin/mogrify.im7
 	update-alternatives --remove  montage /usr/bin/montage.im7
 	update-alternatives --remove  stream /usr/bin/stream.im7

@@ -5,13 +5,13 @@ drwxr-xr-x -          -                  60 ./usr/lib
 drwxr-xr-x -          -                  60 ./usr/lib/python3.8
 drwxr-xr-x -          -                  80 ./usr/lib/python3.8/site-packages
 drwxr-xr-x -          -                 440 ./usr/lib/python3.8/site-packages/sentry_sdk
-drwxr-xr-x -          -                 160 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info
--rw-r--r-- -          -                   1 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info/dependency_links.txt
--rw-r--r-- -          -                   1 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info/not-zip-safe
--rw-r--r-- -          -                1578 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info/PKG-INFO
--rw-r--r-- -          -                 353 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info/requires.txt
--rw-r--r-- -          -                2111 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info/SOURCES.txt
--rw-r--r-- -          -                  11 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.0-py3.8.egg-info/top_level.txt
+drwxr-xr-x -          -                 160 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info
+-rw-r--r-- -          -                   1 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info/dependency_links.txt
+-rw-r--r-- -          -                   1 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info/not-zip-safe
+-rw-r--r-- -          -                1578 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info/PKG-INFO
+-rw-r--r-- -          -                 353 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info/requires.txt
+-rw-r--r-- -          -                2111 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info/SOURCES.txt
+-rw-r--r-- -          -                  11 ./usr/lib/python3.8/site-packages/sentry_sdk-0.17.1-py3.8.egg-info/top_level.txt
 -rw-r--r-- -          -                4740 ./usr/lib/python3.8/site-packages/sentry_sdk/api.py
 -rw-r--r-- -          -               14127 ./usr/lib/python3.8/site-packages/sentry_sdk/client.py
 -rw-r--r-- -          -                2419 ./usr/lib/python3.8/site-packages/sentry_sdk/_compat.py
@@ -26,7 +26,7 @@ drwxr-xr-x -          -                 720 ./usr/lib/python3.8/site-packages/se
 -rw-r--r-- -          -                 945 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/argv.py
 -rw-r--r-- -          -                8128 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/asgi.py
 -rw-r--r-- -          -                1837 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/atexit.py
--rw-r--r-- -          -               12184 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/aws_lambda.py
+-rw-r--r-- -          -               12191 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/aws_lambda.py
 -rw-r--r-- -          -                5662 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/beam.py
 -rw-r--r-- -          -                6188 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/bottle.py
 -rw-r--r-- -          -                8449 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/celery.py
@@ -49,7 +49,7 @@ drwxr-xr-x -          -                 160 ./usr/lib/python3.8/site-packages/se
 -rw-r--r-- -          -                2023 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/executing.py
 -rw-r--r-- -          -                6797 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/falcon.py
 -rw-r--r-- -          -                7264 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/flask.py
--rw-r--r-- -          -                5704 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/gcp.py
+-rw-r--r-- -          -                5830 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/gcp.py
 -rw-r--r-- -          -                2912 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/gnu_backtrace.py
 -rw-r--r-- -          -                6464 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__init__.py
 -rw-r--r-- -          -                7325 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/logging.py
@@ -60,7 +60,7 @@ drwxr-xr-x -          -                 660 ./usr/lib/python3.8/site-packages/se
 -rw-r--r-- -          -                1164 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/argv.cpython-38.pyc
 -rw-r--r-- -          -                6357 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/asgi.cpython-38.pyc
 -rw-r--r-- -          -                2160 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/atexit.cpython-38.pyc
--rw-r--r-- -          -                7643 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/aws_lambda.cpython-38.pyc
+-rw-r--r-- -          -                7647 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/aws_lambda.cpython-38.pyc
 -rw-r--r-- -          -                4519 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/beam.cpython-38.pyc
 -rw-r--r-- -          -                5564 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/bottle.cpython-38.pyc
 -rw-r--r-- -          -                5996 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/celery.cpython-38.pyc
@@ -69,7 +69,7 @@ drwxr-xr-x -          -                 660 ./usr/lib/python3.8/site-packages/se
 -rw-r--r-- -          -                2038 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/executing.cpython-38.pyc
 -rw-r--r-- -          -                6126 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/falcon.cpython-38.pyc
 -rw-r--r-- -          -                5984 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/flask.cpython-38.pyc
--rw-r--r-- -          -                4516 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/gcp.cpython-38.pyc
+-rw-r--r-- -          -                4661 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/gcp.cpython-38.pyc
 -rw-r--r-- -          -                2563 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/gnu_backtrace.cpython-38.pyc
 -rw-r--r-- -          -                5219 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/__init__.cpython-38.pyc
 -rw-r--r-- -          -                5847 ./usr/lib/python3.8/site-packages/sentry_sdk/integrations/__pycache__/logging.cpython-38.pyc
