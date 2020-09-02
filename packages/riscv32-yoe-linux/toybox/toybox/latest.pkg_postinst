@@ -57,7 +57,6 @@ set -e
 	update-alternatives --install /bin/fsync fsync /bin/toybox 60
 	update-alternatives --install /usr/bin/ftpget ftpget /bin/toybox 60
 	update-alternatives --install /usr/bin/ftpput ftpput /bin/toybox 60
-	update-alternatives --install /usr/bin/getconf getconf /bin/toybox 60
 	update-alternatives --install /bin/grep grep /bin/toybox 60
 	update-alternatives --install /usr/bin/groups groups /bin/toybox 60
 	update-alternatives --install /usr/bin/gunzip gunzip /bin/toybox 60
@@ -71,7 +70,6 @@ set -e
 	update-alternatives --install /usr/bin/i2cdump i2cdump /bin/toybox 60
 	update-alternatives --install /usr/bin/i2cget i2cget /bin/toybox 60
 	update-alternatives --install /usr/bin/i2cset i2cset /bin/toybox 60
-	update-alternatives --install /usr/bin/iconv iconv /bin/toybox 60
 	update-alternatives --install /usr/bin/id id /bin/toybox 60
 	update-alternatives --install /sbin/ifconfig ifconfig /bin/toybox 60
 	update-alternatives --install /usr/bin/inotifyd inotifyd /bin/toybox 60

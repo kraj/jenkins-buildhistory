@@ -57,7 +57,6 @@ set -e
 	update-alternatives --remove  fsync /bin/toybox
 	update-alternatives --remove  ftpget /bin/toybox
 	update-alternatives --remove  ftpput /bin/toybox
-	update-alternatives --remove  getconf /bin/toybox
 	update-alternatives --remove  grep /bin/toybox
 	update-alternatives --remove  groups /bin/toybox
 	update-alternatives --remove  gunzip /bin/toybox
@@ -71,7 +70,6 @@ set -e
 	update-alternatives --remove  i2cdump /bin/toybox
 	update-alternatives --remove  i2cget /bin/toybox
 	update-alternatives --remove  i2cset /bin/toybox
-	update-alternatives --remove  iconv /bin/toybox
 	update-alternatives --remove  id /bin/toybox
 	update-alternatives --remove  ifconfig /bin/toybox
 	update-alternatives --remove  inotifyd /bin/toybox
