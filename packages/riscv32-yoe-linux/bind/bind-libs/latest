@@ -1,9 +1,9 @@
-PV = 9.11.22
+PV = 9.16.5
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.32) libatomic (>= 10.2.0) libcap (>= 2.43) libcrypto (>= 1.1.1g) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.32) libatomic (>= 10.2.0) libcrypto (>= 1.1.1g) libuv (>= 1.38.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 2255186
-FILES = /usr/lib/*.so*
-FILELIST = /etc/bind/bind.keys /etc/bind/db.0 /etc/bind/db.127 /etc/bind/db.255 /etc/bind/db.empty /etc/bind/db.local /etc/bind/db.root /etc/bind/named.conf /etc/bind/named.conf.local /etc/bind/named.conf.options /etc/bind/rndc.conf /etc/bind/zones.rfc1918 /etc/default/bind9 /etc/tmpfiles.d/bind.conf /lib/systemd/system-preset/98-bind.preset /lib/systemd/system/named.service /usr/bin/arpaname /usr/bin/bind9-config /usr/bin/delv /usr/bin/isc-config.sh /usr/bin/named-rrchecker /usr/sbin/ddns-confgen /usr/sbin/dnssec-dsfromkey /usr/sbin/dnssec-importkey /usr/sbin/dnssec-keyfromlabel /usr/sbin/dnssec-keygen /usr/sbin/dnssec-revoke /usr/sbin/dnssec-settime /usr/sbin/dnssec-signzone /usr/sbin/dnssec-verify /usr/sbin/generate-rndc-key.sh /usr/sbin/genrandom /usr/sbin/isc-hmac-fixup /usr/sbin/lwresd /usr/sbin/named /usr/sbin/named-checkconf /usr/sbin/named-checkzone /usr/sbin/named-compilezone /usr/sbin/named-journalprint /usr/sbin/nsec3hash /usr/sbin/rndc /usr/sbin/rndc-confgen /usr/sbin/tsig-keygen
+PKGSIZE = 2337740
+FILES = /usr/lib/*.so* /usr/lib/named/*.so*
+FILELIST = /etc/bind/bind.keys /etc/bind/db.0 /etc/bind/db.127 /etc/bind/db.255 /etc/bind/db.empty /etc/bind/db.local /etc/bind/db.root /etc/bind/named.conf /etc/bind/named.conf.local /etc/bind/named.conf.options /etc/bind/rndc.conf /etc/bind/zones.rfc1918 /etc/default/bind9 /etc/tmpfiles.d/bind.conf /lib/systemd/system-preset/98-bind.preset /lib/systemd/system/named.service /usr/bin/arpaname /usr/bin/delv /usr/bin/named-rrchecker /usr/sbin/ddns-confgen /usr/sbin/dnssec-cds /usr/sbin/dnssec-dsfromkey /usr/sbin/dnssec-importkey /usr/sbin/dnssec-keyfromlabel /usr/sbin/dnssec-keygen /usr/sbin/dnssec-revoke /usr/sbin/dnssec-settime /usr/sbin/dnssec-signzone /usr/sbin/dnssec-verify /usr/sbin/generate-rndc-key.sh /usr/sbin/named /usr/sbin/named-checkconf /usr/sbin/named-checkzone /usr/sbin/named-compilezone /usr/sbin/named-journalprint /usr/sbin/nsec3hash /usr/sbin/rndc /usr/sbin/rndc-confgen /usr/sbin/tsig-keygen

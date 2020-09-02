@@ -1,6 +1,6 @@
 PV = 0.17
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
 PACKAGES = netkit-ftp-src netkit-ftp-dbg netkit-ftp netkit-ftp-doc
 LAYER = networking-layer
 CONFIG = 

@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+	update-alternatives --remove  rpcinfo /usr/bin/rpcinfo.rpcbind
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
 		systemctl stop rpcbind.service rpcbind.socket

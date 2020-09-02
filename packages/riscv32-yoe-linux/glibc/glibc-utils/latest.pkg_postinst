@@ -1,4 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/getconf getconf /usr/bin/getconf.glibc 10
-	update-alternatives --install /usr/bin/iconv iconv /usr/bin/iconv.glibc 10

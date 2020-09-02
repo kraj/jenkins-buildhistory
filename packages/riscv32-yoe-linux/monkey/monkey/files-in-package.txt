@@ -28,17 +28,15 @@ drwxr-xr-x root       root               60 ./etc/monkey/sites
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              220 ./lib/systemd/system/monkey.service
+-rw-r--r-- root       root              221 ./lib/systemd/system/monkey.service
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root               22 ./lib/systemd/system-preset/98-monkey.preset
-drwxr-xr-x root       root               40 ./run
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/sbin
 -rwxr-xr-x root       root            17804 ./usr/sbin/mk_passwd
 -rwxr-xr-x root       root            93604 ./usr/sbin/monkey
-drwxr-xr-x root       root              120 ./var
+drwxr-xr-x root       root              100 ./var
 lrwxrwxrwx root       root               12 ./var/log -> volatile/log
-lrwxrwxrwx root       root                4 ./var/run -> /run
 drwxr-xr-x root       root               60 ./var/volatile
 drwxr-xr-x root       root               60 ./var/volatile/log
 drwxr-xr-x root       root               40 ./var/volatile/log/monkey

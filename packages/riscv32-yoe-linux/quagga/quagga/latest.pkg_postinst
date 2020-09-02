@@ -1,4 +1,5 @@
 set -e
+	update-alternatives --install /usr/sbin/pimd pimd /usr/sbin/pimd.quagga 10
     if [ -z "$D" ] && [ -e /etc/init.d/populate-volatile.sh ] ; then
         /etc/init.d/populate-volatile.sh update
     fi
