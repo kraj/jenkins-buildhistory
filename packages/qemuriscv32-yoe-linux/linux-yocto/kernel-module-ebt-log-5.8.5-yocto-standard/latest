@@ -1,0 +1,10 @@
+PV = 5.8.5+gitAUTOINC+0a4bef3856_ded3e9afb3
+PR = r0
+PKGV = 5.8.5+git0+0a4bef3856_ded3e9afb3
+PKGR = r0.0
+RPROVIDES = kernel-module-ebt-log
+RDEPENDS = kernel-5.8.5-yocto-standard kernel-module-x-tables-5.8.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7496
+FILES = /lib/modules/5.8.5-yocto-standard/kernel/net/bridge/netfilter/ebt_log.ko /etc/modules-load.d/ebt_log.conf /etc/modprobe.d/ebt_log.conf
+FILELIST = /lib/modules/5.8.5-yocto-standard/kernel/samples/trace_printk/trace-printk.ko
