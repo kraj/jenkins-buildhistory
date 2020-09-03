@@ -3,7 +3,7 @@ PR = r0
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = libdata-hexdump-perl (= 0.02-r0.0)
-RRECOMMENDS = perl-dev
+RRECOMMENDS = perl-dev update-alternatives-opkg-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libdata-hexdump-perl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/bin/hexdump /usr/lib/perl5/vendor_perl/5.32.0/Data/HexDump.pm
+FILELIST = /usr/bin/hexdump.libdata-hexdump-perl /usr/lib/perl5/vendor_perl/5.32.0/Data/HexDump.pm
