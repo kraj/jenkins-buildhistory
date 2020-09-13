@@ -1,9 +1,9 @@
-PV = 9.1.4
+PV = 9.2.0
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = dhcpcd-dev (= 9.1.4-r0.0)
+RDEPENDS = dhcpcd-dev (= 9.2.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/dhcpcd/*.a
-FILELIST = /etc/dhcpcd.conf /usr/lib/dhcpcd/dev/udev.so /usr/libexec/dhcpcd-hooks/01-test /usr/libexec/dhcpcd-hooks/20-resolv.conf /usr/libexec/dhcpcd-hooks/30-hostname /usr/libexec/dhcpcd-run-hooks /usr/sbin/dhcpcd /usr/share/dhcpcd/hooks/10-wpa_supplicant /usr/share/dhcpcd/hooks/15-timezone /usr/share/dhcpcd/hooks/29-lookup-hostname
+FILELIST = /etc/dhcpcd.conf /lib/systemd/system-preset/98-dhcpcd.preset /lib/systemd/system/dhcpcd.service /lib/systemd/system/dhcpcd@.service /usr/lib/dhcpcd/dev/udev.so /usr/libexec/dhcpcd-hooks/01-test /usr/libexec/dhcpcd-hooks/20-resolv.conf /usr/libexec/dhcpcd-hooks/30-hostname /usr/libexec/dhcpcd-run-hooks /usr/sbin/dhcpcd /usr/share/dhcpcd/hooks/10-wpa_supplicant /usr/share/dhcpcd/hooks/15-timezone /usr/share/dhcpcd/hooks/29-lookup-hostname
