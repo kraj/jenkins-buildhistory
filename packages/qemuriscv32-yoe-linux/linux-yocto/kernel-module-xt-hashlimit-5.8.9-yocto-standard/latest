@@ -1,0 +1,10 @@
+PV = 5.8.9+gitAUTOINC+a933cb2f91_31fafe701e
+PR = r0
+PKGV = 5.8.9+git0+a933cb2f91_31fafe701e
+PKGR = r0.0
+RPROVIDES = kernel-module-xt-hashlimit
+RDEPENDS = kernel-5.8.9-yocto-standard kernel-module-x-tables-5.8.9-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 27100
+FILES = /lib/modules/5.8.9-yocto-standard/kernel/net/netfilter/xt_hashlimit.ko /etc/modules-load.d/xt_hashlimit.conf /etc/modprobe.d/xt_hashlimit.conf
+FILELIST = /lib/modules/5.8.9-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

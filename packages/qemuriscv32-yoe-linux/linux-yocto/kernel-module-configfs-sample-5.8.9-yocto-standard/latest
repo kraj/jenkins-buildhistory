@@ -1,0 +1,10 @@
+PV = 5.8.9+gitAUTOINC+a933cb2f91_31fafe701e
+PR = r0
+PKGV = 5.8.9+git0+a933cb2f91_31fafe701e
+PKGR = r0.0
+RPROVIDES = kernel-module-configfs-sample
+RDEPENDS = kernel-5.8.9-yocto-standard kernel-module-configfs-5.8.9-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8848
+FILES = /lib/modules/5.8.9-yocto-standard/kernel/samples/configfs/configfs_sample.ko /etc/modules-load.d/configfs_sample.conf /etc/modprobe.d/configfs_sample.conf
+FILELIST = /lib/modules/5.8.9-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

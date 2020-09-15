@@ -1,0 +1,10 @@
+PV = 5.8.9+gitAUTOINC+a933cb2f91_31fafe701e
+PR = r0
+PKGV = 5.8.9+git0+a933cb2f91_31fafe701e
+PKGR = r0.0
+RPROVIDES = kernel-module-pktgen
+RDEPENDS = kernel-5.8.9-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 83960
+FILES = /lib/modules/5.8.9-yocto-standard/kernel/net/core/pktgen.ko /etc/modules-load.d/pktgen.conf /etc/modprobe.d/pktgen.conf
+FILELIST = /lib/modules/5.8.9-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

@@ -1,0 +1,10 @@
+PV = 5.8.9+gitAUTOINC+a933cb2f91_31fafe701e
+PR = r0
+PKGV = 5.8.9+git0+a933cb2f91_31fafe701e
+PKGR = r0.0
+RPROVIDES = kernel-module-af-key
+RDEPENDS = kernel-5.8.9-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 69180
+FILES = /lib/modules/5.8.9-yocto-standard/kernel/net/key/af_key.ko /etc/modules-load.d/af_key.conf /etc/modprobe.d/af_key.conf
+FILELIST = /lib/modules/5.8.9-yocto-standard/kernel/samples/trace_printk/trace-printk.ko
