@@ -13,7 +13,7 @@ drwxr-xr-x -          -                  60 ./lib/modprobe.d
 -rw-r--r-- -          -                 765 ./lib/modprobe.d/systemd.conf
 drwxr-xr-x -          -                  60 ./lib/security
 -rwxr-xr-x -          -              388828 ./lib/security/pam_systemd.so
-drwxr-xr-x -          -                1140 ./lib/systemd
+drwxr-xr-x -          -                1120 ./lib/systemd
 -rwxr-xr-x -          -             1734456 ./lib/systemd/libsystemd-shared-246.so
 drwxr-xr-x -          -                 200 ./lib/systemd/network
 -rw-r--r-- -          -                 645 ./lib/systemd/network/80-container-host0.network
@@ -90,7 +90,6 @@ lrwxrwxrwx -          -                  17 ./lib/systemd/systemd-udevd -> ../..
 -rwxr-xr-x -          -               18016 ./lib/systemd/systemd-userwork
 -rwxr-xr-x -          -               13632 ./lib/systemd/systemd-vconsole-setup
 -rwxr-xr-x -          -                9572 ./lib/systemd/systemd-volatile-root
--rwxr-xr-x -          -                5384 ./lib/systemd/systemd-xdg-autostart-condition
 -rw-r--r-- -          -                 797 ./lib/systemd/system/emergency.service
 -rw-r--r-- -          -                 471 ./lib/systemd/system/emergency.target
 -rw-r--r-- -          -                 541 ./lib/systemd/system/exit.target
@@ -434,15 +433,14 @@ drwxr-xr-x -          -                 280 ./usr/lib/systemd/catalog
 -rw-r--r-- -          -               21455 ./usr/lib/systemd/catalog/systemd.ru.catalog
 -rw-r--r-- -          -                8101 ./usr/lib/systemd/catalog/systemd.zh_CN.catalog
 -rw-r--r-- -          -                8060 ./usr/lib/systemd/catalog/systemd.zh_TW.catalog
-drwxr-xr-x -          -                 400 ./usr/lib/systemd/user
+drwxr-xr-x -          -                 380 ./usr/lib/systemd/user
 -rw-r--r-- -          -                 497 ./usr/lib/systemd/user/basic.target
 -rw-r--r-- -          -                 419 ./usr/lib/systemd/user/bluetooth.target
 -rw-r--r-- -          -                 463 ./usr/lib/systemd/user/default.target
 drwxr-xr-x -          -                  60 ./usr/lib/systemd/user-environment-generators
 -rwxr-xr-x -          -                5396 ./usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator
 -rw-r--r-- -          -                 502 ./usr/lib/systemd/user/exit.target
-drwxr-xr-x -          -                  60 ./usr/lib/systemd/user-generators
--rwxr-xr-x -          -               17972 ./usr/lib/systemd/user-generators/systemd-xdg-autostart-generator
+drwxr-xr-x -          -                  40 ./usr/lib/systemd/user-generators
 -rw-r--r-- -          -                 568 ./usr/lib/systemd/user/graphical-session-pre.target
 -rw-r--r-- -          -                 484 ./usr/lib/systemd/user/graphical-session.target
 -rw-r--r-- -          -                 394 ./usr/lib/systemd/user/paths.target
@@ -458,7 +456,6 @@ drwxr-xr-x -          -                  60 ./usr/lib/systemd/user-preset
 -rw-r--r-- -          -                 533 ./usr/lib/systemd/user/systemd-tmpfiles-clean.timer
 -rw-r--r-- -          -                 720 ./usr/lib/systemd/user/systemd-tmpfiles-setup.service
 -rw-r--r-- -          -                 445 ./usr/lib/systemd/user/timers.target
--rw-r--r-- -          -                 469 ./usr/lib/systemd/user/xdg-desktop-autostart.target
 drwxr-xr-x -          -                  80 ./usr/lib/sysusers.d
 -rw-r--r-- -          -                1136 ./usr/lib/sysusers.d/basic.conf
 -rw-r--r-- -          -                 461 ./usr/lib/sysusers.d/systemd.conf
