@@ -1,0 +1,6 @@
+PV = 1.4.2.1
+PR = r0
+DEPENDS = cmake-native ninja-native pkgconfig-native python3 python3-native swig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libiec61850-src libiec61850-dbg libiec61850-staticdev libiec61850-dev libiec61850-doc libiec61850-locale libiec61850
+LAYER = networking-layer
+CONFIG = 
