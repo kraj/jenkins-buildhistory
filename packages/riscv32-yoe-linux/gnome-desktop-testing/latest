@@ -1,0 +1,6 @@
+PV = 2018.1
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native systemd virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = gnome-desktop-testing-src gnome-desktop-testing-dbg gnome-desktop-testing-staticdev gnome-desktop-testing-dev gnome-desktop-testing-doc gnome-desktop-testing-locale gnome-desktop-testing
+LAYER = core
+CONFIG = systemd

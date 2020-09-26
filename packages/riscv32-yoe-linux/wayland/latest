@@ -1,0 +1,6 @@
+PV = 1.18.0
+PR = r0
+DEPENDS = expat libffi libxml2 meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland-native
+PACKAGES = wayland-src wayland-dbg wayland-ptest wayland-staticdev wayland-dev wayland-doc wayland-locale wayland
+LAYER = core
+CONFIG = dtd-validation

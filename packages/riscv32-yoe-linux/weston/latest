@@ -1,0 +1,6 @@
+PV = 9.0.0
+PR = r0
+DEPENDS = base-files base-passwd cairo cairo dbus drm drm gdk-pixbuf glib-2.0 jpeg libinput libpam libxcb libxcb libxcursor libxkbcommon meson-native mtdev mtdev ninja-native pango pixman pkgconfig-native python3-native shadow shadow-native shadow-sysroot systemd udev udev virtual/egl virtual/egl virtual/egl virtual/egl virtual/libc virtual/libgbm virtual/libgles2 virtual/libgles2 virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland wayland-native wayland-protocols
+PACKAGES = weston-src weston-dbg weston-staticdev weston-dev weston-doc weston-locale weston weston-xwayland libweston-9 weston-examples
+LAYER = core
+CONFIG = clients egl fbdev image-jpeg kms launch pam screenshare shell-desktop shell-fullscreen shell-ivi systemd wayland x11 xwayland

@@ -1,0 +1,28 @@
+drwxr-xr-x root       root               80 ./lib
+lrwxrwxrwx root       root               15 ./lib/libsystemd.so -> libsystemd.so.0
+lrwxrwxrwx root       root               12 ./lib/libudev.so -> libudev.so.1
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               80 ./usr/include
+-rw-r--r-- root       root             9617 ./usr/include/libudev.h
+drwxr-xr-x root       root              300 ./usr/include/systemd
+-rw-r--r-- root       root            29542 ./usr/include/systemd/sd-bus.h
+-rw-r--r-- root       root             5073 ./usr/include/systemd/sd-bus-protocol.h
+-rw-r--r-- root       root            19857 ./usr/include/systemd/sd-bus-vtable.h
+-rw-r--r-- root       root             3428 ./usr/include/systemd/_sd-common.h
+-rw-r--r-- root       root            13604 ./usr/include/systemd/sd-daemon.h
+-rw-r--r-- root       root             5984 ./usr/include/systemd/sd-device.h
+-rw-r--r-- root       root             7795 ./usr/include/systemd/sd-event.h
+-rw-r--r-- root       root             1536 ./usr/include/systemd/sd-hwdb.h
+-rw-r--r-- root       root             7095 ./usr/include/systemd/sd-id128.h
+-rw-r--r-- root       root             8372 ./usr/include/systemd/sd-journal.h
+-rw-r--r-- root       root             9436 ./usr/include/systemd/sd-login.h
+-rw-r--r-- root       root            13667 ./usr/include/systemd/sd-messages.h
+-rw-r--r-- root       root             3822 ./usr/include/systemd/sd-path.h
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              561 ./usr/lib/pkgconfig/libsystemd.pc
+-rw-r--r-- root       root              529 ./usr/lib/pkgconfig/libudev.pc
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               80 ./usr/share/pkgconfig
+-rw-r--r-- root       root             3623 ./usr/share/pkgconfig/systemd.pc
+-rw-r--r-- root       root               82 ./usr/share/pkgconfig/udev.pc

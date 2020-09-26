@@ -1,0 +1,6 @@
+PV = 2.0
+PR = r0
+DEPENDS = glib-2.0 gtk+3 pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc webkitgtk
+PACKAGES = surf-src surf-dbg surf-staticdev surf-dev surf-doc surf-locale surf
+LAYER = openembedded-layer
+CONFIG = 

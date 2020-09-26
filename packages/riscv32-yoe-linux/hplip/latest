@@ -1,0 +1,6 @@
+PV = 3.19.12
+PR = r0
+DEPENDS = autoconf-native automake-native cups gnu-config-native libtool-cross libtool-native libusb pkgconfig-native python3 python3-native systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = hplip-src hplip-dbg hplip-staticdev hplip-dev hplip-doc hplip-locale hplip-ppd hplip-cups hplip-backend hplip-filter hplip-hal hplip
+LAYER = openembedded-layer
+CONFIG = 

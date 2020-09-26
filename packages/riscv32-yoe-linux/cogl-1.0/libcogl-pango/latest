@@ -1,0 +1,10 @@
+PV = 1.22.8
+PR = r0
+PKG = libcogl-pango20
+PKGR = r0.0
+RPROVIDES = libcogl-pango (=1.22.8)
+RDEPENDS = cairo (>= 1.16.0) gdk-pixbuf (>= 2.40.0) glib-2.0 (>= 2.64.5) glibc (>= 2.32) harfbuzz (>= 2.7.2) libcogl (>= 1.22.8) libegl-mesa (>= 20.1.8) libx11 (>= 1.6.12) libxcomposite (>= 0.4.5) libxdamage (>= 1.1.5) libxext (>= 1.3.4) libxfixes (>= 5.0.3) libxrandr (>= 1.5.2) pango (>= 1.46.1) wayland (>= 1.18.0)
+RRECOMMENDS = 
+PKGSIZE = 26283
+FILES = /usr/lib/libcogl-pango.so.* /usr/lib/girepository-1.0/CoglPango*.typelib
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/cogl.mo

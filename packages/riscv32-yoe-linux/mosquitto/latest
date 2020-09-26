@@ -1,0 +1,6 @@
+PV = 1.6.12
+PR = r0
+DEPENDS = base-files base-passwd cmake-native dlt-daemon libwebsockets ninja-native openssl shadow shadow-native shadow-sysroot systemd systemd-systemctl-native uthash virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = mosquitto-src mosquitto-dbg mosquitto-staticdev mosquitto-dev mosquitto-doc mosquitto-locale mosquitto-examples mosquitto libmosquitto1 libmosquittopp1 mosquitto-clients
+LAYER = networking-layer
+CONFIG = dlt ssl systemd websockets

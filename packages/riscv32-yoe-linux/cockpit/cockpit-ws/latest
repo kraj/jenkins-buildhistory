@@ -1,0 +1,9 @@
+PV = 220
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.64.5) glibc (>= 2.32) gnutls (>= 3.6.14) json-glib (>= 1.4.4) libgssapi-krb5 (>= 1.17.1) libkrb5 (>= 1.17.1) libpam (>= 1.3.1) libsystemd (>= 246.6) libxcrypt (>= 4.4.17) openssl-bin
+RRECOMMENDS = 
+PKGSIZE = 1998412
+FILES = /etc/cockpit/ws-certs.d /etc/pam.d/cockpit /etc/issue.d/cockpit.issue /etc/motd.d/cockpit /usr/share/cockpit/motd/update-motd /usr/share/cockpit/motd/inactive.motd /lib/systemd/system/cockpit.service /lib/systemd/system/cockpit-motd.service /lib/systemd/system/cockpit.socket /lib/systemd/system/cockpit-wsinstance-http.socket /lib/systemd/system/cockpit-wsinstance-http.service /lib/systemd/system/cockpit-wsinstance-http-redirect.socket /lib/systemd/system/cockpit-wsinstance-http-redirect.service /lib/systemd/system/cockpit-wsinstance-https-factory.socket /lib/systemd/system/cockpit-wsinstance-https-factory@.service /lib/systemd/system/cockpit-wsinstance-https@.socket /lib/systemd/system/cockpit-wsinstance-https@.service /lib/systemd/system/system-cockpithttps.slice /usr/lib/tmpfiles.d/cockpit-tempfiles.conf /usr/sbin/remotectl /usr/lib/security/pam_ssh_add.so /usr/lib/security/pam_cockpit_cert.so /usr/libexec/cockpit-ws /usr/libexec/cockpit-wsinstance-factory /usr/libexec/cockpit-tls /usr/libexec/cockpit-session /var/lib/cockpit /usr/share/cockpit/static /usr/share/cockpit/branding /lib/systemd/system-preset/98-cockpit-ws.preset /lib/systemd/system/cockpit.socket /lib/systemd/system/cockpit.service
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/cockpit.mo

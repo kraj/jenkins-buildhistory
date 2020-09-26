@@ -1,0 +1,9 @@
+PV = 4.0.9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = dlm (= 4.0.9-r0.0)
+RRECOMMENDS = corosync-dev glibc-dev libsystemd-dev util-linux-libuuid-dev
+PKGSIZE = 13791
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dlm/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/sysconfig/dlm /lib/systemd/system-preset/98-dlm.preset /lib/systemd/system/dlm.service /usr/lib/libdlm.so.3 /usr/lib/libdlm.so.3.0 /usr/lib/libdlm_lt.so.3 /usr/lib/libdlm_lt.so.3.0 /usr/lib/libdlmcontrol.so.3 /usr/lib/libdlmcontrol.so.3.2 /usr/lib/udev/rules.d/51-dlm.rules /usr/sbin/dlm_controld /usr/sbin/dlm_tool

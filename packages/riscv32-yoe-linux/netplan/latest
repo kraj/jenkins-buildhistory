@@ -1,0 +1,6 @@
+PV = 0.99+gitAUTOINC+85134d13eb
+PR = r0
+DEPENDS = glib-2.0 libyaml pkgconfig-native systemd systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = netplan-src netplan-dbg netplan-staticdev netplan-dev netplan-doc netplan-locale netplan netplan-dbus libnetplan
+LAYER = networking-layer
+CONFIG = 

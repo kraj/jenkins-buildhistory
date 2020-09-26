@@ -1,0 +1,10 @@
+PV = 0.9.13
+PR = r0
+PKG = libvncclient1
+PKGR = r0.0
+RPROVIDES = libvncclient (=0.9.13)
+RDEPENDS = glibc (>= 2.32) gnutls (>= 3.6.14) libgcrypt (>= 1.8.6) libjpeg-turbo (>= 2.0.5) lzo (>= 2.10) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 108698
+FILES = /usr/lib/libvncclient.*
+FILELIST = /usr/lib/libvncserver.so.0.9.13 /usr/lib/libvncserver.so.1
