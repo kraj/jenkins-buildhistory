@@ -1,0 +1,10 @@
+PV = 1.1.5
+PR = r0
+PKG = libcmocka-ptest
+PKGR = r0.0
+RPROVIDES = cmocka-ptest (=1.1.5)
+RDEPENDS = cmocka glibc (>= 2.32)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 561471
+FILES = /usr/lib/cmocka/ptest
+FILELIST = /usr/lib/libcmocka.so.0 /usr/lib/libcmocka.so.0.7.0
