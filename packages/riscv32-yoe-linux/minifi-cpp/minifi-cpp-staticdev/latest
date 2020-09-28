@@ -6,4 +6,4 @@ RDEPENDS = minifi-cpp-dev (= 0.7.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/minifi-cpp/*.a
-FILELIST = /etc/minifi/conf/config.yml /etc/minifi/conf/minifi-log.properties /etc/minifi/conf/minifi-uid.properties /etc/minifi/conf/minifi.properties /etc/tmpfiles.d/systemd-volatile.conf /lib/systemd/system-preset/98-minifi-cpp.preset /lib/systemd/system/minifi.service /usr/bin/minifi /usr/bin/minifi.sh /usr/bin/minificontroller
+FILELIST = /etc/minifi/conf/config.yml /etc/minifi/conf/minifi-log.properties /etc/minifi/conf/minifi-uid.properties /etc/minifi/conf/minifi.properties /etc/tmpfiles.d/minifi.conf /lib/systemd/system-preset/98-minifi-cpp.preset /lib/systemd/system/minifi.service /usr/bin/minifi /usr/bin/minifi.sh /usr/bin/minificontroller
