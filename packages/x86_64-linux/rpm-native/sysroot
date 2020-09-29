@@ -2,11 +2,9 @@ drwxr-xr-x -          -                  80 ./sysroot-providers
 -rw-r--r-- -          -                  10 ./sysroot-providers/python3-rpm-native
 -rw-r--r-- -          -                  10 ./sysroot-providers/rpm-native
 drwxr-xr-x -          -                 120 ./usr
-drwxr-xr-x -          -                 460 ./usr/bin
+drwxr-xr-x -          -                 420 ./usr/bin
 -rwxr-xr-x -          -                 503 ./usr/bin/gendiff
 -rwxrwxr-x -          -                 257 ./usr/bin/rpm
--rwxrwxr-x -          -                 265 ./usr/bin/rpm2archive
--rwxr-xr-x -          -               16480 ./usr/bin/rpm2archive.real
 -rwxrwxr-x -          -                 262 ./usr/bin/rpm2cpio
 -rwxr-xr-x -          -               12384 ./usr/bin/rpm2cpio.real
 -rwxrwxr-x -          -                 262 ./usr/bin/rpmbuild
@@ -96,8 +94,8 @@ drwxrwxr-x -          -                1060 ./usr/lib/rpm
 -rwxr-xr-x -          -                 418 ./usr/lib/rpm/check-prereqs
 -rwxr-xr-x -          -                1043 ./usr/lib/rpm/check-rpaths
 -rwxr-xr-x -          -                5047 ./usr/lib/rpm/check-rpaths-worker
--rwxr-xr-x -          -               48946 ./usr/lib/rpm/config.guess
--rwxr-xr-x -          -               34131 ./usr/lib/rpm/config.sub
+-rwxr-xr-x -          -               48441 ./usr/lib/rpm/config.guess
+-rwxr-xr-x -          -               31609 ./usr/lib/rpm/config.sub
 -rwxr-xr-x -          -               45152 ./usr/lib/rpm/debugedit
 -rwxr-xr-x -          -                 375 ./usr/lib/rpm/debuginfo.prov
 -rwxr-xr-x -          -                 602 ./usr/lib/rpm/desktop-file.prov
@@ -123,7 +121,7 @@ drwxrwxr-x -          -                 300 ./usr/lib/rpm/fileattrs
 -rwxr-xr-x -          -                 489 ./usr/lib/rpm/fontconfig.prov
 -rwxr-xr-x -          -                 718 ./usr/lib/rpm/libtooldeps.sh
 drwxrwxr-x -          -                  40 ./usr/lib/rpm/lua
--rw-rw-r-- -          -               43333 ./usr/lib/rpm/macros
+-rw-rw-r-- -          -               43314 ./usr/lib/rpm/macros
 drwxrwxr-x -          -                  40 ./usr/lib/rpm/macros.d
 -rwxr-xr-x -          -                 438 ./usr/lib/rpm/metainfo.prov
 -rwxr-xr-x -          -                3539 ./usr/lib/rpm/mkinstalldirs
