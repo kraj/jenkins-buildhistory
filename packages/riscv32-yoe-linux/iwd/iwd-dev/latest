@@ -1,0 +1,9 @@
+PV = 1.9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = iwd (= 1.9-r0.0)
+RRECOMMENDS = dbus-dev ell-dev glibc-dev readline-dev systemd-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/iwd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /lib/systemd/network/80-iwd.link /lib/systemd/system-preset/98-iwd.preset /lib/systemd/system/iwd.service /usr/bin/iwctl /usr/bin/iwmon /usr/lib/modules-load.d/pkcs8.conf /usr/libexec/iwd /usr/share/dbus-1/system-services/net.connman.iwd.service /usr/share/dbus-1/system.d/iwd-dbus.conf
