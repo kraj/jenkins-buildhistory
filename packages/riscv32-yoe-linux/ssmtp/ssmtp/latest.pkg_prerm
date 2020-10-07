@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  mailq /usr/sbin/mailq.ssmtp
-	update-alternatives --remove  newaliases /usr/sbin/newaliases.ssmtp
-	update-alternatives --remove  sendmail /usr/sbin/sendmail.ssmtp

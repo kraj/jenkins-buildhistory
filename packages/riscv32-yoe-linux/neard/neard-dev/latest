@@ -1,9 +1,0 @@
-PV = 0.16
-PR = r0
-PKGR = r0.0
-RPROVIDES = 
-RDEPENDS = neard (= 0.16-r0.0)
-RRECOMMENDS = dbus-dev dbus-lib-dev glib-2.0-dev glibc-dev libnl-dev libnl-genl-dev
-PKGSIZE = 35713
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/neard/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /etc/dbus-1/system.d/org.neard.conf /lib/systemd/system-preset/98-neard.preset /lib/systemd/system/neard.service /usr/bin/nciattach /usr/bin/nfctool /usr/libexec/nfc/neard

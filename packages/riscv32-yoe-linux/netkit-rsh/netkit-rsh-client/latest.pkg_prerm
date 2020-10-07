@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  rcp /usr/bin/rcp.netkit-rsh
-	update-alternatives --remove  rexec /usr/bin/rexec.netkit-rsh
-	update-alternatives --remove  rlogin /usr/bin/rlogin.netkit-rsh
-	update-alternatives --remove  rsh /usr/bin/rsh.netkit-rsh

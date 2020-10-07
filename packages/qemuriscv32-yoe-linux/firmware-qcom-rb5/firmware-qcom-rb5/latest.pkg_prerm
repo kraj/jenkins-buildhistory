@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-if type systemctl >/dev/null 2>/dev/null; then
-	if [ -z "$D" ]; then
-		systemctl stop lib-firmware-modem.service lib-firmware-system.service
-
-		systemctl disable lib-firmware-modem.service lib-firmware-system.service
-	fi
-fi
