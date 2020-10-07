@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-bytestream-example
+RDEPENDS = kernel-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6268
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/samples/kfifo/bytestream-example.ko /etc/modules-load.d/bytestream-example.conf /etc/modprobe.d/bytestream-example.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/samples/trace_printk/trace-printk.ko
