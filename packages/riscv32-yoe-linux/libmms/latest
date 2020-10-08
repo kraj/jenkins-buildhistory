@@ -1,0 +1,6 @@
+PV = 0.6.4
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libmms-src libmms-dbg libmms-staticdev libmms-dev libmms-doc libmms-locale libmms
+LAYER = openembedded-layer
+CONFIG = 

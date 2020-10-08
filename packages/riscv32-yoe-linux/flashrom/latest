@@ -1,0 +1,6 @@
+PV = 1.2
+PR = r0
+DEPENDS = libusb libusb-compat pciutils pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = flashrom-src flashrom-dbg flashrom-staticdev flashrom-dev flashrom-doc flashrom-locale flashrom
+LAYER = openembedded-layer
+CONFIG = 

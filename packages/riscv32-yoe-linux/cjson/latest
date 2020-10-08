@@ -1,0 +1,6 @@
+PV = 1.7.4
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = cjson-src cjson-dbg cjson-staticdev cjson-dev cjson-doc cjson-locale cjson
+LAYER = atmel
+CONFIG = 

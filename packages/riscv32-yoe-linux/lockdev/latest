@@ -1,0 +1,7 @@
+PE = 1
+PV = 1.0.3
+PR = r0
+DEPENDS = perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = lockdev-src lockdev-dbg lockdev-staticdev lockdev-dev lockdev-doc lockdev-locale lockdev-bin lockdev
+LAYER = openembedded-layer
+CONFIG = 

@@ -1,0 +1,6 @@
+PV = 0.4
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libpthread-stubs-src libpthread-stubs-dbg libpthread-stubs-staticdev libpthread-stubs-dev libpthread-stubs-doc libpthread-stubs-locale libpthread-stubs
+LAYER = core
+CONFIG = 

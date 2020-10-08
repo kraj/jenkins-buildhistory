@@ -1,0 +1,9 @@
+PV = 3.0.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = vsftpd (= 3.0.3-r0.0)
+RRECOMMENDS = base-files-dev base-passwd-dev glibc-dev libcap-dev libpam-dev libwrap-dev openssl-dev pam-plugin-listfile-dev shadow-dev shadow-sysroot-dev tcp-wrappers-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vsftpd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/default/volatiles/99_vsftpd /etc/pam.d/vsftpd /etc/tmpfiles.d/vsftpd.conf /etc/vsftpd.conf /etc/vsftpd.ftpusers /etc/vsftpd.user_list /lib/systemd/system-preset/98-vsftpd.preset /lib/systemd/system/vsftpd.service /usr/sbin/vsftpd

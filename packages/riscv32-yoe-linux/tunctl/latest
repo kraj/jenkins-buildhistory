@@ -1,0 +1,6 @@
+PV = 1.5
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = tunctl-src tunctl-dbg tunctl-staticdev tunctl-dev tunctl-doc tunctl-locale tunctl
+LAYER = networking-layer
+CONFIG = 

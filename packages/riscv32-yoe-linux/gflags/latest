@@ -1,0 +1,6 @@
+PV = 2.2.2
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = gflags-src gflags-dbg gflags-bash-completion gflags-staticdev gflags-dev gflags-doc gflags-locale gflags
+LAYER = openembedded-layer
+CONFIG = 

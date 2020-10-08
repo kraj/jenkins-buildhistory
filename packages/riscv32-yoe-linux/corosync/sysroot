@@ -1,0 +1,56 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 313 ./lib/systemd/system/corosync-notifyd.service
+-rw-r--r-- -          -                1254 ./lib/systemd/system/corosync.service
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/corosync
+drwxr-xr-x -          -                 120 ./usr
+drwxr-xr-x -          -                  60 ./usr/bin
+-rwxr-xr-x -          -               15692 ./usr/bin/postinst-useradd-corosync
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 220 ./usr/include/corosync
+-rw-r--r-- -          -                6275 ./usr/include/corosync/cfg.h
+-rw-r--r-- -          -               12356 ./usr/include/corosync/cmap.h
+-rw-r--r-- -          -                2256 ./usr/include/corosync/corodefs.h
+-rw-r--r-- -          -                4861 ./usr/include/corosync/corotypes.h
+-rw-r--r-- -          -                9525 ./usr/include/corosync/cpg.h
+-rw-r--r-- -          -                5935 ./usr/include/corosync/hdb.h
+-rw-r--r-- -          -                3976 ./usr/include/corosync/quorum.h
+-rw-r--r-- -          -                9309 ./usr/include/corosync/sam.h
+-rw-r--r-- -          -                7841 ./usr/include/corosync/votequorum.h
+drwxr-xr-x -          -                 480 ./usr/lib
+-rwxr-xr-x -          -                9360 ./usr/lib/libcfg.so.7.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcfg.so.7 -> libcfg.so.7.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcfg.so -> libcfg.so.7.1.0
+-rwxr-xr-x -          -               13488 ./usr/lib/libcmap.so.4.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libcmap.so.4 -> libcmap.so.4.1.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libcmap.so -> libcmap.so.4.1.0
+-rwxr-xr-x -          -                4904 ./usr/lib/libcorosync_common.so.4.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libcorosync_common.so.4 -> libcorosync_common.so.4.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libcorosync_common.so -> libcorosync_common.so.4.0.0
+-rwxr-xr-x -          -               13548 ./usr/lib/libcpg.so.4.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcpg.so.4 -> libcpg.so.4.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libcpg.so -> libcpg.so.4.1.0
+-rwxr-xr-x -          -                9328 ./usr/lib/libquorum.so.5.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libquorum.so.5 -> libquorum.so.5.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libquorum.so -> libquorum.so.5.0.0
+-rwxr-xr-x -          -               13528 ./usr/lib/libsam.so.4.4.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libsam.so.4 -> libsam.so.4.4.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libsam.so -> libsam.so.4.4.0
+-rwxr-xr-x -          -                9344 ./usr/lib/libvotequorum.so.8.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libvotequorum.so.8 -> libvotequorum.so.8.0.0
+lrwxrwxrwx -          -                  22 ./usr/lib/libvotequorum.so -> libvotequorum.so.8.0.0
+drwxr-xr-x -          -                 200 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 172 ./usr/lib/pkgconfig/corosync.pc
+-rw-r--r-- -          -                 186 ./usr/lib/pkgconfig/libcfg.pc
+-rw-r--r-- -          -                 189 ./usr/lib/pkgconfig/libcmap.pc
+-rw-r--r-- -          -                 222 ./usr/lib/pkgconfig/libcorosync_common.pc
+-rw-r--r-- -          -                 186 ./usr/lib/pkgconfig/libcpg.pc
+-rw-r--r-- -          -                 195 ./usr/lib/pkgconfig/libquorum.pc
+-rw-r--r-- -          -                 186 ./usr/lib/pkgconfig/libsam.pc
+-rw-r--r-- -          -                 207 ./usr/lib/pkgconfig/libvotequorum.pc
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                  60 ./usr/share/snmp
+drwxr-xr-x -          -                  60 ./usr/share/snmp/mibs
+-rw-r--r-- -          -                6684 ./usr/share/snmp/mibs/COROSYNC-MIB.txt

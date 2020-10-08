@@ -1,0 +1,10 @@
+PV = 3.13.0
+PR = r0
+PKG = libprotobuf-ptest
+PKGR = r0.0
+RPROVIDES = protobuf-ptest (=3.13.0)
+RDEPENDS = bash glibc (>= 2.32) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0) protobuf (>= 3.13.0)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 106535
+FILES = /usr/lib/protobuf/ptest
+FILELIST = /usr/lib/libprotobuf.so.24 /usr/lib/libprotobuf.so.24.0.0

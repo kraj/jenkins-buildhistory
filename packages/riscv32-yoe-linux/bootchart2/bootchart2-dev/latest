@@ -1,0 +1,9 @@
+PV = 0.14.9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = bootchart2 (= 0.14.9-r0.0)
+RRECOMMENDS = glibc-dev lsb-release-dev procps-dev python3-codecs-dev python3-compression-dev python3-image-dev python3-pycairo-dev python3-shell-dev update-alternatives-opkg-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bootchart2/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/bootchartd.conf /lib/bootchart/bootchart-collector /lib/systemd/system-preset/98-bootchart2.preset /lib/systemd/system/bootchart2-done.service /lib/systemd/system/bootchart2-done.timer /lib/systemd/system/bootchart2.service /sbin/bootchartd.bootchart2

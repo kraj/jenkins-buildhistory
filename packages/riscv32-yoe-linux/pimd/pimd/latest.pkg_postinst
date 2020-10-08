@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/pimd pimd /usr/sbin/pimd.pimd 100

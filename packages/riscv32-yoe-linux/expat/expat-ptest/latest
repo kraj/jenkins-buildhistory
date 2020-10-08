@@ -1,0 +1,10 @@
+PV = 2.2.9
+PR = r0
+PKG = libexpat-ptest
+PKGR = r0.0
+RPROVIDES = expat-ptest (=2.2.9)
+RDEPENDS = bash expat (>= 2.2.9) glibc (>= 2.32)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 556385
+FILES = /usr/lib/expat/ptest
+FILELIST = /usr/lib/libexpat.so.1 /usr/lib/libexpat.so.1.6.11

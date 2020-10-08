@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/rtcwake rtcwake /usr/sbin/rtcwake.util-linux 80

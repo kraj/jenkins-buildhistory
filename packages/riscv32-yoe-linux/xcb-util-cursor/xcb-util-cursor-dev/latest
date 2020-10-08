@@ -1,0 +1,10 @@
+PV = 0.1.3
+PR = r0
+PKG = libxcb-cursor-dev
+PKGR = r0.0
+RPROVIDES = xcb-util-cursor-dev (=0.1.3)
+RDEPENDS = xcb-util-cursor (= 0.1.3-r0.0)
+RRECOMMENDS = glibc-dev libxcb-dev libxcb-render-dev libxcb-shm-dev xcb-util-dev xcb-util-image-dev xcb-util-renderutil-dev
+PKGSIZE = 4617
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xcb-util-cursor/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libxcb-cursor.so.0 /usr/lib/libxcb-cursor.so.0.0.0

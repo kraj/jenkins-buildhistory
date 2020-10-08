@@ -1,0 +1,9 @@
+PV = 0.99
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = open-isns (= 0.99-r0.0)
+RRECOMMENDS = glibc-dev libcrypto-dev openssl-dev
+PKGSIZE = 61012
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/open-isns/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/isns/isnsadm.conf /etc/isns/isnsd.conf /etc/isns/isnsdd.conf /lib/systemd/system/isnsd.service /lib/systemd/system/isnsd.socket /usr/lib/libisns.so.0 /usr/sbin/isnsadm /usr/sbin/isnsd /usr/sbin/isnsdd

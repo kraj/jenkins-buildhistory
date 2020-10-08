@@ -1,0 +1,6 @@
+PV = 0.5
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
+PACKAGES = rfkill-src rfkill-dbg rfkill-staticdev rfkill-dev rfkill-doc rfkill-locale rfkill
+LAYER = openembedded-layer
+CONFIG = 

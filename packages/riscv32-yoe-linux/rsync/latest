@@ -1,0 +1,6 @@
+PV = 3.2.3
+PR = r0
+DEPENDS = acl attr autoconf-native automake-native gnu-config-native libtool-cross libtool-native popt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = rsync-src rsync-dbg rsync-staticdev rsync-dev rsync-doc rsync-locale rsync
+LAYER = core
+CONFIG = acl attr ipv6

@@ -1,0 +1,10 @@
+PV = 0.6.1
+PR = r0
+PKG = libgstshark-dbg
+PKGR = r0.0
+RPROVIDES = gst-shark-dbg (=0.6.1)
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg gstreamer1.0-dbg
+PKGSIZE = 408508
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/gstreamer-1.0/libgstsharktracers.so /usr/lib/libgstshark.so.0 /usr/lib/libgstshark.so.0.0.0

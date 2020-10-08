@@ -1,0 +1,9 @@
+PV = 5.8.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libhandle xfsprogs (= 5.8.0-r0.0)
+RRECOMMENDS = glibc-dev libhandle-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev xfsprogs-fsck-dev xfsprogs-mkfs-dev xfsprogs-repair-dev
+PKGSIZE = 185635
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xfsprogs/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/sbin/xfs_admin /usr/sbin/xfs_bmap /usr/sbin/xfs_copy /usr/sbin/xfs_db /usr/sbin/xfs_estimate /usr/sbin/xfs_freeze /usr/sbin/xfs_fsr /usr/sbin/xfs_growfs /usr/sbin/xfs_info /usr/sbin/xfs_io /usr/sbin/xfs_logprint /usr/sbin/xfs_mdrestore /usr/sbin/xfs_metadump /usr/sbin/xfs_mkfile /usr/sbin/xfs_ncheck /usr/sbin/xfs_quota /usr/sbin/xfs_rtcp /usr/sbin/xfs_spaceman

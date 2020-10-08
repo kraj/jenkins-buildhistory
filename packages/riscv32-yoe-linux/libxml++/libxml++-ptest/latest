@@ -1,0 +1,10 @@
+PV = 2.40.1
+PR = r0
+PKG = libxml++-2.6-ptest
+PKGR = r0.0
+RPROVIDES = libxml++-ptest (=2.40.1)
+RDEPENDS = glibc (>= 2.32) glibmm (>= 2.62.0) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0) libxml++ (>= 2.40.1) make
+RRECOMMENDS = ptest-runner
+PKGSIZE = 291811
+FILES = /usr/lib/libxml++/ptest
+FILELIST = /usr/lib/libxml++-2.6.so.2 /usr/lib/libxml++-2.6.so.2.0.7

@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  candump /usr/bin/candump.canutils
+	update-alternatives --remove  cansend /usr/bin/cansend.canutils

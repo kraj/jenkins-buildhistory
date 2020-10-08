@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-softdog
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-watchdog-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7464
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/drivers/watchdog/softdog.ko /etc/modules-load.d/softdog.conf /etc/modprobe.d/softdog.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

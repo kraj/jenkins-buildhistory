@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_mime_database shared-mime-info-data \
+		mlprefix= \
+		mimedir=/usr/share/mime
+else
+	echo "Updating MIME database... this may take a while."
+	# $D/usr/share/mime/packages belong to package shared-mime-info-data,
+	# packages like libfm-mime depend on shared-mime-info-data.
+	# after shared-mime-info-data uninstalled, $D/usr/share/mime/packages
+	# is removed, but update-mime-database need this dir to update
+	# database, workaround to create one and remove it later
+	if [ ! -d $D/usr/share/mime/packages ]; then
+		mkdir -p $D/usr/share/mime/packages
+		update-mime-database $D/usr/share/mime
+		rmdir --ignore-fail-on-non-empty $D/usr/share/mime/packages
+	else
+		update-mime-database $D/usr/share/mime
+fi
+fi

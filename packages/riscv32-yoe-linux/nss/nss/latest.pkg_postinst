@@ -1,0 +1,13 @@
+set -e
+    for I in $D/usr/lib/lib*.chk; do
+        DN=`dirname $I`
+        BN=`basename $I .chk`
+        FN=$DN/$BN.so
+        shlibsign -i $FN
+        if [ $? -ne 0 ]; then
+            echo "shlibsign -i $FN failed"
+        fi
+    done
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

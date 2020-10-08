@@ -1,0 +1,11 @@
+PE = 2
+PV = 20.1.8
+PR = r0
+PKGR = r0.0
+RPROVIDES = libgles1 libglesv1-cm1
+RDEPENDS = libglapi (>= 20.1.8)
+RRECOMMENDS = mesa-megadriver
+RCONFLICTS = libgles1 libglesv1-cm1
+PKGSIZE = 13157
+FILES = /usr/lib/libGLESv1*.so.*
+FILELIST = 

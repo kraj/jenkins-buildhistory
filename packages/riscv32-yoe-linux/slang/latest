@@ -1,0 +1,6 @@
+PV = 2.3.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native ncurses pcre virtual/libc virtual/libiconv virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = slang-src slang-dbg slang-ptest slang-staticdev slang-dev slang-doc slang-locale slang
+LAYER = core
+CONFIG = pcre

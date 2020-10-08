@@ -1,0 +1,6 @@
+PV = 0.9
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libnl libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = wpan-tools-src wpan-tools-dbg wpan-tools-staticdev wpan-tools-dev wpan-tools-doc wpan-tools-locale wpan-tools
+LAYER = networking-layer
+CONFIG = 

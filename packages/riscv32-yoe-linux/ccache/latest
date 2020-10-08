@@ -1,0 +1,6 @@
+PV = 3.7.11
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
+PACKAGES = ccache-src ccache-dbg ccache-staticdev ccache-dev ccache-doc ccache-locale ccache
+LAYER = core
+CONFIG = 

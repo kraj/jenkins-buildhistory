@@ -1,0 +1,7 @@
+PE = 1
+PV = 049
+PR = r0
+DEPENDS = bash-completion kmod pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = dracut-src dracut-dbg dracut-staticdev dracut-dev dracut-doc dracut-locale dracut dracut-bash-completion
+LAYER = meta-initramfs
+CONFIG = systemd

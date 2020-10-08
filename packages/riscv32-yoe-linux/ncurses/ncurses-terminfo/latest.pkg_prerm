@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  st /usr/share/terminfo/s/st.ncurses
+	update-alternatives --remove  st-256color /usr/share/terminfo/s/st-256color.ncurses

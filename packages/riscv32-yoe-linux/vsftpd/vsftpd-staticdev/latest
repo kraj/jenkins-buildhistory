@@ -1,0 +1,9 @@
+PV = 3.0.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = vsftpd-dev (= 3.0.3-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/vsftpd/*.a
+FILELIST = /etc/default/volatiles/99_vsftpd /etc/pam.d/vsftpd /etc/tmpfiles.d/vsftpd.conf /etc/vsftpd.conf /etc/vsftpd.ftpusers /etc/vsftpd.user_list /lib/systemd/system-preset/98-vsftpd.preset /lib/systemd/system/vsftpd.service /usr/sbin/vsftpd

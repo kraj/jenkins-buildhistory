@@ -1,0 +1,9 @@
+PV = 2.3.15.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) libtirpc (>= 1.2.6) libwrap (>= 7.6) perl
+RRECOMMENDS = 
+PKGSIZE = 151770
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xinetd /usr/lib/xinetd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-xinetd.preset /lib/systemd/system/xinetd.service
+FILELIST = /etc/default/xinetd /etc/xinetd.conf /etc/xinetd.d/chargen /etc/xinetd.d/chargen-udp /etc/xinetd.d/daytime /etc/xinetd.d/daytime-udp /etc/xinetd.d/discard /etc/xinetd.d/discard-udp /etc/xinetd.d/echo /etc/xinetd.d/echo-udp /etc/xinetd.d/servers /etc/xinetd.d/services /etc/xinetd.d/time /etc/xinetd.d/time-udp /lib/systemd/system-preset/98-xinetd.preset /lib/systemd/system/xinetd.service /usr/bin/itox /usr/bin/xconv.pl /usr/sbin/xinetd

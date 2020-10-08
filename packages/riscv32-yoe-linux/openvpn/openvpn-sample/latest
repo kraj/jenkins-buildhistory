@@ -1,0 +1,9 @@
+PV = 2.4.9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 50530
+FILES = /lib/systemd/system/openvpn@loopback-server.service /lib/systemd/system/openvpn@loopback-client.service /etc/openvpn/sample/
+FILELIST = /etc/tmpfiles.d/openvpn.conf /lib/systemd/system-preset/98-openvpn.preset /lib/systemd/system/openvpn@.service /usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so /usr/lib/openvpn/plugins/openvpn-plugin-down-root.so /usr/sbin/openvpn

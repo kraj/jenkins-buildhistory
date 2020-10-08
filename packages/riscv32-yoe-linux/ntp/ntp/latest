@@ -1,0 +1,11 @@
+PV = 4.2.8p15
+PR = r0
+PKGR = r0.0
+RPROVIDES = ntp-systemd
+RDEPENDS = base-files base-passwd glibc (>= 2.32) libcap (>= 2.43) libcrypto (>= 1.1.1g) libgcc ntp-tickadj shadow update-alternatives-opkg
+RRECOMMENDS = 
+RSUGGESTS = iana-etc
+RCONFLICTS = ntp-systemd
+PKGSIZE = 701174
+FILES = /usr/sbin/ntpd.ntp /etc/ntp.conf /etc/init.d/ntpd /var/lib/ntp /lib/systemd/ntp-units.d/60-ntpd.list /lib/systemd/system-preset/98-ntp.preset /lib/systemd/system/ntpd.service
+FILELIST = /usr/sbin/calc_tickadj /usr/sbin/ntp-keygen /usr/sbin/ntp-wait /usr/sbin/ntptime /usr/sbin/ntptrace /usr/share/ntp/lib/NTP/Util.pm

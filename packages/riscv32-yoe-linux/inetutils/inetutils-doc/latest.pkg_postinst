@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man1/hostname.1 hostname.1 /usr/share/man/man1/hostname.1.inetutils 79
+	update-alternatives --install /usr/share/man/man1/dnsdomainname.1 dnsdomainname.1 /usr/share/man/man1/dnsdomainname.1.inetutils 79
+	update-alternatives --install /usr/share/man/man1/logger.1 logger.1 /usr/share/man/man1/logger.1.inetutils 79
+	update-alternatives --install /usr/share/man/man8/syslogd.8 syslogd.8 /usr/share/man/man8/syslogd.8.inetutils 79
+	update-alternatives --install /usr/share/man/man8/tftpd.8 tftpd.8 /usr/share/man/man8/tftpd.8.inetutils 79
+	update-alternatives --install /usr/share/man/man1/tftp.1 tftp.1 /usr/share/man/man1/tftp.1.inetutils 79
+	update-alternatives --install /usr/share/man/man8/telnetd.8 telnetd.8 /usr/share/man/man8/telnetd.8.inetutils 79

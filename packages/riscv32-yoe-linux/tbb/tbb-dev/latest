@@ -1,0 +1,10 @@
+PE = 1
+PV = 2020.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = tbb (= 1:2020.3-r0.0)
+RRECOMMENDS = glibc-dev libatomic-dev libgcc-dev libstdc++-dev
+PKGSIZE = 1862705
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tbb/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libtbb.so.2 /usr/lib/libtbbmalloc.so.2 /usr/lib/libtbbmalloc_proxy.so.2

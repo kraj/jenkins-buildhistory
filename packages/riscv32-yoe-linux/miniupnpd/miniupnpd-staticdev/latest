@@ -1,0 +1,9 @@
+PV = 2.1.20191006
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = miniupnpd-dev (= 2.1.20191006-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/miniupnpd/*.a
+FILELIST = /etc/miniupnpd/ip6tables_init.sh /etc/miniupnpd/ip6tables_removeall.sh /etc/miniupnpd/iptables_init.sh /etc/miniupnpd/iptables_removeall.sh /etc/miniupnpd/miniupnpd.conf /etc/miniupnpd/miniupnpd_functions.sh /lib/systemd/system-preset/98-miniupnpd.preset /lib/systemd/system/miniupnpd.service /usr/sbin/miniupnpd

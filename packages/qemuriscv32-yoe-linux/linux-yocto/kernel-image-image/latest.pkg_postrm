@@ -1,0 +1,6 @@
+set -e
+set +e
+if [ -f "boot/Image" -o -L "boot/Image" ]; then
+    rm -f boot/Image  > /dev/null 2>&1
+fi
+set -e

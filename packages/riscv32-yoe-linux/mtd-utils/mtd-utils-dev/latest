@@ -1,0 +1,9 @@
+PV = 2.1.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = mtd-utils (= 2.1.2-r0.0)
+RRECOMMENDS = acl-dev bash-dev e2fsprogs-dev glibc-dev lzo-dev update-alternatives-opkg-dev util-linux-dev util-linux-libuuid-dev zlib-dev zstd-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mtd-utils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/sbin/flash_erase /usr/sbin/flash_eraseall.mtd-utils /usr/sbin/flash_lock.mtd-utils /usr/sbin/flash_otp_dump /usr/sbin/flash_otp_info /usr/sbin/flash_otp_lock /usr/sbin/flash_otp_write /usr/sbin/flash_unlock.mtd-utils /usr/sbin/flashcp.mtd-utils /usr/sbin/lsmtd /usr/sbin/mtd_debug /usr/sbin/mtdinfo /usr/sbin/mtdpart /usr/sbin/nanddump.mtd-utils /usr/sbin/nandtest /usr/sbin/nandwrite.mtd-utils

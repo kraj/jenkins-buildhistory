@@ -1,0 +1,6 @@
+PV = 0.1.5
+PR = r0
+DEPENDS = fuse pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = httpfs2-src httpfs2-dbg httpfs2-staticdev httpfs2-dev httpfs2-doc httpfs2-locale httpfs2
+LAYER = filesystems-layer
+CONFIG = 

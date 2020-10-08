@@ -1,0 +1,30 @@
+set -e
+    if [ -z "$D" ]; then
+        if type systemd-tmpfiles >/dev/null; then
+            systemd-tmpfiles --create
+        elif [ -e /etc/init.d/populate-volatile.sh ]; then
+            /etc/init.d/populate-volatile.sh update
+        fi
+    fi
+if type systemctl >/dev/null 2>/dev/null; then
+	OPTS=""
+
+	if [ -n "$D" ]; then
+		OPTS="--root=$D"
+	fi
+
+	if [ "disable" = "enable" ]; then
+		for service in minifi.service; do
+			systemctl ${OPTS} enable "$service"
+		done
+	fi
+
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+		systemctl preset minifi.service
+
+		if [ "disable" = "enable" ]; then
+			systemctl --no-block restart minifi.service
+		fi
+	fi
+fi

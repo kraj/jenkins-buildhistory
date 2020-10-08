@@ -1,0 +1,9 @@
+PV = 0.6.6
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = rasdaemon (= 0.6.6-r0.0)
+RRECOMMENDS = glibc-dev libdbd-sqlite-perl-dev libdbi-perl-dev libsqlite3-dev perl-dev perl-module-file-basename-dev perl-module-file-find-dev perl-module-file-glob-dev perl-module-file-spec-dev perl-module-getopt-long-dev perl-module-posix-dev sqlite3-dev
+PKGSIZE = 61785
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rasdaemon/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /lib/systemd/system-preset/98-rasdaemon.preset /lib/systemd/system/rasdaemon.service /usr/sbin/ras-mc-ctl /usr/sbin/rasdaemon

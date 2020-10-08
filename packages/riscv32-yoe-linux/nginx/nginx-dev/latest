@@ -1,0 +1,9 @@
+PV = 1.16.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = nginx (= 1.16.1-r0.0)
+RRECOMMENDS = base-files-dev base-passwd-dev glibc-dev libcrypto-dev libpcre-dev libssl-dev libxcrypt-dev openssl-dev shadow-dev shadow-sysroot-dev zlib-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/nginx/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/default/volatiles/99_nginx /etc/nginx/fastcgi.conf /etc/nginx/fastcgi_params /etc/nginx/koi-utf /etc/nginx/koi-win /etc/nginx/mime.types /etc/nginx/nginx.conf /etc/nginx/proxy_params /etc/nginx/run /etc/nginx/scgi_params /etc/nginx/sites-available/default_server /etc/nginx/sites-enabled/default_server /etc/nginx/uwsgi_params /etc/nginx/win-utf /etc/tmpfiles.d/nginx.conf /lib/systemd/system-preset/98-nginx.preset /lib/systemd/system/nginx.service /usr/sbin/nginx /var/www/localhost/html/50x.html /var/www/localhost/html/index.html

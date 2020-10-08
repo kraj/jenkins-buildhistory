@@ -1,0 +1,10 @@
+PV = 3.2.2-15
+PR = r0
+PKG = libapm1
+PKGR = r0.0
+RPROVIDES = libapm (=3.2.2-15)
+RDEPENDS = glibc (>= 2.32)
+RRECOMMENDS = 
+PKGSIZE = 9507
+FILES = /usr/lib/libapm.so.*
+FILELIST = /etc/apm/apmd_proxy /etc/default/apmd /lib/systemd/system-preset/98-apmd.preset /lib/systemd/system/apmd.service /usr/sbin/apmd /usr/share/apmd/apmd_proxy.conf

@@ -1,0 +1,6 @@
+PV = 1.51
+PR = r0
+DEPENDS = geoip perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = geoip-perl-src geoip-perl-dbg geoip-perl-ptest geoip-perl-staticdev geoip-perl-dev geoip-perl-doc geoip-perl-locale geoip-perl
+LAYER = networking-layer
+CONFIG = 

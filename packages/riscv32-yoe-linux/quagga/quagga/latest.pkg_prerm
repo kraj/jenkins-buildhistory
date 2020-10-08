@@ -1,0 +1,10 @@
+set -e
+    /etc/init.d/quagga stop
+	update-alternatives --remove  pimd /usr/sbin/pimd.quagga
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop zebra.service
+
+		systemctl disable zebra.service
+	fi
+fi

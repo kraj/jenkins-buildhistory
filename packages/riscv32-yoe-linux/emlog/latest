@@ -1,0 +1,6 @@
+PV = git
+PR = r0
+DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = emlog-src emlog-dbg emlog-staticdev emlog-dev emlog-doc emlog-locale emlog
+LAYER = openembedded-layer
+CONFIG = 
