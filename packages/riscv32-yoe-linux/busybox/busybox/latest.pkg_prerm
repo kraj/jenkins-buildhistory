@@ -63,6 +63,7 @@ set -e
 	update-alternatives --remove  pidof /bin/busybox.nosuid
 	update-alternatives --remove  ps /bin/busybox.nosuid
 	update-alternatives --remove  pwd /bin/busybox.nosuid
+	update-alternatives --remove  rev /bin/busybox.nosuid
 	update-alternatives --remove  rm /bin/busybox.nosuid
 	update-alternatives --remove  rmdir /bin/busybox.nosuid
 	update-alternatives --remove  run-parts /bin/busybox.nosuid
@@ -155,6 +156,7 @@ set -e
 	update-alternatives --remove  od /bin/busybox.nosuid
 	update-alternatives --remove  openvt /bin/busybox.nosuid
 	update-alternatives --remove  patch /bin/busybox.nosuid
+	update-alternatives --remove  pgrep /bin/busybox.nosuid
 	update-alternatives --remove  printf /bin/busybox.nosuid
 	update-alternatives --remove  readlink /bin/busybox.nosuid
 	update-alternatives --remove  realpath /bin/busybox.nosuid

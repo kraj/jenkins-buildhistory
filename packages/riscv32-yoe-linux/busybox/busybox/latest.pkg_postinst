@@ -61,6 +61,7 @@ fi
 	update-alternatives --install /bin/pidof pidof /bin/busybox.nosuid 50
 	update-alternatives --install /bin/ps ps /bin/busybox.nosuid 50
 	update-alternatives --install /bin/pwd pwd /bin/busybox.nosuid 50
+	update-alternatives --install /bin/rev rev /bin/busybox.nosuid 50
 	update-alternatives --install /bin/rm rm /bin/busybox.nosuid 50
 	update-alternatives --install /bin/rmdir rmdir /bin/busybox.nosuid 50
 	update-alternatives --install /bin/run-parts run-parts /bin/busybox.nosuid 50
@@ -153,6 +154,7 @@ fi
 	update-alternatives --install /usr/bin/od od /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/openvt openvt /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/patch patch /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/pgrep pgrep /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/printf printf /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/readlink readlink /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/realpath realpath /bin/busybox.nosuid 50

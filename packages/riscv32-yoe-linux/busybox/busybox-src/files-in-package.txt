@@ -148,7 +148,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/busybox/1.32.0-r0/bu
 -rw-r--r-- root       root            21357 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/findutils/xargs.c
 drwxr-xr-x root       root              340 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include
 -rw-r--r-- root       root              624 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include/applet_metadata.h
--rw-r--r-- root       root            10005 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include/applet_tables.h
+-rw-r--r-- root       root            10111 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include/applet_tables.h
 -rw-r--r-- root       root            10478 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include/bb_archive.h
 -rw-r--r-- root       root            20479 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include/bb_e2fs_defs.h
 -rw-r--r-- root       root             1559 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/include/busybox.h
@@ -382,10 +382,11 @@ drwxr-xr-x root       root              280 ./usr/src/debug/busybox/1.32.0-r0/bu
 -rw-r--r-- root       root             2611 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/networking/udhcp/signalpipe.c
 -rw-r--r-- root       root             3069 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/networking/udhcp/socket.c
 -rw-r--r-- root       root            46832 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/networking/wget.c
-drwxr-xr-x root       root              220 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps
+drwxr-xr-x root       root              240 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps
 -rw-r--r-- root       root             5139 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/free.c
 -rw-r--r-- root       root             6794 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/fuser.c
 -rw-r--r-- root       root             9625 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/kill.c
+-rw-r--r-- root       root             6661 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/pgrep.c
 -rw-r--r-- root       root             4007 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/pidof.c
 -rw-r--r-- root       root            23097 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/ps.c
 -rw-r--r-- root       root             9382 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/procps/sysctl.c
@@ -405,7 +406,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/busybox/1.32.0-r0/bu
 -rw-r--r-- root       root             6277 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/sysklogd/logread.c
 -rw-r--r-- root       root             1706 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/sysklogd/syslogd_and_logger.c
 -rw-r--r-- root       root            33583 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/sysklogd/syslogd.c
-drwxr-xr-x root       root              520 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux
+drwxr-xr-x root       root              540 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux
 -rw-r--r-- root       root             1202 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/blkid.c
 -rw-r--r-- root       root             3526 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/dmesg.c
 -rw-r--r-- root       root            17016 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/fbset.c
@@ -425,6 +426,7 @@ drwxr-xr-x root       root              520 ./usr/src/debug/busybox/1.32.0-r0/bu
 -rw-r--r-- root       root             1699 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/pivot_root.c
 -rw-r--r-- root       root             3269 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/rdate.c
 -rw-r--r-- root       root             3909 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/renice.c
+-rw-r--r-- root       root             2332 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/rev.c
 -rw-r--r-- root       root             2391 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/setsid.c
 -rw-r--r-- root       root             9306 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/swaponoff.c
 -rw-r--r-- root       root            13138 ./usr/src/debug/busybox/1.32.0-r0/busybox-1.32.0/util-linux/switch_root.c

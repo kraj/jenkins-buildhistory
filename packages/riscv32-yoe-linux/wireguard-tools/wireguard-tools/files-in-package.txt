@@ -1,9 +1,10 @@
 drwxr-xr-x root       root               60 ./etc
 drwx------ root       root               40 ./etc/wireguard
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               80 ./lib/systemd
--rw-r--r-- root       root              665 ./lib/systemd/wg-quick@.service
--rw-r--r-- root       root               53 ./lib/systemd/wg-quick.target
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              665 ./lib/systemd/system/wg-quick@.service
+-rw-r--r-- root       root               53 ./lib/systemd/system/wg-quick.target
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            55952 ./usr/bin/wg

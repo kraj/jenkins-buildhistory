@@ -5,5 +5,5 @@ RPROVIDES =
 RDEPENDS = bash glibc (>= 2.32)
 RRECOMMENDS = kernel-module-wireguard
 PKGSIZE = 70130
-FILES = /etc /lib/systemd /usr/bin
+FILES = /etc /lib/systemd/system /usr/bin
 FILELIST = /usr/share/bash-completion/completions/wg /usr/share/bash-completion/completions/wg-quick
