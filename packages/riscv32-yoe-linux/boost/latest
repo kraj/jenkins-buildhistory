@@ -1,0 +1,6 @@
+PV = 1.74.0
+PR = r0
+DEPENDS = boost-build-native bzip2 icu python3 virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
+PACKAGES = boost-src boost-dbg boost-atomic boost-chrono boost-container boost-context boost-contract boost-coroutine boost-date-time boost-exception boost-fiber boost-filesystem boost-graph boost-headers boost-iostreams boost-log boost-math boost-program-options boost-random boost-regex boost-serialization boost-system boost-test boost-thread boost-timer boost-type-erasure boost-wave boost-locale boost-python boost-dev boost-staticdev boost
+LAYER = core
+CONFIG = locale python

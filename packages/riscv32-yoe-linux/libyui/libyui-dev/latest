@@ -1,0 +1,10 @@
+PV = 3.10.0
+PR = r0
+PKG = libyui12
+PKGR = r0.0
+RPROVIDES = libyui-dev (=3.10.0)
+RDEPENDS = glibc (>= 2.32) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0) libyui (= 3.10.0-r0.0)
+RRECOMMENDS = boost-dev glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 1208855
+FILES = /usr/lib/* /usr/include/yui*
+FILELIST = /usr/share/libyui/buildtools/BuildTreeSettings.cmake.in /usr/share/libyui/buildtools/CMakeLists.common /usr/share/libyui/buildtools/Config.cmake.in /usr/share/libyui/buildtools/ConfigVersion.cmake.in /usr/share/libyui/buildtools/Doxyfile.in /usr/share/libyui/buildtools/FindGTK3.cmake /usr/share/libyui/buildtools/LibyuiCommon.cmake /usr/share/libyui/buildtools/config.h.in /usr/share/libyui/buildtools/template-doc.spec.in /usr/share/libyui/buildtools/template.pc.in

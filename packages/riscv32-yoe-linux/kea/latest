@@ -1,0 +1,6 @@
+PV = 1.7.10
+PR = r0
+DEPENDS = autoconf-native automake-native boost gnu-config-native libtool-cross libtool-native log4cplus openssl systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = kea-src kea-dbg kea-staticdev kea-dev kea-doc kea-locale kea
+LAYER = core
+CONFIG = 
