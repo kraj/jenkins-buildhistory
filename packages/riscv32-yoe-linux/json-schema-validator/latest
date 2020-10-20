@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native nlohmann-json virtual/libc virtual/riscv32-y
 PACKAGES = json-schema-validator-src json-schema-validator-dbg json-schema-validator-staticdev json-schema-validator-dev json-schema-validator-doc json-schema-validator-locale json-schema-validator
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/pboettch/json-schema-validator

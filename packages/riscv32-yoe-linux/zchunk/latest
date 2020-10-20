@@ -4,3 +4,4 @@ DEPENDS = curl meson-native ninja-native python3-native virtual/libc virtual/ris
 PACKAGES = zchunk-src zchunk-dbg zchunk-staticdev zchunk-dev zchunk-doc zchunk-locale zchunk
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/zchunk/zchunk.git;protocol=https

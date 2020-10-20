@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libdaemon libtool-cr
 PACKAGES = tipcutils-src tipcutils-dbg tipcutils-staticdev tipcutils-dev tipcutils-doc tipcutils-locale tipcutils tipcutils-demos
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://git.code.sf.net/p/tipc/tipcutils file://0001-include-sys-select.h-for-FD_-definitions.patch file://0002-replace-non-standard-uint-with-unsigned-int.patch file://0001-multicast_blast-tipcc-Fix-struct-type-for-TIPC_GROUP.patch file://0001-test-ptts-Set-recv-buffer-size-too-max-to-receive-as.patch

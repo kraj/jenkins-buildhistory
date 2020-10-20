@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bash-completion gettext-native glib-2.
 PACKAGES = modemmanager-src modemmanager-dbg modemmanager-staticdev modemmanager-dev modemmanager-doc modemmanager modemmanager-bash-completion modemmanager-locale-cs modemmanager-locale-da modemmanager-locale-de modemmanager-locale-fr modemmanager-locale-fur modemmanager-locale-hu modemmanager-locale-id modemmanager-locale-it modemmanager-locale-lt modemmanager-locale-pl modemmanager-locale-pt-br modemmanager-locale-ru modemmanager-locale-sk modemmanager-locale-sv modemmanager-locale-tr modemmanager-locale-uk modemmanager-locale-zh-cn
 LAYER = openembedded-layer
 CONFIG = mbim polkit qmi systemd
+SRC_URI = http://www.freedesktop.org/software/ModemManager/ModemManager-1.14.2.tar.xz

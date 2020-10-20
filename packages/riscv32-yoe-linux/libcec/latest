@@ -4,3 +4,4 @@ DEPENDS = cmake-native libx11 libxrandr ncurses ninja-native p8platform pkgconfi
 PACKAGES = libcec-src libcec-dbg libcec-staticdev libcec-dev libcec-doc libcec-locale libcec-examples-python libcec-examples libcec python3-libcec
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Pulse-Eight/libcec.git;branch=release file://0001-CheckPlatformSupport.cmake-Do-not-hardcode-lib-path.patch file://0001-Enhance-reproducibility.patch file://0001-Remove-buggy-test-confusing-host-and-target.patch

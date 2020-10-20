@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gtk+ libtool-cross l
 PACKAGES = orrery-src orrery-dbg orrery-staticdev orrery-dev orrery-doc orrery-locale orrery
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://projects.openmoko.org/frs/download.php/923/orrery_2.7_clean.tar.gz file://orrery.png file://use.GdkPixbuf.patch file://0001-orrery-Fix-sprintf-format.patch

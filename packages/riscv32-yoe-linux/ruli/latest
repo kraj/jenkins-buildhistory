@@ -4,3 +4,4 @@ DEPENDS = liboop virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/ris
 PACKAGES = ruli-src ruli-dbg ruli-bin ruli-staticdev ruli-dev ruli-doc ruli-locale ruli
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://download.savannah.gnu.org/releases/ruli/ruli_0.36.orig.tar.gz file://0001-Fix-build-with-format-string-checks.patch file://0001-src-ruli_addr.c-Add-missing-format-string.patch file://0001-ruli_srv-Mark-prev_addr_list_size-as-unused.patch file://0001-Make-space-for-flags-from-environment.patch file://float-conversion.patch

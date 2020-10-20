@@ -4,3 +4,4 @@ DEPENDS = cmake-native libuv ninja-native openssl pkgconfig-native virtual/libc 
 PACKAGES = libwebsockets-src libwebsockets-dbg libwebsockets-testapps libwebsockets-staticdev libwebsockets-dev libwebsockets-doc libwebsockets-locale libwebsockets
 LAYER = openembedded-layer
 CONFIG = client http2 libuv server ssl
+SRC_URI = git://github.com/warmcat/libwebsockets.git;protocol=https;branch=v4.0-stable

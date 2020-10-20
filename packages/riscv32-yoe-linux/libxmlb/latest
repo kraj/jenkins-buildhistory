@@ -4,3 +4,4 @@ DEPENDS = gobject-introspection gobject-introspection-native gtk-doc-native meso
 PACKAGES = libxmlb-src libxmlb-dbg libxmlb-ptest libxmlb-staticdev libxmlb-dev libxmlb-doc libxmlb-locale libxmlb
 LAYER = openembedded-layer
 CONFIG = tests
+SRC_URI = git://github.com/hughsie/libxmlb.git file://run-ptest

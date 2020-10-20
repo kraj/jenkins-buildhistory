@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libsombok3-src libsombok3-dbg libsombok3-staticdev libsombok3-dev libsombok3-doc libsombok3-locale libsombok3
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/hatukanezumi/sombok.git;protocol=https file://0001-configure.ac-fix-cross-compiling-issue.patch

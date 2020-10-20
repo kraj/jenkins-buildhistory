@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native gstre
 PACKAGES = gst-shark-src gst-shark-dbg gst-shark-staticdev gst-shark-dev gst-shark-doc gst-shark-locale gst-shark
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/RidgeRun/gst-shark.git;protocol=https;branch=master;name=base git://gitlab.freedesktop.org/gstreamer/common.git;protocol=https;destsuffix=git/common;name=common;

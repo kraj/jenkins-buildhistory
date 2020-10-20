@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = libaio-src libaio-dbg libaio-staticdev libaio-dev libaio-doc libaio-locale libaio
 LAYER = core
 CONFIG = 
+SRC_URI = git://pagure.io/libaio.git;protocol=https file://00_arches.patch file://destdir.patch file://libaio_fix_for_mips_syscalls.patch file://system-linkage.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = numactl-src numactl-dbg numactl-ptest numactl-staticdev numactl-dev numactl-doc numactl-locale numactl
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/numactl/numactl file://Fix-the-test-output-format.patch file://Makefile file://run-ptest file://0001-define-run-test-target.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libatomic-ops libtoo
 PACKAGES = bdwgc-src bdwgc-dbg bdwgc-staticdev bdwgc-dev bdwgc-doc bdwgc-locale bdwgc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/ivmai/bdwgc.git;branch=release-8_0

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = tinyproxy-src tinyproxy-dbg tinyproxy-staticdev tinyproxy-dev tinyproxy-doc tinyproxy-locale tinyproxy
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://github.com/tinyproxy/tinyproxy/releases/download/1.10.0/tinyproxy-1.10.0.tar.gz file://disable-documentation.patch file://tinyproxy.service file://tinyproxy.conf

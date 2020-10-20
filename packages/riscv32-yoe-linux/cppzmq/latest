@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = cppzmq-src cppzmq-dev
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/zeromq/cppzmq.git

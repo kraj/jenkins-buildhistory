@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native freetype gnu-config-native libtool-cro
 PACKAGES = libsdl2-ttf-src libsdl2-ttf-dbg libsdl2-ttf-staticdev libsdl2-ttf-dev libsdl2-ttf-doc libsdl2-ttf-locale libsdl2-ttf
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.15.tar.gz file://automake_foreign.patch

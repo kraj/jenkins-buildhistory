@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libxcomposite-src libxcomposite-dbg libxcomposite-staticdev libxcomposite-dev libxcomposite-doc libxcomposite-locale libxcomposite
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXcomposite-0.4.5.tar.bz2 file://change-include-order.patch

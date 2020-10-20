@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = netkit-tftp-src netkit-tftp-dbg netkit-tftp-client netkit-tftp-server netkit-tftp-doc
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/n/netkit-tftp/netkit-tftp_0.17.orig.tar.gz;name=archive http://ftp.debian.org/debian/pool/main/n/netkit-tftp/netkit-tftp_0.17-18.diff.gz;name=patch18 file://tftp.conf file://0001-tftp-Include-missing-fcntl.h.patch

@@ -4,3 +4,4 @@ DEPENDS = libusb libusb-compat pciutils pkgconfig-native virtual/libc virtual/ri
 PACKAGES = flashrom-src flashrom-dbg flashrom-staticdev flashrom-dev flashrom-doc flashrom-locale flashrom
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://download.flashrom.org/releases/flashrom-v1.2.tar.bz2 file://0001-typecast-enum-conversions-explicitly.patch file://0001-Makefile-Check-for-last-line-only-from-preprocessed-.patch

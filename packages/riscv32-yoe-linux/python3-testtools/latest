@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-pbr python3-pbr-native p
 PACKAGES = python3-testtools-src python3-testtools-dbg python3-testtools-staticdev python3-testtools-dev python3-testtools-doc python3-testtools-locale python3-testtools
 LAYER = core
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/t/testtools/testtools-2.4.0.tar.gz file://no_traceback2.patch

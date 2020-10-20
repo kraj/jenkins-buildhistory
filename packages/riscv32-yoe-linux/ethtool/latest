@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bash-completion gnu-config-native libm
 PACKAGES = ethtool-src ethtool-dbg ethtool-ptest ethtool-staticdev ethtool-dev ethtool-doc ethtool-locale ethtool ethtool-bash-completion
 LAYER = core
 CONFIG = netlink
+SRC_URI = https://cdn.kernel.org/pub/software/network/ethtool/ethtool-5.8.tar.gz file://run-ptest file://avoid_parallel_tests.patch

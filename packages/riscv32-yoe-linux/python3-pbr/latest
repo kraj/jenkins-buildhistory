@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-pbr-src python3-pbr-dbg python3-pbr-staticdev python3-pbr-dev python3-pbr-doc python3-pbr-locale python3-pbr
 LAYER = core
 CONFIG = 
+SRC_URI = file://0001-change-shebang-to-python3.patch https://files.pythonhosted.org/packages/source/p/pbr/pbr-5.4.4.tar.gz

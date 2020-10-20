@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native flex-native gettext-nativ
 PACKAGES = flex-src flex-dbg flex-libfl flex-ptest flex-staticdev flex-dev flex-doc flex flex-locale-ca flex-locale-da flex-locale-de flex-locale-en+boldquot flex-locale-en+quot flex-locale-eo flex-locale-es flex-locale-fi flex-locale-fr flex-locale-ga flex-locale-hr flex-locale-ko flex-locale-nl flex-locale-pl flex-locale-pt-br flex-locale-ro flex-locale-ru flex-locale-sr flex-locale-sv flex-locale-tr flex-locale-vi flex-locale-zh-cn flex-locale-zh-tw
 LAYER = core
 CONFIG = 
+SRC_URI = https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz file://run-ptest file://0001-tests-add-a-target-for-building-tests-without-runnin.patch file://0001-build-AC_USE_SYSTEM_EXTENSIONS-in-configure.ac.patch file://check-funcs.patch

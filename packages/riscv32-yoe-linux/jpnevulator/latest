@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = jpnevulator-src jpnevulator-dbg jpnevulator-staticdev jpnevulator-dev jpnevulator-doc jpnevulator-locale jpnevulator
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/snarlistic/jpnevulator.git;protocol=http

@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-cachetools-src python3-cachetools-dbg python3-cachetools-ptest python3-cachetools-staticdev python3-cachetools-dev python3-cachetools-doc python3-cachetools-locale python3-cachetools
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/c/cachetools/cachetools-4.1.1.tar.gz file://run-ptest

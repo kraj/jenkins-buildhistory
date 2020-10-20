@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = p8platform-src p8platform-dbg p8platform-staticdev p8platform-dev p8platform-doc p8platform-locale p8platform
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Pulse-Eight/platform.git file://0001-Make-resulting-cmake-config-relocatable.patch

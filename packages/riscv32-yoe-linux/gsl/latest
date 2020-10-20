@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = gsl-src gsl-dbg gsl-staticdev gsl-dev gsl-doc gsl-locale gsl
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/gsl/gsl-2.6.tar.gz

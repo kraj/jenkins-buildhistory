@@ -4,3 +4,4 @@ DEPENDS = cmake-native expat ninja-native pkgconfig-native systemd systemd-syste
 PACKAGES = sdbus-c++-src sdbus-c++-dbg sdbus-c++-ptest sdbus-c++-staticdev sdbus-c++-dev sdbus-c++-doc sdbus-c++-locale sdbus-c++
 LAYER = openembedded-layer
 CONFIG = with-external-libsystemd with-tests
+SRC_URI = git://github.com/Kistler-Group/sdbus-cpp.git;protocol=https;branch=master file://run-ptest

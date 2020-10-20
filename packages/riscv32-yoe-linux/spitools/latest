@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = spitools-src spitools-dbg spitools-staticdev spitools-dev spitools-doc spitools-locale spitools
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/cpb-/spi-tools.git;protocol=git

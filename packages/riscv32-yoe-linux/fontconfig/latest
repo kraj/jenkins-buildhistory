@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native expat freetype gettext-native gnu-conf
 PACKAGES = fontconfig-src fontconfig-dbg fontconfig-utils fontconfig-staticdev fontconfig-dev fontconfig-doc fontconfig fontconfig-locale-zh-cn
 LAYER = core
 CONFIG = 
+SRC_URI = http://fontconfig.org/release/fontconfig-2.13.1.tar.gz file://revert-static-pkgconfig.patch file://local.conf

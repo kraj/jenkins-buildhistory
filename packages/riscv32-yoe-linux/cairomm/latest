@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cairo gnu-config-native libsigc++-2.0 
 PACKAGES = cairomm-src cairomm-dbg cairomm-staticdev cairomm-dev cairomm-doc cairomm-locale cairomm
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/cairomm/1.12/cairomm-1.12.0.tar.xz;name=archive

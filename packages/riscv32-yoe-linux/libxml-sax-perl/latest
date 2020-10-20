@@ -4,3 +4,4 @@ DEPENDS = libxml-namespacesupport-perl-native perl perl-native virtual/libc virt
 PACKAGES = libxml-sax-perl-src libxml-sax-perl-dbg libxml-sax-perl-ptest libxml-sax-perl-staticdev libxml-sax-perl-dev libxml-sax-perl-doc libxml-sax-perl-locale libxml-sax-perl
 LAYER = core
 CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz file://ptest-perl/run-ptest

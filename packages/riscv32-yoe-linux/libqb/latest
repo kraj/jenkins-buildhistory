@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libqb-src libqb-dbg libqb-staticdev libqb-dev libqb-doc libqb-locale libqb
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/ClusterLabs/libqb.git;branch=version_1 file://0001-build-fix-configure-script-neglecting-re-enable-out-.patch

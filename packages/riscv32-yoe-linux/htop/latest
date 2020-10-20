@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libnl libtool-cross 
 PACKAGES = htop-src htop-dbg htop-staticdev htop-dev htop-doc htop-locale htop
 LAYER = openembedded-layer
 CONFIG = cgroup delayacct linux-affinity taskstats unicode
+SRC_URI = git://github.com/htop-dev/htop.git file://0001-Use-pkg-config.patch

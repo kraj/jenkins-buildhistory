@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libmnl libtool-cross
 PACKAGES = libnftnl-src libnftnl-dbg libnftnl-staticdev libnftnl-dev libnftnl-doc libnftnl-locale libnftnl
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://git.netfilter.org/libnftnl file://0001-avoid-naming-local-function-as-one-of-printf-family.patch

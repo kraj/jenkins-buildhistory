@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = gensio-src gensio-dbg gensio-staticdev gensio-dev gensio-doc gensio-locale gensio
 LAYER = openembedded-layer
 CONFIG = openssl tcp-wrappers
+SRC_URI = git://github.com/cminyard/gensio;protocol=https

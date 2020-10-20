@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native jpeg libtool-cross l
 PACKAGES = tiff-src tiff-dbg tiffxx tiff-utils tiff-staticdev tiff-dev tiff-doc tiff-locale tiff
 LAYER = core
 CONFIG = check-ycbcr-subsampling cxx extrasample-as-alpha jpeg lzma strip-chopping zlib
+SRC_URI = http://download.osgeo.org/libtiff/tiff-4.1.0.tar.gz

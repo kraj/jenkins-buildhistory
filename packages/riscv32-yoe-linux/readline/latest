@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = readline-src readline-dbg readline-staticdev readline-dev readline-doc readline-locale readline
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz;name=archive file://inputrc file://configure-fix.patch file://norpath.patch

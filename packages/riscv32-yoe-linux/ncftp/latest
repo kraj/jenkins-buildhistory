@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = ncftp-src ncftp-dbg ncftp-staticdev ncftp-dev ncftp-doc ncftp-locale ncftp
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = ftp://ftp.ncftp.com/ncftp/ncftp-3.2.6-src.tar.xz file://ncftp-configure-use-BUILD_CC-for-ccdv.patch file://unistd.patch file://ncftp-3.2.5-gcc10.patch

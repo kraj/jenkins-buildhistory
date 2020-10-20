@@ -4,3 +4,4 @@ DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native libtool-cro
 PACKAGES = libmikmod-src libmikmod-dbg libmikmod-staticdev libmikmod-dev libmikmod-doc libmikmod-locale libmikmod-bin libmikmod
 LAYER = openembedded-layer
 CONFIG = pulseaudio
+SRC_URI = https://downloads.sourceforge.net/project/mikmod/libmikmod/3.3.11.1/libmikmod-3.3.11.1.tar.gz

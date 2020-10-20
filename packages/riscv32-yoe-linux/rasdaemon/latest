@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = rasdaemon-src rasdaemon-dbg rasdaemon-staticdev rasdaemon-dev rasdaemon-doc rasdaemon-locale rasdaemon
 LAYER = openembedded-layer
 CONFIG = aer devlink diskerror extlog mce sqlite3
+SRC_URI = git://github.com/mchehab/rasdaemon.git;branch=master file://0001-Fix-system-header-includes.patch file://rasdaemon.service file://init

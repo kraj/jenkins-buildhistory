@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-
 PACKAGES = bc-src bc-dbg bc-staticdev bc-dev bc-doc bc-locale bc
 LAYER = core
 CONFIG = readline
+SRC_URI = https://ftp.gnu.org/gnu/bc/bc-1.07.1.tar.gz file://no-gen-libmath.patch file://libmath.h file://0001-dc-fix-exit-code-of-q-command.patch

@@ -1,0 +1,7 @@
+PV = 2.2.23
+PR = r0
+DEPENDS = autoconf-native automake-native bzip2-native gettext-minimal-native gnu-config-native gnutls-native libassuan-native libgcrypt-native libksba-native libtool-native npth-native pkgconfig-native readline-native texinfo-dummy-native zlib-native
+PACKAGES = 
+LAYER = core
+CONFIG = gnutls
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.23.tar.bz2 file://0001-Use-pkg-config-to-find-pth-instead-of-pth-config.patch file://0002-use-pkgconfig-instead-of-npth-config.patch file://0003-dirmngr-uses-libgpg-error.patch file://0004-autogen.sh-fix-find-version-for-beta-checking.patch file://0001-Woverride-init-is-not-needed-with-gcc-9.patch file://0001-configure.ac-use-a-custom-value-for-the-location-of-.patch file://relocate.patch

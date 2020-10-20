@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gnutls libgcrypt lib
 PACKAGES = libimobiledevice-src libimobiledevice-dbg libimobiledevice-staticdev libimobiledevice-dev libimobiledevice-doc libimobiledevice-locale libimobiledevice
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libimobiledevice/libimobiledevice;protocol=https

@@ -4,3 +4,4 @@ DEPENDS = base-passwd groff-native openssl virtual/crypt virtual/libc virtual/ri
 PACKAGES = nostromo-src nostromo-dbg nostromo-staticdev nostromo-dev nostromo-doc nostromo-locale nostromo
 LAYER = webserver
 CONFIG = 
+SRC_URI = http://www.nazgul.ch/dev/nostromo-1.9.9.tar.gz file://0001-GNUmakefile-add-possibility-to-override-variables.patch file://nhttpd.conf file://volatiles file://tmpfiles.conf file://nostromo

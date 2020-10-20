@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = traceroute-src traceroute-dbg traceroute-staticdev traceroute-dev traceroute-doc traceroute-locale traceroute
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/traceroute/traceroute/traceroute-2.1.0/traceroute-2.1.0.tar.gz file://filter-out-the-patches-from-subdirs.patch

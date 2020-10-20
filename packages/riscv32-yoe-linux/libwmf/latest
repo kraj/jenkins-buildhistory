@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native expat freetype gnu-config-native gtk+ 
 PACKAGES = libwmf-src libwmf-dbg libwmf-staticdev libwmf-dev libwmf-doc libwmf-locale libwmf
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz;name=tarball file://libwmf-0.2.8.4-intoverflow.patch file://libwmf-0.2.8.4-useafterfree.patch file://0001-configure-use-pkg-config-for-freetype.patch

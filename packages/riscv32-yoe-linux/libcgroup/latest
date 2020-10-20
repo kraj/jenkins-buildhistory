@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-na
 PACKAGES = libcgroup-src libcgroup-dbg cgroups-pam-plugin libcgroup-staticdev libcgroup-dev libcgroup-doc libcgroup-locale libcgroup
 LAYER = core
 CONFIG = pam
+SRC_URI = https://downloads.sourceforge.net/project/libcg/libcgroup/v0.41/libcgroup-0.41.tar.bz2 file://CVE-2018-14348.patch

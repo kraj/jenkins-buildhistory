@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libid3tag libtool-cr
 PACKAGES = libmad-src libmad-dbg libmad-staticdev libmad-dev libmad-doc libmad-locale libmad
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = ftp://ftp.mars.org/pub/mpeg/libmad-0.15.1b.tar.gz file://no-force-mem.patch file://add-pkgconfig.patch file://fix_for_mips_with_gcc-4.5.0.patch file://obsolete_automake_macros.patch file://automake-foreign.patch

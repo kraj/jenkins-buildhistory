@@ -4,3 +4,4 @@ DEPENDS = atkmm autoconf-native automake-native cairomm glibmm gnu-config-native
 PACKAGES = gtkmm-src gtkmm-dbg gtkmm-staticdev gtkmm-dev gtkmm-doc gtkmm-locale gtkmm
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.24/gtkmm-2.24.5.tar.xz;name=archive

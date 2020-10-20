@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native icu-native libtool-c
 PACKAGES = icu-src icu-dbg libicudata libicuuc libicui18n libicutu libicuio icu-staticdev icu-dev icu-doc icu-locale icu
 LAYER = core
 CONFIG = 
+SRC_URI = https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz;name=code https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-data.zip;name=data file://filter.json file://fix-install-manx.patch file://0001-icu-Added-armeb-support.patch file://0001-Disable-LDFLAGSICUDT-for-Linux.patch

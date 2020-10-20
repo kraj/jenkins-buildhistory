@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = cdparanoia-src cdparanoia-dbg cdparanoia-staticdev cdparanoia-dev cdparanoia-doc cdparanoia-locale cdparanoia
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = http://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz file://0001-Use-DESTDIR-in-install-Makefile-rule.patch file://0002-interface-remove-C-reserved-keyword.patch file://0003-Fix-missing-shared-object-LDFLAGS.patch file://dont-use-internal-configs.patch file://out-of-tree-build.patch file://0001-check-for-null-buffer-before-trying-a-byteswap.patch file://0002-Fix-printf-format-errors.patch file://0001-utils-Use-c99-compiler-independent-types.patch

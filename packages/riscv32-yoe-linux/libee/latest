@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libestr libtool-cros
 PACKAGES = libee-src libee-dbg libee-ptest libee-staticdev libee-dev libee-doc libee-locale libee
 LAYER = openembedded-layer
 CONFIG = testbench
+SRC_URI = http://www.libee.org/download/files/download/libee-0.4.1.tar.gz file://libee-parallel-make.patch file://run-ptest file://ezapi1.sh

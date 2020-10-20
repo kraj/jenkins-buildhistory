@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libti
 PACKAGES = libnsl2-src libnsl2-dbg libnsl2-staticdev libnsl2-dev libnsl2-doc libnsl2-locale libnsl2
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/thkukuk/libnsl

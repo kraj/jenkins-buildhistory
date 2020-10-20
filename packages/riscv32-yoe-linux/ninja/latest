@@ -4,3 +4,4 @@ DEPENDS = ninja-native re2c-native virtual/libc virtual/riscv32-yoe-linux-compil
 PACKAGES = ninja-src ninja-dbg ninja-staticdev ninja-dev ninja-doc ninja-locale ninja
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/ninja-build/ninja.git;branch=release

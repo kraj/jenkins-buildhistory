@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus dleyna-core glib-2.0 gnu-config-n
 PACKAGES = dleyna-connector-dbus-src dleyna-connector-dbus-dbg dleyna-connector-dbus-staticdev dleyna-connector-dbus-dev dleyna-connector-dbus-doc dleyna-connector-dbus-locale dleyna-connector-dbus
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/01org/dleyna-connector-dbus.git

@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = msgpack-c-src msgpack-c-dbg msgpack-c-staticdev msgpack-c-dev msgpack-c-doc msgpack-c-locale msgpack-c
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/msgpack/msgpack-c

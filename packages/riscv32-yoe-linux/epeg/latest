@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native jpeg libexif libtool
 PACKAGES = epeg-src epeg-dbg epeg-staticdev epeg-dev epeg-doc epeg-locale epeg
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/mattes/epeg.git

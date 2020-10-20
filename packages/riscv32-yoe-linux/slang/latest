@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = slang-src slang-dbg slang-ptest slang-staticdev slang-dev slang-doc slang-locale slang
 LAYER = core
 CONFIG = pcre
+SRC_URI = http://www.jedsoft.org/releases/slang/slang-2.3.2.tar.bz2 file://no-x.patch file://dont-link-to-host.patch file://test-add-output-in-the-format-result-testname.patch file://terminfo_fixes.patch file://array_test.patch file://run-ptest

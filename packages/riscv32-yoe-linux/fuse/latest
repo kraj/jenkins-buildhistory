@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libto
 PACKAGES = fuse-src fuse-dbg fuse-utils libulockmgr libulockmgr-dev fuse-staticdev fuse-dev fuse-doc fuse-locale fuse
 LAYER = filesystems-layer
 CONFIG = 
+SRC_URI = https://github.com/libfuse/libfuse/releases/download/fuse-2.9.9/fuse-2.9.9.tar.gz file://gold-unversioned-symbol.patch file://aarch64.patch file://0001-fuse-fix-the-return-value-of-help-option.patch file://fuse.conf

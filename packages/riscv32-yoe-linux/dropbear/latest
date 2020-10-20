@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libpam libtool-cross
 PACKAGES = dropbear-src dropbear-dbg dropbear-staticdev dropbear-dev dropbear-doc dropbear-locale dropbear
 LAYER = core
 CONFIG = disable-weak-ciphers
+SRC_URI = http://matt.ucc.asn.au/dropbear/releases/dropbear-2020.80.tar.bz2 file://0001-urandom-xauth-changes-to-options.h.patch file://init file://dropbearkey.service file://dropbear@.service file://dropbear.socket file://dropbear.default file://0005-dropbear-enable-pam.patch file://0006-dropbear-configuration-file.patch file://dropbear file://dropbear-disable-weak-ciphers.patch

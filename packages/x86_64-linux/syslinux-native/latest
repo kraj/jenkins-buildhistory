@@ -1,0 +1,7 @@
+PV = 6.04-pre2
+PR = r0
+DEPENDS = e2fsprogs-native nasm-native util-linux-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.zytor.com/pub/syslinux/Testing/6.04/syslinux-6.04-pre2.tar.xz file://syslinux-remove-clean-script.patch file://0001-linux-syslinux-support-ext2-3-4-device.patch file://0002-linux-syslinux-implement-open_ext2_fs.patch file://0003-linux-syslinux-implement-install_to_ext2.patch file://0004-linux-syslinux-add-ext_file_read-and-ext_file_write.patch file://0005-linux-syslinux-implement-handle_adv_on_ext.patch file://0006-linux-syslinux-implement-write_to_ext-and-add-syslin.patch file://0007-linux-syslinux-implement-ext_construct_sectmap_fs.patch file://0008-libinstaller-syslinuxext-implement-syslinux_patch_bo.patch file://0009-linux-syslinux-implement-install_bootblock.patch file://0010-Workaround-multiple-definition-of-symbol-errors.patch file://0001-install-don-t-install-obsolete-file-com32.ld.patch

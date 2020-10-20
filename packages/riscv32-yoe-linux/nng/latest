@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = nng-src nng-dbg nng-staticdev nng-dev nng-doc nng-locale nng
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/nanomsg/nng.git;branch=v1.2.x

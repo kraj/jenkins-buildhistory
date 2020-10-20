@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gmp gnu-config-native gnutls libidn li
 PACKAGES = librelp-src librelp-dbg librelp-staticdev librelp-dev librelp-doc librelp-locale librelp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/rsyslog/librelp.git;protocol=https

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = protobuf-c-src protobuf-c-dbg protobuf-c-staticdev protobuf-c-dev protobuf-c-doc protobuf-c-locale protobuf-c-compiler protobuf-c
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/protobuf-c/protobuf-c.git file://0001-avoid-race-condition.patch

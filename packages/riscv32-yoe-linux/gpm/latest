@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native gnu-config-native libtool
 PACKAGES = gpm-src gpm-dbg gpm-staticdev gpm-dev gpm-doc gpm-locale gpm
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/telmich/gpm;protocol=git file://init file://gpm.service.in

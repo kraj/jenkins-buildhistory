@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native gmp gnu-config-native lib
 PACKAGES = nftables-src nftables-dbg nftables-python nftables-staticdev nftables-dev nftables-doc nftables-locale nftables
 LAYER = networking-layer
 CONFIG = python readline
+SRC_URI = http://www.netfilter.org/projects/nftables/files/nftables-0.9.6.tar.bz2

@@ -1,0 +1,7 @@
+PV = 1.07.1
+PR = r0
+DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-native readline-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = readline
+SRC_URI = https://ftp.gnu.org/gnu/bc/bc-1.07.1.tar.gz file://no-gen-libmath.patch file://libmath.h file://0001-dc-fix-exit-code-of-q-command.patch

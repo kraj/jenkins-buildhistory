@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = fatresize-src fatresize-dbg fatresize-staticdev fatresize-dev fatresize-doc fatresize-locale fatresize
 LAYER = filesystems-layer
 CONFIG = 
+SRC_URI = git://salsa.debian.org/parted-team/fatresize.git;protocol=https

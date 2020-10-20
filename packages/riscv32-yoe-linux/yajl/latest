@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = yajl-src yajl-dbg yajl-staticdev yajl-dev yajl-doc yajl-locale yajl-bin yajl
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/lloyd/yajl

@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = uriparser-src uriparser-dbg uriparser-staticdev uriparser-dev uriparser-doc uriparser-locale uriparser
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/uriparser/uriparser/releases/download/uriparser-0.9.4/uriparser-0.9.4.tar.gz

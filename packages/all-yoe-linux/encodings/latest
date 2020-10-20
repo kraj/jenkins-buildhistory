@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native font-util-native gnu-config-native lib
 PACKAGES = encodings-src encodings-dbg encodings-staticdev encodings-dev encodings-doc encodings-locale encodings
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/font/encodings-1.0.5.tar.bz2 file://nocompiler.patch

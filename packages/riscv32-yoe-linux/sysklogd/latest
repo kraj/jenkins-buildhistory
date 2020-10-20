@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sysklogd-src sysklogd-dbg sysklogd-staticdev sysklogd-dev sysklogd-doc sysklogd-locale sysklogd
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/troglobit/sysklogd.git;nobranch=1 file://sysklogd file://0001-Makefile.am-fixup-issue-17.patch

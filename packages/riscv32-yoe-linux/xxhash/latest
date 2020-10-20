@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = xxhash-src xxhash-dbg xxhash-staticdev xxhash-dev xxhash-doc xxhash-locale xxhash
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Cyan4973/xxHash.git;branch=release;protocol=git

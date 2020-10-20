@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libuv-src libuv-dbg libuv-staticdev libuv-dev libuv-doc libuv-locale libuv
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/libuv/libuv;branch=v1.x

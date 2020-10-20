@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-scons-src python3-scons-dbg python3-scons-staticdev python3-scons-dev python3-scons-doc python3-scons-locale python3-scons
 LAYER = core
 CONFIG = 
+SRC_URI = https://raw.githubusercontent.com/SCons/scons/3.1.2/LICENSE;downloadfilename=LICENSE-python3-scons-3.1.2;name=license https://files.pythonhosted.org/packages/source/s/scons/scons-3.1.2.tar.gz

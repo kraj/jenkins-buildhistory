@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sedutil-src sedutil-dbg sedutil-staticdev sedutil-dev sedutil-doc sedutil-locale sedutil
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Drive-Trust-Alliance/sedutil.git file://0001-Fix-build-on-big-endian-architectures.patch file://0001-DtaAnnotatedDump-Add-typedef-name-to-the-union.patch

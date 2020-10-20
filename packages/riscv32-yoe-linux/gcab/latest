@@ -4,3 +4,4 @@ DEPENDS = glib-2.0 gobject-introspection gobject-introspection-native gtk-doc-na
 PACKAGES = gcab-src gcab-dbg gcab-ptest gcab-staticdev gcab-dev gcab-doc gcab gcab-locale-bs gcab-locale-cs gcab-locale-da gcab-locale-de gcab-locale-el gcab-locale-en-gb gcab-locale-es gcab-locale-eu gcab-locale-fi gcab-locale-fr gcab-locale-fur gcab-locale-gl gcab-locale-hu gcab-locale-id gcab-locale-lt gcab-locale-lv gcab-locale-nb gcab-locale-nl gcab-locale-oc gcab-locale-pl gcab-locale-pt gcab-locale-pt-br gcab-locale-ro gcab-locale-ru gcab-locale-sl gcab-locale-sr gcab-locale-sr+latin gcab-locale-sv gcab-locale-tg gcab-locale-tr gcab-locale-zh-cn
 LAYER = openembedded-layer
 CONFIG = nls tests
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gcab/1.4/gcab-1.4.tar.xz file://run-ptest

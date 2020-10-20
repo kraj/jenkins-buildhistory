@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gpgme libpcap libtoo
 PACKAGES = fwknop-src fwknop-dbg fwknop-client fwknop-daemon fwknop-staticdev fwknop-dev fwknop-doc fwknop-locale fwknop
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://www.cipherdyne.org/fwknop/download/fwknop-2.6.10.tar.bz2 file://0001-Fix-compilation-with-GCC-s-fno-common-flag-fixes-305.patch

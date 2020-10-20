@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = beaglebone-capes-src beaglebone-capes-dbg beaglebone-capes-staticdev beaglebone-capes-dev beaglebone-capes-doc beaglebone-capes-locale beaglebone-capes
 LAYER = meta-ti
 CONFIG = 
+SRC_URI = file://cape.service file://cape.sh file://cape-stop.sh

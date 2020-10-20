@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libpam libtool-cross
 PACKAGES = screen-src screen-dbg screen-staticdev screen-dev screen-doc screen-locale screen
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/screen/screen-4.8.0.tar.gz file://screen.pam file://0002-comm.h-now-depends-on-term.h.patch file://0001-fix-for-multijob-build.patch file://0001-Remove-more-compatibility-stuff.patch

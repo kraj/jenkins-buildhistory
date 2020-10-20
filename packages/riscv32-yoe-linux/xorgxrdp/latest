@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xorgxrdp-src xorgxrdp-dbg xorgxrdp-staticdev xorgxrdp-dev xorgxrdp-doc xorgxrdp-locale xorgxrdp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/neutrinolabs/xorgxrdp.git

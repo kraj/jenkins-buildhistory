@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libdrm libtool-cross
 PACKAGES = xf86-video-armsoc-src xf86-video-armsoc-dbg xf86-video-armsoc-staticdev xf86-video-armsoc-dev xf86-video-armsoc-doc xf86-video-armsoc-locale xf86-video-armsoc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://anongit.freedesktop.org/xorg/driver/xf86-video-armsoc

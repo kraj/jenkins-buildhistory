@@ -4,3 +4,4 @@ DEPENDS = cmake-native doxygen-native ninja-native virtual/libc virtual/riscv32-
 PACKAGES = iniparser-src iniparser-dbg iniparser-staticdev iniparser-dev iniparser-doc iniparser-locale iniparser
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/ndevilla/iniparser.git;protocol=https file://Add-CMake-support.patch

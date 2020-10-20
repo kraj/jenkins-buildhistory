@@ -4,3 +4,4 @@ DEPENDS = acl attr docbook-xsl-stylesheets-native libxslt-native python3 python3
 PACKAGES = libtalloc-src libtalloc-dbg libtalloc-staticdev libtalloc-dev libtalloc-doc libtalloc-locale libtalloc pytalloc pytalloc-dev
 LAYER = networking-layer
 CONFIG = acl attr
+SRC_URI = https://www.samba.org/ftp/talloc/talloc-2.3.0.tar.gz file://options-2.2.0.patch file://0001-waf-add-support-of-cross_compile.patch

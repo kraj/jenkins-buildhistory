@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-parse-src python3-parse-dbg python3-parse-ptest python3-parse-staticdev python3-parse-dev python3-parse-doc python3-parse-locale python3-parse
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/p/parse/parse-1.18.0.tar.gz file://run-ptest

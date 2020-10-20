@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = aoetools-src aoetools-dbg aoetools-staticdev aoetools-dev aoetools-doc aoetools-locale aoetools
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://sourceforge.net/projects/aoetools/files/aoetools/aoetools-36.tar.gz file://aoe-stat-no-bashism.patch file://makefile-add-ldflags.patch file://reproducible-build.patch

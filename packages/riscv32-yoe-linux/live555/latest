@@ -4,3 +4,4 @@ DEPENDS = openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/ri
 PACKAGES = live555-src live555-dbg live555-openrtsp live555-playsip live555-mediaserver live555-examples live555-staticdev live555-dev live555-doc live555-locale live555
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://download.videolan.org/pub/contrib/live555/live.2020.08.19.tar.gz file://config.linux-cross

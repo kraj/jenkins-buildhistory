@@ -4,3 +4,4 @@ DEPENDS = libcapture-tiny-perl-native libconfig-autoconf-perl-native libstatgrab
 PACKAGES = libunix-statgrab-src libunix-statgrab-dbg libunix-statgrab-ptest libunix-statgrab-staticdev libunix-statgrab-dev libunix-statgrab-doc libunix-statgrab-locale libunix-statgrab
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/R/RE/REHSACK/Unix-Statgrab-0.112.tar.gz file://ptest-perl/run-ptest

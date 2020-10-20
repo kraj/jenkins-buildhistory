@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xset-src xset-dbg xset-staticdev xset-dev xset-doc xset-locale xset
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/app/xset-1.2.4.tar.bz2 file://disable-xkb.patch

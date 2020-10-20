@@ -4,3 +4,4 @@ DEPENDS = libxml-parser-perl perl perl-native virtual/libc virtual/riscv32-yoe-l
 PACKAGES = libxml-simple-perl-src libxml-simple-perl-dbg libxml-simple-perl-ptest libxml-simple-perl-staticdev libxml-simple-perl-dev libxml-simple-perl-doc libxml-simple-perl-locale libxml-simple-perl
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.cpan.org/modules/by-module/XML/XML-Simple-2.25.tar.gz file://ptest-perl/run-ptest

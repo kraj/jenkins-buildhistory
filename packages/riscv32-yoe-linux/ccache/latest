@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = ccache-src ccache-dbg ccache-staticdev ccache-dev ccache-doc ccache-locale ccache
 LAYER = core
 CONFIG = 
+SRC_URI = https://github.com/ccache/ccache/releases/download/v3.7.11/ccache-3.7.11.tar.gz

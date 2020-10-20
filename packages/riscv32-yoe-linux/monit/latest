@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-na
 PACKAGES = monit-src monit-dbg monit-staticdev monit-dev monit-doc monit-locale monit
 LAYER = openembedded-layer
 CONFIG = pam
+SRC_URI = https://mmonit.com/monit/dist/monit-5.26.0.tar.gz file://monit file://monitrc

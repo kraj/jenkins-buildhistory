@@ -4,3 +4,4 @@ DEPENDS = libcheck libevdev meson-native mtdev ninja-native pkgconfig-native pyt
 PACKAGES = libinput-src libinput-dbg libinput-ptest libinput-staticdev libinput-dev libinput-doc libinput-locale libinput-bin libinput
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.freedesktop.org/software/libinput/libinput-1.16.1.tar.xz file://run-ptest file://determinism.patch

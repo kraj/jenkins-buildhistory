@@ -4,3 +4,4 @@ DEPENDS = glib-2.0 json-glib pidgin pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = purple-skypeweb-src purple-skypeweb-dbg purple-skypeweb-staticdev purple-skypeweb-dev purple-skypeweb-doc purple-skypeweb-locale purple-skypeweb
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/EionRobb/skype4pidgin;branch=master;protocol=git

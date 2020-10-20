@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = source-han-sans-cn-fonts-src source-han-sans-cn-fonts-dbg source-han-sans-cn-fonts-staticdev source-han-sans-cn-fonts-dev source-han-sans-cn-fonts-doc source-han-sans-cn-fonts-locale source-han-sans-cn-fonts
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip file://44-source-han-sans-cn.conf

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = cppunit-src cppunit-dbg cppunit-staticdev cppunit-dev cppunit-doc cppunit-locale cppunit
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://dev-www.libreoffice.org/src/cppunit-1.15.1.tar.gz file://0001-doc-Makefile.am-do-not-preserve-file-flags-when-copy.patch

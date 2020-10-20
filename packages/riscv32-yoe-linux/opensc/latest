@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bash-completion gnu-config-native libt
 PACKAGES = opensc-src opensc-dbg opensc-staticdev opensc-dev opensc-doc opensc-locale opensc opensc-bash-completion
 LAYER = openembedded-layer
 CONFIG = pcsc
+SRC_URI = git://github.com/OpenSC/OpenSC

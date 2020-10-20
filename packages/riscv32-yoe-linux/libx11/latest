@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libto
 PACKAGES = libx11-src libx11-dbg libx11-xcb libx11-staticdev libx11-dev libx11-doc libx11-locale libx11
 LAYER = core
 CONFIG = xcms
+SRC_URI = https://www.x.org/releases//individual/lib/libX11-1.6.12.tar.bz2 file://Fix-hanging-issue-in-_XReply.patch file://disable_tests.patch file://libx11-whitespace.patch

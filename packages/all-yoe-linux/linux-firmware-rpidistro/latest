@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = linux-firmware-rpidistro-src linux-firmware-rpidistro-broadcom-license linux-firmware-rpidistro-bcm43430 linux-firmware-rpidistro-bcm43455
 LAYER = raspberrypi
 CONFIG = 
+SRC_URI = git://github.com/RPi-Distro/firmware-nonfree

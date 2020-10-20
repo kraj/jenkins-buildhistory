@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = smartmontools-src smartmontools-dbg smartmontools-staticdev smartmontools-dev smartmontools-doc smartmontools-locale smartmontools
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/smartmontools/smartmontools-7.1.tar.gz file://initd.smartd file://smartmontools.default file://smartd.service

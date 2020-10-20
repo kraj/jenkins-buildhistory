@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = glog-src glog-dbg glog-staticdev glog-dev glog-doc glog-locale glog
 LAYER = openembedded-layer
 CONFIG = shared
+SRC_URI = git://github.com/google/glog.git;nobranch=1 file://0001-Rework-CMake-glog-VERSION-management.patch file://0002-Find-Libunwind-during-configure.patch file://0003-installation-path-fix.patch

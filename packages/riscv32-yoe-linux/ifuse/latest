@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native fuse gnu-config-native libimobiledevic
 PACKAGES = ifuse-src ifuse-dbg ifuse-staticdev ifuse-dev ifuse-doc ifuse-locale ifuse
 LAYER = filesystems-layer
 CONFIG = 
+SRC_URI = https://github.com/libimobiledevice/ifuse/releases/download/1.1.4/ifuse-1.1.4.tar.bz2

@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = c-ares-src c-ares-dbg c-ares-utils c-ares-staticdev c-ares-dev c-ares-doc c-ares-locale c-ares
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/c-ares/c-ares.git file://cmake-install-libcares.pc.patch file://0001-fix-configure-error-mv-libcares.pc.cmakein-to-libcar.patch

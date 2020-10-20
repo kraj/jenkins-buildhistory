@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libnfnetlink libnl l
 PACKAGES = keepalived-src keepalived-dbg keepalived-staticdev keepalived-dev keepalived-doc keepalived-locale keepalived
 LAYER = networking-layer
 CONFIG = libnl snmp systemd
+SRC_URI = http://www.keepalived.org/software/keepalived-2.1.5.tar.gz

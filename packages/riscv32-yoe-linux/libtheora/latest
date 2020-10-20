@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libogg libtool-cross
 PACKAGES = libtheora-src libtheora-dbg libtheora-staticdev libtheora-dev libtheora-doc libtheora-locale libtheora
 LAYER = core
 CONFIG = 
+SRC_URI = http://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.bz2 file://no-docs.patch

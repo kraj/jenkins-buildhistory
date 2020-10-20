@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sysbench-src sysbench-dbg sysbench-staticdev sysbench-dev sysbench-doc sysbench-locale sysbench
 LAYER = openembedded-layer
 CONFIG = largefile
+SRC_URI = https://launchpad.net/ubuntu/+archive/primary/+files/sysbench_0.4.12.orig.tar.gz

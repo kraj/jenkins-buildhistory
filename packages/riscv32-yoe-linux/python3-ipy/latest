@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-ipy-src python3-ipy-dbg python3-ipy-ptest python3-ipy-staticdev python3-ipy-dev python3-ipy-doc python3-ipy-locale python3-ipy
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/I/IPy/IPy-1.00.tar.gz file://run-ptest

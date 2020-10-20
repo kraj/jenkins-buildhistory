@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libogg libtool-cross
 PACKAGES = tremor-src tremor-dbg tremor-staticdev tremor-dev tremor-doc tremor-locale tremor
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://gitlab.xiph.org/xiph/tremor.git;protocol=https file://obsolete_automake_macros.patch;striplevel=0 file://tremor-arm-thumb2.patch

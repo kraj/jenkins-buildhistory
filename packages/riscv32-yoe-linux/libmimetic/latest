@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libmimetic-src libmimetic-dbg libmimetic-staticdev libmimetic-dev libmimetic-doc libmimetic-locale libmimetic
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/LadislavSopko/mimetic/ file://0001-libmimetic-Removing-test-directory-from-the-Makefile.patch file://0001-mimetic-Check-for-MMAP_FAILED-return-from-mmap.patch

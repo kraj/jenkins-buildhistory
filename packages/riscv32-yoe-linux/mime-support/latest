@@ -4,3 +4,4 @@ DEPENDS = file virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv
 PACKAGES = mime-support-src mime-support-dbg mime-support-staticdev mime-support-dev mime-support-doc mime-support-locale mime-support
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/m/mime-support/mime-support_3.48-1.tar.gz

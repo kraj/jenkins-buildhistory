@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cairo gdk-pixbuf gdk-pixbuf-native gli
 PACKAGES = librsvg-src librsvg-dbg librsvg-gtk rsvg librsvg-staticdev librsvg-dev librsvg-doc librsvg-locale librsvg
 LAYER = core
 CONFIG = gdkpixbuf
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/librsvg/2.40/librsvg-2.40.21.tar.xz;name=archive file://gtk-option.patch file://0001-Auto-detect-Bsymbolic-fixes-configure-on-macOS.patch file://0001-Remove-non-reproducible-SRCDIR.patch

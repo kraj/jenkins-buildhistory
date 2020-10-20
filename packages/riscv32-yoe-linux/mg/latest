@@ -4,3 +4,4 @@ DEPENDS = libbsd ncurses pkgconfig-native virtual/libc virtual/riscv32-yoe-linux
 PACKAGES = mg-src mg-dbg mg-staticdev mg-dev mg-doc mg-locale mg
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/hboetes/mg file://0001-fileio-Include-sys-param.h-for-MAXNAMLEN.patch file://0002-fileio-Define-DEFFILEMODE-if-platform-is-missing.patch

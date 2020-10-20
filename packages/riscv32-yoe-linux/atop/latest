@@ -4,3 +4,4 @@ DEPENDS = ncurses systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linu
 PACKAGES = atop-src atop-dbg atop-staticdev atop-dev atop-doc atop-locale atop
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.atoptool.nl/download/atop-2.4.0.tar.gz file://volatiles.atop.conf file://fix-permissions.patch file://sysvinit-implement-status.patch file://0001-atop.daily-atop.init-atop-pm.sh-Avoid-using-bash.patch

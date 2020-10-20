@@ -4,3 +4,4 @@ DEPENDS = libaio virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/ris
 PACKAGES = blktrace-src blktrace-dbg blktrace-staticdev blktrace-dev blktrace-doc blktrace-locale blktrace
 LAYER = core
 CONFIG = 
+SRC_URI = git://git.kernel.dk/blktrace.git file://ldflags.patch file://CVE-2018-10689.patch file://make-btt-scripts-python3-ready.patch

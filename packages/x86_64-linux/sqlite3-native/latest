@@ -1,0 +1,8 @@
+PE = 3
+PV = 3.33.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
+PACKAGES = 
+LAYER = core
+CONFIG = dyn_ext fts4 fts5 json1 rtree
+SRC_URI = http://www.sqlite.org/2020/sqlite-autoconf-3330000.tar.gz

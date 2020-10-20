@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native ell gnu-config-native libtool-cross li
 PACKAGES = iwd-src iwd-dbg iwd-staticdev iwd-dev iwd-doc iwd-locale iwd
 LAYER = openembedded-layer
 CONFIG = client monitor systemd
+SRC_URI = git://git.kernel.org/pub/scm/network/wireless/iwd.git

@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = pugixml-src pugixml-dbg pugixml-staticdev pugixml-dev pugixml-doc pugixml-locale pugixml
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/zeux/pugixml/releases/download/v1.10/pugixml-1.10.tar.gz

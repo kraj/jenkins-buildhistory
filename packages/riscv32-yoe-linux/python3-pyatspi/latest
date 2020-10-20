@@ -4,3 +4,4 @@ DEPENDS = atk autoconf-native automake-native dbus-glib glib-2.0 gnu-config-nati
 PACKAGES = python3-pyatspi-src python3-pyatspi-dbg python3-pyatspi-staticdev python3-pyatspi-dev python3-pyatspi-doc python3-pyatspi-locale python3-pyatspi
 LAYER = meta-python
 CONFIG = 
+SRC_URI = git://github.com/GNOME/pyatspi2.git;protocol=https;branch=mainline

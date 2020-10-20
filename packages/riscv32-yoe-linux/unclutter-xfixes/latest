@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libev libtool-cross 
 PACKAGES = unclutter-xfixes-src unclutter-xfixes-dbg unclutter-xfixes-staticdev unclutter-xfixes-dev unclutter-xfixes-doc unclutter-xfixes-locale unclutter-xfixes
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Airblader/unclutter-xfixes.git file://0001-build-use-autotools.patch

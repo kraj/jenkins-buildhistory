@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cmake-native gdk-pixbuf gettext-native
 PACKAGES = xfce4-hotcorner-plugin-src xfce4-hotcorner-plugin-dbg xfce4-hotcorner-plugin-staticdev xfce4-hotcorner-plugin-dev xfce4-hotcorner-plugin-doc xfce4-hotcorner-plugin xfce4-hotcorner-plugin-locale-zh-tw
 LAYER = xfce-layer
 CONFIG = 
+SRC_URI = https://github.com/brianhsu/xfce4-hotcorner-plugin/releases/download/0.0.2/xfce4-hotcorner-plugin-0.0.2.tar.gz file://0001-CMakeLists.txt-fix-library-install-path.patch

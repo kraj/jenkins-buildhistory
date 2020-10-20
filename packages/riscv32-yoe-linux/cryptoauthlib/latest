@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native udev virtual/libc virtual/riscv32-yoe-linux-
 PACKAGES = cryptoauthlib-src cryptoauthlib-dbg cryptoauthlib-staticdev cryptoauthlib-dev cryptoauthlib-doc cryptoauthlib-locale cryptoauthlib
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/MicrochipTech/cryptoauthlib.git;branch=main;protocol=https file://cryptoauthlib.module

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = iperf2-src iperf2-dbg iperf2-staticdev iperf2-dev iperf2-doc iperf2-locale iperf2
 LAYER = openembedded-layer
 CONFIG = ipv6
+SRC_URI = https://downloads.sourceforge.net/iperf2/iperf-2.0.13.tar.gz file://0001-Detect-bool-definition-considering-stdbool.h-being-p.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libxcrypt-src libxcrypt-dbg libxcrypt-staticdev libxcrypt-dev libxcrypt-doc libxcrypt-locale libxcrypt
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/besser82/libxcrypt.git;branch=develop

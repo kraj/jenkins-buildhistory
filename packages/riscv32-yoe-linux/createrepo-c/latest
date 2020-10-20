@@ -4,3 +4,4 @@ DEPENDS = bash-completion bzip2 cmake-native curl expat file glib-2.0 libxml2 ni
 PACKAGES = createrepo-c-src createrepo-c-dbg createrepo-c-staticdev createrepo-c-dev createrepo-c-doc createrepo-c-locale createrepo-c createrepo-c-bash-completion
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/rpm-software-management/createrepo_c file://0001-Do-not-set-PYTHON_INSTALL_DIR-by-running-python.patch

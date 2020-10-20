@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = glm-src glm-dbg glm-staticdev glm-dev glm-doc glm-locale glm
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/g-truc/glm;branch=master file://0001-Fix-Wimplicit-int-float-conversion-warnings-with-cla.patch file://glmConfig.cmake.in file://glmConfigVersion.cmake.in file://glm.pc.in file://glmTargets.cmake

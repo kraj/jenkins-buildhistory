@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cairo gettext-native glib-2.0 gnu-conf
 PACKAGES = rrdtool-src rrdtool-dbg rrdcached rrdtool-perl rrdtool-python rrdtool-staticdev rrdtool-dev rrdtool-doc rrdtool rrdtool-locale-fr rrdtool-locale-hu
 LAYER = openembedded-layer
 CONFIG = perl systemd
+SRC_URI = git://github.com/oetiker/rrdtool-1.x.git;branch=master;protocol=http;

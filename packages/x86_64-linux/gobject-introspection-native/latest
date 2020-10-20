@@ -1,0 +1,7 @@
+PV = 1.64.1
+PR = r0
+DEPENDS = autoconf-archive-native bison-native flex-native glib-2.0-native gtk-doc-native libffi-native meson-native ninja-native pkgconfig-native python3-native python3-native zlib-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gobject-introspection/1.64/gobject-introspection-1.64.1.tar.xz file://0001-giscanner-ignore-error-return-codes-from-ldd-wrapper.patch file://0001-gir-add-a-dependency-for-g-ir-compiler-for-building-.patch file://0001-Relocate-the-repository-directory-for-native-builds.patch

@@ -4,3 +4,4 @@ DEPENDS = bash-completion cmake-native libglu libpng libxkbcommon libxrender nin
 PACKAGES = piglit-src piglit-dbg piglit-staticdev piglit-dev piglit-doc piglit-locale piglit piglit-bash-completion
 LAYER = core
 CONFIG = x11
+SRC_URI = git://gitlab.freedesktop.org/mesa/piglit.git;protocol=https file://0001-cmake-install-bash-completions-in-the-right-place.patch file://0001-cmake-use-proper-WAYLAND_INCLUDE_DIRS-variable.patch

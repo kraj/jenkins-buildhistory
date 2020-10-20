@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = function2-src function2-dbg function2-ptest function2-staticdev function2-dev function2-doc function2-locale function2
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = gitsm://github.com/Naios/function2

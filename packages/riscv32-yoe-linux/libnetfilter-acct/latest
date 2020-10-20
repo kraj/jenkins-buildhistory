@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libmnl libnfnetlink 
 PACKAGES = libnetfilter-acct-src libnetfilter-acct-dbg libnetfilter-acct-staticdev libnetfilter-acct-dev libnetfilter-acct-doc libnetfilter-acct-locale libnetfilter-acct
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://ftp.netfilter.org/pub/libnetfilter_acct/libnetfilter_acct-1.0.3.tar.bz2 file://0001-libnetfilter-acct-Declare-the-define-visivility-attribute-together.patch

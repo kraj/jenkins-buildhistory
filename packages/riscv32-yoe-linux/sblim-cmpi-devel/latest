@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sblim-cmpi-devel-src sblim-cmpi-devel-dbg sblim-cmpi-devel-staticdev sblim-cmpi-devel-dev sblim-cmpi-devel-doc sblim-cmpi-devel-locale sblim-cmpi-devel
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/sblim/sblim-cmpi-devel-2.0.3.tar.bz2 file://sblim-cmpi-devel-2.0.3-docdir.patch

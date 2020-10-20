@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = jq-src jq-dbg jq-staticdev jq-dev jq-doc jq-locale jq
 LAYER = openembedded-layer
 CONFIG = oniguruma
+SRC_URI = https://github.com/stedolan/jq/releases/download/jq-1.6/jq-1.6.tar.gz

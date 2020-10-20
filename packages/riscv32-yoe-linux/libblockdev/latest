@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native btrfs-tools cryptsetup gnu-config-nati
 PACKAGES = libblockdev-src libblockdev-dbg libblockdev-staticdev libblockdev-dev libblockdev-doc libblockdev-locale libblockdev
 LAYER = openembedded-layer
 CONFIG = btrfs crypto dm escrow fs kbd kmod lvm mdraid mpath nvdimm parted python3
+SRC_URI = git://github.com/storaged-project/libblockdev;branch=2.x-branch

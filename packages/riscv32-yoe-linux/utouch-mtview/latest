@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = utouch-mtview-src utouch-mtview-dbg utouch-mtview-staticdev utouch-mtview-dev utouch-mtview-doc utouch-mtview-locale utouch-mtview
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://bitmath.org/git/mtview.git;protocol=http

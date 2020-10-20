@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = usbredir-src usbredir-dbg usbredir-staticdev usbredir-dev usbredir-doc usbredir-locale usbredir
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://anongit.freedesktop.org/spice/usbredir

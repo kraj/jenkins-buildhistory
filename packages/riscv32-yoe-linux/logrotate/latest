@@ -4,3 +4,4 @@ DEPENDS = acl autoconf-native automake-native coreutils gnu-config-native libtoo
 PACKAGES = logrotate-src logrotate-dbg logrotate-staticdev logrotate-dev logrotate-doc logrotate-locale logrotate
 LAYER = core
 CONFIG = acl
+SRC_URI = https://github.com/logrotate/logrotate/releases/download/3.17.0/logrotate-3.17.0.tar.xz file://act-as-mv-when-rotate.patch file://0001-Update-the-manual.patch file://disable-check-different-filesystems.patch

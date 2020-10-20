@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = tclap-src tclap-dbg tclap-staticdev tclap-dev tclap-doc tclap-locale tclap
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://git.code.sf.net/p/tclap/code file://Makefile.am-disable-docs.patch

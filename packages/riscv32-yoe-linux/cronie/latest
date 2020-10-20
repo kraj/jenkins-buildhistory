@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = cronie-src cronie-dbg cronie-staticdev cronie-dev cronie-doc cronie-locale cronie
 LAYER = core
 CONFIG = pam
+SRC_URI = https://github.com/cronie-crond/cronie/releases/download/cronie-1.5.5/cronie-1.5.5.tar.gz file://crond.init file://crontab file://crond.service file://crond_pam_config.patch

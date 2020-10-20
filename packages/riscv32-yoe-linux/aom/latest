@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = aom-src aom-dbg aom-staticdev aom-dev aom-doc aom-locale aom
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://aomedia.googlesource.com/aom;protocol=https

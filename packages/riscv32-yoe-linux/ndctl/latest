@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bash-completion gnu-config-native json
 PACKAGES = ndctl-src ndctl-dbg ndctl-staticdev ndctl-dev ndctl-doc ndctl-locale ndctl ndctl-bash-completion
 LAYER = openembedded-layer
 CONFIG = systemd
+SRC_URI = git://github.com/pmem/ndctl.git

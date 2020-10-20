@@ -4,3 +4,4 @@ DEPENDS = base-files base-passwd shadow shadow-native shadow-sysroot virtual/lib
 PACKAGES = logcheck-src logcheck-dbg logcheck-staticdev logcheck-dev logcheck-doc logcheck-locale logcheck
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/l/logcheck/logcheck_1.3.20.tar.xz file://99_logcheck

@@ -4,3 +4,4 @@ DEPENDS = acl attr docbook-xsl-stylesheets-native libxslt-native python3 python3
 PACKAGES = libtdb-src libtdb-dbg libtdb-staticdev libtdb-dev libtdb-doc libtdb-locale libtdb tdb-tools python3-tdb
 LAYER = networking-layer
 CONFIG = acl attr
+SRC_URI = https://samba.org/ftp/tdb/tdb-1.4.3.tar.gz file://tdb-Add-configure-options-for-packages.patch

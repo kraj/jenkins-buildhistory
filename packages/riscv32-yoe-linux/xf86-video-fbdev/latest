@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xf86-video-fbdev-src xf86-video-fbdev-dbg xf86-video-fbdev-staticdev xf86-video-fbdev-dev xf86-video-fbdev-doc xf86-video-fbdev-locale xf86-video-fbdev
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/driver/xf86-video-fbdev-0.5.0.tar.bz2

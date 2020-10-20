@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = md5deep-src md5deep-dbg md5deep-staticdev md5deep-dev md5deep-doc md5deep-locale md5deep
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/jessek/hashdeep.git file://wrong-variable-expansion.patch file://0001-Fix-literal-and-identifier-spacing-as-dictated-by-C-.patch

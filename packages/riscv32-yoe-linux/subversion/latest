@@ -4,3 +4,4 @@ DEPENDS = apr-util autoconf-native automake-native file gettext-native gnu-confi
 PACKAGES = subversion-src subversion-dbg subversion-staticdev subversion-dev subversion-doc subversion subversion-locale-de subversion-locale-es subversion-locale-fr subversion-locale-it subversion-locale-ja subversion-locale-ko subversion-locale-nb subversion-locale-pl subversion-locale-pt-br subversion-locale-sv subversion-locale-zh-cn subversion-locale-zh-tw
 LAYER = core
 CONFIG = 
+SRC_URI = https://archive.apache.org/dist/subversion/subversion-1.14.0.tar.bz2 file://disable_macos.patch file://0001-Fix-libtool-name-in-configure.ac.patch file://serfmacro.patch

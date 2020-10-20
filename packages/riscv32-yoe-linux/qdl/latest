@@ -4,3 +4,4 @@ DEPENDS = libxml2 pkgconfig-native udev virtual/libc virtual/riscv32-yoe-linux-c
 PACKAGES = qdl-src qdl-dbg qdl-staticdev qdl-dev qdl-doc qdl-locale qdl
 LAYER = qcom
 CONFIG = 
+SRC_URI = git://github.com/andersson/qdl.git;branch=master;protocol=https file://0001-Makefile-Use-pkg-config-for-libxml2-detection.patch

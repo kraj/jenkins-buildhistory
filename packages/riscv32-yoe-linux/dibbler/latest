@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-
 PACKAGES = dibbler-src dibbler-dbg dibbler-requestor dibbler-client dibbler-relay dibbler-server dibbler-staticdev dibbler-dev dibbler-doc dibbler-locale dibbler
 LAYER = networking-layer
 CONFIG = bind-reuse debug dns-update resolvconf
+SRC_URI = git://github.com/tomaszmrugalski/dibbler file://dibbler_fix_getSize_crash.patch

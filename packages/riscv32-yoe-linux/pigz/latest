@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = pigz-src pigz-dbg pigz-staticdev pigz-dev pigz-doc pigz-locale pigz
 LAYER = core
 CONFIG = 
+SRC_URI = http://zlib.net/pigz/fossils/pigz-2.4.tar.gz

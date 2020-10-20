@@ -4,3 +4,4 @@ DEPENDS = glib-2.0 gnutls gnutls-native gobject-introspection gobject-introspect
 PACKAGES = libjcat-src libjcat-dbg libjcat-ptest libjcat-staticdev libjcat-dev libjcat-doc libjcat-locale libjcat
 LAYER = openembedded-layer
 CONFIG = gpg pkcs7 tests
+SRC_URI = git://github.com/hughsie/libjcat.git file://run-ptest

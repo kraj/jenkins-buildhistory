@@ -4,3 +4,4 @@ DEPENDS = jpeg libdrm libpng pkgconfig-native udev virtual/libc virtual/libgbm v
 PACKAGES = glmark2-src glmark2-dbg glmark2-staticdev glmark2-dev glmark2-doc glmark2-locale glmark2
 LAYER = openembedded-layer
 CONFIG = drm-gles2 wayland-gles2 x11-gles2
+SRC_URI = git://github.com/glmark2/glmark2.git;protocol=https

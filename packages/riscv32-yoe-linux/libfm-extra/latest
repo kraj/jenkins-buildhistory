@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native glib-2.0 glib-2.0-nativ
 PACKAGES = libfm-extra-src libfm-extra-dbg libfm-extra-staticdev libfm-extra-dev libfm-extra-doc libfm-extra-locale libfm-extra
 LAYER = core
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/pcmanfm/libfm-1.3.1.tar.xz file://0001-nls.m4-Take-it-from-gettext-0.15.patch

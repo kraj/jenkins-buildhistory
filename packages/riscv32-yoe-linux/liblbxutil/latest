@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = liblbxutil-src liblbxutil-dbg liblbxutil-staticdev liblbxutil-dev liblbxutil-doc liblbxutil-locale liblbxutil
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/liblbxutil-1.1.0.tar.bz2 file://mkg3states-1.1.patch file://0001-lbx_zlib-Mark-declration-with-extern.patch

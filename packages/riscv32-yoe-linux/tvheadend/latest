@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native avahi cmake-native dvb-apps gettext-na
 PACKAGES = tvheadend-src tvheadend-dbg tvheadend-staticdev tvheadend-dev tvheadend-doc tvheadend-locale tvheadend
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/tvheadend/tvheadend.git file://0001-adjust-for-64bit-time_t.patch

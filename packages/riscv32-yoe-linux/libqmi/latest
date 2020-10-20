@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bash-completion glib-2.0 glib-2.0-nati
 PACKAGES = libqmi-src libqmi-dbg libqmi-staticdev libqmi-dev libqmi-doc libqmi-locale libqmi libqmi-bash-completion
 LAYER = openembedded-layer
 CONFIG = mbim udev
+SRC_URI = http://www.freedesktop.org/software/libqmi/libqmi-1.26.4.tar.xz

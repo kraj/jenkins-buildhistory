@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cairo cjson gnu-config-native libdrm l
 PACKAGES = libplanes-src libplanes-dbg libplanes libplanes-python
 LAYER = atmel
 CONFIG = examples
+SRC_URI = git://github.com/linux4sam/libplanes.git;protocol=https file://0001-Use-python3-by-default.patch

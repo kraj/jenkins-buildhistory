@@ -4,3 +4,4 @@ DEPENDS = systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compil
 PACKAGES = arno-iptables-firewall-src arno-iptables-firewall-dbg arno-iptables-firewall-staticdev arno-iptables-firewall-dev arno-iptables-firewall-doc arno-iptables-firewall-locale arno-iptables-firewall
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/arno-iptables-firewall/aif

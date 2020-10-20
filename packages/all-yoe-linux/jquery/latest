@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = jquery-src jquery
 LAYER = core
 CONFIG = 
+SRC_URI = https://code.jquery.com/jquery-3.5.1.js;name=js;subdir=jquery-3.5.1 https://code.jquery.com/jquery-3.5.1.min.js;name=min;subdir=jquery-3.5.1 https://code.jquery.com/jquery-3.5.1.min.map;name=map;subdir=jquery-3.5.1

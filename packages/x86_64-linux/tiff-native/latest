@@ -1,0 +1,7 @@
+PV = 4.1.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native jpeg-native libtool-native xz-native zlib-native
+PACKAGES = 
+LAYER = core
+CONFIG = check-ycbcr-subsampling cxx extrasample-as-alpha jpeg lzma strip-chopping zlib
+SRC_URI = http://download.osgeo.org/libtiff/tiff-4.1.0.tar.gz

@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native system
 PACKAGES = python3-blivet-src python3-blivet-dbg python3-blivet-staticdev python3-blivet-dev python3-blivet-doc python3-blivet-locale python3-blivet
 LAYER = meta-python
 CONFIG = 
+SRC_URI = git://github.com/rhinstaller/blivet;branch=3.1-release file://0001-comment-out-selinux.patch file://0002-run_program-support-timeout.patch file://0003-support-infinit-timeout.patch file://0004-fix-new.roots-object-is-not-iterable.patch file://0005-fix-incorrect-timeout-while-system-time-changed.patch file://0006-tweak-btrfs-packages.patch file://0007-invoking-mount-with-infinite-timeout.patch file://0008-use-oe-variable-to-replace-hardcoded-dir.patch file://0009-invoking-fsck-with-infinite-timeout.patch file://0010-invoking-mkfs-with-infinite-timeout.patch file://0011-invoking-dd-with-infinite-timeout.patch

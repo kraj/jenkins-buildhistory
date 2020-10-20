@@ -4,3 +4,4 @@ DEPENDS = bash-completion libmnl pkgconfig-native systemd-systemctl-native virtu
 PACKAGES = wireguard-tools-src wireguard-tools-dbg wireguard-tools-staticdev wireguard-tools-dev wireguard-tools-doc wireguard-tools-locale wireguard-tools wireguard-tools-bash-completion
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://git.zx2c4.com/wireguard-tools

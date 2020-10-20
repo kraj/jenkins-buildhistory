@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libndp-src libndp-dbg libndp-staticdev libndp-dev libndp-doc libndp-locale libndp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/jpirko/libndp

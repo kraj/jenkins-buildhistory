@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-geojson-src python3-geojson-dbg python3-geojson-ptest python3-geojson-staticdev python3-geojson-dev python3-geojson-doc python3-geojson-locale python3-geojson
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/g/geojson/geojson-2.5.0.tar.gz file://run-ptest

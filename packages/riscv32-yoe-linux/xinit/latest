@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xinit-src xinit-dbg xinit-staticdev xinit-dev xinit-doc xinit-locale xinit
 LAYER = core
 CONFIG = rxvt
+SRC_URI = https://www.x.org/releases//individual/app/xinit-1.4.1.tar.bz2 file://0001-Make-manpage-multilib-identical.patch

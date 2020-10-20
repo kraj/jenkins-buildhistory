@@ -4,3 +4,4 @@ DEPENDS = cmake-native expat libxml2 libxml2-native neon neon-native ninja-nativ
 PACKAGES = libmusicbrainz-src libmusicbrainz-dbg libmusicbrainz-staticdev libmusicbrainz-dev libmusicbrainz-doc libmusicbrainz-locale libmusicbrainz
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/metabrainz/libmusicbrainz.git file://allow-libdir-override.patch

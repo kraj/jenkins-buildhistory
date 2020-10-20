@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libfastjson-src libfastjson-dbg libfastjson-staticdev libfastjson-dev libfastjson-doc libfastjson-locale libfastjson
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/rsyslog/libfastjson.git;protocol=https file://0001-fix-jump-misses-init-gcc-8-warning.patch

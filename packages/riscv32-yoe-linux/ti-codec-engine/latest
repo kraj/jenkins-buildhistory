@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = ti-codec-engine-src ti-codec-engine-dbg ti-codec-engine-staticdev ti-codec-engine-dev ti-codec-engine-doc ti-codec-engine-locale ti-codec-engine
 LAYER = meta-ti
 CONFIG = 
+SRC_URI = http://software-dl.ti.com/dsps/dsps_public_sw/sdo_sb/targetcontent/ce/3_24_00_08/exports/codec_engine_3_24_00_08,lite.tar.gz;name=cetarball

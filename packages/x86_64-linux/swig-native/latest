@@ -1,0 +1,7 @@
+PV = 3.0.12
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native libpcre-native libtool-native pkgconfig-native python3-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/swig/swig-3.0.12.tar.gz file://0001-Use-proc-self-exe-for-swig-swiglib-on-non-Win32-plat.patch file://0001-configure-use-pkg-config-for-pcre-detection.patch file://0001-Add-Node-7.x-aka-V8-5.2-support.patch file://swig-3.0.12-Coverity-fix-issue-reported-for-SWIG_Python_FixMetho.patch file://Python-Fix-new-GCC8-warnings-in-generated-code.patch file://0001-Fix-generated-code-for-constant-expressions-containi.patch

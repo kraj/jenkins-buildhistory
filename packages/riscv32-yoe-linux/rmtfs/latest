@@ -4,3 +4,4 @@ DEPENDS = qmic-native qrtr systemd-systemctl-native udev virtual/libc virtual/ri
 PACKAGES = rmtfs-src rmtfs-dbg rmtfs-staticdev rmtfs-dev rmtfs-doc rmtfs-locale rmtfs
 LAYER = qcom
 CONFIG = 
+SRC_URI = git://github.com/andersson/rmtfs.git;branch=master;protocol=https

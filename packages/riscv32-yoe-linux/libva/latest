@@ -4,3 +4,4 @@ DEPENDS = libdrm libxext libxfixes meson-native ninja-native pkgconfig-native py
 PACKAGES = libva-src libva-dbg libva-x11 libva-glx libva-wayland libva-staticdev libva-dev libva-doc libva-locale libva
 LAYER = core
 CONFIG = glx wayland x11
+SRC_URI = https://github.com/intel/libva/releases/download/2.8.0/libva-2.8.0.tar.bz2

@@ -1,0 +1,7 @@
+PV = 0.30.2
+PR = r0
+DEPENDS = autoconf-native automake-native expat-native gnu-config-native gnutls-native libtool-native pkgconfig-native zlib-native
+PACKAGES = 
+LAYER = openembedded-layer
+CONFIG = expat gnutls webdav zlib
+SRC_URI = http://ftp.debian.org/debian/pool/main/n/neon27/neon27_0.30.2.orig.tar.gz file://pkgconfig.patch

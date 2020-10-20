@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = celt051-src celt051-dbg celt051-staticdev celt051-dev celt051-doc celt051-locale celt051
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://git.xiph.org/celt.git;branch=compat-v0.5.1;protocol=https file://0001-configure.ac-make-tools-support-optional.patch file://0001-tests-Include-entcode.c-into-test-sources-to-provide.patch

@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = 9bit-src 9bit-dbg 9bit-staticdev 9bit-dev 9bit-doc 9bit-locale 9bit
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/linux4sam/9bit.git;protocol=https file://0001-include-asm-generic-ioctls.h.patch

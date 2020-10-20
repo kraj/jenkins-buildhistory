@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gnutls gobj
 PACKAGES = libnice-src libnice-dbg libnice-staticdev libnice-dev libnice-doc libnice-locale libnice
 LAYER = openembedded-layer
 CONFIG = gstreamer1.0
+SRC_URI = http://nice.freedesktop.org/releases/libnice-0.1.16.tar.gz

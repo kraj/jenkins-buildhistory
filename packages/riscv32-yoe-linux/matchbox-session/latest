@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = matchbox-session-src matchbox-session-dbg matchbox-session-staticdev matchbox-session-dev matchbox-session-doc matchbox-session-locale matchbox-session
 LAYER = core
 CONFIG = 
+SRC_URI = file://matchbox-session

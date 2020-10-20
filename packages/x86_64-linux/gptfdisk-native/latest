@@ -1,0 +1,7 @@
+PV = 1.0.5
+PR = r0
+DEPENDS = ncurses-native popt-native util-linux-native
+PACKAGES = 
+LAYER = core
+CONFIG = ncurses popt
+SRC_URI = https://downloads.sourceforge.net/gptfdisk/1.0.5/gptfdisk-1.0.5.tar.gz file://0001-gptcurses-correctly-include-curses.h.patch

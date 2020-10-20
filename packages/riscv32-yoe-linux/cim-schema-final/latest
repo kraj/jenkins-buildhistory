@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = cim-schema-final-src cim-schema-final-dbg cim-schema-final-staticdev cim-schema-final-dev cim-schema-final-doc cim-schema-final-locale cim-schema-final
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://dmtf.org/sites/default/files/cim/cim_schema_v2400/cim_schema_2.40.0Final-MOFs.zip;subdir=cim-schema-final-2.40.0 file://LICENSE

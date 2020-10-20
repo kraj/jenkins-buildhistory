@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = ocl-icd-src ocl-icd-dbg ocl-icd-staticdev ocl-icd-dev ocl-icd-doc ocl-icd-locale ocl-icd
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/OCL-dev/ocl-icd.git;protocol=https

@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = mini-x-session-src mini-x-session-dbg mini-x-session-staticdev mini-x-session-dev mini-x-session-doc mini-x-session-locale mini-x-session
 LAYER = core
 CONFIG = 
+SRC_URI = file://mini-x-session

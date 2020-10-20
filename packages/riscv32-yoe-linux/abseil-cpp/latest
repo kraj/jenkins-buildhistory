@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = abseil-cpp-src abseil-cpp-dbg abseil-cpp-staticdev abseil-cpp-dev abseil-cpp-doc abseil-cpp-locale abseil-cpp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/abseil/abseil-cpp;branch=lts_2019_08_08 file://0001-Remove-maes-option-from-cross-compilation.patch file://0002-Add-forgotten-ABSL_HAVE_VDSO_SUPPORT-conditional.patch file://0003-Add-fPIC-option.patch file://0001-Add-RISCV-support-to-GetProgramCounter.patch file://0001-absl-always-use-asm-sgidefs.h.patch file://0001-Fix-build-on-riscv32.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool libtool-cros
 PACKAGES = libp11-src libp11-dbg libp11-staticdev libp11-dev libp11-doc libp11-locale libp11
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/OpenSC/libp11.git

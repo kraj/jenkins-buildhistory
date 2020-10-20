@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libevdev-src libevdev-dbg libevdev-staticdev libevdev-dev libevdev-doc libevdev-locale libevdev
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.freedesktop.org/software/libevdev/libevdev-1.9.1.tar.xz file://determinism.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native glib-2.0 glib-2.0-nativ
 PACKAGES = gst-validate-src gst-validate-dbg gst-validate-staticdev gst-validate-dev gst-validate-doc gst-validate-locale gst-validate
 LAYER = core
 CONFIG = 
+SRC_URI = https://gstreamer.freedesktop.org/src/gst-validate/gst-validate-1.16.2.tar.xz file://0001-connect-has-a-different-signature-on-musl.patch

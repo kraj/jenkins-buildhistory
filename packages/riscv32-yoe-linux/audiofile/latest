@@ -4,3 +4,4 @@ DEPENDS = alsa-lib asciidoc-native autoconf-native automake-native flac gnu-conf
 PACKAGES = audiofile-src audiofile-dbg audiofile-staticdev audiofile-dev audiofile-doc audiofile-locale audiofile-bin audiofile
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/audiofile/0.3/audiofile-0.3.6.tar.xz file://0001-fix-negative-shift-constants.patch file://0002-fix-build-on-gcc6.patch file://0003-fix-CVE-2015-7747.patch

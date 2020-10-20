@@ -4,3 +4,4 @@ DEPENDS = icu pkgconfig python3 python3-native python3-native python3-setuptools
 PACKAGES = python3-icu-src python3-icu-dbg python3-icu-staticdev python3-icu-dev python3-icu-doc python3-icu-locale python3-icu
 LAYER = meta-python
 CONFIG = 
+SRC_URI = file://fix_host_include.patch https://files.pythonhosted.org/packages/source/P/PyICU/PyICU-2.5.tar.gz

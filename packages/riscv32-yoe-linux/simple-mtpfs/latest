@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native fuse gnu-config-native libmtp libtool-
 PACKAGES = simple-mtpfs-src simple-mtpfs-dbg simple-mtpfs-staticdev simple-mtpfs-dev simple-mtpfs-doc simple-mtpfs-locale simple-mtpfs
 LAYER = filesystems-layer
 CONFIG = 
+SRC_URI = git://github.com/phatina/simple-mtpfs.git;protocol=https;branch=master

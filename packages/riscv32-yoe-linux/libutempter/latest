@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = libutempter-src libutempter-dbg libutempter-staticdev libutempter-dev libutempter-doc libutempter-locale libutempter
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://git.altlinux.org/people/ldv/packages/libutempter.git file://0001-Fix-macro-error.patch file://0002-Proper-macro-path-generation.patch file://libutempter-remove-glibc-assumption.patch

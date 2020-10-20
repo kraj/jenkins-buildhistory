@@ -4,3 +4,4 @@ DEPENDS = perl perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerl
 PACKAGES = libjson-perl-src libjson-perl-dbg libjson-perl-staticdev libjson-perl-dev libjson-perl-doc libjson-perl-locale libjson-perl
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/makamaka/JSON.git;protocol=https

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libmxml-src libmxml-dbg libmxml-staticdev libmxml-dev libmxml-doc libmxml-locale libmxml
 LAYER = openembedded-layer
 CONFIG = threads
+SRC_URI = git://github.com/michaelrsweet/mxml.git

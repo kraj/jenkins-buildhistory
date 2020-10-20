@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native coreutils-native cyrus-sasl gettext gn
 PACKAGES = adcli-src adcli-dbg adcli-staticdev adcli-dev adcli-doc adcli-locale adcli
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://gitlab.freedesktop.org/realmd/adcli;branch=master file://Fixed-build-error-on-musl.patch

@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = lsof-src lsof-dbg lsof-staticdev lsof-dev lsof-doc lsof-locale lsof
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.mirrorservice.org/sites/lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_4.91.tar.bz2 file://lsof-remove-host-information.patch

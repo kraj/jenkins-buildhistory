@@ -4,3 +4,4 @@ DEPENDS = perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs v
 PACKAGES = libdigest-sha1-perl-src libdigest-sha1-perl-dbg libdigest-sha1-perl-ptest libdigest-sha1-perl-staticdev libdigest-sha1-perl-dev libdigest-sha1-perl-doc libdigest-sha1-perl-locale libdigest-sha1-perl
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Digest-SHA1-2.13.tar.gz file://run-ptest

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus dbus-glib glib-2.0 glib-2.0-nativ
 PACKAGES = consolekit-src consolekit-dbg pam-plugin-ck-connector consolekit-staticdev consolekit-dev consolekit-doc consolekit-locale consolekit
 LAYER = core
 CONFIG = pam polkit systemd
+SRC_URI = http://www.freedesktop.org/software/ConsoleKit/dist/ConsoleKit-0.4.6.tar.xz file://sepbuildfix.patch file://add-polkit-configure-argument.patch

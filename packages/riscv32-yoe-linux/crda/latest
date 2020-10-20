@@ -4,3 +4,4 @@ DEPENDS = libgcrypt libnl python3-m2crypto-native python3-native virtual/libc vi
 PACKAGES = crda-src crda-dbg crda-staticdev crda-dev crda-doc crda-locale crda
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://www.kernel.org/pub/software/network/crda/crda-3.18.tar.xz file://do-not-run-ldconfig-if-destdir-is-set.patch file://fix-linking-of-libraries-used-by-reglib.patch file://fix-gcc-6-unused-variables.patch file://0001-Makefile-respect-LDFLAGS-for-libreg.patch file://make.patch file://use-target-word-size-instead-of-host-s.patch file://fix-issues-when-USE_OPENSSL-1.patch file://crda-4.14-python-3.patch

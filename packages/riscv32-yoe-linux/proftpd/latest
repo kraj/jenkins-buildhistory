@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = proftpd-src proftpd-dbg proftpd-staticdev proftpd-dev proftpd-doc proftpd-locale proftpd
 LAYER = networking-layer
 CONFIG = ipv6 pam shadow
+SRC_URI = ftp://ftp.proftpd.org/distrib/source/proftpd-1.3.6.tar.gz file://basic.conf.patch file://proftpd-basic.init file://default file://close-RequireValidShell-check.patch file://contrib.patch file://build_fixup.patch file://proftpd.service

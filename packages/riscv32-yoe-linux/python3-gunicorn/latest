@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-gunicorn-src python3-gunicorn-dbg python3-gunicorn-ptest python3-gunicorn-staticdev python3-gunicorn-dev python3-gunicorn-doc python3-gunicorn-locale python3-gunicorn
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/g/gunicorn/gunicorn-20.0.4.tar.gz file://run-ptest

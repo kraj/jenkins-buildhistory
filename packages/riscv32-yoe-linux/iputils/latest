@@ -4,3 +4,4 @@ DEPENDS = gnutls libcap meson-native ninja-native python3-native systemd systemd
 PACKAGES = iputils-src iputils-dbg iputils-staticdev iputils-dev iputils-doc iputils-locale iputils iputils-ping iputils-arping iputils-tracepath iputils-clockdiff iputils-rdisc iputils-rarpd iputils-traceroute6 iputils-ninfod
 LAYER = core
 CONFIG = libcap ninfod rarpd systemd traceroute6
+SRC_URI = git://github.com/iputils/iputils file://0001-rarpd-rdisc-Drop-PrivateUsers.patch

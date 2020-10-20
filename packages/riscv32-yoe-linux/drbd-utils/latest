@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-
 PACKAGES = drbd-utils-src drbd-utils-dbg drbd-utils-staticdev drbd-utils-dev drbd-utils-doc drbd-utils-locale drbd-utils
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/LINBIT/drbd-utils;name=drbd-utils;branch=9.13.1 git://github.com/LINBIT/drbd-headers;name=drbd-headers;destsuffix=git/drbd-headers file://0001-v84-Make-setup_options-definitions-as-extern.patch

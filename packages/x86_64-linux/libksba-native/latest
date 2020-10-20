@@ -1,0 +1,7 @@
+PV = 1.4.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libgpg-error-native libtool-native pkgconfig-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.4.0.tar.bz2 file://ksba-add-pkgconfig-support.patch

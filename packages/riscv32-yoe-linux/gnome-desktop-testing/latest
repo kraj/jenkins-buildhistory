@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cro
 PACKAGES = gnome-desktop-testing-src gnome-desktop-testing-dbg gnome-desktop-testing-staticdev gnome-desktop-testing-dev gnome-desktop-testing-doc gnome-desktop-testing-locale gnome-desktop-testing
 LAYER = core
 CONFIG = systemd
+SRC_URI = git://gitlab.gnome.org/GNOME/gnome-desktop-testing.git;protocol=http

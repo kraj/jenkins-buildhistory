@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libpng libtool-cross
 PACKAGES = freetype-src freetype-dbg freetype-staticdev freetype-dev freetype-doc freetype-locale freetype
 LAYER = core
 CONFIG = pixmap zlib
+SRC_URI = https://download.savannah.nongnu.org/releases/freetype/freetype-2.10.2.tar.xz file://use-right-libtool.patch

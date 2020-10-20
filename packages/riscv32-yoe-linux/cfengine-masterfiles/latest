@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = cfengine-masterfiles-src cfengine-masterfiles-dbg cfengine-masterfiles-staticdev cfengine-masterfiles-dev cfengine-masterfiles-doc cfengine-masterfiles-locale cfengine-masterfiles
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://cfengine-package-repos.s3.amazonaws.com/tarballs/cfengine-masterfiles-3.15.0.tar.gz file://python3.patch

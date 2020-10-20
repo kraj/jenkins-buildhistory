@@ -4,3 +4,4 @@ DEPENDS = libdrm meson-native ninja-native pkgconfig-native python3-native virtu
 PACKAGES = kmscube-src kmscube-dbg kmscube-staticdev kmscube-dev kmscube-doc kmscube-locale kmscube
 LAYER = core
 CONFIG = 
+SRC_URI = git://gitlab.freedesktop.org/mesa/kmscube;branch=master;protocol=https

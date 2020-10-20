@@ -4,3 +4,4 @@ DEPENDS = libpcre lua openssl virtual/libc virtual/riscv32-yoe-linux-compilerlib
 PACKAGES = imapfilter-src imapfilter-dbg imapfilter-staticdev imapfilter-dev imapfilter-doc imapfilter-locale imapfilter
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://codeload.github.com/lefcha/imapfilter/tar.gz/v2.6.16;downloadfilename=imapfilter-2.6.16.tar.gz file://ldflags.patch

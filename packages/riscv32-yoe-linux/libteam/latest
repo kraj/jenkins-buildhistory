@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native jansson libdaemon li
 PACKAGES = libteam-src libteam-dbg libteam-ptest libteam-staticdev libteam-dev libteam-doc libteam-locale libteam libteam-dctl libteam-utils
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/jpirko/libteam file://0001-include-sys-select.h-for-fd_set-definition.patch file://0002-teamd-Re-adjust-include-header-order.patch file://0001-team_basic_test.py-disable-RedHat-specific-test.patch file://0001-team_basic_test.py-use-python3-interpreter.patch file://run-ptest

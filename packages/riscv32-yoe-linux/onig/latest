@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = onig-src onig-dbg onig-ptest onig-staticdev onig-dev onig-doc onig-locale onig
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/kkos/oniguruma/releases/download/v6.9.4/onig-6.9.4.tar.gz file://0001-build-don-t-link-against-host-system-libraries.patch file://0001-build-enable-serial-tests-automake-option-for-ptest.patch file://run-ptest

@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = libeigen-src libeigen-dbg libeigen-staticdev libeigen-dev libeigen-doc libeigen-locale libeigen
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://gitlab.com/libeigen/eigen.git;protocol=http;nobranch=1

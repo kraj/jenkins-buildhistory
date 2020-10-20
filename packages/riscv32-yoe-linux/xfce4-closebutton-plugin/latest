@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native exo-native gdk-pixbuf gettext-native g
 PACKAGES = xfce4-closebutton-plugin-src xfce4-closebutton-plugin-dbg xfce4-closebutton-plugin-staticdev xfce4-closebutton-plugin-dev xfce4-closebutton-plugin-doc xfce4-closebutton-plugin xfce4-closebutton-plugin-locale-de
 LAYER = xfce-layer
 CONFIG = 
+SRC_URI = git://github.com/schnitzeltony/xfce4-closebutton-plugin.git;branch=master

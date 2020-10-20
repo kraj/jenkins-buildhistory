@@ -1,0 +1,7 @@
+PV = 8.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native ncurses-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz;name=archive file://inputrc file://configure-fix.patch file://norpath.patch file://rl-native.map

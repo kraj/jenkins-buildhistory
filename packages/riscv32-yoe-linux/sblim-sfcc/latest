@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native curl gnu-config-native libtool-cross l
 PACKAGES = sblim-sfcc-src sblim-sfcc-dbg sblim-sfcc-staticdev sblim-sfcc-dev sblim-sfcc-doc sblim-sfcc-locale sblim-sfcc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://netcologne.dl.sourceforge.net/project/sblim/sblim-sfcc/sblim-sfcc-2.2.8.tar.bz2 file://0001-cimxml-Include-sys-select.h-for-fd_set.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = hiredis-src hiredis-dbg hiredis-staticdev hiredis-dev hiredis-doc hiredis-locale hiredis
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/redis/hiredis;protocol=git file://0001-Makefile-remove-hardcoding-of-CC.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = bash-completion-src bash-completion-dbg bash-completion-extra bash-completion-staticdev bash-completion-dev bash-completion-doc bash-completion-locale bash-completion
 LAYER = core
 CONFIG = 
+SRC_URI = https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz

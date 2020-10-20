@@ -4,3 +4,4 @@ DEPENDS = update-rc.d-native
 PACKAGES = initscripts-src initscripts-dbg initscripts-functions initscripts-sushell initscripts-staticdev initscripts-dev initscripts-doc initscripts-locale initscripts
 LAYER = core
 CONFIG = 
+SRC_URI = file://functions file://halt file://umountfs file://devpts.sh file://devpts file://hostname.sh file://mountall.sh file://banner.sh file://bootmisc.sh file://mountnfs.sh file://reboot file://checkfs.sh file://single file://sendsigs file://urandom file://rmnologin.sh file://checkroot.sh file://umountnfs.sh file://sysfs.sh file://populate-volatile.sh file://read-only-rootfs-hook.sh file://volatiles file://save-rtc.sh file://GPLv2.patch file://dmesg.sh file://logrotate-dmesg.conf

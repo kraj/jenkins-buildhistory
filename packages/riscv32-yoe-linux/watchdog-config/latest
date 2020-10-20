@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = watchdog-config-src watchdog-config-dbg watchdog-config-staticdev watchdog-config-dev watchdog-config-doc watchdog-config-locale watchdog-config
 LAYER = core
 CONFIG = 
+SRC_URI = file://watchdog.default file://watchdog.conf

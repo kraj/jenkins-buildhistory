@@ -4,3 +4,4 @@ DEPENDS = libusb1 virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/ri
 PACKAGES = uhubctl-src uhubctl-dbg uhubctl-staticdev uhubctl-dev uhubctl-doc uhubctl-locale uhubctl
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/mvp/uhubctl

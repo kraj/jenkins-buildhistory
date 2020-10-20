@@ -4,3 +4,4 @@ DEPENDS = boost gettext-native libmpdclient meson-native ncurses ninja-native pc
 PACKAGES = ncmpc-src ncmpc-dbg ncmpc-staticdev ncmpc-dev ncmpc-doc ncmpc ncmpc-locale-cs ncmpc-locale-da ncmpc-locale-de ncmpc-locale-en ncmpc-locale-eo ncmpc-locale-es ncmpc-locale-fi ncmpc-locale-fr ncmpc-locale-gl ncmpc-locale-he ncmpc-locale-hu ncmpc-locale-it ncmpc-locale-ko ncmpc-locale-nb ncmpc-locale-nl ncmpc-locale-pl ncmpc-locale-pt-br ncmpc-locale-ru ncmpc-locale-sk ncmpc-locale-sv ncmpc-locale-uk ncmpc-locale-zh-cn
 LAYER = multimedia-layer
 CONFIG = colors help_screen key_screen library_screen locale lyrics_screen mouse nls outputs_screen regex search_screen song_screen
+SRC_URI = git://github.com/MusicPlayerDaemon/ncmpc

@@ -5,3 +5,4 @@ DEPENDS = meson-native ninja-native pkgconfig-native python3-native virtual/libc
 PACKAGES = pixman-src pixman-dbg pixman-staticdev pixman-dev pixman-doc pixman-locale pixman
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.cairographics.org/releases/pixman-0.40.0.tar.gz file://0001-ARM-qemu-related-workarounds-in-cpu-features-detecti.patch

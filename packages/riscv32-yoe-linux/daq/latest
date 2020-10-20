@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native gnu-config-native libdnet
 PACKAGES = daq-src daq-dbg daq-staticdev daq-dev daq-doc daq-locale daq
 LAYER = networking-layer
 CONFIG = ipv6
+SRC_URI = http://fossies.org/linux/misc/daq-2.0.7.tar.gz file://disable-run-test-program-while-cross-compiling.patch file://0001-correct-the-location-of-unistd.h.patch

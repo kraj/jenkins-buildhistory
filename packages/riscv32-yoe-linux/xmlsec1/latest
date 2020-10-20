@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gnutls libgcrypt lib
 PACKAGES = xmlsec1-src xmlsec1-dbg xmlsec1-ptest xmlsec1-staticdev xmlsec1-dev xmlsec1-doc xmlsec1-locale xmlsec1
 LAYER = openembedded-layer
 CONFIG = des gnutls libgcrypt nss openssl
+SRC_URI = http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.30.tar.gz file://fix-ltmain.sh.patch file://change-finding-path-of-nss.patch file://makefile-ptest.patch file://xmlsec1-examples-allow-build-in-separate-dir.patch file://0001-nss-nspr-fix-for-multilib.patch file://run-ptest

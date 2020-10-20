@@ -4,3 +4,4 @@ DEPENDS = cmake-native curl libgcrypt libpcre2 libssh2 ninja-native openssl virt
 PACKAGES = libgit2-src libgit2-dbg libgit2-staticdev libgit2-dev libgit2-doc libgit2-locale libgit2
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libgit2/libgit2.git;branch=maint/v1.0

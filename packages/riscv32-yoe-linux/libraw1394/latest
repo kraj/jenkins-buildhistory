@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libraw1394-src libraw1394-dbg libraw1394-staticdev libraw1394-dev libraw1394-doc libraw1394-locale libraw1394
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.kernel.org/pub/linux/libs/ieee1394/libraw1394-2.1.2.tar.gz

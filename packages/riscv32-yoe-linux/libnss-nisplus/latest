@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libnsl2 libtirpc lib
 PACKAGES = libnss-nisplus-src libnss-nisplus-dbg libnss-nisplus-staticdev libnss-nisplus-dev libnss-nisplus-doc libnss-nisplus-locale libnss-nisplus
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/thkukuk/libnss_nisplus

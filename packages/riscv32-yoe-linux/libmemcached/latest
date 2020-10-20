@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libev
 PACKAGES = libmemcached-src libmemcached-dbg libmemcached-staticdev libmemcached-dev libmemcached-doc libmemcached-locale libmemcached
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz file://crosscompile.patch file://0001-configure.ac-Do-not-configure-build-aux.patch file://0001-Fix-comparison-types.patch file://0002-POSIX_SPAWN_USEVFORK-is-not-linux-specific-but-glibc.patch

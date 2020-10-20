@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = tslib-src tslib-dbg tslib-conf tslib-tests tslib-calibrate tslib-uinput tslib-staticdev tslib-dev tslib-doc tslib-locale tslib
 LAYER = openembedded-layer
 CONFIG = debounce dejitter iir input invert linear lowpass median pthres skip touchkit variance waveshare
+SRC_URI = https://github.com/kergoth/tslib/releases/download/1.22/tslib-1.22.tar.xz;downloadfilename=tslib-1.22.tar.xz file://ts.conf file://tslib.sh

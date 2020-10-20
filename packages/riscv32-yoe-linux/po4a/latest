@@ -4,3 +4,4 @@ DEPENDS = liblocale-gettext-perl libmodule-build-perl-native libterm-readkey-per
 PACKAGES = po4a-src po4a-dbg po4a-staticdev po4a-dev po4a-doc po4a-locale po4a
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = git://github.com/mquinson/po4a.git;protocol=https

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libnsl2 libtirpc lib
 PACKAGES = libnss-nis-src libnss-nis-dbg libnss-nis-staticdev libnss-nis-dev libnss-nis-doc libnss-nis-locale libnss-nis
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/thkukuk/libnss_nis

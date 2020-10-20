@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = libfann-src libfann-dbg libfann-staticdev libfann-dev libfann-doc libfann-locale libfann
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libfann/fann.git;branch=master

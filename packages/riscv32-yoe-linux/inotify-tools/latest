@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = inotify-tools-src inotify-tools-dbg libinotifytools inotify-tools-staticdev inotify-tools-dev inotify-tools-doc inotify-tools-locale inotify-tools
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/rvoicilas/inotify-tools file://0001-Makefile.am-add-build-rule-for-README.patch

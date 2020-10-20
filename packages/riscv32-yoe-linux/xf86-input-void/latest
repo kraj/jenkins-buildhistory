@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xf86-input-void-src xf86-input-void-dbg xf86-input-void-staticdev xf86-input-void-dev xf86-input-void-doc xf86-input-void-locale xf86-input-void
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/driver/xf86-input-void-1.4.1.tar.bz2

@@ -1,0 +1,7 @@
+PV = 2.4.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://fix-rpath.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://nohardcodepaths.patch file://unwind-opt-parsing.patch file://0001-libtool-Fix-support-for-NIOS2-processor.patch file://0001-libtool-Check-for-static-libs-for-internal-compiler-.patch file://prefix.patch

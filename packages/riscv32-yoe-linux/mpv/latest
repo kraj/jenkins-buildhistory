@@ -4,3 +4,4 @@ DEPENDS = desktop-file-utils ffmpeg jpeg libass libv4l libxinerama libxkbcommon 
 PACKAGES = mpv-src mpv-dbg mpv-staticdev mpv-dev mpv-doc mpv-locale mpv
 LAYER = openembedded-layer
 CONFIG = libass opengl wayland x11
+SRC_URI = git://github.com/mpv-player/mpv;name=mpv https://waf.io/waf-2.0.20;name=waf;subdir=git

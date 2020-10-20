@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus-glib dbus-glib-native gdk-pixbuf 
 PACKAGES = connman-gnome-src connman-gnome-dbg connman-gnome-staticdev connman-gnome-dev connman-gnome-doc connman-gnome-locale connman-gnome
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/connectivity/connman-gnome.git file://0001-Removed-icon-from-connman-gnome-about-applet.patch file://null_check_for_ipv4_config.patch file://images/ file://connman-gnome-fix-dbus-interface-name.patch file://0001-Port-to-Gtk3.patch

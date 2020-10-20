@@ -1,0 +1,7 @@
+PV = 2.0.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native libxml2-native python3-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = http://files.itstool.org/itstool/itstool-2.0.6.tar.bz2 file://0001-Native-Don-t-use-build-time-hardcoded-python-binary-.patch

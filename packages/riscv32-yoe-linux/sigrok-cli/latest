@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native desktop-file-utils gnu-config-native l
 PACKAGES = sigrok-cli-src sigrok-cli-dbg sigrok-cli-staticdev sigrok-cli-dev sigrok-cli-doc sigrok-cli-locale sigrok-cli
 LAYER = openembedded-layer
 CONFIG = decode
+SRC_URI = http://sigrok.org/download/source/sigrok-cli/sigrok-cli-0.7.1.tar.gz

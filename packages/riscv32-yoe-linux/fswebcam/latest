@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gd gnu-config-native libtool-cross lib
 PACKAGES = fswebcam-src fswebcam-dbg fswebcam-staticdev fswebcam-dev fswebcam-doc fswebcam-locale fswebcam
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/fsphil/fswebcam.git;protocol=git

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libcap-ng libtool-cr
 PACKAGES = libcap-ng-python-src libcap-ng-python-dbg libcap-ng-python-staticdev libcap-ng-python-dev libcap-ng-python-doc libcap-ng-python-locale libcap-ng-python-bin libcap-ng-python
 LAYER = core
 CONFIG = 
+SRC_URI = http://people.redhat.com/sgrubb/libcap-ng/libcap-ng-0.7.11.tar.gz file://python.patch

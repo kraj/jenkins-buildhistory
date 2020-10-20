@@ -4,3 +4,4 @@ DEPENDS = libva libxext libxfixes meson-native ninja-native pkgconfig-native pyt
 PACKAGES = libva-utils-src libva-utils-dbg libva-utils-staticdev libva-utils-dev libva-utils-doc libva-utils-locale libva-utils
 LAYER = core
 CONFIG = wayland x11
+SRC_URI = git://github.com/intel/libva-utils.git;branch=v2.8-branch

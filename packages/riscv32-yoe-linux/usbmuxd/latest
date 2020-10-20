@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libplist libtool-cro
 PACKAGES = usbmuxd-src usbmuxd-dbg usbmuxd-staticdev usbmuxd-dev usbmuxd-doc usbmuxd-locale usbmuxd
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libimobiledevice/usbmuxd;protocol=https

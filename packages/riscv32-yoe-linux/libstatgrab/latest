@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libstatgrab-src statgrab-dbg saidar-dbg libstatgrab-dbg statgrab saidar libstatgrab-mrtg libstatgrab-staticdev libstatgrab-dev libstatgrab-doc libstatgrab-locale libstatgrab
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/libstatgrab/libstatgrab/releases/download/LIBSTATGRAB_0_92/libstatgrab-0.92.tar.gz

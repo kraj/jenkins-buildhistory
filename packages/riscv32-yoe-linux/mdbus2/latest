@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = mdbus2-src mdbus2-dbg mdbus2-staticdev mdbus2-dev mdbus2-doc mdbus2-locale mdbus2
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/freesmartphone/mdbus.git;protocol=http

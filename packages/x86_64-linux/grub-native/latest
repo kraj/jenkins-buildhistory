@@ -1,0 +1,7 @@
+PV = 2.04
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native gettext-minimal-native gettext-native gnu-config-native libtool-native pkgconfig-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/grub/grub-2.04.tar.gz file://0001-Disable-mfpmath-sse-as-well-when-SSE-is-disabled.patch file://autogen.sh-exclude-pc.patch file://grub-module-explicitly-keeps-symbole-.module_license.patch file://0001-grub.d-10_linux.in-add-oe-s-kernel-name.patch file://CVE-2020-10713.patch

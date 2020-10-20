@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = qmic-src qmic-dbg qmic-staticdev qmic-dev qmic-doc qmic-locale qmic
 LAYER = qcom
 CONFIG = 
+SRC_URI = git://github.com/andersson/qmic.git;branch=master;protocol=https

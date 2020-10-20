@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = tsocks-src tsocks-dbg tsocks-staticdev tsocks-dev tsocks-doc tsocks-locale tsocks
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://downloads.sourceforge.net/tsocks/tsocks-1.8beta5.tar.gz file://makefile-add-ldflags.patch

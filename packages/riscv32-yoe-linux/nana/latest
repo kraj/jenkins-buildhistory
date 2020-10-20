@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = nana-src nana-dbg nana-staticdev nana-dev nana-doc nana-locale nana
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://download.savannah.gnu.org/releases/nana/nana-2.5.tar.gz file://change-mandir-to-DESTDIR.patch file://modify-acinclude.m4-and-configure.in.patch

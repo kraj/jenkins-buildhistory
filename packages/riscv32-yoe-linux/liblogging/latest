@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = liblogging-src liblogging-dbg liblogging-staticdev liblogging-dev liblogging-doc liblogging-locale liblogging
 LAYER = openembedded-layer
 CONFIG = systemd
+SRC_URI = http://download.rsyslog.com/liblogging/liblogging-1.0.6.tar.gz

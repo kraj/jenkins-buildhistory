@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = rdate-src rdate-dbg rdate-staticdev rdate-dev rdate-doc rdate-locale rdate
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://www.aelius.com/njh/rdate/rdate-1.5.tar.gz file://0001-src-rdate-Fix-printf-format-errors.patch file://0001-rdate-define-logwtmp-on-libc-glibc.patch

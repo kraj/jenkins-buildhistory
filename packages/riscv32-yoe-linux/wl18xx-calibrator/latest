@@ -4,3 +4,4 @@ DEPENDS = libnl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/risc
 PACKAGES = wl18xx-calibrator-src wl18xx-calibrator-dbg wl18xx-calibrator-staticdev wl18xx-calibrator-dev wl18xx-calibrator-doc wl18xx-calibrator-locale wl18xx-calibrator
 LAYER = meta-ti
 CONFIG = 
+SRC_URI = git://git.ti.com/wilink8-wlan/18xx-ti-utils.git file://0001-plt.h-Do-not-define-EFUSE_PARAMETER_TYPE_ENMT-type-e.patch

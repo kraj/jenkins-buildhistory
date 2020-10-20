@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = fping-src fping-dbg fping-staticdev fping-dev fping-doc fping-locale fping
 LAYER = networking-layer
 CONFIG = ipv6
+SRC_URI = http://www.fping.org/dist/fping-5.0.tar.gz

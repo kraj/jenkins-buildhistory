@@ -4,3 +4,4 @@ DEPENDS = anthy-native autoconf-native automake-native gnu-config-native libtool
 PACKAGES = anthy-src anthy-dbg anthy-staticdev anthy-dev anthy-doc anthy-locale anthy anthy-el libanthy0 libanthy-dev
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://osdn.dl.sourceforge.jp/anthy/37536/anthy-9100h.tar.gz file://not_build_elc.patch file://2ch_t.patch file://target-helpers.patch

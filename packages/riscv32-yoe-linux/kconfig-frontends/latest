@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-na
 PACKAGES = kconfig-frontends-src kconfig-frontends-dbg kconfig-frontends-staticdev kconfig-frontends-dev kconfig-frontends-doc kconfig-frontends-locale kconfig-frontends
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://gitlab.com/ymorin/kconfig-frontends.git;protocol=https;branch=4.11.x file://0001-Makefile-ensure-frontends-exits-before-writing-into-.patch file://0001-Switch-utils-kconfig-diff-to-use-Python-3.patch

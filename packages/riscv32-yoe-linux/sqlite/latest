@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sqlite-src sqlite-dbg sqlite-staticdev sqlite-dev sqlite-doc sqlite-locale sqlite sqlite-bin
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.hwaci.com/sw/sqlite/sqlite-2.8.17.tar.gz file://mainmk_build_dynamic.patch file://mainmk_no_tcl.patch file://sqlite.pc file://0001-shell.c-Fix-format-not-a-string-literal-warning.patch

@@ -4,3 +4,4 @@ DEPENDS = expat meson-native ninja-native pkgconfig-native python3-native system
 PACKAGES = dbus-broker-src dbus-broker-dbg dbus-broker-staticdev dbus-broker-dev dbus-broker-doc dbus-broker-locale dbus-broker
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/bus1/dbus-broker/releases/download/v23/dbus-broker-23.tar.xz

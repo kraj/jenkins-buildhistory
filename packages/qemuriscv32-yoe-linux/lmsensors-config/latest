@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = lmsensors-config-src lmsensors-config-dbg lmsensors-config-cgi lmsensors-config-fancontrol lmsensors-config-sensord lmsensors-config-libsensors lmsensors-config-staticdev lmsensors-config-dev lmsensors-config-doc lmsensors-config-locale lmsensors-config
 LAYER = openembedded-layer
 CONFIG = sensord
+SRC_URI = file://fancontrol file://sensord.cgi file://sensord.conf file://sensors.conf file://sensord

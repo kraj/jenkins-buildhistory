@@ -1,0 +1,7 @@
+PV = 49.6.0
+PR = r0
+DEPENDS = python3-native python3-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-49.6.0.zip file://0001-change-shebang-to-python3.patch file://0001-conditionally-do-not-fetch-code-by-easy_install.patch

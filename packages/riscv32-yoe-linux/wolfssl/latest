@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = wolfssl-src wolfssl-dbg wolfssl-staticdev wolfssl-dev wolfssl-doc wolfssl-locale wolfssl
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/wolfSSL/wolfssl.git;protocol=https file://0001-Make-ByteReverseWords-available-for-big-and-little-e.patch

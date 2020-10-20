@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = redis-src redis-dbg redis-staticdev redis-dev redis-doc redis-locale redis
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://download.redis.io/releases/redis-6.0.8.tar.gz file://redis.conf file://init-redis-server file://redis.service file://hiredis-use-default-CC-if-it-is-set.patch file://lua-update-Makefile-to-use-environment-build-setting.patch file://oe-use-libc-malloc.patch file://0001-src-Do-not-reset-FINAL_LIBS.patch file://GNU_SOURCE.patch

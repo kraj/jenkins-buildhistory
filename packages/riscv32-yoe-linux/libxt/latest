@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libsm libtool-cross 
 PACKAGES = libxt-src libxt-dbg libxt-staticdev libxt-dev libxt-doc libxt-locale libxt
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXt-1.2.0.tar.bz2 file://libxt_fix_for_x32.patch

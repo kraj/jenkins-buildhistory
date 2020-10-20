@@ -4,3 +4,4 @@ DEPENDS = base-files base-passwd shadow shadow-native shadow-sysroot virtual/lib
 PACKAGES = builder-src builder-dbg builder-staticdev builder-dev builder-doc builder-locale builder
 LAYER = core
 CONFIG = 
+SRC_URI = file://builder_session.sh

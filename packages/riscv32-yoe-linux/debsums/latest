@@ -4,3 +4,4 @@ DEPENDS = gettext-native perl-native po4a-native virtual/libc virtual/riscv32-yo
 PACKAGES = debsums-src debsums-dbg debsums-cron debsums-staticdev debsums-dev debsums-doc debsums-locale debsums
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://snapshot.debian.org/archive/debian/20170530T212108Z/pool/main/d/debsums/debsums_2.2.2.tar.xz

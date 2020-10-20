@@ -4,3 +4,4 @@ DEPENDS = cmake-native curl ninja-native pkgconfig-native virtual/libc virtual/r
 PACKAGES = curlpp-src curlpp-dbg curlpp-staticdev curlpp-dev curlpp-doc curlpp-locale curlpp
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/jpbarrette/curlpp.git

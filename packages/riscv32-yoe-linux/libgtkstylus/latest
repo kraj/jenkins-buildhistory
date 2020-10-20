@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gtk+ libtool-cross l
 PACKAGES = libgtkstylus-src libgtkstylus-dbg libgtkstylus-staticdev libgtkstylus-dev libgtkstylus-doc libgtkstylus-locale libgtkstylus
 LAYER = gnome-layer
 CONFIG = 
+SRC_URI = http://burtonini.com/temp/libgtkstylus-0.5.tar.gz file://gtkstylus.sh

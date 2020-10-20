@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libegt libtool-cross
 PACKAGES = egt-benchmark-src egt-benchmark-dbg egt-benchmark-staticdev egt-benchmark-dev egt-benchmark-doc egt-benchmark-locale egt-benchmark
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/linux4sam/egt-benchmark.git;protocol=https

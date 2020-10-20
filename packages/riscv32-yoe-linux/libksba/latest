@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libgpg-error libtool
 PACKAGES = libksba-src libksba-dbg libksba-staticdev libksba-dev libksba-doc libksba-locale libksba
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.4.0.tar.bz2 file://ksba-add-pkgconfig-support.patch

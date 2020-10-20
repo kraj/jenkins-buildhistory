@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-yarl-src python3-yarl-dbg python3-yarl-ptest python3-yarl-staticdev python3-yarl-dev python3-yarl-doc python3-yarl-locale python3-yarl
 LAYER = meta-python
 CONFIG = 
+SRC_URI = file://run-ptest https://files.pythonhosted.org/packages/source/y/yarl/yarl-1.6.2.tar.gz

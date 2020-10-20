@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bzip2 gnu-config-native libtool-cross 
 PACKAGES = tokyocabinet-src tokyocabinet-dbg tokyocabinet-staticdev tokyocabinet-dev tokyocabinet-doc tokyocabinet-locale tokyocabinet
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz file://remove-hard-coded-include-and-lib-paths.patch

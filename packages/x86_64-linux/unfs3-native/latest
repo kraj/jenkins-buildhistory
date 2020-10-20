@@ -1,0 +1,7 @@
+PV = 0.9.22+AUTOINC+c12a5c69a8
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native flex-native gnu-config-native libtirpc-native libtool-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/unfs3/unfs3.git;protocol=https file://unfs3_parallel_build.patch file://alternate_rpc_ports.patch file://fix_pid_race_parent_writes_child_pid.patch file://fix_compile_warning.patch file://rename_fh_cache.patch file://relative_max_socket_path_len.patch file://tcp_no_delay.patch file://0001-daemon.c-Libtirpc-porting-fixes.patch file://0001-attr-fix-utime-for-symlink.patch file://0001-Add-listen-action-for-a-tcp-socket.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bzip2 fftw freetype gnu-config-native 
 PACKAGES = imagemagick-src imagemagick-dbg imagemagick-staticdev imagemagick-dev imagemagick-doc imagemagick-locale imagemagick
 LAYER = openembedded-layer
 CONFIG = x11
+SRC_URI = git://github.com/ImageMagick/ImageMagick.git

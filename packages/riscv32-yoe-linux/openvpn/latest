@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native iproute2 libpam libt
 PACKAGES = openvpn-src openvpn-dbg openvpn-sample openvpn-staticdev openvpn-dev openvpn-doc openvpn-locale openvpn
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://swupdate.openvpn.org/community/releases/openvpn-2.4.9.tar.gz file://openvpn file://openvpn@.service file://openvpn-volatile.conf

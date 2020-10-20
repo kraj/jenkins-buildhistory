@@ -4,3 +4,4 @@ DEPENDS = perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtua
 PACKAGES = dvb-apps-src dvb-evtest-dbg dvbapp-tests-dbg dvbdate-dbg dvbtraffic-dbg dvbnet-dbg dvb-scan-dbg dvb-azap-dbg dvb-czap-dbg dvb-szap-dbg dvb-tzap-dbg dvb-femon-dbg dvb-apps-dbg libdvbapi libdvbcfg libdvben50221 libesg libucsi libdvbsec dvb-evtest dvbapp-tests dvbdate dvbtraffic dvbnet dvb-scan dvb-scan-data dvb-azap dvb-czap dvb-szap dvb-tzap dvb-femon dvb-zap-data dvb-apps-staticdev dvb-apps-dev dvb-apps-doc dvb-apps-locale dvb-apps
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = hg://linuxtv.org/hg;module=dvb-apps;protocol=http file://dvb-scan-table file://0001-Fix-generate-keynames.patch file://0003-handle-static-shared-only-build.patch file://0004-Makefile-remove-test.patch file://0005-libucsi-optimization-removal.patch file://0006-CA_SET_PID.patch file://0001-dvbdate-Remove-Obsoleted-stime-API-calls.patch

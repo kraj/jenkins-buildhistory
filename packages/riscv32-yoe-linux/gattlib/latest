@@ -4,3 +4,4 @@ DEPENDS = bluez5 cmake-native glib-2.0 glib-2.0-native ninja-native pkgconfig-na
 PACKAGES = gattlib-src gattlib-dbg gattlib-staticdev gattlib-dev gattlib-doc gattlib-locale gattlib
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/labapart/gattlib.git file://dbus-avoid-strange-chars-from-the-build-dir.patch file://0001-cmake-Use-GNUInstallDirs.patch

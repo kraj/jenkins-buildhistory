@@ -4,3 +4,4 @@ DEPENDS = gperf-native openssl pkgconfig-native virtual/libc virtual/riscv32-yoe
 PACKAGES = ace-src ace-dbg ace-staticdev ace-dev ace-doc ace-locale ace
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_10/ACE-6.5.10.tar.bz2 file://ace_config.patch file://no_sysctl.patch

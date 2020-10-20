@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = mbedtls-src mbedtls-dbg mbedtls-programs mbedtls-staticdev mbedtls-dev mbedtls-doc mbedtls-locale mbedtls
 LAYER = networking-layer
 CONFIG = programs shared-libs
+SRC_URI = https://tls.mbed.org/download/mbedtls-2.16.6-apache.tgz

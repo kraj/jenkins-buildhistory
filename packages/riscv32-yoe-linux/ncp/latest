@@ -4,3 +4,4 @@ DEPENDS = libowfat virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/r
 PACKAGES = ncp-src ncp-dbg ncp-staticdev ncp-dev ncp-doc ncp-locale ncp
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://dl.fefe.de/ncp-1.2.4.tar.bz2

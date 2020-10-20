@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native iptab
 PACKAGES = miniupnpd-src miniupnpd-dbg miniupnpd-staticdev miniupnpd-dev miniupnpd-doc miniupnpd-locale miniupnpd
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://miniupnp.tuxfamily.org/files/download.php?file=miniupnpd-2.1.20191006.tar.gz;downloadfilename=miniupnpd-2.1.20191006.tar.gz file://miniupnpd.service file://0001-Add-OpenEmbedded-cross-compile-case.patch

@@ -4,3 +4,4 @@ DEPENDS = attr cmake-native curl glib-2.0 gpgme libxml2 ninja-native openssl pkg
 PACKAGES = librepo-src librepo-dbg librepo-staticdev librepo-dev librepo-doc librepo-locale librepo
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/rpm-software-management/librepo.git file://0002-Do-not-try-to-obtain-PYTHON_INSTALL_DIR-by-running-p.patch file://0004-Set-gpgme-variables-with-pkg-config-not-with-cmake-m.patch

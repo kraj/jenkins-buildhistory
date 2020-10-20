@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = augeas-src augeas-dbg augeas-lenses libaugeas augeas-staticdev augeas-dev augeas-doc augeas-locale augeas
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://download.augeas.net/augeas-1.12.0.tar.gz file://sepbuildfix.patch

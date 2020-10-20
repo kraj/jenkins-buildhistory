@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = liboop-src liboop-dbg liboop-staticdev liboop-dev liboop-doc liboop-locale liboop
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/libo/liboop/liboop_1.0.1.orig.tar.gz file://tcl_dev.patch

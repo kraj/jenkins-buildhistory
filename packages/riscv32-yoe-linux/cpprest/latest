@@ -4,3 +4,4 @@ DEPENDS = boost brotli cmake-native ninja-native openssl pkgconfig-native virtua
 PACKAGES = cpprest-src cpprest-dbg cpprest-staticdev cpprest-dev cpprest-doc cpprest-locale cpprest
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Microsoft/cpprestsdk.git;protocol=https;branch=master file://disable-float-tests.patch file://disable-outside-tests.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = vblade-src vblade-dbg vblade-staticdev vblade-dev vblade-doc vblade-locale vblade
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/OpenAoE/vblade file://cross.patch file://makefile-add-ldflags.patch file://gcc-10.patch file://vblade.conf file://vblade.init file://vblade.service file://volatiles.99_vblade

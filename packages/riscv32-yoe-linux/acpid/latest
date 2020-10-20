@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = acpid-src acpid-dbg acpid-staticdev acpid-dev acpid-doc acpid-locale acpid
 LAYER = core
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/acpid2/acpid-2.0.32.tar.xz file://init file://acpid.service

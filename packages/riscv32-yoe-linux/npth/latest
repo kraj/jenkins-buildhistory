@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = npth-src npth-dbg npth-staticdev npth-dev npth-doc npth-locale npth
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2 file://pkgconfig.patch

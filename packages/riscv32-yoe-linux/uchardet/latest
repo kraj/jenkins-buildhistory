@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = uchardet-src uchardet-dbg uchardet-staticdev uchardet-dev uchardet-doc uchardet-locale uchardet
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.7.tar.xz

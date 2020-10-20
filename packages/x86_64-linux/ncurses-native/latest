@@ -1,0 +1,7 @@
+PV = 6.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = git://salsa.debian.org/debian/ncurses.git;protocol=https file://0001-tic-hang.patch file://0002-configure-reproducible.patch

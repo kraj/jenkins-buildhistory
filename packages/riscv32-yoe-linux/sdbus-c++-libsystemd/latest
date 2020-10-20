@@ -4,3 +4,4 @@ DEPENDS = gettext-native gperf-native libcap meson-native ninja-native pkgconfig
 PACKAGES = sdbus-c++-libsystemd-src sdbus-c++-libsystemd-dbg sdbus-c++-libsystemd-staticdev sdbus-c++-libsystemd-dev sdbus-c++-libsystemd-doc sdbus-c++-libsystemd-locale sdbus-c++-libsystemd
 LAYER = openembedded-layer
 CONFIG = gshadow idn
+SRC_URI = git://github.com/systemd/systemd-stable.git;protocol=git;branch=v243-stable file://static-libsystemd-pkgconfig.patch

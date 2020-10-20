@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gnutls libtool-cross
 PACKAGES = iksemel-src iksemel-dbg iksemel-staticdev iksemel-dev iksemel-doc iksemel-locale iksemel-bin iksemel
 LAYER = openembedded-layer
 CONFIG = gnutls
+SRC_URI = git://github.com/meduketto/iksemel.git;protocol=https file://fix-configure-option-parsing.patch file://avoid-obsolete-gnutls-apis.patch

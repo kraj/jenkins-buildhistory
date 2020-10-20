@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = mmc-utils-src mmc-utils-dbg mmc-utils-staticdev mmc-utils-dev mmc-utils-doc mmc-utils-locale mmc-utils
 LAYER = core
 CONFIG = 
+SRC_URI = git://git.kernel.org/pub/scm/linux/kernel/git/cjb/mmc-utils.git;branch=master file://0001-mmc_cmd.c-Use-extra-braces-when-initializing-subobje.patch

@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-socketio-src python3-socketio-dbg python3-socketio-staticdev python3-socketio-dev python3-socketio-doc python3-socketio-locale python3-socketio
 LAYER = meta-python
 CONFIG = asyncio_client client
+SRC_URI = https://files.pythonhosted.org/packages/source/p/python-socketio/python-socketio-4.6.0.tar.gz

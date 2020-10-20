@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = chrpath-src chrpath-dbg chrpath-staticdev chrpath-dev chrpath-doc chrpath-locale chrpath
 LAYER = core
 CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/c/chrpath/chrpath_0.16.orig.tar.gz file://standarddoc.patch

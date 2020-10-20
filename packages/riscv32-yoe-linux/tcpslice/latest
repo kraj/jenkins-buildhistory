@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cros
 PACKAGES = tcpslice-src tcpslice-dbg tcpslice-staticdev tcpslice-dev tcpslice-doc tcpslice-locale tcpslice
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = ftp://ftp.ee.lbl.gov/tcpslice-1.2a3.tar.gz file://tcpslice-1.2a3-time.patch file://tcpslice-CVS.20010207-bpf.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = ccid-src ccid-dbg ccid-staticdev ccid-dev ccid-doc ccid-locale ccid
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ccid.apdu.fr/files/ccid-1.4.33.tar.bz2 file://no-dep-on-libfl.patch file://0001-Add-build-rule-for-README.patch

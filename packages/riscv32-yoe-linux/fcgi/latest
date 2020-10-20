@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = fcgi-src fcgi-dbg fcgi-staticdev fcgi-dev fcgi-doc fcgi-locale fcgi
 LAYER = webserver
 CONFIG = 
+SRC_URI = git://github.com/FastCGI-Archives/fcgi2.git;protocol=https

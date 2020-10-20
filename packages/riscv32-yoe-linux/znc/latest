@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native icu libtool-cross li
 PACKAGES = znc-src znc-dbg znc-staticdev znc-dev znc-doc znc-locale znc
 LAYER = networking-layer
 CONFIG = ipv6
+SRC_URI = git://github.com/znc/znc.git;name=znc git://github.com/jimloco/Csocket.git;destsuffix=git/third_party/Csocket;name=Csocket

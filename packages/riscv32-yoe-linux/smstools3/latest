@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = smstools3-src smstools3-dbg smstools3-staticdev smstools3-dev smstools3-doc smstools3-locale smstools3
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://smstools3.kekekasvi.com/packages/smstools3-3.1.21.tar.gz file://sms_binpath.patch file://scripts_no_bash.patch file://0001-Make-extern-declarations-to-avoid-duplicate-var-defi.patch

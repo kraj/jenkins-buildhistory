@@ -4,3 +4,4 @@ DEPENDS = meson-native ninja-native pkgconfig-native python3-native udev virtual
 PACKAGES = fuse3-src fuse3-dbg fuse3-utils fuse3-ptest fuse3-staticdev fuse3-dev fuse3-doc fuse3-locale fuse3
 LAYER = filesystems-layer
 CONFIG = 
+SRC_URI = https://github.com/libfuse/libfuse/releases/download/fuse-3.9.3/fuse-3.9.3.tar.xz file://run-ptest

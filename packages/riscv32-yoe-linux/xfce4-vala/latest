@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native exo garcon gdk-pixbuf gettext-native g
 PACKAGES = xfce4-vala-src xfce4-vala-dbg xfce4-vala-staticdev xfce4-vala-dev xfce4-vala-doc xfce4-vala-locale xfce4-vala
 LAYER = xfce-layer
 CONFIG = 
+SRC_URI = http://archive.xfce.org/src/bindings/xfce4-vala/4.10/xfce4-vala-4.10.3.tar.bz2 file://0001-configure.ac-Detect-vapidir-if-not-set-explicitly.patch

@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = unicode-ucd-src unicode-ucd-dbg unicode-ucd-staticdev unicode-ucd-dev unicode-ucd-doc unicode-ucd-locale unicode-ucd
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.unicode.org/Public/zipped/12.1.0/UCD.zip;name=ucd;subdir=ucd file://license.html

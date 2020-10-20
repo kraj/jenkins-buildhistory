@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = mtr-src mtr-dbg mtr-staticdev mtr-dev mtr-doc mtr-locale mtr mtr-bash-completions
 LAYER = networking-layer
 CONFIG = ipv6
+SRC_URI = git://github.com/traviscross/mtr

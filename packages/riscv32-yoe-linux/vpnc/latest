@@ -4,3 +4,4 @@ DEPENDS = gnutls libgcrypt perl-native pkgconfig-native virtual/libc virtual/ris
 PACKAGES = vpnc-src vpnc-dbg vpnc-script vpnc-staticdev vpnc-dev vpnc-doc vpnc-locale vpnc
 LAYER = networking-layer
 CONFIG = gnutls
+SRC_URI = git://github.com/ndpgroup/vpnc file://long-help file://default.conf file://0001-search-for-log-help-in-build-dir.patch file://0002-Fix-vpnc-install-for-cross-compile.patch file://0003-error.h-is-specific-to-glibc-on-linux.patch file://0004-Use-pkgconfig-instead-of-libgcrypt-config.patch file://0005-include-sys-ttydefaults.h-for-CEOT-definition.patch file://0006-sysdep-Add-header-include-sequence-to-adjust-for-mus.patch file://0007-add-error-API-when-error.h-is-not-on-platform.patch file://0008-include-sysdep.h-before-net-if_tun.h.patch file://0009-reduce-lifetime-value.patch

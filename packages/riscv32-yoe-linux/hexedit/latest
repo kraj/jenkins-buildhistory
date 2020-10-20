@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = hexedit-src hexedit-dbg hexedit-staticdev hexedit-dev hexedit-doc hexedit-locale hexedit
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/pixel/hexedit.git

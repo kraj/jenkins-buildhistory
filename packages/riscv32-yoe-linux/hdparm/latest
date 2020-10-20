@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = hdparm-src hdparm-dbg wiper hdparm-staticdev hdparm-dev hdparm-doc hdparm-locale hdparm
 LAYER = core
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/hdparm/hdparm-9.58.tar.gz file://wiper.sh-fix-stat-path.patch

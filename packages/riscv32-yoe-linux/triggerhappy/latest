@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = triggerhappy-src triggerhappy-dbg triggerhappy-staticdev triggerhappy-dev triggerhappy-doc triggerhappy-locale triggerhappy
 LAYER = openembedded-layer
 CONFIG = systemd
+SRC_URI = git://github.com/wertarbyte/triggerhappy.git;branch=debian

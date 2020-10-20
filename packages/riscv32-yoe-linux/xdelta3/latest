@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xdelta3-src xdelta3-dbg xdelta3-staticdev xdelta3-dev xdelta3-doc xdelta3-locale xdelta3
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/jmacd/xdelta.git;branch=release3_1_apl

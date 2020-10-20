@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libice libtool-cross
 PACKAGES = libsm-src libsm-dbg libsm-staticdev libsm-dev libsm-doc libsm-locale libsm
 LAYER = core
 CONFIG = ipv6
+SRC_URI = https://www.x.org/releases//individual/lib/libSM-1.2.3.tar.bz2

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cros
 PACKAGES = nmap-src nmap-dbg nmap-staticdev nmap-dev nmap-doc nmap-locale nmap
 LAYER = openembedded-layer
 CONFIG = ncat ndiff nping pcap
+SRC_URI = http://nmap.org/dist/nmap-7.80.tar.bz2 file://nmap-redefine-the-python-library-dir.patch file://nmap-replace-shtool-mkdir-with-coreutils-mkdir-command.patch file://0001-Include-time.h-header-to-pass-clang-compilation.patch file://0002-Fix-building-with-libc.patch file://0001-Make-ndiff-support-python3.patch file://0001-configure.ac-make-ndiff-depend-on-python3.patch

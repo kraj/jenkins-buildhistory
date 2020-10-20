@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = geos-src geos-dbg geoslib geos-c1 geos-staticdev geos-dev geos-doc geos-locale geos
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://download.osgeo.org/geos/geos-3.4.3.tar.bz2 file://geos-config-Add-includedir-variable.patch

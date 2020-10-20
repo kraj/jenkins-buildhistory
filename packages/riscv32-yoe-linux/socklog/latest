@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = socklog-src socklog-dbg socklog-staticdev socklog-dev socklog-doc socklog-locale socklog
 LAYER = core
 CONFIG = 
+SRC_URI = http://smarden.org/socklog/socklog-2.1.0.tar.gz file://cross.patch

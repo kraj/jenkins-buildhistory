@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gobject-int
 PACKAGES = gupnp-dlna-src gupnp-dlna-dbg gupnp-dlna-staticdev gupnp-dlna-dev gupnp-dlna-doc gupnp-dlna-locale gupnp-dlna
 LAYER = multimedia-layer
 CONFIG = gstreamer
+SRC_URI = http://download.gnome.org/sources/gupnp-dlna/0.10/gupnp-dlna-0.10.5.tar.xz file://move_vapigen.patch

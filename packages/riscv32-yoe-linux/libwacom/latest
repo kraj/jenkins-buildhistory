@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libgudev libtool-cro
 PACKAGES = libwacom-src libwacom-dbg libwacom-staticdev libwacom-dev libwacom-doc libwacom-locale libwacom
 LAYER = gnome-layer
 CONFIG = 
+SRC_URI = git://github.com/linuxwacom/libwacom.git

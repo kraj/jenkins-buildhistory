@@ -5,3 +5,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = jsoncpp-src jsoncpp-dbg jsoncpp-staticdev jsoncpp-dev jsoncpp-doc jsoncpp-locale jsoncpp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/open-source-parsers/jsoncpp

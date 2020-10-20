@@ -4,3 +4,4 @@ DEPENDS = boost cairo cmake-native fontconfig glib-2.0 gobject-introspection gob
 PACKAGES = poppler-src poppler-dbg libpoppler libpoppler-glib poppler-staticdev poppler-dev poppler-doc poppler-locale poppler
 LAYER = openembedded-layer
 CONFIG = jpeg nss openjpeg png splash tiff
+SRC_URI = http://poppler.freedesktop.org/poppler-20.10.0.tar.xz file://0001-Do-not-overwrite-all-our-build-flags.patch file://basename-include.patch

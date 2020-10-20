@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = phonet-utils-src phonet-utils-dbg phonet-utils-staticdev phonet-utils-dev phonet-utils-doc phonet-utils-locale phonet-utils
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://gitorious.org/meego-cellular/phonet-utils.git;branch=master file://0001-Include-limits.h-for-PATH_MAX.patch

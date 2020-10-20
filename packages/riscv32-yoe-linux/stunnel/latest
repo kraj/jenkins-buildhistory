@@ -4,3 +4,4 @@ DEPENDS = autoconf-archive autoconf-native automake-native gnu-config-native lib
 PACKAGES = stunnel-src stunnel-dbg stunnel3 stunnel-staticdev stunnel-dev stunnel-doc stunnel-locale stunnel
 LAYER = networking-layer
 CONFIG = ipv6 libwrap systemd
+SRC_URI = ftp://ftp.stunnel.org/stunnel/archive/5.x/stunnel-5.56.tar.gz file://fix-openssl-no-des.patch

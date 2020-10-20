@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = ifupdown-src ifupdown-dbg ifupdown-ptest ifupdown-staticdev ifupdown-dev ifupdown-doc ifupdown-locale ifupdown
 LAYER = core
 CONFIG = 
+SRC_URI = git://salsa.debian.org/debian/ifupdown.git;protocol=https file://defn2-c-man-don-t-rely-on-dpkg-architecture-to-set-a.patch file://99_network file://0001-Define-FNM_EXTMATCH-for-musl.patch file://0001-Makefile-do-not-use-dpkg-for-determining-OS-type.patch file://run-ptest file://tweak-ptest-script.patch

@@ -1,0 +1,7 @@
+PV = 6.7
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native ncurses-native zlib-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/texinfo/texinfo-6.7.tar.gz file://texinfo-4.12-zlib.patch file://disable-native-tools.patch file://link-zip.patch file://dont-depend-on-help2man.patch

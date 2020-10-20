@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libusb-compat-src libusb-compat-dbg libusb-compat-staticdev libusb-compat-dev libusb-compat-doc libusb-compat-locale libusb-compat-bin libusb-compat
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libusb/libusb-compat-0.1.git;protocol=https file://0001-usb.h-Include-sys-types.h.patch

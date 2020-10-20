@@ -4,3 +4,4 @@ DEPENDS = acl autoconf-native automake-native desktop-file-utils gettext-native 
 PACKAGES = vim-src vim-dbg vim-common vim-syntax vim-help vim-tutor vim-vimrc vim-tools vim-staticdev vim-dev vim-doc vim-locale vim
 LAYER = core
 CONFIG = acl gtkgui x11
+SRC_URI = git://github.com/vim/vim.git file://disable_acl_header_check.patch file://vim-add-knob-whether-elf.h-are-checked.patch file://0001-src-Makefile-improve-reproducibility.patch file://no-path-adjust.patch

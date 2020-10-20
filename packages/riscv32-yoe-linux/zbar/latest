@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native intltool-native jpeg
 PACKAGES = zbar-src zbar-dbg zbar-staticdev zbar-dev zbar-doc zbar-locale zbar
 LAYER = openembedded-layer
 CONFIG = x11
+SRC_URI = git://github.com/ZBar/Zbar file://0001-make-relies-GNU-extentions.patch

@@ -1,0 +1,7 @@
+PV = 2.40.0
+PR = r0
+DEPENDS = gettext-minimal-native glib-2.0-native gobject-introspection-native gtk-doc-native jpeg-native libpng-native meson-native ninja-native pkgconfig-native python3-native shared-mime-info-native
+PACKAGES = 
+LAYER = core
+CONFIG = jpeg png
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gdk-pixbuf/2.40/gdk-pixbuf-2.40.0.tar.xz file://run-ptest file://fatal-loader.patch file://0001-Work-around-thumbnailer-cross-compile-failure.patch file://0001-Fix-a-couple-of-decisions-around-cross-compilation.patch file://0004-Do-not-run-tests-when-building.patch file://0006-Build-thumbnailer-and-tests-also-in-cross-builds.patch file://missing-test-data.patch

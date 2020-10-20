@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus gnu-config-native libtool-cross l
 PACKAGES = dbus-wait-src dbus-wait-dbg dbus-wait-staticdev dbus-wait-dev dbus-wait-doc dbus-wait-locale dbus-wait
 LAYER = core
 CONFIG = 
+SRC_URI = git://git.yoctoproject.org/dbus-wait

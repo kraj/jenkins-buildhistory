@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gdbm gnu-config-native libffi libtool-
 PACKAGES = ruby-src ruby-dbg ruby-ri-docs ruby-rdoc ruby-ptest ruby-staticdev ruby-dev ruby-doc ruby-locale ruby
 LAYER = core
 CONFIG = ipv6
+SRC_URI = http://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.1.tar.gz file://0001-extmk-fix-cross-compilation-of-external-gems.patch file://0002-Obey-LDFLAGS-for-the-link-of-libruby.patch file://remove_has_include_macros.patch file://run-ptest file://0001-Modify-shebang-of-libexec-y2racc-and-libexec-racc2y.patch

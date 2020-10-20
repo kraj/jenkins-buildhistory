@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dleyna-core glib-2.0 gnu-config-native
 PACKAGES = dleyna-server-src dleyna-server-dbg dleyna-server-staticdev dleyna-server-dev dleyna-server-doc dleyna-server-locale dleyna-server
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/01org/dleyna-server.git

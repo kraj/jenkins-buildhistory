@@ -4,3 +4,4 @@ DEPENDS = cmake-native hiredis ninja-native virtual/libc virtual/riscv32-yoe-lin
 PACKAGES = redis-plus-plus-src redis-plus-plus-dbg redis-plus-plus-staticdev redis-plus-plus-dev redis-plus-plus-doc redis-plus-plus-locale redis-plus-plus
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/sewenew/redis-plus-plus

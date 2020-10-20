@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = byacc-src byacc-dbg byacc-staticdev byacc-dev byacc-doc byacc-locale byacc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = ftp://ftp.invisible-island.net/byacc/byacc-20200910.tgz file://byacc-open.patch file://0001-byacc-do-not-reorder-CC-and-CFLAGS.patch

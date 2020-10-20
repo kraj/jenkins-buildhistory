@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = dbench-src dbench-dbg tbench dbench-staticdev dbench-dev dbench-doc dbench-locale dbench
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://samba.org/ftp/tridge/dbench/dbench-4.0.tar.gz file://destdir.patch file://makefile.patch

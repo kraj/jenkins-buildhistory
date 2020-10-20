@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sessreg-src sessreg-dbg sessreg-staticdev sessreg-dev sessreg-doc sessreg-locale sessreg
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/app/sessreg-1.1.2.tar.bz2 file://0001-Makefile.am-Error-Fix.patch

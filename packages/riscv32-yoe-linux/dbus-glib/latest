@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bash-completion dbus dbus-glib-native 
 PACKAGES = dbus-glib-src dbus-glib-dbg dbus-glib-staticdev dbus-glib-dev dbus-glib-doc dbus-glib-locale dbus-glib dbus-glib-bash-completion dbus-glib-tests
 LAYER = core
 CONFIG = 
+SRC_URI = https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.110.tar.gz file://no-examples.patch file://test-install-makefile.patch

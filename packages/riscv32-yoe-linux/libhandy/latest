@@ -4,3 +4,4 @@ DEPENDS = gettext-native gobject-introspection gobject-introspection-native gtk+
 PACKAGES = libhandy-src libhandy-dbg libhandy-examples libhandy-staticdev libhandy-dev libhandy-doc libhandy-locale libhandy
 LAYER = core
 CONFIG = 
+SRC_URI = git://gitlab.gnome.org/GNOME/libhandy.git;protocol=https

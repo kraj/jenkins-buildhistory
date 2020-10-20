@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = intltool-src intltool-dbg intltool-staticdev intltool-dev intltool-doc intltool-locale intltool
 LAYER = core
 CONFIG = 
+SRC_URI = http://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz file://intltool-nowarn.patch file://perl-522-deprecations.patch file://remove-perl-check.patch file://noperlcheck.patch

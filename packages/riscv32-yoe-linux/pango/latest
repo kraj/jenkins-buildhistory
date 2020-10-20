@@ -4,3 +4,4 @@ DEPENDS = cairo fontconfig freetype fribidi glib-2.0 glib-2.0-native gobject-int
 PACKAGES = pango-src pango-dbg pango-ptest pango-staticdev pango-dev pango-doc pango-locale pango
 LAYER = core
 CONFIG = tests x11
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/pango/1.46/pango-1.46.2.tar.xz;name=archive file://run-ptest

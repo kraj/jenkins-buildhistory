@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd expat glib-2.0 
 PACKAGES = polkit-src polkit-dbg polkit-examples polkit-staticdev polkit-dev polkit-doc polkit polkit-locale-cs polkit-locale-da polkit-locale-de polkit-locale-hr polkit-locale-hu polkit-locale-id polkit-locale-it polkit-locale-pl polkit-locale-pt-br polkit-locale-sk polkit-locale-sv polkit-locale-tr polkit-locale-uk polkit-locale-zh-cn polkit-locale-zh-tw
 LAYER = openembedded-layer
 CONFIG = pam systemd
+SRC_URI = http://www.freedesktop.org/software/polkit/releases/polkit-0.116.tar.gz file://polkit-1_pam.patch file://0003-make-netgroup-support-optional.patch

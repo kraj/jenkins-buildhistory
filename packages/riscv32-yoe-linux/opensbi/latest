@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = opensbi-src opensbi-dbg opensbi-staticdev opensbi-dev opensbi-doc opensbi-locale opensbi
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/riscv/opensbi.git;branch=master file://0001-Makefile-Don-t-specify-mabi-or-march.patch

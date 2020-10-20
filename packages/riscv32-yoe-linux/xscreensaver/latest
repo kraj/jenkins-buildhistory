@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bc-native gettext-native glib-2.0-nati
 PACKAGES = xscreensaver-src xscreensaver-dbg xscreensaver-staticdev xscreensaver-dev xscreensaver-doc xscreensaver-locale xscreensaver
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://www.jwz.org/xscreensaver/xscreensaver-5.44.tar.gz file://xscreensaver.service file://fix-buildscripts.patch file://tweak-app-defaults.patch

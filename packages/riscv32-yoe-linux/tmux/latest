@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libevent libtool-cro
 PACKAGES = tmux-src tmux-dbg tmux-staticdev tmux-dev tmux-doc tmux-locale tmux
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/tmux/tmux/releases/download/3.1b/tmux-3.1b.tar.gz

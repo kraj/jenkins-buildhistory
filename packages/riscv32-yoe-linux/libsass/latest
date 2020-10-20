@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libsass-src libsass-dbg libsass-staticdev libsass-dev libsass-doc libsass-locale libsass
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/sass/libsass.git;branch=master

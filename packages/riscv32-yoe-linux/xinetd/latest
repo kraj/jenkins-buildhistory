@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xinetd-src xinetd-dbg xinetd-staticdev xinetd-dev xinetd-doc xinetd-locale xinetd
 LAYER = core
 CONFIG = tcp-wrappers
+SRC_URI = git://github.com/openSUSE/xinetd.git;protocol=https file://xinetd.init file://xinetd.default file://xinetd.service

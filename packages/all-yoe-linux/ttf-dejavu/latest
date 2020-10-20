@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = ttf-dejavu-src ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-sans-condensed ttf-dejavu-serif ttf-dejavu-serif-condensed ttf-dejavu-mathtexgyre ttf-dejavu-common
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-2.37.tar.bz2 file://30-dejavu-aliases.conf

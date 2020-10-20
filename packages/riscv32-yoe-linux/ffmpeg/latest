@@ -4,3 +4,4 @@ DEPENDS = alsa-lib autoconf-native automake-native bzip2 gnu-config-native libog
 PACKAGES = ffmpeg-src ffmpeg-dbg libavcodec libavdevice libavfilter libavformat libavresample libavutil libpostproc libswresample libswscale ffmpeg-staticdev ffmpeg-dev ffmpeg-doc ffmpeg-locale ffmpeg
 LAYER = core
 CONFIG = alsa avcodec avdevice avfilter avformat avresample bzlib gpl lzma postproc swresample swscale theora x264 xcb xv zlib
+SRC_URI = https://www.ffmpeg.org/releases/ffmpeg-4.3.1.tar.xz file://mips64_cpu_detection.patch

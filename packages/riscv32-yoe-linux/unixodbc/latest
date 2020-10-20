@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool libtool-cros
 PACKAGES = unixodbc-src unixodbc-dbg unixodbc-staticdev unixodbc-dev unixodbc-doc unixodbc-locale unixodbc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://ftp.unixodbc.org/unixODBC-2.3.7.tar.gz file://do-not-use-libltdl-source-directory.patch

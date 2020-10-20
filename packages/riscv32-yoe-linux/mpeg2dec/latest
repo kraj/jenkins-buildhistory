@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = mpeg2dec-src mpeg2dec-dbg mpeg2dec mpeg2dec-doc libmpeg2 libmpeg2-dev libmpeg2convert libmpeg2convert-dev libmpeg2-staticdev libmpeg2convert-staticdev
 LAYER = core
 CONFIG = x11
+SRC_URI = http://libmpeg2.sourceforge.net/files/libmpeg2-0.5.1.tar.gz file://altivec_h_needed.patch file://0001-check-for-available-arm-optimizations.patch file://0002-Set-visibility-of-global-symbols-used-in-ARM-specifi.patch file://61_global-symbol-test.patch file://0001-Import-revision-1206-from-upstream-to-fix-PIE-build.patch

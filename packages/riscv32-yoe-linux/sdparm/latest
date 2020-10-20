@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = sdparm-src sdparm-dbg sdparm-scripts sdparm-staticdev sdparm-dev sdparm-doc sdparm-locale sdparm
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://sg.danny.cz/sg/p/sdparm-1.11.tgz file://make-sysroot-work.patch

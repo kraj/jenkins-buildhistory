@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = nanomsg-src nanomsg-dbg nanomsg-tools nanomsg-staticdev nanomsg-dev nanomsg-doc nanomsg-locale nanomsg
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/nanomsg/nanomsg.git;protocol=https

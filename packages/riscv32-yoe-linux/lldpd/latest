@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd bash-completion
 PACKAGES = lldpd-src lldpd-dbg lldpd-zsh-completion lldpd-staticdev lldpd-dev lldpd-doc lldpd-locale lldpd lldpd-bash-completion
 LAYER = networking-layer
 CONFIG = cdp dot1 dot3 edp fdp lldpmed sonmp
+SRC_URI = http://media.luffy.cx/files/lldpd/lldpd-1.0.4.tar.gz file://lldpd.init.d file://lldpd.default

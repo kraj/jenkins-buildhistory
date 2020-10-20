@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = distcc-config-src distcc-config-dbg distcc-config-staticdev distcc-config-dev distcc-config-doc distcc-config-locale distcc-config
 LAYER = core
 CONFIG = 
+SRC_URI = file://distcc.sh

@@ -4,3 +4,4 @@ DEPENDS = babl cairo expat gexiv2 glib-2.0 gobject-introspection gobject-introsp
 PACKAGES = gegl-src gegl-dbg gegl-staticdev gegl-dev gegl-doc gegl gegl-locale-bs gegl-locale-ca gegl-locale-da gegl-locale-de gegl-locale-el gegl-locale-en-gb gegl-locale-eo gegl-locale-es gegl-locale-eu gegl-locale-fr gegl-locale-gl gegl-locale-hr gegl-locale-id gegl-locale-is gegl-locale-it gegl-locale-ko gegl-locale-lv gegl-locale-mr gegl-locale-nb gegl-locale-ne gegl-locale-nl gegl-locale-oc gegl-locale-pl gegl-locale-pt gegl-locale-pt-br gegl-locale-ru gegl-locale-sk gegl-locale-sl gegl-locale-sr gegl-locale-sv gegl-locale-tr gegl-locale-uk gegl-locale-zh-cn
 LAYER = gnome-layer
 CONFIG = gexiv2 jpeg libpng librsvg sdl2
+SRC_URI = https://download.gimp.org/pub/gegl/0.4/gegl-0.4.26.tar.xz file://0001-meson.build-Give-note-if-sdl2-was-found.patch

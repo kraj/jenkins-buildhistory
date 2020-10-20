@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = fastrpc-src fastrpc-dbg fastrpc-staticdev fastrpc-dev fastrpc-doc fastrpc-locale fastrpc
 LAYER = qcom
 CONFIG = 
+SRC_URI = git://git.linaro.org/landing-teams/working/qualcomm/fastrpc.git;branch=automake;protocol=https

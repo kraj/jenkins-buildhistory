@@ -4,3 +4,4 @@ DEPENDS = cmake-native jpeg libusb ninja-native virtual/libc virtual/riscv32-yoe
 PACKAGES = libuvc-src libuvc-dbg libuvc-staticdev libuvc-dev libuvc-doc libuvc-locale libuvc
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/libuvc/libuvc.git

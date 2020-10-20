@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libesmtp-src libesmtp-dbg libesmtp-staticdev libesmtp-dev libesmtp-doc libesmtp-locale libesmtp
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://www.stafford.uklinux.net/libesmtp/libesmtp-1.0.6.tar.bz2 file://include-topdir.patch file://snprintf.patch

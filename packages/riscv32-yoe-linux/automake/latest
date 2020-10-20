@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = automake-src automake-dbg automake-staticdev automake-dev automake-doc automake-locale automake
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/automake/automake-1.16.2.tar.gz file://python-libdir.patch file://buildtest.patch file://performance.patch file://new_rt_path_for_test-driver.patch file://automake-replace-w-option-in-shebangs-with-modern-use-warnings.patch file://0001-automake-Add-default-libtool_tag-to-cppasm.patch file://0001-build-fix-race-in-parallel-builds.patch

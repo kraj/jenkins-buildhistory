@@ -4,3 +4,4 @@ DEPENDS = boost cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux
 PACKAGES = docopt.cpp-src docopt.cpp-dbg docopt.cpp-staticdev docopt.cpp-dev docopt.cpp-doc docopt.cpp-locale docopt.cpp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/docopt/docopt.cpp.git;protocol=https

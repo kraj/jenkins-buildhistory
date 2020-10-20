@@ -1,0 +1,7 @@
+PV = 3.2.6
+PR = r0
+DEPENDS = autoconf-native automake-native dbus-glib-native dbus-native gettext-minimal-native glib-2.0-native gnu-config-native gobject-introspection-native gtk-doc-native intltool-native libtool-native libxml2-native pkgconfig-native python3-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/GConf/3.2/GConf-3.2.6.tar.xz;name=archive file://remove_plus_from_invalid_characters_list.patch file://unable-connect-dbus.patch file://create_config_directory.patch file://python3.patch

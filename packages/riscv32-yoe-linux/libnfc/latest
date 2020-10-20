@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libnfc-src libnfc-dbg libnfc-staticdev libnfc-dev libnfc-doc libnfc-locale libnfc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/nfc-tools/libnfc.git

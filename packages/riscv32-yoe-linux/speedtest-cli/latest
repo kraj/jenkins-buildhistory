@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = speedtest-cli-src speedtest-cli-dbg speedtest-cli-staticdev speedtest-cli-dev speedtest-cli-doc speedtest-cli-locale speedtest-cli
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/sivel/speedtest-cli.git

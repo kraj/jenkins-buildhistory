@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libsrtp-src libsrtp-dbg libsrtp-staticdev libsrtp-dev libsrtp-doc libsrtp-locale libsrtp
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/cisco/libsrtp.git;protocol=https;branch=1_6_x_throttle; file://0001-Rename-conflicting-variable-mips.patch

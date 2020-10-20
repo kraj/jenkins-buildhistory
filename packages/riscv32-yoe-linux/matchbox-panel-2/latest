@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus dbus-glib dbus-glib-native gettex
 PACKAGES = matchbox-panel-2-src matchbox-panel-2-dbg matchbox-panel-2-staticdev matchbox-panel-2-dev matchbox-panel-2-doc matchbox-panel-2-locale matchbox-panel-2
 LAYER = core
 CONFIG = 
+SRC_URI = git://git.yoctoproject.org/matchbox-panel-2 file://0001-applets-systray-Allow-icons-to-be-smaller.patch

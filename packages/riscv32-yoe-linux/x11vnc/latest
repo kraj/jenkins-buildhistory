@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native avahi gnu-config-native jpeg libtasn1 
 PACKAGES = x11vnc-src x11vnc-dbg x11vnc-staticdev x11vnc-dev x11vnc-doc x11vnc-locale x11vnc
 LAYER = openembedded-layer
 CONFIG = avahi x11
+SRC_URI = git://github.com/LibVNC/x11vnc file://starting-fix.patch

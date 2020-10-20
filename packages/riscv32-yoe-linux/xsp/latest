@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xsp-src xsp-dbg xsp-staticdev xsp-dev xsp-doc xsp-locale xsp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://repository.maemo.org/pool/maemo/ossw/source/x/xsp/xsp_1.0.0-8.tar.gz file://xsp-fix-pc.patch

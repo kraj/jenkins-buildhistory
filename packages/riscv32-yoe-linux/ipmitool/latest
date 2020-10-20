@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = ipmitool-src ipmitool-dbg ipmitool-staticdev ipmitool-dev ipmitool-doc ipmitool-locale ipmitool
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/ipmitool/ipmitool-1.8.18.tar.bz2 file://0001-Migrate-to-openssl-1.1.patch file://0001-fru-Fix-buffer-overflow-vulnerabilities.patch file://0001-fru-Fix-buffer-overflow-in-ipmi_spd_print_fru.patch file://0002-session-Fix-buffer-overflow-in-ipmi_get_session_info.patch file://0003-channel-Fix-buffer-overflow.patch file://0004-lanp-Fix-buffer-overflows-in-get_lan_param_select.patch file://0005-fru-sdr-Fix-id_string-buffer-overflows.patch file://0001-hpmfwupg-move-variable-definition-to-.c-file.patch

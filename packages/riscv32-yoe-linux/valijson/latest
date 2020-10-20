@@ -4,3 +4,4 @@ DEPENDS = cmake-native curlpp ninja-native virtual/libc virtual/riscv32-yoe-linu
 PACKAGES = valijson-src valijson-dbg valijson-staticdev valijson-dev valijson-doc valijson-locale valijson
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/tristanpenman/valijson.git

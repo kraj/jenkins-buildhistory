@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = wipe-src wipe-dbg wipe-staticdev wipe-dev wipe-doc wipe-locale wipe
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/berke/wipe.git;branch=master file://support-cross-compile-for-linux.patch file://makefile-add-ldflags.patch

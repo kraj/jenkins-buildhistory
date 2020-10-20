@@ -4,3 +4,4 @@ DEPENDS = cairo glib-2.0 gobject-introspection gobject-introspection-native meso
 PACKAGES = python3-pygobject-src python3-pygobject-dbg python3-pygobject-staticdev python3-pygobject-dev python3-pygobject-doc python3-pygobject-locale python3-pygobject
 LAYER = core
 CONFIG = cairo
+SRC_URI = http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.36/pygobject-3.36.1.tar.xz file://0001-Do-not-build-tests.patch

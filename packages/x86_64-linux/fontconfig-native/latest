@@ -1,0 +1,7 @@
+PV = 2.13.1
+PR = r0
+DEPENDS = autoconf-native automake-native expat-native freetype-native gettext-minimal-native gnu-config-native gperf-native libtool-native pkgconfig-native util-linux-native zlib-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = http://fontconfig.org/release/fontconfig-2.13.1.tar.gz file://revert-static-pkgconfig.patch file://local.conf

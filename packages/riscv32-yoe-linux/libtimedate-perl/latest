@@ -4,3 +4,4 @@ DEPENDS = perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs v
 PACKAGES = libtimedate-perl-src libtimedate-perl-dbg libtimedate-perl-ptest libtimedate-perl-staticdev libtimedate-perl-dev libtimedate-perl-doc libtimedate-perl-locale libtimedate-perl
 LAYER = core
 CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/G/GB/GBARR/TimeDate-2.30.tar.gz file://ptest-perl/run-ptest

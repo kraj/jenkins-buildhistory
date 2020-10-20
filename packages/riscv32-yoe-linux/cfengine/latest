@@ -4,3 +4,4 @@ DEPENDS = attr autoconf-native automake-native bison-native gnu-config-native li
 PACKAGES = cfengine-src cfengine-dbg cfengine-staticdev cfengine-dev cfengine-doc cfengine-locale cfengine
 LAYER = openembedded-layer
 CONFIG = libpcre openssl pam systemd
+SRC_URI = https://cfengine-package-repos.s3.amazonaws.com/tarballs/cfengine-3.15.0.tar.gz file://set-path-of-default-config-file.patch

@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libinput libtool-cro
 PACKAGES = xf86-input-libinput-src xf86-input-libinput-dbg xf86-input-libinput-staticdev xf86-input-libinput-dev xf86-input-libinput-doc xf86-input-libinput-locale xf86-input-libinput
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/driver/xf86-input-libinput-0.30.0.tar.bz2

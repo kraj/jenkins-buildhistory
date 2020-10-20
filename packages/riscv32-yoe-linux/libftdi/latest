@@ -4,3 +4,4 @@ DEPENDS = cmake-native libusb1 ninja-native pkgconfig-native python3 python3-nat
 PACKAGES = libftdi-src libftdi-dbg libftdi-staticdev libftdi-dev libftdi-doc libftdi-locale libftdi libftdi-python
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.intra2net.com/en/developer/libftdi/download/libftdi1-1.4.tar.bz2

@@ -4,3 +4,4 @@ DEPENDS = clutter-1.0 gettext-native gobject-introspection gobject-introspection
 PACKAGES = clutter-gtk-1.0-src clutter-gtk-1.0-dbg clutter-gtk-1.0-examples clutter-gtk-1.0-staticdev clutter-gtk-1.0-dev clutter-gtk-1.0-doc clutter-gtk-1.0 clutter-gtk-1.0-locale-ja clutter-gtk-1.0-locale-pl clutter-gtk-1.0-locale-zh-cn
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/clutter-gtk/1.8/clutter-gtk-1.8.4.tar.xz;name=archive file://0001-Add-a-config-variable-for-enabling-disabling-introsp.patch

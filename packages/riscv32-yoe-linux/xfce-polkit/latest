@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gdk-pixbuf gettext-native gnu-config-n
 PACKAGES = xfce-polkit-src xfce-polkit-dbg xfce-polkit-staticdev xfce-polkit-dev xfce-polkit-doc xfce-polkit-locale xfce-polkit
 LAYER = xfce-layer
 CONFIG = 
+SRC_URI = git://github.com/ncopa/xfce-polkit.git

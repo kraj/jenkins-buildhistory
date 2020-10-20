@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cups gnu-config-native libtool-cross l
 PACKAGES = hplip-src hplip-dbg hplip-staticdev hplip-dev hplip-doc hplip-locale hplip-ppd hplip-cups hplip-backend hplip-filter hplip-hal hplip
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/hplip/hplip-3.19.12.tar.gz file://configure.patch file://fix-libusb-paths.patch file://999-remove-lImageProcessor.patch file://600-fix.patch file://030-replace_unsafe_memcpy_with_memmove.patch file://050-fix-glibcisms.patch file://hplip-3.19.6-fix-return.patch

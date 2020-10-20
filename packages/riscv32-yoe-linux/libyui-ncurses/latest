@@ -4,3 +4,4 @@ DEPENDS = boost cmake-native gettext-native libyui ncurses ninja-native pkgconfi
 PACKAGES = libyui-ncurses-src libyui-ncurses-dbg libyui-ncurses-staticdev libyui-ncurses-dev libyui-ncurses-doc libyui-ncurses-locale libyui-ncurses
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libyui/libyui-ncurses.git file://0003-Simplify-ncurses-finding-module.patch file://0001-Fix-the-error-of-can-t-find-header-file.patch

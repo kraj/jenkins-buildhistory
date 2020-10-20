@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libftdi lib
 PACKAGES = libsigrok-src libsigrok-dbg libsigrok-staticdev libsigrok-dev libsigrok-doc libsigrok-locale libsigrok
 LAYER = openembedded-layer
 CONFIG = ftdi serialport usb
+SRC_URI = http://sigrok.org/download/source/libsigrok/libsigrok-0.5.2.tar.gz

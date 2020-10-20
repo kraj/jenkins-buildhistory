@@ -4,3 +4,4 @@ DEPENDS = asciidoc-native autoconf-native automake-native bison-native flex-nati
 PACKAGES = babeltrace2-src babeltrace2-dbg babeltrace2-ptest babeltrace2-staticdev babeltrace2-dev babeltrace2-doc babeltrace2-locale babeltrace2
 LAYER = core
 CONFIG = manpages
+SRC_URI = git://git.efficios.com/babeltrace.git;branch=stable-2.0 file://run-ptest file://0001-tests-do-not-run-test-applications-from-.libs.patch file://0001-Make-manpages-multilib-identical.patch

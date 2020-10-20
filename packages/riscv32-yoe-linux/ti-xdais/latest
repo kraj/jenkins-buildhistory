@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = ti-xdais-src ti-xdais-dbg ti-xdais-staticdev ti-xdais-dev ti-xdais-doc ti-xdais-locale ti-xdais
 LAYER = meta-ti
 CONFIG = 
+SRC_URI = http://software-dl.ti.com/dsps/dsps_public_sw/sdo_sb/targetcontent/xdais/7_24_00_04/exports/xdais_7_24_00_04.tar.gz;name=xdaistarball

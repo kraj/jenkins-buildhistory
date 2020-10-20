@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = ssh-pregen-hostkeys-src ssh-pregen-hostkeys-dbg ssh-pregen-hostkeys-staticdev ssh-pregen-hostkeys-dev ssh-pregen-hostkeys-doc ssh-pregen-hostkeys-locale ssh-pregen-hostkeys
 LAYER = core
 CONFIG = 
+SRC_URI = file://dropbear_rsa_host_key file://openssh

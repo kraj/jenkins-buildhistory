@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = atftp-src atftp-dbg atftpd atftp-staticdev atftp-dev atftp-doc atftp-locale atftp
 LAYER = networking-layer
 CONFIG = tcp-wrappers
+SRC_URI = git://git.code.sf.net/p/atftp/code file://atftpd.init file://atftpd.service

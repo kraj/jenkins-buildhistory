@@ -4,3 +4,4 @@ DEPENDS = cmake-native curl lz4 ninja-native systemd util-linux virtual/libc vir
 PACKAGES = czmq-src czmq-dbg libczmq libczmq-dev libczmq-staticdev czmq
 LAYER = openembedded-layer
 CONFIG = curl lz4 systemd uuid
+SRC_URI = https://github.com/zeromq/czmq/releases/download/v4.2.0/czmq-4.2.0.tar.gz

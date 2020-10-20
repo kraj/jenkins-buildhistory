@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gtk-doc-nat
 PACKAGES = loudmouth-src loudmouth-dbg loudmouth-staticdev loudmouth-dev loudmouth-doc loudmouth-locale loudmouth
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/loudmouth/1.4/loudmouth-1.4.3.tar.bz2;name=archive file://04-use-pkg-config-for-gnutls.patch file://glib-2.32.patch

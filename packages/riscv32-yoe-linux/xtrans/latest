@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libto
 PACKAGES = xtrans-src xtrans-dbg xtrans-staticdev xtrans-dev xtrans-doc xtrans-locale xtrans
 LAYER = core
 CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/xtrans-1.4.0.tar.bz2 file://multilibfix.patch

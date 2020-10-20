@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0-native gnu-config-native gtk+
 PACKAGES = yad-src yad-dbg yad-staticdev yad-dev yad-doc yad yad-locale-de yad-locale-es yad-locale-fr yad-locale-it yad-locale-pt-br yad-locale-ru yad-locale-sk yad-locale-uk yad-locale-zh-tw
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/v1cont/yad.git

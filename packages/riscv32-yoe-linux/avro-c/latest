@@ -4,3 +4,4 @@ DEPENDS = cmake-native jansson ninja-native virtual/libc virtual/riscv32-yoe-lin
 PACKAGES = avro-c-src avro-c-dbg avro-c-staticdev avro-c-dev avro-c-doc avro-c-locale avro-c
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/apache/avro;branch=branch-1.9 file://0001-cmake-Use-GNUInstallDirs-instead-of-hard-coded-paths.patch;patchdir=../../

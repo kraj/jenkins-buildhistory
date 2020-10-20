@@ -4,3 +4,4 @@ DEPENDS = sg3-utils virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/
 PACKAGES = utp-com-src utp-com-dbg utp-com-staticdev utp-com-dev utp-com-doc utp-com-locale utp-com
 LAYER = freescale-layer
 CONFIG = 
+SRC_URI = git://github.com/Freescale/utp_com;protocol=https

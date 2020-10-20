@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = pcsc-lite-src pcsc-lite-dbg pcsc-lite pcsc-lite-dev pcsc-lite-lib pcsc-lite-doc pcsc-lite-spy pcsc-lite-spy-dev
 LAYER = openembedded-layer
 CONFIG = systemd udev
+SRC_URI = https://pcsclite.apdu.fr/files/pcsc-lite-1.9.0.tar.bz2 file://0001-pcsc-spy-use-python3-only.patch

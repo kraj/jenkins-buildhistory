@@ -4,3 +4,4 @@ DEPENDS = fontforge-native python3-native
 PACKAGES = ttf-lohit-src ttf-lohit-dbg ttf-lohit-staticdev ttf-lohit-dev ttf-lohit-doc ttf-lohit-locale ttf-lohit
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/pravins/lohit.git;branch=master

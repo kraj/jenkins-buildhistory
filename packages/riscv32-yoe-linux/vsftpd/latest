@@ -4,3 +4,4 @@ DEPENDS = base-files base-passwd libcap libpam openssl shadow shadow-native shad
 PACKAGES = vsftpd-src vsftpd-dbg vsftpd-staticdev vsftpd-dev vsftpd-doc vsftpd-locale vsftpd
 LAYER = networking-layer
 CONFIG = tcp-wrappers
+SRC_URI = https://security.appspot.com/downloads/vsftpd-3.0.3.tar.gz file://makefile-destdir.patch file://makefile-libs.patch file://makefile-strip.patch file://init file://vsftpd.conf file://vsftpd.user_list file://vsftpd.ftpusers file://change-secure_chroot_dir.patch file://volatiles.99_vsftpd file://vsftpd.service file://vsftpd-2.1.0-filter.patch file://0001-vsftpd-allow-syscalls-in-the-seccomp-sandbox.patch file://vsftpd-tcp_wrappers-support.patch file://0001-sysdeputil.c-Fix-with-musl-which-does-not-have-utmpx.patch

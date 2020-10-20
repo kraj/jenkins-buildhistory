@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bzip2 doxygen-native gnu-config-native
 PACKAGES = kronosnet-src kronosnet-dbg kronosnet-staticdev kronosnet-dev kronosnet-doc kronosnet-locale kronosnet
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/kronosnet/kronosnet;protocol=https;branch=stable1

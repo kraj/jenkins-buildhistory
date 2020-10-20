@@ -4,3 +4,4 @@ DEPENDS = libstemmer-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs 
 PACKAGES = libstemmer-src libstemmer-dbg libstemmer-staticdev libstemmer-dev libstemmer-doc libstemmer-locale libstemmer-bin libstemmer
 LAYER = gnome-layer
 CONFIG = 
+SRC_URI = git://github.com/snowballstem/snowball.git file://0001-Build-so-lib.patch file://0002-snowball-stemwords-do-link-with-LDFLAGS-set-by-build.patch

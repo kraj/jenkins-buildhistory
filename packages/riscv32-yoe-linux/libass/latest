@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native enca fontconfig freetype fribidi gnu-c
 PACKAGES = libass-src libass-dbg libass-tests libass-staticdev libass-dev libass-doc libass-locale libass
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libass/libass.git

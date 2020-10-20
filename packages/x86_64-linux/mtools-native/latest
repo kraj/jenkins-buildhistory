@@ -1,0 +1,7 @@
+PV = 4.0.24
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native texinfo-dummy-native virtual/libiconv-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/mtools/mtools-4.0.24.tar.bz2 file://mtools-makeinfo.patch file://no-x11.gplv3.patch file://clang_UNUSED.patch file://disable-hardcoded-configs.patch

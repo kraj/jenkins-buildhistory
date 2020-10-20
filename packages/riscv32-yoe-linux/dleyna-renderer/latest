@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dleyna-core glib-2.0 gnu-config-native
 PACKAGES = dleyna-renderer-src dleyna-renderer-dbg dleyna-renderer-staticdev dleyna-renderer-dev dleyna-renderer-doc dleyna-renderer-locale dleyna-renderer
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/01org/dleyna-renderer.git file://0001-add-gupnp-1.2-API-support.patch

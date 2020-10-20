@@ -1,0 +1,7 @@
+PV = 3.3
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native ncurses-native pkgconfig-native readline-native texinfo-dummy-native util-linux-native virtual/libiconv-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/parted/parted-3.3.tar.xz file://no_check.patch file://fix-doc-mandir.patch file://0002-libparted_fs_resize-link-against-libuuid-explicitly-.patch file://0001-Move-python-helper-scripts-used-only-in-tests-to-Pyt.patch file://run-ptest file://0001-libparted-fs-add-sourcedir-lib-to-include-paths.patch file://0002-tests-use-skip_-rather-than-skip_test_-which-is-unde.patch

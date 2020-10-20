@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = cmark-src cmark-dbg cmark-staticdev cmark-dev cmark-doc cmark-locale cmark-bin cmark
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/commonmark/cmark.git

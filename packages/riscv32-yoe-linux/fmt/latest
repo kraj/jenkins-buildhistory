@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = fmt-src fmt-dbg fmt-ptest fmt-staticdev fmt-dev fmt-doc fmt-locale fmt
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/fmtlib/fmt

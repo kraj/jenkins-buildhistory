@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = bootchart-src bootchart-dbg bootchart-staticdev bootchart-dev bootchart-doc bootchart-locale bootchart
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://gitorious.org/meego-developer-tools/bootchart.git;protocol=https file://0001-svg-add-rudimentary-support-for-ARM-cpuinfo.patch file://0002-svg-open-etc-os-release-and-use-PRETTY_NAME-for-the-.patch

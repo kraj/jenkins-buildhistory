@@ -4,3 +4,4 @@ DEPENDS = base-files base-passwd cmake-native dlt-daemon libwebsockets ninja-nat
 PACKAGES = mosquitto-src mosquitto-dbg mosquitto-staticdev mosquitto-dev mosquitto-doc mosquitto-locale mosquitto-examples mosquitto libmosquitto1 libmosquittopp1 mosquitto-clients
 LAYER = networking-layer
 CONFIG = dlt ssl systemd websockets
+SRC_URI = http://mosquitto.org/files/source/mosquitto-1.6.12.tar.gz file://mosquitto.init file://1571.patch file://install-protocol.patch

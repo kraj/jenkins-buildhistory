@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = rapidjson-src rapidjson-dbg rapidjson-staticdev rapidjson-dev rapidjson-doc rapidjson-locale rapidjson
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/miloyip/rapidjson.git;nobranch=1 file://0001-CMake-remove-hardcoded-CMAKECONFIG_INSTALL_DIR-path.patch

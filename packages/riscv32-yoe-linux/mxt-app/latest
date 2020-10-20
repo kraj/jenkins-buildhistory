@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = mxt-app-src mxt-app-dbg mxt-app-staticdev mxt-app-dev mxt-app-doc mxt-app-locale mxt-app
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/atmel-maxtouch/mxt-app.git

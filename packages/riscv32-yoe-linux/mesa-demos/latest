@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native freetype glew gnu-config-native libdrm
 PACKAGES = mesa-demos-src mesa-demos-dbg mesa-demos-staticdev mesa-demos-dev mesa-demos-doc mesa-demos-locale mesa-demos
 LAYER = core
 CONFIG = drm egl freetype2 gbm gles1 gles2 glew glu glx osmesa x11
+SRC_URI = https://mesa.freedesktop.org/archive/demos/mesa-demos-8.4.0.tar.bz2 file://0001-mesa-demos-Add-missing-data-files.patch file://0003-configure-Allow-to-disable-demos-which-require-GLEW-.patch file://0004-Use-DEMOS_DATA_DIR-to-locate-data-files.patch file://0007-Install-few-more-test-programs.patch file://0008-glsl-perf-Add-few-missing-.glsl-.vert-.frag-files-to.patch file://0009-glsl-perf-Install-.glsl-.vert-.frag-files.patch file://0012-mesa-demos-OpenVG-demos-with-single-frame-need-eglSw.patch file://0013-only-build-GLX-demos-if-needed.patch

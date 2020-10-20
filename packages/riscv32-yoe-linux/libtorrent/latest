@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cppunit gnu-config-native libsigc++-2.
 PACKAGES = libtorrent-src libtorrent-dbg libtorrent-staticdev libtorrent-dev libtorrent-doc libtorrent-locale libtorrent
 LAYER = openembedded-layer
 CONFIG = instrumentation
+SRC_URI = git://github.com/rakshasa/libtorrent file://don-t-run-code-while-configuring-package.patch

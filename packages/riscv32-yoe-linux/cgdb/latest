@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-
 PACKAGES = cgdb-src cgdb-dbg cgdb-staticdev cgdb-dev cgdb-doc cgdb-locale cgdb
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://cgdb.me/files/cgdb-0.7.1.tar.gz file://0001-Avoid-use-of-mips-which-is-reserved-on-mips.patch

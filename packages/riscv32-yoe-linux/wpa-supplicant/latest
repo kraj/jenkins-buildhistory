@@ -4,3 +4,4 @@ DEPENDS = dbus gnutls libgcrypt libnl pkgconfig-native systemd-systemctl-native 
 PACKAGES = wpa-supplicant-src wpa-supplicant-dbg wpa-supplicant-passphrase wpa-supplicant-cli wpa-supplicant-staticdev wpa-supplicant-dev wpa-supplicant-doc wpa-supplicant-locale wpa-supplicant
 LAYER = core
 CONFIG = gnutls
+SRC_URI = http://w1.fi/releases/wpa_supplicant-2.9.tar.gz file://defconfig file://wpa-supplicant.sh file://wpa_supplicant.conf file://wpa_supplicant.conf-sane file://99_wpa_supplicant file://0001-replace-systemd-install-Alias-with-WantedBy.patch file://0001-AP-Silently-ignore-management-frame-from-unexpected-.patch file://0001-WPS-UPnP-Do-not-allow-event-subscriptions-with-URLs-.patch file://0002-WPS-UPnP-Fix-event-message-generation-using-a-long-U.patch file://0003-WPS-UPnP-Handle-HTTP-initiation-failures-for-events-.patch

@@ -1,0 +1,7 @@
+PV = 2.6.4
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz file://run-ptest file://0001-tests-add-a-target-for-building-tests-without-runnin.patch file://disable-tests.patch file://0001-build-AC_USE_SYSTEM_EXTENSIONS-in-configure.ac.patch file://check-funcs.patch

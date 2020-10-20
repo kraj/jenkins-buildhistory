@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = dosfstools-src dosfstools-dbg dosfstools-staticdev dosfstools-dev dosfstools-doc dosfstools-locale dosfstools
 LAYER = core
 CONFIG = 
+SRC_URI = https://github.com/dosfstools/dosfstools/releases/download/v4.1/dosfstools-4.1.tar.xz

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libtar-src libtar-dbg libtar-staticdev libtar-dev libtar-doc libtar-locale libtar
 LAYER = openembedded-layer
 CONFIG = zlib
+SRC_URI = http://ftp.debian.org/debian/pool/main/libt/libtar/libtar_1.2.20.orig.tar.gz file://fix_libtool_sysroot.patch file://0002-Do-not-strip-libtar.patch

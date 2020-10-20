@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libsm libtool-cross 
 PACKAGES = startup-notification-src startup-notification-dbg startup-notification-staticdev startup-notification-dev startup-notification-doc startup-notification-locale startup-notification
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz file://obsolete_automake_macros.patch file://time_t.patch

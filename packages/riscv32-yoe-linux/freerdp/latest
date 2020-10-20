@@ -5,3 +5,4 @@ DEPENDS = alsa-lib cmake-native cups gstreamer1.0 gstreamer1.0-plugins-base libp
 PACKAGES = freerdp-src freerdp-dbg libfreerdp freerdp-staticdev freerdp-dev freerdp-doc freerdp-locale freerdp
 LAYER = openembedded-layer
 CONFIG = cups gstreamer pam pulseaudio wayland x11
+SRC_URI = git://github.com/FreeRDP/FreeRDP.git;branch=stable-2.0 file://winpr-makecert-Build-with-install-RPATH.patch

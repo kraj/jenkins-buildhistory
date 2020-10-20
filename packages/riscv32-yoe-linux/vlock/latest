@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libpam libtool-cross
 PACKAGES = vlock-src vlock-dbg vlock-staticdev vlock-dev vlock-doc vlock-locale vlock
 LAYER = openembedded-layer
 CONFIG = pam
+SRC_URI = http://distfiles.gentoo.org/distfiles/vlock-2.2.3.tar.gz file://disable_vlockrc.patch file://vlock_pam_tally2_reset.patch file://vlock-no_tally.patch file://vlock_pam

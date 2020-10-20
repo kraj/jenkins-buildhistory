@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = picocom-src picocom-dbg picocom-staticdev picocom-dev picocom-doc picocom-locale picocom
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/npat-efault/picocom file://0001-Fix-building-with-musl.patch

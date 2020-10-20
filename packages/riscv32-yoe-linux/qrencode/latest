@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = qrencode-src qrencode-dbg qrencode-staticdev qrencode-dev qrencode-doc qrencode-locale qrencode
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/fukuchi/libqrencode.git

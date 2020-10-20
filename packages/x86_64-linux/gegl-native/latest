@@ -1,0 +1,7 @@
+PV = 0.4.26
+PR = r0
+DEPENDS = babl-native cairo-native expat-native glib-2.0-native gobject-introspection-native intltool-native json-glib-native libpng-native librsvg-native meson-native ninja-native pango-native pkgconfig-native python3-native vala-native zlib-native
+PACKAGES = 
+LAYER = gnome-layer
+CONFIG = libpng librsvg
+SRC_URI = https://download.gimp.org/pub/gegl/0.4/gegl-0.4.26.tar.xz file://0001-meson.build-Give-note-if-sdl2-was-found.patch

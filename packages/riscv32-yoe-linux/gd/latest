@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native freetype gettext-native gnu-config-nat
 PACKAGES = gd-src gd-dbg gd-staticdev gd-dev gd-doc gd-locale gd gd-tools
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libgd/libgd.git;branch=master

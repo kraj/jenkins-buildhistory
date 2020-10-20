@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libto
 PACKAGES = mpich-src mpich-dbg mpich-staticdev mpich-dev mpich-doc mpich-locale mpich
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz

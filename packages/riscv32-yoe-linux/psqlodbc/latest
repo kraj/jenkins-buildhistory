@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = psqlodbc-src psqlodbc-dbg psqlodbc-ptest psqlodbc-staticdev psqlodbc-dev psqlodbc-doc psqlodbc-locale psqlodbc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-09.05.0300.tar.gz file://psqlodbc-remove-some-checks-for-cross-compiling.patch file://psqlodbc-donot-use-the-hardcode-libdir.patch file://psqlodbc-fix-for-ptest-support.patch file://run-ptest

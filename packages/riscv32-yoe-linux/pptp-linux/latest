@@ -4,3 +4,4 @@ DEPENDS = perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtua
 PACKAGES = pptp-linux-src pptp-linux-dbg pptp-linux-staticdev pptp-linux-dev pptp-linux-doc pptp-linux-locale pptp-linux
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/sourceforge/pptpclient/pptp-1.10.0.tar.gz file://options.pptp

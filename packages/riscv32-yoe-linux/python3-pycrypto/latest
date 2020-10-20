@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gmp gnu-config-native libtool-cross li
 PACKAGES = python3-pycrypto-src python3-pycrypto-dbg python3-pycrypto-staticdev python3-pycrypto-dev python3-pycrypto-doc python3-pycrypto-locale python3-pycrypto
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz file://cross-compiling.patch file://CVE-2013-7459.patch file://0001-Replace-time.clock-with-time.process_time.patch

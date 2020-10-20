@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cro
 PACKAGES = pkgconfig-src pkgconfig-dbg pkgconfig-staticdev pkgconfig-dev pkgconfig-doc pkgconfig-locale pkgconfig
 LAYER = core
 CONFIG = glib
+SRC_URI = git://anongit.freedesktop.org/pkg-config file://pkg-config-esdk.in file://pkg-config-native.in file://fix-glib-configure-libtool-usage.patch file://0001-glib-gettext.m4-Update-AM_GLIB_GNU_GETTEXT-to-match-.patch

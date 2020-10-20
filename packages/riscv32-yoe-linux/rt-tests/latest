@@ -5,3 +5,4 @@ DEPENDS = linux-libc-headers virtual/libc virtual/libc virtual/riscv32-yoe-linux
 PACKAGES = rt-tests-src rt-tests-dbg rt-tests-ptest rt-tests-staticdev rt-tests-dev rt-tests-doc rt-tests-locale rt-tests
 LAYER = core
 CONFIG = 
+SRC_URI = git://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git file://run-ptest file://rt_bmark.py file://0001-gzip-with-n-for-build-reproducibilty.patch

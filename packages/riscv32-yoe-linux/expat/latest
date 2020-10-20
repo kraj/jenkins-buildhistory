@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = expat-src expat-dbg expat-ptest expat-staticdev expat-dev expat-doc expat-locale expat-bin expat
 LAYER = core
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/expat/expat-2.2.9.tar.bz2 file://libtool-tag.patch file://run-ptest file://0001-Add-output-of-tests-result.patch

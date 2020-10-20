@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = dfu-util-src dfu-util-dbg dfu-util-staticdev dfu-util-dev dfu-util-doc dfu-util-locale dfu-util
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://dfu-util.sourceforge.net/releases/dfu-util-0.9.tar.gz

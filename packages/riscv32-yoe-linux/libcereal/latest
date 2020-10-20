@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = libcereal-src libcereal-dbg libcereal-staticdev libcereal-dev libcereal-doc libcereal-locale libcereal
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/USCiLab/cereal.git

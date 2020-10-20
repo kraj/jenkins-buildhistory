@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native json-
 PACKAGES = cryptsetup-src cryptsetup-dbg cryptsetup-staticdev cryptsetup-dev cryptsetup-doc cryptsetup cryptsetup-locale-cs cryptsetup-locale-da cryptsetup-locale-de cryptsetup-locale-es cryptsetup-locale-fi cryptsetup-locale-fr cryptsetup-locale-id cryptsetup-locale-it cryptsetup-locale-ja cryptsetup-locale-nl cryptsetup-locale-pl cryptsetup-locale-pt-br cryptsetup-locale-ru cryptsetup-locale-sr cryptsetup-locale-sv cryptsetup-locale-uk cryptsetup-locale-vi cryptsetup-locale-zh-cn
 LAYER = openembedded-layer
 CONFIG = blkid cryptsetup cryptsetup-reencrypt integritysetup internal-argon2 kernel_crypto keyring luks-adjust-xts-keysize openssl udev veritysetup
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/cryptsetup/v2.3/cryptsetup-2.3.4.tar.xz

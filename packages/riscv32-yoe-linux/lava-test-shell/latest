@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = lava-test-shell-src lava-test-shell-dbg lava-test-shell-staticdev lava-test-shell-dev lava-test-shell-doc lava-test-shell-locale lava-test-shell
 LAYER = qcom
 CONFIG = 
+SRC_URI = git://git.linaro.org/lava/lava-dispatcher.git;branch=release;protocol=https

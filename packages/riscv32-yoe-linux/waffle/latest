@@ -4,3 +4,4 @@ DEPENDS = bash-completion libx11 libxcb meson-native ninja-native python3 python
 PACKAGES = waffle-src waffle-dbg waffle-staticdev waffle-dev waffle-doc waffle-locale waffle-bin waffle waffle-bash-completion
 LAYER = core
 CONFIG = gbm glx surfaceless-egl wayland x11-egl
+SRC_URI = http://waffle-gl.org/files/release/waffle-1.6.1/waffle-1.6.1.tar.xz file://0001-meson-Add-missing-wayland-dependency-on-EGL.patch file://0002-meson-Separate-surfaceless-option-from-x11.patch

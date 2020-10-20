@@ -4,3 +4,4 @@ DEPENDS = aspell cmake-native curl gnutls icu libgcrypt ncurses ninja-native ope
 PACKAGES = weechat-src weechat-dbg weechat-staticdev weechat-dev weechat-doc weechat-locale weechat
 LAYER = networking-layer
 CONFIG = ncurses python
+SRC_URI = https://weechat.org/files/src/weechat-2.9.tar.xz file://0001-use-pkg-config-for-gcrypt-instead.patch

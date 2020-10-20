@@ -4,3 +4,4 @@ DEPENDS = bison-native cmake-native ethtool flex-native geoip libnet libpcap lib
 PACKAGES = ettercap-src ettercap-dbg ettercap-staticdev ettercap-dev ettercap-doc ettercap-locale ettercap
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = gitsm://github.com/Ettercap/ettercap

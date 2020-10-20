@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = fdk-aac-src fdk-aac-dbg fdk-aac-staticdev fdk-aac-dev fdk-aac-doc fdk-aac-locale fdk-aac
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/mstorsjo/fdk-aac.git;protocol=git;branch=master

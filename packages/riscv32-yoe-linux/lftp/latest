@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native expat gettext-native gnu-config-native
 PACKAGES = lftp-src lftp-dbg lftp-staticdev lftp-dev lftp-doc lftp lftp-locale-cs lftp-locale-de lftp-locale-es lftp-locale-fr lftp-locale-it lftp-locale-ja lftp-locale-ko lftp-locale-pl lftp-locale-pt-br lftp-locale-ru lftp-locale-uk lftp-locale-zh-cn lftp-locale-zh-hk lftp-locale-zh-tw
 LAYER = networking-layer
 CONFIG = expat gnutls openssl readline zlib
+SRC_URI = http://lftp.yar.ru/ftp/lftp-4.9.2.tar.bz2

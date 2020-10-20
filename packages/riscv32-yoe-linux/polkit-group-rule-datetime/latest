@@ -4,3 +4,4 @@ DEPENDS = base-files base-passwd polkit shadow shadow-native shadow-sysroot virt
 PACKAGES = polkit-group-rule-datetime-src polkit-group-rule-datetime-dbg polkit-group-rule-datetime-staticdev polkit-group-rule-datetime-dev polkit-group-rule-datetime-doc polkit-group-rule-datetime-locale polkit-group-rule-datetime
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = file://50-org.freedesktop.timedate1.rules

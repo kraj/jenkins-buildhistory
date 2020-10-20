@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = initramfs-framework-src initramfs-framework-base initramfs-module-exec initramfs-module-mdev initramfs-module-udev initramfs-module-e2fs initramfs-module-nfsrootfs initramfs-module-rootfs initramfs-module-debug initramfs-module-lvm
 LAYER = core
 CONFIG = 
+SRC_URI = file://init file://exec file://nfsrootfs file://rootfs file://finish file://mdev file://udev file://e2fs file://debug file://lvm

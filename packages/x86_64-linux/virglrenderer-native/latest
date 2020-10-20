@@ -1,0 +1,7 @@
+PV = 0.8.2
+PR = r0
+DEPENDS = libdrm-native libepoxy-native meson-native ninja-native pkgconfig-native python3-native virtual/libgl-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = git://anongit.freedesktop.org/virglrenderer file://0001-gallium-Expand-libc-check-to-be-platform-OS-check.patch file://0001-meson.build-use-python3-directly-for-python.patch

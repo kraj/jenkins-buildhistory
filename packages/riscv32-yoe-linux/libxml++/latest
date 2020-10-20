@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glibmm gnu-config-native libtool-cross
 PACKAGES = libxml++-src libxml++-dbg libxml++-ptest libxml++-staticdev libxml++-dev libxml++-doc libxml++-locale libxml++
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/libxml++/2.40/libxml++-2.40.1.tar.xz file://libxml++_ptest.patch file://run-ptest

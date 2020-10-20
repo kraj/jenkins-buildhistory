@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = wlconf-src wlconf-dbg wlconf-staticdev wlconf-dev wlconf-doc wlconf-locale wlconf
 LAYER = meta-ti
 CONFIG = 
+SRC_URI = git://git.ti.com/wilink8-wlan/18xx-ti-utils.git

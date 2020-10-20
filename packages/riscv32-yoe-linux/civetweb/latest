@@ -4,3 +4,4 @@ DEPENDS = (=1.0.2%) cmake-native openssl virtual/libc virtual/riscv32-yoe-linux-
 PACKAGES = civetweb-src civetweb-dbg civetweb-staticdev civetweb-dev civetweb-doc civetweb-locale civetweb
 LAYER = networking-layer
 CONFIG = caching ipv6 server ssl websockets
+SRC_URI = git://github.com/civetweb/civetweb.git file://0001-Unittest-Link-librt-and-libm-using-l-option.patch

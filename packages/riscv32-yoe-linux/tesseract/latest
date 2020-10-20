@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native leptonica libtool-cr
 PACKAGES = tesseract-src tesseract-dbg tesseract-staticdev tesseract-dev tesseract-doc tesseract-locale tesseract
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/tesseract-ocr/tesseract.git;branch=4.1 file://0001-include-sys-time.h.patch

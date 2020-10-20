@@ -4,3 +4,4 @@ DEPENDS = util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual
 PACKAGES = abootimg-src abootimg-dbg abootimg-staticdev abootimg-dev abootimg-doc abootimg-locale abootimg
 LAYER = meta-96boards
 CONFIG = 
+SRC_URI = git://gitorious.org/ac100/abootimg.git;protocol=https

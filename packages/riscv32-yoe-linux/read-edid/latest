@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = read-edid-src read-edid-dbg read-edid-staticdev read-edid-dev read-edid-doc read-edid-locale read-edid
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://polypux.org/projects/read-edid/read-edid-3.0.2.tar.gz file://0001-Do-not-install-license-file.patch file://0001-get-edid-define-quiet-once.patch

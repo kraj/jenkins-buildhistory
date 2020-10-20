@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = mailx-src mailx-dbg mailx-staticdev mailx-dev mailx-doc mailx-locale mailx
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://snapshot.debian.org/archive/debian/20160728T043443Z/pool/main/h/heirloom-mailx/heirloom-mailx_12.5.orig.tar.gz;name=archive file://0001-Don-t-reuse-weak-symbol-optopt-to-fix-FTBFS-on-mips.patch file://0002-Patched-out-SSL2-support-since-it-is-no-longer-suppo.patch file://0003-Fixed-Lintian-warning-warning-macro-N-not-defined.patch file://0011-outof-Introduce-expandaddr-flag.patch file://0012-unpack-Disable-option-processing-for-email-addresses.patch file://0013-fio.c-Unconditionally-require-wordexp-support.patch file://0014-globname-Invoke-wordexp-with-WRDE_NOCMD.patch file://0015-usr-sbin-sendmail.patch file://explicitly.disable.krb5.support.patch file://0001-support-openssl-1.1.x.patch

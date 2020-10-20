@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = rsnapshot-src rsnapshot-dbg rsnapshot-staticdev rsnapshot-dev rsnapshot-doc rsnapshot-locale rsnapshot
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/DrHyde/rsnapshot;branch=master;protocol=git file://configure-fix-cmd_rsync.patch

@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native util-linux virtual/libc virtual/riscv32-yoe-
 PACKAGES = crossguid-src crossguid-dbg crossguid-staticdev crossguid-dev crossguid-doc crossguid-locale crossguid
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/graeme-hill/crossguid;protocol=https

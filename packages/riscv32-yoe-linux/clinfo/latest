@@ -4,3 +4,4 @@ DEPENDS = opencl-headers opencl-icd-loader virtual/libc virtual/riscv32-yoe-linu
 PACKAGES = clinfo-src clinfo-dbg clinfo-staticdev clinfo-dev clinfo-doc clinfo-locale clinfo
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Oblomov/clinfo.git;protocol=https

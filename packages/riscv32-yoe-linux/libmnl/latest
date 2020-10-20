@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libmnl-src libmnl-dbg libmnl-staticdev libmnl-dev libmnl-doc libmnl-locale libmnl
 LAYER = core
 CONFIG = 
+SRC_URI = https://netfilter.org/projects/libmnl/files/libmnl-1.0.4.tar.bz2;name=tar

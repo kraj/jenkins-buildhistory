@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = rpcbind-src rpcbind-dbg rpcbind-staticdev rpcbind-dev rpcbind-doc rpcbind-locale rpcbind
 LAYER = core
 CONFIG = systemd
+SRC_URI = https://downloads.sourceforge.net/rpcbind/rpcbind-1.2.5.tar.bz2 file://init.d file://rpcbind.conf file://rpcbind_add_option_to_fix_port_number.patch file://0001-systemd-use-EnvironmentFile.patch

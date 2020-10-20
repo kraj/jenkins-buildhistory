@@ -4,3 +4,4 @@ DEPENDS = cairo fontconfig freetype glib-2.0 gobject-introspection gobject-intro
 PACKAGES = harfbuzz-src harfbuzz-dbg harfbuzz-icu harfbuzz-icu-dev harfbuzz-subset harfbuzz-staticdev harfbuzz-dev harfbuzz-doc harfbuzz-locale harfbuzz-bin harfbuzz
 LAYER = core
 CONFIG = cairo fontconfig freetype glib icu icu
+SRC_URI = https://github.com/harfbuzz/harfbuzz/releases/download/2.7.2/harfbuzz-2.7.2.tar.xz file://0001-Do-not-disable-introspection-in-cross-builds.patch file://0001-src-hb-gobject-enums.cc.tmpl-write-out-only-the-file.patch file://version-race.patch

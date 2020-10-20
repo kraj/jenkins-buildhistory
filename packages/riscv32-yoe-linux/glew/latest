@@ -4,3 +4,4 @@ DEPENDS = libglu libxext libxi libxmu pkgconfig-native virtual/libc virtual/libg
 PACKAGES = glew-src glew-dbg glew-staticdev glew-dev glew-doc glew-locale glew-bin glew
 LAYER = core
 CONFIG = opengl
+SRC_URI = https://downloads.sourceforge.net/project/glew/glew/2.2.0/glew-2.2.0.tgz file://no-strip.patch

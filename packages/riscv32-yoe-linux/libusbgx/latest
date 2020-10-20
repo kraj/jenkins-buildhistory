@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libconfig libtool-cr
 PACKAGES = libusbgx-src libusbgx-dbg libusbgx-staticdev libusbgx-dev libusbgx-doc libusbgx-locale libusbgx
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/libusbgx/libusbgx.git;branch=master file://gadget-start file://usbgx.initd file://usbgx.service

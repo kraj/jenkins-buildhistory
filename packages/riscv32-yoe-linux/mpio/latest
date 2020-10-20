@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = mpio-src mpio-dbg mpio
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/linux4sam/mpio.git;branch=master;protocol=https

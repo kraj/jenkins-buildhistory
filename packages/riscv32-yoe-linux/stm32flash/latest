@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = stm32flash-src stm32flash-dbg stm32flash-staticdev stm32flash-dev stm32flash-doc stm32flash-locale stm32flash
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/stm32flash/stm32flash-0.5.tar.gz

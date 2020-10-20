@@ -4,3 +4,4 @@ DEPENDS = libterm-readkey-perl-native perl perl-native virtual/libc virtual/risc
 PACKAGES = libterm-readkey-perl-src libterm-readkey-perl-dbg libterm-readkey-perl-ptest libterm-readkey-perl-staticdev libterm-readkey-perl-dev libterm-readkey-perl-doc libterm-readkey-perl-locale libterm-readkey-perl
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-2.38.tar.gz file://ptest-perl/run-ptest

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtalloc libtool-cr
 PACKAGES = cifs-utils-src cifs-utils-dbg cifs-utils-staticdev cifs-utils-dev cifs-utils-doc cifs-utils-locale cifs-utils
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://git.samba.org/cifs-utils.git file://0001-Bugfix-Modify-the-dir-of-install-exec-hook-and.patch

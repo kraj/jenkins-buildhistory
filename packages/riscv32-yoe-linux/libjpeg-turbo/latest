@@ -5,3 +5,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = libjpeg-turbo-src libjpeg-turbo-dbg jpeg-tools libturbojpeg libjpeg-turbo-staticdev libjpeg-turbo-dev libjpeg-turbo-doc libjpeg-turbo-locale libjpeg-turbo
 LAYER = core
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.0.5.tar.gz file://0001-libjpeg-turbo-fix-package_qa-error.patch

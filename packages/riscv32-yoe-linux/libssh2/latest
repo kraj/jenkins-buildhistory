@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libssh2-src libssh2-dbg libssh2-ptest libssh2-staticdev libssh2-dev libssh2-doc libssh2-locale libssh2
 LAYER = openembedded-layer
 CONFIG = openssl
+SRC_URI = http://www.libssh2.org/download/libssh2-1.9.0.tar.gz file://CVE-2019-17498.patch file://run-ptest

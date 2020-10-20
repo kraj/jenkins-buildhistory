@@ -1,0 +1,7 @@
+PV = 4.16.0
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native gtk-doc-native libtool-native pkgconfig-native python3-native texinfo-dummy-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.16.0.tar.gz file://dont-depend-on-help2man.patch

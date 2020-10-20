@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = jasper-src jasper-dbg jasper-staticdev jasper-dev jasper-doc jasper-locale jasper
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/jasper-software/jasper.git;protocol=https

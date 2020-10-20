@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = babeld-src babeld-dbg babeld-staticdev babeld-dev babeld-doc babeld-locale babeld
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/jech/babeld.git;protocol=git

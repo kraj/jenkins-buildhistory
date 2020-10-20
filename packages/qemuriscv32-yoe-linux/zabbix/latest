@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = zabbix-src zabbix-dbg zabbix-staticdev zabbix-dev zabbix-doc zabbix-locale zabbix
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://jaist.dl.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/4.4.6/zabbix-4.4.6.tar.gz file://0001-Fix-configure.ac.patch file://zabbix-agent.service

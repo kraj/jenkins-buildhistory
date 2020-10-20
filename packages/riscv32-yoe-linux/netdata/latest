@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-nati
 PACKAGES = netdata-src netdata-dbg netdata-staticdev netdata-dev netdata-doc netdata-locale netdata
 LAYER = webserver
 CONFIG = 
+SRC_URI = git://github.com/firehol/netdata.git;protocol=https file://netdata.conf file://netdata.service

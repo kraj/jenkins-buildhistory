@@ -4,3 +4,4 @@ DEPENDS = libcrypt-openssl-guess-perl-native openssl perl perl-native virtual/li
 PACKAGES = libcrypt-openssl-rsa-perl-src libcrypt-openssl-rsa-perl-dbg libcrypt-openssl-rsa-perl-ptest libcrypt-openssl-rsa-perl-staticdev libcrypt-openssl-rsa-perl-dev libcrypt-openssl-rsa-perl-doc libcrypt-openssl-rsa-perl-locale libcrypt-openssl-rsa-perl
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = http://www.cpan.org/modules/by-module/Crypt/Crypt-OpenSSL-RSA-0.31.tar.gz file://ptest-perl/run-ptest

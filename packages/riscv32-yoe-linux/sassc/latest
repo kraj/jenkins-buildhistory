@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libsass libtool-cros
 PACKAGES = sassc-src sassc-dbg sassc-staticdev sassc-dev sassc-doc sassc-locale sassc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/sass/sassc.git

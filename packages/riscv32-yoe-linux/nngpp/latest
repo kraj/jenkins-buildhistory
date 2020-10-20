@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native nng virtual/libc virtual/riscv32-yoe-linux-c
 PACKAGES = nngpp-src nngpp-dbg nngpp-staticdev nngpp-dev nngpp-doc nngpp-locale nngpp
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/cwzx/nngpp

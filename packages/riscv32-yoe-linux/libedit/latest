@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libedit-src libedit-dbg libedit-staticdev libedit-dev libedit-doc libedit-locale libedit
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.thrysoee.dk/editline/libedit-20191231-3.1.tar.gz file://stdc-predef.patch

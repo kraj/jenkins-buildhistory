@@ -4,3 +4,4 @@ DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native libtool-cro
 PACKAGES = libsdl2-src libsdl2-dbg libsdl2-staticdev libsdl2-dev libsdl2-doc libsdl2-locale libsdl2-bin libsdl2
 LAYER = core
 CONFIG = alsa gles2 opengl pulseaudio wayland x11
+SRC_URI = http://www.libsdl.org/release/SDL2-2.0.12.tar.gz file://more-gen-depends.patch

@@ -4,3 +4,4 @@ DEPENDS = acl attr docbook-xsl-stylesheets-native libtalloc libtirpc libxslt-nat
 PACKAGES = libtevent-src libtevent-dbg libtevent-staticdev libtevent-dev libtevent-doc libtevent-locale libtevent python3-tevent
 LAYER = networking-layer
 CONFIG = acl attr
+SRC_URI = https://samba.org/ftp/tevent/tevent-0.10.1.tar.gz file://options-0.10.0.patch file://0001-libtevent-fix-musl-libc-compile-error.patch file://0001-waf-add-support-of-cross_compile.patch

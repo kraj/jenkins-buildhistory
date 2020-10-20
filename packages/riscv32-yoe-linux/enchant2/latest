@@ -4,3 +4,4 @@ DEPENDS = aspell autoconf-native automake-native glib-2.0 gnu-config-native libt
 PACKAGES = enchant2-src enchant2-dbg enchant2-staticdev enchant2-dev enchant2-doc enchant2-locale enchant2
 LAYER = core
 CONFIG = aspell
+SRC_URI = https://github.com/AbiWord/enchant/releases/download/v2.2.9/enchant-2.2.9.tar.gz

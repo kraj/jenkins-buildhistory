@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native flex-native fontconfig fr
 PACKAGES = fvwm-src fvwm-dbg fvwm fvwm-locale-ar fvwm-locale-da fvwm-locale-de fvwm-locale-es fvwm-locale-fr fvwm-locale-ru fvwm-locale-sv-se fvwm-locale-zh-cn
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/fvwmorg/fvwm.git;protocol=https file://0001-Fix-compilation-for-disabled-gnome.patch

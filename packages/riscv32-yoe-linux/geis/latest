@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus dbus-glib frame gnu-config-native
 PACKAGES = geis-src geis-dbg geis-staticdev geis-dev geis-doc geis-locale geis-bin geis
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://launchpad.net/geis/trunk/2.2.17/+download/geis-2.2.17.tar.xz file://fix-indentation-for-gcc6.patch file://0001-libgeis-Compare-the-first-character-of-string-to-nul.patch

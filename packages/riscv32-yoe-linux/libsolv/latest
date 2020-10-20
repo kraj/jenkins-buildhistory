@@ -4,3 +4,4 @@ DEPENDS = cmake-native expat ninja-native virtual/libc virtual/riscv32-yoe-linux
 PACKAGES = libsolv-src libsolv-dbg libsolv-tools libsolvext libsolv-staticdev libsolv-dev libsolv-doc libsolv-locale libsolv
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/openSUSE/libsolv.git

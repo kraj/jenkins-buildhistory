@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xmlstarlet-src xmlstarlet-dbg xmlstarlet-staticdev xmlstarlet-dev xmlstarlet-doc xmlstarlet-locale xmlstarlet
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/xmlstar/xmlstarlet-1.6.1.tar.gz file://configure.ac.patch file://0001-usage2c.awk-fix-wrong-basename-regexp.patch

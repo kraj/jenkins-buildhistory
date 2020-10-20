@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = iperf3-src iperf3-dbg iperf3-staticdev iperf3-dev iperf3-doc iperf3-locale iperf3
 LAYER = openembedded-layer
 CONFIG = openssl
+SRC_URI = git://github.com/esnet/iperf.git file://0002-Remove-pg-from-profile_CFLAGS.patch

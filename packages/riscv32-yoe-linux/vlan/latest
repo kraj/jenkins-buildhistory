@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = vlan-src vlan-dbg vlan-staticdev vlan-dev vlan-doc vlan-locale vlan
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/vlan/1.9-3ubuntu10.6/vlan_1.9.orig.tar.gz file://no-HOME-includes.patch file://0001-Add-printf-format-and-silence-format-security-warnin.patch

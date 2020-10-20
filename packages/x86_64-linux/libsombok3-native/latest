@@ -1,0 +1,7 @@
+PV = 2.4.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
+PACKAGES = 
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/hatukanezumi/sombok.git;protocol=https file://0001-configure.ac-fix-cross-compiling-issue.patch

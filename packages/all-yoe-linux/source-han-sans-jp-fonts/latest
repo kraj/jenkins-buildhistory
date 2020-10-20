@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = source-han-sans-jp-fonts-src source-han-sans-jp-fonts-dbg source-han-sans-jp-fonts-staticdev source-han-sans-jp-fonts-dev source-han-sans-jp-fonts-doc source-han-sans-jp-fonts-locale source-han-sans-jp-fonts
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansJP.zip file://44-source-han-sans-jp.conf

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native gnutls libidn2 libto
 PACKAGES = curl-src curl-dbg libcurl curl-staticdev curl-dev curl-doc curl-locale curl
 LAYER = core
 CONFIG = gnutls ipv6 libidn proxy threaded-resolver verbose zlib
+SRC_URI = https://curl.haxx.se/download/curl-7.72.0.tar.bz2 file://0001-replace-krb5-config-with-pkg-config.patch

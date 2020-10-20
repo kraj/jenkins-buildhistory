@@ -4,3 +4,4 @@ DEPENDS = alsa-lib autoconf-native automake-native glib-2.0 gnu-config-native gt
 PACKAGES = alsa-tools-src alsa-tools-dbg alsa-tools-staticdev alsa-tools-dev alsa-tools-doc alsa-tools-locale alsa-tools
 LAYER = core
 CONFIG = as10k1 hda-verb hdajackretask hdajacksensetest hdsploader ld10k1 mixartloader pcxhrloader sb16_csp seq--sbiload sscape_ctl us428control usx2yloader vxloader
+SRC_URI = https://www.alsa-project.org/files/pub/tools/alsa-tools-1.2.2.tar.bz2

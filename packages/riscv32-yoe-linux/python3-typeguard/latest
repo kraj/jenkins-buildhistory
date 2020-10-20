@@ -4,3 +4,4 @@ DEPENDS = python3 python3-distutils-extra-native python3-native python3-native p
 PACKAGES = python3-typeguard-src python3-typeguard-dbg python3-typeguard-ptest python3-typeguard-staticdev python3-typeguard-dev python3-typeguard-doc python3-typeguard-locale python3-typeguard
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/t/typeguard/typeguard-2.9.1.tar.gz file://run-ptest

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = softhsm-src softhsm-dbg softhsm-staticdev softhsm-dev softhsm-doc softhsm-locale softhsm
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/opendnssec/SoftHSMv2.git;branch=master

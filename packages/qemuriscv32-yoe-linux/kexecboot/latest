@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = kexecboot-src kexecboot-dbg kexecboot-staticdev kexecboot-dev kexecboot-doc kexecboot-locale kexecboot
 LAYER = meta-initramfs
 CONFIG = 
+SRC_URI = git://github.com/kexecboot/kexecboot.git

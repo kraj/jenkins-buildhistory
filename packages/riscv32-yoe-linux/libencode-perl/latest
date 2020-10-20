@@ -4,3 +4,4 @@ DEPENDS = perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs v
 PACKAGES = libencode-perl-src libencode-perl-dbg libencode-perl-ptest libencode-perl-staticdev libencode-perl-dev libencode-perl-doc libencode-perl-locale libencode-perl
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/D/DA/DANKOGAI/Encode-3.07.tar.gz file://ptest-perl/run-ptest

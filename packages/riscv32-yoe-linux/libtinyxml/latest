@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = libtinyxml-src libtinyxml-dbg libtinyxml-staticdev libtinyxml-dev libtinyxml-doc libtinyxml-locale libtinyxml
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/tinyxml/tinyxml_2_6_2.tar.gz file://enforce-use-stl.patch file://entity-encoding.patch

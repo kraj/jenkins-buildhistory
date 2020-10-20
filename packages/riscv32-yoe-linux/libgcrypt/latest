@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libcap libgpg-error 
 PACKAGES = libgcrypt-src libgcrypt-dbg dumpsexp-dev libgcrypt-staticdev libgcrypt-dev libgcrypt-doc libgcrypt-locale libgcrypt
 LAYER = core
 CONFIG = capabilities
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.6.tar.bz2 file://0001-libgcrypt-fix-m4-file-for-oe-core.patch file://0003-tests-bench-slope.c-workaround-ICE-failure-on-mips-w.patch file://0002-libgcrypt-fix-building-error-with-O2-in-sysroot-path.patch file://0004-tests-Makefile.am-fix-undefined-reference-to-pthread.patch file://0001-Prefetch-GCM-look-up-tables.patch file://0002-AES-move-look-up-tables-to-.data-section-and-unshare.patch file://0003-GCM-move-look-up-table-to-.data-section-and-unshare-.patch file://determinism.patch

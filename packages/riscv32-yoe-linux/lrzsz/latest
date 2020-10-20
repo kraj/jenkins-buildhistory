@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libto
 PACKAGES = lrzsz-src lrzsz-dbg lrzsz-staticdev lrzsz-dev lrzsz-doc lrzsz-locale lrzsz
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz file://autotools-update.patch file://autotools.patch file://makefile.patch file://lrzsz-check-locale.h.patch file://cve-2018-10195.patch file://include.patch

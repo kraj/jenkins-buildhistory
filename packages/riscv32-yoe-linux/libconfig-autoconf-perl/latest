@@ -4,3 +4,4 @@ DEPENDS = perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs v
 PACKAGES = libconfig-autoconf-perl-src libconfig-autoconf-perl-dbg libconfig-autoconf-perl-ptest libconfig-autoconf-perl-staticdev libconfig-autoconf-perl-dev libconfig-autoconf-perl-doc libconfig-autoconf-perl-locale libconfig-autoconf-perl
 LAYER = perl-layer
 CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/R/RE/REHSACK/Config-AutoConf-0.318.tar.gz file://ptest-perl/run-ptest

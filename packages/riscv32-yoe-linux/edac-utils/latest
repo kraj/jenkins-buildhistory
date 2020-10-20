@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = edac-utils-src edac-utils-dbg edac-utils-staticdev edac-utils-dev edac-utils-doc edac-utils-locale edac-utils
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/grondo/edac-utils file://make-init-script-be-able-to-automatically-load-EDAC-.patch file://add-restart-to-initscript.patch file://edac.service

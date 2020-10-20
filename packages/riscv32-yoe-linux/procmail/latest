@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libnet libtool-cross
 PACKAGES = procmail-src procmail-dbg procmail-staticdev procmail-dev procmail-doc procmail-locale procmail
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.ring.gr.jp/archives/net/mail/procmail/procmail-3.22.tar.gz file://from-debian-to-fix-compile-errors.patch file://from-debian-to-modify-parameters.patch file://from-debian-to-fix-man-file.patch file://man-file-mailstat.1-from-debian.patch

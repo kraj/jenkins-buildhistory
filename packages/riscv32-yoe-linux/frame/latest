@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = frame-src frame-dbg frame-staticdev frame-dev frame-doc frame-locale frame-test frame
 LAYER = openembedded-layer
 CONFIG = x11
+SRC_URI = https://launchpad.net/frame/trunk/v2.5.0/+download/frame-2.5.0.tar.gz file://pessimizing-move.patch

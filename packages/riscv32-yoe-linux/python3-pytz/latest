@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-pytz-src python3-pytz-dbg python3-pytz-ptest python3-pytz-staticdev python3-pytz-dev python3-pytz-doc python3-pytz-locale python3-pytz
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/p/pytz/pytz-2020.1.tar.gz file://run-ptest

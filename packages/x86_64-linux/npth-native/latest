@@ -1,0 +1,7 @@
+PV = 1.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2 file://pkgconfig.patch

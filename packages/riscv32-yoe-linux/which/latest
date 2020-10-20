@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native cwautomacros-native gnu-config-native 
 PACKAGES = which-src which-dbg which-staticdev which-dev which-doc which-locale which
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/which/which-2.21.tar.gz file://automake.patch

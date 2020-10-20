@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libsoc-src libsoc-dbg libsoc-staticdev libsoc-dev libsoc-doc libsoc-locale libsoc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/jackmitch/libsoc.git

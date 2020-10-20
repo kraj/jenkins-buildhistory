@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = luaposix-src luaposix-dbg luaposix-staticdev luaposix-dev luaposix-doc luaposix-locale luaposix
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/luaposix/luaposix.git;branch=release file://0001-fix-avoid-race-condition-between-test-and-mkdir.patch

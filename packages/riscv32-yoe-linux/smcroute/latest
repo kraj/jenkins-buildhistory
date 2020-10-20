@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = smcroute-src smcroute-dbg smcroute-staticdev smcroute-dev smcroute-doc smcroute-locale smcroute
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://github.com/troglobit/smcroute.git;branch=master;protocol=git

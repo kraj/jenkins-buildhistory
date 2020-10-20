@@ -1,0 +1,7 @@
+PV = 1.9.0+gitAUTOINC+cca0d7f15b
+PR = r0
+DEPENDS = attr-native pkgconfig-native sqlite3-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = git://git.yoctoproject.org/pseudo;branch=oe-core file://0001-configure-Prune-PIE-flags.patch file://integrity_op.patch file://fallback-passwd file://fallback-group

@@ -4,3 +4,4 @@ DEPENDS = meson-native ninja-native pkgconfig-native python3-native virtual/libc
 PACKAGES = parallel-deqp-runner-src parallel-deqp-runner-dbg parallel-deqp-runner-staticdev parallel-deqp-runner-dev parallel-deqp-runner-doc parallel-deqp-runner-locale parallel-deqp-runner
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://gitlab.freedesktop.org/mesa/parallel-deqp-runner.git;protocol=https file://0001-meson.build-WORKAROUND-Remove-vulkan-dependency.patch

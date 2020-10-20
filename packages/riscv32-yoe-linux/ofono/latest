@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bluez5 dbus ell glib-2.0 gnu-config-na
 PACKAGES = ofono-src ofono-dbg ofono-tests ofono-staticdev ofono-dev ofono-doc ofono-locale ofono
 LAYER = core
 CONFIG = bluez systemd
+SRC_URI = https://cdn.kernel.org/pub/linux/network/ofono/ofono-1.31.tar.xz file://ofono file://0001-mbim-add-an-optional-TEMP_FAILURE_RETRY-macro-copy.patch

@@ -4,3 +4,4 @@ DEPENDS = boost cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux
 PACKAGES = json-spirit-src json-spirit-dbg json-spirit-staticdev json-spirit-dev json-spirit-doc json-spirit-locale json-spirit
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = file://json_spirit_v4.08.zip file://0001-Adjust-the-cmake-files.patch file://0001-Link-to-libatomic.patch

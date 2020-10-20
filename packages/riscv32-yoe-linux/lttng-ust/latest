@@ -5,3 +5,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = lttng-ust-src lttng-ust-dbg lttng-ust-staticdev lttng-ust-dev lttng-ust-doc lttng-ust-locale lttng-ust-bin lttng-ust
 LAYER = core
 CONFIG = 
+SRC_URI = https://lttng.org/files/lttng-ust/lttng-ust-2.12.0.tar.bz2 file://0001-python-lttngust-Makefile.am-Add-install-lib-to-setup.patch

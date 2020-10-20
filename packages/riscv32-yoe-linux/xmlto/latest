@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = xmlto-src xmlto-dbg xmlto-staticdev xmlto-dev xmlto-doc xmlto-locale xmlto
 LAYER = core
 CONFIG = 
+SRC_URI = https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.gz file://configure.in-drop-the-test-of-xmllint-and-xsltproc.patch

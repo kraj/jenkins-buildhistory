@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv3
 PACKAGES = libion-src libion-dbg libion-staticdev libion-dev libion-doc libion-locale libion
 LAYER = meta-ti
 CONFIG = 
+SRC_URI = git://github.com/glneo/libion.git;protocol=git;branch=master file://0001-cmake-Use-GNUInstallDirs-module-to-detect-install-pa.patch

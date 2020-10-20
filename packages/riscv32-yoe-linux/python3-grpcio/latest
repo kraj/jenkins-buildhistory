@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-protobuf python3-setupto
 PACKAGES = python3-grpcio-src python3-grpcio-dbg python3-grpcio-staticdev python3-grpcio-dev python3-grpcio-doc python3-grpcio-locale python3-grpcio
 LAYER = meta-python
 CONFIG = 
+SRC_URI = file://0001-setup.py-Do-not-mix-C-and-C-compiler-options.patch https://files.pythonhosted.org/packages/source/g/grpcio/grpcio-1.27.1.tar.gz file://ppc-boringssl-support.patch file://riscv64_support.patch file://0001-Fix-build-on-riscv32.patch

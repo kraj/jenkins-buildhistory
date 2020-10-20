@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libopus libtool-cros
 PACKAGES = libopusenc-src libopusenc-dbg libopusenc-staticdev libopusenc-dev libopusenc-doc libopusenc-locale libopusenc
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = https://ftp.osuosl.org/pub/xiph/releases/opus/libopusenc-0.2.1.tar.gz

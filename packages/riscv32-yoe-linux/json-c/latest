@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = json-c-src json-c-dbg json-c-staticdev json-c-dev json-c-doc json-c-locale json-c
 LAYER = core
 CONFIG = 
+SRC_URI = https://s3.amazonaws.com/json-c_releases/releases/json-c-0.15.tar.gz

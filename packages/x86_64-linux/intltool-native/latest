@@ -1,0 +1,7 @@
+PV = 0.51.0
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-native libxml-parser-perl-native pkgconfig-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = http://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz file://intltool-nowarn.patch file://perl-522-deprecations.patch file://remove-perl-check.patch file://noperlcheck.patch

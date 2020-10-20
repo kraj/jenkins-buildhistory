@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native flex gnu-config-native jpeg libpng lib
 PACKAGES = links-x11-src links-x11-dbg links-x11-staticdev links-x11-dev links-x11-doc links-x11-locale links-x11
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://links.twibright.com/download/links-2.20.2.tar.bz2 file://ac-prog-cxx.patch file://links2.desktop http://www.xora.org.uk/oe/links2.png;name=icon

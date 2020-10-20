@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libeg
 PACKAGES = egt-launcher-src egt-launcher-dbg egt-launcher egt-launcher-dev
 LAYER = atmel
 CONFIG = 
+SRC_URI = git://github.com/linux4sam/egt-launcher.git;protocol=https file://0001-launch.sh-Use-start-stop-daemon-to-restart-egt.patch

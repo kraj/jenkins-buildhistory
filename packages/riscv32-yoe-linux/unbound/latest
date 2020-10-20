@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native expat gnu-config-native l
 PACKAGES = unbound-src unbound-dbg unbound-staticdev unbound-dev unbound-doc unbound-locale unbound
 LAYER = networking-layer
 CONFIG = largefile systemd
+SRC_URI = git://github.com/NLnetLabs/unbound.git;protocol=http;branch=master file://0001-contrib-add-yocto-compatible-startup-scripts.patch

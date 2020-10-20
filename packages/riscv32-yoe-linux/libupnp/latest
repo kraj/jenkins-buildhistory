@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = libupnp-src libupnp-dbg libupnp-staticdev libupnp-dev libupnp-doc libupnp-locale libupnp
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = git://github.com/mrjimenez/pupnp.git;protocol=https

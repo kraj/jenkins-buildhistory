@@ -4,3 +4,4 @@ DEPENDS = cmake-native libusb1 ninja-native openssl pcsc-lite virtual/libc virtu
 PACKAGES = oscam-src oscam-dbg oscam-staticdev oscam-dev oscam-doc oscam-locale oscam
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = svn://www.streamboard.tv/svn/oscam;module=trunk;protocol=http

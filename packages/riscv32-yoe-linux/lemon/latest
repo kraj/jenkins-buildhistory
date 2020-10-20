@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = lemon-src lemon-dbg lemon-staticdev lemon-dev lemon-doc lemon-locale lemon
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = http://www.sqlite.org/sqlite-3.7.3.tar.gz file://lemon.1

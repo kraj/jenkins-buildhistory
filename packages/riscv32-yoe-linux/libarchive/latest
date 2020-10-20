@@ -4,3 +4,4 @@ DEPENDS = acl attr autoconf-native automake-native bzip2 e2fsprogs-native gnu-co
 PACKAGES = libarchive-src libarchive-dbg bsdcpio bsdtar libarchive-staticdev libarchive-dev libarchive-doc libarchive-locale libarchive
 LAYER = core
 CONFIG = acl bz2 libxml2 lzo xattr xz zlib
+SRC_URI = http://libarchive.org/downloads/libarchive-3.4.3.tar.gz

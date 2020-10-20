@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libevdev libinput li
 PACKAGES = consolation-src consolation-dbg consolation-staticdev consolation-dev consolation-doc consolation-locale consolation
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://salsa.debian.org/consolation-team/consolation.git

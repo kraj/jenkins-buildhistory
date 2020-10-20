@@ -4,3 +4,4 @@ DEPENDS = autoconf-archive bison-native flex-native glib-2.0 gobject-introspecti
 PACKAGES = gobject-introspection-src gobject-introspection-dbg gobject-introspection-staticdev gobject-introspection-dev gobject-introspection-doc gobject-introspection-locale gobject-introspection
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gobject-introspection/1.64/gobject-introspection-1.64.1.tar.xz file://0001-giscanner-ignore-error-return-codes-from-ldd-wrapper.patch file://0001-gir-add-a-dependency-for-g-ir-compiler-for-building-.patch

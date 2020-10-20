@@ -4,3 +4,4 @@ DEPENDS = cmake-native glog libeigen ninja-native virtual/libc virtual/riscv32-y
 PACKAGES = ceres-solver-src ceres-solver-dbg ceres-solver-staticdev ceres-solver-dev ceres-solver-doc ceres-solver-locale ceres-solver
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/ceres-solver/ceres-solver.git

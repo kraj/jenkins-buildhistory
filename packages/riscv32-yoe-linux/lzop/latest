@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = lzop-src lzop-dbg lzop-staticdev lzop-dev lzop-doc lzop-locale lzop
 LAYER = core
 CONFIG = 
+SRC_URI = http://www.lzop.org/download/lzop-1.04.tar.gz file://acinclude.m4

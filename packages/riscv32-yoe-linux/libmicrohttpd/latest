@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native curl file gettext-native gnu-config-na
 PACKAGES = libmicrohttpd-src libmicrohttpd-dbg libmicrohttpd-staticdev libmicrohttpd-dev libmicrohttpd-doc libmicrohttpd-locale libmicrohttpd-bin libmicrohttpd
 LAYER = openembedded-layer
 CONFIG = curl https largefile
+SRC_URI = https://ftp.gnu.org/gnu/libmicrohttpd/libmicrohttpd-0.9.71.tar.gz

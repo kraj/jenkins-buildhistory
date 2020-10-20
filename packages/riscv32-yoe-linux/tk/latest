@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = tk-src tk-dbg tk-lib tk-staticdev tk-dev tk-doc tk-locale tk
 LAYER = openembedded-layer
 CONFIG = xft
+SRC_URI = https://downloads.sourceforge.net/tcl/tk8.6.10-src.tar.gz file://confsearch.diff;striplevel=2 file://tkprivate.diff;striplevel=2 file://fix-xft.diff

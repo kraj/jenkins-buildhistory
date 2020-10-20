@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compi
 PACKAGES = opencl-clhpp-src opencl-clhpp-dbg opencl-clhpp-staticdev opencl-clhpp-dev opencl-clhpp-doc opencl-clhpp-locale opencl-clhpp
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/KhronosGroup/OpenCL-CLHPP.git;protocol=https

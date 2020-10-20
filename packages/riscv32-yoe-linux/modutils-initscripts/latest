@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = modutils-initscripts-src modutils-initscripts-dbg modutils-initscripts-staticdev modutils-initscripts-dev modutils-initscripts-doc modutils-initscripts-locale modutils-initscripts
 LAYER = core
 CONFIG = 
+SRC_URI = file://modutils.sh file://PD.patch

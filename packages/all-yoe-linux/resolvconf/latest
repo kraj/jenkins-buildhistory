@@ -4,3 +4,4 @@ DEPENDS =
 PACKAGES = resolvconf-src resolvconf-dbg resolvconf-staticdev resolvconf-dev resolvconf-doc resolvconf-locale resolvconf
 LAYER = core
 CONFIG = 
+SRC_URI = git://salsa.debian.org/debian/resolvconf.git;protocol=https file://fix-path-for-busybox.patch file://99_resolvconf

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = patchelf-src patchelf-dbg patchelf-staticdev patchelf-dev patchelf-doc patchelf-locale patchelf
 LAYER = core
 CONFIG = 
+SRC_URI = git://github.com/NixOS/patchelf;protocol=https file://handle-read-only-files.patch

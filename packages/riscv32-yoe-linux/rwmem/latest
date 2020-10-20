@@ -4,3 +4,4 @@ DEPENDS = cmake-native ninja-native pkgconfig-native python3 python3-pybind11 vi
 PACKAGES = rwmem-src rwmem-dbg rwmem-staticdev rwmem-dev rwmem-doc rwmem-locale rwmem
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/tomba/rwmem.git;protocol=https;name=rwmem git://github.com/benhoyt/inih.git;protocol=https;name=inih;nobranch=1;destsuffix=git/ext/inih

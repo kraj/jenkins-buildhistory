@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native gnu-config-native libnetf
 PACKAGES = conntrack-tools-src conntrack-tools-dbg conntrack-tools-staticdev conntrack-tools-dev conntrack-tools-doc conntrack-tools-locale conntrack-tools
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = http://www.netfilter.org/projects/conntrack-tools/files/conntrack-tools-1.4.6.tar.bz2;name=tar file://conntrack-failover file://init

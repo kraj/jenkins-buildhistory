@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native base-files base-passwd dbus gnu-config
 PACKAGES = corosync-src corosync-dbg corosync-staticdev corosync-dev corosync-doc corosync-locale corosync
 LAYER = networking-layer
 CONFIG = dbus snmp systemd
+SRC_URI = https://github.com/corosync/corosync/releases/download/v3.0.3/corosync-3.0.3.tar.gz file://corosync.conf

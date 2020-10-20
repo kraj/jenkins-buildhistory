@@ -1,0 +1,8 @@
+PE = 1
+PV = 0.40.0
+PR = r0
+DEPENDS = meson-native ninja-native pkgconfig-native python3-native zlib-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.cairographics.org/releases/pixman-0.40.0.tar.gz file://0001-ARM-qemu-related-workarounds-in-cpu-features-detecti.patch

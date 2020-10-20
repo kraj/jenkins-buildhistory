@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = tnftp-src tnftp-dbg tnftp-staticdev tnftp-dev tnftp-doc tnftp-locale tnftp
 LAYER = networking-layer
 CONFIG = ipv6 openssl
+SRC_URI = ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20151004.tar.gz file://tnftp-autotools.patch

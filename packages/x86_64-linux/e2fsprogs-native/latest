@@ -1,0 +1,7 @@
+PV = 1.45.6
+PR = r0
+DEPENDS = attr-native autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native pkgconfig-native texinfo-dummy-native util-linux-native
+PACKAGES = 
+LAYER = core
+CONFIG = 
+SRC_URI = git://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git file://remove.ldconfig.call.patch file://run-ptest file://ptest.patch file://mkdir_p.patch file://0001-configure.ac-correct-AM_GNU_GETTEXT.patch file://0001-intl-do-not-try-to-use-gettext-defines-that-no-longe.patch file://0001-fix-up-check-for-hardlinks-always-false-if-inode-0xF.patch file://e2fsprogs-fix-missing-check-for-permission-denied.patch file://quiet-debugfs.patch

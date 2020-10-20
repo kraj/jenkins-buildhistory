@@ -4,3 +4,4 @@ DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yo
 PACKAGES = wifi-test-suite-src wifi-test-suite-dbg wifi-test-suite-staticdev wifi-test-suite-dev wifi-test-suite-doc wifi-test-suite-locale wifi-test-suite
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/Wi-FiTestSuite/Wi-FiTestSuite-Linux-DUT.git file://0001-Use-toolchain-from-environment-variables.patch file://0002-Add-missing-include-removes-unnedded-stuff-and-add-n.patch file://0003-fix-path-to-usr-sbin-for-script-and-make-script-for-.patch file://0004-run-ranlib-per-library-and-use-AR.patch file://fno-common.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtoo
 PACKAGES = utouch-frame-src utouch-frame-dbg utouch-frame-staticdev utouch-frame-dev utouch-frame-doc utouch-frame-locale utouch-frame
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://bitmath.org/git/frame.git;protocol=http file://remove-man-page-creation.patch file://0001-include-sys-stat.h-for-fixing-build-issue-on-musl.patch file://0001-Fix-build-on-32bit-arches-with-64bit-time_t.patch

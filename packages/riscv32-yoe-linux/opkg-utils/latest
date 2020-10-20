@@ -4,3 +4,4 @@ DEPENDS = perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtua
 PACKAGES = opkg-utils-src opkg-utils-dbg update-alternatives-opkg opkg-utils-doc opkg-utils-locale opkg-utils
 LAYER = core
 CONFIG = python update-alternatives
+SRC_URI = http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils/snapshot/opkg-utils-0.4.3.tar.gz

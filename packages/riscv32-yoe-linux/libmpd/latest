@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cro
 PACKAGES = libmpd-src libmpd-dbg libmpd-staticdev libmpd-dev libmpd-doc libmpd-locale libmpd
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = http://www.musicpd.org/download/libmpd/11.8.17/libmpd-11.8.17.tar.gz file://glibc-2.20.patch

@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native curl flex-native gnu-conf
 PACKAGES = rsyslog-src rsyslog-dbg rsyslog-ptest rsyslog-staticdev rsyslog-dev rsyslog-doc rsyslog-locale rsyslog
 LAYER = openembedded-layer
 CONFIG = fmhttp gnutls imdiag imfile inet klog libgcrypt regexp relp rsyslogd rsyslogrt systemd testbench uuid
+SRC_URI = http://www.rsyslog.com/download/files/download/rsyslog/rsyslog-8.2006.0.tar.gz file://initscript file://rsyslog.conf file://rsyslog.logrotate file://use-pkgconfig-to-check-libgcrypt.patch file://run-ptest

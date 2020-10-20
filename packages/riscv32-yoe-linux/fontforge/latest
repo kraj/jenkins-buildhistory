@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native desktop-file-utils gdk-pixbuf gettext-
 PACKAGES = fontforge-src fontforge-dbg fontforge-python fontforge-staticdev fontforge-dev fontforge-doc fontforge fontforge-locale-ca fontforge-locale-de fontforge-locale-el fontforge-locale-en-gb fontforge-locale-es fontforge-locale-fr fontforge-locale-hr fontforge-locale-it fontforge-locale-ja fontforge-locale-ko fontforge-locale-ml fontforge-locale-pl fontforge-locale-pt fontforge-locale-ru fontforge-locale-uk fontforge-locale-vi fontforge-locale-zh-cn fontforge-locale-zh-tw
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/fontforge/fontforge.git file://0001-include-sys-select-on-non-glibc-platforms.patch

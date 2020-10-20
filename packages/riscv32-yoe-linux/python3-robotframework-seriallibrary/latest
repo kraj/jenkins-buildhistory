@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-robotframework-seriallibrary-src python3-robotframework-seriallibrary-dbg python3-robotframework-seriallibrary-staticdev python3-robotframework-seriallibrary-dev python3-robotframework-seriallibrary-doc python3-robotframework-seriallibrary-locale python3-robotframework-seriallibrary
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/r/robotframework-seriallibrary/robotframework-seriallibrary-0.3.1.tar.gz file://e31d5fdf2ea00ac6349e64580a20816783064dd4.patch

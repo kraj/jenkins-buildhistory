@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libto
 PACKAGES = spice-protocol-src spice-protocol-dbg spice-protocol-staticdev spice-protocol-dev spice-protocol-doc spice-protocol-locale spice-protocol
 LAYER = networking-layer
 CONFIG = 
+SRC_URI = git://anongit.freedesktop.org/spice/spice-protocol

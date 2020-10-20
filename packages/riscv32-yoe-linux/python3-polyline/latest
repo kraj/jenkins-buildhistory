@@ -4,3 +4,4 @@ DEPENDS = python3 python3-native python3-native python3-setuptools-native virtua
 PACKAGES = python3-polyline-src python3-polyline-dbg python3-polyline-ptest python3-polyline-staticdev python3-polyline-dev python3-polyline-doc python3-polyline-locale python3-polyline
 LAYER = meta-python
 CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/p/polyline/polyline-1.4.0.tar.gz file://run-ptest

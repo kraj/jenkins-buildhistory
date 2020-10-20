@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native bison-native gnu-config-native gtk-doc
 PACKAGES = libtasn1-src libtasn1-dbg libtasn1-staticdev libtasn1-dev libtasn1-doc libtasn1-locale libtasn1-bin libtasn1
 LAYER = core
 CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.16.0.tar.gz file://dont-depend-on-help2man.patch

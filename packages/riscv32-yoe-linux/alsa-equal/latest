@@ -4,3 +4,4 @@ DEPENDS = alsa-lib virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/r
 PACKAGES = alsa-equal-src alsa-equal-dbg alsa-equal-staticdev alsa-equal-dev alsa-equal-doc alsa-equal-locale alsa-equal
 LAYER = multimedia-layer
 CONFIG = 
+SRC_URI = https://launchpad.net/ubuntu/+archive/primary/+files/alsaequal_0.6.orig.tar.bz2 file://0001-Fix-asneeded.patch file://0002-Fix-Eq-CAPS-plugin-name.patch file://0003-Fix-mixer.patch

@@ -4,3 +4,4 @@ DEPENDS = apache2 apache2-native autoconf-native automake-native gnu-config-nati
 PACKAGES = apache-websocket-src apache-websocket-dbg apache-websocket-staticdev apache-websocket-dev apache-websocket-doc apache-websocket-locale apache-websocket
 LAYER = webserver
 CONFIG = 
+SRC_URI = git://github.com/jchampio/apache-websocket.git

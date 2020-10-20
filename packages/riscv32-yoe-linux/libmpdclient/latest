@@ -4,3 +4,4 @@ DEPENDS = meson-native ninja-native python3-native virtual/libc virtual/riscv32-
 PACKAGES = libmpdclient-src libmpdclient-dbg libmpdclient-staticdev libmpdclient-dev libmpdclient-doc libmpdclient-locale libmpdclient
 LAYER = multimedia-layer
 CONFIG = tcp
+SRC_URI = git://github.com/MusicPlayerDaemon/libmpdclient

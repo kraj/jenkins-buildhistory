@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native dbus-glib gettext-native glib-2.0 gnu-
 PACKAGES = upower-src upower-dbg upower-staticdev upower-dev upower-doc upower upower-locale-fr upower-locale-it upower-locale-pl upower-locale-sv
 LAYER = openembedded-layer
 CONFIG = systemd
+SRC_URI = http://upower.freedesktop.org/releases/upower-0.99.11.tar.xz

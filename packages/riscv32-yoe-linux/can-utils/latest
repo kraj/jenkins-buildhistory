@@ -4,3 +4,4 @@ DEPENDS = autoconf-native automake-native gnu-config-native libsocketcan libtool
 PACKAGES = can-utils-src can-utils-dbg can-utils-staticdev can-utils-dev can-utils-doc can-utils-locale can-utils
 LAYER = openembedded-layer
 CONFIG = 
+SRC_URI = git://github.com/linux-can/can-utils.git;protocol=git
