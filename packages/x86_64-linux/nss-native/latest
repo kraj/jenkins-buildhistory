@@ -1,7 +1,7 @@
-PV = 3.56
+PV = 3.57
 PR = r0
 DEPENDS = nspr-native sqlite3-native zlib-native
 PACKAGES = 
 LAYER = openembedded-layer
 CONFIG = 
-SRC_URI = http://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_3_56_RTM/src/nss-3.56.tar.gz file://nss.pc.in file://0001-nss-fix-support-cross-compiling.patch file://nss-no-rpath-for-cross-compiling.patch file://nss-fix-incorrect-shebang-of-perl.patch file://disable-Wvarargs-with-clang.patch file://pqg.c-ULL_addend.patch file://blank-cert9.db file://blank-key4.db file://system-pkcs11.txt file://nss-fix-nsinstall-build.patch file://0001-freebl-add-a-configure-option-to-disable-ARM-HW-cryp.patch file://0001-pkix-Do-not-use-NULL-where-0-is-needed.patch
+SRC_URI = http://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_3_57_RTM/src/nss-3.57.tar.gz file://nss.pc.in file://0001-nss-fix-support-cross-compiling.patch file://nss-no-rpath-for-cross-compiling.patch file://nss-fix-incorrect-shebang-of-perl.patch file://disable-Wvarargs-with-clang.patch file://pqg.c-ULL_addend.patch file://blank-cert9.db file://blank-key4.db file://system-pkcs11.txt file://nss-fix-nsinstall-build.patch file://0001-freebl-add-a-configure-option-to-disable-ARM-HW-cryp.patch

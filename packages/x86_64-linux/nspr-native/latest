@@ -1,7 +1,7 @@
-PV = 4.26
+PV = 4.29
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-native
 PACKAGES = 
 LAYER = openembedded-layer
 CONFIG = ipv6
-SRC_URI = http://ftp.mozilla.org/pub/nspr/releases/v4.26/src/nspr-4.26.tar.gz file://remove-rpath-from-tests.patch file://fix-build-on-x86_64.patch file://remove-srcdir-from-configure-in.patch file://0002-Add-nios2-support.patch file://0001-md-Fix-build-with-musl.patch file://Makefile.in-remove-_BUILD_STRING-and-_BUILD_TIME.patch file://nspr.pc.in
+SRC_URI = http://ftp.mozilla.org/pub/nspr/releases/v4.29/src/nspr-4.29.tar.gz file://remove-rpath-from-tests.patch file://fix-build-on-x86_64.patch file://remove-srcdir-from-configure-in.patch file://0002-Add-nios2-support.patch file://0001-md-Fix-build-with-musl.patch file://Makefile.in-remove-_BUILD_STRING-and-_BUILD_TIME.patch file://nspr.pc.in
