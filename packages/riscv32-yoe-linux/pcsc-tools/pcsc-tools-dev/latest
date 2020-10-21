@@ -1,0 +1,9 @@
+PV = 1.5.7
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = pcsc-tools (= 1.5.7-r0.0)
+RRECOMMENDS = glibc-dev pcsc-lite-dev pcsc-lite-lib-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pcsc-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/bin/ATR_analysis /usr/bin/gscriptor /usr/bin/pcsc_scan /usr/bin/scriptor /usr/share/pcsc/smartcard_list.txt
