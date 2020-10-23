@@ -1,0 +1,7 @@
+PV = 2019.0
+PR = r0
+DEPENDS = cmake-native glslang ninja-native python3-native spirv-tools virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = shaderc-src shaderc-dbg shaderc-staticdev shaderc-dev shaderc-doc shaderc-locale shaderc
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/google/shaderc.git;protocol=https;branch=main file://0001-Fix-the-link-order-of-libglslang-and-libHLSL.patch file://0002-shaderc-2019.0-fix-build-against-new-glslang.patch file://0003-cmake-de-vendor-libs-and-disable-git-versioning.patch

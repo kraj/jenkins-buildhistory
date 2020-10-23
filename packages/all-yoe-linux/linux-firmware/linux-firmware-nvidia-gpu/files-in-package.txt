@@ -1,0 +1,377 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/firmware
+drwxr-xr-x root       root              360 ./lib/firmware/nvidia
+drwxr-xr-x root       root               80 ./lib/firmware/nvidia/gm200
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gm200/acr
+-rw-r--r-- root       root              832 ./lib/firmware/nvidia/gm200/acr/bl.bin
+-rw-r--r-- root       root            10144 ./lib/firmware/nvidia/gm200/acr/ucode_load.bin
+-rw-r--r-- root       root             1440 ./lib/firmware/nvidia/gm200/acr/ucode_unload.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gm200/gr
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gm200/gr/fecs_bl.bin
+-rw-r--r-- root       root             1968 ./lib/firmware/nvidia/gm200/gr/fecs_data.bin
+-rw-r--r-- root       root            16271 ./lib/firmware/nvidia/gm200/gr/fecs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gm200/gr/fecs_sig.bin
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gm200/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2056 ./lib/firmware/nvidia/gm200/gr/gpccs_data.bin
+-rw-r--r-- root       root             9768 ./lib/firmware/nvidia/gm200/gr/gpccs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gm200/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7616 ./lib/firmware/nvidia/gm200/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             5592 ./lib/firmware/nvidia/gm200/gr/sw_ctx.bin
+-rw-r--r-- root       root            10800 ./lib/firmware/nvidia/gm200/gr/sw_method_init.bin
+-rw-r--r-- root       root             1440 ./lib/firmware/nvidia/gm200/gr/sw_nonctx.bin
+drwxr-xr-x root       root               80 ./lib/firmware/nvidia/gm204
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gm204/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/gm204/acr/bl.bin -> ../../gm200/acr/bl.bin
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gm204/acr/ucode_load.bin -> ../../gm200/acr/ucode_load.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/gm204/acr/ucode_unload.bin -> ../../gm200/acr/ucode_unload.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gm204/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gm204/gr/fecs_bl.bin -> ../../gm200/gr/fecs_bl.bin
+-rw-r--r-- root       root             1968 ./lib/firmware/nvidia/gm204/gr/fecs_data.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gm204/gr/fecs_inst.bin -> ../../gm200/gr/fecs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gm204/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gm204/gr/gpccs_bl.bin -> ../../gm200/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2056 ./lib/firmware/nvidia/gm204/gr/gpccs_data.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gm204/gr/gpccs_inst.bin -> ../../gm200/gr/gpccs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gm204/gr/gpccs_sig.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gm204/gr/sw_bundle_init.bin -> ../../gm200/gr/sw_bundle_init.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gm204/gr/sw_ctx.bin -> ../../gm200/gr/sw_ctx.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gm204/gr/sw_method_init.bin -> ../../gm200/gr/sw_method_init.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gm204/gr/sw_nonctx.bin -> ../../gm200/gr/sw_nonctx.bin
+drwxr-xr-x root       root               80 ./lib/firmware/nvidia/gm206
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gm206/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/gm206/acr/bl.bin -> ../../gm200/acr/bl.bin
+-rw-r--r-- root       root            10144 ./lib/firmware/nvidia/gm206/acr/ucode_load.bin
+-rw-r--r-- root       root             1440 ./lib/firmware/nvidia/gm206/acr/ucode_unload.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gm206/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gm206/gr/fecs_bl.bin -> ../../gm200/gr/fecs_bl.bin
+-rw-r--r-- root       root             1968 ./lib/firmware/nvidia/gm206/gr/fecs_data.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gm206/gr/fecs_inst.bin -> ../../gm200/gr/fecs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gm206/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gm206/gr/gpccs_bl.bin -> ../../gm200/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2056 ./lib/firmware/nvidia/gm206/gr/gpccs_data.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gm206/gr/gpccs_inst.bin -> ../../gm200/gr/gpccs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gm206/gr/gpccs_sig.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gm206/gr/sw_bundle_init.bin -> ../../gm200/gr/sw_bundle_init.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gm206/gr/sw_ctx.bin -> ../../gm200/gr/sw_ctx.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gm206/gr/sw_method_init.bin -> ../../gm200/gr/sw_method_init.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gm206/gr/sw_nonctx.bin -> ../../gm200/gr/sw_nonctx.bin
+drwxr-xr-x root       root               80 ./lib/firmware/nvidia/gp100
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp100/acr
+-rw-r--r-- root       root              832 ./lib/firmware/nvidia/gp100/acr/bl.bin
+-rw-r--r-- root       root             9632 ./lib/firmware/nvidia/gp100/acr/ucode_load.bin
+-rw-r--r-- root       root             1440 ./lib/firmware/nvidia/gp100/acr/ucode_unload.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp100/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp100/gr/fecs_bl.bin -> ../../gm200/gr/fecs_bl.bin
+-rw-r--r-- root       root             2028 ./lib/firmware/nvidia/gp100/gr/fecs_data.bin
+-rw-r--r-- root       root            20955 ./lib/firmware/nvidia/gp100/gr/fecs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gp100/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp100/gr/gpccs_bl.bin -> ../../gm200/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2080 ./lib/firmware/nvidia/gp100/gr/gpccs_data.bin
+-rw-r--r-- root       root            12458 ./lib/firmware/nvidia/gp100/gr/gpccs_inst.bin
+-rw-r--r-- root       root               76 ./lib/firmware/nvidia/gp100/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7664 ./lib/firmware/nvidia/gp100/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6240 ./lib/firmware/nvidia/gp100/gr/sw_ctx.bin
+-rw-r--r-- root       root            11928 ./lib/firmware/nvidia/gp100/gr/sw_method_init.bin
+-rw-r--r-- root       root             2248 ./lib/firmware/nvidia/gp100/gr/sw_nonctx.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp102
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp102/acr
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/gp102/acr/bl.bin
+-rw-r--r-- root       root            17152 ./lib/firmware/nvidia/gp102/acr/ucode_load.bin
+-rw-r--r-- root       root             3328 ./lib/firmware/nvidia/gp102/acr/ucode_unload.bin
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/gp102/acr/unload_bl.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp102/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp102/gr/fecs_bl.bin -> ../../gm200/gr/fecs_bl.bin
+-rw-r--r-- root       root             2256 ./lib/firmware/nvidia/gp102/gr/fecs_data.bin
+-rw-r--r-- root       root            20927 ./lib/firmware/nvidia/gp102/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp102/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp102/gr/gpccs_bl.bin -> ../../gm200/gr/gpccs_bl.bin
+-rw-r--r-- root       root             1832 ./lib/firmware/nvidia/gp102/gr/gpccs_data.bin
+-rw-r--r-- root       root            13307 ./lib/firmware/nvidia/gp102/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp102/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7680 ./lib/firmware/nvidia/gp102/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6216 ./lib/firmware/nvidia/gp102/gr/sw_ctx.bin
+-rw-r--r-- root       root            12288 ./lib/firmware/nvidia/gp102/gr/sw_method_init.bin
+-rw-r--r-- root       root             2496 ./lib/firmware/nvidia/gp102/gr/sw_nonctx.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp102/nvdec
+-rw-r--r-- root       root             3840 ./lib/firmware/nvidia/gp102/nvdec/scrubber.bin
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp102/sec2
+-rw-r--r-- root       root              656 ./lib/firmware/nvidia/gp102/sec2/desc-1.bin
+-rw-r--r-- root       root              656 ./lib/firmware/nvidia/gp102/sec2/desc.bin
+-rw-r--r-- root       root           109568 ./lib/firmware/nvidia/gp102/sec2/image-1.bin
+-rw-r--r-- root       root            99072 ./lib/firmware/nvidia/gp102/sec2/image.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp102/sec2/sig-1.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp102/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp104
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp104/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/gp104/acr/bl.bin -> ../../gp102/acr/bl.bin
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp104/acr/ucode_load.bin -> ../../gp102/acr/ucode_load.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/gp104/acr/ucode_unload.bin -> ../../gp102/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gp104/acr/unload_bl.bin -> ../../gp102/acr/unload_bl.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp104/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp104/gr/fecs_bl.bin -> ../../gp102/gr/fecs_bl.bin
+-rw-r--r-- root       root             2576 ./lib/firmware/nvidia/gp104/gr/fecs_data.bin
+-rw-r--r-- root       root            22760 ./lib/firmware/nvidia/gp104/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp104/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp104/gr/gpccs_bl.bin -> ../../gp102/gr/gpccs_bl.bin
+-rw-r--r-- root       root             1832 ./lib/firmware/nvidia/gp104/gr/gpccs_data.bin
+-rw-r--r-- root       root            13307 ./lib/firmware/nvidia/gp104/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp104/gr/gpccs_sig.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp104/gr/sw_bundle_init.bin -> ../../gp102/gr/sw_bundle_init.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp104/gr/sw_ctx.bin -> ../../gp102/gr/sw_ctx.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp104/gr/sw_method_init.bin -> ../../gp102/gr/sw_method_init.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp104/gr/sw_nonctx.bin -> ../../gp102/gr/sw_nonctx.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp104/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp104/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp104/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp104/sec2/desc-1.bin -> ../../gp102/sec2/desc-1.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp104/sec2/desc.bin -> ../../gp102/sec2/desc.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp104/sec2/image-1.bin -> ../../gp102/sec2/image-1.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp104/sec2/image.bin -> ../../gp102/sec2/image.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp104/sec2/sig-1.bin -> ../../gp102/sec2/sig-1.bin
+lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/gp104/sec2/sig.bin -> ../../gp102/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp106
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp106/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/gp106/acr/bl.bin -> ../../gp102/acr/bl.bin
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp106/acr/ucode_load.bin -> ../../gp102/acr/ucode_load.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/gp106/acr/ucode_unload.bin -> ../../gp102/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gp106/acr/unload_bl.bin -> ../../gp102/acr/unload_bl.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp106/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp106/gr/fecs_bl.bin -> ../../gp102/gr/fecs_bl.bin
+-rw-r--r-- root       root             2256 ./lib/firmware/nvidia/gp106/gr/fecs_data.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp106/gr/fecs_inst.bin -> ../../gp102/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp106/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp106/gr/gpccs_bl.bin -> ../../gp102/gr/gpccs_bl.bin
+-rw-r--r-- root       root             1832 ./lib/firmware/nvidia/gp106/gr/gpccs_data.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gp106/gr/gpccs_inst.bin -> ../../gp102/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp106/gr/gpccs_sig.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp106/gr/sw_bundle_init.bin -> ../../gp102/gr/sw_bundle_init.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp106/gr/sw_ctx.bin -> ../../gp102/gr/sw_ctx.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp106/gr/sw_method_init.bin -> ../../gp102/gr/sw_method_init.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp106/gr/sw_nonctx.bin -> ../../gp102/gr/sw_nonctx.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp106/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp106/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp106/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp106/sec2/desc-1.bin -> ../../gp102/sec2/desc-1.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp106/sec2/desc.bin -> ../../gp102/sec2/desc.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp106/sec2/image-1.bin -> ../../gp102/sec2/image-1.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp106/sec2/image.bin -> ../../gp102/sec2/image.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp106/sec2/sig-1.bin -> ../../gp102/sec2/sig-1.bin
+lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/gp106/sec2/sig.bin -> ../../gp102/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp107
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp107/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/gp107/acr/bl.bin -> ../../gp102/acr/bl.bin
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp107/acr/ucode_load.bin -> ../../gp102/acr/ucode_load.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/gp107/acr/ucode_unload.bin -> ../../gp102/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gp107/acr/unload_bl.bin -> ../../gp102/acr/unload_bl.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp107/gr
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gp107/gr/fecs_bl.bin
+-rw-r--r-- root       root             2756 ./lib/firmware/nvidia/gp107/gr/fecs_data.bin
+-rw-r--r-- root       root            22879 ./lib/firmware/nvidia/gp107/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp107/gr/fecs_sig.bin
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gp107/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2100 ./lib/firmware/nvidia/gp107/gr/gpccs_data.bin
+-rw-r--r-- root       root            12587 ./lib/firmware/nvidia/gp107/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp107/gr/gpccs_sig.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp107/gr/sw_bundle_init.bin -> ../../gp102/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6000 ./lib/firmware/nvidia/gp107/gr/sw_ctx.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/gp107/gr/sw_method_init.bin -> ../../gp102/gr/sw_method_init.bin
+-rw-r--r-- root       root             2496 ./lib/firmware/nvidia/gp107/gr/sw_nonctx.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp107/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp107/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
+drwxr-xr-x root       root              160 ./lib/firmware/nvidia/gp107/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp107/sec2/desc-1.bin -> ../../gp102/sec2/desc-1.bin
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/gp107/sec2/desc.bin -> ../../gp102/sec2/desc.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp107/sec2/image-1.bin -> ../../gp102/sec2/image-1.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp107/sec2/image.bin -> ../../gp102/sec2/image.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp107/sec2/sig-1.bin -> ../../gp102/sec2/sig-1.bin
+lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/gp107/sec2/sig.bin -> ../../gp102/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp108
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gp108/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/gp108/acr/bl.bin -> ../../gp102/acr/bl.bin
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp108/acr/ucode_load.bin -> ../../gp102/acr/ucode_load.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/gp108/acr/ucode_unload.bin -> ../../gp102/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/gp108/acr/unload_bl.bin -> ../../gp102/acr/unload_bl.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gp108/gr
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gp108/gr/fecs_bl.bin
+-rw-r--r-- root       root             2248 ./lib/firmware/nvidia/gp108/gr/fecs_data.bin
+-rw-r--r-- root       root            21161 ./lib/firmware/nvidia/gp108/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp108/gr/fecs_sig.bin
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gp108/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2092 ./lib/firmware/nvidia/gp108/gr/gpccs_data.bin
+-rw-r--r-- root       root            13095 ./lib/firmware/nvidia/gp108/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gp108/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7680 ./lib/firmware/nvidia/gp108/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6000 ./lib/firmware/nvidia/gp108/gr/sw_ctx.bin
+-rw-r--r-- root       root            12288 ./lib/firmware/nvidia/gp108/gr/sw_method_init.bin
+-rw-r--r-- root       root             2496 ./lib/firmware/nvidia/gp108/gr/sw_nonctx.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gp108/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/gp108/nvdec/scrubber.bin -> ../../gp102/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gp108/sec2
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/gp108/sec2/desc.bin -> ../../gp102/sec2/desc-1.bin
+lrwxrwxrwx root       root               28 ./lib/firmware/nvidia/gp108/sec2/image.bin -> ../../gp102/sec2/image-1.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/gp108/sec2/sig.bin -> ../../gp102/sec2/sig-1.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gv100
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/gv100/acr
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/gv100/acr/bl.bin
+-rw-r--r-- root       root            18688 ./lib/firmware/nvidia/gv100/acr/ucode_load.bin
+-rw-r--r-- root       root             6400 ./lib/firmware/nvidia/gv100/acr/ucode_unload.bin
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/gv100/acr/unload_bl.bin
+drwxr-xr-x root       root              280 ./lib/firmware/nvidia/gv100/gr
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gv100/gr/fecs_bl.bin
+-rw-r--r-- root       root             4788 ./lib/firmware/nvidia/gv100/gr/fecs_data.bin
+-rw-r--r-- root       root            25632 ./lib/firmware/nvidia/gv100/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gv100/gr/fecs_sig.bin
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/gv100/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2128 ./lib/firmware/nvidia/gv100/gr/gpccs_data.bin
+-rw-r--r-- root       root            12643 ./lib/firmware/nvidia/gv100/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gv100/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7664 ./lib/firmware/nvidia/gv100/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             9756 ./lib/firmware/nvidia/gv100/gr/sw_ctx.bin
+-rw-r--r-- root       root            12296 ./lib/firmware/nvidia/gv100/gr/sw_method_init.bin
+-rw-r--r-- root       root             2728 ./lib/firmware/nvidia/gv100/gr/sw_nonctx.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/gv100/nvdec
+-rw-r--r-- root       root             4352 ./lib/firmware/nvidia/gv100/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/gv100/sec2
+-rw-r--r-- root       root              656 ./lib/firmware/nvidia/gv100/sec2/desc.bin
+-rw-r--r-- root       root            91136 ./lib/firmware/nvidia/gv100/sec2/image.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/gv100/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/tu102
+drwxr-xr-x root       root              140 ./lib/firmware/nvidia/tu102/acr
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/tu102/acr/bl.bin
+-rw-r--r-- root       root            22784 ./lib/firmware/nvidia/tu102/acr/ucode_ahesasc.bin
+-rw-r--r-- root       root            13312 ./lib/firmware/nvidia/tu102/acr/ucode_asb.bin
+-rw-r--r-- root       root            12288 ./lib/firmware/nvidia/tu102/acr/ucode_unload.bin
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/tu102/acr/unload_bl.bin
+drwxr-xr-x root       root              300 ./lib/firmware/nvidia/tu102/gr
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/tu102/gr/fecs_bl.bin
+-rw-r--r-- root       root             5256 ./lib/firmware/nvidia/tu102/gr/fecs_data.bin
+-rw-r--r-- root       root            29080 ./lib/firmware/nvidia/tu102/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu102/gr/fecs_sig.bin
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/tu102/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2640 ./lib/firmware/nvidia/tu102/gr/gpccs_data.bin
+-rw-r--r-- root       root            12717 ./lib/firmware/nvidia/tu102/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu102/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7456 ./lib/firmware/nvidia/tu102/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6936 ./lib/firmware/nvidia/tu102/gr/sw_ctx.bin
+-rw-r--r-- root       root            13424 ./lib/firmware/nvidia/tu102/gr/sw_method_init.bin
+-rw-r--r-- root       root             3856 ./lib/firmware/nvidia/tu102/gr/sw_nonctx.bin
+-rw-r--r-- root       root              176 ./lib/firmware/nvidia/tu102/gr/sw_veid_bundle_init.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/tu102/nvdec
+-rw-r--r-- root       root             4864 ./lib/firmware/nvidia/tu102/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/tu102/sec2
+-rw-r--r-- root       root              656 ./lib/firmware/nvidia/tu102/sec2/desc.bin
+-rw-r--r-- root       root            60928 ./lib/firmware/nvidia/tu102/sec2/image.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu102/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/tu104
+drwxr-xr-x root       root              140 ./lib/firmware/nvidia/tu104/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/tu104/acr/bl.bin -> ../../tu102/acr/bl.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/tu104/acr/ucode_ahesasc.bin -> ../../tu102/acr/ucode_ahesasc.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/tu104/acr/ucode_asb.bin -> ../../tu102/acr/ucode_asb.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/tu104/acr/ucode_unload.bin -> ../../tu102/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/tu104/acr/unload_bl.bin -> ../../tu102/acr/unload_bl.bin
+drwxr-xr-x root       root              300 ./lib/firmware/nvidia/tu104/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/tu104/gr/fecs_bl.bin -> ../../tu102/gr/fecs_bl.bin
+-rw-r--r-- root       root             5256 ./lib/firmware/nvidia/tu104/gr/fecs_data.bin
+-rw-r--r-- root       root            29080 ./lib/firmware/nvidia/tu104/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu104/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/tu104/gr/gpccs_bl.bin -> ../../tu102/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2640 ./lib/firmware/nvidia/tu104/gr/gpccs_data.bin
+-rw-r--r-- root       root            12717 ./lib/firmware/nvidia/tu104/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu104/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7456 ./lib/firmware/nvidia/tu104/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6936 ./lib/firmware/nvidia/tu104/gr/sw_ctx.bin
+-rw-r--r-- root       root            13424 ./lib/firmware/nvidia/tu104/gr/sw_method_init.bin
+-rw-r--r-- root       root             3856 ./lib/firmware/nvidia/tu104/gr/sw_nonctx.bin
+-rw-r--r-- root       root              176 ./lib/firmware/nvidia/tu104/gr/sw_veid_bundle_init.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/tu104/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/tu104/nvdec/scrubber.bin -> ../../tu102/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/tu104/sec2
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/tu104/sec2/desc.bin -> ../../tu102/sec2/desc.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/tu104/sec2/image.bin -> ../../tu102/sec2/image.bin
+lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/tu104/sec2/sig.bin -> ../../tu102/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/tu106
+drwxr-xr-x root       root              140 ./lib/firmware/nvidia/tu106/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/tu106/acr/bl.bin -> ../../tu102/acr/bl.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/tu106/acr/ucode_ahesasc.bin -> ../../tu102/acr/ucode_ahesasc.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/tu106/acr/ucode_asb.bin -> ../../tu102/acr/ucode_asb.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/tu106/acr/ucode_unload.bin -> ../../tu102/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/tu106/acr/unload_bl.bin -> ../../tu102/acr/unload_bl.bin
+drwxr-xr-x root       root              300 ./lib/firmware/nvidia/tu106/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/tu106/gr/fecs_bl.bin -> ../../tu102/gr/fecs_bl.bin
+-rw-r--r-- root       root             5256 ./lib/firmware/nvidia/tu106/gr/fecs_data.bin
+-rw-r--r-- root       root            29080 ./lib/firmware/nvidia/tu106/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu106/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/tu106/gr/gpccs_bl.bin -> ../../tu102/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2640 ./lib/firmware/nvidia/tu106/gr/gpccs_data.bin
+-rw-r--r-- root       root            12717 ./lib/firmware/nvidia/tu106/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu106/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7456 ./lib/firmware/nvidia/tu106/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6936 ./lib/firmware/nvidia/tu106/gr/sw_ctx.bin
+-rw-r--r-- root       root            13424 ./lib/firmware/nvidia/tu106/gr/sw_method_init.bin
+-rw-r--r-- root       root             3856 ./lib/firmware/nvidia/tu106/gr/sw_nonctx.bin
+-rw-r--r-- root       root              176 ./lib/firmware/nvidia/tu106/gr/sw_veid_bundle_init.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/tu106/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/tu106/nvdec/scrubber.bin -> ../../tu102/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/tu106/sec2
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/tu106/sec2/desc.bin -> ../../tu102/sec2/desc.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/tu106/sec2/image.bin -> ../../tu102/sec2/image.bin
+lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/tu106/sec2/sig.bin -> ../../tu102/sec2/sig.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/tu10x
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/tu10x/typec
+-rw-r--r-- root       root            90658 ./lib/firmware/nvidia/tu10x/typec/ccg_boot.cyacd
+-rw-r--r-- root       root           145523 ./lib/firmware/nvidia/tu10x/typec/ccg_primary.cyacd
+-rw-r--r-- root       root            96512 ./lib/firmware/nvidia/tu10x/typec/ccg_secondary.cyacd
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/tu116
+drwxr-xr-x root       root              140 ./lib/firmware/nvidia/tu116/acr
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/tu116/acr/bl.bin
+-rw-r--r-- root       root            22784 ./lib/firmware/nvidia/tu116/acr/ucode_ahesasc.bin
+-rw-r--r-- root       root            13312 ./lib/firmware/nvidia/tu116/acr/ucode_asb.bin
+-rw-r--r-- root       root            12288 ./lib/firmware/nvidia/tu116/acr/ucode_unload.bin
+-rw-r--r-- root       root             1280 ./lib/firmware/nvidia/tu116/acr/unload_bl.bin
+drwxr-xr-x root       root              300 ./lib/firmware/nvidia/tu116/gr
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/tu116/gr/fecs_bl.bin
+-rw-r--r-- root       root             5256 ./lib/firmware/nvidia/tu116/gr/fecs_data.bin
+-rw-r--r-- root       root            28783 ./lib/firmware/nvidia/tu116/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu116/gr/fecs_sig.bin
+-rw-r--r-- root       root              576 ./lib/firmware/nvidia/tu116/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2640 ./lib/firmware/nvidia/tu116/gr/gpccs_data.bin
+-rw-r--r-- root       root            12717 ./lib/firmware/nvidia/tu116/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu116/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7456 ./lib/firmware/nvidia/tu116/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6936 ./lib/firmware/nvidia/tu116/gr/sw_ctx.bin
+-rw-r--r-- root       root            13424 ./lib/firmware/nvidia/tu116/gr/sw_method_init.bin
+-rw-r--r-- root       root             3856 ./lib/firmware/nvidia/tu116/gr/sw_nonctx.bin
+-rw-r--r-- root       root              176 ./lib/firmware/nvidia/tu116/gr/sw_veid_bundle_init.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/tu116/nvdec
+-rw-r--r-- root       root             4352 ./lib/firmware/nvidia/tu116/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/tu116/sec2
+-rw-r--r-- root       root              656 ./lib/firmware/nvidia/tu116/sec2/desc.bin
+-rw-r--r-- root       root            60928 ./lib/firmware/nvidia/tu116/sec2/image.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu116/sec2/sig.bin
+drwxr-xr-x root       root              120 ./lib/firmware/nvidia/tu117
+drwxr-xr-x root       root              140 ./lib/firmware/nvidia/tu117/acr
+lrwxrwxrwx root       root               22 ./lib/firmware/nvidia/tu117/acr/bl.bin -> ../../tu116/acr/bl.bin
+lrwxrwxrwx root       root               33 ./lib/firmware/nvidia/tu117/acr/ucode_ahesasc.bin -> ../../tu116/acr/ucode_ahesasc.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/tu117/acr/ucode_asb.bin -> ../../tu116/acr/ucode_asb.bin
+lrwxrwxrwx root       root               32 ./lib/firmware/nvidia/tu117/acr/ucode_unload.bin -> ../../tu116/acr/ucode_unload.bin
+lrwxrwxrwx root       root               29 ./lib/firmware/nvidia/tu117/acr/unload_bl.bin -> ../../tu116/acr/unload_bl.bin
+drwxr-xr-x root       root              300 ./lib/firmware/nvidia/tu117/gr
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/tu117/gr/fecs_bl.bin -> ../../tu116/gr/fecs_bl.bin
+-rw-r--r-- root       root             5256 ./lib/firmware/nvidia/tu117/gr/fecs_data.bin
+-rw-r--r-- root       root            28783 ./lib/firmware/nvidia/tu117/gr/fecs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu117/gr/fecs_sig.bin
+lrwxrwxrwx root       root               27 ./lib/firmware/nvidia/tu117/gr/gpccs_bl.bin -> ../../tu116/gr/gpccs_bl.bin
+-rw-r--r-- root       root             2640 ./lib/firmware/nvidia/tu117/gr/gpccs_data.bin
+-rw-r--r-- root       root            12717 ./lib/firmware/nvidia/tu117/gr/gpccs_inst.bin
+-rw-r--r-- root       root              192 ./lib/firmware/nvidia/tu117/gr/gpccs_sig.bin
+-rw-r--r-- root       root             7456 ./lib/firmware/nvidia/tu117/gr/sw_bundle_init.bin
+-rw-r--r-- root       root             6936 ./lib/firmware/nvidia/tu117/gr/sw_ctx.bin
+-rw-r--r-- root       root            13424 ./lib/firmware/nvidia/tu117/gr/sw_method_init.bin
+-rw-r--r-- root       root             3856 ./lib/firmware/nvidia/tu117/gr/sw_nonctx.bin
+-rw-r--r-- root       root              176 ./lib/firmware/nvidia/tu117/gr/sw_veid_bundle_init.bin
+drwxr-xr-x root       root               60 ./lib/firmware/nvidia/tu117/nvdec
+lrwxrwxrwx root       root               30 ./lib/firmware/nvidia/tu117/nvdec/scrubber.bin -> ../../tu116/nvdec/scrubber.bin
+drwxr-xr-x root       root              100 ./lib/firmware/nvidia/tu117/sec2
+lrwxrwxrwx root       root               25 ./lib/firmware/nvidia/tu117/sec2/desc.bin -> ../../tu116/sec2/desc.bin
+lrwxrwxrwx root       root               26 ./lib/firmware/nvidia/tu117/sec2/image.bin -> ../../tu116/sec2/image.bin
+lrwxrwxrwx root       root               24 ./lib/firmware/nvidia/tu117/sec2/sig.bin -> ../../tu116/sec2/sig.bin

@@ -1,0 +1,10 @@
+PV = 1.0.2
+PR = r0
+PKG = libsquashfs1
+PKGR = r0.0
+RPROVIDES = libsquashfs (=1.0.2)
+RDEPENDS = glibc (>= 2.32) liblzma (>= 5.2.5) lz4 (>= 1.9.2) zlib (>= 1.2.11) zstd (>= 1.4.5)
+RRECOMMENDS = 
+PKGSIZE = 54868
+FILES = /usr/lib/libsquashfs*.so.*
+FILELIST = /usr/bin/gensquashfs /usr/bin/rdsquashfs /usr/bin/sqfs2tar /usr/bin/sqfsdiff /usr/bin/tar2sqfs

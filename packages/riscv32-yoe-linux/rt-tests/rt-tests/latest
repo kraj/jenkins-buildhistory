@@ -1,10 +1,10 @@
 PE = 1
-PV = 1.1
+PV = 1.8
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.32)
+RDEPENDS = bash glibc (>= 2.32) numactl (>= 2.0.14+git0+dd6de072c9)
 RRECOMMENDS = 
-PKGSIZE = 220341
+PKGSIZE = 293576
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rt-tests /usr/lib/rt-tests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/src/backfire
-FILELIST = /usr/bin/cyclictest /usr/bin/hackbench /usr/bin/pi_stress /usr/bin/pip_stress /usr/bin/pmqtest /usr/bin/ptsematest /usr/bin/rt-migrate-test /usr/bin/sendme /usr/bin/signaltest /usr/bin/sigwaittest /usr/bin/svsematest /usr/src/backfire/Makefile /usr/src/backfire/backfire.c
+FILELIST = /usr/bin/cyclicdeadline /usr/bin/cyclictest /usr/bin/deadline_test /usr/bin/determine_maximum_mpps.sh /usr/bin/get_cpuinfo_mhz.sh /usr/bin/hackbench /usr/bin/pi_stress /usr/bin/pip_stress /usr/bin/pmqtest /usr/bin/ptsematest /usr/bin/queuelat /usr/bin/rt-migrate-test /usr/bin/signaltest /usr/bin/sigwaittest /usr/bin/ssdd /usr/bin/svsematest

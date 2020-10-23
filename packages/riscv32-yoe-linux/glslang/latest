@@ -1,0 +1,7 @@
+PV = 8.13.3559
+PR = r0
+DEPENDS = cmake-native ninja-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = glslang-src glslang-dbg glslang-staticdev glslang-dev glslang-doc glslang-locale glslang
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/KhronosGroup/glslang.git;protocol=https
