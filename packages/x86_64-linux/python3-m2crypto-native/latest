@@ -1,7 +1,0 @@
-PV = 0.30.1
-PR = r0
-DEPENDS = openssl-native python3-native python3-setuptools-native swig-native
-PACKAGES = 
-LAYER = meta-python
-CONFIG = 
-SRC_URI = file://0001-setup.py-link-in-sysroot-not-in-host-directories.patch file://cross-compile-platform.patch file://m2crypto-0.26.4-gcc_macros.patch https://files.pythonhosted.org/packages/source/M/M2Crypto/M2Crypto-0.30.1.tar.gz

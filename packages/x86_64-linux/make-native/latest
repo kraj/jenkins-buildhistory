@@ -1,7 +1,0 @@
-PV = 4.3
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native pkgconfig-native texinfo-dummy-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnu.org/gnu/make/make-4.3.tar.gz file://0001-m4-getloadavg.m4-restrict-AIX-specific-test-on-AIX.patch file://0002-modules-fcntl-allow-being-detected-by-importing-proj.patch file://0001-src-dir.c-fix-buffer-overflow-warning.patch file://0002-w32-compat-dirent.c-follow-header.patch file://0003-posixfcn-fcntl-gnulib-make-emulated.patch file://0001-makeinst-Do-not-undef-POSIX-on-clang-arm.patch

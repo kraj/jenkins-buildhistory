@@ -1,7 +1,0 @@
-PV = 1.9.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native openssl-native pkgconfig-native zlib-native
-PACKAGES = 
-LAYER = openembedded-layer
-CONFIG = openssl
-SRC_URI = http://www.libssh2.org/download/libssh2-1.9.0.tar.gz file://CVE-2019-17498.patch file://run-ptest

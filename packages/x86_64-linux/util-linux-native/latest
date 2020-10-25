@@ -1,7 +1,0 @@
-PV = 2.36
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-minimal-native gnu-config-native libcap-ng-native libpcre2-native libtool-native ncurses-native pkgconfig-native virtual/crypt-native zlib-native
-PACKAGES = 
-LAYER = core
-CONFIG = pcre2
-SRC_URI = https://cdn.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz file://configure-sbindir.patch file://runuser.pamd file://runuser-l.pamd file://ptest.patch file://run-ptest file://display_testname_for_subtest.patch file://avoid_parallel_tests.patch

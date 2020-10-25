@@ -1,7 +1,0 @@
-PV = 6.2.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native texinfo-dummy-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2 file://use-includedir.patch file://0001-Append-the-user-provided-flags-to-the-auto-detected-.patch file://0001-confiure.ac-Believe-the-cflags-from-environment.patch

@@ -1,7 +1,0 @@
-PV = 8.2
-PR = r0
-DEPENDS = autoconf-native automake-native desktop-file-utils-native gettext-native gnu-config-native libtool-native ncurses-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = git://github.com/vim/vim.git file://disable_acl_header_check.patch file://vim-add-knob-whether-elf.h-are-checked.patch file://0001-src-Makefile-improve-reproducibility.patch file://no-path-adjust.patch

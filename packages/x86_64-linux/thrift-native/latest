@@ -1,7 +1,0 @@
-PV = 0.13.0
-PR = r0
-DEPENDS = bison-native boost-native cmake-native flex-native glib-2.0-native libevent-native ninja-native openssl-native pkgconfig-native python3-native
-PACKAGES = 
-LAYER = openembedded-layer
-CONFIG = glib libevent
-SRC_URI = https://www-eu.apache.org/dist/thrift//0.13.0/thrift-0.13.0.tar.gz file://0001-DefineInstallationPaths.cmake-Define-libdir-in-terms.patch

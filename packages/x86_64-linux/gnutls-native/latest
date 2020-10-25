@@ -1,7 +1,0 @@
-PV = 3.6.14
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-minimal-native gmp-native gnu-config-native gtk-doc-native libidn2-native libtool-native libunistring-native nettle-native pkgconfig-native python3-native texinfo-dummy-native virtual/libiconv-native
-PACKAGES = 
-LAYER = core
-CONFIG = libidn
-SRC_URI = https://www.gnupg.org/ftp/gcrypt/gnutls/v3.6/gnutls-3.6.14.tar.xz file://arm_eabi.patch file://0001-Modied-the-license-to-GPLv2.1-to-keep-with-LICENSE-f.patch file://CVE-2020-24659.patch

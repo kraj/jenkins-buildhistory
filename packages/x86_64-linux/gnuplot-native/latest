@@ -1,7 +1,0 @@
-PV = 5.2.8
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native readline-native
-PACKAGES = 
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://downloads.sourceforge.net/gnuplot/gnuplot-5.2.8.tar.gz;name=archive http://www.mneuroth.de/privat/zaurus/qtplot-0.2.tar.gz;name=qtplot file://gnuplot.desktop file://gnuplot.png file://0001-reduce-build-to-conversion-tools-for-native-build.patch

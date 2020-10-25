@@ -1,7 +1,0 @@
-PV = 1.17.1
-PR = r0
-DEPENDS = autoconf-native automake-native bison-native e2fsprogs-native e2fsprogs-native gnu-config-native libtool-native ncurses-native openssl-native perl-native util-linux-native
-PACKAGES = 
-LAYER = openembedded-layer
-CONFIG = pkinit
-SRC_URI = http://web.mit.edu/kerberos/dist/krb5/1.17/krb5-1.17.1.tar.gz file://0001-aclocal-Add-parameter-to-disable-keyutils-detection.patch file://debian-suppress-usr-lib-in-krb5-config.patch;striplevel=2 file://crosscompile_nm.patch file://etc/init.d/krb5-kdc file://etc/init.d/krb5-admin-server file://etc/default/krb5-kdc file://etc/default/krb5-admin-server file://krb5-kdc.service file://krb5-admin-server.service

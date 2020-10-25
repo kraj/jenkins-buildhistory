@@ -1,8 +1,0 @@
-PE = 2
-PV = 20.1.8
-PR = r0
-DEPENDS = bison-native chrpath-replacement-native expat-native flex-native gettext-minimal-native gettext-native libdrm-native libxdamage-native libxext-native libxfixes-native libxml2-native libxxf86vm-native makedepend-native meson-native ninja-native pkgconfig-native python3-mako-native python3-native virtual/libx11-native xorgproto-native xorgproto-native xrandr-native zlib-native
-PACKAGES = 
-LAYER = core
-CONFIG = dri egl elf-tls gbm opengl x11
-SRC_URI = https://mesa.freedesktop.org/archive/mesa-20.1.8.tar.xz file://0001-meson.build-check-for-all-linux-host_os-combinations.patch file://0002-meson.build-make-TLS-ELF-optional.patch file://0003-Allow-enable-DRI-without-DRI-drivers.patch file://0004-Revert-mesa-Enable-asm-unconditionally-now-that-gen_.patch file://0005-vc4-use-intmax_t-for-formatted-output-of-timespec-me.patch file://0001-meson-misdetects-64bit-atomics-on-mips-clang.patch file://0001-futex.h-Define-__NR_futex-if-it-does-not-exist.patch

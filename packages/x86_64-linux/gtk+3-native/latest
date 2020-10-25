@@ -1,7 +1,0 @@
-PV = 3.24.22
-PR = r0
-DEPENDS = at-spi2-atk-native atk-native autoconf-native automake-native cairo-native fontconfig-native gdk-pixbuf-native gdk-pixbuf-native gettext-minimal-native glib-2.0-native gnu-config-native gobject-introspection-native gtk-doc-native jpeg-native libpng-native libtool-native libx11-native libxcomposite-native libxcursor-native libxdamage-native libxext-native libxfixes-native libxi-native libxrandr-native libxrender-native pango-native pkgconfig-native python3-native
-PACKAGES = 
-LAYER = core
-CONFIG = x11
-SRC_URI = http://ftp.gnome.org/pub/gnome/sources/gtk+/3.24/gtk+-3.24.22.tar.xz file://0001-Hardcoded-libtool.patch file://0002-Do-not-try-to-initialize-GL-without-libGL.patch file://0003-Add-disable-opengl-configure-option.patch file://link_fribidi.patch

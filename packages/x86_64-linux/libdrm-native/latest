@@ -1,7 +1,0 @@
-PV = 2.4.102
-PR = r0
-DEPENDS = libpciaccess-native libpthread-stubs-native meson-native ninja-native pkgconfig-native python3-native
-PACKAGES = 
-LAYER = core
-CONFIG = amdgpu etnaviv freedreno install-test-programs intel libkms nouveau omap radeon vc4 vmwgfx
-SRC_URI = http://dri.freedesktop.org/libdrm/libdrm-2.4.102.tar.xz file://0001-xf86drm.c-fix-build-failure.patch

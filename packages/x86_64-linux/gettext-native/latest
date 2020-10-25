@@ -1,7 +1,0 @@
-PV = 0.21
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native pkgconfig-native texinfo-dummy-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnu.org/gnu/gettext/gettext-0.21.tar.gz file://parallel.patch file://use-pkgconfig.patch file://run-ptest file://serial-tests-config.patch file://0001-tests-autopoint-3-unset-MAKEFLAGS.patch file://0001-init-env.in-do-not-add-C-CXX-parameters.patch file://mingw.patch file://0001-msgmerge-29-Add-executable-file-mode-bits.patch

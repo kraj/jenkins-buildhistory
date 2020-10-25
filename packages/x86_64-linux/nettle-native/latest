@@ -1,7 +1,0 @@
-PV = 3.6
-PR = r0
-DEPENDS = autoconf-native automake-native gmp-native gnu-config-native libtool-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnu.org/gnu/nettle/nettle-3.6.tar.gz file://Add-target-to-only-build-tests-not-run-them.patch file://run-ptest file://check-header-files-of-openssl-only-if-enable_.patch

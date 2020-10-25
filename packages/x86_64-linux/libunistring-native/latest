@@ -1,7 +1,0 @@
-PV = 0.9.10
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native texinfo-dummy-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnu.org/gnu/libunistring/libunistring-0.9.10.tar.gz file://iconv-m4-remove-the-test-to-convert-euc-jp.patch file://0001-Unset-need_charset_alias-when-building-for-musl.patch

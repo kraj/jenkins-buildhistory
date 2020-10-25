@@ -1,7 +1,0 @@
-PV = 8.32
-PR = r0
-DEPENDS = attr-native autoconf-native automake-native gettext-minimal-native gnu-config-native libtool-native texinfo-dummy-native
-PACKAGES = 
-LAYER = core
-CONFIG = xattr
-SRC_URI = https://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz file://remove-usr-local-lib-from-m4.patch file://fix-selinux-flask.patch file://0001-uname-report-processor-and-hardware-correctly.patch file://disable-ls-output-quoting.patch file://0001-local.mk-fix-cross-compiling-problem.patch file://run-ptest file://0001-ls-restore-8.31-behavior-on-removed-directories.patch

@@ -1,7 +1,0 @@
-PV = 1.12.20
-PR = r0
-DEPENDS = autoconf-archive-native autoconf-native automake-native expat-native gettext-minimal-native gnu-config-native libtool-native pkgconfig-native virtual/libintl-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://dbus.freedesktop.org/releases/dbus/dbus-1.12.20.tar.gz file://tmpdir.patch file://dbus-1.init file://clear-guid_from_server-if-send_negotiate_unix_f.patch

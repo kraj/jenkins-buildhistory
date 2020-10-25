@@ -1,7 +1,0 @@
-PV = 1.32
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gtk-doc/1.32/gtk-doc-1.32.tar.xz;name=archive file://0001-Do-not-hardocode-paths-to-perl-python-in-scripts.patch file://0001-Do-not-error-out-if-xsltproc-is-not-found.patch file://conditionaltests.patch file://no-clobber.patch file://pkg-config-native.patch

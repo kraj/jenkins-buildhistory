@@ -1,7 +1,0 @@
-PV = 1.14.0
-PR = r0
-DEPENDS = apr-util-native autoconf-native automake-native file-native file-replacement-native gettext-minimal-native gnu-config-native libtool-native lz4-native pkgconfig-native python3-native serf-native sqlite3-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://archive.apache.org/dist/subversion/subversion-1.14.0.tar.bz2 file://disable_macos.patch file://0001-Fix-libtool-name-in-configure.ac.patch file://serfmacro.patch

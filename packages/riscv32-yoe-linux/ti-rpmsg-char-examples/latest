@@ -1,7 +1,0 @@
-PV = 0.1.0+gitAUTOINC+9be402c2bf
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native ti-rpmsg-char virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = ti-rpmsg-char-examples-src ti-rpmsg-char-examples-dbg ti-rpmsg-char-examples-staticdev ti-rpmsg-char-examples-dev ti-rpmsg-char-examples-doc ti-rpmsg-char-examples-locale ti-rpmsg-char-examples
-LAYER = meta-ti
-CONFIG = 
-SRC_URI = git://git.ti.com/rpmsg/ti-rpmsg-char.git;protocol=git;branch=master;

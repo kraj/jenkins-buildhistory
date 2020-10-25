@@ -1,7 +1,0 @@
-PV = 0.24.2
-PR = r0
-DEPENDS = cmake-native openobex-native pkgconfig-native
-PACKAGES = 
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://downloads.sourceforge.net/openobex/obexftp-0.24.2-Source.tar.gz file://Remove_some_printf_in_obexftpd.patch file://0001-apps-CMakeLists.txt-Explicitly-link-libbfb-and-libmu.patch file://make_fuse_swig_optional.patch

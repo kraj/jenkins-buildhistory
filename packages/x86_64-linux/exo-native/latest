@@ -1,7 +1,0 @@
-PV = 0.12.11
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-minimal-native glib-2.0-native gnu-config-native gtk-doc-native intltool-native libtool-native pkgconfig-native python3-native xfce4-dev-tools-native
-PACKAGES = 
-LAYER = xfce-layer
-CONFIG = 
-SRC_URI = http://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.11.tar.bz2 file://exo-no-tests-0.8.patch file://configure.patch file://reduce-build-to-exo-csource-only.patch

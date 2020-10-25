@@ -1,7 +1,0 @@
-PV = 1.1.1g
-PR = r0
-DEPENDS = hostperl-runtime-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = http://www.openssl.org/source/openssl-1.1.1g.tar.gz file://run-ptest file://0001-skip-test_symbol_presence.patch file://0001-buildinfo-strip-sysroot-and-debug-prefix-map-from-co.patch file://afalg.patch file://reproducible.patch

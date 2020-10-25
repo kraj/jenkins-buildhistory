@@ -1,7 +1,0 @@
-PV = 2.69
-PR = r11
-DEPENDS = gnu-config-native m4-native texinfo-dummy-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz file://program_prefix.patch file://check-automake-cross-warning.patch file://autoreconf-exclude.patch file://autoreconf-gnuconfigize.patch file://config_site.patch file://remove-usr-local-lib-from-m4.patch file://preferbash.patch file://autotest-automake-result-format.patch file://add_musl_config.patch file://performance.patch file://AC_HEADER_MAJOR-port-to-glibc-2.25.patch file://autoconf-replace-w-option-in-shebangs-with-modern-use-warnings.patch file://fix_path_xtra.patch

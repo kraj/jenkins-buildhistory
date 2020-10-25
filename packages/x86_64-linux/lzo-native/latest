@@ -1,7 +1,0 @@
-PV = 2.10
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz file://0001-Use-memcpy-instead-of-reinventing-it.patch file://0001-Add-pkgconfigdir-to-solve-the-undefine-error.patch file://run-ptest

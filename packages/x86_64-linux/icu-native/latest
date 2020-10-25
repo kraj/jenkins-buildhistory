@@ -1,7 +1,0 @@
-PV = 67.1
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
-PACKAGES = 
-LAYER = core
-CONFIG = 
-SRC_URI = https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz;name=code https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-data.zip;name=data file://filter.json file://fix-install-manx.patch file://0001-icu-Added-armeb-support.patch
