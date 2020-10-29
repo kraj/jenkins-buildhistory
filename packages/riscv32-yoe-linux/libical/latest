@@ -1,7 +1,0 @@
-PV = 3.0.8
-PR = r0
-DEPENDS = cmake-native glib-2.0 glib-2.0-native icu libxml2 libxml2-native ninja-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libical-src libical-dbg libical-staticdev libical-dev libical-doc libical-locale libical
-LAYER = core
-CONFIG = glib icu
-SRC_URI = https://github.com/libical/libical/releases/download/v3.0.8/libical-3.0.8.tar.gz file://0001-Use-our-hand-build-native-src-generator.patch

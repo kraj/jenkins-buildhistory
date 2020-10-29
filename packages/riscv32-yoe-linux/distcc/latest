@@ -1,7 +1,0 @@
-PV = 3.3.3
-PR = r0
-DEPENDS = autoconf-native automake-native avahi base-files base-passwd binutils gnu-config-native libtool-cross libtool-native pkgconfig-native popt shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = distcc-src distcc-dbg distcc-staticdev distcc-dev distcc-doc distcc-locale distcc-distmon-gnome distcc-server distcc
-LAYER = core
-CONFIG = popt
-SRC_URI = git://github.com/distcc/distcc.git file://fix-gnome.patch file://separatebuilddir.patch file://0001-Fix-build-with-gcc-10-which-defaults-to-fno-common-c.patch file://default file://distcc file://distcc.service

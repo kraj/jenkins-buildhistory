@@ -1,7 +1,0 @@
-PV = 1.1.6
-PR = r7
-DEPENDS = autoconf-native automake-native dbus dbus-glib dbus-glib-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gtk+ gtk-doc-native libtool-cross libtool-native pkgconfig-native prelink-native python3-native qemu-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libunique-src libunique-dbg libunique-staticdev libunique-dev libunique-doc libunique-locale libunique
-LAYER = xfce-layer
-CONFIG = dbus
-SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/libunique/1.1/libunique-1.1.6.tar.bz2 file://fix_for_compile_with_gcc-4.6.0.patch file://noconst.patch file://build.patch file://0001-Makefile.am-use-LIBTOOL-instead-of-hardcoded-libtool.patch file://0001-test-unique-Add-format-qualifier-s-for-string.patch

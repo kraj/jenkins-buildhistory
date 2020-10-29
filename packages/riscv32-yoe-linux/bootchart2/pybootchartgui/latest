@@ -5,5 +5,5 @@ RPROVIDES =
 RDEPENDS = python3-codecs python3-compression python3-image python3-pycairo python3-shell
 RRECOMMENDS = 
 PKGSIZE = 90400
-FILES = /usr/lib/python3.8/site-packages/pybootchartgui /usr/bin/pybootchartgui
+FILES = /usr/lib/python3.9/site-packages/pybootchartgui /usr/bin/pybootchartgui
 FILELIST = /etc/bootchartd.conf /lib/bootchart/bootchart-collector /lib/systemd/system-preset/98-bootchart2.preset /lib/systemd/system/bootchart2-done.service /lib/systemd/system/bootchart2-done.timer /lib/systemd/system/bootchart2.service /sbin/bootchartd.bootchart2

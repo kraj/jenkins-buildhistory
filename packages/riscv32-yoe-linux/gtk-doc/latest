@@ -1,7 +1,7 @@
-PV = 1.32
+PV = 1.33.0
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = gtk-doc-src gtk-doc-dbg gtk-doc-staticdev gtk-doc-dev gtk-doc-doc gtk-doc-locale gtk-doc
 LAYER = core
 CONFIG = 
-SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gtk-doc/1.32/gtk-doc-1.32.tar.xz;name=archive file://0001-Do-not-hardocode-paths-to-perl-python-in-scripts.patch file://0001-Do-not-error-out-if-xsltproc-is-not-found.patch file://conditionaltests.patch file://no-clobber.patch
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gtk-doc/1.33/gtk-doc-1.33.0.tar.xz;name=archive file://0001-Do-not-hardocode-paths-to-perl-python-in-scripts.patch file://0001-Do-not-error-out-if-xsltproc-is-not-found.patch file://conditionaltests.patch file://no-clobber.patch

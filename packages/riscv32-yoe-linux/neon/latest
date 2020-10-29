@@ -1,7 +1,0 @@
-PV = 0.30.2
-PR = r0
-DEPENDS = autoconf-native automake-native expat gnu-config-native gnutls libproxy libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = neon-src neon-dbg neon-staticdev neon-dev neon-doc neon-bin neon neon-locale-cs neon-locale-de neon-locale-fr neon-locale-ja neon-locale-nn neon-locale-pl neon-locale-ru neon-locale-tr neon-locale-zh-cn
-LAYER = openembedded-layer
-CONFIG = expat gnutls libproxy webdav zlib
-SRC_URI = http://ftp.debian.org/debian/pool/main/n/neon27/neon27_0.30.2.orig.tar.gz file://pkgconfig.patch

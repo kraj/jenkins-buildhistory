@@ -1,7 +1,7 @@
-PV = 2.43
+PV = 2.44
 PR = r0
 DEPENDS = gperf-native hostperl-runtime-native libpam virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = libcap-src libcap-dbg libcap-staticdev libcap-dev libcap-doc libcap-locale libcap-bin libcap
 LAYER = core
 CONFIG = pam
-SRC_URI = https://cdn.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.43.tar.xz file://0001-ensure-the-XATTR_NAME_CAPS-is-defined-when-it-is-use.patch file://0002-tests-do-not-run-target-executables.patch file://0001-tests-do-not-statically-link-a-test.patch
+SRC_URI = https://cdn.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.44.tar.xz file://0001-ensure-the-XATTR_NAME_CAPS-is-defined-when-it-is-use.patch file://0002-tests-do-not-run-target-executables.patch file://0001-tests-do-not-statically-link-a-test.patch

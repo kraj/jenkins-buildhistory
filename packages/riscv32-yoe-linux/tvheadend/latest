@@ -1,7 +1,0 @@
-PV = 4.3+gitAUTOINC+ce09077056
-PR = r0
-DEPENDS = autoconf-native automake-native avahi cmake-native dvb-apps gettext-native gnu-config-native libdvbcsa libpcre2 libtool-cross libtool-native openssl pkgconfig-native uriparser virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = tvheadend-src tvheadend-dbg tvheadend-staticdev tvheadend-dev tvheadend-doc tvheadend-locale tvheadend
-LAYER = multimedia-layer
-CONFIG = 
-SRC_URI = git://github.com/tvheadend/tvheadend.git file://0001-adjust-for-64bit-time_t.patch

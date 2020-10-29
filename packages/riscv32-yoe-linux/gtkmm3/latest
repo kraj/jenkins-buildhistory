@@ -1,7 +1,0 @@
-PV = 3.24.2
-PR = r0
-DEPENDS = atkmm autoconf-native automake-native cairomm glibmm gnu-config-native gtk+3 libtool-cross libtool-native pangomm pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = gtkmm3-src gtkmm3-dbg gtkmm3-staticdev gtkmm3-dev gtkmm3-doc gtkmm3-locale gtkmm3
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.2.tar.xz;name=archive file://0001-do-not-build-demos.patch

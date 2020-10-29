@@ -1,7 +1,0 @@
-PV = 3.36.1
-PR = r0
-DEPENDS = autoconf-native automake-native gdk-pixbuf gnu-config-native gtk+3 gtk+3-native hicolor-icon-theme librsvg-native libtool-native pkgconfig-native
-PACKAGES = adwaita-icon-theme-src adwaita-icon-theme-cursors adwaita-icon-theme-symbolic-hires adwaita-icon-theme-symbolic adwaita-icon-theme-hires adwaita-icon-theme
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/adwaita-icon-theme/3.36/adwaita-icon-theme-3.36.1.tar.xz file://0001-Don-t-use-AC_CANONICAL_HOST.patch file://0001-Run-installation-commands-as-shell-jobs.patch
