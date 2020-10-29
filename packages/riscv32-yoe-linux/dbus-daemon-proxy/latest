@@ -1,0 +1,7 @@
+PV = 0.0.0+gitrAUTOINC+1226a0a137
+PR = r1.59
+DEPENDS = dbus dbus-glib pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = dbus-daemon-proxy-src dbus-daemon-proxy-dbg dbus-daemon-proxy-staticdev dbus-daemon-proxy-dev dbus-daemon-proxy-doc dbus-daemon-proxy-locale dbus-daemon-proxy
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/alban/dbus-daemon-proxy file://0001-dbus-daemon-proxy-Return-DBUS_HANDLER_RESULT_NOT_YET.patch

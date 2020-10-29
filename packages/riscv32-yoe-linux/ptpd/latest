@@ -1,0 +1,7 @@
+PV = 2.3.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = ptpd-src ptpd-dbg ptpd-staticdev ptpd-dev ptpd-doc ptpd-locale ptpd
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = http://downloads.sourceforge.net/project/ptpd/ptpd/2.3.1/ptpd-2.3.1.tar.gz file://ptpd-use-pkgconfig.patch file://Fixed-100-CPU-using-issue-by-adding-minimum-POSIX-ti.patch file://ptpd.service file://ptpd.conf

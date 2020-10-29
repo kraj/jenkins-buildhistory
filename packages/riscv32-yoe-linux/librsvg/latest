@@ -1,0 +1,7 @@
+PV = 2.40.21
+PR = r0
+DEPENDS = autoconf-native automake-native cairo gdk-pixbuf gdk-pixbuf-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gtk-doc-native libcroco libtool-cross libtool-native libxml2 pango pkgconfig-native prelink-native python3-native qemu-native qemu-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = librsvg-src librsvg-dbg librsvg-gtk rsvg librsvg-staticdev librsvg-dev librsvg-doc librsvg-locale librsvg
+LAYER = core
+CONFIG = gdkpixbuf
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/librsvg/2.40/librsvg-2.40.21.tar.xz;name=archive file://gtk-option.patch file://0001-Auto-detect-Bsymbolic-fixes-configure-on-macOS.patch file://0001-Remove-non-reproducible-SRCDIR.patch

@@ -1,0 +1,7 @@
+PV = 4.6
+PR = r0
+DEPENDS = autoconf-native automake-native desktop-file-utils gnu-config-native libtool-cross libtool-native ncurses virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = joe-src joe-dbg joe-staticdev joe-dev joe-doc joe-locale joe
+LAYER = openembedded-layer
+CONFIG = curses
+SRC_URI = https://downloads.sourceforge.net/joe-editor/joe-4.6.tar.gz

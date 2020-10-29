@@ -1,0 +1,7 @@
+PV = 2.40.1
+PR = r0
+DEPENDS = autoconf-native automake-native glibmm gnu-config-native libtool-cross libtool-native libxml2 pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libxml++-src libxml++-dbg libxml++-ptest libxml++-staticdev libxml++-dev libxml++-doc libxml++-locale libxml++
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/libxml++/2.40/libxml++-2.40.1.tar.xz file://libxml++_ptest.patch file://run-ptest

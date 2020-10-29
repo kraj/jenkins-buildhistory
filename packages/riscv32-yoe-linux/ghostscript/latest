@@ -1,0 +1,7 @@
+PV = 9.53.3
+PR = r0
+DEPENDS = autoconf-native automake-native cups fontconfig ghostscript-native gnu-config-native jpeg libpng libtool-cross libtool-native tiff virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = ghostscript-src ghostscript-dbg ghostscript-staticdev ghostscript-dev ghostscript-doc ghostscript-locale ghostscript
+LAYER = core
+CONFIG = 
+SRC_URI = https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/ghostscript-9.53.3.tar.gz file://ghostscript-9.15-parallel-make.patch file://ghostscript-9.16-Werror-return-type.patch file://do-not-check-local-libpng-source.patch file://avoid-host-contamination.patch file://mkdir-p.patch file://ghostscript-9.21-prevent_recompiling.patch file://cups-no-gcrypt.patch

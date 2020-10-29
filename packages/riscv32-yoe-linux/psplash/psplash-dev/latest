@@ -1,0 +1,10 @@
+PV = 0.1+gitAUTOINC+0a902f7cd8
+PR = r15
+PKGV = 0.1+git0+0a902f7cd8
+PKGR = r15.0
+RPROVIDES = 
+RDEPENDS = psplash (= 0.1+git0+0a902f7cd8-r15.0)
+RRECOMMENDS = glibc-dev libsystemd-dev systemd-dev update-alternatives-opkg-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/psplash/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /lib/systemd/system-preset/98-psplash.preset /lib/systemd/system/psplash-start.service /lib/systemd/system/psplash-systemd.service /usr/bin/psplash-systemd /usr/bin/psplash-write

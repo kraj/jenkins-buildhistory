@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_gtk_icon_cache exo \
+		mlprefix= \
+		libdir=/usr/lib
+else
+	for icondir in /usr/share/icons/* ; do
+		if [ -d $icondir ] ; then
+			gtk-update-icon-cache -qt  $icondir
+		fi
+	done
+fi
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database exo \
+		mlprefix= \
+		desktop_dir=/usr/share/applications
+else
+	update-desktop-database $D/usr/share/applications
+fi

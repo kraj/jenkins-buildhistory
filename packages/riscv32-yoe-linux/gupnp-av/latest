@@ -1,0 +1,7 @@
+PV = 0.12.11
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gobject-introspection gobject-introspection-native gupnp libtool-cross libtool-native pkgconfig-native prelink-native python3-native qemu-native vala vala-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = gupnp-av-src gupnp-av-dbg gupnp-av-staticdev gupnp-av-dev gupnp-av-doc gupnp-av-locale gupnp-av
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gupnp-av/0.12/gupnp-av-0.12.11.tar.xz

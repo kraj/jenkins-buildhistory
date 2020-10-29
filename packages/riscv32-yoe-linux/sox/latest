@@ -1,0 +1,7 @@
+PV = 14.4.2
+PR = r0
+DEPENDS = alsa-lib autoconf-native automake-native ffmpeg file gnu-config-native libpng libsndfile1 libtool-cross libtool-native pkgconfig-native pulseaudio virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = sox-src sox-dbg sox-staticdev sox-dev sox-doc sox-locale sox
+LAYER = multimedia-layer
+CONFIG = alsa magic pulseaudio
+SRC_URI = https://downloads.sourceforge.net/sox/sox-14.4.2.tar.gz file://0001-remove-the-error-line-and-live-without-file-type-det.patch file://0001-Update-exported-symbol-list.patch

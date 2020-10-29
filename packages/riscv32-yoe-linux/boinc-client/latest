@@ -1,0 +1,7 @@
+PV = 7.16
+PR = r0
+DEPENDS = autoconf-native automake-native curl gettext-native gnu-config-native gtk+ jpeg libnotify libnotify libtool-cross libtool-native libxscrnsaver nettle openssl pkgconfig-native sqlite3 systemd-systemctl-native virtual/libc virtual/libgl virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc xcb-util
+PACKAGES = boinc-client-src boinc-client-dbg boinc-client-staticdev boinc-client-dev boinc-client-doc boinc-client-locale boinc-client
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/BOINC/boinc;protocol=https;branch=client_release/7/7.16 file://boinc-AM_CONDITIONAL.patch file://opengl_m4_check.patch file://gtk-configure.patch

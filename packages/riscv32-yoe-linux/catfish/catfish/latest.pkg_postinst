@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_gtk_icon_cache catfish \
+		mlprefix= \
+		libdir_native=/usr/lib
+else
+
+	# Update the pixbuf loaders in case they haven't been registered yet
+	/usr/lib/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders --update-cache
+
+	for icondir in /usr/share/icons/* ; do
+		if [ -d $icondir ] ; then
+			gtk-update-icon-cache -fqt  $icondir
+		fi
+	done
+fi
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database catfish \
+		mlprefix= \
+		desktop_dir=/usr/share/applications
+else
+	update-desktop-database $D/usr/share/applications
+fi

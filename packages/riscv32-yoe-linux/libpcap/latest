@@ -1,0 +1,7 @@
+PV = 1.9.1
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native bluez5 flex-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libpcap-src libpcap-dbg libpcap-staticdev libpcap-dev libpcap-doc libpcap-locale libpcap
+LAYER = core
+CONFIG = bluez5 ipv6
+SRC_URI = https://www.tcpdump.org/release/libpcap-1.9.1.tar.gz

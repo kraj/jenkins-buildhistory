@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /bin/vi vi /usr/bin/vim.vim 100
+	update-alternatives --install /usr/bin/vim vim /usr/bin/vim.vim 100
+	update-alternatives --install /usr/bin/xxd xxd /usr/bin/xxd.vim 100
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database vim \
+		mlprefix= \
+		desktop_dir=/usr/share/applications
+else
+	update-desktop-database $D/usr/share/applications
+fi

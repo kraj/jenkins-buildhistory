@@ -1,0 +1,7 @@
+PV = 1.2.2
+PR = r0
+DEPENDS = autoconf-native automake-native expat gconf gnu-config-native libmatchbox libtool-cross libtool-native libxcursor libxext libxfixes libxrender pkgconfig-native startup-notification virtual/libc virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = matchbox-wm-src matchbox-wm-dbg matchbox-wm-staticdev matchbox-wm-dev matchbox-wm-doc matchbox-wm-locale matchbox-wm
+LAYER = core
+CONFIG = 
+SRC_URI = git://git.yoctoproject.org/matchbox-window-manager file://0001-Fix-build-with-gcc-10.patch file://kbdconfig

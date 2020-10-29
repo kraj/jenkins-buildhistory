@@ -1,0 +1,7 @@
+PV = 2.7
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gtk+ libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = orrery-src orrery-dbg orrery-staticdev orrery-dev orrery-doc orrery-locale orrery
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://projects.openmoko.org/frs/download.php/923/orrery_2.7_clean.tar.gz file://orrery.png file://use.GdkPixbuf.patch file://0001-orrery-Fix-sprintf-format.patch

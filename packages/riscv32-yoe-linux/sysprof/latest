@@ -1,0 +1,7 @@
+PV = 3.36.0
+PR = r0
+DEPENDS = desktop-file-utils gettext-native glib-2.0 glib-2.0-native gtk+3 libdazzle libxml2-native meson-native ninja-native pkgconfig-native polkit polkit python3-native shared-mime-info systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc yelp-tools-native
+PACKAGES = sysprof-src sysprof-dbg sysprof-staticdev sysprof-dev sysprof-doc sysprof sysprof-help sysprof-locale-cs sysprof-locale-da sysprof-locale-de sysprof-locale-el sysprof-locale-es sysprof-locale-eu sysprof-locale-fi sysprof-locale-fr sysprof-locale-fur sysprof-locale-hu sysprof-locale-id sysprof-locale-it sysprof-locale-nl sysprof-locale-pl sysprof-locale-pt sysprof-locale-pt-br sysprof-locale-ro sysprof-locale-sk sysprof-locale-sl sysprof-locale-sr sysprof-locale-sv
+LAYER = gnome-layer
+CONFIG = gtk libsysprof sysprofd
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/sysprof/3.36/sysprof-3.36.0.tar.xz;name=archive file://0001-sysprof-Define-NT_GNU_BUILD_ID-if-undefined.patch file://0002-tests-use-G_GSIZE_FORMAT-instead-of-G_GUINT64_FORMAT.patch

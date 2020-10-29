@@ -1,0 +1,7 @@
+PV = 1.7.1
+PR = r0
+DEPENDS = glib-2.0 libepoxy libwpe libxkbcommon meson-native ninja-native python3-native virtual/egl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland wayland-native
+PACKAGES = wpebackend-fdo-src wpebackend-fdo-dbg wpebackend-fdo-staticdev wpebackend-fdo-dev wpebackend-fdo-doc wpebackend-fdo-locale wpebackend-fdo
+LAYER = core
+CONFIG = 
+SRC_URI = https://wpewebkit.org/releases/wpebackend-fdo-1.7.1.tar.xz

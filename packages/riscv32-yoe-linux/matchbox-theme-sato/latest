@@ -1,0 +1,7 @@
+PV = 0.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native matchbox-wm pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = matchbox-theme-sato-src matchbox-theme-sato-dbg matchbox-theme-sato-staticdev matchbox-theme-sato-dev matchbox-theme-sato-doc matchbox-theme-sato-locale matchbox-theme-sato
+LAYER = core
+CONFIG = 
+SRC_URI = git://git.yoctoproject.org/matchbox-sato

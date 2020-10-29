@@ -1,0 +1,7 @@
+PV = 1.2.15
+PR = r3
+DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native libglu libtool-cross libtool-native libxext libxrandr libxrender pkgconfig-native pulseaudio virtual/libc virtual/libgl virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = libsdl-src libsdl-dbg libsdl-staticdev libsdl-dev libsdl-doc libsdl-locale libsdl-bin libsdl
+LAYER = openembedded-layer
+CONFIG = alsa opengl pulseaudio x11
+SRC_URI = http://www.libsdl.org/release/SDL-1.2.15.tar.gz file://libsdl-1.2.15-xdata32.patch file://pkgconfig.patch file://0001-build-Pass-tag-CC-explictly-when-using-libtool.patch file://CVE-2019-7577.patch file://CVE-2019-7574.patch file://CVE-2019-7572.patch file://CVE-2019-7578.patch file://CVE-2019-7575.patch file://CVE-2019-7635.patch file://CVE-2019-7637.patch file://CVE-2019-7638.patch file://CVE-2019-7576.patch

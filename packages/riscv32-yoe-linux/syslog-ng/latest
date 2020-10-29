@@ -1,0 +1,7 @@
+PV = 3.24.1
+PR = r0
+DEPENDS = autoconf-native automake-native flex gettext-native glib-2.0 gnu-config-native libpcre libtool-cross libtool-native openssl pkgconfig-native systemd systemd-systemctl-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = syslog-ng-src syslog-ng-dbg syslog-ng-jconf syslog-ng-libs syslog-ng-libs-dev syslog-ng-staticdev syslog-ng-dev syslog-ng-doc syslog-ng-locale syslog-ng
+LAYER = openembedded-layer
+CONFIG = ipv6 systemd
+SRC_URI = https://github.com/balabit/syslog-ng/releases/download/syslog-ng-3.24.1/syslog-ng-3.24.1.tar.gz file://syslog-ng.conf.systemd file://syslog-ng.conf.sysvinit file://initscript file://volatiles.03_syslog-ng file://configure.ac-add-option-enable-thread-tls-to-manage-.patch file://fix-config-libnet.patch file://fix-invalid-ownership.patch file://syslog-ng.service-the-syslog-ng-service.patch file://0001-syslog-ng-fix-segment-fault-during-service-start.patch file://shebang.patch file://syslog-ng-tmp.conf

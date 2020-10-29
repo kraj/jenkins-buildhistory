@@ -1,0 +1,7 @@
+PV = 5.15.0
+PR = r0
+DEPENDS = cairo cmake-native fontconfig freetype libtool ninja-native pango pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = plplot-src plplot-dbg plplot-staticdev plplot-dev plplot-doc plplot-locale plplot
+LAYER = atmel
+CONFIG = 
+SRC_URI = git://github.com/PLplot/PLplot;protocol=https file://0001-plplot-fix-configure-error-for-generating-header-fil.patch file://0002-utils-CMakeLists.txt-disable-pltek-build.patch file://0001-xwin.cmake-Check-if-PTHREAD_MUTEX_RECURSIVE_NP-exist.patch file://deltaT.h file://tai-utc.h file://plhershey-unicode.h
