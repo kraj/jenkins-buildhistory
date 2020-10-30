@@ -25,8 +25,8 @@ drwxr-xr-x root       root              520 ./lib/udev/rules.d
 -rw-r--r-- root       root              388 ./lib/udev/rules.d/77-mm-pcmcia-device-blacklist.rules
 -rw-r--r-- root       root             3972 ./lib/udev/rules.d/77-mm-quectel-port-types.rules
 -rw-r--r-- root       root             1338 ./lib/udev/rules.d/77-mm-sierra.rules
--rw-r--r-- root       root             2089 ./lib/udev/rules.d/77-mm-simtech-port-types.rules
--rw-r--r-- root       root             4276 ./lib/udev/rules.d/77-mm-telit-port-types.rules
+-rw-r--r-- root       root             3257 ./lib/udev/rules.d/77-mm-simtech-port-types.rules
+-rw-r--r-- root       root             6737 ./lib/udev/rules.d/77-mm-telit-port-types.rules
 -rw-r--r-- root       root              721 ./lib/udev/rules.d/77-mm-tplink-port-types.rules
 -rw-r--r-- root       root             4215 ./lib/udev/rules.d/77-mm-ublox-port-types.rules
 -rw-r--r-- root       root             8811 ./lib/udev/rules.d/77-mm-usb-device-blacklist.rules
@@ -83,10 +83,10 @@ drwxr-xr-x root       root              920 ./usr/lib/ModemManager
 -rwxr-xr-x root       root            26088 ./usr/lib/ModemManager/libmm-shared-novatel.so
 -rwxr-xr-x root       root            17820 ./usr/lib/ModemManager/libmm-shared-option.so
 -rwxr-xr-x root       root            38720 ./usr/lib/ModemManager/libmm-shared-sierra.so
--rwxr-xr-x root       root            42768 ./usr/lib/ModemManager/libmm-shared-telit.so
+-rwxr-xr-x root       root            42776 ./usr/lib/ModemManager/libmm-shared-telit.so
 -rwxr-xr-x root       root            38652 ./usr/lib/ModemManager/libmm-shared-xmm.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          1153016 ./usr/sbin/ModemManager
+-rwxr-xr-x root       root          1156856 ./usr/sbin/ModemManager
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              380 ./usr/share/dbus-1/interfaces
@@ -118,4 +118,4 @@ drwxr-xr-x root       root               60 ./usr/share/ModemManager
 -rw-r--r-- root       root             3523 ./usr/share/ModemManager/mm-foxconn-t77w968-carrier-mapping.conf
 drwxr-xr-x root       root               60 ./usr/share/polkit-1
 drwxr-xr-x root       root               60 ./usr/share/polkit-1/actions
--rw-r--r-- root       root            37759 ./usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy
+-rw-r--r-- root       root            38186 ./usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy

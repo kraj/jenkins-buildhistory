@@ -1,7 +1,7 @@
-PV = 2.18
+PV = 2.19
 PR = r0
 DEPENDS = autoconf-native automake-native base-files base-passwd bison-native flex-native gnu-config-native libdaemon libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
 PACKAGES = radvd-src radvd-dbg radvd-staticdev radvd-dev radvd-doc radvd-locale radvd
 LAYER = networking-layer
 CONFIG = 
-SRC_URI = http://v6web.litech.org/radvd/dist/radvd-2.18.tar.gz file://radvd.init file://radvd.service file://volatiles.03_radvd file://radvd.default file://radvd.conf
+SRC_URI = http://v6web.litech.org/radvd/dist/radvd-2.19.tar.gz file://radvd.init file://radvd.service file://volatiles.03_radvd file://radvd.default file://radvd.conf

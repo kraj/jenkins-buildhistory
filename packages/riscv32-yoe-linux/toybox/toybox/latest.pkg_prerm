@@ -194,6 +194,7 @@ set -e
 	update-alternatives --remove  vmstat /bin/toybox
 	update-alternatives --remove  w /bin/toybox
 	update-alternatives --remove  watch /bin/toybox
+	update-alternatives --remove  watchdog /bin/toybox
 	update-alternatives --remove  wc /bin/toybox
 	update-alternatives --remove  which /bin/toybox
 	update-alternatives --remove  who /bin/toybox

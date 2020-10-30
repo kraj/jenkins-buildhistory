@@ -19,8 +19,8 @@ drwxr-xr-x -          -                 520 ./lib/udev/rules.d
 -rw-r--r-- -          -                 388 ./lib/udev/rules.d/77-mm-pcmcia-device-blacklist.rules
 -rw-r--r-- -          -                3972 ./lib/udev/rules.d/77-mm-quectel-port-types.rules
 -rw-r--r-- -          -                1338 ./lib/udev/rules.d/77-mm-sierra.rules
--rw-r--r-- -          -                2089 ./lib/udev/rules.d/77-mm-simtech-port-types.rules
--rw-r--r-- -          -                4276 ./lib/udev/rules.d/77-mm-telit-port-types.rules
+-rw-r--r-- -          -                3257 ./lib/udev/rules.d/77-mm-simtech-port-types.rules
+-rw-r--r-- -          -                6737 ./lib/udev/rules.d/77-mm-telit-port-types.rules
 -rw-r--r-- -          -                 721 ./lib/udev/rules.d/77-mm-tplink-port-types.rules
 -rw-r--r-- -          -                4215 ./lib/udev/rules.d/77-mm-ublox-port-types.rules
 -rw-r--r-- -          -                8811 ./lib/udev/rules.d/77-mm-usb-device-blacklist.rules
@@ -136,7 +136,7 @@ drwxr-xr-x -          -                 920 ./usr/lib/ModemManager
 -rwxr-xr-x -          -               26008 ./usr/lib/ModemManager/libmm-shared-novatel.so
 -rwxr-xr-x -          -               17736 ./usr/lib/ModemManager/libmm-shared-option.so
 -rwxr-xr-x -          -               38636 ./usr/lib/ModemManager/libmm-shared-sierra.so
--rwxr-xr-x -          -               42684 ./usr/lib/ModemManager/libmm-shared-telit.so
+-rwxr-xr-x -          -               42692 ./usr/lib/ModemManager/libmm-shared-telit.so
 -rwxr-xr-x -          -               38572 ./usr/lib/ModemManager/libmm-shared-xmm.so
 drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 276 ./usr/lib/pkgconfig/mm-glib.pc
@@ -175,4 +175,4 @@ drwxr-xr-x -          -                  60 ./usr/share/ModemManager
 -rw-r--r-- -          -                3523 ./usr/share/ModemManager/mm-foxconn-t77w968-carrier-mapping.conf
 drwxr-xr-x -          -                  60 ./usr/share/polkit-1
 drwxr-xr-x -          -                  60 ./usr/share/polkit-1/actions
--rw-r--r-- -          -               37759 ./usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy
+-rw-r--r-- -          -               38186 ./usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy

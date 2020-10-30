@@ -194,6 +194,7 @@ set -e
 	update-alternatives --install /bin/vmstat vmstat /bin/toybox 60
 	update-alternatives --install /usr/bin/w w /bin/toybox 60
 	update-alternatives --install /usr/bin/watch watch /bin/toybox 60
+	update-alternatives --install /bin/watchdog watchdog /bin/toybox 60
 	update-alternatives --install /usr/bin/wc wc /bin/toybox 60
 	update-alternatives --install /usr/bin/which which /bin/toybox 60
 	update-alternatives --install /usr/bin/who who /bin/toybox 60
