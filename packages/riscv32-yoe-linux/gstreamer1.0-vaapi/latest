@@ -1,7 +1,0 @@
-PV = 1.16.2
-PR = r0
-DEPENDS = gstreamer1.0 gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gtk-doc-native libdrm libva libxrandr libxrender meson-native ninja-native pkgconfig-native python3-native udev virtual/libc virtual/libgl virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland wayland-native wayland-protocols
-PACKAGES = gstreamer1.0-vaapi-src gstreamer1.0-vaapi-dbg gstreamer1.0-vaapi-tests gstreamer1.0-vaapi-staticdev gstreamer1.0-vaapi-dev gstreamer1.0-vaapi-doc gstreamer1.0-vaapi-locale gstreamer1.0-vaapi
-LAYER = core
-CONFIG = drm encoders glx wayland x11
-SRC_URI = https://gstreamer.freedesktop.org/src/gstreamer-vaapi/gstreamer-vaapi-1.16.2.tar.xz file://0001-vaapsink-downgrade-to-marginal.patch

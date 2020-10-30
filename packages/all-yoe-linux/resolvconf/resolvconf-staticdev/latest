@@ -6,4 +6,4 @@ RDEPENDS = resolvconf-dev (= 1.83-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/resolvconf/*.a
-FILELIST = /etc/default/volatiles/99_resolvconf /etc/dhcp/dhclient-enter-hooks.d/resolvconf /etc/network/if-down.d/resolvconf /etc/network/if-up.d/000resolvconf /etc/resolvconf/interface-order /etc/resolvconf/resolv.conf.d/base /etc/resolvconf/resolv.conf.d/head /etc/resolvconf/update.d/libc /etc/tmpfiles.d/resolvconf.conf /lib/resolvconf/list-records /sbin/resolvconf
+FILELIST = /etc/default/volatiles/99_resolvconf /etc/network/if-down.d/resolvconf /etc/network/if-up.d/000resolvconf /etc/resolvconf/interface-order /etc/resolvconf/resolv.conf.d/base /etc/resolvconf/resolv.conf.d/head /etc/resolvconf/update.d/libc /etc/tmpfiles.d/resolvconf.conf /lib/resolvconf/list-records /sbin/resolvconf

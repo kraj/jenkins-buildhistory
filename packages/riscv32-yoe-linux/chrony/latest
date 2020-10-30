@@ -4,4 +4,4 @@ DEPENDS = libedit pps-tools systemd-systemctl-native virtual/libc virtual/riscv3
 PACKAGES = chrony-src chrony-dbg chronyc chrony-staticdev chrony-dev chrony-doc chrony-locale chrony
 LAYER = networking-layer
 CONFIG = editline ipv6
-SRC_URI = https://download.tuxfamily.org/chrony/chrony-3.5.tar.gz file://chrony.conf file://chronyd file://arm_eabi.patch
+SRC_URI = https://download.tuxfamily.org/chrony/chrony-3.5.tar.gz file://chrony.conf file://chronyd file://arm_eabi.patch file://CVE-2020-14367.patch
