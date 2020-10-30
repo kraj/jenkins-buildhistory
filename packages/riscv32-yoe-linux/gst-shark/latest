@@ -1,0 +1,7 @@
+PV = 0.6.1
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native gstreamer1.0 gstreamer1.0-plugins-bad gstreamer1.0-plugins-base libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = gst-shark-src gst-shark-dbg gst-shark-staticdev gst-shark-dev gst-shark-doc gst-shark-locale gst-shark
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://github.com/RidgeRun/gst-shark.git;protocol=https;branch=master;name=base git://gitlab.freedesktop.org/gstreamer/common.git;protocol=https;destsuffix=git/common;name=common;

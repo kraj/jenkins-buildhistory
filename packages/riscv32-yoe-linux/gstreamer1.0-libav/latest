@@ -1,0 +1,7 @@
+PV = 1.16.2
+PR = r0
+DEPENDS = ffmpeg gstreamer1.0 gstreamer1.0-plugins-base meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = gstreamer1.0-libav-src gstreamer1.0-libav-dbg gstreamer1.0-libav-staticdev gstreamer1.0-libav-dev gstreamer1.0-libav-doc gstreamer1.0-libav-locale gstreamer1.0-libav
+LAYER = core
+CONFIG = 
+SRC_URI = https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.16.2.tar.xz
