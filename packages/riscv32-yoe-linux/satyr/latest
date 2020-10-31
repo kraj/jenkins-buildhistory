@@ -1,0 +1,7 @@
+PV = 0.31
+PR = r0
+DEPENDS = autoconf-native automake-native gdb gnu-config-native gperf-native json-c libtool-cross libtool-native nettle pkgconfig-native python3-native rpm virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
+PACKAGES = satyr-src satyr-dbg satyr-staticdev satyr-dev satyr-doc satyr-locale satyr python3-satyr
+LAYER = openembedded-layer
+CONFIG = python3 rpm
+SRC_URI = git://github.com/abrt/satyr.git file://0002-fix-compile-failure-against-musl-C-library.patch
