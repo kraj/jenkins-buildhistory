@@ -1,0 +1,9 @@
+PV = 3.00
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g) libcurl (>= 7.72.0) libevent (>= 2.1.12) libssl (>= 1.1.1g) libsystemd (>= 246.6) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 607054
+FILES = /usr/bin/transmission-daemon /etc/init.d/transmission-daemon /usr/share/appdata /lib/systemd/system-preset/98-transmission.preset /lib/systemd/system/transmission-daemon.service
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/transmission-gtk.mo

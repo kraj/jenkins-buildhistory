@@ -1,0 +1,7 @@
+PV = 1.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native sysfsutils virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = bridge-utils-src bridge-utils-dbg bridge-utils-staticdev bridge-utils-dev bridge-utils-doc bridge-utils-locale bridge-utils
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://git.kernel.org/pub/scm/linux/kernel/git/shemminger/bridge-utils.git file://kernel-headers.patch file://0005-build-don-t-ignore-CFLAGS-from-environment.patch file://0006-libbridge-Modifying-the-AR-to-cross-toolchain.patch

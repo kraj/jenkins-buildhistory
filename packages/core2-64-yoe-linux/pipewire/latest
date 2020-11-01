@@ -1,0 +1,7 @@
+PV = 0.3.1
+PR = r0
+DEPENDS = alsa-lib bluez5 dbus glib-2.0 gstreamer1.0 gstreamer1.0-plugins-base jack meson-native ninja-native pkgconfig-native pulseaudio python3-native sbc systemd systemd-systemctl-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = pipewire-src pipewire-dbg pipewire-spa-plugins pipewire-alsa pipewire-config gstreamer1.0-pipewire libpipewire libpipewire-modules libpipewire-jack pipewire-staticdev pipewire-dev pipewire-doc pipewire-locale pipewire
+LAYER = openembedded-layer
+CONFIG = bluez gstreamer jack pulseaudio systemd
+SRC_URI = git://github.com/PipeWire/pipewire

@@ -1,7 +1,0 @@
-PV = 4.9.3
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cross libtool-native openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = tcpdump-src tcpdump-dbg tcpdump-ptest tcpdump-staticdev tcpdump-dev tcpdump-doc tcpdump-locale tcpdump
-LAYER = networking-layer
-CONFIG = openssl
-SRC_URI = http://www.tcpdump.org/release/tcpdump-4.9.3.tar.gz file://unnecessary-to-check-libpcap.patch file://avoid-absolute-path-when-searching-for-libdlpi.patch file://add-ptest.patch file://run-ptest

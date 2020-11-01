@@ -1,0 +1,9 @@
+PV = 2.12.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = babeltrace bash coreutils gawk glibc (>= 2.32) glibc-utils kmod liburcu (>= 0.12.1) libxml2 (>= 2.9.10) lttng-modules lttng-tools (>= 2.12.2) lttng-ust (>= 2.12.0) make perl perl-module-getopt-long perl-module-overloading popt (>= 1.18) procps python3-core sed util-linux
+RRECOMMENDS = ptest-runner
+PKGSIZE = 8031532
+FILES = /usr/lib/lttng-tools/ptest
+FILELIST = /lib/systemd/system-preset/98-lttng-tools.preset /lib/systemd/system/lttng-sessiond.service /usr/bin/lttng /usr/bin/lttng-crash /usr/bin/lttng-relayd /usr/bin/lttng-sessiond /usr/lib/liblttng-ctl.so.0 /usr/lib/liblttng-ctl.so.0.0.0 /usr/lib/lttng/libexec/lttng-consumerd /usr/share/xml/lttng/session.xsd

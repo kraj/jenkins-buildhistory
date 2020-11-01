@@ -1,0 +1,6 @@
+set -e
+set +e
+if [ -f "boot/bzImage" -o -L "boot/bzImage" ]; then
+    rm -f boot/bzImage  > /dev/null 2>&1
+fi
+set -e

@@ -1,0 +1,7 @@
+PV = 1.7.7
+PR = r0
+DEPENDS = autoconf-native automake-native freetype gnu-config-native jpeg libpng libtool-cross libtool-native pkgconfig-native sysfsutils virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = directfb-src directfb-dbg directfb-staticdev directfb-dev directfb-doc directfb-locale directfb
+LAYER = openembedded-layer
+CONFIG = linuxinput
+SRC_URI = http://downloads.yoctoproject.org/mirror/sources/DirectFB-1.7.7.tar.gz file://configurefix.patch file://fusion.patch file://bashism.patch file://0001-gfx-direct-Aboid-usng-VLAs-and-printf-formats.patch file://compar_fn_t.patch file://union-sigval.patch file://use-PTHREAD_MUTEX_RECURSIVE.patch file://fix-client-gfx_state-initialisation.patch file://fix-tslib-version-check.patch file://0001-Fix-build-on-32bit-arches-with-64bit-time_t.patch

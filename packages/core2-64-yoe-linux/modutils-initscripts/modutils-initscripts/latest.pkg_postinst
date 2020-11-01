@@ -1,0 +1,7 @@
+set -e
+	if type systemctl >/dev/null 2>/dev/null; then
+		if [ -n "$D" ]; then
+			OPTS="--root=$D"
+		fi
+		systemctl $OPTS mask modutils.service
+	fi

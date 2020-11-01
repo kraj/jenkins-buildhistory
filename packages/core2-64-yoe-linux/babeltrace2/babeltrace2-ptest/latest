@@ -1,0 +1,9 @@
+PV = 2.0.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = babeltrace2 (>= 2.0.3) bash gawk glib-2.0 (>= 2.66.2) glibc (>= 2.32) python3
+RRECOMMENDS = ptest-runner
+PKGSIZE = 11266442
+FILES = /usr/lib/babeltrace2/ptest
+FILELIST = /usr/bin/babeltrace2 /usr/lib/babeltrace2/plugins/babeltrace-plugin-ctf.so /usr/lib/babeltrace2/plugins/babeltrace-plugin-text.so /usr/lib/babeltrace2/plugins/babeltrace-plugin-utils.so /usr/lib/libbabeltrace2-ctf-writer.so.0 /usr/lib/libbabeltrace2-ctf-writer.so.0.0.0 /usr/lib/libbabeltrace2.so.0 /usr/lib/libbabeltrace2.so.0.0.0

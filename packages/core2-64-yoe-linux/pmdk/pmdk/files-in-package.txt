@@ -1,0 +1,33 @@
+drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root              100 ./usr/bin
+-rwxr-xr-x root       root           142352 ./usr/bin/daxio
+-rwxr-xr-x root       root           606432 ./usr/bin/pmempool
+-rwxr-xr-x root       root               64 ./usr/bin/pmreorder
+drwxr-xr-x root       root               60 ./usr/etc
+drwxr-xr-x root       root               60 ./usr/etc/bash_completion.d
+-rw-r--r-- root       root             3456 ./usr/etc/bash_completion.d/pmempool
+drwxr-xr-x root       root              240 ./usr/lib
+-rwxr-xr-x root       root           150336 ./usr/lib/libpmemblk.so.1.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libpmemblk.so.1 -> libpmemblk.so.1.0.0
+-rwxr-xr-x root       root           137984 ./usr/lib/libpmemlog.so.1.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libpmemlog.so.1 -> libpmemlog.so.1.0.0
+-rwxr-xr-x root       root           301952 ./usr/lib/libpmemobj.so.1.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libpmemobj.so.1 -> libpmemobj.so.1.0.0
+-rwxr-xr-x root       root           355656 ./usr/lib/libpmempool.so.1.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libpmempool.so.1 -> libpmempool.so.1.0.0
+-rwxr-xr-x root       root           326128 ./usr/lib/libpmem.so.1.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/libpmem.so.1 -> libpmem.so.1.0.0
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              280 ./usr/share/pmreorder
+-rw-r--r-- root       root             6672 ./usr/share/pmreorder/binaryoutputhandler.py
+-rw-r--r-- root       root             3475 ./usr/share/pmreorder/consistencycheckwrap.py
+-rw-r--r-- root       root             1731 ./usr/share/pmreorder/loggingfacility.py
+-rw-r--r-- root       root             1628 ./usr/share/pmreorder/markerparser.py
+-rw-r--r-- root       root            11289 ./usr/share/pmreorder/memoryoperations.py
+-rw-r--r-- root       root             5329 ./usr/share/pmreorder/operationfactory.py
+-rw-r--r-- root       root             2580 ./usr/share/pmreorder/opscontext.py
+-rw-r--r-- root       root             3546 ./usr/share/pmreorder/pmreorder.py
+-rw-r--r-- root       root            10691 ./usr/share/pmreorder/reorderengines.py
+-rw-r--r-- root       root              191 ./usr/share/pmreorder/reorderexceptions.py
+-rw-r--r-- root       root            12546 ./usr/share/pmreorder/statemachine.py
+-rw-r--r-- root       root             2487 ./usr/share/pmreorder/utils.py

@@ -1,7 +1,0 @@
-PV = 1.7.10
-PR = r0
-DEPENDS = autoconf-native automake-native boost gnu-config-native libtool-cross libtool-native log4cplus openssl systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = kea-src kea-dbg kea-staticdev kea-dev kea-doc kea-locale kea
-LAYER = core
-CONFIG = 
-SRC_URI = http://ftp.isc.org/isc/kea/1.7.10/kea-1.7.10.tar.gz file://0001-keactrl.in-create-var-lib-kea-and-var-run-kea-folder.patch file://kea-dhcp4.service file://kea-dhcp6.service file://kea-dhcp-ddns.service file://kea-dhcp4-server file://kea-dhcp6-server file://kea-dhcp-ddns-server file://fix-multilib-conflict.patch file://fix_pid_keactrl.patch

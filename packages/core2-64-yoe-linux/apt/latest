@@ -1,0 +1,7 @@
+PV = 1.8.2.1
+PR = r0
+DEPENDS = bash-completion bzip2 cmake-native db gnutls lz4 ninja-native perl-native virtual/libc virtual/libiconv virtual/libintl virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xz zlib
+PACKAGES = apt-src apt-dbg apt-staticdev apt-dev apt-doc apt-locale apt apt-bash-completion
+LAYER = core
+CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/a/apt/apt_1.8.2.1.tar.xz file://triehash file://0001-Disable-documentation-directory-altogether.patch file://0001-Fix-musl-build.patch file://0001-CMakeLists.txt-avoid-changing-install-paths-based-on.patch file://0001-test-libapt-do-not-use-gtest-from-the-host.patch

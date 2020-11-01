@@ -1,0 +1,19 @@
+drwxr-xr-x root       root               60 ./etc
+-rw-r--r-- root       root              626 ./etc/mongod.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              716 ./lib/systemd/system/mongod.service
+drwxr-xr-x root       root               60 ./lib/systemd/system-preset
+-rw-r--r-- root       root               22 ./lib/systemd/system-preset/98-mongodb.preset
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
+-rwxr-xr-x root       root         52779480 ./usr/bin/mongod
+-rwxr-xr-x root       root         38208536 ./usr/bin/mongos
+drwxr-xr-x root       root              100 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x mongodb    mongodb            40 ./var/lib/mongodb
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxr-xr-x mongodb    mongodb            40 ./var/volatile/log/mongodb

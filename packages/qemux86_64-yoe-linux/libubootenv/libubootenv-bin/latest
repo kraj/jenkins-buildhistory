@@ -1,0 +1,9 @@
+PV = 0.3.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = u-boot-fw-utils
+RDEPENDS = glibc (>= 2.32) libubootenv (>= 0.3.1)
+RRECOMMENDS = u-boot-default-env
+PKGSIZE = 21280
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/lib/libubootenv.so.0 /usr/lib/libubootenv.so.0.3.1

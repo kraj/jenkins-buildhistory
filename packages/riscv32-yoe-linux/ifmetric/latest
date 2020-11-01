@@ -1,7 +1,0 @@
-PV = 0.3
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = ifmetric-src ifmetric-dbg ifmetric-staticdev ifmetric-dev ifmetric-doc ifmetric-locale ifmetric
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://0pointer.de/lennart/projects/ifmetric/ifmetric-0.3.tar.gz file://ifmetric.8_typo.patch file://ifmetric.c_netlink-invalid-arg.patch file://ifmetric.c_typo.patch file://nlrequest.c_packet-too-small_fix.patch

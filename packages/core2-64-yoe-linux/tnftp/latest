@@ -1,0 +1,7 @@
+PV = 20151004
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native ncurses openssl pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tnftp-src tnftp-dbg tnftp-staticdev tnftp-dev tnftp-doc tnftp-locale tnftp
+LAYER = networking-layer
+CONFIG = ipv6 openssl
+SRC_URI = ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20151004.tar.gz file://tnftp-autotools.patch

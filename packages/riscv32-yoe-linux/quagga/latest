@@ -1,7 +1,0 @@
-PV = 1.2.4
-PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd c-ares gnu-config-native libpam libtool-cross libtool-native ncurses perl-native pkgconfig-native readline shadow shadow-native shadow-sysroot systemd-systemctl-native systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = quagga-src quagga-dbg quagga-staticdev quagga-dev quagga-doc quagga-locale quagga-ospfd quagga-ospf6d quagga-bgpd quagga-ripd quagga-ripngd quagga-isisd quagga-ospfclient quagga
-LAYER = networking-layer
-CONFIG = pam
-SRC_URI = https://download.savannah.gnu.org/releases/quagga/quagga-1.2.4.tar.gz; file://quagga.init file://quagga.default file://watchquagga.init file://watchquagga.default file://volatiles.03_quagga file://quagga.pam file://bgpd.service file://isisd.service file://ospf6d.service file://ospfd.service file://ripd.service file://ripngd.service file://zebra.service

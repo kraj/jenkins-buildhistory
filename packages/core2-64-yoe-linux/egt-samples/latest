@@ -1,0 +1,7 @@
+PV = 1.0+gitAUTOINC+431416a127
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libegt libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = egt-samples-src egt-samples-dbg egt-samples egt-samples-dev
+LAYER = atmel
+CONFIG = 
+SRC_URI = gitsm://github.com/linux4sam/egt-samples.git;protocol=https file://0001-fix-the-builf-error-of-Cannot-use-CP_USE_DOUBLES-on-.patch

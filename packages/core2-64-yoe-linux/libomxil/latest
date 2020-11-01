@@ -1,0 +1,7 @@
+PV = 0.9.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libomxil-src libomxil-dbg libomxil-staticdev libomxil-dev libomxil-doc libomxil-locale libomxil
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/omxil/libomxil-bellagio-0.9.3.tar.gz file://configure-fix.patch file://parallel-make.patch file://makefile-docdir-fix.patch file://dynamicloader-linking.patch file://disable-so-versioning.patch

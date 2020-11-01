@@ -1,7 +1,0 @@
-PV = 1.13+gitAUTOINC+f0e9569df9
-PR = r0
-DEPENDS = bash-completion systemd-systemctl-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = nvme-cli-src nvme-cli-dbg nvme-cli-dracut nvme-cli-zsh-completion nvme-cli-staticdev nvme-cli-dev nvme-cli-doc nvme-cli-locale nvme-cli nvme-cli-bash-completion
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/linux-nvme/nvme-cli.git

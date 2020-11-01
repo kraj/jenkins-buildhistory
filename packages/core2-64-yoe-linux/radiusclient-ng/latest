@@ -1,0 +1,7 @@
+PV = 0.5.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/crypt virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = radiusclient-ng-src radiusclient-ng-dbg radiusclient-ng-staticdev radiusclient-ng-dev radiusclient-ng-doc radiusclient-ng-locale radiusclient-ng
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/r/radiusclient-ng/radiusclient-ng_0.5.6.orig.tar.gz file://Modify-configure.in-and-etc-Makefile.am.patch file://config-site.radiusclient-ng-0.5.6

@@ -1,0 +1,7 @@
+PV = 1.58.8
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native gobject-introspection gobject-introspection-native gtk+3 libtool-cross libtool-native mozjs pkgconfig-native prelink-native python3-native qemu-native vala vala-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gjs-src gjs-dbg gjs-valgrind gjs-staticdev gjs-dev gjs-doc gjs-locale gjs
+LAYER = gnome-layer
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gjs/1.58/gjs-1.58.8.tar.xz;name=archive file://0001-Disable-tests-on-host.patch

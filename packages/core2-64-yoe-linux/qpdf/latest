@@ -1,0 +1,7 @@
+PV = 10.0.1
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libjpeg-turbo libpcre libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = qpdf-src qpdf-dbg libqpdf qpdf-staticdev qpdf-dev qpdf-doc qpdf-locale qpdf
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/qpdf/qpdf-10.0.1.tar.gz

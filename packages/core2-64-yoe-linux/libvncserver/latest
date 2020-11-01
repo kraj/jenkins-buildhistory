@@ -1,0 +1,7 @@
+PV = 0.9.13
+PR = r0
+DEPENDS = cmake-native ffmpeg gnutls jpeg libgcrypt libpng libsdl2 lzo ninja-native systemd virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libvncserver-src libvncserver-dbg libvncserver-staticdev libvncserver-dev libvncserver-doc libvncserver-locale libvncclient libvncserver
+LAYER = openembedded-layer
+CONFIG = 24bpp ffmpeg filetransfer gcrypt gnutls ipv6 jpeg lzo png pthread sdl systemd websockets zlib
+SRC_URI = git://github.com/LibVNC/libvncserver

@@ -1,0 +1,7 @@
+PV = 0.28
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libdaemon libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = ifplugd-src ifplugd-dbg ifplugd-staticdev ifplugd-dev ifplugd-doc ifplugd-locale ifplugd
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://0pointer.de/lennart/projects/ifplugd/ifplugd-0.28.tar.gz file://0001-src-interface.h-Make-declarations-as-extern.patch

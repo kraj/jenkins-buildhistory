@@ -1,7 +1,0 @@
-PV = 7.6
-PR = r10
-DEPENDS = libnsl2 virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = tcp-wrappers-src tcp-wrappers-dbg libwrap libwrap-doc libwrap-dev libwrap-staticdev tcp-wrappers tcp-wrappers-doc
-LAYER = core
-CONFIG = 
-SRC_URI = http://ftp.porcupine.org/pub/security/tcp_wrappers_7.6.tar.gz file://00_man_quoting.diff file://01_man_portability.patch file://05_wildcard_matching.patch file://06_fix_gethostbyname.patch file://10_usagi-ipv6.patch file://11_tcpd_blacklist.patch file://11_usagi_fix.patch file://12_makefile_config.patch file://13_shlib_weaksym.patch file://14_cidr_support.patch file://15_match_clarify.patch file://expand_remote_port.patch file://have_strerror.patch file://man_fromhost.patch file://restore_sigalarm.patch file://rfc931.diff file://safe_finger.patch file://sig_fix.patch file://siglongjmp.patch file://socklen_t.patch file://tcpdchk_libwrapped.patch file://ldflags.patch file://rename_strings_variable.patch file://try-from.8 file://safe_finger.8 file://makefile-fix-parallel.patch file://musl-decls.patch file://0001-Fix-build-with-clang.patch file://fix_warnings.patch file://fix_warnings2.patch file://0001-Remove-fgets-extern-declaration.patch

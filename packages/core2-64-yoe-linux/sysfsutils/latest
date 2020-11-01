@@ -1,0 +1,7 @@
+PV = 2.1.0
+PR = r5
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = sysfsutils-src sysfsutils-dbg libsysfs sysfsutils-staticdev sysfsutils-dev sysfsutils-doc sysfsutils-locale sysfsutils
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/linux-diag/sysfsutils-2.1.0.tar.gz file://sysfsutils-2.0.0-class-dup.patch file://obsolete_automake_macros.patch file://separatebuild.patch

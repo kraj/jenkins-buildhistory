@@ -1,7 +1,0 @@
-PV = 2.0.0
-PR = r0
-DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc yasm-native
-PACKAGES = aom-src aom-dbg aom-staticdev aom-dev aom-doc aom-locale aom
-LAYER = multimedia-layer
-CONFIG = 
-SRC_URI = git://aomedia.googlesource.com/aom;protocol=https

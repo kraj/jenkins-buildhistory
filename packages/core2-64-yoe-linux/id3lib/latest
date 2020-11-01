@@ -1,0 +1,7 @@
+PV = 3.8.3
+PR = r1
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = id3lib-src id3lib-dbg id3lib-staticdev id3lib-dev id3lib-doc id3lib-locale id3lib
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/id3lib/id3lib-3.8.3.tar.gz;name=archive http://ftp.debian.org/debian/pool/main/i/id3lib3.8.3/id3lib3.8.3_3.8.3-16.2.debian.tar.xz;name=patch;subdir=id3lib-3.8.3 file://acdefine.patch

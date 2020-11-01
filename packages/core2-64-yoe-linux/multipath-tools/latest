@@ -1,0 +1,7 @@
+PV = 0.8.4
+PR = r0
+DEPENDS = json-c libaio libdevmapper liburcu lvm2 pkgconfig-native readline systemd-systemctl-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = multipath-tools-src multipath-tools-dbg kpartx multipath-tools-libs multipath-tools-staticdev multipath-tools-dev multipath-tools-doc multipath-tools-locale multipath-tools
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://git.opensvc.com/multipath-tools/.git;protocol=http file://multipathd.oe file://multipath.conf.example file://0021-RH-fixup-udev-rules-for-redhat.patch file://0022-RH-Remove-the-property-blacklist-exception-builtin.patch file://0023-RH-don-t-start-without-a-config-file.patch file://0024-RH-use-rpm-optflags-if-present.patch file://0025-RH-add-mpathconf.patch file://0026-RH-add-wwids-from-kernel-cmdline-mpath.wwids-with-A.patch file://0027-RH-warn-on-invalid-regex-instead-of-failing.patch file://0028-RH-reset-default-find_mutipaths-value-to-off.patch file://0029-multipath-tools-modify-Makefile.inc-for-cross-compil.patch file://0030-Always-use-devmapper.patch file://0031-Always-use-devmapper-for-kpartx.patch file://0032-libdmmp-Makefile-replace-perl-with-sed-in-install-ta.patch file://0001-fix-bug-of-do_compile-and-do_install.patch file://0001-add-explicit-dependency-on-libraries.patch file://0001-fix-boolean-value-with-json-c-0.14.patch

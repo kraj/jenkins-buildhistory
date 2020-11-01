@@ -1,0 +1,7 @@
+PV = 0.11.21
+PR = r0
+DEPENDS = bash-completion coreutils-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = stress-ng-src stress-ng-dbg stress-ng-staticdev stress-ng-dev stress-ng-doc stress-ng-locale stress-ng stress-ng-bash-completion
+LAYER = core
+CONFIG = 
+SRC_URI = https://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-0.11.21.tar.xz file://0001-Do-not-preserve-ownership-when-installing-example-jo.patch file://no_daddr_t.patch

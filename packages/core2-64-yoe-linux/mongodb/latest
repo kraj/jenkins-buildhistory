@@ -1,0 +1,7 @@
+PV = 4.4.1
+PR = r0
+DEPENDS = base-files base-passwd boost curl gperftools libpcap libpcre openssl python3 python3-cheetah-native python3-native python3-psutil-native python3-pyyaml-native python3-regex-native python3-scons-native python3-setuptools-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = mongodb-src mongodb-dbg mongodb-staticdev mongodb-dev mongodb-doc mongodb-locale mongodb
+LAYER = openembedded-layer
+CONFIG = system-pcre tcmalloc
+SRC_URI = git://github.com/mongodb/mongo.git;branch=v4.4 file://0001-kms-message-bump-libmongocrypto-to-v1.0.4.patch file://0001-Tell-scons-to-use-build-settings-from-environment-va.patch file://0001-Use-long-long-instead-of-int64_t.patch file://0001-Use-__GLIBC__-to-control-use-of-gnu_get_libc_version.patch file://0002-Add-a-definition-for-the-macro-__ELF_NATIVE_CLASS.patch file://arm64-support.patch file://0001-IntelRDFPMathLib20U1-Check-for-__DEFINED_wchar_t.patch file://0001-Support-deprecated-resolver-functions.patch file://0003-Fix-unknown-prefix-env.patch file://1296.patch file://0001-Fix-compilation-with-fno-common.patch file://0001-stacktrace-Define-ARCH_BITS-for-x86.patch

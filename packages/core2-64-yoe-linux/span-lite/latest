@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = span-lite-src span-lite-dbg span-lite-ptest span-lite-staticdev span-lite-dev span-lite-doc span-lite-locale span-lite
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/martinmoene/span-lite

@@ -1,0 +1,9 @@
+PV = 6.1.16
+PR = r0
+PKGR = r0.0
+RPROVIDES = kernel-module-vboxsf
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-vboxguest-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 110255
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/misc/vboxsf.ko /etc/modules-load.d/vboxsf.conf /etc/modprobe.d/vboxsf.conf
+FILELIST = /etc/modules-load.d/vboxvideo.conf /lib/modules/5.8.13-yocto-standard/kernel/misc/vboxvideo.ko

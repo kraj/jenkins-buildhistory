@@ -1,7 +1,0 @@
-PV = 9.2.0
-PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native udev virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = dhcpcd-src dhcpcd-dbg dhcpcd-staticdev dhcpcd-dev dhcpcd-doc dhcpcd-locale dhcpcd
-LAYER = core
-CONFIG = ipv6 udev
-SRC_URI = https://roy.marples.name/downloads/dhcpcd/dhcpcd-9.2.0.tar.xz file://0001-remove-INCLUDEDIR-to-prevent-build-issues.patch file://dhcpcd.service file://dhcpcd@.service

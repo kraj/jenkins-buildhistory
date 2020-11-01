@@ -1,0 +1,7 @@
+PV = 0.3
+PR = r0
+DEPENDS = cmake-native curlpp ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = valijson-src valijson-dbg valijson-staticdev valijson-dev valijson-doc valijson-locale valijson
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/tristanpenman/valijson.git

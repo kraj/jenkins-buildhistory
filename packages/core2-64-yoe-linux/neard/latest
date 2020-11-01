@@ -1,0 +1,7 @@
+PV = 0.16
+PR = r0
+DEPENDS = autoconf-native automake-native dbus glib-2.0 gnu-config-native libnl libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = neard-src neard-dbg neard-staticdev neard-dev neard-doc neard-locale neard
+LAYER = core
+CONFIG = systemd
+SRC_URI = https://cdn.kernel.org/pub/linux/network/nfc/neard-0.16.tar.xz file://neard.in file://Makefile.am-fix-parallel-issue.patch file://Makefile.am-do-not-ship-version.h.patch file://0001-Add-header-dependency-to-nciattach.o.patch

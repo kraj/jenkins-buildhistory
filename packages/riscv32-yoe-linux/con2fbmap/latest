@@ -1,7 +1,0 @@
-PV = git
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = con2fbmap-src con2fbmap-dbg con2fbmap-staticdev con2fbmap-dev con2fbmap-doc con2fbmap-locale con2fbmap
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://gitlab.com/pibox/con2fbmap.git;protocol=https

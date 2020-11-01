@@ -1,0 +1,7 @@
+PV = 0.19.1
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-sentry-sdk-src python3-sentry-sdk-dbg python3-sentry-sdk-staticdev python3-sentry-sdk-dev python3-sentry-sdk-doc python3-sentry-sdk-locale python3-sentry-sdk
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/s/sentry-sdk/sentry-sdk-0.19.1.tar.gz

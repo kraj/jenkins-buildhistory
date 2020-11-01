@@ -1,0 +1,9 @@
+PV = 2.12.3
+PR = r0
+PKGR = r0.0
+RPROVIDES = kernel-module-lttng-wrapper
+RDEPENDS = kernel-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9336
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/lttng-modules/lttng-wrapper.ko /etc/modules-load.d/lttng-wrapper.conf /etc/modprobe.d/lttng-wrapper.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/lttng-modules/tests/lttng-test.ko

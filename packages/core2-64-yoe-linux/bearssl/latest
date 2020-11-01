@@ -1,0 +1,7 @@
+PV = 0.6
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = bearssl-src bearssl-dbg bearssl-staticdev bearssl-dev bearssl-doc bearssl-locale bearssl-bin bearssl
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://www.bearssl.org/git/BearSSL;protocol=https;nobranch=1 file://0001-conf-Unix.mk-remove-fixed-command-definitions.patch file://0002-test-test_x509.c-fix-potential-overflow-issue.patch file://0001-make-Pass-LDFLAGS-when-building-shared-objects.patch

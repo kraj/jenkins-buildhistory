@@ -1,0 +1,7 @@
+PV = 9.16.7
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libcap libtool-cross libtool-native libuv openssl pkgconfig-native readline shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = bind-src bind-dbg bind-staticdev bind-dev bind-doc bind-locale bind-utils bind-libs bind
+LAYER = core
+CONFIG = readline
+SRC_URI = https://ftp.isc.org/isc/bind9/9.16.7/bind-9.16.7.tar.xz file://conf.patch file://named.service file://bind9 file://generate-rndc-key.sh file://make-etc-initd-bind-stop-work.patch file://init.d-add-support-for-read-only-rootfs.patch file://bind-ensure-searching-for-json-headers-searches-sysr.patch file://0001-named-lwresd-V-and-start-log-hide-build-options.patch file://0001-avoid-start-failure-with-bind-user.patch

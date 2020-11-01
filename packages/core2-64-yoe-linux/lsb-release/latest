@@ -1,0 +1,7 @@
+PV = 1.4
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = lsb-release-src lsb-release-dbg lsb-release-staticdev lsb-release-dev lsb-release-doc lsb-release-locale lsb-release
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/project/lsb/lsb_release/1.4/lsb-release-1.4.tar.gz file://0001-fix-lsb_release-to-work-with-busybox-head-and-find.patch file://0001-Remove-timestamp-from-manpage.patch

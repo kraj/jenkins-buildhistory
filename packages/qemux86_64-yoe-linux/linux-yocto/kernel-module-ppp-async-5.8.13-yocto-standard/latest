@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-ppp-async
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-crc-ccitt-5.8.13-yocto-standard kernel-module-ppp-generic-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 17688
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/drivers/net/ppp/ppp_async.ko /etc/modules-load.d/ppp_async.conf /etc/modprobe.d/ppp_async.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

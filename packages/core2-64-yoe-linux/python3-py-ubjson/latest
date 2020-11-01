@@ -1,0 +1,7 @@
+PV = 0.16.1
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-py-ubjson-src python3-py-ubjson-dbg python3-py-ubjson-staticdev python3-py-ubjson-dev python3-py-ubjson-doc python3-py-ubjson-locale python3-py-ubjson
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/p/py-ubjson/py-ubjson-0.16.1.tar.gz

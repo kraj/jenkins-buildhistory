@@ -1,0 +1,7 @@
+PV = 1.95
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = nicstat-src nicstat-dbg nicstat-staticdev nicstat-dev nicstat-doc nicstat-locale nicstat
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://softlayer-sng.dl.sourceforge.net/project/nicstat/nicstat-1.95.tar.gz file://0001-nicstat.c-Do-not-define-uint64_t-and-uint32_t.patch

@@ -1,0 +1,9 @@
+PV = 1.18.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = binutils glibc (>= 2.32) libffi (>= 3.3) sed wayland (>= 1.18.0)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 1132796
+FILES = /usr/lib/wayland/ptest
+FILELIST = /usr/lib/libwayland-client.so.0 /usr/lib/libwayland-client.so.0.3.0 /usr/lib/libwayland-cursor.so.0 /usr/lib/libwayland-cursor.so.0.0.0 /usr/lib/libwayland-egl.so.1 /usr/lib/libwayland-egl.so.1.0.0 /usr/lib/libwayland-server.so.0 /usr/lib/libwayland-server.so.0.1.0

@@ -1,0 +1,7 @@
+PV = 6.1
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-qrcode-src python3-qrcode-dbg python3-qrcode-staticdev python3-qrcode-dev python3-qrcode-doc python3-qrcode-locale python3-qrcode
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/q/qrcode/qrcode-6.1.tar.gz

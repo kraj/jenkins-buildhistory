@@ -1,0 +1,7 @@
+PV = 9.0.2
+PR = r0
+DEPENDS = autoconf-native automake-native docbook-xml-dtd4-native docbook-xsl-stylesheets-native gnu-config-native libtool-cross libtool-native libxml2-native libxslt-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = asciidoc-src asciidoc-dbg asciidoc-staticdev asciidoc-dev asciidoc-doc asciidoc-locale asciidoc
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/asciidoc/asciidoc-py3;protocol=https file://auto-catalogs.patch

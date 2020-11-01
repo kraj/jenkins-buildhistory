@@ -1,7 +1,0 @@
-PV = 5.12.0
-PR = r0
-DEPENDS = autoconf-native automake-native curl gnu-config-native libgcrypt libpcap libtool libtool-cross libtool-native libxml2 lvm2 pkgconfig-native python3-native rrdtool systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc yajl
-PACKAGES = collectd-src collectd-dbg collectd-staticdev collectd-dev collectd-doc collectd-locale collectd
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://collectd.org/files/collectd-5.12.0.tar.bz2 file://collectd.init file://collectd.service file://no-gcrypt-badpath.patch file://0001-fix-to-build-with-glibc-2.25.patch file://0001-configure-Check-for-Wno-error-format-truncation-comp.patch file://0005-Disable-new-gcc8-warnings.patch file://0006-libcollectdclient-Fix-string-overflow-errors.patch file://0001-Remove-including-sys-sysctl.h-on-glibc-based-systems.patch

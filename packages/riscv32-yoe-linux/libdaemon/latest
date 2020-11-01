@@ -1,7 +1,0 @@
-PV = 0.14
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libdaemon-src libdaemon-dbg libdaemon-staticdev libdaemon-dev libdaemon-doc libdaemon-locale libdaemon
-LAYER = core
-CONFIG = 
-SRC_URI = http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz file://fix-includes.patch

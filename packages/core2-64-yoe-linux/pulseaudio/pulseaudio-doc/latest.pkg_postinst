@@ -1,0 +1,21 @@
+	# only update manual page index caches when manual files are built and installed
+	if false; then
+		if test -n "$D"; then
+			if true; then
+				sed "s:\(\s\)/:\1$D/:g" $D/etc/man_db.conf | PSEUDO_UNLOAD=1 qemu-x86_64 -r 3.2.0  -cpu core2duo -L $D -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib $D/usr/bin/mandb -C - -u -q $D/usr/share/man
+				chown -R root:root $D/usr/share/man
+				mkdir -p $D/var/cache/man
+				cd $D/usr/share/man
+				find . -name index.db | while read index; do
+					mkdir -p $D/var/cache/man/$(dirname ${index})
+					mv ${index} $D/var/cache/man/${index}
+					chown man:man $D/var/cache/man/${index}
+				done
+				cd -
+			else
+				$INTERCEPT_DIR/postinst_intercept delay_to_first_boot pulseaudio-doc mlprefix=
+			fi
+		else
+			mandb -q
+		fi
+	fi

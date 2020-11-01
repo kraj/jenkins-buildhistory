@@ -1,0 +1,7 @@
+PV = 0.2.2
+PR = r0
+DEPENDS = cmake-native ninja-native util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = crossguid-src crossguid-dbg crossguid-staticdev crossguid-dev crossguid-doc crossguid-locale crossguid
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://github.com/graeme-hill/crossguid;protocol=https

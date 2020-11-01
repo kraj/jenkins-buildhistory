@@ -1,7 +1,0 @@
-PV = 8.7.3
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = wl18xx-fw-src wl18xx-fw-dbg wl18xx-fw-staticdev wl18xx-fw-dev wl18xx-fw-doc wl18xx-fw-locale wl18xx-fw
-LAYER = meta-ti
-CONFIG = 
-SRC_URI = git://git.ti.com/wilink8-wlan/wl18xx_fw.git;protocol=git;branch=master file://0001-Add-Makefile-to-install-firmware-files.patch

@@ -1,0 +1,7 @@
+PV = 1.74
+PR = r0
+DEPENDS = perl perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = liburi-perl-src liburi-perl-dbg liburi-perl-ptest liburi-perl-staticdev liburi-perl-dev liburi-perl-doc liburi-perl-locale liburi-perl
+LAYER = core
+CONFIG = 
+SRC_URI = http://www.cpan.org/authors/id/E/ET/ETHER/URI-1.74.tar.gz file://ptest-perl/run-ptest

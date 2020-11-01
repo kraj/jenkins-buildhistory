@@ -1,0 +1,10 @@
+PV = 2.1.12
+PR = r0
+PKG = libevent-2.1-dbg
+PKGR = r0.0
+RPROVIDES = libevent-dbg (=2.1.12)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libevent-core-dbg libevent-extra-dbg libevent-pthreads-dbg zlib-dbg
+PKGSIZE = 6120736
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/libevent-2.1.so.7 /usr/lib/libevent-2.1.so.7.0.1

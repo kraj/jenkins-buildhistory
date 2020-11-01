@@ -1,0 +1,7 @@
+PV = 3.5.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = safec-src safec-dbg safec-check safec-staticdev safec-dev safec-doc safec-locale safec
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/rurban/safeclib.git

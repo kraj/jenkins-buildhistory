@@ -1,7 +1,0 @@
-PV = 1.1.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libdvbcsa-src libdvbcsa-dbg libdvbcsa-staticdev libdvbcsa-dev libdvbcsa-doc libdvbcsa-locale libdvbcsa-bin libdvbcsa
-LAYER = multimedia-layer
-CONFIG = 
-SRC_URI = git://code.videolan.org/videolan/libdvbcsa.git;protocol=https file://libdvbcsa.pc

@@ -1,7 +1,0 @@
-PV = 0.17
-PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native shadow shadow-native shadow-sysroot virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = netkit-rwho-src netkit-rwho-dbg netkit-rwho-client netkit-rwho-server netkit-rwho-doc
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://ftp.debian.org/debian/pool/main/n/netkit-rwho/netkit-rwho_0.17.orig.tar.gz;name=archive http://ftp.debian.org/debian/pool/main/n/netkit-rwho/netkit-rwho_0.17-13.debian.tar.gz;subdir=netkit-rwho-0.17;name=patch13 file://rwhod file://rwhod.default file://0001-Add-missing-include-path-to-I-options.patch file://0002-Fix-build-issues-found-with-musl.patch

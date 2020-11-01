@@ -1,0 +1,7 @@
+PV = 2.0.3
+PR = r0
+DEPENDS = asciidoc-native autoconf-native automake-native bison-native flex-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native popt util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xmlto-native
+PACKAGES = babeltrace2-src babeltrace2-dbg babeltrace2-ptest babeltrace2-staticdev babeltrace2-dev babeltrace2-doc babeltrace2-locale babeltrace2
+LAYER = core
+CONFIG = manpages
+SRC_URI = git://git.efficios.com/babeltrace.git;branch=stable-2.0 file://run-ptest file://0001-tests-do-not-run-test-applications-from-.libs.patch file://0001-Make-manpages-multilib-identical.patch

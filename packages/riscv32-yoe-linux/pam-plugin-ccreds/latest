@@ -1,7 +1,0 @@
-PV = 11
-PR = r0
-DEPENDS = autoconf-native automake-native db gnu-config-native libpam libtool-cross libtool-native openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = pam-plugin-ccreds-src pam-plugin-ccreds-dbg pam-plugin-ccreds-staticdev pam-plugin-ccreds-dev pam-plugin-ccreds-doc pam-plugin-ccreds-locale pam-plugin-ccreds
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/PADL/pam_ccreds

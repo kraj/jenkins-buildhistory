@@ -1,0 +1,7 @@
+PV = 0.15.1b
+PR = r7
+DEPENDS = autoconf-native automake-native gnu-config-native gperf-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libid3tag-src libid3tag-dbg libid3tag-staticdev libid3tag-dev libid3tag-doc libid3tag-locale libid3tag
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/mad/libid3tag-0.15.1b.tar.gz file://addpkgconfig.patch file://obsolete_automake_macros.patch file://0001-Fix-gperf-3.1-incompatibility.patch file://10_utf16.patch file://unknown-encoding.patch

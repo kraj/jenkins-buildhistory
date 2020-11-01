@@ -1,7 +1,0 @@
-PV = 5.2.0
-PR = r0
-DEPENDS = python3 python3-native python3-native python3-setuptools-native python3-setuptools-scm-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = python3-cbor2-src python3-cbor2-dbg python3-cbor2-ptest python3-cbor2-staticdev python3-cbor2-dev python3-cbor2-doc python3-cbor2-locale python3-cbor2
-LAYER = meta-python
-CONFIG = 
-SRC_URI = https://files.pythonhosted.org/packages/source/c/cbor2/cbor2-5.2.0.tar.gz file://run-ptest

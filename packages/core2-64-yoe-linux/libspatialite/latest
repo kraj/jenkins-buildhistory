@@ -1,0 +1,7 @@
+PV = 4.3.0a
+PR = r0
+DEPENDS = autoconf-native automake-native geos gnu-config-native libtool-cross libtool-native libxml2 pkgconfig-native proj sqlite3 virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libspatialite-src libspatialite-dbg libspatialite-staticdev libspatialite-dev libspatialite-doc libspatialite-locale libspatialite libspatialite-plugin
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://www.gaia-gis.it/gaia-sins/libspatialite-sources/libspatialite-4.3.0a.tar.gz file://geos-config.patch

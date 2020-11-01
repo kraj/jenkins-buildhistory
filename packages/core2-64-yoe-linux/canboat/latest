@@ -1,0 +1,7 @@
+PV = 1.3.0
+PR = r0
+DEPENDS = canboat-native libxslt-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = canboat-src canboat-dbg canboat-staticdev canboat-dev canboat-doc canboat-locale canboat
+LAYER = meta-yoe
+CONFIG = 
+SRC_URI = git://github.com/canboat/canboat.git;branch=master file://0001-Do-not-use-root-user-group-during-install.patch file://0001-Define-ANALYZEREXEC.patch file://0001-use-php-instead-of-php5.patch file://0001-Avoid-multiple-definitions-of-StringBuffer-sbNew.patch

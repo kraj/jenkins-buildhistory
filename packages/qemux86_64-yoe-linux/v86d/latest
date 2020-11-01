@@ -1,0 +1,7 @@
+PV = 0.1.10
+PR = r2
+DEPENDS = virtual/kernel virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = v86d-src v86d-dbg v86d-staticdev v86d-dev v86d-doc v86d-locale v86d
+LAYER = core
+CONFIG = 
+SRC_URI = http://snapshot.debian.org/archive/debian/20110427T035506Z/pool/main/v/v86d/v86d_0.1.10.orig.tar.gz file://Update-x86emu-from-X.org.patch file://ar-from-env.patch file://Support-for-cross-compilation.patch

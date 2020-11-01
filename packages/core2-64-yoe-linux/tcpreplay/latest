@@ -1,0 +1,7 @@
+PV = 4.3.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libpcap libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tcpreplay-src tcpreplay-dbg tcpreplay-staticdev tcpreplay-dev tcpreplay-doc tcpreplay-locale tcpreplay
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://github.com/appneta/tcpreplay/releases/download/v4.3.3/tcpreplay-4.3.3.tar.gz

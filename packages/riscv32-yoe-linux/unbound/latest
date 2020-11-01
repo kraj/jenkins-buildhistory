@@ -1,7 +1,0 @@
-PV = 1.9.4
-PR = r0
-DEPENDS = autoconf-native automake-native bison-native expat gnu-config-native libevent libtool-cross libtool-native libtool-native openssl pkgconfig-native systemd systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = unbound-src unbound-dbg unbound-staticdev unbound-dev unbound-doc unbound-locale unbound
-LAYER = networking-layer
-CONFIG = largefile systemd
-SRC_URI = git://github.com/NLnetLabs/unbound.git;protocol=http;branch=master file://0001-contrib-add-yocto-compatible-startup-scripts.patch

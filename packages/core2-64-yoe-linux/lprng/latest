@@ -1,0 +1,7 @@
+PV = 3.8.C
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = lprng-src lprng-dbg lprng-staticdev lprng-dev lprng-doc lprng lprng-locale-de lprng-locale-fr lprng-locale-pl lprng-locale-vi
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/lprng/lprng-3.8.C.tar.gz file://0001-checkpc-Do-not-define-Mail_fd-multiple-times.patch

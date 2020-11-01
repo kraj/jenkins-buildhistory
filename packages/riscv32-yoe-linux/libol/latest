@@ -1,7 +1,0 @@
-PV = 0.3.18
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libol-src libol-dbg libol-staticdev libol-dev libol-doc libol-locale libol
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://www.balabit.com/downloads/libol/0.3/libol-0.3.18.tar.gz file://configure.patch

@@ -1,0 +1,9 @@
+PV = 4.6.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g) libgcc (>= 10.2.0) libssl (>= 1.1.1g) libstdc++ (>= 10.2.0) libwvstreams-base (>= 4.6.1) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 1385776
+FILES = /usr/lib/libwvbase.so.* /usr/lib/libwvstreams.so.*
+FILELIST = /usr/bin/uni /usr/bin/wsd /usr/bin/wvtestrun /usr/lib/libwvdbus.so.4.6 /var/lib/uniconf/uniconfd.ini

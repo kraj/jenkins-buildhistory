@@ -1,7 +1,0 @@
-PV = 1.0
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = memstat-src memstat-dbg memstat-staticdev memstat-dev memstat-doc memstat-locale memstat
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://sourceforge.net/projects/memstattool/files/memstat_1.0.tar.gz file://0001-Include-limits.h-for-PATH_MAX-definition.patch

@@ -1,7 +1,0 @@
-PV = 0.0+AUTOINC+fe53d2a810
-PR = r0
-DEPENDS = qrtr systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = tqftpserv-src tqftpserv-dbg tqftpserv-staticdev tqftpserv-dev tqftpserv-doc tqftpserv-locale tqftpserv
-LAYER = qcom
-CONFIG = 
-SRC_URI = git://github.com/andersson/tqftpserv.git;branch=master;protocol=https file://0001-include-limits.h-for-PATH_MAX.patch

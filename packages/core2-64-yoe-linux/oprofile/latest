@@ -1,0 +1,7 @@
+PV = 1.3.0
+PR = r0
+DEPENDS = autoconf-native automake-native binutils gnu-config-native libtool-cross libtool-native pkgconfig-native popt virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = oprofile-src oprofile-dbg oprofile-ptest oprofile-staticdev oprofile-dev oprofile-doc oprofile-locale oprofile
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/oprofile/oprofile-1.3.0.tar.gz file://acinclude.m4 file://automake-foreign.patch file://oprofile-cross-compile-tests.patch file://run-ptest file://root-home-dir.patch file://0001-Add-rmb-definition-for-NIOS2-architecture.patch file://0001-replace-sym_iterator-0-with-sym_iterator.patch file://0001-Use-new-bfd-APIs-from-2.34.patch

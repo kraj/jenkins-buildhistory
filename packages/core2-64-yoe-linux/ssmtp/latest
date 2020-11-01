@@ -1,0 +1,7 @@
+PV = 2.64
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = ssmtp-src ssmtp-dbg ssmtp-staticdev ssmtp-dev ssmtp-doc ssmtp-locale ssmtp
+LAYER = networking-layer
+CONFIG = ipv6 ssl
+SRC_URI = http://ftp.debian.org/debian/pool/main/s/ssmtp/ssmtp_2.64.orig.tar.bz2 file://ssmtp-bug584162-fix.patch file://build-ouside_srcdir.patch file://use-DESTDIR.patch

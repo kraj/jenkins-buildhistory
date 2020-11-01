@@ -1,7 +1,0 @@
-PV = 10.11
-PR = r0
-DEPENDS = cmake-native libxml2 libxslt ninja-native systemd-systemctl-native virtual/crypt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = hiawatha-src hiawatha-dbg hiawatha-staticdev hiawatha-dev hiawatha-doc hiawatha-locale hiawatha
-LAYER = webserver
-CONFIG = 
-SRC_URI = http://hiawatha-webserver.org/files/hiawatha-10.11.tar.gz file://hiawatha-init file://hiawatha.service

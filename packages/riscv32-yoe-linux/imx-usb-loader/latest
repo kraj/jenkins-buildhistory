@@ -1,7 +1,0 @@
-PV = 1.0+AUTOINC+f009770d84
-PR = r0
-DEPENDS = libusb1 pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = imx-usb-loader-src imx-usb-loader-dbg imx-usb-loader-staticdev imx-usb-loader-dev imx-usb-loader-doc imx-usb-loader-locale imx-usb-loader
-LAYER = freescale-layer
-CONFIG = 
-SRC_URI = git://github.com/boundarydevices/imx_usb_loader.git;protocol=http

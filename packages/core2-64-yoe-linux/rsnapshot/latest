@@ -1,0 +1,7 @@
+PV = 1.4.3+gitAUTOINC+a9e29850fc
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = rsnapshot-src rsnapshot-dbg rsnapshot-staticdev rsnapshot-dev rsnapshot-doc rsnapshot-locale rsnapshot
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/DrHyde/rsnapshot;branch=master;protocol=git file://configure-fix-cmd_rsync.patch

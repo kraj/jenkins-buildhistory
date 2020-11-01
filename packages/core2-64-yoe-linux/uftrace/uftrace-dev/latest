@@ -1,0 +1,10 @@
+PV = 0.9.4+gitAUTOINC+d648bbffed
+PR = r0
+PKGV = 0.9.4+git0+d648bbffed
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = uftrace (= 0.9.4+git0+d648bbffed-r0.0)
+RRECOMMENDS = elfutils-dev glibc-dev libdw-dev libelf-dev libstdc++-dev
+PKGSIZE = 0
+FILES = /usr/include /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/uftrace/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/bash_completion.d/uftrace /usr/bin/uftrace /usr/lib/libmcount-fast-single.so /usr/lib/libmcount-fast.so /usr/lib/libmcount-nop.so /usr/lib/libmcount-single.so /usr/lib/libmcount.so

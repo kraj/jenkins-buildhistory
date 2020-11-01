@@ -1,7 +1,0 @@
-PV = 3.5.29
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = base-passwd-src base-passwd-dbg base-passwd-update base-passwd-staticdev base-passwd-dev base-passwd-doc base-passwd-locale base-passwd
-LAYER = core
-CONFIG = 
-SRC_URI = https://launchpad.net/debian/+archive/primary/+files/base-passwd_3.5.29.tar.gz file://add_shutdown.patch file://nobash.patch file://noshadow.patch file://input.patch file://disable-docs.patch file://kvm.patch

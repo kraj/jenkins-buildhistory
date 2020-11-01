@@ -1,7 +1,0 @@
-PV = 0.15
-PR = r0
-DEPENDS = libcrypt-openssl-guess-perl-native openssl perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libcrypt-openssl-random-perl-src libcrypt-openssl-random-perl-dbg libcrypt-openssl-random-perl-ptest libcrypt-openssl-random-perl-staticdev libcrypt-openssl-random-perl-dev libcrypt-openssl-random-perl-doc libcrypt-openssl-random-perl-locale libcrypt-openssl-random-perl
-LAYER = perl-layer
-CONFIG = 
-SRC_URI = http://www.cpan.org/modules/by-module/Crypt/Crypt-OpenSSL-Random-0.15.tar.gz file://ptest-perl/run-ptest

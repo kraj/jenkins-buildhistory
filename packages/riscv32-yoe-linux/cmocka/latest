@@ -1,7 +1,0 @@
-PV = 1.1.5
-PR = r0
-DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = cmocka-src cmocka-dbg cmocka-ptest cmocka-staticdev cmocka-dev cmocka-doc cmocka-locale cmocka-examples cmocka
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://git.cryptomilk.org/projects/cmocka.git file://run-ptest file://cmocka-uintptr_t.patch

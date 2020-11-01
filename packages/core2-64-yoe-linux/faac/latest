@@ -1,0 +1,7 @@
+PV = 1.29.9.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = faac-src faac-dbg libfaac libfaac-dev faac-staticdev faac-dev faac-doc faac-locale faac
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/faac/faac-1.29.9.2.tar.gz

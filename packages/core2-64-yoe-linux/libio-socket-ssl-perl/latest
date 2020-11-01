@@ -1,0 +1,7 @@
+PV = 2.068
+PR = r0
+DEPENDS = perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libio-socket-ssl-perl-src libio-socket-ssl-perl-dbg libio-socket-ssl-perl-ptest libio-socket-ssl-perl-staticdev libio-socket-ssl-perl-dev libio-socket-ssl-perl-doc libio-socket-ssl-perl-locale libio-socket-ssl-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/S/SU/SULLR/IO-Socket-SSL-2.068.tar.gz file://run-ptest

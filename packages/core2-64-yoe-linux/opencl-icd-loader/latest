@@ -1,0 +1,7 @@
+PV = 2020.06.16+gitAUTOINC+862eebe7ca
+PR = r0
+DEPENDS = cmake-native ninja-native opencl-headers pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libicdlog-dbg opencl-icd-loader opencl-icd-loader-dev libicdlog
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/KhronosGroup/OpenCL-ICD-Loader.git

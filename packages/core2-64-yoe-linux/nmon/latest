@@ -1,0 +1,7 @@
+PV = 16g
+PR = r0
+DEPENDS = ncurses virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = nmon-src nmon-dbg nmon-staticdev nmon-dev nmon-doc nmon-locale nmon
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/nmon/lmon16g.c;name=lmon https://downloads.sourceforge.net/nmon/Documentation.txt;name=doc file://0001-lmon16g.c-Adjust-system-headers.patch

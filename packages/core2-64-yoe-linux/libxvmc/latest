@@ -1,0 +1,8 @@
+PE = 1
+PV = 1.0.12
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxext libxv pkgconfig-native util-macros virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xorgproto
+PACKAGES = libxvmc-src libxvmc-dbg libxvmc-staticdev libxvmc-dev libxvmc-doc libxvmc-locale libxvmc
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXvMC-1.0.12.tar.bz2

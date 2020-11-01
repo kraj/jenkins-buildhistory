@@ -1,0 +1,7 @@
+PV = 2.3.3
+PR = r0
+DEPENDS = autoconf-native automake-native avahi base-files base-passwd dbus gnu-config-native gnutls jpeg libpam libpng libtool-cross libtool-native libusb1 pkgconfig-native shadow shadow-native shadow-sysroot systemd systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = cups-src cups-dbg cups-lib cups-libimage cups-staticdev cups-dev cups-doc cups cups-locale-ca cups-locale-cs cups-locale-de cups-locale-en cups-locale-es cups-locale-fr cups-locale-it cups-locale-ja cups-locale-pt-br cups-locale-ru cups-locale-zh-cn
+LAYER = core
+CONFIG = avahi pam systemd
+SRC_URI = https://github.com/apple/cups/releases/download/v2.3.3/cups-2.3.3-source.tar.gz file://0001-use-echo-only-in-init.patch file://0002-don-t-try-to-run-generated-binaries.patch file://0003-cups_1.4.6.bb-Fix-build-on-ppc64.patch file://0004-cups-fix-multilib-install-file-conflicts.patch file://volatiles.99_cups file://cups-volatiles.conf

@@ -1,0 +1,7 @@
+PV = 6.2+gitAUTOINC+91f1628507
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = cpsw9g-eth-fw-src cpsw9g-eth-fw-dbg cpsw9g-eth-fw-staticdev cpsw9g-eth-fw-dev cpsw9g-eth-fw-doc cpsw9g-eth-fw-locale cpsw9g-eth-fw
+LAYER = meta-ti
+CONFIG = 
+SRC_URI = git://git.ti.com/glsdk/ti-eth-fw.git;protocol=git;branch=master

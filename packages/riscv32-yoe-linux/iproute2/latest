@@ -1,7 +1,0 @@
-PV = 5.8.0
-PR = r0
-DEPENDS = bash-completion bison-native elfutils flex-native iptables libcap libmnl libmnl pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = iproute2-src iproute2-dbg iproute2-devlink iproute2-genl iproute2-ifstat iproute2-lnstat iproute2-nstat iproute2-rtacct iproute2-ss iproute2-tc iproute2-tipc iproute2-staticdev iproute2-dev iproute2-doc iproute2-locale iproute2 iproute2-bash-completion
-LAYER = core
-CONFIG = devlink elf tipc
-SRC_URI = https://cdn.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.8.0.tar.xz file://0001-libc-compat.h-add-musl-workaround.patch file://0001-devlink.c-add-missing-include.patch

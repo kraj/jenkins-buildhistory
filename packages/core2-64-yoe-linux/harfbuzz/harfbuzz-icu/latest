@@ -1,0 +1,10 @@
+PV = 2.7.2
+PR = r0
+PKG = libharfbuzz-icu0
+PKGR = r0.0
+RPROVIDES = harfbuzz-icu (=2.7.2)
+RDEPENDS = glibc (>= 2.32) harfbuzz (>= 2.7.2) libicuuc (>= 67.1)
+RRECOMMENDS = 
+PKGSIZE = 10372
+FILES = /usr/lib/libharfbuzz-icu.so.*
+FILELIST = /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib /usr/lib/libharfbuzz-gobject.so.0 /usr/lib/libharfbuzz-gobject.so.0.20702.0 /usr/lib/libharfbuzz.so.0 /usr/lib/libharfbuzz.so.0.20702.0

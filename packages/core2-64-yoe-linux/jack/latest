@@ -1,0 +1,7 @@
+PV = 1.19.14
+PR = r0
+DEPENDS = alsa-lib libsamplerate0 libsndfile1 pkgconfig-native readline virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = jack-src jack-dbg libjack jack-server jack-utils jack-staticdev jack-dev jack-doc jack-locale jack
+LAYER = openembedded-layer
+CONFIG = alsa
+SRC_URI = git://github.com/jackaudio/jack2.git file://0001-example-clients-Use-c-compiler-for-jack_simdtests.patch

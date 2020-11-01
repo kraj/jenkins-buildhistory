@@ -1,7 +1,0 @@
-PV = 0.8
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = opensbi-src opensbi-dbg opensbi-staticdev opensbi-dev opensbi-doc opensbi-locale opensbi
-LAYER = core
-CONFIG = 
-SRC_URI = git://github.com/riscv/opensbi.git;branch=master file://0001-Makefile-Don-t-specify-mabi-or-march.patch

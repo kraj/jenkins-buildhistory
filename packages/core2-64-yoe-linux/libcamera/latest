@@ -1,0 +1,7 @@
+PV = 202008+gitAUTOINC+1e8c91b656
+PR = r0
+DEPENDS = boost chrpath-native gnutls meson-native ninja-native pkgconfig-native python3-native python3-pyyaml-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libcamera-src libcamera-dbg libcamera-gst libcamera-staticdev libcamera-dev libcamera-doc libcamera-locale libcamera
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://linuxtv.org/libcamera.git;protocol=git

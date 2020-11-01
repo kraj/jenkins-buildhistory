@@ -1,0 +1,7 @@
+PV = 5.9
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libnl libtool-cross libtool-native openssl pciutils perl-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = net-snmp-src net-snmp-dbg net-snmp-ptest net-snmp-staticdev net-snmp-dev net-snmp-doc net-snmp-locale net-snmp net-snmp-libs net-snmp-mibs net-snmp-server net-snmp-client net-snmp-server-snmpd net-snmp-server-snmptrapd net-snmp-lib-netsnmp net-snmp-lib-agent net-snmp-lib-helpers net-snmp-lib-mibs net-snmp-lib-trapd
+LAYER = networking-layer
+CONFIG = des ipv6
+SRC_URI = https://downloads.sourceforge.net/net-snmp/net-snmp-5.9.tar.gz file://init file://snmpd.conf file://snmptrapd.conf file://snmpd.service file://snmptrapd.service file://net-snmp-add-knob-whether-nlist.h-are-checked.patch file://fix-libtool-finish.patch file://net-snmp-testing-add-the-output-format-for-ptest.patch file://run-ptest file://0001-config_os_headers-Error-Fix.patch file://0001-snmplib-keytools.c-Don-t-check-for-return-from-EVP_M.patch file://0001-get_pid_from_inode-Include-limit.h.patch file://0002-configure-fix-a-cc-check-issue.patch file://0004-configure-fix-incorrect-variable.patch file://net-snmp-5.7.2-fix-engineBoots-value-on-SIGHUP.patch file://net-snmp-fix-for-disable-des.patch file://reproducibility-have-printcap.patch

@@ -1,0 +1,67 @@
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/pmdk
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                 160 ./usr/include
+-rw-r--r-- -          -                5183 ./usr/include/libpmemblk.h
+-rw-r--r-- -          -                3829 ./usr/include/libpmem.h
+-rw-r--r-- -          -                4540 ./usr/include/libpmemlog.h
+drwxr-xr-x -          -                 360 ./usr/include/libpmemobj
+-rw-r--r-- -          -                1935 ./usr/include/libpmemobj/action_base.h
+-rw-r--r-- -          -                 829 ./usr/include/libpmemobj/action.h
+-rw-r--r-- -          -                2386 ./usr/include/libpmemobj/atomic_base.h
+-rw-r--r-- -          -                1115 ./usr/include/libpmemobj/atomic.h
+-rw-r--r-- -          -                7415 ./usr/include/libpmemobj/base.h
+-rw-r--r-- -          -                6198 ./usr/include/libpmemobj/ctl.h
+-rw-r--r-- -          -                 662 ./usr/include/libpmemobj.h
+-rw-r--r-- -          -                 855 ./usr/include/libpmemobj/iterator_base.h
+-rw-r--r-- -          -                2041 ./usr/include/libpmemobj/iterator.h
+-rw-r--r-- -          -                1022 ./usr/include/libpmemobj/lists_atomic_base.h
+-rw-r--r-- -          -                5121 ./usr/include/libpmemobj/lists_atomic.h
+-rw-r--r-- -          -                2813 ./usr/include/libpmemobj/pool_base.h
+-rw-r--r-- -          -                 379 ./usr/include/libpmemobj/pool.h
+-rw-r--r-- -          -                2150 ./usr/include/libpmemobj/thread.h
+-rw-r--r-- -          -               14087 ./usr/include/libpmemobj/tx_base.h
+-rw-r--r-- -          -                4295 ./usr/include/libpmemobj/tx.h
+-rw-r--r-- -          -                4701 ./usr/include/libpmemobj/types.h
+-rw-r--r-- -          -                8009 ./usr/include/libpmempool.h
+drwxr-xr-x -          -                 460 ./usr/lib
+-rwxr-xr-x -          -            12006460 ./usr/lib/libpmem.a
+-rwxr-xr-x -          -             1623384 ./usr/lib/libpmemblk.a
+-rwxr-xr-x -          -              150232 ./usr/lib/libpmemblk.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemblk.so.1 -> libpmemblk.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemblk.so -> libpmemblk.so.1
+-rwxr-xr-x -          -             1417970 ./usr/lib/libpmemlog.a
+-rwxr-xr-x -          -              137880 ./usr/lib/libpmemlog.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemlog.so.1 -> libpmemlog.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemlog.so -> libpmemlog.so.1
+-rwxr-xr-x -          -             3619984 ./usr/lib/libpmemobj.a
+-rwxr-xr-x -          -              301848 ./usr/lib/libpmemobj.so.1.0.0
+lrwxrwxrwx -          -                  19 ./usr/lib/libpmemobj.so.1 -> libpmemobj.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libpmemobj.so -> libpmemobj.so.1
+-rwxr-xr-x -          -             4482740 ./usr/lib/libpmempool.a
+-rwxr-xr-x -          -              355544 ./usr/lib/libpmempool.so.1.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libpmempool.so.1 -> libpmempool.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libpmempool.so -> libpmempool.so.1
+-rwxr-xr-x -          -              326024 ./usr/lib/libpmem.so.1.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libpmem.so.1 -> libpmem.so.1.0.0
+lrwxrwxrwx -          -                  12 ./usr/lib/libpmem.so -> libpmem.so.1
+drwxr-xr-x -          -                 140 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 299 ./usr/lib/pkgconfig/libpmemblk.pc
+-rw-r--r-- -          -                 299 ./usr/lib/pkgconfig/libpmemlog.pc
+-rw-r--r-- -          -                 318 ./usr/lib/pkgconfig/libpmemobj.pc
+-rw-r--r-- -          -                 264 ./usr/lib/pkgconfig/libpmem.pc
+-rw-r--r-- -          -                 321 ./usr/lib/pkgconfig/libpmempool.pc
+drwxr-xr-x -          -                  60 ./usr/share
+drwxr-xr-x -          -                 280 ./usr/share/pmreorder
+-rw-r--r-- -          -                6672 ./usr/share/pmreorder/binaryoutputhandler.py
+-rw-r--r-- -          -                3475 ./usr/share/pmreorder/consistencycheckwrap.py
+-rw-r--r-- -          -                1731 ./usr/share/pmreorder/loggingfacility.py
+-rw-r--r-- -          -                1628 ./usr/share/pmreorder/markerparser.py
+-rw-r--r-- -          -               11289 ./usr/share/pmreorder/memoryoperations.py
+-rw-r--r-- -          -                5329 ./usr/share/pmreorder/operationfactory.py
+-rw-r--r-- -          -                2580 ./usr/share/pmreorder/opscontext.py
+-rw-r--r-- -          -                3546 ./usr/share/pmreorder/pmreorder.py
+-rw-r--r-- -          -               10691 ./usr/share/pmreorder/reorderengines.py
+-rw-r--r-- -          -                 191 ./usr/share/pmreorder/reorderexceptions.py
+-rw-r--r-- -          -               12546 ./usr/share/pmreorder/statemachine.py
+-rw-r--r-- -          -                2487 ./usr/share/pmreorder/utils.py

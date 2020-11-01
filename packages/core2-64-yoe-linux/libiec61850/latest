@@ -1,0 +1,7 @@
+PV = 1.4.2.1
+PR = r0
+DEPENDS = cmake-native ninja-native pkgconfig-native python3 python3-native swig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libiec61850-src libiec61850-dbg libiec61850-staticdev libiec61850-dev libiec61850-doc libiec61850-locale libiec61850
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://github.com/mz-automation/libiec61850.git;branch=v1.4 file://0001-use-poll.h-instead-of-sys-poll.h.patch file://0002-serial_port_linux-Add-missing-include-sys-time.h.patch file://0003-pyiec61850-don-t-break-CMAKE_INSTALL_PATH-by-trying-.patch

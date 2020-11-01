@@ -1,0 +1,7 @@
+PV = 16.02
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = p7zip-src p7zip-dbg p7zip-staticdev p7zip-dev p7zip-doc p7zip-locale p7zip
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://downloads.sourceforge.net/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 file://do_not_override_compiler_and_do_not_strip.patch file://CVE-2017-17969.patch file://0001-Fix-narrowing-errors-Wc-11-narrowing.patch

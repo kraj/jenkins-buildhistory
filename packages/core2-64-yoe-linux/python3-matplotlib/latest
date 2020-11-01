@@ -1,0 +1,7 @@
+PV = 3.3.2
+PR = r0
+DEPENDS = freetype libpng pkgconfig-native python3 python3-certifi-native python3-dateutil-native python3-native python3-native python3-numpy-native python3-pytz-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-matplotlib-src python3-matplotlib-dbg python3-matplotlib-staticdev python3-matplotlib-dev python3-matplotlib-doc python3-matplotlib-locale python3-matplotlib
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/m/matplotlib/matplotlib-3.3.2.tar.gz

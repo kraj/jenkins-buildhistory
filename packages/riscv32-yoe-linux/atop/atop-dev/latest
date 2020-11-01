@@ -1,9 +1,0 @@
-PV = 2.4.0
-PR = r0
-PKGR = r0.0
-RPROVIDES = 
-RDEPENDS = atop (= 2.4.0-r0.0)
-RRECOMMENDS = glibc-dev ncurses-dev ncurses-libncurses-dev ncurses-libtinfo-dev procps-dev zlib-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/atop/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /etc/cron.d/atop /etc/logrotate.d/psaccs_atop /etc/logrotate.d/psaccu_atop /etc/tmpfiles.d/atop.conf /lib/systemd/system-preset/98-atop.preset /lib/systemd/system-sleep/atop-pm.sh /lib/systemd/system/atop.service /lib/systemd/system/atopgpu.service /usr/bin/atop /usr/bin/atop-2.4.0 /usr/bin/atopconvert /usr/bin/atopsar /usr/bin/atopsar-2.4.0 /usr/share/atop/atop.daily /var/volatile/log/atop/dummy_after /var/volatile/log/atop/dummy_before

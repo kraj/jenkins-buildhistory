@@ -1,7 +1,0 @@
-PV = 9100h
-PR = r0
-DEPENDS = anthy-native autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = anthy-src anthy-dbg anthy-staticdev anthy-dev anthy-doc anthy-locale anthy anthy-el libanthy0 libanthy-dev
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://osdn.dl.sourceforge.jp/anthy/37536/anthy-9100h.tar.gz file://not_build_elc.patch file://2ch_t.patch file://target-helpers.patch

@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  svc /usr/bin/svc.daemontools
+	update-alternatives --remove  svok /usr/bin/svok.daemontools

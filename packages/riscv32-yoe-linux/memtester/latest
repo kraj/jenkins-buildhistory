@@ -1,7 +1,0 @@
-PV = 4.5.0
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = memtester-src memtester-dbg memtester-staticdev memtester-dev memtester-doc memtester-locale memtester
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://pyropus.ca/software/memtester/old-versions/memtester-4.5.0.tar.gz file://Makefile.patch

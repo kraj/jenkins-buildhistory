@@ -1,7 +1,0 @@
-PV = 2.3.0
-PR = r0
-DEPENDS = cmake-native libpng ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = libharu-src libharu-dbg libharu-staticdev libharu-dev libharu-doc libharu-locale libharu
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/libharu/libharu.git;branch=2_3 file://libharu-RELEASE_2_3_0_cmake.patch

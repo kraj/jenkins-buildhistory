@@ -1,0 +1,7 @@
+PV = 1.195
+PR = r0
+DEPENDS = gettext-native glib-2.0 libbsd pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = netcat-openbsd-src netcat-openbsd-dbg netcat-openbsd-staticdev netcat-openbsd-dev netcat-openbsd-doc netcat-openbsd-locale netcat-openbsd
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = http://snapshot.debian.org/archive/debian/20181022T085404Z/pool/main/n/netcat-openbsd/netcat-openbsd_1.195.orig.tar.gz;name=netcat http://snapshot.debian.org/archive/debian/20181022T085404Z/pool/main/n/netcat-openbsd/netcat-openbsd_1.195-1.debian.tar.xz;name=netcat-patch;subdir=netcat-openbsd-1.195 file://0001-bundle-own-base64-encode-decode-functions.patch

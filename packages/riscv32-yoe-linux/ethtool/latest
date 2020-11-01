@@ -1,7 +1,0 @@
-PV = 5.8
-PR = r0
-DEPENDS = autoconf-native automake-native bash-completion gnu-config-native libmnl libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = ethtool-src ethtool-dbg ethtool-ptest ethtool-staticdev ethtool-dev ethtool-doc ethtool-locale ethtool ethtool-bash-completion
-LAYER = core
-CONFIG = netlink
-SRC_URI = https://cdn.kernel.org/pub/software/network/ethtool/ethtool-5.8.tar.gz file://run-ptest file://avoid_parallel_tests.patch

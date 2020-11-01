@@ -1,0 +1,7 @@
+PV = 0.12.6
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-cachecontrol-src python3-cachecontrol-dbg python3-cachecontrol-staticdev python3-cachecontrol-dev python3-cachecontrol-doc python3-cachecontrol-locale python3-cachecontrol
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/C/CacheControl/CacheControl-0.12.6.tar.gz

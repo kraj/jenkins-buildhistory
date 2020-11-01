@@ -1,7 +1,0 @@
-PV = 3e
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = testfloat-src testfloat-dbg testfloat-staticdev testfloat-dev testfloat-doc testfloat-locale testfloat
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://www.jhauser.us/arithmetic/TestFloat-3e.zip;name=TestFloat http://www.jhauser.us/arithmetic/SoftFloat-3e.zip;name=SoftFloat file://0001-Makefile-for-cross-compile-SoftFloat.patch file://0002-Makefile-for-cross-compile-TestFloat.patch

@@ -1,0 +1,7 @@
+PV = 5.2
+PR = r1
+DEPENDS = perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libmodule-pluggable-perl-src libmodule-pluggable-perl-dbg libmodule-pluggable-perl-staticdev libmodule-pluggable-perl-dev libmodule-pluggable-perl-doc libmodule-pluggable-perl-locale libmodule-pluggable-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz

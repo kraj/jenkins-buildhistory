@@ -1,7 +1,0 @@
-PV = 1.5
-PR = r0
-DEPENDS = cmake-native ninja-native sqlite3 virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = sqlite-orm-src sqlite-orm-dbg sqlite-orm-staticdev sqlite-orm-dev sqlite-orm-doc sqlite-orm-locale sqlite-orm
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/fnc12/sqlite_orm;protocol=https

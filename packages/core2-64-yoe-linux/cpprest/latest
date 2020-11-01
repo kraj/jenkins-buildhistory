@@ -1,0 +1,7 @@
+PV = 2.10.16
+PR = r0
+DEPENDS = boost brotli cmake-native ninja-native openssl pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc websocketpp zlib
+PACKAGES = cpprest-src cpprest-dbg cpprest-staticdev cpprest-dev cpprest-doc cpprest-locale cpprest
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/Microsoft/cpprestsdk.git;protocol=https;branch=master file://disable-float-tests.patch file://disable-outside-tests.patch

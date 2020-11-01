@@ -1,0 +1,7 @@
+PV = 5.8
+PR = r0
+DEPENDS = autoconf-native automake-native bluez5 gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = strace-src strace-dbg strace-ptest strace-staticdev strace-dev strace-doc strace-locale strace
+LAYER = core
+CONFIG = bluez
+SRC_URI = https://strace.io/files/5.8/strace-5.8.tar.xz file://disable-git-version-gen.patch file://update-gawk-paths.patch file://Makefile-ptest.patch file://run-ptest file://mips-SIGEMT.patch file://0001-caps-abbrev.awk-fix-gawk-s-path.patch file://ptest-spacesave.patch file://uintptr_t.patch file://0001-strace-fix-reproducibilty-issues.patch file://0001-xlat-Mark-IPPROTO_MAX-last-in-IPPROTO_-constants.patch

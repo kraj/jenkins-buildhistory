@@ -1,0 +1,7 @@
+PV = 2.4.51
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gnutls groff-native libgcrypt libtool libtool-cross libtool-native systemd-systemctl-native util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = openldap-src openldap-dbg openldap-backend-shell openldap-backend-passwd openldap-backend-null openldap-backend-monitor openldap-backend-meta openldap-backend-ldap openldap-backend-dnssrv openldap-staticdev openldap-dev openldap-doc openldap-locale openldap openldap-overlay-proxycache openldap-slapd openldap-slurpd openldap-bin openldap-backends
+LAYER = openembedded-layer
+CONFIG = dnssrv gnutls ipv6 ldap mdb meta modules monitor null passwd proxycache shell
+SRC_URI = http://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.4.51.tgz file://openldap-m4-pthread.patch file://openldap-2.4.28-gnutls-gcrypt.patch file://use-urandom.patch file://initscript file://slapd.service file://thread_stub.patch file://openldap-CVE-2015-3276.patch file://remove-user-host-pwd-from-version.patch file://install-strip.patch

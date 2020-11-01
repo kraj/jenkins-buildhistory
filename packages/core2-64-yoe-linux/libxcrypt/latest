@@ -1,0 +1,7 @@
+PV = 4.4.17
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libxcrypt-src libxcrypt-dbg libxcrypt-staticdev libxcrypt-dev libxcrypt-doc libxcrypt-locale libxcrypt
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/besser82/libxcrypt.git;branch=develop

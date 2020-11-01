@@ -1,7 +1,0 @@
-PV = 2.3.2
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = pimd-src pimd-dbg pimd-staticdev pimd-dev pimd-doc pimd-locale pimd
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = ftp://ftp.troglobit.com/pimd/pimd-2.3.2.tar.gz file://0001-configure-Dont-use-uname-to-determine-target-OS.patch

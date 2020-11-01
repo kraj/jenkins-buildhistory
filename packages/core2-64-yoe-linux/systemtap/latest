@@ -1,0 +1,7 @@
+PV = 4.3
+PR = r0
+DEPENDS = autoconf-native automake-native boost elfutils gettext-native gnu-config-native json-c libtool-cross libtool-native ncurses pkgconfig-native python3 python3-native python3-native python3-setuptools-native sqlite3 systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = systemtap-src systemtap-dbg systemtap-exporter systemtap-staticdev systemtap-dev systemtap-doc systemtap systemtap-locale-cs systemtap-locale-en systemtap-locale-fr systemtap-locale-pl
+LAYER = core
+CONFIG = monitor python3-probes sqlite translator
+SRC_URI = git://sourceware.org/git/systemtap.git file://0001-Do-not-let-configure-write-a-python-location-into-th.patch file://0001-Install-python-modules-to-correct-library-dir.patch file://0001-staprun-stapbpf-don-t-support-installing-a-non-root.patch file://0001-improve-reproducibility-for-c-compiling.patch

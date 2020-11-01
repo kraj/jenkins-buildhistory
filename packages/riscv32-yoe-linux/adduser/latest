@@ -1,7 +1,0 @@
-PV = 3.118
-PR = r0
-DEPENDS = perl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = adduser-src adduser-dbg adduser-staticdev adduser-dev adduser-doc adduser-locale adduser
-LAYER = perl-layer
-CONFIG = 
-SRC_URI = https://launchpad.net/debian/+archive/primary/+sourcefiles/adduser/3.118/adduser_3.118.tar.xz file://adduser-add-M-option-for-useradd.patch file://0001-adduser-set-default-shell-with-sbin-nologin.patch

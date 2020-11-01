@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-snd-hda-core
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-snd-pcm-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 121192
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/sound/hda/snd-hda-core.ko /etc/modules-load.d/snd-hda-core.conf /etc/modprobe.d/snd-hda-core.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

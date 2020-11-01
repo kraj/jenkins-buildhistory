@@ -1,0 +1,7 @@
+PV = 0.6.13
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gtk-doc-native libtool-cross libtool-native libxml2 pkgconfig-native python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libcroco-src libcroco-dbg libcroco-staticdev libcroco-dev libcroco-doc libcroco-locale libcroco
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/libcroco/0.6/libcroco-0.6.13.tar.xz;name=archive

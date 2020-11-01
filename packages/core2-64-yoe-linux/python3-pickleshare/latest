@@ -1,0 +1,7 @@
+PV = 0.7.5
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-pickleshare-src python3-pickleshare-dbg python3-pickleshare-staticdev python3-pickleshare-dev python3-pickleshare-doc python3-pickleshare-locale python3-pickleshare
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/p/pickleshare/pickleshare-0.7.5.tar.gz

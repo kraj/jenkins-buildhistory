@@ -1,0 +1,7 @@
+PV = 3.8.2+gitAUTOINC+01b727adf1
+PR = r0
+DEPENDS = base-files base-passwd libaio python3 python3-native python3-native shadow shadow-native shadow-sysroot util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = sanlock-src sanlock-dbg sanlock-staticdev sanlock-dev sanlock-doc sanlock-locale sanlock
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://pagure.io/sanlock.git;protocol=http file://0001-sanlock-Replace-cp-a-with-cp-R-no-dereference-preser.patch;patchdir=../

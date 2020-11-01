@@ -1,0 +1,7 @@
+PV = 1.4.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libatomic-ops libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libunwind-src libunwind-dbg libunwind-staticdev libunwind-dev libunwind-doc libunwind-locale libunwind
+LAYER = core
+CONFIG = 
+SRC_URI = http://download.savannah.nongnu.org/releases/libunwind/libunwind-1.4.0.tar.gz file://0001-Add-AO_REQUIRE_CAS-to-fix-build-on-ARM-v6.patch file://0002-backtrace-Use-only-with-glibc-and-uclibc.patch file://0003-x86-Stub-out-x86_local_resume.patch file://0004-Fix-build-on-mips-musl.patch file://0005-ppc32-Consider-ucontext-mismatches-between-glibc-and.patch file://0006-Fix-for-X32.patch file://sigset_t.patch file://0001-Fix-compilation-with-fno-common.patch

@@ -1,0 +1,10 @@
+PV = 2.13.0
+PR = r0
+PKG = libgnt0
+PKGR = r0.0
+RPROVIDES = libgnt (=2.13.0)
+RDEPENDS = dbus-glib (>= 0.110) dbus-lib (>= 1.12.20) glib-2.0 (>= 2.66.2) glibc (>= 2.32) libidn (>= 1.36) libnsl2 (>= 1.3.0) libpurple (>= 2.13.0) libxml2 (>= 2.9.10) ncurses-libncursesw (>= 6.2) ncurses-libpanelw (>= 6.2) ncurses-libtinfo (>= 6.2)
+RRECOMMENDS = 
+PKGSIZE = 267040
+FILES = /usr/lib/libgnt.so.* /usr/lib/gnt/*.so
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/pidgin.mo

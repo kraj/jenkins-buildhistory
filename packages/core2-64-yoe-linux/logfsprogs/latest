@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = logfsprogs-src logfsprogs-dbg logfsprogs-staticdev logfsprogs-dev logfsprogs-doc logfsprogs-locale logfsprogs
+LAYER = filesystems-layer
+CONFIG = 
+SRC_URI = git://github.com/prasad-joshi/logfsprogs.git file://0001-Add-LDFLAGS-to-linker-cmdline.patch file://0001-btree-Avoid-conflicts-with-libc-namespace-about-setk.patch file://0001-include-sys-sysmacros.h-for-major-minor-definition.patch

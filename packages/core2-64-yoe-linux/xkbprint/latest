@@ -1,0 +1,7 @@
+PV = 1.0.5
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxkbfile pkgconfig-native util-macros-native virtual/libc virtual/libx11 virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = xkbprint-src xkbprint-dbg xkbprint-staticdev xkbprint-dev xkbprint-doc xkbprint-locale xkbprint
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/app/xkbprint-1.0.5.tar.bz2

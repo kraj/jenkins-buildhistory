@@ -1,0 +1,7 @@
+PV = 3.04
+PR = r0
+DEPENDS = perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libnet-telnet-perl-src libnet-telnet-perl-dbg libnet-telnet-perl-staticdev libnet-telnet-perl-dev libnet-telnet-perl-doc libnet-telnet-perl-locale libnet-telnet-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/J/JR/JROGERS/Net-Telnet-3.04.tar.gz

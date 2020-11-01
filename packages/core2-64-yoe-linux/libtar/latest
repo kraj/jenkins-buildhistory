@@ -1,0 +1,7 @@
+PV = 1.2.20
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libtar-src libtar-dbg libtar-staticdev libtar-dev libtar-doc libtar-locale libtar
+LAYER = openembedded-layer
+CONFIG = zlib
+SRC_URI = http://ftp.debian.org/debian/pool/main/libt/libtar/libtar_1.2.20.orig.tar.gz file://fix_libtool_sysroot.patch file://0002-Do-not-strip-libtar.patch

@@ -1,0 +1,7 @@
+PV = 12.19.0
+PR = r0
+DEPENDS = brotli c-ares icu nodejs-native openssl pkgconfig-native python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = nodejs-src nodejs-dbg nodejs-systemtap nodejs-npm nodejs-staticdev nodejs-dev nodejs-doc nodejs-locale nodejs
+LAYER = openembedded-layer
+CONFIG = ares brotli icu zlib
+SRC_URI = http://nodejs.org/dist/v12.19.0/node-v12.19.0.tar.xz file://0001-Disable-running-gyp-files-for-bundled-deps.patch file://0003-Install-both-binaries-and-use-libdir.patch file://0004-v8-don-t-override-ARM-CFLAGS.patch file://big-endian.patch file://mips-warnings.patch file://0001-Remove-use-of-register-r7-because-llvm-now-issues-an.patch file://0002-Using-native-binaries.patch

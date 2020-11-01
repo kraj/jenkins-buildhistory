@@ -1,7 +1,0 @@
-PV = 0.0.1+gitAUTOINC+f4d759be54
-PR = r0
-DEPENDS = cmake-native libubox ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = relayd-src relayd-dbg relayd-staticdev relayd-dev relayd-doc relayd-locale relayd
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = git://git.openwrt.org/project/relayd.git file://0001-rtnl_flush-Error-on-failed-write.patch

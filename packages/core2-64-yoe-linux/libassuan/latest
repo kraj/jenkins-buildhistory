@@ -1,0 +1,7 @@
+PV = 2.5.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libgpg-error libtool-cross libtool-native pkgconfig-native texinfo-dummy-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libassuan-src libassuan-dbg libassuan-staticdev libassuan-dev libassuan-doc libassuan-locale libassuan
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.3.tar.bz2 file://libassuan-add-pkgconfig-support.patch

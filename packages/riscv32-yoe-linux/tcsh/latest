@@ -1,7 +1,0 @@
-PV = 6.22.02
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native ncurses virtual/crypt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = tcsh-src tcsh-dbg tcsh-staticdev tcsh-dev tcsh-doc tcsh-locale tcsh
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://astron.com/pub/tcsh/tcsh-6.22.02.tar.gz file://0001-Enable-system-malloc-on-all-linux.patch file://0002-Add-debian-csh-scripts.patch file://0001-Remove-defining-handle_interrupt-twice.patch

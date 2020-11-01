@@ -1,0 +1,9 @@
+PV = git
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libudev-dbg sg3-utils-dbg
+PKGSIZE = 697280
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /lib/systemd/system-preset/98-ledmon.preset /lib/systemd/system/ledmon.service /usr/sbin/ledctl /usr/sbin/ledmon

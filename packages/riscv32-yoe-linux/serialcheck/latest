@@ -1,7 +1,0 @@
-PV = 1.0.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = serialcheck-src serialcheck-dbg serialcheck-staticdev serialcheck-dev serialcheck-doc serialcheck-locale serialcheck-stats serialcheck
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/nsekhar/serialcheck.git

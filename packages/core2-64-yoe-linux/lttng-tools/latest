@@ -1,0 +1,7 @@
+PV = 2.12.2
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native liburcu libxml2 lttng-ust pkgconfig-native popt shadow shadow-native shadow-sysroot systemd-systemctl-native util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = lttng-tools-src lttng-tools-dbg lttng-tools-ptest lttng-tools-staticdev lttng-tools-dev lttng-tools-doc lttng-tools-locale lttng-tools
+LAYER = core
+CONFIG = lttng-ust
+SRC_URI = https://lttng.org/files/lttng-tools/lttng-tools-2.12.2.tar.bz2 file://0001-tests-do-not-strip-a-helper-library.patch file://run-ptest file://lttng-sessiond.service file://0001-tests-regression-disable-the-tools-live-tests.patch

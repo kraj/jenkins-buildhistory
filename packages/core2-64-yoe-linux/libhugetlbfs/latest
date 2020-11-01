@@ -1,0 +1,8 @@
+PE = 1
+PV = 2.23
+PR = r0
+DEPENDS = perl sysfsutils virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libhugetlbfs-src libhugetlbfs-dbg libhugetlbfs-tests libhugetlbfs-staticdev libhugetlbfs-dev libhugetlbfs-doc libhugetlbfs-locale libhugetlbfs
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/libhugetlbfs/libhugetlbfs.git;protocol=https file://skip-checking-LIB32-and-LIB64-if-they-point-to-the-s.patch file://libhugetlbfs-avoid-search-host-library-path-for-cros.patch file://tests-Makefile-install-static-4G-edge-testcases.patch file://0001-run_test.py-not-use-hard-coded-path-.-obj-hugeadm.patch file://libhugetlbfs-elf_i386-avoid-search-host-library-path.patch file://0001-include-stddef.h-for-ptrdiff_t.patch file://0002-Mark-glibc-specific-code-so.patch file://0003-alloc.c-Avoid-sysconf-_SC_LEVEL2_CACHE_LINESIZE-on-l.patch file://0004-shm.c-Mark-glibc-specific-changes-so.patch file://0005-Include-dirent.h-for-ino_t.patch file://0006-include-limits.h-for-PATH_MAX.patch file://0001-huge_page_setup_helper-use-python3-interpreter.patch file://0001-Revert-ld.hugetlbfs-fix-Ttext-segment-argument-on-AA.patch

@@ -1,0 +1,7 @@
+PV = 2.1.0
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = traceroute-src traceroute-dbg traceroute-staticdev traceroute-dev traceroute-doc traceroute-locale traceroute
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/traceroute/traceroute/traceroute-2.1.0/traceroute-2.1.0.tar.gz file://filter-out-the-patches-from-subdirs.patch

@@ -1,0 +1,7 @@
+PV = 1.66
+PR = r0
+DEPENDS = libdbi-perl-native perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libdbd-sqlite-perl-src libdbd-sqlite-perl-dbg libdbd-sqlite-perl-ptest libdbd-sqlite-perl-staticdev libdbd-sqlite-perl-dev libdbd-sqlite-perl-doc libdbd-sqlite-perl-locale libdbd-sqlite-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.66.tar.gz file://sqlite-perl-test.pl file://ptest-perl/run-ptest

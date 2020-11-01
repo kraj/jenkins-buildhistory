@@ -1,0 +1,7 @@
+PV = 0.3.13
+PR = r0
+DEPENDS = gettext-native glib-2.0 gobject-introspection gobject-introspection-native gtk-doc-native libsoup-2.4 libxml2 meson-native ninja-native pkgconfig-native prelink-native python3-native qemu-native vala vala-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = grilo-src grilo-dbg grilo-staticdev grilo-dev grilo-doc grilo grilo-locale-as grilo-locale-bg grilo-locale-bs grilo-locale-ca grilo-locale-ca+valencia grilo-locale-cs grilo-locale-da grilo-locale-de grilo-locale-el grilo-locale-en-gb grilo-locale-eo grilo-locale-es grilo-locale-eu grilo-locale-fi grilo-locale-fr grilo-locale-fur grilo-locale-gl grilo-locale-he grilo-locale-hr grilo-locale-hu grilo-locale-id grilo-locale-it grilo-locale-ja grilo-locale-ko grilo-locale-lt grilo-locale-lv grilo-locale-ml grilo-locale-ms grilo-locale-nb grilo-locale-ne grilo-locale-nl grilo-locale-oc grilo-locale-pa grilo-locale-pl grilo-locale-pt grilo-locale-pt-br grilo-locale-ro grilo-locale-ru grilo-locale-sk grilo-locale-sl grilo-locale-sr grilo-locale-sr+latin grilo-locale-sv grilo-locale-tg grilo-locale-tr grilo-locale-uk grilo-locale-zh-cn grilo-locale-zh-hk grilo-locale-zh-tw
+LAYER = gnome-layer
+CONFIG = net
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/grilo/0.3/grilo-0.3.13.tar.xz;name=archive

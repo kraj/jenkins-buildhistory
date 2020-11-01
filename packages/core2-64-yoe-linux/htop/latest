@@ -1,0 +1,7 @@
+PV = 3.0.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libnl libtool-cross libtool-native ncurses pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = htop-src htop-dbg htop-staticdev htop-dev htop-doc htop-locale htop
+LAYER = openembedded-layer
+CONFIG = cgroup delayacct linux-affinity taskstats unicode
+SRC_URI = git://github.com/htop-dev/htop.git file://0001-Use-pkg-config.patch

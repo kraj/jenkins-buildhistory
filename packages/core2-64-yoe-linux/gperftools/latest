@@ -1,0 +1,7 @@
+PV = 2.8
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libunwind virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gperftools-src gperftools-dbg gperftools-staticdev gperftools-dev gperftools-doc gperftools-locale libtcmalloc-minimal gperftools
+LAYER = openembedded-layer
+CONFIG = libunwind static
+SRC_URI = git://github.com/gperftools/gperftools file://0001-Support-Atomic-ops-on-clang.patch file://0001-fix-build-with-musl-libc.patch file://0001-disbale-heap-checkers-and-debug-allocator-on-musl.patch file://disable_libunwind_aarch64.patch file://sgidef.patch file://0001-profile-handler-Specify-libc-specific-thread_id.patch

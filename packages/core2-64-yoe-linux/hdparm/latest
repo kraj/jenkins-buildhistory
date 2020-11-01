@@ -1,0 +1,7 @@
+PV = 9.58
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = hdparm-src hdparm-dbg wiper hdparm-staticdev hdparm-dev hdparm-doc hdparm-locale hdparm
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/hdparm/hdparm-9.58.tar.gz file://wiper.sh-fix-stat-path.patch

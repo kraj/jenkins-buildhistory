@@ -1,0 +1,9 @@
+PV = 9
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = a2jmidid (= 9-r0.0)
+RRECOMMENDS = alsa-lib-dev dbus-dev dbus-lib-dev glibc-dev jack-dev libjack-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/a2jmidid/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/bin/a2j /usr/bin/a2j_control /usr/bin/a2jmidi_bridge /usr/bin/a2jmidid /usr/bin/j2amidi_bridge /usr/share/dbus-1/services/org.gna.home.a2jmidid.service

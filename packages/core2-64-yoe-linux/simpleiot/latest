@@ -1,0 +1,7 @@
+PV = 0.0.5+gitAUTOINC+98fdb1f2c0
+PR = r0
+DEPENDS = elm-binary-native go-native nodejs-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = simpleiot-src simpleiot-dbg simpleiot-staticdev simpleiot-dev simpleiot-doc simpleiot-locale simpleiot
+LAYER = meta-yoe
+CONFIG = 
+SRC_URI = git://github.com/simpleiot/simpleiot;branch=master file://siot

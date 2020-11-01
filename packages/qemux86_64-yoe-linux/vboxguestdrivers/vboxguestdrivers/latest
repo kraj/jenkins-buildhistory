@@ -1,0 +1,9 @@
+PV = 6.1.16
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) kernel-module-vboxguest-5.8.13-yocto-standard kernel-module-vboxsf-5.8.13-yocto-standard kernel-module-vboxvideo-5.8.13-yocto-standard
+RRECOMMENDS = kernel-module-vboxguest kernel-module-vboxsf kernel-module-vboxvideo
+PKGSIZE = 23376
+FILES = /sbin
+FILELIST = /etc/modules-load.d/vboxvideo.conf /lib/modules/5.8.13-yocto-standard/kernel/misc/vboxvideo.ko

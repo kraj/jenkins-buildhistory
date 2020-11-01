@@ -1,7 +1,0 @@
-PV = 0.4.0+gitAUTOINC+a2cf6d7e38
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = tinymembench-src tinymembench-dbg tinymembench-staticdev tinymembench-dev tinymembench-doc tinymembench-locale tinymembench
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/ssvb/tinymembench.git file://0001-asm-Delete-.func-.endfunc-directives.patch

@@ -1,0 +1,7 @@
+PV = 2.3.1
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-native libtool-cross libtool-native libxml2 ncurses virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tiptop-src tiptop-dbg tiptop-staticdev tiptop-dev tiptop-doc tiptop-locale tiptop
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://tiptop.gforge.inria.fr/releases/tiptop-2.3.1.tar.gz file://0001-Fix-parallel-build-problems-by-Adrian-Bunk.patch file://0002-fix-reproducibility-of-build-process.patch file://0001-Fix-build-when-S-B.patch

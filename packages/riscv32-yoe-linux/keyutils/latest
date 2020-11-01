@@ -1,7 +1,0 @@
-PV = 1.6.1
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = keyutils-src keyutils-dbg keyutils-ptest keyutils-staticdev keyutils-dev keyutils-doc keyutils-locale keyutils
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://people.redhat.com/dhowells/keyutils/keyutils-1.6.1.tar.bz2 file://keyutils-test-fix-output-format.patch file://keyutils-fix-error-report-by-adding-default-message.patch file://run-ptest file://fix_library_install_path.patch

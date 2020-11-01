@@ -1,0 +1,7 @@
+PV = 1.1.28
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-configshell-fb-src python3-configshell-fb-dbg python3-configshell-fb-staticdev python3-configshell-fb-dev python3-configshell-fb-doc python3-configshell-fb-locale python3-configshell-fb
+LAYER = meta-python
+CONFIG = 
+SRC_URI = git://github.com/open-iscsi/configshell-fb.git;protocol=https;branch=master

@@ -1,0 +1,7 @@
+PV = 1.64.6
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libmad libogg libtool-cross libtool-native libvorbis pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = streamripper-src streamripper-dbg streamripper-staticdev streamripper-dev streamripper-doc streamripper-locale streamripper
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/streamripper/streamripper-1.64.6.tar.gz file://0001-build-these-are-foreign-automake-projects.patch file://0002-build-don-t-ignore-CPPFLAGS-from-environment.patch file://0003-ripstream-fix-compilation.patch

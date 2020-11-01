@@ -1,0 +1,7 @@
+PV = 5.1.6
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native cyrus-sasl e2fsprogs flex-native gnu-config-native libnsl2 libtirpc libtool-cross libtool-native libxml2 openssl pkgconfig-native systemd systemd-systemctl-native util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = autofs-src autofs-dbg autofs-staticdev autofs-dev autofs-doc autofs-locale autofs
+LAYER = networking-layer
+CONFIG = systemd
+SRC_URI = https://cdn.kernel.org/pub/linux/daemons/autofs/v5/autofs-5.1.6.tar.gz file://autofs-5.0.7-include-linux-nfs.h-directly-in-rpc_sub.patch file://no-bash.patch file://cross.patch file://fix_disable_ldap.patch file://autofs-5.0.7-fix-lib-deps.patch file://add-the-needed-stdarg.h.patch file://using-pkg-config-to-detect-libxml-2.0-and-krb5.patch file://force-STRIP-to-emtpy.patch file://remove-bashism.patch file://fix-the-YACC-rule-to-fix-a-building-failure.patch file://0001-Define-__SWORD_TYPE-and-_PATH_NSSWITCH_CONF.patch file://0002-Replace-__S_IEXEC-with-S_IEXEC.patch file://pkgconfig-libnsl.patch file://0001-modules-lookup_multi.c-Replace-__S_IEXEC-with-S_IEXE.patch file://0001-Do-not-hardcode-path-for-pkg.m4.patch file://0001-Bug-fix-for-pid_t-not-found-on-musl.patch

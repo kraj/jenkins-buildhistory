@@ -1,0 +1,10 @@
+PV = 2.7.2
+PR = r0
+PKG = libharfbuzz-staticdev
+PKGR = r0.0
+RPROVIDES = harfbuzz-staticdev (=2.7.2)
+RDEPENDS = harfbuzz-dev (= 2.7.2-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/harfbuzz/*.a
+FILELIST = /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib /usr/lib/libharfbuzz-gobject.so.0 /usr/lib/libharfbuzz-gobject.so.0.20702.0 /usr/lib/libharfbuzz.so.0 /usr/lib/libharfbuzz.so.0.20702.0

@@ -1,0 +1,7 @@
+PV = 2.9
+PR = r0
+DEPENDS = libnl openssl pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = hostapd-src hostapd-dbg hostapd-staticdev hostapd-dev hostapd-doc hostapd-locale hostapd
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://w1.fi/releases/hostapd-2.9.tar.gz file://defconfig file://init file://hostapd.service file://CVE-2019-16275.patch

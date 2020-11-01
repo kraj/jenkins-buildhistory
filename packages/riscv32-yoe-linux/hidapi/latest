@@ -1,7 +1,0 @@
-PV = 0.10.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libusb pkgconfig-native udev virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = hidapi-src hidapi-dbg hidapi-staticdev hidapi-dev hidapi-doc hidapi-locale hidapi
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/libusb/hidapi.git;protocol=https

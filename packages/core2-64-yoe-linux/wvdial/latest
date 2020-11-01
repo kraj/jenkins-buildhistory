@@ -1,0 +1,7 @@
+PV = 1.61
+PR = r0
+DEPENDS = pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wvstreams
+PACKAGES = wvdial-src wvdial-dbg wvdial-staticdev wvdial-dev wvdial-doc wvdial-locale wvdial
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wvdial/wvdial-1.61.tar.bz2 file://typo_pon.wvdial.1.patch file://musl-support.patch

@@ -1,0 +1,7 @@
+PV = git
+PR = r6
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = boot-format-src boot-format-dbg boot-format-config boot-format-staticdev boot-format-dev boot-format-doc boot-format-locale boot-format
+LAYER = freescale-layer
+CONFIG = 
+SRC_URI = git://source.codeaurora.org/external/qoriq/qoriq-yocto-sdk/boot-format;nobranch=1 file://flags.patch

@@ -1,0 +1,7 @@
+PV = 353
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxau libxaw libxext libxinerama libxpm ncurses pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xorgproto
+PACKAGES = xterm-src xterm-dbg xterm-staticdev xterm-dev xterm-doc xterm-locale xterm
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://invisible-mirror.net/archives/xterm/xterm-353.tgz file://0001-Add-configure-time-check-for-setsid.patch

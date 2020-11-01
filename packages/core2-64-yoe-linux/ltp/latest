@@ -1,0 +1,7 @@
+PV = 20200930
+PR = r0
+DEPENDS = acl attr autoconf-native automake-native gnu-config-native libaio libcap libtool-cross libtool-native openssl pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zip-native
+PACKAGES = ltp-src ltp-dbg ltp-staticdev ltp-dev ltp-doc ltp-locale ltp
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/linux-test-project/ltp.git file://0001-build-Add-option-to-select-libc-implementation.patch file://0007-Fix-test_proc_kill-hanging.patch file://0001-Add-more-musl-exclusions.patch file://0001-Remove-OOM-tests-from-runtest-mm.patch

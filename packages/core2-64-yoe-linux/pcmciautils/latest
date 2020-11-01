@@ -1,0 +1,7 @@
+PV = 018
+PR = r1
+DEPENDS = bison-native flex-native pkgconfig-native sysfsutils udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = pcmciautils-src pcmciautils-dbg pcmciautils-staticdev pcmciautils-dev pcmciautils-doc pcmciautils-locale pcmciautils
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/kernel/pcmcia/pcmciautils-018.tar.xz file://makefile_fix.patch file://makefile_race.patch file://lex_sys_types.patch

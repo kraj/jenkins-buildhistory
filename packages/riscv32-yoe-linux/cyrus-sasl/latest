@@ -1,7 +1,0 @@
-PV = 2.1.27
-PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd db gnu-config-native groff-native libpam libtool-cross libtool-native openssl pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = cyrus-sasl-src cyrus-sasl-dbg cyrus-sasl-bin cyrus-sasl-staticdev cyrus-sasl-dev cyrus-sasl-doc cyrus-sasl-locale cyrus-sasl
-LAYER = networking-layer
-CONFIG = ntlm pam
-SRC_URI = git://github.com/cyrusimap/cyrus-sasl;protocol=https file://avoid-to-call-AC_TRY_RUN.patch file://Fix-hardcoded-libdir.patch file://debian_patches_0014_avoid_pic_overwrite.diff file://saslauthd.service file://saslauthd.conf file://0004-configure.ac-fix-condition-for-suppliment-snprintf-i.patch file://0001-Allow-saslauthd-to-be-built-outside-of-source-tree-w.patch file://0001-makeinit.sh-fix-parallel-build-issue.patch file://CVE-2019-19906.patch

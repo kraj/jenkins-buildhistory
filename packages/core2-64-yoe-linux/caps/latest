@@ -1,0 +1,7 @@
+PV = 0.9.26
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = caps-src caps-dbg caps-staticdev caps-dev caps-doc caps-locale caps
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = http://quitte.de/dsp/caps_0.9.26.tar.bz2 file://0001-basic.h-Use-c99-supported-stdint-types.patch file://append_ldflags.patch

@@ -1,0 +1,10 @@
+PV = 4.2.8p15
+PR = r0
+PKGR = r0.0
+RPROVIDES = ntp-bin
+RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g) ntpdc ntpq perl
+RRECOMMENDS = 
+RCONFLICTS = ntp-bin
+PKGSIZE = 340846
+FILES = /usr/sbin /usr/share/ntp/lib
+FILELIST = /usr/sbin/calc_tickadj /usr/sbin/ntp-keygen /usr/sbin/ntp-wait /usr/sbin/ntptime /usr/sbin/ntptrace /usr/share/ntp/lib/NTP/Util.pm

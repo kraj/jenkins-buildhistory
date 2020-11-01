@@ -1,7 +1,0 @@
-PV = 1.14
-PR = r0
-DEPENDS = perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libdev-checklib-perl-src libdev-checklib-perl-dbg libdev-checklib-perl-staticdev libdev-checklib-perl-dev libdev-checklib-perl-doc libdev-checklib-perl-locale libdev-checklib-perl
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://cpan.metacpan.org/modules/by-module/Devel/Devel-CheckLib-1.14.tar.gz file://0001-CheckLib.pm-don-t-execute-the-binary.patch

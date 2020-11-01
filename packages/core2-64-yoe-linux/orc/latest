@@ -1,0 +1,7 @@
+PV = 0.4.32
+PR = r0
+DEPENDS = gtk-doc-native meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = orc-src orc-dbg orc-examples orc-staticdev orc-dev orc-doc orc-locale orc liborc-0.4 liborc-test-0.4
+LAYER = core
+CONFIG = 
+SRC_URI = http://gstreamer.freedesktop.org/src/orc/orc-0.4.32.tar.xz

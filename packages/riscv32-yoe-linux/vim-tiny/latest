@@ -1,7 +1,0 @@
-PV = 8.2
-PR = r0
-DEPENDS = acl autoconf-native automake-native desktop-file-utils gettext-native gnu-config-native gtk+3 libtool-cross libtool-native ncurses virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives xt
-PACKAGES = vim-tiny-src vim-tiny-dbg vim-tiny-common vim-tiny-syntax vim-tiny-help vim-tiny-tutor vim-tiny-vimrc vim-tiny-tools vim-tiny-staticdev vim-tiny-dev vim-tiny-doc vim-tiny-locale vim-tiny
-LAYER = core
-CONFIG = acl gtkgui tiny x11
-SRC_URI = git://github.com/vim/vim.git file://disable_acl_header_check.patch file://vim-add-knob-whether-elf.h-are-checked.patch file://0001-src-Makefile-improve-reproducibility.patch file://no-path-adjust.patch

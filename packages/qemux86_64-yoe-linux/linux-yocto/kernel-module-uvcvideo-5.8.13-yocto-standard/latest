@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-uvcvideo
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-mc-5.8.13-yocto-standard kernel-module-videobuf2-common-5.8.13-yocto-standard kernel-module-videobuf2-v4l2-5.8.13-yocto-standard kernel-module-videobuf2-vmalloc-5.8.13-yocto-standard kernel-module-videodev-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 150192
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/drivers/media/usb/uvc/uvcvideo.ko /etc/modules-load.d/uvcvideo.conf /etc/modprobe.d/uvcvideo.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

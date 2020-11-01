@@ -1,7 +1,0 @@
-PV = 2.2.23
-PR = r0
-DEPENDS = autoconf-native automake-native bzip2 gettext-native gnu-config-native gnutls libassuan libgcrypt libksba libtool-cross libtool-native npth pkgconfig-native readline texinfo-dummy-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = gnupg-src gnupg-dbg gnupg-gpg gnupg-staticdev gnupg-dev gnupg-doc gnupg gnupg-locale-ca gnupg-locale-cs gnupg-locale-da gnupg-locale-de gnupg-locale-el gnupg-locale-en+boldquot gnupg-locale-en+quot gnupg-locale-eo gnupg-locale-es gnupg-locale-et gnupg-locale-fi gnupg-locale-fr gnupg-locale-gl gnupg-locale-hu gnupg-locale-id gnupg-locale-it gnupg-locale-ja gnupg-locale-nb gnupg-locale-pl gnupg-locale-pt gnupg-locale-ro gnupg-locale-ru gnupg-locale-sk gnupg-locale-sv gnupg-locale-tr gnupg-locale-uk gnupg-locale-zh-cn gnupg-locale-zh-tw
-LAYER = core
-CONFIG = gnutls
-SRC_URI = https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.23.tar.bz2 file://0001-Use-pkg-config-to-find-pth-instead-of-pth-config.patch file://0002-use-pkgconfig-instead-of-npth-config.patch file://0003-dirmngr-uses-libgpg-error.patch file://0004-autogen.sh-fix-find-version-for-beta-checking.patch file://0001-Woverride-init-is-not-needed-with-gcc-9.patch

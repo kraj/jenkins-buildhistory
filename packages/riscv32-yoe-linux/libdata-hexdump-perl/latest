@@ -1,7 +1,0 @@
-PV = 0.02
-PR = r0
-DEPENDS = perl perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = libdata-hexdump-perl-src libdata-hexdump-perl-dbg libdata-hexdump-perl-ptest libdata-hexdump-perl-staticdev libdata-hexdump-perl-dev libdata-hexdump-perl-doc libdata-hexdump-perl-locale libdata-hexdump-perl
-LAYER = perl-layer
-CONFIG = 
-SRC_URI = http://search.cpan.org/CPAN/authors/id/F/FT/FTASSIN/Data-HexDump-0.02.tar.gz file://run-ptest

@@ -1,0 +1,7 @@
+PV = 0.9.4+gitAUTOINC+d648bbffed
+PR = r0
+DEPENDS = autoconf-native automake-native elfutils gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = uftrace-src uftrace-dbg uftrace-staticdev uftrace-dev uftrace-doc uftrace-locale uftrace
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/namhyung/uftrace

@@ -1,7 +1,0 @@
-PV = 8.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native ncurses texinfo-dummy-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = readline-src readline-dbg readline-staticdev readline-dev readline-doc readline-locale readline
-LAYER = core
-CONFIG = 
-SRC_URI = https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz;name=archive file://inputrc file://configure-fix.patch file://norpath.patch

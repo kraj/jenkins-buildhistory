@@ -1,0 +1,7 @@
+PV = 3.2.1
+PR = r0
+DEPENDS = cmake-native gnutls libpcre nasm-native ninja-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = x265-src x265-dbg x265-staticdev x265-dev x265-doc x265-locale x265-bin x265
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = http://ftp.videolan.org/pub/videolan/x265/x265_3.2.1.tar.gz

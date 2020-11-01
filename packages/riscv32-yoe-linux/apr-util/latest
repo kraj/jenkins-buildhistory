@@ -1,7 +1,0 @@
-PV = 1.6.1
-PR = r0
-DEPENDS = apr autoconf-native automake-native expat gdbm gnu-config-native libtool-cross libtool-native openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = apr-util-src apr-util-dbg apr-util-ptest apr-util-staticdev apr-util-dev apr-util-doc apr-util-locale apr-util-bin apr-util
-LAYER = core
-CONFIG = crypto gdbm
-SRC_URI = https://archive.apache.org/dist/apr/apr-util-1.6.1.tar.gz file://configfix.patch file://configure_fixes.patch file://run-ptest file://0001-Fix-error-handling-in-gdbm.patch

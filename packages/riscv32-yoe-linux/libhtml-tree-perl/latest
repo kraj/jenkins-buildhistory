@@ -1,7 +1,0 @@
-PV = 5.03
-PR = r0
-DEPENDS = libmodule-build-perl-native perl perl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libhtml-tree-perl-src libhtml-tree-perl-dbg libhtml-tree-perl-staticdev libhtml-tree-perl-dev libhtml-tree-perl-doc libhtml-tree-perl-locale libhtml-tree-perl
-LAYER = perl-layer
-CONFIG = 
-SRC_URI = https://search.cpan.org/CPAN/authors/id/C/CJ/CJM/HTML-Tree-5.03.tar.gz file://bin-htmltree-fix-shebang.patch

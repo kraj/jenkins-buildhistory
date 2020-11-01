@@ -1,0 +1,9 @@
+PV = 0.3.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.66.2) glibc (>= 2.32) libpipewire-modules libpulse (>= 13.0) pipewire-spa-plugins
+RRECOMMENDS = 
+PKGSIZE = 1113066
+FILES = /usr/lib/libpipewire-*.so.* /usr/lib/libjack-*.so.* /usr/lib/libpulse-*.so.*
+FILELIST = /etc/pipewire/pipewire.conf /usr/bin/pipewire /usr/bin/pipewire-media-session /usr/bin/pw-cat /usr/bin/pw-cli /usr/bin/pw-dot /usr/bin/pw-mon /usr/bin/pw-play /usr/bin/pw-profiler /usr/bin/pw-record /usr/lib/systemd/user/pipewire.service /usr/lib/systemd/user/pipewire.socket

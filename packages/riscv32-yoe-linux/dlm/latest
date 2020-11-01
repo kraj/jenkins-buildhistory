@@ -1,7 +1,0 @@
-PV = 4.0.9
-PR = r0
-DEPENDS = corosync pkgconfig-native systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = dlm-src dlm-dbg dlm-staticdev dlm-dev dlm-doc dlm-locale dlm
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = https://pagure.io/dlm/archive/dlm-4.0.9/dlm-dlm-4.0.9.tar.gz file://0001-dlm-fix-compile-error-since-xml2-config-should-not-b.patch file://0001-Include-sys-sysmacros.h-for-major-minor-macros-in-gl.patch file://0001-make-Replace-cp-a-with-mode-preserving-options.patch

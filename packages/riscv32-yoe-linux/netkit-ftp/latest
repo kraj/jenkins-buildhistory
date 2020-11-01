@@ -1,7 +1,0 @@
-PV = 0.17
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = netkit-ftp-src netkit-ftp-dbg netkit-ftp netkit-ftp-doc
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://ftp.debian.org/debian/pool/main/n/netkit-ftp/netkit-ftp_0.17.orig.tar.gz;name=archive http://ftp.debian.org/debian/pool/main/n/netkit-ftp/netkit-ftp_0.17-31.debian.tar.xz;name=patch31 file://Add_ARG_MAX_define.patch file://0001-ftp-include-sys-types.h-for-u_long.patch

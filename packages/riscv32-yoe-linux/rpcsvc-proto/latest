@@ -1,7 +1,0 @@
-PV = 1.4.2
-PR = r0
-DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native rpcsvc-proto-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = rpcsvc-proto-src rpcsvc-proto-dbg rpcsvc-proto-staticdev rpcsvc-proto-dev rpcsvc-proto-doc rpcsvc-proto-locale rpcsvc-proto
-LAYER = core
-CONFIG = 
-SRC_URI = git://github.com/thkukuk/rpcsvc-proto file://0001-Use-cross-compiled-rpcgen.patch

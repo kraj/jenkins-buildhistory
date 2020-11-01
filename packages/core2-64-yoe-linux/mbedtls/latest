@@ -1,0 +1,7 @@
+PV = 2.16.6
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = mbedtls-src mbedtls-dbg mbedtls-programs mbedtls-staticdev mbedtls-dev mbedtls-doc mbedtls-locale mbedtls
+LAYER = networking-layer
+CONFIG = programs shared-libs
+SRC_URI = https://tls.mbed.org/download/mbedtls-2.16.6-apache.tgz

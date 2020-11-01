@@ -1,0 +1,7 @@
+PV = 6.1.16
+PR = r0
+DEPENDS = pkgconfig-native virtual/kernel virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = vboxguestdrivers-src vboxguestdrivers-dbg vboxguestdrivers-staticdev vboxguestdrivers-dev vboxguestdrivers-doc vboxguestdrivers-locale vboxguestdrivers kernel-module-vboxguest kernel-module-vboxsf kernel-module-vboxvideo kernel-module-vboxguest-5.8.13-yocto-standard kernel-module-vboxsf-5.8.13-yocto-standard kernel-module-vboxvideo-5.8.13-yocto-standard
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://download.virtualbox.org/virtualbox/6.1.16/VirtualBox-6.1.16.tar.bz2 file://Makefile.utils

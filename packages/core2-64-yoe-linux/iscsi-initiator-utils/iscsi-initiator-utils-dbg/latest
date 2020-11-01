@@ -1,0 +1,9 @@
+PV = 2.1.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg libkmod-dbg open-isns-dbg util-linux-libmount-dbg
+PKGSIZE = 5215960
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /etc/default/iscsi-initiator /etc/iscsi/iscsid.conf /etc/tmpfiles.d/iscsi.conf /lib/systemd/system/iscsi-initiator-targets.service /lib/systemd/system/iscsi-initiator.service /usr/lib/iscsi/set_initiatorname /usr/lib/libopeniscsiusr.so.0 /usr/lib/libopeniscsiusr.so.0.2.0 /usr/sbin/iscsi-iname /usr/sbin/iscsiadm /usr/sbin/iscsid /usr/sbin/iscsistart

@@ -1,0 +1,7 @@
+PV = 2.13.0
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-semver-src python3-semver-dbg python3-semver-ptest python3-semver-staticdev python3-semver-dev python3-semver-doc python3-semver-locale python3-semver
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/s/semver/semver-2.13.0.tar.gz file://run-ptest

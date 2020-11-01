@@ -1,7 +1,0 @@
-PV = 1.0.9
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = stressapptest-src stressapptest-dbg stressapptest-staticdev stressapptest-dev stressapptest-doc stressapptest-locale stressapptest
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/stressapptest/stressapptest file://libcplusplus-compat.patch file://read_sysfs_for_cachesize.patch

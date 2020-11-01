@@ -1,7 +1,0 @@
-PV = 0.17
-PR = r0
-DEPENDS = libtirpc virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = netkit-rpc-src netkit-rpc-dbg netkit-rpc-staticdev netkit-rpc-dev netkit-rpc-doc netkit-rpc-locale netkit-rpc
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://sources.openembedded.org/netkit-rpc-0.17.tar.gz file://gcc4.patch file://0001-rpcgen-Fix-printf-formats.patch

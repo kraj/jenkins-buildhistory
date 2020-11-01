@@ -1,0 +1,7 @@
+PV = 2.4
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gnutls libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = rtmpdump-src rtmpdump-dbg rtmpdump-staticdev rtmpdump-dev rtmpdump-doc rtmpdump-locale rtmpdump
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://git.ffmpeg.org/rtmpdump file://fix-racing-build-issue.patch

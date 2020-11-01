@@ -1,0 +1,7 @@
+PV = 5.16
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtirpc libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = watchdog-src watchdog-dbg watchdog-keepalive watchdog-staticdev watchdog-dev watchdog-doc watchdog-locale watchdog
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/watchdog/watchdog-5.16.tar.gz file://0001-watchdog-remove-interdependencies-of-watchdog-and-wd.patch file://watchdog.init file://wd_keepalive.init file://0001-wd_keepalive.service-use-run-instead-of-var-run.patch

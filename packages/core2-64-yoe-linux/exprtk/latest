@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = exprtk-src exprtk-dbg exprtk-staticdev exprtk-dev exprtk-doc exprtk-locale exprtk
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/ArashPartow/exprtk.git

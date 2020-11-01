@@ -1,7 +1,0 @@
-PV = 1.0.1+gitAUTOINC+b71bfb87fe
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libconfig libnl libtool-cross libtool-native pkgconfig-native readline systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = openlldp-src openlldp-dbg openlldp-staticdev openlldp-dev openlldp-doc openlldp-locale openlldp
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = git://github.com/intel/openlldp.git;protocol=https;branch=master file://0001-Fix-musl-libc-build-issue.patch file://0001-autotools-Add-include-path-to-generated-version.h.patch file://0001-autotools-Add-option-to-disable-installation-of-syst.patch file://0001-cmds-fix-enum-conversion.patch file://0002-lldp_head-rename-and-make-extern.patch file://0003-lldp-add-packed-struct-definition.patch file://0004-lldptool-make-extern.patch file://0005-cisco_oui-match-encode-handler-prototypes.patch file://0006-ecp22-make-enum-a-type-rather-than-instance.patch file://0007-lldp_8021qaz-extern-config-object.patch file://0008-stringops-fix-some-string-copy-errors.patch file://0009-8021qaz-mark-prio-map-functions-static.patch

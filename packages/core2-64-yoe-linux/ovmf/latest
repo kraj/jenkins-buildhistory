@@ -1,0 +1,7 @@
+PV = edk2-stable202008
+PR = r0
+DEPENDS = acpica-native nasm-native ovmf-native util-linux-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = ovmf-src ovmf-dbg ovmf-shell-efi ovmf-staticdev ovmf-dev ovmf-doc ovmf-locale ovmf
+LAYER = core
+CONFIG = 
+SRC_URI = gitsm://github.com/tianocore/edk2.git;branch=master;protocol=https file://0001-ovmf-update-path-to-native-BaseTools.patch file://0002-BaseTools-makefile-adjust-to-build-in-under-bitbake.patch file://0003-ovmf-enable-long-path-file.patch file://0004-ovmf-Update-to-latest.patch

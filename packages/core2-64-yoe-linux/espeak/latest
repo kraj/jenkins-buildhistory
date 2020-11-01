@@ -1,0 +1,7 @@
+PV = 1.48.04
+PR = r0
+DEPENDS = portaudio-v19 qemu-helper-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = espeak-src espeak-dbg espeak-staticdev espeak-dev espeak-doc espeak-locale espeak
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://downloads.sourceforge.net/espeak/espeak-1.48.04-source.zip file://0001-Fix-build-of-shared-library-on-architectures-needing.patch file://0002-tr_languages-cast-string_ordinal-init-values.patch

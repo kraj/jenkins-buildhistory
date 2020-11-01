@@ -1,0 +1,7 @@
+PV = 4.4.0
+PR = r0
+DEPENDS = amtk autoconf-native automake-native gettext-native glib-2.0-native gnu-config-native gobject-introspection gobject-introspection-native gtk+3 gtksourceview4 libtool-cross libtool-native libxml2 pkgconfig-native prelink-native python3-native qemu-native uchardet virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tepl-src tepl-dbg tepl-staticdev tepl-dev tepl-doc tepl tepl-locale-ca tepl-locale-cs tepl-locale-da tepl-locale-de tepl-locale-el tepl-locale-en-gb tepl-locale-es tepl-locale-eu tepl-locale-fur tepl-locale-hu tepl-locale-id tepl-locale-nl tepl-locale-pl tepl-locale-pt-br tepl-locale-ro tepl-locale-ru tepl-locale-sl tepl-locale-sr tepl-locale-sv tepl-locale-tr tepl-locale-uk
+LAYER = gnome-layer
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/tepl/4.4/tepl-4.4.0.tar.xz;name=archive

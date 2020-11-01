@@ -1,0 +1,7 @@
+PV = 20130209+gitAUTOINC+3ebe0e54c5
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = pmtools-src pmtools-dbg pmtools-staticdev pmtools-dev pmtools-doc pmtools-locale pmtools
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/anyc/pmtools.git file://pmtools-switch-to-dynamic-buffer-for-huge-ACPI-table.patch

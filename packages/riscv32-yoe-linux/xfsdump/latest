@@ -1,7 +1,0 @@
-PV = 3.1.9
-PR = r0
-DEPENDS = attr autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc xfsprogs
-PACKAGES = xfsdump-src xfsdump-dbg xfsdump-staticdev xfsdump-dev xfsdump-doc xfsdump-locale xfsdump
-LAYER = filesystems-layer
-CONFIG = 
-SRC_URI = https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/xfsdump-3.1.9.tar.xz file://remove-install-as-user.patch

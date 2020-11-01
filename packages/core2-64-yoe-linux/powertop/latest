@@ -1,0 +1,7 @@
+PV = 2.13
+PR = r0
+DEPENDS = autoconf-archive autoconf-native automake-native bash-completion gettext-native gnu-config-native libnl libtool-cross libtool-native ncurses pciutils pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = powertop-src powertop-dbg powertop-staticdev powertop-dev powertop-doc powertop powertop-bash-completion powertop-locale-ca powertop-locale-cs-cz powertop-locale-de-de powertop-locale-en-gb powertop-locale-en-us powertop-locale-es-es powertop-locale-hu-hu powertop-locale-id-id powertop-locale-nl-nl powertop-locale-zh-tw
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/fenrus75/powertop;protocol=https file://0001-wakeup_xxx.h-include-limits.h.patch

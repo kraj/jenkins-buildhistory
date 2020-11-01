@@ -1,0 +1,7 @@
+PV = 2.0.11+gitAUTOINC+432b551429
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = opencl-clhpp-src opencl-clhpp-dbg opencl-clhpp-staticdev opencl-clhpp-dev opencl-clhpp-doc opencl-clhpp-locale opencl-clhpp
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/KhronosGroup/OpenCL-CLHPP.git;protocol=https

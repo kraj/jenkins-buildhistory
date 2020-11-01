@@ -1,0 +1,9 @@
+PV = 3.1.5
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = ipmiutil (= 3.1.5-r0.0)
+RRECOMMENDS = glibc-dev openssl-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ipmiutil/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/bin/idiscover /usr/bin/ievents /usr/bin/ipmiutil /usr/sbin/ialarms /usr/sbin/icmd /usr/sbin/iconfig /usr/sbin/ifirewall /usr/sbin/ifru /usr/sbin/ifwum /usr/sbin/igetevent /usr/sbin/ihealth /usr/sbin/ihpm /usr/sbin/ilan /usr/sbin/ipicmg /usr/sbin/ipmi_port /usr/sbin/ireset /usr/sbin/isel /usr/sbin/iseltime /usr/sbin/isensor /usr/sbin/iserial /usr/sbin/isol /usr/sbin/iuser /usr/sbin/iwdt /usr/share/ipmiutil/bmclanpet.mib /usr/share/ipmiutil/checksel /usr/share/ipmiutil/evt.sh /usr/share/ipmiutil/ipmi.init.basic /usr/share/ipmiutil/ipmi_if.sh /usr/share/ipmiutil/ipmi_info /usr/share/ipmiutil/ipmi_port /usr/share/ipmiutil/ipmi_port.service /usr/share/ipmiutil/ipmiutil.env /usr/share/ipmiutil/ipmiutil.pre /usr/share/ipmiutil/ipmiutil.setup /usr/share/ipmiutil/ipmiutil_asy /usr/share/ipmiutil/ipmiutil_asy.service /usr/share/ipmiutil/ipmiutil_evt /usr/share/ipmiutil/ipmiutil_evt.service /usr/share/ipmiutil/ipmiutil_wdt /usr/share/ipmiutil/ipmiutil_wdt.service

@@ -1,0 +1,7 @@
+PV = 7.2.8
+PR = r0
+DEPENDS = coreutils-native gettext-native ncurses-native readline virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = crash-src crash-dbg crash-staticdev crash-dev crash-doc crash-locale crash
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/crash-utility/crash.git https://ftp.gnu.org/gnu/gdb/gdb-7.6.tar.gz;name=gdb;subdir=git file://7001force_define_architecture.patch file://7003cross_ranlib.patch file://0001-cross_add_configure_option.patch file://sim-ppc-drop-LIBS-from-psim-dependency.patch file://sim-common-sim-arange-fix-extern-inline-handling.patch file://donnot-extract-gdb-during-do-compile.patch file://gdb_build_jobs_and_not_write_crash_target.patch file://remove-unrecognized-gcc-option-m32-for-mips.patch file://0002-crash-fix-build-error-unknown-type-name-gdb_fpregset.patch file://0003-crash-detect-the-sysroot-s-glibc-header-file.patch file://0001-Fix-for-an-ARM64-gcc-10-compilation-error.-Without-t.patch

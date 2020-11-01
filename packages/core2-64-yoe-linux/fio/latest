@@ -1,0 +1,7 @@
+PV = 3.22
+PR = r0
+DEPENDS = coreutils-native libaio numactl virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = fio-src fio-dbg fio-staticdev fio-dev fio-doc fio-locale fio
+LAYER = openembedded-layer
+CONFIG = numa
+SRC_URI = git://git.kernel.dk/fio.git

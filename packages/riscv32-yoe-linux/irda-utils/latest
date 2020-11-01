@@ -1,7 +1,0 @@
-PV = 0.9.18
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = irda-utils-src irda-utils-dbg irda-utils-staticdev irda-utils-dev irda-utils-doc irda-utils-locale irda-utils
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://downloads.sourceforge.net/irda/irda-utils-0.9.18.tar.gz file://ldflags.patch file://musl.patch file://init

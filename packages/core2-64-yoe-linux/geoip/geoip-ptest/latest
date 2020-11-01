@@ -1,0 +1,9 @@
+PV = 1.6.12
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = geoip (>= 1.6.12) glibc (>= 2.32)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 86587
+FILES = /usr/lib/geoip/ptest
+FILELIST = /usr/bin/geoiplookup /usr/bin/geoiplookup6 /usr/lib/libGeoIP.so.1 /usr/lib/libGeoIP.so.1.6.12

@@ -1,0 +1,7 @@
+PV = 2.1
+PR = r0
+DEPENDS = cmake-native fuse ninja-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = unionfs-fuse-src unionfs-fuse-dbg unionfs-fuse-staticdev unionfs-fuse-dev unionfs-fuse-doc unionfs-fuse-locale unionfs-fuse
+LAYER = filesystems-layer
+CONFIG = 
+SRC_URI = git://github.com/rpodgorny/unionfs-fuse.git;branch=master file://0001-support-cross-compiling.patch

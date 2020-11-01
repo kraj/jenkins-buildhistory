@@ -1,0 +1,7 @@
+PV = 1.5.7
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pcsc-lite pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = pcsc-tools-src pcsc-tools-dbg pcsc-tools-staticdev pcsc-tools-dev pcsc-tools-doc pcsc-tools-locale pcsc-tools
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/LudovicRousseau/pcsc-tools;protocol=https

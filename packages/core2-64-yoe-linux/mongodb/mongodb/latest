@@ -1,0 +1,9 @@
+PV = 4.4.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.32) gperftools (>= 2.8) libcrypto (>= 1.1.1g) libcurl (>= 7.72.0) libgcc (>= 10.2.0) libpcre (>= 8.44) libpcrecpp (>= 8.44) libssl (>= 1.1.1g) libstdc++ (>= 10.2.0) shadow zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 90989380
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mongodb /usr/lib/mongodb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-preset/98-mongodb.preset /lib/systemd/system/mongod.service
+FILELIST = /etc/mongod.conf /lib/systemd/system-preset/98-mongodb.preset /lib/systemd/system/mongod.service /usr/bin/mongod /usr/bin/mongos

@@ -1,0 +1,8 @@
+PE = 1
+PV = 0.4.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libarchive libsolv libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = opkg-src opkg-dbg opkg-ptest libopkg opkg-staticdev opkg-dev opkg-doc opkg-locale opkg
+LAYER = core
+CONFIG = libsolv
+SRC_URI = http://downloads.yoctoproject.org/releases/opkg/opkg-0.4.3.tar.gz file://opkg.conf file://0001-opkg_conf-create-opkg.lock-in-run-instead-of-var-run.patch file://run-ptest

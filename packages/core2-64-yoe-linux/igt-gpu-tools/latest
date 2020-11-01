@@ -1,0 +1,7 @@
+PV = 1.25+gitAUTOINC+d16ad07e7f
+PR = r0
+DEPENDS = alsa-lib bison-native cairo elfutils glib-2.0 json-c kmod libdrm libpciaccess libunwind meson-native ninja-native openssl procps python3-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = igt-gpu-tools-src igt-gpu-tools-dbg igt-gpu-tools-staticdev igt-gpu-tools-dev igt-gpu-tools-doc igt-gpu-tools-locale igt-gpu-tools-benchmarks igt-gpu-tools-tests igt-gpu-tools
+LAYER = core
+CONFIG = 
+SRC_URI = git://gitlab.freedesktop.org/drm/igt-gpu-tools.git;protocol=https

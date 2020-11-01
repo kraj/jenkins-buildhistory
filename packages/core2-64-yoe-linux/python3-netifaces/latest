@@ -1,0 +1,7 @@
+PV = 0.10.9
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-netifaces-src python3-netifaces-dbg python3-netifaces-staticdev python3-netifaces-dev python3-netifaces-doc python3-netifaces-locale python3-netifaces
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz

@@ -1,7 +1,0 @@
-PV = 1.11
-PR = r0
-DEPENDS = cryptodev-linux pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = cryptodev-module-src cryptodev-module-dbg cryptodev-module-staticdev cryptodev-module-dev cryptodev-module-doc cryptodev-module-locale cryptodev-module kernel-module-cryptodev-5.8.13-yocto-standard
-LAYER = core
-CONFIG = 
-SRC_URI = git://github.com/cryptodev-linux/cryptodev-linux file://0001-Disable-installing-header-file-provided-by-another-p.patch

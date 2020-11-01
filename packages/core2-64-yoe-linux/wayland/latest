@@ -1,0 +1,7 @@
+PV = 1.18.0
+PR = r0
+DEPENDS = expat libffi libxml2 meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wayland-native
+PACKAGES = wayland-src wayland-dbg wayland-ptest wayland-staticdev wayland-dev wayland-doc wayland-locale wayland
+LAYER = core
+CONFIG = dtd-validation
+SRC_URI = https://wayland.freedesktop.org/releases/wayland-1.18.0.tar.xz file://run-ptest file://0002-meson.build-find-the-native-wayland-scanner-directly.patch file://0002-Do-not-hardcode-the-path-to-wayland-scanner.patch file://0001-build-Fix-strndup-detection-on-MinGW.patch file://0001-meson-tests-add-missing-dependencies-on-protocol-hea.patch

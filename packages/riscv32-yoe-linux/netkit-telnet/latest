@@ -1,7 +1,0 @@
-PV = 0.17
-PR = r0
-DEPENDS = ncurses virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = netkit-telnet-src netkit-telnet-dbg netkit-telnet-staticdev netkit-telnet-dev netkit-telnet-doc netkit-telnet-locale netkit-telnet
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://ftp.linux.org.uk/pub/linux/Networking/netkit/netkit-telnet-0.17.tar.gz file://To-aviod-buffer-overflow-in-telnet.patch file://Warning-fix-in-the-step-of-install.patch file://telnet-xinetd file://cross-compile.patch file://0001-telnet-telnetd-Fix-print-format-strings.patch file://0001-telnet-telnetd-Fix-deadlock-on-cleanup.patch file://CVE-2020-10188.patch file://0001-telnetd-utility.c-Fix-buffer-overflow-in-netoprintf.patch

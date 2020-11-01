@@ -1,8 +1,0 @@
-PE = 1
-PV = 2020.3
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = tbb-src tbb-dbg tbb-staticdev tbb-dev tbb-doc tbb-locale tbb
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/oneapi-src/oneTBB.git;protocol=https;branch=tbb_2020 file://cross-compile.patch file://0001-mallinfo-is-glibc-specific-API-mark-it-so.patch file://GLIBC-PREREQ-is-not-defined-on-musl.patch file://tbb.pc file://improve-reproducibility.patch

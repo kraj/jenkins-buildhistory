@@ -1,7 +1,0 @@
-PV = 4.05
-PR = r0
-DEPENDS = autoconf-native automake-native dbus e2fsprogs gettext-native gettext-native gnu-config-native libnl libtirpc libtool-cross libtool-native pkgconfig-native tcp-wrappers virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = quota-src quota-dbg quota-staticdev quota-dev quota-doc quota quota-locale-cs quota-locale-de quota-locale-fr quota-locale-pl
-LAYER = core
-CONFIG = bsd rpc tcp-wrappers
-SRC_URI = https://downloads.sourceforge.net/project/linuxquota/quota-tools/4.05/quota-4.05.tar.gz file://fcntl.patch

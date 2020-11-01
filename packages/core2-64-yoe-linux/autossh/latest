@@ -1,0 +1,7 @@
+PV = 1.4g
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = autossh-src autossh-dbg autossh-staticdev autossh-dev autossh-doc autossh-locale autossh
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://www.harding.motd.ca/autossh/autossh-1.4g.tgz

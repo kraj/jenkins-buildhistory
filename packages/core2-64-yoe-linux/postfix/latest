@@ -1,0 +1,7 @@
+PV = 3.4.12
+PR = r0
+DEPENDS = base-files base-passwd db icu libnsl2 libpcre openssl postfix-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = postfix-src postfix-dbg postfix-cfg postfix-staticdev postfix-dev postfix-doc postfix-locale postfix-bin postfix
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-3.4.12.tar.gz file://makedefs.patch file://install.patch file://main.cf file://postfix file://internal_recipient file://postfix.service file://aliasesdb file://check_hostname.sh file://0001-makedefs-Use-native-compiler-to-build-makedefs.test.patch file://postfix-install.patch file://icu-config.patch file://0001-makedefs-add-lnsl-and-lresolv-to-SYSLIBS-by-default.patch

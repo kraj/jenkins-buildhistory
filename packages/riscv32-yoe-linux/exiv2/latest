@@ -1,7 +1,0 @@
-PV = 0.27.3
-PR = r0
-DEPENDS = cmake-native expat gettext-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = exiv2-src exiv2-dbg exiv2-staticdev exiv2-dev exiv2-doc exiv2-locale exiv2
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://exiv2.org/releases/exiv2-0.27.3-Source.tar.gz file://0001-Use-compiler-fcf-protection-only-if-compiler-arch-su.patch

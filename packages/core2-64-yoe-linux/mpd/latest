@@ -1,0 +1,7 @@
+PV = 0.20.22
+PR = r0
+DEPENDS = alsa-lib autoconf-native automake-native base-files base-passwd boost bzip2 curl dbus expat faad2 ffmpeg flac fluidsynth gnu-config-native icu jack libao libcdio libmms libmodplug libogg libogg libopus libsamplerate0 libsndfile1 libtool-cross libtool-native libupnp libvorbis mpg123 openal-soft pkgconfig-native pulseaudio shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native tcp-wrappers virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wavpack yajl zlib
+PACKAGES = mpd-src mpd-dbg mpd-staticdev mpd-dev mpd-doc mpd-locale mpd
+LAYER = multimedia-layer
+CONFIG = aac alsa ao bzip2 daemon ffmpeg fifo flac fluidsynth httpd iso9660 jack libsamplerate libwrap mms modplug mpg123 openal opus oss recorder sndfile upnp vorbis wavpack zlib
+SRC_URI = git://github.com/MusicPlayerDaemon/MPD;branch=v0.20.x file://mpd.conf.in file://0001-StringBuffer-Include-cstddef-for-size_t.patch file://0002-Include-stdexcept-for-runtime_error.patch

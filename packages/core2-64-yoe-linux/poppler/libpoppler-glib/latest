@@ -1,0 +1,10 @@
+PV = 20.10.0
+PR = r0
+PKG = libpoppler-glib8
+PKGR = r0.0
+RPROVIDES = libpoppler-glib (=20.10.0)
+RDEPENDS = cairo (>= 1.16.0) freetype (>= 2.10.2) glib-2.0 (>= 2.66.2) glibc (>= 2.32) libpoppler (>= 20.10.0) libstdc++ (>= 10.2.0)
+RRECOMMENDS = 
+PKGSIZE = 395617
+FILES = /usr/lib/libpoppler-glib.so.*
+FILELIST = /usr/bin/pdfattach /usr/bin/pdfdetach /usr/bin/pdffonts /usr/bin/pdfimages /usr/bin/pdfinfo /usr/bin/pdfseparate /usr/bin/pdfsig /usr/bin/pdftocairo /usr/bin/pdftohtml /usr/bin/pdftoppm /usr/bin/pdftops /usr/bin/pdftotext /usr/bin/pdfunite /usr/lib/girepository-1.0/Poppler-0.18.typelib /usr/lib/libpoppler-cpp.so.0 /usr/lib/libpoppler-cpp.so.0.9.0

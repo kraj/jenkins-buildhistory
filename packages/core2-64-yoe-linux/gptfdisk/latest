@@ -1,0 +1,7 @@
+PV = 1.0.5
+PR = r0
+DEPENDS = ncurses popt util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gptfdisk-src gptfdisk-dbg gptfdisk-staticdev gptfdisk-dev gptfdisk-doc gptfdisk-locale gptfdisk
+LAYER = core
+CONFIG = ncurses popt
+SRC_URI = https://downloads.sourceforge.net/gptfdisk/1.0.5/gptfdisk-1.0.5.tar.gz file://0001-gptcurses-correctly-include-curses.h.patch

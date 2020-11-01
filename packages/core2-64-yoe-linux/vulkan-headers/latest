@@ -1,0 +1,7 @@
+PV = 1.2.135.0
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = vulkan-headers-src vulkan-headers-dbg vulkan-headers-staticdev vulkan-headers-dev vulkan-headers-doc vulkan-headers-locale vulkan-headers
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/KhronosGroup/Vulkan-Headers.git;branch=master

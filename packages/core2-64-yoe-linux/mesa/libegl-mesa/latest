@@ -1,0 +1,11 @@
+PE = 2
+PV = 20.2.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = libegl libegl1
+RDEPENDS = expat (>= 2.2.9) glibc (>= 2.32) libdrm (>= 2.4.102) libgbm (>= 20.2.1) libglapi (>= 20.2.1) libx11-xcb (>= 1.6.12) libxcb (>= 1.14) libxcb-dri2 (>= 1.14) libxcb-dri3 (>= 1.14) libxcb-present (>= 1.14) libxcb-sync (>= 1.14) libxcb-xfixes (>= 1.14) libxshmfence (>= 1.3) wayland (>= 1.18.0)
+RRECOMMENDS = mesa-megadriver
+RCONFLICTS = libegl libegl1
+PKGSIZE = 253671
+FILES = /usr/lib/libEGL.so.*
+FILELIST = 

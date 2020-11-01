@@ -1,0 +1,9 @@
+PV = 5.5
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = pm-graph (= 5.5-r0.0)
+RRECOMMENDS = python3-compression-dev python3-core-dev python3-datetime-dev python3-threading-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pm-graph/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/bin/analyze_suspend.py /usr/bin/bootgraph /usr/bin/sleepgraph /usr/lib/pm-graph/bootgraph.py /usr/lib/pm-graph/config/cgskip.txt /usr/lib/pm-graph/config/freeze-callgraph.cfg /usr/lib/pm-graph/config/freeze-dev.cfg /usr/lib/pm-graph/config/freeze.cfg /usr/lib/pm-graph/config/standby-callgraph.cfg /usr/lib/pm-graph/config/standby-dev.cfg /usr/lib/pm-graph/config/standby.cfg /usr/lib/pm-graph/config/suspend-callgraph.cfg /usr/lib/pm-graph/config/suspend-dev.cfg /usr/lib/pm-graph/config/suspend-x2-proc.cfg /usr/lib/pm-graph/config/suspend.cfg /usr/lib/pm-graph/sleepgraph.py

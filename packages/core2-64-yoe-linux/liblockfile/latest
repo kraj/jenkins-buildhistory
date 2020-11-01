@@ -1,0 +1,7 @@
+PV = 1.14
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = liblockfile-src liblockfile-dbg liblockfile-staticdev liblockfile-dev liblockfile-doc liblockfile-locale liblockfile
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/libl/liblockfile/liblockfile_1.14.orig.tar.gz http://ftp.debian.org/debian/pool/main/libl/liblockfile/liblockfile_1.14-1.debian.tar.bz2;name=1.14-1 file://configure.patch file://0001-Makefile.in-add-DESTDIR.patch file://0001-Makefile.in-install-nfslock-libs.patch file://liblockfile-fix-install-so-to-man-dir.patch

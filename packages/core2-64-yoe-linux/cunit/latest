@@ -1,0 +1,7 @@
+PV = 2.1-3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = cunit-src cunit-dbg cunit-ptest cunit-staticdev cunit-dev cunit-doc cunit-locale cunit
+LAYER = openembedded-layer
+CONFIG = test
+SRC_URI = https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2 file://fixup-install-docdir.patch file://run-ptest

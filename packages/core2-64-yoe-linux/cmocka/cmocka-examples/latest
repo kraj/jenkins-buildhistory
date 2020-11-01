@@ -1,0 +1,10 @@
+PV = 1.1.5
+PR = r0
+PKG = libcmocka-examples
+PKGR = r0.0
+RPROVIDES = cmocka-examples (=1.1.5)
+RDEPENDS = cmocka (>= 1.1.5) glibc (>= 2.32)
+RRECOMMENDS = 
+PKGSIZE = 60832
+FILES = /usr/share/cmocka/example
+FILELIST = /usr/lib/libcmocka.so.0 /usr/lib/libcmocka.so.0.7.0

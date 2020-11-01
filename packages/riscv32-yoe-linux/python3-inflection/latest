@@ -1,7 +1,0 @@
-PV = 0.5.1
-PR = r0
-DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = python3-inflection-src python3-inflection-dbg python3-inflection-ptest python3-inflection-staticdev python3-inflection-dev python3-inflection-doc python3-inflection-locale python3-inflection
-LAYER = meta-python
-CONFIG = 
-SRC_URI = https://files.pythonhosted.org/packages/source/i/inflection/inflection-0.5.1.tar.gz file://run-ptest

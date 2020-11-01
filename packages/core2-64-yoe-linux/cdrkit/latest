@@ -1,0 +1,7 @@
+PV = 1.1.11
+PR = r0
+DEPENDS = bzip2 cmake-native file libcap ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = cdrkit-src cdrkit-dbg cdrkit-staticdev cdrkit-dev cdrkit-doc cdrkit-locale cdrkit
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://ftp.debian.org/debian/pool/main/c/cdrkit/cdrkit_1.1.11.orig.tar.gz file://0001-do-not-create-a-run-test-to-determine-order-of-bitfi.patch file://0001-genisoimage-Fix-fprintf-format-errors.patch file://0001-define-__THROW-to-avoid-build-issue-with-musl.patch file://0002-Do-not-use-rcmd-on-build-with-musl.patch file://0001-genisoimage-Add-missing-extern-definition.patch

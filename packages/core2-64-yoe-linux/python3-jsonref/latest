@@ -1,0 +1,7 @@
+PV = 0.2
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-jsonref-src python3-jsonref-dbg python3-jsonref-staticdev python3-jsonref-dev python3-jsonref-doc python3-jsonref-locale python3-jsonref
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/j/jsonref/jsonref-0.2.tar.gz

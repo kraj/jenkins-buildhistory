@@ -1,0 +1,7 @@
+PV = 59
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = mksh-src mksh-dbg mksh-staticdev mksh-dev mksh-doc mksh-locale mksh
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R59b.tgz

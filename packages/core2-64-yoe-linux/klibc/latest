@@ -1,0 +1,7 @@
+PV = 2.0.7
+PR = r0
+DEPENDS = linux-libc-headers perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = klibc-src libklibc libklibc-staticdev libklibc-dev
+LAYER = meta-initramfs
+CONFIG = 
+SRC_URI = https://cdn.kernel.org/pub/linux/libs/klibc/2.0/klibc-2.0.7.tar.xz file://klcc-consider-sysroot.patch file://klcc-cross-accept-clang-options.patch file://0001-dash-Specify-format-string-in-fmtstr.patch file://0001-Define-in_-structs-for-non-glibc-system-libs.patch file://0001-include-linux-sysinfo.h-directly.patch file://0001-mkfifo-Implement-mkfifo.patch file://0001-always-use-bfd-linker.patch file://0001-Kbuild.klibc-Use-print-libgcc-file-name-instead-of-p.patch file://0001-Kbuild.klibc-Add-path-to-compiler-headers-via-isyste.patch file://0001-arm-Do-not-set-a-fallback-march-and-mtune.patch file://0001-klibc_2.0.4-add-kexec_file_load-syscall.patch file://0001-klibc-add-getrandom-syscall.patch file://0001-klibc-Kbuild-Accept-EXTRA_KLIBCAFLAGS.patch file://0001-Define-ulocked_-fgets-fread-fwrite-aliases.patch

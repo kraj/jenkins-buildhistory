@@ -1,0 +1,7 @@
+PV = 1.4.0
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-atomicwrites-src python3-atomicwrites-dbg python3-atomicwrites-ptest python3-atomicwrites-staticdev python3-atomicwrites-dev python3-atomicwrites-doc python3-atomicwrites-locale python3-atomicwrites
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/a/atomicwrites/atomicwrites-1.4.0.tar.gz file://run-ptest

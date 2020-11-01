@@ -1,0 +1,7 @@
+PV = 0.6.0
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-pydbus-src python3-pydbus-dbg python3-pydbus-staticdev python3-pydbus-dev python3-pydbus-doc python3-pydbus-locale python3-pydbus
+LAYER = meta-python
+CONFIG = 
+SRC_URI = file://0001-Support-asynchronous-calls-58.patch file://0002-Support-transformation-between-D-Bus-errors-and-exce.patch https://files.pythonhosted.org/packages/source/p/pydbus/pydbus-0.6.0.tar.gz

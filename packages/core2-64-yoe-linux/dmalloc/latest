@@ -1,0 +1,7 @@
+PV = 5.5.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = dmalloc-src dmalloc-dbg dmalloc-staticdev dmalloc-dev dmalloc-doc dmalloc-locale dmalloc
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://dmalloc.com/releases/dmalloc-5.5.2.tgz file://02-Makefile.in.patch file://03-threads.patch file://13-fix-ldflags-in-makefile.patch file://configure-pagesize-HACK.patch file://100-use-xtools.patch file://130-mips.patch file://150-use_DESTDIR.patch file://0001-undefined-strdup-macro.patch

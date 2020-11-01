@@ -1,0 +1,7 @@
+PV = 2.4
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = pigz-src pigz-dbg pigz-staticdev pigz-dev pigz-doc pigz-locale pigz
+LAYER = core
+CONFIG = 
+SRC_URI = http://zlib.net/pigz/fossils/pigz-2.4.tar.gz

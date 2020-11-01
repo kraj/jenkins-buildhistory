@@ -1,7 +1,0 @@
-PV = 3.1.6
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libmodbus-src libmodbus-dbg libmodbus-staticdev libmodbus-dev libmodbus-doc libmodbus-locale libmodbus
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://libmodbus.org/releases/libmodbus-3.1.6.tar.gz file://f1eb4bc7ccb09cd8d19ab641ee37637f8c34d16d.patch file://Fix-float-endianness-issue-on-big-endian-arch.patch file://Fix-typo.patch

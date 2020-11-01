@@ -1,0 +1,7 @@
+PV = 8.11.0
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-bitstruct-src python3-bitstruct-dbg python3-bitstruct-staticdev python3-bitstruct-dev python3-bitstruct-doc python3-bitstruct-locale python3-bitstruct
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/b/bitstruct/bitstruct-8.11.0.tar.gz

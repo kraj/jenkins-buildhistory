@@ -1,0 +1,7 @@
+PV = 2.04
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native gettext-native gettext-native gnu-config-native grub-native libtool-cross libtool-native pkgconfig-native texinfo-dummy-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = grub-efi-src grub-efi-dbg grub-efi-staticdev grub-efi-dev grub-efi-doc grub-efi-locale grub-efi
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/grub/grub-2.04.tar.gz file://0001-Disable-mfpmath-sse-as-well-when-SSE-is-disabled.patch file://autogen.sh-exclude-pc.patch file://grub-module-explicitly-keeps-symbole-.module_license.patch file://0001-grub.d-10_linux.in-add-oe-s-kernel-name.patch file://CVE-2020-10713.patch file://0001-calloc-Make-sure-we-always-have-an-overflow-checking.patch file://0002-lvm-Add-LVM-cache-logical-volume-handling.patch file://0003-calloc-Use-calloc-at-most-places.patch file://0004-safemath-Add-some-arithmetic-primitives-that-check-f.patch file://0005-malloc-Use-overflow-checking-primitives-where-we-do-.patch file://0006-script-Remove-unused-fields-from-grub_script_functio.patch file://0007-script-Avoid-a-use-after-free-when-redefining-a-func.patch file://0008-linux-Fix-integer-overflows-in-initrd-size-handling.patch file://cfg file://cfg.emmc file://cfg.sdcard

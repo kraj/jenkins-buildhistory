@@ -1,7 +1,0 @@
-PV = 2.5.0
-PR = r0
-DEPENDS = autoconf-native automake-native curl gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = geoipupdate-src geoipupdate-dbg geoipupdate-staticdev geoipupdate-dev geoipupdate-doc geoipupdate-locale geoipupdate
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = https://github.com/maxmind/geoipupdate/releases/download/v2.5.0/geoipupdate-2.5.0.tar.gz file://GeoIP.conf file://geoipupdate.cron

@@ -1,0 +1,7 @@
+PV = 4.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = mdadm-src mdadm-dbg mdadm-ptest mdadm-staticdev mdadm-dev mdadm-doc mdadm-locale mdadm
+LAYER = core
+CONFIG = 
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/raid/mdadm/mdadm-4.1.tar.xz file://run-ptest file://mdadm-3.3.2_x32_abi_time_t.patch file://mdadm-fix-ptest-build-errors.patch file://0001-mdadm.h-Undefine-dprintf-before-redefining.patch file://0001-Fix-the-path-of-corosync-and-dlm-header-files-check.patch file://0001-Use-CC-to-check-for-implicit-fallthrough-warning-sup.patch file://0001-Compute-abs-diff-in-a-standard-compliant-way.patch file://0001-fix-gcc-8-format-truncation-warning.patch file://debian-no-Werror.patch file://0001-Revert-tests-wait-for-complete-rebuild-in-integrity-.patch file://mdadm.init file://0001-mdadm-add-option-y-for-use-syslog-to-recive-event-re.patch file://include_sysmacros.patch file://0001-mdadm-skip-test-11spare-migration.patch

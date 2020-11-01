@@ -1,0 +1,7 @@
+PV = 1.3.0.1
+PR = r0
+DEPENDS = autoconf-native automake-native curl-native gnu-config-native libpcre2 libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = mimic-src mimic-dbg mimic-staticdev mimic-dev mimic-doc mimic-locale mimic
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://github.com/MycroftAI/mimic1.git file://0001-Fix-musl-compatibility.patch file://0001-cmu_indic_lang-Make-cst_rx_not_indic-as-extern-decla.patch

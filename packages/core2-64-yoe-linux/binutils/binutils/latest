@@ -1,0 +1,9 @@
+PV = 2.35
+PR = r0
+PKGR = r0.0
+RPROVIDES = binutils-symlinks
+RDEPENDS = glibc (>= 2.32) libbfd (>= 2.35) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0) update-alternatives-opkg zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 10287010
+FILES = /usr/bin/x86_64-yoe-linux-* /usr/lib/lib*.so.* /usr/lib/lib*-2.35*.so /usr/x86_64-yoe-linux/bin/* /usr/bin/embedspu
+FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/binutils.mo /usr/share/locale/zh_TW/LC_MESSAGES/ld.mo

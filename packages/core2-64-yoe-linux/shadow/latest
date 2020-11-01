@@ -1,0 +1,7 @@
+PV = 4.8.1
+PR = r0
+DEPENDS = attr autoconf-native automake-native gettext-native gnu-config-native libpam libtool-cross libtool-native virtual/crypt virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = shadow-src shadow-dbg shadow-base shadow-staticdev shadow-dev shadow-doc shadow shadow-locale-bs shadow-locale-ca shadow-locale-cs shadow-locale-da shadow-locale-de shadow-locale-dz shadow-locale-el shadow-locale-es shadow-locale-eu shadow-locale-fi shadow-locale-fr shadow-locale-gl shadow-locale-he shadow-locale-hu shadow-locale-id shadow-locale-it shadow-locale-ja shadow-locale-kk shadow-locale-km shadow-locale-ko shadow-locale-nb shadow-locale-ne shadow-locale-nl shadow-locale-nn shadow-locale-pl shadow-locale-pt shadow-locale-pt-br shadow-locale-ro shadow-locale-ru shadow-locale-sk shadow-locale-sq shadow-locale-sv shadow-locale-tl shadow-locale-tr shadow-locale-uk shadow-locale-vi shadow-locale-zh-cn shadow-locale-zh-tw
+LAYER = core
+CONFIG = attr pam
+SRC_URI = https://github.com/shadow-maint/shadow/releases/download/4.8.1/shadow-4.8.1.tar.gz file://shadow-4.1.3-dots-in-usernames.patch file://pam.d/chfn file://pam.d/chpasswd file://pam.d/chsh file://pam.d/login file://pam.d/newusers file://pam.d/passwd file://pam.d/su file://shadow-relaxed-usernames.patch file://login_defs_pam.sed file://shadow-update-pam-conf.patch

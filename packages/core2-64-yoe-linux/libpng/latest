@@ -1,0 +1,7 @@
+PV = 1.6.37
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libpng-src libpng-dbg libpng-tools libpng-staticdev libpng-dev libpng-doc libpng-locale libpng
+LAYER = core
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/libpng/libpng16/libpng-1.6.37.tar.xz

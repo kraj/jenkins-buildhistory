@@ -1,7 +1,0 @@
-PV = 0.3
-PR = r1
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = dietsplash-src dietsplash-dbg dietsplash-staticdev dietsplash-dev dietsplash-doc dietsplash-locale dietsplash
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/lucasdemarchi/dietsplash.git file://0001-configure.ac-Do-not-demand-linker-hash-style.patch

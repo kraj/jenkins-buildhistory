@@ -1,0 +1,7 @@
+PV = 1.2.b
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = minini-src minini-dbg minini-staticdev minini-dev minini-doc minini-locale minini
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/minini/minIni_12b.zip;subdir=minini-1.2.b

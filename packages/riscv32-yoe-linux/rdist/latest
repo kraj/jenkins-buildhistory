@@ -1,7 +1,0 @@
-PV = 6.1.5
-PR = r0
-DEPENDS = autoconf-native automake-native bison-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = rdist-src rdist-dbg rdist-staticdev rdist-dev rdist-doc rdist-locale rdist
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://www.magnicomp.com/download/rdist/rdist-6.1.5.tar.gz file://rdist-6.1.5-linux.patch file://rdist-6.1.5-links.patch file://rdist-6.1.5-oldpath.patch file://rdist-6.1.5-hardlink.patch file://rdist-6.1.5-bison.patch file://rdist-6.1.5-varargs.patch file://rdist-6.1.5-maxargs.patch file://rdist-6.1.5-lfs.patch file://rdist-6.1.5-cleanup.patch file://rdist-6.1.5-svr4.patch file://rdist-6.1.5-ssh.patch file://rdist-6.1.5-mkstemp.patch file://rdist-6.1.5-stat64.patch file://rdist-6.1.5-fix-msgsndnotify-loop.patch file://rdist-6.1.5-bb-build.patch file://rdist-6.1.5-makefile-add-ldflags.patch file://rdist-6.1.5-fix-parallel-build.patch

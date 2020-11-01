@@ -1,0 +1,7 @@
+PV = 0.7.4
+PR = r4
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = liba52-src liba52-dbg a52dec a52dec-doc liba52-staticdev liba52-dev liba52-doc liba52-locale liba52
+LAYER = core
+CONFIG = 
+SRC_URI = http://liba52.sourceforge.net/files/a52dec-0.7.4.tar.gz file://buildcleanup.patch

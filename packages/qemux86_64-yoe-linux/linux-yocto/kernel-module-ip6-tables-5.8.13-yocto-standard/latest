@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-ip6-tables
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-x-tables-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 33912
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/net/ipv6/netfilter/ip6_tables.ko /etc/modules-load.d/ip6_tables.conf /etc/modprobe.d/ip6_tables.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

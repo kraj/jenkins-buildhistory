@@ -1,0 +1,7 @@
+PV = 1.0.5
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libde265-src libde265-dbg libde265-tools libde265-staticdev libde265-dev libde265-doc libde265-locale libde265
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = https://github.com/strukturag/libde265/releases/download/v1.0.5/libde265-1.0.5.tar.gz

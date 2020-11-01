@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native popt util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = grubby-src grubby-dbg grubby-ptest grubby-staticdev grubby-dev grubby-doc grubby-locale grubby
+LAYER = meta-initramfs
+CONFIG = 
+SRC_URI = git://github.com/rhboot/grubby.git;protocol=https; file://grubby-rename-grub2-editenv-to-grub-editenv.patch file://run-ptest file://0001-Add-another-variable-LIBS-to-provides-libraries-from.patch file://0002-include-paths.h-for-_PATH_MOUNTED.patch

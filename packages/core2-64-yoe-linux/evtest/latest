@@ -1,0 +1,7 @@
+PV = 1.34
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxml2 pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = evtest-src evtest-dbg evtest-staticdev evtest-dev evtest-doc evtest-locale evtest
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://gitlab.freedesktop.org/libevdev/evtest.git;protocol=https file://add_missing_limits_h_include.patch file://0001-Fix-build-on-32bit-arches-with-64bit-time_t.patch

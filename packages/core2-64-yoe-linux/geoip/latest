@@ -1,0 +1,7 @@
+PV = 1.6.12
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = geoip-src geoip-dbg geoip-ptest geoip-database geoip-staticdev geoip-dev geoip-doc geoip-locale geoip
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://github.com/maxmind/geoip-api-c.git http://sources.openembedded.org/GeoIP.dat.20181205.gz;apply=no;name=GeoIP-dat; http://sources.openembedded.org/GeoIPv6.dat.20181205.gz;apply=no;name=GeoIPv6-dat; http://sources.openembedded.org/GeoLiteCity.dat.20181205.gz;apply=no;name=GeoLiteCity-dat; http://sources.openembedded.org/GeoLiteCityv6.dat.20181205.gz;apply=no;name=GeoLiteCityv6-dat; file://run-ptest

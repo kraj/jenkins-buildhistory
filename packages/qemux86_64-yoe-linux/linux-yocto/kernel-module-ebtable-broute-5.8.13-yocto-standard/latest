@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-ebtable-broute
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-ebtables-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5904
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/net/bridge/netfilter/ebtable_broute.ko /etc/modules-load.d/ebtable_broute.conf /etc/modprobe.d/ebtable_broute.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

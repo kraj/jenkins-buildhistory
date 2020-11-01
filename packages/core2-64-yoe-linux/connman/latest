@@ -1,0 +1,7 @@
+PV = 1.38
+PR = r0
+DEPENDS = autoconf-native automake-native bluez5 dbus glib-2.0 gnu-config-native gnutls iptables libtool-cross libtool-native ofono pkgconfig-native ppp readline systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wpa-supplicant
+PACKAGES = connman-src connman-dbg connman-vpn connman-wait-online connman-tools connman-tests connman-client connman-staticdev connman-dev connman-doc connman-locale connman
+LAYER = core
+CONFIG = 3g bluez client iptables systemd wifi wispr
+SRC_URI = https://cdn.kernel.org/pub/linux/network/connman/connman-1.38.tar.xz file://0001-plugin.h-Change-visibility-to-default-for-debug-symb.patch file://0001-connman.service-stop-systemd-resolved-when-we-use-co.patch file://connman file://no-version-scripts.patch

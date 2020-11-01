@@ -1,0 +1,7 @@
+PV = 0.30
+PR = r0
+DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native gtk+ gtk+3 gtk-doc-native libtool libtool-cross libtool-native libvorbis pkgconfig-native pulseaudio python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libcanberra-src libcanberra-dbg libcanberra-gnome libcanberra-gtk2 libcanberra-gtk3 libcanberra-systemd libcanberra-staticdev libcanberra-dev libcanberra-doc libcanberra-locale libcanberra libcanberra-alsa libcanberra-multi libcanberra-null libcanberra-pulse
+LAYER = openembedded-layer
+CONFIG = alsa gtk gtk3 pulseaudio
+SRC_URI = http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz file://0001-build-gtk-and-gtk3-version-for-canberra_gtk_play.patch file://0001-gtk-Don-t-assume-all-GdkDisplays-are-GdkX11Displays-.patch

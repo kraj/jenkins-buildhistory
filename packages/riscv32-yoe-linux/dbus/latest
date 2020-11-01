@@ -1,7 +1,0 @@
-PV = 1.12.20
-PR = r0
-DEPENDS = autoconf-archive autoconf-native automake-native base-files base-passwd expat gettext-native gnu-config-native libsm libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd virtual/libc virtual/libintl virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = dbus-src dbus-dbg dbus-lib dbus-staticdev dbus-dev dbus-doc dbus-locale dbus dbus-ptest
-LAYER = core
-CONFIG = systemd user-session x11
-SRC_URI = https://dbus.freedesktop.org/releases/dbus/dbus-1.12.20.tar.gz file://tmpdir.patch file://dbus-1.init file://clear-guid_from_server-if-send_negotiate_unix_f.patch

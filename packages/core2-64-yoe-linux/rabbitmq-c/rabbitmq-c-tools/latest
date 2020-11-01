@@ -1,0 +1,10 @@
+PV = 0.10.0
+PR = r0
+PKG = librabbitmq-tools
+PKGR = r0.0
+RPROVIDES = rabbitmq-c-tools (=0.10.0)
+RDEPENDS = glibc (>= 2.32) popt (>= 1.18) rabbitmq-c (>= 0.10.0)
+RRECOMMENDS = 
+PKGSIZE = 108704
+FILES = /usr/bin
+FILELIST = /usr/lib/librabbitmq.so.4 /usr/lib/librabbitmq.so.4.4.0

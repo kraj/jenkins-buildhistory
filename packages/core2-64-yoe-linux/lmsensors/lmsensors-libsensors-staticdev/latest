@@ -1,0 +1,10 @@
+PV = 3.6.0
+PR = r0
+PKG = libsensors-staticdev
+PKGR = r0.0
+RPROVIDES = lmsensors-libsensors-staticdev (=3.6.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 288938
+FILES = /usr/lib/libsensors.a
+FILELIST = /lib/systemd/system-preset/98-lmsensors.preset /lib/systemd/system/lm_sensors.service

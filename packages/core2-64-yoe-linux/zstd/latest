@@ -1,0 +1,7 @@
+PV = 1.4.5
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = zstd-src zstd-dbg zstd-staticdev zstd-dev zstd-doc zstd-locale zstd
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/facebook/zstd.git;nobranch=1 file://0001-Fix-legacy-build-after-2103.patch

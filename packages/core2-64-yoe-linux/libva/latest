@@ -1,0 +1,7 @@
+PV = 2.8.0
+PR = r0
+DEPENDS = libdrm libxext libxfixes meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/libx11 virtual/mesa virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc wayland wayland-native
+PACKAGES = libva-src libva-dbg libva-x11 libva-glx libva-wayland libva-staticdev libva-dev libva-doc libva-locale libva
+LAYER = core
+CONFIG = glx wayland x11
+SRC_URI = https://github.com/intel/libva/releases/download/2.8.0/libva-2.8.0.tar.bz2

@@ -1,0 +1,9 @@
+PV = 5.8.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) iptables (>= 1.8.5) libcap (>= 2.44) libelf (>= 0.181) libmnl (>= 1.0.4) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 585863
+FILES = /sbin/tc* /usr/lib/tc/*.so
+FILELIST = /usr/share/bash-completion/completions/devlink /usr/share/bash-completion/completions/tc

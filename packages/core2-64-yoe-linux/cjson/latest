@@ -1,0 +1,7 @@
+PV = 1.7.4
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = cjson-src cjson-dbg cjson-staticdev cjson-dev cjson-doc cjson-locale cjson
+LAYER = atmel
+CONFIG = 
+SRC_URI = git://github.com/DaveGamble/cJSON.git;protocol=http

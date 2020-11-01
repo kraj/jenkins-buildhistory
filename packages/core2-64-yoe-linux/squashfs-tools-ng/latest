@@ -1,0 +1,7 @@
+PV = 1.0.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native lz4 lzo pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xz zlib zstd
+PACKAGES = squashfs-tools-ng-src squashfs-tools-ng-dbg libsquashfs squashfs-tools-ng-staticdev squashfs-tools-ng-dev squashfs-tools-ng-doc squashfs-tools-ng-locale squashfs-tools-ng
+LAYER = openembedded-layer
+CONFIG = gzip lz4 lzo xz zstd
+SRC_URI = git://github.com/AgentD/squashfs-tools-ng.git;protocol=https

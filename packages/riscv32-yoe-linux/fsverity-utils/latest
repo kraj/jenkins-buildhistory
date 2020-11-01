@@ -1,7 +1,0 @@
-PV = 1.2
-PR = r0
-DEPENDS = openssl virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = fsverity-utils-src fsverity-utils-dbg libfsverity fsverity-utils-staticdev fsverity-utils-dev fsverity-utils-doc fsverity-utils-locale fsverity-utils
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/fsverity-utils.git

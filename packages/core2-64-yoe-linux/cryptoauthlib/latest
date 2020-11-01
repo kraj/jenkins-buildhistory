@@ -1,0 +1,7 @@
+PV = 1.0+gitAUTOINC+70d082c011
+PR = r0
+DEPENDS = cmake-native ninja-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = cryptoauthlib-src cryptoauthlib-dbg cryptoauthlib-staticdev cryptoauthlib-dev cryptoauthlib-doc cryptoauthlib-locale cryptoauthlib
+LAYER = atmel
+CONFIG = 
+SRC_URI = git://github.com/MicrochipTech/cryptoauthlib.git;branch=main;protocol=https file://cryptoauthlib.module

@@ -1,0 +1,7 @@
+PV = 3.1.4
+PR = r0
+DEPENDS = cmake-native gtk+3 jpeg libglu libpng ninja-native tiff virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = wxwidgets-src wxwidgets-dbg wxwidgets-staticdev wxwidgets-dev wxwidgets-doc wxwidgets-locale wxwidgets-bin wxwidgets
+LAYER = openembedded-layer
+CONFIG = gtk opengl
+SRC_URI = git://github.com/wxWidgets/wxWidgets.git file://0001-wx-config.in-Disable-cross-magic-it-does-not-work-fo.patch

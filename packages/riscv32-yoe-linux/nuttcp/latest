@@ -1,7 +1,0 @@
-PV = 8.2.2
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = nuttcp-src nuttcp-dbg nuttcp-staticdev nuttcp-dev nuttcp-doc nuttcp-locale nuttcp
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = http://nuttcp.net/nuttcp/beta/nuttcp-8.2.2.c file://nuttcp@.service file://nuttcp.socket

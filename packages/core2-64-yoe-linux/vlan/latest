@@ -1,0 +1,7 @@
+PV = 1.9
+PR = r0
+DEPENDS = virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = vlan-src vlan-dbg vlan-staticdev vlan-dev vlan-doc vlan-locale vlan
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/vlan/1.9-3ubuntu10.6/vlan_1.9.orig.tar.gz file://no-HOME-includes.patch file://0001-Add-printf-format-and-silence-format-security-warnin.patch

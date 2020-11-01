@@ -1,0 +1,7 @@
+PV = git
+PR = r2
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = eth-config-src eth-config-dbg eth-config-staticdev eth-config-dev eth-config-doc eth-config-locale eth-config
+LAYER = freescale-layer
+CONFIG = 
+SRC_URI = git://source.codeaurora.org/external/qoriq/qoriq-components/eth-config;nobranch=1

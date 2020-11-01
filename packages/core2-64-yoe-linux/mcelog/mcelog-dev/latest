@@ -1,0 +1,9 @@
+PV = 170
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = mcelog (= 170-r0.0)
+RRECOMMENDS = bash-dev glibc-dev make-dev mce-inject-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mcelog/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/cron.hourly/mcelog.cron /etc/mcelog/bus-error-trigger /etc/mcelog/cache-error-trigger /etc/mcelog/dimm-error-trigger /etc/mcelog/iomca-error-trigger /etc/mcelog/mcelog.conf /etc/mcelog/page-error-post-sync-soft-trigger /etc/mcelog/page-error-pre-sync-soft-trigger /etc/mcelog/page-error-trigger /etc/mcelog/socket-memory-error-trigger /etc/mcelog/unknown-error-trigger /usr/sbin/mcelog

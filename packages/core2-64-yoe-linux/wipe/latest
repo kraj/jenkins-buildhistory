@@ -1,0 +1,7 @@
+PV = 0.24
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = wipe-src wipe-dbg wipe-staticdev wipe-dev wipe-doc wipe-locale wipe
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/berke/wipe.git;branch=master file://support-cross-compile-for-linux.patch file://makefile-add-ldflags.patch

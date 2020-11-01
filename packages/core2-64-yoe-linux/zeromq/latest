@@ -1,0 +1,7 @@
+PV = 4.3.3
+PR = r0
+DEPENDS = cmake-native libsodium ninja-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = zeromq-src zeromq-dbg zeromq-ptest zeromq-staticdev zeromq-dev zeromq-doc zeromq-locale zeromq
+LAYER = openembedded-layer
+CONFIG = libsodium
+SRC_URI = http://github.com/zeromq/libzmq/releases/download/v4.3.3/zeromq-4.3.3.tar.gz file://0001-CMakeLists-txt-Avoid-host-specific-path-to-libsodium.patch file://run-ptest

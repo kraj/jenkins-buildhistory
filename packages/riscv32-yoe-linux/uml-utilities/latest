@@ -1,7 +1,0 @@
-PV = 20040406
-PR = r1
-DEPENDS = ncurses readline virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives zlib
-PACKAGES = uml-utilities-src uml-utilities-dbg uml-utilities-staticdev uml-utilities-dev uml-utilities-doc uml-utilities-locale uml-utilities
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://downloads.sourceforge.net/project/user-mode-linux/tools/1/uml_utilities_20040406.tar.bz2 file://fix-ldflags.patch file://unstrip.patch file://0001-include-required-system-header-files-for-fd_set-and-.patch

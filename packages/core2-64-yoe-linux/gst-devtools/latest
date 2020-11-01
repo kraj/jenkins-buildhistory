@@ -1,0 +1,7 @@
+PV = 1.18.0
+PR = r0
+DEPENDS = gettext-native glib-2.0 glib-2.0-native gobject-introspection gobject-introspection-native gstreamer1.0 gstreamer1.0-plugins-base json-glib meson-native ninja-native pkgconfig-native prelink-native python3-native qemu-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gst-devtools-src gst-devtools-dbg gst-devtools-staticdev gst-devtools-dev gst-devtools-doc gst-devtools-locale gst-devtools
+LAYER = core
+CONFIG = 
+SRC_URI = https://gstreamer.freedesktop.org/src/gst-devtools/gst-devtools-1.18.0.tar.xz file://0001-connect-has-a-different-signature-on-musl.patch

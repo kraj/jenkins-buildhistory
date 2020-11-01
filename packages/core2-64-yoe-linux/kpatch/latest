@@ -1,0 +1,7 @@
+PV = 0.9.1
+PR = r0
+DEPENDS = bash elfutils virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = kpatch-src kpatch-dbg kpatch-build kpatch-staticdev kpatch-dev kpatch-doc kpatch-locale kpatch
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/dynup/kpatch.git;protocol=https file://0001-kpatch-build-add-cross-compilation-support.patch file://0002-kpatch-build-allow-overriding-of-distro-name.patch

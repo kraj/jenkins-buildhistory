@@ -1,7 +1,0 @@
-PV = 1.0.18+gitAUTOINC+1b077af62d
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = lksctp-tools-src lksctp-tools-dbg lksctp-tools-withsctp lksctp-tools-utils lksctp-tools-ptest lksctp-tools-staticdev lksctp-tools-dev lksctp-tools-doc lksctp-tools-locale lksctp-tools
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = git://github.com/sctp/lksctp-tools.git file://0001-withsctp-use-PACKAGE_VERSION-in-withsctp.h.patch file://0001-configure.ac-add-CURRENT-REVISION-and-AGE-for-libsct.patch file://0001-build-fix-netinet-sctp.h-not-to-be-installed.patch file://0001-build-remove-v4.12-secondary-defines-in-favor-of-HAV.patch file://0001-build-fix-probing-for-HAVE_SCTP_SENDV.patch file://0001-build-0b0dce7a36fb-actually-belongs-to-v4.19.patch file://0001-test_1_to_1_events.c-initialize-event-properly.patch file://run-ptest file://v4test.sh file://v6test.sh

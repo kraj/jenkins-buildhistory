@@ -1,0 +1,9 @@
+PV = 3.0
+PR = r31
+PKGR = r31.0
+RPROVIDES = 
+RDEPENDS = xserver-nodm-init (= 3.0-r31.0)
+RRECOMMENDS = xinit-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xserver-nodm-init/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /etc/X11/Xsession /etc/X11/Xsession.d/13xdgbasedirs.sh /etc/X11/Xsession.d/89xdgautostart.sh /etc/X11/Xsession.d/90XWindowManager.sh /etc/default/xserver-nodm /etc/xserver-nodm/Xserver /lib/systemd/system-preset/98-xserver-nodm-init.preset /lib/systemd/system/xserver-nodm.service

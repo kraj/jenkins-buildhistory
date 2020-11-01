@@ -1,0 +1,7 @@
+PV = 3.8.0
+PR = r0
+DEPENDS = autoconf-archive-native autoconf-native automake-native e2fsprogs glib-2.0 gnu-config-native libgcrypt libtool-cross libtool-native libxml2 ncurses net-snmp openssl os-release pkgconfig-native popt systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = openhpi-src openhpi-dbg openhpi-libs openhpi-ptest openhpi-staticdev openhpi-dev openhpi-doc openhpi-locale openhpi
+LAYER = networking-layer
+CONFIG = libgcrypt non32bit snmp-bc
+SRC_URI = https://downloads.sourceforge.net/openhpi/openhpi-3.8.0.tar.gz file://openhpi.init file://openhpid.service file://run-ptest file://openhpi-netsnmp-cross-compile.patch file://openhpi-sysfs-cross-compile.patch file://openhpi-libxml2-cross-compile.patch file://openhpi-glib-cross-compile.patch file://openhpi-linkfix.patch file://openhpi-fix-host-gcc.patch file://openhpi-fix-function-saHpiSensorThresholds.patch file://openhpi-add-libnetsnmp-when-link.patch file://openhpi-invalide-session.patch file://openhpi-use-serial-tests-config-needed-by-ptest.patch file://openhpi-fix-alignment-issue.patch file://c++11.patch file://clang-c++11.patch file://fix-narrowing-warning.patch file://0001-session-close-socket.patch file://openhpi-3.6.1-ssl.patch file://0001-Do-not-poke-at-build-host-s-etc-os-release.patch file://cross_899198.patch file://no-md2.patch file://0001-include-iostream-for-cout.patch

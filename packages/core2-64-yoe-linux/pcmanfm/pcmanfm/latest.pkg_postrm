@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_desktop_database pcmanfm \
+		mlprefix= \
+		desktop_dir=/usr/share/applications
+else
+	update-desktop-database $D/usr/share/applications
+fi

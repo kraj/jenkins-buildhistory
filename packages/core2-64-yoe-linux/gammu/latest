@@ -1,0 +1,7 @@
+PV = 1.32.0
+PR = r0
+DEPENDS = cmake-native cmake-native gettext-native glib-2.0 libdbi libgudev mysql5 ninja-native python3 python3-native python3-native udev unixodbc virtual/libc virtual/libiconv virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gammu-src gammu-dbg gammu-smsd libgammu libgsmsd python-gammu gammu-staticdev gammu-dev gammu-doc gammu gammu-locale-af gammu-locale-ar gammu-locale-bg gammu-locale-ca gammu-locale-cs gammu-locale-da gammu-locale-de gammu-locale-el gammu-locale-en-gb gammu-locale-es gammu-locale-et gammu-locale-fi gammu-locale-fr gammu-locale-gl gammu-locale-he gammu-locale-hu gammu-locale-id gammu-locale-it gammu-locale-ko gammu-locale-nl gammu-locale-pl gammu-locale-pt-br gammu-locale-ru gammu-locale-sk gammu-locale-sv gammu-locale-sw gammu-locale-tr gammu-locale-zh-cn gammu-locale-zh-tw
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/gammu/gammu/1.32.0/gammu-1.32.0.tar.bz2 file://gammurc file://gammu-smsdrc

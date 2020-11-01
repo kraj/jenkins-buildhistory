@@ -1,0 +1,7 @@
+PV = 3.0-a9
+PR = r2
+DEPENDS = autoconf-native automake-native gnu-config-native libtirpc libtool-cross libtool-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = lmbench-src lmbench-dbg lmbench-staticdev lmbench-dev lmbench-doc lmbench-locale lmbench
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/lmbench/lmbench-3.0-a9.tgz file://lmbench-run file://rename-line-binary.patch file://update-results-script.patch file://obey-ranlib.patch file://update-config-script.patch file://lmbench_result_html_report.patch file://fix-lmbench-memory-check-failure.patch file://0001-avoid-gcc-optimize-away-the-loops.patch file://0001-lat_http.c-Add-printf-format.patch file://0001-Check-for-musl-define-guard-before-redefining-sockle.patch file://0002-build-Adjust-CFLAGS-LDFLAGS-to-append-values-passed-.patch file://0001-src-Makefile-use-libdir-instead-of-hardcoded-lib.patch

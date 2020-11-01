@@ -1,0 +1,7 @@
+PV = 0.5.1
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = cukinia-src cukinia-dbg cukinia-staticdev cukinia-dev cukinia-doc cukinia-locale cukinia
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/savoirfairelinux/cukinia.git;protocol=https;branch=master

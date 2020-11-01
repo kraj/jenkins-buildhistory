@@ -1,7 +1,0 @@
-PV = 2.7.0+gitAUTOINC+f482bab49f
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native texinfo-dummy-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = netperf-src netperf-dbg netperf-staticdev netperf-dev netperf-doc netperf-locale netperf
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = git://github.com/HewlettPackard/netperf.git file://cpu_set.patch file://vfork.patch file://init file://0001-netlib.c-Move-including-sched.h-out-og-function.patch file://0001-nettest_omni-Remove-duplicate-variable-definitions.patch

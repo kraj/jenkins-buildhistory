@@ -1,0 +1,7 @@
+PV = 30.0
+PR = r0
+DEPENDS = cmake-native libnl ninja-native perl systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = rdma-core-src rdma-core-dbg rdma-core-staticdev rdma-core-dev rdma-core-doc rdma-core-locale rdma-core
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://github.com/linux-rdma/rdma-core.git;branch=stable-v30 file://0001-Remove-man-files-which-cant-be-built.patch

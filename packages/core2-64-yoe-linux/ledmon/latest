@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native sg3-utils systemd-systemctl-native udev virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = ledmon-src ledmon-dbg ledmon-staticdev ledmon-dev ledmon-doc ledmon-locale ledmon
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/intel/ledmon;branch=master file://0002-include-sys-select.h-and-sys-types.h.patch file://0001-Don-t-build-with-Werror-to-fix-compile-error.patch

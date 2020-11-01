@@ -1,7 +1,0 @@
-PV = 2.2.0
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libjitterentropy-src libjitterentropy-dbg libjitterentropy-staticdev libjitterentropy-dev libjitterentropy-doc libjitterentropy-locale libjitterentropy
-LAYER = core
-CONFIG = 
-SRC_URI = git://github.com/smuellerDD/jitterentropy-library.git file://0001-Makefile-cleanup-install-for-rebuilds.patch file://0001-Make-man-pages-reproducible.patch

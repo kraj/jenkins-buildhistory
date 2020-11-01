@@ -1,7 +1,0 @@
-PV = 2.6
-PR = r0
-DEPENDS = autoconf-native automake-native gd gnu-config-native libtool-cross libtool-native pkgconfig-native sqlite3 systemd-systemctl-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = vnstat-src vnstat-dbg vnstat-staticdev vnstat-dev vnstat-doc vnstat-locale vnstat
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = https://github.com/vergoh/vnstat/releases/download/v2.6/vnstat-2.6.tar.gz

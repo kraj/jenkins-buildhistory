@@ -1,0 +1,10 @@
+PV = 3.2.1
+PR = r0
+PKG = libx265-bin
+PKGR = r0.0
+RPROVIDES = x265-bin (=3.2.1)
+RDEPENDS = glibc (>= 2.32) libstdc++ (>= 10.2.0) x265 (>= 3.2.1)
+RRECOMMENDS = 
+PKGSIZE = 112952
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/lib/libx265.so.179

@@ -1,0 +1,7 @@
+PV = 1.10.0
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tinyproxy-src tinyproxy-dbg tinyproxy-staticdev tinyproxy-dev tinyproxy-doc tinyproxy-locale tinyproxy
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://github.com/tinyproxy/tinyproxy/releases/download/1.10.0/tinyproxy-1.10.0.tar.gz file://disable-documentation.patch file://tinyproxy.service file://tinyproxy.conf

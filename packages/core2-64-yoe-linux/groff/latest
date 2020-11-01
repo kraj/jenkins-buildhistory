@@ -1,0 +1,7 @@
+PV = 1.22.4
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gnu-config-native libtool-cross libtool-native pkgconfig-native texinfo-dummy-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = groff-src groff-dbg groff-staticdev groff-dev groff-doc groff-locale groff
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz file://0001-replace-perl-w-with-use-warnings.patch file://groff-not-search-fonts-on-build-host.patch file://0001-support-musl.patch file://0001-Include-config.h.patch file://0001-Make-manpages-mulitlib-identical.patch

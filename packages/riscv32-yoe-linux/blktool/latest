@@ -1,7 +1,0 @@
-PV = 4-7.1
-PR = r0
-DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = blktool-src blktool-dbg blktool-staticdev blktool-dev blktool-doc blktool-locale blktool
-LAYER = core
-CONFIG = 
-SRC_URI = http://snapshot.debian.org/archive/debian/20160728T043443Z/pool/main/b/blktool/blktool_4.orig.tar.gz;name=tarball file://0001-fix-typos-in-manpage.patch file://0002-fix-string-error.patch file://0003-Fix-3-d-argument-for-BLKROSET-it-must-be-const-int.patch file://0004-fix-ftbfs-glibc-2.28.patch

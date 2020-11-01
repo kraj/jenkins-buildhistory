@@ -1,0 +1,7 @@
+PV = 1.64
+PR = r0
+DEPENDS = autoconf-native automake-native boost gnu-config-native groff-native libtool-cross libtool-native libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = srecord-src srecord-dbg srecord-staticdev srecord-dev srecord-doc srecord-locale srecord
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://srecord.sourceforge.net/srecord-1.64.tar.gz file://add-option-to-remove-docs.patch

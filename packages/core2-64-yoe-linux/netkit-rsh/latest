@@ -1,0 +1,7 @@
+PV = 0.17
+PR = r0
+DEPENDS = libgcrypt libpam pkgconfig-native virtual/crypt virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xinetd
+PACKAGES = netkit-rsh-src netkit-rsh-dbg netkit-rsh-client netkit-rsh-server netkit-rsh-doc
+LAYER = networking-layer
+CONFIG = pam
+SRC_URI = http://ftp.debian.org/debian/pool/main/n/netkit-rsh/netkit-rsh_0.17.orig.tar.gz;name=archive http://ftp.debian.org/debian/pool/main/n/netkit-rsh/netkit-rsh_0.17-15.diff.gz;name=patch15 file://rsh-redone_link_order_file.patch file://no_pam_build_fix.patch file://rexec.xinetd.netkit file://rlogin.xinetd.netkit file://rsh.xinetd.netkit file://netkit-rsh-0.17-rexec-ipv6.patch file://fix-host-variable.patch file://fixup_wait3_api_change.patch file://CVE-2019-7282-and-CVE-2019-7283.patch file://rexec.pam file://rlogin.pam file://rsh.pam

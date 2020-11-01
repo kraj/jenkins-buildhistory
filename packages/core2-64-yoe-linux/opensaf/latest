@@ -1,0 +1,7 @@
+PV = 5.20.05
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native libxml2 pkgconfig-native python3 shadow shadow-native shadow-sysroot systemd systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = opensaf-src opensaf-dbg opensaf-staticdev opensaf-dev opensaf-doc opensaf-locale opensaf
+LAYER = networking-layer
+CONFIG = systemd
+SRC_URI = https://downloads.sourceforge.net/opensaf/releases/opensaf-5.20.05.tar.gz file://0001-configure-Pass-linker-specific-options-with-Wl.patch file://0001-configure-Disable-format-overflow-if-supported-by-gc.patch file://0001-src-Add-missing-header-limits.h-for-_POSIX_HOST_NAME.patch file://0001-immpbe_dump.cc-Use-sys-wait.h-instead-of-wait.h.patch file://0001-Add-configure-time-check-for-gettid-API.patch file://0001-create_empty_library-Use-CC-variable-intead-of-hardc.patch file://0001-immom_python-convert-to-python3.patch file://0001-Fix-build-with-fno-common.patch

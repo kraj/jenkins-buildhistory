@@ -1,0 +1,7 @@
+PV = 1.1.1+gitAUTOINC+8449529c7e
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tinyalsa-src tinyalsa-dbg tinyalsa-staticdev tinyalsa-dev tinyalsa-doc tinyalsa-locale tinyalsa
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://github.com/tinyalsa/tinyalsa file://0001-Use-CMAKE_INSTALL_-path-instead-of-hardcoding-bin-li.patch

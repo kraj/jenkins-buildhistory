@@ -1,0 +1,7 @@
+PV = 17
+PR = r0
+DEPENDS = efivar pkgconfig-native popt virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = efibootmgr-src efibootmgr-dbg efibootmgr-staticdev efibootmgr-dev efibootmgr-doc efibootmgr-locale efibootmgr
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/rhinstaller/efibootmgr.git;protocol=https file://0001-remove-extra-decl.patch file://97668ae0bce776a36ea2001dea63d376be8274ac.patch

@@ -1,0 +1,7 @@
+PV = 1.14
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libdnet-src libdnet-dbg libdnet-staticdev libdnet-dev libdnet-doc libdnet-locale libdnet
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://github.com/dugsong/libdnet.git;nobranch=1

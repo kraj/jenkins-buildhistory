@@ -1,0 +1,11 @@
+PE = 2
+PV = 20.2.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = libgles1-dev
+RDEPENDS = libgles1-mesa
+RRECOMMENDS = elfutils-dev expat-dev libdrm-dev libglapi-dev libxdamage-dev libxext-dev libxfixes-dev libxshmfence-dev libxxf86vm-dev llvm10.0.1-dev wayland-dev wayland-protocols-dev xorgproto-dev xrandr-dev zlib-dev
+RCONFLICTS = libgles1-dev
+PKGSIZE = 87774
+FILES = /usr/lib/libGLESv1*.* /usr/include/GLES /usr/lib/pkgconfig/glesv1*.pc
+FILELIST = 

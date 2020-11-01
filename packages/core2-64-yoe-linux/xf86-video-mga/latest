@@ -1,0 +1,8 @@
+PE = 2
+PV = 2.0.0
+PR = r0
+DEPENDS = autoconf-native automake-native drm gnu-config-native libpciaccess libtool-cross libtool-native pkgconfig-native util-macros virtual/libc virtual/libx11 virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc virtual/xserver xorgproto xorgproto xorgproto
+PACKAGES = xf86-video-mga-src xf86-video-mga-dbg xf86-video-mga-staticdev xf86-video-mga-dev xf86-video-mga-doc xf86-video-mga-locale xf86-video-mga
+LAYER = openembedded-layer
+CONFIG = dri
+SRC_URI = https://www.x.org/releases//individual/driver/xf86-video-mga-2.0.0.tar.bz2 file://checkfile.patch

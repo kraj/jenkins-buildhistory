@@ -1,9 +1,0 @@
-PV = 1.38
-PR = r0
-PKGR = r0.0
-RPROVIDES = 
-RDEPENDS = connman dbus-lib (>= 1.12.20) glib-2.0 (>= 2.66.2) glibc (>= 2.32) readline (>= 8.0)
-RRECOMMENDS = 
-PKGSIZE = 76608
-FILES = /usr/bin/connmanctl
-FILELIST = /etc/resolv-conf.connman /etc/tmpfiles.d/connman_resolvconf.conf /lib/systemd/system-preset/98-connman.preset /lib/systemd/system/connman.service /usr/sbin/connmand /usr/share/dbus-1/system.d/connman.conf

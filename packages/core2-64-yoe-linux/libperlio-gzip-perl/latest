@@ -1,0 +1,7 @@
+PV = 0.20
+PR = r0
+DEPENDS = perl perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libperlio-gzip-perl-src libperlio-gzip-perl-dbg libperlio-gzip-perl-staticdev libperlio-gzip-perl-dev libperlio-gzip-perl-doc libperlio-gzip-perl-locale libperlio-gzip-perl
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://cpan.metacpan.org/authors/id/N/NW/NWCLARK/PerlIO-gzip-0.20.tar.gz

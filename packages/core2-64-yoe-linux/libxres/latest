@@ -1,0 +1,8 @@
+PE = 1
+PV = 1.2.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxext pkgconfig-native util-macros virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xorgproto
+PACKAGES = libxres-src libxres-dbg libxres-staticdev libxres-dev libxres-doc libxres-locale libxres
+LAYER = core
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXres-1.2.0.tar.bz2

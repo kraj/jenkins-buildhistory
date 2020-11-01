@@ -1,0 +1,10 @@
+PV = 7.0.1
+PR = r0
+PKG = libproj-bin
+PKGR = r0.0
+RPROVIDES = proj-bin (=7.0.1)
+RDEPENDS = glibc (>= 2.32) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0) proj (>= 7.0.1)
+RRECOMMENDS = 
+PKGSIZE = 339816
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/lib/libproj.so.19 /usr/lib/libproj.so.19.0.1 /usr/share/proj/CH /usr/share/proj/GL27 /usr/share/proj/ITRF2000 /usr/share/proj/ITRF2008 /usr/share/proj/ITRF2014 /usr/share/proj/nad.lst /usr/share/proj/nad27 /usr/share/proj/nad83 /usr/share/proj/other.extra /usr/share/proj/proj.db /usr/share/proj/proj.ini /usr/share/proj/projjson.schema.json /usr/share/proj/world

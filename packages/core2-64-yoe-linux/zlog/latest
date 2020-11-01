@@ -1,0 +1,7 @@
+PV = 1.2.15
+PR = r0
+DEPENDS = pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = zlog-src zlog-dbg zlog-staticdev zlog-dev zlog-doc zlog-locale zlog
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/HardySimpson/zlog

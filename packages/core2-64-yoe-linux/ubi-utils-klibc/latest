@@ -1,0 +1,7 @@
+PV = 2.0.2
+PR = r0
+DEPENDS = acl autoconf-native automake-native e2fsprogs gnu-config-native klcc-cross libtool-cross libtool-native lzo pkgconfig-native util-linux virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = ubi-utils-klibc-src ubi-utils-klibc-dbg mtdinfo-klibc ubiattach-klibc ubiblock-klibc ubicrc32-klibc ubidetach-klibc ubiformat-klibc ubimkvol-klibc ubinfo-klibc ubinize-klibc ubirename-klibc ubirmvol-klibc ubirsvol-klibc ubiupdatevol-klibc ubi-utils-klibc-doc
+LAYER = meta-initramfs
+CONFIG = xattr
+SRC_URI = git://git.infradead.org/mtd-utils.git file://0001-libmissing.h-fix-klibc-build-when-using-glibc-toolch.patch file://0002-Instead-of-doing-preprocessor-magic-just-output-off_.patch file://0003-Makefile.am-only-build-ubi-utils.patch file://0004-mtd-utils-common.h-no-features.h-for-klibc-builds.patch file://0005-common.h-replace-getline-with-fgets.patch

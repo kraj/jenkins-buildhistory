@@ -1,7 +1,0 @@
-PV = 8.10
-PR = r0
-DEPENDS = autoconf-native automake-native bash-completion gettext-native gnu-config-native gnutls krb5 libproxy libtool-cross libtool-native libxml2 lz4 pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc vpnc
-PACKAGES = openconnect-src openconnect-dbg openconnect-staticdev openconnect-dev openconnect-doc openconnect openconnect-bash-completion openconnect-locale-ar openconnect-locale-bs openconnect-locale-ca openconnect-locale-cs openconnect-locale-da openconnect-locale-de openconnect-locale-el openconnect-locale-en-gb openconnect-locale-en-us openconnect-locale-es openconnect-locale-eu openconnect-locale-fi openconnect-locale-fr openconnect-locale-gl openconnect-locale-hu openconnect-locale-id openconnect-locale-it openconnect-locale-lt openconnect-locale-nl openconnect-locale-pa openconnect-locale-pl openconnect-locale-pt openconnect-locale-pt-br openconnect-locale-sk openconnect-locale-sl openconnect-locale-sr openconnect-locale-sr+latin openconnect-locale-sv openconnect-locale-tg openconnect-locale-tr openconnect-locale-ug openconnect-locale-uk openconnect-locale-zh-cn openconnect-locale-zh-tw
-LAYER = networking-layer
-CONFIG = gnutls libproxy lz4
-SRC_URI = git://git.infradead.org/users/dwmw2/openconnect.git

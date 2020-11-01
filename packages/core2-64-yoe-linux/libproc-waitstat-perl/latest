@@ -1,0 +1,7 @@
+PV = 1.00
+PR = r0
+DEPENDS = perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libproc-waitstat-perl-src libproc-waitstat-perl-dbg libproc-waitstat-perl-staticdev libproc-waitstat-perl-dev libproc-waitstat-perl-doc libproc-waitstat-perl-locale libproc-waitstat-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/R/RO/ROSCH/Proc-WaitStat-1.00.tar.gz

@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-ax88179-178a
+RDEPENDS = kernel-5.8.13-yocto-standard kernel-module-usbnet-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 34736
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/drivers/net/usb/ax88179_178a.ko /etc/modules-load.d/ax88179_178a.conf /etc/modprobe.d/ax88179_178a.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

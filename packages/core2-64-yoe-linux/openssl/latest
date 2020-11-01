@@ -1,0 +1,7 @@
+PV = 1.1.1g
+PR = r0
+DEPENDS = hostperl-runtime-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = openssl-src openssl-dbg libcrypto libssl openssl-conf openssl-engines openssl-misc openssl-ptest openssl-staticdev openssl-dev openssl-doc openssl-locale openssl-bin openssl
+LAYER = core
+CONFIG = 
+SRC_URI = http://www.openssl.org/source/openssl-1.1.1g.tar.gz file://run-ptest file://0001-skip-test_symbol_presence.patch file://0001-buildinfo-strip-sysroot-and-debug-prefix-map-from-co.patch file://afalg.patch file://reproducible.patch

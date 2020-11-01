@@ -1,0 +1,11 @@
+PE = 2
+PV = 20.2.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = mesa-dri-dev
+RDEPENDS = 
+RRECOMMENDS = elfutils-dev expat-dev libdrm-dev libxdamage-dev libxext-dev libxfixes-dev libxshmfence-dev libxxf86vm-dev llvm10.0.1-dev wayland-dev wayland-protocols-dev xorgproto-dev xrandr-dev zlib-dev
+RCONFLICTS = mesa-dri-dev
+PKGSIZE = 222
+FILES = /usr/lib/pkgconfig/dri.pc /usr/include/vulkan /usr/lib/vdpau/*.so
+FILELIST = 

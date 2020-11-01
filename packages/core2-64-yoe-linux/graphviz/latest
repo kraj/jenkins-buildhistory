@@ -1,0 +1,7 @@
+PV = 2.40.1
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native cairo expat freetype gdk-pixbuf gettext-native gnu-config-native graphviz-native groff-native intltool-native librsvg libtool libtool-cross libtool-native pango pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = graphviz-src graphviz-dbg graphviz-python graphviz-perl graphviz-demo graphviz-staticdev graphviz-dev graphviz-doc graphviz-locale graphviz
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://gitlab.com/graphviz/graphviz/-/archive/stable_release_2.40.1/graphviz-stable_release_2.40.1.tar.gz file://0001-plugin-pango-Include-freetype-headers-explicitly.patch file://0001-Use-native-mkdefs.patch file://0001-Set-use_tcl-to-be-empty-string-if-tcl-is-disabled.patch

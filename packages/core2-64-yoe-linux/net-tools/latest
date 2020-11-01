@@ -1,0 +1,7 @@
+PV = 1.60-20181103+gitAUTOINC+0eebece8c9
+PR = r0
+DEPENDS = gettext-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = net-tools-src net-tools-dbg net-tools-staticdev net-tools-dev net-tools-doc net-tools net-tools-locale-cs net-tools-locale-de net-tools-locale-et-ee net-tools-locale-fr net-tools-locale-pt-br
+LAYER = core
+CONFIG = arp hostname plip serial
+SRC_URI = git://git.code.sf.net/p/net-tools/code;protocol=https file://net-tools-config.h file://net-tools-config.make file://Add_missing_headers.patch file://Bug_443075-ifconfig.c-pointtopoint_spelling.patch file://Bug_541172-netstat.c-exit-codes.patch

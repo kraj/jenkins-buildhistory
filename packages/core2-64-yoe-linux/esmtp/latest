@@ -1,0 +1,7 @@
+PV = 1.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libesmtp libtool-cross libtool-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = esmtp-src esmtp-dbg esmtp-staticdev esmtp-dev esmtp-doc esmtp-locale esmtp
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/esmtp/1.2/esmtp-1.2.tar.bz2

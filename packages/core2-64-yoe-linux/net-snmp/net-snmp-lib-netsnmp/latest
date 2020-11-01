@@ -1,0 +1,10 @@
+PV = 5.9
+PR = r0
+PKG = libnetsnmp40
+PKGR = r0.0
+RPROVIDES = net-snmp-lib-netsnmp (=5.9)
+RDEPENDS = glibc (>= 2.32) libcrypto (>= 1.1.1g)
+RRECOMMENDS = 
+PKGSIZE = 777220
+FILES = /usr/lib/libnetsnmp.so.*
+FILELIST = /usr/lib/libnetsnmptrapd.so.40 /usr/lib/libnetsnmptrapd.so.40.0.0

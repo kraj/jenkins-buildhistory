@@ -1,7 +1,0 @@
-PV = 1.0.9
-PR = r0
-DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = brotli-src brotli-dbg brotli-staticdev brotli-dev brotli-doc brotli-locale brotli-bin brotli
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/google/brotli.git file://838.patch

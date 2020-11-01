@@ -1,0 +1,7 @@
+PV = 170
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = mcelog-src mcelog-dbg mcelog-ptest mcelog-staticdev mcelog-dev mcelog-doc mcelog-locale mcelog
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git;protocol=http; file://run-ptest

@@ -1,0 +1,10 @@
+PV = 0.12.11
+PR = r0
+PKG = libgupnp-av-1.0-staticdev
+PKGR = r0.0
+RPROVIDES = gupnp-av-staticdev (=0.12.11)
+RDEPENDS = gupnp-av-dev (= 0.12.11-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/gupnp-av/*.a
+FILELIST = /usr/lib/girepository-1.0/GUPnPAV-1.0.typelib /usr/lib/libgupnp-av-1.0.so.2 /usr/lib/libgupnp-av-1.0.so.2.0.0 /usr/share/gupnp-av/av.xsd /usr/share/gupnp-av/didl-lite-v2.xsd /usr/share/gupnp-av/simpledc20021212.xsd /usr/share/gupnp-av/upnp.xsd /usr/share/gupnp-av/xml.xsd

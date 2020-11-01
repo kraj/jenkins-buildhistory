@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = emlog-src emlog-dbg emlog-staticdev emlog-dev emlog-doc emlog-locale emlog
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/nicupavel/emlog.git;protocol=http file://emlog.initd file://0001-Remove-modules_clean-from-clean-target.patch

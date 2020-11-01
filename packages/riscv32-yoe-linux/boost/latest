@@ -1,7 +1,0 @@
-PV = 1.74.0
-PR = r0
-DEPENDS = boost-build-native bzip2 icu python3 virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = boost-src boost-dbg boost-atomic boost-chrono boost-container boost-context boost-contract boost-coroutine boost-date-time boost-exception boost-fiber boost-filesystem boost-graph boost-headers boost-iostreams boost-log boost-math boost-program-options boost-random boost-regex boost-serialization boost-system boost-test boost-thread boost-timer boost-type-erasure boost-wave boost-locale boost-python boost-dev boost-staticdev boost
-LAYER = core
-CONFIG = locale python
-SRC_URI = https://dl.bintray.com/boostorg/release/1.74.0/source/boost_1_74_0.tar.bz2 file://arm-intrinsics.patch file://boost-CVE-2012-2677.patch file://boost-math-disable-pch-for-gcc.patch file://0001-Apply-boost-1.62.0-no-forced-flags.patch.patch file://0001-Don-t-set-up-arch-instruction-set-flags-we-do-that-o.patch file://0001-dont-setup-compiler-flags-m32-m64.patch file://0001-fiber-libs-Define-SYS_futex-if-it-does-not-exist.patch

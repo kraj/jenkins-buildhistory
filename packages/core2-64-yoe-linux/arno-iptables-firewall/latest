@@ -1,0 +1,7 @@
+PV = 2.1.1
+PR = r0
+DEPENDS = systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = arno-iptables-firewall-src arno-iptables-firewall-dbg arno-iptables-firewall-staticdev arno-iptables-firewall-dev arno-iptables-firewall-doc arno-iptables-firewall-locale arno-iptables-firewall
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://github.com/arno-iptables-firewall/aif

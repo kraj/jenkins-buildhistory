@@ -1,7 +1,0 @@
-PV = 1.0.11
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native orc orc-native pkgconfig-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = schroedinger-src schroedinger-dbg schroedinger-staticdev schroedinger-dev schroedinger-doc schroedinger-locale schroedinger
-LAYER = multimedia-layer
-CONFIG = 
-SRC_URI = https://download.videolan.org/contrib/schroedinger/schroedinger-1.0.11.tar.gz file://configure.ac.patch

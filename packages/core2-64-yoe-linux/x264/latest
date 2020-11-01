@@ -1,0 +1,7 @@
+PV = r3011+gitAUTOINC+cde9a93319
+PR = r0
+DEPENDS = nasm-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = x264-src x264-dbg x264-staticdev x264-dev x264-doc x264-locale x264-bin x264
+LAYER = core
+CONFIG = 
+SRC_URI = git://github.com/mirror/x264;branch=stable file://don-t-default-to-cortex-a9-with-neon.patch file://Fix-X32-build-by-disabling-asm.patch

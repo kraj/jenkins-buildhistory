@@ -1,7 +1,0 @@
-PV = 0.5.3
-PR = r0
-DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native python3 virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libsigrokdecode-src libsigrokdecode-dbg libsigrokdecode-staticdev libsigrokdecode-dev libsigrokdecode-doc libsigrokdecode-locale libsigrokdecode
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://sigrok.org/download/source/libsigrokdecode/libsigrokdecode-0.5.3.tar.gz file://python39.patch

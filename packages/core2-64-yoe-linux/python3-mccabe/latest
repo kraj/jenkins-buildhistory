@@ -1,0 +1,7 @@
+PV = 0.6.1
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-pytest-runner-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-mccabe-src python3-mccabe-dbg python3-mccabe-staticdev python3-mccabe-dev python3-mccabe-doc python3-mccabe-locale python3-mccabe
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/m/mccabe/mccabe-0.6.1.tar.gz

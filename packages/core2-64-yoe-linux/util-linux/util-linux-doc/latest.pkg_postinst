@@ -1,0 +1,41 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man8/blkid.8 blkid.8 /usr/share/man/man8/blkid.8.util-linux 80
+	update-alternatives --install /usr/share/man/man1/eject.1 eject.1 /usr/share/man/man1/eject.1.util-linux 80
+	update-alternatives --install /usr/share/man/man8/findfs.8 findfs.8 /usr/share/man/man8/findfs.8.util-linux 80
+	update-alternatives --install /usr/share/man/man8/fsck.8 fsck.8 /usr/share/man/man8/fsck.8.util-linux 80
+	update-alternatives --install /usr/share/man/man1/kill.1 kill.1 /usr/share/man/man1/kill.1.util-linux 80
+	update-alternatives --install /usr/share/man/man1/last.1 last.1 /usr/share/man/man1/last.1.util-linux 80
+	update-alternatives --install /usr/share/man/man1/lastb.1 lastb.1 /usr/share/man/man1/lastb.1.util-linux 80
+	update-alternatives --install /usr/share/man/man3/libblkid.3 libblkid.3 /usr/share/man/man3/libblkid.3.util-linux 80
+	update-alternatives --install /usr/share/man/man1/logger.1 logger.1 /usr/share/man/man1/logger.1.util-linux 80
+	update-alternatives --install /usr/share/man/man1/mesg.1 mesg.1 /usr/share/man/man1/mesg.1.util-linux 80
+	update-alternatives --install /usr/share/man/man1/mountpoint.1 mountpoint.1 /usr/share/man/man1/mountpoint.1.util-linux 80
+	update-alternatives --install /usr/share/man/man8/nologin.8 nologin.8 /usr/share/man/man8/nologin.8.util-linux 80
+	update-alternatives --install /usr/share/man/man8/rfkill.8 rfkill.8 /usr/share/man/man8/rfkill.8.util-linux 80
+	update-alternatives --install /usr/share/man/man8/sulogin.8 sulogin.8 /usr/share/man/man8/sulogin.8.util-linux 80
+	update-alternatives --install /usr/share/man/man1/utmpdump.1 utmpdump.1 /usr/share/man/man1/utmpdump.1.util-linux 80
+	update-alternatives --install /usr/share/man/man3/uuid.3 uuid.3 /usr/share/man/man3/uuid.3.util-linux 80
+	update-alternatives --install /usr/share/man/man1/wall.1 wall.1 /usr/share/man/man1/wall.1.util-linux 80
+	update-alternatives --install /usr/share/man/man1/su.1 su.1 /usr/share/man/man1/su.1.util-linux 80
+	# only update manual page index caches when manual files are built and installed
+	if false; then
+		if test -n "$D"; then
+			if true; then
+				sed "s:\(\s\)/:\1$D/:g" $D/etc/man_db.conf | PSEUDO_UNLOAD=1 qemu-x86_64 -r 3.2.0  -cpu core2duo -L $D -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib $D/usr/bin/mandb -C - -u -q $D/usr/share/man
+				chown -R root:root $D/usr/share/man
+				mkdir -p $D/var/cache/man
+				cd $D/usr/share/man
+				find . -name index.db | while read index; do
+					mkdir -p $D/var/cache/man/$(dirname ${index})
+					mv ${index} $D/var/cache/man/${index}
+					chown man:man $D/var/cache/man/${index}
+				done
+				cd -
+			else
+				$INTERCEPT_DIR/postinst_intercept delay_to_first_boot util-linux-doc mlprefix=
+			fi
+		else
+			mandb -q
+		fi
+	fi

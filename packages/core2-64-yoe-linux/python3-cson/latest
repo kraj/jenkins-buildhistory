@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-cson-src python3-cson-dbg python3-cson-staticdev python3-cson-dev python3-cson-doc python3-cson-locale python3-cson
+LAYER = meta-python
+CONFIG = 
+SRC_URI = git://github.com/gt3389b/python-cson.git

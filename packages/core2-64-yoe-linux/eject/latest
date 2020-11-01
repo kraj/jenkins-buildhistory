@@ -1,0 +1,7 @@
+PV = 2.1.5
+PR = r1
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = eject-src eject-dbg eject-staticdev eject-dev eject-doc eject eject-locale-cs-cz eject-locale-de eject-locale-es eject-locale-fr eject-locale-ja eject-locale-pt-br eject-locale-tr eject-locale-zh-tw
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://sources.openembedded.org/eject-2.1.5.tar.gz file://eject-2.1.5-error-return.patch file://eject-2.1.1-verbose.patch file://eject-2.1.5-spaces.patch file://eject-timeout.patch file://0001-eject-Include-sys-sysmacros.h-for-major-minor.patch

@@ -1,7 +1,0 @@
-PV = 2007f
-PR = r0
-DEPENDS = libpam openssl virtual/crypt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = uw-imap-src uw-imap-dbg uw-imap-staticdev uw-imap-dev uw-imap-doc uw-imap-locale uw-imap
-LAYER = openembedded-layer
-CONFIG = pam
-SRC_URI = https://fossies.org/linux/misc/old/imap-2007f.tar.gz file://quote_cctype.patch file://imap-2007e-shared.patch file://imap-2007f-format-security.patch file://0001-Support-OpenSSL-1.1.patch

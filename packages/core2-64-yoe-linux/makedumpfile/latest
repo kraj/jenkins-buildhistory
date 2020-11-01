@@ -1,0 +1,7 @@
+PV = 1.6.7
+PR = r0
+DEPENDS = bzip2 elfutils virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = makedumpfile-src makedumpfile-dbg makedumpfile-tools makedumpfile-staticdev makedumpfile-dev makedumpfile-doc makedumpfile-locale makedumpfile
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/makedumpfile/makedumpfile-1.6.7.tar.gz file://0001-makedumpfile-replace-hardcode-CFLAGS.patch file://0002-mem_section-Support-only-46-bit-for-MAX_PHYSMEM_BITS.patch file://0001-PATCH-Remove-duplicated-variable-definitions.patch

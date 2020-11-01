@@ -1,0 +1,7 @@
+PV = 0.26.6
+PR = r0
+DEPENDS = c-ares cmake-native curl elfutils grpc grpc-native jq jq-native jsoncpp luajit ncurses ninja-native openssl pkgconfig-native protobuf protobuf-native tbb virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = sysdig-src sysdig-dbg sysdig-staticdev sysdig-dev sysdig-doc sysdig-locale sysdig
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/draios/sysdig.git;branch=dev file://0001-fix-build-with-LuaJIT-2.1-betas.patch file://0001-Fix-build-with-musl-backtrace-APIs-are-glibc-specifi.patch file://fix-uint64-const.patch file://aarch64.patch

@@ -1,0 +1,10 @@
+PV = 2.7.2
+PR = r0
+PKG = libharfbuzz-dev
+PKGR = r0.0
+RPROVIDES = harfbuzz-dev (=2.7.2)
+RDEPENDS = harfbuzz (= 2.7.2-r0.0) harfbuzz-subset
+RRECOMMENDS = cairo-dev fontconfig-dev freetype-dev glib-2.0-dev glibc-dev gobject-introspection-dev icu-dev
+PKGSIZE = 899651
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/harfbuzz/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
+FILELIST = /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib /usr/lib/libharfbuzz-gobject.so.0 /usr/lib/libharfbuzz-gobject.so.0.20702.0 /usr/lib/libharfbuzz.so.0 /usr/lib/libharfbuzz.so.0.20702.0

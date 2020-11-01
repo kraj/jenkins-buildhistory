@@ -1,0 +1,7 @@
+PV = 0.16.0
+PR = r0
+DEPENDS = python3 python3-native python3-native python3-pbr python3-pip python3-setuptools-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = python3-ecdsa-src python3-ecdsa-dbg python3-ecdsa-staticdev python3-ecdsa-dev python3-ecdsa-doc python3-ecdsa-locale python3-ecdsa
+LAYER = meta-python
+CONFIG = 
+SRC_URI = https://files.pythonhosted.org/packages/source/e/ecdsa/ecdsa-0.16.0.tar.gz

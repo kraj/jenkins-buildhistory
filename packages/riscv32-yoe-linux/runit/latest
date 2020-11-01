@@ -1,7 +1,0 @@
-PV = 2.1.2
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = runit-src runit-dbg runit-staticdev runit-dev runit-doc runit-locale runit
-LAYER = core
-CONFIG = 
-SRC_URI = http://smarden.org/runit/runit-2.1.2.tar.gz file://0001-default-directory-for-services-on-Debian-is-etc-servi.diff;striplevel=2 file://0002-support-etc-runit-nosync-file-to-make-sync-on-shutdow.diff;striplevel=2 file://0003-utmpset.c-mixes-int32_t-and-time_t.diff;striplevel=2 file://0004-src-Makefile-don-t-use-static-to-link-runit-runit-ini.diff;striplevel=2 file://0005-patch-etc-runit-2-for-FHS.patch;striplevel=2 file://0006-make-buildsystem-respect-CFLAGS.patch;striplevel=2 file://0007-move-communication-files.patch;striplevel=2 file://0008-emulate-sysv-runlevel-5.patch;striplevel=2 file://0009-fix-error-in-manpage.patch;striplevel=2 file://patch-make-build-system-print-compilatio.patch;striplevel=2 file://patch-disable-chkshgrp-test-that-fails-i.patch;striplevel=2 file://patch-fix-spin-lock-on-systems-with-poor.patch;striplevel=2 file://cross.patch file://clearmem.patch file://svlogd.patch

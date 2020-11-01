@@ -1,0 +1,7 @@
+PV = 0.6+gitAUTOINC+5a5e04be20
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native klcc-cross libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = kexecboot-klibc-src kexecboot-klibc-dbg kexecboot-klibc-staticdev kexecboot-klibc-dev kexecboot-klibc-doc kexecboot-klibc-locale kexecboot-klibc
+LAYER = meta-initramfs
+CONFIG = 
+SRC_URI = git://github.com/kexecboot/kexecboot.git file://0001-kexecboot-Use-new-reboot-API-with-klibc.patch

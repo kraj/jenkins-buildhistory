@@ -1,0 +1,7 @@
+PV = 2.1.0~beta3-200809
+PR = r0
+DEPENDS = pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = luajit-src luajit-dbg luajit-staticdev luajit-dev luajit-doc luajit-locale luajit luajit-common
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://luajit.org/git/luajit-2.0.git;protocol=http;branch=v2.1 file://0001-Do-not-strip-automatically-this-leaves-the-stripping.patch file://clang.patch

@@ -1,0 +1,7 @@
+PV = 5.0.2
+PR = r0
+DEPENDS = 
+PACKAGES = phpmyadmin-src phpmyadmin-dbg phpmyadmin-staticdev phpmyadmin-dev phpmyadmin-doc phpmyadmin-locale phpmyadmin
+LAYER = webserver
+CONFIG = 
+SRC_URI = https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.tar.xz file://apache.conf

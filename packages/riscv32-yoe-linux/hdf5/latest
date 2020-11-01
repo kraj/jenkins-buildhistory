@@ -1,7 +1,0 @@
-PV = 1.8.21
-PR = r0
-DEPENDS = cmake-native ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = hdf5-src hdf5-dbg hdf5-staticdev hdf5-dev hdf5-doc hdf5-locale hdf5
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8/hdf5-1.8.21/src/hdf5-1.8.21.tar.bz2 file://H5lib_settings.c file://H5Tinit-64.c file://H5Tinit-32.c file://0001-cross-compiling-support.patch file://0002-Remove-suffix-shared-from-shared-library-name.patch

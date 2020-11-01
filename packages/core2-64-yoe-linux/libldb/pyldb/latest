@@ -1,0 +1,10 @@
+PV = 1.5.8
+PR = r0
+PKG = libpyldb-util.cpython-39-x86-64-linux-gnu1
+PKGR = r0.0
+RPROVIDES = pyldb (=1.5.8)
+RDEPENDS = glibc (>= 2.32) libldb (>= 1.5.8) libpython3 (>= 3.9.0) libtalloc (>= 2.3.0) libtdb (>= 1.4.3) libtevent (>= 0.10.1) libxcrypt (>= 4.4.17) python3
+RRECOMMENDS = 
+PKGSIZE = 114434
+FILES = /usr/lib/python3.9/site-packages/* /usr/lib/libpyldb-util.*.so.*
+FILELIST = /usr/bin/ldbadd /usr/bin/ldbdel /usr/bin/ldbedit /usr/bin/ldbmodify /usr/bin/ldbrename /usr/bin/ldbsearch /usr/lib/ldb/libcmocka-ldb.so /usr/lib/ldb/libldb-cmdline.so /usr/lib/ldb/libldb-key-value.so /usr/lib/ldb/libldb-tdb-err-map.so /usr/lib/ldb/libldb-tdb-int.so /usr/lib/ldb/modules/ldb/asq.so /usr/lib/ldb/modules/ldb/ldb.so /usr/lib/ldb/modules/ldb/paged_searches.so /usr/lib/ldb/modules/ldb/rdn_name.so /usr/lib/ldb/modules/ldb/sample.so /usr/lib/ldb/modules/ldb/server_sort.so /usr/lib/ldb/modules/ldb/skel.so /usr/lib/ldb/modules/ldb/tdb.so /usr/lib/libldb.so.1 /usr/lib/libldb.so.1.5.8

@@ -1,0 +1,10 @@
+PV = 4.1.0
+PR = r0
+PKG = libtiff-dev
+PKGR = r0.0
+RPROVIDES = tiff-dev (=4.1.0)
+RDEPENDS = tiff (= 4.1.0-r0.0) tiffxx
+RRECOMMENDS = glibc-dev jpeg-dev libgcc-dev libjpeg-turbo-dev liblzma-dev libstdc++-dev tiffxx-dev xz-dev zlib-dev
+PKGSIZE = 66425
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tiff/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libtiff.so.5 /usr/lib/libtiff.so.5.5.0

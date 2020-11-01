@@ -1,7 +1,0 @@
-PV = 1.3.0
-PR = r0
-DEPENDS = cmake-native curl hiredis jsoncpp libmicrohttpd ninja-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = jsonrpc-src jsonrpc-dbg jsonrpc-staticdev jsonrpc-dev jsonrpc-doc jsonrpc-locale jsonrpc
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/cinemast/libjson-rpc-cpp file://0001-Fix-build-with-libmicrohttpd.patch

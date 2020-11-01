@@ -1,0 +1,7 @@
+PV = v0.0.6+gitAUTOINC+ad6c72a4e3
+PR = r0
+DEPENDS = cmake-native jpeg libusb ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libuvc-src libuvc-dbg libuvc-staticdev libuvc-dev libuvc-doc libuvc-locale libuvc
+LAYER = multimedia-layer
+CONFIG = 
+SRC_URI = git://github.com/libuvc/libuvc.git

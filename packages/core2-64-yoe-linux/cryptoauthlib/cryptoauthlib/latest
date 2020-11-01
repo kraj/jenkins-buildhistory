@@ -1,0 +1,10 @@
+PV = 1.0+gitAUTOINC+70d082c011
+PR = r0
+PKGV = 1.0+git0+70d082c011
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) gnutls-bin libp11 (>= 0.4.10)
+RRECOMMENDS = p11-kit
+PKGSIZE = 142415
+FILES = /usr/lib/libcryptoauth.so /etc/cryptoauthlib/cryptoauthlib.conf /var/lib/cryptoauthlib/slot.conf.tmpl /usr/share/p11-kit/modules/cryptoauthlib.module /var/lib/cryptoauthlib/0.conf
+FILELIST = /etc/cryptoauthlib/cryptoauthlib.conf /usr/lib/libcryptoauth.so /var/lib/cryptoauthlib/slot.conf.tmpl

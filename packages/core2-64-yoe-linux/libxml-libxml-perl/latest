@@ -1,0 +1,7 @@
+PV = 2.0134
+PR = r0
+DEPENDS = libxml-sax-perl-native libxml2 perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libxml-libxml-perl-src libxml-libxml-perl-dbg libxml-libxml-perl-ptest libxml-libxml-perl-staticdev libxml-libxml-perl-dev libxml-libxml-perl-doc libxml-libxml-perl-locale libxml-libxml-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = http://search.cpan.org/CPAN/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0134.tar.gz;name=libxml file://disable-libxml2-check.patch file://fix-CATALOG-conditional-compile.patch file://using-DOCB-conditional.patch file://ptest-perl/run-ptest

@@ -1,0 +1,7 @@
+PV = 0.7
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = liburing-src liburing-dbg liburing-staticdev liburing-dev liburing-doc liburing-locale liburing
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/axboe/liburing.git;branch=master;protocol=https

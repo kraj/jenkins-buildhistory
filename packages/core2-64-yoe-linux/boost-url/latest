@@ -1,0 +1,7 @@
+PV = git
+PR = r0
+DEPENDS = boost cmake-native ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = boost-url-src boost-url-dbg boost-url-staticdev boost-url-dev boost-url-doc boost-url-locale boost-url
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/CPPAlliance/url.git

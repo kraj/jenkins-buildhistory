@@ -1,0 +1,10 @@
+PV = 1.10.2
+PR = r0
+PKG = libgraphene-1.0-dev
+PKGR = r0.0
+RPROVIDES = graphene-dev (=1.10.2)
+RDEPENDS = graphene (= 1.10.2-r0.0)
+RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev
+PKGSIZE = 859881
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/graphene/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
+FILELIST = /usr/lib/girepository-1.0/Graphene-1.0.typelib /usr/lib/graphene-1.0/include/graphene-config.h /usr/lib/libgraphene-1.0.so.0 /usr/lib/libgraphene-1.0.so.0.1000.2

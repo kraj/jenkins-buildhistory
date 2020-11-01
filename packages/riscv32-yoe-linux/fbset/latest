@@ -1,7 +1,0 @@
-PV = 2.1
-PR = r4
-DEPENDS = bison-native flex-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = fbset-src fbset-dbg fbset-staticdev fbset-dev fbset-doc fbset-locale fbset
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://ftp.debian.org/debian/pool/main/f/fbset/fbset_2.1.orig.tar.gz file://makefile.patch file://fbset-2.1-fix-makefile-dep.patch file://0001-fbset-including-asm-types.h-is-needed-on-all-linux-s.patch

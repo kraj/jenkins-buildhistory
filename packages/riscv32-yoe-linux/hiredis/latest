@@ -1,7 +1,0 @@
-PV = 0.14.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native redis virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = hiredis-src hiredis-dbg hiredis-staticdev hiredis-dev hiredis-doc hiredis-locale hiredis
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/redis/hiredis;protocol=git file://0001-Makefile-remove-hardcoding-of-CC.patch

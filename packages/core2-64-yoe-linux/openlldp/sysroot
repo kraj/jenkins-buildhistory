@@ -1,0 +1,36 @@
+drwxr-xr-x -          -                  60 ./lib
+drwxr-xr-x -          -                  60 ./lib/systemd
+drwxr-xr-x -          -                  80 ./lib/systemd/system
+-rw-r--r-- -          -                 281 ./lib/systemd/system/lldpad.service
+-rw-r--r-- -          -                 163 ./lib/systemd/system/lldpad.socket
+drwxr-xr-x -          -                  60 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/openlldp
+drwxr-xr-x -          -                 100 ./usr
+drwxr-xr-x -          -                  60 ./usr/include
+drwxr-xr-x -          -                 400 ./usr/include/lldpad
+-rw-r--r-- -          -               10040 ./usr/include/lldpad/clif.h
+-rw-r--r-- -          -                4139 ./usr/include/lldpad/clif_msgs.h
+-rw-r--r-- -          -                1270 ./usr/include/lldpad/clif_sock.h
+-rw-r--r-- -          -               21083 ./usr/include/lldpad/dcbnl.h
+-rw-r--r-- -          -                8142 ./usr/include/lldpad/dcb_types.h
+-rw-r--r-- -          -                1578 ./usr/include/lldpad/lldp_8021qaz_cmds.h
+-rw-r--r-- -          -                1186 ./usr/include/lldpad/lldp_8023_cmds.h
+-rw-r--r-- -          -                1401 ./usr/include/lldpad/lldpad.h
+-rw-r--r-- -          -                1572 ./usr/include/lldpad/lldpad_status.h
+-rw-r--r-- -          -                1188 ./usr/include/lldpad/lldp_basman_cmds.h
+-rw-r--r-- -          -                4832 ./usr/include/lldpad/lldp_dcbx_cmds.h
+-rw-r--r-- -          -                1218 ./usr/include/lldpad/lldp_evb_cmds.h
+-rw-r--r-- -          -                1437 ./usr/include/lldpad/lldp_mand_cmds.h
+-rw-r--r-- -          -                1179 ./usr/include/lldpad/lldp_med_cmds.h
+-rw-r--r-- -          -                6708 ./usr/include/lldpad/lldp_util.h
+-rw-r--r-- -          -                4840 ./usr/include/lldpad/netlink.h
+-rw-r--r-- -          -                1476 ./usr/include/lldpad/qbg_vdp_cmds.h
+-rw-r--r-- -          -               14783 ./usr/include/lldpad/rtnetlink.h
+drwxr-xr-x -          -                 120 ./usr/lib
+-rwxr-xr-x -          -               14320 ./usr/lib/liblldp_clif.so.1.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/liblldp_clif.so.1 -> liblldp_clif.so.1.0.0
+lrwxrwxrwx -          -                  21 ./usr/lib/liblldp_clif.so -> liblldp_clif.so.1.0.0
+drwxr-xr-x -          -                  80 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 201 ./usr/lib/pkgconfig/liblldp_clif.pc
+-rw-r--r-- -          -                 187 ./usr/lib/pkgconfig/lldpad.pc
+drwxr-xr-x -          -                  40 ./usr/share

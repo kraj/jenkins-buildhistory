@@ -1,0 +1,7 @@
+PV = 1.18.0
+PR = r0
+DEPENDS = autoconf-native automake-native boost gnu-config-native libtool-cross libtool-native openssl virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = asio-src asio-dbg asio-staticdev asio-dev asio-doc asio-locale asio
+LAYER = openembedded-layer
+CONFIG = boost
+SRC_URI = https://downloads.sourceforge.net/asio/asio-1.18.0.tar.bz2

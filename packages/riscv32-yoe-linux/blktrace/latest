@@ -1,7 +1,0 @@
-PV = 1.2.0+gitAUTOINC+cca113f2fe
-PR = r0
-DEPENDS = libaio virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = blktrace-src blktrace-dbg blktrace-staticdev blktrace-dev blktrace-doc blktrace-locale blktrace
-LAYER = core
-CONFIG = 
-SRC_URI = git://git.kernel.dk/blktrace.git file://ldflags.patch file://CVE-2018-10689.patch file://make-btt-scripts-python3-ready.patch

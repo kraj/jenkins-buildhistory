@@ -1,0 +1,7 @@
+PV = 3.18.4
+PR = r0
+DEPENDS = bash-completion bzip2 cmake-native curl expat libarchive ncurses ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xz zlib
+PACKAGES = cmake-src cmake-dbg cmake-staticdev cmake-dev cmake-doc cmake-locale cmake cmake-bash-completion
+LAYER = core
+CONFIG = 
+SRC_URI = https://cmake.org/files/v3.18/cmake-3.18.4.tar.gz file://0002-cmake-Prevent-the-detection-of-Qt5.patch file://0003-cmake-support-OpenEmbedded-Qt4-tool-binary-names.patch file://0004-Fail-silently-if-system-Qt-installation-is-broken.patch

@@ -1,7 +1,0 @@
-PV = 1.22.1
-PR = r0
-DEPENDS = autoconf-native automake-native base-files base-passwd gnu-config-native libtool-cross libtool-native libuv pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = netdata-src netdata-dbg netdata-staticdev netdata-dev netdata-doc netdata-locale netdata
-LAYER = webserver
-CONFIG = 
-SRC_URI = git://github.com/firehol/netdata.git;protocol=https file://netdata.conf file://netdata.service

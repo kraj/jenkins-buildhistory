@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-sch-sfq
+RDEPENDS = kernel-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 18272
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/net/sched/sch_sfq.ko /etc/modules-load.d/sch_sfq.conf /etc/modprobe.d/sch_sfq.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

@@ -1,0 +1,7 @@
+PV = 2.5.0
+PR = r0
+DEPENDS = linux-libc-headers ncurses virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = tomoyo-tools-src tomoyo-tools-dbg tomoyo-tools-staticdev tomoyo-tools-dev tomoyo-tools-doc tomoyo-tools-locale tomoyo-tools
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://jaist.dl.sourceforge.jp/tomoyo/53357/tomoyo-tools-2.5.0-20170102.tar.gz

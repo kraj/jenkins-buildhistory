@@ -1,0 +1,7 @@
+PV = 2.0.2
+PR = r0
+DEPENDS = cmake-native ninja-native pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = liblightmodbus-src liblightmodbus-dbg liblightmodbus-staticdev liblightmodbus-dev liblightmodbus-doc liblightmodbus-locale liblightmodbus
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/Jacajack/liblightmodbus.git;protocol=https file://0001-cmake-Use-GNUInstallDirs-instead-of-hardcoding-lib-p.patch

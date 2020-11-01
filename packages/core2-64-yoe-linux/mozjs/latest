@@ -1,0 +1,7 @@
+PV = 60.9.0
+PR = r0
+DEPENDS = autoconf-2.13-native autoconf-native automake-native gnu-config-native libtool-cross libtool-native nspr perl-native pkgconfig-native python3-jsmin-native python3-native python3-pytoml-native python3-six python3-six-native virtual/libc virtual/libx11 virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = mozjs-src mozjs-dbg libmozjs mozjs-staticdev mozjs-dev mozjs-doc mozjs-locale mozjs
+LAYER = openembedded-layer
+CONFIG = x11
+SRC_URI = https://archive.mozilla.org/pub/firefox/releases/60.9.0esr/source/firefox-60.9.0esr.source.tar.xz file://0001-Port-build-to-python3.patch file://0002-js.pc.in-do-not-include-RequiredDefines.h-for-depend.patch file://0003-fix-cross-compilation-on-i586-targets.patch file://0004-do-not-create-python-environment.patch file://0005-fix-cannot-find-link.patch file://0006-workaround-autoconf-2.13-detection-failed.patch file://0007-fix-do_compile-failed-on-mips.patch file://0008-add-riscv-support.patch file://0009-mozjs-fix-coredump-caused-by-getenv.patch file://0010-format-overflow.patch file://0011-To-fix-build-error-on-arm32BE.patch file://0012-JS_PUBLIC_API.patch file://0013-riscv-Disable-atomic-operations.patch

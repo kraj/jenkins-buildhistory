@@ -1,0 +1,7 @@
+PV = 0.012
+PR = r0
+DEPENDS = perl perl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libfile-slurper-perl-src libfile-slurper-perl-dbg libfile-slurper-perl-ptest libfile-slurper-perl-staticdev libfile-slurper-perl-dev libfile-slurper-perl-doc libfile-slurper-perl-locale libfile-slurper-perl
+LAYER = perl-layer
+CONFIG = 
+SRC_URI = https://search.cpan.org/CPAN/authors/id/L/LE/LEONT/File-Slurper-0.012.tar.gz file://ptest-perl/run-ptest

@@ -1,0 +1,7 @@
+PV = 1.0.2
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native libcanberra libtool-cross libtool-native pkgconfig-native prelink-native python3-native qemu-native vala vala-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = gsound-src gsound-dbg gsound-staticdev gsound-dev gsound-doc gsound-locale gsound
+LAYER = gnome-layer
+CONFIG = 
+SRC_URI = https://ftp.gnome.org/pub/GNOME/sources/gsound/1.0/gsound-1.0.2.tar.xz;name=archive

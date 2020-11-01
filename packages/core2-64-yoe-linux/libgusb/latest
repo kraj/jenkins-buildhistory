@@ -1,0 +1,7 @@
+PV = 0.3.4
+PR = r0
+DEPENDS = gettext-native glib-2.0 gobject-introspection gobject-introspection-native gtk-doc-native libusb meson-native ninja-native pkgconfig-native prelink-native python3-native qemu-native vala vala-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = libgusb-src libgusb-dbg libgusb-staticdev libgusb-dev libgusb-doc libgusb-locale libgusb
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/hughsie/libgusb.git file://0001-generate-version-script-Don-t-hard-code-the-path-of-.patch

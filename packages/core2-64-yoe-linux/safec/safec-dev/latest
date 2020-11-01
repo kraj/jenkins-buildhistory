@@ -1,0 +1,10 @@
+PV = 3.5.1
+PR = r0
+PKG = libsafec-3.5.1-dev
+PKGR = r0.0
+RPROVIDES = safec-dev (=3.5.1)
+RDEPENDS = safec (= 3.5.1-r0.0)
+RRECOMMENDS = glibc-dev perl-dev
+PKGSIZE = 87734
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/safec/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libsafec-3.5.1.so.3 /usr/lib/libsafec-3.5.1.so.3.0.6

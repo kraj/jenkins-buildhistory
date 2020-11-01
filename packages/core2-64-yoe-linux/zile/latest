@@ -1,0 +1,7 @@
+PV = 2.4.14
+PR = r0
+DEPENDS = acl autoconf-native automake-native bdwgc gnu-config-native libtool-cross libtool-native ncurses pkgconfig-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = zile-src zile-dbg zile-staticdev zile-dev zile-doc zile-locale zile
+LAYER = openembedded-layer
+CONFIG = acl
+SRC_URI = https://ftp.gnu.org/gnu/zile/zile-2.4.14.tar.gz file://remove-help2man.patch

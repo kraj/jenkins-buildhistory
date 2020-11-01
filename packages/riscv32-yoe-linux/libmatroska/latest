@@ -1,7 +1,0 @@
-PV = 1.4.1
-PR = r0
-DEPENDS = libebml virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libmatroska-src libmatroska-dbg libmatroska-staticdev libmatroska-dev libmatroska-doc libmatroska-locale libmatroska
-LAYER = multimedia-layer
-CONFIG = 
-SRC_URI = http://dl.matroska.org/downloads/libmatroska/libmatroska-1.4.1.tar.bz2 file://0001-Makefile-Use-LINKFLAGS-during-link-step.patch

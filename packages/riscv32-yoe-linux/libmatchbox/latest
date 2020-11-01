@@ -1,7 +1,0 @@
-PV = 1.12
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native jpeg libpng libtool-cross libtool-native libxext libxft pkgconfig-native virtual/libc virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = libmatchbox-src libmatchbox-dbg libmatchbox-staticdev libmatchbox-dev libmatchbox-doc libmatchbox-locale libmatchbox
-LAYER = core
-CONFIG = jpeg png xft
-SRC_URI = git://git.yoctoproject.org/libmatchbox

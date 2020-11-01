@@ -1,0 +1,10 @@
+PV = 5.8.13+gitAUTOINC+34775c20bc_5981001bf0
+PR = r0
+PKGV = 5.8.13+git0+34775c20bc_5981001bf0
+PKGR = r0.0
+RPROVIDES = kernel-module-data-breakpoint
+RDEPENDS = kernel-5.8.13-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6552
+FILES = /lib/modules/5.8.13-yocto-standard/kernel/samples/hw_breakpoint/data_breakpoint.ko /etc/modules-load.d/data_breakpoint.conf /etc/modprobe.d/data_breakpoint.conf
+FILELIST = /lib/modules/5.8.13-yocto-standard/kernel/sound/usb/usx2y/snd-usb-usx2y.ko

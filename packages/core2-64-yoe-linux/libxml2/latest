@@ -1,0 +1,7 @@
+PV = 2.9.10
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native python3 python3-native virtual/libc virtual/libiconv virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = libxml2-src libxml2-dbg libxml2-ptest libxml2-staticdev libxml2-dev libxml2-doc libxml2-locale libxml2-utils libxml2 libxml2-python
+LAYER = core
+CONFIG = ipv6 python
+SRC_URI = http://www.xmlsoft.org/sources/libxml2-2.9.10.tar.gz;name=libtar http://www.w3.org/XML/Test/xmlts20080827.tar.gz;subdir=libxml2-2.9.10;name=testtar file://libxml-64bit.patch file://runtest.patch file://run-ptest file://python-sitepackages-dir.patch file://libxml-m4-use-pkgconfig.patch file://0001-Make-ptest-run-the-python-tests-if-python-is-enabled.patch file://fix-execution-of-ptests.patch file://CVE-2020-7595.patch file://CVE-2019-20388.patch file://CVE-2020-24977.patch file://fix-python39.patch

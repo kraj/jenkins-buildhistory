@@ -1,7 +1,0 @@
-PV = 0.76
-PR = r0
-DEPENDS = virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = daemontools-src daemontools-dbg daemontools-staticdev daemontools-dev daemontools-doc daemontools-locale daemontools
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = http://cr.yp.to/daemontools/daemontools-0.76.tar.gz file://0001-error.h-include-errno.h-instead-of-extern-int.diff file://0002-supervise.c-.-supervise-may-be-a-symlink-if-it-s-da.diff file://cross-compile.patch file://0001-daemontools-Fix-QA-Issue.patch

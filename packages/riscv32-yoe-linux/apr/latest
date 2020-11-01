@@ -1,7 +1,0 @@
-PV = 1.7.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc virtual/update-alternatives
-PACKAGES = apr-src apr-dbg apr-ptest apr-staticdev apr-dev apr-doc apr-locale apr-bin apr
-LAYER = core
-CONFIG = ipv6
-SRC_URI = https://archive.apache.org/dist/apr/apr-1.7.0.tar.bz2 file://run-ptest file://0002-apr-Remove-workdir-path-references-from-installed-ap.patch file://0003-Makefile.in-configure.in-support-cross-compiling.patch file://0004-Fix-packet-discards-HTTP-redirect.patch file://0005-configure.in-fix-LTFLAGS-to-make-it-work-with-ccache.patch file://0006-apr-fix-off_t-size-doesn-t-match-in-glibc-when-cross.patch file://0007-explicitly-link-libapr-against-phtread-to-make-gold-.patch file://libtoolize_check.patch file://0001-Add-option-to-disable-timed-dependant-tests.patch

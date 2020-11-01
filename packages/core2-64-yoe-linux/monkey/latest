@@ -1,0 +1,7 @@
+PV = 1.6.9
+PR = r0
+DEPENDS = cmake-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = monkey-src monkey-dbg monkey-staticdev monkey-dev monkey-doc monkey-locale monkey monkey-plugins
+LAYER = webserver
+CONFIG = 
+SRC_URI = http://monkey-project.com/releases/1.6/monkey-1.6.9.tar.gz file://monkey.service file://monkey.init

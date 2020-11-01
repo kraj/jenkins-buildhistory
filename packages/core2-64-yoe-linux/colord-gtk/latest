@@ -1,0 +1,7 @@
+PV = 0.2.0
+PR = r0
+DEPENDS = colord gettext-native gobject-introspection gobject-introspection-native gtk+3 gtk-doc-native meson-native ninja-native pkgconfig-native prelink-native python3-native qemu-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = colord-gtk-src colord-gtk-dbg colord-gtk-staticdev colord-gtk-dev colord-gtk-doc colord-gtk colord-gtk-locale-en-gb
+LAYER = gnome-layer
+CONFIG = 
+SRC_URI = http://www.freedesktop.org/software/colord/releases/colord-gtk-0.2.0.tar.xz

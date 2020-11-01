@@ -1,0 +1,10 @@
+PV = 6.11.4
+PR = r0
+PKG = librocksdb-staticdev
+PKGR = r0.0
+RPROVIDES = rocksdb-staticdev (=6.11.4)
+RDEPENDS = rocksdb-dev (= 6.11.4-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 396771484
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/rocksdb/*.a
+FILELIST = /usr/lib/librocksdb.so.6 /usr/lib/librocksdb.so.6.11.4

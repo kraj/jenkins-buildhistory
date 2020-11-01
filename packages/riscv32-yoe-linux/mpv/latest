@@ -1,7 +1,0 @@
-PV = 0.32.0
-PR = r0
-DEPENDS = desktop-file-utils ffmpeg jpeg libass libv4l libxinerama libxkbcommon libxscrnsaver libxv pkgconfig-native virtual/libc virtual/libgl virtual/libx11 virtual/libx11 virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc wayland wayland-native xsp zlib
-PACKAGES = mpv-src mpv-dbg mpv-staticdev mpv-dev mpv-doc mpv-locale mpv
-LAYER = openembedded-layer
-CONFIG = libass opengl wayland x11
-SRC_URI = git://github.com/mpv-player/mpv;name=mpv https://waf.io/waf-2.0.20;name=waf;subdir=git

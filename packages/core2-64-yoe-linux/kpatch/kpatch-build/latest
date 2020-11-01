@@ -1,0 +1,9 @@
+PV = 0.9.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.32) glibc-utils libelf (>= 0.181)
+RRECOMMENDS = 
+PKGSIZE = 214739
+FILES = /usr/bin/kpatch-build /usr/libexec/* /usr/share/kpatch /usr/share/man/man1/kpatch-build.1.gz
+FILELIST = /etc/init/kpatch.conf /lib/systemd/system/kpatch.service /usr/sbin/kpatch

@@ -1,7 +1,0 @@
-PV = 2.3.1
-PR = r0
-DEPENDS = cmake-native lcms libpng ninja-native tiff virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = openjpeg-src openjpeg-dbg openjpeg-staticdev openjpeg-dev openjpeg-doc openjpeg-locale openjpeg
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/uclouvain/openjpeg.git file://0002-Do-not-ask-cmake-to-export-binaries-they-don-t-make-.patch file://CVE-2020-6851.patch file://CVE-2020-8112.patch file://CVE-2020-15389.patch

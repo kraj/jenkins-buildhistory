@@ -1,0 +1,7 @@
+PV = 1.24.3
+PR = r0
+DEPENDS = c-ares cmake-native gflags googletest grpc-native libnsl2 ninja-native openssl pkgconfig-native protobuf protobuf-c protobuf-c-native protobuf-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = grpc-src grpc-dbg grpc-staticdev grpc-dev grpc-doc grpc-locale grpc
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/grpc/grpc.git;protocol=https;name=grpc;branch=v1.24.x git://github.com/protocolbuffers/upb;name=upb;destsuffix=git/third_party/upb file://0001-CMakeLists.txt-Fix-libraries-installation-for-Linux.patch file://0001-CMakeLists.txt-Fix-grpc_cpp_plugin-path-during-cross.patch

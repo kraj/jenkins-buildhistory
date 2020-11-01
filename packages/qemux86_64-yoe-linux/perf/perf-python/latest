@@ -1,0 +1,10 @@
+PV = 1.0
+PR = r9
+PKGV = 5.8.13
+PKGR = r9.0
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.32) libdw (>= 0.181) liblzma (>= 5.2.5) libunwind (>= 1.4.0) python3 python3-modules
+RRECOMMENDS = 
+PKGSIZE = 695251
+FILES = /usr/lib/python3.9/site-packages /usr/libexec/perf-core/scripts/python
+FILELIST = /etc/bash_completion.d/perf /usr/bin/perf /usr/bin/trace /usr/lib/traceevent/plugins/plugin_cfg80211.so /usr/lib/traceevent/plugins/plugin_function.so /usr/lib/traceevent/plugins/plugin_hrtimer.so /usr/lib/traceevent/plugins/plugin_jbd2.so /usr/lib/traceevent/plugins/plugin_kmem.so /usr/lib/traceevent/plugins/plugin_kvm.so /usr/lib/traceevent/plugins/plugin_mac80211.so /usr/lib/traceevent/plugins/plugin_sched_switch.so /usr/lib/traceevent/plugins/plugin_scsi.so /usr/lib/traceevent/plugins/plugin_xen.so /usr/libexec/perf-core/perf-archive /usr/libexec/perf-core/perf-with-kcore

@@ -1,8 +1,0 @@
-PE = 2
-PV = 2.12.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native liburcu python3-native util-linux virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = lttng-ust-src lttng-ust-dbg lttng-ust-staticdev lttng-ust-dev lttng-ust-doc lttng-ust-locale lttng-ust-bin lttng-ust
-LAYER = core
-CONFIG = 
-SRC_URI = https://lttng.org/files/lttng-ust/lttng-ust-2.12.0.tar.bz2 file://0001-python-lttngust-Makefile.am-Add-install-lib-to-setup.patch

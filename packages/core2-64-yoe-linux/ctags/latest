@@ -1,0 +1,7 @@
+PV = 5.8
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = ctags-src ctags-dbg ctags-staticdev ctags-dev ctags-doc ctags-locale ctags
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = http://prdownloads.sourceforge.net/ctags/ctags-5.8.tar.gz

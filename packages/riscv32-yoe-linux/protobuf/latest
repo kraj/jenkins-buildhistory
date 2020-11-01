@@ -1,7 +1,0 @@
-PV = 3.13.0.1
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native protobuf-native virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc zlib
-PACKAGES = protobuf-src protobuf-dbg protobuf-ptest protobuf-staticdev protobuf-dev protobuf-doc protobuf-locale protobuf-compiler protobuf-lite protobuf
-LAYER = openembedded-layer
-CONFIG = 
-SRC_URI = git://github.com/protocolbuffers/protobuf.git file://run-ptest file://0001-protobuf-fix-configure-error.patch file://0001-Makefile.am-include-descriptor.cc-when-building-libp.patch file://0001-examples-Makefile-respect-CXX-LDFLAGS-variables-fix-.patch

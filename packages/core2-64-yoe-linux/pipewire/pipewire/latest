@@ -1,0 +1,9 @@
+PV = 0.3.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.2.3.2) dbus-lib (>= 1.12.20) glibc (>= 2.32) libpipewire (>= 0.3.1) libsndfile1 (>= 1.0.28)
+RRECOMMENDS = 
+PKGSIZE = 740847
+FILES = /etc/pipewire/pipewire.conf /usr/bin/pw-* /usr/bin/pipewire* /usr/lib/systemd/user/*
+FILELIST = /etc/pipewire/pipewire.conf /usr/bin/pipewire /usr/bin/pipewire-media-session /usr/bin/pw-cat /usr/bin/pw-cli /usr/bin/pw-dot /usr/bin/pw-mon /usr/bin/pw-play /usr/bin/pw-profiler /usr/bin/pw-record /usr/lib/systemd/user/pipewire.service /usr/lib/systemd/user/pipewire.socket

@@ -1,0 +1,7 @@
+PV = 10.5.6
+PR = r0
+DEPENDS = base-files base-passwd bison-native cmake-native curl gettext-native libaio libedit libevent libpam libpcre2 libxml2 mariadb-native ncurses openssl shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = mariadb-src mariadb-dbg mariadb libmysqlclient-r libmysqlclient-r-dev libmysqlclient-r-staticdev libmysqlclient libmysqlclient-dev libmysqlclient-staticdev libmysqld libmysqld-dev mariadb-client mariadb-server mariadb-setupdb mariadb-leftovers
+LAYER = openembedded-layer
+CONFIG = pam setupdb
+SRC_URI = https://downloads.mariadb.org/interstitial/mariadb-10.5.6/source/mariadb-10.5.6.tar.gz file://my.cnf file://mysqld.service file://install_db.service file://install_db file://mysql-systemd-start file://configure.cmake-fix-valgrind.patch file://fix-a-building-failure.patch file://support-files-CMakeLists.txt-fix-do_populate_sysroot.patch file://sql-CMakeLists.txt-fix-gen_lex_hash-not-found.patch file://0001-disable-ucontext-on-musl.patch file://c11_atomics.patch file://clang_version_header_conflict.patch file://fix-arm-atomic.patch file://0001-Fix-library-LZ4-lookup.patch

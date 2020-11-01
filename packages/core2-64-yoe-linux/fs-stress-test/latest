@@ -1,0 +1,7 @@
+PV = gitAUTOINC+354a1f6780
+PR = r1
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = fs-stress-test-src fs-stress-test-dbg fs-stress-test-staticdev fs-stress-test-dev fs-stress-test-doc fs-stress-test-locale fs-stress-test
+LAYER = meta-yoe
+CONFIG = 
+SRC_URI = git://github.com/cbrake/fs-stress-test.git;branch=master;protocol=git

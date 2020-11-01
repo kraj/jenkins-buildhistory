@@ -1,0 +1,7 @@
+PV = 3.6
+PR = r0
+DEPENDS = autoconf-native automake-native gmp gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = nettle-src nettle-dbg nettle-ptest nettle-staticdev nettle-dev nettle-doc nettle-locale nettle
+LAYER = core
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/nettle/nettle-3.6.tar.gz file://Add-target-to-only-build-tests-not-run-them.patch file://run-ptest file://check-header-files-of-openssl-only-if-enable_.patch file://dlopen-test.patch

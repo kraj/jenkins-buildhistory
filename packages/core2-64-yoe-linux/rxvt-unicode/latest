@@ -1,0 +1,7 @@
+PV = 9.22
+PR = r0
+DEPENDS = autoconf-native automake-native gdk-pixbuf gnu-config-native libtool-cross libtool-native libxft libxmu libxt pkgconfig-native virtual/libc virtual/libx11 virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = rxvt-unicode-src rxvt-unicode-dbg rxvt-unicode-staticdev rxvt-unicode-dev rxvt-unicode-doc rxvt-unicode-locale rxvt-unicode
+LAYER = core
+CONFIG = 
+SRC_URI = http://dist.schmorp.de/rxvt-unicode/Attic/rxvt-unicode-9.22.tar.bz2 file://xwc.patch file://rxvt.desktop file://rxvt.png

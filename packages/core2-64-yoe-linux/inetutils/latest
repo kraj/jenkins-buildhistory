@@ -1,0 +1,7 @@
+PV = 1.9.4
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libpam libtool-cross libtool-native ncurses netbase readline readline readline texinfo-dummy-native virtual/crypt virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = inetutils-src inetutils-tftpd-dbg inetutils-telnetd-dbg inetutils-rshd-dbg inetutils-ping inetutils-ping6 inetutils-hostname inetutils-ifconfig inetutils-tftp inetutils-logger inetutils-traceroute inetutils-syslogd inetutils-ftp inetutils-ftpd inetutils-tftpd inetutils-telnet inetutils-telnetd inetutils-inetd inetutils-rsh inetutils-rshd inetutils-dbg inetutils-staticdev inetutils-dev inetutils-doc inetutils-locale inetutils
+LAYER = core
+CONFIG = ftp ipv6 pam ping6 uucpd
+SRC_URI = https://ftp.gnu.org/gnu/inetutils/inetutils-1.9.4.tar.gz file://version.patch file://inetutils-1.8-0001-printf-parse-pull-in-features.h-for-__GLIBC__.patch file://inetutils-1.8-0003-wchar.patch file://rexec.xinetd.inetutils file://rlogin.xinetd.inetutils file://rsh.xinetd.inetutils file://telnet.xinetd.inetutils file://tftpd.xinetd.inetutils file://inetutils-1.9-PATH_PROCNET_DEV.patch file://inetutils-only-check-pam_appl.h-when-pam-enabled.patch file://0001-rcp-fix-to-work-with-large-files.patch file://fix-buffer-fortify-tfpt.patch file://0001-ftpd-telnetd-Fix-multiple-definitions-of-errcatch-an.patch

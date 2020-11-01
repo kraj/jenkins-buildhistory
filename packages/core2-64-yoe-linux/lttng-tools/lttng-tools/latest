@@ -1,0 +1,9 @@
+PV = 2.12.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.32) libgcc liburcu (>= 0.12.1) libxml2 (>= 2.9.10) lttng-ust (>= 2.12.0) popt (>= 1.18) shadow
+RRECOMMENDS = lttng-modules
+PKGSIZE = 3360873
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lttng-tools /usr/lib/lttng-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lttng/libexec/* /usr/share/xml/lttng /usr/lib/python3.9/site-packages/* /lib/systemd/system-preset/98-lttng-tools.preset /lib/systemd/system/lttng-sessiond.service
+FILELIST = /lib/systemd/system-preset/98-lttng-tools.preset /lib/systemd/system/lttng-sessiond.service /usr/bin/lttng /usr/bin/lttng-crash /usr/bin/lttng-relayd /usr/bin/lttng-sessiond /usr/lib/liblttng-ctl.so.0 /usr/lib/liblttng-ctl.so.0.0.0 /usr/lib/lttng/libexec/lttng-consumerd /usr/share/xml/lttng/session.xsd

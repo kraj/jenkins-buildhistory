@@ -1,0 +1,7 @@
+PV = 0.7.1
+PR = r3
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = netcat-src netcat-dbg netcat-staticdev netcat-dev netcat-doc netcat netcat-locale-it netcat-locale-sk
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = https://downloads.sourceforge.net/netcat/netcat-0.7.1.tar.bz2 file://obsolete_autoconf_macros.patch file://netcat-locale_h.patch file://make-netcat_flag_count_work.patch file://gettext.patch

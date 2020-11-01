@@ -1,0 +1,8 @@
+PE = 1
+PV = 2020.07
+PR = r0
+DEPENDS = atf-native bc-native bison-native dtc-native flex-native kern-tools-native openssl-native python3-native swig-native u-boot-mkimage-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = u-boot-src u-boot-dbg u-boot-staticdev u-boot-dev u-boot-doc u-boot-locale u-boot-env u-boot
+LAYER = core
+CONFIG = openssl
+SRC_URI = git://git.denx.de/u-boot.git

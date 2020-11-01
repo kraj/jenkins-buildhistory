@@ -1,0 +1,7 @@
+PV = 1.1.6
+PR = r0
+DEPENDS = curl meson-native ninja-native python3-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zstd
+PACKAGES = zchunk-src zchunk-dbg zchunk-staticdev zchunk-dev zchunk-doc zchunk-locale zchunk
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/zchunk/zchunk.git;protocol=https

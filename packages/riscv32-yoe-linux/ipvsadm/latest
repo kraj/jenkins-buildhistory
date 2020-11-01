@@ -1,7 +1,0 @@
-PV = 1.31
-PR = r0
-DEPENDS = libnl pkgconfig-native popt virtual/libc virtual/riscv32-yoe-linux-compilerlibs virtual/riscv32-yoe-linux-gcc
-PACKAGES = ipvsadm-src ipvsadm-dbg ipvsadm-staticdev ipvsadm-dev ipvsadm-doc ipvsadm-locale ipvsadm
-LAYER = networking-layer
-CONFIG = 
-SRC_URI = https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/ipvsadm-1.31.tar.xz file://0001-Modify-the-Makefile-for-cross-compile.patch file://0003-ipvsadm-remove-dependency-on-bash.patch file://makefile-add-ldflags.patch

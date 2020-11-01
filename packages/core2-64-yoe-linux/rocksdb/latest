@@ -1,0 +1,7 @@
+PV = 6.11.4
+PR = r0
+DEPENDS = bzip2 cmake-native gflags lz4 ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc zlib
+PACKAGES = rocksdb-src rocksdb-dbg rocksdb-staticdev rocksdb-dev rocksdb-doc rocksdb-locale rocksdb
+LAYER = openembedded-layer
+CONFIG = bzip2 gflags lz4 zlib
+SRC_URI = git://github.com/facebook/rocksdb.git;branch=6.11.fb file://0001-cmake-Add-check-for-atomic-support.patch file://0001-cmake-Use-exported-target-for-bz2.patch

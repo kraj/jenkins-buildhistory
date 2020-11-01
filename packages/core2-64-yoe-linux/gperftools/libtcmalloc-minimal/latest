@@ -1,0 +1,9 @@
+PV = 2.8
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.32) libgcc (>= 10.2.0) libstdc++ (>= 10.2.0)
+RRECOMMENDS = 
+PKGSIZE = 362246
+FILES = /usr/lib/libtcmalloc_minimal*.so.* /usr/lib/libtcmalloc_minimal_debug*.so.*
+FILELIST = /usr/bin/pprof /usr/bin/pprof-symbolize /usr/lib/libprofiler.so.0 /usr/lib/libprofiler.so.0.5.0 /usr/lib/libtcmalloc.so.4 /usr/lib/libtcmalloc.so.4.5.5 /usr/lib/libtcmalloc_and_profiler.so.4 /usr/lib/libtcmalloc_and_profiler.so.4.6.0 /usr/lib/libtcmalloc_debug.so.4 /usr/lib/libtcmalloc_debug.so.4.5.5

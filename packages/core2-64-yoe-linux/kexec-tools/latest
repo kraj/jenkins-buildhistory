@@ -1,0 +1,7 @@
+PV = 2.0.20
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc xz zlib
+PACKAGES = kexec-tools-src kexec-tools-dbg kexec kdump vmcore-dmesg kexec-tools-staticdev kexec-tools-dev kexec-tools-doc kexec-tools-locale kexec-tools
+LAYER = core
+CONFIG = 
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/kernel/kexec/kexec-tools-2.0.20.tar.gz file://kdump file://kdump.conf file://kdump.service file://0001-powerpc-change-the-memory-size-limit.patch file://0002-purgatory-Pass-r-directly-to-linker.patch file://0003-kexec-ARM-Fix-add_buffer_phys_virt-align-issue.patch file://0004-x86_64-Add-support-to-build-kexec-tools-with-x32-ABI.patch file://0005-Disable-PIE-during-link.patch file://0006-kexec-arm-undefine-__NR_kexec_file_load-for-arm.patch file://0007-kexec-un-break-the-build-on-32-bit-x86.patch file://0001-kexec-Fix-build-with-fno-common.patch

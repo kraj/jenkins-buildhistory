@@ -1,0 +1,7 @@
+PV = 0.8.3
+PR = r0
+DEPENDS = cmake-native expat ninja-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = sdbus-c++-tools-src sdbus-c++-tools-dbg sdbus-c++-tools-staticdev sdbus-c++-tools-dev sdbus-c++-tools-doc sdbus-c++-tools-locale sdbus-c++-tools
+LAYER = openembedded-layer
+CONFIG = 
+SRC_URI = git://github.com/Kistler-Group/sdbus-cpp.git;protocol=https;branch=master;subpath=tools

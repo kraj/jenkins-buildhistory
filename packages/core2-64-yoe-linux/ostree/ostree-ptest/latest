@@ -1,0 +1,9 @@
+PV = 2020.7
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = attr bash coreutils cpio diffutils findutils glib-2.0 (>= 2.66.2) glibc (>= 2.32) glibc-localedata-en-us glibc-utils gnome-desktop-testing gpgme (>= 1.14.0) grep liblzma (>= 5.2.5) ostree (>= 2020.7) ostree-trivial-httpd python3-core python3-multiprocessing python3-pyyaml strace tar util-linux xz zlib (>= 1.2.11)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 2327073
+FILES = /usr/lib/ostree/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/
+FILELIST = /usr/share/bash-completion/completions/ostree

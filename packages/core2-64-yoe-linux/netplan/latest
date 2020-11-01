@@ -1,0 +1,7 @@
+PV = 0.99+gitAUTOINC+85134d13eb
+PR = r0
+DEPENDS = glib-2.0 libyaml pkgconfig-native systemd systemd-systemctl-native virtual/libc virtual/x86_64-yoe-linux-compilerlibs virtual/x86_64-yoe-linux-gcc
+PACKAGES = netplan-src netplan-dbg netplan-staticdev netplan-dev netplan-doc netplan-locale netplan netplan-dbus libnetplan
+LAYER = networking-layer
+CONFIG = 
+SRC_URI = git://github.com/CanonicalLtd/netplan.git file://0001-dbus-Remove-unused-variabes.patch file://0002-Makefile-Use-first-prerquisite-only-for-target-rule.patch file://0001-src-parse.c-Initialize-key-to-NULL.patch

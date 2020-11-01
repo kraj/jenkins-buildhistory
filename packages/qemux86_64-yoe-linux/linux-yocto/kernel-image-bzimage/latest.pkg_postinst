@@ -1,0 +1,12 @@
+set -e
+set +e
+if [ -n "$D" ]; then
+    ln -sf bzImage-5.8.13-yocto-standard $D/boot/bzImage > /dev/null 2>&1
+else
+    ln -sf bzImage-5.8.13-yocto-standard boot/bzImage > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        echo "Filesystem on boot/ doesn't support symlinks, falling back to copied image (bzImage)."
+        install -m 0644 boot/bzImage-5.8.13-yocto-standard boot/bzImage
+    fi
+fi
+set -e
